@@ -1,3 +1,7 @@
+---
+order: 30
+---
+
 ## Automorphism Groups
 
 :::{.fact}
