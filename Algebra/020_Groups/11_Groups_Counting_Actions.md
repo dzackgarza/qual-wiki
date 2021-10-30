@@ -100,6 +100,7 @@ For any group action, the kernel is the intersection of all stabilizers:
 \[
 \ker \psi = \Intersect_{x\in X} G_x
 .\]
+
 :::
 
 :::{.definition title="Transitive Group Action"}
