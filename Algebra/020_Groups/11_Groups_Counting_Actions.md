@@ -8,7 +8,7 @@ order: 10
 
 :::{.theorem title="Lagrange's Theorem"}
 \[H \leq G \implies \size H \divides \# G.\]
-Moreover, there is an equality $[G:H] = \# G/ \# H$ when $G$ is finite.
+Moreover, there is an equality $[G:H] = \sharp G/ \sharp H$ when $G$ is finite.
 :::
 
 :::{.proof title="of Lagrange's theorem"}
