@@ -2,6 +2,8 @@
 order: 10
 ---
 
+# Counting
+
 ## Counting Theorems
 
 :::{.theorem title="Lagrange's Theorem"}

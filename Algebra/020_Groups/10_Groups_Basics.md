@@ -2,7 +2,7 @@
 order: 1
 ---
 
-# Group Theory
+# Group Theory Basics
 
 :::{.remark}
 Summary of useful qual tips:
