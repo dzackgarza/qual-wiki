@@ -50,7 +50,6 @@ Revised May 2006.
 - Euler characteristic [3, p. 146]
 - Lefschetz fixed point theorem [3, p. 179], [4, §22]
 
-\newpage
 
 # References
 
