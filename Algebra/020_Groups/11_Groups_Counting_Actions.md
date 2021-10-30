@@ -7,7 +7,7 @@ order: 10
 ## Counting Theorems
 
 :::{.theorem title="Lagrange's Theorem"}
-\[H \leq G \implies \# H \divides \# G.\]
+\[H \leq G \implies \size H \divides \# G.\]
 Moreover, there is an equality $[G:H] = \# G/ \# H$ when $G$ is finite.
 :::
 
