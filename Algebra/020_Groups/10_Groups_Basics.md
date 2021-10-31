@@ -2,7 +2,7 @@
 order: 1
 ---
 
-# Group Theory Basics
+# Basics
 
 :::{.remark}
 Summary of useful qual tips:
@@ -11,18 +11,31 @@ Summary of useful qual tips:
   - Subgroups of abelian groups are automatically normal.
   - If $N$ is normal in $G$, then $N$ is normal in any subgroup containing it.
   - If $N\leq G$ is the unique group of order $\size N$, then $N$ is normal (since any conjugate must have the same size).
-  - Using the subgroup correspondence: if $L/H\leq G/H$ then $L\leq G$ has size $\#(L/H)\#H$.
+  - Using the subgroup correspondence: if $L/H\leq G/H$ then $L\leq G$ has size $\size (L/H)\size H$.
 - Sizes and structure:
   - Quotienting by bigger groups yields smaller indices:
-  \[
-  1 \leq H \leq H \leq K \leq G \quad\text{ apply} [G: \wait] &&\implies \# G = [G:1] \geq [G:H] \geq [G:K] \geq [G:G] = 1
-  .\]
+
+\begin{tikzcd}
+	1 & H & K & G \\
+	\\
+	{\size G = [G: 1]} & {[G:H]} & {[G:K]} & {[G:G] = 1}
+	\arrow["\leq", hook, from=1-1, to=1-2]
+	\arrow[""{name=0, anchor=center, inner sep=0}, "\leq", hook, from=1-2, to=1-3]
+	\arrow["\leq", hook, from=1-3, to=1-4]
+	\arrow["\geq", from=3-4, to=3-3]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "\geq", from=3-3, to=3-2]
+	\arrow["\geq", from=3-2, to=3-1]
+	\arrow["{[G, \wait]}", shorten <=9pt, shorten >=9pt, Rightarrow, from=0, to=1]
+\end{tikzcd}
+
+> [Link to Diagram](https://q.uiver.app/?q=WzAsOCxbMCwwLCIxIl0sWzEsMCwiSCJdLFsyLDAsIksiXSxbMywwLCJHIl0sWzAsMiwiXFxzaXplIEcgPSBbRzogMV0iXSxbMSwyLCJbRzpIXSJdLFsyLDIsIltHOktdIl0sWzMsMiwiW0c6R10gPSAxIl0sWzAsMSwiXFxsZXEiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJob29rIiwic2lkZSI6InRvcCJ9fX1dLFsxLDIsIlxcbGVxIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJ0b3AifX19XSxbMiwzLCJcXGxlcSIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Imhvb2siLCJzaWRlIjoidG9wIn19fV0sWzcsNiwiXFxnZXEiXSxbNiw1LCJcXGdlcSJdLFs1LDQsIlxcZ2VxIl0sWzksMTIsIltHLCBcXHdhaXRdIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfX1dXQ==)
+
   - $x$ is central iff $[x] = \ts{e}$.
   - Unions aren't (generally) subgroups, intersections always are.
   - Coprime order subgroups intersect trivially.
   - Distinct subgroups of order $p^n, p^m$ can intersect trivially *or* in subgroups of order $p^{\ell}$.
 - Conjugacy:
-  - Sizes of conjugacy classes divide $\# G$ (by orbit-stabilizer).
+  - Sizes of conjugacy classes divide $\size  G$ (by orbit-stabilizer).
   - Conjugate subgroups have equal cardinality.
   - Normal subgroups absorb conjugacy classes, and are thus unions of conjugacy classes.
   - Reasoning about conjugacy classes: in $S_n$ they're precisely determined by cycle type, i.e. a partition of $n$.
@@ -37,58 +50,6 @@ Summary of useful qual tips:
 - Sylows:
   - If $S_p$ is normal, then $S_p$ is characteristic.
     This is useful if $H\leq G$ and $P\in\Syl_p(H)$ is normal in $H$, then $P$ is also normal in $G$.
-
-:::
-## Big List of Notation
-
-:::{.remark title="Notation"}
-I use the following notation throughout:
-
-+--------------------------------------+------------------------------------------------------------------------------------------------------------------+
-| Notation                             | Definition                                                                                                       |
-+======================================+==================================================================================================================+
-| $C_G(x)$                             | Centralizer of an element \ |
-|                                      | \( \da \ts{g\in \Gamma \st [g, x] = 1} \subseteq \Gamma \) \ |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-| $C_G(H)$                             | Centralizer of an subgroup \ |
-|                                      | \( \da \ts{g\in \Gamma \st [g, x] = 1\,\, \forall h\in H} = \Intersect_{h\in H} C_H(h) \subseteq G \) \ |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-| $C(H)$                               | Conjugacy Class  \ |
-|                                      | \( \da \ts{ ghg ^{-1} \st g\in G} \leq G \subseteq G \) \ |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-| \( Z(G) \)                           | Center \ |
-|                                      | \( \da \ts{ x\in G \st \forall g\in G,\, gxg ^{-1} = x } \subseteq G \)		|
-+--------------------------------------+---------------------------------------------------------------------------------------+
-| \( N_G(H) \)                         | Normalizer \ |
-|                                      | \( \da \ts{ g\in G \st gHg ^{-1} = H } \subseteq G \)		|
-+--------------------------------------+---------------------------------------------------------------------------------------+
-| \( \mathrm{Inn}(G) \)                | Inner Automorphisms \ |
-|                                      | \( \da \ts{ \varphi _g(x) \da gxg ^{-1} } \subseteq \Aut(G) \)  |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-| \( \mathrm{Out}(G) \)                | Outer Automorphisms \ |
-|                                      | \( \Aut(G) / \Inn(G) \mapsfrom \Aut(G) \) |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-|  \( [g h] \)                         |  Commutator of Elements  \ |
-|                                      |  \( \da ghg ^{-1} \in G \)  |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-|  \( [G H] \)                         |  Commutator of Subgroups  \ |
-|                                      |  \( \da \gens{ \ts{ [gh] \st g \in G,\, h \in H } } \leq G \)  |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-|  \( \OO_x,\, Gx \)                   |  Orbit of an Element  \ |
-|                                      |  \( \da \ts{ gx \st  x \in X} \)  |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-|  \( \mathrm{Stab}_G(x),\, G_x \)     |  Stabilizer of an Element \ |
-|                                      |  \( \da \ts{ g \in G \st gx = x } \subseteq G \)  |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-|  \( X/G \)                           |  Set of Orbits  \ |
-|                                      |  \( \da \ts{ G_x \st x \in X } \subseteq 2^X \)  |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-|  \( X^g \)                           |  Fixed Points  \ |
-|                                      |  \( \ts{x \in X \st \forall g \in G,\, gx = x} \subseteq X \)  |
-+--------------------------------------+---------------------------------------------------------------------------------------+
-|  \( 2^X \)                           |  The powerset of \( X \)   \ |
-|                                      |  \( \da \ts{ U \subseteq X }  \)  |
-+--------------------------------------+---------------------------------------------------------------------------------------+
 
 :::
 
@@ -237,22 +198,22 @@ Show that if $H < G$ is a proper subgroup, then $\Union_{g\in G} gHg\inv \subset
 
 :::{.solution}
 Strategy: bound the cardinality.
-All conjugates of $H$ have the same cardinality, say $\# H = m$.
+All conjugates of $H$ have the same cardinality, say $\size  H = m$.
 Suppose there are $n$ distinct conjugates of $H$.
 Then they intersect only at the identity, so count their elements:
 \[
-\# \Union_{g\in G} gHg\inv = 1 + n(m-1)
+\size  \Union_{g\in G} gHg\inv = 1 + n(m-1)
 .\]
 Use that $n = [G: N_G(H)]$ by Orbit-Stabilizer, and $N_G(H) \leq G \implies n \leq n' \da [G:H]$.
-Now note $n'm = \# H[G:H] = \# G$ by Lagrange:
+Now note $n'm = \size  H[G:H] = \size  G$ by Lagrange:
 \[
-\# \Union_{g\in G} gHg\inv 
+\size  \Union_{g\in G} gHg\inv 
 &= 1 + n(m-1) \\
 &\leq 1 + n'(m-1) \\
 &= 1 + n'm -n' \\
-&= 1 + \# G - n' \\
-&= \# G - (n' - 1) \\
-&< \# G && \iff n' \da [G:H] > 1
+&= 1 + \size  G - n' \\
+&= \size  G - (n' - 1) \\
+&< \size  G && \iff n' \da [G:H] > 1
 .\]
 :::
 
@@ -301,18 +262,18 @@ Prove that if $G$ is a $p\dash$group, every subgroup $N\normal G$ intersects the
 
 Easy solution:
 
-- Use that $\# H \mod p = 1$ since $H\leq G$ and $G$ is a $p\dash$group.
+- Use that $\size  H \mod p = 1$ since $H\leq G$ and $G$ is a $p\dash$group.
 - Then use that $H$ is a union of conjugacy classes, and since $e\in H$ there is at least one class of size 1, so
 \[
-\# H = \# \disjoint' [h_i] = \# [e] + \sum' \# [h_i] \\
-\implies 0 \equiv \# H \equiv 1 + \sum' \#[h_i] \mod p
+\size  H = \size  \disjoint' [h_i] = \size  [e] + \sum' \size  [h_i] \\
+\implies 0 \equiv \size  H \equiv 1 + \sum' \size [h_i] \mod p
 ,\]
-and since each $\# [h_i]$ divides $\# H$, not all can be of size $p^\ell$ since then the sum would be $0\mod p$.
-So at least one other $\# [h_i] = 1$, making that $h_i$ central.
+and since each $\size  [h_i]$ divides $\size  H$, not all can be of size $p^\ell$ since then the sum would be $0\mod p$.
+So at least one other $\size  [h_i] = 1$, making that $h_i$ central.
 
 Another solution:
 
-- Idea: use the class equation to force $p$ to divide $\#(H \intersect Z(G))$.
+- Idea: use the class equation to force $p$ to divide $\size (H \intersect Z(G))$.
   Applying it to $H$ yields
 \[
 H = Z(H) \disjoint_{i=1}^m [h_i]
@@ -320,8 +281,8 @@ H = Z(H) \disjoint_{i=1}^m [h_i]
 where the $[h_i]$ are conjugacy classes of size greater than 1.
 
 - Now use that $Z(H) = Z(G) \intersect H$, and since $p$ divides the LHS the result will follow if $p$ divides the size of the disjoint union on the RHS.
-- This is true because each $\#[h_i] \neq 1$ and $[h_i]$ divides $\# H$ which divides $\# G$ which is a power of $p$.
-  So $p\divides \# [h_i]$ for each $i$.
+- This is true because each $\size [h_i] \neq 1$ and $[h_i]$ divides $\size  H$ which divides $\size  G$ which is a power of $p$.
+  So $p\divides \size  [h_i]$ for each $i$.
 
 :::
 
@@ -402,7 +363,7 @@ K\leq H \leq G \implies [G: K] = [G:H] [H: K]
 :::{.proposition title="Quotients by bigger subgroups yield smaller quotients"}
 If $H\leq K \leq G$, then 
 \[
-\# G = [G:1] \geq [G:H] \geq [G:K] \geq [G:G] = 1
+\size  G = [G:1] \geq [G:H] \geq [G:K] \geq [G:G] = 1
 .\]
 In particular, If $H, K\leq G$ are just arbitrary, since $H \intersect K \leq H, K$ we have $[H: H \intersect K] \geq [G:H] \text{ and } [G:K]$.
 :::
@@ -530,7 +491,7 @@ If $\abs{G} = p^k$, then $G$ is a **p-group.**
 ### Cyclic Groups
 
 :::{.theorem title="Subgroups of Cyclic Groups"}
-$G$ is cyclic of order $n \da \# G$ iff $G$ has a unique subgroup of order $d$ for each $d$ dividing $n$.
+$G$ is cyclic of order $n \da \size  G$ iff $G$ has a unique subgroup of order $d$ for each $d$ dividing $n$.
 :::
 
 :::{.proof title="?"}
@@ -668,10 +629,10 @@ $A_5$ is too big to write down, but has cycle types
 then there exists $g \in G$ which fixes no point of $X$.
 - Let $p$ be prime.
   For each abelian group $K$ of order $p^2$, how many subgroups $H\leq \ZZ^{\times 3}$ are there with $\ZZ^3/H \cong K$?
-- Let $\# G = pq$, with $p,q$ distinct primes.
+- Let $\size  G = pq$, with $p,q$ distinct primes.
   Show that $G$ has a nontrivial proper normal subgroup, and if $p\not\equiv 1\mod q$ and $q\not \equiv 1 \mod p$ then $G$ is abelian.
 
-- Let $G$ be a finite group and let $p$ be the smallest prime dividing $\# G$, and assume $G$ has a normal subgroup of order $p$.
+- Let $G$ be a finite group and let $p$ be the smallest prime dividing $\size  G$, and assume $G$ has a normal subgroup of order $p$.
   Show that $H \subset Z(G)$.
 
 - Let $G$ be finite and $P$ a Sylow 2-subgroup.
