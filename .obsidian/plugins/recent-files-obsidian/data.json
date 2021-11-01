@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Prelim Resources",
+      "path": "00_Prelims/Prelim Resources.md"
+    },
+    {
       "basename": "Integral Practice",
       "path": "00_Prelims/Integral Practice.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "00_Resources",
       "path": "30_Complex Analysis/050_Conformal_Maps/00_Resources.md"
-    },
-    {
-      "basename": "Day_10_May_2018_Qual",
-      "path": "attachments/Day_10_May_2018_Qual.pdf"
     }
   ],
   "omittedPaths": [],

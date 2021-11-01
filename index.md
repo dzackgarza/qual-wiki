@@ -40,7 +40,7 @@ Look at past prelims/quals:
 
 Dive into some topics here:
 
-- [[Prelims]]
+- [[Prelim Resources]]
 - [[10_Algebra]]
 - [[20_Real Analysis]]
 - [[30_Complex Analysis]]
