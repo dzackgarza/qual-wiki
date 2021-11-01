@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Berkeley Prelims",
+      "path": "00_Prelims/Berkeley Prelims.md"
+    },
+    {
+      "basename": "Spring_2019_prelim_solutions",
+      "path": "attachments/Spring_2019_prelim_solutions.pdf"
+    },
+    {
       "basename": "000_Resources",
       "path": "10_Algebra/000_Resources/000_Resources.md"
     },
@@ -165,10 +173,6 @@
       "path": "00_Prelims/UCLA Prelims.md"
     },
     {
-      "basename": "Berkeley Prelims",
-      "path": "00_Prelims/Berkeley Prelims.md"
-    },
-    {
       "basename": "00_Topics",
       "path": "60_Differential Geometry/00_Topics.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Extra_Questions",
       "path": "20_Real Analysis/000_Resources/Extra_Questions.md"
-    },
-    {
-      "basename": "Prelims",
-      "path": "00_Prelims/Prelims.md"
     }
   ],
   "omittedPaths": [],
