@@ -4,11 +4,11 @@ title: Prelim Resources
 
 [[Useful Tricks]]
 
-[[Integral Practice]]
+[[00_Prelims/Problems/Integral Practice]]
 
-[[UCLA Prelims]]
+[[00_Prelims/Problems/UCLA Prelims]]
 
-[[Berkeley Prelims]]
+[[00_Prelims/Problems/Berkeley Prelims]]
 
 
 # Prelim/GRE Level
