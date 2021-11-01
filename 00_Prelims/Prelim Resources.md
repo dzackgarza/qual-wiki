@@ -70,8 +70,8 @@ Pointwise uniform convergence of functions, equi-continuity, *l*2, *L*2(*S*1),
 - Analysis
 	- [[attachments/140A_Exam_Review.pdf]]
 		#summaries 
+
 	- [[attachments/Real_Analysis_Review_Midterm.pdf]]
-	- [[attachments/Series_Problems_.pdf]]
 
 - Linear Algebra
 	- [[attachments/Basic_Linear_Algebra_Review.pdf]]
@@ -103,6 +103,7 @@ Pointwise uniform convergence of functions, equi-continuity, *l*2, *L*2(*S*1),
 - [ ]   [chapter-6.pdf](attachments/chapter-6.pdf)
 - [ ]   [Chapter-7.pdf](attachments/Chapter-7.pdf)
 - [ ]   [[UCLA_Basic_Exam_Prelim.pdf]]
+- [ ]   [[attachments/Series_Problems_.pdf]]
     
 
 ## Solutions
