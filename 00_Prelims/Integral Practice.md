@@ -207,7 +207,7 @@ Techniques to cover, in order of difficulty:
 
 ## u-Substitutions
 
-#####Level 1
+##### Level 1
 
 1. $\displaystyle \int \sin(x) \cos (\cos (x)) ~dx = \color{blue} {- \sin (\cos (x))}​$
 
@@ -289,7 +289,7 @@ Techniques to cover, in order of difficulty:
 
 
 
-#####Level 2
+##### Level 2
 
 1. $\displaystyle \int \frac {1}{e^x + e^{-x}} ~dx = \color{blue} {\tan ^{-1} e^x}​$
 
