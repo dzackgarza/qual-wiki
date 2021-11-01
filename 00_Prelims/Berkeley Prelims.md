@@ -204,7 +204,7 @@ Tags: #problems #solutions
 
 [Spring 2019 prelim.pdf](attachments/Spring_2019_prelim.pdf)
 
-[Spring_2019_prelim_solutions.pdf](Spring_2019_prelim_solutions.pdf)
+[Spring_2019_prelim_solutions.pdf](attachments/Spring_2019_prelim_solutions.pdf)
 #solutions 
 
 [Summer77.pdf](attachments/Summer77.pdf)

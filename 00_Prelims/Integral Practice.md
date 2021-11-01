@@ -1,24 +1,9 @@
 
 # Integral Sheet
 
-Here is a [youtube video](https://www.youtube.com/watch?v=dgm4-3-Iv3s) that potentially have many more integrals.
+Here is a [youtube video](https://www.youtube.com/watch?v=dgm4-3-Iv3s) that potentially has many more integrals.
 
 Note: some of these were incorrect, and the solutions need to all be checked in detail.
-
-Integrals marked **TODO** still need to be solved. Use [Symbolab](https://www.symbolab.com/). Still need to assign difficulties to each. Still need to desribe solution technique for each (important to know when judging!!)
-
-Some advice from last year:
-
-- The level 1 stuff was generally too difficult for many first round contenders...but did keep things moving fast
-- Some level 3 stuff was difficult, even for the finalists - we had a lot of rounds where both contestants got three wrong answers. 
-- Have some good tiebreakers on the side for each level
-- We used maybe 40 out of the 70 we prepared
-- **DOUBLE AND TRIPLE CHECK ALL SOLUTIONS**
-  - Judges should work out most (if not all) of the integrals themselves
-- Be ready to explain the technique for any given integral
-- For anything above level 1, have a few people attempt the integral. Sometimes there are different techniques that lead to different-looking antiderivatives that are in fact equivalent. These are difficult and time-consuming to check on the fly.
-- Remember that signs within a logarithm don't matter (implicit absolute values)
-- Remember that even if the integration techniques are easy when you look up the solutions, it can be MUCH more difficult figuring out what technique to apply, and getting the terms and signs exactly right
 
 Techniques to cover, in order of difficulty:
 

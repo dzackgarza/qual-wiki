@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Integral Practice",
+      "path": "00_Prelims/Integral Practice.md"
+    },
+    {
       "basename": "Berkeley Prelims",
       "path": "00_Prelims/Berkeley Prelims.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Day_10_May_2018_Qual",
       "path": "attachments/Day_10_May_2018_Qual.pdf"
-    },
-    {
-      "basename": "Extra_Questions",
-      "path": "20_Real Analysis/000_Resources/Extra_Questions.md"
     }
   ],
   "omittedPaths": [],

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00_Prelims/Berkeley Prelims.md",
+            "file": "00_Prelims/Integral Practice.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "00_Prelims/Berkeley Prelims.md",
+                "file": "00_Prelims/Integral Practice.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Prelims/Berkeley Prelims.md"
+                "file": "00_Prelims/Integral Practice.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Prelims/Berkeley Prelims.md",
+                "file": "00_Prelims/Integral Practice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "00_Prelims/Berkeley Prelims.md",
+                "file": "00_Prelims/Integral Practice.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,6 +248,7 @@
   },
   "active": "0314bea748374558",
   "lastOpenFiles": [
+    "00_Prelims/Integral Practice.md",
     "00_Prelims/Berkeley Prelims.md",
     "attachments/Spring_2019_prelim_solutions.pdf",
     "10_Algebra/000_Resources/000_Resources.md",
@@ -256,7 +257,6 @@
     "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
     "10_Algebra/600_Qual_Questions_UGA/000_Preface.md",
     "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md",
-    "10_Algebra/040_Rings/00_Solutions.md",
-    "10_Algebra/500_Exercises/9960 UGA Problems.md"
+    "10_Algebra/040_Rings/00_Solutions.md"
   ]
 }
