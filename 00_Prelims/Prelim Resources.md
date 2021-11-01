@@ -70,16 +70,16 @@ Pointwise uniform convergence of functions, equi-continuity, *l*2, *L*2(*S*1),
 - Analysis
 	- [[140A_Exam_Review.pdf]]
 		#summaries 
-	- [[Real_Analysis_Review_Midterm.pdf]]
-	- [[Series_Problems_.pdf]]
+	- [[attachments/Real_Analysis_Review_Midterm.pdf]]
+	- [[attachments/Series_Problems_.pdf]]
 - Linear Algebra
-	- [[Basic_Linear_Algebra_Review.pdf]]
+	- [[attachments/Basic_Linear_Algebra_Review.pdf]]
 		#summaries 
 - Probability
-	- [[Probability_Review.pdf]]
+	- [[attachments/Probability_Review.pdf]]
 		#summaries 
 - Topology
-	- [[Topology_Prelim_Answers_-_Unknown.pdf]]
+	- [[attachments/Topology_Prelim_Answers_-_Unknown.pdf]]
 
 
 
