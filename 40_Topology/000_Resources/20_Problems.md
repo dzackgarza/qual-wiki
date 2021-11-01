@@ -18,6 +18,8 @@ Problem bank: [https://www.math.lsu.edu/gradfiles/topobank.pdf](https://www.math
 
 [problemsets.pdf](attachments/problemsets.pdf)
 
+<https://people.math.harvard.edu/~bullery/math131/Midterm.pdf>
+
 # Qual Workshop Materials
 
 [Topology Workshop Worksheet 1A.pdf](attachments/Topology_Workshop_Worksheet_1A.pdf)

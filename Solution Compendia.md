@@ -1,6 +1,4 @@
-# General Solutions
-
-## Solutions (spanning multiple areas)
+# Solution Compendia
 
 [http://jaypantone.com/courses/gradnotes/FirstYearAlgebra.pdf](http://jaypantone.com/courses/gradnotes/FirstYearAlgebra.pdf)
 

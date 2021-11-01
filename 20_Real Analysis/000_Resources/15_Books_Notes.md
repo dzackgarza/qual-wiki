@@ -1,10 +1,8 @@
-# Real Analysis
+# Real Analysis Books and Notes
 
+#reading
 
-    
-## References
-
-### Books
+# Books
 - Rudin: Real and complex analysis is a general reference but the following books have more useful techniques
 - Stein and Shakarchi: Real analysis.
 
@@ -25,11 +23,11 @@
 - [http://web.stanford.edu/~eugeniam/math205a/L2m.pdf](http://web.stanford.edu/~eugeniam/math205a/L2m.pdf)
 - [http://www-personal.umich.edu/~equinlan/analysis_notes.pdf](http://www-personal.umich.edu/~equinlan/analysis_notes.pdf)
 
-### Notes
+# Notes
+
+[Harvard 2019 Grad Analysis Course Notes](https://people.math.harvard.edu/~ctm/home/text/class/harvard/212a/19/html/home/course/course.pdf)
 
 [Real Analysis Course Notes.pdf](attachments/Real_Analysis_Course_Notes.pdf)
 
 [[Real_Named_Theorems.pdf]]
 #summaries 
-
-

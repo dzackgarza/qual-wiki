@@ -1,16 +1,14 @@
 # Topology References
+#reading
 
-
-# References
-
-## Books
+# Books
 
 - A. Hatcher: Algebraic Topology,
 - W. Fulton: Algebraic Topology,
 - E. Spanier: Algebraic Topology,
 - Greenberg and Harper: Algebraic Topology: A First Course
 
-## Notes
+# Notes
 
 [https://dec41.user.srcf.net/notes/II_M/algebraic_topology.pdf](https://dec41.user.srcf.net/notes/II_M/algebraic_topology.pdf)
 

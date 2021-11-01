@@ -1,5 +1,9 @@
 # Residues
 
+See:
+
+- <https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter5.pdf>
+
 
 :::{.remark}
 Pedantic warning: $\Res_{z=p}(f)$ should really be $\Res_{z=p}(df)$ for $df = f(z) \dz$, since it's only an invariant of the 1-form $df$ and not necessarily $f$ itself.

@@ -1,6 +1,8 @@
-# Complex Analysis General References
+# Complex Analysis Books and Notes
 
-## Books
+#reading 
+
+# Books
 
 - Ahlfors: Complex Analysis (3rd edition)
 - Gamelin, Theodore. Complex Analysis.
@@ -19,7 +21,7 @@
 
 - Springer GTM Lipman.
 
-## Notes
+# Notes
 
 - Stein and Shakarchi speedrun: 
 	[[Eur_ComplexAnalysis_Notes (1).pdf]]
@@ -27,6 +29,8 @@
 
 - [Harvard 2021 Complex Analysis courses notes:](http://people.math.harvard.edu/~ctm/papers/home/text/class/harvard/213a/course/course.pdf)
 	#course_notes
+	
+- [Ko Honda Course Notes](https://www.math.ucla.edu/~honda/math520/notes.pdf)
 
 - [UCSD Review Sheet](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
 	#summaries 

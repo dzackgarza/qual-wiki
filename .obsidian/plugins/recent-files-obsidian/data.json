@@ -1,6 +1,110 @@
 {
   "recentFiles": [
     {
+      "basename": "000_Resources",
+      "path": "10_Algebra/000_Resources/000_Resources.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "000_Preface",
+      "path": "40_Topology/600_UGA_Qual_Questions/000_Preface.md"
+    },
+    {
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
+    },
+    {
+      "basename": "000_Preface",
+      "path": "10_Algebra/600_Qual_Questions_UGA/000_Preface.md"
+    },
+    {
+      "basename": "0000_Preface",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
+    },
+    {
+      "basename": "00_Solutions",
+      "path": "10_Algebra/040_Rings/00_Solutions.md"
+    },
+    {
+      "basename": "9960 UGA Problems",
+      "path": "10_Algebra/500_Exercises/9960 UGA Problems.md"
+    },
+    {
+      "basename": "20_Books_Notes",
+      "path": "10_Algebra/000_Resources/20_Books_Notes.md"
+    },
+    {
+      "basename": "15_Books_Notes",
+      "path": "20_Real Analysis/000_Resources/15_Books_Notes.md"
+    },
+    {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "00_Books_Notes",
+      "path": "40_Topology/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "00_Books_Notes_AG",
+      "path": "50_Algebraic Geometry/00_Books_Notes_AG.md"
+    },
+    {
+      "basename": "00_Books_Notes_DG",
+      "path": "60_Differential Geometry/00_Books_Notes_DG.md"
+    },
+    {
+      "basename": "10_Problems",
+      "path": "60_Differential Geometry/10_Problems.md"
+    },
+    {
+      "basename": "20_Problems",
+      "path": "50_Algebraic Geometry/20_Problems.md"
+    },
+    {
+      "basename": "00_Topics",
+      "path": "50_Algebraic Geometry/00_Topics.md"
+    },
+    {
+      "basename": "10_Topics",
+      "path": "20_Real Analysis/000_Resources/10_Topics.md"
+    },
+    {
+      "basename": "50_Solutions_Algebra",
+      "path": "10_Algebra/000_Resources/50_Solutions_Algebra.md"
+    },
+    {
+      "basename": "Solution Compendia",
+      "path": "Solution Compendia.md"
+    },
+    {
+      "basename": "20_Solutions",
+      "path": "20_Real Analysis/000_Resources/20_Solutions.md"
+    },
+    {
+      "basename": "20_Solutions",
+      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
+    },
+    {
+      "basename": "30_Solutions",
+      "path": "40_Topology/000_Resources/30_Solutions.md"
+    },
+    {
+      "basename": "020_Residues",
+      "path": "30_Complex Analysis/030_Residues/020_Residues.md"
+    },
+    {
+      "basename": "20_Problems",
+      "path": "40_Topology/000_Resources/20_Problems.md"
+    },
+    {
+      "basename": "10_Problems",
+      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
+    },
+    {
       "basename": "40_Topology",
       "path": "40_Topology.md"
     },
@@ -33,10 +137,6 @@
       "path": "Typsetting_Progress.md"
     },
     {
-      "basename": "General Solutions",
-      "path": "General Solutions.md"
-    },
-    {
       "basename": "110_Graduate_Topics",
       "path": "110_Graduate_Topics.md"
     },
@@ -49,28 +149,8 @@
       "path": "20_Real Analysis/000_Resources/30_Problems.md"
     },
     {
-      "basename": "10_Problems",
-      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
-    },
-    {
-      "basename": "20_Problems",
-      "path": "40_Topology/000_Resources/20_Problems.md"
-    },
-    {
-      "basename": "10_Problems",
-      "path": "60_Differential Geometry/10_Problems.md"
-    },
-    {
-      "basename": "00_Resources",
-      "path": "50_Algebraic Geometry/00_Resources.md"
-    },
-    {
       "basename": "00_Topics",
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
     },
     {
       "basename": "00_Resources",
@@ -81,14 +161,6 @@
       "path": "10_Algebra/040_Rings/00_Resources.md"
     },
     {
-      "basename": "00_Solutions",
-      "path": "10_Algebra/040_Rings/00_Solutions.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
-    },
-    {
       "basename": "UCLA Prelims",
       "path": "00_Prelims/UCLA Prelims.md"
     },
@@ -97,28 +169,8 @@
       "path": "00_Prelims/Berkeley Prelims.md"
     },
     {
-      "basename": "00_Resources",
-      "path": "60_Differential Geometry/00_Resources.md"
-    },
-    {
       "basename": "00_Topics",
       "path": "60_Differential Geometry/00_Topics.md"
-    },
-    {
-      "basename": "00_References",
-      "path": "50_Algebraic Geometry/00_References.md"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "50_Algebraic Geometry/00_Topics.md"
-    },
-    {
-      "basename": "30_Solutions",
-      "path": "40_Topology/000_Resources/30_Solutions.md"
-    },
-    {
-      "basename": "00_Resources",
-      "path": "40_Topology/000_Resources/00_Resources.md"
     },
     {
       "basename": "F07phdtop",
@@ -133,32 +185,12 @@
       "path": "40_Topology/000_Resources/10_Topics.md"
     },
     {
-      "basename": "00_References",
-      "path": "30_Complex Analysis/000_Resources/00_References.md"
-    },
-    {
       "basename": "00_Resources",
       "path": "30_Complex Analysis/050_Conformal_Maps/00_Resources.md"
     },
     {
-      "basename": "00_Resources",
-      "path": "30_Complex Analysis/000_Resources/00_Resources.md"
-    },
-    {
-      "basename": "00_Resources",
-      "path": "20_Real Analysis/000_Resources/00_Resources.md"
-    },
-    {
       "basename": "Day_10_May_2018_Qual",
       "path": "attachments/Day_10_May_2018_Qual.pdf"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "20_Real Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "10_Topics",
-      "path": "20_Real Analysis/000_Resources/10_Topics.md"
     },
     {
       "basename": "Extra_Questions",
@@ -167,38 +199,6 @@
     {
       "basename": "Prelims",
       "path": "00_Prelims/Prelims.md"
-    },
-    {
-      "basename": "s07solution",
-      "path": "attachments/s07solution.pdf"
-    },
-    {
-      "basename": "basic-01F",
-      "path": "attachments/basic-01F.pdf"
-    },
-    {
-      "basename": "basic-06S",
-      "path": "attachments/basic-06S.pdf"
-    },
-    {
-      "basename": "Exam Tracking",
-      "path": "00_Prelims/Exam Tracking.md"
-    },
-    {
-      "basename": "Useful Tricks",
-      "path": "00_Prelims/Useful Tricks.md"
-    },
-    {
-      "basename": "Integral Practice",
-      "path": "00_Prelims/Integral Practice.md"
-    },
-    {
-      "basename": "Resources",
-      "path": "10_Algebra/Resources.md"
-    },
-    {
-      "basename": "60_Representation_Theory",
-      "path": "10_Algebra/200_Appendices/60_Representation_Theory.md"
     }
   ],
   "omittedPaths": [],

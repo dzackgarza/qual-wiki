@@ -1,5 +1,6 @@
+# Differential Geometry Books and Notes
 
-# References
+#reading
 
 - Taubes: Differential geometry: Bundles, Connections, Metrics and Curvature 
 - Lee: Manifolds and Differential Geometry (Graduate Studies in Math 107, AMS), 
