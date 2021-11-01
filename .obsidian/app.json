@@ -337,7 +337,10 @@
     "irreducibility",
     "nilradical",
     "decompositions",
-    "Cosets"
+    "Cosets",
+    "discriminants",
+    "cubics",
+    "Hatcher"
   ],
   "communityPluginSortOrder": "download",
   "autoPairMarkdown": false,
