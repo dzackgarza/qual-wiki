@@ -40,15 +40,21 @@ References: M. Artin, ‘*Algebra*‘ (Prentice Hall, 1991), Chapters 1,3,4K. Ho
 
 **Abstract Algebra**: Definitions of groups, rings, fields, and modules over a ring. Homomorphisms of these objects. Subgroups, normal subgroups, quotient groups. Cyclic groups, finite abelian groups (structure theorem). Ideals, prime and maximal and their quotients — basic examples **Z**, *****k*[*X*], rings of algebraic integers. Field extensions, splitting fields of polynomials, normal extensions.
 
-References: M. Artin, ‘*Algebra*‘, Chapters 2, 10, 11, 12, 13, 14I. Herstein, ‘*Topics in Algebra*‘ (Blaisdell Publishers, 1964).**Point-set Topology**: Open and closed sets, continuous functions. Connectedness, compactness, Hausdorff, normality. Metric spaces, **R***n*. Heine-Borel theorem.
+References: M. Artin, ‘*Algebra*‘, Chapters 2, 10, 11, 12, 13, 14I. Herstein, ‘*Topics in Algebra*‘ (Blaisdell Publishers, 1964).
+
+**Point-set Topology**: Open and closed sets, continuous functions. Connectedness, compactness, Hausdorff, normality. Metric spaces, **R***n*. Heine-Borel theorem.
 
 Reference: J. Munkres, ‘*Topology, A First Course*‘, Part I (Prentice-Hall).
 
 **Calculus**: Differential of a smoothing mapping between open subsets in Euclidean spaces. Matrix of partial derivatives. Inverse and implicit functions. Multivariable Riemann integration.
 
-References: W. Rudin, ‘*Principles of Mathematical Analysis*‘ (McGraw-Hill, 1964)A. Browder, ‘*Mathematical Analysis: An Introduction*‘ (Springer, 1996).**Complex Analysis**: Definition of holomorphic functions, Cauchy integral formula, power series representations of holomorphic functions, radius of convergence, meromorphic functions, residues.
+References: W. Rudin, ‘*Principles of Mathematical Analysis*‘ (McGraw-Hill, 1964)A. Browder, ‘*Mathematical Analysis: An Introduction*‘ (Springer, 1996).
 
-Reference: L. Ahlfors, ‘*Complex Analysis*‘, (McGraw-Hill, 1973), Chapters 1- 5.**Real Analysis**: A thorough working knowledge of advanced calculus, at the level of the books of W. Rudin or A. Browder as listed under Calculus. Additional topics: Pointwise uniform convergence of functions, equi-continuity, *l*2, *L*2(*S*1), Hilbert spaces, orthonormal bases.
+**Complex Analysis**: Definition of holomorphic functions, Cauchy integral formula, power series representations of holomorphic functions, radius of convergence, meromorphic functions, residues.
+
+Reference: L. Ahlfors, ‘*Complex Analysis*‘, (McGraw-Hill, 1973), Chapters 1- 5.**Real Analysis**: A thorough working knowledge of advanced calculus, at the level of the books of W. Rudin or A. Browder as listed under Calculus. 
+
+**Additional topics**: Pointwise uniform convergence of functions, equi-continuity, *l*2, *L*2(*S*1), Hilbert spaces, orthonormal bases.
     
 
 ## Notes
@@ -75,18 +81,18 @@ Reference: L. Ahlfors, ‘*Complex Analysis*‘, (McGraw-Hill, 1973), Chapters 1
 
 #problems 
 
-- [ ] [[Big_List_of_Math_Problems.pdf]]
+- [ ] [[attachments/Big_List_of_Math_Problems.pdf]]
 - [ ]  [Duke Analysis and Linear Algebra Quals](https://services.math.duke.edu/graduate/wqual/oldquals.html)
 - [ ]  [UCLA Practice GRE Problems (No Solutions)](https://www.math.ucla.edu/~bonsoon/summer2020/files/problems.pdf)
-- [ ]   [calculus_practice_test3.pdf](calculus_practice_test3.pdf)
-- [ ]  [linear_algebra_from_test2.pdf](linear_algebra_from_test2.pdf)
-- [ ]  [chapter-1.pdf](chapter-1.pdf)
-- [ ]  [chapter-2.pdf](chapter-2.pdf)
-- [ ]  [chapter-3.pdf](chapter-3.pdf)
-- [ ]   [chapter-4.pdf](chapter-4.pdf)
-- [ ]   [chapter-5.pdf](chapter-5.pdf)
-- [ ]   [chapter-6.pdf](chapter-6.pdf)
-- [ ]   [Chapter-7.pdf](Chapter-7.pdf)
+- [ ]   [calculus_practice_test3.pdf](attachments/calculus_practice_test3.pdf)
+- [ ]  [linear_algebra_from_test2.pdf](attachments/linear_algebra_from_test2.pdf)
+- [ ]  [chapter-1.pdf](attachments/chapter-1.pdf)
+- [ ]  [chapter-2.pdf](attachments/chapter-2.pdf)
+- [ ]  [chapter-3.pdf](attachments/chapter-3.pdf)
+- [ ]   [chapter-4.pdf](attachments/chapter-4.pdf)
+- [ ]   [chapter-5.pdf](attachments/chapter-5.pdf)
+- [ ]   [chapter-6.pdf](attachments/chapter-6.pdf)
+- [ ]   [Chapter-7.pdf](attachments/Chapter-7.pdf)
 - [ ]   [[UCLA_Basic_Exam_Prelim.pdf]]
     
 
@@ -123,4 +129,4 @@ Reference: L. Ahlfors, ‘*Complex Analysis*‘, (McGraw-Hill, 1973), Chapters 1
 - [ ] [Harvard Math 21b](http://people.math.harvard.edu/~knill/teaching/math21b2018/exams.html) (Linear Algebra)
 		*Lots of practice finals with solutions*
 - [ ] [[attachments/f03solution.pdf]]
-- [ ] [[Point_Set_Topology_Midterm_with_Solns_-_Unknown.pdf]]
+- [ ] [[attachments/Point_Set_Topology_Midterm_with_Solns_-_Unknown.pdf]]
