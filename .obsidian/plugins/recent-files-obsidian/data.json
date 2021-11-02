@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "10_Problems",
+      "path": "60_Differential Geometry/Problems/10_Problems.md"
+    },
+    {
+      "basename": "DG Sample Problems 1",
+      "path": "attachments/DG Sample Problems 1.pdf"
+    },
+    {
+      "basename": "8210 Lecture Notes (Usher) Smooth Manifolds",
+      "path": "attachments/8210 Lecture Notes (Usher) Smooth Manifolds.pdf"
+    },
+    {
+      "basename": "00_Books_Notes_DG",
+      "path": "60_Differential Geometry/00_Books_Notes_DG.md"
+    },
+    {
+      "basename": "Adam Syllabus",
+      "path": "attachments/Adam Syllabus.pdf"
+    },
+    {
       "basename": "Exercises",
       "path": "100_Commutative Algebra/Exercises.md"
     },
@@ -87,14 +107,6 @@
     {
       "basename": "00_Books_Notes_AG",
       "path": "50_Algebraic Geometry/00_Books_Notes_AG.md"
-    },
-    {
-      "basename": "00_Books_Notes_DG",
-      "path": "60_Differential Geometry/00_Books_Notes_DG.md"
-    },
-    {
-      "basename": "10_Problems",
-      "path": "60_Differential Geometry/10_Problems.md"
     },
     {
       "basename": "20_Problems",
@@ -187,18 +199,6 @@
     {
       "basename": "00_Topics",
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
-    },
-    {
-      "basename": "00_Resources",
-      "path": "10_Algebra/150_Representation_Theory/00_Resources.md"
-    },
-    {
-      "basename": "00_Resources",
-      "path": "10_Algebra/040_Rings/00_Resources.md"
-    },
-    {
-      "basename": "UCLA Prelims",
-      "path": "00_Prelims/Problems/UCLA Prelims.md"
     }
   ],
   "omittedPaths": [],

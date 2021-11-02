@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9dd4b246ab07bfb7",
+        "id": "a9b6da8aebc9d966",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100_Commutative Algebra/Exercises.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +75,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100_Commutative Algebra/Exercises.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "100_Commutative Algebra/Exercises.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -138,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100_Commutative Algebra/Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +159,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100_Commutative Algebra/Exercises.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -246,17 +238,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "9dd4b246ab07bfb7",
+  "active": "a9b6da8aebc9d966",
   "lastOpenFiles": [
+    "60_Differential Geometry/Problems/10_Problems.md",
+    "attachments/DG Sample Problems 1.pdf",
+    "attachments/8210 Lecture Notes (Usher) Smooth Manifolds.pdf",
+    "60_Differential Geometry/00_Books_Notes_DG.md",
+    "attachments/Adam Syllabus.pdf",
     "100_Commutative Algebra/Exercises.md",
     "100_Homological Algebra/Course Exercises/Extras.md",
     "100_Homological Algebra/Course Exercises/Problem_Set_7_DZG.pdf",
     "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
-    "100_Homological Algebra/Course Exercises/Problem_Set_2_DZG.pdf",
-    "100_Homological Algebra/Course Exercises/Problem_Set_1_DZG.pdf",
-    "100_Homological Algebra/Course Exercises/2021-04-15.md",
-    "100_Homological Algebra/10_Useful Facts.md",
-    "100_Homological Algebra/00_Resources.md",
-    "00_Prelims/Prelim Resources.md"
+    "100_Homological Algebra/Course Exercises/Problem_Set_2_DZG.pdf"
   ]
 }
