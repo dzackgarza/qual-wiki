@@ -44,9 +44,11 @@ Multiple versions of Rouches theorem!
 
 - Set $h(z) = 3z^2$ and $g(z) = z^3 + bz + b^2$.
 - Then on $\abs{z} = 1$,
-\begin{align*}
+
+\[
 \abs{g(z)} \leq 1 + b + b^2 < 3 = 3\abs{z}^2 = \abs{3z^2} = \abs{h}
-,\end{align*}
+,\]
+
   so $g, h$ have the same number of roots in $\abs{z} \leq_? 1$.
 
 - But $h$ evidently has two roots in this region.
@@ -72,9 +74,9 @@ f(z) = z^7 - 4z^3 - 1
 
 :::
 - Set $h(z) = -4z^3$ and $g(z) = z^7 - 1$, then on $\abs{z} = 1$,
-\begin{align*}
+\[
 \abs{g(z)} = \abs{z^7 - 1} \leq 1 + 1 = 2 < 4 = \abs{-4z^3} = \abs{h(z)}
-.\end{align*}
+.\]
 
 - So $h$ and $h+g$ have the same number of roots, but $h$ has three roots here.
 :::
