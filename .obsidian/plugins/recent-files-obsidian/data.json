@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "9999_UsefulFacts",
-      "path": "100_Homological Algebra/9999_UsefulFacts.md"
+      "basename": "Problem_Set_3_DZG (Updated)",
+      "path": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf"
+    },
+    {
+      "basename": "Extras",
+      "path": "100_Homological Algebra/Course Exercises/Extras.md"
+    },
+    {
+      "basename": "2021-04-15",
+      "path": "100_Homological Algebra/Course Exercises/2021-04-15.md"
+    },
+    {
+      "basename": "10_Useful Facts",
+      "path": "100_Homological Algebra/10_Useful Facts.md"
     },
     {
       "basename": "00_Resources",
@@ -187,18 +199,6 @@
     {
       "basename": "UCLA Prelims",
       "path": "00_Prelims/Problems/UCLA Prelims.md"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "60_Differential Geometry/00_Topics.md"
-    },
-    {
-      "basename": "F07phdtop",
-      "path": "attachments/F07phdtop.pdf"
-    },
-    {
-      "basename": "Topology_Workshop_Worksheet_1A",
-      "path": "attachments/Topology_Workshop_Worksheet_1A.pdf"
     }
   ],
   "omittedPaths": [],

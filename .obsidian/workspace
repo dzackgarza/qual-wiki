@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0314bea748374558",
+        "id": "054df95b3e701a73",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "100_Homological Algebra/9999_UsefulFacts.md",
-            "mode": "source"
+            "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf"
           }
         }
       }
@@ -78,7 +77,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100_Homological Algebra/9999_UsefulFacts.md",
+                "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100_Homological Algebra/9999_UsefulFacts.md"
+                "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf"
               }
             }
           }
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100_Homological Algebra/9999_UsefulFacts.md",
+                "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100_Homological Algebra/9999_UsefulFacts.md",
+                "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -246,17 +245,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "0314bea748374558",
+  "active": "054df95b3e701a73",
   "lastOpenFiles": [
-    "100_Homological Algebra/9999_UsefulFacts.md",
+    "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
+    "100_Homological Algebra/Course Exercises/Problem_Set_2_DZG.pdf",
+    "100_Homological Algebra/Course Exercises/Problem_Set_1_DZG.pdf",
+    "100_Homological Algebra/Course Exercises/Extras.md",
+    "100_Homological Algebra/Course Exercises/2021-04-15.md",
+    "100_Homological Algebra/10_Useful Facts.md",
     "100_Homological Algebra/00_Resources.md",
     "00_Prelims/Prelim Resources.md",
     "00_Prelims/Problems/Integral Practice.md",
-    "00_Prelims/Problems/Berkeley Prelims.md",
-    "attachments/Spring_2019_prelim_solutions.pdf",
-    "10_Algebra/000_Resources/000_Resources.md",
-    "index.md",
-    "40_Topology/600_UGA_Qual_Questions/000_Preface.md",
-    "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
+    "00_Prelims/Problems/Berkeley Prelims.md"
   ]
 }
