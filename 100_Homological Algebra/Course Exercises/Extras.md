@@ -1,3 +1,7 @@
+---
+order: 999
+---
+
 # Friday, January 29
 
 :::{.problem title="Weibel 1.1.7: Tetrahedra"}
