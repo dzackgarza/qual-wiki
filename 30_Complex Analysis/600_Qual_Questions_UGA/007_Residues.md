@@ -335,7 +335,7 @@ Show that
 
 > Hint: use the following contour.
 >
-> ![](image_2020-06-17-21-52-40.png)
+> ![Image](image_2020-06-17-21-52-40.png)
 
 ### Spring 20202 HW 3 #  3.8.10
 Show that if $a>0$, then
@@ -345,7 +345,7 @@ Show that if $a>0$, then
 
 > Hint: use the following contour.
 >
-> ![](image_2020-06-17-21-53-19.png)
+> ![Image](image_2020-06-17-21-53-19.png)
 
 ### Spring 20202 HW 3 #  6
 
