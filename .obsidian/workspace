@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00_Prelims/Prelim Resources.md",
+            "file": "100_Homological Algebra/9999_UsefulFacts.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "00_Prelims/Prelim Resources.md",
+                "file": "100_Homological Algebra/9999_UsefulFacts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Prelims/Prelim Resources.md"
+                "file": "100_Homological Algebra/9999_UsefulFacts.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Prelims/Prelim Resources.md",
+                "file": "100_Homological Algebra/9999_UsefulFacts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "00_Prelims/Prelim Resources.md",
+                "file": "100_Homological Algebra/9999_UsefulFacts.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,6 +248,8 @@
   },
   "active": "0314bea748374558",
   "lastOpenFiles": [
+    "100_Homological Algebra/9999_UsefulFacts.md",
+    "100_Homological Algebra/00_Resources.md",
     "00_Prelims/Prelim Resources.md",
     "00_Prelims/Problems/Integral Practice.md",
     "00_Prelims/Problems/Berkeley Prelims.md",
@@ -255,8 +257,6 @@
     "10_Algebra/000_Resources/000_Resources.md",
     "index.md",
     "40_Topology/600_UGA_Qual_Questions/000_Preface.md",
-    "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
-    "10_Algebra/600_Qual_Questions_UGA/000_Preface.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
+    "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
   ]
 }

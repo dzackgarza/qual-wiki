@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "9999_UsefulFacts",
+      "path": "100_Homological Algebra/9999_UsefulFacts.md"
+    },
+    {
+      "basename": "00_Resources",
+      "path": "100_Homological Algebra/00_Resources.md"
+    },
+    {
       "basename": "Prelim Resources",
       "path": "00_Prelims/Prelim Resources.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Topology_Workshop_Worksheet_1A",
       "path": "attachments/Topology_Workshop_Worksheet_1A.pdf"
-    },
-    {
-      "basename": "10_Topics",
-      "path": "40_Topology/000_Resources/10_Topics.md"
-    },
-    {
-      "basename": "00_Resources",
-      "path": "30_Complex Analysis/050_Conformal_Maps/00_Resources.md"
     }
   ],
   "omittedPaths": [],
