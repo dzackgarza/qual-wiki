@@ -1,17 +1,5 @@
 # Useful Facts
 
-:::{.definition title="Acyclic"}
-A chain complex $C$ is **acyclic** if and only if $H_*(C) = 0$.
-:::
-
-
-:::{.proposition title="Algebra Facts"}
-\envlist
-
-- Free $\implies$ projective $\implies$ flat $\implies$ torsionfree (for finitely-generated \(R\dash\)modules)
-  - Over $R$ a PID: free $\iff$ torsionfree
-:::
-
 :::{.remark}
 Notational conventions:
 
@@ -34,6 +22,42 @@ Notational conventions:
   - Products, inverse limits, kernels, terminal objects, pullbacks
   - Commute with right adjoints. i.e. $R(\colim F_i) = \colim RF_i$.
 :::
+
+:::{.definition title="Acyclic"}
+A chain complex $C$ is **acyclic** if and only if $H_*(C) = 0$.
+:::
+
+:::{.proposition title="Algebra Facts"}
+\envlist
+
+- Free $\implies$ projective $\implies$ flat $\implies$ torsionfree (for finitely-generated \(R\dash\)modules)
+  - Over $R$ a PID: free $\iff$ torsionfree
+
+- On limits:
+  - Limits commute with limits, and colimits commute with colimits.
+
+  - Generally, limits do *not* commute with colimits.
+
+  - In $\Set$, *filtered* colimits commute with *finite* limits.
+
+  - In $\Ab$, direct colimits commute with finite limits.
+    Inverse limits do not generally commute with finite colimits.
+
+- On adjoints:
+  - Left adjoints are right-exact with left-derived functors.
+    Right adjoints are left-exact with right-derived functors.
+
+  - Left adjoints commute with colimits: $L( \colim F) = \colim (L\circ F)$
+  In $\Ab$, direct colimits commute with finite limits.
+    Inverse limits do not generally commute with finite colimits.
+
+  - Left adjoints are right-exact with left-derived functors.
+    Right adjoints are left-exact with right-derived functors.
+
+  - Left adjoints commute with colimits: $L( \colim F) = \colim (L\circ F)$
+
+:::
+
 
 ![[100_Homological Algebra/Hom and Ext]]
 
@@ -78,11 +102,9 @@ The kernel $\ker f$ of a morphism $f$ can be characterized as a cartesian square
 
 ## Adjunctions
 
-
 :::{.definition title="Adjoints"}
 \todo[inline]{todo}
 :::
-
 
 :::{.proposition title="Tensor-Hom Adjunction"}
 For a fixed $M\in \bimod{R}{S}$, there is an adjunction

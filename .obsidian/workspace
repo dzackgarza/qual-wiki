@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "82f32fe601538ec2",
+    "id": "b4952d620d2b196c",
     "type": "split",
     "children": [
       {
-        "id": "a9b6da8aebc9d966",
+        "id": "1b7c0fddedf9880b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -75,6 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -108,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+              }
             }
           }
         ],
@@ -132,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -238,17 +246,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "a9b6da8aebc9d966",
+  "active": "1b7c0fddedf9880b",
   "lastOpenFiles": [
-    "60_Differential Geometry/Problems/10_Problems.md",
-    "attachments/DG Sample Problems 1.pdf",
-    "attachments/8210 Lecture Notes (Usher) Smooth Manifolds.pdf",
-    "60_Differential Geometry/00_Books_Notes_DG.md",
-    "attachments/Adam Syllabus.pdf",
-    "100_Commutative Algebra/Exercises.md",
-    "100_Homological Algebra/Course Exercises/Extras.md",
-    "100_Homological Algebra/Course Exercises/Problem_Set_7_DZG.pdf",
-    "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
-    "100_Homological Algebra/Course Exercises/Problem_Set_2_DZG.pdf"
+    "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+    "30_Complex Analysis/600_Qual_Questions_UGA/9999_2021_Fall.md",
+    "My Active Problems.md",
+    "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
+    "30_Complex Analysis/030_Residues/020_Residues.md",
+    "30_Complex Analysis/500_Exercises/100_Extra Questions.md",
+    "30_Complex Analysis/000_Resources/10_Problems.md",
+    "my ac.md",
+    "45_Characteristic Classes/000_Resources.md",
+    "45_Characteristic Classes/9999_PSet1.md"
   ]
 }

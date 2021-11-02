@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "9999_2021_Fall",
+      "path": "30_Complex Analysis/600_Qual_Questions_UGA/9999_2021_Fall.md"
+    },
+    {
+      "basename": "My Active Problems",
+      "path": "My Active Problems.md"
+    },
+    {
+      "basename": "UGA Complex Analysis Qual Questions",
+      "path": "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md"
+    },
+    {
+      "basename": "020_Residues",
+      "path": "30_Complex Analysis/030_Residues/020_Residues.md"
+    },
+    {
+      "basename": "100_Extra Questions",
+      "path": "30_Complex Analysis/500_Exercises/100_Extra Questions.md"
+    },
+    {
+      "basename": "10_Problems",
+      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
+    },
+    {
+      "basename": "000_Resources",
+      "path": "45_Characteristic Classes/000_Resources.md"
+    },
+    {
+      "basename": "HW2",
+      "path": "45_Characteristic Classes/HW2.md"
+    },
+    {
       "basename": "10_Problems",
       "path": "60_Differential Geometry/Problems/10_Problems.md"
     },
@@ -98,10 +134,6 @@
     },
     {
       "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
-    },
-    {
-      "basename": "00_Books_Notes",
       "path": "40_Topology/000_Resources/00_Books_Notes.md"
     },
     {
@@ -141,16 +173,8 @@
       "path": "40_Topology/000_Resources/30_Solutions.md"
     },
     {
-      "basename": "020_Residues",
-      "path": "30_Complex Analysis/030_Residues/020_Residues.md"
-    },
-    {
       "basename": "20_Problems",
       "path": "40_Topology/000_Resources/20_Problems.md"
-    },
-    {
-      "basename": "10_Problems",
-      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
     {
       "basename": "40_Topology",
@@ -175,30 +199,6 @@
     {
       "basename": "50_Algebraic Geometry",
       "path": "50_Algebraic Geometry.md"
-    },
-    {
-      "basename": "60_Differential Geometry",
-      "path": "60_Differential Geometry.md"
-    },
-    {
-      "basename": "Typsetting_Progress",
-      "path": "Typsetting_Progress.md"
-    },
-    {
-      "basename": "110_Graduate_Topics",
-      "path": "110_Graduate_Topics.md"
-    },
-    {
-      "basename": "100_Undergraduate_Topics",
-      "path": "100_Undergraduate_Topics.md"
-    },
-    {
-      "basename": "30_Problems",
-      "path": "20_Real Analysis/000_Resources/30_Problems.md"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     }
   ],
   "omittedPaths": [],

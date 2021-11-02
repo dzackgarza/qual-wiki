@@ -24,7 +24,7 @@
 # Notes
 
 - Stein and Shakarchi speedrun: 
-	[[Eur_ComplexAnalysis_Notes (1).pdf]]
+	[[attachments/Eur_ComplexAnalysis_Notes (1).pdf]]
 #summaries 
 
 - [Harvard 2021 Complex Analysis courses notes:](http://people.math.harvard.edu/~ctm/papers/home/text/class/harvard/213a/course/course.pdf)

@@ -1,13 +1,11 @@
 ## Tensor and Tor
 
-
 :::{.proposition title="Basic Properties of the Tensor Product"}
 \envlist
 
 - $A\tensor_R \wait$ is:
   - Covariant
   - Right-exact
-  - Left-exact
   - Has left-derived functors $\Ext^i_R(A, B) \da L_i \Hom_R(\wait, B)(A)$ computed using *projective* resolutions.
 
 
@@ -16,17 +14,16 @@
   - Right-exact
   - Has left-derived functors $\Ext^i_R(A, B) \da L_i \Hom_R(\wait, B)(A)$ computed using *projective* resolutions.
 
-- Tensor commutes with colimits: $(\colim A_i)\tensor_R M = \colim (A_i \tensor_R M)$.
+- Tensor is a colimit, and colimits commute with colimits:
+  $(\colim A_i)\tensor_R M = \colim (A_i \tensor_R M)$.
 
 :::
-
 
 :::{.proposition title="Basic Properties of Tor"}
 \envlist 
 
 - $\Tor_n^R(A, B) = 0$ for either $A$ or $B$ flat.
 :::
-
 
 :::{.fact}
 The most useful SES for proofs here:
