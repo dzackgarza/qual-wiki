@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "054df95b3e701a73",
+        "id": "9dd4b246ab07bfb7",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf"
+            "file": "100_Commutative Algebra/Exercises.md",
+            "mode": "source"
           }
         }
       }
@@ -77,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
+                "file": "100_Commutative Algebra/Exercises.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf"
+                "file": "100_Commutative Algebra/Exercises.md"
               }
             }
           }
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
+                "file": "100_Commutative Algebra/Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
+                "file": "100_Commutative Algebra/Exercises.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -245,17 +246,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "054df95b3e701a73",
+  "active": "9dd4b246ab07bfb7",
   "lastOpenFiles": [
+    "100_Commutative Algebra/Exercises.md",
+    "100_Homological Algebra/Course Exercises/Extras.md",
+    "100_Homological Algebra/Course Exercises/Problem_Set_7_DZG.pdf",
     "100_Homological Algebra/Course Exercises/Problem_Set_3_DZG (Updated).pdf",
     "100_Homological Algebra/Course Exercises/Problem_Set_2_DZG.pdf",
     "100_Homological Algebra/Course Exercises/Problem_Set_1_DZG.pdf",
-    "100_Homological Algebra/Course Exercises/Extras.md",
     "100_Homological Algebra/Course Exercises/2021-04-15.md",
     "100_Homological Algebra/10_Useful Facts.md",
     "100_Homological Algebra/00_Resources.md",
-    "00_Prelims/Prelim Resources.md",
-    "00_Prelims/Problems/Integral Practice.md",
-    "00_Prelims/Problems/Berkeley Prelims.md"
+    "00_Prelims/Prelim Resources.md"
   ]
 }
