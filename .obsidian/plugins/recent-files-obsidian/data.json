@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
+    },
+    {
+      "basename": "001_RealVariables",
+      "path": "30_Complex Analysis/600_Qual_Questions_UGA/001_RealVariables.md"
+    },
+    {
       "basename": "007_Residues",
       "path": "30_Complex Analysis/600_Qual_Questions_UGA/007_Residues.md"
     },
@@ -110,10 +118,6 @@
     },
     {
       "basename": "000_Preface",
-      "path": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
-    },
-    {
-      "basename": "000_Preface",
       "path": "10_Algebra/600_Qual_Questions_UGA/000_Preface.md"
     },
     {
@@ -195,10 +199,6 @@
     {
       "basename": "10_Algebra",
       "path": "10_Algebra.md"
-    },
-    {
-      "basename": "00_Prelims",
-      "path": "00_Prelims.md"
     }
   ],
   "omittedPaths": [],
