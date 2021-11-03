@@ -323,6 +323,7 @@ Chapters 7-9 in D&F
 - Poincare duality
 - Riemannian metrics
 - the Mayer-Vietoris sequence
+- deRham’s theorem $H_\text{sing} \cong H_{\text{DR}}$
 - Thom classes
 - volume forms
 
@@ -333,7 +334,6 @@ Chapters 7-9 in D&F
 - cell complexes and cellular homology
 - cohomology theory
 - covering spaces
-- deRham’s theorem $H_\text{sing} \cong H_{\text{DR}}$
 - fundamental group 
 - homotopy theory
 - Mayer-Vietoris sequence

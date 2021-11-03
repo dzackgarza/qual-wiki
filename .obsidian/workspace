@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "60_Differential Geometry/00_Books_Notes_DG.md",
+            "file": "110_Graduate_Topics.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "60_Differential Geometry/00_Books_Notes_DG.md",
+                "file": "110_Graduate_Topics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "60_Differential Geometry/00_Books_Notes_DG.md"
+                "file": "110_Graduate_Topics.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "60_Differential Geometry/00_Books_Notes_DG.md",
+                "file": "110_Graduate_Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "60_Differential Geometry/00_Books_Notes_DG.md",
+                "file": "110_Graduate_Topics.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,8 +248,8 @@
   },
   "active": "70222d76428dafc6",
   "lastOpenFiles": [
-    "60_Differential Geometry/00_Books_Notes_DG.md",
     "110_Graduate_Topics.md",
+    "60_Differential Geometry/00_Books_Notes_DG.md",
     "100_Undergraduate_Topics.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",

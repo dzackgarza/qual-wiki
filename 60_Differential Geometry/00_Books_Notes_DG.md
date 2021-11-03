@@ -5,8 +5,8 @@
 - Taubes: Differential geometry: Bundles, Connections, Metrics and Curvature 
 - Lee: Manifolds and Differential Geometry (Graduate Studies in Math 107, AMS), 
 - S. Kobayashi and K. Nomizu: Foundations of Differential Geometry
-> Guillemin and Pollack Differential Topology
-> Spivak Differential Geometry
+- Guillemin and Pollack Differential Topology
+- Spivak Differential Geometry
 
 ![[attachments/8210 Lecture Notes (Usher) Smooth Manifolds.pdf]]
 ![[attachments/DiffGeomNotes.pdf]]
