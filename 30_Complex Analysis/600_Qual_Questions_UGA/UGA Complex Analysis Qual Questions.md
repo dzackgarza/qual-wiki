@@ -4,8 +4,6 @@
 See subdirectory!
 
   
-``` dataview
-
-list from "30_Complex Analysis/600_Qual_Questions_UGA"
-
+```query
+line:(\work ) path:"30_Complex Analysis/600_Qual_Questions_UGA"
 ```

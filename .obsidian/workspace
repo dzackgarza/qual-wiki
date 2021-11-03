@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+            "file": "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(\\work ) path:\".\"",
+                "query": "line:(\\work ) path:\"30_Complex Analysis\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3ce32054145f32a1",
@@ -79,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md"
               }
             }
           }
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -249,15 +248,15 @@
   },
   "active": "1b7c0fddedf9880b",
   "lastOpenFiles": [
+    "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+    "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/001_RealVariables.md",
     "My Active Problems.md",
     "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
     "40_Topology/020_Point_Set/001_Definitions.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/007_Residues.md",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
-    "30_Complex Analysis/600_Qual_Questions_UGA/9999_2021_Fall.md",
-    "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
-    "30_Complex Analysis/030_Residues/020_Residues.md"
+    "30_Complex Analysis/600_Qual_Questions_UGA/9999_2021_Fall.md"
   ]
 }
