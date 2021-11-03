@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "30_Fields_General",
+      "path": "10_Algebra/040_Rings/30_Fields_General.md"
+    },
+    {
+      "basename": "13_Groups_Classification",
+      "path": "10_Algebra/020_Groups/13_Groups_Classification.md"
+    },
+    {
       "basename": "110_Graduate_Topics",
       "path": "110_Graduate_Topics.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "20_Solutions",
       "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "30_Solutions",
-      "path": "40_Topology/000_Resources/30_Solutions.md"
-    },
-    {
-      "basename": "20_Problems",
-      "path": "40_Topology/000_Resources/20_Problems.md"
     }
   ],
   "omittedPaths": [],

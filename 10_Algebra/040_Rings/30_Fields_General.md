@@ -9,7 +9,7 @@ The most useful tricks of the trade:
   E.g. if $a^{17}=1$ in some finite field of size $p^k$, $o(a)$ divides 17 and $o(a)$ divides $p^{k}-1$, so $o(a)$ divides $\gcd(17, p^{k}-1)$.
 - Multiplicativity in towers can force numerical divisibility constraints.
   E.g. if $\alpha$ is a root of any irreducible $f$, take the tower $\SF(\alpha, k)/k(\alpha)/k$: then the degree of $\min_{\alpha, k}(x)\in k[x]$ divides the degree of the extension $[\SF(\alpha, k) :  k]$.
-- 
+
 :::
 
 
@@ -402,7 +402,7 @@ $\impliedby$:
 
 - Write $m = \ell q + r$, then $r=0$ by divisibility.
 - Then $x^m-1 = x^{\ell q} - 1 \da z^q-1$ where $z\da x^\ell$. 
-- Use that $z-1 \divides z^q - 1$, so $x^{\ell}-1 \divides x{\lq} -1 = x^m-1$.
+- Use that $z-1 \divides z^q - 1$, so $x^{\ell}-1 \divides x{\ell q} -1 = x^m-1$.
 
 :::
 
