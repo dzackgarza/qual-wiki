@@ -40,10 +40,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "work path:\"30_Complex Analysis\"",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3ce32054145f32a1",
