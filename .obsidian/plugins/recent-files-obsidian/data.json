@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "001_Definitions",
+      "path": "40_Topology/020_Point_Set/001_Definitions.md"
+    },
+    {
       "basename": "000_Preface",
       "path": "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "30_Complex Analysis",
       "path": "30_Complex Analysis.md"
-    },
-    {
-      "basename": "20_Real Analysis",
-      "path": "20_Real Analysis.md"
     }
   ],
   "omittedPaths": [],
