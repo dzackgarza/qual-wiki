@@ -466,7 +466,7 @@ The following are equivalent:
 ,\]
   where $\ts{E:F}$ is the number of isomorphisms to any field lifting $\id_F$:
 
-  ![](2021-08-09_22-29-40.png)
+![[figures/2021-08-09_22-29-40.png]]
 
 In this case, we define the **Galois group** as 
 \[

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "35_Fields_Extensions",
+      "path": "10_Algebra/060_Galois/35_Fields_Extensions.md"
+    },
+    {
+      "basename": "2021-08-09_22-29-40",
+      "path": "figures/2021-08-09_22-29-40.png"
+    },
+    {
+      "basename": "image_2021-06-09-02-11-59",
+      "path": "figures/image_2021-06-09-02-11-59.png"
+    },
+    {
       "basename": "30_Fields_General",
       "path": "10_Algebra/040_Rings/30_Fields_General.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "50_Solutions_Algebra",
       "path": "10_Algebra/000_Resources/50_Solutions_Algebra.md"
-    },
-    {
-      "basename": "Solution Compendia",
-      "path": "Solution Compendia.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "20_Real Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
     }
   ],
   "omittedPaths": [],

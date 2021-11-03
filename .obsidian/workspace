@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "10_Algebra/040_Rings/30_Fields_General.md",
+            "file": "10_Algebra/060_Galois/35_Fields_Extensions.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "10_Algebra/040_Rings/30_Fields_General.md",
+                "file": "10_Algebra/060_Galois/35_Fields_Extensions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Algebra/040_Rings/30_Fields_General.md"
+                "file": "10_Algebra/060_Galois/35_Fields_Extensions.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_Algebra/040_Rings/30_Fields_General.md",
+                "file": "10_Algebra/060_Galois/35_Fields_Extensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "10_Algebra/040_Rings/30_Fields_General.md",
+                "file": "10_Algebra/060_Galois/35_Fields_Extensions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -247,15 +247,15 @@
   },
   "active": "70222d76428dafc6",
   "lastOpenFiles": [
+    "10_Algebra/060_Galois/35_Fields_Extensions.md",
+    "figures/2021-08-09_22-29-40.png",
+    "figures/image_2021-06-09-02-11-59.png",
     "10_Algebra/040_Rings/30_Fields_General.md",
     "10_Algebra/020_Groups/13_Groups_Classification.md",
     "110_Graduate_Topics.md",
     "60_Differential Geometry/00_Books_Notes_DG.md",
     "100_Undergraduate_Topics.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
-    "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md",
-    "30_Complex Analysis/600_Qual_Questions_UGA/001_RealVariables.md",
-    "My Active Problems.md"
+    "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
   ]
 }
