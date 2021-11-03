@@ -1,12 +1,14 @@
 # Topology and Functions of One Variable
 
-## 1 $\work$
+## 1 $\work$ 
 Let $x_0 = a, x_1 = b$, and set
 \[  
 x_n \definedas {x_{n-1} + x_{n-2} \over 2} \quad n\geq 2
 .\]
 
 Show that $\theset{x_n}$ is a Cauchy sequence and find its limit in terms of $a$ and $b$.
+
+#todo
 
 ## 2 $\work$
 Suppose $f:\RR\to\RR$ is continuous and $\lim_{x\to \pm \infty} f(x) = 0$.
