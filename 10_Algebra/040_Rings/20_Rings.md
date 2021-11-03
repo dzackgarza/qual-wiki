@@ -29,7 +29,7 @@ The ideal **generated** by $\ts{a, b}$ is defined as
 
 More generally for a set $S = \ts{s_k}$,
 \[
-\gens{S} \da \sum_{k=1}^{\# S} Rs_k \da \ts{ \sum r_k s_k \st r_k\in R, s_k\in S}
+\gens{S} \da \sum_{k=1}^{\size S} Rs_k \da \ts{ \sum r_k s_k \st r_k\in R, s_k\in S}
 .\]
 :::
 

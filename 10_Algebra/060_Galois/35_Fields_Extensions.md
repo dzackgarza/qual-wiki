@@ -296,7 +296,7 @@ If $L/k$ is a finite extension, then, TFAE:
 - \( L = k( S ) \) for \( S \) some set of separable elements
 - $[L: K] = [L:K]_s$, i.e. the separable degree equals the actual degree.
 \[
-[L: k] = \ts{ L: k } \da \# \Aut_{\Fieldsover k}(L)
+[L: k] = \ts{ L: k } \da \size \Aut_{\Fieldsover k}(L)
 .\] 
 :::
 
@@ -307,7 +307,7 @@ If $L/k$ is separable, then
 .\]
 If $L/k$ is a splitting field, then
 \[
-[L:K] = \# \Aut_{\Fieldsover{k}}(L) \da \# \Gal(L/k)
+[L:K] = \size \Aut_{\Fieldsover{k}}(L) \da \size \Gal(L/k)
 .\]
 
 :::
@@ -462,7 +462,7 @@ The following are equivalent:
 - $L$ is a finite separable splitting field of an irreducible polynomial.
 - There is a numerical equality:
 \[
-\# \Aut_{\Fieldsover{k}} (L) = [L: k] = \ts{ L: k}
+\size \Aut_{\Fieldsover{k}} (L) = [L: k] = \ts{ L: k}
 ,\]
   where $\ts{E:F}$ is the number of isomorphisms to any field lifting $\id_F$:
 

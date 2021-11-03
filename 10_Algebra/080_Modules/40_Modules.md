@@ -188,7 +188,7 @@ For $R$ an integral domain, any finitely generated free \(R\dash\)module $M$ is 
 :::{.proof title="that free implies torsionfree"}
 \envlist
 
-- If $M$ is finitely generated, write $M = \gens{X}$ with $X\da \ts{x_1, \cdots, x_m}$ and $\# X<\infty$ a finite generating set.
+- If $M$ is finitely generated, write $M = \gens{X}$ with $X\da \ts{x_1, \cdots, x_m}$ and $\size X<\infty$ a finite generating set.
 - Since $M$ is free, there is some maximal subset of generators $\mcb \da \ts{x_1, \cdots, x_n} \subseteq X$ where $n\leq m$ that is linearly independent.
 - Consider $N\leq M$ defined by $\gens{\mcb}$; this is a basis for $N$ and makes $N$ free.
   The claim is now that $M\cong N$, so that any maximal linearly independent subset of generators is all of $X$.

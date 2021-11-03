@@ -516,7 +516,7 @@ We say that $r$ is a **zero-divisor** if $r\bullet$ is not injective.
 Show that if $r$ is a zero-divisor and $r \neq 0$, then the kernel and image of $R$ each consist of zero-divisors.
 
 c.
-Let $n \geq 2$ be an integer. Show: if $R$ has exactly $n$ zero-divisors, then $\#R \leq n^2$ .
+Let $n \geq 2$ be an integer. Show: if $R$ has exactly $n$ zero-divisors, then $\sizeR \leq n^2$ .
 
 d.
 Show that up to isomorphism there are exactly two commutative rings $R$ with precisely 2 zero-divisors.
@@ -534,7 +534,7 @@ following:
 \envlist
 
 - Testing module morphisms: $\phi(sm + n) = s\phi(m) + \phi(n)$.
-- First isomorphism theorem used for sizes: $R/\ker f \cong \im f$, so $\# R = \# \ker f \cdot \# \im f$.
+- First isomorphism theorem used for sizes: $R/\ker f \cong \im f$, so $\size R = \size \ker f \cdot \size \im f$.
 - See 1964 Annals "Properties of rings with a finite number of zero divisors"
 :::
 

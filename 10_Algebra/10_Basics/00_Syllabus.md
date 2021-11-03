@@ -73,7 +73,7 @@ Chapters 1-9 of Dummit and Foote
 - The simple groups of order between 60 and 168 have prime order
 - The simplicity of $A_n$, for $n \geq 5$
 - Solvable groups
-- Subgroups of index $p$, the smallest prime dividing $\# G$, are normal
+- Subgroups of index $p$, the smallest prime dividing $\size G$, are normal
 - $p$-groups
 - $p^2$ groups are abelian
 - Automorphisms

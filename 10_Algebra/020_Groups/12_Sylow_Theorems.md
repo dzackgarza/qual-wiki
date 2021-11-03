@@ -7,8 +7,8 @@ order: 20
 :::{.remark}
 Useful facts:
 
-- Counting contributions to $\# G$ from $\Syl_p(G)$: writing $\# G = p^k m$ so that $\# S_p = p^k$, using that every order $p$ element is in some $S_p$ one gets at least $n_p(\ell - 1)$ for some constant $\ell > 1$.
-  - **Warning**: every $S_p$ is the same size, so it's tempting to take $\ell \da \# S_p = p^k$.
+- Counting contributions to $\size G$ from $\Syl_p(G)$: writing $\size G = p^k m$ so that $\size S_p = p^k$, using that every order $p$ element is in some $S_p$ one gets at least $n_p(\ell - 1)$ for some constant $\ell > 1$.
+  - **Warning**: every $S_p$ is the same size, so it's tempting to take $\ell \da \size S_p = p^k$.
     But this only works if one knows the $S_p$ intersect trivially, e.g. if $k=1$.
     Otherwise, the best one can do without more information $\ell = p$, i.e. the $S_p$ all intersect trivially or in subgroups of order $p$.
   - **Warning**:
@@ -24,7 +24,7 @@ A **$p\dash$group** is a group $G$ such that every element is order $p^k$ for so
 :::{.lemma title="Congruences for fixed points"}
 If $G\actson X$ for $G$ a $p\dash$group, then letting $\Fix(G) \da \ts{x\in X \st gx=x}$, one has
 \[
-\# X \equiv \# \Fix(G) \mod p
+\size X \equiv \size \Fix(G) \mod p
 .\]
 :::
 
@@ -33,12 +33,12 @@ If $G\actson X$ for $G$ a $p\dash$group, then letting $\Fix(G) \da \ts{x\in X \s
 
 - Use the fixed-point count trick:
 \[
-\# X = \# \Fix(G) + \sum_{x}' \# \Orb(x)
+\size X = \size \Fix(G) + \sum_{x}' \size \Orb(x)
 .\]
   Note that the result follows immediately by reducing $\mod p$ if the sum is zero $\mod p$. 
-- Letting $x$ be an element with a nontrivial orbit, we have $\# \Orb(x) > 1$, so $\Stab(x) \neq G$ since orbit-stabilizer would yield $\# \Orb(x) = [G:\Stab(x)] = 1$.
-- Now use that $\# \Orb(x) = \# G/ \#\Stab(x) = p^k/p^\ell$ where $0< \ell < k$ with strict inequalities.
-  So $\# \Orb(x) = p^{k-\ell} \neq 1$, and $p$ divides its size.
+- Letting $x$ be an element with a nontrivial orbit, we have $\size \Orb(x) > 1$, so $\Stab(x) \neq G$ since orbit-stabilizer would yield $\size \Orb(x) = [G:\Stab(x)] = 1$.
+- Now use that $\size \Orb(x) = \size G/ \size\Stab(x) = p^k/p^\ell$ where $0< \ell < k$ with strict inequalities.
+  So $\size \Orb(x) = p^{k-\ell} \neq 1$, and $p$ divides its size.
 
 :::
 
@@ -74,12 +74,12 @@ In particular, Sylow $p\dash$subgroups always exist.
 :::{.proof title="of Sylow 1: left translation"}
 \envlist
 
-- Let $\# G = p^k m$.
-  Idea: Induct up by showing that if $\# H = p^i$ for $i\leq k$, one can product a bigger subgroup $\tilde H \contains H$ with $[\tilde H : H] = p$.
-  This makes $\# \tilde H = p^{i+1}$.
+- Let $\size G = p^k m$.
+  Idea: Induct up by showing that if $\size H = p^i$ for $i\leq k$, one can product a bigger subgroup $\tilde H \contains H$ with $[\tilde H : H] = p$.
+  This makes $\size \tilde H = p^{i+1}$.
 - Let $H\leq G$ so that $H$ is a $p\dash$group.
 - Let $H\actson G/H$ by left-translation.
-- Use the lemma that $\#(G/H)\equiv \Fix_H(G/H)\mod p$
+- Use the lemma that $\size(G/H)\equiv \Fix_H(G/H)\mod p$
 - Identify $\Fix_H(G/H) = N_G(H)$, since fixing $xH$ means $gxH = xH \implies gHg\inv \subseteq H \implies gHg\inv = H$ for all $g\in G$.
 \[
 xH \in \Fix_H(G/H) 
@@ -90,10 +90,10 @@ xH \in \Fix_H(G/H)
 ,\]
   so $\Fix_H(G/H) = \ts{gH \st g\in N(H)} = N_G(H)/ H$ are cosets whose representatives are normalizers of $H$.
 - Since $H\normal N_G(H)$, these cosets form a group.
-- We have $[G:H] = \#(N_G(H) / H)$, and if $i<k$ then $p$ divides $[G: H]$.
+- We have $[G:H] = \size(N_G(H) / H)$, and if $i<k$ then $p$ divides $[G: H]$.
 - So $N_G(H)/H$ is a $p\dash$group and has a subgroup $L$ of order $p$ by Cauchy.
 - Use the subgroup correspondence: $L\leq N_G(H)/H$ corresponds to some $L' \leq G$ with $H \subseteq L' \subseteq N_G(H)$ and $L = L'/H$.
-  Now use that $\# L = p$ implies $\#(L' / H) = [L':H] = p$, so $\# L' = [L':H]\#H = p\#H = p^{i+1}$ as desired.
+  Now use that $\size L = p$ implies $\size(L' / H) = [L':H] = p$, so $\size L' = [L':H]\sizeH = p\sizeH = p^{i+1}$ as desired.
 
 
 :::
@@ -120,7 +120,7 @@ n_p = 1 \iff S_p \normal G
 - Let $S_1, S_2\in \Syl_p(G)$, and let $S_1\actson G/S_2$ by left-translation.
 - Use the lemma:
 \[
-\# (G/S_2) \equiv \Fix_{S_1}(G/S_2) \mod p
+\size (G/S_2) \equiv \Fix_{S_1}(G/S_2) \mod p
 .\]
 
 - $[G:S_2] = m$ is coprime to $p$, so there is a fixed point, say $xS_2$ where $gxS_2 = xS_2$ for all $g\in S_1$.
@@ -163,7 +163,7 @@ where we now get equality since these sets have the same cardinality.
 
 - $n_p \divides m$:
   - Let $G\actson X\da \Syl_p(G)$ by conjugation; this is transitive by Sylow II and there is one orbit.
-  - Then $\# X$ must divide $\# G$, so $n_p$ divides $\# G = p^k m$.
+  - Then $\size X$ must divide $\size G$, so $n_p$ divides $\size G = p^k m$.
   - Using $n_p \equiv 1 \mod p$, we can't have $n_p\divides p^k$, and so $n^p$ must divide $m$.
 
 - $n_p = [G: N_G(P)]$ for any $P\in \Syl_p(G)$:

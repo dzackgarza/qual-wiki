@@ -4,7 +4,7 @@
 :::{.remark}
 The most useful tricks of the trade:
 
-- $\# \GG_m(\GF(p^k)) = p^k-1$, since every element is invertible except 0.
+- $\size \GG_m(\GF(p^k)) = p^k-1$, since every element is invertible except 0.
   You can use this to cook up strong numerical constraints on orders of elements.
   E.g. if $a^{17}=1$ in some finite field of size $p^k$, $o(a)$ divides 17 and $o(a)$ divides $p^{k}-1$, so $o(a)$ divides $\gcd(17, p^{k}-1)$.
 - Multiplicativity in towers can force numerical divisibility constraints.
@@ -166,7 +166,7 @@ Automorphisms of fields over $K$ are defined as
 , \] 
 so lifts of the identity on $k$, and 
 \[
-\ts{K:k} \da \# \Aut(K/k)
+\ts{K:k} \da \size \Aut(K/k)
 .\]
 
 If $K/k$ is finite, normal, and separable,
@@ -262,7 +262,7 @@ This has no roots in $k$.
 
 :::{.definition title="Euler's Totient Function"}
 \[
-\phi(n) \da \# \ts{ k\leq n \st \gcd(k ,n ) = 1}
+\phi(n) \da \size \ts{ k\leq n \st \gcd(k ,n ) = 1}
 .\]
 :::
 

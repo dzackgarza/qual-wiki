@@ -8,7 +8,7 @@ title: Midterm
 Note that if either $p=1$ or $q=1$, $G$ is a $p\dash$group, which is a nontrivial center that is always normal. So assume $p\neq 1$ and $q\neq 1$.
 
 We want to show that $G$ has a non-trivial normal subgroup.
-Noting that $\# G = p^2 q$, we will proceed by showing that either $n_p$ or $n_q$ must be 1.
+Noting that $\size G = p^2 q$, we will proceed by showing that either $n_p$ or $n_q$ must be 1.
 
 We immediately note that
 \[
@@ -27,7 +27,7 @@ If either $n_p =1$ or $n_q = 1$, we are done, so suppose $n_p \neq 1$ and $n_1 \
 
 ## Case 1: $p = q$.
 
-Then $\# G = p^3$ and $G$ is a $p\dash$group. 
+Then $\size G = p^3$ and $G$ is a $p\dash$group. 
 But every $p\dash$group has a non-trivial center $Z(G) \leq G$, and the center is always a normal subgroup.
 
 ## Case 2: $p > q$.
@@ -146,12 +146,12 @@ $S_p \subseteq J \subseteq S$, and so $S_p \subseteq S$ as desired. $\qed$
 # Problem 5
 
 Since $G$ is a $p\dash$group, it has a nontrivial center. 
-Since $p$ is prime and $Z(G)$ is a subgroup, this forces $\# Z(G) \in \theset{p, p^2}$, where $p^3$ is ruled out because this would make $G$ abelian.
+Since $p$ is prime and $Z(G)$ is a subgroup, this forces $\size Z(G) \in \theset{p, p^2}$, where $p^3$ is ruled out because this would make $G$ abelian.
 
-Supposing that $\# Z(G) = p^2$,we would have $[G: Z(G)] = p$, and since $Z(G) \normal G$, we can take the quotient and $\#\left(G/Z(G)\right) = p$.
+Supposing that $\size Z(G) = p^2$,we would have $[G: Z(G)] = p$, and since $Z(G) \normal G$, we can take the quotient and $\size\left(G/Z(G)\right) = p$.
 But this means $G/Z(G)$ is cyclic, which implies that $G$ is abelian, a contradiction.
 
-So we must have $\#Z(G) = p$, and $\#\left(G/Z(G)\right) = p^2$.
+So we must have $\sizeZ(G) = p$, and $\size\left(G/Z(G)\right) = p^2$.
 
 But any group of $p^2$ is abelian, and we can characterize $G' \definedas [G, G]$ in the following way:
 
@@ -360,7 +360,7 @@ Similarly, since $\Gal(K/F)$ is a cyclic group and every *quotient* of a cyclic 
 By the Galois correspondence, all intermediate fields will correspond to subgroups of $\Gal(K/F)$.
 Since this group is cyclic, we are reduced to analyzing the subgroup lattice of a generic cyclic group.
 
-But if $G = \generators{x \mid x^n = e}$ where $\# G = n$, then there is one and *only* one subgroup of index $d$ and order $\frac{n}{d}$ for every $d$ dividing $n$, given by $H_d \definedas \generators{x^d}$.
+But if $G = \generators{x \mid x^n = e}$ where $\size G = n$, then there is one and *only* one subgroup of index $d$ and order $\frac{n}{d}$ for every $d$ dividing $n$, given by $H_d \definedas \generators{x^d}$.
 
 So we have $[G: H_d] = d$, so $H_d$ corresponds to a field $E_d/ F$ of degree $d$ where $F \leq E_d \leq K$. 
 This can be done for every $d$ dividing $n$, and since $K/F$ is a Galois extension, $n = \abs{\Gal(K/F)} = [K: F]$, and this can be done for every divisor of $[K: F]$ as desired. $\qed$

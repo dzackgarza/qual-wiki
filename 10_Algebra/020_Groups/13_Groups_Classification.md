@@ -63,7 +63,7 @@ C_n= C_{\prod_{k=1}^\ell p_k^{n_k}}= \prod_{k=1}^{\ell} C_{p_k^{n_k}}
 
 - $\Aut(C_p^n) \cong \GL_n(\FF_p)$ which has size 
 \[
-\# \GL_n(\FF_p) = \prod_{k=0}^{n-1}(p^n-p^k) = (p^n-1)(p^n-p)(p^n-p^2)\cdots(p^n-p^{n-1})
+\size \GL_n(\FF_p) = \prod_{k=0}^{n-1}(p^n-p^k) = (p^n-1)(p^n-p)(p^n-p^2)\cdots(p^n-p^{n-1})
 .\]
 
 ![[figures/2021-08-20_19-45-33.png]]
@@ -72,7 +72,7 @@ C_n= C_{\prod_{k=1}^\ell p_k^{n_k}}= \prod_{k=1}^{\ell} C_{p_k^{n_k}}
   For $n=2$, this seems to be a wreath product $\Aut(C_m) \wr C_2$.
 
 
-- Counting homs: $\# \Hom_\Grp(C_n, C_m) = \gcd(n ,m)$.
+- Counting homs: $\size \Hom_\Grp(C_n, C_m) = \gcd(n ,m)$.
 
 
 -  If $\sigma \in \Aut(H)$ and $\tau \in \Aut(N)$, then \(N \semidirect_\psi H \cong N \semidirect_{\tau \circ \psi \circ \sigma} H\).
@@ -255,8 +255,8 @@ Can the conditions be relaxed?
 
 :::{.remark}
 Things are particularly nice when the orders of $H$ and $k$ are coprime.
-For 3, $x\in H \intersect K$ implies that the order of $x$ divides $\gcd(\# H, \# K) = 1$, so $H \intersect K = \ts{e}$.
-Thus for 2, one only needs that $\#(HK) = \# G$.
+For 3, $x\in H \intersect K$ implies that the order of $x$ divides $\gcd(\size H, \size K) = 1$, so $H \intersect K = \ts{e}$.
+Thus for 2, one only needs that $\size(HK) = \size G$.
 :::
 
 :::{.proof title="?"}
@@ -439,7 +439,7 @@ Reading down columns, left to right (merging nothing) yields elementary divisors
 :::
 
 :::{.proposition title="Number of abelian groups is given by products of partition numbers"}
-If $\# G \da n = \prod_{k=1}^m p_k^{e_k}$, then there are exactly $\prod_{k=1}^m P(e_k)$ abelian groups of order $n$, where $P$ is the integer partition function.
+If $\size G \da n = \prod_{k=1}^m p_k^{e_k}$, then there are exactly $\prod_{k=1}^m P(e_k)$ abelian groups of order $n$, where $P$ is the integer partition function.
 :::
 
 :::{.example title="of an integer partition"}
@@ -500,7 +500,7 @@ Note that you could just stop at the third line, since $P(3) = 3$ is easy to enu
 :::
 
 :::{.example title="Applying this to classifying groups"}
-Suppose $\# G = n = p^3 q^4$. 
+Suppose $\size G = n = p^3 q^4$. 
 Compute that $p(3) = 3$ and $p(4) = 5$, so there should be 15 abelian groups of this order.
 Enumerate the partitions:
 
@@ -543,7 +543,7 @@ Every group $G$ of prime order $p\geq 2$ is cyclic and thus isomorphic to $\ZZ/p
 
 :::{.proof title="?"}
 Supposing that $g\neq e$, it generates a cyclic subgroup $H \da \gens{g} \leq G$ of order dividing $p$ by Lagrange.
-Since $g\neq e$, $\#H = p = \# G$.
+Since $g\neq e$, $\sizeH = p = \size G$.
 :::
 
 :::{.proposition title="Classification of groups of order $p^2$"}
@@ -551,7 +551,7 @@ Every group $G$ of order $p^2$ is abelian, and thus isomorphic to either $C_{p^2
 :::
 
 :::{.proof title="?"}
-Quotient by the center to get $m\da \#G/Z(G) \in \ts{ 1, p, p^2 }$.
+Quotient by the center to get $m\da \sizeG/Z(G) \in \ts{ 1, p, p^2 }$.
 By cases:
 
 - Since $G$ is a $p\dash$group, $G$ has nontrivial center, so $m\neq 1$
@@ -591,9 +591,9 @@ G\cong \gens{a, b \st a^p, b^q, bab\inv = a^\ell} \\ \\
   - $S_p \intersect S_q = \ts{ e }$: check, because they are coprime order.
   - $S_p S_q = G$: follows from a counting argument:
   \[
-  \# S_pS_q = {\# S_p \# S_q \over \# \qty{S_p \intersect S_q}} = {pq \over 1} = \# G
+  \size S_pS_q = {\size S_p \size S_q \over \size \qty{S_p \intersect S_q}} = {pq \over 1} = \size G
   .\]
-  If $G$ is finite, then $AB\leq G$ with $\#AB = \#G$ implies $AB = G$.
+  If $G$ is finite, then $AB\leq G$ with $\sizeAB = \sizeG$ implies $AB = G$.
 :::
 
 :::{.proof title="of $pq$ theorem, case 2"}
@@ -621,7 +621,7 @@ G&\cong \ZZ/q \semidirect_{\psi} \ZZ/p
 .\]
   - Consider $\im\psi \leq \ZZ/(p-1)$.
   - Sending $[1]_q$ to the identity in $\Aut(\ZZ/p)$ yields the direct product again, so pick nontrivial morphisms.
-  - Since $\# \im \psi \divides q$ which is prime, its order is equal to $q$.
+  - Since $\size \im \psi \divides q$ which is prime, its order is equal to $q$.
   - Since $q\divides p-1$ and $\ZZ/(p-1)$ is cyclic of order $p-1$, by Cauchy's theorem there is a unique subgroup of order $q$, say $C_q \leq \ZZ(p-1)$
   - We can send $[1]_q$ to $[\alpha]_{p-1} \in \ZZ/(p-1)$ where $\alpha$ is any generator of $C_q$, of which there are $\phi(q) = q-1$ nontrivial choices.
 
@@ -668,8 +668,8 @@ Every finite $p$ group is solvable.
 :::{.proof title="?"}
 \envlist
 
-- By induction on $k$ in $\# G = p^k$: if $\# G = p$ then $G$ is abelian and automatically solvable. 
-- Inductively, for $\# G = p^k$, now consider $Z(G)\neq 1$ since we're in a $p\dash$group.
+- By induction on $k$ in $\size G = p^k$: if $\size G = p$ then $G$ is abelian and automatically solvable. 
+- Inductively, for $\size G = p^k$, now consider $Z(G)\neq 1$ since we're in a $p\dash$group.
 - If $G/Z(G)$ is abelian, use the general fact: $H$ solvable and $G/H$ solvable implies $G$ solvable.
   - Here $Z(G)$ and $G/Z(G)$ are both abelian and thus solvable.
 - Otherwise $G/Z(G)$ is a $p\dash$group of size $p^{k-1}$ and thus solvable by hypothesis.
@@ -677,7 +677,7 @@ Every finite $p$ group is solvable.
 :::
 
 :::{.lemma title="$pq$ groups have normals the size of the biggest prime"}
-If $\# G = pq$ with $p<q$ distinct primes, then $G$ has a normal subgroup of size $q$.
+If $\size G = pq$ with $p<q$ distinct primes, then $G$ has a normal subgroup of size $q$.
 
 This is immediate from Sylow theory: $[n_q]_q = 1, n_q \divides p, p<q$ forces $n_q = 1$.
 :::
@@ -691,18 +691,18 @@ If $|G| = pqr$ where $p<q<r$ are distinct primes then $G$ is solvable.
 
 Idea: 
 
-- Get a normal subgroup $R$ of order $r$, so $\# (G/R) = pq$.
+- Get a normal subgroup $R$ of order $r$, so $\size (G/R) = pq$.
 - Get a normal subgroup $Q_1$ of order $q$ in $G/R$, which corresponds to $Q\normal G$ of order $qr$ containing $R$.
   Note that $R\normal Q$ since normality descends to subgroups.
 - Now $G\to Q\to R \to 1$ is a subnormal series whose quotients are all cyclic and thus abelian:
-  - $\#(G/Q) = pqr/qr = p$,
-  - $\#(Q/R) = qr/r = q$,
-  - $\#(R/1) = r$,
+  - $\size(G/Q) = pqr/qr = p$,
+  - $\size(Q/R) = qr/r = q$,
+  - $\size(R/1) = r$,
 
 :::
 
 :::{.remark}
-Proof of first claim: let $m\da \# G = pqr$, then $G$ has a normal subgroup of order $r$.
+Proof of first claim: let $m\da \size G = pqr$, then $G$ has a normal subgroup of order $r$.
 
 - Claim: at least one of the Sylows for $p,q,$ or $r$ is normal.
   - If none of the Sylow $p,q,r$ groups are normal, then $n_r \geq r$ and $n_p \geq q$.

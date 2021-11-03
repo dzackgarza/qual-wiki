@@ -41,8 +41,8 @@ N_G(P) = \ts{g\in G \st gPg\inv = P}
   This is because we can count in towers:
   \[
   [K:F] = [K:E][E:F] &\implies [G:1] = [K:E][H:1] \\
-  &\implies \# G = [K:E] \# H \\
-  &\implies [G:H] = {\# G \over \# H} = [K:E]
+  &\implies \size G = [K:E] \size H \\
+  &\implies [G:H] = {\size G \over \size H} = [K:E]
   .\]
 
 - Essential fact: if $P \in \Syl_p(G)$, we can use that $P \subseteq N_G(P) \subset H$ and so $P\in \Syl_p(H)$ as well.
@@ -64,8 +64,8 @@ N_G(P) = \ts{g\in G \st gPg\inv = P}
   \[
   {[G: N_G(P)] \over [H:N_H(P)] }=
   {[G: N_H(P)] \over [H:N_H(P)] }=
-  {\# G / \# N_H(P) \over \# H / \#N_H(P)}
-  = {\# G \over \# H} 
+  {\size G / \size N_H(P) \over \size H / \sizeN_H(P)}
+  = {\size G \over \size H} 
   = [G: H]
   .\]
 
@@ -286,7 +286,7 @@ G = S_3 \cong D_3, A_3 \cong C_3
 \[
 [L:\QQ] = [L:L_0][L_0: \QQ] = (2)(3) = 6
 .\]
-- But $\# S_3 = 6$ and $\# A_3 = 3$, so $G = S_3$.
+- But $\size S_3 = 6$ and $\size A_3 = 3$, so $G = S_3$.
 
 - Explicitly, since we can write $\SF(f) = \QQ(\omega, \zeta_3)$, we can find explicit generators:
 \[
@@ -1182,7 +1182,7 @@ Prove that $m = k$.
 \envlist
 
 - $\FF\units$ is always cyclic for $\FF$ a field.
-- Lagrange: $H\leq G \implies \#H \divides \# G$.
+- Lagrange: $H\leq G \implies \sizeH \divides \size G$.
 
 :::
 

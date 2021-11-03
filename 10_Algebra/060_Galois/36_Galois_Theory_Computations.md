@@ -18,7 +18,7 @@
  Once you get $A\inv \vector x = \vector b$, read off the first row dotted against $\vector b$ to get a polynomial in $x$.
  - In general: take $\alpha$, sort out the degree $n$ of the extension $\QQ(\alpha)/\QQ$, and use the basis $1,\alpha,\alpha^2,\cdots, \alpha^{n-1}$.
 
-- A trick to remember how degrees, indices and sizes match up: $L/K/F$ corresponds to $1/H/G$, and $[L:K] = [H:1] = \# H$, $[F:K] = [G:H]$, $[L:F] = [G:1] = \# G$, etc.
+- A trick to remember how degrees, indices and sizes match up: $L/K/F$ corresponds to $1/H/G$, and $[L:K] = [H:1] = \size H$, $[F:K] = [G:H]$, $[L:F] = [G:1] = \size G$, etc.
 
 - Trick: once you find $\SF(f)/\QQ$, if any subextension is not normal over $\QQ$, then $G$ can not be abelian.
   - Example: $f(x) = x^3-2$ splits in $\QQ(\zeta_3, 2^{1\over 3})$ which has a non-normal subextension $\QQ(2^{1\over 3})$, forcing $G= S_3$.
@@ -44,9 +44,9 @@ Let $f\in \QQ[x]$ with $n \da \deg f$.
 
 - Show your extension is Galois (normal and separable)
   - Show $f$ is irreducible and separable.
-- Find the degree of the extension $d$, since then $\# G = d$.
-  - Note that in general, $G\leq S_n$ and $n\neq d$, $\# G\neq n$.
-- Obtain $n\divides d \da \# G \divides n!$ and $G\leq S_n$ is a transitive subgroup, list possibilities.
+- Find the degree of the extension $d$, since then $\size G = d$.
+  - Note that in general, $G\leq S_n$ and $n\neq d$, $\size G\neq n$.
+- Obtain $n\divides d \da \size G \divides n!$ and $G\leq S_n$ is a transitive subgroup, list possibilities.
 - Rule out cases or determine the group completely by finding cycle types.
 
 :::
@@ -61,7 +61,7 @@ Consider $f(x) \da x^5-9x+3$, let $L\da \SF(f)/\QQ$.
 - $L$ is Galois:
   - $L/\QQ$ is a finite extension over a perfect field and thus automatically separable.
   - $L/\QQ$ is the splitting field of a separable polynomial, and thus normal.
-- Since $L$ is Galois, $\# G = d \da [L: \QQ]$, so try to compute the degree by computing the splitting field (and its degree) explicitly.
+- Since $L$ is Galois, $\size G = d \da [L: \QQ]$, so try to compute the degree by computing the splitting field (and its degree) explicitly.
   - Here: difficult! The roots are complicated.
 - Since $L$ is Galois, $G\leq S_5$ is a transitive subgroup.
   Possibilities: 
@@ -185,7 +185,7 @@ Once you've confirmed that you have a Galois extension, some useful tricks are a
 :::{.fact title="Degrees of extensions"}
 \envlist
 
-- The size $\# G(f)$ is the degree $[\SF(f) : \QQ]$.
+- The size $\size G(f)$ is the degree $[\SF(f) : \QQ]$.
 - The degree of $[\QQ(\alpha): \QQ]$ is the degree of $\min_{\alpha}(x)$, or any irreducible polynomial with $\alpha$ as a root.
   - Note that $\QQ(\alpha)\neq \SF(f)$ in general.
 - If $f=\prod(x-r_i)$, then $\SF(f)$ contains every $\QQ(r_i)$.
@@ -220,16 +220,16 @@ If $f\in k[x]$ is irreducible, then $\Gal(\SF(f)/k) \leq S_n$ is **always** a tr
 
 :::{.corollary}
 \[
-n\divides \# \Gal(K/\QQ) \divides n!
+n\divides \size \Gal(K/\QQ) \divides n!
 .\]
 
-Why: $\Gal(K/\QQ) \cong G\leq S_n$, and Lagrange yields $\#H \divides n!$.
+Why: $\Gal(K/\QQ) \cong G\leq S_n$, and Lagrange yields $\sizeH \divides n!$.
 Note that $G$ acts on $R$ the set of $n$ roots, and since it acts transitively, $R$ is a single orbit.
 By orbit stabilizer, $\OO_r \cong G/\Stab_G(r)$ and thus
 \[
-\# G = \# \OO_r \cdot \# \Stab_G(r)
+\size G = \size \OO_r \cdot \size \Stab_G(r)
 ,\]
-so both terms on the right-hand side patently divide $\# G$
+so both terms on the right-hand side patently divide $\size G$
 :::
 
 :::{.fact title="Table of transitive subgroups of $S_n$ for qual-sized $n$"}
@@ -246,7 +246,7 @@ The following are transitive subgroups of $S_n$ for small $n$, where blue groups
 
 Other useful facts:
 
-- $\# D_n = 2n$, $\#S_n = n!, \# A_n = n!/2$, and $\# F_5 = 20$.
+- $\size D_n = 2n$, $\sizeS_n = n!, \size A_n = n!/2$, and $\size F_5 = 20$.
 - For degree 8 extensions (which sometimes arise as quadratic extensions of degree 4 extensions): 
   $Q_8 \leq S_8$ is transitive and nonabelian of order 8, and has presentation
 \[
@@ -304,7 +304,7 @@ Useful fact: if $G \leq S_n$ for $n$ prime contains a 2-cycle and a $p\dash$cycl
 Note that for $n$ not prime, a transposition and an $n\dash$cycle isn't enough, since one needs the specific $n\dash$cycle $(1,2,\cdots,n)$ in general.
 
 If $n>2$ and $G$ contains a 3-cycle and an $n\dash$cycle, then $G = A_n$ or $S_n$.
-Note that by Orbit-Stabilizer $n\divides \# G$, and if $n$ is prime then by Cauchy there is an $n\dash$cycle (but this is not always the case).
+Note that by Orbit-Stabilizer $n\divides \size G$, and if $n$ is prime then by Cauchy there is an $n\dash$cycle (but this is not always the case).
 In fact, it suffices to find a $k\dash$cycle for any $k\geq n/2$, which can be found by reducing mod $p$ and examining cycle types.
 
 Moreover, if $G$ contains a 2-cycle (transposition), then $G = S_n$.
@@ -338,9 +338,9 @@ Warning: this only works if the $f_i$ are distinct, i.e. there are no repeated f
 :::
 
 :::{.example title="Ruling out choices by existence of cycle types"}
-You can use this to rule out types of groups using Lagrange's theorem: if you find a cycle of length $m$ which doesn't divide $\# H$, then $H$ isn't a possibility!
-Example: $\deg f=5$ with exactly one conjugate pair of roots, then there is a 5-cycle $\sigma \da (1,2,3,4,5)$ because $5\divides \# G$ and a 2-cycle $\tau \da (1,2)$ coming from complex conjugation.
-There check that $a_1 \da \sigma \tau \sigma\inv = (1, 5)$ and $a_1 \tau = (1, 5, 2)$ is a 3-cycle, so $3\divides \# G$.
+You can use this to rule out types of groups using Lagrange's theorem: if you find a cycle of length $m$ which doesn't divide $\size H$, then $H$ isn't a possibility!
+Example: $\deg f=5$ with exactly one conjugate pair of roots, then there is a 5-cycle $\sigma \da (1,2,3,4,5)$ because $5\divides \size G$ and a 2-cycle $\tau \da (1,2)$ coming from complex conjugation.
+There check that $a_1 \da \sigma \tau \sigma\inv = (1, 5)$ and $a_1 \tau = (1, 5, 2)$ is a 3-cycle, so $3\divides \size G$.
 This rules out $F_5$ which is of order 20, since $3\not\divides 20$.
 :::
 
@@ -478,7 +478,7 @@ The claim is that $G$ contains an element of order 5, i.e. a 5-cycle, which is e
 This follows because 
 
 - Galois acts transitively, so there is a length 5 orbit.
-- By Orbit-Stabilizer, 5 divides $\# G$.
+- By Orbit-Stabilizer, 5 divides $\size G$.
 - By Sylow, there is an element of order 5.
 
 So $G = S_5$.
@@ -519,7 +519,7 @@ Thus it suffices to consider quadratics of the form $x^2+a$.
   \[
 G \subseteq \gens{(1, 2), (3, 4)} = \ts{\id, (1,2), (3,4), (1,2)(3,4)} \cong C_2\cross C_2
   .\]
-  - $\# G = 4$, taking the tower $\QQ(\sqrt 2, \sqrt 3) / \QQ(\sqrt 2)/ \QQ$ and noting $\sqrt 3 \not\in \QQ(\sqrt 2)$ which makes each step degree 2.
+  - $\size G = 4$, taking the tower $\QQ(\sqrt 2, \sqrt 3) / \QQ(\sqrt 2)/ \QQ$ and noting $\sqrt 3 \not\in \QQ(\sqrt 2)$ which makes each step degree 2.
   So this forces $G \cong C_2\cross C_2$.
 :::
 
@@ -730,7 +730,7 @@ Degree 4:
   - $D_4 \leq S_4$ is the only transitive subgroup of order 8.
   - Useful note on bounding the size:
     - Any $\sigma \in G$ must preserves roots of $x^4-2$ but also $x^2+1$.
-      So there are at most 4 possibilities for $\sigma(\omega)$, and at most 2 for $\sigma(\zeta_4)$, so $\# G \leq 8$ and $G\neq S_4$.
+      So there are at most 4 possibilities for $\sigma(\omega)$, and at most 2 for $\sigma(\zeta_4)$, so $\size G \leq 8$ and $G\neq S_4$.
   - Explicitly, there is a 4-cycle $\sigma = (1,2,3,4)$ generated by $\omega \mapsto \zeta_4 \omega$ and a 2-cycle $(2,4)$ given by complex conjugation, and this generates $D_4$ since $\gcd(4-2, 4) \neq 1$.
     - Why this is a 4-cycle: check $\sigma(i)=i$, and:
   \[

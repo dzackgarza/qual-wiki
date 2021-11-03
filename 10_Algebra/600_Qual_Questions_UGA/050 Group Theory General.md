@@ -23,9 +23,9 @@ Descend to quotient so you can leverage both the order of $h$ *and* the order of
 \envlist
 
 - For ease of notation, replace $H$ in the problem with $N$ so we remember which one is normal.
-- Write $n\da \# N$ and $m \da [G:N] = \#G/N$, where the quotient makes sense since $N$ is normal.
-- Let $H \leq G$ with $\# H = n$, we'll show $H=N$.
-  - Since $\# H = \# N$ it suffices to show $H \subseteq N$.
+- Write $n\da \size N$ and $m \da [G:N] = \sizeG/N$, where the quotient makes sense since $N$ is normal.
+- Let $H \leq G$ with $\size H = n$, we'll show $H=N$.
+  - Since $\size H = \size N$ it suffices to show $H \subseteq N$.
   - It further suffices to show $hN = N$ for all $h\in H$.
 - Noting $\gcd(m, n)=1$, use the division algorithm to write $1 = ns + mt$ for some $s,t\in \ZZ$.
 - The result follows from a computation:
@@ -38,8 +38,8 @@ hN
 &= (eN)^s \cdot N \\
 &= N
 ,\]
-  - We've used that $h\in H \implies o(h) \divides \# H = n$ by Lagrange, so $h^n = e$.
-  - We've also used that $\# G/N = m$, so $(xH)^m = H$ for any $xH\in G/H$.
+  - We've used that $h\in H \implies o(h) \divides \size H = n$ by Lagrange, so $h^n = e$.
+  - We've also used that $\size G/N = m$, so $(xH)^m = H$ for any $xH\in G/H$.
 
 :::
 
@@ -75,7 +75,7 @@ Count in towers, show that distinct coset reps stay distinct.
 - Then $h_i J\neq h_j J \iff h_i h_j\inv \not\in J = H \intersect K$.
 - $H$ is a subgroup, so $h_i h_j\inv \in H$ forces this not to be in $K$.
 - But then $h_i K \neq h_j K$, so these are distinct cosets in $G/K$.
-- So $\#G/K \geq m$.
+- So $\sizeG/K \geq m$.
 :::
 
 ### Spring 2013 #3 $\done$
@@ -95,11 +95,11 @@ H = \Disjoint_{i\leq M} [g_i] \intersect H = \qty{ Z(G) \intersect H } \disjoint
 .\]
 - Taking cardinalities, 
 \[
-\# H = \# \qty{ Z(G) \intersect H} + \sum_{i\leq M'} \# [g_i]
+\size H = \size \qty{ Z(G) \intersect H} + \sum_{i\leq M'} \size [g_i]
 .\]
 - $p$ divides $H$ since $H\leq P$ and $P$ is a $p\dash$group.
-- Each $\# [g_i] \geq 2$ since the trivial conjugacy classes appear in the center, forcing $\# [g_i] \geq p$.
-- $p$ divides $\# [g_i]$ since $\# [g_i]$ must divide $\# P = p^k$
+- Each $\size [g_i] \geq 2$ since the trivial conjugacy classes appear in the center, forcing $\size [g_i] \geq p$.
+- $p$ divides $\size [g_i]$ since $\size [g_i]$ must divide $\size P = p^k$
 - So $p$ must divide the remaining term $Z(G) \intersect H$, which makes it nontrivial.
 
 :::
@@ -137,7 +137,7 @@ Just note that the techniques used in this problem perhaps don't show up in othe
 
 - Notation: $X/G$ is the set of $G\dash$orbits
 - Notation: $X^g = \theset{x\in X\suchthat g\cdot x = x}$
-- Burnside's formula: $\#{X/G} = {1 \over \# G} \sum \# {X^g}$.
+- Burnside's formula: $\size{X/G} = {1 \over \size G} \sum \size {X^g}$.
 - Definition of conjugacy class: $C(g) = \ts{ hgh\inv \st h\in G }$.
 :::
 
@@ -145,7 +145,7 @@ Just note that the techniques used in this problem perhaps don't show up in othe
 Fixed points of the conjugation action are precisely commuting elements.
 Apply Burnside.
 Context clue: $1/[G:Z(G)]$ is weird, right? 
-Use that $[G:Z(G)] = \# G/\# Z(G)$, so try to look for $\#Z(G)/\#(G)$ somewhere.
+Use that $[G:Z(G)] = \size G/\size Z(G)$, so try to look for $\sizeZ(G)/\size(G)$ somewhere.
 Count sizes of centralizers.
 :::
 
@@ -155,7 +155,7 @@ Count sizes of centralizers.
 :::{.proof title="Part a"}
 \envlist
 
-- Define a sample space $\Omega = G \cross G$, so $\# {\Omega} = (\# {G})^2$.
+- Define a sample space $\Omega = G \cross G$, so $\size {\Omega} = (\size {G})^2$.
 
 - Identify the event we want to analyze: 
 \[
@@ -184,29 +184,29 @@ A_g \definedas \theset{(g, h) \in \ts{ g } \cross G \suchthat [g, h] = 1} = Z(g)
 
 - Identifying centralizers with fixed points, 
   $$
-  \#{A} = \#{\Disjoint_{g\in G} Z(g) } = \sum_{g\in G} \#{Z(g)} = \sum_{g\in G}\# {X^g}
+  \size{A} = \size{\Disjoint_{g\in G} Z(g) } = \sum_{g\in G} \size{Z(g)} = \sum_{g\in G}\size {X^g}
   .$$
 
 
 - Apply Burnside
 $$
-\# {X / G} = \frac { 1 } { \# G  } \sum _ { g \in G } \# X ^ { g } ,
+\size {X / G} = \frac { 1 } { \size G  } \sum _ { g \in G } \size X ^ { g } ,
 $$
-- Note $\#{X/G} = n$, i.e. the number of conjugacy classes is the number of orbits.
+- Note $\size{X/G} = n$, i.e. the number of conjugacy classes is the number of orbits.
 - Rearrange and use definition:
 $$
-n \cdot \#{G}
-= \qty{\#{X/G} }\cdot \#{G}
-= \sum _ { g \in G } \# X ^ { g } 
+n \cdot \size{G}
+= \qty{\size{X/G} }\cdot \size{G}
+= \sum _ { g \in G } \size X ^ { g } 
 $$
 - Compute probability:
 \[
 P(A)
-= {\# A \over \# \Omega} 
-= \Sum_{ g \in G } \frac{\# X ^ { g }}{ ( \# {G} )^2} 
-= \frac{\qty{ \# {X/G}} \cdot \#{G}}{ (\#{G})^2} 
-= \frac{n \cdot \#{G}}{( \#{G} )^2} 
-= \frac n {\# G}
+= {\size A \over \size \Omega} 
+= \Sum_{ g \in G } \frac{\size X ^ { g }}{ ( \size {G} )^2} 
+= \frac{\qty{ \size {X/G}} \cdot \size{G}}{ (\size{G})^2} 
+= \frac{n \cdot \size{G}}{( \size{G} )^2} 
+= \frac n {\size G}
 .\]
 
 :::
@@ -228,14 +228,14 @@ where $Z(x) = \theset{g\in G \suchthat [g, x] = 1}$ is the centralizer of $x$ in
 - Write the event as $A = \Disjoint_{g\in G} \ts{g} \cross Z(g)$, then
 \[
 P(A) 
-= {\# A\over (\# G)^2} 
-= {1\over (\# G)^2} \sum_{g\in G} \# Z(g)
+= {\size A\over (\size G)^2} 
+= {1\over (\size G)^2} \sum_{g\in G} \size Z(g)
 .\]
 - Attempt to estimate the sum: pull out central elements $g\in Z(G)$.
-  - Note $Z(g) = G$ for central $g$, so $\# Z(g) = \# G$
+  - Note $Z(g) = G$ for central $g$, so $\size Z(g) = \size G$
   - Note 
   \[
-  g\not\in Z(G)\implies \# Z(g) \leq {1\over 2} \# G
+  g\not\in Z(G)\implies \size Z(g) \leq {1\over 2} \size G
   ,\]
   since $Z(g) \leq G$ is a subgroup, and 
   \[
@@ -244,17 +244,17 @@ P(A)
 - Use these facts to calculate:
 \[
 P(A) 
-&= {1\over (\# G)^2 } \qty{ \sum_{g\in Z(g)} \# Z(g) + \sum_{g\not\in Z(g)} \# Z(g) } \\
-&= {1\over (\# G)^2 } \qty{ \sum_{g\in Z(g)} \# G + \sum_{g\not\in Z(g)} \# Z(g) } \\
-&= {1\over (\# G)^2 } \qty{ \# Z(G) \cdot \# G + \sum_{g\not\in Z(g)} \# Z(g) } \\
-&\leq {1\over (\# G)^2 } \qty{ \# Z(G) \cdot \# G + \sum_{g\not\in Z(g)} {1\over 2} \# G } \\
-&= {1\over (\# G)^2 } \qty{ \# Z(G) \cdot \# G + \qty{ \sum_{g\not\in Z(g)} {1\over 2} } \cdot \# G } \\
-&= {1\over (\# G) } \qty{ \# Z(G) + \sum_{g\not\in Z(g)} {1\over 2} } \\
-&= {1\over (\# G) } \qty{ \# Z(G) + {1\over 2} \sum_{g\not\in Z(g)} 1 } \\
-&= {1\over (\# G) } \qty{ \# Z(G) + {1\over 2} \#(G \sm Z(G) ) } \\
-&= {1\over (\# G) } \qty{ \# Z(G) + {1\over 2} \#G - {1\over 2} \# Z(G) } \\
-&= {1\over (\# G) } \qty{ {1\over 2} \# Z(G) + {1\over 2} \#G  } \\
-&= {1\over 2} \qty{1 + { \# Z(G) \over \# G }} \\
+&= {1\over (\size G)^2 } \qty{ \sum_{g\in Z(g)} \size Z(g) + \sum_{g\not\in Z(g)} \size Z(g) } \\
+&= {1\over (\size G)^2 } \qty{ \sum_{g\in Z(g)} \size G + \sum_{g\not\in Z(g)} \size Z(g) } \\
+&= {1\over (\size G)^2 } \qty{ \size Z(G) \cdot \size G + \sum_{g\not\in Z(g)} \size Z(g) } \\
+&\leq {1\over (\size G)^2 } \qty{ \size Z(G) \cdot \size G + \sum_{g\not\in Z(g)} {1\over 2} \size G } \\
+&= {1\over (\size G)^2 } \qty{ \size Z(G) \cdot \size G + \qty{ \sum_{g\not\in Z(g)} {1\over 2} } \cdot \size G } \\
+&= {1\over (\size G) } \qty{ \size Z(G) + \sum_{g\not\in Z(g)} {1\over 2} } \\
+&= {1\over (\size G) } \qty{ \size Z(G) + {1\over 2} \sum_{g\not\in Z(g)} 1 } \\
+&= {1\over (\size G) } \qty{ \size Z(G) + {1\over 2} \size(G \sm Z(G) ) } \\
+&= {1\over (\size G) } \qty{ \size Z(G) + {1\over 2} \sizeG - {1\over 2} \size Z(G) } \\
+&= {1\over (\size G) } \qty{ {1\over 2} \size Z(G) + {1\over 2} \sizeG  } \\
+&= {1\over 2} \qty{1 + { \size Z(G) \over \size G }} \\
 &= {1\over 2} \qty{1 + { 1 \over [G : Z(G)]  }}
 .\]
 
@@ -314,7 +314,7 @@ My guess is this year's qual class spent more time than usual on the proof of Ca
   - Thus $\pi \in \ker \sgn$ and is an even permutation.
 - If $k$ is odd
   - This yields $m$ even cycles, thus an even number of even cycles iff $m$ is even 
-- The claim is that the number of orbit representatives $m$ is equal to $[G:H] = \# G/H$ for $H = \gens{ g }$. 
+- The claim is that the number of orbit representatives $m$ is equal to $[G:H] = \size G/H$ for $H = \gens{ g }$. 
   - Proof: define a map
   \[
   \ts{ \text{Orbit representatives } x_i } &\to G/H \\
@@ -353,7 +353,7 @@ k \text{ is odd}
 .\]
 - Then just recall that $k\da o(\pi_g)$ and 
 \[
-m= [G: \gens{ g }] = \# G / \# \gens{ g }= \# G / o(g) = \# G/ o(\pi_g)
+m= [G: \gens{ g }] = \size G / \size \gens{ g }= \size G / o(g) = \size G/ o(\pi_g)
 .\]
 
 
@@ -377,7 +377,7 @@ Prove that $G$ has a normal subgroup which is contained in every conjugate of $H
   Call the action $\psi: G\to \Sym(G/H)$.
 - Then $\Stab(xH) = xHx\inv$ is a subgroup conjugate to $H$, and $K\da \ker \psi = \Intersect_{i=1}^n xHx\inv$ is the intersection of all conjugates of $H$.
 - Kernels are normal, so $K\normal G$, and $K\subseteq xHx\inv$ for all $x$, meaning $K$ is contained in every conjugate of $H$.
-- The index $[G:K]$ is finite since $G/K \cong \im \psi$ by the first isomorphism theorem, and $\# \im \psi \leq \# \Sym(G/H) = \# S_n = n! < \infty$.
+- The index $[G:K]$ is finite since $G/K \cong \im \psi$ by the first isomorphism theorem, and $\size \im \psi \leq \size \Sym(G/H) = \size S_n = n! < \infty$.
 
 :::
 
@@ -394,25 +394,25 @@ Prove that $H$ is contained in the center of $G$.
 :::{.concept}
 \envlist
 
-- $x\in Z(G)$ iff $\# C_x = 1$, i.e. the size of its conjugacy class is one.
+- $x\in Z(G)$ iff $\size C_x = 1$, i.e. the size of its conjugacy class is one.
 - Normal subgroups are disjoint unions of (some) conjugacy classes in $G$.
   - In fact, this is a characterization of normal subgroups (i.e. $H$ is normal iff $H$ is a union of conjugacy classes in $G$).
   - Why: if $H\normal G$ then $ghg\inv \in H$ for all $g$, so $C_h \subseteq H$ and $\Union_h C_h = H$.
   Conversely, if $H = \Union_{h\in H} C_h$, then $ghg\inv \in C_h \subseteq H$ and thus $gHg\inv = H$.
-- Orbit stabilizer theorem: $\# C_g = \# G/ \# K_g$ where $C_g$ is the centralizer and $K_g$ is the conjugacy class of $g$.
-  - In particular, $\# C_g$ divides $\#G$.
+- Orbit stabilizer theorem: $\size C_g = \size G/ \size K_g$ where $C_g$ is the centralizer and $K_g$ is the conjugacy class of $g$.
+  - In particular, $\size C_g$ divides $\sizeG$.
 :::
 
 
 :::{.strategy}
-Show an element $x$ is central by showing $\# C_x = 1$.
+Show an element $x$ is central by showing $\size C_x = 1$.
 :::
 
 
 :::{.proof title="?"}
 \envlist
 
-- Let $p \da \#H$.
+- Let $p \da \sizeH$.
 - Let \( \ts{ C_i }_{i\leq n} \) be the conjugacy classes in $G$, then $G = \disjoint_{i\leq n} C_i$
 - By the first fact, there is a sub-collection \( \ts{ C_{i_j}}_{j\leq k } \)  such that 
 \[
@@ -429,12 +429,12 @@ H
 
 - Take cardinality in the above equation 
 \[
-p = 1 + \sum_{\substack{ j\leq k \\ j\neq 1 }} \# C_{i_j}
+p = 1 + \sum_{\substack{ j\leq k \\ j\neq 1 }} \size C_{i_j}
 .\]
-- So $\# C_{i_j} \leq p-1$ for all $j\neq 1$.
+- So $\size C_{i_j} \leq p-1$ for all $j\neq 1$.
 
-- Every $\# C_{i_j}$ divides $\# G$, but $p$ was the *minimal* prime dividing $\# G$, forcing $\# C_{i_j} = 1$ for all $j \neq 1$.
-  - This rules out $\# C_{i_j}$ being a prime less than $p$, but also rules out composites: if a prime $q\divides \# C_{i_j}$, then $q<p$ and $q\divides \# G$, a contradiction.
+- Every $\size C_{i_j}$ divides $\size G$, but $p$ was the *minimal* prime dividing $\size G$, forcing $\size C_{i_j} = 1$ for all $j \neq 1$.
+  - This rules out $\size C_{i_j}$ being a prime less than $p$, but also rules out composites: if a prime $q\divides \size C_{i_j}$, then $q<p$ and $q\divides \size G$, a contradiction.
 
 - By fact 3, each $x\in C_{i_j}$ satisfies $x\in Z(G)$.
 
@@ -454,7 +454,7 @@ Prove that $N$ is contained in the center of $G$.
 - A conjugacy class $[x]$ is trivial iff $[x] = \ts{ x }$ iff $x\in Z(G)$.
 - Sizes of conjugacy classes divide the order of the group they live in.
   - This is orbit-stabilizer: $G\actson G$ by $g\cdot x \da gxg\inv$, so $\OO(x) = [x]$.
-    Then $\# \OO(x) = \# G / \# \Stab(x)$, so $\# \OO(x)$ divides $\# G$.
+    Then $\size \OO(x) = \size G / \size \Stab(x)$, so $\size \OO(x)$ divides $\size G$.
 :::
 
 :::{.solution}
@@ -463,10 +463,10 @@ Prove that $N$ is contained in the center of $G$.
 - Use that $N\normal G \iff N = \disjoint' [n_i]$ is a *disjoint* union of (full) conjugacy classes.
 - Take cardinalities:
 \[
-p = \# N = \sum_{i=1}^m \# [n_i] = 1 + \sum_{i=2}^m [n_i]
+p = \size N = \sum_{i=1}^m \size [n_i] = 1 + \sum_{i=2}^m [n_i]
 .\]
-- The size of each conjugacy class divides the size of $H$ by orbit-stabilizer, so $\# [n_i] \divides p$ for each $i$.
-- But the entire second term must sum to $p-1$ for this equality to hold, which forces $\#[n_i] = 1$ (and incidentally $m=p-1$)
+- The size of each conjugacy class divides the size of $H$ by orbit-stabilizer, so $\size [n_i] \divides p$ for each $i$.
+- But the entire second term must sum to $p-1$ for this equality to hold, which forces $\size[n_i] = 1$ (and incidentally $m=p-1$)
 - Then $[n_i] = \ts{ n_i } \iff n_i \in Z(G)$, and this holds for all $i$, so $N \subseteq Z(G)$.
 :::
 
@@ -570,8 +570,8 @@ Use transitivity of characteristic.
 :::{.proof title="of a"}
 \envlist
 
-- By definition, $S\in \Syl_p(G) \iff S$ is a *maximal* $p\dash$subgroup: $S<G$ is a $p\dash$group, so $\#S = p^k$ for some $k$, $S$ is a proper subgroup, and $S$ is maximal in the sense that there are no proper $p\dash$subgroups $S'$ with $S \subseteq S' \subseteq G$.
-- Since $\# H = p^i$, $H$ is a $p\dash$subgroup of $G$.
+- By definition, $S\in \Syl_p(G) \iff S$ is a *maximal* $p\dash$subgroup: $S<G$ is a $p\dash$group, so $\sizeS = p^k$ for some $k$, $S$ is a proper subgroup, and $S$ is maximal in the sense that there are no proper $p\dash$subgroups $S'$ with $S \subseteq S' \subseteq G$.
+- Since $\size H = p^i$, $H$ is a $p\dash$subgroup of $G$.
 - If $H$ is maximal, then by definition $H\in \Syl_p(G)$
 - Otherwise, if $H$ is not maximal, there exists an $H' \supseteq H$ with $H'\leq G$ a $p\dash$subgroup properly containing $H$.
   - In this apply the same argument to $H'$: this yields a proper superset containment at every stage, and since $G$ is finite, there is no infinite ascending chain of proper supersets.
@@ -589,7 +589,7 @@ Use transitivity of characteristic.
 - Claim: $Z(H) \leq H$ works.
   - It is nontrivial since $H$ is a $p\dash$group and $p\dash$groups have nontrivial centers
   - It is abelian since $Z(Z(H)) = Z(H)$.
-  - $\#Z(H) = p^\ell$ for some $\ell \leq i$ by Lagrange
+  - $\sizeZ(H) = p^\ell$ for some $\ell \leq i$ by Lagrange
 - It thus remains to show that $Z(H) \normal G$.
 - Use that $Z(H) \ch H$ and use transitivity of characteristic to conclude $Z(H) \normal H$.
 - That $Z(H) \ch H$: let $\psi \in \Aut(H)$ and $x=\psi(y)\in \psi(Z(H))$ so $y\in Z(H)$, then for arbitrary $h\in H$,
@@ -640,12 +640,12 @@ t &\mapsto b
   corresponding to the relation $srs\inv = r\inv$.
   Here we've used that $o(a) = o(b) = 2$ implies $a=a\inv, b=b\inv$.
 
-- Surjectivity of $\tilde \psi$ yields $2n = \# D_{2n} \geq \# G$.
-- The claim is that $\# G \geq 2n$, which forces $\# G = 2n$. 
+- Surjectivity of $\tilde \psi$ yields $2n = \size D_{2n} \geq \size G$.
+- The claim is that $\size G \geq 2n$, which forces $\size G = 2n$. 
   Then $\tilde \psi$ will be a surjective group morphism between groups of the same order, and thus an isomorphism.
 
-  - We have \( \gens{ ab }\leq G  \), so $n\divides \# G$.
-  - Since $b\not\in \gens{ ab }$, this forces $\# G > n$, so $\# G \geq 2n$. 
+  - We have \( \gens{ ab }\leq G  \), so $n\divides \size G$.
+  - Since $b\not\in \gens{ ab }$, this forces $\size G > n$, so $\size G \geq 2n$. 
 
 > Remark: see a more direct proof in [Theorem 2.1 and Theorem 1.1 here](https://kconrad.math.uconn.edu/blurbs/grouptheory/dihedral2.pdf)
 
@@ -659,7 +659,7 @@ Let $G$ be a group of order $p^2q$ for $p, q$ prime. Show that $G$ has a nontriv
 :::{.solution}
 \envlist
 
-- Write $\# G = p^2 q$
+- Write $\size G = p^2 q$
 - Cases: first assume $p>q$, then do $q<p$.
 - In any case, we have
 \[
@@ -680,26 +680,26 @@ n_q \divides p^2 &\implies n_q \in \ts{ 1, p, p^2}
   - The remaining possibility is $n_q = p^2$.
   - Supposing that $n_p \neq 1$, we have $n_p=q$, so we can count 
   \[
-  \text{Elements from Sylow } q: n_q( \# S_q - 1) &= p^2(q-1) + 1
+  \text{Elements from Sylow } q: n_q( \size S_q - 1) &= p^2(q-1) + 1
   ,\]
   where we've used that distinct Sylow $q$s can only intersect at the identity, and although Sylow $p$s *can* intersect trivially, they can also intersect in a subgroup of size $p$.
   - Suppose all Sylow $p$s intersect trivially, we get at least
   \[
-  \text{Elements from Sylow } p: n_p( \# S_p - 1) &= q(p^2-1) 
+  \text{Elements from Sylow } p: n_p( \size S_p - 1) &= q(p^2-1) 
   .\]
   Then we get a count of how many elements the Sylow $p$s and $q$s contribute:
   \[
   q(p^2-1) + p^2(q-1) + 1
   = p^2q - q + p^2q - p^2 + 1 
   = p^2q + (p^2-1)(q-1)
-  > p^2q = \# G
+  > p^2q = \size G
   ,\]
   provided $(p^2-1)(q-1) \neq 0$, which is fine for $p\geq 2$ since this is at least $(2^2-1)(3-2) = 3$ (since $p<q$ and $q=3$ is the next smallest prime). $\contradiction$
 
   - Otherwise, we get two Sylow $p$s intersecting nontrivially, which must be in a subgroup of order at least $p$ since the intersection is a subgroup of both.
   In this case, just considering these two subgroups, we get
   \[
-  \text{Elements from Sylow } p: n_p( \# S_p - 1) &> p^2 + p^2 - p = 2p^2-p -1
+  \text{Elements from Sylow } p: n_p( \size S_p - 1) &> p^2 + p^2 - p = 2p^2-p -1
   .\]
   Then a count:
   \[
@@ -707,7 +707,7 @@ n_q \divides p^2 &\implies n_q \in \ts{ 1, p, p^2}
   &= p^2 q- p^2 + 2p^2 -p \\
   &= p^2 q + p^2 -p \\
   &= p^2q + p(p-1) \\
-  &> p^2q = \# G
+  &> p^2q = \size G
   ,\]
   a contradiction since this inequality is strict provided $p\geq 2$. $\contradiction$
 
