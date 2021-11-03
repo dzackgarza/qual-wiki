@@ -36,7 +36,7 @@ order: 100
 - diagonalization of hermitian and symmetric matrices
 - dual spaces
 - Eigenvalues
-- eigenvectors; 
+- eigenvectors
 - exponentiation of matrices and application to differential equations
 - Gaussian elimination
 - Gram-Schmidt process
@@ -78,7 +78,6 @@ order: 100
 - finitely generated abelian groups. 
 - Groups
 - groups acting on sets
-- homomorphisms
 - homomorphisms
 - ideals
 - matrix groups
