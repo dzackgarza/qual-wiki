@@ -19,3 +19,9 @@
 [[30_Complex Analysis/000_Resources/10_Problems]]
 [[30_Complex Analysis/500_Exercises/100_Extra Questions]]
 [[30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions]]
+
+## Oh Boy
+
+```query
+section:(\work)
+```
