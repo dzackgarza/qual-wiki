@@ -40,11 +40,7 @@ First 6 chapters (220 pages) of D&F.
 - group extensions.
 - Hölder Program 
 - homomorphisms
-- Isomorphism Theorems
-  - 1st 
-  - 2nd
-  - 3rd
-  - 4th
+- Isomorphism Theorems (1st - 4th)
 - Jordan-Holder theorems; 
 - Lagrange’s Theorem; 
 - nilpotent
@@ -57,12 +53,8 @@ First 6 chapters (220 pages) of D&F.
 - simplicity of An
 - solvable groups
 - subgroup lattice; 
-- Sylow’s theorems
-  - 1
-  - 2
-  - 3
+- Sylow’s theorems (1-3)
 - symmetric groups and permutation representations; 
-- symmetric groups and subgroups
 - transpositions
 
 
@@ -111,7 +103,8 @@ Chapters 7-9 in D&F
 
 ### Field Theory 
 
-Chapters 13-14 in D&F
+> Chapters 13-14 in D&F
+
 - algebraic and transcendental extensions
 - algebraic closures
 - algebraic extensions 
