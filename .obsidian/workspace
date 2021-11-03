@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+            "file": "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
             "mode": "source"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+                "file": "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
+                "file": "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+                "file": "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+                "file": "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -249,6 +249,7 @@
   },
   "active": "1b7c0fddedf9880b",
   "lastOpenFiles": [
+    "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/001_RealVariables.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/007_Residues.md",
@@ -257,7 +258,6 @@
     "My Active Problems.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
     "30_Complex Analysis/030_Residues/020_Residues.md",
-    "30_Complex Analysis/500_Exercises/100_Extra Questions.md",
-    "30_Complex Analysis/000_Resources/10_Problems.md"
+    "30_Complex Analysis/500_Exercises/100_Extra Questions.md"
   ]
 }

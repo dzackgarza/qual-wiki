@@ -2,6 +2,10 @@
   "recentFiles": [
     {
       "basename": "000_Preface",
+      "path": "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md"
+    },
+    {
+      "basename": "000_Preface",
       "path": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
     },
     {
@@ -195,10 +199,6 @@
     {
       "basename": "20_Real Analysis",
       "path": "20_Real Analysis.md"
-    },
-    {
-      "basename": "10_Algebra",
-      "path": "10_Algebra.md"
     }
   ],
   "omittedPaths": [],

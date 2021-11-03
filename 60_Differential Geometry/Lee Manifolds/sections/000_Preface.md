@@ -1,5 +1,5 @@
 Tags:
-#reading_projects #reading_notes #todo 
+#reading_projects #reading_notes  
 
 # Preface: Point Set Review
 
