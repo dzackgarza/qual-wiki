@@ -340,7 +340,9 @@
     "Cosets",
     "discriminants",
     "cubics",
-    "Hatcher"
+    "Hatcher",
+    "quasicompactness",
+    "Hartshorne"
   ],
   "communityPluginSortOrder": "download",
   "autoPairMarkdown": false,

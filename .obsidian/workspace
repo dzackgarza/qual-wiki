@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "40_Topology/020_Point_Set/001_Definitions.md",
-            "mode": "source"
+            "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+            "mode": "preview"
           }
         }
       }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "40_Topology/020_Point_Set/001_Definitions.md",
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40_Topology/020_Point_Set/001_Definitions.md"
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40_Topology/020_Point_Set/001_Definitions.md",
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "40_Topology/020_Point_Set/001_Definitions.md",
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,9 +248,9 @@
   },
   "active": "1b7c0fddedf9880b",
   "lastOpenFiles": [
-    "40_Topology/020_Point_Set/001_Definitions.md",
-    "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
+    "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
+    "40_Topology/020_Point_Set/001_Definitions.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/001_RealVariables.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/007_Residues.md",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
