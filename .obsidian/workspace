@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\work path:\"30_Complex Analysis\"",
+                "query": "line:(\\work ) path:\".\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -250,8 +250,8 @@
   "active": "1b7c0fddedf9880b",
   "lastOpenFiles": [
     "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md",
-    "My Active Problems.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/001_RealVariables.md",
+    "My Active Problems.md",
     "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
     "40_Topology/020_Point_Set/001_Definitions.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/007_Residues.md",
