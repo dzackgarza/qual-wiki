@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "007_Residues",
+      "path": "30_Complex Analysis/600_Qual_Questions_UGA/007_Residues.md"
+    },
+    {
       "basename": "00_Books_Notes",
       "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "00_Prelims",
       "path": "00_Prelims.md"
-    },
-    {
-      "basename": "50_Algebraic Geometry",
-      "path": "50_Algebraic Geometry.md"
     }
   ],
   "omittedPaths": [],
