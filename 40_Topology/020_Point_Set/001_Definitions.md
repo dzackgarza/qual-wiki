@@ -194,6 +194,10 @@ A map $q:X\to Y$ is a **quotient map** if and only if
 1. $q$ is surjective, and
 2. $U \subseteq Y$ is open if and only if $q ^{-1} (U)$ is open.
 
+> Note that $\implies$ comes from the definition of continuity of $p$, but $\impliedby$ is a stronger condition.
+
+Equivalently, $p$ maps saturated subsets of $X$ to open subsets of $Y$.
+
 :::
 
 :::{.definition title="Path Connected"}
