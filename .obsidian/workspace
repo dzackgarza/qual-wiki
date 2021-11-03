@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "110_Graduate_Topics.md",
+            "file": "60_Differential Geometry/00_Books_Notes_DG.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "110_Graduate_Topics.md",
+                "file": "60_Differential Geometry/00_Books_Notes_DG.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "110_Graduate_Topics.md"
+                "file": "60_Differential Geometry/00_Books_Notes_DG.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "110_Graduate_Topics.md",
+                "file": "60_Differential Geometry/00_Books_Notes_DG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "110_Graduate_Topics.md",
+                "file": "60_Differential Geometry/00_Books_Notes_DG.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,6 +248,7 @@
   },
   "active": "70222d76428dafc6",
   "lastOpenFiles": [
+    "60_Differential Geometry/00_Books_Notes_DG.md",
     "110_Graduate_Topics.md",
     "100_Undergraduate_Topics.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md",
@@ -256,7 +257,6 @@
     "30_Complex Analysis/600_Qual_Questions_UGA/001_RealVariables.md",
     "My Active Problems.md",
     "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md",
-    "40_Topology/020_Point_Set/001_Definitions.md",
-    "30_Complex Analysis/600_Qual_Questions_UGA/007_Residues.md"
+    "40_Topology/020_Point_Set/001_Definitions.md"
   ]
 }

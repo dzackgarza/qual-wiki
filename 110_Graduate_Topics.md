@@ -127,7 +127,7 @@ Chapters 7-9 in D&F
 
 ### Galois Theory
 
-- abelian extensions of Q
+- abelian extensions of $\QQ$
 - Compute galois groups for small degree examples
 - discriminants
 - field automorphisms
@@ -145,7 +145,8 @@ Chapters 7-9 in D&F
 
 ### Module Theory:
 
-Sections 10.1,2,3 and 12.1,2,3.
+> Sections 10.1,2,3 and 12.1,2,3.
+
 - direct sums 
 - free modules
 - generation of modules 
@@ -181,8 +182,6 @@ Sections 10.1,2,3 and 12.1,2,3.
 - Peter-Weyl theorem
 - Schur orthogonality
 
-
----
 
 ## Real Analysis
 
@@ -290,8 +289,7 @@ Sections 10.1,2,3 and 12.1,2,3.
 
 ## Topology
 
-Guillemin and Pollack Differential Topology
-Spivak Differential Geometry
+
 
 
 ## Differential Topology
