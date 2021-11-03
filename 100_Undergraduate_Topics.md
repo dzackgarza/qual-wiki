@@ -9,16 +9,18 @@ order: 100
 
 - chain rule; 
 - Derivatives of maps from $\RR^m\to\RR^n$ 
-- explicit solutions of simple equations
 - Gauss’s Theorem
-- gradient
+- gradients $\nabla f$
 - Green’s Theorem 
 - Lagrange multipliers; 
 - line and surface integrals of scalar and vector functions; 
 - maxima and minima
 - Ordinary differential equations; 
 - Stokes’ theorem
--  Differential of a smoothing mapping between open subsets in Euclidean spaces. Matrix of partial derivatives. Inverse and implicit functions. Multivariable Riemann integration.
+-  Differential of a smoothing mapping between open subsets in Euclidean spaces. 
+-  Matrix of partial derivatives. 
+-  Inverse and implicit functions. 
+-  Multivariable Riemann integration.
 
 
 ## Linear Algebra

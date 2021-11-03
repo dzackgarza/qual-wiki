@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "100_Undergraduate_Topics",
+      "path": "100_Undergraduate_Topics.md"
+    },
+    {
       "basename": "UGA Complex Analysis Qual Questions",
       "path": "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20_Problems",
       "path": "40_Topology/000_Resources/20_Problems.md"
-    },
-    {
-      "basename": "40_Topology",
-      "path": "40_Topology.md"
     }
   ],
   "omittedPaths": [],
