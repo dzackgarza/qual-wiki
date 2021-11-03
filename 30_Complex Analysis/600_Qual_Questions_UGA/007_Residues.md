@@ -251,7 +251,7 @@ Show that
 \]
 using complex analysis, $0 < a \leq n$. Here $n$ is a positive integer.
 
-### Spring 20202 HW 2 #  2.6.1
+### Spring 2020 HW 2 #  2.6.1
 
 Show that
 \[
@@ -264,7 +264,7 @@ Show that
 ![Image](figures/2020-02-03-13:51.png)\
 
 
-### Spring 20202 HW 2 #  2.6.2
+### Spring 2020 HW 2 #  2.6.2
 
 Show that
 
@@ -274,7 +274,7 @@ Show that
 
 > Hint: use the fact that this integral equals $\frac{1}{2 i} \int_{-\infty}^{\infty} \frac{e^{i x}-1}{x} d x$, and integrate around an indented semicircle.
 
-### Spring 20202 HW 3 #  3.8.1
+### Spring 2020 HW 3 #  3.8.1
 Use the following formula to show that the complex zeros of $\sin(\pi z)$ are exactly the integers, and they are each of order 1:
 \[
 \sin \pi z=\frac{e^{i \pi z}-e^{-i \pi z}}{2 i}
@@ -283,7 +283,7 @@ Use the following formula to show that the complex zeros of $\sin(\pi z)$ are ex
 Calculate the residue of ${1\over \sin(\pi z)}$ at $z=n\in \ZZ$.
 
 
-### Spring 20202 HW 3 #  3.8.2
+### Spring 2020 HW 3 #  3.8.2
 
 Evaluate the integral
 \[
@@ -293,41 +293,41 @@ Evaluate the integral
 What are the poles of ${1\over 1 + z^4}$ ?
 
 
-### Spring 20202 HW 3 #  3.8.4
+### Spring 2020 HW 3 #  3.8.4
 Show that
 \[
 \int_{-\infty}^{\infty} \frac{x \sin x}{x^{2}+a^{2}} d x=\pi e^{-a}, \quad \text { for all } a>0
 .\]
 
 
-### Spring 20202 HW 3 #  3.8.5
+### Spring 2020 HW 3 #  3.8.5
 Show that if $\xi\in \RR$, then
 \[
 \int_{-\infty}^{\infty} \frac{e^{-2 \pi i x \xi}}{\left(1+x^{2}\right)^{2}} d x=\frac{\pi}{2}(1+2 \pi|\xi|) e^{-2 \pi|\xi|}
 .\]
 
 
-### Spring 20202 HW 3 #  3.8.6
+### Spring 2020 HW 3 #  3.8.6
 Show that
 \[
 \int_{-\infty}^{\infty} \frac{d x}{\left(1+x^{2}\right)^{n+1}}=\frac{1 \cdot 3 \cdot 5 \cdots(2 n-1)}{2 \cdot 4 \cdot 6 \cdots(2 n)} \cdot \pi
 .\]
 
 
-### Spring 20202 HW 3 #  3.8.7
+### Spring 2020 HW 3 #  3.8.7
 Show that
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{(a+\cos \theta)^{2}}=\frac{2 \pi a}{\left(a^{2}-1\right)^{3 / 2}}, \quad \text { whenever } a>1
 .\]
 
 
-### Spring 20202 HW 3 #  3.8.8
+### Spring 2020 HW 3 #  3.8.8
 Show that if $a,b\in \RR$ with $a > \abs{b}$, then
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{a+b \cos \theta}=\frac{2 \pi}{\sqrt{a^{2}-b^{2}}}
 .\]
 
-### Spring 20202 HW 3 #  3.8.9
+### Spring 2020 HW 3 #  3.8.9
 Show that
 \[
 \int_{0}^{1} \log (\sin \pi x) d x=-\log 2
@@ -337,7 +337,7 @@ Show that
 >
 > ![Image](figures/image_2020-06-17-21-52-40.png)
 
-### Spring 20202 HW 3 #  3.8.10
+### Spring 2020 HW 3 #  3.8.10
 Show that if $a>0$, then
 \[
 \int_{0}^{\infty} \frac{\log x}{x^{2}+a^{2}} d x=\frac{\pi}{2 a} \log a
@@ -347,7 +347,7 @@ Show that if $a>0$, then
 >
 > ![Image](figures/image_2020-06-17-21-53-19.png)
 
-### Spring 20202 HW 3 #  6
+### Spring 2020 HW 3 #  6
 
 a. 
 Show (without using 3.8.9 in the S&S) that
@@ -361,14 +361,14 @@ Show that this identity is equivalent to S&S 3.8.9:
 \int_0^1 \log(\sin(\pi x)) ~dx = -\log 2
 .\]
 
-### Spring 20202 HW 3 #  7
+### Spring 2020 HW 3 #  7
 
 Let $0<a<4$ and evaluate 
 \[
 \int_0^\infty \frac{x^{\alpha-1}}{1+x^3} ~dx
 \]
 
-### Spring 20202 HW 3 #  10
+### Spring 2020 HW 3 #  10
 
 For $a> 0$, evaluate
 \[
