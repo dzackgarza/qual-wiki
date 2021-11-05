@@ -2,8 +2,12 @@
 
 #solutions 
 
-- [ ] [hmwk3x.pdf](attachments/hmwk3x.pdf)
+- [ ] [[attachments/hmwk3x.pdf]]
+		#solutions
+
 - [ ]  [http://www.math.ucsd.edu/~jagler/courses/220-S14/pdf/Qual (version 2) Solutions.pdf](http://www.math.ucsd.edu/~jagler/courses/220-S14/pdf/Qual%20(version%202)%20Solutions.pdf)
+			[[http://www.math.ucsd.edu/~jagler/courses/220-S14/pdf/Qual%20(version%202)%20Solutions.pdf]]
+
 - [ ]  [UCSD 2014 Qual with Solutions](http://www.math.ucsd.edu/~jagler/courses/220-S14/pdf/Qual%20(version%202)%20Solutions.pdf)
 - [ ]  [http://www-users.math.umn.edu/~broom010/doc/ComplexExamFall2015.pdf](http://www-users.math.umn.edu/~broom010/doc/ComplexExamFall2015.pdf)
 - [ ]  [http://www.jchateley.com/project/complex_qual.pdf](http://www.jchateley.com/project/complex_qual.pdf)
