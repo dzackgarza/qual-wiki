@@ -51,7 +51,7 @@ To count zeros:
 
 ## Basic but Useful Facts
 
-[[30_Complex Analysis/010_Basics/Complex Arithmetic]]
+[[Complex Arithmetic]]
 
 
 ### Calculus
@@ -77,7 +77,4 @@ Integral of a complex exponential:
 :::
 
 
-
-
-
-[[30_Complex Analysis/010_Basics/005_Liouville_PowerSeries]]
+[[30_Complex Analysis/010_Basics/005 Laurent and Power Series]]
