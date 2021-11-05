@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis.md",
+            "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis.md",
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis.md"
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis.md",
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis.md",
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,15 +248,15 @@
   },
   "active": "738bc30b4aac538b",
   "lastOpenFiles": [
-    "30_Complex Analysis.md",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+    "30_Complex Analysis/050_Conformal_Maps/00_Resources.md",
+    "30_Complex Analysis.md",
     "attachments/McMullen_-_Advanced_Complex_Analysis.pdf",
     "attachments/Eur_ComplexAnalysis_Notes (1).pdf",
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "attachments/Complex_Qual_Notes.pdf",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/010_Basics/Exercises.md",
-    "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md",
-    "30_Complex Analysis/010_Basics/Complex Log.md"
+    "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md"
   ]
 }

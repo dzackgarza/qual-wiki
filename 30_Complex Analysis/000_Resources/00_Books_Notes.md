@@ -82,7 +82,7 @@ In the Spirit of Lipman Bers*
 - [Berkeley 2015 Course Notes](https://web.mst.edu/~jcmcfd/Complex-Analysis.pdf)
 	#course_notes 
 
-- [[McMullen_-_Advanced_Complex_Analysis.pdf]]
+- [[McMullen_-_Advanced_Complex_Analysis.pdf|Something something]]
 
 
 
