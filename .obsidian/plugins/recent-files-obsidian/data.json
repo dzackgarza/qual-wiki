@@ -9,16 +9,20 @@
       "path": "30_Complex Analysis/010_Basics/005 Laurent and Power Series.md"
     },
     {
-      "basename": "000_Tips_Techs",
-      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+      "basename": "Complex Arithmetic",
+      "path": "30_Complex Analysis/010_Basics/Complex Arithmetic.md"
+    },
+    {
+      "basename": "Complex Calculus",
+      "path": "30_Complex Analysis/010_Basics/Complex Calculus.md"
     },
     {
       "basename": "003_Calculus_Preliminaries",
       "path": "30_Complex Analysis/010_Basics/003_Calculus_Preliminaries.md"
     },
     {
-      "basename": "Complex Arithmetic",
-      "path": "30_Complex Analysis/010_Basics/Complex Arithmetic.md"
+      "basename": "000_Tips_Techs",
+      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
     {
       "basename": "002_Complex_Arithmetic",
@@ -195,10 +199,6 @@
     {
       "basename": "0000_Preface",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
-    },
-    {
-      "basename": "00_Solutions",
-      "path": "10_Algebra/040_Rings/00_Solutions.md"
     }
   ],
   "omittedPaths": [],

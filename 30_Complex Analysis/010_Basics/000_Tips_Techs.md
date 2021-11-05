@@ -54,27 +54,7 @@ To count zeros:
 [[Complex Arithmetic]]
 
 
-### Calculus
+[[30_Complex Analysis/010_Basics/Complex Calculus]]
 
 
-:::{.fact}
-Various differentials:
-\[
-dz &= dx + i~dy \\
-d\bar z &= dx - i~dy \\ \\
-f_z &= f_x = f_y / i
-.\]
-
-Integral of a complex exponential:
-\[
-\int_{0}^{2 \pi} e^{i \ell x} d x
-&=\left\{\begin{array}{ll}
-{2 \pi} & {\ell=0} \\ 
-{0} & \text{else}
-\end{array}\right.
-.\]
-
-:::
-
-
-[[30_Complex Analysis/010_Basics/005 Laurent and Power Series]]
+[[005 Laurent and Power Series]]
