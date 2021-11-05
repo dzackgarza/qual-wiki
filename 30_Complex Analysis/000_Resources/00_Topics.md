@@ -59,9 +59,9 @@ Integration II
     - [[Open mapping theorem]]
     - [[Schwarz Reflection Principle]]
 - Week 10  (July 21):
-Riemann Mapping Principle and Casorati-Weierstrass
-    - Picard theorem
+[[Riemann Mapping Principle]] and [[Casorati-Weierstrass]]
+    - [[Picard theorem]]
 - Week 11 (July 28):
 Analytic continuation
-    - Montel's theorem
+    - [[Montel's theorem]]
     - Normal families
