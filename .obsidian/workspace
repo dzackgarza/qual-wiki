@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045.md",
+            "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045 Liouville and Power Series.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(\\work ) path:\"30_Complex Analysis\"",
+                "query": "\"power series with radius\"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045.md",
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045 Liouville and Power Series.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045.md"
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045 Liouville and Power Series.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045.md",
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045 Liouville and Power Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045.md",
+                "file": "30_Complex Analysis/600_Qual_Questions_UGA/0045 Liouville and Power Series.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,7 +248,7 @@
   },
   "active": "45510aad8f1c88a4",
   "lastOpenFiles": [
-    "30_Complex Analysis/600_Qual_Questions_UGA/0045.md",
+    "30_Complex Analysis/600_Qual_Questions_UGA/0045 Liouville and Power Series.md",
     "30_Complex Analysis/600_Qual_Questions_UGA/006_Laurent_Singularities.md",
     "30_Complex Analysis/010_Basics/005 Laurent and Power Series.md",
     "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md",

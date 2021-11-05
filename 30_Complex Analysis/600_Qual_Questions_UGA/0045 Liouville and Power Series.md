@@ -214,7 +214,7 @@ $$
 2.
 Deduce Liouville's theorem from (1).
 
-### Tie's Extra Questions: Fall 2009
+### Tie's Extra Questions: Fall 2009 $\work$
 Suppose $f$ is entire and there exist $A, R >0$ and natural number
 $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
 that
@@ -222,19 +222,19 @@ that
 1. $f$ is a polynomial and
 2. the degree of $f$ is at least $N$.
 
-### Tie's Extra Questions: Fall 2009
+### Tie's Extra Questions: Fall 2009 $\work$
 
 Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded*
 open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a
 constant.
 
-### Tie's Extra Questions: Fall 2009
+### Tie's Extra Questions: Fall 2009 $\work$
 
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
 disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
 degree $\leq 2$.
 
-### Spring 20202 HW 2 #  4
+### Spring 2020 HW 2 #  4 $\work$
 Without using Cauchy's integral formula, show that if $\abs{a} < r < \abs{b}$, then
 \[
 \int_{\gamma} \frac{d z}{(z-\alpha)(z-\beta)}=\frac{2 \pi i}{\alpha-\beta}
@@ -243,7 +243,7 @@ where $\gamma$ denotes the circle centered at the origin of radius $r$ with posi
 
 > Hint: take a Laurent expansion.
 
-### Spring 20202 HW 3 #  1
+### Spring 2020 HW 3 #  1 $\work$
 
 Prove that if $f$ has two Laurent series expansions,
 \[
@@ -251,7 +251,7 @@ f(z) = \sum c_n(z-a)^n \quad\text{and}\quad f(z) = \sum c_n'(z-a)^n
 \]
 then $c_n = c_n'$.
 
-### Spring 20202 HW 3 #  2
+### Spring 2020 HW 3 #  2 $\work$
 
 Find Laurent series expansions of
 \[
@@ -259,14 +259,13 @@ Find Laurent series expansions of
 \]
 How many such expansions are there? In what domains are each valid?
 
-### Spring 20202 HW 3 #  3
+### Spring 2020 HW 3 #  3 $\work$
 
 Let $P, Q$ be polynomials with no common zeros. Assume $a$ is a root of
 $Q$.
 Find the principal part of $P/Q$ at $z=a$ in terms of $P$ and $Q$ if $a$ is (1) a simple root, and (2) a double root.
 
-### Spring 20202 HW 3 #  5
+### Spring 2020 HW 3 #  5 $\work$
 
 Show that if $f$ is entire and $\lim_{z\to\infty}f(z) = \infty$, then
 $f$ is a polynomial.
-
