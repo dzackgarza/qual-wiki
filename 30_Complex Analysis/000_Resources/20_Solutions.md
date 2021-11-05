@@ -27,3 +27,5 @@
 - [ ]  [https://mathdept.ucr.edu/sites/g/files/rcwecm1516/files/2019-11/Complex Analysis Qualifying.pdf](https://mathdept.ucr.edu/sites/g/files/rcwecm1516/files/2019-11/Complex%20Analysis%20Qualifying.pdf) #solutions
 
 - [ ]  [[Complex_Analysis_Exam_Prep_Solutions.pdf]] #solutions
+
+- [ ]  [math185f09-hw7sol.pdf](attachments/math185f09-hw7sol.pdf) #solutions
