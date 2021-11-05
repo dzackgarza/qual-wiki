@@ -5,7 +5,7 @@
 - [ ] [[attachments/hmwk3x.pdf]]
 		#solutions
 
-- [ ]  ![Test](
+- [ ]  ![Test](http://www.math.ucsd.edu/~jagler/courses/220-S14/pdf/Qual%20(version%202)%20Solutions.pdf) asdasdas
 
 - [ ]  [UCSD 2014 Qual with Solutions](http://www.math.ucsd.edu/~jagler/courses/220-S14/pdf/Qual%20(version%202)%20Solutions.pdf)
 - [ ]  [http://www-users.math.umn.edu/~broom010/doc/ComplexExamFall2015.pdf](http://www-users.math.umn.edu/~broom010/doc/ComplexExamFall2015.pdf)
