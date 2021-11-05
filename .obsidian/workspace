@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "45510aad8f1c88a4",
+        "id": "738bc30b4aac538b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +75,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -138,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +159,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -246,17 +238,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "45510aad8f1c88a4",
+  "active": "738bc30b4aac538b",
   "lastOpenFiles": [
+    "attachments/McMullen_-_Advanced_Complex_Analysis.pdf",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+    "attachments/Complex_Qual_Notes.pdf",
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/010_Basics/Exercises.md",
     "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md",
     "30_Complex Analysis/010_Basics/Complex Log.md",
     "30_Complex Analysis/000_Resources/10_UGA_Problems.md",
-    "30_Complex Analysis/600_Qual_Questions_UGA/0045 Liouville and Power Series.md",
-    "30_Complex Analysis/600_Qual_Questions_UGA/006_Laurent_Singularities.md",
-    "30_Complex Analysis/010_Basics/005 Laurent and Power Series.md"
+    "30_Complex Analysis/600_Qual_Questions_UGA/0045 Liouville and Power Series.md"
   ]
 }

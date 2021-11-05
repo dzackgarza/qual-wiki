@@ -52,6 +52,18 @@ In the Spirit of Lipman Bers*
 
 - [[attachments/ist_ca_2015.pdf|Sameer Chavan, problems in complex analysis]]
 	#summaries
+	
+	- [UCSD Review Sheet](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
+		#summaries 
+
+- [UCSD Qual review](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
+	#summaries 
+
+- [[Won_-_Complex_Analysis_Qual_Sheet.pdf]]
+#summaries 
+
+- [[attachments/Complex_Qual_Notes.pdf|Josh Swanson Complex Prelim Notes]]
+	#summaries
 
 - [[http://people.math.harvard.edu/~ctm/papers/home/text/class/harvard/213a/course/course.pdf|Harvard 2021 Complex Analysis courses notes]]
 	#course_notes
@@ -63,9 +75,6 @@ In the Spirit of Lipman Bers*
 - [Some notes?](https://dec41.user.srcf.net/notes/IB_L/complex_analysis.pdf)
 	#course_notes 
 
-- [UCSD Qual review](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
-	#summaries 
-	
 - [Arun's course notes](https://web.ma.utexas.edu/users/a.debray/lecture_notes/116notes.pdf)
 	#course_notes 
 
@@ -74,10 +83,7 @@ In the Spirit of Lipman Bers*
 
 - [[McMullen_-_Advanced_Complex_Analysis.pdf]]
 
-- [[Won_-_Complex_Analysis_Qual_Sheet.pdf]]
-#summaries 
 
-- [[attachments/Complex_Qual_Notes.pdf]]
 
 ## Fun
 
