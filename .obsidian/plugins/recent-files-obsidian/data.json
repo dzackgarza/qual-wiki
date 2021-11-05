@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "30_Complex Analysis/010_Basics/Untitled.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
+      "basename": "002_Complex_Arithmetic",
+      "path": "30_Complex Analysis/600_Qual_Questions_UGA/002_Complex_Arithmetic.md"
     },
     {
       "basename": "00_Topics",
@@ -191,14 +199,6 @@
     {
       "basename": "15_Books_Notes",
       "path": "20_Real Analysis/000_Resources/15_Books_Notes.md"
-    },
-    {
-      "basename": "00_Books_Notes",
-      "path": "40_Topology/000_Resources/00_Books_Notes.md"
-    },
-    {
-      "basename": "00_Books_Notes_AG",
-      "path": "50_Algebraic Geometry/00_Books_Notes_AG.md"
     }
   ],
   "omittedPaths": [],
