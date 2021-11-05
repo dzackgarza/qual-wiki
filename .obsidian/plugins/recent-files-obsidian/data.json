@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "00_Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "002_Complex_Arithmetic",
       "path": "30_Complex Analysis/600_Qual_Questions_UGA/002_Complex_Arithmetic.md"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
     {
       "basename": "20_Solutions",
@@ -123,10 +127,6 @@
     {
       "basename": "007_Residues",
       "path": "30_Complex Analysis/600_Qual_Questions_UGA/007_Residues.md"
-    },
-    {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
     {
       "basename": "9999_2021_Fall",

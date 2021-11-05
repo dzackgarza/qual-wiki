@@ -346,7 +346,8 @@
     "diagonalization",
     "parameterizing",
     "nonconstant",
-    "Liouville"
+    "Liouville",
+    "speedrun"
   ],
   "communityPluginSortOrder": "download",
   "autoPairMarkdown": false,
