@@ -60,7 +60,6 @@ Integration II
     - [[Schwarz Reflection Principle]]
 - Week 10  (July 21):
 Riemann Mapping Principle and Casorati-Weierstrass
-    - Open mapping theorem
     - Picard theorem
 - Week 11 (July 28):
 Analytic continuation
