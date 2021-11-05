@@ -7,8 +7,11 @@
         "id": "738bc30b4aac538b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "30_Complex Analysis/000_Resources/00_Topics.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -75,6 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/00_Topics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -108,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "30_Complex Analysis/000_Resources/00_Topics.md"
+              }
             }
           }
         ],
@@ -132,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/00_Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/00_Topics.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -240,10 +248,10 @@
   },
   "active": "738bc30b4aac538b",
   "lastOpenFiles": [
+    "30_Complex Analysis/000_Resources/00_Topics.md",
     "attachments/McMullen_-_Advanced_Complex_Analysis.pdf",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
     "attachments/Complex_Qual_Notes.pdf",
-    "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/010_Basics/Exercises.md",
     "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md",
