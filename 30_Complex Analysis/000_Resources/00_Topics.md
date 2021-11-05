@@ -3,13 +3,13 @@
 [List of topics](attachments/Complex_Analysis_Prelim_Review.pdf)
 
 - Holomorphic and meromorphic functions
-- Conformal maps, linear fractional transformations, Schwarz’s lemma
-- Complex integrals: Cauchy’s theorem, Cauchy integral formula, residues
-- Harmonic functions: the mean value property; the reflection principle; Dirichlet’s problem
-- Series and product developments: Laurent series, partial fractions expansions, and canonical products
+- Conformal maps, linear fractional transformations, [[Schwarz's lemma]]
+- Complex integrals: [[Cauchy’s theorem]], [[Cauchy integral formula]], [[residues]]
+- Harmonic functions: [[the mean value property]]; [[Schwarz's reflection principle]]; Dirichlet’s problem
+- Series and product developments: Laurent series, partial fractions expansions, and [[canonical products]]
 - Special functions: the Gamma function, the zeta functions and elliptic functions
 - basics of Riemann surfaces
-- Riemann mapping theorem. Picard theorems.
+- [[Riemann mapping theorem]]. [[Picard theorem].
 
 # Scheduling
 
@@ -55,7 +55,7 @@ Integration II
     - SL(2, R), conformal maps of the disc/plane/sphere, the hyperbolic metri
     - Uniformization
 - Week 9 (July 14):
-[[Schwarz Lemma]] & Reflection Principle
+[[Schwarz's Lemma]] & Reflection Principle
     - [[Open mapping theorem]]
     - [[Schwarz Reflection Principle]]
 - Week 10  (July 21):
