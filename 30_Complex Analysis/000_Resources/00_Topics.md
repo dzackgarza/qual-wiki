@@ -7,9 +7,9 @@
 - Complex integrals: [[Cauchy’s theorem]], [[Cauchy integral formula]], [[residues]]
 - Harmonic functions: [[the mean value property]]; [[Schwarz's reflection principle]]; Dirichlet’s problem
 - Series and product developments: Laurent series, partial fractions expansions, and [[canonical products]]
-- Special functions: the Gamma function, the zeta functions and elliptic functions
-- basics of Riemann surfaces
-- [[Riemann mapping theorem]]. [[Picard theorem].
+- Special functions: the [[Gamma function]], the [[zeta functions]] and [[elliptic functions]]
+- Basics of Riemann surfaces
+- [[Riemann mapping theorem]]. [[Picard theorem]]
 
 # Scheduling
 

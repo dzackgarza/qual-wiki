@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "000_Tips_Techs",
+      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
       "basename": "00_Topics",
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "00_Books_Notes_AG",
       "path": "50_Algebraic Geometry/00_Books_Notes_AG.md"
-    },
-    {
-      "basename": "20_Problems",
-      "path": "50_Algebraic Geometry/20_Problems.md"
     }
   ],
   "omittedPaths": [],

@@ -7,6 +7,7 @@
 Things to know well:
 
 - Estimates for derivatives, mean value theorem
+
 - \cref[CauchyTheorem]{Cauchy's Theorem}
 - \cref[CauchyIntegral]{Cauchy's Integral Formula}
 - \cref[CauchyInequality]{Cauchy's Inequality}
