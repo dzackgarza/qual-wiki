@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+            "file": "30_Complex Analysis/010_Basics/005_Liouville_PowerSeries.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "30_Complex Analysis/010_Basics/005_Liouville_PowerSeries.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+                "file": "30_Complex Analysis/010_Basics/005_Liouville_PowerSeries.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "30_Complex Analysis/010_Basics/005_Liouville_PowerSeries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "30_Complex Analysis/010_Basics/005_Liouville_PowerSeries.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,6 +248,7 @@
   },
   "active": "45510aad8f1c88a4",
   "lastOpenFiles": [
+    "30_Complex Analysis/010_Basics/005_Liouville_PowerSeries.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md",
     "30_Complex Analysis/010_Basics/003_Calculus_Preliminaries.md",
@@ -256,7 +257,6 @@
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/000_Resources/10_UGA_Problems.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
-    "attachments/8150-hw2.pdf",
-    "Complex Analysis 114402775c864414b2896f48aeaa0566/8150-hw1.pdf.md"
+    "attachments/8150-hw2.pdf"
   ]
 }
