@@ -6,18 +6,18 @@
 
 Things to know well:
 
-- Estimates for derivatives, mean value theorem
-- Cauchy's theorem
-- Cauchy's integral formula
-- Cauchy's inequality
-- Morera's theorem
-- Liouville's theorem
-- Maximum modulus principle
-- Roche's theorem
-- The Schwarz reflection principle
-- The Schwarz lemma
-- Casorati-Weierstrass
-- Properties of linear fractional transformations and conformal maps
+- Estimates for derivatives, [[mean value theorem]]
+- [[Cauchy's theorem]]
+- [[Cauchy's integral formula]]
+- [[Cauchy's inequality]]
+- [[Morera's theorem]]
+- [[Liouville's theorem]]
+- [[Maximum modulus principle]]
+- [[Rouche's theorem]]
+- [[The Schwarz reflection principle]]
+- [[The Schwarz lemma]]
+- [[Casorati-Weierstrass]]
+- Properties of [[linear fractional transformations]] and [[conformal maps]]
 - Automorphisms of $\DD, \CC, \CP^1$.
 
 ## Common Tricks
@@ -48,13 +48,3 @@ To count zeros:
 - The argument principle
 
 :::
-
-## Basic but Useful Facts
-
-[[Complex Arithmetic]]
-
-
-[[30_Complex Analysis/010_Basics/Complex Calculus]]
-
-
-[[005 Laurent and Power Series]]

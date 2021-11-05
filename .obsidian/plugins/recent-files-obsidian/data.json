@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "000_Tips_Techs",
+      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
       "basename": "Exercises",
       "path": "30_Complex Analysis/010_Basics/Exercises.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "003_Calculus_Preliminaries",
       "path": "30_Complex Analysis/010_Basics/003_Calculus_Preliminaries.md"
-    },
-    {
-      "basename": "000_Tips_Techs",
-      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
     {
       "basename": "002_Complex_Arithmetic",
