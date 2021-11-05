@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "30_Complex Analysis",
+      "path": "30_Complex Analysis.md"
+    },
+    {
       "basename": "00_Books_Notes",
       "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "00_Resources",
       "path": "100_Homological Algebra/00_Resources.md"
-    },
-    {
-      "basename": "Prelim Resources",
-      "path": "00_Prelims/Prelim Resources.md"
     }
   ],
   "omittedPaths": [],

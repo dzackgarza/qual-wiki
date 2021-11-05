@@ -21,7 +21,7 @@ order: 30
 
 - Contour integrals and Green's theorem
 
-> Reference: \[3\].
+> Reference: (3).
 
 ## Preliminary Topics in Complex Analysis
 
@@ -31,7 +31,7 @@ order: 30
 
 - Contour Integration in $\CC$
 
-> References: \[1\] Chapters 1, 2; \[2\] Chapters 1, 2, 4; \[4\] Chapter 1.
+> References: (1) Chapters 1, 2; (2) Chapters 1, 2, 4; (4) Chapter 1.
 
 ## Cauchy's Theorem and its consequences
 
@@ -58,7 +58,7 @@ order: 30
   - Cauchy inequalities 
   - More generally, bounds on holomorphic functions and their derivatives on compact sets
 
-> References: \[1\] Chapters 4, 5, 6; \[2\] Chapters 5, 7, 8, 9; \[4\] Chapters 2, 3, 5, 8 (§2,3).
+> References: (1) Chapters 4, 5, 6; (2) Chapters 5, 7, 8, 9; (4) Chapters 2, 3, 5, 8 (§2,3).
 
 ## Conformal Mapping
 
@@ -68,7 +68,7 @@ order: 30
 
 - Automorphisms of the disk, plane, and Riemann sphere
 
-> References: \[1\] Chapters 3, 8; \[2\] Chapters 3, 4; \[4\] Chapter 8 (§1,2).
+> References: (1) Chapters 3, 8; (2) Chapters 3, 4; (4) Chapter 8 (§1,2).
 
 ## References
 
