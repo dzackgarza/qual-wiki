@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "10_Problems",
+      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
+    },
+    {
+      "basename": "8150-hw2",
+      "path": "attachments/8150-hw2.pdf"
+    },
+    {
       "basename": "35_Fields_Extensions",
       "path": "10_Algebra/060_Galois/35_Fields_Extensions.md"
     },
@@ -75,10 +83,6 @@
     {
       "basename": "100_Extra Questions",
       "path": "30_Complex Analysis/500_Exercises/100_Extra Questions.md"
-    },
-    {
-      "basename": "10_Problems",
-      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
     {
       "basename": "000_Resources",
@@ -195,10 +199,6 @@
     {
       "basename": "10_Topics",
       "path": "20_Real Analysis/000_Resources/10_Topics.md"
-    },
-    {
-      "basename": "50_Solutions_Algebra",
-      "path": "10_Algebra/000_Resources/50_Solutions_Algebra.md"
     }
   ],
   "omittedPaths": [],
