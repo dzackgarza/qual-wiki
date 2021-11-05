@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md"
     },
     {
+      "basename": "2021-10-28_21-22-12",
+      "path": "30_Complex Analysis/figures/2021-10-28_21-22-12.png"
+    },
+    {
       "basename": "Complex Calculus",
       "path": "30_Complex Analysis/010_Basics/Complex Calculus.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "000_Preface",
       "path": "10_Algebra/600_Qual_Questions_UGA/000_Preface.md"
-    },
-    {
-      "basename": "0000_Preface",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
     }
   ],
   "omittedPaths": [],

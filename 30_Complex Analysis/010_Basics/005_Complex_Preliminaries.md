@@ -174,10 +174,9 @@ If $f$ is holomorphic on $\Omega$ and any of the following hold, then $f$ is con
 ## Power Series
 
 
-![](2021-10-28_21-22-12.png)
+![](figures/2021-10-28_21-22-12.png)
 
-
-![](2021-10-28_21-22-35.png)
+![](figures/2021-10-28_21-22-35.png)
 
 :::{.theorem title="Improved Taylor's Theorem"}
 If $f$ is holomorphic on a region $\Omega$ with $\closure{ D_R(z_0)} \subseteq \Omega$, and for every $z\in D_r(z_0)$, $f$ has a power series expansion of the following form:
