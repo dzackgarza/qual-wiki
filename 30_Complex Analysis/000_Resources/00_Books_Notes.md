@@ -8,7 +8,10 @@
 - Gamelin, *Complex Analysis*
 - Rudin, *Real and Complex Analysis*
 - Silverman, Richard. *Complex Analysis with Applications*
+
 - Stein and Shakarchi, *Complex Analysis*
+	[Link to PDF](https://www.dropbox.com/s/exajprkvbqjxgx3/Complex%20Analysis%20%28Stein%20and%20Shakarchi%20II%29%20-%20Elias%20M.%20Stein%2C%20Rami%20Shakarchi.pdf?dl=0)
+
 - Taylor, *Complex Analysis*
 - Barry Simon, *Basic Complex Analysis*
 - Hormander, *An Introduction to Complex Analysis in Several Variables*
@@ -23,9 +26,14 @@
 In the Spirit of Lipman Bers*
 
 - Sarason, *Complex Function Theory*
+	[Link to PDF](https://www.dropbox.com/s/3atiop7trmmh1d2/Complex%20Function%20Theory%20-%20Sarason.pdf?dl=0)
 
 
 # Notes
+
+## UGA
+
+## Other
 
 - Stein and Shakarchi speedrun: 
 	[[attachments/Eur_ComplexAnalysis_Notes (1).pdf]]
