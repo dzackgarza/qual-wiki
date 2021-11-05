@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
+    },
+    {
       "basename": "10_UGA_Problems",
       "path": "30_Complex Analysis/000_Resources/10_UGA_Problems.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20_Problems",
       "path": "50_Algebraic Geometry/20_Problems.md"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "50_Algebraic Geometry/00_Topics.md"
     }
   ],
   "omittedPaths": [],

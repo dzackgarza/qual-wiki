@@ -8,11 +8,13 @@
     
 - [ ]  [Spring 2021 HW2](attachments/8150-hw2.pdf) #problems
     
-- [ ]  [Spring 2021 HW31](attachments/8150-hw3.pdf) #problems
+- [ ]  [Spring 2021 HW3](attachments/8150-hw3.pdf) #problems
     
 - [ ]  [Spring 2021 Midterm](attachments/Spring2020Midterm.pdf) #problems
     
 - [ ]  [Extra Questions from Tie](attachments/Questions_from_Tie.pdf) #problems
+
+- [ ]  ![[attachments/Azoff Problems by Topic.pdf]]
     
 ## Misc
 

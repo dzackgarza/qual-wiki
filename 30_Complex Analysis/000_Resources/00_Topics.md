@@ -1,6 +1,6 @@
 # Topics
 
-[List of topics](Complex_Analysis_Prelim_Review.pdf)
+[List of topics](attachments/Complex_Analysis_Prelim_Review.pdf)
 
 - Holomorphic and meromorphic functions
 - Conformal maps, linear fractional transformations, Schwarz’s lemma
@@ -68,9 +68,4 @@ Riemann Mapping Principle and Casorati-Weierstrass
 Analytic continuation
     - Montel's theorem
     - Normal families
-    ****
-- Week 12 (August 4):
-**No meeting (Mock AMS)**
-- Week 13 (August 11):
-**Timed practice exam**
-- **Quals:** 
+    
