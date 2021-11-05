@@ -24,5 +24,5 @@
 
 [Workshop Materials](https://www.notion.so/Workshop-Materials-9a23a44788604595ba7d4a26d011d2c0)
 
-[Previous Math 6220 Assignments.](http://www.math.utah.edu/~astephan/134.pdf)
+[Utah Math 6220 Assignments.](http://www.math.utah.edu/~astephan/134.pdf)
 	Sets 1, 3, and 4 are here; 2 is missing.
