@@ -49,14 +49,12 @@ Integration II
     - [[Rouche's theorem]]
     - [[Argument principle]]
 - Week 8 (July 7):
-**[Note: mini-course week]**
-Conformal Transformations
+[[Conformal Maps]]
     - The big 9 transformations
     - Mobius transformations, LFTs
-    - SL(2, R), [[conformal maps]] of the disc/plane/sphere, the hyperbolic metri
+    - SL(2, R), conformal maps of the disc/plane/sphere, the hyperbolic metri
     - Uniformization
 - Week 9 (July 14):
-**[Note: mini-course week]**
 [[Schwarz Lemma]] & Reflection Principle
     - [[Open mapping theorem]]
     - [[Schwarz Reflection Principle]]
