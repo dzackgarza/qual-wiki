@@ -14,20 +14,10 @@ Things to know well:
 - Liouville's theorem
 - Maximum modulus principle
 - Roche's theorem
-- \cref[CauchyTheorem]{Cauchy's Theorem}
-- \cref[CauchyIntegral]{Cauchy's Integral Formula}
-- \cref[CauchyInequality]{Cauchy's Inequality}
-
-- \cref[Morera]{Morera's Theorem}
-- \cref[Liouville]{Liouville's Theorem}
-
-- \cref[MaximumModulus]{Maximum Modulus Principle}
-- \cref[Rouche]{Rouché's Theorem}
-
-- \cref[SchwarzReflection]{The Schwarz Reflection Principle}
-- \cref[SchwarzLemma]{The Schwarz Lemma}
-- \cref[Casorati]{Casorati-Weierstrass Theorem}
-- Properties of linear fractional transformations
+- The Schwarz reflection principle
+- The Schwarz lemma
+- Casorati-Weierstrass
+- Properties of linear fractional transformations and conformal maps
 - Automorphisms of $\DD, \CC, \CP^1$.
 
 ## Common Tricks
