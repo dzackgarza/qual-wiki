@@ -29,9 +29,8 @@ In the Spirit of Lipman Bers*
 	[Link to PDF](https://www.dropbox.com/s/3atiop7trmmh1d2/Complex%20Function%20Theory%20-%20Sarason.pdf?dl=0)
 
 
-# Notes
+# UGA Material
 
-## UGA
 - The Riemann Mapping Theorem:
 	[[attachments/8.3 Riemann Mapping Theorem (1).pdf]]
 
@@ -41,10 +40,9 @@ In the Spirit of Lipman Bers*
 - Further examples:
 	[[attachments/8.1.2 Further Examples (1).pdf]]
 
-## Other
+# Summaries
 
-- Stein and Shakarchi speedrun: 
-	[[attachments/Eur_ComplexAnalysis_Notes (1).pdf]]
+-  [[attachments/Eur_ComplexAnalysis_Notes (1).pdf|Chris Eur, Stein and Shakarchi speedrun]]
 #summaries 
 
 - [[attachments/complex.pdf|Douglas Arnold, notes on various topics]]
@@ -53,8 +51,8 @@ In the Spirit of Lipman Bers*
 - [[attachments/ist_ca_2015.pdf|Sameer Chavan, problems in complex analysis]]
 	#summaries
 	
-	- [UCSD Review Sheet](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
-		#summaries 
+- [UCSD Review Sheet](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
+	#summaries 
 
 - [UCSD Qual review](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
 	#summaries 
@@ -64,13 +62,14 @@ In the Spirit of Lipman Bers*
 
 - [[attachments/Complex_Qual_Notes.pdf|Josh Swanson Complex Prelim Notes]]
 	#summaries
+	
+# Course Notes
 
 - [[http://people.math.harvard.edu/~ctm/papers/home/text/class/harvard/213a/course/course.pdf|Harvard 2021 Complex Analysis courses notes]]
 	#course_notes
 	
 - [Ko Honda Course Notes](https://www.math.ucla.edu/~honda/math520/notes.pdf)
 	#course_notes 
-
 
 - [Some notes?](https://dec41.user.srcf.net/notes/IB_L/complex_analysis.pdf)
 	#course_notes 

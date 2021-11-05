@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "00_Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
     {
       "basename": "McMullen_-_Advanced_Complex_Analysis",
       "path": "attachments/McMullen_-_Advanced_Complex_Analysis.pdf"
     },
     {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+      "basename": "Eur_ComplexAnalysis_Notes (1)",
+      "path": "attachments/Eur_ComplexAnalysis_Notes (1).pdf"
+    },
+    {
+      "basename": "00_Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
     {
       "basename": "Complex_Qual_Notes",
@@ -195,10 +199,6 @@
     {
       "basename": "Prelim Resources",
       "path": "00_Prelims/Prelim Resources.md"
-    },
-    {
-      "basename": "Integral Practice",
-      "path": "00_Prelims/Problems/Integral Practice.md"
     }
   ],
   "omittedPaths": [],
