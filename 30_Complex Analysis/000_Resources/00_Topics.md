@@ -35,31 +35,31 @@ Analytic Functions
 Integration I
     - Contours, parameterization, primitives
     - Cauchy's Theorem,  Cauchy's integral formula
-    - Morera's theorem
-    - Maximum modulus principle
+    - [[Morera's theorem]]
+    - [[Maximum modulus principle]]
 - Week 5 (June 16):
 Integration II
     - The residue calculus
 - Week 6 (June 23):
-Liouville's Theorem
+[[Liouville's Theorem]]
     - FTA
     - Entire functions
 - Week 7 (June 30):
  Roots
-    - Rouche
-    - Argument principle
+    - [[Rouche's theorem]]
+    - [[Argument principle]]
 - Week 8 (July 7):
 **[Note: mini-course week]**
 Conformal Transformations
     - The big 9 transformations
     - Mobius transformations, LFTs
-    - SL(2, R), conformal maps of the disc/plane/sphere, the hyperbolic metri
+    - SL(2, R), [[conformal maps]] of the disc/plane/sphere, the hyperbolic metri
     - Uniformization
 - Week 9 (July 14):
 **[Note: mini-course week]**
-Schwarz Lemma & Reflection Principle
-    - Open mapping theorem
-    - Schwarz Reflection Principle
+[[Schwarz Lemma]] & Reflection Principle
+    - [[Open mapping theorem]]
+    - [[Schwarz Reflection Principle]]
 - Week 10  (July 21):
 Riemann Mapping Principle and Casorati-Weierstrass
     - Open mapping theorem
@@ -68,4 +68,3 @@ Riemann Mapping Principle and Casorati-Weierstrass
 Analytic continuation
     - Montel's theorem
     - Normal families
-    
