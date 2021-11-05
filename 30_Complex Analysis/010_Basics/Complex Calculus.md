@@ -108,3 +108,13 @@ F(\vector p + \vector h) = F(\vector p) + A(\vector h) + R(\vector h) && R\in o(
 { \norm{ R(\vector h) } \over  \norm{\vector h}} \converges{\vector h\to 0}\too 0
 .\]
 :::
+
+:::{.proposition title="Holomorphic implies continuous."}
+$f$ is holomorphic at $z_0$ iff there exists an $a\in \CC$ such that
+\[  
+f(z_0 + h) - f(z_0) - ah = h \psi(h), \quad \psi(h) \converges{h\to 0}\to 0
+.\]
+In this case, $a = f'(z_0)$.
+:::
+
+#todo proof
