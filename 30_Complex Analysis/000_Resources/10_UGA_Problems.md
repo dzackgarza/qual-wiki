@@ -1,4 +1,4 @@
-# Problems (Complex)
+# UGA Problems (Complex)
 
 [Workshop Materials](https://www.notion.so/Workshop-Materials-9a23a44788604595ba7d4a26d011d2c0)
 

@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "10_Problems",
-      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
+      "basename": "20_Solutions",
+      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
+    },
+    {
+      "basename": "10_UGA_Problems",
+      "path": "30_Complex Analysis/000_Resources/10_UGA_Problems.md"
     },
     {
       "basename": "8150-hw2",
@@ -195,10 +199,6 @@
     {
       "basename": "00_Topics",
       "path": "50_Algebraic Geometry/00_Topics.md"
-    },
-    {
-      "basename": "10_Topics",
-      "path": "20_Real Analysis/000_Resources/10_Topics.md"
     }
   ],
   "omittedPaths": [],
