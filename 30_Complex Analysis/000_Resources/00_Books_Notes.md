@@ -32,6 +32,14 @@ In the Spirit of Lipman Bers*
 # Notes
 
 ## UGA
+- The Riemann Mapping Theorem:
+	[[attachments/8.3 Riemann Mapping Theorem (1).pdf]]
+
+- Normal families:
+	[[attachments/8.2.3 Normal family.pdf]]
+
+- Further examples:
+	[[attachments/8.1.2 Further Examples (1).pdf]]
 
 ## Other
 
@@ -39,31 +47,36 @@ In the Spirit of Lipman Bers*
 	[[attachments/Eur_ComplexAnalysis_Notes (1).pdf]]
 #summaries 
 
-- Douglas Arnold, notes on various topics
-![[attachments/complex.pdf]]
+- [[attachments/complex.pdf|Douglas Arnold, notes on various topics]]
 #summaries
 
-- Sameer Chavan, problems in complex analysis
-![[attachments/ist_ca_2015.pdf]]
+- [[attachments/ist_ca_2015.pdf|Sameer Chavan, problems in complex analysis]]
+	#summaries
 
-- [Harvard 2021 Complex Analysis courses notes:](http://people.math.harvard.edu/~ctm/papers/home/text/class/harvard/213a/course/course.pdf)
+- [[http://people.math.harvard.edu/~ctm/papers/home/text/class/harvard/213a/course/course.pdf|Harvard 2021 Complex Analysis courses notes]]
 	#course_notes
 	
 - [Ko Honda Course Notes](https://www.math.ucla.edu/~honda/math520/notes.pdf)
+	#course_notes 
 
-- [UCSD Review Sheet](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
-	#summaries 
 
 - [Some notes?](https://dec41.user.srcf.net/notes/IB_L/complex_analysis.pdf)
+	#course_notes 
 
 - [UCSD Qual review](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
 	#summaries 
 	
 - [Arun's course notes](https://web.ma.utexas.edu/users/a.debray/lecture_notes/116notes.pdf)
+	#course_notes 
 
 - [Berkeley 2015 Course Notes](https://web.mst.edu/~jcmcfd/Complex-Analysis.pdf)
+	#course_notes 
+
 - [[McMullen_-_Advanced_Complex_Analysis.pdf]]
+
 - [[Won_-_Complex_Analysis_Qual_Sheet.pdf]]
+#summaries 
+
 - [[attachments/Complex_Qual_Notes.pdf]]
 
 ## Fun
