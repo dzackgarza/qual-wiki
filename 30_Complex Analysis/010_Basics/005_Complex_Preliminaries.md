@@ -1,4 +1,4 @@
-# Preliminaries
+# Complex Preliminaries
 
 - Since $\CC$ is a field, $\CC[x]$ is a UFD.
 

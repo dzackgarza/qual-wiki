@@ -1,4 +1,4 @@
-## Series
+# Laurent and Power Series
 
 :::{.fact title="Generalized Binomial Theorem"}
 Define $(n)_k$ to be the falling factorial 
