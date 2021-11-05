@@ -7,7 +7,13 @@
 Things to know well:
 
 - Estimates for derivatives, mean value theorem
-
+- Cauchy's theorem
+- Cauchy's integral formula
+- Cauchy's inequality
+- Morera's theorem
+- Liouville's theorem
+- Maximum modulus principle
+- Roche's theorem
 - \cref[CauchyTheorem]{Cauchy's Theorem}
 - \cref[CauchyIntegral]{Cauchy's Integral Formula}
 - \cref[CauchyInequality]{Cauchy's Inequality}
