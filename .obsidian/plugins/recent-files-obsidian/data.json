@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "0045",
+      "path": "30_Complex Analysis/600_Qual_Questions_UGA/0045.md"
+    },
+    {
+      "basename": "006_Laurent_Singularities",
+      "path": "30_Complex Analysis/600_Qual_Questions_UGA/006_Laurent_Singularities.md"
+    },
+    {
+      "basename": "005 Laurent and Power Series",
+      "path": "30_Complex Analysis/010_Basics/005 Laurent and Power Series.md"
+    },
+    {
       "basename": "005_Complex_Preliminaries",
       "path": "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "Complex Calculus",
       "path": "30_Complex Analysis/010_Basics/Complex Calculus.md"
-    },
-    {
-      "basename": "005 Laurent and Power Series",
-      "path": "30_Complex Analysis/010_Basics/005 Laurent and Power Series.md"
     },
     {
       "basename": "Complex Arithmetic",
@@ -191,14 +199,6 @@
     {
       "basename": "index",
       "path": "index.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "40_Topology/600_UGA_Qual_Questions/000_Preface.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "10_Algebra/600_Qual_Questions_UGA/000_Preface.md"
     }
   ],
   "omittedPaths": [],
