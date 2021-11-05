@@ -51,3 +51,60 @@ Note an issue: a different parameterization yields a different (still nonzero) n
 .\]
 This is these are paths that don't lift to closed loops on the Riemann surface defined by $z\mapsto z^2$.
 :::
+
+# Holomorphy
+
+
+:::{.definition title="Complex differentiable / holomorphic /entire"}
+A function $f: \CC\to \CC$ is **complex differentiable** or **holomorphic** at $z_0$ iff the following limit exists:
+\[
+\lim_{h\to 0} { f(z_0 + h) - f(h) \over h  } 
+.\]
+A function that is holomorphic on $\CC$ is said to be **entire**.
+
+Equivalently, there exists an $\alpha\in \CC$ such that
+\[
+f(z_0+h) - f(z_0) = \alpha h + R(h) && R(h) \converges{h\to 0}\too 0 
+.\]
+In this case, $\alpha = f'(z_0)$.
+
+:::
+
+:::{.example title="Holomorphic vs non-holomorphic"}
+\envlist
+
+- $f(z) \da \abs{z}$ is not holomorphic.
+- $f(z) \da \arg{z}$ is not holomorphic.
+- $f(z) \da \Re{z}$ is not holomorphic.
+- $f(z) \da \Im{z}$ is not holomorphic.
+- $f(z) = {1\over z}$ is holomorphic on $\CC\smz$ but not holomorphic on $\CC$
+- $f(z) = \bar{z}$ is *not* holomorphic, but is real differentiable:
+\[
+{f(z_0 + h) - f(z_0) \over h } = {\bar{z_0} + \bar h - \bar{z_0} \over h} = {\bar{h} \over h} = {re^{-i\theta} \over re^{i\theta}} = e^{-2i\theta} \converges{h\to 0}\too e^{-2i\theta}
+,\]
+which is a complex number that depends on $\theta$ and is thus not a single value.
+
+:::
+
+:::{.definition title="Real (multivariate) differentiable"}
+A function $F: \RR^n\to \RR^m$ is **real-differentiable** at $\vector p$ iff there exists a linear transformation $A$ such that
+\[
+{ \norm{ F(\vector p + \vector h) - F(\vector p) - A(\vector h) } \over \norm{ \vector h } } \converges{\norm{\vector h}\to 0}\too 0
+.\]
+Rewriting,
+\[
+\norm{ F(\vector p + \vector h) - F(\vector p)  - A(\vector h) } = \norm{ \vector{h} } \norm{ R(\vector h) }
+&& \norm{R(\vector h) }\converges{\norm{\vector h } \to 0}\too 0
+.\]
+
+Equivalently, 
+\[
+F(\vector p + \vector h) - F(\vector p) = A(\vector h) + \norm{\vector h} R(\vector h) && \norm{R(\vector h) }\converges{\norm{\vector h } \to 0}\too 0
+.\]
+
+Or in a slightly more useful form,
+\[
+F(\vector p + \vector h) = F(\vector p) + A(\vector h) + R(\vector h) && R\in o( \norm{\vector h}), \text{ i.e. }
+{ \norm{ R(\vector h) } \over  \norm{\vector h}} \converges{\vector h\to 0}\too 0
+.\]
+:::

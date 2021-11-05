@@ -5,16 +5,16 @@
       "path": "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md"
     },
     {
+      "basename": "Complex Calculus",
+      "path": "30_Complex Analysis/010_Basics/Complex Calculus.md"
+    },
+    {
       "basename": "005 Laurent and Power Series",
       "path": "30_Complex Analysis/010_Basics/005 Laurent and Power Series.md"
     },
     {
       "basename": "Complex Arithmetic",
       "path": "30_Complex Analysis/010_Basics/Complex Arithmetic.md"
-    },
-    {
-      "basename": "Complex Calculus",
-      "path": "30_Complex Analysis/010_Basics/Complex Calculus.md"
     },
     {
       "basename": "003_Calculus_Preliminaries",
