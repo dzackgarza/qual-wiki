@@ -51,7 +51,7 @@ To count zeros:
 
 ## Basic but Useful Facts
 
-[[30_Complex Analysis/600_Qual_Questions_UGA/002_Complex_Arithmetic]]
+[[30_Complex Analysis/010_Basics/Complex Arithmetic]]
 
 
 ### Calculus

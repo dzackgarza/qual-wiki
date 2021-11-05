@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "30_Complex Analysis/010_Basics/Untitled.md"
-    },
-    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
+      "basename": "005_Complex_Preliminaries",
+      "path": "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md"
+    },
+    {
+      "basename": "003_Calculus_Preliminaries",
+      "path": "30_Complex Analysis/010_Basics/003_Calculus_Preliminaries.md"
+    },
+    {
+      "basename": "Complex Arithmetic",
+      "path": "30_Complex Analysis/010_Basics/Complex Arithmetic.md"
     },
     {
       "basename": "002_Complex_Arithmetic",
@@ -191,14 +199,6 @@
     {
       "basename": "9960 UGA Problems",
       "path": "10_Algebra/500_Exercises/9960 UGA Problems.md"
-    },
-    {
-      "basename": "20_Books_Notes",
-      "path": "10_Algebra/000_Resources/20_Books_Notes.md"
-    },
-    {
-      "basename": "15_Books_Notes",
-      "path": "20_Real Analysis/000_Resources/15_Books_Notes.md"
     }
   ],
   "omittedPaths": [],
