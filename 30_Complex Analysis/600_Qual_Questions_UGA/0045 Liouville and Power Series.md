@@ -187,21 +187,15 @@ Prove that the following series converges uniformly on the set $\theset{z \sucht
 \sum_{n=1}^\infty {\sin(nz) \over 2^n}
 .\]
 
-
-# Extra
-
-
 ## Tie's Questions
-Let $f(z)$ be entire and assume values of $f(z)$ lie outside a
-*bounded* open set $\Omega$. Show without using Picard's theorems
-that $f(z)$ is a constant.
+
+### Tie's Extra Questions: Fall 2009 $\work$
 
 Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded* open set $\Omega$. 
 
 Show without using Picard's theorems that $f(z)$ is a constant.
 
-
-## Tie's Questions
+### Tie's Extra Questions: Fall 2009 $\work$
 
 1. 
 Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges in $|z| < R$. 
