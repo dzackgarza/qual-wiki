@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/000_Resources/20_Solutions.md",
+            "file": "30_Complex Analysis/000_Resources/10_UGA_Problems.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/20_Solutions.md",
+                "file": "30_Complex Analysis/000_Resources/10_UGA_Problems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/20_Solutions.md"
+                "file": "30_Complex Analysis/000_Resources/10_UGA_Problems.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/20_Solutions.md",
+                "file": "30_Complex Analysis/000_Resources/10_UGA_Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/20_Solutions.md",
+                "file": "30_Complex Analysis/000_Resources/10_UGA_Problems.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,8 +248,8 @@
   },
   "active": "45510aad8f1c88a4",
   "lastOpenFiles": [
-    "30_Complex Analysis/000_Resources/20_Solutions.md",
     "30_Complex Analysis/000_Resources/10_UGA_Problems.md",
+    "30_Complex Analysis/000_Resources/20_Solutions.md",
     "attachments/8150-hw2.pdf",
     "Complex Analysis 114402775c864414b2896f48aeaa0566/8150-hw1.pdf.md",
     "10_Algebra/060_Galois/35_Fields_Extensions.md",

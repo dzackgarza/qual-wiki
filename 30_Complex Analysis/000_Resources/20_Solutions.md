@@ -22,7 +22,8 @@
 
 - [ ]  [https://www.math.ubc.ca/~malabika/teaching/ubc/fall17/math440-508/Homework_4_Solutions.pdf](https://www.math.ubc.ca/~malabika/teaching/ubc/fall17/math440-508/Homework_4_Solutions.pdf) #solutions
 
-- [ ]  [https://www.isibang.ac.in/~statmath/oldqp/Sol/Complex Analysis Sol 2009-10](https://www.isibang.ac.in/~statmath/oldqp/Sol/Complex%20Analysis%20Sol%202009-10) #solutions
+- [ ]  [Some solutions](https://www.isibang.ac.in/~statmath/oldqp/Sol/Complex%20Analysis%20Sol%202009-10) #solutions
 
-- [ ]  [https://mathdept.ucr.edu/sites/g/files/rcwecm1516/files/2019-11/Complex Analysis Qualifying.pdf](https://mathdept.ucr.edu/sites/g/files/rcwecm1516/files/2019-11/Complex%20Analysis%20Qualifying.pdf)
-- [ ]  [[Complex_Analysis_Exam_Prep_Solutions.pdf]]
+- [ ]  [https://mathdept.ucr.edu/sites/g/files/rcwecm1516/files/2019-11/Complex Analysis Qualifying.pdf](https://mathdept.ucr.edu/sites/g/files/rcwecm1516/files/2019-11/Complex%20Analysis%20Qualifying.pdf) #solutions
+
+- [ ]  [[Complex_Analysis_Exam_Prep_Solutions.pdf]] #solutions
