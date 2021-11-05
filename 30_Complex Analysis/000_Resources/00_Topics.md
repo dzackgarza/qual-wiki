@@ -25,7 +25,7 @@ Preliminary Review
 - Week 2 (May 26):
 Differentiation
     - Implicit function theorem
-    - Cauchy-Riemann, the Laplace equation, Harmonic functions, holomorphicity
+    - [[The Cauchy-Riemann equations]], the Laplace equation, Harmonic functions, holomorphicity
     - Cauchy's formula, Cauchy inequalities
 - Week 3 (June 2):
 Analytic Functions
@@ -34,7 +34,7 @@ Analytic Functions
 - Week 4 (June 9):
 Integration I
     - Contours, parameterization, primitives
-    - Cauchy's Theorem,  Cauchy's integral formula
+    - [[Cauchy's Theorem]],  [[Cauchy's integral formula]]
     - [[Morera's theorem]]
     - [[Maximum modulus principle]]
 - Week 5 (June 16):
