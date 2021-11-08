@@ -70,7 +70,7 @@ Idea: break into disjoint annuli!
 - From above: funny step, use $E_{1} = (\disjoint E_{j}\setminus E_{j+1}) \disjoint (\intersect E_{j})$.
   - Taking measures yields a telescoping sum, and use countable additivity, then finiteness to subtract.
 
-  ![image_2021-05-28-23-29-31](image_2021-05-28-23-29-31.png)
+  ![[image_2021-05-28-23-29-31.png]]
 
 
 :::

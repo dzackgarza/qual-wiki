@@ -129,7 +129,7 @@ The most often used form here:
 Proof: let $S_\alpha$ be the set appearing, then $\alpha \mu(S_\alpha)$ is the sum of areas of certain boxes below the graph of $f$.
 Interpret $\int_X f$ as the total area under the graph to make the inequality obvious.
 
-![image_2021-06-02-22-59-46](image_2021-06-02-22-59-46.png)
+![[image_2021-06-02-22-59-46.png]]
 
 The probability interpretation: $\PP(X\geq \alpha) \leq {1\over \alpha} \EE(X)$.
 
@@ -276,3 +276,5 @@ As a consequence,
 
 :::
 
+
+- $\sqrt{x + y} \leq \sqrt{x} + \sqrt{y}$.

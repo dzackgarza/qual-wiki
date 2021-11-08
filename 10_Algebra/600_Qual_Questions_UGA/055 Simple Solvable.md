@@ -1,6 +1,6 @@
 # Groups: Simple and Solvable
 
-## $\star$ Fall 2016 #7 $\work$
+## $\star$ Fall 2016 #7 #work
 
 a.
 Define what it means for a group $G$ to be *solvable*.
@@ -10,7 +10,7 @@ Show that every group $G$ of order 36 is solvable.
 
 > Hint: you can use that $S_4$ is solvable.
 
-## Spring 2015 #4 $\work$
+## Spring 2015 #4 #work
 Let $N$ be a positive integer, and let $G$ be a finite group of order $N$.
 
 a.
@@ -36,11 +36,11 @@ Prove that $G$ is not simple.
 > Hint: use part (b).
 
 
-## Spring 2014 #1 $\work$
+## Spring 2014 #1 #work
 Let $p, n$ be integers such that $p$ is prime and $p$ does not divide $n$.
 Find a real number $k = k (p, n)$ such that for every integer $m\geq k$, every group of order $p^m n$ is not simple.
 
-## Fall 2013 #1 $\work$
+## Fall 2013 #1 #work
 Let $p, q$ be distinct primes.
 
 a.
@@ -50,10 +50,10 @@ Prove that no group of order $pq^k$ is simple.
 b.
 Let $G$ be a group of order $pq$, and prove that $G$ is not simple.
 
-## Spring 2013 #4  $\work$
+## Spring 2013 #4  #work
 Define a *simple group*.
 Prove that a group of order 56 can not be simple.
 
-## Fall 2019 Midterm #3 $\work$
+## Fall 2019 Midterm #3 #work
 Show that there exist no simple groups of order 148.
 

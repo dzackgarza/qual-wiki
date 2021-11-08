@@ -2,7 +2,7 @@
 
 ## UFDs, PIDs, etc
 
-### Spring 2013 #2 $\done$
+### Spring 2013 #2 #completed
 
 a.
 Define a *Euclidean domain*.
@@ -65,7 +65,7 @@ Give either a proof or a counterexample with justification.
 
 
 
-### Fall 2017 #6 $\done$
+### Fall 2017 #6 #completed
 For a ring $R$, let $U(R)$ denote the multiplicative group of units in $R$. Recall that in an integral domain $R$, $r \in R$ is called *irreducible* if $r$ is not a unit in R, and the only divisors of $r$ have the form $ru$ with $u$ a unit in $R$. 
 
 We call a non-zero, non-unit $r \in R$ *prime* in $R$ if $r \divides ab \implies r \divides a$ or $r \divides b$. 
@@ -133,7 +133,7 @@ Conclude $R$ is not a PID.
 
 :::
 
-### Spring 2017 #4 $\done$
+### Spring 2017 #4 #completed
 
 a.
 Let $R$ be an integral domain with quotient field $F$.
@@ -185,7 +185,7 @@ Prove that $\ZZ[2\sqrt{2}]$ is not a UFD.
 
 ## Ideals (Prime, Maximal, Proper, Principal, etc)
 
-### Fall 2013 #3 $\done$
+### Fall 2013 #3 #completed
 
 a.
 Define *prime ideal*, give an example of a nontrivial ideal in the ring $\ZZ$ that is not prime, and prove that it is not prime.
@@ -209,13 +209,13 @@ Define *maximal ideal*, give an example of a nontrivial maximal ideal in $\ZZ$ a
 :::
 
 
-### Fall 2014 #8 $\work$
+### Fall 2014 #8 #work
 Let $R$ be a nonzero commutative ring without unit such that $R$ does not contain a proper maximal ideal.
 Prove that for all $x\in R$, the ideal $xR$ is proper.
 
 > You may assume the axiom of choice.
 
-### Fall 2014 #7 $\done$
+### Fall 2014 #7 #completed
 Give a careful proof that $\CC[x, y]$ is not a PID.
 
 :::{.concept}
@@ -247,7 +247,7 @@ Give a careful proof that $\CC[x, y]$ is not a PID.
 
 
 
-### Spring 2019 #6 $\done$
+### Spring 2019 #6 #completed
 Let $R$ be a commutative ring with 1.
 
 > Recall that $x \in R$ is nilpotent iff $xn = 0$ for
@@ -372,7 +372,7 @@ But then $x\in \mm$ and $1-x \in \mm \implies x + (1-x) = 1 \in \mm$, a contradi
 
 :::
 
-### Spring 2018 #8 $\done$
+### Spring 2018 #8 #completed
 Let $R = C[0, 1]$ be the ring of continuous real-valued functions on the interval $[0, 1]$. Let I be an ideal of $R$.
 
 a.
@@ -439,7 +439,7 @@ G(x) \da {1\over \sum_{k=1}^n g_k(x)}
 
 ## Zero Divisors and Nilpotents
 
-### Spring 2014 #5 $\done$
+### Spring 2014 #5 #completed
 Let $R$ be a commutative ring and $a\in R$.
 Prove that $a$ is not nilpotent $\iff$ there exists a commutative ring $S$ and a ring homomorphism $\phi: R\to S$ such that $\phi(a)$ is a unit.
 
@@ -463,7 +463,7 @@ $A\implies B$:
 
 :::
 
-### Spring 2021 #5 $\done$
+### Spring 2021 #5 #completed
 
 :::{.problem title="Spring 2021"}
 Suppose that $f(x) \in (\ZZ/n\ZZ)[x]$ is a zero divisor.
@@ -500,7 +500,7 @@ b_m f(x) = b_m \sum_{k=0}^n a_k x^k = \sum_{k=0}^n (b_m a_k) x^k = 0
 
 :::
 
-### Fall 2018 #7 $\done$
+### Fall 2018 #7 #completed
 Let $R$ be a commutative ring.
 
 a.
@@ -649,7 +649,7 @@ R &\cong \ZZ/(2)[t] / (t^2)
 
 ## Zorn's Lemma
 
-### Fall 2013 #4 $\work$
+### Fall 2013 #4 #work
 Let $R$ be a commutative ring with $1\neq 0$.
 Recall that $x\in R$ is *nilpotent* iff $x^n = 0$ for some positive integer $n$.
 
@@ -671,7 +671,7 @@ c.
 d. 
 Deduce from (a) and (b) that the set of nilpotent elements of $R$ is the intersection of all prime ideals of $R$.
 
-### Fall 2015 #3 $\done$
+### Fall 2015 #3 #completed
 Let $R$ be a rng (a ring without 1) which contains an element $u$ such that for all $y\in R$, there exists an $x\in R$ such that $xu=y$.
 
 Prove that $R$ contains a maximal left ideal.
@@ -707,7 +707,7 @@ x &\mapsto xu
 - So by Zorn's lemma, $\hat{C}$ contains a maximal ideal (incidentally containing $K$).
 :::
 
-### Spring 2015 #7 $\done$
+### Spring 2015 #7 #completed
 Let $R$ be a commutative ring, and $S\subset R$ be a nonempty subset that does not contain 0 such that for all $x, y\in S$ we have $xy\in S$.
 Let $\mci$ be the set of all ideals $I\normal R$ such that $I\intersect S = \emptyset$.
 
@@ -745,7 +745,7 @@ xy&\da (p_1 + r_1 a)(p_2 + r_2b)\in S \\
 
 :::
 
-### Spring 2013 #1 $\done$
+### Spring 2013 #1 #completed
 Let $R$ be a commutative ring.
 
 a.
@@ -812,7 +812,7 @@ $\implies$:
 
 :::
 
-### Fall 2019 #6 $\done$
+### Fall 2019 #6 #completed
 Let $R$ be a commutative ring with multiplicative identity. Assume Zorn's Lemma.
 
 a.
@@ -894,7 +894,7 @@ Since $\mathfrak{m}$ is prime, we must have $\mathfrak{m} = \mathfrak{p}$.
 
 ## Noetherian Rings
 
-### Fall 2015 #4 $\done$
+### Fall 2015 #4 #completed
 Let $R$ be a PID and $(a_1) < (a_2) < \cdots$ be an ascending chain of ideals in $R$.
 Prove that for some $n$, we have $(a_j) = (a_n)$ for all $j\geq n$.
 
@@ -908,7 +908,7 @@ Prove that for some $n$, we have $(a_j) = (a_n)$ for all $j\geq n$.
   So inductively, the chain stabilizes at $m$.
 :::
 
-### Spring 2021 #6 $\work$
+### Spring 2021 #6 #work
 
 a. 
 Carefully state the definition of **Noetherian** for a commutative ring $R$.
@@ -953,7 +953,7 @@ I \da \gens{S} = \sum_{k\in \ZZ_{\geq 1}} R\cdot 2x^k \da \ts{ \sum_{i=1}^m r_k(
 
 ## Simple Rings
 
-### Fall 2017 #5 $\done$
+### Fall 2017 #5 #completed
 A ring \( R \) is called *simple* if its only two-sided ideals are $0$ and $R$.
 
 a.
@@ -1010,7 +1010,7 @@ $\impliedby$:
 
 :::
 
-### Spring 2016 #8 $\done$
+### Spring 2016 #8 #completed
 Let $R$ be a simple rng (a nonzero ring which is not assume to have a 1, whose only two-sided ideals are $(0)$ and $R$) satisfying the following two conditions:
 
 i. $R$ has no zero divisors, and
@@ -1121,7 +1121,7 @@ using condition (2).
 
 ## Unsorted
 
-### Fall 2019 #3 $\done$
+### Fall 2019 #3 #completed
 Let $R$ be a ring with the property that for every $a \in R, a^2 = a$.
 
 a.
@@ -1162,7 +1162,7 @@ a+b = (a+b)^2 &= a^2 + ab + ba + b^2 = a + ab + ba + b \\
 :::
 
 
-### Spring 2018 #5 $\done$
+### Spring 2018 #5 #completed
 Let 
 \[
 M=\left(\begin{array}{ll}{a} & {b} \\ {c} & {d}\end{array}\right)
@@ -1224,7 +1224,7 @@ cu = db\inv a u = dv
 
 
 
-### Spring 2014 #6 $\work$
+### Spring 2014 #6 #work
  $R$ be a commutative ring with identity and let $n$ be a positive integer.
 
 a.

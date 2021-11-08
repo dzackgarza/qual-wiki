@@ -1,6 +1,6 @@
 # Integrals: Convergence
 
-## Fall 2019 # 2 $\done$
+## Fall 2019 # 2 #completed
 
 Prove that
 \[
@@ -87,7 +87,7 @@ for all $x \neq 0$ and positive integers $n$.
   - We've again used the fact that $f_n(x, t)$ is of the form $\pm \cos(tx)$ or $\pm \sin(tx)$, both of which are bounded by 1.
 :::
 
-## Spring 2020 # 5 $\done$
+## Spring 2020 # 5 #completed
 
 Compute the following limit and justify your calculations:
 \[
@@ -145,7 +145,7 @@ Justifying the DCT:
   where the last inequality follows from the fact that $1 + {x^2 \over n} \geq 1$
 :::
 
-## Spring 2019 # 3 $\done$
+## Spring 2019 # 3 #completed
 Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 ≤ M$ for all $k ∈ \NN$.
   
 Prove that if $f_k \to f$ almost everywhere, then $f ∈ L^2([0, 1])$ with $\norm{f}_2 ≤ M$ and
@@ -209,7 +209,7 @@ Equality of Integrals:
 - Now take a nested sequence of sets $F_{\eps}$ with $\mu(F_\eps) \to 0$ and applying continuity of measure yields the desired statement.
 :::
 
-## Fall 2018 # 6 $\done$
+## Fall 2018 # 6 #completed
 Compute the following limit and justify your calculations:
 \[
 \lim_{n \rightarrow \infty} \int_{1}^{n} \frac{d x}{\left(1+\frac{x}{n}\right)^{n} \sqrt[n]{x}}
@@ -234,7 +234,7 @@ Compute the following limit and justify your calculations:
 .\]
 :::
 
-## Fall 2018 # 3 $\done$
+## Fall 2018 # 3 #completed
 Suppose $f(x)$ and $xf(x)$ are integrable on $\RR$.
 Define $F$ by
 \[
@@ -283,7 +283,7 @@ $$
 - Since $xf(x) \in L^1(\RR)$ by assumption, the DCT applies. 
 :::
 
-## Spring 2018 # 5 $\done$
+## Spring 2018 # 5 #completed
 
 Suppose that
 
@@ -348,7 +348,7 @@ g_n &= \abs{f_n} + \abs{f} &\converges{n\to\infty}\to 2\abs {f} ~a.e.
   so $\lim_{n\to\infty} \int f_n = \int f$.
 :::
 
-## Spring 2018 # 2 $\done$
+## Spring 2018 # 2 #completed
 Let
 \[
 f_{n}(x):=\frac{x}{1+x^{n}}, \quad x \geq 0.
@@ -434,7 +434,7 @@ x, & 0 \leq x < 1 \\
 - So set $$g \definedas g_0 \cdot \chi_{(0, 1)} + g_1 \cdot \chi_{[1, \infty)},$$ then by the above arguments $g \in L^1((0, \infty))$ and $f_n \leq g$ everywhere, so the DCT applies.
 :::
 
-## Fall 2016 # 3 $\done$
+## Fall 2016 # 3 #completed
 
 Let $f\in L^1(\RR)$.
 Show that
@@ -494,13 +494,13 @@ Show that
   .\]
 :::
 
-## Fall 2015 # 3 $\work$
+## Fall 2015 # 3 #work
 Compute the following limit:
 \[
 \lim _{n \rightarrow \infty} \int_{1}^{n} \frac{n e^{-x}}{1+n x^{2}} \, \sin \left(\frac x n\right) \, dx
 \]
 
-## Fall 2015 # 4 $\work$
+## Fall 2015 # 4 #work
 Let $f: [1, \infty) \to \RR$ such that $f(1) = 1$ and
 \[
 f^{\prime}(x)= \frac{1} {x^{2}+f(x)^{2}}
@@ -511,7 +511,7 @@ Show that the following limit exists and satisfies the equality
 \lim _{x \rightarrow \infty} f(x) \leq 1 + \frac \pi 4
 \]
 
-## Spring 2021 # 2 $\done$
+## Spring 2021 # 2 #completed
 
 :::{.problem title="?"}
 Calculate the following limit, justifying each step of your calculation:

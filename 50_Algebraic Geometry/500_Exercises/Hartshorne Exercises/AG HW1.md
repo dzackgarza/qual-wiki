@@ -172,7 +172,7 @@ First we identify the LHS:
 (\ul{A}^\pre(\wait))_p \da \colim_{U\ni p} \ul{A}^\pre(U) = \colim_{U\ni p} A = A
 .\]
 
-(todo: show $A$ satisfies the universal property for a colimit)
+#todo: show $A$ satisfies the universal property for a colimit.
 
 Identifying the RHS, we have equivalence classes $[U\ni p, s: U\to A]$
 

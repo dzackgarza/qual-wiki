@@ -1,6 +1,6 @@
 # Measure Theory: Sets
 
-## Spring 2020 # 2 $\done$
+## Spring 2020 # 2 #completed
 
 Let $m_*$ denote the Lebesgue outer measure on \( \RR \).
 
@@ -116,7 +116,7 @@ N = B\setminus E = \qty{ \Union_R B_R } \setminus \qty{\Union_R E_R } \subseteq 
 where $m_*(N') = 0$ since $N'$ is null, and thus subadditivity forces $m_*(N) = 0$.
 :::
 
-## Fall 2019 # 3. $\done$
+## Fall 2019 # 3. #completed
 Let $(X, \mathcal B, \mu)$ be a measure space with $\mu(X) = 1$ and $\{B_n\}_{n=1}^\infty$ be a sequence of $\mathcal B$-measurable subsets of $X$, and
 $$
 B \definedas \theset{x\in X \suchthat x\in B_n \text{ for infinitely many } n}.
@@ -233,7 +233,7 @@ if $\sum_{n=1}^\infty a_n \to \infty$ then for every $N$, the tail $\sum_{n=N}^\
 
 :::
 
-## Spring 2019 # 2 $\done$
+## Spring 2019 # 2 #completed
 Let $\mathcal B$ denote the set of all Borel subsets of $\RR$ and $\mu : \mathcal B \to [0, \infty)$ denote a finite Borel measure on $\RR$.
   
 a. 
@@ -393,7 +393,7 @@ where we've used that taking a union over *fewer* sets can only make the measure
 :::
 
 
-## Fall 2018 # 2 $\work$
+## Fall 2018 # 2 #work
 Let $E\subset \RR$ be a Lebesgue measurable set.
 Show that there is a Borel set $B \subset E$ such that $m(E\setminus B) = 0$.
 
@@ -490,7 +490,7 @@ d.irect Proof (Todo)
 \todo[inline]{Try to construct the set.}
 :::
 
-## Spring 2018 # 1 $\done$
+## Spring 2018 # 1 #completed
 Define
 $$
 E:=\left\{x \in \mathbb{R}:\left|x-\frac{p}{q}\right|<q^{-3} \text { for infinitely many } p, q \in \mathbb{N}\right\}.
@@ -587,7 +587,7 @@ m(E)
 - Thus $E$ is measurable as a subset of a null set and $m(E) = 0$.
 :::
 
-## Fall 2017 # 2 $\done$
+## Fall 2017 # 2 #completed
 Let $f(x) = x^2$ and $E \subset [0, \infty) \definedas \RR^+$.
 
 1. Show that
@@ -666,7 +666,7 @@ So $\phi$ is a measurable function, and thus yields a well-defined map $\mathcal
 Restricting to $[0, \infty)$, $f$ is bijection, and thus so is $\phi$.
 :::
 
-## Spring 2017 # 2 $\done$
+## Spring 2017 # 2 #completed
 
 a. 
 Let $\mu$ be a measure on a measurable space $(X, \mathcal M)$ and $f$ a positive measurable function.
@@ -758,7 +758,7 @@ x\in E \iff gf\chi_E(x) > 0 \iff x\in A
 - But $m \ll \mu$ and $\mu(E) = 0$, so we can conclude that $m(E) = 0$.
 :::
 
-## Fall 2016 # 4 $\done$
+## Fall 2016 # 4 #completed
 Let $(X, \mathcal M, \mu)$ be a measure space and suppose $\theset{E_n} \subset \mathcal M$ satisfies
 \[
 \lim _{n \rightarrow \infty} \mu\left(X \backslash E_{n}\right)=0.
@@ -801,7 +801,7 @@ Show that $G \in \mathcal M$ and $\mu(G) = 0$.
 \todo[inline]{Last step seems wrong!}
 :::
 
-## Spring 2016 # 3 $\work$
+## Spring 2016 # 3 #work
 Let $f$ be Lebesgue measurable on $\RR$ and $E \subset \RR$ be measurable such that
 $$
 0<A=\int_{E} f(x) d x<\infty.
@@ -812,7 +812,7 @@ $$
 \int_{E_{t}} f(x) d x=t A.
 $$
 
-## Spring 2016 # 5 $\work$
+## Spring 2016 # 5 #work
 Let $(X, \mathcal M, \mu)$ be a measure space. For $f\in L^1(\mu)$ and $\lambda > 0$, define
 $$
 \phi(\lambda)=\mu(\{x \in X | f(x)>\lambda\}) 
@@ -825,13 +825,13 @@ $$
 \int_{X}|f| ~d \mu=\int_{0}^{\infty}[\phi(\lambda)+\psi(\lambda)] ~d \lambda
 $$
 
-## Fall 2015 # 2 $\work$
+## Fall 2015 # 2 #work
 Let $f: \RR \to \RR$ be Lebesgue measurable.
 
 1. Show that there is a sequence of simple functions $s_n(x)$ such that $s_n(x) \to f(x)$ for all $x\in \RR$.
 2. Show that there is a Borel measurable function $g$ such that $g = f$ almost everywhere.
 
-## Spring 2015 # 3 $\work$
+## Spring 2015 # 3 #work
 
 Let $\mu$ be a finite Borel measure on $\RR$ and $E \subset \RR$ Borel. 
 Prove that the following statements are equivalent:
@@ -845,14 +845,14 @@ $$
 H \subseteq E \subseteq V \quad \text{and}\quad \mu(V\setminus H) = 0
 $$
 
-## Spring 2014 # 3 $\work$
+## Spring 2014 # 3 #work
 Let $f: \RR \to \RR$ and suppose
 $$
 \forall x\in \RR,\quad f(x) \geq \limsup _{y \rightarrow x} f(y)
 $$
 Prove that $f$ is Borel measurable.
 
-## Spring 2014 # 4 $\work$
+## Spring 2014 # 4 #work
 Let $(X, \mathcal M, \mu)$ be a measure space and suppose $f$ is a measurable function on $X$.
 Show that
 $$
@@ -864,7 +864,7 @@ $$
 $$
 and characterize the collection of functions of each type.
 
-## Spring 2017 # 1 $\done$
+## Spring 2017 # 1 #completed
 
 Let $K$ be the set of numbers in $[0, 1]$ whose decimal expansions do not use the digit $4$.
 
@@ -970,14 +970,14 @@ Claim: **$K$ has no isolated points**:
 - So every ball containing $x$ contains some endpoint of a removed interval, and thus an element of $K$.
 :::
 
-## Spring 2016 # 2 $\work$
+## Spring 2016 # 2 #work
 Let $0 < \lambda < 1$ and construct a Cantor set $C_\lambda$ by successively removing middle intervals of length $\lambda$.
 
 Prove that $m(C_\lambda) = 0$.
 
 # Measure Theory: Functions
 
-## Fall 2016 # 2 $\done$
+## Fall 2016 # 2 #completed
 
 Let $f, g: [a, b] \to \RR$ be measurable with
 $$
@@ -1031,7 +1031,7 @@ The non-obvious move: split $A$ itself up to get a strict inequality.
   .\] 
 :::
 
-## Spring 2016 # 4 $\work$
+## Spring 2016 # 4 #work
 Let $E \subset \RR$ be measurable with $m(E) < \infty$. 
 Define
 \[
@@ -1050,7 +1050,7 @@ Show that
 \]
 
 
-## Spring 2021 # 1 $\done$
+## Spring 2021 # 1 #completed
 
 :::{.problem title="Spring 2021, 1"}
 Let \( (X, \mathcal{M},\mu)  \) be a measure space and let $E_n \in \mathcal{M}$ be a measurable set for $n\geq 1$.
@@ -1140,13 +1140,13 @@ x\not\in \Intersect_{n\geq 0}\Union_{k\geq n} X\sm E_k \\
 :::
 
 
-## Spring 2021 # 3 $\work$
+## Spring 2021 # 3 #work
 
 Let \( (X, \mathcal{M}, \mu)  \) be a finite measure space and let \( \ts{ f_n}_{n=1}^{\infty } \subseteq L^1(X, \mu) \).
 Suppose $f\in L^1(X, \mu)$ such that $f_n(x) \converges{n\to \infty }\to f(x)$ for almost every $x \in X$.
 Prove that for every \( \eps > 0 \) there exists $M>0$ and a set $E\subseteq X$ such that \( \mu(E) \leq \eps \) and \( \abs{f_n(x)}\leq M  \) for all $x\in X\sm E$ and all $n\in \NN$.
 
-## Fall 2020 \# 2 $\work$
+## Fall 2020 \# 2 #work
 
 a.
 Let $f: \RR \to \RR$. Prove that

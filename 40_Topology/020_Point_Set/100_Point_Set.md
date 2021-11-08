@@ -170,7 +170,7 @@ If $f:X\to Y$ is continuous where $X$ is compact and $Y$ is Hausdorff, then
 Let $X, Y$ be spaces with $Y$ compact, and let $x_0\in X$.
 Let $N\subseteq X\cross Y$ be an open set containing the slice $x_0 \cross Y$, then there is a neighborhood $W\ni x$ in $X$ such that $N \supset W\cross Y$:
 
-![image_2021-05-21-00-28-13](image_2021-05-21-00-28-13.png)
+![[image_2021-05-21-00-28-13.png]]
 
 :::
 
@@ -179,7 +179,7 @@ Compactness in one factor is a necessary condition.
 For a counterexample, $\RR^2$ and let $N$ be the set contained between a Gaussian and its reflection across the $x\dash$axis.
 Then no tube about $y=0$ is entirely contained within $N$:
 
-![image_2021-05-21-01-39-26](image_2021-05-21-01-39-26.png)
+![[image_2021-05-21-01-39-26.png]]
 :::
 
 :::{.proof title="Sketch"}

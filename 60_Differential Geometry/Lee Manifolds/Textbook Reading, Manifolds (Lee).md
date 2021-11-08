@@ -1,3 +1,3 @@
-[Manifolds Overview and Review](Manifolds%20Overview%20Review.md)
+[[Manifolds Overview Review]]
 
-[040_Chapter 4 Notes](sections/040_Chapter%204%20Notes.md)
+[[sections/040_Chapter 4 Notes]]

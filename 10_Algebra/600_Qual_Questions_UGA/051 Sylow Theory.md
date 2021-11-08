@@ -1,6 +1,6 @@
 # Groups: Sylow Theory
 
-## Fall 2019 #1 $\done$
+## Fall 2019 #1 #completed
 Let $G$ be a finite group with $n$ distinct conjugacy classes.
 Let $g_1 \cdots g_n$ be representatives of the conjugacy classes of $G$.
 Prove that if $g_i g_j = g_j g_i$ for all $i, j$ then $G$ is abelian.
@@ -43,10 +43,10 @@ and we're done.
 
 :::
 
-## Fall 2019 Midterm #2 $\work$
+## Fall 2019 Midterm #2 #work
 Let $G$ be a finite group and let $P$ be a sylow $p\dash$subgroup for $p$ prime. Show that $N(N(P)) = N(P)$ where $N$ is the normalizer in $G$.
 
-## Fall 2013 #2 $\work$
+## Fall 2013 #2 #work
 Let $G$ be a group of order 30.
 
 
@@ -63,7 +63,7 @@ d.
 Exhibit three nonisomorphic groups of order 30 and prove that they are not isomorphic.
 You are not required to use your answer to (c).
 
-## Spring 2014 #2 $\work$
+## Spring 2014 #2 #work
 Let $G\subset S_9$ be a Sylow-3 subgroup of the symmetric group on 9 letters.
 
 a.
@@ -79,7 +79,7 @@ Also exhibit elements of $S_9$ in cycle notation corresponding to these generato
 d.
 Without appealing to the previous parts of the problem, show that $G$ contains an element of order 9.
 
-## Fall 2014 #2 $\work$
+## Fall 2014 #2 #work
 Let $G$ be a group of order 96.
 
 a.
@@ -88,7 +88,7 @@ Show that $G$ has either one or three 2-Sylow subgroups.
 b.
 Show that either $G$ has a normal subgroup of order 32, or a normal subgroup of order 16.
 
-## Spring 2016 #3 $\work$
+## Spring 2016 #3 #work
 
 a.
 State the three Sylow theorems.
@@ -99,7 +99,7 @@ Prove that any group of order 1225 is abelian.
 c.
 Write down exactly one representative in each isomorphism class of abelian groups of order 1225.
 
-## Spring 2017 #2 $\work$
+## Spring 2017 #2 #work
 
 a.
 How many isomorphism classes of abelian groups of order 56 are there?
@@ -112,7 +112,7 @@ c.
 Give two non-isomorphic groups of order 56 where the Sylow-7 subgroup is normal and the Sylow-2 subgroup is *not* normal.
 Justify that these two groups are not isomorphic.
 
-## Fall 2017 #2 $\work$
+## Fall 2017 #2 #work
 
 a.
 Classify the abelian groups of order 36.
@@ -129,7 +129,7 @@ Show that if $G$ has a normal subgroup $N$ such that $G/N$ is isomorphic to $A_4
 d.
 Show that the dihedral group of order 36 is a non-abelian group of order 36 whose Sylow-2 subgroup is not normal.
 
-## Fall 2012 #2 $\work$
+## Fall 2012 #2 #work
 Let $G$ be a group of order 30.
 
 a.
@@ -141,7 +141,7 @@ Give all possible presentations and relations for $G$.
 c.
 Determine how many groups of order 30 there are up to isomorphism.
 
-## Fall 2018 #1 $\done$ 
+## Fall 2018 #1 #completed 
 Let $G$ be a finite group whose order is divisible by a prime number $p$.
 Let $P$ be a normal $p\dash$subgroup of $G$
 (so $\abs P = p^c$ for some $c$).
@@ -200,7 +200,7 @@ P = gPg\inv \subseteq gS_p^i g\inv = S_p^j
 
 :::
 
-## Fall 2019 #2  $\done$
+## Fall 2019 #2  #completed
 Let $G$ be a group of order 105 and let $P, Q, R$ be Sylow 3, 5, 7 subgroups respectively.
 
 a.
@@ -329,7 +329,7 @@ by the Chinese Remainder Theorem, which is cyclic.
 
 :::
 
-## Spring 2021 #3 $\work$
+## Spring 2021 #3 #work
 
 a. Show that every group of order $p^2$ with $p$ prime is abelian.
 
@@ -339,14 +339,14 @@ c. Show that any group of order $4225 = 5^2 13^2$ is abelian.
 
 d. Write down one representative from each isomorphism class of abelian groups of order 4225.
 
-## Fall 2020 #1 $\work$
+## Fall 2020 #1 #work
 
 a. Using Sylow theory, show that every group of order $2p$ where $p$ is prime is not simple.
 
 b. Classify all groups of order $2p$ and justify your answer.
   For the nonabelian group(s), give a presentation by generators and relations.
 
-## Fall 2020 #2 $\work$
+## Fall 2020 #2 #work
 
 Let $G$ be a group of order 60 whose Sylow 3-subgroup is normal.
 

@@ -90,8 +90,7 @@ $$
 f(x) = x^n \text{ on } [0, 1]
 .$$
 
-- The Thomae function 
-*(todo)*
+- The Thomae function #todo
 
 ### For Convergence
 

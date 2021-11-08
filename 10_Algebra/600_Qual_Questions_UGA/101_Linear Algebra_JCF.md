@@ -1,6 +1,6 @@
 # Linear Algebra: Canonical Forms
 
-## $\star$ Spring 2012 #8 $\work$
+## $\star$ Spring 2012 #8 #work
 Let $V$ be a finite-dimensional vector space over a field $k$ and $T:V\to V$ a linear transformation.
 
 a.
@@ -12,12 +12,12 @@ Define the *characteristic polynomial* for $T$.
 c. 
 Prove the Cayley-Hamilton theorem: the linear transformation $T$ satisfies its characteristic polynomial.
 
-## $\star$ Spring 2020 #8 $\work$
+## $\star$ Spring 2020 #8 #work
 Let $T:V\to V$ be a linear transformation where $V$ is a finite-dimensional vector space over $\CC$.
 Prove the Cayley-Hamilton theorem: if $p(x)$ is the characteristic polynomial of $T$, then $p(T) = 0$.
 You may use canonical forms.
 
-## $\star$ Spring 2012 #7 $\work$
+## $\star$ Spring 2012 #7 #work
 Consider the following matrix as a linear transformation from $V\definedas \CC^5$ to itself:
 \[
 A=\left(\begin{array}{ccccc}
@@ -39,13 +39,13 @@ c.
 Find the Jordan canonical form of $A$.
 
 
-## Fall 2019 Final #8 $\work$
+## Fall 2019 Final #8 #work
 Exhibit the rational canonical form for
 
   - $A\in M_6(\QQ)$ with minimal polynomial $(x-1)(x^2 + 1)^2$.
   - $A\in M_{10}(\QQ)$ with minimal polynomial $(x^2+1)^2(x^3 + 1)$.
 
-## Fall 2019 Final #9 $\work$
+## Fall 2019 Final #9 #work
 Exhibit the rational and Jordan canonical forms for the following matrix $A\in M_4(\CC)$:
   \[
   A=\left(\begin{array}{cccc}
@@ -56,7 +56,7 @@ Exhibit the rational and Jordan canonical forms for the following matrix $A\in M
   \end{array}\right)
   .\]
 
-## Spring 2016 #7 $\work$
+## Spring 2016 #7 #work
 Let $D = \QQ[x]$ and let $M$ be a $\QQ[x]\dash$module such that
 \[
 M \cong \frac{\mathbb{Q}[x]}{(x-1)^{3}} \oplus \frac{\mathbb{Q}[x]}{\left(x^{2}+1\right)^{3}} \oplus \frac{\mathbb{Q}[x]}{(x-1)\left(x^{2}+1\right)^{5}} \oplus \frac{\mathbb{Q}[x]}{(x+2)\left(x^{2}+1\right)^{2}}
@@ -64,7 +64,7 @@ M \cong \frac{\mathbb{Q}[x]}{(x-1)^{3}} \oplus \frac{\mathbb{Q}[x]}{\left(x^{2}+
 
 Determine the elementary divisors and invariant factors of $M$.
 
-## Spring 2020 #7 $\work$
+## Spring 2020 #7 #work
 Let
 \[
 A=\left[\begin{array}{ccc}
@@ -85,7 +85,7 @@ Write down the minimal polynomial of $A$.
 
 > You should not need to compute $P\inv$.
 
-## Spring 2019 #7 $\done$ 
+## Spring 2019 #7 #completed 
 Let $p$ be a prime number.
 Let $A$ be a $p \times p$ matrix over a field $F$ with 1 in all
 entries except 0 on the main diagonal.
@@ -278,7 +278,7 @@ P = [\vector v_1, \vector x, \vector p_1, \cdots, \vector p_{p-2}] =
 
 :::
 
-## Spring 2018 #4 $\work$
+## Spring 2018 #4 #work
 Let
 \[
 A=\left[\begin{array}{lll}{0} & {1} & {-2} \\ {1} & {1} & {-3} \\ {1} & {2} & {-4}\end{array}\right] \in M_{3}(\mathbb{C})
@@ -292,7 +292,7 @@ Find an invertible matrix $P$ such that $P\inv AP = J$.
 
 > You should not need to compute $P\inv$.
 
-## Spring 2017 #6 $\work$
+## Spring 2017 #6 #work
 Let $A$ be an $n\times n$ matrix with all entries equal to $0$ except for the $n-1$ entries just above the diagonal being equal to 2.
 
 a.
@@ -301,7 +301,7 @@ What is the Jordan canonical form of $A$, viewed as a matrix in $M_n(\CC)$?
 b.
 Find a nonzero matrix $P\in M_n(\CC)$ such that $P\inv A P$ is in Jordan canonical form.
 
-## Spring 2016 #1 $\work$
+## Spring 2016 #1 #work
 Let
 \[
 A=\left(\begin{array}{ccc}
@@ -318,7 +318,7 @@ b.
 Find an invertible matrix $P$ such that $P\inv A P = J$.
 You do not need to compute $P\inv$.
 
-## Spring 2015 #6 $\work$
+## Spring 2015 #6 #work
 Let $F$ be a field and $n$ a positive integer, and consider
 \[
 A=\left[\begin{array}{ccc}
@@ -332,11 +332,11 @@ Show that $A$ has a Jordan normal form over $F$ and find it.
 
 > Hint: treat the cases $n\cdot  1 \neq 0$ in $F$ and $n\cdot 1 = 0$ in $F$ separately.
 
-## Fall 2014 #5 $\work$
+## Fall 2014 #5 #work
 Let $T$ be a $5\times 5$ complex matrix with characteristic polynomial $\chi(x) = (x-3)^5$ and minimal polynomial $m(x) = (x-3)^2$.
 Determine all possible Jordan forms of $T$.
 
-## Spring 2013 #5 $\work$
+## Spring 2013 #5 #work
 Let $T: V\to V$ be a linear map from a 5-dimensional $\CC\dash$vector space to itself and suppose $f(T) = 0$ where $f(x) = x^2 + 2x + 1$.
 
 a.
@@ -345,7 +345,7 @@ Show that there does not exist any vector $v\in V$ such that $Tv = v$, but there
 b.
 Give all of the possible Jordan canonical forms of $T$.
 
-## Spring 2021 #1 $\done$
+## Spring 2021 #1 #completed
 
 Let m
 \[
@@ -494,7 +494,7 @@ P = [v_1, v_2, v_3]
 :::
 
 
-## Fall 2020 #5 $\work$
+## Fall 2020 #5 #work
 
 Consider the following matrix:
 \[

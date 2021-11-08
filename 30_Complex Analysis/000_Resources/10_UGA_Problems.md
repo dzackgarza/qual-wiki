@@ -14,7 +14,9 @@
     
 - [ ]  [Extra Questions from Tie](attachments/Questions_from_Tie.pdf) #problems
 
-- [ ]  ![[attachments/Azoff Problems by Topic.pdf]]
+- [ ]  [[attachments/Azoff Problems by Topic.pdf]]
+
+- [ ]  [[30_Complex Analysis/999_Quals/000_Preface|UGA Qual Problems]]
     
 ## Misc
 

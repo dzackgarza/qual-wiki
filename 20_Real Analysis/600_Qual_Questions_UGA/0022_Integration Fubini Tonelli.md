@@ -1,6 +1,6 @@
 # Fubini-Tonelli
 
-## Spring 2020 # 4 $\done$
+## Spring 2020 # 4 #completed
 
 Let $f, g\in L^1(\RR)$. 
 Argue that $H(x, y) \definedas f(y) g(x-y)$ defines a function in $L^1(\RR^2)$ and deduce from this fact that
@@ -119,7 +119,7 @@ $H$ is measurable on $\RR^2$:
 :::
 
 
-## Spring 2019 # 4 $\done$
+## Spring 2019 # 4 #completed
 Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) ∈ \RR^n \times \RR : 0 ≤ t ≤ f (x)\}$.
 
 Prove the validity of the following two statements:
@@ -243,7 +243,7 @@ $\impliedby$:
 
 :::
 
-## Fall 2018 # 5 $\done$
+## Fall 2018 # 5 #completed
 Let $f \geq 0$ be a measurable function on $\RR$.
 Show that
 \[
@@ -313,7 +313,7 @@ m(E)
 
 
 
-## Fall 2015 # 5 $\work$
+## Fall 2015 # 5 #work
 Let $f, g \in L^1(\RR)$ be Borel measurable.
 
 1. Show that 
@@ -325,7 +325,7 @@ Let $f, g \in L^1(\RR)$ be Borel measurable.
 \|f * g\|_{1} \leq \|f\|_{1} \|g\|_{1}
 \]
 
-## Spring 2014 # 5 $\work$
+## Spring 2014 # 5 #work
 Let $f, g \in L^1([0, 1])$ and for all $x\in [0, 1]$ define
 \[
 F(x) \definedas \int _{0}^{x} f(y) \, dy 

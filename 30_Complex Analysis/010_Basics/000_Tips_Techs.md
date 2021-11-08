@@ -1,6 +1,10 @@
-> A great deal of content borrowed from the following: <https://web.stanford.edu/~chriseur/notes_pdf/Eur_ComplexAnalysis_Notes.pdf>
+---
+order: 0
+---
 
-# General Info / Tips / Techniques
+# Info / Tips / Techniques
+
+> A great deal of content borrowed from the following: <https://web.stanford.edu/~chriseur/notes_pdf/Eur_ComplexAnalysis_Notes.pdf>
 
 ## Greatest Hits
 
@@ -17,8 +21,9 @@ Things to know well:
 - [[The Schwarz reflection principle]]
 - [[The Schwarz lemma]]
 - [[Casorati-Weierstrass]]
-- Properties of [[linear fractional transformations]] and [[conformal maps]]
-- Automorphisms of $\DD, \CC, \CP^1$.
+- Properties of [[100_Linear Fractional Transformations]] 
+- [[conformal maps]]
+- [[Maps of the disc]] and automorphisms of $\DD, \CC, \CP^1$
 
 ## Common Tricks
 
@@ -31,6 +36,10 @@ If you want to show that a function $f$ is constant, try one of the following:
 - Write $f = u + iv$ and use Cauchy-Riemann to show $u_x, u_y = 0$, etc.
 - Show that $f$ is entire and bounded.
   - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
+- By the open mapping theorem, if $f \in \Hol( \Omega)$ then $\dim_\RR f(\Omega) \in {0, 2}$ but can never have dimension 1. So non-constant $f$ can not map open regions onto subsets of a curve, e.g. $I \subseteq \RR$, and if the image of $f$ is a curve or totally real, then $f$ is constant.
+- Holomorphic functions have isolated zeros.
+- For real analysis: if $f' < M$, apply the mean value theorem to show $f$ is Lipschitz: $\abs{f(x) - f(y)} = \abs{f'(\xi)} \abs{x-y} < M\abs{x-y}$.
+
 :::
 
 :::{.fact}

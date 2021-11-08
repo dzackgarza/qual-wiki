@@ -1,6 +1,6 @@
 # $L^2$ and Fourier Analysis
 
-## Spring 2020 # 6 $\done$
+## Spring 2020 # 6 #completed
 
 ### a
 Show that
@@ -80,7 +80,7 @@ Claim: $L^2([0, 1]) \subseteq L^1([0, 1])$.
 :::
 
 
-## Fall 2017 # 5 $\done$
+## Fall 2017 # 5 #completed
 Let $\phi$ be a compactly supported smooth function that vanishes outside of an interval $[-N, N]$ such that $\int _{\RR} \phi(x) \, dx = 1$.
 
 For $f\in L^1(\RR)$, define
@@ -223,7 +223,7 @@ Then
 
 
 
-## Spring 2017 # 5 $\work$
+## Spring 2017 # 5 #work
 Let $f, g \in L^2(\RR)$. 
 Prove that the formula
 \[
@@ -231,7 +231,7 @@ h(x) \definedas \int _{-\infty}^{\infty} f(t) g(x-t) \, dt
 \]
 defines a uniformly continuous function $h$ on $\RR$.
 
-## Spring 2015 # 6 $\work$
+## Spring 2015 # 6 #work
 Let $f \in L^1(\RR)$ and $g$ be a bounded measurable function on $\RR$.
 
 1. Show that the convolution $f\ast g$ is well-defined, bounded, and uniformly continuous on $\RR$.
@@ -240,7 +240,7 @@ Let $f \in L^1(\RR)$ and $g$ be a bounded measurable function on $\RR$.
 \frac{d}{d x}(f * g)=f *\left(\frac{d}{d x} g\right)
 \]
 
-## Fall 2014 # 5 $\work$
+## Fall 2014 # 5 #work
 
 1. Let $f \in C_c^0(\RR^n)$, and show
 \[

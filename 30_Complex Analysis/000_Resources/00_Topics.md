@@ -3,9 +3,9 @@
 [List of topics](attachments/Complex_Analysis_Prelim_Review.pdf)
 
 - Holomorphic and meromorphic functions
-- Conformal maps, linear fractional transformations, [[Schwarz's lemma]]
-- Complex integrals: [[Cauchy’s theorem]], [[Cauchy integral formula]], [[residues]]
-- Harmonic functions: [[the mean value property]]; [[Schwarz's reflection principle]]; Dirichlet’s problem
+- Conformal maps, linear fractional transformations, [[Shwarz Lemma]]
+- Complex integrals: [[010_Cauchy_Theorem]], [[012 Cauchy Integral Formula]], [[021_Integrals|residues]]
+- Harmonic functions: [[015 Mean Value Theorem]], [[060 Schwarz Reflection]], Dirichlet’s problem
 - Series and product developments: Laurent series, partial fractions expansions, and [[canonical products]]
 - Special functions: the [[Gamma function]], the [[zeta functions]] and [[elliptic functions]]
 - Basics of Riemann surfaces
@@ -25,43 +25,41 @@ Preliminary Review
 - Week 2 (May 26):
 Differentiation
     - Implicit function theorem
-    - [[The Cauchy-Riemann equations]], the Laplace equation, Harmonic functions, holomorphicity
-    - Cauchy's formula, Cauchy inequalities
+    - [[130_The Cauchy-Riemann equations]], the Laplace equation, [[125_Harmonic Functions]], holomorphicity
+    - [[010_Cauchy_Theorem]], [[012 Cauchy Integral Formula]], [[012_Cauchy Inequality]]
 - Week 3 (June 2):
 Analytic Functions
     - Power series, convergence, Laurent expansions
-    - Singularities, poles, Riemann's removable singularity theorem, meromorphic functions, isolated singularities
+    - Singularities, poles, [[Riemann's removable singularity theorem]], meromorphic functions, isolated singularities
 - Week 4 (June 9):
 Integration I
     - Contours, parameterization, primitives
-    - [[Cauchy's Theorem]],  [[Cauchy's integral formula]]
-    - [[Morera's theorem]]
-    - [[Maximum modulus principle]]
+		- [[010_Cauchy_Theorem]], [[012 Cauchy Integral Formula]]
+		- [[050_Morera_Theorem]]
+		- [[Maximum modulus principle]]
 - Week 5 (June 16):
 Integration II
-    - The residue calculus
+    - [[020_Residues]]
 - Week 6 (June 23):
-[[Liouville's Theorem]]
+[[020 Liouville]]
     - FTA
     - Entire functions
 - Week 7 (June 30):
  Roots
-    - [[Rouche's theorem]]
-    - [[Argument principle]]
+    -  [[Rouche]]
+		- [[Argument Principle]]
 - Week 8 (July 7):
-[[Conformal Maps]]
+	[[105_Conformal Maps]]
     - The big 9 transformations
-    - Mobius transformations, LFTs
-    - SL(2, R), conformal maps of the disc/plane/sphere, the hyperbolic metri
+    - Mobius transformations, [[100_Linear Fractional Transformations]]
+    - SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
     - Uniformization
 - Week 9 (July 14):
-[[Schwarz's Lemma]] & Reflection Principle
+[[Shwarz Lemma]]] & [[060 Schwarz Reflection]]
     - [[Open mapping theorem]]
-    - [[Schwarz Reflection Principle]]
 - Week 10  (July 21):
-[[Riemann Mapping Principle]] and [[Casorati-Weierstrass]]
-    - [[Picard theorem]]
+		- [[Riemann Mapping Principle]], [[Casorati-Weierstrass]], [[Picard theorem]]
 - Week 11 (July 28):
-Analytic continuation
-    - [[Montel's theorem]]
-    - Normal families
+	- [[030 Identity Principle]]
+	- [[Montel's theorem]]
+	- [[Normal families]]

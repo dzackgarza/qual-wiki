@@ -18,16 +18,16 @@ V &\cong \bigoplus _{j=1}^m k[x] / \gens{ p_i(x)^{e_i} } && \text{ with } p_i \t
 :::
 
 :::{.definition title="Nondegenerate Bilinear Form"}
-\todo[inline]{todo}
+#todo
 :::
 
 :::{.definition title="Quadratic Form"}
-\todo[inline]{todo}
+#todo
 
 :::
 
 :::{.definition title="Gram Matrix"}
-\todo[inline]{todo}
+#todo
 
 :::
 

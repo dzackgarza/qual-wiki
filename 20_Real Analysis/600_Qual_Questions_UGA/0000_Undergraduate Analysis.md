@@ -1,6 +1,6 @@
 # Undergraduate Analysis: Uniform Convergence
 
-## Fall 2018 # 1 $\done$
+## Fall 2018 # 1 #completed
 Let $f(x) = \frac 1 x$.
 Show that $f$ is uniformly continuous on $(1, \infty)$ but not on $(0,\infty)$.
 
@@ -65,7 +65,7 @@ To negate, find a bad $x$: since $1/x$ blows up near zero, go hunting for small 
 :::
 
 
-## Fall 2017 # 1 $\done$
+## Fall 2017 # 1 #completed
 Let 
 \[
 f(x) = \sum _{n=0}^{\infty} \frac{x^{n}}{n !}.
@@ -133,7 +133,7 @@ $f_N$ does not converge uniformly on all of $\RR$.
 - **Conclusion**: $f_N$ converges on any bounded $A\subseteq \RR$ but not on all of $\RR$.
 :::
 
-## Fall 2014 # 1 $\done$
+## Fall 2014 # 1 #completed
 Let $\theset{f_n}$ be a sequence of continuous functions such that $\sum f_n$ converges uniformly.
 
 Prove that $\sum f_n$ is also continuous.
@@ -173,7 +173,7 @@ If $F_N\to F$ uniformly with each $F_N$ continuous, then $F$ is continuous.
 
 :::
 
-## Spring 2017 # 4 $\done$
+## Spring 2017 # 4 #completed
 Let $f(x, y)$ on $[-1, 1]^2$ be defined by 
 $$
 f(x, y) = \begin{cases}
@@ -203,7 +203,7 @@ Switching to polar coordinates and integrating over the quarter of the unit disc
 .\]
 :::
 
-## Spring 2015 # 1 $\done$
+## Spring 2015 # 1 #completed
 Let $(X, d)$ and $(Y, \rho)$ be metric spaces, $f: X\to Y$, and $x_0 \in X$.
 
 Prove that the following statements are equivalent:
@@ -248,7 +248,7 @@ Prove that the following statements are equivalent:
 :::
 
 
-## Fall 2014 # 2  $\done$
+## Fall 2014 # 2  #completed
 Let $I$ be an index set and $\alpha: I \to (0, \infty)$.
 
 a.
@@ -348,7 +348,7 @@ f(x^-) &= \sum_{q_k< x} \alpha_k
 
 # General Analysis
 
-## Spring 2020 # 1 $\done$
+## Spring 2020 # 1 #completed
 
 Prove that if $f: [0, 1] \to \RR$ is continuous then
 \[
@@ -418,7 +418,7 @@ Prove that if $f: [0, 1] \to \RR$ is continuous then
 
 :::
 
-## Fall 2019 # 1 $\done$
+## Fall 2019 # 1 #completed
 Let $\{a_n\}_{n=1}^\infty$ be a sequence of real numbers.
 
 a.
@@ -475,6 +475,7 @@ k\geq M+1 \implies \abs{a_k - S} < \varepsilon
 :::
 
 \todo[inline]{Revisit, not so clear that the last line can be made smaller than $\eps$, since $M, N$ both depend on $\eps$...}
+#todo
 
 :::{.proof title="of b"}
 \envlist
@@ -516,7 +517,7 @@ k\geq M+1 \implies \abs{a_k - S} < \varepsilon
 
 :::
 
-## Fall 2018 # 4 $\done$
+## Fall 2018 # 4 #completed
 Let $f\in L^1([0, 1])$.
 Prove that
 \[
@@ -526,6 +527,7 @@ Prove that
 > Hint: Begin with the case that $f$ is the characteristic function of an interval.
 
 \todo[inline]{Ask someone to check the last approximation part.}
+#todo 
 
 :::{.solution}
 \envlist
@@ -628,7 +630,7 @@ General case:
   which is the desired result.
 :::
 
-## Fall 2017 # 4 $\done$
+## Fall 2017 # 4 #completed
 Let
 \[
 f_{n}(x) = n x(1-x)^{n}, \quad n \in \NN.
@@ -685,9 +687,10 @@ The convergence is not uniform:
 - Thus $\norm{f_n - 0}_\infty = \norm{f_n}_\infty > e^{-1} > 0$.
 
 
-b.
+b. ?
 
 \todo[inline]{Possible to use part a with $\sin(x) \leq x$ on $[0, \pi/2]$?}
+#todo 
 
 - Noting that $\sin(x) \leq 1$, we have
 \[
@@ -700,7 +703,7 @@ b.
 .\]
 :::
 
-## Spring 2017 # 3 $\work$
+## Spring 2017 # 3 #work
 
 Let
 \[
@@ -755,7 +758,7 @@ b.
 ?
 :::
 
-## Fall 2016 # 1 $\done$
+## Fall 2016 # 1 #completed
 
 Define
 \[
@@ -821,7 +824,7 @@ f'(x)  =\sum_{n=1}^{\infty}\left(\frac{1}{n^{x}}\right)^{\prime}.
 \todo[inline]{?}
 :::
 
-## Fall 2016 # 5 $\done$
+## Fall 2016 # 5 #completed
 
 Let $\phi\in L^\infty(\RR)$. Show that the following limit exists and satisfies the equality
 \[
@@ -880,7 +883,7 @@ S_\eps \definedas \theset{x\in \RR^n\suchthat \abs{\phi(x)} \geq \norm{\phi}_\in
   where we've again used the fact that $c^{1\over n} \to 1$ for any constant.
 :::
 
-## Fall 2016 # 6 $\done$
+## Fall 2016 # 6 #completed
 
 Let $f, g \in L^2(\RR)$. Show that
 \[
@@ -940,7 +943,7 @@ Let $f, g \in L^2(\RR)$. Show that
 .\]
 :::
 
-## Spring 2016 # 1  $\work$
+## Spring 2016 # 1  #work
 
 For $n\in \NN$, define
 \[
@@ -962,7 +965,7 @@ Use this to show the following:
 3. $2 < e_n < E_n < 4$.
 4. $\lim _{n \to \infty} e_{n} = \lim _{n \to \infty} E_{n}$.
 
-## Fall 2015 # 1  $\work$
+## Fall 2015 # 1  #work
 
 Define
 \[
@@ -971,7 +974,7 @@ f(x)=c_{0}+c_{1} x^{1}+c_{2} x^{2}+\ldots+c_{n} x^{n} \text { with } n \text { e
 
 Show that there is a number $x_m$ such that $f(x_m) \leq f(x)$ for all $x\in \RR$.
 
-## Fall 2020 \# 1 $\work$
+## Fall 2020 \# 1 #work
 Show that if $x_n$ is a decreasing sequence of positive real numbers such that $\sum_{n=1}^\infty x_n$ converges, then
 $$
 \lim_{n\to\infty} n x_n = 0.
@@ -1027,7 +1030,7 @@ where the first term converges by what we showed above, and the second by assump
 
 
 
-## Fall 2020 \# 3 $\work$
+## Fall 2020 \# 3 #work
 Let $f$ be a non-negative Lebesgue measurable function on $[1, \infty)$.
 
 a.
@@ -1059,7 +1062,7 @@ for all $t\in [1, \infty)$, then
 
 ## Unsorted
 
-## Spring 2014 # 2  $\done$
+## Spring 2014 # 2  #completed
 
 Let $\theset{a_n}$ be a sequence of real numbers such that
 \[

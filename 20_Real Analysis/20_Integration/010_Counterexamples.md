@@ -55,15 +55,15 @@ We have $1 \implies 2 \implies 3$, and in general no implication can be reversed
 
 - $f_n = (1/n) \chi_{(0, n)}$. This converges uniformly to 0, but the integral is identically 1. So this satisfies 1,2,3 and not 4.
 
-  ![image_2021-05-21-16-38-30](image_2021-05-21-16-38-30.png)
+  ![[image_2021-05-21-16-38-30.png]]
 
 - $f_n = \chi_{(n, n+1)}$ (skateboard to infinity). This satisfies 2,3 but not 1, 4.
 
-  ![image_2021-05-21-16-42-08](image_2021-05-21-16-42-08.png)
+  ![[image_2021-05-21-16-42-08.png]]
 
 - $f_n = n\chi_{(0, \frac 1 n)}$. This satisfies 3 but not 1,2,4.
 
-  ![image_2021-05-21-16-54-38](image_2021-05-21-16-54-38.png)
+  ![[image_2021-05-21-16-54-38.png]]
 
 - $f_n:$ one can construct a sequence where $f_n \to 0$ in $L^1$ but is not 1,2, or 3.
   The construction:
@@ -72,7 +72,7 @@ We have $1 \implies 2 \implies 3$, and in general no implication can be reversed
   - Break $I$ into $2^2=4$ intervals, like $f_3$ be the indicator on the first quarter, $f_4$ on the second, etc.
   - Break $I$ into $2^k$ intervals and cyclic through $k$ indicator functions.
 
-  ![image_2021-05-21-16-49-09](image_2021-05-21-16-49-09.png)
+  ![[image_2021-05-21-16-49-09.png]]
 
   - Then $\int f_n = 1/2^n \to 0$, but $f_n\not\to 0$ pointwise since for every $x$, there are infinitely many $n$ for which $f_n(x) = 0$ and infinitely many for which $f_n(x) = 1$.
 

@@ -7,7 +7,7 @@
 
 ## Problems
 
-Try some #problems and read #solutions:
+Try some #problems (see also #work) and read #solutions (see also #completed), or help me  unsolved exercises:
 
 - Algebra
 	- [[50_Solutions_Algebra]]
@@ -61,18 +61,31 @@ Do some #reading:
 
 - Real Analysis qual work: [[0000_Preface]]
 - Algebra qual work: [[10_Algebra/600_Qual_Questions_UGA/000_Preface]]
-- Complex qual work: [[30_Complex Analysis/600_Qual_Questions_UGA/000_Preface]]
+- Complex qual work: [[30_Complex Analysis/999_Quals/000_Preface]]
 - Topology qual work: [[40_Topology/600_UGA_Qual_Questions/000_Preface]]
 
 
-## Relevant Wiki Pages
+## Relevant Searches
 
 > Todo: queries don't work in emanote yet.
+
+### Solutions
 
 ```query
 tag:solutions
 ```
 
+### Problems 
 ```query
 tag:problems
+```
+
+### Review ✨
+```query
+tag:completed
+```
+
+### Problems to Work 🔨
+```query
+tag:work
 ```

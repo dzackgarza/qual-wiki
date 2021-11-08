@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+      "basename": "qual_progress",
+      "path": "qual_progress.md"
     },
     {
-      "basename": "00_Resources",
-      "path": "30_Complex Analysis/050_Conformal_Maps/00_Resources.md"
+      "basename": "Test",
+      "path": "Test.md"
     },
     {
-      "basename": "30_Complex Analysis",
-      "path": "30_Complex Analysis.md"
+      "basename": "Typsetting_Progress",
+      "path": "Typsetting_Progress.md"
     },
     {
-      "basename": "McMullen_-_Advanced_Complex_Analysis",
-      "path": "attachments/McMullen_-_Advanced_Complex_Analysis.pdf"
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
     {
-      "basename": "Eur_ComplexAnalysis_Notes (1)",
-      "path": "attachments/Eur_ComplexAnalysis_Notes (1).pdf"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
-    },
-    {
-      "basename": "Complex_Qual_Notes",
-      "path": "attachments/Complex_Qual_Notes.pdf"
+      "basename": "9900_Appendix_Inequalities",
+      "path": "20_Real Analysis/200_Appendices/9900_Appendix_Inequalities.md"
     },
     {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
     {
-      "basename": "Exercises",
-      "path": "30_Complex Analysis/010_Basics/Exercises.md"
+      "basename": "9010_Extra_Problems",
+      "path": "20_Real Analysis/500_Exercises/9010_Extra_Problems.md"
     },
     {
-      "basename": "005_Complex_Preliminaries",
-      "path": "30_Complex Analysis/010_Basics/005_Complex_Preliminaries.md"
-    },
-    {
-      "basename": "Complex Log",
-      "path": "30_Complex Analysis/010_Basics/Complex Log.md"
+      "basename": "000_Real_Review",
+      "path": "30_Complex Analysis/999_Quals/000_Real_Review.md"
     },
     {
       "basename": "10_UGA_Problems",
       "path": "30_Complex Analysis/000_Resources/10_UGA_Problems.md"
     },
     {
-      "basename": "0045 Liouville and Power Series",
-      "path": "30_Complex Analysis/600_Qual_Questions_UGA/0045 Liouville and Power Series.md"
+      "basename": "050 Liouville",
+      "path": "30_Complex Analysis/999_Quals/050 Liouville.md"
     },
     {
-      "basename": "006_Laurent_Singularities",
-      "path": "30_Complex Analysis/600_Qual_Questions_UGA/006_Laurent_Singularities.md"
+      "basename": "021 Laurent Expansions",
+      "path": "30_Complex Analysis/999_Quals/021 Laurent Expansions.md"
     },
     {
-      "basename": "005 Laurent and Power Series",
-      "path": "30_Complex Analysis/010_Basics/005 Laurent and Power Series.md"
+      "basename": "052_Rouche",
+      "path": "30_Complex Analysis/999_Quals/052_Rouche.md"
     },
     {
-      "basename": "2021-10-28_21-22-12",
-      "path": "30_Complex Analysis/figures/2021-10-28_21-22-12.png"
+      "basename": "Rouche",
+      "path": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md"
     },
     {
-      "basename": "Complex Calculus",
-      "path": "30_Complex Analysis/010_Basics/Complex Calculus.md"
+      "basename": "99999_Unsorted",
+      "path": "30_Complex Analysis/999_Quals/99999_Unsorted.md"
     },
     {
-      "basename": "Complex Arithmetic",
-      "path": "30_Complex Analysis/010_Basics/Complex Arithmetic.md"
-    },
-    {
-      "basename": "003_Calculus_Preliminaries",
-      "path": "30_Complex Analysis/010_Basics/003_Calculus_Preliminaries.md"
-    },
-    {
-      "basename": "002_Complex_Arithmetic",
-      "path": "30_Complex Analysis/600_Qual_Questions_UGA/002_Complex_Arithmetic.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "8150-hw2",
-      "path": "attachments/8150-hw2.pdf"
-    },
-    {
-      "basename": "35_Fields_Extensions",
-      "path": "10_Algebra/060_Galois/35_Fields_Extensions.md"
-    },
-    {
-      "basename": "2021-08-09_22-29-40",
-      "path": "figures/2021-08-09_22-29-40.png"
-    },
-    {
-      "basename": "image_2021-06-09-02-11-59",
-      "path": "figures/image_2021-06-09-02-11-59.png"
-    },
-    {
-      "basename": "30_Fields_General",
-      "path": "10_Algebra/040_Rings/30_Fields_General.md"
-    },
-    {
-      "basename": "13_Groups_Classification",
-      "path": "10_Algebra/020_Groups/13_Groups_Classification.md"
-    },
-    {
-      "basename": "110_Graduate_Topics",
-      "path": "110_Graduate_Topics.md"
-    },
-    {
-      "basename": "00_Books_Notes_DG",
-      "path": "60_Differential Geometry/00_Books_Notes_DG.md"
-    },
-    {
-      "basename": "UGA Complex Analysis Qual Questions",
-      "path": "30_Complex Analysis/600_Qual_Questions_UGA/UGA Complex Analysis Qual Questions.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "30_Complex Analysis/600_Qual_Questions_UGA/000_Preface.md"
-    },
-    {
-      "basename": "0000_Undergraduate Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
-    },
-    {
-      "basename": "001_RealVariables",
-      "path": "30_Complex Analysis/600_Qual_Questions_UGA/001_RealVariables.md"
-    },
-    {
-      "basename": "My Active Problems",
-      "path": "My Active Problems.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "60_Differential Geometry/Lee Manifolds/sections/000_Preface.md"
-    },
-    {
-      "basename": "001_Definitions",
-      "path": "40_Topology/020_Point_Set/001_Definitions.md"
-    },
-    {
-      "basename": "007_Residues",
-      "path": "30_Complex Analysis/600_Qual_Questions_UGA/007_Residues.md"
-    },
-    {
-      "basename": "9999_2021_Fall",
-      "path": "30_Complex Analysis/600_Qual_Questions_UGA/9999_2021_Fall.md"
+      "basename": "022 Singularities",
+      "path": "30_Complex Analysis/999_Quals/022 Singularities.md"
     },
     {
       "basename": "020_Residues",
       "path": "30_Complex Analysis/030_Residues/020_Residues.md"
     },
     {
+      "basename": "300_Schwarz Reflection",
+      "path": "30_Complex Analysis/999_Quals/300_Schwarz Reflection.md"
+    },
+    {
+      "basename": "200_Schwarz",
+      "path": "30_Complex Analysis/999_Quals/200_Schwarz.md"
+    },
+    {
+      "basename": "300_Riemann Mapping, Casorati",
+      "path": "30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati.md"
+    },
+    {
+      "basename": "060 Schwarz Reflection",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/060 Schwarz Reflection.md"
+    },
+    {
+      "basename": "105_Conformal Maps",
+      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+    },
+    {
+      "basename": "100_Linear Fractional Transformations",
+      "path": "30_Complex Analysis/999_Quals/100_Linear Fractional Transformations.md"
+    },
+    {
+      "basename": "035_Cauchy Theorem",
+      "path": "30_Complex Analysis/999_Quals/035_Cauchy Theorem.md"
+    },
+    {
+      "basename": "040_Maximum_Modulus",
+      "path": "30_Complex Analysis/999_Quals/040_Maximum_Modulus.md"
+    },
+    {
+      "basename": "051_Polynomials",
+      "path": "30_Complex Analysis/999_Quals/051_Polynomials.md"
+    },
+    {
+      "basename": "030_Computing Integrals",
+      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
+    },
+    {
+      "basename": "011_Complex Geometry",
+      "path": "30_Complex Analysis/999_Quals/011_Complex Geometry.md"
+    },
+    {
+      "basename": "010_Arithmetic and Inequalities",
+      "path": "30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities.md"
+    },
+    {
+      "basename": "005 Convergence of Power Series",
+      "path": "30_Complex Analysis/999_Quals/005 Convergence of Power Series.md"
+    },
+    {
+      "basename": "005 Convergence and Limits of Functions",
+      "path": "30_Complex Analysis/999_Quals/005 Convergence and Limits of Functions.md"
+    },
+    {
+      "basename": "005 Complex Differentiability",
+      "path": "30_Complex Analysis/999_Quals/005 Complex Differentiability.md"
+    },
+    {
+      "basename": "004 CR and PDEs",
+      "path": "30_Complex Analysis/999_Quals/004 CR and PDEs.md"
+    },
+    {
+      "basename": "002_Real_Multivariable",
+      "path": "30_Complex Analysis/999_Quals/002_Real_Multivariable.md"
+    },
+    {
       "basename": "100_Extra Questions",
-      "path": "30_Complex Analysis/500_Exercises/100_Extra Questions.md"
+      "path": "30_Complex Analysis/990_Exercises/100_Extra Questions.md"
     },
     {
-      "basename": "000_Resources",
-      "path": "45_Characteristic Classes/000_Resources.md"
+      "basename": "Maps of the disc",
+      "path": "30_Complex Analysis/900 Unsorted/Maps of the disc.md"
     },
     {
-      "basename": "HW2",
-      "path": "45_Characteristic Classes/HW2.md"
+      "basename": "025_Blaschke_Products",
+      "path": "30_Complex Analysis/900 Unsorted/025_Blaschke_Products.md"
     },
     {
-      "basename": "10_Problems",
-      "path": "60_Differential Geometry/Problems/10_Problems.md"
+      "basename": "00_Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
     {
-      "basename": "DG Sample Problems 1",
-      "path": "attachments/DG Sample Problems 1.pdf"
+      "basename": "Open mapping theorem",
+      "path": "Open mapping theorem.md"
     },
     {
-      "basename": "8210 Lecture Notes (Usher) Smooth Manifolds",
-      "path": "attachments/8210 Lecture Notes (Usher) Smooth Manifolds.pdf"
+      "basename": "Picard theorem",
+      "path": "Picard theorem.md"
     },
     {
-      "basename": "Adam Syllabus",
-      "path": "attachments/Adam Syllabus.pdf"
+      "basename": "Casorati-Weierstrass",
+      "path": "Casorati-Weierstrass.md"
     },
     {
-      "basename": "Exercises",
-      "path": "100_Commutative Algebra/Exercises.md"
+      "basename": "Riemann Mapping Principle",
+      "path": "Riemann Mapping Principle.md"
     },
     {
-      "basename": "Extras",
-      "path": "100_Homological Algebra/Course Exercises/Extras.md"
+      "basename": "Maximum modulus principle",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/Maximum modulus principle.md"
     },
     {
-      "basename": "2021-04-15",
-      "path": "100_Homological Algebra/Course Exercises/2021-04-15.md"
+      "basename": "015 Mean Value Theorem",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem.md"
     },
     {
-      "basename": "10_Useful Facts",
-      "path": "100_Homological Algebra/10_Useful Facts.md"
+      "basename": "050_Morera_Theorem",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/050_Morera_Theorem.md"
+    },
+    {
+      "basename": "030 Identity Principle",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
+    },
+    {
+      "basename": "020 Liouville",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
+    },
+    {
+      "basename": "012_Cauchy Inequality",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality.md"
+    },
+    {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "010_Cauchy_Theorem",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
+    },
+    {
+      "basename": "999 Exercises",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/999 Exercises.md"
     }
   ],
   "omittedPaths": [],

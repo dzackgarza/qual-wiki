@@ -1,4 +1,4 @@
-[LeeManifolds](../LeeManifolds.md)
+[[LeeManifolds]]
 
 ## Exercise
 
