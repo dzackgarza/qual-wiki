@@ -59,13 +59,16 @@ If $0\leq a_n \leq b_n$, then
 
 :::{.corollary title="Term by Term Continuity Theorem"}
 \[
-f_n \text{ cts},\, \norm{\sum f_n \to F}_\infty \to 0 \implies F \text{ cts}
+f_n \text{ cts},\, \norm{\sum_{k\leq N} f_n \to F}_\infty \convergesto{N\to\infty} 0 \implies F \text{ cts}
 .\]
-
 :::
 
 :::{.proposition title="Cauchy criterion for sums"}
-$f_n$ are uniformly Cauchy (so $\norm{f_n - f_m}_\infty < \eps$) iff $f_n$ is uniformly convergent.
+Uniformly Cauchy iff uniformly convergent, i.e.
+\[
+\norm{f_n - f_m} \convergesto{m, n\to \infty} 0 \iff \exists f,\, \norm{f_n - f} \convergesto{n\to\infty} 0
+.\]
+
 :::
 
 ## Uniform Convergence
