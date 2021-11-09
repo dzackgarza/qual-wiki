@@ -39,8 +39,7 @@ sis_ii.pdf)
 
 - [Stanford, notes on Folland](http://web.stanford.edu/~eugeniam/math205a/L2m.pdf)
 
-- [http://www-personal.umich.edu/~equinlan/analysis_notes.pdf](http://www-personal.umich.edu/~equinlan/analysis_notes.pdf)
-
+[[analysis_notes_eamonqg.pdf|More analysis summary]]
 
 [[Real_Named_Theorems.pdf]]
 #summaries 
