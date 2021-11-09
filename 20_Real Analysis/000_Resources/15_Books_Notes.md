@@ -3,6 +3,7 @@
 #reading
 
 # Books
+#bo
 
 - Rudin: Real and complex analysis 
   > Good general reference but the following books have more useful techniques
@@ -27,22 +28,23 @@
 - Durrett: Probability: Theory And Examples
 
 # Course Notes
+#course_notes 
 
 [Harvard 2019 Grad Analysis Course Notes](https://people.math.harvard.edu/~ctm/home/text/class/harvard/212a/19/html/home/course/course.pdf)
 
 [Real Analysis Course Notes.pdf](attachments/Real_Analysis_Course_Notes.pdf)
 
-# Summaries
+![[cambride_analysis_ii.pdf|Cambridge analysis notes]]
 
-- Good background notes: [https://dec41.user.srcf.net/notes/IB_M/analysis_ii.pdf](https://dec41.user.srcf.net/notes/IB_M/analy- Study guide near the bottom of this page (summary of Royden)
-sis_ii.pdf)
+
+# Summaries
+#summaries 
 
 - [Stanford, notes on Folland](http://web.stanford.edu/~eugeniam/math205a/L2m.pdf)
 
 [[analysis_notes_eamonqg.pdf|More analysis summary]]
 
 [[Real_Named_Theorems.pdf]]
-#summaries 
 
 # Solutions
 
