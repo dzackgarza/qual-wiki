@@ -195,10 +195,6 @@
     {
       "basename": "010_Cauchy_Theorem",
       "path": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
-    },
-    {
-      "basename": "999 Exercises",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/999 Exercises.md"
     }
   ],
   "omittedPaths": [],

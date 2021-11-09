@@ -34,11 +34,8 @@
 
 # Summaries
 
-- Good background notes: [https://dec41.user.srcf.net/notes/IB_M/analysis_ii.pdf](https://dec41.user.srcf.net/notes/IB_M/analysis_ii.pdf)
-
-- Study guide near the bottom of this page (summary of Royden)
-
-[https://rstudio-pubs-static.s3.amazonaws.com/342389_1cad63f68dff45fead17af37236a76c8.html](https://rstudio-pubs-static.s3.amazonaws.com/342389_1cad63f68dff45fead17af37236a76c8.html)
+- Good background notes: [https://dec41.user.srcf.net/notes/IB_M/analysis_ii.pdf](https://dec41.user.srcf.net/notes/IB_M/analy- Study guide near the bottom of this page (summary of Royden)
+sis_ii.pdf)
 
 - [http://web.stanford.edu/~eugeniam/math205a/L2m.pdf](http://web.stanford.edu/~eugeniam/math205a/L2m.pdf)
 
@@ -51,4 +48,4 @@
 # Solutions
 
 ![[My Solutions to Old Analysis Quals.pdf|Jacob S Townson
-Solutions to Analysis]]
+Solutions to Analysis Quals]]

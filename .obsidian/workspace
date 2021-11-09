@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b40c000b65bfc221",
+        "id": "f70bb51ba62143d6",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -254,9 +254,10 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "b40c000b65bfc221",
+  "active": "f70bb51ba62143d6",
   "lastOpenFiles": [
     "20_Real Analysis/000_Resources/15_Books_Notes.md",
+    "y.md",
     "qual_progress.md",
     "progress.md",
     "Test.md",
@@ -264,7 +265,6 @@
     "30_Complex Analysis/200 Schwarz Lemma/Shwarz Lemma.md",
     "30_Complex Analysis/999_Quals/000_Preface.md",
     "20_Real Analysis/200_Appendices/9900_Appendix_Inequalities.md",
-    "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
-    "20_Real Analysis/500_Exercises/9010_Extra_Problems.md"
+    "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
   ]
 }
