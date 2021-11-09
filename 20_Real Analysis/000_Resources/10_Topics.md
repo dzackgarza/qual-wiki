@@ -21,7 +21,6 @@ Measure Theory (Sets)
     - Outer measure, Lebesgue measure
     - Continuity of measure
     - Borel-Cantelli
-    
 - Week 3 (June 3):
 Integration 1:
     - Measurable Functions
@@ -31,8 +30,8 @@ Integration 1:
     - Types of convergence: uniform, pointwise, a.e., in measure, in norm
 - Week 4 (June 10):
 Integration 2:
-    - Convergence Theorems (Fatou, Monotone, Dominated)
-    - Fubini-Tonelli and repeated integration
+    - [[Convergence Theorems]] (Fatou, Monotone, Dominated)
+    - [[Fubini-Tonelli]] and repeated integration
 - Week 5 (June 17):
 Fourier Analysis
     - The Fourier transform
