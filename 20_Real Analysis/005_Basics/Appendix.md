@@ -1,3 +1,7 @@
+---
+order: 999
+---
+
 # Appendix
 
 An alternative characterization of **uniform continuity**:

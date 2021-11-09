@@ -1,3 +1,7 @@
+---
+order: 35
+---
+
 # Sequences and Series
 
 ## Sequences
