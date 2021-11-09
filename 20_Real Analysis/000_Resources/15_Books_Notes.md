@@ -3,7 +3,7 @@
 #reading
 
 # Books
-#bo
+#textbook 
 
 - Rudin: Real and complex analysis 
   > Good general reference but the following books have more useful techniques
@@ -48,5 +48,3 @@
 
 # Solutions
 
-![[My Solutions to Old Analysis Quals.pdf|Jacob S Townson
-Solutions to Analysis Quals]]

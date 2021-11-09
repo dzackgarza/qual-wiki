@@ -5,6 +5,10 @@
       "path": "20_Real Analysis/000_Resources/15_Books_Notes.md"
     },
     {
+      "basename": "20_Solutions",
+      "path": "20_Real Analysis/000_Resources/20_Solutions.md"
+    },
+    {
       "basename": "Real_Analysis_Course_Notes",
       "path": "attachments/Real_Analysis_Course_Notes.pdf"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "00_Books_Notes",
       "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
-    },
-    {
-      "basename": "010_Cauchy_Theorem",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
     }
   ],
   "omittedPaths": [],
