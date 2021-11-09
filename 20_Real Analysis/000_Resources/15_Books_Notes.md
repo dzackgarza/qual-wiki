@@ -45,6 +45,3 @@
 [[analysis_notes_eamonqg.pdf|More analysis summary]]
 
 [[Real_Named_Theorems.pdf]]
-
-# Solutions
-
