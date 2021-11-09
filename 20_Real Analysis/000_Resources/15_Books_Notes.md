@@ -27,14 +27,13 @@
 
 - Durrett: Probability: Theory And Examples
 
-# Course Notes
-#course_notes 
+# #course_notes 
 
-[Harvard 2019 Grad Analysis Course Notes](https://people.math.harvard.edu/~ctm/home/text/class/harvard/212a/19/html/home/course/course.pdf)
+- [Harvard 2019 Grad Analysis Course Notes](https://people.math.harvard.edu/~ctm/home/text/class/harvard/212a/19/html/home/course/course.pdf)
 
-[Real Analysis Course Notes.pdf](attachments/Real_Analysis_Course_Notes.pdf)
+- [Real Analysis Course Notes.pdf](attachments/Real_Analysis_Course_Notes.pdf)
 
-![[cambride_analysis_ii.pdf|Cambridge analysis notes]]
+- [[cambride_analysis_ii.pdf|Cambridge analysis notes]]
 
 
 # Summaries
@@ -42,6 +41,6 @@
 
 - [Stanford, notes on Folland](http://web.stanford.edu/~eugeniam/math205a/L2m.pdf)
 
-[[analysis_notes_eamonqg.pdf|More analysis summary]]
+- [[analysis_notes_eamonqg.pdf|More analysis summary]]
 
-[[Real_Named_Theorems.pdf]]
+- [[Real_Named_Theorems.pdf]]
