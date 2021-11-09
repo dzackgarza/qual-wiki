@@ -8,7 +8,7 @@ solutions to any problems, you should attempt the problem on your own.
 
 # May 2016 Qual
 
-##  (May 2016, \\\#1) 
+##  May 2016, 1 
 
 Consider the function $f(x) = \frac{x}{1-x^2}$,
 $x \in (0,1)$.
@@ -72,7 +72,7 @@ $f(x_n) - f(x_{n+1}) | \not < \epsilon$. Therefore $f(x)$ is not
 uniformly continuous. ◻
 :::
 
-##  (May 2016, \#2) 
+##  (May 2016, 2) 
 
 Let $\{a_k\}_{k=1}^\infty$ be a bounded sequence of real numbers and
 $E$ given by:
@@ -97,7 +97,7 @@ $$\inf E \leq \lim (\sup T_k) = \limsup a_k.$$ We have both
 inequalities, therefore $\limsup a_k = \inf E$. ◻
 :::
 
-##  (May 2016, \#3) 
+##  (May 2016, 3) 
 Assume $(X,d)$ is a compact metric space.
 
 1.  
@@ -109,7 +109,7 @@ that the series $\sum_{k=1}^\infty d(x_k, x_{k+1})$ converges.
 Prove that the sequence $\{x_k\}_{k=1}^\infty$ converges in $X$.
 
 
-##  (May 2016, \#4) 
+##  (May 2016, 4) 
 Suppose that $f \colon [0,2] \to \mathbb{R}$ is continuous on
 $[0,2]$ , differentiable on $(0,2)$, and such that
 $f(0) = f(2) = 0$, $f(c) = 1$ for some $c \in (0,2)$. Prove that
@@ -145,7 +145,7 @@ since $f(x)$ is differentiable at $x=1$ we cannot have $f(x)=x$ on
 $(0,1)$ and $f(x)=2-x$ on $(1,2)$. ◻
 :::
 
-##  (May 2016, \#5) 
+##  (May 2016, 5) 
 Let $f_n(x) = n^\beta x(1-x^2)^n$, $x \in [0,1]$,
 $n \in \mathbb{N}$.
 
@@ -162,7 +162,7 @@ $\beta \geq \frac{1}{2}$.
 
 
 
-##  (May 2016, \#6) 
+##  (May 2016, 6) 
 1.  Suppose $f \colon [-1,1] \to \mathbb{R}$ is a bounded function
 that is continuous at $0$. Let $\alpha(x) = -1$ for
 $x \in [-1,0]$ and $\alpha(x)=1$ for $x \in (0,1]$. Prove that
@@ -204,7 +204,7 @@ $g(x)=0$. ◻
 
 # Metric Spaces and Topology
 
-##  (May 2019, \#1) 
+##  (May 2019, 1) 
 
 Let $(M, d_M)$, $(N, d_N)$ be metric spaces. Define
 $d_{M \times N} \colon (M \times N) \times (M \times N) \to \mathbb{R}$
@@ -317,7 +317,7 @@ Therefore $S \times T$ is sequentially compact and $S \times T$
 is therefore compact. ◻
 :::
 
-##  (June 2003, \#1b,c) 
+##  (June 2003, 1b,c) 
 
 (b) Show by example that the union of infinitely
 many compact subsets of a metric space need not be compact. (c) If
@@ -326,7 +326,7 @@ $d(x_0,K)=\inf_{y\in K} d(x_0,y)$. Prove that there exists a point
 $y_0\in K$ such that $d(x_0,K)=d(x_0,y_0)$.
 
 
-##  (January 2009, \#4a) 
+##  (January 2009, 4a) 
 
 Consider the metric space $(\mathbb{Q},d)$
 where $\mathbb{Q}$ denotes the rational numbers and $d(x,y)=|x-y|$.
@@ -334,7 +334,7 @@ Let $E=\{x\in\mathbb{Q}:x>0,\,2<x^2<3\}$. Is $E$ closed and bounded
 in $\mathbb{Q}$? Is $E$ compact in $\mathbb{Q}$?
 
 
-##  (January 2011 \#3a) 
+##  (January 2011 3a) 
 
 Let $(X,d)$ be a metric space, $K\subset X$ be
 compact, and $F\subset X$ be closed. If $K\cap F=\emptyset$, prove
@@ -368,12 +368,12 @@ $\{x \in X \, \colon \,  d(x,x_0) = r\}$ is nonempty.
 
 # Sequences and Series
 
-## (June 2013 \#1a) 
+## (June 2013 1a) 
 Let
 $a_n =\sqrt{n}\left(\sqrt{n+1}-\sqrt{n}\right)$. Prove that
 $\lim_{n\to\infty}a_n=1/2$.
 
-## (January 2014 \#2) 
+## (January 2014 2) 
 
 1.
 Produce sequences $\{a_n\},\,\{b_n\}$ of
@@ -386,19 +386,19 @@ $\{a_n\}$ converges, prove that
 $$\liminf_{n\to\infty}(a_nb_n)=\left(\lim_{n\to\infty}a_n\right)\left(\liminf_{n\to\infty}b_n\right).$$
 
 
-##  (May 2011 \#4a) 
+##  (May 2011 4a) 
 Determine the values of $x\in\mathbb{R}$ for which
 $\displaystyle\sum_{n=1}^\infty \frac{x^n}{1+n|x|^n}$ converges,
 justifying your answer carefully.
 
-## (June 2005 \#3b) 
+## (June 2005 3b) 
 
 If the series $\sum_{n=0}^\infty a_n$ converges
 conditionally, show that the radius of convergence of the power
 series $\sum_{n=0}^\infty a_nx^n$ is 1.
 
 
-## (January 2011 \#5) 
+## (January 2011 5) 
 
 Suppose $\{a_n\}$ is a sequence of positive real
 numbers such that $\lim_{n\to\infty}a_n=0$ and $\sum a_n$ diverges.
@@ -423,7 +423,7 @@ $\displaystyle \sum \frac{a_n}{\beta + a_n}$ is also divergent.
 
 # Differential Calculus
 
-##  (June 2005 \#1a) 
+##  (June 2005 1a) 
 
 Use the definition of the derivative to prove that
 if $f$ and $g$ are differentiable at $x$, then $fg$ is
@@ -431,7 +431,7 @@ differentiable at $x$.
 
 
 
-##  (January 2006 \#2b) 
+##  (January 2006 2b) 
 
 Assume that $f$ is differentiable at $a$.
 Evaluate
@@ -439,7 +439,7 @@ $$\lim_{x\to a}\frac{a^nf(x)-x^nf(a)}{x-a},\quad n\in\mathbb{N}.$$
 
 
 
-##  (June 2007 \#3a) 
+##  (June 2007 3a) 
 
 Suppose that $f,g:\mathbb{R}\to\mathbb{R}$ are
 differentiable, that $f(x)\leq g(x)$ for all $x\in\mathbb{R}$, and
@@ -447,14 +447,14 @@ that $f(x_0)=g(x_0)$ for some $x_0$. Prove that $f'(x_0)=g'(x_0)$.
 
 
 
-##  (June 2008 \#3a) 
+##  (June 2008 3a) 
 
 Prove that if $f'$ exists and is bounded on
 $(a,b]$, then $\lim_{x\to a^+}f(x)$ exists.
 
 
 
-##  (January 2012 \#4b, extended) 
+##  (January 2012 4b, extended) 
 
 Let $f:\mathbb{R}\to\mathbb{R}$ be a
 differentiable function with $f'\in C(\mathbb{R})$. Assume that
@@ -465,7 +465,7 @@ exists is necessary.
 
 
 
-##  (June 2012 \#1a) 
+##  (June 2012 1a) 
 
 Suppose that $f:\mathbb{R}\to\mathbb{R}$ satisfies
 $f(0)=0$. Prove that $f$ is differentiable at $x=0$ if and only if
@@ -476,14 +476,14 @@ at $x=0$ and satisfies $f(x)=xg(x)$ for all $x\in\mathbb{R}$.
 
 # Integral Calculus
 
-##  (January 2006 \#4b) 
+##  (January 2006 4b) 
 
 Suppose that $f$ is continuous and $f(x)\geq 0$
 on $[0,1]$. If $f(0)>0$, prove that $\int_0^1 f(x)dx>0$.
 
 
 
-##  (June 2005 \#1b) 
+##  (June 2005 1b) 
 
 Use the definition of the Riemann integral to prove
 that if $f$ is bounded on $[a,b]$ and is continuous everywhere
@@ -492,7 +492,7 @@ on $[a,b]$.
 
 
 
-##  (January 2010 \#5) 
+##  (January 2010 5) 
 
 Suppose that $f:[a,b]\to\mathbb{R}$ is
 continuous, $f\geq 0$ on $[a,b]$, and put
@@ -501,7 +501,7 @@ $$\lim_{p\to\infty}\left(\int_a^b f(x)^p\,dx\right)^{1/p}=M.$$
 
 
 
-##  (January 2009 \#4b) 
+##  (January 2009 4b) 
 
 Let $f$ be a continuous real-valued function on
 $[0,1]$. Prove that there exists at least one point $\xi\in[0,1]$
@@ -537,7 +537,7 @@ Therefore, we have that there exists $\xi\in[0,1]$ such that
 $\int_0^1 x^4 f(x)dx=\frac{1}{5}f(\xi)$. ◻
 :::
 
-##  (June 2009 \#5b) 
+##  (June 2009 5b) 
 
 Let $\phi$ be a real-valued function defined on
 $[0,1]$ such that $\phi$, $\phi'$, and $\phi''$ are continuous on
@@ -550,7 +550,7 @@ may not be the smallest possible constant.
 
 # Sequences and Series of Functions
 
-## (June 2010 \#6a) 
+## (June 2010 6a) 
 
 Let $f:[0,1]\to\mathbb{R}$ be continuous with
 $f(0)\neq f(1)$ and define $f_n(x)=f(x^n)$. Prove that $f_n$ does
@@ -568,7 +568,7 @@ equicontinuous? Justify your answer.
 
 
 
-##  (January 2005 \#4, June 2010 \#6b) 
+##  (January 2005 4, June 2010 6b) 
 
 If $f:[0,1]\to\mathbb{R}$ is
 continuous, prove that
@@ -586,18 +586,18 @@ $[a,b]$.
 
 
 
-##  (June 2005 \#5) 
+##  (June 2005 5) 
 
 Suppose that $f\in C([0,1])$ and that
 $\displaystyle \int_0^1 f(x)x^n\,dx=0$ for all
 $n=99,100,101,\ldots$. Show that $f\equiv 0$.\
 
-> Note: Many variations on this problem exist. See June 2012 \#6b and
+> Note: Many variations on this problem exist. See June 2012 6b and
 others.
 
 
 
-##  (January 2005 \#3b) 
+##  (January 2005 3b) 
 
 Suppose $f_n:[0,1]\to\mathbb{R}$ are continuous
 functions converging uniformly to $f:[0,1]\to\mathbb{R}$. Either
