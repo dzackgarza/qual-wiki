@@ -8,7 +8,7 @@ solutions to any problems, you should attempt the problem on your own.
 
 # May 2016 Qual
 
-##  (May 2016, \#1) 
+##  (May 2016, \\\#1) 
 
 Consider the function $f(x) = \frac{x}{1-x^2}$,
 $x \in (0,1)$.
