@@ -2,8 +2,7 @@
 
 #reading
 
-# Books
-#textbook 
+# #textbooks
 
 - Rudin: Real and complex analysis 
   > Good general reference but the following books have more useful techniques
@@ -36,8 +35,7 @@
 - [[cambride_analysis_ii.pdf|Cambridge analysis notes]]
 
 
-# Summaries
-#summaries 
+# #summaries 
 
 - [Stanford, notes on Folland](http://web.stanford.edu/~eugeniam/math205a/L2m.pdf)
 
