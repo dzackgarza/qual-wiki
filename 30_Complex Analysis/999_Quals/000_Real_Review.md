@@ -268,12 +268,12 @@ Fix $\eps>0$ and choose $\delta = \delta(\eps)$ to get a bound corresponding to 
 \abs{f'(x) - {f(x) - f(y) \over x- y} } + \abs{ {f(x) - f(y) \over x-y} - f'(y)} < \eps
 .\]
 This uses uniformity to bound by $\eps/2$ the terms involving $f'(x)$ and $f'(y)$ respectively.
-So $f'$ is in zfact uniformly continuous on $[a, b]$.
+So $f'$ is in fact uniformly continuous on $[a, b]$.
 
 $\impliedby$:
 Let $\eps> 0$ and $x,y\in [a, b]$ be arbitrary.
 Then by the MVT, we can a $\xi\in [x, y]$ with $f'(\xi)(x-y) = f(x) - f(y)$.
-Then use continuity of $f'$ to choose $\delta$ so that $\abs{x-y} < \delta$ bounds $\abs{f(x) - f(y)}$, and note that $\abs{x-\xi} \leq \abs{x-y} < \delta$, so 
+Then use continuity of $f'$ to choose $\delta = \delta(\eps, x, y)$ so that $\abs{x-y} < \delta \implies \abs{f(x) - f(y)} < \eps$, and note that $\abs{x-\xi} \leq \abs{x-y} < \delta$, so 
 \[
 \abs{ {f(x) - f(y) \over x-y } - f'(y) } = \abs{ f'(\xi) - f'(y)} < \eps
 .\]
@@ -320,22 +320,141 @@ On the intersection, for $x\in A \intersect B \neq \emptyset$, we have $f_1(x) =
 So $f_1$ and $f_2$ are constant functions that must map to the *same* constant, so $f$ is constant and this $A\union B$ is connected.
 :::
 
-## #work
+## Pointwise and uniform convergence #complete
+
+:::{.problem title="?"}
 Suppose $\theset{f_n}_{n\in \NN}$ is a sequence of continuous functions $f_n: [0, 1]\to \RR$ such that 
 \[  
 f_n(x) \geq f_{n+1}(x) \geq 0 \quad \forall n\in \NN,\, \forall x\in [0, 1]
 .\]
 Prove that if $\theset{f_n}$ converges pointwise to $0$ on $[0, 1]$ then it converges to $0$ uniformly on $[0, 1]$.
+:::
+
+:::{.solution}
+Let $\eps>0$, we want to show that there exists an $N_0$ such that $n\geq N_0$ implies $\norm{f_n}_\infty<\eps$.
+Fix $x$, by pointwise convergence pick $M_x = M_x(x, \eps)$ so that $n\geq M \implies \abs{f_n(x)} < \eps$.
+By continuity, this bound holds in some neighborhood $U_x \ni x$.
+Produce a cover $\ts{U_x}_{x\in [0, 1]}\covers [0, 1]$; by compactness produce a finite subcover $\ts{U_1, \cdots, U_m} \covers [0, 1]$.
+Each $U_i$ corresponds to some $x_i$ and some $M_{x_i}$, so choose $N_0 > \max_{i\leq m} \ts{M_{x_i}}$.
+Then $n\geq N_0 \implies N\geq M_{x_i}$ for each $i$, so $\abs{f_n(x)} < \eps$ for each $x\in [0, 1]$ since $x\in U_i$ for some $i$.
+So $\sup_{x\in X} \abs{f_n(x)} = \norm{f_n}_{\infty } < \eps$.
+:::
 
 ## #work
+
+:::{.problem title="?"}
 Show that if $E\subset [0, 1]$ is uncountable, then there is some $t\in \RR$ such that $E\intersect (-\infty ,t)$ and $E\intersect (t, \infty)$ are also uncountable.
+:::
+
+
+:::{.solution}
+See 3.2.12 of Understanding analysis 2ed. of Abbott.
+Show something stronger, that the following set is nonempty and open:
+\[
+S \da \ts{t\in \RR \st E \intersect (-\infty, t), E \intersect (t, \infty) \text{ are uncountable}}
+\subseteq \RR
+.\]
+Write
+\[
+S_- &\da \ts{ t\in \RR \st E \intersect (- \infty, t) \text{ is countable}} \\
+S_+ &\da \ts{ s\in \RR \st E \intersect (s, \infty) \text{ is countable}}
+.\]
+
+Note that $S_- \neq \RR$ since then we could write $E = \Union_{n\in \ZZ} E \intersect (- \infty, n)$ as a countable union of countable sets.
+
+Claim: $S = (\sup S_-,, \inf S_+)$.
+
+???
+
+:::
+
+
 
 
 ## #work
 
+
+:::{.problem title="?"}
 Suppose $f, g: [0, 1] \to \RR$ where $f$ is Riemann integrable and for $x, y\in [0, 1]$,
 \[
 \abs{g(x) - g(y)} \leq \abs{f(x) - f(y)}
 .\]
 
 Prove that $g$ is Riemann integrable.
+:::
+
+
+:::{.solution}
+Write $U(f), L(f)$ for the upper and lower sums of $f$, so for $\Pi$ the collection of all partitions of $[0, 1]$,
+\[
+U(f) \da \inf_{P\in \Pi} U(f, P) && U(f, P) \da \sum_{k=1}^n \sup_{x\in I_k}f(x) \cdot \mu(I_k) \\
+L(f) \da \sup_{P\in \Pi} L(f, P) && L(f, P) \da \sum_{k=1}^n \inf_{x\in I_k} f(x) \cdot \mu(I_k)
+.\]
+
+Note that integrability of $f$ is equivalent to
+\[
+\forall \eps \exists P \text{ such that }
+U(f, P) - L(f, P) < \eps \\
+\iff 
+\sum_{k=1}^n \qty{ \sup_{x\in I_k} f(x) - \inf_{x\in I_k} f(x)} \mu(I_k) < \eps
+.\]
+
+
+:::
+
+
+
+## Exercises
+
+
+:::{.problem title="Uniform continuity of $x^n$"}
+Show that $f(x) = x^n$ is uniformly continuous on any interval $[-M, M]$.
+:::
+
+:::{.solution}
+\[
+\abs{x^n - y^n} = \abs{y-x}\abs{\sum_{1\leq k \leq n} x^k y^{n-k}} \leq n M^{n-1}\abs{y-x} \convergesto{y\to x}0
+.\]
+:::
+
+:::{.problem title="?"}
+Show $f(x) = x^{-n}$ for $n\in \ZZ_{\geq 0}$ is uniformly continuous on $[0, \infty)$.
+:::
+
+:::{.solution}
+\[
+x^{1\over n} - y^{1\over n} \leq (x-y)^{1\over n} \convergesto{x\to y}0
+,\]
+using $(a+b)^m \geq a^m + b^m$
+:::
+
+:::{.problem title="?"}
+Show that $f'$ bounded implies $f$ is uniformly continuous.
+:::
+
+:::{.solution}
+Apply the MVT:
+\[
+\abs{f(x) - f(y)} = \abs{f(\xi)} \abs{x-y} \convergesto{y\to x} 0
+.\]
+
+:::
+
+:::{.problem title="?"}
+Show that the Dirichlet function $f(x) = \chi_{I \intersect \QQ}$ is not Riemann integrable and is everywhere discontinuous.
+:::
+
+
+:::{.solution}
+Check $\sup f = 1$ and $\inf f = 0$ on every sub-interval, so $L(f, P) = 0$ and $U(f, P) = 1$ for every partition $P$ of $[0, 1]$.
+
+Discontinuity: #todo
+
+:::
+
+
+
+
+
+
+

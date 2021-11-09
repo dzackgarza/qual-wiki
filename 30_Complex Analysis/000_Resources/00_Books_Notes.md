@@ -30,6 +30,10 @@ In the Spirit of Lipman Bers*
 	[Link to PDF](https://www.dropbox.com/s/3atiop7trmmh1d2/Complex%20Function%20Theory%20-%20Sarason.pdf?dl=0)
 	#textbook
 
+- Freitag
+
+- Conway
+
 
 # UGA Material
 

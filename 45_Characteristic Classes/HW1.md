@@ -17,14 +17,7 @@ What are these maps??
 :::
 
 :::{.solution}
-
-Test test test. Working on a solution.
-
-Some math
-\[
-y = mx + B
-.\]
-
+?
 :::
 
 
@@ -107,7 +100,7 @@ between Čech and singular cohomology of $X$ with coefficients in $G$.
 > In the rest of this problem, cohomology either means Čech cohomology or singular cohomology after applying this isomorphism.
  
 
-(a) Let $\pi: E \rightarrow B$ be an $n$-dimensional vector bundle, or equivalently, a principal $G L(n, \mathbb{R})$-bundle, given by a Čech cocycle $\phi \in H^{1}(B ; G L(n, \mathbb{R}))$. Show that the sign of the determinant 
+- a: Let $\pi: E \rightarrow B$ be an $n$-dimensional vector bundle, or equivalently, a principal $G L(n, \mathbb{R})$-bundle, given by a Čech cocycle $\phi \in H^{1}(B ; G L(n, \mathbb{R}))$. Show that the sign of the determinant 
 \[
 \sgn\det: \GL_n(\mathbb{R}) \rightarrow\{\pm 1\} \cong \mathbb{Z} / 2 \mathbb{Z}
 \]
@@ -117,9 +110,9 @@ induces a map
   ,\]
   and so $\phi$ induces an element $w_{1}(E) \in H^{1}(B ; \mathbb{Z} / 2 \mathbb{Z})$.
 
-(b) Compute $w_{1}$ for the trivial line bundle (1-dimensional vector bundle) over the circle and for the Möbius band.
+- b: Compute $w_{1}$ for the trivial line bundle (1-dimensional vector bundle) over the circle and for the Möbius band.
 
-(c) Prove that (for nice spaces) a line bundle $\pi: E \rightarrow B$ is trivial if and only if $w_{1}(E)=0 \in$ $H^{1}(B ; \mathbb{Z} / 2 \mathbb{Z})$ 
+- c: Prove that (for nice spaces) a line bundle $\pi: E \rightarrow B$ is trivial if and only if $w_{1}(E)=0 \in$ $H^{1}(B ; \mathbb{Z} / 2 \mathbb{Z})$ 
 
 :::
 

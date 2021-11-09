@@ -10,13 +10,13 @@ Preliminary Review
     - Nowhere density, Baire category, Heine Borel
     - Normed spaces
     - Series and sequences, convergence, small tails, limsup and liminf, Cauchy criteria for sums and integrals
-    - Basic inequalites (triangle, Cauchy-Schwarz)
+    - Basic inequalities (triangle, Cauchy-Schwarz)
     - Tools from Calculus: MVT, Taylor's theorem & remainder
     - Weierstrass approximation
     - Pathological functions and continuity
 - Week 2 (May 27):
 Measure Theory (Sets)
-    - F_\sigma and G_\delta sets
+    - $F_\sigma$ and $G_\delta$ sets
     - Sigma algebras
     - Outer measure, Lebesgue measure
     - Continuity of measure
