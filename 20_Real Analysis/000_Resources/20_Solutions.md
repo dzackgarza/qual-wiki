@@ -1,6 +1,14 @@
 # Solutions
-
 #solutions 
+
+## From Class
+
+![[attachments/Fall_2019_SOLUTIONS.pdf]]
+
+![[attachments/Spring2018_SOLUTIONS.pdf]]
+
+![[attachments/Spring 2019 with Solutions.pdf]]
+
 
 ### Collections
 

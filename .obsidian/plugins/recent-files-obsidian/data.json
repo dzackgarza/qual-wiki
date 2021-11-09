@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "15_Books_Notes",
-      "path": "20_Real Analysis/000_Resources/15_Books_Notes.md"
+      "basename": "30_Problems",
+      "path": "20_Real Analysis/000_Resources/30_Problems.md"
+    },
+    {
+      "basename": "00_Preface",
+      "path": "20_Real Analysis/000_Resources/00_Preface.md"
     },
     {
       "basename": "20_Solutions",
       "path": "20_Real Analysis/000_Resources/20_Solutions.md"
+    },
+    {
+      "basename": "15_Books_Notes",
+      "path": "20_Real Analysis/000_Resources/15_Books_Notes.md"
     },
     {
       "basename": "Real_Analysis_Course_Notes",
@@ -191,10 +199,6 @@
     {
       "basename": "012_Cauchy Inequality",
       "path": "30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality.md"
-    },
-    {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     }
   ],
   "omittedPaths": [],
