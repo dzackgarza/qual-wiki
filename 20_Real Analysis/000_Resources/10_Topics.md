@@ -47,26 +47,11 @@ Functional Analysis 1
     - Duals, linear functionals, operator norm
 - Week 7 (July 1):
 Functional Analysis 2:
-    - L^1, L^2, L^\infty, Cauchy-Schwarz, Pythagoras for orthogonality
+    - $L^1$, $L^2$, $L^\infty$, Cauchy-Schwarz, Pythagoras for orthogonality
     - Function spaces
-    - Plancherel, Parseval, Bessel, Riesz Representation
+    - [[Plancherel]], [[Parseval]], [[Bessel]], [[Riesz Representation]]
 - Week 8 (July 8):
-**[Note: mini-course week]**
-Misc
-    - Radon-Nikodym
-- Week 9 (July 15):
-**[Note: mini-course week]
-Buffer**
-- Week 10  (July 22):
-**Buffer**
-- Week 11 (Jul 29):
-**Buffer**
-- Week 12 (August 5):
-**No meeting (Mock AMS)**
-- Week 13 (August 12):
-**Timed practice exam**
-- **Quals:** 
-Monday and Tuesday August 16-17
+    - [[Radon-Nikodym]]
 
 # References
 
