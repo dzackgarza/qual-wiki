@@ -10,7 +10,7 @@ order: 0
 | $\norm{f}_{L^\infty} \da \inf\ts{M \geq 0 \st \abs{f(x)} \leq M \text{ for a.e. } x }$ | The ?                                               | 
 | $f_n \convergesto{n \to \infty } f$                                                   | Convergence of a sequence                           |
 | $f(x) \converges{\abs x \to \infty}\to 0$                                              | Vanishing at infinity                               |
-| $\int_{\abs{x} \geq N} f \convergesto{N\to \infty} 0$                                 | Having small tails                                  |
+| $\displaystyle\int_{\abs{x} \geq N} f \convergesto{N\to \infty} 0$                                 | Having small tails                                  |
 | $\mathcal{H}$                                                                          | A Hilbert space                                     |
 | $X$                                                                                    | Generally a topological (or metric) space           |
 
