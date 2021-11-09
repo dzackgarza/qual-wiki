@@ -37,7 +37,7 @@
 - Good background notes: [https://dec41.user.srcf.net/notes/IB_M/analysis_ii.pdf](https://dec41.user.srcf.net/notes/IB_M/analy- Study guide near the bottom of this page (summary of Royden)
 sis_ii.pdf)
 
-- [http://web.stanford.edu/~eugeniam/math205a/L2m.pdf](http://web.stanford.edu/~eugeniam/math205a/L2m.pdf)
+- [Stanford, notes on Folland](http://web.stanford.edu/~eugeniam/math205a/L2m.pdf)
 
 - [http://www-personal.umich.edu/~equinlan/analysis_notes.pdf](http://www-personal.umich.edu/~equinlan/analysis_notes.pdf)
 
