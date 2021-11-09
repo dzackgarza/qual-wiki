@@ -1,10 +1,5 @@
-This document is a collection of solutions to various problems written
-up by the participants of the May 2020 Analysis Qualifying Exam
-Workshop. This is in no way meant to be an official source for solutions
-to old exam problems, but is simply meant to be a repository of
-solutions to problems worked on during the workshop. You may use this to
-help you study for the analysis qualifying exam, but before you read the
-solutions to any problems, you should attempt the problem on your own.
+
+> DZG: this comes from some tex file that I found when studying for quals, so is definitely not my own content! I've just copied it here for extra practice.
 
 # May 2016 Qual
 
