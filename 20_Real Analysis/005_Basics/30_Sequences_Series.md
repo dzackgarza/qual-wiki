@@ -51,11 +51,17 @@ If $0\leq a_n \leq b_n$, then
 :::
 
 :::{.proposition title="Small Tails for Series of Functions"}
-If $\sum f_n$ converges then $f_n \to 0$ uniformly.
+\[
+\sum f_n < \infty \implies \norm{f_n}_\infty \convergesto{n\to\infty}0
+.\]
+
 :::
 
 :::{.corollary title="Term by Term Continuity Theorem"}
-If $f_n$ are continuous and $\sum f_n \to f$ converges uniformly, then $f$ is continuous.
+\[
+f_n \text{ cts},\, \norm{\sum f_n \to F}_\infty \to 0 \implies F \text{ cts}
+.\]
+
 :::
 
 :::{.proposition title="Cauchy criterion for sums"}
