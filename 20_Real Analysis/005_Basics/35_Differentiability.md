@@ -27,11 +27,13 @@ In this case, $\abs{f'(x)} \leq C$, the Lipschitz constant.
 :::
 
 :::{.theorem title="Term by Term Differentiability Theorem"}
-If 
+If $\ts{f_n}$ is a sequence of functions where
 
-- $f_n$ are differentiable, 
-- $\norm{ \sum_{n\leq N} f_n' - G}_\infty \convergesto{N\to\infty} 0$, and 
-- there exists one point[^pointwise_works_too] $x_0$ such that $\sum f_n(x)$ converges, then there exists an $F$ such that 
+- each $f_n$ is differentiable, 
+- there is some $G$ such that $\norm{ \sum_{n\leq N} f_n' - G}_\infty \convergesto{N\to\infty} 0$, and 
+- there exists at least *one point*[^pointwise_works_too] $x_0$ such that $\sum f_n(x)$ converges, 
+
+then there exists an $F$ such that 
 [^theorem_referfence_6.4.3_Abbott]
 \[
 \norm{ \sum_{n\leq N} f_n - F}_\infty \convergesto{N\to\infty} 0 && F' = g
