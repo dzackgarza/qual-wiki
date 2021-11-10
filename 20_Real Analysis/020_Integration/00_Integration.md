@@ -197,7 +197,7 @@ Proceed by showing $\limsup \int f_n \leq \int f \leq \liminf \int f_n$:
 :::{.proposition title="Convergence in $L^1$ implies convergence of norms"}
 If $f\in L^1$, then
 \[
-\int\abs{f_n - f} \to 0 \iff \int \abs{f_n} \to \int \abs{f}
+\norm{f_n - f}_{L^1} \da \int\abs{f_n - f} \to 0 \iff \int \abs{f_n} \to \int \abs{f}
 .\]
 :::
 
