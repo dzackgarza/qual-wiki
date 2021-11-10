@@ -33,7 +33,7 @@ X \text{ is closed and bounded}
 .$$
 
 - **Baire Category Theorem:**
-If $X$ is a complete metric space, then
+If $X$ is a complete metric space, then $X$ is a Baire space, i.e. intersections over countable collections of open dense sets are again dense.
 
 - For any sequence $\theset{U_k}$ of open, dense sets, $\intersect_k U_k$ is also dense.
 - $X$ is *not* a countable union of nowhere-dense sets
