@@ -4,24 +4,12 @@ order: 35
 
 # Sequences and Series
 
-:::{.theorem title="Lagrange and Cauchy Remainders"}
-If $f$ is $n$ times differentiable on a neighborhood of a point $p$, say $N_\delta(p)$, then for all points $x$ in the deleted neighborhood $N_\delta(p) - \theset{p}$ , there exists a point $\xi$ strictly between $x$ and $p$ such that
-\[
-x \in N_\delta(p)-\theset{p} \implies f(x) 
-&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \frac{f^{(n)}(\xi)}{n!}(x-p)^n \\ \\
-&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \int_c^x \frac{1}{n!} \dd{^n f}{x^n}(t) (x-t)^n ~dt
-\]
-:::
-
-:::{.proposition title="Sufficient condition for Taylor convergence"}
-Given a point $c$ and some $\varepsilon>0$, if $f \in C^\infty(I)$ and there exists an $M$ such that 
-$$
-x \in N_\varepsilon(c) \implies \abs{f^{(n)}(x)} \leq M^n
-$$
-then the Taylor expansion about $c$ converges on $N_\varepsilon(c)$.
-:::
 
 ## Sequences
+
+:::{.slogan}
+$\limsup$ is largest limit of a convergent subsequence, $\liminf$ is the smallest.
+:::
 
 :::{.proposition title="The Cauchy condensation test"}
 For $\ts{a_k}$ is a non-increasing sequence in $\RR$ then
@@ -44,7 +32,25 @@ where each group with $a_k$ has $2^k$ terms.
 
 :::
 
+
 ## Series
+
+:::{.theorem title="Lagrange and Cauchy Remainders"}
+If $f$ is $n$ times differentiable on a neighborhood of a point $p$, say $N_\delta(p)$, then for all points $x$ in the deleted neighborhood $N_\delta(p) - \theset{p}$ , there exists a point $\xi$ strictly between $x$ and $p$ such that
+\[
+x \in N_\delta(p)-\theset{p} \implies f(x) 
+&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \frac{f^{(n)}(\xi)}{n!}(x-p)^n \\ \\
+&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \int_c^x \frac{1}{n!} \dd{^n f}{x^n}(t) (x-t)^n ~dt
+\]
+:::
+
+:::{.proposition title="Sufficient condition for Taylor convergence"}
+Given a point $c$ and some $\varepsilon>0$, if $f \in C^\infty(I)$ and there exists an $M$ such that 
+$$
+x \in N_\varepsilon(c) \implies \abs{f^{(n)}(x)} \leq M^n
+$$
+then the Taylor expansion about $c$ converges on $N_\varepsilon(c)$.
+:::
 
 :::{.proposition title="p-tests"}
 Let $n$ be a fixed dimension and set $B = \theset{x\in \RR^n \suchthat \norm{x} \leq 1}$. 
