@@ -21,11 +21,6 @@ What this means graphically:
 
 :::
 
-:::{.proposition title="Lipschitz $\iff$ differentiable with bounded derivative."}
-A function $f: (a, b) \to \RR$ is Lipschitz $\iff f$ is differentiable and $f'$ is bounded.
-In this case, $\abs{f'(x)} \leq C$, the Lipschitz constant.
-:::
-
 :::{.theorem title="Term by Term Differentiability Theorem"}
 If $\ts{f_n}$ is a sequence of functions where
 
@@ -45,6 +40,10 @@ then there exists an $F$ such that
 
 :::
 
+:::{.proposition title="Lipschitz $\iff$ differentiable with bounded derivative."}
+A function $f: (a, b) \to \RR$ is Lipschitz $\iff f$ is differentiable and $f'$ is bounded.
+In this case, $\abs{f'(x)} \leq C$, the Lipschitz constant.
+:::
 
 :::{.example title="Derivatives of bounded functions need not be bounded"}
 \[
