@@ -117,3 +117,20 @@ $$
 - Differentiable nowhere
 
 
+## Weierstrass Function
+
+\[
+f(x)=\sum_{n=0}^{\infty} a^{n} \cos \left(b^{n} \pi x\right)
+&&
+a \in (0, 1), b \in \ZZ_{\geq 0}, ab > 1 + {3\pi \over 2}
+.\]
+
+Note that this series converges uniformly since it's bounded above by $\sum \abs{a^n}$, which is geometric.
+
+- Bounded: ?
+- Continuous on $\RR$.
+- Non-differentiable on $\RR$
+- Riemann integrable: ?
+- Lebesgue integrable: ?
+
+
