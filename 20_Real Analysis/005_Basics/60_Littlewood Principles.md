@@ -2,7 +2,7 @@
 order: 60
 ---
 
-## Littlewood's Principles ("Almost" Theorems)
+# Littlewood's Principles ("Almost" Theorems)
 
 :::{.theorem title="Egorov's Theorem"}
 Let $E \subseteq \RR^d$ be measurable of positive finite measure with $f_k\to f$ almost everywhere on $E$.
