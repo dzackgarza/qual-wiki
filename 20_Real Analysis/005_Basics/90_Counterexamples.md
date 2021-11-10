@@ -16,30 +16,6 @@ Questions to ask:
   If so, what is $\int_\RR f$?
 
 
-## Dirichlet with a continuous point
-\[
-f ( x ) = x\cdot \chi_{\QQ}(x)
-\]
-
-- Unbounded
-- $D_f = \RR\smts{0}$
-- $D'_f = \RR$
-- Not integrable
-  - $U(f) > \frac 1 4$ but $L(f) = 0$.
-
-## Dirichlet with a differentiable point
-$$
-f ( x ) = x^2~\chi(\QQ) = \begin{cases}
-x^2, & x\in \QQ \\
-0, & \text{else}
-\end{cases}
-$$
-
-- Unbounded
-- $D_f = \RR\smts{0}$
-- $D'_f = \RR\smts{0}$.
-- Not Riemann integrable
-
 ## Dirichlet with two functions
 
 \[
@@ -115,12 +91,12 @@ Note that this series converges uniformly since it's bounded above by $\sum \abs
 
 
 
-| Function                                                   | Bounded?             | $D_f$     | $D'_f$    | $\mathcal{R}$? | $\mathcal{L}$? |
-| ---------------------------------------------------------- | -------------------- | --------- | --------- | -------------- | -------------- |
-| Dirichlet $\chi_\QQ(x)$                                    | ✅, $\abs{f} \leq 1$ | $\RR$     | $\RR$     | ❌             | ✅, $\int f=0$ |
-| Dirichlet 2 $x\chi_\QQ(x)$                                 | ❌                   | $\RR\smz$ | $\RR$     | ❌             |                |
-| Dirichlet 3 $x^2\chi_\QQ(x)$                               | ❌                   | $\RR\smz$ | $\RR\smz$ | ❌             |                |
-| Dirichlet 4 $f(x) = x\qty{ \chi_\QQ(x) - \chi_{\QQ^c}(x)}$ | ❌                   | $\RR\smz$ | $\RR$     | ❌             |                |
-| Thomae $(x={p\over q} \mapsto {1\over q})\chi_{\QQ}(x)$    | ✅                   |           |           | ✅             | ✅             |
-| ?                                                          | ❌                   |           |           |                |                |
-|                                                            | ❌                   |           |           |                |                |
+| Function                                                   | Bounded?             | $D_f$     | $D'_f$    | $\mathcal{R}$?              | $\mathcal{L}$? |
+| ---------------------------------------------------------- | -------------------- | --------- | --------- | --------------------------- | -------------- |
+| Dirichlet $\chi_\QQ(x)$                                    | ✅, $\abs{f} \leq 1$ | $\RR$     | $\RR$     | ❌                          | ✅, $\int f=0$ |
+| Dirichlet 2 $x\chi_\QQ(x)$                                 | ❌                   | $\RR\smz$ | $\RR$     | ❌, $U(f) > 1/4 > 0 = L(f)$ |                |
+| Dirichlet 3 $x^2\chi_\QQ(x)$                               | ❌                   | $\RR\smz$ | $\RR\smz$ | ❌                          |                |
+| Dirichlet 4 $f(x) = x\qty{ \chi_\QQ(x) - \chi_{\QQ^c}(x)}$ | ❌                   | $\RR\smz$ | $\RR$     | ❌                          |                |
+| Thomae $(x={p\over q} \mapsto {1\over q})\chi_{\QQ}(x)$    | ✅                   |           |           | ✅                          | ✅             |
+| ?                                                          | ❌                   |           |           |                             |                |
+|                                                            | ❌                   |           |           |                             |                |
