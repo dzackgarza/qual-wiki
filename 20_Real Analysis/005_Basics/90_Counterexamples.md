@@ -54,6 +54,7 @@ x^2, & x\in \QQ \\
 \end{cases}
 $$
 
+- Unbounded
 - Discontinuous on $\RR\smts{0}$
 - Non-differentiable on $\RR\smts{0}$
 - Not Riemann integrable
@@ -98,18 +99,18 @@ So we have $\underline{\int_0^1} f \lneq 0 \lneq \overline{\int_0^1} f$.
 :::
 
 
-## The Thomae function
-$$
+## Thomae function
+\[
 f ( x ) = \begin{cases}
 \frac 1 q, & x = \frac p q \in \QQ,~(p,q) = 1 \\
 0, & \text{else}
 \end{cases}
-$$
+\]
 
-- Continuous on $\QQ^c$
+- Bounded 
 - Discontinuous on $\QQ$
-- Integrable with $\int_a^b f = 0$
-- Differentiable nowhere
+- Non-differentiable on $\RR$
+- Riemann integrable with $\int_a^b f = 0$ by the Lebesgue criterion
 
 
 ## Weierstrass Function

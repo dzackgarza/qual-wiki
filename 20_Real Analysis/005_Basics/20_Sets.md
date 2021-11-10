@@ -2,7 +2,7 @@
 order: 20
 ---
 
-# Basics
+# Sets
 
 ## Compactness
     
