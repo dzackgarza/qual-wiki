@@ -254,7 +254,9 @@ If the $f_n$ are *not* necessarily non-negative, we still have
 :::
 
 :::{.proposition title="?"}
-If $f_k \in L^1$ and $\sum \norm{f_k}_1 < \infty$ then $\sum f_k$ converges almost everywhere and in $L^1$.
+\[
+\ts{f_n} \subseteq L^1 \text{ and } \sum_n \norm{f_n}_{L^1} < \infty \implies \sum_n f_n \text{ converges }\ae \text{ and in } L^1
+.\]
 :::
 
 :::{.proof title="?"}
