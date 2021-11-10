@@ -1,5 +1,21 @@
 # Integration
 
+:::{.remark title="A common proof technique"}
+\envlist
+
+- Show something holds for indicator functions.
+- Show it holds for simple functions by linearity.
+- Use $s_k \increasesto f$ and apply MCT to show it holds for $f$.
+:::
+
+:::{.remark title="on notation"}
+\envlist
+
+- $L^+$: nonnegative measurable functions
+- $L^1$: Lebesgue integrable functions, so $\int \abs{f} < \infty$
+:::
+
+
 :::{.definition title="Measurable Function"}
 A function $f: (X, \mcm_X) \to (Y, \mcm_Y)$ is **$(\mcm_X, \mcm_Y)\dash$measurable** iff $f\inv(\mcm_Y) \subseteq \mcm_X$.
 Equivalently, if $\mce_Y$ is a generating set for $\mcb_Y$, $f\inv(\mce_Y) \subseteq \mcb_X$.
@@ -43,20 +59,6 @@ $\mcm\dash$measurable functionals are closed under
 Characteristic functions on measurable sets are automatically measurable, since $E\in \mcm \implies E = \chi_E\inv(\ts{1})$.
 :::
 
-:::{.remark title="A common proof technique"}
-\envlist
-
-- Show something holds for indicator functions.
-- Show it holds for simple functions by linearity.
-- Use $s_k \increasesto f$ and apply MCT to show it holds for $f$.
-:::
-
-:::{.remark title="on notation"}
-\envlist
-
-- $L^+$: nonnegative measurable functions
-- $L^1$: Lebesgue integrable functions, so $\int \abs{f} < \infty$
-:::
 
 :::{.definition title="Simple Function"}
 A **simple function** $s: \CC\to X$ is a finite linear combination of indicator functions of measurable sets, i.e. 
@@ -197,7 +199,7 @@ Proceed by showing $\limsup \int f_n \leq \int f \leq \liminf \int f_n$:
 :::{.proposition title="Convergence in $L^1$ implies convergence of norms"}
 If $f\in L^1$, then
 \[
-\norm{f_n - f}_{L^1} \da \int\abs{f_n - f} \to 0 \iff \int \abs{f_n} \to \int \abs{f}
+\norm{f_n - f}_{L^1} \convergesto{n\to\infty}0 \iff \norm{f_n}_{L^1} \convergesto{n\to\infty} \norm{f}_{L^1}
 .\]
 :::
 
