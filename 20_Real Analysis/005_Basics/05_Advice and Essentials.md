@@ -80,6 +80,12 @@ order: 5
 
 - Every Borel is $F_\sigma$ up to a null set.
 
+- Proving uniform convergence: use the $M\dash$test.
+
+- A problem using absolute continuity will often be used to imply bounded variation (which allow using FTC)
+
+- If two functions are in conjugate $L^p$ spaces, try Holder.
+
 # The Absolute Essentials
 
 :::{.proposition title="Convergent Sums Have Small Tails"}
