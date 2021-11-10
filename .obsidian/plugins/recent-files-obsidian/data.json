@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Appendix",
+      "path": "20_Real Analysis/005_Basics/Appendix.md"
+    },
+    {
+      "basename": "2019-12-19-16-49-56.png",
+      "path": "figures/2019-12-19-16-49-56.png.md"
+    },
+    {
+      "basename": "Integrability",
+      "path": "20_Real Analysis/005_Basics/Integrability.md"
+    },
+    {
       "basename": "90_Counterexamples",
       "path": "20_Real Analysis/005_Basics/90_Counterexamples.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "00_Topics",
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
-    },
-    {
-      "basename": "Open mapping theorem",
-      "path": "Open mapping theorem.md"
-    },
-    {
-      "basename": "Picard theorem",
-      "path": "Picard theorem.md"
-    },
-    {
-      "basename": "Casorati-Weierstrass",
-      "path": "Casorati-Weierstrass.md"
     }
   ],
   "omittedPaths": [],

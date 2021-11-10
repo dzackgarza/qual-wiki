@@ -33,10 +33,10 @@ X \text{ is closed and bounded}
 .$$
 
 - **Baire Category Theorem:**
-If $X$ is a complete metric space, then $X$ is a Baire space, i.e. intersections over countable collections of open dense sets are again dense.
+If $X$ is a complete metric space, then $X$ is a Baire space:
 
-- For any sequence $\theset{U_k}$ of open, dense sets, $\intersect_k U_k$ is also dense.
-- $X$ is *not* a countable union of nowhere-dense sets
+  - For any sequence $\theset{U_k}$ of open, dense sets, $\intersect_k U_k$ is also dense.
+  - $X$ is *not* a countable union of nowhere-dense sets
 
 - **Nested Interval Characterization of Completeness:**
 $\RR$ being complete $\implies$ for any sequence of intervals $\theset{I_n}$ such that $I_{n+1} \subseteq I_n$, $\intersect I_n \neq \emptyset$.
@@ -56,7 +56,9 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 
     *Proof:*
 
-    ![](figures/2019-12-19-16-49-56.png)\
+    ![[figures/2019-12-19-16-49-56.png]]
+		
+		[[2-19-16-49-56.
 
 - Uniform convergence allows commuting sums with integrals
 

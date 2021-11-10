@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20_Real Analysis/005_Basics/90_Counterexamples.md",
+            "file": "20_Real Analysis/005_Basics/Appendix.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "20_Real Analysis/005_Basics/90_Counterexamples.md",
+                "file": "20_Real Analysis/005_Basics/Appendix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20_Real Analysis/005_Basics/90_Counterexamples.md"
+                "file": "20_Real Analysis/005_Basics/Appendix.md"
               }
             }
           }
@@ -122,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.49999809265137,
-    "collapsed": true
+    "width": 346.49999809265137
   },
   "right": {
     "id": "a1502ca3cb933e96",
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20_Real Analysis/005_Basics/90_Counterexamples.md",
+                "file": "20_Real Analysis/005_Basics/Appendix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "20_Real Analysis/005_Basics/90_Counterexamples.md",
+                "file": "20_Real Analysis/005_Basics/Appendix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -257,15 +256,15 @@
   },
   "active": "b540df6b97445d3d",
   "lastOpenFiles": [
+    "20_Real Analysis/005_Basics/Appendix.md",
+    "figures/2019-12-19-16-49-56.png.md",
+    "20_Real Analysis/005_Basics/Integrability.md",
     "20_Real Analysis/005_Basics/90_Counterexamples.md",
     "20_Real Analysis/005_Basics/60_Littlewood Principles.md",
     "20_Real Analysis/005_Basics/50_Commuting_Limits.md",
     "20_Real Analysis/005_Basics/30_Sequences_Series.md",
     "20_Real Analysis/005_Basics/30_Continuity.md",
     "20_Real Analysis/005_Basics/10_Definitions.md",
-    "20_Real Analysis/005_Basics/20_Sets.md",
-    "20_Real Analysis/005_Basics/35_Differentiability.md",
-    "20_Real Analysis/000_Resources/00_Preface.md",
-    "20_Real Analysis/000_Resources/30_Problems.md"
+    "20_Real Analysis/005_Basics/20_Sets.md"
   ]
 }
