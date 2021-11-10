@@ -37,11 +37,7 @@ f(x )\da \chi_{\QQ}(x)
 
 ## Dirichlet with a Continuous Point
 \[
-f ( x ) = x~\chi(\QQ) = 
-\begin{cases}
-x, & x\in \QQ \\
-0, & \text{else}
-\end{cases}
+f ( x ) = x\cdot \chi_{\QQ}(x)
 \]
 
 - Unbounded
@@ -58,10 +54,9 @@ x^2, & x\in \QQ \\
 \end{cases}
 $$
 
-- Continuous at 0
-- Discontinuous at $\RR-\theset{0}$
-- Not integrable
-- Differentiable at 0 
+- Discontinuous on $\RR\smts{0}$
+- Non-differentiable on $\RR\smts{0}$
+- Not Riemann integrable
 
 ## Dirichlet with Two Functions
 $$
