@@ -36,15 +36,16 @@ f(x )\da \chi_{\QQ}(x)
 - Lebesgue integrable with $\int_\RR f = 0$.
 
 ## Dirichlet with a Continuous Point
-$$
+\[
 f ( x ) = x~\chi(\QQ) = 
 \begin{cases}
 x, & x\in \QQ \\
 0, & \text{else}
 \end{cases}
-$$
+\]
 
-- Continuous at 0
+- Unbounded
+- Discontinuous on $\RR\smts{0}$.
 - Discontinuous at $\RR-\theset{0}$
 - Not integrable
   - $U(f) > \frac 1 4$ but $L(f) = 0$.
@@ -111,7 +112,7 @@ f ( x ) = \begin{cases}
 \end{cases}
 $$
 
-- Continuous on $\RR-\QQ$
+- Continuous on $\QQ^c$
 - Discontinuous on $\QQ$
 - Integrable with $\int_a^b f = 0$
 - Differentiable nowhere
