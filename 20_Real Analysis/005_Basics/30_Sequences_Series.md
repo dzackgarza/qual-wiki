@@ -4,8 +4,19 @@ order: 35
 
 # Sequences and Series
 
+## Sequences of functions
 
-## Sequences
+
+:::{.definition title="limsup of functions"}
+For $f:A\to \RR$,
+\[
+\limsup_{x\to y} f(x) \da \lim_{\eps\to 0} \sup f\qty{A \intersect B_\eps(y) \smts{y}}
+.\]
+
+:::
+
+
+## Sequences of number
 
 :::{.slogan}
 $\limsup$ is largest limit of a convergent subsequence, $\liminf$ is the smallest.
@@ -31,7 +42,6 @@ using
 where each group with $a_k$ has $2^k$ terms.
 
 :::
-
 
 ## Series
 
