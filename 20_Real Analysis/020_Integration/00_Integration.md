@@ -12,7 +12,7 @@
 \envlist
 
 - $L^+$: nonnegative measurable functions
-- $L^1$: Lebesgue integrable functions, so $\int \abs{f} < \infty$
+- $L^1$: Lebesgue integrable functions, so $\norm{f}_{L^1} \da \int \abs{f} < \infty$.
 :::
 
 
