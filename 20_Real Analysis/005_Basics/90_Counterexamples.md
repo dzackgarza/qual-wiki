@@ -31,11 +31,7 @@ f ( x ) = \begin{cases}
 
 ## Weierstrass Function
 
-\[
-f(x)=\sum_{n=0}^{\infty} a^{n} \cos \left(b^{n} \pi x\right)
-&&
-a \in (0, 1), b \in \ZZ_{\geq 0}, ab > 1 + {3\pi \over 2}
-.\]
+
 
 Note that this series converges uniformly since it's bounded above by $\sum \abs{a^n}$, which is geometric.
 
@@ -47,19 +43,20 @@ Note that this series converges uniformly since it's bounded above by $\sum \abs
 
 
 
-| Function                                                   | Bounded?             | $D_f$     | $D'_f$    | $\mathcal{R}$?              | $\mathcal{L}$? |
-| ---------------------------------------------------------- | -------------------- | --------- | --------- | --------------------------- | -------------- |
-| Dirichlet $\chi_\QQ(x)$                                    | ✅, $\abs{f} \leq 1$ | $\RR$     | $\RR$     | ❌                          | ✅, $\int f=0$ |
-| Dirichlet 2 $x\chi_\QQ(x)$                                 | ❌                   | $\RR\smz$ | $\RR$     | ❌, $U(f) > 1/4 > 0 = L(f)$ |                |
-| Dirichlet 3 $x^2\chi_\QQ(x)$                               | ❌                   | $\RR\smz$ | $\RR\smz$ | ❌                          |                |
-| Dirichlet 4 $f(x) = x\qty{ \chi_\QQ(x) - \chi_{\QQ^c}(x)}$ | ❌                   | $\RR\smz$ | $\RR$     | ❌                          |                |
-| Thomae $(x={p\over q} \mapsto {1\over q})\chi_{\QQ}(x)$    | ✅                   | $\QQ$     | $\RR$     | ✅, $\int f = 0$[^1]            | ✅             |
-| ?                                                          | ❌                   |           |           |                             |                |
-|                                                            | ❌                   |           |           |                             |                |
+| Function                                                                   | Bounded?             | $D_f$       | $D'_f$    | $\mathcal{R}$?              | $\mathcal{L}$? |
+| -------------------------------------------------------------------------- | -------------------- | ----------- | --------- | --------------------------- | -------------- |
+| Dirichlet $\chi_\QQ(x)$                                                    | ✅, $\abs{f} \leq 1$ | $\RR$       | $\RR$     | ❌                          | ✅, $\int f=0$ |
+| Dirichlet 2 $x\chi_\QQ(x)$                                                 | ❌                   | $\RR\smz$   | $\RR$     | ❌, $U(f) > 1/4 > 0 = L(f)$ | ?              |
+| Dirichlet 3 $x^2\chi_\QQ(x)$                                               | ❌                   | $\RR\smz$   | $\RR\smz$ | ❌                          | ?              |
+| Dirichlet 4 $f(x) = x\qty{ \chi_\QQ(x) - \chi_{\QQ^c}(x)}$                 | ❌                   | $\RR\smz$   | $\RR$     | ❌                          | ?              |
+| Thomae $(x={p\over q} \mapsto {1\over q})\chi_{\QQ}(x)$                    | ✅                   | $\QQ$       | $\RR$     | ✅, $\int f = 0$[^1]        | ✅             |
+| Weierstrass $f(x)=\sum_{n=0}^{\infty} a^{n} \cos \left(b^{n} \pi x\right)$ |                      | $\emptyset$ | $\RR$     | ?                           | ?              |
+|                                                                            |                      |             |           |                             |                |
+
+Full definition of the 
 
 
-
-[^1]: Q?
+[^1]: Riemann integrable by the Lebesgue criterion.
 
 :::{.proof title="of non-integrability of Dirichlet 4"}
 Restrict attention to $\tv{\frac 1 2, 1}$
