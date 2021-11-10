@@ -15,6 +15,8 @@ Questions to ask:
 - If $f \in \mathcal{L}$, i.e. Lebesgue integrable? 
   - If so, what is $\int_\RR f$?
 
+Note that $D_f \in F_\sigma$!
+
 ## Weierstrass Function
 
 | Function                                                                   | Bounded?             | $D_f$       | $D'_f$    | $\mathcal{R}$?              | $\mathcal{L}$? |
