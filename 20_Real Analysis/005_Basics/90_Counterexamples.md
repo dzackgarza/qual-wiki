@@ -46,10 +46,9 @@ x, & x\in \QQ \\
 
 - Unbounded
 - Discontinuous on $\RR\smts{0}$.
-- Discontinuous at $\RR-\theset{0}$
 - Not integrable
   - $U(f) > \frac 1 4$ but $L(f) = 0$.
-- Differentiable nowhere
+- Non-differentiable on $\RR$
 
 ## Dirichlet with a Differentiable Point
 $$
