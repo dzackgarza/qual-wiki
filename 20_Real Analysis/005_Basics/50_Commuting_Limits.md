@@ -32,10 +32,10 @@ For example,
 For example, take $f_n(x) \da x^n$, then for $\ts{x_k}\to 1$,
 \[
 \lim_{k\to\infty}\lim_{n\to\infty} (x_k)^n 
-= \lim_{k\to \infty } \chi_{x=1}(x_k) 
+&= \lim_{k\to \infty } \chi_{x=1}(x_k) 
 = 0 \\
 \lim_{n\to\infty } \lim_{k\to\infty } (x_k)^n
-= \lim_{n\to\infty} (1)^n 
+&= \lim_{n\to\infty} (1)^n 
 = 1
 .\]
 
