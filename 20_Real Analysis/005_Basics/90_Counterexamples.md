@@ -17,23 +17,21 @@ Let all of the following integrals to be over a compact interval $[a, b]$ with $
 
 Questions to ask:
 
-- Where is/isn't $f$ continuous?
-- Where is/isn't $f$ differentiable?
+- Where is $f$ discontinuous? 
+- Where is $f$ non-differentiable? 
 - Is $f$ Riemann integrable?
+- If $f$ Lebesgue integrable? 
+  If so, what is $\int_\RR f$?
 
 ## Dirichlet function
-$$
-f ( x ) = b + (a-b)~\chi(x\in \QQ) = \begin{cases}
-a, & x\in \QQ \\
-b, & \text{else}
-\end{cases}
-$$
-(usually take $a=1, b=0$)
+\[
+f(x )\da \chi_{\QQ}(x)
+\]
 
-- Continuous nowhere
-- Discontinuous everywhere
-- Not integrable
-- Differentiable nowhere
+- Discontinuous on $\RR$
+- Non-differentiable on $\RR$
+- Not Riemann integrable
+- Lebesgue integrable with $\int_\RR f = 0$.
 
 ## Dirichlet with a Continuous Point
 $$
