@@ -53,11 +53,13 @@ Note that this series converges uniformly since it's bounded above by $\sum \abs
 | Dirichlet 2 $x\chi_\QQ(x)$                                 | ❌                   | $\RR\smz$ | $\RR$     | ❌, $U(f) > 1/4 > 0 = L(f)$ |                |
 | Dirichlet 3 $x^2\chi_\QQ(x)$                               | ❌                   | $\RR\smz$ | $\RR\smz$ | ❌                          |                |
 | Dirichlet 4 $f(x) = x\qty{ \chi_\QQ(x) - \chi_{\QQ^c}(x)}$ | ❌                   | $\RR\smz$ | $\RR$     | ❌                          |                |
-| Thomae $(x={p\over q} \mapsto {1\over q})\chi_{\QQ}(x)$    | ✅                   | $\QQ$     | $\RR$     | ✅                          | ✅             |
+| Thomae $(x={p\over q} \mapsto {1\over q})\chi_{\QQ}(x)$    | ✅                   | $\QQ$     | $\RR$     | ✅, $\int f = 0$[^1]            | ✅             |
 | ?                                                          | ❌                   |           |           |                             |                |
 |                                                            | ❌                   |           |           |                             |                |
 
 
+
+[^1]: Q?
 
 :::{.proof title="of non-integrability of Dirichlet 4"}
 Restrict attention to $\tv{\frac 1 2, 1}$
