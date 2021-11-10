@@ -24,3 +24,24 @@ If $f_n$ are differentiable, $\sum f_n' \to g$ uniformly, and there exists one p
 [^pointwise_works_too]: So this implicitly holds if $f$ is the pointwise limit of $f_n$.
 
 :::
+
+
+:::{.example title="Derivatives of bounded functions need not be bounded"}
+\[
+f(x) \da 
+\begin{cases}
+x^2 \sin\qty{1\over x^2} &  x\neq 0
+\\
+0 & x=0.
+\end{cases}
+.\]
+
+Note that
+\[
+f'(x) = 2x\sin\qty{1\over x^2 } - \qty{2\over x}\cos\qty{1\over x^2} \chi_{x\neq 0}
+,\]
+now take the sequence $x_n \da ((2n+1)\pi)^{-1\over 2}$.
+
+
+:::
+
