@@ -125,4 +125,9 @@ Note that this series converges uniformly since it's bounded above by $\sum \abs
 
 
 
-| Function | Bounded? | $D_f$ | $D'_f$ | $\mathcal{R}$? | $
+| Function                     | Bounded? | $D_f$ | $D'_f$ | $\mathcal{R}$? | $\mathcal{L}$? |
+| ---------------------------- | -------- | ----- | ------ | -------------- | -------------- |
+| Dirichlet $\chi_\QQ(x)$      |          |       |        |                |                |
+| Dirichlet 2 $x\chi_\QQ(x)$   |          |       |        |                |                |
+| Dirichlet 3 $x^2\chi_\QQ(x)$ |          |       |        |                |                |
+|                              |          |       |        |                |                |
