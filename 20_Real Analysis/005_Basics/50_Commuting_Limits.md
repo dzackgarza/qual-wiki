@@ -24,7 +24,7 @@ For example,
 .\]
 :::
 
-:::{.fact title="Limits of continuous functions need not be continuous"}
+:::{.example title="Limits of continuous functions need not be continuous"}
 \[  
 \lim_{k\to \infty} \lim_{n\to\infty} f_n(x_k) \neq
 \lim_{n\to \infty} \lim_{k\to\infty} f_n(x_k)

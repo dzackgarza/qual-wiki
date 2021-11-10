@@ -9,6 +9,16 @@ If $f: [a, b] \to \RR$ is continuous on a closed interval and differentiable on 
 \[
 f(b) - f(a) = f'(\xi)(b-a)
 .\]
+
+More generally, if $g: [a,b]\to \RR$ is similarly continuous on $[a, b]$ and differentiable on $(a, b)$, then there exists a $\xi$ with
+\[
+\qty{ f(b) - f(c) } g'(\xi) = \qty{g(b) - g(a)} f'(\xi)
+.\]
+What this means graphically:
+
+
+![](figures/2021-11-09_22-20-24.png)
+
 :::
 
 :::{.proposition title="Lipschitz $\iff$ differentiable with bounded derivative."}
