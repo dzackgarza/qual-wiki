@@ -10,7 +10,7 @@ Questions to ask:
 
 - Is $f$ bounded?
 - What is the discontinuity set $D_f$? 
-- Where is $f$ non-differentiable? 
+- What is the non-differentiability locus $D'_f$?
 - Is $f$ Riemann integrable?
 - If $f$ Lebesgue integrable? 
   If so, what is $\int_\RR f$?
@@ -22,7 +22,7 @@ f(x )\da \chi_{\QQ}(x)
 
 - Bounded: $\abs{f} \leq 1$.
 - $D_f = \RR$
-- Non-differentiable on $\RR$
+- $D'_f = \RR$
 - Not Riemann integrable
 - Lebesgue integrable with $\int_\RR f = 0$.
 
@@ -33,9 +33,9 @@ f ( x ) = x\cdot \chi_{\QQ}(x)
 
 - Unbounded
 - $D_f = \RR\smts{0}$
+- $D'_f = \RR$
 - Not integrable
   - $U(f) > \frac 1 4$ but $L(f) = 0$.
-- Non-differentiable on $\RR$
 
 ## Dirichlet with a differentiable point
 $$
@@ -47,10 +47,10 @@ $$
 
 - Unbounded
 - $D_f = \RR\smts{0}$
-- Non-differentiable on $\RR\smts{0}$
+- $D'_f = \RR\smts{0}$.
 - Not Riemann integrable
 
-## Dirichlet with Two Functions
+## Dirichlet with two functions
 
 \[
 f(x) = 
@@ -63,7 +63,7 @@ x & x\in \QQ
 \]
 
 - $D_f = \RR\smts{0}$
-- Differentiable nowhere.
+- $D'_f = \RR$
 - Not integrable
 
 
@@ -103,7 +103,7 @@ f ( x ) = \begin{cases}
 
 - Bounded 
 - $D_f = \QQ$
-- Non-differentiable on $\RR$
+- $D'_f = \RR$
 - Riemann integrable with $\int_a^b f = 0$ by the Lebesgue criterion
 
 
@@ -119,8 +119,10 @@ Note that this series converges uniformly since it's bounded above by $\sum \abs
 
 - Bounded: ?
 - $D_f = \emptyset$
-- Non-differentiable on $\RR$
+- $D'_f = \RR$
 - Riemann integrable: ?
 - Lebesgue integrable: ?
 
 
+
+| Function | Bounded? | $D_f$ | $D'_f$ | $\mathcal{R}$? | $
