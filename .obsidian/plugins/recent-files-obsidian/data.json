@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "90_Counterexamples",
+      "path": "20_Real Analysis/005_Basics/90_Counterexamples.md"
+    },
+    {
+      "basename": "60_Littlewood Principles",
+      "path": "20_Real Analysis/005_Basics/60_Littlewood Principles.md"
+    },
+    {
+      "basename": "50_Commuting_Limits",
+      "path": "20_Real Analysis/005_Basics/50_Commuting_Limits.md"
+    },
+    {
+      "basename": "30_Sequences_Series",
+      "path": "20_Real Analysis/005_Basics/30_Sequences_Series.md"
+    },
+    {
+      "basename": "30_Continuity",
+      "path": "20_Real Analysis/005_Basics/30_Continuity.md"
+    },
+    {
+      "basename": "10_Definitions",
+      "path": "20_Real Analysis/005_Basics/10_Definitions.md"
+    },
+    {
+      "basename": "20_Sets",
+      "path": "20_Real Analysis/005_Basics/20_Sets.md"
+    },
+    {
+      "basename": "35_Differentiability",
+      "path": "20_Real Analysis/005_Basics/35_Differentiability.md"
+    },
+    {
       "basename": "30_Problems",
       "path": "20_Real Analysis/000_Resources/30_Problems.md"
     },
@@ -167,34 +199,6 @@
     {
       "basename": "Casorati-Weierstrass",
       "path": "Casorati-Weierstrass.md"
-    },
-    {
-      "basename": "Riemann Mapping Principle",
-      "path": "Riemann Mapping Principle.md"
-    },
-    {
-      "basename": "Maximum modulus principle",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/Maximum modulus principle.md"
-    },
-    {
-      "basename": "015 Mean Value Theorem",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem.md"
-    },
-    {
-      "basename": "050_Morera_Theorem",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/050_Morera_Theorem.md"
-    },
-    {
-      "basename": "030 Identity Principle",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
-    },
-    {
-      "basename": "020 Liouville",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
-    },
-    {
-      "basename": "012_Cauchy Inequality",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality.md"
     }
   ],
   "omittedPaths": [],

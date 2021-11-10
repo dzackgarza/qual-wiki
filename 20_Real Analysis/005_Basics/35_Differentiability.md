@@ -4,6 +4,13 @@ order: 35
 
 # Differentiability
 
+:::{.theorem title="Mean Value Theorem"}
+If $f: [a, b] \to \RR$ is continuous on a closed interval and differentiable on $(a, b)$, then there exists $\xi \in [a, b]$ such that 
+\[
+f(b) - f(a) = f'(\xi)(b-a)
+.\]
+:::
+
 :::{.proposition title="Lipschitz $\iff$ differentiable with bounded derivative."}
 A function $f: (a, b) \to \RR$ is Lipschitz $\iff f$ is differentiable and $f'$ is bounded.
 In this case, $\abs{f'(x)} \leq C$, the Lipschitz constant.

@@ -22,3 +22,29 @@ $D_f$ is always an $F_\sigma$ set, which follows by considering the oscillation 
 Use that $\omega_f(x) = 0 \iff f$ is continuous at $x$, and $D_f = \union_n A_{\frac 1 n}$ where $A_\varepsilon = \theset{\omega_f \geq \varepsilon}$ is closed.
 :::
 
+:::{.proposition title="Lipschitz implies uniformly continuous"}
+If $f$ is Lipschitz on $X$, then $f$ is uniformly continuous on $X$.
+
+Supposing that
+\[
+\norm{f(x) - f(y)} \leq C \norm{x-y}
+,\]
+for a fixed $\eps$ take $\delta(\eps) \da \eps/C$, then
+\[
+\norm{f(x) - f(y)}
+&\leq C \norm{x-y} \\
+&\leq C \delta \\
+&= C \qty{\eps/C} \\
+&= \eps
+.\]
+:::
+
+:::{.theorem title="Heine-Cantor"}
+Every continuous function $f:X\to Y$ where $X$ is a compact metric space is uniformly continuous.
+:::
+
+:::{.proof title="?"}
+Fix $\eps>0$, we'll find a $\delta$ that works for all $x\in X$ uniformly.
+For every $x\in X$, pick a $\delta_x$ neighborhood satisfying the conditions for (assumed) continuity.
+Take an open cover by $\delta_x/2$ balls, extract a finite subcover, take $\delta$ the minimal radius.
+:::

@@ -7,8 +7,11 @@
         "id": "b540df6b97445d3d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "20_Real Analysis/005_Basics/90_Counterexamples.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -75,6 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "20_Real Analysis/005_Basics/90_Counterexamples.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -108,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "20_Real Analysis/005_Basics/90_Counterexamples.md"
+              }
             }
           }
         ],
@@ -132,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "20_Real Analysis/005_Basics/90_Counterexamples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "20_Real Analysis/005_Basics/90_Counterexamples.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -248,15 +256,15 @@
   },
   "active": "b540df6b97445d3d",
   "lastOpenFiles": [
+    "20_Real Analysis/005_Basics/90_Counterexamples.md",
+    "20_Real Analysis/005_Basics/60_Littlewood Principles.md",
+    "20_Real Analysis/005_Basics/50_Commuting_Limits.md",
+    "20_Real Analysis/005_Basics/30_Sequences_Series.md",
+    "20_Real Analysis/005_Basics/30_Continuity.md",
+    "20_Real Analysis/005_Basics/10_Definitions.md",
+    "20_Real Analysis/005_Basics/20_Sets.md",
+    "20_Real Analysis/005_Basics/35_Differentiability.md",
     "20_Real Analysis/000_Resources/00_Preface.md",
-    "20_Real Analysis/000_Resources/30_Problems.md",
-    "20_Real Analysis/000_Resources/20_Solutions.md",
-    "20_Real Analysis/000_Resources/15_Books_Notes.md",
-    "attachments/Real_Analysis_Course_Notes.pdf",
-    "y.md",
-    "qual_progress.md",
-    "progress.md",
-    "Test.md",
-    "Typsetting_Progress.md"
+    "20_Real Analysis/000_Resources/30_Problems.md"
   ]
 }

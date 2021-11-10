@@ -4,6 +4,23 @@ order: 35
 
 # Sequences and Series
 
+:::{.theorem title="Lagrange and Cauchy Remainders"}
+If $f$ is $n$ times differentiable on a neighborhood of a point $p$, say $N_\delta(p)$, then for all points $x$ in the deleted neighborhood $N_\delta(p) - \theset{p}$ , there exists a point $\xi$ strictly between $x$ and $p$ such that
+\[
+x \in N_\delta(p)-\theset{p} \implies f(x) 
+&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \frac{f^{(n)}(\xi)}{n!}(x-p)^n \\ \\
+&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \int_c^x \frac{1}{n!} \dd{^n f}{x^n}(t) (x-t)^n ~dt
+\]
+:::
+
+:::{.proposition title="Sufficient condition for Taylor convergence"}
+Given a point $c$ and some $\varepsilon>0$, if $f \in C^\infty(I)$ and there exists an $M$ such that 
+$$
+x \in N_\varepsilon(c) \implies \abs{f^{(n)}(x)} \leq M^n
+$$
+then the Taylor expansion about $c$ converges on $N_\varepsilon(c)$.
+:::
+
 ## Sequences
 
 :::{.proposition title="The Cauchy condensation test"}
@@ -87,7 +104,6 @@ The space $X = C([0, 1])$, continuous functions $f: [0, 1] \to \RR$, equipped wi
 \norm{f}_\infty \da \sup_{x\in [0, 1]} \abs{f(x)}
 \]
 is a **complete** metric space.
-
 :::
 
 :::{.proof}

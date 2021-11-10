@@ -115,7 +115,6 @@ A space $X$ is a **Baire space** if and only if every countable intersections of
 \limsup_{n} E_{n} \da \Intersect_{N=1}^\infty \Union_{n=N}^{\infty} E_{n} &= \theset{x \suchthat x\in E_{n} \text{ for infinitely many } n} 
 .\]
 
-  
 :::
 
 :::{.remark}
@@ -144,8 +143,6 @@ If the $\limsup$ and $\liminf$ sets are equal, then one can define the set $\lim
 \[
 \mu\qty{\lim_n E_n} = \lim_n \mu(E_n)
 .\]
-
-
 
 :::
 

@@ -360,7 +360,12 @@
     "bijective",
     "homomorphisms",
     "Holomorphicity",
-    "Schwarz"
+    "Schwarz",
+    "subcover",
+    "Integrability",
+    "supremum",
+    "Orthonormal",
+    "orthonormal"
   ],
   "communityPluginSortOrder": "download",
   "autoPairMarkdown": false,
