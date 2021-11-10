@@ -6,7 +6,6 @@ order: 35
 
 ## Sequences of functions
 
-
 :::{.definition title="limsup of functions"}
 For $f:A\to \RR$,
 \[
@@ -14,7 +13,6 @@ For $f:A\to \RR$,
 .\]
 
 :::
-
 
 ## Sequences of number
 
@@ -45,13 +43,12 @@ where each group with $a_k$ has $2^k$ terms.
 
 ## Series
 
-:::{.theorem title="Lagrange and Cauchy Remainders"}
-If $f$ is $n$ times differentiable on a neighborhood of a point $p$, say $N_\delta(p)$, then for all points $x$ in the deleted neighborhood $N_\delta(p) - \theset{p}$ , there exists a point $\xi$ strictly between $x$ and $p$ such that
-\[
-x \in N_\delta(p)-\theset{p} \implies f(x) 
-&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \frac{f^{(n)}(\xi)}{n!}(x-p)^n \\ \\
-&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \int_c^x \frac{1}{n!} \dd{^n f}{x^n}(t) (x-t)^n ~dt
-\]
+:::{.proposition title="Comparison Test"}
+If $0\leq a_n \leq b_n$, then 
+
+- $\sum b_n < \infty \implies \sum a_n < \infty$, and 
+- $\sum a_n = \infty \implies \sum b_n = \infty$.
+
 :::
 
 :::{.proposition title="Sufficient condition for Taylor convergence"}
@@ -75,14 +72,6 @@ Let $n$ be a fixed dimension and set $B = \theset{x\in \RR^n \suchthat \norm{x} 
 .\]
 :::
 
-:::{.proposition title="Comparison Test"}
-If $0\leq a_n \leq b_n$, then 
-
-- $\sum b_n < \infty \implies \sum a_n < \infty$, and 
-- $\sum a_n = \infty \implies \sum b_n = \infty$.
-
-:::
-
 :::{.proposition title="Small Tails for Series of Functions"}
 \[
 \sum f_n < \infty \implies \norm{f_n}_\infty \convergesto{n\to\infty}0
@@ -102,6 +91,15 @@ Uniformly Cauchy iff uniformly convergent, i.e.
 \norm{f_n - f_m} \convergesto{m, n\to \infty} 0 \iff \exists f,\, \norm{f_n - f} \convergesto{n\to\infty} 0
 .\]
 
+:::
+
+:::{.theorem title="Lagrange and Cauchy Remainders"}
+If $f$ is $n$ times differentiable on a neighborhood of a point $p$, say $N_\delta(p)$, then for all points $x$ in the deleted neighborhood $N_\delta(p) - \theset{p}$ , there exists a point $\xi$ strictly between $x$ and $p$ such that
+\[
+x \in N_\delta(p)-\theset{p} \implies f(x) 
+&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \frac{f^{(n)}(\xi)}{n!}(x-p)^n \\ \\
+&= \sum_{k=0}^{n-1} \frac{f^{(k)}(p)}{k!}(x-p)^k + \int_c^x \frac{1}{n!} \dd{^n f}{x^n}(t) (x-t)^n ~dt
+\]
 :::
 
 ## Uniform Convergence

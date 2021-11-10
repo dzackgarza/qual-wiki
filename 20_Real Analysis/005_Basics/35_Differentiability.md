@@ -27,7 +27,11 @@ In this case, $\abs{f'(x)} \leq C$, the Lipschitz constant.
 :::
 
 :::{.theorem title="Term by Term Differentiability Theorem"}
-If $f_n$ are differentiable, $\sum f_n' \to g$ uniformly, and there exists one point[^pointwise_works_too] $x_0$ such that $\sum f_n(x)$ converges, then there exist an $f$ such that $\sum f_n \to f$ uniformly and $f' = g$.[^theorem_referfence_6.4.3_Abbott]
+If $f_n$ are differentiable, $\sum f_n' \to g$ uniformly, and there exists one point[^pointwise_works_too] $x_0$ such that $\sum f_n(x)$ converges, then there exists an $F$ such that 
+[^theorem_referfence_6.4.3_Abbott]
+\[
+\norm{ \sum_{n\leq N} f_n - F} \convergesto{N\to\infty} 0 && F' = g
+.\]
 
 [^theorem_referfence_6.4.3_Abbott]: See Abbott theorem 6.4.3, pp 168.
 
