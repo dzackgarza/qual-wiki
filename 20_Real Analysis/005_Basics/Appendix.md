@@ -58,8 +58,6 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 
     ![[figures/2019-12-19-16-49-56.png]]
 		
-		[[2-19-16-49-56.
-
 - Uniform convergence allows commuting sums with integrals
 
 - Closed subsets of compact sets are compact.
