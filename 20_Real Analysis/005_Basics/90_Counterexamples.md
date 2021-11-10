@@ -127,10 +127,10 @@ Note that this series converges uniformly since it's bounded above by $\sum \abs
 
 | Function                                                   | Bounded? | $D_f$     | $D'_f$    | $\mathcal{R}$? | $\mathcal{L}$? |
 | ---------------------------------------------------------- | -------- | --------- | --------- | -------------- | -------------- |
-| Dirichlet $\chi_\QQ(x)$                                    | ✅       | $\RR$     | $\RR$     |                |                |
-| Dirichlet 2 $x\chi_\QQ(x)$                                 | ❌       | $\RR\smz$ | $\RR$     |                |                |
-| Dirichlet 3 $x^2\chi_\QQ(x)$                               | ❌       | $\RR\smz$ | $\RR\smz$ |                |                |
-| Dirichlet 4 $f(x) = x\qty{ \chi_\QQ(x) - \chi_{\QQ^c}(x)}$ | ❌       | $\RR\smz$ | $\RR$     |                |                |
-| Thomae $(x={p\over q} \mapsto {1\over q})\chi_{\QQ}(x)$    | ✅       |           |           |                |                |
+| Dirichlet $\chi_\QQ(x)$                                    | ✅       | $\RR$     | $\RR$     | ❌             | ✅, $\int f=0$ | 
+| Dirichlet 2 $x\chi_\QQ(x)$                                 | ❌       | $\RR\smz$ | $\RR$     | ❌             |                |
+| Dirichlet 3 $x^2\chi_\QQ(x)$                               | ❌       | $\RR\smz$ | $\RR\smz$ | ❌             |                |
+| Dirichlet 4 $f(x) = x\qty{ \chi_\QQ(x) - \chi_{\QQ^c}(x)}$ | ❌       | $\RR\smz$ | $\RR$     | ❌             |                |
+| Thomae $(x={p\over q} \mapsto {1\over q})\chi_{\QQ}(x)$    | ✅       |           |           | ✅             | ✅             |
 | ?                                                          | ❌       |           |           |                |                |
 |                                                            | ❌       |           |           |                |                |
