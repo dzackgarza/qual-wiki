@@ -26,7 +26,7 @@ f(x )\da \chi_{\QQ}(x)
 - Not Riemann integrable
 - Lebesgue integrable with $\int_\RR f = 0$.
 
-## Dirichlet with a Continuous Point
+## Dirichlet with a continuous point
 \[
 f ( x ) = x\cdot \chi_{\QQ}(x)
 \]
@@ -37,7 +37,7 @@ f ( x ) = x\cdot \chi_{\QQ}(x)
   - $U(f) > \frac 1 4$ but $L(f) = 0$.
 - Non-differentiable on $\RR$
 
-## Dirichlet with a Differentiable Point
+## Dirichlet with a differentiable point
 $$
 f ( x ) = x^2~\chi(\QQ) = \begin{cases}
 x^2, & x\in \QQ \\
