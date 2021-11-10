@@ -230,7 +230,6 @@ If $f_n$ is a sequence of nonnegative measurable functions, then
 \[
 f_n \geq 0 \text{ and } \sum_n \int \abs{f_n} = \sum_n \norm{f_n}_{L^1} < \infty \implies \sum_n \int f_n = \int \sum_n f_n
 .\]
-
 :::
 
 :::{.proof title="Commuting sums with integrals"}
@@ -243,6 +242,8 @@ f_n \geq 0 \text{ and } \sum_n \int \abs{f_n} = \sum_n \norm{f_n}_{L^1} < \infty
 :::{.theorem title="Commuting Sums with Integrals (integrable)"}
 If $\theset{f_n}$ integrable with either $\sum \int \abs{f_n} < \infty$ or $\int\sum \abs{f_n} < \infty$, then
 \[  
+\norm{f_n}_{L^1} < \infty \text { and }\qty{\sum\norm{f_n}_{L^1} < \infty \text { or } \int \sum \abs{f_n} < \infty }
+\implies
 \int\sum f_n = \sum \int f_n
 .\]
 :::
