@@ -4,6 +4,20 @@ order: 50
 
 # Commuting Limiting Operations
 
+
+:::{.fact title="Limits of doubly indexed sequences need not commute"}
+\[
+\lim_{m\to \infty}\lim_{n\to\infty} a_{mn}
+\neq \lim_{n\to \infty}\lim_{m\to\infty} a_{mn}
+.\]
+
+For example, 
+\[
+\lim_{m\to \infty}\lim_{n\to\infty} {n \over n + m} &= 1 \neq 0 =
+\lim_{n\to \infty}\lim_{m\to\infty} {n \over n + m}
+.\]
+:::
+
 :::{.proposition title="Limits of bounded functions need not be bounded"}
 \[  
 \lim_{n\to \infty}\sup_{x\in X} \abs{f_n(x) } \neq \sup_{x\in X} \abs{\lim_{n\to\infty} f_n(x) }
