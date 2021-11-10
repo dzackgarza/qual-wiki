@@ -17,6 +17,7 @@ Let all of the following integrals to be over a compact interval $[a, b]$ with $
 
 Questions to ask:
 
+- Is $f$ bounded?
 - Where is $f$ discontinuous? 
 - Where is $f$ non-differentiable? 
 - Is $f$ Riemann integrable?
@@ -28,6 +29,7 @@ Questions to ask:
 f(x )\da \chi_{\QQ}(x)
 \]
 
+- Bounded: $\abs{f} \leq 1$.
 - Discontinuous on $\RR$
 - Non-differentiable on $\RR$
 - Not Riemann integrable
