@@ -18,17 +18,27 @@ For example,
 .\]
 :::
 
-:::{.proposition title="Limits of bounded functions need not be bounded"}
+:::{.fact title="Limits of bounded functions need not be bounded"}
 \[  
 \lim_{n\to \infty}\sup_{x\in X} \abs{f_n(x) } \neq \sup_{x\in X} \abs{\lim_{n\to\infty} f_n(x) }
 .\]
 :::
 
-:::{.proposition title="Limits of continuous functions need not be continuous"}
+:::{.fact title="Limits of continuous functions need not be continuous"}
 \[  
 \lim_{k\to \infty} \lim_{n\to\infty} f_n(x_k) \neq
 \lim_{n\to \infty} \lim_{k\to\infty} f_n(x_k)
 .\]
+For example, take $f_n(x) \da x^n$, then for $\ts{x_k}\to 1$,
+\[
+\lim_{k\to\infty}\lim_{n\to\infty} (x_k)^n 
+= \lim_{k\to \infty } \chi_{x=1}(x_k) 
+= 0 \\
+\lim_{n\to\infty } \lim_{k\to\infty } (x_k)^n
+= \lim_{n\to\infty} (1)^n 
+= 1
+.\]
+
 :::
 
 :::{.proposition title="Limits of differentiable functions need not be differentiable"}
