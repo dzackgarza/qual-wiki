@@ -14,6 +14,15 @@ For $f:A\to \RR$,
 
 :::
 
+:::{.example title="?"}
+A series of continuous functions that does *not* converge uniformly but is still continuous:
+\[  
+g(x) \da \sum {1 \over 1 + n^2 x}
+.\]
+
+Take $x = 1/n^2$.
+:::
+
 ## Sequences of number
 
 :::{.slogan}

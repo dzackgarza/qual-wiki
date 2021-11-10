@@ -4,21 +4,12 @@ order: 90
 
 # Counterexamples
 
-:::{.example title="?"}
-A series of continuous functions that does *not* converge uniformly but is still continuous:
-\[  
-g(x) \da \sum {1 \over 1 + n^2 x}
-.\]
-
-Take $x = 1/n^2$.
-:::
-
 Let all of the following integrals to be over a compact interval $[a, b]$ with $0 \leq a < b$.
 
 Questions to ask:
 
 - Is $f$ bounded?
-- Where is $f$ discontinuous? 
+- What is the discontinuity set $D_f$? 
 - Where is $f$ non-differentiable? 
 - Is $f$ Riemann integrable?
 - If $f$ Lebesgue integrable? 
@@ -30,7 +21,7 @@ f(x )\da \chi_{\QQ}(x)
 \]
 
 - Bounded: $\abs{f} \leq 1$.
-- Discontinuous on $\RR$
+- $D_f = \RR$
 - Non-differentiable on $\RR$
 - Not Riemann integrable
 - Lebesgue integrable with $\int_\RR f = 0$.
@@ -41,7 +32,7 @@ f ( x ) = x\cdot \chi_{\QQ}(x)
 \]
 
 - Unbounded
-- Discontinuous on $\RR\smts{0}$.
+- $D_f = \RR\smts{0}$
 - Not integrable
   - $U(f) > \frac 1 4$ but $L(f) = 0$.
 - Non-differentiable on $\RR$
@@ -55,20 +46,23 @@ x^2, & x\in \QQ \\
 $$
 
 - Unbounded
-- Discontinuous on $\RR\smts{0}$
+- $D_f = \RR\smts{0}$
 - Non-differentiable on $\RR\smts{0}$
 - Not Riemann integrable
 
 ## Dirichlet with Two Functions
-$$
-f ( x ) = x~\chi{\QQ} + (-x)\chi(\RR-\QQ) = \begin{cases}
-x, & x\in \QQ \\
--x, & \text{else}
-\end{cases}
-$$
 
-- Continuous at 0
-- Discontinuous at $\RR-\theset{0}$
+\[
+f(x) = 
+x\qty{ \chi_\QQ(x) - \chi_{\QQ^c}(x)}
+= \begin{cases}
+x & x\in \QQ 
+\\
+-x & \text{else}.
+\end{cases}
+\]
+
+- $D_f = \RR\smts{0}$
 - Differentiable nowhere.
 - Not integrable
 
@@ -108,7 +102,7 @@ f ( x ) = \begin{cases}
 \]
 
 - Bounded 
-- Discontinuous on $\QQ$
+- $D_f = \QQ$
 - Non-differentiable on $\RR$
 - Riemann integrable with $\int_a^b f = 0$ by the Lebesgue criterion
 
@@ -124,7 +118,7 @@ a \in (0, 1), b \in \ZZ_{\geq 0}, ab > 1 + {3\pi \over 2}
 Note that this series converges uniformly since it's bounded above by $\sum \abs{a^n}$, which is geometric.
 
 - Bounded: ?
-- Continuous on $\RR$.
+- $D_f = \emptyset$
 - Non-differentiable on $\RR$
 - Riemann integrable: ?
 - Lebesgue integrable: ?
