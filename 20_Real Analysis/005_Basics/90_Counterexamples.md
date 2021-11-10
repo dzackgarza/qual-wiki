@@ -26,6 +26,8 @@ Questions to ask:
 | Thomae $(x={p\over q} \mapsto {1\over q})\chi_{\QQ}(x)$                    | ✅                   | $\QQ$       | $\RR$     | ✅, $\int f = 0$[^1]        | ✅             |
 | Weierstrass $f(x)=\sum_{n=0}^{\infty} a^{n} \cos \left(b^{n} \pi x\right)$ | ?                    | $\emptyset$ | $\RR$     | ?                           | ?              |
 
+
+:::{.remark}
 Full definition of the Weierstrass function:
 
 \[
@@ -36,6 +38,9 @@ a \in (0, 1), b \in \ZZ_{\geq 0}, ab > 1 + {3\pi \over 2}
 
 Note that this series converges uniformly since it's bounded above by $\sum \abs{a^n}$, which is geometric.
 
+:::
+
+:::{.remark}
 Full definition of the Thomae function:
 
 \[
@@ -45,8 +50,7 @@ f ( x ) = \begin{cases}
 \end{cases}
 \]
 
-
-[^1]: Riemann integrable by the Lebesgue criterion.
+:::
 
 :::{.proof title="of non-integrability of Dirichlet 4"}
 Restrict attention to $\tv{\frac 1 2, 1}$
@@ -72,3 +76,5 @@ and
 \]
 So we have $\underline{\int_0^1} f \lneq 0 \lneq \overline{\int_0^1} f$.
 :::
+
+[^1]: Riemann integrable by the Lebesgue criterion.
