@@ -226,29 +226,27 @@ If $f_n$ is a sequence of nonnegative measurable functions, then
 #todo Prove
 
 
-:::{.proposition title="Commuting Sums with Integrals (non-negative)"}
+:::{.proposition title="Commuting Sums with Integrals"}
 \[
 f_n \geq 0 \text{ and } \sum_n \int \abs{f_n} = \sum_n \norm{f_n}_{L^1} < \infty \implies \sum_n \int f_n = \int \sum_n f_n
 .\]
+If the $f_n$ are *not* necessarily non-negative, we still have
+\[  
+\ts{f_n} \subseteq L^1 \text { and }\qty{\sum\int\abs{f_n} < \infty \text { or } \int \sum \abs{f_n} < \infty }
+\implies
+\int\sum_n f_n = \sum_n \int f_n
+.\]
+
 :::
 
-:::{.proof title="Commuting sums with integrals"}
+:::{.proof title="Commuting sums with integrals, non-negative case"}
 - Idea: MCT. 
 - Let $F_N = \sum^N f_n$ be a finite partial sum; 
 - Then there are simple functions $\phi_n \nearrow f_n$ 
 - So $\sum^N \phi_n \nearrow F_N$ and MCT applies
 :::
 
-:::{.theorem title="Commuting Sums with Integrals (integrable)"}
-If $\theset{f_n}$ integrable with either $\sum \int \abs{f_n} < \infty$ or $\int\sum \abs{f_n} < \infty$, then
-\[  
-\norm{f_n}_{L^1} < \infty \text { and }\qty{\sum\norm{f_n}_{L^1} < \infty \text { or } \int \sum \abs{f_n} < \infty }
-\implies
-\int\sum f_n = \sum \int f_n
-.\]
-:::
-
-:::{.proof title="Commuting sums with integrals (integrable)"}
+:::{.proof title="Commuting sums with integrals, integrable case"}
 \envlist
 
 - By Tonelli, if $f_n(x) \geq 0$ for all $n$, taking the counting measure allows interchanging the order of "integration".
