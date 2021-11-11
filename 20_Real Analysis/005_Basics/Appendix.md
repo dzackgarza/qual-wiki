@@ -80,16 +80,11 @@ f_k \converges{a.e.}\to f ,\quad
 .\]
 :::
 
-:::{.proposition title="?"}
+:::{.proposition title="Continuity in $L^1$ holds for all $L^p$, translation operators are continuous"}
 \[
 f \text{ uniformly continuous }: \quad
 \norm{\tau_h f - f}_{L^p(X)} \convergesto{h\to 0} 0 && \forall p
 .\]
-
-
-- i.e. "Continuity in $L^1$" holds for all $L^p$.
-- i.e. Translation operators are continuous.
-
 :::
 
 :::{.proof title="?"}
@@ -117,10 +112,8 @@ Use Young's inequality
 
 :::{.proposition title="?"}
 \[
-\int f \cdot \phi = 0 \quad \forall \phi\in C_c^0 \implies f = 0 \quad \ae
+\inner{f}{\phi} \da \int f \cdot \phi = 0 \quad \forall \phi\in C_c^0 \implies f \eqae 0
 .\]
-
-If $\int f \phi = 0$ for every $\phi \in C_c^0$, then $f = 0$ almost everywhere.
 :::
 
 :::{.proof title="?"}
@@ -128,3 +121,5 @@ Let $A$ be an interval, choose $\phi_k \to \chi_A$, then $\int f \chi_A = 0$ for
 So this holds for any Borel set $A$.
 Then just take $A_1 = \theset{f > 0}$ and $A_2 = \theset{f < 0}$, then $\int_\RR f = \int_{A_1} f + \int_{A_2}f = 0$.
 :::
+
+
