@@ -34,13 +34,9 @@ Show that
 .\]
 :::
 
-
 :::{.solution}
 Todo
 :::
-
-
-
 
 ## 2010 6.2
 
@@ -312,4 +308,3 @@ b. Following the proof of the Lebesgue differentiation theorem, show that for $f
 \[
 u(x, y) \converges{y\to 0} \to f(x)
 .\]
-
