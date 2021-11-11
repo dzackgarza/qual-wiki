@@ -65,8 +65,6 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 - Uniform convergence allows commuting sums with integrals
 
 
-
-
 :::{.proposition title="?"}
 \[
 f_k \converges{a.e.}\to f ,\quad
@@ -82,24 +80,17 @@ f_k \converges{a.e.}\to f ,\quad
 .\]
 :::
 
-
 :::{.proposition title="?"}
-If $f$ is uniformly continuous, then
 \[
-\norm{\tau_h f - f}_p \converges{L^p}\to 0 \quad \text{for all } p
+f \text{ uniformly continuous }: \quad
+\norm{\tau_h f - f}_{L^p(X)} \convergesto{h\to 0} 0 && \forall p
 .\]
-:::
 
 
-:::{.proposition title="?"}
-$\norm{\tau_h f - f}_p \to 0$ for every $p$.
-
-> - i.e. "Continuity in $L^1$" holds for all $L^p$.
-> - i.e. Translation operators are continuous.
+- i.e. "Continuity in $L^1$" holds for all $L^p$.
+- i.e. Translation operators are continuous.
 
 :::
-
-
 
 :::{.proof title="?"}
 *Proof:*
@@ -110,27 +101,25 @@ Take $g_k \in C_c^0 \to f$, then $g$ is uniformly continuous, so
 .\]
 :::
 
-
-
-
-**Lemma:**
+:::{.proposition title="?"}
 For $f\in L^p, g\in L^q$, $f\ast g$ is uniformly continuous.
+:::
 
-> *Proof*:
-> Use Young's inequality
+:::{.proof title="?"}
+Use Young's inequality
 \[
 \norm{\tau_h(f\ast g) - f\ast g}_\infty
 &= \norm{(\tau_h f - f) \ast g}_\infty \leq \norm{\tau_hf - f}_p \norm{g}_q \to 0
 .\]
 
-**Lemma**:
+:::
+
+:::{.proposition title="?"}
 If $\int f \phi = 0$ for every $\phi \in C_c^0$, then $f = 0$ almost everywhere.
+:::
 
-> *Proof:*
-> Let $A$ be an interval, choose $\phi_k \to \chi_A$, then $\int f \chi_A = 0$ for all intervals.
-> So this holds for any Borel set $A$.
-> Then just take $A_1 = \theset{f > 0}$ and $A_2 = \theset{f < 0}$, then $\int_\RR f = \int_{A_1} f + \int_{A_2}f = 0$.
-
-## The Fourier Transform
-
-
+:::{.proof title="?"}
+Let $A$ be an interval, choose $\phi_k \to \chi_A$, then $\int f \chi_A = 0$ for all intervals.
+So this holds for any Borel set $A$.
+Then just take $A_1 = \theset{f > 0}$ and $A_2 = \theset{f < 0}$, then $\int_\RR f = \int_{A_1} f + \int_{A_2}f = 0$.
+:::
