@@ -70,19 +70,6 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 
 ## Errata
 
-- **Equicontinuity**:
-If $\mathcal F \subset C(X)$ is a family of continuous functions on $X$, then $\mathcal F$ *equicontinuous* at $x$ iff
-
-\[
-\forall \varepsilon > 0 ~~\exists U \ni x \text{ such that } y\in U \implies \abs{f(y) - f(x)} < \varepsilon \quad \forall f\in \mathcal{F}
-.\]
-
-- **Arzela - Ascoli 1**:
-If $\mathcal{F}$ is pointwise bounded and equicontinuous, then $\mathcal{F}$ is totally bounded in the uniform metric and its closure $\overline{\mathcal{F}} \in C(X)$ in the space of continuous functions is compact.
-
-- **Arzela - Ascoli 2**:
-If $\theset{f_k}$ is pointwise bounded and equicontinuous, then there exists a continuous $f$ such that $f_k \mapsvia{u} f$ on every compact set.
-
 
 
 

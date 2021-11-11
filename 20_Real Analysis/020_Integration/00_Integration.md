@@ -247,6 +247,18 @@ If $f_n$ is a sequence of nonnegative measurable functions, then
 #todo Prove
 
 
+:::{.example title="Using Fatou to compute the limit of a sequence of integrals"}
+\[
+\lim _{n \rightarrow \infty} \int_{0}^{\infty} \frac{n^{2}}{1+n^{2} x^{2}} e^{-\frac{x^{2}}{n^{3}}} d x
+\overset{\text{Fatou}}\geq
+\int_{0}^{\infty} \lim _{n \rightarrow \infty}  \frac{n^{2}}{1+n^{2} x^{2}} e^{-\frac{x^{2}}{n^{3}}} d x \to \int \infty
+.\]
+
+Note that MCT might work, but showing that this is non-decreasing in $n$ is difficult.
+:::
+
+
+
 :::{.proposition title="Commuting Sums with Integrals"}
 \[
 f_n \geq 0 \text{ and } \sum_n \int \abs{f_n} = \sum_n \norm{f_n}_{L^1} < \infty \implies \sum_n \int f_n = \int \sum_n f_n
