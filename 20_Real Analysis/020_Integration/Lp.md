@@ -60,3 +60,47 @@ Use Riesz Representation for Hilbert spaces.
 $L^1 \subset (L^\infty)\dual$, since the isometric mapping is always injective, but *never* surjective.
 :::
 
+:::{.proposition title="?"}
+\[
+f_k \converges{\ae}\to f \text{ and }
+\norm{f_k}_p \leq M
+\implies f\in L^p \text{ and } \norm{f}_p \leq M
+.\]
+:::
+
+:::{.proof title="?"}
+*Proof:* Apply Fatou to $\abs{f}^p$:
+\[
+\int \abs{f}^p = \int \liminf \abs{f_k}^p \leq \liminf \int \abs{f_k}^p = M
+.\]
+:::
+
+:::{.proposition title="Continuity in $L^1$ holds for all $L^p$, translation operators are continuous"}
+\[
+f \text{ uniformly continuous }: \quad
+\norm{\tau_h f - f}_{L^p(X)} \convergesto{h\to 0} 0 && \forall p
+.\]
+:::
+
+:::{.proof title="?"}
+Take $g_k \in C_c^0 \to f$, then $g$ is uniformly continuous, so
+\[
+\norm{\tau_h f - f}_p
+\leq \norm{\tau_h f - \tau_h g}_p + \norm{\tau_h g - g}_p + \norm{g - f}_p \to 0
+.\]
+:::
+
+:::{.proposition title="?"}
+\[
+(f, g) \in L^p\times L^q \implies f\convolve g \text{ uniformly continuous}
+.\]
+:::
+
+:::{.proof title="?"}
+Use Young's inequality
+\[
+\norm{\tau_h(f\ast g) - f\ast g}_\infty
+&= \norm{(\tau_h f - f) \ast g}_\infty \leq \norm{\tau_hf - f}_p \norm{g}_q \to 0
+.\]
+
+:::

@@ -4,6 +4,24 @@ order: 30
 
 # Continuity
 
+
+:::{.remark}
+Some inclusions on the real line:
+
+- Differentiable with a bounded derivative $\subset$ Lipschitz continuous $\subset$ absolutely continuous $\subset$ uniformly continuous $\subset$ continuous
+    
+Proofs: 
+
+- Mean Value Theorem, Triangle inequality, Definition of absolute continuity specialized to one interval, Definition of uniform continuity
+
+
+:::
+
+
+
+
+
+
 :::{.lemma title="Function discontinuous on the rationals"}
 There is a function discontinuous precisely on $\QQ$.
 :::
