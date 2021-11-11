@@ -42,6 +42,17 @@ Sequences $f_k \converges{a.e.}\to f$ but $f_k \converges{L^p}{\not\to} f$:
 	> Converges a.e., but not uniformly, not pointwise, and not in norm.
 :::
 
+:::{.remark}
+Notions of convergence:
+
+1. Uniform
+2. Pointwise
+3. Almost everywhere
+4. In norm
+
+Uniform $\implies$ pointwise $\implies$ almost everywhere, but in general non of these can be reversed.
+:::
+
 :::{.proposition title="The four big counterexamples in convergence"}
 \envlist
 
@@ -75,6 +86,22 @@ We have $1 \implies 2 \implies 3$, and in general no implication can be reversed
   ![[image_2021-05-21-16-49-09.png]]
 
   - Then $\int f_n = 1/2^n \to 0$, but $f_n\not\to 0$ pointwise since for every $x$, there are infinitely many $n$ for which $f_n(x) = 0$ and infinitely many for which $f_n(x) = 1$.
+
+Almost everywhere convergence does not imply $L^p$ convergence for any $1\leq p \leq \infty$. 
+In the following examples, $f_k \converges{a.e.}\to f$ but $f_k \converges{L^p}{\not\to} f$:
+
+- For $1\leq p < \infty$:
+	The skateboard to infinity, $f_k = \chi_{[k, k+1]}$.
+
+	- Then $f_k \converges{a.e.}\to 0$ but $\norm{f_k}_p = 1$ for all $k$.
+	- Converges pointwise and a.e., but not uniformly and not in norm.
+
+- For $p = \infty$:
+  The sliding boxes $f_k = k \cdot \chi_{[0, \frac 1 k]}$.
+
+  - Then similarly $f_k \converges{a.e.}\to 0$, but $\norm{f_k}_p = 1$ and $\norm{f_k}_\infty = k \to \infty$
+
+  - Converges a.e., but not uniformly, not pointwise, and not in norm.
 
 :::
 
