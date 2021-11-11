@@ -4,17 +4,6 @@ order: 999
 
 # Appendix
 
-:::{.proposition title="?"}
-Measurability is not preserved by homeomorphisms.
-:::
-
-:::{.proof title="?"}
-By counterexample: there is a homeomorphism that takes that Cantor set (measure zero) to a fat Cantor set.
-
-#todo Expand
-
-:::
-
 - Some inclusions on the real line:
 
     - Differentiable with a bounded derivative $\subset$ Lipschitz continuous $\subset$ absolutely continuous $\subset$ uniformly continuous $\subset$ continuous
@@ -67,7 +56,7 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 
 :::{.proposition title="?"}
 \[
-f_k \converges{a.e.}\to f ,\quad
+f_k \converges{\ae}\to f \text{ and }
 \norm{f_k}_p \leq M
 \implies f\in L^p \text{ and } \norm{f}_p \leq M
 .\]

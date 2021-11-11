@@ -238,3 +238,14 @@ If $(X, \mcb, \mu)$ is a Borel measure space where $\mu$ is finite on all balls 
 :::
 
 
+:::{.proposition title="?"}
+Measurability is not preserved by homeomorphisms.
+:::
+
+:::{.proof title="?"}
+By counterexample: there is a homeomorphism that takes that Cantor set (measure zero) to a fat Cantor set.
+
+#todo Expand
+
+:::
+
