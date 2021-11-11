@@ -65,14 +65,6 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 - Every compact subset of a Hausdorff space is closed
 
 
-## Big Counterexamples
-
-
-## Errata
-
-
-
-
 **Lemma:**
 \[
 f_k \converges{a.e.}\to f ,\quad

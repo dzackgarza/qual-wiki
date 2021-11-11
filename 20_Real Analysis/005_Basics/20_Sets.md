@@ -2,7 +2,7 @@
 order: 20
 ---
 
-# Sets
+# Basics
 
 ## Compactness
     
@@ -80,7 +80,7 @@ Its complement is a union of open intervals, and can't contain an interval since
 The Cantor set is nowhere dense.
 :::
 
-## Functions
+## Smallness for functions
 
 :::{.proposition title="Existence of Smooth Compactly Supported Functions"}
 There exist smooth compactly supported functions, e.g. take 
@@ -89,4 +89,13 @@ f(x) = e^{-\frac{1}{x^2}} \chi_{(0, \infty)}(x)
 .\]
 :::
 
+- **Arzela - Ascoli 1**:
+If $\mathcal{F}$ is pointwise bounded and equicontinuous, then $\mathcal{F}$ is totally bounded in the uniform metric and its closure $\overline{\mathcal{F}} \in C(X)$ in the space of continuous functions is compact.
+
+- **Arzela - Ascoli 2**:
+If $\theset{f_k}$ is pointwise bounded and equicontinuous, then there exists a continuous $f$ such that $f_k \mapsvia{u} f$ on every compact set.
+
 #todo Proof
+
+
+

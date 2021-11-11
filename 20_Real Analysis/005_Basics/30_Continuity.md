@@ -48,3 +48,15 @@ Fix $\eps>0$, we'll find a $\delta$ that works for all $x\in X$ uniformly.
 For every $x\in X$, pick a $\delta_x$ neighborhood satisfying the conditions for (assumed) continuity.
 Take an open cover by $\delta_x/2$ balls, extract a finite subcover, take $\delta$ the minimal radius.
 :::
+
+
+:::{.definition title="Equicontinuity"}
+If $\mathcal F \subset C(X)$ is a family of continuous functions on $X$, then $\mathcal F$ *equicontinuous* at $x$ iff
+
+\[
+\forall \varepsilon > 0 ~~\exists U \ni x \text{ such that } y\in U \implies \abs{f(y) - f(x)} < \varepsilon \quad \forall f\in \mathcal{F}
+.\]
+
+:::
+
+
