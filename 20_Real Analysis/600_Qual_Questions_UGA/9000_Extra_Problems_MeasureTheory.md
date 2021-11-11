@@ -26,24 +26,21 @@ order: 9000
 .\]
 
 
-
-## By Topic
-
-### Topology
+## Topology
 
 - Show that every compact set is closed and bounded.
 - Show that if a subset of a metric space is complete and totally bounded, then it is compact.
 - Show that if $K$ is compact and $F$ is closed with $K, F$ disjoint then $\dist(K, F) > 0$.
 
-### Continuity
+## Continuity
 
 - Show that a continuous function on a compact set is uniformly continuous.
 
-### Differentiation
+## Differentiation
 
 - Show that if $f\in C^1(\RR)$ and both $\lim_{x\to \infty} f(x)$ and $\lim_{x\to \infty} f'(x)$ exist, then $\lim_{x\to\infty} f'(x)$ must be zero.
 
-### Advanced Limitology
+## Advanced Limitology
 
 - If $f$ is continuous, is it necessarily the case that $f'$ is continuous?
 - If $f_n \to f$, is it necessarily the case that $f_n'$ converges to $f'$ (or at all)?
@@ -54,7 +51,7 @@ order: 9000
 - Show that if $m(E) < \infty$ and $f_n\to f$ uniformly, then $\lim \int_E f_n = \int_E f$.
 
 
-Uniform Convergence
+## Uniform Convergence
 
 - Show that a uniform limit of bounded functions is bounded.
 - Show that a uniform limit of continuous function is continuous.
@@ -67,8 +64,7 @@ Uniform Convergence
 - Prove that uniform convergence implies pointwise convergence implies a.e. convergence, but none of the implications may be reversed.
 - Show that $\sum {x^n \over n!}$ converges uniformly on any compact subset of $\RR$. 
 
-Measure Theory
-
+## Measure Theory
 
 - Show that continuity of measure from above/below holds for outer measures.
 
@@ -86,13 +82,13 @@ Integrability
 - Show that step functions are dense in $L^1$.
 - Show that smooth compactly supported functions are dense in $L^1$.
 
-Convergence
+## Convergence
 
 - Prove Fatou's lemma using the Monotone Convergence Theorem.
 - Show that if $\theset{f_n}$ is in $L^1$ and $\sum \int \abs{f_n} < \infty$ then $\sum f_n$ converges to an $L^1$ function and 
   $$\int \sum f_n = \sum \int f_n.$$
 
-Convolution
+## Convolution
 
 - Show that if $f, g$ are continuous and compactly supported, then so is $f\ast g$.
 - Show that if $f\in L^1$ and $g$ is bounded, then  $f\ast g$ is bounded and uniformly continuous.
@@ -104,7 +100,7 @@ Convolution
   - $f\in L^1$ and $g$ smooth and compactly supported (and in fact $f\ast g$ is smooth)
 - Show that if $f\in L^1$ and $g'$ exists with $\dd{g}{x_i}$ all bounded, then $$\dd{}{x_i}(f\ast g) = f \ast \dd{g}{x_i}$$
 
-Fourier Analysis
+## Fourier Analysis
 
 - Show that if $f\in L^1$ then $\hat f$ is bounded and uniformly continuous. 
 - Is it the case that $f\in L^1$ implies $\hat f\in L^1$?
@@ -116,7 +112,7 @@ Fourier Analysis
   - Give an example showing that this fails if $g$ is not bounded.
 - Show that if $f\in C^1$ then $f$ is equal to its Fourier *series*.
 
-Approximate Identities
+## Approximate Identities
 
 - Show that if $\phi$ is an approximate identity, then $$\norm{f\ast \phi_t - f}_1 \converges{t\to 0}\to 0.$$
   - Show that if additionally $\abs{\phi(x)} \leq c(1 + \abs{x})^{-n-\eps}$ for some $c,\eps>0$, then this converges is almost everywhere.
@@ -135,7 +131,7 @@ L^\infty(X) &\subset L^2(X) \subset L^1(X) \\
 .\]
 
 
-### Unsorted
+## Unsorted
 
 
 :::{.proposition title="Volumes of Rectangles"}
@@ -152,13 +148,3 @@ R \subseteq \Union_j R_j &\implies \abs R \leq \sum \abs R_j
 - Show that every open $U \subseteq \RR^n$ is a countable union of *almost* disjoint closed cubes.
 - Show that that Cantor middle-thirds set is compact, totally disconnected, and perfect, with outer measure zero.
 - Prove the Borel-Cantelli lemma.
-
-## Rectangles
-
-## Outer Measure
-
-## Lebesgue Measurable Sets
-
-## Lebesgue Measurable Functions
-
-
