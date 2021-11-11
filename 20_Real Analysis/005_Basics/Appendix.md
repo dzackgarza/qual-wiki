@@ -4,13 +4,16 @@ order: 999
 
 # Appendix
 
-
-Lemma:
+:::{.proposition title="?"}
 Measurability is not preserved by homeomorphisms.
+:::
 
-> Counterexample: there is a homeomorphism that takes that Cantor set (measure zero) to a fat Cantor set
+:::{.proof title="?"}
+By counterexample: there is a homeomorphism that takes that Cantor set (measure zero) to a fat Cantor set.
 
-## Undergraduate Analysis Review
+#todo Expand
+
+:::
 
 - Some inclusions on the real line:
 
@@ -42,6 +45,11 @@ $\RR$ being complete is equivalent to "absolutely convergent implies convergent"
 
 - Compacts subsets $K \subseteq \RR^n$ are also *sequentially compact*, i.e. every sequence in $K$ has a convergent subsequence.
 
+- Closed subsets of compact sets are compact.
+
+- Every compact subset of a Hausdorff space is closed
+
+
 - **Urysohn's Lemma:**
 For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there is a function $f:X \to I$ such that $f(A) = 0$ and $f(B) = 1$.
 
@@ -56,41 +64,54 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 		
 - Uniform convergence allows commuting sums with integrals
 
-- Closed subsets of compact sets are compact.
-
-- Every compact subset of a Hausdorff space is closed
 
 
-**Lemma:**
+
+:::{.proposition title="?"}
 \[
 f_k \converges{a.e.}\to f ,\quad
 \norm{f_k}_p \leq M
 \implies f\in L^p \text{ and } \norm{f}_p \leq M
 .\]
+:::
 
-> *Proof:* Apply Fatou to $\abs{f}^p$:
+:::{.proof title="?"}
+*Proof:* Apply Fatou to $\abs{f}^p$:
 \[
 \int \abs{f}^p = \int \liminf \abs{f_k}^p \leq \liminf \int \abs{f_k}^p = M
 .\]
+:::
 
-**Lemma:**
+
+:::{.proposition title="?"}
 If $f$ is uniformly continuous, then
 \[
 \norm{\tau_h f - f}_p \converges{L^p}\to 0 \quad \text{for all } p
 .\]
+:::
 
-**Lemma**:
+
+:::{.proposition title="?"}
 $\norm{\tau_h f - f}_p \to 0$ for every $p$.
 
 > - i.e. "Continuity in $L^1$" holds for all $L^p$.
 > - i.e. Translation operators are continuous.
 
-> *Proof:*
-> Take $g_k \in C_c^0 \to f$, then $g$ is uniformly continuous, so
+:::
+
+
+
+:::{.proof title="?"}
+*Proof:*
+Take $g_k \in C_c^0 \to f$, then $g$ is uniformly continuous, so
 \[
 \norm{\tau_h f - f}_p
 \leq \norm{\tau_h f - \tau_h g}_p + \norm{\tau_h g - g}_p + \norm{g - f}_p \to 0
 .\]
+:::
+
+
+
 
 **Lemma:**
 For $f\in L^p, g\in L^q$, $f\ast g$ is uniformly continuous.
