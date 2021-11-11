@@ -93,6 +93,40 @@ g(x) \da e^{-\pi \abs{t}^2} \implies \hat g(\xi) = g(\xi) \qtext{and}
 .\]
 :::
 
+:::{.proposition title="Useful properties of the Fourier transform"}
+\[
+\widehat{f\ast g}(\xi)
+&= \hat f(\xi) \cdot \hat g (\xi) \\
+\widehat{\tau_h f}(\xi)
+&= e^{2\pi i \xi \cdot h}\widehat{f}(\xi) \\
+\widehat{e^{2\pi i \xi \cdot h}f(\xi)}
+&= \tau_{-h}\widehat f(\xi) \\
+\widehat{f \circ T}(\xi)
+&= \abs{\det T}\inv (\hat f \circ T^{-t})(\xi) \\
+\dd{}{\xi} \widehat{f}(\xi)
+&= -2\pi i \cdot \widehat {\xi f} (\xi) \\
+\widehat{\dd{}{\xi} f}(\xi)
+&= 2\pi i \xi \cdot \widehat{f}(\xi)
+.\]
+:::
+
+:::{.example title="Some transform pairs"}
+\[
+\text{Dirichlet:}
+&& \chi_{\theset{-\frac{1}{2} \leq x \leq \frac{1}{2}}}
+&\iff \mathrm{sinc}(\xi) \\
+\text{Fejer:}
+&& \chi_{\theset{-1 \leq x \leq 1}} (1 - \abs{x})
+&\iff \mathrm{sinc}^2(\xi) \\
+\text{Poisson:}
+&& \frac{1}{\pi} \frac{1}{1+x^2}
+&\iff e^{2\pi \abs{\xi}} \\
+\text{Gauss-Weierstrass:}
+&& e^{-\pi x^2}
+&\iff e^{-\pi \xi^2}
+.\]
+:::
+
 ## Approximate Identities 
 
 :::{.example title="of an approximation to the identity."}
@@ -170,6 +204,4 @@ Take $q = 1$ in Young's inequality to obtain
 :::{.proposition title="$L^1$ is closed under convolution."}
 If $f, g \in L^1$ then $f\ast g\in L^1$.
 :::
-
-
 
