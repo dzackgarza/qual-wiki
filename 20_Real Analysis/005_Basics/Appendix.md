@@ -93,7 +93,6 @@ f \text{ uniformly continuous }: \quad
 :::
 
 :::{.proof title="?"}
-*Proof:*
 Take $g_k \in C_c^0 \to f$, then $g$ is uniformly continuous, so
 \[
 \norm{\tau_h f - f}_p
@@ -102,7 +101,9 @@ Take $g_k \in C_c^0 \to f$, then $g$ is uniformly continuous, so
 :::
 
 :::{.proposition title="?"}
-For $f\in L^p, g\in L^q$, $f\ast g$ is uniformly continuous.
+\[
+(f, g) \in L^p\times L^q \implies f\convolve g \text{ uniformly continuous}
+.\]
 :::
 
 :::{.proof title="?"}
@@ -115,6 +116,10 @@ Use Young's inequality
 :::
 
 :::{.proposition title="?"}
+\[
+\int f \cdot \phi = 0 \quad \forall \phi\in C_c^0 \implies f = 0 \quad \ae
+.\]
+
 If $\int f \phi = 0$ for every $\phi \in C_c^0$, then $f = 0$ almost everywhere.
 :::
 
