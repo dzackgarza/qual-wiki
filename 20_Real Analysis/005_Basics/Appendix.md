@@ -64,36 +64,8 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 
 - Every compact subset of a Hausdorff space is closed
 
-- Showing that a series converges:
-*(Todo)*
 
 ## Big Counterexamples
-
-### For Limits
-
-- Differentiability $\implies$ continuity but not the converse: $f(x) = \abs{x}$.
-
-  - The Weierstrass function is continuous but nowhere differentiable.
-
-- $f$ continuous does not imply $f'$ is continuous: $f(x) = x^2 \sin(x)$.
-
-- Limit of derivatives may not equal derivative of limit:
-  $$
-  f(x) = \frac{\sin(nx)}{n^c} \text{ where } 0 < c < 1.
-  $$
-  
-  - Also shows that a sum of differentiable functions may not be differentiable.
-
-- Limit of integrals may not equal integral of limit:
-$$
-\sum \indic{x = q_n \in \QQ}
-.$$
-
-- A sequence of continuous functions converging to a discontinuous function:
-$$
-f(x) = x^n \text{ on } [0, 1]
-.$$
-
 
 
 ## Errata
@@ -101,9 +73,9 @@ f(x) = x^n \text{ on } [0, 1]
 - **Equicontinuity**:
 If $\mathcal F \subset C(X)$ is a family of continuous functions on $X$, then $\mathcal F$ *equicontinuous* at $x$ iff
 
-\begin{align*}
+\[
 \forall \varepsilon > 0 ~~\exists U \ni x \text{ such that } y\in U \implies \abs{f(y) - f(x)} < \varepsilon \quad \forall f\in \mathcal{F}
-.\end{align*}
+.\]
 
 - **Arzela - Ascoli 1**:
 If $\mathcal{F}$ is pointwise bounded and equicontinuous, then $\mathcal{F}$ is totally bounded in the uniform metric and its closure $\overline{\mathcal{F}} \in C(X)$ in the space of continuous functions is compact.
@@ -112,35 +84,25 @@ If $\mathcal{F}$ is pointwise bounded and equicontinuous, then $\mathcal{F}$ is 
 If $\theset{f_k}$ is pointwise bounded and equicontinuous, then there exists a continuous $f$ such that $f_k \mapsvia{u} f$ on every compact set.
 
 
-**Example:**
-Using Fatou to compute the limit of a sequence of integrals:
-
-\begin{align*}
-\lim _{n \rightarrow \infty} \int_{0}^{\infty} \frac{n^{2}}{1+n^{2} x^{2}} e^{-\frac{x^{2}}{n^{3}}} d x
-\overset{\text{Fatou}}\geq
-\int_{0}^{\infty} \lim _{n \rightarrow \infty}  \frac{n^{2}}{1+n^{2} x^{2}} e^{-\frac{x^{2}}{n^{3}}} d x \to \int \infty
-.\end{align*}
-
-> Note that MCT might work, but showing that this is non-decreasing in $n$ is difficult.
 
 
 **Lemma:**
-\begin{align*}
+\[
 f_k \converges{a.e.}\to f ,\quad
 \norm{f_k}_p \leq M
 \implies f\in L^p \text{ and } \norm{f}_p \leq M
-.\end{align*}
+.\]
 
 > *Proof:* Apply Fatou to $\abs{f}^p$:
-\begin{align*}
+\[
 \int \abs{f}^p = \int \liminf \abs{f_k}^p \leq \liminf \int \abs{f_k}^p = M
-.\end{align*}
+.\]
 
 **Lemma:**
 If $f$ is uniformly continuous, then
-\begin{align*}
+\[
 \norm{\tau_h f - f}_p \converges{L^p}\to 0 \quad \text{for all } p
-.\end{align*}
+.\]
 
 **Lemma**:
 $\norm{\tau_h f - f}_p \to 0$ for every $p$.
@@ -150,20 +112,20 @@ $\norm{\tau_h f - f}_p \to 0$ for every $p$.
 
 > *Proof:*
 > Take $g_k \in C_c^0 \to f$, then $g$ is uniformly continuous, so
-\begin{align*}
+\[
 \norm{\tau_h f - f}_p
 \leq \norm{\tau_h f - \tau_h g}_p + \norm{\tau_h g - g}_p + \norm{g - f}_p \to 0
-.\end{align*}
+.\]
 
 **Lemma:**
 For $f\in L^p, g\in L^q$, $f\ast g$ is uniformly continuous.
 
 > *Proof*:
 > Use Young's inequality
-\begin{align*}
+\[
 \norm{\tau_h(f\ast g) - f\ast g}_\infty
 &= \norm{(\tau_h f - f) \ast g}_\infty \leq \norm{\tau_hf - f}_p \norm{g}_q \to 0
-.\end{align*}
+.\]
 
 **Lemma**:
 If $\int f \phi = 0$ for every $\phi \in C_c^0$, then $f = 0$ almost everywhere.
@@ -177,7 +139,7 @@ If $\int f \phi = 0$ for every $\phi \in C_c^0$, then $f = 0$ almost everywhere.
 
 **Some Useful Properties:**
 
-\begin{align*}
+\[
 \widehat{f\ast g}(\xi)
 &= \hat f(\xi) \cdot \hat g (\xi) \\
 \widehat{\tau_h f}(\xi)
@@ -190,11 +152,11 @@ If $\int f \phi = 0$ for every $\phi \in C_c^0$, then $f = 0$ almost everywhere.
 &= -2\pi i \cdot \widehat {\xi f} (\xi) \\
 \widehat{\dd{}{\xi} f}(\xi)
 &= 2\pi i \xi \cdot \widehat{f}(\xi)
-.\end{align*}
+.\]
 
 **Some Useful Transform Pairs:**
 
-\begin{align*}
+\[
 \text{Dirichlet:}
 && \chi_{\theset{-\frac{1}{2} \leq x \leq \frac{1}{2}}}
 &\iff \mathrm{sinc}(\xi) \\
@@ -207,4 +169,4 @@ If $\int f \phi = 0$ for every $\phi \in C_c^0$, then $f = 0$ almost everywhere.
 \text{Gauss-Weierstrass:}
 && e^{-\pi x^2}
 &\iff e^{-\pi \xi^2}
-.\end{align*}
+.\]

@@ -130,8 +130,7 @@ $$
 Measurable, non-negative, increasing pointwise a.e. allows commuting limits and integrals.
 :::
 
-:::{.proof title="of MCT, todo"}
-:::
+#todo Proof
 
 :::{.theorem title="Dominated Convergence"}
 If $f_n \in L^1$ and $f_n \to f$ almost everywhere with $\abs {f_n} \leq g$ for some $g\in L^1$, then $f\in L^1$ and
@@ -148,8 +147,7 @@ As a consequence,
 
 :::
 
-:::{.proof title="of DCT, todo"}
-:::
+#todo Proof
 
 :::{.theorem title="Generalized DCT"}
 If 
@@ -194,6 +192,27 @@ Proceed by showing $\limsup \int f_n \leq \int f \leq \liminf \int f_n$:
 .\]
 
   - Here we use that $g_n + f_n \to g+f$ with $0 \leq \abs{f_n} + f_n \leq g_n + f_n$ so Fatou's lemma again applies.
+:::
+
+
+:::{.remark}
+The converse to the DCT does not hold, i.e. $L^p$ boundedness does not imply a.e. boundedness, i.e. it is not true that $\lim \int f_k = \int f$ implies that $\exists g\in L^p$ such that $f_k < g$ a.e. for every $k$.
+
+Take
+
+- $b_k = \sum_{j=1}^k \frac 1 j \to \infty$
+
+- $f_k = \chi_{[b_k, b_{k+1}]}$
+
+Then
+
+- $f_k \converges{a.e.}\to f = 0$,
+
+- $\int f_k = \frac 1 k \to 0 \implies \norm{f_k}_p \to 0$,
+
+- $0 = \int f = \lim \int f_k = 0$
+
+- But $g > f_k \implies g > \norm{f_k}_\infty = 1$ a.e. $\implies g\not\in L^p(\RR)$.
 :::
 
 :::{.proposition title="Convergence in $L^1$ implies convergence of norms"}

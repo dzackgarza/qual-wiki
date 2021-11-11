@@ -75,3 +75,27 @@ Even worse: every continuous function is a uniform limit of polynomials by the W
 .\]
 :::
 
+- Differentiability $\implies$ continuity but not the converse: $f(x) = \abs{x}$.
+
+  - The Weierstrass function is continuous but nowhere differentiable.
+
+- $f$ continuous does not imply $f'$ is continuous: $f(x) = x^2 \sin(x)$.
+
+- Limit of derivatives may not equal derivative of limit:
+  $$
+  f(x) = \frac{\sin(nx)}{n^c} \text{ where } 0 < c < 1.
+  $$
+  
+  - Also shows that a sum of differentiable functions may not be differentiable.
+
+- Limit of integrals may not equal integral of limit:
+$$
+\sum \indic{x = q_n \in \QQ}
+.$$
+
+- A sequence of continuous functions converging to a discontinuous function:
+$$
+f(x) = x^n \text{ on } [0, 1]
+.$$
+
+
