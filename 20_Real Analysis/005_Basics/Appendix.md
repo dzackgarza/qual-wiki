@@ -4,10 +4,6 @@ order: 999
 
 # Appendix
 
-An alternative characterization of **uniform continuity**:
-$$
-\left\|\tau_{y} f-f\right\|_{u} \rightarrow 0 \text { as } y \rightarrow 0
-$$
 
 Lemma:
 Measurability is not preserved by homeomorphisms.

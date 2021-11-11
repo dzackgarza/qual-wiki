@@ -22,6 +22,13 @@ $D_f$ is always an $F_\sigma$ set, which follows by considering the oscillation 
 Use that $\omega_f(x) = 0 \iff f$ is continuous at $x$, and $D_f = \union_n A_{\frac 1 n}$ where $A_\varepsilon = \theset{\omega_f \geq \varepsilon}$ is closed.
 :::
 
+:::{.remark}
+An alternative characterization of **uniform continuity**:
+$$
+\left\|\tau_{y} f-f\right\|_{u} \rightarrow 0 \text { as } y \rightarrow 0
+$$
+:::
+
 :::{.proposition title="Lipschitz implies uniformly continuous"}
 If $f$ is Lipschitz on $X$, then $f$ is uniformly continuous on $X$.
 
