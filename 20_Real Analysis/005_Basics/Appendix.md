@@ -18,9 +18,9 @@ Measurability is not preserved by homeomorphisms.
 
 - Some inclusions on the real line:
 
-    > Differentiable with a bounded derivative $\subset$ Lipschitz continuous $\subset$ absolutely continuous $\subset$ uniformly continuous $\subset$ continuous
-    >
-    > Proofs: Mean Value Theorem, Triangle inequality, Definition of absolute continuity specialized to one interval, Definition of uniform continuity
+    - Differentiable with a bounded derivative $\subset$ Lipschitz continuous $\subset$ absolutely continuous $\subset$ uniformly continuous $\subset$ continuous
+    
+    - Proofs: Mean Value Theorem, Triangle inequality, Definition of absolute continuity specialized to one interval, Definition of uniform continuity
 
 - **Bolzano-Weierstrass**:
 Every bounded sequence has a convergent subsequence.
@@ -71,7 +71,7 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 
 ### For Limits
 
-- Differentiability $\implies$ continuity but not the converse:
+- Differentiability $\implies$ continuity but not the converse: $f(x) = \abs{x}$.
 
   - The Weierstrass function is continuous but nowhere differentiable.
 
@@ -94,7 +94,6 @@ $$
 f(x) = x^n \text{ on } [0, 1]
 .$$
 
-- The Thomae function #todo
 
 ### For Convergence
 
@@ -106,12 +105,9 @@ f(x) = x^n \text{ on } [0, 1]
 
 Uniform $\implies$ pointwise $\implies$ almost everywhere.
 
-> See Section 17.3.
-
 
 #### Almost everywhere convergence does not imply $L^p$ convergence for any $1\leq p \leq \infty$
 
-> See notes section 17.3.
 
 Sequences $f_k \converges{a.e.}\to f$ but $f_k \converges{L^p}{\not\to} f$:
 
