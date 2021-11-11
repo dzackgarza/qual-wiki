@@ -1,3 +1,8 @@
+---
+order: 9999
+title: Problem Sets
+---
+
 # Extra Problems from Problem Sets
 
 ## Continuous on compact implies uniformly continuous
