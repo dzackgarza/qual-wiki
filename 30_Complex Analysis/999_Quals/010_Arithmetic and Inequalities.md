@@ -1,5 +1,9 @@
 # Complex Arithmetic
 
+## Fall 2021 # 1
+
+???
+
 ## Spring 2020 HW 1 # 2 #work 
 Prove the following inequality, and explain when equality holds:
 \[

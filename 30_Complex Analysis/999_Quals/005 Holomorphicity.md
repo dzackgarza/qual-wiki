@@ -1,5 +1,4 @@
-# Complex Differentiability
-
+# Holomorphicity 
 
 ## Spring 2020 HW 1 # 7 #work
 Prove that $f(z) = \abs{z}^2$ has a derivative at $z=0$ and nowhere else.

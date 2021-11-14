@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "030 Identity Principle",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
+    },
+    {
+      "basename": "05_Advice and Essentials",
+      "path": "20_Real Analysis/005_Basics/05_Advice and Essentials.md"
+    },
+    {
+      "basename": "00_Notation_Real_Analysis",
+      "path": "20_Real Analysis/005_Basics/00_Notation_Real_Analysis.md"
+    },
+    {
+      "basename": "10_Topics",
+      "path": "20_Real Analysis/000_Resources/10_Topics.md"
+    },
+    {
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
+    },
+    {
       "basename": "90_Counterexamples",
       "path": "20_Real Analysis/005_Basics/90_Counterexamples.md"
     },
@@ -63,10 +83,6 @@
     {
       "basename": "Typsetting_Progress",
       "path": "Typsetting_Progress.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
     {
       "basename": "9900_Appendix_Inequalities",
@@ -183,18 +199,6 @@
     {
       "basename": "100_Extra Questions",
       "path": "30_Complex Analysis/990_Exercises/100_Extra Questions.md"
-    },
-    {
-      "basename": "Maps of the disc",
-      "path": "30_Complex Analysis/900 Unsorted/Maps of the disc.md"
-    },
-    {
-      "basename": "025_Blaschke_Products",
-      "path": "30_Complex Analysis/900 Unsorted/025_Blaschke_Products.md"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     }
   ],
   "omittedPaths": [],

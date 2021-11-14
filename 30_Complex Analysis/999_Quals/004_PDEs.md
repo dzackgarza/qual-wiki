@@ -1,6 +1,5 @@
 # PDEs
 
-
 ## Spring 2020 HW 1 # 10 #work
 
 a. Show that in polar coordinates, the Cauchy-Riemann equations take the form
