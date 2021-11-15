@@ -195,11 +195,16 @@ For the case at hand, a solution I liked from MSE:
 g(z) = \qty{c_{-m}z^{-m} + \cdots + c_{-1}z\inv} + \qty{c_0 + c_1 z + \cdots} \da p(1/z) + h(z)
 ,\]
 where $p$ is polynomial of degree exactly $m$ (since $c_{-m} \neq 0$) and $h$ is entire.
+In particular, $z=0$ is not a singularity of $h$.
+
+- Now
+\[
+g(z) = p(1/z) + h(z) \implies f(z) = p(z) + h(1/z)
+.\]
 
 - Then
 \[
-f(z) = g(1/z) = p(z) + h(1/z) \\
-\implies f(z) - p(z) = h(1/z) \convergesto{\abs z\to \infty} L\da h(0)
+f(z) - p(z) = h(1/z) \convergesto{\abs z\to \infty} L\da h(0)
 ,\]
 since holomorphic functions are continuous.
 
@@ -207,7 +212,7 @@ since holomorphic functions are continuous.
   $h$ is bounded by $L$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$.
   So $h$ is bounded on all of $\CC$, and thus constant by Liouville, and thus $h(1/z) = L$ for all $z$.
 
-- So $f(z) = p(z) + L$ is a polynomial
+- So $f(z) = p(z) + h(1/z) = p(z) + L$ is a polynomial of degree 
 - Why $\deg f \geq N$: it suffices to show $\deg p \geq N$ since $h(0)$ is a constant.
 
 
