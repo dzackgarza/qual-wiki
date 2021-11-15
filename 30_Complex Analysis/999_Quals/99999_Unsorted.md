@@ -191,7 +191,8 @@ where $p$ is polynomials an $h$ is entire.
 
 - Then
 \[
-f(z) = g(1/z) = p(z) + h(1/z) \implies f(z) - p(z) = h(1/z) \convergesto{\abs z\to \infty} L\da h(0)
+f(z) = g(1/z) = p(z) + h(1/z) \\
+\implies f(z) - p(z) = h(1/z) \convergesto{\abs z\to \infty} L\da h(0)
 .\]
 
 - Then $f(z) - p(z)$ is an entire function with a finite limit $L$ at $\infty$.
