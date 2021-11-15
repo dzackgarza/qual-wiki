@@ -209,11 +209,11 @@ f(z) - p(z) = h(1/z) \convergesto{\abs z\to \infty} L\da h(0)
 since holomorphic functions are continuous.
 
 - Then $h$ is an entire function with a finite limit $L$ at $\infty$.
-  $h$ is bounded by $L$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$.
+  $h$ is bounded by $L$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$ by compactness and the maximum modulus principle.
   So $h$ is bounded on all of $\CC$, and thus constant by Liouville, and thus $h(1/z) = L$ for all $z$.
 
-- So $f(z) = p(z) + h(1/z) = p(z) + L$ is a polynomial of degree 
-- Why $\deg f \geq N$: it suffices to show $\deg p \geq N$ since $h(0)$ is a constant.
+- So $f(z) = p(z) + h(1/z) = p(z) + L$ is a polynomial of degree exactly $m\da \deg p$.
+- Why $m \geq N$: 
 
 
 
