@@ -184,10 +184,10 @@ For the case at hand, a solution I liked from MSE:
   \[
   \abs{g(z)} \geq A \abs{1\over z}^n \to\infty
 \quad \text{ for }
-  \abs{1/z} \geq R (\iff \abs{z} < 1/R)
+  \abs{1/z} \geq R \,\, (\iff \abs{z} < 1/R)
   ,\]
   so $g$ is unbounded near $z=0$.
-  - It can't be essential: if so, the image $g( D_{1/R}(0)\smz )$ would be dense in $\CC$, but every $z$ in the image satisfies $z \in D_{AR^N}^c$ since $\abs{z} > AR^N$. $\contradiction$
+  - It can't be essential: if so, take the neighborhood of $z=0$ given by $U\da D_{1\over R}(0)\smz = \ts{z\st 0< \abs{z} < {1\over R} }$, then $g(U) \subseteq \CC$ would be dense, but every $z$ in the image satisfies $z \in D_{AR^N}^c$ since $\abs{z} > AR^N$. $\contradiction$
 
 - Since $z=0$ is a pole, write
 \[
