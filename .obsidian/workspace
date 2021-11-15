@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
+            "file": "index.md",
             "mode": "source"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
+                "file": "index.md"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -257,6 +257,8 @@
   },
   "active": "ddd3b6e9ca8025c4",
   "lastOpenFiles": [
+    "index.md",
+    "Further Studying.md",
     "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
     "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
     "20_Real Analysis/005_Basics/00_Notation_Real_Analysis.md",
@@ -264,8 +266,6 @@
     "30_Complex Analysis/999_Quals/000_Preface.md",
     "20_Real Analysis/005_Basics/90_Counterexamples.md",
     "20_Real Analysis/005_Basics/50_Commuting_Limits.md",
-    "20_Real Analysis/005_Basics/Appendix.md",
-    "figures/2019-12-19-16-49-56.png.md",
-    "20_Real Analysis/005_Basics/Integrability.md"
+    "20_Real Analysis/005_Basics/Appendix.md"
   ]
 }

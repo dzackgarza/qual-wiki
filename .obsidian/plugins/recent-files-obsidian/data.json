@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "Further Studying",
+      "path": "Further Studying.md"
+    },
+    {
       "basename": "030 Identity Principle",
       "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "004 CR and PDEs",
       "path": "30_Complex Analysis/999_Quals/004 CR and PDEs.md"
-    },
-    {
-      "basename": "002_Real_Multivariable",
-      "path": "30_Complex Analysis/999_Quals/002_Real_Multivariable.md"
-    },
-    {
-      "basename": "100_Extra Questions",
-      "path": "30_Complex Analysis/990_Exercises/100_Extra Questions.md"
     }
   ],
   "omittedPaths": [],
