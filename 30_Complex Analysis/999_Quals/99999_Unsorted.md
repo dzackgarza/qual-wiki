@@ -242,7 +242,18 @@ Show that $f(z)$ is polynomial in $z$.
 To clear up notation: write $f(z) = u(x, y) + iv(x, y)$, here we're assuming that $u$ is polynomial in $x$ and $y$.
 
 
-Claim: if $u$ is polynomial in $x,y$, then so is $v$.
+
+:::{.claim}
+If $u$ is polynomial in $x,y$, then so is $v$.
+:::
+
+
+:::{.proof title="?"}
+Use that $\del_x^M v(x, y) = 0$ for large enough $M$: write $\del_x^M v = \del_x^{M-1} v_x = -\del_x^{M-1} u_y = 0$, since if $u$ is polynomial in $x,y$, so is $u_y$.
+Similarly, $\del_y^N v = \del_y^{N-1}v_y = \del_y^{N-1}u_x = 0$.
+:::
+
+
 
 Claim: If $u$ is polynomial in $x$, there is an integer $M$ such that $\del_x^M f = \del_x^M(u+iv) = 0$.
 
