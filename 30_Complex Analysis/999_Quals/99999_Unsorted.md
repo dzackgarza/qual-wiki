@@ -218,13 +218,16 @@ f(z) &= p(z) + h(1/z) = p(z) + c_0 \\
 \implies f(z) &= (c_{-1}z + \cdots + c_{-m}z^m) + c_0
 ,\]
 which is a polynomial of degree exactly $m\da \deg p$.
-- Why $m \geq N$: if not, $m<N$ so $m-N < 0$ and
+- Why $m \geq N$: if not, $m<N$ so $N-m > 0$.
+  Then for large $z$,
 \[
-A \geq \abs{f(z) \over z^N} 
+A \leq \abs{f(z) \over z^N} 
 &= \abs{c_0 + c_{-1}z + \cdots + c_{-m}z^m \over z^N}\\
 &= \abs{ {c_0 \over z^N} + {c_{-1} \over z^{N-1}} + \cdots + {c_{-m} \over z^{N-m}} } \\
-&= \abs{ {c_0 \over z^N} + {c_{-1} \over z^{N-1}} + \cdots + {c_{-m}z^{m-N}} }
-.\]
+&\convergesto{\abs{z}\to\infty} 0
+,\]
+since every term has a factor of $z$ in the denominator.
+This contradicts $A>0$. $\contradiction$
 
 
 
