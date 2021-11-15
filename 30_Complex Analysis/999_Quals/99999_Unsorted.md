@@ -203,9 +203,9 @@ f(z) = g(1/z) = p(z) + h(1/z) \\
 ,\]
 since holomorphic functions are continuous.
 
-- Then $f(z) - p(z)$ is an entire function with a finite limit $L$ at $\infty$.
-  Thus it's bounded, since it's bounded by $L$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$.
-    Thus it's constant on $\CC$ by Liouville.
+- Then $h$ is an entire function with a finite limit $L$ at $\infty$.
+  $h$ is bounded by $L$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$.
+  So $h$ is bounded on all of $\CC$, and thus constant by Liouville, and thus $h(1/z) = L$ for all $z$.
 
 - So $f(z) = p(z) + L$ is a polynomial
 - Why $\deg f \geq N$: it suffices to show $\deg p \geq N$ since $h(0)$ is a constant.
