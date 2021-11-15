@@ -250,6 +250,8 @@ But now we can just integrate $N$ times and use the antiderivatives of polynomia
 f^{(N-1)}(z) &= c_1 \\
 \int f^{(N-1)}(z) \dz = f^{(N-2)}(z) &= c_1 z + c_2 \\
 \int f^{(N-2)}(z) \dz = f^{(N-3)}(z) &= {c_1 \over 2} z^2 + c_2z + c_3 \\
+\vdots \quad &= \quad \vdots \\
+\int f'(z) \dz = f(z) &= {c_1 \over N!} z^N + {c_2 \over (N-1)!} z^{N-1} + \cdots + c_N 
 .\]
 
 
