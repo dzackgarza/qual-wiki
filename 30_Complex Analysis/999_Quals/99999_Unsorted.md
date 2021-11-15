@@ -281,7 +281,7 @@ Show that for any $z, w\in \DD$,
 \[
 \left|\frac{f(w)-f(z)}{1-\overline{f(w)} f(z)}\right| \leq\left|\frac{w-z}{1-\bar{w} z}\right|
 .\]
-Show that this inequality is structure for $z\neq w$ except when $f$ is a linear fractional transformation from $\DD$ to itsself.
+Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fractional transformation from $\DD$ to itself.
 :::
 
 ## Spring 2021 # 6 #work
