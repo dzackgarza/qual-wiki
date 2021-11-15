@@ -241,7 +241,11 @@ Show that $f(z)$ is polynomial in $z$.
 :::{.solution}
 To clear up notation: write $f(z) = u(x, y) + iv(x, y)$, here we're assuming that $u$ is polynomial in $x$ and $y$.
 
-If $u$ is polynomial in $x$, there is an integer $M$ such that $\del_x^m f = \del_x^m(u+iv) = 0$.
+If $u$ is polynomial in $x$, there is an integer $M$ such that $\del_x^M f = \del_x^M(u+iv) = 0$.
+Why: it's clear that $\del_x^M u = 0$ and $\del_y^N u = 0$ for large enough $M, N$ since $u$ is polynomial in $x, y$.
+By Cauchy-Riemann, $\del_x u = \del_y v$ so $0 = \del_x^M u = \del_x^{M-1} \del_y v$
+Similarly, $\del_y u = -\del_x v$, so $0 = \del_y^N u = - \del_x^{N-1}\del_y v$.
+
 Noting that $f'(z) = \del_x f(x + i y)$, this means $f^{(k)}(z) = \del_x^k f(x + iy)$, so $f^{(M)}(z) = 0$.
 But now we can just integrate $N$ times and use that antiderivatives of polynomials are polynomials:
 \[
