@@ -240,19 +240,16 @@ Show that $f(z)$ is polynomial in $z$.
 
 :::{.solution}
 To clear up notation: write $f(z) = u(x, y) + iv(x, y)$, here we're assuming that $u$ is polynomial in $x$ and $y$.
-Sketch solution:
+Let $\del_x$ be differentiation with respect to $x$, $\del_y$ with respect to $y$, and $\del_z$ with respect to $z$.
+We first claim that $v$ is also polynomial in $x$ and $y$: this follows from Cauchy-Riemann. 
 
-- $u$ is a polynomial in $x$ and $y$, so take partial derivatives to see that $\dd{u}{x}, \dd{u}{y}(x, y)$ are both polynomials in $x$ and $y$.
-- Apply Cauchy-Riemann:
+If $u, v$ are polynomials in $x, y$, there are integers $M, N$ such that $\del_x^m f = \del_x^m(u+iv) = 0$ and $\del_y^nf = \del_y^n (u+iv) = 0$,
+Noting that $f'(z) = \del_x f(x + i y)$, this means $f^{(k)}(z) = \del_x^k f(x + iy)$, so $f^{(M)}(z) = 0$.
+But now we can just integrate $N$ times and use the antiderivatives of polynomials are polynomials:
 \[
-\dd{u}{x} &= \dd{v}{y} \\
-\dd{u}{y} &= -\dd{v}{x}
-.\]
-
-- So $\dd{v}{x}$ and $\dd{v}{y}$ are polynomials in $x, y$.
-- Now write
-\[
-\int \dd{v}{x}(x, y) \dx = = v_1(x, y) + f(y)
+f^{(N-1)}(z) &= c_1 \\
+\int f^{(N-1)}(z) \dz = f^{(N-2)}(z) &= c_1 z + c_2 \\
+\int f^{(N-2)}(z) \dz = f^{(N-3)}(z) &= {c_1 \over 2} z^2 + c_2z + c_3 \\
 .\]
 
 
