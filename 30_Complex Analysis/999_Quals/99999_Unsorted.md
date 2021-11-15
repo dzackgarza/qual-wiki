@@ -204,15 +204,20 @@ g(z) = p(1/z) + h(z) \implies f(z) = p(z) + h(1/z)
 
 - Then
 \[
-f(z) - p(z) = h(1/z) \convergesto{\abs z\to \infty} L\da h(0)
+f(z) - p(z) = h(1/z) \convergesto{\abs z\to \infty} c_0 \da h(0)
 ,\]
 since holomorphic functions are continuous.
 
 - Then $h$ is an entire function with a finite limit $L$ at $\infty$.
-  $h$ is bounded by $L$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$ by compactness and the maximum modulus principle.
+  $h$ is bounded by $c_0$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$ by compactness and the maximum modulus principle.
   So $h$ is bounded on all of $\CC$, and thus constant by Liouville, and thus $h(1/z) = L$ for all $z$.
 
-- So $f(z) = p(z) + h(1/z) = p(z) + L$ is a polynomial of degree exactly $m\da \deg p$.
+- So 
+\[
+f(z) &= p(z) + h(1/z) = p(z) + c_0 \\
+\implies f(z) &= (c_{-1}z + \cdots + c_{-m}z^m) + c_0
+,\]
+which is a polynomial of degree exactly $m\da \deg p$.
 - Why $m \geq N$: 
 
 
