@@ -233,9 +233,31 @@ This contradicts $A>0$. $\contradiction$
 ## Spring 2021 # 4 #work
 
 :::{.problem title="?"}
-Let $f = u + iv$ be an entire function such that $\Re(f(x+iy))$ is polynomials in $x$ and $y$.
+Let $f = u + iv$ be an entire function such that $\Re(f(x+iy))$ is polynomial in $x$ and $y$.
 Show that $f(z)$ is polynomial in $z$.
 :::
+
+
+:::{.solution}
+To clear up notation: write $f(z) = u(x, y) + iv(x, y)$, here we're assuming that $u$ is polynomial in $x$ and $y$.
+Sketch solution:
+
+- $u$ is a polynomial in $x$ and $y$, so take partial derivatives to see that $\dd{u}{x}, \dd{u}{y}(x, y)$ are both polynomials in $x$ and $y$.
+- Apply Cauchy-Riemann:
+\[
+\dd{u}{x} &= \dd{v}{y} \\
+\dd{u}{y} &= -\dd{v}{x}
+.\]
+
+- So $\dd{v}{x}$ and $\dd{v}{y}$ are polynomials in $x, y$.
+- Now write
+\[
+\int \dd{v}{x}(x, y) \dx = = v_1(x, y) + f(y)
+.\]
+
+
+:::
+
 
 ## Spring 2021 # 5 #work
 
