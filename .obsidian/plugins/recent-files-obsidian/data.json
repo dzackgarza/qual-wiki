@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "130_The Cauchy-Riemann equations",
+      "path": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md"
+    },
+    {
       "basename": "index",
       "path": "index.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "005 Complex Differentiability",
       "path": "30_Complex Analysis/999_Quals/005 Complex Differentiability.md"
-    },
-    {
-      "basename": "004 CR and PDEs",
-      "path": "30_Complex Analysis/999_Quals/004 CR and PDEs.md"
     }
   ],
   "omittedPaths": [],
