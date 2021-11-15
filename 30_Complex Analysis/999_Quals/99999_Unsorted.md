@@ -180,7 +180,13 @@ For the case at hand, a solution I liked from MSE:
 
 - Write $g(z) \da f(1/z)$, so $g$ has a singularity at $z=0$.
   The claim is that this is a pole.
-  - It can't be removable: $\abs{g(z)} \geq A \abs{1\over z}^n \to\infty$ for $\abs{1/z} \geq R$ (i.e. $\abs{z} < 1/R$, so $g$ is unbounded near $z=0$.
+  - It can't be removable: 
+  \[
+  \abs{g(z)} \geq A \abs{1\over z}^n \to\infty
+\quad \text{ for }
+  \abs{1/z} \geq R
+  .\]
+  (i.e. $\abs{z} < 1/R$) so $g$ is unbounded near $z=0$.
   - It can't be essential: if so, the image $g( D_{1/R}(0)\smz )$ would be dense in $\CC$, but every $z$ in the image satisfies $z \in D_{AR^N}^c$ since $\abs{z} > AR^N$. $\contradiction$
 
 - Since $z=0$ is a pole, write
