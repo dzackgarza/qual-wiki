@@ -179,15 +179,16 @@ For the case at hand, a solution I liked from MSE:
 
 - Write $g(z) \da f(1/z)$, so $g$ has a singularity at $z=0$.
   The claim is that this is a pole.
-  - It can't be removable: 
-  \[
-  \abs{g(z)} \geq A \abs{1\over z}^n \to\infty
+
+- It can't be removable: 
+\[
+\abs{g(z)} \geq A \abs{1\over z}^n \to\infty
 \quad \text{ for }
-  \abs{1/z} \geq R \,\, (\iff \abs{z} < 1/R)
-  ,\]
-  so $g$ is unbounded near $z=0$.
-  - It can't be essential: if so, take the neighborhood of $z=0$ given by $U\da D_{1\over R}(0)\smz = \ts{z\st 0< \abs{z} < {1\over R} }$.
-  Then $g(U) \subseteq \CC$ would be dense by Casorati-Weierstrass, but note that $g(z) = w\in g(U) \implies \abs{w} \da \abs{g(z)} \geq A\abs{1/z}^n$ since $\abs{z}<1/R$, so $g(U) \subseteq (\CC\sm D_{A\over R^n}(0))$ and in particular does not intersect the interior of $D_{A\over R^n}(0)$.
+\abs{1/z} \geq R \,\, (\iff \abs{z} < 1/R)
+,\]
+so $g$ is unbounded near $z=0$.
+- It can't be essential: if so, take the neighborhood of $z=0$ given by $U\da D_{1\over R}(0)\smz = \ts{z\st 0< \abs{z} < {1\over R} }$.
+Then $g(U) \subseteq \CC$ would be dense by Casorati-Weierstrass, but note that $g(z) = w\in g(U) \implies \abs{w} \da \abs{g(z)} \geq A\abs{1/z}^n$ since $\abs{z}<1/R$, so $g(U) \subseteq (\CC\sm D_{A\over R^n}(0))$ and in particular does not intersect the interior of $D_{A\over R^n}(0)$.
 
 - Since $z=0$ is a pole, it has some finite order $m$, so write
 \[
@@ -208,8 +209,8 @@ f(z) - p(z) = h(1/z) \convergesto{\abs z\to \infty} c_0 \da h(0)
 since holomorphic functions are continuous.
 
 - Then $h$ is an entire function with a finite limit $L$ at $\infty$.
-  $h$ is bounded by $c_0$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$ by compactness and the maximum modulus principle.
-  So $h$ is bounded on all of $\CC$, and thus constant by Liouville, and thus $h(1/z) = L$ for all $z$.
+$h$ is bounded by $c_0$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$ by compactness and the maximum modulus principle.
+So $h$ is bounded on all of $\CC$, and thus constant by Liouville, and thus $h(1/z) = L$ for all $z$.
 
 - So 
 \[
@@ -218,7 +219,7 @@ f(z) &= p(z) + h(1/z) = p(z) + c_0 \\
 ,\]
 which is a polynomial of degree exactly $m\da \deg p$.
 - Why $m \geq N$: if not, $m<N$ so $N-m > 0$.
-  Then for large $z$,
+Then for large $z$,
 \[
 A \leq \abs{f(z) \over z^N} 
 &= \abs{c_0 + c_{-1}z + \cdots + c_{-m}z^m \over z^N}\\
@@ -230,32 +231,32 @@ This contradicts $A>0$. $\contradiction$
 :::
 
 
-## Spring 2021 # 4 #work
+## Spring 2021 # 4 #completed
 
 :::{.problem title="?"}
 Let $f = u + iv$ be an entire function such that $\Re(f(x+iy))$ is polynomial in $x$ and $y$.
 Show that $f(z)$ is polynomial in $z$.
 :::
 
-
 :::{.solution}
 To clear up notation: write $f(z) = u(x, y) + iv(x, y)$, here we're assuming that $u$ is polynomial in $x$ and $y$.
-
-
 
 :::{.claim}
 If $u$ is polynomial in $x,y$, then so is $v$.
 :::
-
 
 :::{.proof title="?"}
 Use that $\del_x^M v(x, y) = 0$ for large enough $M$: write $\del_x^M v = \del_x^{M-1} v_x = -\del_x^{M-1} u_y = 0$, since if $u$ is polynomial in $x,y$, so is $u_y$.
 Similarly, $\del_y^N v = \del_y^{N-1}v_y = \del_y^{N-1}u_x = 0$.
 :::
 
+:::{.claim}
+If $u, v$ are polynomial in $x$, there is an integer $M$ such that $\del_x^M f = \del_x^M(u+iv) = 0$.
+:::
 
-
-Claim: If $u$ is polynomial in $x$, there is an integer $M$ such that $\del_x^M f = \del_x^M(u+iv) = 0$.
+:::{.proof title="?"}
+Write $\del_x^n f = \del_x^n u + i \del_x^n v$ by linearity and use that a high enough power $\del_x^n$ will annihilate both $u$ and $v$.
+:::
 
 Noting that $f'(z) = \del_x f(x + i y)$, this means $f^{(k)}(z) = \del_x^k f(x + iy)$, so $f^{(M)}(z) = 0$.
 But now we can just integrate $N$ times and use that antiderivatives of polynomials are polynomials:
@@ -500,7 +501,7 @@ Let $f(z)=z^2$ be defined in $\CC$.
 - Describe the level curves of $\mbox{\textrm Re}{(f)}$ and of $\mbox{Im}{(f)}$.
 
 - What are the angles of intersections between the level curves $\mbox{\textrm Re}{(f)}=0$ and $\mbox{\textrm Im}{(f)}$? 
-  Is your answer in agreement with part a) of this question?
+Is your answer in agreement with part a) of this question?
 
 ## Tie's Extra Questions: Fall 2016 #work
 
@@ -545,9 +546,9 @@ For $s>0$, the **gamma function** is defined by $\displaystyle{\Gamma(s)=\int_0^
 -   Show that the gamma function is analytic in the half-plane $\Re (s)>0$, and is still given there by the integral formula above.
 
 -   Apply the formula in the previous question to show that
-    $$
-	\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}
-	.$$
+  $$
+\Gamma(s)\Gamma(1-s)=\frac{\pi}{\sin \pi s}
+.$$
 
 > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
 
