@@ -147,7 +147,7 @@ Putting it all together:
 
 :::
 
-## Spring 2021 # 3 #work
+## Spring 2021 # 3 #completed
 
 :::{.problem title="?"}
 Suppose $f$ is entire, let $A, R> 0$ and $N \in \NN$, and suppose
@@ -160,8 +160,7 @@ Suppose $f$ is entire, let $A, R> 0$ and $N \in \NN$, and suppose
 
 :::
 
-
-:::{.solution .foldopen}
+:::{.solution}
 Note that the analogue of this problem where $\abs{f(z)} \leq A \abs{z}^N$ implies $f$ is a polynomial of degree at *most* $N$ is easy by the Cauchy estimate:
 \[
 \abs{f(z)} =\abs{\sum_{k\geq 0} c_k z^k } \implies 
@@ -228,9 +227,6 @@ A \leq \abs{f(z) \over z^N}
 ,\]
 since every term has a factor of $z$ in the denominator.
 This contradicts $A>0$. $\contradiction$
-
-
-
 :::
 
 
