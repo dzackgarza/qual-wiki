@@ -187,19 +187,21 @@ For the case at hand, a solution I liked from MSE:
   \abs{1/z} \geq R \,\, (\iff \abs{z} < 1/R)
   ,\]
   so $g$ is unbounded near $z=0$.
-  - It can't be essential: if so, take the neighborhood of $z=0$ given by $U\da D_{1\over R}(0)\smz = \ts{z\st 0< \abs{z} < {1\over R} }$, then $g(U) \subseteq \CC$ would be dense, but every $z$ in the image satisfies $z \in D_{AR^N}^c$ since $\abs{z} > AR^N$. $\contradiction$
+  - It can't be essential: if so, take the neighborhood of $z=0$ given by $U\da D_{1\over R}(0)\smz = \ts{z\st 0< \abs{z} < {1\over R} }$.
+  Then $g(U) \subseteq \CC$ would be dense by Casorati-Weierstrass, but note that $g(z) = w\in g(U) \implies \abs{w} \da \abs{g(z)} \geq A\abs{1/z}^n$ since $\abs{z}<1/R$, so $g(U) \subseteq (\CC\sm D_{A\over R^n}(0))$ and in particular does not intersect the interior of $D_{A\over R^n}(0)$.
 
-- Since $z=0$ is a pole, write
+- Since $z=0$ is a pole, it has some finite order $m$, so write
 \[
 g(z) = \qty{c_{-m}z^{-m} + \cdots + c_{-1}z\inv} + \qty{c_0 + c_1 z + \cdots} \da p(1/z) + h(z)
 ,\]
-where $p$ is polynomials an $h$ is entire.
+where $p$ is polynomial of degree exactly $m$ (since $c_{-m} \neq 0$) and $h$ is entire.
 
 - Then
 \[
 f(z) = g(1/z) = p(z) + h(1/z) \\
 \implies f(z) - p(z) = h(1/z) \convergesto{\abs z\to \infty} L\da h(0)
-.\]
+,\]
+since holomorphic functions are continuous.
 
 - Then $f(z) - p(z)$ is an entire function with a finite limit $L$ at $\infty$.
   Thus it's bounded, since it's bounded by $L$ in a neighborhood $U_\infty$ of $\infty$ and takes on a maximum on $U_\infty^c$.
