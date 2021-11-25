@@ -4,7 +4,6 @@ order: 50
 
 # Laurent and Power Series
 
-
 :::{.definition title="Analytic"}
 A function $f:\Omega \to \CC$ is *analytic* at $z_0\in \Omega$ iff there exists a power series $g(z) = \sum a_n (z-z_0)^n$ with radius of convergence $R>0$ and a neighborhood $U\ni z_0$ such that $f(z) = g(z)$ on $U$.
 :::
@@ -60,23 +59,16 @@ Useful trick for expanding square roots:
 
 :::
 
-\todo[inline]{Add series tricks.}
-
-
-## Power Series
-
-
-![](figures/2021-10-28_21-22-12.png)
-
-![](figures/2021-10-28_21-22-35.png)
-
-:::{.theorem title="Improved Taylor's Theorem"}
-If $f$ is holomorphic on a region $\Omega$ with $\closure{ D_R(z_0)} \subseteq \Omega$, and for every $z\in D_r(z_0)$, $f$ has a power series expansion of the following form:
+:::{.fact}
+The product of two sequences is given by the Cauchy product
 \[
-f(z)=\sum_{n=0}^{\infty} a_{n}\left(z-z_{0}\right)^{n} \quad\text{ where } a_{n}=\frac{f^{(n)}\left(z_{0}\right)}{n !}
-= {1 \over 2\pi r^n}\int_0^{2\pi} f(z_0 + re^{i\theta})e^{-in\theta} \dtheta
+\sum a_kz^k \cdot \sum b_k z^k = \sum c_k z^k,\quad c_k \da \sum_{j\leq k} a_k b_{k-j}
 .\]
 :::
+
+\todo[inline]{Add series tricks.}
+
+## Power Series
 
 :::{.proposition title="Power Series are Smooth"}
 Any power series is smooth (and thus holomorphic) on its disc of convergence, and its derivatives can be obtained using term-by-term differentiation:
@@ -89,12 +81,47 @@ c_k = {f^{(n)}(z_0) \over n! }
 .\]
 :::
 
-:::{.remark}
-By an application of the Cauchy integral formula (see S&S 7.1) if $f$ is holomorphic on $D_R(z_0)$ there is a formula for all $k\geq 0$ and all $0<r<R$:
+:::{.theorem title="Function value as a convolution"}
+For any $p\in U$,
 \[
-c_k = {1\over 2\pi r^k} \int_0^{2\pi} f(z_0 + re^{i\theta}) e^{-in\theta}\dtheta
+f(p) = {1\over 2\pi i }\int_{\bd U} {f(z) \over z-p} \dz
 .\]
 :::
+
+:::{.corollary title="Formula for Laurent coefficients"}
+Differentiating under the integral above yields
+\[
+c_k = \frac{f^{(k)}(p)}{k !}=\frac{1}{2 \pi i} \int_{\partial U} \frac{f(z) }{(z-p)^{k+1}} \dz
+= {1 \over 2\pi R^n}\int_0^{2\pi} f(z_0 + Re^{i\theta})e^{-in\theta} \dtheta
+.\]
+For $R \da d(p, \bd U)$,
+this yields a bound
+\[
+f(z) = \sum c_kz_k \implies \abs{c_k} \leq {\sup_{z\in \bd U}f(z) \cdot \length(\bd U) \over 2\pi R^{k+1}}
+,\]
+so $\limsup \abs{c_k}^{1\over k} < R\inv$, showing that $\sum c_k (z-p)^k$ has radius of convergence at least $R$ and is represented by its power series in $D_R(p)$.
+This implies that $f$ is smooth at $p\in U$, and thus can only have poles on $\bd U$.
+:::
+
+:::{.theorem title="Holomorphic implies analytic"}
+If $f$ is analytic on $D_R(p)$, then $f(z) = \sum c_k(z-p)^k$ on this disc.
+:::
+
+:::{.proof title="?"}
+Reduce to $z\in \DD$, then for a fixed $z$ and any $w\in S^1$,
+\[
+{1\over w-z} = {1\over w} \qty{ 1 + \qty{z\over w} + \qty{z\over w}^2 + \cdots}
+,\]
+which converges uniformly on $S^1$.
+Then
+\[
+f(z)=\frac{1}{2 \pi i} \int_{S^{1}} \frac{f(w) }{w-z} \dw 
+= \sum z^{k} \frac{1}{2 \pi i} \int_{S^{1}} \frac{f(w)}{w^{k+1}} \dw 
+=\sum c_{k} z^{k}
+.\]
+
+:::
+
 
 :::{.proposition title="Exponential is uniformly convergent in discs"}
 $f(z) = e^z$ is uniformly convergent in any disc in $\CC$.
@@ -110,6 +137,8 @@ Now by the $M\dash$test,
 \abs{z} \leq R < \infty \implies \abs{\sum {z^n \over n!}} \leq e^R < \infty
 .\]
 :::
+
+## Analytic Number Theory's Faves
 
 :::{.lemma title="Dirichlet's Test"}
 Given two sequences of real numbers \( \ts{ a_k } , \ts{ b_k } \) which satisfy

@@ -140,13 +140,6 @@ Recall the **$p\dash$test**:
 :::
 
 :::{.fact}
-The product of two sequences is given by the Cauchy product
-\[
-\sum a_kz^k \cdot \sum b_k z^k = \sum c_k z^k,\quad c_k \da \sum_{j\leq k} a_k b_{k-j}
-.\]
-:::
-
-:::{.fact}
 Recall how to carry out polynomial long division:
 
 \todo[inline]{Polynomial long division}
@@ -160,8 +153,6 @@ Recall how to carry out polynomial long division:
 - For any factors $g(x)$ of multiplicity $k$, include terms $A_1/g(x), A_2/g(x)^2, \cdots, A_k / g(x)^k$.
 - For irreducible quadratic factors $h_i(x)$, include terms of the form ${Ax+B \over h_i(x)}$.
 :::
-
-
 
 
 

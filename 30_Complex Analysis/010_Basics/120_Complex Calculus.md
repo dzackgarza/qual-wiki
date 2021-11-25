@@ -22,10 +22,11 @@ Integral of a complex exponential:
 \end{array}\right.
 .\]
 
-:::
+\[
+\int_{\gamma} f(z) \dz = \int_0^{2\pi } f(Re^{i\theta}) \, iRe^{i\theta} \dtheta
+.\]
 
-:::{.remark}
-When parameterizing integrals $\int_\gamma f(z)\dz$, parameterize $\gamma$ by $\theta$ and write $z=re^{i\theta}$ so $\dz = ire^{i\theta}\dtheta$.
+
 :::
 
 :::{.warnings}
@@ -122,3 +123,10 @@ In this case, $a = f'(z_0)$.
 :::
 
 #todo proof
+
+
+:::{.exercise title="?"}
+Show that a real-valued holomorphic function is constant.
+
+:::
+

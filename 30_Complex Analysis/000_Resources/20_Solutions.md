@@ -29,3 +29,4 @@
 - [ ]  [[Complex_Analysis_Exam_Prep_Solutions.pdf]] #solutions
 
 - [ ]  [math185f09-hw7sol.pdf](attachments/math185f09-hw7sol.pdf) #solutions
+- [ ]  ![[complex_prelim.pdf]]

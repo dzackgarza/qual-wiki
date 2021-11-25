@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
+            "file": "30_Complex Analysis/000_Resources/20_Solutions.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
+                "file": "30_Complex Analysis/000_Resources/20_Solutions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md"
+                "file": "30_Complex Analysis/000_Resources/20_Solutions.md"
               }
             }
           }
@@ -122,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.49999809265137
+    "width": 346.49999809265137,
+    "collapsed": true
   },
   "right": {
     "id": "a1502ca3cb933e96",
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
+                "file": "30_Complex Analysis/000_Resources/20_Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
+                "file": "30_Complex Analysis/000_Resources/20_Solutions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,15 +257,15 @@
   },
   "active": "ddd3b6e9ca8025c4",
   "lastOpenFiles": [
+    "30_Complex Analysis/000_Resources/20_Solutions.md",
+    "30_Complex Analysis/050_Conformal_Maps/030_Conformal_Mapping.md",
+    "30_Complex Analysis/050_Conformal_Maps/Shwarz lemma.md",
     "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
     "index.md",
     "Further Studying.md",
     "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
     "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
     "20_Real Analysis/005_Basics/00_Notation_Real_Analysis.md",
-    "20_Real Analysis/000_Resources/10_Topics.md",
-    "30_Complex Analysis/999_Quals/000_Preface.md",
-    "20_Real Analysis/005_Basics/90_Counterexamples.md",
-    "20_Real Analysis/005_Basics/50_Commuting_Limits.md"
+    "20_Real Analysis/000_Resources/10_Topics.md"
   ]
 }

@@ -231,6 +231,7 @@ This contradicts $A>0$. $\contradiction$
 :::
 
 
+
 ## Spring 2021 # 4 #completed
 
 :::{.problem title="?"}
@@ -238,7 +239,7 @@ Let $f = u + iv$ be an entire function such that $\Re(f(x+iy))$ is polynomial in
 Show that $f(z)$ is polynomial in $z$.
 :::
 
-:::{.solution}
+:::{.solution .foldopen}
 To clear up notation: write $f(z) = u(x, y) + iv(x, y)$, here we're assuming that $u$ is polynomial in $x$ and $y$.
 
 :::{.claim}
@@ -246,32 +247,35 @@ If $u$ is polynomial in $x,y$, then so is $v$.
 :::
 
 :::{.proof title="?"}
-Use that $\del_x^M v(x, y) = 0$ for large enough $M$: write $\del_x^M v = \del_x^{M-1} v_x = -\del_x^{M-1} u_y = 0$, since if $u$ is polynomial in $x,y$, so is $u_y$.
-Similarly, $\del_y^N v = \del_y^{N-1}v_y = \del_y^{N-1}u_x = 0$.
+This follows from the fact that $u$ is a harmonic conjugate of $v$, and the explicit process computing the conjugate will result in a polynomial.
+Gamelin describes this process in detail, see Ch.2 Section 5 on Harmonic functions where he proves the formula
+\[
+v(x, y)
+= \int_{y_{0}}^{y} \frac{\partial u}{\partial x}(x, t) \dt 
+-\int_{x_{0}}^{x} \frac{\partial u}{\partial y}\left(s, y_{0}\right) \ds + C 
+.\]
+
 :::
 
 :::{.claim}
-If $u, v$ are polynomial in $x$, there is an integer $M$ such that $\del_x^M f = \del_x^M(u+iv) = 0$.
+Since $f(x, y)$ is a polynomial in $x, y$, $f(z)$ must be a polynomial in $z$.
 :::
 
 :::{.proof title="?"}
-Write $\del_x^n f = \del_x^n u + i \del_x^n v$ by linearity and use that a high enough power $\del_x^n$ will annihilate both $u$ and $v$.
-:::
-
-Noting that $f'(z) = \del_x f(x + i y)$, this means $f^{(k)}(z) = \del_x^k f(x + iy)$, so $f^{(M)}(z) = 0$.
-But now we can just integrate $N$ times and use that antiderivatives of polynomials are polynomials:
+Since $f$ is entire, it's equal to its Laurent series everywhere, so
 \[
-f^{(N-1)}(z) &= c_1 \\
-\int f^{(N-1)}(z) \dz = f^{(N-2)}(z) &= c_1 z + c_2 \\
-\int f^{(N-2)}(z) \dz = f^{(N-3)}(z) &= {c_1 \over 2} z^2 + c_2z + c_3 \\
-\vdots \quad &= \quad \vdots \\
-\int f'(z) \dz = f(z) &= {c_1 \over N!} z^N + {c_2 \over (N-1)!} z^{N-1} + \cdots + c_N 
+f(z) = \sum_{k\geq 0} c_k z^k, \qquad c_k = {f^{(k) }(0) \over k!} = {1\over 2\pi i} \int_{S^1} {f(\xi) \over \xi^{k+1} } \dxi
 .\]
-
-
+Thus $f$ will be a polynomial if $c_{N} = 0$ for all $N$ large enough, which will be true if $f^{(N)}(z) = 0$ for large enough $N$.
+But we can write
+\[
+\dd{}{z} f(z) = \dd{}{x} f(x, y)
+\implies
+0 = \qty{\dd{^N}{x^N}} f(x, y) = \qty{\dd{^N}{z^N}} f(z) \da f^{(N)}(z)
+,\]
 :::
 
-#todo I'm not so happy with this solution!
+:::
 
 ## Spring 2021 # 5 #work
 
@@ -283,6 +287,21 @@ Show that for any $z, w\in \DD$,
 .\]
 Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fractional transformation from $\DD$ to itself.
 :::
+
+
+:::{.solution}
+This is the **Schwarz–Pick theorem**.
+Define $M \da {z_1 - z \over 1-\bar z_1 z}$ and $\phi(z) \da {f(z_1) - z \over 1 - \bar{f(z_1)}}$.
+Then $(\phi \circ f \circ M\inv)(0) = 0$, so apply Schwarz to get 
+\[
+\left|\varphi\left(f\left(M^{-1}(z)\right)\right)\right|=\left|\frac{f\left(z_{1}\right)-f\left(M^{-1}(z)\right)}{1-\overline{f\left(z_{1}\right)} f\left(M^{-1}(z)\right)}\right| \leq|z| \\
+z_2 \da M\inv(z_1)
+\implies
+\left|\frac{f\left(z_{1}\right)-f\left(z_{2}\right)}{1-\overline{f\left(z_{1}\right)} f\left(z_{2}\right)}\right| \leq\left|\frac{z_{1}-z_{2}}{1-\overline{z_{1}} z_{2}}\right|
+.\]
+
+:::
+
 
 ## Spring 2021 # 6 #work
 

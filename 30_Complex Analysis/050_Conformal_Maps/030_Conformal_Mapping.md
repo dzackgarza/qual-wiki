@@ -5,26 +5,20 @@ Conformal Mapping Dictionary:
 Parts [I](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.1.html),[II](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.2.html) ,[III](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.3.html) ,[IV](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.4.html), and [V](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.5.html)
 
 
-![](2021-10-29_02-33-08.png)
-
 :::{.definition title="Conformal Map / Biholomorphism"}
 A map $f$ is **conformal** on $\Omega$ iff $f$ is complex-differentiable, $f'(z)\neq 0$ for $z\in \Omega$, and $f$ preserves signed angles (so $f$ is orientation-preserving).
-Conformal implies holomorphic, and a bijective conformal map has conformal inverse automatically.
 
 A bijective conformal map $f:U\to V$ **biholomorphism**, and we say $U$ and $V$ are **biholomorphic**.
+:::
+
+:::{.remark}
+Conformal implies holomorphic, and a bijective conformal map has conformal inverse automatically.
 Importantly, bijective holomorphic maps always have holomorphic inverses.
 Self-biholomorphisms of a domain $\Omega$ form a group $\Aut_\CC(\Omega)$.
 :::
 
 :::{.remark}
-There is an oft-used weaker condition that $f'(z) \neq 0$ for any point.
-Note that that this condition alone doesn't necessarily imply $f$ is holomorphic, since anti-holomorphic maps may have nonzero derivatives.
-For example, take $f(z) = \bar{z}$, so $f(x+iy) = x-iy$ -- this does not satisfy the Cauchy-Riemann equations.
-:::
-
-:::{.remark}
-A bijective holomorphic map automatically has a holomorphic inverse.
-This can be weakened: an injective holomorphic map satisfies $f'(z) \neq 0$ and $f ^{-1}$ is well-defined on its range and holomorphic.
+The bijectivity condition can be weakened: an *injective* holomorphic map satisfies $f'(z) \neq 0$ and $f ^{-1}$ is well-defined on its range and holomorphic.
 :::
 
 :::{.definition title="Linear fractional transformation / Mobius transformation"}
@@ -36,17 +30,38 @@ where the denominator is assumed to not be a multiple of the numerator.
 These have inverses given by
 \[  
 T^{-1}(w) = {dw-b \over -cw + a}
+\]
+and derivatives given by
+\[
+T'(z) = {ad-bc \over (cz+d)^2}
 .\]
 :::
 
-:::{.proposition title="?"}
+
+:::{.remark}
+Using that $\Aut(\CP^1) \cong \PGL_2(\CC)$, there is a nice matrix representation if you let the act on the right:
+\[
+\tv{z: 1} \cdot \matt a b c d = \tv{f(z): 1}
+.\]
+This yields a quick way of finding $f\inv$: invert the matrix and ignore the determinant that shows up since it just scales every entry:
+\[
+{az + b\over cz+ d} \leadsto \matt a b c d \inv = \matt d {-b} {-c} a 
+\leadsto 
+{dw-b \over -cw + a}
+.\]
+
+
+:::
+
+
+:::{.proposition title="Constructing Mobius transformations"}
 Given any three points $z_1, z_2, z_3$, the following Möbius transformation sends them to $1, 0, \infty$ respectively:
 \[
 T(z) 
-&\da { (z-z_1) (z_2-z_3) \over (z-z_3) (z_2 - z_1)}
+&\da \qty{z-z_2\over z-z_3} \qty{z_1 - z_2 \over z_1 - z_3} \inv
 \\
-z_1 & \mapsto 0 \\
-z_2 & \mapsto 1 \\
+z_1 & \mapsto 1 \\
+z_2 & \mapsto 0 \\
 z_3 & \mapsto \infty
 .\]
 Such a map is sometimes denoted $(z; z_1, z_2, z_3)$.
@@ -64,20 +79,70 @@ T(z) \da
 :::{.example title="?"}
 \envlist
 
-- $(z, i, 1, -1): \DD\to \HH$
-- $(z, 0, -1, 1): \DD \intersect \HH \to Q_1$.
+- $(z; i, 1, -1): \DD\to \HH$
+- $(z; 0, -1, 1): \DD \intersect \HH \to Q_1$.
 
+A Mobius transformation of the following form:
+\[
+1 &\mapsto 3 \\
+i &\mapsto 0 \\
+2 &\mapsto -1
+.\]
+Write $T(z) = (z; 1, i, 2)$ and $S(w) = (w; 3, 0, -1)$.
+Set $T(z) = S(w)$ and solve for $w$ to get
+\[
+\frac{-3 z+3 i}{(7-4 i) z+(-8+5 i)}
+.\]
 :::
 
-:::{.theorem title="Cayley Transform"}
+:::{.example title="Cayley transform (important!!)"}
 The fractional linear transformation given by $F(z) = {i - z \over i + z}$ maps $\DD\to \HH$ with inverse $G(w) = i {1-w \over 1 + w}$.
+The following transformation is very important:
+\[
+F: \DD &\to \HH \\
+z &\mapsto {i-z\over i+z} \\
+i{1-w\over 1+w} &\mapsfrom w
+.\]
 :::
 
 :::{.theorem title="Characterization of conformal maps"}
-Conformal maps $\DD\to\DD$ have the form
+Every map $g\in \BiHol(\DD)$ is of the form 
 \[
-g(z) = \lambda {1-a \over 1 - \bar a z}, \quad \abs{a} < 1, \quad \abs{\lambda} = 1
+g(z) = \lambda {z-a \over 1 - \bar a z}, \quad a\in \Delta, \lambda \in S^1
+\]
+
+:::
+
+
+:::{.remark}
+These have derivatives
+\[
+g'(z) = \lambda {1 - \abs{a}^2 \over (1-\bar a z)^2}
 .\]
+
+:::
+
+
+
+:::{.proof title="of theorem, sketch"}
+
+- That these maps are biholomorphisms: they're compositions of $z\mapsto \lambda z$ and $z\mapsto {z-a\over 1-\bar a z}$, which are biholomorphisms.
+- Let $f \in \BiHol(\Delta)$ be arbitrary, fix $a\in \Delta$ with $f(a) = 0$
+- Write $M(z) = {z-a\over 1-\bar a z}$, then note that $M(a) = 0$ and this is a biholomorphism.
+- $g\da f\circ M\inv \in \BiHol(\Delta)$ sends $0\to0$ and is thus a rotation, so $g(z) = \lambda z$.
+- Write $g\circ M = f \circ M \circ M\inv = f$, which exhibits $f$ in the desired form.
+
+- Claim: this representation is unique.
+  Consider $f'(z)$, this determines $\Arg(\lambda)$.
+:::
+
+
+:::{.remark}
+There are such maps that are *not* rotations, e.g. the Blaschke factors:
+
+![[2021-10-29_02-33-08.png]]
+
+Setting $B_w(z) \da {z-w\over 1-\bar{w} z}$, this is not a rotation when $w\neq 0$ and is an involution.
 :::
 
 :::{.theorem title="Riemann Mapping"}
@@ -85,7 +150,6 @@ If $\Omega$ is simply connected, nonempty, and not $\CC$, then for every $z_{0}\
 
 Thus any two such sets $\Omega_{1}, \Omega_{2}$ are conformally equivalent.
 :::
-
 
 ## By Type
 
@@ -99,8 +163,6 @@ Thus any two such sets $\Omega_{1}, \Omega_{2}$ are conformally equivalent.
 | $\HH_{1\over 2}$                                             | The first quadrant                                     |
 | $\DD_{1\over 2}$                                             | The portion of the first quadrant inside the unit disc |
 | $L \definedas \theset{x + iy \suchthat x\in \RR,\, 0<y<\pi}$ | The horizontal strip                                   |
-|                                                              |                                                        |
-|                                                              |                                                        |
 
 :::
 
@@ -136,7 +198,7 @@ i \qty{1-w \over 1+w} &\mapsfrom w
 
 - This maps $\RR\to \bd \DD$, where $F(\infty) = -1$, and as $x\in \RR$ ranges from $-\infty\to\infty$, $F(x)$ travels from $z=-1$ counter-clockwise through $S^1$ (starting at $z=-1$ and moving through the lower half first).
 
-![](2021-07-29_19-02-54.png)
+![[2021-07-29_19-02-54.png]]
 
 So this extends to a map $\HH\to \DD$.
 
@@ -217,7 +279,7 @@ z &\mapstofrom {z^{\pi\over \alpha} - i \over z^{\pi\over\alpha} + i}
 
 Idea: compose some known functions.
 
-![](image_2020-07-22-13-22-46.png)
+![[image_2020-07-22-13-22-46.png]]
 
 \[
 S_{\alpha} &\to S_{\pi} = \HH \to \DD \\
@@ -348,7 +410,7 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 :::
 
 :::{.solution}
-![](2021-07-29_19-26-39.png)
+![[2021-07-29_19-26-39.png]]
 :::
 
 
