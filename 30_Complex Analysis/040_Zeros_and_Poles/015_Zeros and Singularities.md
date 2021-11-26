@@ -218,4 +218,18 @@ A singularity of a holomorphic function is removable if and only if the function
 
 ## Exercises
 
-- Show that $\sin(z)/z$ has no poles.
+:::{.problem title="?"}
+Show that $\sin(z)/z$ has no poles.
+:::
+
+:::{.solution}
+Heuristic: $\sin(z)$ has a zero of order 1, so the $z$ in the denominator exactly cancels it.
+Explicitly, this is evident from the Laurent expansion about zero:
+\[
+z\inv \sin(z) = z\inv(z - z^3/3! + z^5/5! - \cdots) = 1 - z^2/3! + z^4/5! - \cdots
+,\]
+which has no factors of $z^{-k}$.
+So $z=0$ is a removable singularity.
+:::
+
+
