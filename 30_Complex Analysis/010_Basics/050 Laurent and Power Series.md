@@ -132,7 +132,7 @@ There is an alternative that sometimes (?) works: writing $A(z) = \sum_{k\geq 0}
 :::
 
 :::{.warnings}
-In order to invert, you need to clear powers of $z$ so that the leading term is constant.
+In order to invert $A$, you need to clear powers of $z$ so that a leading term is constant.
 :::
 
 :::{.example title="Inverting using geometric series"}
