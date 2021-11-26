@@ -131,8 +131,20 @@ There is an alternative that sometimes (?) works: writing $A(z) = \sum_{k\geq 0}
 .\]
 :::
 
+:::{.warnings}
+In order to invert, you need to clear powers of $z$ so that the leading term is constant.
+:::
 
 :::{.example title="Inverting using geometric series"}
+Inverting $\sin(z)$ using a geometric series, heeding the warning above:
+\[
+{1\over \sin(z)} 
+&= {1\over z-{z^3\over 3!} + {z^5\over 5!} - \cdots } \\
+&={1\over z\qty{ 1 - {z^2\over 3!} + {z^4 \over 5!} } } \\
+&= z\inv {1\over 1 - p(z)} && p(z) \da {z^2\over 3!} - {z^4\over 5!} + \cdots \\
+&= \sum_{k\geq 0} p(z)^k z^{k-1} \\
+&= {1\over z} + p(z) + p(z)^2z + \cdots
+.\]
 
 :::
 
