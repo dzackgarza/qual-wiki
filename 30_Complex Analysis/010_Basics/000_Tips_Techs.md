@@ -58,7 +58,6 @@ To count zeros:
 
 :::
 
-
 :::{.remark title="Arithmetic tricks"}
 Some silly arithmetic tricks:
 
