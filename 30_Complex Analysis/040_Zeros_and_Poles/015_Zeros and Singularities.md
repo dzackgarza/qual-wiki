@@ -58,7 +58,7 @@ The function $G(z) \da 1/\sin(\pi/z)$ has a non-isolated singularity at 0 and is
 :::
 
 :::{.warnings}
-$f(z) \da z^{1\over 2}$ has a singularity at zero that does not fall under this classification -- $z=0$ is a **branch singularity** and admits no Laurent expansion around $z=0$.
+$f(z) \da z^{1\over 2}$ has a singularity at zero that does not fall under this classification -- the point $z=0$ is a **branch singularity** and $f$ admits no Laurent expansion around $z=0$.
 
 A similar example: $\qty{z(z-1)}^{1\over 2}$ has two branch singularities at $z=0, 1$.
 :::
@@ -80,9 +80,9 @@ This is valid for $z\neq z_0$, but the right-hand side is analytic. (?)
 \todo[inline]{Revisit}
 
 
-![](2021-10-29_01-30-50.png)
+![](figures/2021-10-29_01-30-50.png)
 
-![](2021-10-29_01-31-06.png)
+![](figures/2021-10-29_01-31-06.png)
 
 
 :::{.theorem title="Improved Taylor Remainder Theorem"}
@@ -95,7 +95,6 @@ R_{n}(z)\left(z-z_{0}\right)^{n}
 where $R_n$ is analytic.
 :::
 
-
 :::{.definition title="Zeros"}
 If $f$ is analytic and not identically zero on $\Omega$ with $f(z_0) = 0$, then there exists a nonvanishing holomorphic function $g$ such that 
 \[
@@ -103,8 +102,6 @@ f(z) = (z-z_0)^n g(z)
 .\]
 We refer to $z_0$ as a **zero of order $n$**.
 :::
-
-
 
 :::{.definition title="Poles (and associated terminology)"}
 A *pole* $z_0$ of a function $f(z)$ is a zero of $g(z) \definedas {1\over f(z)}$.
@@ -125,7 +122,6 @@ f(z) = {a_{-n} \over (z-z_0)^n } + \cdots + {a_{-1} \over z-z_0} + G(z) \da P(z)
 
 The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists of terms with negative degree, and the *residue* of $f$ at $z_0$ is the coefficient $a_{-1}$.
 :::
-
 
 :::{.definition title="Essential Singularity"}
 A singularity $z_0$ is *essential* iff it is neither removable nor a pole.
@@ -149,7 +145,6 @@ g(z) \da {1\over f(z) - w}
 and use that it's bounded to conclude that $z_0$ is either removable or a pole for $f$.
 :::
 
-
 :::{.definition title="Singularities at infinity"}
 For any $f$ holomorphic on an unbounded region, we say $z=\infty$ is a singularity (of any of the above types) of $f$ if $g(z) \da f(1/z)$ has a corresponding singularity at $z=0$.
 :::
@@ -164,20 +159,13 @@ A function $f:\Omega\to\CC$ is *meromorphic* iff there exists a sequence $\these
 Equivalently, $f$ is holomorphic on $\Omega$ with a discrete set of points delete which are all poles of $f$.
 :::
 
-
 :::{.theorem title="Meromorphic implies rational"}
 Meromorphic functions on $\CC$ are rational functions.
 :::
 
-
 :::{.proof title="?"}
 Consider $f(z) - P(z)$, subtracting off the principal part at each pole $z_0$, to get a bounded entire function and apply Liouville.
 :::
-
-
-
-
-
 
 :::{.theorem title="Riemann Extension Theorem"}
 A singularity of a holomorphic function is removable if and only if the function is bounded in some punctured neighborhood of the singular point.
