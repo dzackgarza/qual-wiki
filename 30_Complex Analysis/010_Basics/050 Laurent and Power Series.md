@@ -183,7 +183,7 @@ z &=
 \\ 
 &\quad + \bigo(z^7)
 \\ \\\
-\implies {z\over \sin(z)} &= 1 + {z^2\over 3!}
+\implies {z\over \sin(z)} &= 1 + {z^2\over 3!} + {7 z^4 \over 360 } + \cdots
 .\]
 
 
