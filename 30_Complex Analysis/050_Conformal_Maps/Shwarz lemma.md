@@ -17,10 +17,6 @@ It is **equicontinuous** on $K$ if
 :::
 
 
-:::{.remark}
-Equicontinuity is uniform continuity, where the uniformity extends across all $f\in \mcf$.
-:::
-
 
 :::{.example title="?"}
 If $f_k:[0,1]\to \RR$ is a family of differentiable functions with a uniform constant $M$ with $\abs{f_k'} \leq M$ for all $f\in \mcf$, then $\ts{f_k}$ is equicontinuous.
@@ -29,10 +25,20 @@ To prove this, apply the MVT.
 
 :::{.example title="?"}
 The family $f_k(x) = x^k$ is not equicontinuous, since fixing $x_0 \in (0, 1)$ we have $\abs{f_k(x_0) - f_k(1)} \convergesto{k\to \infty} 1 > \eps$.
-
 :::
 
+:::{.example title="?"}
+$f_k(x) = (\sin k x)$ is uniformly bounded but not equicontinuous on $(0, 1)$ since it has no convergent subsequence on any compact subset.
+:::
 
+:::{.remark}
+Equicontinuity is uniform continuity, where the uniformity extends across all $f\in \mcf$.
+The following is a stark difference between holomorphic and smooth functions, and is used in the Riemann mapping theorem:
+:::
+
+:::{.theorem title="Checking is a family is normal"}
+If $\mcf$ is a family of locally uniformly bounded holomorphic functions on $\Omega$, $f$ is locally equicontinuous (so equicontinuous on every compact subset) and is a normal family.
+:::
 
 
 
