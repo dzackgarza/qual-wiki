@@ -40,7 +40,7 @@ e^z &= \sum_{k\geq 0} {z^k \over k!} \\
   \\
 \cosh(z) &= \sum_{k\geq 0} { z^{2k} \over (2k)! } \\
 \sinh(z) &= \sum_{k\geq 0} { z^{2k+1} \over (2k+1)! } \\
-\log(1-x) 
+\log(1-z) 
   &= \sum_{k \geq 0} {z^k\over k} \quad \abs{z} < 1 \\
 \dd{}{z} \sum_{k=0}^\infty a_k z^k 
   &= \sum_{k=0}^\infty a_{k+1}z^k \\
