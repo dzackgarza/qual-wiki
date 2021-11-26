@@ -178,7 +178,10 @@ z - {1\over 3!}z^3 + {1\over 5!}z^5
 &= \qty{1 - {1\over 2!}z^2 + {1\over 4!}z^4}\qty{{1\over 3} z^3}
  + \qty{ {2\over 15}z^5 - {1\over 72}z^7 }
 \\ \\
-?
+{ {2\over 15}z^5 - {1\over 72}z^7 }
+&= \qty{1 - {1\over 2!}z^2 + {1\over 4!}z^4}\qty{{2\over 15} z^5} + \cdots
+\\ \\
+\implies \tan(z) = z + {1\over 3}z^3 + {2\over 15 }z^5 + \cdots
 .\]
 
 
