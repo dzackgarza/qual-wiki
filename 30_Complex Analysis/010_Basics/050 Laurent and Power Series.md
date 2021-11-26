@@ -69,7 +69,28 @@ The product of two sequences is given by the Cauchy product
 
 \todo[inline]{Add series tricks.}
 
-## Power Series
+
+:::{.fact title="Multiplicatively inverting a series"}
+Using the general ring theory fact that $A(z) \da \sum_{k\geq 0} a_k z^k \in R[[z]]$ is invertible iff $a_0$ is invertible in $R$, power series over fields can always be inverted.
+There is a formula: writing $B(z) \da \sum_{k\geq 0 } b_k z^k \da 1/A(z) \in \CC[[z]]$, the coefficients can be inductively computed as
+\[
+b_0 &= a_0\inv \\
+b_n &= -a_0\inv \sum_{1\leq i \leq n} a_i b_{n-i} \\
+&= -a_0\inv \sum_{0\leq i \leq n-1} a_{n-i}b_i \\
+&= -{1\over a_0}\qty{a_nb_0 + a_{n-1}b_1 + \cdots + a_1 b_{n-1} }
+.\]
+
+For example, for $A(z) = 1-z$, this recovers $(1-z)\inv = \sum_{k\geq 0} z_k$.
+Noting $a_0 = 1, a_1 = -1$, we have
+
+- $b_0 = 1/a_0 = 1$
+- $b_1 = -{1\over a_0}(a_1 b_0) = -1(-1\cdot 1) = 1$
+- $b_2 = -{1\over a_0}(a_2 b_0 + a_1 b_1) = -1(0\cdot 1 + -1\cdot 1) = 1$, and so on.
+
+:::
+
+
+## Analyticity
 
 :::{.proposition title="Power Series are Smooth"}
 Any power series is smooth (and thus holomorphic) on its disc of convergence, and its derivatives can be obtained using term-by-term differentiation:
@@ -122,7 +143,6 @@ f(z)=\frac{1}{2 \pi i} \int_{S^{1}} \frac{f(w) }{w-z} \dw
 .\]
 
 :::
-
 
 :::{.proposition title="Exponential is uniformly convergent in discs"}
 $f(z) = e^z$ is uniformly convergent in any disc in $\CC$.
