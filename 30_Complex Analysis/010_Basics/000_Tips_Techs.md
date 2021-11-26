@@ -68,6 +68,8 @@ Some silly arithmetic tricks:
 - To prove that a singularity $z_0$ of $f$ is removable, show that $\lim_{z\to z_0} f(z)$ is bounded.
 - To prove that a singularity $z_0$ is a pole of $f$ of order $m$, write $f(z) = (z-z_0)^mg(z)$ where $g(z_0)\neq 0$ (or check the Laurent expansion directly).
   - To just show it is a pole, show $\lim_{z\to z_o}f(z) = \infty$.
+- To show that a singularity is essential, show that $\lim_{z\to z_0} f(z)$ doesn't exist (e.g. if it's oscillatory).
+  - It can be useful to take a specific sequence $\ts{z_k}\to z_0$.
 
 :::
 
