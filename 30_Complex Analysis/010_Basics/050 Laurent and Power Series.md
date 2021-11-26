@@ -167,7 +167,7 @@ z - {z^3\over 3!} + {z^5 \over 5!} - \cdots
 &= (z)(1)
 + \qty{-{z^3\over 3!} + {z^5\over 5!} - \cdots }\\
 \qty{-{z^3\over 3!} + {z^5\over 5!} - \cdots }
-&= (z)\qty{z^2\over 3!} + \qty{?}
+&= (z)\qty{-{ z^2\over 3!} } + \qty{ {z^5 \over 5!} - \cdots }
 .\]
 
 
