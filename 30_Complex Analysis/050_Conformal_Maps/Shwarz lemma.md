@@ -22,6 +22,20 @@ Equicontinuity is uniform continuity, where the uniformity extends across all $f
 :::
 
 
+:::{.example title="?"}
+If $f_k:[0,1]\to \RR$ is a family of differentiable functions with a uniform constant $M$ with $\abs{f_k'} \leq M$ for all $f\in \mcf$, then $\ts{f_k}$ is equicontinuous.
+To prove this, apply the MVT.
+:::
+
+
+:::{.example title="?"}
+The family $
+
+:::
+
+
+
+
 
 \todo[inline]{Montel's theorem}
 
