@@ -151,7 +151,25 @@ Inverting $\sin(z)$ using a geometric series, heeding the warning above:
 &= {1\over z} + {z^2\over 3!} - {z^4\over 5!} + {z^5\over 3! \cdot 3!} + \bigo(z^6)
 .\]
 
+#todo Not right!!
+
 :::
+
+
+:::{.example title="Inverting by polynomial long division"}
+With practice, it's much quicker to just do polynomial long division:
+\[
+{1\over \sin(z) } = z\inv\qty{z\over \sin(z)}
+.\]
+Now do the Euclidean algorithm:
+\[
+z - {z^3\over 3!} + {z^5 \over 5!} - \cdots
+= (z)(1)
+.\]
+
+
+:::
+
 
 :::{.fact title="Dividing using polynomial long division"}
 Polynomial long division basically works for formal power series.
