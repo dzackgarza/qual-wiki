@@ -1,10 +1,8 @@
 # Zeros and Singularities
 
-
 :::{.remark}
 On notation: for an analytic function $f$ expanded as a power series about $a$, write $v_a(f)$ as the $a\dash$adic valuation of $f$: expanding $f(z) = \sum_{k\in \ZZ} a_k (z-a)^k$ about $a$, define $v_a(f) = n$ iff $a_n\neq 0$ but $a_{\leq n} = 0$.
 :::
-
 
 :::{.definition title="Singularity"}
 A point $z_0$ is an **isolated singularity** if $f(z_0)$ is undefined but $f(z)$ is defined in a punctured neighborhood $D(z_0)\sm\ts{z_0}$ of $z_0$.
@@ -63,8 +61,6 @@ $f(z) \da z^{1\over 2}$ has a singularity at zero that does not fall under this 
 A similar example: $\qty{z(z-1)}^{1\over 2}$ has two branch singularities at $z=0, 1$.
 :::
 
-
-
 :::{.theorem title="Extension over removable singularities"}
 If $f$ is holomorphic on $\Omega\sm\ts{z_0}$ where $z_0$ is a removable singularity, then there is a unique holomorphic extension of $f$ to all of $\Omega$.
 :::
@@ -78,7 +74,6 @@ This is valid for $z\neq z_0$, but the right-hand side is analytic. (?)
 :::
 
 \todo[inline]{Revisit}
-
 
 ![](figures/2021-10-29_01-30-50.png)
 
@@ -104,8 +99,12 @@ f(z) = (z-z_0)^n g(z)
 We refer to $z_0$ as a **zero of order $n$**.
 :::
 
-:::{.proof}
-On why this order is unique: use that $\Omega$ is connected to find some neighborhood $U$ on which $f$ is not identically zero.
+:::{.remark}
+On terminology: if the order of $z_0$ for $f$ is $n$, we say $f$ **vanishes to order $n$**.
+:::
+
+:::{.proof title="of existence and uniqueness of order"}
+Use that $\Omega$ is connected to find some neighborhood $U$ on which $f$ is not identically zero.
 WLOG assume $z_0=0$. Expand $f$ as an honest power series at $z_0$ to write
 \[
 f(z) = \sum_{k\geq 0}c_k z^k = z^n\qty{c_n + c_{n+1}z + \cdots} \da z^n g(z)
