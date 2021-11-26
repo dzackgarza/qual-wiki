@@ -123,6 +123,21 @@ so
 .\]
 :::
 
+
+:::{.fact title="Using geometric series to invert power series"}
+There is an alternative that sometimes (?) works: writing $A(z) = \sum_{k\geq 0} a_k z_k$, invert by formal manipulations:
+\[
+{1\over A(z)} = {1 \over 1- (1-A(z))} = \sum_{k\geq 0} A(z)^k z^k
+.\]
+:::
+
+
+:::{.example title="Inverting using geometric series"}
+
+:::
+
+
+
 # Analyticity
 
 :::{.proposition title="Power Series are Smooth"}
