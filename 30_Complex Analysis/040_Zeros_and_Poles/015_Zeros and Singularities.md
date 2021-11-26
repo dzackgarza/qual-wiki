@@ -75,9 +75,9 @@ This is valid for $z\neq z_0$, but the right-hand side is analytic. (?)
 
 \todo[inline]{Revisit}
 
-![](figures/2021-10-29_01-30-50.png)
+<!--![](figures/2021-10-29_01-30-50.png)-->
 
-![](figures/2021-10-29_01-31-06.png)
+<!--![](figures/2021-10-29_01-31-06.png)-->
 
 
 :::{.theorem title="Improved Taylor Remainder Theorem"}
@@ -230,6 +230,26 @@ z\inv \sin(z) = z\inv(z - z^3/3! + z^5/5! - \cdots) = 1 - z^2/3! + z^4/5! - \cdo
 ,\]
 which has no factors of $z^{-k}$.
 So $z=0$ is a removable singularity.
+:::
+
+
+:::{.problem title="?"}
+Classify the singularities at $z=0$ of the following
+\[
+f_1(z) &= {\Log(1+z) \sin(z) \over z^2} \\
+?
+.\]
+:::
+
+:::{.solution}
+$f_1$: removable, evident from Laurent expansion at $z=0$:
+\[
+z^{-2}\Log(1+z)\sin(z) 
+&= z\inv \qty{ \sum_{k\geq 1} (-z)^k/k}\qty{z - z^3/3! + z^5/5!-\cdots} \\
+&= z^{-2}(-z+ z^2/2 - z^3/3+\cdots)(z - z^3/3! + z^5/5!-\cdots) \\
+&= z^{-2}(z^2(-1) + z^3(1/2) + z^2(-1/3! -1/3) + \cdots ) \\
+&= 1 + z/2 + \cdots
+.\]
 :::
 
 
