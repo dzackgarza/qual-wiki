@@ -93,7 +93,7 @@ a_0b_2 + a_1b_1 + a_2b_0 &= 1 \\
 
 :::
 
-:::{.example title="?"}
+:::{.example title="Inverse coefficient formula for $1/1-z$"}
 For example, for $A(z) = 1-z$, this recovers $(1-z)\inv = \sum_{k\geq 0} z_k$.
 Noting $a_0 = 1, a_1 = -1$, we have
 
@@ -108,7 +108,7 @@ and so on, so
 
 :::
 
-:::{.example title="?"}
+:::{.example title="Inverse of $2z-1$"}
 To compute the inverse of $A(z) \da (2z-1)$, note $a_0 = -1, a_1 = 2$, so
 
 - $b_0 = 1/a_0 = -1$
@@ -153,7 +153,6 @@ Inverting $\sin(z)$ using a geometric series, heeding the warning above:
 .\]
 
 :::
-
 
 :::{.example title="Inverting by polynomial long division"}
 With practice, it's much quicker to just do polynomial long division:
@@ -239,11 +238,7 @@ z - {1\over 3!}z^3 + {1\over 5!}z^5
 :::
 
 
-
-
-
-
-# Exercises: Series
+# Exercises
 
 :::{.exercise title="Application of summation by parts"}
 Use summation by parts to show that $\sin(n)/n$ converges.
@@ -321,9 +316,6 @@ For $z=1$:
 .\]
 :::
 
-:::{.exercise title="?"}
-Show that a real-valued holomorphic function must be constant.
-:::
 
 
 :::{.exercise title="?"}

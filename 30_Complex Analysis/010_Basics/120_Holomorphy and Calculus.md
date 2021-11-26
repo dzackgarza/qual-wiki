@@ -130,7 +130,9 @@ In this case, $a = f'(z_0)$.
 
 #todo proof
 
+# Exercises
+
 :::{.exercise title="?"}
 Show that a real-valued holomorphic function is constant.
-
 :::
+
