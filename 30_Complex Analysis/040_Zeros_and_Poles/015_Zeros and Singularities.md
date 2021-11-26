@@ -75,9 +75,9 @@ This is valid for $z\neq z_0$, but the right-hand side is analytic. (?)
 
 \todo[inline]{Revisit}
 
-<!--![](figures/2021-10-29_01-30-50.png)-->
+![](figures/2021-10-29_01-30-50.png)
 
-<!--![](figures/2021-10-29_01-31-06.png)-->
+![](figures/2021-10-29_01-31-06.png)
 
 
 :::{.theorem title="Improved Taylor Remainder Theorem"}
@@ -226,7 +226,7 @@ Show that $\sin(z)/z$ has no poles.
 Heuristic: $\sin(z)$ has a zero of order 1, so the $z$ in the denominator exactly cancels it.
 Explicitly, this is evident from the Laurent expansion about zero:
 \[
-z\inv \sin(z) = z\inv(z - z^3/3! + z^5/5! - \cdots) = 1 - z^2/3! + z^4/5! - \cdots
+z\inv \sin(z) = z\inv\qty{ z - {z^3 \over 3!} + {z^5\over 5!} - \cdots} = 1 - {z^2\over 3!} + {z^4 \over 5!} - \cdots
 ,\]
 which has no factors of $z^{-k}$.
 So $z=0$ is a removable singularity.
@@ -245,10 +245,13 @@ f_1(z) &= {\Log(1+z) \sin(z) \over z^2} \\
 $f_1$: removable, evident from Laurent expansion at $z=0$:
 \[
 z^{-2}\Log(1+z)\sin(z) 
-&= z\inv \qty{ \sum_{k\geq 1} (-z)^k/k}\qty{z - z^3/3! + z^5/5!-\cdots} \\
-&= z^{-2}(-z+ z^2/2 - z^3/3+\cdots)(z - z^3/3! + z^5/5!-\cdots) \\
-&= z^{-2}(z^2(-1) + z^3(1/2) + z^2(-1/3! -1/3) + \cdots ) \\
-&= 1 + z/2 + \cdots
+&= z\inv \qty{ \sum_{k\geq 1} { (-z)^k \over k} }
+\qty{z - { z^3 \over 3!} + { z^5 \over 5!} - \cdots} \\
+&= z^{-2}
+\qty{ -z+ { z^2 \over 2}  - { z^3 \over 3} + \cdots}
+\qty{z - { z^3 \over 3!} + { z^5 \over 5!} - \cdots} \\
+&= z^{-2}\qty{ z^2(-1) + z^3\qty{1\over 2} + z^2\qty{ -{ 1 \over 3!} - { 1 \over 3} } + \cdots } \\
+&= 1 + {z \over 2} + \cdots
 .\]
 :::
 
