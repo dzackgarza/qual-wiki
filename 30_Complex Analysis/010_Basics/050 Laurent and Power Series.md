@@ -137,6 +137,41 @@ There is an alternative that sometimes (?) works: writing $A(z) = \sum_{k\geq 0}
 :::
 
 
+:::{.fact title="Dividing using polynomial long division"}
+Polynomial long division basically works for formal power series.
+Recall the Euclidean algorithm, e.g. for ${z^3+1 \over z+1}$:
+\[
+z^3 + 1 &= (z+1)(z^2) + (-z^2 + 1) \\
+-z^2 + 1 &= (z+1)(-z) + (z+1) \\
+(z+1) &= (z+1)(1) + 0 \\
+\implies
+{z^3 + 1\over z+1} &= z^2 - z + 1
+.\]
+This goes by *increasing* powers, but one can also go by *decreasing* powers:
+\[
+1+z^3 &= (1+z)(1) + (-z+z^3) \\
+-z+z^3 &= (1+z)(-z) + (z^2 + z^3) \\
+z^2 +z^3 &= (1+z)(z^2) + 0 \\
+\implies
+{z^3 + 1\over z+1}&= 1 - z + z^2
+,\]
+which is useful for generating the first few low order terms of a series expansion.
+:::
+
+
+:::{.example title="?"}
+Computing a truncation of the Laurent series for $\tan(z)$ at $z=0$:
+\[
+{\sin(z) \over \cos(z)} 
+&= {z - {1\over 3!}z^3 + {1\over 5!} z^5 + \bigo(z^7) \over 1 - {1\over 2!} z^2 + {1\over 4!}z^4 + \bigo(z^6) }
+.\]
+
+
+:::
+
+
+
+
 
 # Analyticity
 
