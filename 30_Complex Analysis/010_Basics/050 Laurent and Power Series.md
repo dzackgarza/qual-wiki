@@ -165,16 +165,17 @@ Now do the Euclidean algorithm:
 \[
 z &= 
 \qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
-(1) + 
-\qty{{z^3\over 3!} - {z^5 \over 5!} + {z^7 \over 7!} + \bigo(z^9) } 
+(1) + \\
+&\quad \qty{{z^3\over 3!} - {z^5 \over 5!} + {z^7 \over 7!} + \bigo(z^9) } 
 \\ \\
-\qty{{z^3\over 3!} - {z^5 \over 5!} + {z^7 \over 7!} + \bigo(z^9) } 
+{z^3\over 3!} - {z^5 \over 5!} + {z^7 \over 7!} + \bigo(z^9) 
 &=
 \qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
-(?)
-+ ?
+\qty{z^2\over 3!}
+\\
+&\quad + 
+\qty{ z^5\qty{ -{1 \over 3! 3!} - {1\over 5!} } + z^7 \qty{- {1\over 3! 5!} + {1\over 7!}} }
 \\ \\
-? 
 &=
 \qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
 (?)
