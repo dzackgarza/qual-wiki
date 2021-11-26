@@ -255,7 +255,7 @@ z^{-2}\Log(1+z)\sin(z)
 &= 1 + {z \over 2} + \cdots
 .\]
 
-$f_2$: essential, evident from a sequence like $z_k \da \qty{n\cdot {\pi \over 2}}\inv
+$f_2$: essential, evident from a sequence like $z_k \da \qty{k\cdot {\pi\over 2} }\inv$ which makes $\sin(z_k)$ oscillate between 0 and 1.
 :::
 
 
