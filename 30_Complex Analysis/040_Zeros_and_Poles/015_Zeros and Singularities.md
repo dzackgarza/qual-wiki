@@ -95,14 +95,30 @@ R_{n}(z)\left(z-z_{0}\right)^{n}
 where $R_n$ is analytic.
 :::
 
-:::{.definition title="Orders of zeros"}
-A **zero** of an analytic function is any $z_0$ such that $f(z_0)=0$, with no further conditions.
+:::{.proposition title="Orders of zeros"}
+A **zero** of an analytic function on a domain $\Omega$ is any $z_0$ such that $f(z_0)=0$, with no further conditions.
 If $f$ is analytic and not identically zero on $\Omega$ with $f(z_0) = 0$, then there exists a  neighborhood $U\ni z_0$ and function $g$ that is holomorphic and nonvanishing on $U$ such that 
 \[
 f(z) = (z-z_0)^n g(z)
 .\]
 We refer to $z_0$ as a **zero of order $n$**.
 :::
+
+:::{.proof}
+On why this order is unique: use that $\Omega$ is connected to find some neighborhood $U$ on which $f$ is not identically zero.
+WLOG assume $z_0=0$. Expand $f$ as an honest power series at $z_0$ to write
+\[
+f(z) = \sum_{k\geq 0}c_k z^k = z^n\qty{c_n + c_{n+1}z + \cdots} \da z^n g(z)
+,\]
+where $a_n$ is the minimal nonvanishing coefficient.
+Since $a_n\neq 0$, we have $\lim_{z\to z_0} g(z) = a_n \neq 0$, so $g$ is nonvanishing in some neighborhood of $z_0$.
+Uniqueness follows from writing 
+\[
+z^n g(z) = z^m h(z) \implies g(z) = z^{m-n} h(z) 
+,\]
+assuming $m>n$, but then taking $z\to z_0 =0$ on the RHS yields $g(z) = 0$, a contradiction.
+:::
+
 
 :::{.definition title="Poles (and associated terminology)"}
 A *pole* $z_0$ of a function $f(z)$ is a zero of $g(z) \definedas {1\over f(z)}$.
