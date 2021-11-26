@@ -79,7 +79,9 @@ b_n &= -a_0\inv \sum_{1\leq i \leq n} a_i b_{n-i} \\
 &= -a_0\inv \sum_{0\leq i \leq n-1} a_{n-i}b_i \\
 &= -{1\over a_0}\qty{a_nb_0 + a_{n-1}b_1 + \cdots + a_1 b_{n-1} }
 .\]
+:::
 
+:::{.example title="?"}
 For example, for $A(z) = 1-z$, this recovers $(1-z)\inv = \sum_{k\geq 0} z_k$.
 Noting $a_0 = 1, a_1 = -1$, we have
 
@@ -91,7 +93,6 @@ and so on, so
 \[
 {1\over A(z)} = 1 + 1\cdot z + 1\cdot z^2 + \cdots
 .\]
-
 
 :::
 
