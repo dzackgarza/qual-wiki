@@ -81,6 +81,21 @@ b_n &= -a_0\inv \sum_{1\leq i \leq n} a_i b_{n-i} \\
 .\]
 :::
 
+
+:::{.remark}
+How to prove this:
+\[
+\qty{\sum a_k z^k}\qty{\sum b_k z^k} = 1
+\implies 
+a_0b_0 &=1 \\
+a_0b_1 + a_1b_0 &= 1 \\
+a_0b_2 + a_1b_1 + a_2b_0 &= 1 \\
+\vdots \quad&\quad \vdots
+\]
+
+:::
+
+
 :::{.example title="?"}
 For example, for $A(z) = 1-z$, this recovers $(1-z)\inv = \sum_{k\geq 0} z_k$.
 Noting $a_0 = 1, a_1 = -1$, we have
@@ -110,7 +125,6 @@ so
 {1\over 1-2z} = -1 - 2z - 4z^2 - 8z^3 \cdots 
 = - \sum_{k\geq 0} (2z)^k
 .\]
-
 :::
 
 
