@@ -148,7 +148,7 @@ Inverting $\sin(z)$ using a geometric series, heeding the warning above:
 + \qty{{z^2\over 3!} - {z^4\over 5!} + \cdots}
 + \qty{{z^2\over 3!} - {z^4\over 5!} + \cdots}^2 z
 + \cdots \\
-&= {1\over z} + {z^2\over 3!} - {z^4\over 5!} + {z^5\over 3! \cdot 3!} + \bigo(z^6) + \qty{-z + {z^3\over 3!} - {z^5\over 5!} - \cdots }
+&= {1\over z} + {z^2\over 3!} - {z^4\over 5!} + {z^5\over 3! \cdot 3!} + \bigo(z^6) 
 .\]
 
 #todo Not right!!
@@ -165,6 +165,7 @@ Now do the Euclidean algorithm:
 \[
 z - {z^3\over 3!} + {z^5 \over 5!} - \cdots
 = (z)(1)
++ \qty{-z + {z^3\over 3!} - {z^5\over 5!} - \cdots }
 .\]
 
 
