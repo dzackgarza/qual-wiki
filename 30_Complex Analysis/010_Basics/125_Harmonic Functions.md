@@ -89,3 +89,19 @@ A function harmonic $u$ on all of $\RR^2$ and bounded is necessarily constant.
 This follows from writing $f=u+iv$, which will then be a bounded entire function and thus constant by Liouville, which then must have constant real part.
 :::
 
+:::{.exercise title="?"}
+Show that if $u,v$ are harmonic conjugates, then
+
+- $u^2-v^2$ is harmonic
+- $u_x$ is harmonic.
+:::
+
+:::{.solution}
+Write $f=u+iv$, which is analytic.
+
+- $f^2$ is analytic, and $f^2 = (u+iv)^2 = u^2 - v^2 + i (2uv)$, which necessarily has harmonic components.
+
+- $f'$ is analytic and one can write $f' = u_x + iv_x$, which has harmonic components.
+:::
+
+
