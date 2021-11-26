@@ -147,7 +147,6 @@ f(z) = (z-z_0)^{-n} h(z) && \quad h(z) \da {1\over g(z)}
 
 :::
 
-
 :::{.example title="Of using this characterization"}
 Claim: if $f$ has a pole of order $m$ at $z_0$, then $g(z) \da f(z^2)$ has a pole of order $2m$ at $z_0$.
 WLOG assume $z_0=0$.
@@ -158,9 +157,7 @@ f(z) = \sum_{k\geq -m} c_k z^k \implies g(z) = \sum_{k\geq -m} c_k z^{2k}
 .\]
 Using the other characterization, write $f(z) = z^{-m} h(z)$ with $g$ holomorphic and nonzero in a neighborhood $U$ of $z_0$, so in particular $h(0) \neq 0$.
 Then $f(z^2) = z^{-2m} h(z^z)$ and $h(z^2)\mid_{z=0} = h(0) \neq 0$.
-
 :::
-
 
 :::{.definition title="Principal Part and Residue"}
 If $f$ has a pole of order $n$ at $z_0$, then there exist a holomorphic $G$ in a neighborhood of $z_0$ such that
