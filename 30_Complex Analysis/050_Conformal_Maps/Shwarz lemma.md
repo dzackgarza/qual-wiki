@@ -1,11 +1,21 @@
 # Schwarz Lemma
 
-#todo
-\todo[inline]{Normal families}
-
-
 :::{.definition title="Normal Families"}
 A family $\mcf = \ts{f_j}_{j\in J}$ of holomorphic functions on $\Omega$ is **normal** if every sequence of functions from $\mcf$ has a locally uniformly convergent subsequence (so they converge on every compact subset of $\Omega$).
+:::
+
+
+:::{.definition title="Uniform boundedness and equicontinuity"}
+A family $\mcf$ of holomorphic functions is **uniformly bounded on compact subsets of $\Omega$** iff for each compact $K \subseteq \Omega$ if
+\[
+\exists M>0 \text{ such that } \abs{f(z)} < M \qquad \forall z\in K,\,\forall f\in \mcf
+.\]
+It is **equicontinuous** on $K$ if 
+\[
+\forall \eps>0,\, \exists \delta = \delta(\eps) \text{ such that } z,w\in K,\, \abs{z-w}< \delta \implies \abs{f(z) - f(w)} < \eps \quad \forall f\in \mcf
+.\]
+
+
 
 :::
 
