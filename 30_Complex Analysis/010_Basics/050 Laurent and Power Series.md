@@ -69,7 +69,6 @@ The product of two sequences is given by the Cauchy product
 
 \todo[inline]{Add series tricks.}
 
-
 :::{.fact title="Multiplicatively inverting a series"}
 Using the general ring theory fact that $A(z) \da \sum_{k\geq 0} a_k z^k \in R[[z]]$ is invertible iff $a_0$ is invertible in $R$, power series over fields can always be inverted.
 There is a formula: writing $B(z) \da \sum_{k\geq 0 } b_k z^k \da 1/A(z) \in \CC[[z]]$, the coefficients can be inductively computed as
@@ -80,7 +79,6 @@ b_n &= -a_0\inv \sum_{1\leq i \leq n} a_i b_{n-i} \\
 &= -{1\over a_0}\qty{a_nb_0 + a_{n-1}b_1 + \cdots + a_1 b_{n-1} }
 .\]
 :::
-
 
 :::{.remark}
 How to prove this:
@@ -94,7 +92,6 @@ a_0b_2 + a_1b_1 + a_2b_0 &= 1 \\
 \]
 
 :::
-
 
 :::{.example title="?"}
 For example, for $A(z) = 1-z$, this recovers $(1-z)\inv = \sum_{k\geq 0} z_k$.
@@ -111,7 +108,6 @@ and so on, so
 
 :::
 
-
 :::{.example title="?"}
 To compute the inverse of $A(z) \da (2z-1)$, note $a_0 = -1, a_1 = 2$, so
 
@@ -127,8 +123,7 @@ so
 .\]
 :::
 
-
-## Analyticity
+# Analyticity
 
 :::{.proposition title="Power Series are Smooth"}
 Any power series is smooth (and thus holomorphic) on its disc of convergence, and its derivatives can be obtained using term-by-term differentiation:
@@ -197,7 +192,7 @@ Now by the $M\dash$test,
 .\]
 :::
 
-## Analytic Number Theory's Faves
+# Analytic Number Theory's Faves
 
 :::{.lemma title="Dirichlet's Test"}
 Given two sequences of real numbers \( \ts{ a_k } , \ts{ b_k } \) which satisfy
@@ -312,7 +307,7 @@ If $f$ is non-constant, then $f'$ is analytic and the zeros of $f'$ are isolated
 If $f,g$ are analytic with $f'=g'$, then $f-g$ is constant.
 :::
 
-### Exercises: Series
+# Exercises: Series
 
 :::{.exercise title="Application of summation by parts"}
 Use summation by parts to show that $\sin(n)/n$ converges.
