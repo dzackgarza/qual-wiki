@@ -95,8 +95,9 @@ R_{n}(z)\left(z-z_{0}\right)^{n}
 where $R_n$ is analytic.
 :::
 
-:::{.definition title="Zeros"}
-If $f$ is analytic and not identically zero on $\Omega$ with $f(z_0) = 0$, then there exists a nonvanishing holomorphic function $g$ such that 
+:::{.definition title="Orders of zeros"}
+A **zero** of an analytic function is any $z_0$ such that $f(z_0)=0$, with no further conditions.
+If $f$ is analytic and not identically zero on $\Omega$ with $f(z_0) = 0$, then there exists a  neighborhood $U\ni z_0$ and function $g$ that is holomorphic and nonvanishing on $U$ such that 
 \[
 f(z) = (z-z_0)^n g(z)
 .\]
