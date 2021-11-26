@@ -52,3 +52,20 @@ Some computations that come up frequently:
 \abs{e^{z}} = e^{\Re(z)}, \quad \arg(e^z) = \Im(z)
 .\]
 :::
+
+# Exercises
+
+:::{.problem title="?"}
+Show that ${z-1\over z+1}$ is purely imaginary $\iff z\in S^1$.
+
+> Hint: $z$ is purely imaginary iff $\bar{z} = -z$.
+
+:::
+
+:::{.solution}
+\[
+{z-1\over z+1} = -\qty{\bar z - 1 \over \bar z + 1} \iff (z-1)(1+z) = (1-\bar z)(1+\bar z) \iff2-2\abs{z}^2 = 0 \iff \abs{z}^2 = 1
+.\]
+:::
+
+
