@@ -136,7 +136,6 @@ There is an alternative that sometimes (?) works: writing $A(z) = \sum_{k\geq 0}
 
 :::
 
-
 :::{.fact title="Dividing using polynomial long division"}
 Polynomial long division basically works for formal power series.
 Recall the Euclidean algorithm, e.g. for ${z^3+1 \over z+1}$:
@@ -157,7 +156,6 @@ z^2 +z^3 &= (1+z)(z^2) + 0 \\
 ,\]
 which is useful for generating the first few low order terms of a series expansion.
 :::
-
 
 :::{.example title="?"}
 Computing a truncation of the Laurent series for $\tan(z)$ at $z=0$:
@@ -183,8 +181,6 @@ z - {1\over 3!}z^3 + {1\over 5!}z^5
 \\ \\
 \implies \tan(z) &= z + {1\over 3}z^3 + {2\over 15 }z^5 + \cdots
 .\]
-
-
 :::
 
 
