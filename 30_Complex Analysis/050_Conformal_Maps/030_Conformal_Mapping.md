@@ -273,7 +273,7 @@ Note that if you look at the image of $\HH$ under $z\mapsto z^{\alpha}$, you get
 \[
 \ts{z \st 0 < \Arg(z) < \pi } &\mapstofrom \ts{0 < \Arg(w) < \alpha \pi } 
 .\]
-For the inverse, choose a branch cut of $\log$ deleting the negative real axis, or more generally fix $0 < \arg w < \alpha \pi$.
+For the inverse, choose a branch cut of $\log$ deleting the negative real axis, so $w\mapsto e^{1\over n \log w}$ here.
 
 **Boundary behavior:**
 
