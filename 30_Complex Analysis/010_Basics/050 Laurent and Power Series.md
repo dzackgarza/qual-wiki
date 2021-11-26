@@ -42,7 +42,7 @@ e^z &= \sum_{k\geq 0} {z^k \over k!} \\
 \sinh(z) &= \sum_{k\geq 0} { z^{2k+1} \over (2k+1)! } \\
 &= z + {1\over 3!}z^3 + {1\over 5!}z^5 + \cdots \\ \\
 \log(1-z) 
-  &= \sum_{k \geq 0} {z^k\over k} \quad \abs{z} < 1 \\
+  &= \sum_{k \geq 0} {z^k\over k} \quad \abs{z} < 1 \\ \\
 \dd{}{z} \sum_{k=0}^\infty a_k z^k 
   &= \sum_{k=0}^\infty a_{k+1}z^k \\
 (1+x)^{1/2} 
