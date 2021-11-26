@@ -256,6 +256,17 @@ z^{-2}\Log(1+z)\sin(z)
 .\]
 
 $f_2$: essential, evident from a sequence like $z_k \da \qty{k\cdot {\pi\over 2} }\inv$ which makes $\sin(z_k)$ oscillate between 0 and 1.
+
+$f_3$: pole of order 1, seen by Laurent expanding:
+\[
+{1\over e^z-1} 
+&= {1 \over z + {1\over 2}z^2 + \cdots} \\
+&= {1 \over z\qty{1 + {1\over 2}z + \cdots} } \\
+&\da {1\over z \qty{1 + p(z)}} \\
+&= z\inv \sum_{k\geq 0}(-p(z))^k z^k \\
+&= z\inv \qty{1 - zp(z) + z^2p(z)^2 - z^2p(z)^3 + \bigo(z^4)} \\
+.\]
+
 :::
 
 
