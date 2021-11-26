@@ -42,7 +42,7 @@ If you want to show that a function $f$ is constant, try one of the following:
 
 :::
 
-:::{.fact}
+:::{.remark title="Showing a function is holomorphic"}
 To show a function is holomorphic,
 
 - Use Morera's theorem
@@ -50,10 +50,21 @@ To show a function is holomorphic,
 
 :::
 
-:::{.fact}
+:::{.remark title="Counting zeros"}
 To count zeros:
 
 - Rouche's theorem
 - The argument principle
 
 :::
+
+
+:::{.remark title="Arithmetic tricks"}
+Some silly arithmetic tricks:
+
+- $z$ is purely imaginary $\iff \bar{z} = -z$.
+- $z\in \RR \iff \bar z = z$.
+- To prove $a=b$, try $a/b = 1$ or $a-b=0$.
+:::
+
+
