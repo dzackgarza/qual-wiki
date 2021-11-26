@@ -113,3 +113,14 @@ If $f$ is non-constant, then $f'$ is analytic and the zeros of $f'$ are isolated
 If $f,g$ are analytic with $f'=g'$, then $f-g$ is constant.
 :::
 
+
+# Exercises
+
+:::{.exercise title="?"}
+Show that $\prod_{n\in \ZZ} (1 + a_n) < \infty$ if $\ts{a_n} \in \ell_1(\ZZ)$.
+
+:::
+
+:::{.exercise title="Application of summation by parts"}
+Use summation by parts to show that $\sin(n)/n$ converges.
+:::

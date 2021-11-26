@@ -4,7 +4,6 @@ order: 50
 
 # Laurent and Power Series
 
-
 :::{.fact title="Generalized Binomial Theorem"}
 Define $(n)_k$ to be the falling factorial 
 \[
@@ -231,14 +230,9 @@ z - {1\over 3!}z^3 + {1\over 5!}z^5
 .\]
 :::
 
-
 # Exercises
 
-:::{.exercise title="Application of summation by parts"}
-Use summation by parts to show that $\sin(n)/n$ converges.
-:::
-
-:::{.exercise title="1.20: Series convergence on the circle"}
+:::{.exercise title="Stein/Shakarchi 1.20: Series convergence on the circle"}
 Show that
 
 1. $\sum kz^k$ diverges on $S^1$.
@@ -261,7 +255,7 @@ Show that
   Here we've used that two points on $S^1$ are at most distance 2 from each other.
 :::
 
-:::{.exercise title="Laurent expansions inside and outside of a disc"}
+:::{.exercise title="Expanding Laurent series in different regions"}
 Expand $f(z) = {1\over z(z-1)}$ in both
 
 - $\abs{z} < 1$
@@ -309,8 +303,4 @@ For $z=1$:
 &= {1\over z-1} \qty{1 + \sum_{k\geq 0} (-1)^k (z-1)^k }
 .\]
 :::
-
-
-
-
 
