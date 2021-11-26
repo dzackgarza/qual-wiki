@@ -239,7 +239,7 @@ Let $f = u + iv$ be an entire function such that $\Re(f(x+iy))$ is polynomial in
 Show that $f(z)$ is polynomial in $z$.
 :::
 
-:::{.solution .foldopen}
+:::{.solution}
 To clear up notation: write $f(z) = u(x, y) + iv(x, y)$, here we're assuming that $u$ is polynomial in $x$ and $y$.
 
 :::{.claim}
