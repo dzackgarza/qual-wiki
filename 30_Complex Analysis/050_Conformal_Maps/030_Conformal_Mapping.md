@@ -3,12 +3,13 @@
 
 :::{.fact}
 Checking if $f$ is conformal: $f'(z_0) \neq 0$.
+
+- Conformal Mapping Dictionary:
+
+  Parts [I](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.1.html),[II](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.2.html) ,[III](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.3.html) ,[IV](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.4.html), and [V](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.5.html)
+
+
 :::
-
-Conformal Mapping Dictionary:
-
-Parts [I](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.1.html),[II](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.2.html) ,[III](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.3.html) ,[IV](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.4.html), and [V](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.5.html)
-
 
 :::{.definition title="Conformal Map / Biholomorphism"}
 A map $f$ is **conformal** on $\Omega$ iff $f$ is complex-differentiable, $f'(z)\neq 0$ for $z\in \Omega$, and $f$ preserves signed angles (so $f$ is orientation-preserving).
@@ -41,7 +42,6 @@ and derivatives given by
 T'(z) = {ad-bc \over (cz+d)^2}
 .\]
 :::
-
 
 :::{.remark}
 Using that $\Aut(\CP^1) \cong \PGL_2(\CC)$, there is a nice matrix representation if you let the act on the right:
@@ -86,13 +86,11 @@ This swaps $z_1$ and $0$.
 :::
 
 
-:::{.example title="?"}
-Mapping the disc to the half-plane:
+:::{.example title="Mapping the half-disc to the half-plane"}
 \[
 (z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv
 .\]
-
-
+?????
 :::
 
 :::{.example title="?"}
@@ -132,7 +130,6 @@ g(z) = \lambda {z-a \over 1 - \bar a z}, \quad a\in \Delta, \lambda \in S^1
 
 :::
 
-
 :::{.remark}
 These have derivatives
 \[
@@ -140,8 +137,6 @@ g'(z) = \lambda {1 - \abs{a}^2 \over (1-\bar a z)^2}
 .\]
 
 :::
-
-
 
 :::{.proof title="of theorem, sketch"}
 
@@ -154,7 +149,6 @@ g'(z) = \lambda {1 - \abs{a}^2 \over (1-\bar a z)^2}
 - Claim: this representation is unique.
   Consider $f'(z)$, this determines $\Arg(\lambda)$.
 :::
-
 
 :::{.remark}
 There are such maps that are *not* rotations, e.g. the Blaschke factors:
@@ -420,16 +414,5 @@ z &\mapsto \sin(z) \\
 
 
 
-
-## Exercises
-
-
-:::{.exercise title="?"}
-Find a conformal map from the upper half-disc to the upper half-plane.
-:::
-
-:::{.solution}
-![[2021-07-29_19-26-39.png]]
-:::
 
 
