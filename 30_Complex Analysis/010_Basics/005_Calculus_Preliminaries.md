@@ -154,8 +154,6 @@ Recall how to carry out polynomial long division:
 - For irreducible quadratic factors $h_i(x)$, include terms of the form ${Ax+B \over h_i(x)}$.
 :::
 
-
-
 ## Exercises
 
 :::{.exercise title="?"}
