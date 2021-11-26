@@ -1,10 +1,17 @@
 # Schwarz Lemma
 
 #todo
+\todo[inline]{Normal families}
+
+
+:::{.definition title="Normal Families"}
+A family $\mcf = \ts{f_j}_{j\in J}$ of holomorphic functions on $\Omega$ is **normal** if every sequence of functions from $\mcf$ has a locally uniformly convergent subsequence (so they converge on every compact subset of $\Omega$).
+
+:::
+
 
 \todo[inline]{Montel's theorem}
 
-\todo[inline]{Normal families}
 
 \todo[inline]{Equicontinuity}
 
