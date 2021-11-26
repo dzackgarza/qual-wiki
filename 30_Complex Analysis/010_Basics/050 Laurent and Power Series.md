@@ -33,13 +33,14 @@ and set ${n\choose k} \da (n)_k/k!$, then
 e^z &= \sum_{k\geq 0} {z^k \over k!} \\
 \sin(z) 
   &= \sum_{\substack{ k \geq 1 \\ \text{odd} }} (-1)^{k+1 \over 2} {z^k \over k!} \\
-  &= z - {1\over 3!}z^3 + {1\over 5!}z^5 + \cdots \\
+  &= z - {1\over 3!}z^3 + {1\over 5!}z^5 + \cdots \\ \\
 \cos(z) 
   &= \sum_{\substack{ k \geq 0 \\ \text{even}} } (-1)^{k\over 2} {z^k \over k!} \\
-  &= 1 - {1\over 2!}z^2 + {1\over 4!}z^4 + \cdots \\
-  \\
+  &= 1 - {1\over 2!}z^2 + {1\over 4!}z^4 + \cdots \\ \\
 \cosh(z) &= \sum_{k\geq 0} { z^{2k} \over (2k)! } \\
+&= 1 + {1\over 2!}z^2 + {1\over 4!}z^4 + \cdots \\ \\
 \sinh(z) &= \sum_{k\geq 0} { z^{2k+1} \over (2k+1)! } \\
+&= z + {1\over 3!}z^3 + {1\over 5!}z^5 + \cdots \\ \\
 \log(1-z) 
   &= \sum_{k \geq 0} {z^k\over k} \quad \abs{z} < 1 \\
 \dd{}{z} \sum_{k=0}^\infty a_k z^k 
