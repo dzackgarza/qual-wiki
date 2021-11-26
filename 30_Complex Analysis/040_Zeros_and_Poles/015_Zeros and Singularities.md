@@ -237,7 +237,8 @@ So $z=0$ is a removable singularity.
 Classify the singularities at $z=0$ of the following
 \[
 f_1(z) &= {\Log(1+z) \sin(z) \over z^2} \\
-?
+f_2(z) &= e^{1\over z} \\
+f_3(z) &= {1+z \over e^z-1}
 .\]
 :::
 
@@ -253,6 +254,8 @@ z^{-2}\Log(1+z)\sin(z)
 &= z^{-2}\qty{ z^2(-1) + z^3\qty{1\over 2} + z^2\qty{ -{ 1 \over 3!} - { 1 \over 3} } + \cdots } \\
 &= 1 + {z \over 2} + \cdots
 .\]
+
+$f_2$:
 :::
 
 
