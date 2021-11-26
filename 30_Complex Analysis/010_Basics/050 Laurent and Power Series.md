@@ -123,7 +123,6 @@ so
 .\]
 :::
 
-
 :::{.fact title="Using geometric series to invert power series"}
 There is an alternative that sometimes (?) works: writing $A(z) = \sum_{k\geq 0} a_k z_k$, invert by formal manipulations:
 \[
@@ -152,8 +151,6 @@ Inverting $\sin(z)$ using a geometric series, heeding the warning above:
 &= {1\over z}\qty{ 1 + {1\over 3!}z^2 + \qty{\qty{1\over 3!}^2 - {1\over 5!} }z^4 + \bigo(z^6) }\\
 &= {1\over z} + {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)
 .\]
-
-#todo Not right!!
 
 :::
 
@@ -190,6 +187,8 @@ z &=
 .\]
 
 
+> This looks like a lot, but it's really just the grade school algorithm.
+
 :::
 
 
@@ -215,7 +214,7 @@ which is useful for generating the first few low order terms of a series expansi
 :::
 
 :::{.example title="?"}
-Computing a truncation of the Laurent series for $\tan(z)$ at $z=0$:
+Computing the Laurent series for $\tan(z)$ at $z=0$:
 \[
 {\sin(z) \over \cos(z)} 
 &= {z - {1\over 3!}z^3 + {1\over 5!} z^5 + \bigo(z^7) \over 1 - {1\over 2!} z^2 + {1\over 4!}z^4 + \bigo(z^6) } 
