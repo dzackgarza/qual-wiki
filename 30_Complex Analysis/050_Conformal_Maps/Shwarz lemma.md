@@ -42,23 +42,20 @@ then $f$ is a rotation.
 - $\abs{f(z_0)} = \abs{z_0}\implies f$ is a rotation:
   - Again $\abs{g(z)} \leq 1$, but $\abs{f(z_0)} = \abs{z_0} \implies \abs{g(z_0)} = 1$, so $g$ attains a maximum on $\abs{z}\leq 1$, making it constant, so $f(z) = cz$.
   - Then $\abs{z_0} = \abs{f(z_0)} = \abs{cz_0}$ since $f(z_0) = z_0$, so $\abs{c} = 1$ and $c = e^{i\theta}$ for some $\theta$.
-
 :::
 
 # Exercises
-
 
 :::{.exercise title="?"}
 Show that if $f: \Delta\to\Delta$ is a biholomorphism with $f(0) = 0$ then $f$ is a rotation.
 :::
 
-
 :::{.solution}
-Apply Schwarz, which says $\abs{f(z)} \leq \abs{z}$ with equality $\iff g$ is a rotation, so it suffices to show that this is an equality.
-Write $f(z) = w$, then
+By Schwarz, $\abs{f(z)} \leq \abs{z}$, and if we write $h \da f\inv$ then $h(0) = 0$ and $\abs{h(z)} \leq \abs{z}$ as well.
+Schwarz says $f$ will be a rotation if there is any $z_0$ such that $\abs{f(z_0)} = \abs{z_0}$.
+Write $f(z) = w$, we'll then show that in fact $\abs{f(z)} = \abs{z}$ for all $z\in \DD$.
 \[
 \abs{z} = \abs{(h\circ f)(z)} = \abs{h(w)} \leq \abs{w} = \abs{f(z)}\leq \abs{z}
 .\]
 :::
-
 
