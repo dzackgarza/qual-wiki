@@ -2,8 +2,15 @@
 order: 120
 ---
 
-# Complex Calculus
 
+:::{.fact}
+Useful facts:
+\[
+f' = \dd{f}{z} = {1\over i}\dd{f}{y} = \dd{f}{x} = \dd u x + i \dd v x
+.\]
+:::
+
+# Complex Calculus
 
 :::{.fact}
 Various differentials:
@@ -58,7 +65,6 @@ This is these are paths that don't lift to closed loops on the Riemann surface d
 :::
 
 # Holomorphy
-
 
 :::{.definition title="Complex differentiable / holomorphic /entire"}
 A function $f: \CC\to \CC$ is **complex differentiable** or **holomorphic** at $z_0$ iff the following limit exists:
@@ -124,9 +130,7 @@ In this case, $a = f'(z_0)$.
 
 #todo proof
 
-
 :::{.exercise title="?"}
 Show that a real-valued holomorphic function is constant.
 
 :::
-
