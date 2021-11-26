@@ -143,7 +143,8 @@ Inverting $\sin(z)$ using a geometric series, heeding the warning above:
 &={1\over z\qty{ 1 - {z^2\over 3!} + {z^4 \over 5!} } } \\
 &= z\inv {1\over 1 - p(z)} && p(z) \da {z^2\over 3!} - {z^4\over 5!} + \cdots \\
 &= \sum_{k\geq 0} p(z)^k z^{k-1} \\
-&= {1\over z} + p(z) + p(z)^2z + \cdots
+&= {1\over z} + p(z) + p(z)^2z + \cdots \\
+&= {1\over z} + {z^2\over 3!} - {z^4\over 5!} + {z^6 \over 7!} + \bigo(z^6)
 .\]
 
 :::
