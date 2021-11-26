@@ -27,9 +27,8 @@ If $f_k:[0,1]\to \RR$ is a family of differentiable functions with a uniform con
 To prove this, apply the MVT.
 :::
 
-
 :::{.example title="?"}
-The family $
+The family $f_k(x) = x^k$ is not equicontinuous, since fixing $x_0 \in (0, 1)$ we have $\abs{f_k(x_0) - f_k(1)} \convergesto{k\to \infty} 1 > \eps$.
 
 :::
 
