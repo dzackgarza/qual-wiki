@@ -69,8 +69,6 @@ So $\log$ can't even be made continuous if one crosses the branch.
 The issue is the **branch point** or **branch singularity** at $z=0$.
 :::
 
-
-
 :::{.theorem title="Existence of log of a function"}
 If $f$ is holomorphic and nonvanishing on a simply-connected region $\Omega$, then there exists a holomorphic $G$ on $\Omega$ such that
 
@@ -79,3 +77,11 @@ f(z) = e^{G(z)}
 .\]
 
 :::
+
+:::{.fact}
+The complex exponential is $2\pi i$ periodic, and invertible on any horizontal strip of the form
+\[
+S_\alpha \da \ts{z\in \CC \st \Im(z) \in [\alpha, \alpha+2\pi] }
+.\]
+:::
+

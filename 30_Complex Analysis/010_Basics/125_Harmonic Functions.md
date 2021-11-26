@@ -83,3 +83,9 @@ v_{xx} + u_{yx} = 0 \implies v_{xx} + v_{yy} = 0 \\ \\
 
 
 :::
+
+:::{.fact}
+A function harmonic $u$ on all of $\RR^2$ and bounded is necessarily constant.
+This follows from writing $f=u+iv$, which will then be a bounded entire function and thus constant by Liouville, which then must have constant real part.
+:::
+
