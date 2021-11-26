@@ -163,7 +163,10 @@ which is useful for generating the first few low order terms of a series expansi
 Computing a truncation of the Laurent series for $\tan(z)$ at $z=0$:
 \[
 {\sin(z) \over \cos(z)} 
-&= {z - {1\over 3!}z^3 + {1\over 5!} z^5 + \bigo(z^7) \over 1 - {1\over 2!} z^2 + {1\over 4!}z^4 + \bigo(z^6) }
+&= {z - {1\over 3!}z^3 + {1\over 5!} z^5 + \bigo(z^7) \over 1 - {1\over 2!} z^2 + {1\over 4!}z^4 + \bigo(z^6) } 
+\\ \\
+z - {1\over 3!}z^3 + {1\over 5!}z^5 
+&= \qty{1 - {1\over 2!}z^2 + {1\over 4!}z^4}(z)
 .\]
 
 
