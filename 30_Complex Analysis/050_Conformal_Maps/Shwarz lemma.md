@@ -49,15 +49,15 @@ then $f$ is a rotation.
 
 
 :::{.exercise title="?"}
-Show that if $g: \Delta\to\Delta$ is a biholomorphism with $g(0) = 0$ then $g$ is a rotation.
+Show that if $f: \Delta\to\Delta$ is a biholomorphism with $f(0) = 0$ then $f$ is a rotation.
 :::
 
 
 :::{.solution}
-Apply Schwarz, which says $\abs{g(z)} \leq \abs{z}$ with equality $\iff g$ is a rotation, so it suffices to show this equality.
-Write $g(z) = w$, then
+Apply Schwarz, which says $\abs{f(z)} \leq \abs{z}$ with equality $\iff g$ is a rotation, so it suffices to show that this is an equality.
+Write $f(z) = w$, then
 \[
-\abs{z} = \abs{(h\circ g)(z)} = \abs{h(w)} \leq \abs{w} = \abs{g(z)}\leq \abs{z}
+\abs{z} = \abs{(h\circ f)(z)} = \abs{h(w)} \leq \abs{w} = \abs{f(z)}\leq \abs{z}
 .\]
 :::
 
