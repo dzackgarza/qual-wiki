@@ -72,8 +72,14 @@ T(z) \da
 \circ
 (z; z_1,z_2, z_3)
 .\]
+:::
 
-
+:::{.remark}
+A very useful variant that shows up in applications of the Schwarz' lemma:
+\[
+M_{z_1} \da {z_1 - z \over 1 - \bar{z_1} z}
+.\]
+This swaps $z_1$ and $0$.
 :::
 
 :::{.example title="?"}
