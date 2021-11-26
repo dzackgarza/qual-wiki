@@ -118,9 +118,8 @@ z^n g(z) = z^m h(z) \implies g(z) = z^{m-n} h(z)
 assuming $m>n$, but then taking $z\to z_0 =0$ on the RHS yields $g(z) = 0$, a contradiction.
 :::
 
-
 :::{.definition title="Poles (and associated terminology)"}
-A *pole* $z_0$ of a function $f(z)$ is a zero of $g(z) \definedas {1\over f(z)}$.
+A *pole* $z_0$ of a function $f(z)$ is a zero of $g(z) \definedas {1\over f(z)}$ where $g$ is holomorphic in some neighborhood of $z_0$.
 Equivalently, $\lim_{z\to z_0} f(z) = \infty$.
 In this case there exists a minimal $n$ and a holomorphic $h$ such that
 \[  
