@@ -174,13 +174,16 @@ z &=
 \qty{z^2\over 3!}
 \\
 &\quad + 
-\qty{ z^5\qty{ -{1 \over 3! 3!} - {1\over 5!} } + z^7 \qty{- {1\over 3! 5!} + {1\over 7!}} }
+\qty{ z^5\qty{ -{1 \over 3! 3!} - {1\over 5!} } + z^7 \qty{- {1\over 3! 5!} + {1\over 7!}} + \bigo(z^9) }
 \\ \\
-\qty{ z^5\qty{ -{1 \over 3! 3!} - {1\over 5!} } + z^7 \qty{- {1\over 3! 5!} + {1\over 7!}} }
+ z^5\qty{ -{1 \over 3! 3!} - {1\over 5!} } + z^7 \qty{- {1\over 3! 5!} + {1\over 7!}} + \bigo(z^9)
 &=
 \qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
-\qty{z^4 \over { {1\over 3! 3!} - { 1\over 5!}  } }
-+ ?
+\qty{z^4 \qty{ {1\over 3! 3!} - { 1\over 5!}  } }
+\\ 
+&\quad + \bigo(z^7)
+\\ \\\
+\implies {z\over \sin(z)} &= 1 + {z^2\over 3!}
 .\]
 
 
