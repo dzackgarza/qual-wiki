@@ -65,6 +65,9 @@ Some silly arithmetic tricks:
 - $z$ is purely imaginary $\iff \bar{z} = -z$.
 - $z\in \RR \iff \bar z = z$.
 - To prove $a=b$, try $a/b = 1$ or $a-b=0$.
+- To prove that a singularity $z_0$ of $f$ is removable, show that $\lim_{z\to z_0} f(z)$ is bounded.
+- To prove that a singularity $z_0$ is a pole of $f$ of order $m$, write $f(z) = (z-z_0)^mg(z)$ where $g(z_0)\neq 0$ (or check the Laurent expansion directly).
+
 :::
 
 
