@@ -163,11 +163,9 @@ With practice, it's much quicker to just do polynomial long division:
 .\]
 Now do the Euclidean algorithm:
 \[
-z - {z^3\over 3!} + {z^5 \over 5!} - \cdots
-&= (z)(1)
-+ \qty{-{z^3\over 3!} + {z^5\over 5!} - \cdots }\\
-\qty{-{z^3\over 3!} + {z^5\over 5!} - \cdots }
-&= (z)\qty{-{ z^2\over 3!} } + \qty{ {z^5 \over 5!} - \cdots }
+z &= 
+\qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
+(1) + \qty{{z^3\over 3!} - {z^5 \over 5!} + {z^7 \over 7!} + \bigo(z^9) }
 .\]
 
 
