@@ -142,14 +142,15 @@ Inverting $\sin(z)$ using a geometric series, heeding the warning above:
 &= {1\over z-{z^3\over 3!} + {z^5\over 5!} - \bigo(z^7) } \\
 &={1\over z\qty{ 1 - {z^2\over 3!} + {z^4 \over 5!} - \bigo(z^6)} } \\
 &= z\inv \qty{1\over 1 - p(z)} 
-&& p(z) \da {z^2\over 3!} - {z^4\over 5!} + \bigo(z^6) \\
+\qquad p(z) \da {z^2\over 3!} - {z^4\over 5!} + \bigo(z^6) \\
 &= z\inv \sum_{k\geq 0} p(z)^k \\
 &= z\inv\qty{ 1 + p(z) + p(z)^2 + \bigo(z^2)^3 } \\
 &= z\inv\qty{ 1 
 + \qty{{z^2\over 3!} - {z^4\over 5!} + \bigo(z^6)} 
 + \qty{{z^2\over 3!} - {z^4\over 5!} + \bigo(z^6)}^2
 + \bigo(z^6)} \\
-&= {1\over z}\qty{ 1 + z^2{1\over 3!} + z^4\qty{\qty{1\over 3!}^2 - {1\over 5!} }  }
+&= {1\over z}\qty{ 1 + {1\over 3!}z^2 + \qty{\qty{1\over 3!}^2 - {1\over 5!} }z^4 + \bigo(z^6) }\\
+&= {1\over z} + {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)
 .\]
 
 #todo Not right!!
