@@ -97,6 +97,21 @@ and so on, so
 :::
 
 
+:::{.example title="?"}
+To compute the inverse of $A(z) \da (2z-1)$, note $a_0 = -1, a_1 = 2$, so
+
+- $b_0 = 1/a_0 = -1$
+- $b_1 = -{1\over a_0}(a_1b_0) = -1(-2\cdot 1) = -2$
+- $b_2 = -{1\over a_0}(a_2 b_0 + a_1 b_1) = -1(0\cdot 1 + -2\cdot -2) = 4$
+
+so
+\[
+{1\over 1-2z} = 1 + 2z + 4z^2 + \cdots
+.\]
+
+:::
+
+
 ## Analyticity
 
 :::{.proposition title="Power Series are Smooth"}
