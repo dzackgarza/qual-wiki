@@ -121,6 +121,9 @@ assuming $m>n$, but then taking $z\to z_0 =0$ on the RHS yields $g(z) = 0$, a co
 :::{.definition title="Poles (and associated terminology)"}
 A *pole* $z_0$ of a function $f(z)$ is a zero of $g(z) \definedas {1\over f(z)}$ where $g$ is holomorphic in some neighborhood of $z_0$.
 Equivalently, $\lim_{z\to z_0} f(z) = \infty$.
+:::
+
+:::{.proposition title="?"}
 In this case there exists a minimal $n$ and a holomorphic $h$ such that
 \[  
 f(z) = \qty{z-z_0}^{-n} h(z)
@@ -128,6 +131,22 @@ f(z) = \qty{z-z_0}^{-n} h(z)
 Such an $n$ is the *order* of the pole.
 A pole of order 1 is said to be a *simple pole*.
 :::
+
+:::{.proof title="?"}
+Use that $z_0$ is a zero of $1/f$ to write
+\[
+{1\over f(z) } = (z-z_0)^n g(z)
+,\]
+for $h$ holomorphic and nonvanishing in a neighborhood of $z_0$.
+Taking reciprocals yields
+\[
+f(z) = (z-z_0)^{-n} h(z) && \quad h(z) \da {1\over g(z)}
+.\]
+
+
+
+:::
+
 
 :::{.definition title="Principal Part and Residue"}
 If $f$ has a pole of order $n$ at $z_0$, then there exist a holomorphic $G$ in a neighborhood of $z_0$ such that
