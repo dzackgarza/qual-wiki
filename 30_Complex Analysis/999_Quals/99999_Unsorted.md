@@ -294,10 +294,12 @@ This is the **Schwarz–Pick theorem**.
 Define $M \da {z_1 - z \over 1-\bar z_1 z}$ and $\phi(z) \da {f(z_1) - z \over 1 - \bar{f(z_1)}}$.
 Then $(\phi \circ f \circ M\inv)(0) = 0$, so apply Schwarz to get 
 \[
-\left|\varphi\left(f\left(M^{-1}(z)\right)\right)\right|=\left|\frac{f\left(z_{1}\right)-f\left(M^{-1}(z)\right)}{1-\overline{f\left(z_{1}\right)} f\left(M^{-1}(z)\right)}\right| \leq|z| \\
+\left|\varphi\left(f\left(M^{-1}(z)\right)\right)\right|=\left|\frac{f\left(z_{1}\right)-f\left(M^{-1}(z)\right)}{1-\overline{f\left(z_{1}\right)} f\left(M^{-1}(z)\right)}\right| 
+&\leq|z| \\
 z_2 \da M\inv(z_1)
 \implies
-\left|\frac{f\left(z_{1}\right)-f\left(z_{2}\right)}{1-\overline{f\left(z_{1}\right)} f\left(z_{2}\right)}\right| \leq\left|\frac{z_{1}-z_{2}}{1-\overline{z_{1}} z_{2}}\right|
+\left|\frac{f\left(z_{1}\right)-f\left(z_{2}\right)}{1-\overline{f\left(z_{1}\right)} f\left(z_{2}\right)}\right| 
+&\leq\left|\frac{z_{1}-z_{2}}{1-\overline{z_{1}} z_{2}}\right|
 .\]
 
 :::
