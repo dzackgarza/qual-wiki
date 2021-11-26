@@ -50,9 +50,7 @@ This yields a quick way of finding $f\inv$: invert the matrix and ignore the det
 {dw-b \over -cw + a}
 .\]
 
-
 :::
-
 
 :::{.proposition title="Constructing Mobius transformations"}
 Given any three points $z_1, z_2, z_3$, the following Möbius transformation sends them to $1, 0, \infty$ respectively:
@@ -80,6 +78,16 @@ A very useful variant that shows up in applications of the Schwarz' lemma:
 M_{z_1} \da {z_1 - z \over 1 - \bar{z_1} z}
 .\]
 This swaps $z_1$ and $0$.
+:::
+
+
+:::{.example title="?"}
+Mapping the disc to the half-plane:
+\[
+(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv
+.\]
+
+
 :::
 
 :::{.example title="?"}
