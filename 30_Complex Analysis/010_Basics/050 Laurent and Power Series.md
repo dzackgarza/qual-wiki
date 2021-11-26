@@ -4,9 +4,6 @@ order: 50
 
 # Laurent and Power Series
 
-:::{.definition title="Analytic"}
-A function $f:\Omega \to \CC$ is *analytic* at $z_0\in \Omega$ iff there exists a power series $g(z) = \sum a_n (z-z_0)^n$ with radius of convergence $R>0$ and a neighborhood $U\ni z_0$ such that $f(z) = g(z)$ on $U$.
-:::
 
 :::{.fact title="Generalized Binomial Theorem"}
 Define $(n)_k$ to be the falling factorial 
@@ -19,7 +16,7 @@ and set ${n\choose k} \da (n)_k/k!$, then
 .\]
 :::
 
-:::{.fact title="Some useful series"}
+:::{.fact title="List of useful series"}
 \[
 \sum_{k=1}^{n} k 
   &=\frac{n(n+1)}{2} \\
@@ -51,8 +48,7 @@ e^z &= \sum_{k\geq 0} {z^k \over k!} \\
 \]
 :::
 
-:::{.fact}
-Useful trick for expanding square roots:
+:::{.fact title="Expanding square roots"}
 \[
 \sqrt{z} = \sqrt{z_0 + z - z_0} = \sqrt{z_0 \qty{ 1 + {z-z_0 \over z} }} = \sqrt{z_0} \sqrt{1+u},\quad u\da {z-z_0 \over z} \\
 \implies \sqrt{z} = \sqrt{z_0} \sum_{k\geq 0} {1/2 \choose k} \qty{z- z_0 \over z}^k
@@ -60,14 +56,12 @@ Useful trick for expanding square roots:
 
 :::
 
-:::{.fact}
+:::{.fact title="Multiplying series: Cauchy product"}
 The product of two sequences is given by the Cauchy product
 \[
 \sum a_kz^k \cdot \sum b_k z^k = \sum c_k z^k,\quad c_k \da \sum_{j\leq k} a_k b_{k-j}
 .\]
 :::
-
-\todo[inline]{Add series tricks.}
 
 :::{.fact title="Multiplicatively inverting a series"}
 Using the general ring theory fact that $A(z) \da \sum_{k\geq 0} a_k z^k \in R[[z]]$ is invertible iff $a_0$ is invertible in $R$, power series over fields can always be inverted.
@@ -80,7 +74,7 @@ b_n &= -a_0\inv \sum_{1\leq i \leq n} a_i b_{n-i} \\
 .\]
 :::
 
-:::{.remark}
+:::{.proof title="Sketch"}
 How to prove this:
 \[
 \qty{\sum a_k z^k}\qty{\sum b_k z^k} = 1
@@ -317,11 +311,6 @@ For $z=1$:
 :::
 
 
-
-:::{.exercise title="?"}
-Show that $\prod_{n\in \ZZ} (1 + a_n) < \infty$ if $\ts{a_n} \in \ell_1(\ZZ)$.
-
-:::
 
 
 

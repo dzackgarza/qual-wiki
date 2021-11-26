@@ -1,5 +1,9 @@
 # Analytic Functions
 
+:::{.definition title="Analytic"}
+A function $f:\Omega \to \CC$ is *analytic* at $z_0\in \Omega$ iff there exists a power series $g(z) = \sum a_n (z-z_0)^n$ with radius of convergence $R>0$ and a neighborhood $U\ni z_0$ such that $f(z) = g(z)$ on $U$.
+:::
+
 :::{.proposition title="Power Series are Smooth"}
 Any power series is smooth (and thus holomorphic) on its disc of convergence, and its derivatives can be obtained using term-by-term differentiation:
 \[
