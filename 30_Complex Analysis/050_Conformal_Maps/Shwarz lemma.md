@@ -6,8 +6,6 @@
 
 \todo[inline]{Normal families}
 
-\todo[inline]{Schwarz lemma}
-
 \todo[inline]{Equicontinuity}
 
 :::{.theorem title="Schwarz Lemma" ref="SchwarzzLemma"}
@@ -24,7 +22,7 @@ Moreover, if
 then $f$ is a rotation.
 :::
 
-![[2021-10-29_02-32-14.png]]
+![[figures/2021-10-29_02-32-14.png]]
 
 :::{.proof title="?"}
 \envlist
