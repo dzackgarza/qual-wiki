@@ -191,9 +191,8 @@ z &=
 
 :::
 
-
 :::{.fact title="Dividing using polynomial long division"}
-Polynomial long division basically works for formal power series.
+Polynomial long division basically works for formal power series, and with practice it's fast enough to just do in your head.
 Recall the Euclidean algorithm, e.g. for ${z^3+1 \over z+1}$:
 \[
 z^3 + 1 &= (z+1)(z^2) + (-z^2 + 1) \\
@@ -213,7 +212,7 @@ z^2 +z^3 &= (1+z)(z^2) + 0 \\
 which is useful for generating the first few low order terms of a series expansion.
 :::
 
-:::{.example title="?"}
+:::{.example title="Laurent series for $\tan$ by long division"}
 Computing the Laurent series for $\tan(z)$ at $z=0$:
 \[
 {\sin(z) \over \cos(z)} 
@@ -243,189 +242,6 @@ z - {1\over 3!}z^3 + {1\over 5!}z^5
 
 
 
-# Analyticity
-
-:::{.proposition title="Power Series are Smooth"}
-Any power series is smooth (and thus holomorphic) on its disc of convergence, and its derivatives can be obtained using term-by-term differentiation:
-\[
-\dd{}{z} f(z) = \dd{}{z} \sum_{k\geq 0} c_k (z-z_0)^k = \sum_{k\geq 1} kc_k (z-z_0)^k
-.\]
-Moreover, the coefficients are given by 
-\[
-c_k = {f^{(n)}(z_0) \over n! }
-.\]
-:::
-
-:::{.theorem title="Function value as a convolution"}
-For any $p\in U$,
-\[
-f(p) = {1\over 2\pi i }\int_{\bd U} {f(z) \over z-p} \dz
-.\]
-:::
-
-:::{.corollary title="Formula for Laurent coefficients"}
-Differentiating under the integral above yields
-\[
-c_k = \frac{f^{(k)}(p)}{k !}=\frac{1}{2 \pi i} \int_{\partial U} \frac{f(z) }{(z-p)^{k+1}} \dz
-= {1 \over 2\pi R^n}\int_0^{2\pi} f(z_0 + Re^{i\theta})e^{-in\theta} \dtheta
-.\]
-For $R \da d(p, \bd U)$,
-this yields a bound
-\[
-f(z) = \sum c_kz_k \implies \abs{c_k} \leq {\sup_{z\in \bd U}f(z) \cdot \length(\bd U) \over 2\pi R^{k+1}}
-,\]
-so $\limsup \abs{c_k}^{1\over k} < R\inv$, showing that $\sum c_k (z-p)^k$ has radius of convergence at least $R$ and is represented by its power series in $D_R(p)$.
-This implies that $f$ is smooth at $p\in U$, and thus can only have poles on $\bd U$.
-:::
-
-:::{.theorem title="Holomorphic implies analytic"}
-If $f$ is analytic on $D_R(p)$, then $f(z) = \sum c_k(z-p)^k$ on this disc.
-:::
-
-:::{.proof title="?"}
-Reduce to $z\in \DD$, then for a fixed $z$ and any $w\in S^1$,
-\[
-{1\over w-z} = {1\over w} \qty{ 1 + \qty{z\over w} + \qty{z\over w}^2 + \cdots}
-,\]
-which converges uniformly on $S^1$.
-Then
-\[
-f(z)=\frac{1}{2 \pi i} \int_{S^{1}} \frac{f(w) }{w-z} \dw 
-= \sum z^{k} \frac{1}{2 \pi i} \int_{S^{1}} \frac{f(w)}{w^{k+1}} \dw 
-=\sum c_{k} z^{k}
-.\]
-
-:::
-
-:::{.proposition title="Exponential is uniformly convergent in discs"}
-$f(z) = e^z$ is uniformly convergent in any disc in $\CC$.
-:::
-
-:::{.proof}
-Apply the estimate
-\[  
-\abs{e^z} \leq \sum {\abs {z}^n \over n!} = e^{\abs{z}}
-.\]
-Now by the $M\dash$test, 
-\[  
-\abs{z} \leq R < \infty \implies \abs{\sum {z^n \over n!}} \leq e^R < \infty
-.\]
-:::
-
-# Analytic Number Theory's Faves
-
-:::{.lemma title="Dirichlet's Test"}
-Given two sequences of real numbers \( \ts{ a_k } , \ts{ b_k } \) which satisfy
-
-1. The sequence of partial sums \( \ts{ A_n } \) is bounded,
-2. $b_k \searrow 0$.
-
-then 
-\[
-\sum_{k\geq 1} a_k b_k < \infty
-.\]
-:::
-
-:::{.proof title="?"}
-
-> See <http://www.math.uwaterloo.ca/~krdavids/Comp/Abel.pdf>
-
-Use summation by parts.
-For a fixed $\sum a_k b_k$, write 
-\[
-\sum_{n=1}^m x_n Y_n + \sum_{n=1}^m X_n y_{n+1} = X_m Y_{m+1}
-.\]
-Set $x_n \da a_n, y_N \da b_n - b_{n-1}$, so $X_n = A_n$ and $Y_n = b_n$ as a telescoping sum.
-Importantly, all $y_n$ are negative, so $\abs{y_n} = \abs{b_n - b_{n-1}} = b_{n-1} - b_n$, and moreover $a_n b_n = x_n Y_n$ for all $n$.
-We have
-\[
-\sum_{n\geq 1} a_n b_n 
-&= \lim_{N\to\infty} \sum_{n\leq N} x_n Y_n \\
-&= \lim_{N\to\infty} \sum_{n\leq N} X_N Y_N - \sum_{n\leq N} X_n y_{n+1} \\
-&= - \sum_{n\geq 1} X_n y_{n+1},
-\]
-where in the last step we've used that 
-\[
-\abs{X_N} = \abs{A_N}\leq M \implies \abs{X_N Y_{N} } = \abs{X_N} \abs{b_{n+1}} \leq M b_{n+1} \to 0
-.\]
-So it suffices to bound the latter sum:
-\[
-\sum_{k\geq n}\abs{ X_k y_{k+1} } 
-&\leq M \sum_{k\geq 1} \abs{y_{k+1}}\\
-&\leq M \sum_{k\geq 1} b_{k} - b_{k+1} \\
-&\leq 2M(b_1 - b_{n+1})\\
-&\leq 2M b_1
-.\]
-
-:::
-
-:::{.theorem title="Abel's Theorem"}
-If $\sum_{k=1}^\infty c_k z^j$ converges on $\abs{z} < 1$ then 
-\[
-\lim_{z\to 1^-} \sum_{k\in \NN} c_k z^k = \sum_{k\in \NN} c_k
-.\]
-:::
-
-:::{.lemma title="Abel's Test"}
-If $f(z) \da \sum c_k z^k$ is a power series with $c_k \in \RR^{\geq 0}$ and $c_k\decreasesto 0$, then $f$ converges on $S^1$ except possibly at $z=1$.
-:::
-
-:::{.example title="application of Abel's theorem"}
-What is the value of the alternating harmonic series?
-Integrate a geometric series to obtain
-\[
-\sum {(-1)^k z^k \over n} = \log(z+1) && \abs{z} < 1
-.\]
-Since $c_k \da (-1)^k/k \decreasesto 0$, this converges at $z=1$, and by Abel's theorem $f(1) = \log(2)$.
-
-:::
-
-:::{.remark}
-The converse to Abel's theorem is false: take $f(z) = \sum  (-z)^n = 1/(1+z)$.
-Then $f(1) = 1-1+1-\cdots$ diverges at 1, but $1/1+1 = 1/2$.
-So the limit $s\da \lim_{x\to 1^-} f(x) 1/2$, but $\sum a_n$ doesn't converge to $s$.
-:::
-
-:::{.proposition title="Summation by Parts"}
-Setting $A_n \da \sum_{k=1}^n b_k$ and $B_0 \da 0$,
-\[
-\sum_{k=m}^n a_k b_k 
-&= A_nb_n - A_{m-1} b_m - \sum_{k=m}^{n-1} A_k(b_{k+1} - b_{k})
-.\]
-Compare this to integrating by parts:
-\[
-\int_a^b f g = F(b)g(b) - F(a)g(a) - \int_a^b Fg'
-.\]
-
-Note there is a useful form for taking the product of sums:
-\[
-A_{n} B_{n}=\sum_{k=1}^{n} A_{k} b_{k}+\sum_{k=1}^{n} a_{k} B_{k-1}
-.\]
-
-:::
-
-:::{.proof title="?"}
-An inelegant proof: define $A_n \da \sum_{k\leq n} a_k$, use that $a_k = A_k - A_{k-1}$, reindex, and peel a top/bottom term off of each sum to pattern-match.
-\
-
-Behold:
-\[
-\sum_{m\leq k \leq n} a_k b_k 
-&= \sum_{m\leq k \leq n} (A_k - A_{k-1}) b_k \\
-&= \sum_{m\leq k \leq n} A_kb_k - \sum_{m\leq k \leq n} A_{k-1} b_k \\
-&= \sum_{m\leq k \leq n} A_kb_k - \sum_{m-1\leq k \leq n-1} A_{k} b_{k+1} \\
-&= A_nb_n + \sum_{m\leq k \leq n-1} A_kb_k - \sum_{m-1\leq k \leq n-1} A_{k} b_{k+1} \\
-&= A_nb_n - A_{m-1} b_{m} + \sum_{m\leq k \leq n-1} A_kb_k - \sum_{m\leq k \leq n-1} A_{k} b_{k+1} \\
-&= A_nb_n - A_{m-1} b_{m} + \sum_{m\leq k \leq n-1} A_k(b_k - b_{k+1}) \\
-&= A_nb_n - A_{m-1} b_{m} - \sum_{m\leq k \leq n-1} A_k(b_{k+1} - b_{k}) 
-.\]
-
-:::
-
-:::{.proposition title="?"}
-If $f$ is non-constant, then $f'$ is analytic and the zeros of $f'$ are isolated.
-If $f,g$ are analytic with $f'=g'$, then $f-g$ is constant.
-:::
 
 # Exercises: Series
 
