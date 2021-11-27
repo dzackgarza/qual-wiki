@@ -30,6 +30,16 @@ Things to know well:
 - Virtually any time: consider $1/f(z)$ and $f(1/z)$.
 - Setting $w=e^z$ is useful.
 
+
+:::{.remark title="Estimating and bounding"}
+\envlist
+
+- Bounding a derivative using the original function: Cauchy's formula.
+  - Also works to bound a function in terms of its integral, e.g. over a compact set like a curve.
+
+:::
+
+
 :::{.remark title="Showing a function is constant"}
 If you want to show that a function $f$ is constant, try one of the following:
 
