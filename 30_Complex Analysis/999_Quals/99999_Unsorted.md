@@ -333,6 +333,17 @@ f(z_1) - (f\circ \psi_{z_1})(z)
 :::
 
 
+:::{.remark}
+Note that Schwarz also provides an actual bound for $F'$ here -- applying the chain rule yields
+\[
+F' = \qty{ \psi_{f(z_1)} \circ f \circ \psi_{z_1}}'
+= \psi_{f(z_1)}' (f\circ \psi_{z_1})
+.\]
+
+:::
+
+
+
 ## Spring 2021 # 6 #work
 
 :::{.problem title="?"}
