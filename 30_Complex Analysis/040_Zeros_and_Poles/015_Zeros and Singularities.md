@@ -300,7 +300,7 @@ Determine the order of the pole of
 \lim_{z\to 0}z^1 f(z) &= \infty\\
 \lim_{z\to 0}z^2 f(z) &= 1 \neq 0 
 ,\]
-using that $z/sin(z) \convergesto{z\to 0} 1$.
+using that $z/\sin(z) \convergesto{z\to 0} 1$.
 
 - Order 2: apply L'Hopital as necessary
 \[
@@ -316,6 +316,28 @@ using that $z/sin(z) \convergesto{z\to 0} 1$.
   .\]
 
 :::
+
+
+:::{.problem title="?"}
+Fix $a\in \CC\union\ts{\infty}$ and let $f(z) \da e^{1\over z^2}$.
+Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
+
+:::
+
+
+:::{.solution}
+\envlist
+
+- For $a\in \RR_{< 0}$: take $z_k\da {1\over \Log(a) + 2\pi i k - {\pi i \over 2}}$  
+  Then $f(z_k) = a$ for all $k$ but $z_k\to 0$.
+- For $a=0$: take $z_k = -1/k$.
+- For $a=\infty$, take $z_k = 1/k$.
+- For anything else, take $z_k \da {1\over \Log(a) + 2\pi i n}$ if $a \in \RR_{\geq 0}$.
+  Again $f(z_k) = a$ for all $k$ but $z_k\to 0$.
+  
+:::
+
+
 
 
 
