@@ -38,7 +38,7 @@ e^z &= \sum_{k\geq 0} {z^k \over k!} \\
 \sinh(z) &= \sum_{k\geq 0} { z^{2k+1} \over (2k+1)! } \\
 &= z + {1\over 3!}z^3 + {1\over 5!}z^5 + \cdots \\ \\
 \log(1-z) 
-  &= \sum_{k \geq 0} {z^k\over k} \quad \abs{z} < 1 \\ \\
+  &= -1\cdot \sum_{k \geq 1} {z^k\over k} \quad \abs{z} < 1 \\ \\
 \qty{\dd{}{z}}^k \sum_{n=0}^\infty c_n z^n 
   &= \sum_{n=k}^\infty (n)_k \, c_n z^{n-k} \\
   &= \sum_{n=k}^\infty n(n-1)\cdots(n-k+1) c_n z^{n-k} \\
