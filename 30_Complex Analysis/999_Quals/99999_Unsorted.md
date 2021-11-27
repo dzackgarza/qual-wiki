@@ -370,7 +370,7 @@ so
 f'(z_1) \leq {1- \abs{f(z_1)}^2 \over 1 - \abs{z_1}^2}
 .\]
 
-
+> Note: I've sloppily left absolute values off of everything and freely swapped orders of terms!
 
 :::
 
