@@ -160,3 +160,7 @@ Recall how to carry out polynomial long division:
 Find the radius of convergences for the power series expansion of $\sqrt{z}$ about $z_0 = 4 +3i$.
 :::
 
+:::{.exercise title="?"}
+Show that a uniform limit of continuous functions is continuous. #work
+:::
+

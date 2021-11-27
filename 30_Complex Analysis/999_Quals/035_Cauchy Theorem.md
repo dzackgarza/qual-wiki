@@ -298,7 +298,7 @@ Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
 :::
 
 
-## Uniform sequence implies uniform derivatives #completed
+## Uniform sequence implies uniform derivatives #work
 
 :::{.problem title="?"}
 #work
@@ -315,6 +315,7 @@ Show that $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on bou
 
 - We have $\norm{f_n-f}_{\infty, D}\to 0$, the sup norm on $D$.
 - Pick a $\gamma$ in $\interior{D}$
+- ????
 
 :::
 

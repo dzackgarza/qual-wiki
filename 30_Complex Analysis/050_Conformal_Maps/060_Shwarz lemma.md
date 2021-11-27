@@ -143,7 +143,6 @@ Write $f(z) = w$, we'll then show that in fact $\abs{f(z)} = \abs{z}$ for all $z
 .\]
 :::
 
-
 :::{.exercise title="?"}
 Let $f\in \Hol(\DD)$.
 Show that if $f$ has a fixed point $a$ then $\abs{f'(a)} \leq 1$, and that 
@@ -151,7 +150,6 @@ Show that if $f$ has a fixed point $a$ then $\abs{f'(a)} \leq 1$, and that
 \abs{f(0)}^2 + \abs{f'(0)}^2 \leq 1
 .\]
 :::
-
 
 :::{.solution}
 Set $f(a) = a$ in Schwarz-Pick:

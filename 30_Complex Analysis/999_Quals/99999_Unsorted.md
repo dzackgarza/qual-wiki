@@ -1,18 +1,5 @@
 # Unsorted
 
-## Spring 2021 # 6 #work
-
-:::{.problem title="?"}
-Let $\ts{f_n}_{n=1}^\infty$ is a sequence of holomorphic functions on $\DD$ and $f$ is also holomorphic on $\DD$. 
-Show that the following are equivalent:
-
-- $f_n\to f$ uniformly on compact subsets of $\DD$.
-- For $0 < r < 1$,
-\[
-\int_{\abs z = r} \abs{f_n(z) - f(z)} \abs{dz} \convergesto{n\to\infty}0
-.\]
-
-:::
 
 ## Spring 2021 # 7 #work
 

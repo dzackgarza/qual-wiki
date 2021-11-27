@@ -1,9 +1,5 @@
 # Convergence of Functions
 
-## Exercises
-
-- Show that a uniform limit of continuous functions is continuous. #work
-
 
 ## Fall 2021 #4 #work
 Prove that the sequence $\left(1+\frac{z}{n}\right)^{n}$ converges uniformly to $e^{z}$ on compact subsets of $\mathbb{C}$. 
@@ -16,16 +12,19 @@ Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region 
 $\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
 has a limit point in $\Omega$. Show that $f_n$ converges to $f$ uniformly on compact subsets of $\Omega$.
 
-## Tie's Extra Questions: Spring 2015 #work
+## Spring 2021, Spring 2015 Extras # 6 #work
 
-Let $f_n, f$ be analytic functions on the unit disk ${\mathbb D}$.
-Show that the following are equivalent.
+:::{.problem title="?"}
+Let $\ts{f_n}_{n=1}^\infty$ is a sequence of holomorphic functions on $\DD$ and $f$ is also holomorphic on $\DD$. 
+Show that the following are equivalent:
 
-(i) $f_n(z)$ converges to $f(z)$ uniformly on compact subsets in
-$\mathbb D$.
+- $f_n\to f$ uniformly on compact subsets of $\DD$.
+- For $0 < r < 1$,
+\[
+\int_{\abs z = r} \abs{f_n(z) - f(z)} \abs{dz} \convergesto{n\to\infty}0
+.\]
 
-(ii) $\int_{|z|= r} |f_n(z) - f(z)| \, |dz|$ converges to $0$ if
-$0< r<1$.
+:::
 
 ## Spring 20202 HW 2 #  2.6.10 #work
 
