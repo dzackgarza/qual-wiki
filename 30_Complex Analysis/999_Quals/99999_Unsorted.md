@@ -289,7 +289,7 @@ Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fr
 :::
 
 
-:::{.solution}
+:::{.solution .foldopen}
 This is the **Schwarz–Pick theorem**.
 
 - Fix $z_1$ and let $w_1 = f(z_1)$.
@@ -340,7 +340,9 @@ f(z_1) - (f\circ \psi_{z_1})(z)
   &= \psi_{f(z_1)} \qty{\lambda \psi_{z_1}(w)}
   &= \lambda \psi_{\bar \lambda f(z_1)} \qty{\psi_{z_1}(w)} \\
   &\da \lambda \psi_a(\psi_b(w)) \\
-  &=\lambda\qty{ a- \psi_b(w) \over 1 - \bar a \psi_b(w) }
+  &=\lambda\qty{ a- \psi_b(w) \over 1 - \bar a \psi_b(w) } \\
+  &=\lambda\qty{ }
+  -\frac{{\left(a \overline{b} - 1\right)} z - a + b}{z {\left(\overline{a} - \overline{b}\right)} - b \overline{a} + 1}
   .\]
 
 
