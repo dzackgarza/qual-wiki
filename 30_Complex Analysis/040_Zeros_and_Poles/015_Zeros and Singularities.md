@@ -23,6 +23,10 @@ Equivalently,
 .\]
 Equivalently, $f$ is bounded on a neighborhood of $z_0$.
 Equivalently, $v_{z_0}(f) \geq 0$
+
+
+![](figures/2021-11-26_23-54-18.png)
+
 :::
 
 :::{.remark}
