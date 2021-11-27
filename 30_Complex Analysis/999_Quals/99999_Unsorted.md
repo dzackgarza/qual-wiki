@@ -327,7 +327,7 @@ f(z_1) - (f\circ \psi_{z_1})(z)
 
 - Since $z_1$ was arbitrary and fixed and $w$ was a free variable, this holds for all $z,w\in \DD$.
 
-- Showing strictness:
+- Showing strictness: by Schwarz, it suffices to show $\abs{F'(0)} = 1$.
 
 
 :::
