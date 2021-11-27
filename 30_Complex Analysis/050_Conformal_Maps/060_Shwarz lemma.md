@@ -112,6 +112,18 @@ then $f$ is a rotation.
 :::
 
 
+:::{.corollary title="Schwarz-Pick Lemma"}
+Let $f:\DD\to \bar{\DD}$, then for some $a\in \DD$,
+\[
+\left|\frac{f(z)-f(a)}{1-\overline{f(a)} f(z)}\right| \leq\left|\frac{z-a}{1-\bar{a} z}\right|
+\qquad
+\left|f^{\prime}(a)\right| \leq \frac{1-|f(a)|^{2}}{1-|a|^{2}}
+.\]
+If equality holds for some $z\neq a$ in either expression, then $f= \lambda F$ where $F$ is a linear fractional transformation and $\abs{\lambda} = 1$.
+:::
+
+
+
 # Exercises
 
 :::{.exercise title="?"}
