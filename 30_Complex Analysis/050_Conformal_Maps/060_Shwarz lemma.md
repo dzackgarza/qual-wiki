@@ -35,6 +35,39 @@ Some useful properties:
 
 :::
 
+
+:::{.proof title="?"}
+Inverting: set $f(z) = w$ and solve for $z$:
+\[
+{a-z \over 1 - \bar{a}z} &= w \\
+\implies a-z - w(1-\bar{a} z) &= 0 \\
+\implies z&= {w-a \over \bar a w - 1} = {a-w\over 1-\bar a w}
+.\]
+
+Differentiating: the quotient rule
+\[
+\psi'_a(z) 
+= {-(1-\bar a z) + \bar a(a-z) \over \qty{1-\bar a z}^2}
+= {-1 + \abs{a}^2 \over \qty{1-\bar a z}^2}
+.\]
+
+Scaling: use a fun trick, insert $1=\bar\lambda \lambda$ like so
+\[
+\psi_a(\lambda z)
+&=
+{a - \lambda z \over 1 - \bar a \lambda z}\\
+&=
+{\lambda\bar\lambda a - \lambda z \over 1 - \bar a \lambda z} \\
+&= \lambda {\bar\lambda a - z \over 1 - \bar{\bar\lambda a} z} \\
+&= \lambda \psi_{\bar \lambda a}(z)
+.\]
+
+
+
+
+:::
+
+
 :::{.remark}
 There are such maps that are *not* rotations, e.g. the Blaschke factors:
 

@@ -295,7 +295,7 @@ This is the **Schwarz–Pick theorem**.
 - Fix $z_1$ and let $w_1 = f(z_1)$.
   Define
   \[
-  \psi_{a} \da {a-z \over 1-\bar{a}z} \in \Aut(\DD)
+  \psi_{a}(z) \da {a-z \over 1-\bar{a}z} \in \Aut(\DD)
   .\]
 
   - Note that inequality now reads
@@ -350,7 +350,7 @@ F' = \qty{ \psi_{f(z_1)} \circ f \circ \psi_{z_1}}'
 = \qty{\psi'_{f(z_1)} \circ f \circ \psi_{z_1}} \cdot (f' \circ \psi_{z_1}) \cdot \psi'_{z_1}
 .\]
 
-Now use that
+Now use that (up to absolute values)
 
 - $\psi_{z_1}(0) = z_1$
 - $\psi'_{z_1}(0) = 1-\abs{z_1}^2$
