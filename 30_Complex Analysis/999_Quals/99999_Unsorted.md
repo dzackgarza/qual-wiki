@@ -298,14 +298,18 @@ This is the **Schwarz–Pick theorem**.
   \psi_{a} \da {a-z \over 1-\bar{a}z} \in \Aut(\DD)
   .\]
 
-  - Note that the RHS in the theorem statement is $\psi_{w}(z)$ and the LHS is $\psi_{f(w)}(f(z))$.
   - Note that inequality now reads
   \[
   \abs{\psi_{f(w)}(f(z)) } \leq \abs{\psi_w(z)}
   .\]
-
+  Moreover $\psi_a$ swaps $a$ and $0$.
 
 - Now set up a situation where Schwarz's lemma will apply: 
+
+\[
+0 \mapsvia{\psi_{z_1}} z_1 \mapsvia{f} f(z) \mapsvia{\psi_{f(z_1)}} 0 
+.\]
+
 
 
 - Fix $z_1\in \DD$ and set
