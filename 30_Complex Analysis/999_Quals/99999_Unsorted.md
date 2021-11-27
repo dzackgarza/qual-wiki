@@ -329,6 +329,16 @@ f(z_1) - (f\circ \psi_{z_1})(z)
 
 - Strictness: suppose equality holds, we'll show that $f(z) = {az+b\over cz+d}$
 - By Schwarz, $F(z) = \lambda z$ for $\lambda \in S^1$.
+  Thus
+  \[
+  (\psi_{f(z_1)} \circ f \circ \psi_{z_1}) (z) &= \lambda z \\
+  \implies
+  (f \circ \psi_{z_1}) (z) &= \psi_{f(z_1)}\inv(\lambda z ) \\
+  \implies
+  f(w) &= \psi_{f(z_1)}\inv(\lambda \psi_{z_1}\inv(w) ) 
+  && w\da \psi_{z_1}(z)
+  .\]
+
 
 
 :::
