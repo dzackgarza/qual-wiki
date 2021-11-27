@@ -1,6 +1,5 @@
 # Convergence of Functions
 
-
 ## Fall 2021 #4 #work
 Prove that the sequence $\left(1+\frac{z}{n}\right)^{n}$ converges uniformly to $e^{z}$ on compact subsets of $\mathbb{C}$. 
 
@@ -23,8 +22,26 @@ Show that the following are equivalent:
 \[
 \int_{\abs z = r} \abs{f_n(z) - f(z)} \abs{dz} \convergesto{n\to\infty}0
 .\]
+:::
+
+
+:::{.solution}
+$\implies$: 
+
+- Fix $r \in (0, 1)$ and let $\gamma = \ts{\abs{z} = r}$.
+  This is compact, so $f_n\to f$ uniformly on $\gamma$:
+\[
+\int_\gamma \abs{f_n(z) - f(z) } \dz 
+&\leq\int_\gamma \sup_{w\in \gamma } \abs{f_n(w) - f(w) } \dz \\
+&\leq\int_\gamma \norm{f_n(w) - f(w) }_{\infty} \dz \\
+&= \norm{f_n(w) - f(w) }_{\infty} \int_\gamma \dz \\
+&= \norm{f_n(w) - f(w) }_{\infty} \length(\gamma) \\
+&\convergesto{n\to\infty} 0
+.\]
+
 
 :::
+
 
 ## Spring 20202 HW 2 #  2.6.10 #work
 
