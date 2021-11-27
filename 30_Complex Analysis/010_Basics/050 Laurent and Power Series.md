@@ -42,16 +42,22 @@ e^z &= \sum_{k\geq 0} {z^k \over k!} \\
 \qty{\dd{}{z}}^k \sum_{n=0}^\infty c_n z^n 
   &= \sum_{n=k}^\infty (n)_k \, c_n z^{n-k} \\
   &= \sum_{n=k}^\infty n(n-1)\cdots(n-k+1) c_n z^{n-k} \\
-(1+x)^{1/2} 
-  &= 1 + (1/2)x + {(1/2)(-1/2) \over 2!}x^2 + {(1/2)(-1/2)(-3/2) \over 3!}x^3 + \cdots \\
-  &= 1 + {1\over 2} x - {1\over 8}x^2 + {1\over 16}x^3 - \cdots
+(1+z)^{1/2} 
+  &= \sum_{k\geq 0} {1/2 \choose k}z^k \\
+  &= 1 + (1/2)z + {(1/2)(-1/2) \over 2!}z^2 + {(1/2)(-1/2)(-3/2) \over 3!}z^3 + \cdots \\
+  &= 1 + {1\over 2}z - {1\over 8}z^2 + {1\over 16}z^3 - \cdots
 \]
 :::
 
 :::{.fact title="Expanding square roots"}
 \[
-\sqrt{z} = \sqrt{z_0 + z - z_0} = \sqrt{z_0 \qty{ 1 + {z-z_0 \over z} }} = \sqrt{z_0} \sqrt{1+u},\quad u\da {z-z_0 \over z} \\
-\implies \sqrt{z} = \sqrt{z_0} \sum_{k\geq 0} {1/2 \choose k} \qty{z- z_0 \over z}^k
+\sqrt{z} 
+&= \sqrt{z_0 + z - z_0} \\
+&= \sqrt{z_0 \qty{ 1 + {z-z_0 \over z} }} \\
+&= \sqrt{z_0} \sqrt{1+u},\quad u\da {z-z_0 \over z} \\
+\implies 
+\sqrt{z} 
+&= \sqrt{z_0} \sum_{k\geq 0} {1/2 \choose k} \qty{z- z_0 \over z}^k
 .\]
 
 :::
