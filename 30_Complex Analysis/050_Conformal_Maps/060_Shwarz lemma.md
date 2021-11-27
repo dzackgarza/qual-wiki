@@ -128,7 +128,6 @@ If equality holds for some $z\neq a$ in either expression, then $f= \lambda F$ w
 :::
 
 
-
 # Exercises
 
 :::{.exercise title="?"}
@@ -143,4 +142,24 @@ Write $f(z) = w$, we'll then show that in fact $\abs{f(z)} = \abs{z}$ for all $z
 \abs{z} = \abs{(h\circ f)(z)} = \abs{h(w)} \leq \abs{w} = \abs{f(z)}\leq \abs{z}
 .\]
 :::
+
+
+:::{.exercise title="?"}
+Let $f\in \Hol(\DD)$.
+Show that if $f$ has a fixed point $a$ then $\abs{f'(a)} \leq 1$, and that 
+\[
+\abs{f(0)}^2 + \abs{f'(0)}^2 \leq 1
+.\]
+:::
+
+
+:::{.solution}
+Set $f(a) = a$ in Schwarz-Pick:
+\[
+\left|f^{\prime}(a)\right| \leq \frac{1-|f(a)|^{2}}{1-|a|^{2}} \implies 
+\abs{f'(a)} \leq {1 - \abs{a}^2 \over 1 - \abs{a}^2} \leq 1
+.\]
+
+:::
+
 
