@@ -284,14 +284,12 @@ Expanding about $z_0=\infty$, we have $f(1/z) = \sum_{k\geq 0} c_k z^{-k} = c_0 
 If $z_0=\infty$ is a pole of order $m$, then $c_m\neq 0$ but $c_{>m} = 0$, which forces $f(z) = \sum_{0\leq k \leq m} c_k z^k$ to be a polynomial of degree $m$.
 :::
 
-
 :::{.problem title="?"}
 Determine the order of the pole of 
 
 - ${1\over z\sin(z)}$ at $z_0 = 0$.
 - ${e^{z^2}-1\over z^4}$ at $z_0=0$
 :::
-
 
 :::{.solution}
 - Order 2:
@@ -317,13 +315,10 @@ using that $z/\sin(z) \convergesto{z\to 0} 1$.
 
 :::
 
-
 :::{.problem title="?"}
 Fix $a\in \CC\union\ts{\infty}$ and let $f(z) \da e^{1\over z^2}$.
 Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
-
 :::
-
 
 :::{.solution}
 \envlist
@@ -334,7 +329,6 @@ Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
 - For $a=\infty$, take $z_k = 1/k$.
 - For anything else, take $z_k \da {1\over \Log(a) + 2\pi i n}$ if $a \in \RR_{\geq 0}$.
   Again $f(z_k) = a$ for all $k$ but $z_k\to 0$.
-  
 :::
 
 

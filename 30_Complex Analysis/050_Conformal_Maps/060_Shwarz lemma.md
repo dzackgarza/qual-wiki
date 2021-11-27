@@ -20,7 +20,7 @@ g(z) = \lambda {z-a \over 1 - \bar a z}, \quad a\in \Delta, \lambda \in S^1
   Consider $f'(z)$, this determines $\Arg(\lambda)$.
 :::
 
-:::{.remark}
+:::{.proposition title="Properties of hyperbolic translations"}
 The maps 
 \[
 \psi_a \da {a-z\over 1-\bar{a}z}
@@ -33,10 +33,10 @@ Some useful properties:
 - $\psi_a'(z) = {\abs{a}^2 - 1 \over \qty{1-\bar{a} z}^2 }$
 - $\psi_a(\lambda z) = \lambda\psi_{\bar\lambda a}(z)$
 
+
 :::
 
-
-:::{.proof title="?"}
+:::{.proof title="of proposition"}
 Inverting: set $f(z) = w$ and solve for $z$:
 \[
 {a-z \over 1 - \bar{a}z} &= w \\
@@ -66,7 +66,6 @@ Scaling: use a fun trick, insert $1=\bar\lambda \lambda$ like so
 
 
 :::
-
 
 :::{.remark}
 There are such maps that are *not* rotations, e.g. the Blaschke factors:

@@ -288,7 +288,6 @@ Show that for any $z, w\in \DD$,
 Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fractional transformation from $\DD$ to itself.
 :::
 
-
 :::{.solution .foldopen}
 This is the **Schwarz–Pick theorem**.
 
@@ -347,8 +346,6 @@ f(z_1) - (f\circ \psi_{z_1})(z)
   ,\]
   which is evidently a linear fractional transformation.
 
-
-
 :::
 
 :::{.remark}
@@ -381,8 +378,6 @@ f'(z_1) \leq {1- \abs{f(z_1)}^2 \over 1 - \abs{z_1}^2}
 > Note: I've sloppily left absolute values off of everything and freely swapped orders of terms!
 
 :::
-
-
 
 ## Spring 2021 # 6 #work
 
