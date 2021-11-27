@@ -164,11 +164,33 @@ Find the radius of convergences for the power series expansion of $\sqrt{z}$ abo
 :::
 
 :::{.exercise title="?"}
-Show that a uniform limit of continuous functions is continuous.
+Show that a uniform limit of continuous functions is continuous, and a uniform limit of uniformly continuous functions is uniformly continuous.
+Show that this is not true if uniform convergence is weakened to pointwise convergence.
 
-#work
+#completed
 
 :::
+
+
+:::{.solution}
+Suppose $\norm{f_n - f}_\infty\to 0$, fix $\eps$, we then need to produce a $\delta$ so that
+\[
+\abs{z-w}\leq \delta \implies \abs{f(z) - f(w) } < \eps
+.\]
+
+Write
+\[
+\abs{f(z) - f(w)} \leq \abs{f(z) - f_n(z)} + \abs{f_n(z) - f_n(w)} + \abs{f_n(w) - f(w)}
+.\]
+
+- Bound the first term by $\eps/3$ using that $f_n\to f$
+- Bound the second term by $\eps/3$ using that $f_n$ is continuous 
+- Bound the third term by $\eps/3$ using that $f_n\to f$
+
+Why pointwise convergence doesn't work: $f_n(z) \da z^n \convergesto{n\to\infty}\chi_{z=1}$.
+
+:::
+
 
 :::{.exercise title="?"}
 Determine where the following real-valued function is or is not uniformly convergent:
