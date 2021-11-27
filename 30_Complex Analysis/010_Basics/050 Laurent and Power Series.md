@@ -39,8 +39,9 @@ e^z &= \sum_{k\geq 0} {z^k \over k!} \\
 &= z + {1\over 3!}z^3 + {1\over 5!}z^5 + \cdots \\ \\
 \log(1-z) 
   &= \sum_{k \geq 0} {z^k\over k} \quad \abs{z} < 1 \\ \\
-\dd{}{z} \sum_{k=0}^\infty a_k z^k 
-  &= \sum_{k=0}^\infty a_{k+1}z^k \\
+\qty{\dd{}{z}}^k \sum_{n=0}^\infty c_n z^n 
+  &= \sum_{n=k}^\infty (n)_k \, c_n z^{n-k} \\
+  &= \sum_{n=k}^\infty n(n-1)\cdots(n-k+1) c_n z^{n-k} \\
 (1+x)^{1/2} 
   &= 1 + (1/2)x + {(1/2)(-1/2) \over 2!}x^2 + {(1/2)(-1/2)(-3/2) \over 3!}x^3 + \cdots \\
   &= 1 + {1\over 2} x - {1\over 8}x^2 + {1\over 16}x^3 - \cdots
