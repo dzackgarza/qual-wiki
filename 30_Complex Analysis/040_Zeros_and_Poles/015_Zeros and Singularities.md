@@ -285,4 +285,19 @@ If $z_0=\infty$ is a pole of order $m$, then $c_m\neq 0$ but $c_{>m} = 0$, which
 :::
 
 
+:::{.problem title="?"}
+Determine the order of the pole of ${1\over z\sin(z)}$ at $z_0 = 0$.
+:::
+
+
+:::{.solution}
+Order 2:
+\[
+\lim_{z\to 0}z^2 {1\over z\sin(z)} = 1 \neq 0
+.\]
+
+:::
+
+
+
 
