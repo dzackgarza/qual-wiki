@@ -41,8 +41,8 @@ $\implies$:
 
 $\impliedby$:
 
-- Let $K$ be compact, then choose $\gamma$ enclosing $K$.
-  Let $R$ be the radius of the disc enclosed by $\gamma$.
+- Let $K$ be compact, then choose $\gamma$ enclosing but not intersecting $K$.
+- Since $\gamma, K$ are disjoint compact sets, define $M \da \inf_{\abs{z-\xi} \st z\in K, \xi\in \gamma}$, the $0<M<\infty$.
 
 - Apply Cauchy's formula to the function $F_n(z) \da f_n(z) - f(z)$:
 \[
