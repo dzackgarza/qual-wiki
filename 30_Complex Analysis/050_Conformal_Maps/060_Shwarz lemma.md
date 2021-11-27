@@ -26,7 +26,10 @@ These have derivatives
 g'(z) = \lambda {1 - \abs{a}^2 \over (1-\bar a z)^2}
 .\]
 The terms ${z-a\over 1-\bar{a}z}$ are sometimes called *hyperbolic translations* because they preserve the hyperbolic metric on the Poincaré disc.
-These swap $0$ and $a$.
+Some useful properties:
+
+- $\psi_a(0) = a$ and $\psi(a) = 0$
+- $\psi_a\inv = \psi_[-a}$
 :::
 
 :::{.remark}

@@ -327,11 +327,11 @@ f(z_1) - (f\circ \psi_{z_1})(z)
 
 - Since $z_1$ was arbitrary and fixed and $w$ was a free variable, this holds for all $z,w\in \DD$.
 
-- Showing strictness: by Schwarz, it suffices to show $\abs{F'(0)} = 1$.
+- Strictness: suppose equality holds, we'll show that $f(z) = {az+b\over cz+d}$
+- By Schwarz, $F(z) = \lambda z$ for $\lambda \in S^1$.
 
 
 :::
-
 
 :::{.remark}
 Note that Schwarz also provides an actual bound for $F'$ here -- applying the chain rule yields
