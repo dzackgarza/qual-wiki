@@ -21,15 +21,19 @@ g(z) = \lambda {z-a \over 1 - \bar a z}, \quad a\in \Delta, \lambda \in S^1
 :::
 
 :::{.remark}
-These have derivatives
+The maps 
 \[
-g'(z) = \lambda {1 - \abs{a}^2 \over (1-\bar a z)^2}
-.\]
-The terms ${z-a\over 1-\bar{a}z}$ are sometimes called *hyperbolic translations* because they preserve the hyperbolic metric on the Poincaré disc.
+\psi_a \da {a-z\over 1-\bar{a}z}
+\]
+are sometimes called *hyperbolic translations* because they preserve the hyperbolic metric on the Poincaré disc.
 Some useful properties:
 
 - $\psi_a(0) = a$ and $\psi(a) = 0$
-- $\psi_a\inv = \psi_[-a}$
+- $\psi_{a} \inv = \psi_{a}$, so $\psi_a^2 = \id$.
+- $\psi_a'(z) = \lambda {1 - \abs{a}^2 \over (1-\bar a z)^2}$
+- $\psi_a(\lambda z) = \lambda\psi_{a\bar\lambda}(z)$
+
+
 :::
 
 :::{.remark}
