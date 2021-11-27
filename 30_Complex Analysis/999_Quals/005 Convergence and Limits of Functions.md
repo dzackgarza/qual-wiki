@@ -53,7 +53,8 @@ F(z)
 &\leq {1\over 2\pi} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } \over 
 2R} \dxi \\
 &\leq {1\over 2\pi\cdot 2R} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } }\dxi \\
-&\leq {1\over 2\pi\abs{\abs{z} - \abs \xi}} \cdot \eps \\
+&\leq {1\over 4\pi R}\cdot \eps \\
+&\convergesto{\eps\to 0}0
 .\]
 
 
