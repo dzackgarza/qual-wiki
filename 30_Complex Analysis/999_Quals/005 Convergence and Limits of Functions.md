@@ -11,7 +11,7 @@ Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region 
 $\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
 has a limit point in $\Omega$. Show that $f_n$ converges to $f$ uniformly on compact subsets of $\Omega$.
 
-## Spring 2021, Spring 2015 Extras # 6 #work
+## Spring 2021, Spring 2015 Extras # 6 #completed
 
 :::{.problem title="?"}
 Let $\ts{f_n}_{n=1}^\infty$ is a sequence of holomorphic functions on $\DD$ and $f$ is also holomorphic on $\DD$. 
@@ -23,8 +23,6 @@ Show that the following are equivalent:
 \int_{\abs z = r} \abs{f_n(z) - f(z)} \abs{dz} \convergesto{n\to\infty}0
 .\]
 :::
-
-
 :::{.solution}
 $\implies$: 
 
@@ -56,9 +54,8 @@ M} \dxi \\
 &\leq {1\over 2\pi M}\cdot \eps \\
 &\convergesto{\eps\to 0}0
 .\]
-
-
-
+So given $\eps$, choose $n$ large enough to bound the integral as above. 
+Then $\norm{f_n - f}_{\infty, K} \leq {\eps\over 2\pi M}$, so $f_n\to f$ uniformly on $K$.
 :::
 
 
