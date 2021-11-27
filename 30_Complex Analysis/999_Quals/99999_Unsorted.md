@@ -313,7 +313,12 @@ This is the **Schwarz–Pick theorem**.
 - Apply Schwarz we get $\abs{F(z)} \leq \abs{z}$ for all $z$, so
 \[
 \abs{F(z)} &\leq \abs{z} \\
-\implies \abs{?} &\leq \abs{}
+\implies \abs{
+f(z_1) - (f\circ \psi_{z_1})(z) 
+\over 
+1 - \bar{f(z_1)} (f\circ \psi_{z_1}) (z)
+} &\leq \abs{ z} \\
+\implies
 .\]
 
 
