@@ -325,35 +325,9 @@ f(z_1) - (f\circ \psi_{z_1})(z)
 &\leq \abs{z_1 - z \over 1 - \bar{z_1} z }
 .\]
 
+- Since $z_1$ was arbitrary and fixed and $w$ was a free variable, this holds for all $z,w\in \DD$.
 
-- Fix $z_1\in \DD$ and set
-\[
-M \da {z_1 - z \over 1-\bar z_1 z} &&
-\psi_{f(z_1)}(z) \da {f(z_1) - z \over 1 - \bar{f(z_1)}}
-.\]
-
-- Then $(\phi \circ f \circ M\inv)(0) = 0$, so apply Schwarz to get 
-\[
-\abs{
-(\psi_{f(z_1)} \circ f \circ M\inv)(z)
-}
-=\left|\frac{f\left(z_{1}\right)-f\left(M^{-1}(z)\right)}{1-\overline{f\left(z_{1}\right)} f\left(M^{-1}(z)\right)}\right| 
-&\leq|z| 
-.\]
-- Note
-\[
-w \da M\inv(z) \implies z = M(w) = {w-z\over 1-\bar{w} z} \\
-.\]
-
-- Make the substitution
-\[
-\abs{
-f(z_1) - f(w) \over 1 - \bar{f(z_1)} f(w)
-}
-&\leq
-{z_1 - w \over 1 - \bar{z_1} w}
-.\]
-
+- Showing strictness:
 
 
 :::
