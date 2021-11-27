@@ -42,7 +42,7 @@ $\implies$:
 $\impliedby$:
 
 - Let $K$ be compact, then choose $\gamma$ enclosing $K$.
-  Let $M\da \sup_{z\in \gamma}\abs{z}$.
+  Let $R$ be the radius of the disc enclosed by $\gamma$.
 
 - Apply Cauchy's formula to the function $F_n(z) \da f_n(z) - f(z)$:
 \[
@@ -51,8 +51,8 @@ F(z)
 \implies \abs{f_n(z) - f(z) } \\
 &\leq {1\over 2\pi }\int_\gamma \abs{f_n(\xi) - f(\xi) \over z-\xi} \dxi \\
 &\leq {1\over 2\pi} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } \over 
-\abs{ \abs{z} - \abs{\xi} } } \dxi \\
-&\leq {1\over 2\pi\abs{\abs{z} - \abs \xi}} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } }\dxi \\
+2R} \dxi \\
+&\leq {1\over 2\pi\cdot 2R} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } }\dxi \\
 &\leq {1\over 2\pi\abs{\abs{z} - \abs \xi}} \cdot \eps \\
 .\]
 
