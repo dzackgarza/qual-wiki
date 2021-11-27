@@ -337,9 +337,10 @@ f(z_1) - (f\circ \psi_{z_1})(z)
   \implies
   f(w) &= \psi_{f(z_1)}\inv(\lambda \psi_{z_1}\inv(w) ) 
   && w\da \psi_{z_1}(z) \\
-  \implies f(w) 
-  &= \psi_b(\lambda \psi_a(w)) && a=z_1, \, b=f(z_1) \\
-  &= \lambda\psi_{\bar\lambda b}(\psi_a(w)) \\
+  &= \psi_{f(z_1)} \qty{\lambda \psi_{z_1}(w)}
+  &= \lambda \psi_{\bar \lambda f(z_1)} \qty{\psi_{z_1}(w)} \\
+  &\da \lambda \psi_a(\psi_b(w)) \\
+  &=\lambda\qty{ a- \psi_b(w) \over 1 - \bar a \psi_b(w) }
   .\]
 
 
