@@ -42,7 +42,7 @@ $\implies$:
 $\impliedby$:
 
 - Let $K$ be compact, then choose $\gamma$ enclosing but not intersecting $K$.
-- Since $\gamma, K$ are disjoint compact sets, define $M \da \inf_{\abs{z-\xi} \st z\in K, \xi\in \gamma}$, the $0<M<\infty$.
+- Since $\gamma, K$ are disjoint compact sets, define $M \da \inf \ts{\abs{z-\xi} \st z\in K, \xi\in \gamma}$, the $0<M<\infty$.
 
 - Apply Cauchy's formula to the function $F_n(z) \da f_n(z) - f(z)$:
 \[
@@ -51,12 +51,11 @@ F(z)
 \implies \abs{f_n(z) - f(z) } 
 &\leq {1\over 2\pi }\int_\gamma \abs{f_n(\xi) - f(\xi) \over z-\xi} \dxi \\
 &\leq {1\over 2\pi} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } \over 
-2R} \dxi \\
-&\leq {1\over 2\pi\cdot 2R} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } }\dxi \\
-&\leq {1\over 4\pi R}\cdot \eps \\
+M} \dxi \\
+&\leq {1\over 2\pi M} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } }\dxi \\
+&\leq {1\over 2\pi M}\cdot \eps \\
 &\convergesto{\eps\to 0}0
-,\]
-where we've used that since $z, \xi$ are in the same disc of radius $R$
+.\]
 
 
 
