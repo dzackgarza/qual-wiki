@@ -245,6 +245,7 @@ Expand $f(z) = {1\over z(z-1)}$ in both
 - $\abs{z} < 1$
 - $\abs{z} > 1$
 
+#completed
 
 :::
 
@@ -256,8 +257,6 @@ and
 \[
 {1\over z(z-1)} = {1\over z^2(1 - {1\over z})} = {1\over z^2} \sum \qty{1\over z}^k
 .\]
-
-
 :::
 
 :::{.exercise title="Laurent expansions about different points"}
@@ -266,6 +265,7 @@ Find the Laurent expansion about $z=0$ and $z=1$ respectively of the following f
 f(z) \da {z+1 \over z(z-1)}
 .\]
 
+#completed
 :::
 
 :::{.solution}
@@ -286,5 +286,6 @@ For $z=1$:
 &= {1\over z-1} \qty{1 + \sum_{k\geq 0} (1-z)^k } \\
 &= {1\over z-1} \qty{1 + \sum_{k\geq 0} (-1)^k (z-1)^k }
 .\]
+
 :::
 
