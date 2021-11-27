@@ -31,7 +31,7 @@ Some useful properties:
 - $\psi_a(0) = a$ and $\psi(a) = 0$
 - $\psi_{a} \inv = \psi_{a}$, so $\psi_a^2 = \id$.
 - $\psi_a'(z) = {\abs{a}^2 - 1 \over \qty{1-\bar{a} z}^2 }$
-- $\psi_a(\lambda z) = \lambda\psi_{a\bar\lambda}(z)$
+- $\psi_a(\lambda z) = \lambda\psi_{\bar\lambda a}(z)$
 
 :::
 
