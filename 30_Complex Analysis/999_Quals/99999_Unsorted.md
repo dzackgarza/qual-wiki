@@ -288,6 +288,15 @@ Show that for any $z, w\in \DD$,
 Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fractional transformation from $\DD$ to itself.
 :::
 
+
+:::{.concept}
+\envlist
+
+![](figures/2021-11-27_01-09-06.png)
+
+:::
+
+
 :::{.solution .foldopen}
 This is the **Schwarz–Pick theorem**.
 
