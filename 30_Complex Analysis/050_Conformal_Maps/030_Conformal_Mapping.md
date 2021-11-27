@@ -7,8 +7,6 @@ Checking if $f$ is conformal: $f'(z_0) \neq 0$.
 - Conformal Mapping Dictionary:
 
   Parts [I](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.1.html),[II](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.2.html) ,[III](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.3.html) ,[IV](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.4.html), and [V](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.5.html)
-
-
 :::
 
 :::{.definition title="Conformal Map / Biholomorphism"}
@@ -85,6 +83,44 @@ M_{z_1} \da {z_1 - z \over 1 - \bar{z_1} z}
 This swaps $z_1$ and $0$.
 :::
 
+:::{.theorem title="Characterization of conformal maps"}
+Every map $g\in \BiHol(\DD)$ is of the form 
+\[
+g(z) = \lambda {z-a \over 1 - \bar a z}, \quad a\in \Delta, \lambda \in S^1
+\]
+
+:::
+
+:::{.remark}
+These have derivatives
+\[
+g'(z) = \lambda {1 - \abs{a}^2 \over (1-\bar a z)^2}
+.\]
+The terms ${z-a\over 1-\bar{a}z}$ are sometimes called *hyperbolic translations*
+
+:::
+
+:::{.proof title="of theorem, sketch"}
+
+- That these maps are biholomorphisms: they're compositions of $z\mapsto \lambda z$ and $z\mapsto {z-a\over 1-\bar a z}$, which are biholomorphisms.
+- Let $f \in \BiHol(\Delta)$ be arbitrary, fix $a\in \Delta$ with $f(a) = 0$
+- Write $M(z) = {z-a\over 1-\bar a z}$, then note that $M(a) = 0$ and this is a biholomorphism.
+- $g\da f\circ M\inv \in \BiHol(\Delta)$ sends $0\to0$ and is thus a rotation, so $g(z) = \lambda z$.
+- Write $g\circ M = f \circ M \circ M\inv = f$, which exhibits $f$ in the desired form.
+
+- Claim: this representation is unique.
+  Consider $f'(z)$, this determines $\Arg(\lambda)$.
+:::
+
+:::{.remark}
+There are such maps that are *not* rotations, e.g. the Blaschke factors:
+
+![[2021-10-29_02-33-08.png]]
+
+Setting $B_w(z) \da {z-w\over 1-\bar{w} z}$, this is not a rotation when $w\neq 0$ and is an involution.
+:::
+
+# Examples
 
 :::{.example title="Mapping the half-disc to the half-plane"}
 \[
@@ -122,49 +158,8 @@ i{1-w\over 1+w} &\mapsfrom w
 .\]
 :::
 
-:::{.theorem title="Characterization of conformal maps"}
-Every map $g\in \BiHol(\DD)$ is of the form 
-\[
-g(z) = \lambda {z-a \over 1 - \bar a z}, \quad a\in \Delta, \lambda \in S^1
-\]
 
-:::
-
-:::{.remark}
-These have derivatives
-\[
-g'(z) = \lambda {1 - \abs{a}^2 \over (1-\bar a z)^2}
-.\]
-
-:::
-
-:::{.proof title="of theorem, sketch"}
-
-- That these maps are biholomorphisms: they're compositions of $z\mapsto \lambda z$ and $z\mapsto {z-a\over 1-\bar a z}$, which are biholomorphisms.
-- Let $f \in \BiHol(\Delta)$ be arbitrary, fix $a\in \Delta$ with $f(a) = 0$
-- Write $M(z) = {z-a\over 1-\bar a z}$, then note that $M(a) = 0$ and this is a biholomorphism.
-- $g\da f\circ M\inv \in \BiHol(\Delta)$ sends $0\to0$ and is thus a rotation, so $g(z) = \lambda z$.
-- Write $g\circ M = f \circ M \circ M\inv = f$, which exhibits $f$ in the desired form.
-
-- Claim: this representation is unique.
-  Consider $f'(z)$, this determines $\Arg(\lambda)$.
-:::
-
-:::{.remark}
-There are such maps that are *not* rotations, e.g. the Blaschke factors:
-
-![[2021-10-29_02-33-08.png]]
-
-Setting $B_w(z) \da {z-w\over 1-\bar{w} z}$, this is not a rotation when $w\neq 0$ and is an involution.
-:::
-
-:::{.theorem title="Riemann Mapping"}
-If $\Omega$ is simply connected, nonempty, and not $\CC$, then for every $z_{0}\in \Omega$ there exists a unique conformal map $F:\Omega \to \DD$ such that $F(z_{0}) = 0$ and $F'(z_{0}) > 0$.
-
-Thus any two such sets $\Omega_{1}, \Omega_{2}$ are conformally equivalent.
-:::
-
-## By Type
+# By Type
 
 :::{.remark title="Notation"}
 
