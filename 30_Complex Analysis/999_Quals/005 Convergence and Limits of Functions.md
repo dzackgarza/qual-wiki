@@ -52,7 +52,8 @@ F(z)
 &\leq {1\over 2\pi }\int_\gamma \abs{f_n(\xi) - f(\xi) \over z-\xi} \dxi \\
 &\leq {1\over 2\pi} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } \over 
 \abs{ \abs{z} - \abs{\xi} } } \dxi \\
-&\leq {1\over 2\pi\qty{\abs{z} + \abs \xi}} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } }\dxi \\
+&\leq {1\over 2\pi\abs{\abs{z} - \abs \xi}} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } }\dxi \\
+&\leq {1\over 2\pi\abs{\abs{z} - \abs \xi}} \cdot \eps \\
 .\]
 
 
