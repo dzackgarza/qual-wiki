@@ -302,14 +302,19 @@ This is the **Schwarz–Pick theorem**.
   \[
   \abs{\psi_{f(w)}(f(z)) } \leq \abs{\psi_w(z)}
   .\]
-  Moreover $\psi_a$ swaps $a$ and $0$.
+  Moreover $\psi_a$ is an involution that swaps $a$ and $0$.
 
 - Now set up a situation where Schwarz's lemma will apply: 
-
 \[
 0 \mapsvia{\psi_{z_1}} z_1 \mapsvia{f} f(z) \mapsvia{\psi_{f(z_1)}} 0 
-.\]
+,\]
+  so $F\da \psi_{f(z_1)} \circ f \circ \psi_{z_1} \in \Aut(\DD)$ and $F(0) = 0$.
 
+- Apply Schwarz we get $\abs{F(z)} \leq \abs{z}$ for all $z$, so
+\[
+\abs{F(z)} &\leq \abs{z} \\
+\implies \abs{?} &\leq \abs{}
+.\]
 
 
 - Fix $z_1\in \DD$ and set
