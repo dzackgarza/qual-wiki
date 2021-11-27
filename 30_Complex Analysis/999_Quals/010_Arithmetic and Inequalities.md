@@ -41,4 +41,64 @@ Use $n$th roots of unity to show that
 
 
 
+## Spring 2021 # 1 #completed
+
+:::{.problem title="?"}
+Let $z_1, z_2$ be two complex numbers.
+
+- Show that 
+\[
+\abs{1 - \bar z_1 z_2}^2 - \abs{z_1 - z_2}^2 = \qty{1 - \abs{z_1}^2}\qty{1 - \abs{z_2}^2}
+.\]
+
+
+- Show that if $\abs{z_1} < 1$ and $\abs{z_2} < 1$, then
+\[
+\left|\frac{z_{1}-z_{2}}{1-\bar{z}_{1} z_{2}}\right|<1
+.\]
+
+- Assume $z_1\neq z_2$, and show that
+\[
+\abs{z_1 - z_2 \over 1 - \bar z_1 z_2} = 1 \iff \abs{z_1} = 1 \text{ or } \abs{z_2} = 1
+.\]
+
+:::
+
+:::{.solution}
+Part 1:
+
+Note that the RHS expands to
+\[
+1 - \abs{z_1}^2 - \abs{z_2}^2 + \abs{z_1 z_2}^2
+.\]
+The LHS expands to
+\[
+\cdots 
+&= (1 - \bar{z_1} z_2)(1 - z_1 \bar z_2) - (z_1 - z_2)(\bar z_1 - \bar z_2) \\
+&= 1 - \bar z_2 z_2 - z_1\bar z_2 + \abs{z_1 z_2}^2 - \qty{ \abs{z_1}^2 - \abs{z_2}^2 - z_1 \bar z_2 - \bar{z_1}z_2} \\
+&= 1 + \abs{z_1 z_2}^2 - \abs{z_1}^2 - \abs{z_2}^2
+.\]
+
+Part b:
+This isn't mentioned, but note that we need $\bar{z_1}z_2 \neq 1$.
+Then
+\[
+\qty{ \abs{z_1 - z_2}^2 \over \abs{1 - \bar z_1 z_2 } } < 1 
+&\iff \abs{z_1 - z_2}^2 - \abs{1 - \bar z_1 z_2}^2 < 0 \\
+&\iff \qty{1 - \abs z_2^2}\qty{1 - \abs z_2^2} > 0 \\
+&\iff \abs{z_1} < 1 \text{ and } \abs{z_2} < 1
+.\]
+
+
+Part c:
+Suppose $z_1\neq z_2$, then
+\[
+\qty{ \abs{z_1 - z_2}^2 \over \abs{1 - \bar z_1 z_2 } } = 1 
+&\iff \abs{z_1 - z_2}^2 - \abs{1 - \bar z_1 z_2}^2 = 0 \\
+&\iff \qty{1 - \abs z_2^2}\qty{1 - \abs z_2^2} = 0 \\
+&\iff \abs{z_1} = 1 \text{ or } \abs{z_2} = 1
+.\]
+
+
+:::
 
