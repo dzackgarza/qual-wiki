@@ -111,7 +111,6 @@ then $f$ is a rotation.
   - Then $\abs{z_0} = \abs{f(z_0)} = \abs{cz_0}$ since $f(z_0) = z_0$, so $\abs{c} = 1$ and $c = e^{i\theta}$ for some $\theta$.
 :::
 
-
 :::{.corollary title="Schwarz-Pick Lemma"}
 Let $f:\DD\to \bar{\DD}$, then for some $a\in \DD$,
 \[
@@ -120,6 +119,12 @@ Let $f:\DD\to \bar{\DD}$, then for some $a\in \DD$,
 \left|f^{\prime}(a)\right| \leq \frac{1-|f(a)|^{2}}{1-|a|^{2}}
 .\]
 If equality holds for some $z\neq a$ in either expression, then $f= \lambda F$ where $F$ is a linear fractional transformation and $\abs{\lambda} = 1$.
+:::
+
+:::{.proof title="of Schwarz-Pick"}
+
+![](figures/2021-11-27_00-55-19.png)
+
 :::
 
 
