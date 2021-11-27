@@ -292,6 +292,22 @@ Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fr
 :::{.solution}
 This is the **Schwarz–Pick theorem**.
 
+- Fix $z_1$ and let $w_1 = f(z_1)$.
+  Define
+  \[
+  \psi_{a} \da {a-z \over 1-\bar{a}z} \in \Aut(\DD)
+  .\]
+
+  - Note that the RHS in the theorem statement is $\psi_{w}(z)$ and the LHS is $\psi_{f(w)}(f(z))$.
+  - Note that inequality now reads
+  \[
+  \abs{\psi_{f(w)}(f(z)) } \leq \abs{\psi_w(z)}
+  .\]
+
+
+- Now set up a situation where Schwarz's lemma will apply: 
+
+
 - Fix $z_1\in \DD$ and set
 \[
 M \da {z_1 - z \over 1-\bar z_1 z} &&
