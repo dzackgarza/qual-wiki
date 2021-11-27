@@ -341,8 +341,9 @@ f(z_1) - (f\circ \psi_{z_1})(z)
   &= \lambda \psi_{\bar \lambda f(z_1)} \qty{\psi_{z_1}(w)} \\
   &\da \lambda \psi_a(\psi_b(w)) \\
   &=\lambda\qty{ a- \psi_b(w) \over 1 - \bar a \psi_b(w) } \\
-  &=\lambda\qty{ }
-  -\frac{{\left(a \overline{b} - 1\right)} z - a + b}{z {\left(\overline{a} - \overline{b}\right)} - b \overline{a} + 1}
+  &= \cdots \\
+  &=
+  -\lambda \qty{ \frac{{\left(a \overline{b} - 1\right)} z - a + b}{z {\left(\overline{a} - \overline{b}\right)} - b \overline{a} + 1} }
   .\]
 
 
