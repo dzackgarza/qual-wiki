@@ -352,8 +352,14 @@ F'(0)
 &= \psi'_{f(z_1)}(f(z_1)) \cdot f'(z_1) \cdot \qty{1 - \abs{z_1}^2} \\
 &= \qty{ 1 - \abs{ f(z_1)}^2 \over \qty{1 - \bar{f(z_1)} f(z_1) }^2 } \cdot f'(z_1) \cdot \qty{1 - \abs{z_1}^2} \\
 &= \qty{ 1 - \abs{ f(z_1)}^2 \over \qty{1 - \abs{f(z_1)}^2}^2 } \cdot f'(z_1) \cdot \qty{1 - \abs{z_1}^2} \\
-&= f'(z_1) \qty{ 1 - \abs{z_1}^2 \over 1 - \abs{f(z_1)}^2 }
+&= f'(z_1) \qty{ 1 - \abs{z_1}^2 \over 1 - \abs{f(z_1)}^2 } \\
+&\leq 1 &&\text{by Schwarz}
+,\]
+so
+\[
+f'(z_1) \leq {1- \abs{f(z_1)}^2 \over 1 - \abs{z_1}^2}
 .\]
+
 
 
 :::
