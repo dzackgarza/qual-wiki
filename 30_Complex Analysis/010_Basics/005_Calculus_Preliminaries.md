@@ -156,11 +156,43 @@ Recall how to carry out polynomial long division:
 
 ## Exercises
 
+
 :::{.exercise title="?"}
 Find the radius of convergences for the power series expansion of $\sqrt{z}$ about $z_0 = 4 +3i$.
 :::
 
+#work
+
+
 :::{.exercise title="?"}
 Show that a uniform limit of continuous functions is continuous. #work
 :::
+
+#work
+
+
+:::{.exercise title="?"}
+Determine where the following real-valued function is or is not uniformly convergent:
+\[
+f_n(x) \da {\sin(nx)\over 1+nx}
+.\]
+:::
+
+#completed
+
+:::{.solution}
+This converges uniformly on $[a, \infty)$ for $a$ any constant:
+\[
+\abs{\sin(nx) \over 1+nx} \leq {1\over 1 + na} < \eps = \eps(n, a)
+.\]
+
+This does not converge uniformly on $(0, \infty)$: 
+\[
+x_n \da {1\over n} \implies \abs{f_n(x_n)} = \abs{\sin(1) \over 2} > \eps
+.\]
+
+
+
+:::
+
 
