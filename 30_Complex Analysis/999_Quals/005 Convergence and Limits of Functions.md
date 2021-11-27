@@ -47,15 +47,16 @@ $\impliedby$:
 - Apply Cauchy's formula to the function $F_n(z) \da f_n(z) - f(z)$:
 \[
 F(z) 
-&= {1\over 2\pi i} \int_\gamma { F(\xi) \over z-\xi} \dxi
-\implies \abs{f_n(z) - f(z) } \\
+&= {1\over 2\pi i} \int_\gamma { F(\xi) \over z-\xi} \dxi \\
+\implies \abs{f_n(z) - f(z) } 
 &\leq {1\over 2\pi }\int_\gamma \abs{f_n(\xi) - f(\xi) \over z-\xi} \dxi \\
 &\leq {1\over 2\pi} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } \over 
 2R} \dxi \\
 &\leq {1\over 2\pi\cdot 2R} \int_\gamma {\abs{ f_n(\xi) - f(\xi) } }\dxi \\
 &\leq {1\over 4\pi R}\cdot \eps \\
 &\convergesto{\eps\to 0}0
-.\]
+,\]
+where we've used that since $z, \xi$ are in the same disc of radius $R$
 
 
 
