@@ -344,10 +344,13 @@ Now use that
 
 - $\psi_{z_1}(0) = z_1$
 - $\psi'_{z_1}(0) = 1-\abs{z_1}^2$
+- $\psi_a' = {1-\abs{a}^2 \over (1-\bar{a}z)^2 }$
 
 and evaluate:
 \[
-F'(0) = \psi'_{f(z_1)}(f(z_1)) \cdot f'(z_1) \cdot \qty{1 - \abs{z_1}^2}
+F'(0) 
+&= \psi'_{f(z_1)}(f(z_1)) \cdot f'(z_1) \cdot \qty{1 - \abs{z_1}^2} \\
+&= \qty{ 1 - \abs{ f(z_1)}^2 \over \qty{1 - \bar{f(z_1)} f(z_1) }^2 } \cdot f'(z_1) \cdot \qty{1 - \abs{z_1}^2} \\
 .\]
 
 

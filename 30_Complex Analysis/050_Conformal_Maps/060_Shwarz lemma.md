@@ -1,5 +1,41 @@
-
 # Schwarz
+
+:::{.theorem title="Characterization of conformal maps"}
+Every map $g\in \BiHol(\DD)$ is of the form 
+\[
+g(z) = \lambda {z-a \over 1 - \bar a z}, \quad a\in \Delta, \lambda \in S^1
+\]
+
+:::
+
+:::{.proof title="of theorem, sketch"}
+
+- That these maps are biholomorphisms: they're compositions of $z\mapsto \lambda z$ and $z\mapsto {z-a\over 1-\bar a z}$, which are biholomorphisms.
+- Let $f \in \BiHol(\Delta)$ be arbitrary, fix $a\in \Delta$ with $f(a) = 0$
+- Write $M(z) = {z-a\over 1-\bar a z}$, then note that $M(a) = 0$ and this is a biholomorphism.
+- $g\da f\circ M\inv \in \BiHol(\Delta)$ sends $0\to0$ and is thus a rotation, so $g(z) = \lambda z$.
+- Write $g\circ M = f \circ M \circ M\inv = f$, which exhibits $f$ in the desired form.
+
+- Claim: this representation is unique.
+  Consider $f'(z)$, this determines $\Arg(\lambda)$.
+:::
+
+:::{.remark}
+These have derivatives
+\[
+g'(z) = \lambda {1 - \abs{a}^2 \over (1-\bar a z)^2}
+.\]
+The terms ${z-a\over 1-\bar{a}z}$ are sometimes called *hyperbolic translations* because they preserve the hyperbolic metric on the Poincaré disc.
+These swap $0$ and $a$.
+:::
+
+:::{.remark}
+There are such maps that are *not* rotations, e.g. the Blaschke factors:
+
+![[2021-10-29_02-33-08.png]]
+
+Setting $B_w(z) \da {z-w\over 1-\bar{w} z}$, this is not a rotation when $w\neq 0$ and is an involution.
+:::
 
 :::{.theorem title="Schwarz Lemma" ref="SchwarzzLemma"}
 If $f: \DD \to \DD$ is holomorphic with $f(0) = 0$, then
