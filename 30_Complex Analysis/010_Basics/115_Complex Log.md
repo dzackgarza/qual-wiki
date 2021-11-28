@@ -73,6 +73,7 @@ but this requires a branch cut to ensure continuity.
 .\]
 
 For counterexamples, take $z=\zeta_4^3=\exp(3\pi i / 4$ and $w=\zeta_4^2 = \eexp(\pi i/2)$.
+Then $zw= \exp(-3 \pi i /4)$, using that the domain of $\Arg$ is $(-\pi, \pi]$.
 
 :::
 
