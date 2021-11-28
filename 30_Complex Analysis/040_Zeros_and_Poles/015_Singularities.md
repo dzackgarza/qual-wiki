@@ -189,11 +189,12 @@ f(z) = {a_{-n} \over (z-z_0)^n } + \cdots + {a_{-1} \over z-z_0} + G(z) \da P(z)
 The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists of terms with negative degree, and the *residue* of $f$ at $z_0$ is the coefficient $a_{-1}$.
 :::
 
-
 ## Exercises
 
 :::{.problem title="?"}
 Show that $\sin(z)/z$ has no poles.
+
+#completed
 :::
 
 :::{.solution}
@@ -213,6 +214,8 @@ f_1(z) &= {\Log(1+z) \sin(z) \over z^2} \\
 f_2(z) &= e^{\sin\qty{1\over z}} \\
 f_3(z) &= {1+z \over e^z-1}
 .\]
+
+#completed
 :::
 
 :::{.solution}
@@ -246,6 +249,8 @@ $f_3$: pole of order 1 with residue 1, evident after some slightly clever Lauren
 
 :::{.problem title="?"}
 Characterize all entire functions with a pole of order $m$ at $\infty$.
+
+#completed
 :::
 
 :::{.solution}
@@ -259,6 +264,8 @@ Determine the order of the pole of
 
 - ${1\over z\sin(z)}$ at $z_0 = 0$.
 - ${e^{z^2}-1\over z^4}$ at $z_0=0$
+
+#completed
 :::
 
 :::{.solution}
@@ -288,6 +295,8 @@ using that $z/\sin(z) \convergesto{z\to 0} 1$.
 :::{.problem title="?"}
 Fix $a\in \CC\union\ts{\infty}$ and let $f(z) \da e^{1\over z^2}$.
 Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
+
+#completed
 :::
 
 :::{.solution}
@@ -307,7 +316,6 @@ Find the orders of zeros of the following functions:
 - $(e^z-1)^3$
 
 #completed
-
 :::
 
 :::{.solution}

@@ -7,7 +7,6 @@ The **logarithmic derivative** is defined as
 .\]
 :::
 
-
 :::{.fact}
 It converts all poles and zeros of meromorphic $f$ into simple poles of $\logd f$.
 If $z_0$ is a root of $f$ of multiplicity $m$, write $f(z) = (z-z_0)^m g(z)$ with $g$ holomorphic and nonzero near $z_0$.
@@ -23,7 +22,6 @@ Then if $g$ is holomorphic and nonzero away from $z_0$, so is $g'/g$.
 So the only contribution to $\Res_{z=z_0} \logd f$ is $m$.
 :::
 
-
 :::{.exercise title="?"}
 Show that $\logd(fg) = \logd f + \logd g$, i.e. 
 \[
@@ -31,15 +29,12 @@ Show that $\logd(fg) = \logd f + \logd g$, i.e.
 .\]
 :::
 
-
 :::{.solution}
 \[
 {(fg)' \over fg} = { f'g + fg' \over fg} = {f'g \over fg} + {fg' \over fg} = {f'\over f} + {g' \over g}
 .\]
 
 :::
-
-
 
 :::{.remark}
 Note that the logarithmic derivative picks up the $p\dash$adic valuation for $\gens{x-p} \in \CC[x]$ a point:
@@ -96,7 +91,6 @@ so $z_0$ is a simple pole of $\logd f$ and $\res_{z=z_0} \logd f = m$.
 .\]
 :::
 
-
 :::{.theorem title="Argument Principle, Index Version"}
 With the same setup as above, 
 \[
@@ -116,7 +110,6 @@ Make the change of variables $w = f(z)$, then $z=\gamma(t) \mapsto w = (f\circ \
 
 
 :::
-
 
 :::{.example title="Using the index version of the argument principle"}
 Let $f(z) = z^2 + z = z(z+1)$.

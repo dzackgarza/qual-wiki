@@ -1,9 +1,5 @@
 # Counting Zeros and Poles
 
-
-
-## Counting Zeros 
-
 :::{.example}
 \envlist
 
