@@ -365,7 +365,8 @@
     "Integrability",
     "supremum",
     "Orthonormal",
-    "orthonormal"
+    "orthonormal",
+    "Lipschitz"
   ],
   "communityPluginSortOrder": "download",
   "autoPairMarkdown": false,

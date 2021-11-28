@@ -139,6 +139,8 @@ Can every continuous function on $\bar \DD$ be uniformly approximated by polynom
 
 > Hint: compare to Weierstrass for the real interval.
 
+> Note: $\abs{\dz} = \abs{\gamma'(t)}\dt$ for $\gamma$ a parameterization of the curve.
+
 :::
 
 :::{.solution}

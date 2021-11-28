@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "000_Tips_Techs",
+      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
+      "basename": "20_Solutions",
+      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
+    },
+    {
+      "basename": "10_UGA_Problems",
+      "path": "30_Complex Analysis/000_Resources/10_UGA_Problems.md"
+    },
+    {
+      "basename": "00_Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
+    },
+    {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "005_Calculus_Preliminaries",
+      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
+    },
+    {
       "basename": "115_Complex Log",
       "path": "30_Complex Analysis/010_Basics/115_Complex Log.md"
     },
@@ -15,10 +39,6 @@
     {
       "basename": "qual_progress",
       "path": "qual_progress.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
     },
     {
       "basename": "030_Conformal_Mapping",
@@ -125,16 +145,8 @@
       "path": "20_Real Analysis/200_Appendices/9900_Appendix_Inequalities.md"
     },
     {
-      "basename": "000_Tips_Techs",
-      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
-    },
-    {
       "basename": "000_Real_Review",
       "path": "30_Complex Analysis/999_Quals/000_Real_Review.md"
-    },
-    {
-      "basename": "10_UGA_Problems",
-      "path": "30_Complex Analysis/000_Resources/10_UGA_Problems.md"
     },
     {
       "basename": "050 Liouville",
@@ -187,18 +199,6 @@
     {
       "basename": "100_Linear Fractional Transformations",
       "path": "30_Complex Analysis/999_Quals/100_Linear Fractional Transformations.md"
-    },
-    {
-      "basename": "035_Cauchy Theorem",
-      "path": "30_Complex Analysis/999_Quals/035_Cauchy Theorem.md"
-    },
-    {
-      "basename": "040_Maximum_Modulus",
-      "path": "30_Complex Analysis/999_Quals/040_Maximum_Modulus.md"
-    },
-    {
-      "basename": "051_Polynomials",
-      "path": "30_Complex Analysis/999_Quals/051_Polynomials.md"
     }
   ],
   "omittedPaths": [],
