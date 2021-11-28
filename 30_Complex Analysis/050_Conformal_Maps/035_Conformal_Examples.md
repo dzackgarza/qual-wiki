@@ -134,7 +134,9 @@ Find a conformal map:
 - Map the circles to lines: send $-1\to 0$ and $1\to \infty$ by a map that fixes $\RR$.
   $f_1(z) \da {1+z\over 1-z}$ works, and the new domain is $[0, 1] \cross i\RR \da \ts{z \st 0\leq \Re(z) \leq 1 }$, a vertical strip of width 1.
 
-- Rotate the vertical strip onto $\HH$ by $f_2(z) \da e^{i\pi z}$.
+- Rotate and dilate the vertical strip onto $\HH$ by $f_2(z) \da e^{i\pi z}$.
+
+- 
 
 :::
 
