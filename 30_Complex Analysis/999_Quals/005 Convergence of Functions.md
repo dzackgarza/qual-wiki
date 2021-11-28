@@ -46,7 +46,7 @@ Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region 
 $\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
 has a limit point in $\Omega$. Show that $f_n$ converges to $f$ uniformly on compact subsets of $\Omega$.
 
-## Spring 2021, Spring 2015 Extras # 6 #completed
+## Spring 2021, Spring 2015, Extras.6 #completed
 
 :::{.problem title="?"}
 Let $\ts{f_n}_{n=1}^\infty$ is a sequence of holomorphic functions on $\DD$ and $f$ is also holomorphic on $\DD$. 
@@ -94,7 +94,7 @@ Then $\norm{f_n - f}_{\infty, K} \leq {\eps\over 2\pi M}$, so $f_n\to f$ uniform
 :::
 
 
-## Spring 20202 HW 2 #  2.6.10 #work
+## Spring 2020 HW 2, Stein 2.6.10 #work
 
 Can every continuous function on $\bar \DD$ be uniformly approximated by polynomials in the variable $z$?
 
