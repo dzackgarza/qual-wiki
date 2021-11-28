@@ -4,15 +4,22 @@
 On notation: for an analytic function $f$ expanded as a power series about $a$, write $v_a(f)$ as the $a\dash$adic valuation of $f$: expanding $f(z) = \sum_{k\in \ZZ} a_k (z-a)^k$ about $a$, define $v_a(f) = n$ iff $a_n\neq 0$ but $a_{\leq n} = 0$.
 :::
 
-:::{.definition title="Singularity"}
+:::{.definition title="Isolated singularities"}
 A point $z_0$ is an **isolated singularity** if $f(z_0)$ is undefined but $f(z)$ is defined in a punctured neighborhood $D(z_0)\sm\ts{z_0}$ of $z_0$.
 
-There are three types of isolated singularities:
+There is a classification of isolated singularities:
 
 - Removable singularities, so $v_a(f) \in [0, \infty)$
 - Poles, so $v_a(f) \in (-\infty, 0)$
 - Essential singularities, so $v_a(f) = -\infty$, e.g. $\sin(z\inv )$ at $z=0$.
 :::
+
+
+:::{.warnings}
+Not all singularities are isolated, and thus don't fall into this classification.
+One may also have **branch singularities**, e.g. $\Log(z)$ at $z=0$.
+:::
+
 
 :::{.definition title="Removable Singularities"}
 If $z_0$ is a singularity of $f$. then $z_0$ is a **removable singularity** iff
