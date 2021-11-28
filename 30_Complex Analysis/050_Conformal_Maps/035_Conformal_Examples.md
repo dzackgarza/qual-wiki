@@ -1,5 +1,41 @@
 # Conformal Map Examples and Exercises 
 
+:::{.example title="Mapping the half-disc to the half-plane"}
+\[
+(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv
+.\]
+?????
+:::
+
+:::{.example title="?"}
+\envlist
+
+- $(z; i, 1, -1): \DD\to \HH$
+- $(z; 0, -1, 1): \DD \intersect \HH \to Q_1$.
+
+A Mobius transformation of the following form:
+\[
+1 &\mapsto 3 \\
+i &\mapsto 0 \\
+2 &\mapsto -1
+.\]
+Write $T(z) = (z; 1, i, 2)$ and $S(w) = (w; 3, 0, -1)$.
+Set $T(z) = S(w)$ and solve for $w$ to get
+\[
+\frac{-3 z+3 i}{(7-4 i) z+(-8+5 i)}
+.\]
+:::
+
+:::{.example title="Cayley transform (important!!)"}
+The fractional linear transformation given by $F(z) = {i - z \over i + z}$ maps $\DD\to \HH$ with inverse $G(w) = i {1-w \over 1 + w}$.
+The following transformation is very important:
+\[
+F: \DD &\to \HH \\
+z &\mapsto {i-z\over i+z} \\
+i{1-w\over 1+w} &\mapsfrom w
+.\]
+:::
+
 :::{.exercise title="Upper half-disc to upper half-plane"}
 Find a conformal map from the upper half-disc to the upper half-plane.
 :::

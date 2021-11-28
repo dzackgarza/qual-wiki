@@ -1,139 +1,5 @@
-# Conformal Maps / Linear Fractional Transformations
+# Standard Conformal Maps
 
-:::{.fact}
-Checking if $f$ is conformal: $f'(z_0) \neq 0$.
-
-- Conformal Mapping Dictionary:
-
-  Parts [I](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.1.html),[II](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.2.html) ,[III](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.3.html) ,[IV](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.4.html), and [V](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.5.html)
-:::
-
-:::{.definition title="Conformal Map / Biholomorphism"}
-A map $f$ is **conformal** on $\Omega$ iff $f$ is complex-differentiable, $f'(z)\neq 0$ for $z\in \Omega$, and $f$ preserves signed angles (so $f$ is orientation-preserving).
-
-A bijective conformal map $f:U\to V$ **biholomorphism**, and we say $U$ and $V$ are **biholomorphic**.
-:::
-
-:::{.remark}
-Conformal implies holomorphic, and a bijective conformal map has conformal inverse automatically.
-Importantly, bijective holomorphic maps always have holomorphic inverses.
-Self-biholomorphisms of a domain $\Omega$ form a group $\Aut_\CC(\Omega)$.
-:::
-
-:::{.remark}
-The bijectivity condition can be weakened: an *injective* holomorphic map satisfies $f'(z) \neq 0$ and $f ^{-1}$ is well-defined on its range and holomorphic.
-:::
-
-:::{.definition title="Linear fractional transformation / Mobius transformation"}
-A map of the following form is a *linear fractional transformation*:
-\[  
-T(z) = {az + b \over cz + d}
-,\]
-where the denominator is assumed to not be a multiple of the numerator.
-These have inverses given by
-\[  
-T^{-1}(w) = {dw-b \over -cw + a}
-\]
-and derivatives given by
-\[
-T'(z) = {ad-bc \over (cz+d)^2}
-.\]
-:::
-
-:::{.remark}
-Using that $\Aut(\CP^1) \cong \PGL_2(\CC)$, there is a nice matrix representation if you let the act on the right:
-\[
-\tv{z: 1} \cdot \matt a b c d = \tv{f(z): 1}
-.\]
-This yields a quick way of finding $f\inv$: invert the matrix and ignore the determinant that shows up since it just scales every entry:
-\[
-{az + b\over cz+ d} \leadsto \matt a b c d \inv = \matt d {-b} {-c} a 
-\leadsto 
-{dw-b \over -cw + a}
-.\]
-
-:::
-
-:::{.proposition title="Constructing Mobius transformations"}
-Given any three points $z_1, z_2, z_3$, the following Möbius transformation sends them to $1, 0, \infty$ respectively:
-\[
-T(z) 
-&\da \qty{z-z_2\over z-z_3} \qty{z_1 - z_2 \over z_1 - z_3} \inv
-\\
-z_1 & \mapsto 1 \\
-z_2 & \mapsto 0 \\
-z_3 & \mapsto \infty
-.\]
-Such a map is sometimes denoted $(z; z_1, z_2, z_3)$.
-One can use this to produce a map sending any three points to any other three points:
-\[
-T(z) \da 
-(w; w_1, w_2, w_3)\inv
-\circ
-(z; z_1,z_2, z_3)
-.\]
-:::
-
-:::{.remark}
-A very useful variant that shows up in applications of the Schwarz' lemma:
-\[
-M_{z_1} \da {z_1 - z \over 1 - \bar{z_1} z}
-.\]
-This swaps $z_1$ and $0$.
-:::
-
-# Examples
-
-:::{.example title="Mapping the half-disc to the half-plane"}
-\[
-(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv
-.\]
-?????
-:::
-
-:::{.example title="?"}
-\envlist
-
-- $(z; i, 1, -1): \DD\to \HH$
-- $(z; 0, -1, 1): \DD \intersect \HH \to Q_1$.
-
-A Mobius transformation of the following form:
-\[
-1 &\mapsto 3 \\
-i &\mapsto 0 \\
-2 &\mapsto -1
-.\]
-Write $T(z) = (z; 1, i, 2)$ and $S(w) = (w; 3, 0, -1)$.
-Set $T(z) = S(w)$ and solve for $w$ to get
-\[
-\frac{-3 z+3 i}{(7-4 i) z+(-8+5 i)}
-.\]
-:::
-
-:::{.example title="Cayley transform (important!!)"}
-The fractional linear transformation given by $F(z) = {i - z \over i + z}$ maps $\DD\to \HH$ with inverse $G(w) = i {1-w \over 1 + w}$.
-The following transformation is very important:
-\[
-F: \DD &\to \HH \\
-z &\mapsto {i-z\over i+z} \\
-i{1-w\over 1+w} &\mapsfrom w
-.\]
-:::
-
-# By Type
-
-:::{.remark title="Notation"}
-
-| Notation                                                     | Definition                                             |
-|--------------------------------------------------------------|--------------------------------------------------------|
-| $\DD \da \ts{z \st \abs{z} \leq 1}$                          | The unit disc                                          |
-| $\HH \da \ts{x+iy \st y > 0}$                                | The upper half-plane                                   |
-| $X_{1\over 2}$                                               | A "half version of $X$", see examples                  |
-| $\HH_{1\over 2}$                                             | The first quadrant                                     |
-| $\DD_{1\over 2}$                                             | The portion of the first quadrant inside the unit disc |
-| $L \definedas \theset{x + iy \suchthat x\in \RR,\, 0<y<\pi}$ | The horizontal strip                                   |
-
-:::
 
 :::{.theorem title="Classification of Conformal Maps"}
 There are 8 major types of conformal maps:
@@ -254,9 +120,6 @@ Idea: compose some known functions.
 S_{\alpha} &\to S_{\pi} = \HH \to \DD \\
 z &\mapsto z^{\pi \over \alpha} \mapsto {z-i\over z+i}\evalfrom_{z= z^{\pi\over \alpha}}
 .\]
-
-
-
 :::
 
 :::{.proposition title="Upper half-disc to first quadrant"}
@@ -317,7 +180,6 @@ This extends to a function $\CC\sm\RR^{\leq 0} \to \RR \cross (-\pi, \pi)$.
 Circles of radius $R$ are mapped to vertical line segments connecting $\ln(R) + i\pi$ to $\ln(R) - i\pi$, and rays are mapped to horizontal lines.
 :::
 
-
 :::{.remark}
 One can find other specific images of the logarithm:
 \[
@@ -332,7 +194,6 @@ For the upper half-disc to the negative horizontal half-strip:
 
 :::
 
-
 :::{.proposition title="Half-discs to half strips"}
 \[
 F: (-{\pi\over 2}, {\pi \over 2}) \cross \RR^{>0} &\to \DD \intersect \HH \\
@@ -346,7 +207,6 @@ This uses that $e^{iz} = e^{-\Im(z)} e^{i \Re(z)}$.
 
 :::
 
-
 :::{.proposition title="Half-disc to upper half-plane"}
 \[
 F: ? &\mapstofrom ? \\
@@ -355,20 +215,9 @@ z & \mapsto -{1\over 2}\qty{z + z\inv} \\
 
 :::
 
-
 :::{.proposition title="Upper half-plane to vertical half-strip"}
 \[
 ? &\mapstofrom ? \\
 z &\mapsto \sin(z) \\
 .\]
-
 :::
-
-
-
-
-
-
-
-
-
