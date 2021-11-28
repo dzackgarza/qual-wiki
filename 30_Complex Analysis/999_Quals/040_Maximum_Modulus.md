@@ -1,6 +1,6 @@
 # Maximum Modulus
 
-## Spring 20202 HW 3 #  3.8.15
+## Spring 2020 HW 3 #  3.8.15
 Use the Cauchy inequalities or the maximum modulus principle to solve the following problems:
 
 a. 
@@ -22,7 +22,7 @@ Conclude that there exists a point $w\in S^1$ such that the product of the above
 d. 
 Show that if the real part of an entire function is bounded, then $f$ is constant.
 
-## Spring 20202 HW 3 #  3.8.17
+## Spring 2020 HW 3 #  3.8.17
 
 Let $f$ be non-constant and holomorphic in an open set containing the closed unit disc.
 
@@ -35,7 +35,7 @@ Show that if $\abs{f(z)} = 1$ whenever $\abs{z} = 1$, then the image of $f$ cont
 b. 
 If $\abs{f(z)} \geq 1$ whenever $\abs{z} = 1$ and there exists a $z_0\in \DD$ such that $\abs{f(z_0)} < 1$, then the image of $f$ contains the unit disc.
 
-## Spring 20202 HW 3 #  3.8.19
+## Spring 2020 HW 3 #  3.8.19
 
 Prove that maximum principle for harmonic functions, i.e.
 
@@ -51,14 +51,14 @@ b. Suppose $\Omega$ is a region with compact closure $\bar \Omega$.
 > Let $f$ be holomorphic near $z_0$ with $\Re(f) = u$, and show that $f$ is not an open map.
 > Then (a) implies (b).
 
-## Spring 20202 HW 3 #  9
+## Spring 2020 HW 3 #  9
 
 Let $f$ be analytic in a region $D$ and $\gamma$ a rectifiable curve in
 $D$ with interior in $D$.
 
 Prove that if $f(z)$ is real for all $z\in \gamma$, then $f$ is constant.
 
-## Spring 20202 HW 3 #  14
+## Spring 2020 HW 3 #  14
 
 Let $f$ be nonzero, analytic on a bounded region $\Omega$ and continuous
 on its closure $\overline \Omega$.

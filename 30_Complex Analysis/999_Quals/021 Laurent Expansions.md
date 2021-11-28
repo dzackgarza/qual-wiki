@@ -129,7 +129,7 @@ $c_n \neq 0$ for all large enough $n$'s, and
 (2)
 $\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
 
-## Spring 20202 HW 2 #  2.6.14 #work
+## Spring 2020 HW 2 #  2.6.14 #work
 
 Suppose that $f$ is holomorphic in an open set containing $\DD$ except for a pole $z_0 \in \bd \DD$.
 Let $\sum_{n=0}^\infty a_n z^n$ be the power series expansion of $f$ in $\DD$, and show that $\lim \frac{a_n}{a_{n+1}} = z_0$.

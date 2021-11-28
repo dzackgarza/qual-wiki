@@ -1,18 +1,19 @@
 # Series Convergence 
 
-## Exercises
-## Tie,Fall 2015 and Spring 2020 HW2: Ratio Test #work 
+## Fall 2015, Spring 2020 HW2: Ratio Test #work 
 
+:::{.problem title="?"}
 Let $a_n\neq 0$ and show that
 \[
 \lim_{n\to \infty} {\abs{a_{n+1}} \over \abs{a_n}} = L \implies \lim_{n\to\infty} \abs{a_n}^{1\over n} = L
 .\]
 
 In particular, this shows that when applicable, the ratio test can be used to calculate the radius of convergence of a power series.
+:::
 
+## Analytic on circles #work 
 
-## 1 #work 
-
+:::{.problem title="?"}
 Suppose $f$ is analytic on a region $\Omega$ such that $\DD \subseteq \Omega \subseteq \CC$ and $f(z) = \sum_{n=0}^\infty a_n z^n$ is a power series with radius of convergence exactly 1.
 
 a. 
@@ -24,11 +25,8 @@ Give an example of such an $f$ which is analytic at $1$ but $\sum_{n=0}^\infty a
 c.  
 Prove that $f$ can not be analytic at *every* point of $S^1$.
 
-:::{.concept}
-?
 :::
 
-\todo[inline]{Missing part (c)}
 :::{.solution}
 \hfill
 
@@ -62,8 +60,9 @@ c. ?
 
 :::
 
-## 7 #work
+## Uniform convergence of series #work
 
+:::{.problem title="?"}
 Suppose $\sum_{n=0}^\infty a_n z^n$ converges for some $z_0 \neq 0$.
 
 a.  
@@ -72,25 +71,32 @@ Prove that the series converges absolutely for each $z$ with $\abs z < \abs z_0$
 b.  
 Suppose $0 < r < \abs{z_0}$ and show that the series converges uniformly on $\abs{z} \leq r$.
 
-## 10 #work
+:::
 
+
+## Sine series? #work
+
+:::{.problem title="?"}
 Prove that the following series converges uniformly on the set $\theset{z \suchthat \Im(z) < \ln 2}$:
 \[
 \sum_{n=1}^\infty {\sin(nz) \over 2^n}
 .\]
 Suppose $0 < r < \abs{z_0}$ and show that the series converges uniformly on $\abs{z} \leq r$.
 
-### Tie's Extra Questions: Fall 2015 #work
+
+:::
+
+## Fall 2015 Extras #work
 
 Assume $f(z)$ is analytic in ${\mathbb D}$ and $f(0)=0$ and is not a rotation (i.e. $f(z) \neq e^{i \theta} z$). 
 Show that $\displaystyle \sum_{n=1}^\infty f^{n}(z)$ converges uniformly to an analytic function on compact subsets of ${\mathbb D}$, where $f^{n+1}(z) = f(f^{n}(z))$.
 
-### Spring 20202 HW 2 #  2 #work
+## Spring 2020 HW 2.2 #work
 Let $f$ be a power series centered at the origin.
 Prove that $f$ has a power series expansion about any point in its disc of convergence.
 
 
-### Spring 20202 HW 2 #  3 #work
+## Spring 2020 HW 2.3 #work
 Prove the following:
 
 a. $\sum_{n} nz^n$ does not converge at any point of $S^1$

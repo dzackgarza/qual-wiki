@@ -103,7 +103,7 @@ p(z) = z^3 + 2z + 4
 
 > Hint: What is the maximum value of the modulus of the first two terms if $\abs{z} \leq 1$?
 
-## Spring 20202 HW 2 #  2.6.13 #work
+## Spring 2020 HW 2 #  2.6.13 #work
 
 Suppose $f$ is analytic, defined on all of $\CC$, and for each $z_0 \in \CC$ there is at least one coefficient in the expansion $f(z) = \sum_{n=0}^\infty c_n(z-z_0)^n$ is zero.
 Prove that $f$ is a polynomial.
