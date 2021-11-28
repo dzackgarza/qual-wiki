@@ -194,6 +194,21 @@ For the upper half-disc to the negative horizontal half-strip:
 
 :::
 
+## Logs
+
+:::{.proposition title="Upper half-plane to horizontal strip"}
+\[
+F: \HH \to \RR \times i(0, i\pi) \\
+z &\mapsto \Log(z) \\
+e^w &\mapsfrom w
+.\]
+
+
+![](figures/2021-11-28_18-09-31.png)
+
+
+:::
+
 :::{.proposition title="Half-discs to half strips"}
 \[
 F: \DD \intersect \HH &\to \RR_{<0} \times i (0, i\pi) \\
@@ -206,6 +221,7 @@ e^w &\mapsfrom w
 
 :::
 
+
 :::{.proposition title="Half-disc to upper half-plane"}
 \[
 F: ? &\mapstofrom ? \\
@@ -214,9 +230,3 @@ z & \mapsto -{1\over 2}\qty{z + z\inv} \\
 
 :::
 
-:::{.proposition title="Upper half-plane to vertical half-strip"}
-\[
-? &\mapstofrom ? \\
-z &\mapsto \sin(z) \\
-.\]
-:::
