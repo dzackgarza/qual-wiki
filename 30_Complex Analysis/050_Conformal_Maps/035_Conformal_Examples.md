@@ -80,7 +80,8 @@ Find a conformal map
 :::{.solution}
 The picture:
 
-![](figures/2021-11-28_15-39-36.png)
+
+![](figures/2021-11-28_15-59-13.png)
 
 
 In steps:
@@ -101,6 +102,8 @@ In steps:
   Take $f_4(z) = {z\over z+1}$, the new domain is $\CC\sm [0, \infty)$.
 
 - $f_5$: fold it back. Branch cut log along $[0, \infty)$ to define $f_5(z) = z^{1\over 2}$, so the new domain is $\HH$.
+
+- $f_6$: apply the standard Cayley transform $f_6(z) = {i-z\over i+z}$
 :::
 
 
