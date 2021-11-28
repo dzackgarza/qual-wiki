@@ -156,24 +156,6 @@ Recall how to carry out polynomial long division:
 
 ## Exercises
 
-:::{.exercise title="?"}
-Find the radius of convergences for the power series expansion of $\sqrt{z}$ about $z_0 = 4 +3i$.
-Repeat with $z_1=-4+3i$.
-
-#completed
-
-:::
-
-:::{.solution}
-Choose the principal branch of $\log$, so take a branch cut at $\RR_{\leq 0}$, to define $z^{1\over 2} = e^{{1\over 2}\log(z)}$.
-The radius of convergence is the distance to the nearest singularity or branch cut, so note that $f(z) = z^{1\over 2}$ is singular at $z=0$, so we compute $\abs{z_0 - 0} = \abs{4+3i} = 5$.
-The distance to the branch is also 5, so $R=5$.
-
-For $z_1$, the distance to zero is $\abs{4+3i - 0} = 5$ but the distance to the branch is 4, so $R=4$.
-
-> Note the subtle distinction: the series converges to $f$ in a disc $\abs{z-z_0}<1$, but the series itself converges in larger discs.
-
-:::
 
 :::{.exercise title="?"}
 Show that a uniform limit of continuous functions is continuous, and a uniform limit of uniformly continuous functions is uniformly continuous.
@@ -232,4 +214,29 @@ This does not converge uniformly on $(0, \infty)$:
 x_n \da {1\over n} \implies \abs{f_n(x_n)} = \abs{\sin(1) \over 2} > \eps
 .\]
 :::
+
+
+:::{.exercise title="?"}
+Show that $\sum_{k\geq 0}z^k/k!$ converges locally uniformly to $e^z$.
+
+#completed
+
+:::
+
+
+:::{.solution}
+Apply the $M\dash$test on a compact set $K$ with $z\in K \implies \abs{z} \leq M$:
+\[
+\norm{e^z - \sum_{0\leq k \leq n} z^k/k!}_\infty 
+&= \norm{\sum_{k\geq n+1}z^k/k! }_{\infty} \\
+&\leq \sum_{k\geq n+1} \norm{z}_\infty^k /k! \\
+&\leq \sum_{k\geq 0} \norm{z}_\infty^k /k! \\
+&= e^{\norm{z}_\infty} \\
+&\leq e^{\abs{M}} \\
+&< \infty
+.\]
+
+
+:::
+
 
