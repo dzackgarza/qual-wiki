@@ -29,7 +29,6 @@ Singularities can be classified by Laurent expansions $f(z) = \sum_{k\in \ZZ} c_
 - Removable singularity: truncated at $k=0$, so $c_{\leq -1} = 0$.
 :::
 
-
 :::{.remark title="Classification by limiting behavior"}
 Isolated singularities can also be classified by their limiting behavior near the singularity:
 
@@ -38,7 +37,6 @@ Isolated singularities can also be classified by their limiting behavior near th
 - $\lim_{z\to z_0} f(z)$ does not exist: essential.
 
 :::
-
 
 :::{.definition title="Singularities at infinity"}
 For any $f$ holomorphic on an unbounded region, we say $z=\infty$ is a singularity (of any of the above types) of $f$ if $g(z) \da f(1/z)$ has a corresponding singularity at $z=0$.
@@ -191,37 +189,6 @@ f(z) = {a_{-n} \over (z-z_0)^n } + \cdots + {a_{-1} \over z-z_0} + G(z) \da P(z)
 The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists of terms with negative degree, and the *residue* of $f$ at $z_0$ is the coefficient $a_{-1}$.
 :::
 
-## Misc
-
-
-:::{.definition title="Meromorphic"}
-A function $f:\Omega\to\CC$ is *meromorphic* iff there exists a sequence $\theset{z_n}$ such that
-
-- $\theset{z_n}$ has no limit points in $\Omega$.
-- $f$ is holomorphic in $\Omega\setminus\theset{z_n}$.
-- $f$ has poles at the points $\theset{z_n}$.
-
-Equivalently, $f$ is holomorphic on $\Omega$ with a discrete set of points delete which are all poles of $f$.
-:::
-
-:::{.theorem title="Meromorphic implies rational"}
-Meromorphic functions on $\CC$ are rational functions.
-:::
-
-:::{.proof title="?"}
-Consider $f(z) - P(z)$, subtracting off the principal part at each pole $z_0$, to get a bounded entire function and apply Liouville.
-:::
-
-
-:::{.theorem title="Improved Taylor Remainder Theorem"}
-If $f$ is analytic on a region $\Omega$ containing $z_0$, then $f$ can be written as
-\[
-f(z)
-=\left(\sum_{k=0}^{n-1} \frac{f^{(k)}\left(z_{0}\right)}{k !}\left(z-z_{0}\right)^{k}\right)+ 
-R_{n}(z)\left(z-z_{0}\right)^{n}
-,\]
-where $R_n$ is analytic.
-:::
 
 ## Exercises
 
@@ -349,7 +316,4 @@ Find the orders of zeros of the following functions:
 - $z=0$ of order 3: if $z_0$ is order $n$ for $f$, then it's order $kn$ for $f^k$.
   So check that $e^z-1$ has a root $z=0$ and $\dd{}{z}e^z-1\mid_{z=0} = e^z\mid_{z=0}\neq 0$, making it order 1.
 :::
-
-
-
 
