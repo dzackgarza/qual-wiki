@@ -334,5 +334,24 @@ Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
 
 
 
+:::{.exercise title="?"}
+Find the orders of zeros of the following functions:
+
+- $(e^z-1)^3$
+
+#completed
+
+:::
+
+
+:::{.solution}
+\envlist
+
+- $z=0$ of order 3: if $z_0$ is order $n$ for $f$, then it's order $kn$ for $f^k$.
+  So check that $e^z-1$ has a root $z=0$ and $\dd{}{z}e^z-1\mid_{z=0} = e^z\mid_{z=0}\neq 0$, making it order 1.
+:::
+
+
+
 
 
