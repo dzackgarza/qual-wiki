@@ -18,13 +18,6 @@ A family $\mcf$ of holomorphic functions is **equicontinuous** on $K$ if
 .\]
 :::
 
-:::{.example title="Negating equicontinuity"}
-To negate equicontinuity, show that there exists $\eps>0$ and a bad tuple $(x, y, f\in \mcf)$ such that for any $\delta$, we can arrange $\abs{x-y} < \delta$ to be small but \abs{f(x) - f(y)} > \eps$ is large.
-This produces sequences $x_k, y_k, f_k$ with $\abs{x_k-y_k}\to 0$ but $\abs{f_k(x_k) - f_k(y_k)} > \eps$.
-:::
-
-
-
 :::{.example title="?"}
 If $f_k:[0,1]\to \RR$ is a family of differentiable functions with a uniform constant $M$ with $\abs{f_k'} \leq M$ for all $f\in \mcf$, then $\ts{f_k}$ is equicontinuous.
 To prove this, apply the MVT.
@@ -36,6 +29,15 @@ The family $f_k(x) = x^k$ is not equicontinuous, since fixing $x_0 \in (0, 1)$ w
 
 :::{.example title="?"}
 $f_k(x) = (\sin k x)$ is uniformly bounded but not equicontinuous on $(0, 1)$ since it has no convergent subsequence on any compact subset.
+:::
+
+:::{.example title="Negating equicontinuity"}
+To negate equicontinuity, show that there exists $\eps>0$ and a bad tuple $(x, y, f\in \mcf)$ such that for any $\delta$, we can arrange $\abs{x-y} < \delta$ to be small but \abs{f(x) - f(y)} > \eps$ is large.
+This produces sequences $x_k, y_k, f_k$ with $\abs{x_k-y_k}\to 0$ but $\abs{f_k(x_k) - f_k(y_k)} > \eps$.
+:::
+
+:::{.theorem title="Arzela-Ascoli"}
+A subset $\mcf \subset C[a, b]$ is a compact subset of continuous functions $\iff \mcf$ is bounded and equicontinuous.
 :::
 
 :::{.remark}
@@ -71,5 +73,4 @@ This takes care of the 1st and 3rd terms.
 For the 2nd term, cover $K$ by $\delta\dash$balls and by compactness obtain a finite cover $B_{\delta}(y_k)\covers K$.
 Then $x\in B_\delta(y)$ for $y=y_j$ for some $j$, and in this ball use pointwise convergence of $f_n\to f$. 
 :::
-
 
