@@ -1,5 +1,36 @@
 # Exercises
 
+## Rouché 
+
+:::{.exercise title="?"}
+Show that $h(z) =z^5 + 3z + 1$ has 5 zeros in $\abs z \leq 2$.
+
+#completed
+:::
+
+:::{.solution}
+Write $h(z) = f(z) + g(z)$ where $f(z) = z^5$ and $g(z) = 3z+1$.
+Then $\size Z(f) = 5$ and on $\abs{z} = 2$,
+\[
+\abs{f(z)} &= \abs{z}^5 = 32 \\
+\abs{g(z)} &= \abs{3z+1} \leq 3\abs{z} +1 = 7 < \abs{f(z)} \\
+,\]
+so $f$ and $f+g \da h$ have the same number of zeros: 5.
+:::
+
+:::{.exercise title="?"}
+Show that $h(z) = z + 3 + 2e^z$ has one root in $\ts{ \Re(z) \leq 0}$.
+:::
+
+:::{.solution}
+Use the following contour:
+
+
+![[2021-07-29_20-39-31.png]]
+
+Take $g(z) \da 2e^z < f(z) \da f(z) \da z+3$.
+:::
+
 :::{.exercise title="?"}
 Show that $P(z) \da z^4 + 6z + 3$ has 3 zeros in $\ts{1\leq \abs{z} \leq 2}$.
 
@@ -33,6 +64,8 @@ Show that $\alpha z e^z = 1$ where $\abs{\alpha} > e$ has exactly one solution i
 - Estimate at $\abs{z} =1$ we have $\abs{g} =\abs{e^{-z}} = e^{-\Re(z)} \leq e^1 < \abs{\alpha} = \abs{f(z)}$
 - $f$ has one zero at $z_0 = 0$, thus so does $f+g$.
 :::
+
+## Singularities and Zeros
 
 :::{.exercise title="?"}
 Show that $\sin(z)/z$ has no poles.
@@ -102,6 +135,8 @@ Expanding about $z_0=\infty$, we have $f(1/z) = \sum_{k\geq 0} c_k z^{-k} = c_0 
 If $z_0=\infty$ is a pole of order $m$, then $c_m\neq 0$ but $c_{>m} = 0$, which forces $f(z) = \sum_{0\leq k \leq m} c_k z^k$ to be a polynomial of degree $m$.
 :::
 
+## Orders of poles/zeros
+
 :::{.exercise title="?"}
 Determine the order of the pole of 
 
@@ -136,6 +171,23 @@ using that $z/\sin(z) \convergesto{z\to 0} 1$.
 :::
 
 :::{.exercise title="?"}
+Find the orders of zeros of the following functions:
+
+- $(e^z-1)^3$
+
+#completed
+:::
+
+:::{.solution}
+\envlist
+
+- $z=0$ of order 3: if $z_0$ is order $n$ for $f$, then it's order $kn$ for $f^k$.
+  So check that $e^z-1$ has a root $z=0$ and $\dd{}{z}e^z-1\mid_{z=0} = e^z\mid_{z=0}\neq 0$, making it order 1.
+:::
+
+## Misc
+
+:::{.exercise title="Essential singularities"}
 Fix $a\in \CC\union\ts{\infty}$ and let $f(z) \da e^{1\over z^2}$.
 Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
 
@@ -153,17 +205,3 @@ Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
   Again $f(z_k) = a$ for all $k$ but $z_k\to 0$.
 :::
 
-:::{.exercise title="?"}
-Find the orders of zeros of the following functions:
-
-- $(e^z-1)^3$
-
-#completed
-:::
-
-:::{.solution}
-\envlist
-
-- $z=0$ of order 3: if $z_0$ is order $n$ for $f$, then it's order $kn$ for $f^k$.
-  So check that $e^z-1$ has a root $z=0$ and $\dd{}{z}e^z-1\mid_{z=0} = e^z\mid_{z=0}\neq 0$, making it order 1.
-:::
