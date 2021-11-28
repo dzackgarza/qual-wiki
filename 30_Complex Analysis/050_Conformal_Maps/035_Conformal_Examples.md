@@ -78,8 +78,7 @@ Find a conformal map
 :::{.solution}
 The picture:
 
-
-![](figures/2021-11-28_15-59-13.png)
+![](figures/2021-11-28_16-51-43.png)
 
 
 In steps:
