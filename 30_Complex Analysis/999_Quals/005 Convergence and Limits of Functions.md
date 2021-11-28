@@ -1,6 +1,6 @@
 # Convergence of Functions
 
-## Fall 2021 #4 #work
+## Fall 2021.4 #work
 
 :::{.problem title="?"}
 Prove that the sequence $\left(1+\frac{z}{n}\right)^{n}$ converges uniformly to $e^{z}$ on compact subsets of $\mathbb{C}$. 
@@ -26,9 +26,15 @@ $f_n$ are uniformly bounded on $K$.
 $e^z$ is uniformly continuous on $K$.
 :::
 
+
+:::{.claim}
+If $g_n\to g$ uniformly and $F$ is uniformly continuous, then $F \circ g_n \to F\circ g$ uniformly.
+:::
+
+
 Why these claims imply the result:
 
-- If $f_n(z)\to z$ uniformly, both are uniformly bounded, and $e^z$ is uniformly continuous, then $e^{f(z)}\to e^z$ uniformly.
+If $f_n(z)\to z$ uniformly, both are uniformly bounded, and $e^z$ is uniformly continuous, then $e^{f(z)}\to e^z$ uniformly.
 
 
 :::
