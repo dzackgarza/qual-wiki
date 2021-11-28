@@ -9,8 +9,9 @@ series:
   - title: To Work
     data: [470,469,468,465,482,482,478]
 width: 80%
-beginAtZero: true
+beginAtZero: false
 ```
+
 
 | Date              | Completed | To Work |
 | ----------------- | --------- | ------- |
