@@ -11,14 +11,18 @@ A family $\mcf$ of holomorphic functions is **uniformly bounded on compact subse
 .\]
 :::
 
-
 :::{.definition title="Equicontinuity"}
 A family $\mcf$ of holomorphic functions is **equicontinuous** on $K$ if 
 \[
 \forall \eps>0,\, \exists \delta = \delta(\eps) \text{ such that } z,w\in K,\, \abs{z-w}< \delta \implies \abs{f(z) - f(w)} < \eps \quad \forall f\in \mcf
 .\]
-
 :::
+
+
+:::{.example title="Negating equicontinuity"}
+To negate equicontinuity, show that there exists $\eps>0$ and a bad tuple $(x, y, f\in \mcf)$ such that for any $\delta$, we can arrange $\abs{x-y} < \delta$ to be small but \abs{f(x) - f(y)} > \eps$ is large.
+:::
+
 
 
 :::{.example title="?"}
