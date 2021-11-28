@@ -237,6 +237,15 @@ This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (
 
 
 :::{.proposition title="Upper half-disc to upper half-plane"}
+\[
+F: \DD \intersect \HH &\to \HH \\
+z & \mapsto {1\over 2}\qty{ z + z\inv }
+.\]
+
+
+![](figures/2021-11-28_18-38-16.png)
+
+> This is sometimes referred to as a *Joukowski map*.o
 
 :::
 
