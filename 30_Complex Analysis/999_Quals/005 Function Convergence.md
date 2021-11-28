@@ -45,9 +45,16 @@ We'll first show that for $w$ in a neighborhood of zero avoiding 1, there exists
 This follows from estimating the series expansion about $w=0$:
 \[
 \abs{ 1 - {\log(1+w) \over w} }
-&= \abs{z\inv\sum_{k\geq 1} { (-z)^k \over k} } \\
-&= \abs{\sum_{k\geq 2} {(-z)^{k-1} \over k} }
-.\]
+&= \abs{w\inv\sum_{k\geq 1} { (-w)^k \over k} } \\
+&= \abs{\sum_{k\geq 2} {(-w)^{k-1} \over k} } \\
+&\leq {\sum_{k\geq 2} {\abs{w}^{k-1} \over k} } \\
+&= {\sum_{k\geq 1} {\abs{w}^{k} \over k+1} } \\
+&\leq {\sum_{k\geq 1} {\abs{w}^{k} \over 2} } \\
+&= {1\over 2}\qty{{1\over 1 - \abs 2} - 1 } \\
+&= {1\over 2}\abs{2} \qty{1\over 1 - \abs 2} \\
+&\leq C \abs{2}
+,\]
+using that ${1\over 1-x}$ is bounded in compact sets avoiding $x=1$.
 
 
 :::
