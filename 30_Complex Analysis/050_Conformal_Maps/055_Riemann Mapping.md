@@ -91,3 +91,27 @@ f(z) - f(z_0) - w = F(z) + G(z) && F(z) \da a(z-z_0)^k - w
 
 :::
 
+
+:::{.corollary title="Injective implies holomorphic inverse"}
+If $f:U\to V$ is holomorphic and injective, then $f$ is invertible on its image.
+:::
+
+
+:::{.proof title="?"}
+\envlist
+
+- Idea: show that the usual formula from Calculus will work by defining $(f\inv)'$ directly.
+- By the proposition, $f'(z) \neq 0$ for $z\neq z_0$ in $U$.
+- Write $g\da f\inv$ on $\im f$, and without loss of generality, replace $V$ by $\im f$.
+- For $w, w_0\in V$ with $0 < \abs{w-w_0}$ small, write $w = f(z)$ and $w_0 = f(z_0)$ for $z, z_o\in U$.
+- Check the formula for $g'(w_0)$:
+\[
+\frac{g(w)-g\left(w_{0}\right)}{w-w_{0}}=\frac{1}{\frac{w-w_{0}}{g(w)-g\left(w_{0}\right)}}=\frac{1}{\frac{f(z)-f\left(z_{0}\right)}{z-z_{0}}}
+\convergesto{z\to z_0} 
+{1\over f'(g(w_0))}
+.\]
+
+
+:::
+
+
