@@ -56,12 +56,10 @@ If $\mcf$ is a family of locally uniformly bounded holomorphic functions on $\Om
 Locally uniformly bounded families are normal.
 :::
 
-
 :::{.remark}
 This says that a sequence of holomorphic functions avoiding the exterior of a disc contains a locally uniformly convergent subsequence.
 In particular, the limit is holomorphic.
 :::
-
 
 :::{.proposition title="Equicontinuity + pointwise convergence implies uniform convergence"}
 If $\ts{f_n}$ is equicontinuous on $K$ a compact set and $f_n\to f$ pointwise, then $f_n\to f$ uniformly.
