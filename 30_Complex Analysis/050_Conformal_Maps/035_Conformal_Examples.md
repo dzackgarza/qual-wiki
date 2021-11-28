@@ -65,7 +65,6 @@ Instead compose:
 - $z\mapsto {z-i\over z+i}$ which maps $\HH\to \DD$.
 :::
 
-
 :::{.exercise title="?"}
 Find a conformal map
 \[
@@ -75,7 +74,6 @@ Find a conformal map
 #completed
 
 :::
-
 
 :::{.solution}
 The picture:
