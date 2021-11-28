@@ -187,3 +187,27 @@ using that $x\to \infty$ forces $z\to \infty$ and $\length(\gamma_x) = b$ is con
 
 
 :::
+
+## Limiting curve variant #work
+
+
+:::{.problem title="?"}
+Let $0\leq \alpha \leq 2\pi$ be a fixed angle.
+Suppose $f$ is continuous on the region $\Omega = \ts{\abs{z} \geq R, \Arg(z) \in [0, \alpha]}$ and $\lim_{z\to \infty} zf(z) = A$.
+Show that
+\[
+\lim_{z\to \infty} \int_{\gamma_R} f(z) \dz = iA\alpha
+,\]
+where $\gamma_R \da \ts{ \abs{z} = R, \Arg(z) \in [0, \alpha]}$ is an arc.
+:::
+
+
+:::{.solution}
+Key observation:
+\[
+iA\alpha = \int_\gamma {A\over z}\dz
+.\]
+
+:::
+
+
