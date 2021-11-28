@@ -196,14 +196,13 @@ For the upper half-disc to the negative horizontal half-strip:
 
 :::{.proposition title="Half-discs to half strips"}
 \[
-F: (-{\pi\over 2}, {\pi \over 2}) \cross \RR^{>0} &\to \DD \intersect \HH \\
-z &\mapsto e^{iz} \\
-{\log(w) \over i}? &\mapsfrom w
+F: \DD \intersect \HH &\to \RR_{<0} \times i (0, i\pi) \\
+z &\mapsto Log(z) \\
+e^w &\mapsfrom w
 .\]
 
-This uses that $e^{iz} = e^{-\Im(z)} e^{i \Re(z)}$.
 
-**Boundary behavior**:
+![](figures/2021-11-28_17-56-47.png)
 
 :::
 
