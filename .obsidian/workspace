@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -257,6 +257,7 @@
   "active": "ddd3b6e9ca8025c4",
   "lastOpenFiles": [
     "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
+    "30_Complex Analysis/figures/2021-10-29_01-39-43.png",
     "qual_progress.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
@@ -264,7 +265,6 @@
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
     "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
-    "30_Complex Analysis/010_Basics/115_Complex Log.md",
-    "20_Real Analysis/020_Integration/Techniques.md"
+    "30_Complex Analysis/010_Basics/115_Complex Log.md"
   ]
 }

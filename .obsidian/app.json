@@ -366,7 +366,8 @@
     "supremum",
     "Orthonormal",
     "orthonormal",
-    "Lipschitz"
+    "Lipschitz",
+    "Rouche"
   ],
   "communityPluginSortOrder": "download",
   "autoPairMarkdown": false,

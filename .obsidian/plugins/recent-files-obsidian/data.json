@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md"
     },
     {
+      "basename": "2021-10-29_01-39-43",
+      "path": "30_Complex Analysis/figures/2021-10-29_01-39-43.png"
+    },
+    {
       "basename": "qual_progress",
       "path": "qual_progress.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "105_Conformal Maps",
       "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
-    },
-    {
-      "basename": "100_Linear Fractional Transformations",
-      "path": "30_Complex Analysis/999_Quals/100_Linear Fractional Transformations.md"
     }
   ],
   "omittedPaths": [],
