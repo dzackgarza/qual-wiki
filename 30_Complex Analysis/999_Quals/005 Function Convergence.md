@@ -1,6 +1,6 @@
 # Function Convergence 
 
-## Fall 2021.4 #work
+## Fall 2021.4 #completed
 
 :::{.problem title="?"}
 Prove that the sequence $\left(1+\frac{z}{n}\right)^{n}$ converges uniformly to $e^{z}$ on compact subsets of $\mathbb{C}$. 
@@ -50,11 +50,23 @@ This follows from estimating the series expansion about $w=0$:
 &\leq {\sum_{k\geq 2} {\abs{w}^{k-1} \over k} } \\
 &= {\sum_{k\geq 1} {\abs{w}^{k} \over k+1} } \\
 &\leq {\sum_{k\geq 1} {\abs{w}^{k} \over 2} } \\
-&= {1\over 2}\qty{{1\over 1 - \abs 2} - 1 } \\
-&= {1\over 2}\abs{2} \qty{1\over 1 - \abs 2} \\
-&\leq C \abs{2}
+&= {1\over 2}\qty{{1\over 1 - \abs w} - 1 } \\
+&= {1\over 2}\abs{2} \qty{1\over 1 - \abs w} \\
+&\leq C \abs{w}
 ,\]
 using that ${1\over 1-x}$ is bounded in compact sets avoiding $x=1$.
+
+We can now apply the $M\dash$test:
+\[
+\abs{n\log\qty{ 1 + {z\over n} } - z } 
+&= \abs{z}\cdot \abs{
+{{ \log\qty{1 + {z\over n}} \over {z\over n}} - 1}
+} \\
+&\leq \abs{z} \cdot C\abs{z\over n} \\
+&\leq M\cdot C\qty{M\over n} \\
+&= {CM^2 \over n}\\
+&\convergesto{n\to\infty}0
+.\]
 
 
 :::
