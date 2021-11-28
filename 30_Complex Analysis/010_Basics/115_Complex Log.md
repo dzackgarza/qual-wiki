@@ -18,6 +18,8 @@ Thus
 .\]
 :::
 
+![[Pasted image 20211127210218.png]]
+
 :::{.fact}
 Common trick:
 \[
@@ -33,6 +35,7 @@ Then there exists a branch of $F(z) \da \Log(z)$ such that
 - $F$ is holomorphic on $\Omega$,
 - $e^{F(z)} = z$ for all $z\in \Omega$
 - $F(x) = \log(x)$ for $x\in \RR$ in a neighborhood of $1$.
+
 :::
 
 :::{.definition title="Principal branch and exponential"}
