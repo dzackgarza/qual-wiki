@@ -4,7 +4,9 @@
 \[
 (z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv
 .\]
-?????
+
+#work
+
 :::
 
 :::{.example title="?"}
@@ -38,6 +40,9 @@ i{1-w\over 1+w} &\mapsfrom w
 
 :::{.exercise title="Upper half-disc to upper half-plane"}
 Find a conformal map from the upper half-disc to the upper half-plane.
+
+#work
+
 :::
 
 :::{.solution}
@@ -46,6 +51,9 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 
 :::{.exercise title="Half disc to full disc"}
 Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0}$ to $\DD$.
+
+#work
+
 :::
 
 :::{.solution}
@@ -56,4 +64,3 @@ Instead compose:
 - $z\mapsto z^2$, which maps $Q_1\to \HH$
 - $z\mapsto {z-i\over z+i}$ which maps $\HH\to \DD$.
 :::
-
