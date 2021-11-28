@@ -11,10 +11,10 @@ Prove that the sequence $\left(1+\frac{z}{n}\right)^{n}$ converges uniformly to 
 
 :::{.solution}
 
-Let $K$ be compact, where $z\in K\implies \abs{z} \leq R$ for some constant $R$.
+Let $K$ be compact, where $z\in K\implies \abs{z} \leq R$ for some constant $R$. For the remainder of the problem, we only work in $K$.
 
 :::{.claim}
-$f_n(z) \da n\log(1 + {z\over n}) \to z$ locally uniformly.
+$f_n(z) \da n\log(1 + {z\over n}) \to z$ uniformly.
 :::
 
 :::{.claim}
