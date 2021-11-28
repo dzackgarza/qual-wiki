@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ddd3b6e9ca8025c4",
+        "id": "3b834384d9c84755",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +75,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -138,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +159,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -254,7 +246,7 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "ddd3b6e9ca8025c4",
+  "active": "3b834384d9c84755",
   "lastOpenFiles": [
     "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
     "30_Complex Analysis/figures/2021-10-29_01-39-43.png",
