@@ -43,3 +43,16 @@ If $\mcf$ is a family of locally uniformly bounded holomorphic functions on $\Om
 :::{.slogan}
 Locally uniformly bounded families are normal.
 :::
+
+
+:::{.proposition title="Equicontinuity + pointwise convergence implies uniform convergence"}
+If $\ts{f_n}$ is equicontinuous on $K$ a compact set and $f_n\to f$ pointwise, then $f_n\to f$ uniformly.
+:::
+
+
+:::{.proof title="?"}
+Fix $\eps$, it suffices to find an $n= n(\eps)$ to bound $\norm{f_n - f}_{\infty, K } < \eps$.
+
+:::
+
+
