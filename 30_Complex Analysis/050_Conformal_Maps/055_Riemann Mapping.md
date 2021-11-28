@@ -79,10 +79,13 @@ f(z) - f(z_0) - w = F(z) + G(z) && F(z) \da a(z-z_0)^k - w
 - Apply Rouché: $\size Z(F) = \size Z(F+G) = \size Z(f(z) - f(z_0) - w)$.
 
 - But $F(z) = a(z-z_0)^k - w$ has exactly $k$ zeros, and $k\geq 2$.
-  It only remains to check if they are distinct: $F'(z) = f'(z)$, and if $f'(z) = 0$ for any $z\neq z_0$, the $k\geq 2$ roots are distinct and we're done.
+  It only remains to check if they are distinct: 
+  $F'(z) = f'(z)$, and the claim is that we can choose a small enough neighborhood $N'$ of $z_0$ so that $f'(z)\neq 0$ for $z\neq z_0$, so $F$ and $f$ have distinct roots here.
 
-- Otherwise, if $f'(z)\neq 0$ for
+- Toward a contradiction, suppose no such $N'$ exists.
+  Form a sequence of shrinking neighborhoods $N_j$ about $z_0$.
 
+- For each $N_j$, find a $z_j$ and $w_j$ such that $f(z_j) - w_j = 0$, so $f(z_j) = w_j$ with multiplicity at least 2 and $f'(z_j) = 0$.
 
 
 
