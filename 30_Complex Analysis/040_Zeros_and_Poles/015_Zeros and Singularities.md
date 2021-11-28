@@ -14,7 +14,6 @@ There is a classification of isolated singularities:
 - Essential singularities, so $v_a(f) = -\infty$, e.g. $\sin(z\inv )$ at $z=0$.
 :::
 
-
 :::{.warnings title="Branch singularities"}
 Not all singularities are isolated, and thus don't fall into this classification.
 One may also have **branch singularities**, e.g. $\Log(z)$ at $z=0$.
@@ -28,6 +27,21 @@ Singularities can be classified by Laurent expansions $f(z) = \sum_{k\in \ZZ} c_
 - Essential singularity: infinitely many negative terms.
 - Pole of order $N$: truncated at $k = -N$, so $c_{N-\ell} = 0$ for all $\ell$.
 - Removable singularity: truncated at $k=0$, so $c_{\leq -1} = 0$.
+:::
+
+
+:::{.remark title="Classification by limiting behavior"}
+Isolated singularities can also be classified by their limiting behavior near the singularity:
+
+- $\lim_{z\to z_0} f(z) < \infty$: removable (equivalently: bounded in a neighborhood).
+- $\lim_{z\to z_0} f(z) = \infty$: pole.
+- $\lim_{z\to z_0} f(z)$ does not exist: essential.
+
+:::
+
+
+:::{.definition title="Singularities at infinity"}
+For any $f$ holomorphic on an unbounded region, we say $z=\infty$ is a singularity (of any of the above types) of $f$ if $g(z) \da f(1/z)$ has a corresponding singularity at $z=0$.
 :::
 
 ## Removable
@@ -179,11 +193,6 @@ The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists 
 
 ## Misc
 
-
-
-:::{.definition title="Singularities at infinity"}
-For any $f$ holomorphic on an unbounded region, we say $z=\infty$ is a singularity (of any of the above types) of $f$ if $g(z) \da f(1/z)$ has a corresponding singularity at $z=0$.
-:::
 
 :::{.definition title="Meromorphic"}
 A function $f:\Omega\to\CC$ is *meromorphic* iff there exists a sequence $\theset{z_n}$ such that
