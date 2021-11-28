@@ -42,9 +42,12 @@ If $f_n(z)\to z$ uniformly, both are uniformly bounded, and $e^z$ is uniformly c
 
 ## Tie's Extra Questions: Spring 2015 #work
 
+:::{.problem title="?"}
 Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region $\Omega$ that are uniformly bounded on compact subsets and $f \in H(\Omega)$ is such that the set
 $\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
 has a limit point in $\Omega$. Show that $f_n$ converges to $f$ uniformly on compact subsets of $\Omega$.
+
+:::
 
 ## Spring 2021, Spring 2015, Extras.6 #completed
 
@@ -58,6 +61,7 @@ Show that the following are equivalent:
 \int_{\abs z = r} \abs{f_n(z) - f(z)} \abs{dz} \convergesto{n\to\infty}0
 .\]
 :::
+
 :::{.solution}
 $\implies$: 
 
@@ -93,21 +97,23 @@ So given $\eps$, choose $n$ large enough to bound the integral as above.
 Then $\norm{f_n - f}_{\infty, K} \leq {\eps\over 2\pi M}$, so $f_n\to f$ uniformly on $K$.
 :::
 
+## Spring 2020 HW 2, Stein 2.6.10 #completed
 
-## Spring 2020 HW 2, Stein 2.6.10 #work
-
+:::{.problem title="?"}
 Can every continuous function on $\bar \DD$ be uniformly approximated by polynomials in the variable $z$?
 
 > Hint: compare to Weierstrass for the real interval.
 
+:::
 
 :::{.solution}
 No: polynomials are holomorphic and the uniform limit of holomorphic functions is holomorphic.
 However, $f(z) \da \bar{z}$ is continuous on $\bar\DD$ but not holomorphic.
 :::
 
+## Spring 2020 HW 2.5 #work
 
-## Spring 20202 HW 2 #  5 #work
+:::{.problem title="?"}
 Assume $f$ is continuous in the region $\theset{x+iy \suchthat x\geq x_0, ~ 0\leq y \leq b}$, and the following limit exists independent of $y$:
 \[
 \lim_{x\to +\infty}f(x+iy) = A
@@ -117,3 +123,5 @@ Show that if $\gamma_x \definedas \theset{z = x+it \suchthat 0 \leq t \leq b}$, 
 \[
 \lim_{x\to +\infty} \int_{\gamma_x} f(z) \,dz = iAb
 .\]
+:::
+
