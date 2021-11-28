@@ -36,6 +36,7 @@ Then there exists a branch of $F(z) \da \Log(z)$ such that
 - $e^{F(z)} = z$ for all $z\in \Omega$
 - $F(x) = \log(x)$ for $x\in \RR$ in a neighborhood of $1$.
 
+The principal branch of $\Log$ is defined so that $\Log(1) = 0$, and can be written as $\Log(z) = \int_\gamma {1\over \xi} \dxi$ where $\gamma$ is any piecewise smooth path connecting 1 to $z$.
 :::
 
 :::{.definition title="Principal branch and exponential"}
