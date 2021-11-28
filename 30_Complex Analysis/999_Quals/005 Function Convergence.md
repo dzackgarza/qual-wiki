@@ -162,3 +162,26 @@ Show that if $\gamma_x \definedas \theset{z = x+it \suchthat 0 \leq t \leq b}$, 
 .\]
 :::
 
+
+:::{.solution}
+The key insight:
+\[
+\int_\gamma A \dz 
+&= \int_0^b A \cdot i \dt && z=x+it,\, \dz = i\dt \\
+&=iA \int_0^b \dt \\
+&= iAb
+.\]
+
+So now estimate the difference:
+\[
+\abs{
+\int_{\gamma} f(z) \dz - iAB 
+}
+&= \abs{ \int_\gamma f(z) \dz - \int_\gamma A \dz} \\
+&= \abs{ \int_\gamma \qty{ f(z) - A } \dz} \\
+&\leq\int_\gamma \abs{ f(z) - A } \dz \\
+.\]
+
+
+:::
+
