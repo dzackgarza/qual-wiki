@@ -158,18 +158,22 @@ Recall how to carry out polynomial long division:
 
 :::{.exercise title="?"}
 Find the radius of convergences for the power series expansion of $\sqrt{z}$ about $z_0 = 4 +3i$.
-Repeat with $z=-4+3i$.
+Repeat with $z_1=-4+3i$.
 
 #completed
 
 :::
 
-
 :::{.solution}
 Choose the principal branch of $\log$, so take a branch cut at $\RR_{\leq 0}$, to define $z^{1\over 2} = e^{{1\over 2}\log(z)}$.
 The radius of convergence is the distance to the nearest singularity or branch cut, so note that $f(z) = z^{1\over 2}$ is singular at $z=0$, so we compute $\abs{z_0 - 0} = \abs{4+3i} = 5$.
-:::
+The distance to the branch is also 5, so $R=5$.
 
+For $z_1$, the distance to zero is $\abs{4+3i - 0} = 5$ but the distance to the branch is 4, so $R=4$.
+
+> Note the subtle distinction: the series converges to $f$ in a disc $\abs{z-z_0}<1$, but the series itself converges in larger discs.
+
+:::
 
 :::{.exercise title="?"}
 Show that a uniform limit of continuous functions is continuous, and a uniform limit of uniformly continuous functions is uniformly continuous.
@@ -207,7 +211,6 @@ For uniform continuity: take $\sup_{z, w}$ on both sides:
 where now the middle term is bounded by uniform continuity of $f_n$.
 
 :::
-
 
 :::{.exercise title="?"}
 Determine where the following real-valued function is or is not uniformly convergent:
