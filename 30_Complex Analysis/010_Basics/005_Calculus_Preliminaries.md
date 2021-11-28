@@ -240,3 +240,28 @@ Apply the $M\dash$test on a compact set $K$ with $z\in K \implies \abs{z} \leq M
 :::
 
 
+
+:::{.exercise title="?"}
+Show that if $f_n\to f$ uniformly then $\int_\gamma f_n\to \int_\gamma f$.
+
+#completed
+
+:::
+
+
+:::{.solution}
+\[
+\abs{
+\int_\gamma f_n(z) \dz - \int_\gamma f(z) \dz
+}
+&=
+\abs{\int_\gamma f_n(z) - f(z) \dz}  \\
+&\leq \int_\gamma \abs{f_n - f} \abs{\dz} \\
+&\leq \int_\gamma \norm{f_n - f}_{\infty, \gamma} \cdot \abs{\dz} \\
+&= \eps \cdot \length(\gamma) \\
+&\convergesto{n\to\infty} 0
+.\]
+
+:::
+
+
