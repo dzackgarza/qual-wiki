@@ -18,9 +18,9 @@ A family $\mcf$ of holomorphic functions is **equicontinuous** on $K$ if
 .\]
 :::
 
-
 :::{.example title="Negating equicontinuity"}
 To negate equicontinuity, show that there exists $\eps>0$ and a bad tuple $(x, y, f\in \mcf)$ such that for any $\delta$, we can arrange $\abs{x-y} < \delta$ to be small but \abs{f(x) - f(y)} > \eps$ is large.
+This produces sequences $x_k, y_k, f_k$ with $\abs{x_k-y_k}\to 0$ but $\abs{f_k(x_k) - f_k(y_k)} > \eps$.
 :::
 
 
