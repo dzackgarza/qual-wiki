@@ -50,18 +50,32 @@ Prove that if $f:U\to V$ is holomorphic and injective then $f'(z)\neq 0$ on $U$.
 :::{.proof title="?"}
 \envlist
 
+- Idea: Rouché to get multiple roots, and translate a bit to make sure they're distinct.
 - Toward a contradiction suppose $f'(z_0)=0$.
 - Taylor expand and rearrange:
 \[
-f(z) = f(z_0) + f'(z_0)(z-z_0) + f''(z_0)(z-z_0)^2 + \cdots \\
-\implies f(z) - f(z_0) = \sum_{j\geq 1} f^{(j)}(z_0)(z-z_0)^j = a(z-z_0)^k + (z-z_0)^{k+1}H(z)
+f(z) 
+&= f(z_0) + f'(z_0)(z-z_0) + f''(z_0)(z-z_0)^2 + \cdots \\
+\implies f(z) - f(z_0) 
+&= \sum_{j\geq 1} f^{(j)}(z_0)(z-z_0)^j = a(z-z_0)^k + (z-z_0)^{k+1}H(z)
 ,\]
-where $k$ is the first nonvanishing derivative and $a\da f^{(k)}(z_0)$.
-So we can write
+where $k\geq 2$ is the first nonvanishing derivative and $a\da f^{(k)}(z_0)$.
+
+- So we can write
 \[
-f(z) - f(z_0) = a(z-z_0)^k + G(z)
+f(z) - f(z_0) \da F_1(z) + G(z) && F_1(z) \da f^{(k)}(z_0)(z-z_0)^k
 ,\]
-where $G$ vanishes to order $k+1$ near $z_0$.
+where $G$ vanishes to order at least $k+1$ near $z_0$.
+
+- For $\abs{z-z_0}$ small, note that $\deg F_1 = k$ and $\deg G \geq k+1$, so there is some neighborhood about $z_0$ where $\abs{F_1(z)} > \abs{G(z)}$.
+
+- Subtract off a small $w$:
+\[
+f(z) - f(z_0) - w = F(z) + G(z) && F(z) \da a(z-z_0)^k - w
+.\]
+
+- 
+
 
 
 
