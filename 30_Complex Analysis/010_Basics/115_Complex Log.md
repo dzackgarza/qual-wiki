@@ -65,6 +65,17 @@ but this requires a branch cut to ensure continuity.
 
 :::
 
+
+:::{.warnings}
+\[
+\Log(zw) &\neq \Log(z) + \Log(w) \\
+\Log(e^z) &\neq z
+.\]
+
+For counterexamples, take $z=\zeta_4^3=\exp(3\pi i / 4$ and $w=\zeta_4^2 = \eexp(\pi i/2)$.
+
+:::
+
 :::{.remark}
 Note the problem: for $z\da x+i0 \in \RR^{\leq 0}$, just above the axis consider $z_+ \da x + i\eps$ and $z_- \da x-i\eps$.
 Then
