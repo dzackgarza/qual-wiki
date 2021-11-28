@@ -79,7 +79,7 @@ Some silly arithmetic tricks:
   - To just show it is a pole, show $\lim_{z\to z_o}f(z) = \infty$.
 - To show that a singularity is essential, show that $\lim_{z\to z_0} f(z)$ doesn't exist (e.g. if it's oscillatory).
   - It can be useful to take a specific sequence $\ts{z_k}\to z_0$.
-
+- To show that a zero $z_0$ is order $n$, show that $f^{(<n)}(z_0) = 0$ but $f^{(n)}(z_0) \neq 0$.
 - To prove $a\leq b$, try showing ${a\over b} \leq 1$.
 
 :::
