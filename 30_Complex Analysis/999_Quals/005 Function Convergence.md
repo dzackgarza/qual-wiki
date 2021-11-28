@@ -180,7 +180,10 @@ So now estimate the difference:
 &= \abs{ \int_\gamma f(z) \dz - \int_\gamma A \dz} \\
 &= \abs{ \int_\gamma \qty{ f(z) - A } \dz} \\
 &\leq\int_\gamma \abs{ f(z) - A } \dz \\
-.\]
+&= \abs{f(z) - A} \cdot \length(\gamma_x \\
+&\convergesto{x\to \infty}0
+,\]
+using that $x\to \infty$ forces $z\to \infty$ and $\length(\gamma_x) = b$ is constant.
 
 
 :::
