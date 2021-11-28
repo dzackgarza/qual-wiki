@@ -215,14 +215,12 @@ x_n \da {1\over n} \implies \abs{f_n(x_n)} = \abs{\sin(1) \over 2} > \eps
 .\]
 :::
 
-
 :::{.exercise title="?"}
 Show that $\sum_{k\geq 0}z^k/k!$ converges locally uniformly to $e^z$.
 
 #completed
 
 :::
-
 
 :::{.solution}
 Apply the $M\dash$test on a compact set $K$ with $z\in K \implies \abs{z} \leq M$:
@@ -239,15 +237,12 @@ Apply the $M\dash$test on a compact set $K$ with $z\in K \implies \abs{z} \leq M
 
 :::
 
-
-
 :::{.exercise title="?"}
 Show that if $f_n\to f$ uniformly then $\int_\gamma f_n\to \int_\gamma f$.
 
 #completed
 
 :::
-
 
 :::{.solution}
 \[
@@ -263,5 +258,6 @@ Show that if $f_n\to f$ uniformly then $\int_\gamma f_n\to \int_\gamma f$.
 .\]
 
 :::
+
 
 
