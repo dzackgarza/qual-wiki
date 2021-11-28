@@ -102,7 +102,6 @@ S_\alpha \da \ts{z\in \CC \st \Im(z) \in [\alpha, \alpha+2\pi] }
 .\]
 :::
 
-
 :::{.example title="of branch cuts"}
 Generally choose branch cuts that are slits between branch points to prevent monodromy around those points.
 One can find branch points for $\log(f(z))$ by noting that $\log$ should be a primitive of $\dd{}{z}\log(f(z))$.
