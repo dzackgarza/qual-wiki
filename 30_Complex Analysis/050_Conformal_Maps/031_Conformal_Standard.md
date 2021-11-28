@@ -194,7 +194,7 @@ For the upper half-disc to the negative horizontal half-strip:
 
 :::
 
-## Logs
+## Logs and Exponentials
 
 :::{.proposition title="Upper half-plane to horizontal strip"}
 \[
@@ -206,19 +206,30 @@ e^w &\mapsfrom w
 
 ![](figures/2021-11-28_18-09-31.png)
 
-
 :::
 
 :::{.proposition title="Half-discs to half strips"}
 \[
 F: \DD \intersect \HH &\to \RR_{<0} \times i (0, i\pi) \\
-z &\mapsto Log(z) \\
+z &\mapsto \Log(z) \\
 e^w &\mapsfrom w
 .\]
 
 
 ![](figures/2021-11-28_17-56-47.png)
 
+:::
+
+:::{.proposition title="Vertical half-strip to right half-disc"}
+\[
+F: \qty{{-\pi \over 2}, {\pi \over 2}} \cross i\RR &\to \ts{\abs{z} < 1,\, \Re(z) > 0} \\
+z &\mapsto e^{iz} \\
+-i\Log(w) &\mapsfrom w
+.\]
+
+![](figures/2021-11-28_18-22-45.png)
+
+This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (-\pi/2, \pi/2)$ and $y\in (0, \infty)$ so this fills out a half-disc as $x,y$ vary.
 :::
 
 
