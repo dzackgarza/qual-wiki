@@ -308,3 +308,19 @@ For $z=1$:
 
 :::
 
+:::{.problem title="?"}
+Show that ${1\over z} \sum_{k=1}^\infty {z^k \over k}$ converges on $S^1 \setminus\theset{1}$ using summation by parts. 
+
+#work
+
+
+:::
+
+:::{.problem title="?"}
+Show that any power series is continuous on its domain of convergence. 
+
+#work
+
+:::
+
+

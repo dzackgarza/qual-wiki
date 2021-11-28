@@ -1,10 +1,6 @@
-# Convergence
+# Series Convergence 
 
 ## Exercises
-
-- Show that ${1\over z} \sum_{k=1}^\infty {z^k \over k}$ converges on $S^1 \setminus\theset{1}$ using summation by parts. #work
-- Show that any power series is continuous on its domain of convergence. #work
-
 ## Tie,Fall 2015 and Spring 2020 HW2: Ratio Test #work 
 
 Let $a_n\neq 0$ and show that

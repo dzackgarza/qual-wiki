@@ -1,4 +1,4 @@
-# Convergence of Functions
+# Function Convergence 
 
 ## Fall 2021.4 #work
 
