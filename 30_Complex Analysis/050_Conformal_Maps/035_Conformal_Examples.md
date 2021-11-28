@@ -8,7 +8,6 @@ Tip: if just mapping the disc to itself, use the hypberolic translations
 .\]
 :::
 
-
 :::{.example title="Mapping the half-disc to the half-plane"}
 \[
 (z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv
@@ -47,16 +46,9 @@ i{1-w\over 1+w} &\mapsfrom w
 .\]
 :::
 
-:::{.exercise title="Upper half-disc to upper half-plane"}
-Find a conformal map from the upper half-disc to the upper half-plane.
 
-#work
+## Conformal Map Problems
 
-:::
-
-:::{.solution}
-![[2021-07-29_19-26-39.png]]
-:::
 
 :::{.exercise title="Half disc to full disc"}
 Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0}$ to $\DD$.
@@ -74,7 +66,18 @@ Instead compose:
 - $z\mapsto {z-i\over z+i}$ which maps $\HH\to \DD$.
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Upper half-disc to upper half-plane"}
+Find a conformal map from the upper half-disc to the upper half-plane.
+
+#work
+
+:::
+
+:::{.solution}
+![[2021-07-29_19-26-39.png]]
+:::
+
+:::{.exercise title="Disc minus a slit"}
 Find a conformal map
 \[
 \DD\sm [1/2, 1) \to \DD
@@ -111,4 +114,28 @@ In steps:
 
 - $f_6$: apply the standard Cayley transform $f_6(z) = {i-z\over i+z}$
 :::
+
+
+:::{.exercise title="?"}
+Find a conformal map:
+\[
+\DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+
+\envlist
+
+- Map the circles to lines: send $-1\to 0$ and $1\to \infty$ by a map that fixes $\RR$.
+  $f_1(z) \da {1+z\over 1-z}$ works, and the new domain is $[0, 1] \cross i\RR \da \ts{z \st 0\leq \Re(z) \leq 1 }$, a vertical strip of width 1.
+
+- Rotate the vertical strip onto $\HH$ by $f_2(z) \da e^{i\pi z}$.
+
+:::
+
 
