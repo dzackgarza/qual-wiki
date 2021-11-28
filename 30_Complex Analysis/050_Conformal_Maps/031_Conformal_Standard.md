@@ -222,7 +222,7 @@ e^w &\mapsfrom w
 
 :::{.proposition title="Vertical half-strip to right half-disc"}
 \[
-F: \qty{{-\pi \over 2}, {\pi \over 2}} \cross i\RR &\to \ts{\abs{z} < 1,\, \Re(z) > 0} \\
+F: \qty{-{\pi \over 2}, {\pi \over 2}} \cross i\RR &\to \ts{\abs{z} < 1,\, \Re(z) > 0} \\
 z &\mapsto e^{iz} \\
 -i\Log(w) &\mapsfrom w
 .\]
@@ -252,6 +252,23 @@ z & \mapsto {1\over 2}\qty{ z + z\inv }
 
 
 :::{.proposition title="Upper half-plane to centered vertical half-strip"}
+\[
+F: \HH &\to \qty{-{\pi \over 2}, {\pi \over 2}} \cross i\RR \\
+z &\mapsto \sin(z)
+.\]
+
+![](figures/2021-11-28_18-51-38.png)
+
+Note that this isn't new: set $w \da e^{iz}$, then
+\[
+\sin(z) = -{1\over 2}\qty{iw + {1\over iw}}
+,\]
+which is the composition
+\[
+\qty{z \mapsto e^iz } \circ \qty{z\mapsto iz} \circ \qty{z\mapsto {1\over 2}(z+z\inv)}
+.\]
+
+
 
 :::
 
