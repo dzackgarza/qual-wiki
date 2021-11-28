@@ -40,3 +40,33 @@ h'_w(w) &= {1\over 1 - \abs{w}^2}
 
 :::
 
+
+
+:::{.proposition title="?"}
+Prove that if $f:U\to V$ is holomorphic and injective then $f'(z)\neq 0$ on $U$.
+:::
+
+
+:::{.proof title="?"}
+\envlist
+
+- Toward a contradiction suppose $f'(z_0)=0$.
+- Taylor expand and rearrange:
+\[
+f(z) = f(z_0) + f'(z_0)(z-z_0) + f''(z_0)(z-z_0)^2 + \cdots \\
+\implies f(z) - f(z_0) = \sum_{j\geq 1} f^{(j)}(z_0)(z-z_0)^j = a(z-z_0)^k + (z-z_0)^{k+1}H(z)
+,\]
+where $k$ is the first nonvanishing derivative and $a\da f^{(k)}(z_0)$.
+So we can write
+\[
+f(z) - f(z_0) = a(z-z_0)^k + G(z)
+,\]
+where $G$ vanishes to order $k+1$ near $z_0$.
+
+
+
+:::
+
+
+
+
