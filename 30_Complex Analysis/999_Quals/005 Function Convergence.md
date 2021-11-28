@@ -207,6 +207,23 @@ Key observation:
 \[
 iA\alpha = \int_\gamma {A\over z}\dz
 .\]
+Why this is true:
+\[
+\int_\gamma {A\over z}\dz = \int_0^\alpha {1\over Re^{it}} iRe^{it}dt
+= \int_0^\alpha iA \dt = iA\alpha
+.\]
+
+Now estimate the difference:
+
+\[
+\abs{ \int_\gamma f(z) \dz - iA\alpha }
+&= \abs{ \int_\gamma f(z) \dz - \int_\gamma {A\over z} \dz}\\
+&= \abs{\int_\gamma f(z) - {A\over z} \dz} \\
+&= \abs{\int_\gamma{zf(z) - A \over z} \dz} \\
+&\leq \int_\gamma \abs{zf(z) - A \over z} \dz
+.\]
+
+
 
 :::
 
