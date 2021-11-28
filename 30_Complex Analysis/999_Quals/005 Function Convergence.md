@@ -221,6 +221,7 @@ Now estimate the difference:
 &= \abs{\int_\gamma f(z) - {A\over z} \dz} \\
 &= \abs{\int_\gamma{zf(z) - A \over z} \dz} \\
 &\leq \int_\gamma \abs{zf(z) - A \over z} \dz
+&= \int_\gamma { \abs{zf(z) - A} \over R} \dz
 .\]
 
 
