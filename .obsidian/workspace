@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "qual_progress.md",
+            "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
             "mode": "preview"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "qual_progress.md",
+                "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "qual_progress.md"
+                "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "qual_progress.md",
+                "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "qual_progress.md",
+                "file": "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,6 +256,7 @@
   },
   "active": "ddd3b6e9ca8025c4",
   "lastOpenFiles": [
+    "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
     "qual_progress.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
@@ -264,7 +265,6 @@
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
     "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
     "30_Complex Analysis/010_Basics/115_Complex Log.md",
-    "20_Real Analysis/020_Integration/Techniques.md",
-    "20_Real Analysis.md"
+    "20_Real Analysis/020_Integration/Techniques.md"
   ]
 }
