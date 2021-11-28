@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+            "file": "qual_progress.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "qual_progress.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+                "file": "qual_progress.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "qual_progress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "qual_progress.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,6 +256,7 @@
   },
   "active": "ddd3b6e9ca8025c4",
   "lastOpenFiles": [
+    "qual_progress.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
     "30_Complex Analysis/000_Resources/10_UGA_Problems.md",
@@ -264,7 +265,6 @@
     "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
     "30_Complex Analysis/010_Basics/115_Complex Log.md",
     "20_Real Analysis/020_Integration/Techniques.md",
-    "20_Real Analysis.md",
-    "qual_progress.md"
+    "20_Real Analysis.md"
   ]
 }

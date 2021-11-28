@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "qual_progress",
+      "path": "qual_progress.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "20_Real Analysis",
       "path": "20_Real Analysis.md"
-    },
-    {
-      "basename": "qual_progress",
-      "path": "qual_progress.md"
     },
     {
       "basename": "030_Conformal_Mapping",

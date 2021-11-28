@@ -148,7 +148,7 @@ No: polynomials are holomorphic and the uniform limit of holomorphic functions i
 However, $f(z) \da \bar{z}$ is continuous on $\bar\DD$ but not holomorphic.
 :::
 
-## Spring 2020 HW 2.5 #work
+## Spring 2020 HW 2.5 #completed
 
 :::{.problem title="?"}
 Assume $f$ is continuous in the region $\theset{x+iy \suchthat x\geq x_0, ~ 0\leq y \leq b}$, and the following limit exists independent of $y$:
@@ -187,4 +187,3 @@ using that $x\to \infty$ forces $z\to \infty$ and $\length(\gamma_x) = b$ is con
 
 
 :::
-
