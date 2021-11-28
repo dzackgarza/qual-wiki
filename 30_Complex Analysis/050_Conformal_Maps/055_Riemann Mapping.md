@@ -78,6 +78,11 @@ f(z) - f(z_0) - w = F(z) + G(z) && F(z) \da a(z-z_0)^k - w
 
 - Apply Rouché: $\size Z(F) = \size Z(F+G) = \size Z(f(z) - f(z_0) - w)$.
 
+- But $F(z) = a(z-z_0)^k - w$ has exactly $k$ zeros, and $k\geq 2$.
+  It only remains to check if they are distinct: $F'(z) = f'(z)$, and if $f'(z) = 0$ for any $z\neq z_0$, the $k\geq 2$ roots are distinct and we're done.
+
+- Otherwise, if $f'(z)\neq 0$ for
+
 
 
 
