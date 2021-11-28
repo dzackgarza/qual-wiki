@@ -10,6 +10,8 @@ Prove that the sequence $\left(1+\frac{z}{n}\right)^{n}$ converges uniformly to 
 :::
 
 :::{.solution}
+By the hint, it suffices to show that $f_n(z) \da n\log(1 + {z\over n}) \to z$ locally uniformly.
+If this is true, since $f_n(z)$ and $z$ are bounded on any compact set and $e^z$ is uniformly continuous, we can move limits through exponentiation to obtain $e^{f_n(z)}\to e^z$ uniformly.
 
 :::
 
