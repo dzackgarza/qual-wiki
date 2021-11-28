@@ -1,6 +1,5 @@
 # Conformal Maps / Linear Fractional Transformations
 
-
 :::{.fact}
 Checking if $f$ is conformal: $f'(z_0) \neq 0$.
 
@@ -120,7 +119,6 @@ z &\mapsto {i-z\over i+z} \\
 i{1-w\over 1+w} &\mapsfrom w
 .\]
 :::
-
 
 # By Type
 
