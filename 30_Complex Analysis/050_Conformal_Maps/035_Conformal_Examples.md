@@ -1,5 +1,14 @@
 # Conformal Map Examples and Exercises 
 
+
+:::{.remark}
+Tip: if just mapping the disc to itself, use the hypberolic translations
+\[
+\psi_a \da {z-a\over 1-\bar z a}
+.\]
+:::
+
+
 :::{.example title="Mapping the half-disc to the half-plane"}
 \[
 (z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv
