@@ -18,3 +18,11 @@ Apply the MVT to $f_k$ to get $f_k(x, t) = f_k(\xi, t)$ for some $\xi \in [0, h_
 :::
 
 #todo Examples
+
+
+:::{.exercise title="?"}
+
+![](figures/2021-11-27_20-59-05.png)
+
+:::
+

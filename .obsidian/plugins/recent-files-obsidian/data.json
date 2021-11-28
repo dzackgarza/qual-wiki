@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Techniques",
+      "path": "20_Real Analysis/020_Integration/Techniques.md"
+    },
+    {
+      "basename": "20_Real Analysis",
+      "path": "20_Real Analysis.md"
+    },
+    {
       "basename": "qual_progress",
       "path": "qual_progress.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "030_Computing Integrals",
       "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
-    },
-    {
-      "basename": "011_Complex Geometry",
-      "path": "30_Complex Analysis/999_Quals/011_Complex Geometry.md"
-    },
-    {
-      "basename": "010_Arithmetic and Inequalities",
-      "path": "30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities.md"
     }
   ],
   "omittedPaths": [],
