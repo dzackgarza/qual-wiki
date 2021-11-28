@@ -208,7 +208,7 @@ e^w &\mapsfrom w
 
 :::
 
-:::{.proposition title="Half-discs to half strips"}
+:::{.proposition title="Upper half-disc to horizontal upper-left-half-strip"}
 \[
 F: \DD \intersect \HH &\to \RR_{<0} \times i (0, i\pi) \\
 z &\mapsto \Log(z) \\
@@ -233,11 +233,11 @@ This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (
 :::
 
 
-:::{.proposition title="Half-disc to upper half-plane"}
-\[
-F: ? &\mapstofrom ? \\
-z & \mapsto -{1\over 2}\qty{z + z\inv} \\
-.\]
+## Misc
+
+
+:::{.proposition title="Upper half-disc to upper half-plane"}
 
 :::
+
 
