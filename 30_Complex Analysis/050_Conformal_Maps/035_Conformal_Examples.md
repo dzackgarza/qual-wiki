@@ -85,7 +85,7 @@ The picture:
 In steps:
 
 - $f_1$: send $1/2\to 0$ and $1\to 1$ in order to lengthen the slit.
-  Mobius transformations preserve lines, so take $f_1(z) = {z-1/2 \over z-1/2}$.
+  Mobius transformations preserve lines, so take $f_1(z) = {z-1/2 \over 1-1/2}$.
   New domain: $\DD\sm [0, 1)$.
 
 - $f_2$: send $\DD\to \HH$ and keep track of the slit.
@@ -103,6 +103,4 @@ In steps:
 
 - $f_6$: apply the standard Cayley transform $f_6(z) = {i-z\over i+z}$
 :::
-
-
 
