@@ -246,6 +246,12 @@ z & \mapsto {1\over 2}\qty{ z + z\inv }
 ![](figures/2021-11-28_18-38-16.png)
 
 > This is sometimes referred to as a *Joukowski map*.o
+> The inverse is a bit complicated.
+
+:::
+
+
+:::{.proposition title="Upper half-plane to centered vertical half-strip"}
 
 :::
 
