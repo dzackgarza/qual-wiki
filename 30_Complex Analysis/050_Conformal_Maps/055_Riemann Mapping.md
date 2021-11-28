@@ -11,7 +11,12 @@ Thus any two such sets $\Omega_{1}, \Omega_{2}$ are conformally equivalent.
 :::
 
 :::{.proof title="Sketch"}
-\envlist
+The basic idea:
+
+- Consider the set $\mcf$ of conformal $h: \Omega\to \DD$ with $h(z_0) = 0$ and $h'(z_0) > 0$ which are not necessarily surjective.
+- Show there is a maximal $f\in \mcf$, and show $f$ is surjective.
+
+More details:
 
 - Fix some $z_0\in \Omega$ and set $\mcf = \ts{f\in \Hol(\Omega, \DD) \st f(z_0) = 0, f \text{ injective }}$.
   A lemma will show $\mcf$ is nonempty.
