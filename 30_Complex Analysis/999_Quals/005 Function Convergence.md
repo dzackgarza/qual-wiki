@@ -188,8 +188,7 @@ using that $x\to \infty$ forces $z\to \infty$ and $\length(\gamma_x) = b$ is con
 
 :::
 
-## Limiting curve variant #work
-
+## Limiting curve variant #completed
 
 :::{.problem title="?"}
 Let $0\leq \alpha \leq 2\pi$ be a fixed angle.
@@ -200,7 +199,6 @@ Show that
 ,\]
 where $\gamma_R \da \ts{ \abs{z} = R, \Arg(z) \in [0, \alpha]}$ is an arc.
 :::
-
 
 :::{.solution}
 Key observation:
@@ -220,12 +218,16 @@ Now estimate the difference:
 &= \abs{ \int_\gamma f(z) \dz - \int_\gamma {A\over z} \dz}\\
 &= \abs{\int_\gamma f(z) - {A\over z} \dz} \\
 &= \abs{\int_\gamma{zf(z) - A \over z} \dz} \\
-&\leq \int_\gamma \abs{zf(z) - A \over z} \dz
-&= \int_\gamma { \abs{zf(z) - A} \over R} \dz
+&\leq \int_\gamma \abs{zf(z) - A \over z} \dz \\
+&= \int_\gamma { \abs{zf(z) - A} \over R} \dz \\
+&\leq {1\over R } \int_\gamma \norm{zf(z) - A}_{\infty, \gamma} \dz \\
+&= {\eps\over R}\cdot \length(\gamma) \\
+&= {\eps \over R} \cdot R\alpha \\
+&= \eps \alpha \\
+&\convergesto{R\to\infty}0
 .\]
 
 
 
 :::
-
 
