@@ -67,14 +67,16 @@ f(z) - f(z_0) \da F_1(z) + G(z) && F_1(z) \da f^{(k)}(z_0)(z-z_0)^k
 ,\]
 where $G$ vanishes to order at least $k+1$ near $z_0$.
 
-- For $\abs{z-z_0}$ small, note that $\deg F_1 = k$ and $\deg G \geq k+1$, so there is some neighborhood about $z_0$ where $\abs{F_1(z)} > \abs{G(z)}$.
+- For $\abs{z-z_0}$ small, note that $\deg F_1 = k$ and $\deg G \geq k+1$, so there is some neighborhood $N$ about $z_0$ where $\abs{F_1(z)} > \abs{G(z)}$.
 
 - Subtract off a small $w$:
 \[
 f(z) - f(z_0) - w = F(z) + G(z) && F(z) \da a(z-z_0)^k - w
 .\]
 
-- 
+  Since $\abs{F_1} > \abs{G}$, picking $w$ small enough preserves this inequality, so $\abs{F} > \abs{G}$ on $N$.
+
+- Apply Rouché: $\size Z(F) = \size Z(F+G) = \size Z(f(z) - f(z_0) - w)$.
 
 
 
