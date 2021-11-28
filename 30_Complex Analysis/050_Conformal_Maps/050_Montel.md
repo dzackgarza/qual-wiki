@@ -9,11 +9,17 @@ A family $\mcf$ of holomorphic functions is **uniformly bounded on compact subse
 \[
 \exists M>0 \text{ such that } \abs{f(z)} < M \qquad \forall z\in K,\,\forall f\in \mcf
 .\]
-It is **equicontinuous** on $K$ if 
+:::
+
+
+:::{.definition title="Equicontinuity"}
+A family $\mcf$ of holomorphic functions is **equicontinuous** on $K$ if 
 \[
 \forall \eps>0,\, \exists \delta = \delta(\eps) \text{ such that } z,w\in K,\, \abs{z-w}< \delta \implies \abs{f(z) - f(w)} < \eps \quad \forall f\in \mcf
 .\]
+
 :::
+
 
 :::{.example title="?"}
 If $f_k:[0,1]\to \RR$ is a family of differentiable functions with a uniform constant $M$ with $\abs{f_k'} \leq M$ for all $f\in \mcf$, then $\ts{f_k}$ is equicontinuous.
@@ -44,15 +50,22 @@ If $\mcf$ is a family of locally uniformly bounded holomorphic functions on $\Om
 Locally uniformly bounded families are normal.
 :::
 
-
 :::{.proposition title="Equicontinuity + pointwise convergence implies uniform convergence"}
 If $\ts{f_n}$ is equicontinuous on $K$ a compact set and $f_n\to f$ pointwise, then $f_n\to f$ uniformly.
 :::
 
-
 :::{.proof title="?"}
 Fix $\eps$, it suffices to find an $n= n(\eps)$ to bound $\norm{f_n - f}_{\infty, K } < \eps$.
+A standard $\eps/3$ argument works: write
+\[
+\abs{f_n(x) - f(x) } \leq \abs{f_n(x) - f_n(y)} + \abs{f_n(y) - f(y)} + \abs{f(y) - f_n(y)}
+.\]
 
+Use equicontinuity to bound $\abs{f_n(x) - f_n(y)}$ for all $n\geq N_0 = N_0(\eps)$, for all $x,y\in K$.
+This takes care of the 1st and 3rd terms.
+
+For the 2nd term, cover $K$ by $\delta\dash$balls and by compactness obtain a finite cover $B_{\delta}(y_k)\covers K$.
+Then $x\in B_\delta(y)$ for $y=y_j$ for some $j$, and in this ball use pointwise convergence of $f_n\to f$. 
 :::
 
 
