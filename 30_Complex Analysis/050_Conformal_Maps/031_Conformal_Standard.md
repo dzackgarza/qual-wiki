@@ -53,7 +53,7 @@ This is just a composition of the above map with the flip $z\mapsto -z$:
 :::
 
 
-:::{.proposition title="Right half-plane to Disc"}
+:::{.proposition title="Disc to right half-plane"}
 \[
 \DD &\mapsto \ts{\Re(z) > 0} \\
 z &\mapsto {1+z \over 1-z} \\
