@@ -33,6 +33,12 @@ Mnemonic: every $z\in \HH$ is closer to $i$ than $-i$.
 
 ![](figures/2021-11-28_20-09-26.png)
 
+This restricts to a map
+\[
+\Psi: Q_1 &\mapstofrom \DD \intersect \HH
+.\]
+
+
 Some write a similar map:
 \[
 \HH^\circ &\to \DD^\circ \\
@@ -56,9 +62,9 @@ z &\mapsto {1+z \over 1-z} \\
 
 ![](figures/2021-11-28_20-38-28.png)
 
-Note that this can be obtained from $\Psi$ above:
+Note that this can be obtained from $\Psi$ above by first mapping $\DD\to \HH$ and then rotating by $-\pi/2$ by multiplying by $-i$:
 \[
-F(z) \da (z\mapsto iz) \circ \Psi\inv(z) = (z\mapsto iz)\qty{i {z-1\over w+1} } = -{w-1\over w+1}
+F(z) = \Psi\inv(-iz) = i\qty{ 1-iz \over 1 + iz} = {i-z\over i + z}
 .\]
 
 Just map the *right* half-plane $\HH_R$ to the disc $\DD$ by precomposing with a rotation $e^{i\pi/2} = i$:
