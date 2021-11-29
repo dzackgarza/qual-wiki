@@ -1,11 +1,16 @@
 # Conformal Map Examples and Exercises 
 
 
-:::{.remark}
-Tip: if just mapping the disc to itself, use the hypberolic translations
+:::{.remark title="Tips and tricks"}
+- If just mapping the disc to itself, use the hypberolic translations
 \[
 \psi_a \da {z-a\over 1-\bar z a}
 .\]
+
+- For lunes: map the cusps to $0$ and $\infty$ to get a sector.
+
+- For discs with slits: aim for $\CC\sm[0, \infty) \mapsvia{\sqrt z} \HH$.
+
 :::
 
 :::{.example title="Mapping the half-disc to the half-plane"}
