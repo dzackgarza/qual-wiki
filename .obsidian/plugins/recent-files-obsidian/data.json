@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "qual_progress",
+      "path": "qual_progress.md"
+    },
+    {
       "basename": "30_Problems",
       "path": "20_Real Analysis/000_Resources/30_Problems.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "2021-10-29_01-39-43",
       "path": "30_Complex Analysis/figures/2021-10-29_01-39-43.png"
-    },
-    {
-      "basename": "qual_progress",
-      "path": "qual_progress.md"
     },
     {
       "basename": "000_Tips_Techs",
