@@ -11,6 +11,8 @@
 
 - For discs with slits: aim for $\CC\sm[0, \infty) \mapsvia{\sqrt z} \HH$.
 
+- For circles with tangencies: send the tangent point to $\infty$ to get parallel lines.
+
 :::
 
 :::{.example title="Mapping the half-disc to the half-plane"}
@@ -80,7 +82,9 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 :::
 
 :::{.solution}
-![[2021-07-29_19-26-39.png]]
+
+![](figures/2021-07-29_19-26-39.png)
+
 :::
 
 ### Slits
