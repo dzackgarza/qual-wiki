@@ -21,6 +21,8 @@ There are 8 major types of conformal maps:
 
 \todo[inline]{Pictures!}
 
+## $\HH$ and $\DD$
+
 :::{.proposition title="Half-plane to Disc"}
 \[
 F: \HH^\circ &\mapstofrom \DD^\circ \\
@@ -83,24 +85,24 @@ Just a rotated version of $\HH\to \DD$!
 
 :::
 
-:::{.proposition title="Sector to sector"}
-For $0 < \alpha < 2$:
-\[
-F_\alpha: S_{\pi \over \alpha }^\circ &\mapstofrom S_{\pi}^\circ = \HH^\circ \\
-\ts{z\st 0 < \Arg(z) < {\pi\over \alpha} } &\mapstofrom \ts{w\st 0 < \Arg(w) < \pi } \\
-z &\mapsto z^\alpha \\
-w^{1\over \alpha} &\mapsfrom w
-.\]
-Note that if you look at the image of $\HH$ under $z\mapsto z^{\alpha}$, you get
-\[
-\ts{z \st 0 < \Arg(z) < \pi } &\mapstofrom \ts{0 < \Arg(w) < \alpha \pi } 
-.\]
-For the inverse, choose a branch cut of $\log$ deleting the negative real axis, so $w\mapsto e^{1\over n \log w}$ here.
+## Sectors 
 
-**Boundary behavior:**
+:::{.proposition title="Upper-half-plane to sectors and back"}
+\[
+F: \ts{z\st \Arg(z) \in \qty{0, {\pi \over n}} } &\to \HH \\
+z &\mapsto z^n \\
+w^{1\over n} &\mapsfrom w
+.\]
 
-- As $x$ travels from $-\infty\to 0$, $F_\alpha(x)$ travels *away* from infinity along the ray $\theta = \alpha \pi$, so $L = \ts{ e^{t \alpha \pi } \st t\in (0, \infty) }$, from $\infty\to 0$.
-- As $x$ travels from $0\to \infty$, $F_\alpha(x)$ travels from $0\to \infty$ along $\RR$.
+More generally, for $0 < \alpha < 2$,
+\[
+F: \HH \to \ts{z\st \Arg(z) \in \qty{0, \alpha} } \\
+z &\mapsto z^{\alpha\over \pi} \\
+w^{\pi \over \alpha} &\mapsfrom w
+.\]
+
+
+![](figures/2021-11-28_19-05-03.png)
 
 :::
 
