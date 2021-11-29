@@ -203,7 +203,7 @@ For the upper half-disc to the negative horizontal half-strip:
 
 :::{.proposition title="Upper half-plane to horizontal strip"}
 \[
-F: \HH \to \RR \times i(0, i\pi) \\
+F: \HH &\to \RR \times i(0, i\pi) \\
 z &\mapsto \Log(z) \\
 e^w &\mapsfrom w
 .\]
