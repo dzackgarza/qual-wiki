@@ -126,10 +126,14 @@ z &\mapsto z^{\pi \over \alpha} \mapsto {z-i\over z+i}\evalfrom_{z= z^{\pi\over 
 
 :::{.proposition title="Upper half-disc to first quadrant"}
 \[
-\ts{ z \st \abs{z} < 1,\, \Im(z) > 0 } &\mapstofrom \ts{ w \st \Re(w)>0,\, \Im(w) > 0}  \\
+F: \HH \intersect \DD &\to \HH \intersect \ts{\Re(z) > 0 }
 z &\mapsto {1+z \over 1-z} \\
 {w-1\over w+1} &\mapsfrom w
 .\]
+
+
+![](figures/2021-11-28_19-36-20.png)
+
 
 - Why this lands in the first quadrant: 
   - Use that squares are non-negative and $z=x+iy\in \DD \implies x^2 + y^2 < 1$:
@@ -273,5 +277,4 @@ which is the composition
 
 
 :::
-
 
