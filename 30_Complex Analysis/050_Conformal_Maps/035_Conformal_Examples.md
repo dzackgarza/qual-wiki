@@ -88,6 +88,33 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 
 :::
 
+:::{.exercise title="?"}
+Find a conformal map:
+\[
+\DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
+.\]
+
+#completed
+
+:::
+
+:::{.solution}
+The picture:
+
+
+![](figures/2021-11-28_23-07-02.png)
+
+
+- Key insight: send the point of tangency to $\infty$ to get parallel lines.
+  Send $z\mapsto {1+z \over 1-z}$ to send $-1\to 0, 0\to 1, 1\to \infty$ to get a vertical strip.
+
+- Rotate and dilate: $z\mapsto i\pi z$ to get a strip $\RR \cross i(0, \pi)$.
+- Standard exponential $z\mapsto e^{iz}$ sends this to $\HH$.
+- Standard Cayley $z\mapsto {z-i \over z+i}$ sends this to $\DD$.
+
+:::
+
+
 ### Slits
 
 :::{.exercise title="Disc minus a slit"}
@@ -178,26 +205,4 @@ In steps:
 
 :::
 
-:::{.exercise title="?"}
-Find a conformal map:
-\[
-\DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
-.\]
-
-#completed
-
-:::
-
-:::{.solution}
-
-\envlist
-
-- Map the circles to lines: send $-1\to 0$ and $1\to \infty$ by a map that fixes $\RR$.
-  $f_1(z) \da {1+z\over 1-z}$ works, and the new domain is $[0, 1] \cross i\RR \da \ts{z \st 0\leq \Re(z) \leq 1 }$, a vertical strip of width 1.
-
-- Rotate and dilate the vertical strip onto $\HH$ by $f_2(z) \da e^{i\pi z}$.
-
-- 
-
-:::
 
