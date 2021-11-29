@@ -4,8 +4,6 @@ Tags: #pdfs #problems
 
 ## Reading
 
-### Problems
-
 #### UGA
     
 - Individual PDFs on UGA site:

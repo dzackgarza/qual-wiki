@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "30_Problems",
+      "path": "20_Real Analysis/000_Resources/30_Problems.md"
+    },
+    {
+      "basename": "9960 UGA Problems",
+      "path": "10_Algebra/500_Exercises/9960 UGA Problems.md"
+    },
+    {
+      "basename": "50_Solutions_Algebra",
+      "path": "10_Algebra/000_Resources/50_Solutions_Algebra.md"
+    },
+    {
+      "basename": "000_Resources",
+      "path": "10_Algebra/000_Resources/000_Resources.md"
+    },
+    {
+      "basename": "40_Problems",
+      "path": "10_Algebra/000_Resources/40_Problems.md"
+    },
+    {
+      "basename": "algebra_2003-2009_prelims",
+      "path": "attachments/algebra_2003-2009_prelims.pdf"
+    },
+    {
       "basename": "10_Problems",
       "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
@@ -125,10 +149,6 @@
       "path": "20_Real Analysis/005_Basics/35_Differentiability.md"
     },
     {
-      "basename": "30_Problems",
-      "path": "20_Real Analysis/000_Resources/30_Problems.md"
-    },
-    {
       "basename": "20_Solutions",
       "path": "20_Real Analysis/000_Resources/20_Solutions.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "300_Schwarz Reflection",
       "path": "30_Complex Analysis/999_Quals/300_Schwarz Reflection.md"
-    },
-    {
-      "basename": "200_Schwarz",
-      "path": "30_Complex Analysis/999_Quals/200_Schwarz.md"
-    },
-    {
-      "basename": "300_Riemann Mapping, Casorati",
-      "path": "30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati.md"
-    },
-    {
-      "basename": "060 Schwarz Reflection",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/060 Schwarz Reflection.md"
-    },
-    {
-      "basename": "105_Conformal Maps",
-      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
     }
   ],
   "omittedPaths": [],

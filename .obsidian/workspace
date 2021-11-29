@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+            "file": "20_Real Analysis/000_Resources/30_Problems.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+                "file": "20_Real Analysis/000_Resources/30_Problems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md"
+                "file": "20_Real Analysis/000_Resources/30_Problems.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+                "file": "20_Real Analysis/000_Resources/30_Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+                "file": "20_Real Analysis/000_Resources/30_Problems.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,15 +256,15 @@
   },
   "active": "03dfd88ae1e671d2",
   "lastOpenFiles": [
+    "20_Real Analysis/000_Resources/30_Problems.md",
+    "10_Algebra/500_Exercises/9960 UGA Problems.md",
+    "10_Algebra/000_Resources/50_Solutions_Algebra.md",
+    "10_Algebra/000_Resources/000_Resources.md",
+    "10_Algebra/000_Resources/40_Problems.md",
+    "attachments/algebra_2003-2009_prelims.pdf",
     "30_Complex Analysis/000_Resources/10_Problems.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
     "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
-    "30_Complex Analysis/figures/2021-10-29_01-39-43.png",
-    "qual_progress.md",
-    "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
-    "30_Complex Analysis/000_Resources/00_Topics.md",
-    "30_Complex Analysis/000_Resources/00_Books_Notes.md",
-    "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
-    "30_Complex Analysis/010_Basics/115_Complex Log.md"
+    "30_Complex Analysis/figures/2021-10-29_01-39-43.png"
   ]
 }
