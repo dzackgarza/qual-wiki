@@ -96,7 +96,7 @@ w^{1\over n} &\mapsfrom w
 
 More generally, for $0 < \alpha < 2$,
 \[
-F: \HH \to \ts{z\st \Arg(z) \in \qty{0, \alpha} } \\
+F: \HH &\to \ts{z\st \Arg(z) \in \qty{0, \alpha} } \\
 z &\mapsto z^{\alpha\over \pi} \\
 w^{\pi \over \alpha} &\mapsfrom w
 .\]
