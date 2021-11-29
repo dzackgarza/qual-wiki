@@ -177,7 +177,17 @@ Find a conformal map from the sector $\ts{\Arg(z) \in (0, \alpha)} \to \DD$.
 
 :::
 
-:::{.proposition title="Sector to Disc"}
+
+:::{.solution}
+The picture:
+
+![](figures/2021-11-28_22-13-13.png)
+
+In steps:
+
+- Map the sector to $\HH$ using $z\mapsto z^{\pi/\alpha}$, choosing a branch cut for $\Log$ along $\RR_{\leq 0}$.
+- Map $\HH\to \DD$ using the standard $z\mapsto {z-i\over z+i}$.
+
 :::
 
 
