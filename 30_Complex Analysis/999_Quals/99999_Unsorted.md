@@ -6,7 +6,7 @@
 :::{.problem title="?"}
 Let $R$ be the intersection of the right half-plane and the outside of the circle $\abs{z - {1\over 2}} = {1\over 2}$ with the line segment $[1, 2]$ removed, i.e. 
 \[
-R = \ts{z\in \CC\st \Re(z) > 0,\,\, \abs{z-{1\over 2} > {1\over 2} } \sm \ts{z \da x+iy \st 1\leq x\leq 2,\,\, y=0}
+R = \ts{z\in \CC\st \Re(z) > 0,\,\, \abs{z-{1\over 2}} > {1\over 2} } \sm \ts{z \da x+iy \st 1\leq x\leq 2,\,\, y=0}
 .\]
 Find a conformal map from $R$ to $\HH$ the upper half-plane.
 :::
@@ -245,5 +245,4 @@ Show that if $f$ is entire and $f(z) \convergesto{z\to\infty} \infty$ then $f$ i
 - So this is a pole and $g(z) = \sum_{-N\leq k \leq 0} c_k z^k$ for $N$ the order of the pole
 - Thus $f(z) = \sum_{0<k<N}c_k z^k$ is a polynomial.
 :::
-
 
