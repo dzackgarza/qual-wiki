@@ -25,8 +25,8 @@ There are 8 major types of conformal maps:
 :::{.proposition title="Half-plane to Disc"}
 \[
 \Psi: \HH&\mapstofrom \DD \\
-z &\mapsto {i-z \over i+z} \\
-i \qty{1-w \over 1+w} &\mapsfrom w
+z &\mapsto {z-i \over z+i} \\
+i \qty{1+w \over 1-w} &\mapsfrom w
 .\]
 
 Mnemonic: every $z\in \HH$ is closer to $i$ than $-i$.
@@ -58,7 +58,7 @@ z &\mapsto {1+z \over 1-z} \\
 
 Note that this can be obtained from $\Psi$ above:
 \[
-F(z) \da (z\mapsto iz) \circ \Psi\inv(z) = (z\mapsto iz)\qty{i {w-1\over w+1} } = -{w-1\over w+1}
+F(z) \da (z\mapsto iz) \circ \Psi\inv(z) = (z\mapsto iz)\qty{i {z-1\over w+1} } = -{w-1\over w+1}
 .\]
 
 Just map the *right* half-plane $\HH_R$ to the disc $\DD$ by precomposing with a rotation $e^{i\pi/2} = i$:
