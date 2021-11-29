@@ -33,6 +33,12 @@ z &\mapsto {1+z \over 1-z} \\
 {w-1\over w+1} &\mapsfrom w
 .\]
 
+This satisfies 
+\[
+\tv{-1, 0, 1} \mapsto \tv{0, 1, \infty}
+.\]
+
+
 ![](figures/2021-11-28_20-38-28.png)
 
 Note that $\Psi$ inverse from above can be recovered by post-composing with a rotation by $\pi/2$:
@@ -171,7 +177,6 @@ This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (
 
 ## Misc
 
-
 :::{.proposition title="Upper half-disc to upper half-plane"}
 \[
 F: \DD \intersect \HH &\to \HH \\
@@ -185,7 +190,6 @@ z & \mapsto {1\over 2}\qty{ z + z\inv }
 > The inverse is a bit complicated.
 
 :::
-
 
 :::{.proposition title="Upper half-plane to centered vertical half-strip"}
 \[
