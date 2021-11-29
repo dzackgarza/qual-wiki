@@ -176,30 +176,19 @@ e^w &\mapsfrom w
 ![](figures/2021-11-28_18-09-31.png)
 
 - Why this lands in a strip: use that $\arg(z) \in (0, \pi)$ and $\log(z) = \abs{z} + i\arg(z)$.
-- This extends to a function $\CC\sm\RR_{\leq 0} \to \RR \cross i(-\pi, \pi)$:
+:::
 
+
+:::{.proposition title="Slit plane to horizontal strip"}
+\[
+F: \CC\sm\RR_{\leq 0} &\to \RR \cross i(-\pi, \pi) \\
+z &\mapsto \Log(z)
+.\]
 
 ![](figures/2021-11-28_19-56-51.png)
 
 - Circles of radius $R$ are mapped to vertical line segments connecting $\ln(R) + i\pi$ to $\ln(R) - i\pi$, and rays are mapped to horizontal lines.
 
-
-:::
-
-:::{.remark}
-:::
-
-:::{.remark}
-One can find other specific images of the logarithm:
-\[
-\ts{ z \st \abs{z} < 1,\, \Im(z) > 0 } &\mapstofrom \RR^{<0} \cross (0, \pi ) \\
-\ts{ z \st \abs{z} > 1,\, \Im(z) > 0 } &\mapstofrom \RR^{>0} \cross (0, \pi ) \\
-.\]
-
-For the upper half-disc to the negative horizontal half-strip:
-  - As $x$ travels $0\to 1$ in $\RR$, $\log(x)$ travels from $-\infty\to 0$.
-  - As $x$ travels from $-1$ to $1$ along $S^1\intersect \HH$, $\log(x)$ travels from $0\to i\pi$ vertically.
-  - As $x$ travels from $-1\to 0$, $\log(x)$ travels from $0+i\pi\to i-\infty+i\pi$ along the top of the strip.
 
 :::
 
