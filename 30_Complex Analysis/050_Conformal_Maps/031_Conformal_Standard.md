@@ -160,7 +160,6 @@ f(z)=\frac{1+e^{i \theta}}{1-e^{i \theta}}=\frac{e^{-i \theta / 2}+e^{i \theta /
 ,\]
   so as $t$ ranges $0\to \pi$ we have $f(z)$ ranging from $0\to i\infty$ along the imaginary axis.
 
-- As $x$ ranges from $-1\to 1$ in $\RR$, $f(z)$ ranges from $0\to \infty$ with $f(0) = 1$.
 :::
 
 
@@ -177,12 +176,17 @@ e^w &\mapsfrom w
 ![](figures/2021-11-28_18-09-31.png)
 
 - Why this lands in a strip: use that $\arg(z) \in (0, \pi)$ and $\log(z) = \abs{z} + i\arg(z)$.
+- This extends to a function $\CC\sm\RR_{\leq 0} \to \RR \cross i(-\pi, \pi)$:
+
+
+![](figures/2021-11-28_19-56-51.png)
+
+- Circles of radius $R$ are mapped to vertical line segments connecting $\ln(R) + i\pi$ to $\ln(R) - i\pi$, and rays are mapped to horizontal lines.
+
 
 :::
 
 :::{.remark}
-This extends to a function $\CC\sm\RR^{\leq 0} \to \RR \cross (-\pi, \pi)$.
-Circles of radius $R$ are mapped to vertical line segments connecting $\ln(R) + i\pi$ to $\ln(R) - i\pi$, and rays are mapped to horizontal lines.
 :::
 
 :::{.remark}
