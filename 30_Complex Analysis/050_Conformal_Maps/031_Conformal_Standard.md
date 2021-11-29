@@ -164,7 +164,7 @@ e^w &\mapsfrom w
 
 :::{.proposition title="Vertical half-strip to right half-disc"}
 \[
-F: \qty{-{\pi \over 2}, {\pi \over 2}} \cross i\RR &\to \ts{\abs{z} < 1,\, \Re(z) > 0} \\
+F: \qty{-{\pi \over 2}, {\pi \over 2}} \cross i\RR &\to \DD \intersect \ts{\Re(z) > 0} \\
 z &\mapsto e^{iz} \\
 -i\Log(w) &\mapsfrom w
 .\]
