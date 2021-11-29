@@ -137,7 +137,6 @@ Find a conformal map:
 
 :::
 
-
 :::{.exercise title="?"}
 
 Find a conformal map $L\to \DD$ where
@@ -150,10 +149,11 @@ i.e. a lune with vertices $-1$ and $1$.
 
 :::
 
-
 :::{.solution}
 The key insight: for lunes, map the corners to $0$ and $\infty$; this yields a sector.
 Here we want $-1\mapsto 0$ and $1\mapsto \infty$, so $f(z) = {z+1\over z-1}$ gets things started.
+
+![](figures/2021-11-28_22-01-04.png)
 
 In steps:
 
@@ -163,6 +163,4 @@ In steps:
 - $z\mapsto {z-i\over z+i}$ the standard Cayley map $\HH\to\DD$.
 
 :::
-
-
 
