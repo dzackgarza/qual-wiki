@@ -107,6 +107,13 @@ The picture:
 
 :::
 
+
+:::{.exercise title="?"}
+Show that $z\mapsto z + z\inv$ maps $\HH \intersect \DD^c \to \HH$.
+
+:::
+
+
 ### Slits
 
 :::{.exercise title="Disc minus a slit"}

@@ -30,3 +30,5 @@
 
 - [ ]  [math185f09-hw7sol.pdf](attachments/math185f09-hw7sol.pdf) #solutions
 - [ ]  ![[complex_prelim.pdf]]
+- [ ]  [Berkeley final solutions](https://math.berkeley.edu/~nikhil/courses/185.f15/finalsol.pdf)
+- [ ]  [Antieau midterms solutions](https://math.northwestern.edu/~antieau/201202-132/midterm-sols.pdf)

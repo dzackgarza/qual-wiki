@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "b4952d620d2b196c",
+    "id": "fa7907bfb54ec000",
     "type": "split",
     "children": [
       {
-        "id": "3b834384d9c84755",
+        "id": "03dfd88ae1e671d2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -75,6 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -108,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md"
+              }
             }
           }
         ],
@@ -132,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -246,14 +254,14 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "3b834384d9c84755",
+  "active": "03dfd88ae1e671d2",
   "lastOpenFiles": [
+    "30_Complex Analysis/000_Resources/10_Problems.md",
+    "30_Complex Analysis/000_Resources/20_Solutions.md",
     "30_Complex Analysis/040_Zeros_and_Poles/Rouche.md",
     "30_Complex Analysis/figures/2021-10-29_01-39-43.png",
     "qual_progress.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
-    "30_Complex Analysis/000_Resources/20_Solutions.md",
-    "30_Complex Analysis/000_Resources/10_UGA_Problems.md",
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
     "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",

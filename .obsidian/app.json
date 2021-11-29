@@ -367,7 +367,8 @@
     "Orthonormal",
     "orthonormal",
     "Lipschitz",
-    "Rouche"
+    "Rouche",
+    "Antieau"
   ],
   "communityPluginSortOrder": "download",
   "autoPairMarkdown": false,
