@@ -30,26 +30,15 @@ i \qty{1+w \over 1-w} &\mapsfrom w
 .\]
 
 Mnemonic: every $z\in \HH$ is closer to $i$ than $-i$.
-
-![](figures/2021-11-28_20-09-26.png)
-
 This restricts to a map
 \[
 \Psi: Q_1 &\mapstofrom \DD \intersect \HH
 .\]
 
-
-Some write a similar map:
-\[
-\HH^\circ &\to \DD^\circ \\
-z &\mapsto {z-i \over z+i}
-.\]
-This is just a composition of the above map with the flip $z\mapsto -z$:
-\[
-- {i-z \over i + z} = {z-i \over i+z} = {z-i \over z+i}
-.\]
+![](figures/2021-11-28_20-09-26.png)
 
 ![](figures/2021-07-29_19-02-54.png)
+
 :::
 
 
