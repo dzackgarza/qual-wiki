@@ -41,10 +41,9 @@ This restricts to a map
 
 :::
 
-
 :::{.proposition title="Disc to right half-plane"}
 \[
-\DD &\mapsto \ts{\Re(z) > 0} \\
+\DD &\mapsto Q_{12} \da \ts{\Re(z) > 0} \\
 z &\mapsto {1+z \over 1-z} \\
 {w-1\over w+1} &\mapsfrom w
 .\]
@@ -75,44 +74,6 @@ Just a rotated version of $\HH\to \DD$!
 
 > Mnemonic: every $z\in \HH_R$ is closed to 1 than $-1$.
 
-:::
-
-## Sectors 
-
-:::{.proposition title="Upper-half-plane to sectors and back"}
-\[
-F: \ts{z\st \Arg(z) \in \qty{0, {\pi \over n}} } &\to \HH \\
-z &\mapsto z^n \\
-w^{1\over n} &\mapsfrom w
-.\]
-
-More generally, for $0 < \alpha < 2$,
-\[
-F: \HH &\to \ts{z\st \Arg(z) \in \qty{0, \alpha} } \\
-z &\mapsto z^{\alpha\over \pi} \\
-w^{\pi \over \alpha} &\mapsfrom w
-.\]
-
-
-![](figures/2021-11-28_19-05-03.png)
-
-:::
-
-:::{.proposition title="Sector to Disc"}
-The unmotivated formula first:
-\[
-F: \ts{z \st \Arg(z) \in (0, \pi) } &\to \DD\\
-z &\mapsto {z^{\pi\over \alpha} - i \over z^{\pi\over\alpha} + i}
-.\]
-
-Idea: compose some known functions.
-
-![](figures/image_2020-07-22-13-22-46.png)
-
-\[
-S_{\alpha} &\to S_{\pi} = \HH \to \DD \\
-z &\mapsto z^{\pi \over \alpha} \mapsto {z-i\over z+i}\evalfrom_{z= z^{\pi\over \alpha}}
-.\]
 :::
 
 :::{.proposition title="Upper half-disc to first quadrant"}
@@ -154,7 +115,43 @@ f(z)=\frac{1+e^{i \theta}}{1-e^{i \theta}}=\frac{e^{-i \theta / 2}+e^{i \theta /
 
 :::
 
+## Sectors 
 
+:::{.proposition title="Upper-half-plane to sectors and back"}
+\[
+F: \ts{z\st \Arg(z) \in \qty{0, {\pi \over n}} } &\to \HH \\
+z &\mapsto z^n \\
+w^{1\over n} &\mapsfrom w
+.\]
+
+More generally, for $0 < \alpha < 2$,
+\[
+F: \HH &\to \ts{z\st \Arg(z) \in \qty{0, \alpha} } \\
+z &\mapsto z^{\alpha\over \pi} \\
+w^{\pi \over \alpha} &\mapsfrom w
+.\]
+
+
+![](figures/2021-11-28_19-05-03.png)
+
+:::
+
+:::{.proposition title="Sector to Disc"}
+The unmotivated formula first:
+\[
+F: \ts{z \st \Arg(z) \in (0, \pi) } &\to \DD\\
+z &\mapsto {z^{\pi\over \alpha} - i \over z^{\pi\over\alpha} + i}
+.\]
+
+Idea: compose some known functions.
+
+![](figures/image_2020-07-22-13-22-46.png)
+
+\[
+S_{\alpha} &\to S_{\pi} = \HH \to \DD \\
+z &\mapsto z^{\pi \over \alpha} \mapsto {z-i\over z+i}\evalfrom_{z= z^{\pi\over \alpha}}
+.\]
+:::
 
 ## Logs and Exponentials
 
