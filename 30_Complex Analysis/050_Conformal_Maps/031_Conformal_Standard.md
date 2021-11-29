@@ -43,12 +43,17 @@ This restricts to a map
 
 :::{.proposition title="Disc to right half-plane"}
 \[
-\DD &\mapsto Q_{12} \da \ts{\Re(z) > 0} \\
+F: \DD &\mapsto Q_{12} \da \ts{\Re(z) > 0} \\
 z &\mapsto {1+z \over 1-z} \\
 {w-1\over w+1} &\mapsfrom w
 .\]
 
 ![](figures/2021-11-28_20-38-28.png)
+
+Note that $\Psi$ inverse from above can be recovered by post-composing with a rotation by $\pi/2$:
+\[
+\Psi\inv(z) = i\qty{1+z\over1-z} = i \cdot F(z)
+.\]
 
 Note that this can be obtained from $\Psi$ above by first mapping $\DD\to \HH$ and then rotating by $-\pi/2$ by multiplying by $-i$:
 \[
