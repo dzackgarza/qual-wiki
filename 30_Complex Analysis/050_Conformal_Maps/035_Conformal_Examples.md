@@ -169,3 +169,15 @@ In steps:
 
 :::
 
+
+:::{.exercise title="?"}
+Find a conformal map from the sector $\ts{\Arg(z) \in (0, \alpha)} \to \DD$.
+
+#completed
+
+:::
+
+:::{.proposition title="Sector to Disc"}
+:::
+
+

@@ -104,22 +104,6 @@ w^{\pi \over \alpha} &\mapsfrom w
 
 :::
 
-:::{.proposition title="Sector to Disc"}
-The unmotivated formula first:
-\[
-F: \ts{z \st \Arg(z) \in (0, \pi) } &\to \DD\\
-z &\mapsto {z^{\pi\over \alpha} - i \over z^{\pi\over\alpha} + i}
-.\]
-
-Idea: compose some known functions.
-
-![](figures/image_2020-07-22-13-22-46.png)
-
-\[
-S_{\alpha} &\to S_{\pi} = \HH \to \DD \\
-z &\mapsto z^{\pi \over \alpha} \mapsto {z-i\over z+i}\evalfrom_{z= z^{\pi\over \alpha}}
-.\]
-:::
 
 ## Logs and Exponentials
 
@@ -135,7 +119,6 @@ e^w &\mapsfrom w
 - Why this lands in a strip: use that $\arg(z) \in (0, \pi)$ and $\log(z) = \abs{z} + i\arg(z)$.
 :::
 
-
 :::{.proposition title="Slit plane to horizontal strip"}
 \[
 F: \CC\sm\RR_{\leq 0} &\to \RR \cross i(-\pi, \pi) \\
@@ -148,7 +131,6 @@ z &\mapsto \Log(z)
 
 
 :::
-
 
 :::{.proposition title="Upper half-disc to horizontal upper-left-half-strip"}
 \[
