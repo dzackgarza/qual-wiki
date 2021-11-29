@@ -54,6 +54,8 @@ i{1-w\over 1+w} &\mapsfrom w
 
 ## Conformal Map Problems
 
+### Discs and Planes
+
 :::{.exercise title="Half disc to full disc"}
 Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0}$ to $\DD$.
 
@@ -80,6 +82,8 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 :::{.solution}
 ![[2021-07-29_19-26-39.png]]
 :::
+
+### Slits
 
 :::{.exercise title="Disc minus a slit"}
 Find a conformal map
@@ -119,28 +123,7 @@ In steps:
 - $f_6$: apply the standard Cayley transform $f_6(z) = {i-z\over i+z}$
 :::
 
-:::{.exercise title="?"}
-Find a conformal map:
-\[
-\DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
-.\]
-
-#completed
-
-:::
-
-:::{.solution}
-
-\envlist
-
-- Map the circles to lines: send $-1\to 0$ and $1\to \infty$ by a map that fixes $\RR$.
-  $f_1(z) \da {1+z\over 1-z}$ works, and the new domain is $[0, 1] \cross i\RR \da \ts{z \st 0\leq \Re(z) \leq 1 }$, a vertical strip of width 1.
-
-- Rotate and dilate the vertical strip onto $\HH$ by $f_2(z) \da e^{i\pi z}$.
-
-- 
-
-:::
+### Lunes
 
 :::{.exercise title="?"}
 
@@ -169,6 +152,7 @@ In steps:
 
 :::
 
+### Sectors
 
 :::{.exercise title="?"}
 Find a conformal map from the sector $\ts{\Arg(z) \in (0, \alpha)} \to \DD$.
@@ -176,7 +160,6 @@ Find a conformal map from the sector $\ts{\Arg(z) \in (0, \alpha)} \to \DD$.
 #completed
 
 :::
-
 
 :::{.solution}
 The picture:
@@ -190,4 +173,26 @@ In steps:
 
 :::
 
+:::{.exercise title="?"}
+Find a conformal map:
+\[
+\DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
+.\]
+
+#completed
+
+:::
+
+:::{.solution}
+
+\envlist
+
+- Map the circles to lines: send $-1\to 0$ and $1\to \infty$ by a map that fixes $\RR$.
+  $f_1(z) \da {1+z\over 1-z}$ works, and the new domain is $[0, 1] \cross i\RR \da \ts{z \st 0\leq \Re(z) \leq 1 }$, a vertical strip of width 1.
+
+- Rotate and dilate the vertical strip onto $\HH$ by $f_2(z) \da e^{i\pi z}$.
+
+- 
+
+:::
 
