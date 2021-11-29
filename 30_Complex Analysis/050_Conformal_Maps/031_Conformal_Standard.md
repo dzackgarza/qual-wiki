@@ -19,7 +19,6 @@ There are 8 major types of conformal maps:
 
 :::
 
-\todo[inline]{Pictures!}
 
 ## $\HH$ and $\DD$
 
@@ -30,19 +29,10 @@ z &\mapsto {i-z \over i+z} \\
 i \qty{1-w \over 1+w} &\mapsfrom w
 .\]
 
-**Boundary behavior:**
+Mnemonic: every $z\in \HH$ is closer to $i$ than $-i$.
 
-- This maps $\RR\to \bd \DD$, where $F(\infty) = -1$, and as $x\in \RR$ ranges from $-\infty\to\infty$, $F(x)$ travels from $z=-1$ counter-clockwise through $S^1$ (starting at $z=-1$ and moving through the lower half first).
+![](figures/2021-11-28_20-09-26.png)
 
-![[2021-07-29_19-02-54.png]]
-
-So this extends to a map $\HH\to \DD$.
-
-> Mnemonic: every $z\in \HH$ is closer to $i$ than $-i$.
-
-:::
-
-:::{.remark}
 Some write a similar map:
 \[
 \HH^\circ &\to \DD^\circ \\
@@ -53,13 +43,13 @@ This is just a composition of the above map with the flip $z\mapsto -z$:
 - {i-z \over i + z} = {z-i \over i+z} = {z-i \over z+i}
 .\]
 
-
+![](figures/2021-07-29_19-02-54.png)
 :::
+
 
 :::{.proposition title="Right half-plane to Disc"}
 \[
-\HH_{R} &\mapstofrom \DD \\
-\ts{ z \st \Re(z) > 0 } &\mapstofrom \ts{ w \st \abs{w} < 1 } \\
+\HH \intersect \ts{\Re(z) > 0} &\to \DD \\
 z &\mapsto {1-z \over 1+z} \\
 {1-w\over 1+w} &\mapsfrom w
 .\]
