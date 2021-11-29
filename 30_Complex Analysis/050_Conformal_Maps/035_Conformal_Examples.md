@@ -49,7 +49,6 @@ i{1-w\over 1+w} &\mapsfrom w
 
 ## Conformal Map Problems
 
-
 :::{.exercise title="Half disc to full disc"}
 Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0}$ to $\DD$.
 
@@ -115,7 +114,6 @@ In steps:
 - $f_6$: apply the standard Cayley transform $f_6(z) = {i-z\over i+z}$
 :::
 
-
 :::{.exercise title="?"}
 Find a conformal map:
 \[
@@ -125,7 +123,6 @@ Find a conformal map:
 #completed
 
 :::
-
 
 :::{.solution}
 
@@ -139,5 +136,25 @@ Find a conformal map:
 - 
 
 :::
+
+
+:::{.exercise title="?"}
+
+Find a conformal map $L\to \DD$ where
+\[
+L\da \ts{\abs{z - i } < \sqrt 2} \intersect \ts{\abs{z+i} \intersect \sqrt 2}
+,\]
+i.e. a lune with vertices $-1$ and $1$.
+
+#completed
+
+:::
+
+
+:::{.solution}
+The key insight: for lunes, map the corners to $0$ and $\infty$; this yields a sector.
+Here we want $-1\mapsto 0$ and $1\mapsto \infty$, so $f(z) = {z+1\over z-1}$ gets things started.
+:::
+
 
 
