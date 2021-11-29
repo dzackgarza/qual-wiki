@@ -49,12 +49,15 @@ This is just a composition of the above map with the flip $z\mapsto -z$:
 
 :::{.proposition title="Right half-plane to Disc"}
 \[
-\HH \intersect \ts{\Re(z) > 0} &\to \DD \\
-z &\mapsto {1-z \over 1+z} \\
-{1-w\over 1+w} &\mapsfrom w
+\DD &\mapsto \ts{\Re(z) > 0} \\
+z &\mapsto {1+z \over 1-z} \\
+{w-1\over w+1} &\mapsfrom w
 .\]
 
+![](figures/2021-11-28_20-38-28.png)
+
 Just map the *right* half-plane $\HH_R$ to the disc $\DD$ by precomposing with a rotation $e^{i\pi/2} = i$:
+
 \[
 \HH_{R} \to \HH &\to \DD \\
 z \mapsto iz &\mapsto {i- (iz) \over i + (iz)} = {i(1-z) \over i(1+z) } = {1-z \over 1+z}
