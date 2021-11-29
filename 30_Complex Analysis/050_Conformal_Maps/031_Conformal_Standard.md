@@ -1,24 +1,9 @@
 # Standard Conformal Maps
 
-
-:::{.theorem title="Classification of Conformal Maps"}
-There are 8 major types of conformal maps:
-
-| Type/Domains                                            | Formula                                   |
-| ------------                                            | -------                                   |
-| Translation                                             | $z\mapsto z + h$            |
-| Dilation                                                | $z\mapsto cz$            |
-| Rotation                                                | $z\mapsto e^{i\theta}$            |
-| Sectors to sectors                                      | $z\mapsto z^n$                            |
-| $\DD_{1\over 2} \to \HH_{1\over 2}$, the first quadrant | $z\mapsto {1+z \over 1-z}$                |
-| $\HH\to S$                                              | $z\mapsto \log(z)$                        |
-| $\DD_{1\over 2} \to L_{1\over 2}$                       | $z\mapsto \log(z)$                        |
-| $S_{1\over 2} \to \DD_{1\over 2}$                       | $z\mapsto e^{iz}$                         |
-| $\DD_{1\over 2} \to \HH$                                | $z\mapsto {1\over 2}\qty{z + {1\over z}}$ |
-| $L_{1\over 2} \to \HH$                                  | $z\mapsto \sin(z)$                        |
+:::{.remark}
+Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
 
 :::
-
 
 ## $\HH$ and $\DD$
 
@@ -52,42 +37,14 @@ z &\mapsto {1+z \over 1-z} \\
 
 Note that $\Psi$ inverse from above can be recovered by post-composing with a rotation by $\pi/2$:
 \[
-\Psi\inv(z) = i\qty{1+z\over1-z} = i \cdot F(z)
-.\]
-
-Note that this can be obtained from $\Psi$ above by first mapping $\DD\to \HH$ and then rotating by $-\pi/2$ by multiplying by $-i$:
+\Psi\inv(z) = i\qty{1+z\over1-z} = i \cdot F(z) && \DD \mapsvia{F} Q_{12} \mapsvia{\cdot i} \HH
+,\]
+and up to a negative sign, we can recover $\Psi$ by recomposition with a rotation by $-\pi/2$:
 \[
-F(z) = \Psi\inv(-iz) = i\qty{ 1-iz \over 1 + iz} = {i-z\over i + z}
+F(-iz) = {1+ iz \over 1-iz} = {-i + z \over -i-z} = -{z-i\over z+i} = -\Psi(z) && \HH \mapsvia{\cdot -i} Q_{12} \mapsvia{F} \DD
 .\]
 
-Just map the *right* half-plane $\HH_R$ to the disc $\DD$ by precomposing with a rotation $e^{i\pi/2} = i$:
-
-\[
-\HH_{R} \to \HH &\to \DD \\
-z \mapsto iz &\mapsto {i- (iz) \over i + (iz)} = {i(1-z) \over i(1+z) } = {1-z \over 1+z}
-.\]
-
-This can easily be inverted:
-\[
-&\quad w = {1+z \over 1+z} \\
-&\implies -(1-w) + z(w+1) = 0 \\
-&\implies z = {1-w \over 1+w}
-.\]
-
-**Boundary behavior**:
-Just a rotated version of $\HH\to \DD$!
-
-> Mnemonic: every $z\in \HH_R$ is closed to 1 than $-1$.
-
-:::
-
-:::{.proposition title="Upper half-disc to first quadrant"}
-\[
-F: \HH \intersect \DD &\to \HH \intersect \ts{\Re(z) > 0 } \\
-z &\mapsto {1+z \over 1-z} \\
-{w-1\over w+1} &\mapsfrom w
-.\]
-
+This restricts to a map $F: \DD \intersect \HH\to Q_1$:
 
 ![](figures/2021-11-28_19-36-20.png)
 
