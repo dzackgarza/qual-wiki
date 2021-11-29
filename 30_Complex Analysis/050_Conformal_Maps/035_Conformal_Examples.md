@@ -42,16 +42,9 @@ Set $T(z) = S(w)$ and solve for $w$ to get
 \[
 \frac{-3 z+3 i}{(7-4 i) z+(-8+5 i)}
 .\]
-:::
 
-:::{.example title="Cayley transform (important!!)"}
-The fractional linear transformation given by $F(z) = {i - z \over i + z}$ maps $\DD\to \HH$ with inverse $G(w) = i {1-w \over 1 + w}$.
-The following transformation is very important:
-\[
-F: \DD &\to \HH \\
-z &\mapsto {i-z\over i+z} \\
-i{1-w\over 1+w} &\mapsfrom w
-.\]
+#work
+
 :::
 
 
@@ -113,7 +106,6 @@ The picture:
 - Standard Cayley $z\mapsto {z-i \over z+i}$ sends this to $\DD$.
 
 :::
-
 
 ### Slits
 
@@ -204,5 +196,4 @@ In steps:
 - Map $\HH\to \DD$ using the standard $z\mapsto {z-i\over z+i}$.
 
 :::
-
 

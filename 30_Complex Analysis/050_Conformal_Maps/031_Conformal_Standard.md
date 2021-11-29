@@ -7,7 +7,7 @@ Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
 
 ## $\HH$ and $\DD$
 
-:::{.proposition title="Half-plane to Disc"}
+:::{.proposition title="Half-plane to Disc (Cayley Transform, very important)"}
 \[
 \Psi: \HH&\mapstofrom \DD \\
 z &\mapsto {z-i \over z+i} \\
@@ -104,7 +104,6 @@ w^{\pi \over \alpha} &\mapsfrom w
 
 :::
 
-
 ## Logs and Exponentials
 
 :::{.proposition title="Upper half-plane to horizontal strip"}
@@ -155,7 +154,6 @@ z &\mapsto e^{iz} \\
 
 This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (-\pi/2, \pi/2)$ and $y\in (0, \infty)$ so this fills out a half-disc as $x,y$ vary.
 :::
-
 
 ## Misc
 
