@@ -25,8 +25,7 @@ There are 8 major types of conformal maps:
 
 :::{.proposition title="Half-plane to Disc"}
 \[
-F: \HH^\circ &\mapstofrom \DD^\circ \\
-\ts{z\st \Im(z) > 0 } &\mapstofrom \ts{w\st \abs{w} < 1 } \\
+F: \HH&\mapstofrom \DD \\
 z &\mapsto {i-z \over i+z} \\
 i \qty{1-w \over 1+w} &\mapsfrom w
 .\]
