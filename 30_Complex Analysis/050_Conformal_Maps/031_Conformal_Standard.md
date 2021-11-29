@@ -163,20 +163,20 @@ f(z)=\frac{1+e^{i \theta}}{1-e^{i \theta}}=\frac{e^{-i \theta / 2}+e^{i \theta /
 - As $x$ ranges from $-1\to 1$ in $\RR$, $f(z)$ ranges from $0\to \infty$ with $f(0) = 1$.
 :::
 
-:::{.proposition title="Log: Upper half-plane to horizontal strip"}
+
+
+## Logs and Exponentials
+
+:::{.proposition title="Upper half-plane to horizontal strip"}
 \[
-\HH &\mapstofrom \RR \cross (0, \pi) \\
-\ts{ z \st \Im(z) > 0 } &\mapstofrom \ts{ w \st \Im(z) \in (0, \pi ) } \\
-z &\mapsto \log(z) \\
+F: \HH &\to \RR \times i(0, \pi) \\
+z &\mapsto \Log(z) \\
 e^w &\mapsfrom w
 .\]
 
+![](figures/2021-11-28_18-09-31.png)
+
 - Why this lands in a strip: use that $\arg(z) \in (0, \pi)$ and $\log(z) = \abs{z} + i\arg(z)$.
-
-**Boundary behavior**:
-
-- As $x$ travels from $-\infty \to 0$, $F(x)$ travels horizontally from $\infty + i\pi$ to $-\infty + i\pi$.
-- As $x$ travels from $o\to \infty$, $F(x)$ travels from $-\infty\to\infty$ in $\RR$.
 
 :::
 
@@ -199,19 +199,6 @@ For the upper half-disc to the negative horizontal half-strip:
 
 :::
 
-## Logs and Exponentials
-
-:::{.proposition title="Upper half-plane to horizontal strip"}
-\[
-F: \HH &\to \RR \times i(0, i\pi) \\
-z &\mapsto \Log(z) \\
-e^w &\mapsfrom w
-.\]
-
-
-![](figures/2021-11-28_18-09-31.png)
-
-:::
 
 :::{.proposition title="Upper half-disc to horizontal upper-left-half-strip"}
 \[
