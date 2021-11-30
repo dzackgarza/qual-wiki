@@ -50,6 +50,20 @@ There is a homeomorphism
 (\vector v, \phi) &\mapsto [\phi\vector v]
 ,\]
 which represents a rotation in $\RR^3$ as an axis $(\vector v, \phi) \in S^2 \cross [-\pi, \pi]$ where $\vector v$ is a unit vector representing an axis of rotation and $\phi$ is an angle.
+We're now reduced to computing $\pi_1 \RP^3$.
+Using the standard cell complex for $\RP^n$, we have
+\[
+H^k(\RP^n; \ZZ) = 
+\begin{cases}
+\ZZ & k=0,3
+\\
+\ZZ/2\ZZ & k=1
+\\
+0 & \text{else},
+\end{cases}
+\]
+and in particular, $H^1(\RP^3) = \ZZ/2\ZZ$.
+Finally, by the Hurewicz theorem, there is an isomorphism $\pi_1(\RP^3) \iso H^1(\RP^3; \ZZ)$.
 
 
 
