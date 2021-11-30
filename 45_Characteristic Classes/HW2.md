@@ -100,8 +100,12 @@ The group axioms follow readily:
 
 - The identity is $\phi\inv(e)$, since for $g, h\in \Spin_n$,
 \[
-g \phi\inv(e) = \phi\inv(\phi(g) \cdot e ) = \phi(\phi\inv(g)) = g
-.\]
+a \phi\inv(e) = \phi\inv(\phi(a) \cdot e ) = \phi(\phi\inv(a)) = a
+,\]
+where in the last step we've used surjectivity of $\phi$.
+
+- Associativity is 
+
 
 :::
 
