@@ -68,13 +68,20 @@ Finally, by the Hurewicz theorem, there is an isomorphism $\pi_1(\RP^3) \iso H^1
 :::
 
 :::{.solution title="Part b"}
-Let $\phi: \Spin_n\to \SO_n$ be the covering map shown to exist in (a)), and define a group structure by 
-\[
-\psi: \Spin_n \times \Spin_n &\to \Spin_n \\
-(g, h) &\mapsto \phi\inv( \phi(g) \cdot \phi(h) )
-,\]
-where $\cdot$ denotes multiplication in $\SO_n$.
+Let $\phi: \Spin_n\to \SO_n$ be the covering map shown to exist in (a), then the claim is that the following lifts exist:
 
+\begin{tikzcd}
+	&&&& {\Spin_n} \\
+	\\
+	{\Spin_n\times\Spin_n} && {\SO_n\times\SO_n} && {\SO_  n}
+	\arrow["{\varphi\times \varphi}", from=3-1, to=3-3]
+	\arrow["{(g,h) \mapsto g\cdot h}", from=3-3, to=3-5]
+	\arrow["\varphi"', from=1-5, to=3-5]
+	\arrow[dashed, from=3-1, to=1-5]
+	\arrow[dashed, from=3-3, to=1-5]
+\end{tikzcd}
+
+> [Link to Diagram](https://q.uiver.app/?q=WzAsNCxbMCwyLCJcXFNwaW5fblxcdGltZXNcXFNwaW5fbiJdLFsyLDIsIlxcU09fblxcdGltZXNcXFNPX24iXSxbNCwyLCJcXFNPXyAgbiJdLFs0LDAsIlxcU3Bpbl9uIl0sWzAsMSwiXFx2YXJwaGlcXHRpbWVzIFxcdmFycGhpIl0sWzEsMiwiKGcsaCkgXFxtYXBzdG8gZ1xcY2RvdCBoIl0sWzMsMiwiXFx2YXJwaGkiLDJdLFswLDMsIiIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxLDMsIiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==)
 
 :::
 
