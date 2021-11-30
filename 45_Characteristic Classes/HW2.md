@@ -13,7 +13,7 @@
 :::
 
 
-:::{.solution title="Part a" .foldclose}
+:::{.solution title="Part a"}
 This is clear for $n=2$ since $\SO_2$ is diffeomorphic to $S^1$, so $\pi_1 \SO_2 = \ZZ$, which has a unique subgroup of index $[\ZZ: 2\ZZ] = 2$. 
 By the correspondence between connected covering spaces of $X$ and conjugacy classes of subgroups of $\pi_1 X$, this implies the existence of a unique degree 2 connected covering space $\Spin_2$.
 
@@ -68,6 +68,13 @@ Finally, by the Hurewicz theorem, there is an isomorphism $\pi_1(\RP^3) \iso H^1
 :::
 
 :::{.solution title="Part b"}
+Let $\phi: \Spin_n\to \SO_n$ be the covering map shown to exist in (a)), and define a group structure by 
+\[
+\psi: \Spin_n \times \Spin_n &\to \Spin_n \\
+(g, h) &\mapsto \phi\inv( \phi(g) \cdot \phi(h) )
+,\]
+where $\cdot$ denotes multiplication in $\SO_n$.
+
 
 :::
 
