@@ -83,6 +83,8 @@ Let $\phi: \Spin_n\to \SO_n$ be the covering map shown to exist in (a), then the
 
 > [Link to Diagram](https://q.uiver.app/?q=WzAsNCxbMCwyLCJcXFNwaW5fblxcdGltZXNcXFNwaW5fbiJdLFsyLDIsIlxcU09fblxcdGltZXNcXFNPX24iXSxbNCwyLCJcXFNPXyAgbiJdLFs0LDAsIlxcU3Bpbl9uIl0sWzAsMSwiXFx2YXJwaGlcXHRpbWVzIFxcdmFycGhpIl0sWzEsMiwiKGcsaCkgXFxtYXBzdG8gZ1xcY2RvdCBoIl0sWzMsMiwiXFx2YXJwaGkiLDJdLFswLDMsIiIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxLDMsIiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==)
 
+Then the map $\Spin_n\times \Spin_n\to \Spin_n$ yields the desired group structure.
+
 :::
 
 
