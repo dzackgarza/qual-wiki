@@ -120,7 +120,6 @@ Since $\SO_3 \iso \RP^3$ topologically and the universal cover of $\RP^3$ is $S^
 :::
 
 
-
 ## Spin Lifts
 
 :::{.problem title="?"}
