@@ -65,10 +65,13 @@ H^k(\RP^n; \ZZ) =
 and in particular, $H^1(\RP^3) = \ZZ/2\ZZ$.
 Finally, by the Hurewicz theorem, there is an isomorphism $\pi_1(\RP^3) \iso H^1(\RP^3; \ZZ)$.
 
+:::
 
 
+:::{.solution title="Part b"}
 
 :::
+
 
 
 ## Spin Lifts
