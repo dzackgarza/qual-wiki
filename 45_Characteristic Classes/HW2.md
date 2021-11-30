@@ -94,7 +94,7 @@ That this lift exists is a consequence of the lifting lemma, using that \[
 f_* \pi_1(\Spin_n\times \Spin_n) \subseteq \phi_* \pi_1(\Spin_n)
 \]
 where $f: \Spin_n\times\Spin_n\to \SO_n$ is the lower composite.
-This condition is trivially satisfied since $\Spin_n$ is simply connected (and in fact the universal cover of $\SO_n$), so $\pi_1(\Spin_n\times \Spin_n) = \pi_1(\Spin_n) \times \pi_1(\Spin_n) = 1$.
+This condition is trivially satisfied since $\Spin_n$ is simply connected, so $\pi_1(\Spin_n\times \Spin_n) = \pi_1(\Spin_n) \times \pi_1(\Spin_n) = 1$.
 
 The group axioms follow readily:
 
@@ -114,9 +114,9 @@ a \cdot \phi\inv(-\phi(a)) = \phi\inv\qty{ \phi(a) + \phi\phi\inv(-\phi(a))}
 
 :::
 
-
 :::{.solution title="Part c"}
-
+$\Spin_3 \to \SO_3$ is a covering space which is simply connected, and is thus the universal cover.
+Since $\SO_3 \iso \RP^3$ topologically and the universal cover of $\RP^3$ is $S^3$, we have $\Spin_3\iso S^3$ topologically.
 :::
 
 
