@@ -90,7 +90,8 @@ Explicitly, we can write this map as
 (g, h) &\mapsto \phi\inv( \phi(g) \cdot \phi(h))
 .\]
 
-
+That this lift exists is a consequence of the lifting lemma, using that $f_* \pi_1(\Spin_n\times \Spin_n) \subseteq \phi_* \pi_1(\Spin_n)$ where $f: \Spin_n\times\Spin_n\to \SO_n$ is the lower composite.
+This condition is trivially satisfied since $\Spin_n$ is simply connected (and in fact the universal cover of $\SO_n$), so $\pi_1(\Spin_n\times \Spin_n) = 1$.
 :::
 
 
