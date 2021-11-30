@@ -139,6 +139,8 @@ Given this claim, we can further define
 q &\mapsto (\vector v\mapsto qvq\inv)
 .\]
 which is an isometry of $\RR^3$ and thus yields a rotation.
+This we also claim is a diffeomorphism inducing a group homomorphism.
+Composing these isomorphisms yields $\SU_2 \cong \SO_3$.
 
 
 
