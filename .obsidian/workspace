@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md",
+            "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
             "mode": "source"
           }
         }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3ce32054145f32a1",
@@ -79,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md",
+                "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md"
+                "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md"
               }
             }
           }
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md",
+                "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md",
+                "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -257,6 +256,8 @@
   },
   "active": "03dfd88ae1e671d2",
   "lastOpenFiles": [
+    "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
+    "10_Algebra/100_Linear_Algebra/510_Matrix_Groups.md",
     "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md",
     "30_Complex Analysis/030_Residues/999_Exercises.md",
     "30_Complex Analysis/010_Basics/115_Complex Log.md",
@@ -264,8 +265,6 @@
     "40_Topology/020_Point_Set/100_Point_Set.md",
     "10_Algebra/600_Qual_Questions_UGA/072_Fields and Galois Theory.md",
     "20_Real Analysis/005_Basics/60_Littlewood Principles.md",
-    "10_Algebra/060_Galois/36_Galois_Theory_Computations.md",
-    "10_Algebra/060_Galois/35_Fields_Extensions.md",
-    "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
+    "10_Algebra/060_Galois/36_Galois_Theory_Computations.md"
   ]
 }

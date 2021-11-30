@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "520_Counterexamples",
+      "path": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md"
+    },
+    {
+      "basename": "510_Matrix_Groups",
+      "path": "10_Algebra/100_Linear_Algebra/510_Matrix_Groups.md"
+    },
+    {
       "basename": "030_Rouche",
       "path": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Further Studying",
       "path": "Further Studying.md"
-    },
-    {
-      "basename": "05_Advice and Essentials",
-      "path": "20_Real Analysis/005_Basics/05_Advice and Essentials.md"
-    },
-    {
-      "basename": "00_Notation_Real_Analysis",
-      "path": "20_Real Analysis/005_Basics/00_Notation_Real_Analysis.md"
     }
   ],
   "omittedPaths": [],

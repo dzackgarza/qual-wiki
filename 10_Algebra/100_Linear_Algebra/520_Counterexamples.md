@@ -1,5 +1,7 @@
 # Matrix Counterexamples
 
+![attachments/Pasted image 20211129205548.png](attachments/Pasted%20image%2020211129205548.png)
+
 :::{.example title="?"}
 A matrix that:
 
