@@ -83,7 +83,7 @@ Let $\phi: \Spin_n\to \SO_n$ be the covering map shown to exist in (a), then the
 
 > [Link to Diagram](https://q.uiver.app/?q=WzAsNCxbMCwyLCJcXFNwaW5fblxcdGltZXNcXFNwaW5fbiJdLFsyLDIsIlxcU09fblxcdGltZXNcXFNPX24iXSxbNCwyLCJcXFNPXyAgbiJdLFs0LDAsIlxcU3Bpbl9uIl0sWzAsMSwiXFx2YXJwaGlcXHRpbWVzIFxcdmFycGhpIl0sWzEsMiwiKGcsaCkgXFxtYXBzdG8gZ1xcY2RvdCBoIl0sWzMsMiwiXFx2YXJwaGkiLDJdLFswLDMsIiIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxLDMsIiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==)
 
-Then the map $\Spin_n\times \Spin_n\to \Spin_n$ yields the desired group structure, with $\phi\inv(e)$ the identity element for $e$ the identity in $\SO_n$.
+Then the map $\Spin_n\times \Spin_n\to \Spin_n$ yields the desired group structure.
 Explicitly, we can write this map as
 \[
 \Spin_n \times \Spin_n &\to \Spin_n \\
@@ -95,6 +95,14 @@ f_* \pi_1(\Spin_n\times \Spin_n) \subseteq \phi_* \pi_1(\Spin_n)
 \]
 where $f: \Spin_n\times\Spin_n\to \SO_n$ is the lower composite.
 This condition is trivially satisfied since $\Spin_n$ is simply connected (and in fact the universal cover of $\SO_n$), so $\pi_1(\Spin_n\times \Spin_n) = \pi_1(\Spin_n) \times \pi_1(\Spin_n) = 1$.
+
+The group axioms follow readily:
+
+- The identity is $\phi\inv(e)$, since for $g, h\in \Spin_n$,
+\[
+g \phi\inv(e) = \phi\inv(\phi(g) \cdot e ) = \phi(\phi\inv(g)) = g
+.\]
+
 :::
 
 
