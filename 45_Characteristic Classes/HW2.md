@@ -114,9 +114,16 @@ a \cdot \phi\inv(-\phi(a)) = \phi\inv\qty{ \phi(a) + \phi\phi\inv(-\phi(a))}
 
 :::
 
-:::{.solution title="Part c"}
+:::{.solution title="Part c" .foldopen}
 $\Spin_3 \to \SO_3$ is a covering space which is simply connected, and is thus the universal cover.
 Since $\SO_3 \iso \RP^3$ topologically and the universal cover of $\RP^3$ is $S^3$, we have $\Spin_3\iso S^3$ topologically.
+
+To see that $\Spin_3\cong \SU_2$ as topological groups, note that we can write
+\[
+\SU_2 = \ts{A \da \matt z {-\bar w} w {\bar z} \in \Mat(2\times 2; \CC) \st \det A = 1}
+,\]
+so $\abs{z}^2 + \abs{w}^2 = 1$
+
 :::
 
 
