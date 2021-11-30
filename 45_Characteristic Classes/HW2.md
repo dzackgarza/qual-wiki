@@ -14,7 +14,12 @@
 
 
 :::{.solution title="Part a"}
-It suffices to show that $\pi_1 \SO_n = \ZZ/2\ZZ$ for $n\geq 2$, since this has a unique subgroup of index 2 (namely the trivial group), which corresponds to a covering space of degree 2.
+This is clear for $n=2$ since $\SO_2$ is diffeomorphic to $S^1$, so $\pi_1 \SO_2 = \ZZ$, which has a unique subgroup of index $[\ZZ: 2\ZZ] = 2$. 
+By the correspondence between connected covering spaces of $X$ and conjugacy classes of subgroups of $\pi_1 X$, this implies the existence of a unique degree 2 connected covering space $\Spin_2$.
+
+
+It now suffices to show that $\pi_1 \SO_n = \ZZ/2\ZZ$ for $n\geq 3$, since this also has a unique subgroup of index 2 (namely the trivial group), which corresponds to a degree 2 covering space.
+
 There is a cofiber sequence
 \[
 \SO_{n-1}\to \SO_n \to S^{n-1}
@@ -37,6 +42,10 @@ Since $k\geq 2$ and $\pi_k S^n = 1$ for $k\leq n-1$, we have
 \end{tikzcd}
 
 > [Link to Diagram](https://q.uiver.app/?q=WzAsOCxbMCw0LCJcXHBpXzEgXFxTT197bi0xfSJdLFsxLDRdLFsyLDQsIlxccGlfMSBcXFNPX3tufSJdLFs0LDQsIlxccGlfMVNebiA9IDEiLFswLDYwLDYwLDFdXSxbMCwyLCJcXHBpXzIgXFxTT197bi0xfSJdLFsyLDIsIlxccGlfMiBcXFNPX3tufSJdLFs0LDIsIlxccGlfMiBTXm4gPSAxIixbMCw2MCw2MCwxXV0sWzQsMCwiXFxjZG90cyJdLFs0LDVdLFs1LDZdLFs2LDBdLFswLDIsIlxcY29uZyIsMCx7ImNvbG91ciI6WzE4MCw2MCw2MF19LFsxODAsNjAsNjAsMV1dLFsyLDNdLFs3LDRdXQ==)
+
+The 
+So $\pi_1 \SO_{n-1} \cong \pi_1 \SO_n$ for $n\geq 2$, and we're reduced to computing $\pi_1 \SO_3$.
+
 
 
 :::
