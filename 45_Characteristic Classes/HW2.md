@@ -124,7 +124,7 @@ To see that $\Spin_3\cong \SU_2$ as topological groups, note that we can write
 ,\]
 so $\abs{z}^2 + \abs{w}^2 = 1$ for any such matrix.
 
-First let $Q = \gens{\vector 1, \vector i, \vector j, \vector k}$ denote the unit quaternions and define a map
+First let $Q = \gens{\vector 1, \vector i, \vector j, \vector k}$ denote the quaternions and define a map
 \[
 \Psi: \SU_2 &\to Q \\
 A_{z, w} &\mapsto q_{z, w} \da a\vector 1 + b\vector i + c\vector j + d\vector k
@@ -138,6 +138,7 @@ Given this claim, we can further define
 \Phi: \hat{Q} &\to \SO_3 \\
 q &\mapsto (\vector v\mapsto qvq\inv)
 .\]
+which is an isometry of $\RR^3$ and thus yields a rotation.
 
 
 
