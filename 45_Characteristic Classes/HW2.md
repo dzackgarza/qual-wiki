@@ -43,8 +43,14 @@ Since $k\geq 2$ and $\pi_k S^n = 1$ for $k\leq n-1$, we have
 
 > [Link to Diagram](https://q.uiver.app/?q=WzAsOCxbMCw0LCJcXHBpXzEgXFxTT197bi0xfSJdLFsxLDRdLFsyLDQsIlxccGlfMSBcXFNPX3tufSJdLFs0LDQsIlxccGlfMVNebiA9IDEiLFswLDYwLDYwLDFdXSxbMCwyLCJcXHBpXzIgXFxTT197bi0xfSJdLFsyLDIsIlxccGlfMiBcXFNPX3tufSJdLFs0LDIsIlxccGlfMiBTXm4gPSAxIixbMCw2MCw2MCwxXV0sWzQsMCwiXFxjZG90cyJdLFs0LDVdLFs1LDZdLFs2LDBdLFswLDIsIlxcY29uZyIsMCx7ImNvbG91ciI6WzE4MCw2MCw2MF19LFsxODAsNjAsNjAsMV1dLFsyLDNdLFs3LDRdXQ==)
 
-The 
 So $\pi_1 \SO_{n-1} \cong \pi_1 \SO_n$ for $n\geq 2$, and we're reduced to computing $\pi_1 \SO_3$.
+There is a homeomorphism
+\[
+\Psi: \SO_3 &\to \RP^3 \\
+(\vector v, \phi) &\mapsto [\phi\vector v]
+,\]
+which represents a rotation in $\RR^3$ as an axis $(\vector v, \phi) \in S^2 \cross [-\pi, \pi]$ where $\vector v$ is a unit vector representing an axis of rotation and $\phi$ is an angle.
+
 
 
 
