@@ -104,12 +104,18 @@ a \phi\inv(e) = \phi\inv(\phi(a) \cdot e ) = \phi(\phi\inv(a)) = a
 ,\]
 where in the last step we've used surjectivity of $\phi$.
 
-- Switching to additive notation momentarily, inverses are given by $-a\da \phi\inv(\phi(a)\inv)$:
+- Switching to additive notation momentarily, inverses are given by $-a\da \phi\inv(-\phi(a))$:
 \[
-a \phi\inv(-\phi(a)) = \phi\inv\qty{ \phi(a) \cdot \phi\phi\inv(-\phi(a))}
+a \cdot \phi\inv(-\phi(a)) = \phi\inv\qty{ \phi(a) + \phi\phi\inv(-\phi(a))}
+=\phi\inv\qty{\phi(a) + (-\phi(a))} = \phi\inv(e)
 .\]
 
+- Associativity follows similarly.
 
+:::
+
+
+:::{.solution title="Part c"}
 
 :::
 
