@@ -138,6 +138,6 @@ For any two sets $A, B$ in a metric space or compact Hausdorff space $X$, there 
 
     *Proof:*
 
-    ![[figures/2019-12-19-16-49-56.png]]
+    ![figures/2019-12-19-16-49-56.png](figures/2019-12-19-16-49-56.png)
 		
 - Uniform convergence allows commuting sums with integrals

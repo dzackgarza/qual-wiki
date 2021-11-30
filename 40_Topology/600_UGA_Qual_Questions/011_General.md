@@ -26,7 +26,8 @@ Determine, with proof, the general relationship between $\cl_X (B) \cap A$ and $
 What's the picture?
 Just need to remember what the closure with respect to a subspace looks like:
 
-![[image_2021-05-20-23-58-56.png]]
+![figures/image_2021-05-20-23-58-56.png](figures/image_2021-05-20-23-58-56.png)
+
 :::
 
 :::{.solution}
@@ -66,7 +67,7 @@ Prove that the unit interval $I$ is compact. Be sure to explicitly state any pro
 What's the picture?
 Similar to covering $\ts{1\over n}\union\ts{0}$: cover $x=0$ with one set, which nets all but finitely many points.
 
-![[image_2021-05-20-22-46-54.png]]
+![figures/image_2021-05-20-22-46-54.png](figures/image_2021-05-20-22-46-54.png)
 
 Proceed by contradiction. 
 Binary search down into nested intervals, none of which have finite covers.
@@ -115,7 +116,7 @@ Show that for any two topological spaces $X$ and $Y$ , $X \cross Y$ is compact i
 :::{.strategy}
 What's the picture?
 
-![[image_2021-05-21-01-16-52.png]]
+![figures/image_2021-05-21-01-16-52.png](figures/image_2021-05-21-01-16-52.png)
 
 Take an open cover of the product, use that vertical fibers are compact to get a finite cover for each fiber.
 Use tube lemma to get opens in the base space, run over all $x$ so the tube bases cover $X$.

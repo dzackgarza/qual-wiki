@@ -14,11 +14,16 @@ and
 :::
 
 :::{.proof title="?"}
-![[image_2021-05-27-16-54-06.png]]
+
+![figures/image_2021-05-27-16-54-06.png](figures/image_2021-05-27-16-54-06.png)
+
 :::
 
 :::{.proof title="?"}
-![[image_2021-05-27-16-56-39.png]]
-![[image_2021-05-27-16-56-52.png]]
+
+![figures/image_2021-05-27-16-56-39.png](figures/image_2021-05-27-16-56-39.png)
+
+![figures/image_2021-05-27-16-56-52.png](figures/image_2021-05-27-16-56-52.png)
+
 :::
 

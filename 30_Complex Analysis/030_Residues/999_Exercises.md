@@ -7,13 +7,13 @@ Show that the complex zeros of $f(z) \da \sin(\pi z)$ are exactly $\ZZ$, and eac
 Calculate the residue of $1/\sin(\pi x)$ at $z=n\in \ZZ$.
 :::
 
-![[image_2021-05-17-13-32-46.png]]
+![figures/image_2021-05-17-13-32-46.png](figures/image_2021-05-17-13-32-46.png)
 
-![[image_2021-05-17-13-32-57.png]]
+![figures/image_2021-05-17-13-32-57.png](figures/image_2021-05-17-13-32-57.png)
 
-![[image_2021-05-17-13-33-12.png]]
+![figures/image_2021-05-17-13-33-12.png](figures/image_2021-05-17-13-33-12.png)
 
-![[image_2021-05-17-13-33-30.png]]
+![figures/image_2021-05-17-13-33-30.png](figures/image_2021-05-17-13-33-30.png)
 
 :::{.exercise title="?"}
 \[
@@ -110,7 +110,7 @@ Compute
 Factor $(1+z^2)^2 = (z+i^2(z-i)^2$.
 Take a keyhole contour similar to the following:
 
-![[attachments/image_2021-06-09-02-11-59.png]]
+![attachments/image_2021-06-09-02-11-59.png](attachments/image_2021-06-09-02-11-59.png)
 
 Show that outer radius $R$ and inner radius $\rho$ circles contribute zero in the limit by the ML estimate?
 Compute the residues by just applying the formula and manually computing derivatives:
@@ -144,4 +144,4 @@ I = {1\over 2i} \int_\RR {e^{iz} - 1 \over z } \dz
 
 :::
 
-![[image_2021-05-17-13-33-55.png]]
+![figures/image_2021-05-17-13-33-55.png](figures/image_2021-05-17-13-33-55.png)

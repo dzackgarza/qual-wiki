@@ -18,7 +18,7 @@ Thus
 .\]
 :::
 
-![[Pasted image 20211127210218.png]]
+![attachments/Pasted image 20211127210218.png](attachments/Pasted%20image%2020211127210218.png)
 
 :::{.fact}
 Common trick:

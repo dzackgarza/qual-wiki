@@ -11,9 +11,9 @@ Then for every $\eps > 0$ there is a closed $A_\eps \subseteq E$ with $\mu(E\sm 
 
 :::{.proof title="of Egorov"}
 
-![[2021-06-11_18-07-43.png]]
+![figures/2021-06-11_18-07-43.png](figures/2021-06-11_18-07-43.png)
 
-![[2021-06-11_18-07-58.png]]
+![figures/2021-06-11_18-07-58.png](figures/2021-06-11_18-07-58.png)
 
 :::
 
@@ -30,6 +30,6 @@ where $f$ restricted to $F_\eps$ is continuous.
 
 :::{.proof title="of Lusin"}
 
-![[2021-06-11_18-04-52.png]]
+![figures/2021-06-11_18-04-52.png](figures/2021-06-11_18-04-52.png)
 
 :::

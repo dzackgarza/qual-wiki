@@ -29,7 +29,7 @@
 
 - De-nesting radicals:
 
-![[figures/2021-08-15_00-44-15.png]]
+![figures/2021-08-15_00-44-15.png](figures/2021-08-15_00-44-15.png)
 
 
 :::

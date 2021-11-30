@@ -1,6 +1,5 @@
 # Conformal Map Examples and Exercises 
 
-
 :::{.remark title="Tips and tricks"}
 - If just mapping the disc to itself, use the hypberolic translations
 \[
@@ -15,6 +14,8 @@
 
 
 :::
+
+## Discs and Planes
 
 :::{.example title="Mapping the half-disc to the half-plane"}
 \[
@@ -47,11 +48,6 @@ Set $T(z) = S(w)$ and solve for $w$ to get
 
 :::
 
-
-## Conformal Map Problems
-
-### Discs and Planes
-
 :::{.exercise title="Half disc to full disc"}
 Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0}$ to $\DD$.
 
@@ -82,39 +78,13 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 :::
 
 :::{.exercise title="?"}
-Find a conformal map:
-\[
-\DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
-.\]
-
-#completed
-
-:::
-
-:::{.solution}
-The picture:
-
-
-![](figures/2021-11-28_23-07-02.png)
-
-
-- Key insight: send the point of tangency to $\infty$ to get parallel lines.
-  Send $z\mapsto {1+z \over 1-z}$ to send $-1\to 0, 0\to 1, 1\to \infty$ to get a vertical strip.
-
-- Rotate and dilate: $z\mapsto i\pi z$ to get a strip $\RR \cross i(0, \pi)$.
-- Standard exponential $z\mapsto e^{iz}$ sends this to $\HH$.
-- Standard Cayley $z\mapsto {z-i \over z+i}$ sends this to $\DD$.
-
-:::
-
-
-:::{.exercise title="?"}
 Show that $z\mapsto z + z\inv$ maps $\HH \intersect \DD^c \to \HH$.
 
+#work
+
 :::
 
-
-### Slits
+## Slits
 
 :::{.exercise title="Disc minus a slit"}
 Find a conformal map
@@ -154,7 +124,7 @@ In steps:
 - $f_6$: apply the standard Cayley transform $f_6(z) = {i-z\over i+z}$
 :::
 
-### Lunes
+## Lunes
 
 :::{.exercise title="?"}
 
@@ -183,7 +153,33 @@ In steps:
 
 :::
 
-### Sectors
+:::{.exercise title="Lune"}
+Find a conformal map:
+\[
+\DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
+.\]
+
+#completed
+
+:::
+
+:::{.solution}
+The picture:
+
+
+![](figures/2021-11-28_23-07-02.png)
+
+
+- Key insight: send the point of tangency to $\infty$ to get parallel lines.
+  Send $z\mapsto {1+z \over 1-z}$ to send $-1\to 0, 0\to 1, 1\to \infty$ to get a vertical strip.
+
+- Rotate and dilate: $z\mapsto i\pi z$ to get a strip $\RR \cross i(0, \pi)$.
+- Standard exponential $z\mapsto e^{iz}$ sends this to $\HH$.
+- Standard Cayley $z\mapsto {z-i \over z+i}$ sends this to $\DD$.
+
+:::
+
+## Sectors
 
 :::{.exercise title="?"}
 Find a conformal map from the sector $\ts{\Arg(z) \in (0, \alpha)} \to \DD$.
@@ -203,4 +199,3 @@ In steps:
 - Map $\HH\to \DD$ using the standard $z\mapsto {z-i\over z+i}$.
 
 :::
-

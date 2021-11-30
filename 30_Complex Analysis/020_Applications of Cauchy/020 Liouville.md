@@ -16,5 +16,5 @@ If $f$ is entire and bounded, $f$ is constant.
 :::
 
 :::{.exercise title="?"}
-![[image_2021-05-17-11-54-14.png]]
+![figures/image_2021-05-17-11-54-14.png](figures/image_2021-05-17-11-54-14.png)
 :::

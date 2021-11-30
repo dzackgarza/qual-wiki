@@ -22,17 +22,9 @@ The number of zeros/poles are determined by a dominating function.
 
 #todo prove
 
-![[30_Complex Analysis/figures/2021-10-29_01-39-19.png]]
+![30_Complex Analysis/figures/2021-10-29_01-39-19.png](30_Complex%20Analysis/figures/2021-10-29_01-39-19.png)
 
-![[30_Complex Analysis/figures/2021-10-29_01-39-19.png]]
-
-![[30_Complex Analysis/figures/2021-10-29_01-39-19.png]]
-
-![[30_Complex Analysis/figures/2021-10-29_01-39-43.png]]
-
-![[30_Complex Analysis/figures/2021-10-29_01-39-43.png]]
-
-
+![30_Complex Analysis/figures/2021-10-29_01-39-43.png](30_Complex%20Analysis/figures/2021-10-29_01-39-43.png)
 
 
 # Exercises
@@ -61,7 +53,7 @@ Show that $h(z) = z + 3 + 2e^z$ has one root in $\ts{ \Re(z) \leq 0}$.
 Use the following contour:
 
 
-![[2021-07-29_20-39-31.png]]
+![figures/2021-07-29_20-39-31.png](figures/2021-07-29_20-39-31.png)
 
 Take $g(z) \da 2e^z < f(z) \da f(z) \da z+3$.
 :::

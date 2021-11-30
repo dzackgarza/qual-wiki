@@ -6,12 +6,14 @@ For guidelines for what techniques to use,
 A summary:
 
 - $f(z) \sim 1/z^{1+\eps}$: semicircular contours.
-	![[2021-07-29_18-37-57.png]]
+
+	![figures/2021-07-29_18-37-57.png](figures/2021-07-29_18-37-57.png)
 	
 	- The relevant theorem: $f(z) \leq {M \over \abs{z}^{1+\eps} }$ for $\abs{z} \gg 0$ implies $\int_{C_R} f \convergesto{R\to\infty} 0$.
 
 -  $f(z) \sim 1/z$: rectangular contours.
-	![[2021-07-29_18-38-24.png]]
+
+	![figures/2021-07-29_18-38-24.png](figures/2021-07-29_18-38-24.png)
 	
 	- The relevant theorem: $f(z) \leq {M \over \abs{z} }$ for $\abs{z} \gg 0$ implies $\int_{C_R} f(z) e^{i\alpha z} \convergesto{R\to\infty} 0$ where for $\alpha>0$ take $C_R$ to be the left rectangular contour, and $\alpha>0$ take $C_R$ the right.
 
@@ -26,16 +28,18 @@ A summary:
 :::
 
 :::{.exercise title="?"}
-#completed 
 \[
 \int_\RR {1 \over (1+x^2)^2} = {\pi \over 2}
 .\]
+
+#completed 
+
 :::
 
-:::{.solution .foldclose}
+:::{.solution}
 Use that $f(z) \sim 1/z^4$:
 
-![[2021-07-29_18-40-40.png]]
+![figures/2021-07-29_18-40-40.png](figures/2021-07-29_18-40-40.png)
 
 Then 
 \[
@@ -102,7 +106,8 @@ where we've used a variant of the triangle inequality:
 
 :::{.solution}
 
-![[2021-07-29_18-41-05.png]]
+![figures/2021-07-29_18-41-05.png](figures/2021-07-29_18-41-05.png)
+
 :::
 
 
@@ -117,7 +122,8 @@ where we've used a variant of the triangle inequality:
 :::{.solution}
 Extend to $\int_\RR$ using that $f$ is even.
 
-![[2021-07-29_18-42-38.png]]
+![figures/2021-07-29_18-42-38.png](figures/2021-07-29_18-42-38.png)
+
 :::
 
 
@@ -149,7 +155,8 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 
 :::{.solution}
 
-![[2021-07-29_18-51-17.png]]
+![figures/2021-07-29_18-51-17.png](figures/2021-07-29_18-51-17.png)
+
 :::
 
 
@@ -162,7 +169,7 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 
 :::{.solution}
 
-![[2021-07-29_18-53-35.png]]
+![figures/2021-07-29_18-53-35.png](figures/2021-07-29_18-53-35.png)
 
 :::
 

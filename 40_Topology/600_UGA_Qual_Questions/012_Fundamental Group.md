@@ -17,7 +17,7 @@ Prove that $\gamma_0$ is homotopic to $\gamma_1$ if and only if the elements rep
   - Counterexample where homotopic loops are not equal in $\pi_1$, but just conjugate.
     Need nonabelian $\pi_1$ for conjugates to possibly not be equal, so take a torus:
 
-  ![[figures/2020-02-04-20:00.png]]
+  ![figures/2020-02-04-20:00.png](figures/2020-02-04-20:00.png)
 
 :::
 
@@ -35,7 +35,7 @@ t &\mapsto H(t, 1)
 - Claim: $\gamma_1$ and $T\ast \gamma_2 \ast T\inv$ are homotopic rel $x_0$, making $\gamma_1, \gamma_2$ conjugate in $\pi_1$.
   - Idea: for each fixed $s$, follow $T$ for the first third, $\gamma_2$ for the middle third, $T\inv$ for the last third.
 
-  ![[figures/2020-02-04-20:23.png]]
+  ![figures/2020-02-04-20:23.png](figures/2020-02-04-20:23.png)
 
 
 $\impliedby$:
@@ -45,7 +45,7 @@ $\impliedby$:
 - Since these are equal in $\pi_1$, we get a square interpolating $\gamma_1$ and $h\gamma_2 h\inv$ with constant sides $\id_{x_0}$.
 - For free homotopies, the sides don't have to be constant, to merge $h$ and $h\inv$ into the sides to get a free homotopy from $f$ to $g$:
 
-![[image_2021-06-04-00-44-45.png]]
+![image_2021-06-04-00-44-45.png](image_2021-06-04-00-44-45.png)
 
 :::
 

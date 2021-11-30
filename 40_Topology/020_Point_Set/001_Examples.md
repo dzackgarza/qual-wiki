@@ -8,7 +8,7 @@
 :::{.definition title="Topological Notions in Analysis"}
 A useful list:
 
-![[image_2021-05-27-20-18-15.png]]
+![figures/image_2021-05-27-20-18-15.png](figures/image_2021-05-27-20-18-15.png)
 
 Note that limit points require punctured neighborhoods!
 

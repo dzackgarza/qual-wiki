@@ -16,5 +16,7 @@ Apply Improved Taylor Theorem?
 :::
 
 :::{.exercise title="?"}
-![[image_2021-05-17-11-53-33.png]]
+
+![figures/image_2021-05-17-11-53-33.png](figures/image_2021-05-17-11-53-33.png)
+
 :::

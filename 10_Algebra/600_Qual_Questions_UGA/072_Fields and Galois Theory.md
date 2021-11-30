@@ -773,7 +773,7 @@ How many subfields are there of $\QQ(\zeta_{20} )$?
 
 - The lattice: 
 
-  ![[image_2021-04-17-02-44-48.png]]
+  ![figures/image_2021-04-17-02-44-48.png](figures/image_2021-04-17-02-44-48.png)
 
 :::
 

@@ -70,7 +70,7 @@ Idea: break into disjoint annuli!
 - From above: funny step, use $E_{1} = (\disjoint E_{j}\setminus E_{j+1}) \disjoint (\intersect E_{j})$.
   - Taking measures yields a telescoping sum, and use countable additivity, then finiteness to subtract.
 
-  ![[image_2021-05-28-23-29-31.png]]
+  ![image_2021-05-28-23-29-31.png](figures/image_2021-05-28-23-29-31.png)
 
 
 :::
@@ -236,7 +236,6 @@ If $(X, \mcb, \mu)$ is a Borel measure space where $\mu$ is finite on all balls 
 - There exists a closed set $F$ with $F\subset E$ and $\mu(E\sm F) < \eps$.
 
 :::
-
 
 :::{.proposition title="?"}
 Measurability is not preserved by homeomorphisms.

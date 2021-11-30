@@ -115,7 +115,7 @@ Consider $\sum c_k z^k$, set $R = \lim \abs{c_{k+1} \over c_k}$, and recall the 
 :::
 
 :::{.proposition title="Root Test"}
-![[image_2021-05-27-15-40-58.png]]
+![figures/image_2021-05-27-15-40-58.png](figures/image_2021-05-27-15-40-58.png)
 :::
 
 :::{.proposition title="Radius of Convergence by the Root Test"}

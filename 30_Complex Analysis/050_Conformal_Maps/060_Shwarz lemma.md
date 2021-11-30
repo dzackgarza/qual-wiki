@@ -70,7 +70,7 @@ Scaling: use a fun trick, insert $1=\bar\lambda \lambda$ like so
 :::{.remark}
 There are such maps that are *not* rotations, e.g. the Blaschke factors:
 
-![[2021-10-29_02-33-08.png]]
+![figures/2021-10-29_02-33-08.png](figures/2021-10-29_02-33-08.png)
 
 Setting $B_w(z) \da {z-w\over 1-\bar{w} z}$, this is not a rotation when $w\neq 0$ and is an involution.
 :::
@@ -89,7 +89,7 @@ Moreover, if
 then $f$ is a rotation.
 :::
 
-![[figures/2021-10-29_02-32-14.png]]
+![figures/2021-10-29_02-32-14.png](figures/2021-10-29_02-32-14.png)
 
 :::{.proof title="?"}
 \envlist

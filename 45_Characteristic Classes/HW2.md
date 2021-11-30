@@ -2,7 +2,6 @@
 
 ## The Spin group
 
-
 :::{.problem title="?"}
 
 - a: Show that for each $n \geq 2$, the group $\SO_n$ has a unique connected 2 -fold covering space. Call this space $\Spin(n)$
@@ -11,6 +10,10 @@
 
 - c: What familiar space is $\Spin(3) ?$ Also, show that as topological groups, $\Spin(3) \cong S U(2)$.
 
+:::
+
+
+:::{.solution title="Part a"}
 :::
 
 

@@ -1,6 +1,118 @@
 {
   "recentFiles": [
     {
+      "basename": "030_Rouche",
+      "path": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md"
+    },
+    {
+      "basename": "999_Exercises",
+      "path": "30_Complex Analysis/030_Residues/999_Exercises.md"
+    },
+    {
+      "basename": "115_Complex Log",
+      "path": "30_Complex Analysis/010_Basics/115_Complex Log.md"
+    },
+    {
+      "basename": "Pasted image 20211127210218",
+      "path": "attachments/Pasted image 20211127210218.png"
+    },
+    {
+      "basename": "100_Point_Set",
+      "path": "40_Topology/020_Point_Set/100_Point_Set.md"
+    },
+    {
+      "basename": "072_Fields and Galois Theory",
+      "path": "10_Algebra/600_Qual_Questions_UGA/072_Fields and Galois Theory.md"
+    },
+    {
+      "basename": "60_Littlewood Principles",
+      "path": "20_Real Analysis/005_Basics/60_Littlewood Principles.md"
+    },
+    {
+      "basename": "36_Galois_Theory_Computations",
+      "path": "10_Algebra/060_Galois/36_Galois_Theory_Computations.md"
+    },
+    {
+      "basename": "35_Fields_Extensions",
+      "path": "10_Algebra/060_Galois/35_Fields_Extensions.md"
+    },
+    {
+      "basename": "030 Identity Principle",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
+    },
+    {
+      "basename": "025_Blaschke_Products",
+      "path": "30_Complex Analysis/900 Unsorted/025_Blaschke_Products.md"
+    },
+    {
+      "basename": "20_Sets",
+      "path": "20_Real Analysis/005_Basics/20_Sets.md"
+    },
+    {
+      "basename": "012_Fundamental Group",
+      "path": "40_Topology/600_UGA_Qual_Questions/012_Fundamental Group.md"
+    },
+    {
+      "basename": "012 Cauchy Integral Formula",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/012 Cauchy Integral Formula.md"
+    },
+    {
+      "basename": "011_General",
+      "path": "40_Topology/600_UGA_Qual_Questions/011_General.md"
+    },
+    {
+      "basename": "021_Integrals",
+      "path": "30_Complex Analysis/030_Residues/021_Integrals.md"
+    },
+    {
+      "basename": "250_Surfaces_Manifolds",
+      "path": "40_Topology/100_Manifolds/250_Surfaces_Manifolds.md"
+    },
+    {
+      "basename": "Useful Tricks",
+      "path": "00_Prelims/Useful Tricks.md"
+    },
+    {
+      "basename": "9900_Appendix_Inequalities",
+      "path": "20_Real Analysis/200_Appendices/9900_Appendix_Inequalities.md"
+    },
+    {
+      "basename": "020_Residues",
+      "path": "30_Complex Analysis/030_Residues/020_Residues.md"
+    },
+    {
+      "basename": "020 Liouville",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
+    },
+    {
+      "basename": "010_Counterexamples",
+      "path": "20_Real Analysis/020_Integration/010_Counterexamples.md"
+    },
+    {
+      "basename": "005_Calculus_Preliminaries",
+      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
+    },
+    {
+      "basename": "001_Examples",
+      "path": "40_Topology/020_Point_Set/001_Examples.md"
+    },
+    {
+      "basename": "00_Measure",
+      "path": "20_Real Analysis/010_Measure_Theory/00_Measure.md"
+    },
+    {
+      "basename": "060_Shwarz lemma",
+      "path": "30_Complex Analysis/050_Conformal_Maps/060_Shwarz lemma.md"
+    },
+    {
+      "basename": "2021-10-29_02-32-14",
+      "path": "30_Complex Analysis/figures/2021-10-29_02-32-14.png"
+    },
+    {
+      "basename": "200_Schwarz",
+      "path": "30_Complex Analysis/999_Quals/200_Schwarz.md"
+    },
+    {
       "basename": "qual_progress",
       "path": "qual_progress.md"
     },
@@ -53,14 +165,6 @@
       "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
     {
-      "basename": "005_Calculus_Preliminaries",
-      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
-    },
-    {
-      "basename": "115_Complex Log",
-      "path": "30_Complex Analysis/010_Basics/115_Complex Log.md"
-    },
-    {
       "basename": "Techniques",
       "path": "20_Real Analysis/020_Integration/Techniques.md"
     },
@@ -89,116 +193,12 @@
       "path": "Further Studying.md"
     },
     {
-      "basename": "030 Identity Principle",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
-    },
-    {
       "basename": "05_Advice and Essentials",
       "path": "20_Real Analysis/005_Basics/05_Advice and Essentials.md"
     },
     {
       "basename": "00_Notation_Real_Analysis",
       "path": "20_Real Analysis/005_Basics/00_Notation_Real_Analysis.md"
-    },
-    {
-      "basename": "10_Topics",
-      "path": "20_Real Analysis/000_Resources/10_Topics.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
-    },
-    {
-      "basename": "90_Counterexamples",
-      "path": "20_Real Analysis/005_Basics/90_Counterexamples.md"
-    },
-    {
-      "basename": "50_Commuting_Limits",
-      "path": "20_Real Analysis/005_Basics/50_Commuting_Limits.md"
-    },
-    {
-      "basename": "Appendix",
-      "path": "20_Real Analysis/005_Basics/Appendix.md"
-    },
-    {
-      "basename": "Integrability",
-      "path": "20_Real Analysis/005_Basics/Integrability.md"
-    },
-    {
-      "basename": "60_Littlewood Principles",
-      "path": "20_Real Analysis/005_Basics/60_Littlewood Principles.md"
-    },
-    {
-      "basename": "30_Sequences_Series",
-      "path": "20_Real Analysis/005_Basics/30_Sequences_Series.md"
-    },
-    {
-      "basename": "30_Continuity",
-      "path": "20_Real Analysis/005_Basics/30_Continuity.md"
-    },
-    {
-      "basename": "10_Definitions",
-      "path": "20_Real Analysis/005_Basics/10_Definitions.md"
-    },
-    {
-      "basename": "20_Sets",
-      "path": "20_Real Analysis/005_Basics/20_Sets.md"
-    },
-    {
-      "basename": "35_Differentiability",
-      "path": "20_Real Analysis/005_Basics/35_Differentiability.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "20_Real Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "15_Books_Notes",
-      "path": "20_Real Analysis/000_Resources/15_Books_Notes.md"
-    },
-    {
-      "basename": "Real_Analysis_Course_Notes",
-      "path": "attachments/Real_Analysis_Course_Notes.pdf"
-    },
-    {
-      "basename": "Typsetting_Progress",
-      "path": "Typsetting_Progress.md"
-    },
-    {
-      "basename": "9900_Appendix_Inequalities",
-      "path": "20_Real Analysis/200_Appendices/9900_Appendix_Inequalities.md"
-    },
-    {
-      "basename": "000_Real_Review",
-      "path": "30_Complex Analysis/999_Quals/000_Real_Review.md"
-    },
-    {
-      "basename": "050 Liouville",
-      "path": "30_Complex Analysis/999_Quals/050 Liouville.md"
-    },
-    {
-      "basename": "021 Laurent Expansions",
-      "path": "30_Complex Analysis/999_Quals/021 Laurent Expansions.md"
-    },
-    {
-      "basename": "052_Rouche",
-      "path": "30_Complex Analysis/999_Quals/052_Rouche.md"
-    },
-    {
-      "basename": "99999_Unsorted",
-      "path": "30_Complex Analysis/999_Quals/99999_Unsorted.md"
-    },
-    {
-      "basename": "022 Singularities",
-      "path": "30_Complex Analysis/999_Quals/022 Singularities.md"
-    },
-    {
-      "basename": "020_Residues",
-      "path": "30_Complex Analysis/030_Residues/020_Residues.md"
-    },
-    {
-      "basename": "300_Schwarz Reflection",
-      "path": "30_Complex Analysis/999_Quals/300_Schwarz Reflection.md"
     }
   ],
   "omittedPaths": [],
