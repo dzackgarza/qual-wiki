@@ -120,9 +120,16 @@ Since $\SO_3 \iso \RP^3$ topologically and the universal cover of $\RP^3$ is $S^
 
 To see that $\Spin_3\cong \SU_2$ as topological groups, note that we can write
 \[
-\SU_2 = \ts{A \da \matt z {-\bar w} w {\bar z} \in \Mat(2\times 2; \CC) \st \det A = 1}
+\SU_2 = \ts{A_{z, w} \da \matt z {-\bar w} w {\bar z} \in \Mat(2\times 2; \CC) \st \det A_{z, w} = 1}
 ,\]
-so $\abs{z}^2 + \abs{w}^2 = 1$
+so $\abs{z}^2 + \abs{w}^2 = 1$ for any such matrix.
+This is the equation of a sphere in $\CC^2$, so
+define a map
+\[
+\Psi: S^3 \subseteq \CC^2 &\to \SU_2 \\
+(z, w) &\mapsto A_{z, w}
+.\]
+
 :::
 
 
