@@ -106,7 +106,7 @@ where in the last step we've used surjectivity of $\phi$.
 
 - Switching to additive notation momentarily, inverses are given by $-a\da \phi\inv(\phi(a)\inv)$:
 \[
-a \phi\inv(-\phi(a)) = \phi\inv( \phi(a) \cdot \phi\phi\inv(-\phi(a)))
+a \phi\inv(-\phi(a)) = \phi\inv\qty{ \phi(a) \cdot \phi\phi\inv(-\phi(a))}
 .\]
 
 
