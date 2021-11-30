@@ -130,12 +130,9 @@ define a map
 (z, w) &\mapsto A_{z, w}
 .\]
 This is clear continuous and injective, since $A_{z, w} = 0$ forces $z=w=0$, with a continuous inverse $A_{z, w}\mapsto (z, w)$, so this is a homeomorphism.
-Writing this as a real map
-\[
-(z, w) = (a + ib, c+id) = (a,b,c,d)
-\mapsto (z, -\bar{w}, w, \bar {z}) = (a,b,-c, d, c, d,a,-b)
-.\]
+The claim is that this is a diffeomorphism.
 
+Given this claim, we have diffeomorphisms $\SU_2 \cong S^3 \cong \Spin_3$, and the further claim is that these maps are all compatible with the group structure.
 
 :::
 
