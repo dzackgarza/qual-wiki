@@ -127,9 +127,10 @@ so $\abs{z}^2 + \abs{w}^2 = 1$ for any such matrix.
 First let $Q = \gens{\vector 1, \vector i, \vector j, \vector k}$ denote the unit quaternions and define a map
 \[
 \Psi: \SU_2 &\to Q \\
-A_{z, w} &\mapsto a\vector 1 + b\vector i + c\vector j + d\vector k
+A_{z, w} &\mapsto q_{z, w} \da a\vector 1 + b\vector i + c\vector j + d\vector k
 \]
 where $z = a+ib$ and $w=c +id$.
+Note that $\norm{q_{z, w}} = \abs{a}^2 + \abs{b}^2 + \abs{c}^2 + \abs{d}^2 = \abs{z}^2 + \abs{w}^2 = 1$, so the image is in fact the unit quaternions $\hat Q$.
 
 
 
