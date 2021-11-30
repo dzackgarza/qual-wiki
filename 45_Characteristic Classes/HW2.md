@@ -131,6 +131,14 @@ A_{z, w} &\mapsto q_{z, w} \da a\vector 1 + b\vector i + c\vector j + d\vector k
 \]
 where $z = a+ib$ and $w=c +id$.
 Note that $\norm{q_{z, w}} = \abs{a}^2 + \abs{b}^2 + \abs{c}^2 + \abs{d}^2 = \abs{z}^2 + \abs{w}^2 = 1$, so the image is in fact the unit quaternions $\hat Q$.
+The claim is that $\Psi$ is a diffeomorphism and a group homomorphism on the underlying additive groups.
+
+Given this claim, we can further define
+\[
+\Phi: \hat{Q} &\to \SO_3 \\
+q &\mapsto (\vector v\mapsto qvq\inv)
+.\]
+
 
 
 
