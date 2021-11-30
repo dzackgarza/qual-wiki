@@ -123,7 +123,6 @@ To see that $\Spin_3\cong \SU_2$ as topological groups, note that we can write
 \SU_2 = \ts{A \da \matt z {-\bar w} w {\bar z} \in \Mat(2\times 2; \CC) \st \det A = 1}
 ,\]
 so $\abs{z}^2 + \abs{w}^2 = 1$
-
 :::
 
 
