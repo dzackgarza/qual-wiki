@@ -13,7 +13,7 @@
 :::
 
 
-:::{.solution title="Part a"}
+:::{.solution title="Part a" .foldclose}
 This is clear for $n=2$ since $\SO_2$ is diffeomorphic to $S^1$, so $\pi_1 \SO_2 = \ZZ$, which has a unique subgroup of index $[\ZZ: 2\ZZ] = 2$. 
 By the correspondence between connected covering spaces of $X$ and conjugacy classes of subgroups of $\pi_1 X$, this implies the existence of a unique degree 2 connected covering space $\Spin_2$.
 
@@ -66,7 +66,6 @@ and in particular, $H^1(\RP^3) = \ZZ/2\ZZ$.
 Finally, by the Hurewicz theorem, there is an isomorphism $\pi_1(\RP^3) \iso H^1(\RP^3; \ZZ)$.
 
 :::
-
 
 :::{.solution title="Part b"}
 
