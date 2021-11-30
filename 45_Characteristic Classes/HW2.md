@@ -18,7 +18,25 @@ It suffices to show that $\pi_1 \SO_n = \ZZ/2\ZZ$ for $n\geq 2$, since this has 
 There is a cofiber sequence
 \[
 \SO_{n-1}\to \SO_n \to S^{n-1}
-.\]
+,\]
+so consider the long exact sequence in homotopy.
+Since $k\geq 2$ and $\pi_k S^n = 1$ for $k\leq n-1$, we have
+
+\begin{tikzcd}
+	&&&& \cdots \\
+	\\
+	{\pi_2 \SO_{n-1}} && {\pi_2 \SO_{n}} && \textcolor{rgb,255:red,214;green,92;blue,92}{\pi_2 S^n = 1} \\
+	\\
+	{\pi_1 \SO_{n-1}} & {} & {\pi_1 \SO_{n}} && \textcolor{rgb,255:red,214;green,92;blue,92}{\pi_1S^n = 1}
+	\arrow[from=3-1, to=3-3]
+	\arrow[from=3-3, to=3-5]
+	\arrow[from=3-5, to=5-1]
+	\arrow["\cong", color={rgb,255:red,92;green,214;blue,214}, from=5-1, to=5-3]
+	\arrow[from=5-3, to=5-5]
+	\arrow[from=1-5, to=3-1]
+\end{tikzcd}
+
+> [Link to Diagram](https://q.uiver.app/?q=WzAsOCxbMCw0LCJcXHBpXzEgXFxTT197bi0xfSJdLFsxLDRdLFsyLDQsIlxccGlfMSBcXFNPX3tufSJdLFs0LDQsIlxccGlfMVNebiA9IDEiLFswLDYwLDYwLDFdXSxbMCwyLCJcXHBpXzIgXFxTT197bi0xfSJdLFsyLDIsIlxccGlfMiBcXFNPX3tufSJdLFs0LDIsIlxccGlfMiBTXm4gPSAxIixbMCw2MCw2MCwxXV0sWzQsMCwiXFxjZG90cyJdLFs0LDVdLFs1LDZdLFs2LDBdLFswLDIsIlxcY29uZyIsMCx7ImNvbG91ciI6WzE4MCw2MCw2MF19LFsxODAsNjAsNjAsMV1dLFsyLDNdLFs3LDRdXQ==)
 
 
 :::
