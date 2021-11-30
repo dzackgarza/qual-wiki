@@ -123,16 +123,15 @@ To see that $\Spin_3\cong \SU_2$ as topological groups, note that we can write
 \SU_2 = \ts{A_{z, w} \da \matt z {-\bar w} w {\bar z} \in \Mat(2\times 2; \CC) \st \det A_{z, w} = 1}
 ,\]
 so $\abs{z}^2 + \abs{w}^2 = 1$ for any such matrix.
-This is the equation of a sphere in $\CC^2$, so
-define a map
-\[
-\Psi: S^3 \subseteq \CC^2 &\to \SU_2 \\
-(z, w) &\mapsto A_{z, w}
-.\]
-This is clear continuous and injective, since $A_{z, w} = 0$ forces $z=w=0$, with a continuous inverse $A_{z, w}\mapsto (z, w)$, so this is a homeomorphism.
-The claim is that this is a diffeomorphism.
 
-Given this claim, we have diffeomorphisms $\SU_2 \cong S^3 \cong \Spin_3$, and the further claim is that these maps are all compatible with the group structure.
+First let $Q = \gens{\vector 1, \vector i, \vector j, \vector k}$ denote the unit quaternions and define a map
+\[
+\Psi: \SU_2 &\to Q \\
+A_{z, w} &\mapsto a\vector 1 + b\vector i + c\vector j + d\vector k
+\]
+where $z = a+ib$ and $w=c +id$.
+
+
 
 :::
 
