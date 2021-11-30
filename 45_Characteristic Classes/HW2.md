@@ -14,6 +14,13 @@
 
 
 :::{.solution title="Part a"}
+It suffices to show that $\pi_1 \SO_n = \ZZ/2\ZZ$ for $n\geq 2$, since this has a unique subgroup of index 2 (namely the trivial group), which corresponds to a covering space of degree 2.
+There is a cofiber sequence
+\[
+\SO_{n-1}\to \SO_n \to S^{n-1}
+.\]
+
+
 :::
 
 
