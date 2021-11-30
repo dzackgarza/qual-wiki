@@ -129,6 +129,7 @@ define a map
 \Psi: S^3 \subseteq \CC^2 &\to \SU_2 \\
 (z, w) &\mapsto A_{z, w}
 .\]
+This is clear continuous and injective, since $A_{z, w} = 0$ forces $z=w=0$, with a continuous inverse $A_{z, w}\mapsto (z, w)$, so this is a homeomorphism.
 
 :::
 
