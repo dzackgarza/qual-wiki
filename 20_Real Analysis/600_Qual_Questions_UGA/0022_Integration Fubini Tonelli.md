@@ -313,7 +313,7 @@ m(E)
 
 
 
-## Fall 2015 # 5 #work
+## Fall 2015.5 #work
 Let $f, g \in L^1(\RR)$ be Borel measurable.
 
 1. Show that 
@@ -325,7 +325,7 @@ Let $f, g \in L^1(\RR)$ be Borel measurable.
 \|f * g\|_{1} \leq \|f\|_{1} \|g\|_{1}
 \]
 
-## Spring 2014 # 5 #work
+## Spring 2014.5 #work
 Let $f, g \in L^1([0, 1])$ and for all $x\in [0, 1]$ define
 \[
 F(x) \definedas \int _{0}^{x} f(y) \, dy 
