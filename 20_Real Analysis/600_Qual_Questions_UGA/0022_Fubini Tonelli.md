@@ -1,5 +1,11 @@
 # Fubini-Tonelli
 
+
+## Fall 2021 #4
+
+Let $f$ be a measurable function on $\mathbb{R}$. Show that the graph of $f$ has measure zero in $\mathbb{R}^{2}$.
+
+
 ## Spring 2020.4 #completed
 
 Let $f, g\in L^1(\RR)$. 
