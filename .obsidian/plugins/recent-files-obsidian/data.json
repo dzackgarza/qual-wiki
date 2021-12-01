@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "0021_Integration and L1",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0021_Integration and L1.md"
+    },
+    {
+      "basename": "densities",
+      "path": "20_Real Analysis/figures/densities.png"
+    },
+    {
+      "basename": "0020_Integrals Convergence",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md"
+    },
+    {
       "basename": "9900_Appendix_Inequalities",
       "path": "20_Real Analysis/200_Appendices/9900_Appendix_Inequalities.md"
     },
@@ -67,14 +79,6 @@
     {
       "basename": "0022_Fubini Tonelli",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0022_Fubini Tonelli.md"
-    },
-    {
-      "basename": "0021_Integration and L1",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0021_Integration and L1.md"
-    },
-    {
-      "basename": "0020_Integrals Convergence",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md"
     },
     {
       "basename": "0010_Measure Theory",
@@ -195,10 +199,6 @@
     {
       "basename": "060_Shwarz lemma",
       "path": "30_Complex Analysis/050_Conformal_Maps/060_Shwarz lemma.md"
-    },
-    {
-      "basename": "2021-10-29_02-32-14",
-      "path": "30_Complex Analysis/figures/2021-10-29_02-32-14.png"
     }
   ],
   "omittedPaths": [],

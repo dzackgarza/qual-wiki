@@ -222,7 +222,7 @@ Prove that
 
 - Shift $g$ to the right far enough so that the two densities are mostly disjoint:
 
-![Shifting density](densities.png)
+![Shifting density](figures/densities.png)
 
 - Any integral $\int_a^b f$ can be written as $\norm{f}_1 - O(\text{err})$.
 
