@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "0022_Integration Fubini Tonelli",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0022_Integration Fubini Tonelli.md"
+    },
+    {
       "basename": "0050_Functional Analysis",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Shwarz lemma",
       "path": "30_Complex Analysis/050_Conformal_Maps/Shwarz lemma.md"
-    },
-    {
-      "basename": "130_The Cauchy-Riemann equations",
-      "path": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md"
     }
   ],
   "omittedPaths": [],
