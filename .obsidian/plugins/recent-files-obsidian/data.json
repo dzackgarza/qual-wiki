@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "91_10_2019_Fall_Exam1",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/91_10_2019_Fall_Exam1.md"
+    },
+    {
+      "basename": "91_01_2018_Fall_Exam2",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/91_01_2018_Fall_Exam2.md"
+    },
+    {
+      "basename": "91_01_2018_Fall_Exam1",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/91_01_2018_Fall_Exam1.md"
+    },
+    {
       "basename": "91_01_2014_Fall_Exam2",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/91_01_2014_Fall_Exam2.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "10_Problems",
       "path": "30_Complex Analysis/000_Resources/10_Problems.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "2021-10-29_01-39-43",
-      "path": "30_Complex Analysis/figures/2021-10-29_01-39-43.png"
-    },
-    {
-      "basename": "000_Tips_Techs",
-      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     }
   ],
   "omittedPaths": [],
