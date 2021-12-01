@@ -1,7 +1,7 @@
 # Practice Exam (November 2014)
 
 
-## Fall 2018 Practice Midterm 2.1
+## Fall 2018 Practice Midterm 2.1 #work
 a.
 Carefully state Tonelli's theorem for a nonnegative function $F(x, t)$ on $\RR^n\cross \RR$.
 
@@ -20,7 +20,7 @@ b.
   .\]
 
 
-## Fall 2018 Practice Midterm 2.2
+## Fall 2018 Practice Midterm 2.2 #work
 
 a.
 Let $f, g\in L^1(\RR^n)$ and give a definition of $f\ast g$.
@@ -39,7 +39,7 @@ c. In parts:
     3. Give an example of a function $f\in L^1(\RR^n)$ such that $\hat{f}$ is not in $L^1(\RR^n)$.
 
 
-## Fall 2018 Practice Midterm 2.3
+## Fall 2018 Practice Midterm 2.3 #work
 
 \label{hilbert_space_exam_question}
 
@@ -116,7 +116,7 @@ x = \sum_{k=1}^\infty \inner{x}{u_k} u_k
 
 :::
 
-## Fall 2018 Practice Midterm 2.4
+## Fall 2018 Practice Midterm 2.4 #work
 
 a. Prove Holder's inequality:
   let $f\in L^p, g\in L^q$ with $p, q$ conjugate, and show that
@@ -160,7 +160,7 @@ c. Let $X = [0, 1] \subset \RR$.
 
 :::
 
-## Fall 2018 Practice Midterm 2.5
+## Fall 2018 Practice Midterm 2.5 #work
 
 Let $X$ be a normed vector space.
 

@@ -303,7 +303,6 @@ f \in L^p(\RR^n) \implies \|f\|_{p} = \sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d 
 
 # Banach and Hilbert Spaces
 
-
 ## Fall 2021.5 #work
 Consider the Hilbert space $\mathcal{H}=L^{2}([0,1])$.
 
