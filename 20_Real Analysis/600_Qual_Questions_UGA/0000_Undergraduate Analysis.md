@@ -1,5 +1,15 @@
 # Undergraduate Analysis: Uniform Convergence
 
+## Fall 2021 #1
+
+Let $\left\{x_{n}\right\}_{n-1}^{\infty}$ be a sequence of real numbers such that $x_{1}>0$ and
+\[
+x_{n+1}=1-\left(2+x_{n}\right)^{-1}=\frac{1+x_{n}}{2+x_{n}} \text {. }
+\]
+Prove that the sequence $\left\{x_{n}\right\}$ converges, and find its limit.
+
+
+
 ## Fall 2018.1 #completed
 Let $f(x) = \frac 1 x$.
 Show that $f$ is uniformly continuous on $(1, \infty)$ but not on $(0,\infty)$.
