@@ -1,17 +1,5 @@
 # Functional Analysis: General
 
-## Fall 2021 #5
-
-
-Consider the Hilbert space $\mathcal{H}=L^{2}([0,1])$.
-
-a.
-Prove that of $E \subset \mathcal{H}$ is closed and convex then $E$ contains an element of smallest norm. 
-
-  > Hint: Show that if $\left\|f_{n}\right\|_{2} \rightarrow \min \left\{f \in E:\|f\|_{2}\right\}$ then $\left\{f_{n}\right\}$ is a Cauchy sequence.
-
-b.
-Construct a non-empty closed subset $E \subset \mathcal{H}$ which does not contain an element of smallest norm.
 
 
 ## Fall 2019.4 #completed
@@ -313,7 +301,19 @@ Let $1 \leq p,q \leq \infty$ be conjugate exponents, and show that
 f \in L^p(\RR^n) \implies \|f\|_{p} = \sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d x\right|
 \]
 
-# Functional Analysis: Banach Spaces
+# Banach and Hilbert Spaces
+
+
+## Fall 2021.5 #work
+Consider the Hilbert space $\mathcal{H}=L^{2}([0,1])$.
+
+a.
+Prove that of $E \subset \mathcal{H}$ is closed and convex then $E$ contains an element of smallest norm. 
+
+  > Hint: Show that if $\left\|f_{n}\right\|_{2} \rightarrow \min \left\{f \in E:\|f\|_{2}\right\}$ then $\left\{f_{n}\right\}$ is a Cauchy sequence.
+
+b.
+Construct a non-empty closed subset $E \subset \mathcal{H}$ which does not contain an element of smallest norm.
 
 ## Spring 2019.1 #completed
 Let $C([0, 1])$ denote the space of all continuous real-valued functions on $[0, 1]$.
