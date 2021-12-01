@@ -116,7 +116,7 @@ This appears in several other forms:
 \int_{\RR^d} \abs{f}^2 &= \int_{\RR^d} \abs{\hat f}^2
 .\]
 
-Plancherel’s theorem the $L^2$ norm of the function equals the $\ell^2$ norm of the Fourier coefficients
+Slogan: the $L^2$ norm of the function equals the $\ell^2$ norm of the Fourier coefficients
 
 
 :::
