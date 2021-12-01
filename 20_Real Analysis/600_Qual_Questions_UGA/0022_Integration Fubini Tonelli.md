@@ -339,7 +339,7 @@ Prove that
 F(1) G(1) - \int _{0}^{1} f(x) G(x) \, dx
 \]
 
-## Spring 2021 # 6
+## Spring 2021.6 #work
 
 :::{.warnings}
 This problem may be much harder than expected.
