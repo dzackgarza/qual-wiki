@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Techniques",
+      "path": "20_Real Analysis/020_Integration/Techniques.md"
+    },
+    {
+      "basename": "Functional Analysis",
+      "path": "20_Real Analysis/200_Appendices/Functional Analysis.md"
+    },
+    {
       "basename": "Extra_Questions",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "qual_progress",
       "path": "qual_progress.md"
-    },
-    {
-      "basename": "30_Problems",
-      "path": "20_Real Analysis/000_Resources/30_Problems.md"
-    },
-    {
-      "basename": "9960 UGA Problems",
-      "path": "10_Algebra/500_Exercises/9960 UGA Problems.md"
     }
   ],
   "omittedPaths": [],

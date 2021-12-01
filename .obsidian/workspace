@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md",
+            "file": "20_Real Analysis/020_Integration/Techniques.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md",
+                "file": "20_Real Analysis/020_Integration/Techniques.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md"
+                "file": "20_Real Analysis/020_Integration/Techniques.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md",
+                "file": "20_Real Analysis/020_Integration/Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md",
+                "file": "20_Real Analysis/020_Integration/Techniques.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,6 +256,8 @@
   },
   "active": "0ae2fedaa1d2ad76",
   "lastOpenFiles": [
+    "20_Real Analysis/020_Integration/Techniques.md",
+    "20_Real Analysis/200_Appendices/Functional Analysis.md",
     "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md",
     "20_Real Analysis/600_Qual_Questions_UGA/9999_2021_Fall.md",
     "20_Real Analysis/600_Qual_Questions_UGA/9010_Extra_Problems.md",
@@ -263,8 +265,6 @@
     "20_Real Analysis/600_Qual_Questions_UGA/0999_Extra.md",
     "20_Real Analysis/600_Qual_Questions_UGA/91_10_2019_Fall_PracticeExam2.md",
     "20_Real Analysis/600_Qual_Questions_UGA/91_10_2019_Fall_Exam1.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/91_01_2018_Fall_Exam2.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/91_01_2018_Fall_Exam1.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/91_01_2014_Fall_Exam2.md"
+    "20_Real Analysis/600_Qual_Questions_UGA/91_01_2018_Fall_Exam2.md"
   ]
 }
