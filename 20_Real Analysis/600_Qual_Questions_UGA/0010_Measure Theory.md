@@ -947,6 +947,11 @@ $$
 \int_{X}|f| ~d \mu=\int_{0}^{\infty}[\phi(\lambda)+\psi(\lambda)] ~d \lambda
 $$
 
+## Spring 2016.2 #work
+Let $0 < \lambda < 1$ and construct a Cantor set $C_\lambda$ by successively removing middle intervals of length $\lambda$.
+
+Prove that $m(C_\lambda) = 0$.
+
 ## Fall 2015.2 #work
 Let $f: \RR \to \RR$ be Lebesgue measurable.
 
@@ -987,10 +992,7 @@ $$
 and characterize the collection of functions of each type.
 
 
-## Spring 2016.2 #work
-Let $0 < \lambda < 1$ and construct a Cantor set $C_\lambda$ by successively removing middle intervals of length $\lambda$.
 
-Prove that $m(C_\lambda) = 0$.
 
 # Measure Theory: Functions
 
