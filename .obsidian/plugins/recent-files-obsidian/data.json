@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "9999_2021_Fall",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/9999_2021_Fall.md"
+    },
+    {
+      "basename": "0050_Functional Analysis",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md"
+    },
+    {
+      "basename": "9010_Extra_Problems",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/9010_Extra_Problems.md"
+    },
+    {
+      "basename": "9000_Extra_Problems_MeasureTheory",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/9000_Extra_Problems_MeasureTheory.md"
+    },
+    {
+      "basename": "0999_Extra",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0999_Extra.md"
+    },
+    {
+      "basename": "91_10_2019_Fall_PracticeExam2",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/91_10_2019_Fall_PracticeExam2.md"
+    },
+    {
       "basename": "91_10_2019_Fall_Exam1",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/91_10_2019_Fall_Exam1.md"
     },
@@ -15,10 +39,6 @@
     {
       "basename": "91_01_2014_Fall_Exam2",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/91_01_2014_Fall_Exam2.md"
-    },
-    {
-      "basename": "0050_Functional Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md"
     },
     {
       "basename": "0030_Convolution and Fourier Analysis",
@@ -179,26 +199,6 @@
     {
       "basename": "9960 UGA Problems",
       "path": "10_Algebra/500_Exercises/9960 UGA Problems.md"
-    },
-    {
-      "basename": "50_Solutions_Algebra",
-      "path": "10_Algebra/000_Resources/50_Solutions_Algebra.md"
-    },
-    {
-      "basename": "000_Resources",
-      "path": "10_Algebra/000_Resources/000_Resources.md"
-    },
-    {
-      "basename": "40_Problems",
-      "path": "10_Algebra/000_Resources/40_Problems.md"
-    },
-    {
-      "basename": "algebra_2003-2009_prelims",
-      "path": "attachments/algebra_2003-2009_prelims.pdf"
-    },
-    {
-      "basename": "10_Problems",
-      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     }
   ],
   "omittedPaths": [],

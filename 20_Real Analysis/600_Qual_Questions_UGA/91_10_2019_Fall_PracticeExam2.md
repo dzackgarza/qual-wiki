@@ -1,7 +1,7 @@
 # Practice Exam (November 2014)
 
-## 1: Fubini-Tonelli
 
+## Fall 2018 Practice Midterm 2.1
 a.
 Carefully state Tonelli's theorem for a nonnegative function $F(x, t)$ on $\RR^n\cross \RR$.
 
@@ -20,7 +20,7 @@ b.
   .\]
 
 
-## 2: Convolutions and the Fourier Transform
+## Fall 2018 Practice Midterm 2.2
 
 a.
 Let $f, g\in L^1(\RR^n)$ and give a definition of $f\ast g$.
@@ -39,15 +39,15 @@ c. In parts:
     3. Give an example of a function $f\in L^1(\RR^n)$ such that $\hat{f}$ is not in $L^1(\RR^n)$.
 
 
-## 3: Hilbert Spaces
+## Fall 2018 Practice Midterm 2.3
+
 \label{hilbert_space_exam_question}
 
 Let $\theset{u_n}_{n=1}^\infty$ be an orthonormal sequence in a Hilbert space $H$.
 
 a. Let $x\in H$ and verify that 
 \[
-\left\|x-\sum_{n=1}^{N}\left\langle x, u_{n}\right\rangle u_{n}\right\|_H^{2}
-=
+\left\|x-\sum_{n=1}^{N}\left\langle x, u_{n}\right\rangle u_{n}\right\|_H^{2} =
 \|x\|_H^{2}-\sum_{n=1}^{N}\left|\left\langle x, u_{n}\right\rangle\right|^{2}
 .\]
 for any $N\in \NN$ and deduce that
@@ -116,8 +116,7 @@ x = \sum_{k=1}^\infty \inner{x}{u_k} u_k
 
 :::
 
-## 4: $L^p$ Spaces
-
+## Fall 2018 Practice Midterm 2.4
 
 a. Prove Holder's inequality:
   let $f\in L^p, g\in L^q$ with $p, q$ conjugate, and show that
@@ -161,7 +160,7 @@ c. Let $X = [0, 1] \subset \RR$.
 
 :::
 
-## 5: Dual Spaces
+## Fall 2018 Practice Midterm 2.5
 
 Let $X$ be a normed vector space.
 

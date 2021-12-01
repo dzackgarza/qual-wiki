@@ -1,5 +1,19 @@
 # Functional Analysis: General
 
+## Fall 2021 #5
+
+
+Consider the Hilbert space $\mathcal{H}=L^{2}([0,1])$.
+
+a.
+Prove that of $E \subset \mathcal{H}$ is closed and convex then $E$ contains an element of smallest norm. 
+
+  > Hint: Show that if $\left\|f_{n}\right\|_{2} \rightarrow \min \left\{f \in E:\|f\|_{2}\right\}$ then $\left\{f_{n}\right\}$ is a Cauchy sequence.
+
+b.
+Construct a non-empty closed subset $E \subset \mathcal{H}$ which does not contain an element of smallest norm.
+
+
 ## Fall 2019.4 #completed
 Let $\{u_n\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
 
