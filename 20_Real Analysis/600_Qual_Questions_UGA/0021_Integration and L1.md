@@ -1,6 +1,6 @@
 # Integrals: Approximation
 
-## Spring 2018 # 3 #completed
+## Spring 2018.3 #completed
 Let $f$ be a non-negative measurable function on $[0, 1]$. 
 
 Show that
@@ -71,7 +71,7 @@ Show that
 :::
 
 
-## Spring 2018 # 4 #completed
+## Spring 2018.4 #completed
 Let $f\in L^2([0, 1])$ and suppose
 $$
 \int _{[0,1]} f(x) x^{n} d x=0 \text { for all integers } n \geq 0.
@@ -157,7 +157,7 @@ $$
 
 :::
 
-## Spring 2015 # 2 #work
+## Spring 2015.2 #work
 Let $f: \RR \to \CC$ be continuous with period 1. 
 Prove that
 \[
@@ -167,7 +167,7 @@ Prove that
 > Hint: show this first for the functions $f(t) = e^{2\pi i k t}$ for $k\in \ZZ$.
 
 
-## Fall 2014 # 4 #work
+## Fall 2014.4 #work
 Let $g\in L^\infty([0, 1])$
 Prove that
 \[
@@ -179,7 +179,7 @@ Prove that
 
 # $L^1$
 
-## Spring 2020 # 3 #completed
+## Spring 2020.3 #completed
 
 a. Prove that if $g\in L^1(\RR)$ then
 \[
@@ -374,7 +374,7 @@ For $x\geq 1$,
 :::
 
 
-## Fall 2019 # 5. #completed
+## Fall 2019.5 #completed
 
 a.
 Show that if $f$ is continuous with compact support on $\RR$, then 
@@ -481,7 +481,7 @@ This works for arbitrary $f\in L^1$, using approximation by continuous functions
 
 
 
-## Fall 2017 # 3 #completed
+## Fall 2017.3 #completed
 Let 
 $$
 S = \spanof_\CC\theset{\chi_{(a, b)} \suchthat a, b \in \RR},
@@ -522,7 +522,7 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 :::
 
 
-## Spring 2015 # 4 #work
+## Spring 2015.4 #work
 Define
 $$
 f(x, y):=\left\{\begin{array}{ll}{\frac{x^{1 / 3}}{(1+x y)^{3 / 2}}} & {\text { if } 0 \leq x \leq y} \\ {0} & {\text { otherwise }}\end{array}\right.
@@ -530,7 +530,7 @@ $$
 
 Carefully show that $f \in L^1(\RR^2)$.
 
-## Fall 2014 # 3 #work
+## Fall 2014.3 #work
 Let $f\in L^1(\RR)$. Show that
 \[
 \forall\varepsilon > 0 \exists \delta > 0 \text{ such that } \qquad 
@@ -539,7 +539,7 @@ m(E) < \delta
 \int _{E} |f(x)| \, dx < \varepsilon
 \]
 
-## Spring 2014 # 1 #work
+## Spring 2014.1 #work
 
 1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.
 
