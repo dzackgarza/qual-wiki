@@ -812,7 +812,7 @@ $$
 \int_{E_{t}} f(x) d x=t A.
 $$
 
-## Spring 2016 # 5 #work
+## Spring 2016.5 #work
 Let $(X, \mathcal M, \mu)$ be a measure space. For $f\in L^1(\mu)$ and $\lambda > 0$, define
 $$
 \phi(\lambda)=\mu(\{x \in X | f(x)>\lambda\}) 
@@ -864,7 +864,7 @@ $$
 $$
 and characterize the collection of functions of each type.
 
-## Spring 2017 # 1 #completed
+## Spring 2017.1 #completed
 
 Let $K$ be the set of numbers in $[0, 1]$ whose decimal expansions do not use the digit $4$.
 
@@ -1050,7 +1050,7 @@ Show that
 \]
 
 
-## Spring 2021 # 1 #completed
+## Spring 2021.1 #completed
 
 :::{.problem title="Spring 2021, 1"}
 Let \( (X, \mathcal{M},\mu)  \) be a measure space and let $E_n \in \mathcal{M}$ be a measurable set for $n\geq 1$.
@@ -1146,7 +1146,7 @@ Let \( (X, \mathcal{M}, \mu)  \) be a finite measure space and let \( \ts{ f_n}_
 Suppose $f\in L^1(X, \mu)$ such that $f_n(x) \converges{n\to \infty }\to f(x)$ for almost every $x \in X$.
 Prove that for every \( \eps > 0 \) there exists $M>0$ and a set $E\subseteq X$ such that \( \mu(E) \leq \eps \) and \( \abs{f_n(x)}\leq M  \) for all $x\in X\sm E$ and all $n\in \NN$.
 
-## Fall 2020 \# 2 #work
+## Fall 2020.2 #work
 
 a.
 Let $f: \RR \to \RR$. Prove that
