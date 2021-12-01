@@ -1060,8 +1060,6 @@ for all $t\in [1, \infty)$, then
 .\]
 
 
-## Unsorted
-
 ## Spring 2014.2  #completed
 
 Let $\theset{a_n}$ be a sequence of real numbers such that
