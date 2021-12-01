@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "0000_Undergraduate Analysis",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
+    },
+    {
+      "basename": "0000_Preface",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
+    },
+    {
+      "basename": "0010_Measure Theory",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0010_Measure Theory.md"
+    },
+    {
       "basename": "0021_Integration and L1",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0021_Integration and L1.md"
+    },
+    {
+      "basename": "0020_Integrals Convergence",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md"
     },
     {
       "basename": "0022_Integration Fubini Tonelli",
@@ -183,22 +199,6 @@
     {
       "basename": "00_Topics",
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
-    },
-    {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
-    },
-    {
-      "basename": "Techniques",
-      "path": "20_Real Analysis/020_Integration/Techniques.md"
-    },
-    {
-      "basename": "20_Real Analysis",
-      "path": "20_Real Analysis.md"
-    },
-    {
-      "basename": "030_Conformal_Mapping",
-      "path": "30_Complex Analysis/050_Conformal_Maps/030_Conformal_Mapping.md"
     }
   ],
   "omittedPaths": [],

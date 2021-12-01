@@ -549,7 +549,7 @@ m(E) < \delta
 \]
 
 
-## Spring 2021 # 4 #completed
+## Spring 2021.4 #completed
 
 Let $f, g$ be Lebesgue integrable on $\RR$ and let $g_n(x) \da g(x- n)$.
 Prove that
@@ -716,7 +716,7 @@ I_2
 
 :::
 
-## Fall 2020 \# 4 #work
+## Fall 2020.4 #work
 Prove that if $xf(x) \in L^1(\RR)$, then
 \[  
 F(y) \da \int f(x) \cos(yx)\,  dx
