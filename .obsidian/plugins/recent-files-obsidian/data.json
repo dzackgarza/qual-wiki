@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "0050_Functional Analysis",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md"
+    },
+    {
+      "basename": "0030_Convolution and Fourier Analysis",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0030_Convolution and Fourier Analysis.md"
+    },
+    {
       "basename": "520_Counterexamples",
       "path": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "130_The Cauchy-Riemann equations",
       "path": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
-    },
-    {
-      "basename": "Further Studying",
-      "path": "Further Studying.md"
     }
   ],
   "omittedPaths": [],

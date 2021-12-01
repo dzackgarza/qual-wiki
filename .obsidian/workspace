@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
+            "file": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
+                "file": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md"
+                "file": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
+                "file": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
+                "file": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,6 +256,8 @@
   },
   "active": "03dfd88ae1e671d2",
   "lastOpenFiles": [
+    "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md",
+    "20_Real Analysis/600_Qual_Questions_UGA/0030_Convolution and Fourier Analysis.md",
     "10_Algebra/100_Linear_Algebra/520_Counterexamples.md",
     "10_Algebra/100_Linear_Algebra/510_Matrix_Groups.md",
     "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md",
@@ -263,8 +265,6 @@
     "30_Complex Analysis/010_Basics/115_Complex Log.md",
     "attachments/Pasted image 20211127210218.png",
     "40_Topology/020_Point_Set/100_Point_Set.md",
-    "10_Algebra/600_Qual_Questions_UGA/072_Fields and Galois Theory.md",
-    "20_Real Analysis/005_Basics/60_Littlewood Principles.md",
-    "10_Algebra/060_Galois/36_Galois_Theory_Computations.md"
+    "10_Algebra/600_Qual_Questions_UGA/072_Fields and Galois Theory.md"
   ]
 }

@@ -1,6 +1,6 @@
 # Functional Analysis: General
 
-## Fall 2019 # 4 #completed
+## Fall 2019.4 #completed
 Let $\{u_n\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
 
 a.
@@ -120,7 +120,7 @@ x\da \sum_{n\in \NN} a_n u_n
 :::
 
 
-## Spring 2019 # 5 #completed
+## Spring 2019.5 #completed
 
 a.
 Show that $L^2([0, 1]) ⊆ L^1([0, 1])$ and argue that $L^2([0, 1])$ in fact forms a dense subset of $L^1([0, 1])$.
@@ -270,13 +270,13 @@ Now apply Riesz Representation for $L^2$: there is a $g \in L^2$ such that $$f\i
 :::
 
 
-## Spring 2016 # 6 #work
+## Spring 2016.6 #work
 Without using the Riesz Representation Theorem, compute
 \[
 \sup \left\{\left|\int_{0}^{1} f(x) e^{x} d x\right| \suchthat f \in L^{2}([0,1], m),~~ \|f\|_{2} \leq 1\right\}
 \]
 
-## Spring 2015 # 5 #work
+## Spring 2015.5 #work
 Let $\mathcal H$ be a Hilbert space.
 
 1. Let $x\in \mathcal H$ and $\theset{u_n}_{n=1}^N$ be an orthonormal set.
@@ -286,14 +286,14 @@ Let $\mathcal H$ be a Hilbert space.
   $$
 2. Conclude that finite dimensional subspaces of $\mathcal H$ are always closed.
 
-## Fall 2015 # 6 #work
+## Fall 2015.6 #work
 Let $f: [0, 1] \to \RR$ be continuous.
 Show that
 \[
 \sup \left\{\|f g\|_{1} \suchthat g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
 \]
 
-## Fall 2014 # 6 #work
+## Fall 2014.6 #work
 Let $1 \leq p,q \leq \infty$ be conjugate exponents, and show that
 \[
 f \in L^p(\RR^n) \implies \|f\|_{p} = \sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d x\right|
@@ -301,7 +301,7 @@ f \in L^p(\RR^n) \implies \|f\|_{p} = \sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d 
 
 # Functional Analysis: Banach Spaces
 
-## Spring 2019 # 1 #completed
+## Spring 2019.1 #completed
 Let $C([0, 1])$ denote the space of all continuous real-valued functions on $[0, 1]$.
   
 a. Prove that $C([0, 1])$ is complete under the uniform norm $\norm{f}_u := \displaystyle\sup_{x\in [0,1]} |f (x)|$.
@@ -374,7 +374,7 @@ $$
 :::
 
 
-## Spring 2017 # 6 #completed
+## Spring 2017.6 #completed
 Show that the space $C^1([a, b])$ is a Banach space when equipped with the norm
 \[
 \|f\|:=\sup _{x \in[a, b]}|f(x)|+\sup _{x \in[a, b]}\left|f^{\prime}(x)\right|.
@@ -428,7 +428,7 @@ and define a candidate limit: for each $x\in I$, set \[f(x) \definedas \lim_{n\t
 :::
 
 
-## Fall 2017 # 6 #completed
+## Fall 2017.6 #work
 Let $X$ be a complete metric space and define a norm
 $$
 \|f\|:=\max \{|f(x)|: x \in X\}.

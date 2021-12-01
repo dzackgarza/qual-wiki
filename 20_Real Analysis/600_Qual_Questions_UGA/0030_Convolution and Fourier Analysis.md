@@ -1,14 +1,14 @@
 # $L^2$ and Fourier Analysis
 
-## Spring 2020 # 6 #completed
+## Spring 2020.6 #completed
 
-### a
+a.
 Show that
 \[
 L^2([0, 1]) \subseteq L^1([0, 1]) \qtext{and} \ell^1(\ZZ) \subseteq \ell^2(\ZZ)
 .\]
 
-### b
+b.
 For $f\in L^1([0, 1])$ define
 \[
 \hat{f}(n) \definedas \int _0^1 f(x) e^{-2\pi i n x} \, dx
@@ -35,7 +35,7 @@ converges uniformly on $[0, 1]$ to a continuous function $g$ such that $g = f$ a
 - Arguing uniform convergence: since $\theset{\hat f(n)} \in \ell^1(\ZZ)$, we should be able to apply the $M$ test.
 :::
 
-### a
+**Part a**:
 
 Claim: $\ell^1(\ZZ) \subseteq \ell^2(\ZZ)$.
 
@@ -80,7 +80,7 @@ Claim: $L^2([0, 1]) \subseteq L^1([0, 1])$.
 :::
 
 
-## Fall 2017 # 5 #completed
+## Fall 2017.5 #completed
 Let $\phi$ be a compactly supported smooth function that vanishes outside of an interval $[-N, N]$ such that $\int _{\RR} \phi(x) \, dx = 1$.
 
 For $f\in L^1(\RR)$, define
@@ -113,7 +113,7 @@ and prove the following:
 :::
 
 
-### a
+**Part a**
 
 **Lemma:** If $\phi \in C_c^1$, then
 $(f \ast \phi)' = f \ast \phi'$ almost everywhere.
@@ -183,7 +183,7 @@ and thus
 
 so $\theset{x \suchthat f\ast g(x) = 0}$ is open, and its complement is closed and bounded and thus compact.
 
-### b
+**Part b**
 
 \[
 \norm{f\ast K_j - f}_1 
@@ -223,7 +223,7 @@ Then
 
 
 
-## Spring 2017 # 5 #work
+## Spring 2017.5 #work
 Let $f, g \in L^2(\RR)$. 
 Prove that the formula
 \[
@@ -231,7 +231,7 @@ h(x) \definedas \int _{-\infty}^{\infty} f(t) g(x-t) \, dt
 \]
 defines a uniformly continuous function $h$ on $\RR$.
 
-## Spring 2015 # 6 #work
+## Spring 2015.6 #work
 Let $f \in L^1(\RR)$ and $g$ be a bounded measurable function on $\RR$.
 
 1. Show that the convolution $f\ast g$ is well-defined, bounded, and uniformly continuous on $\RR$.
@@ -240,7 +240,7 @@ Let $f \in L^1(\RR)$ and $g$ be a bounded measurable function on $\RR$.
 \frac{d}{d x}(f * g)=f *\left(\frac{d}{d x} g\right)
 \]
 
-## Fall 2014 # 5 #work
+## Fall 2014.5 #work
 
 1. Let $f \in C_c^0(\RR^n)$, and show
 \[
@@ -253,7 +253,7 @@ f\in L^1(\RR^n), \quad g\in L^\infty(\RR^n) \quad
 \implies f \ast g \text{ is bounded and uniformly continuous. }
 \]
 
-## Fall 2020 \# 5
+## Fall 2020.5 #work
 Suppose $\phi\in L^1(\RR)$ with 
 \[  
 \int \phi(x) \, dx = \alpha

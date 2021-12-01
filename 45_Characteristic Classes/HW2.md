@@ -12,7 +12,6 @@
 
 :::
 
-
 :::{.solution title="Part a"}
 This is clear for $n=2$ since $\SO_2$ is diffeomorphic to $S^1$, so $\pi_1 \SO_2 = \ZZ$, which has a unique subgroup of index $[\ZZ: 2\ZZ] = 2$. 
 By the correspondence between connected covering spaces of $X$ and conjugacy classes of subgroups of $\pi_1 X$, this implies the existence of a unique degree 2 connected covering space $\Spin_2$.
@@ -141,10 +140,6 @@ q &\mapsto (\vector v\mapsto qvq\inv)
 which is an isometry of $\RR^3$ and thus yields a rotation.
 This we also claim is a diffeomorphism inducing a group homomorphism.
 Composing these isomorphisms yields $\SU_2 \cong \SO_3$.
-
-
-
-
 :::
 
 
