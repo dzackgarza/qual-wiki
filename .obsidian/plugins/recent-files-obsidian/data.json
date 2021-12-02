@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "035_Conformal_Examples",
+      "path": "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md"
+    },
+    {
       "basename": "00_Integration",
       "path": "20_Real Analysis/020_Integration/00_Integration.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "005_Calculus_Preliminaries",
       "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
-    },
-    {
-      "basename": "001_Examples",
-      "path": "40_Topology/020_Point_Set/001_Examples.md"
     }
   ],
   "omittedPaths": [],

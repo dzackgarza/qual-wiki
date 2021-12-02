@@ -368,7 +368,9 @@
     "orthonormal",
     "Lipschitz",
     "Rouche",
-    "Antieau"
+    "Antieau",
+    "tangencies",
+    "lunes"
   ],
   "communityPluginSortOrder": "download",
   "autoPairMarkdown": false,

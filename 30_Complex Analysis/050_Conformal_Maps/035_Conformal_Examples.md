@@ -12,7 +12,6 @@
 
 - For circles with tangencies: send the tangent point to $\infty$ to get parallel lines.
 
-
 :::
 
 ## Discs and Planes
@@ -51,7 +50,7 @@ Set $T(z) = S(w)$ and solve for $w$ to get
 :::{.exercise title="Half disc to full disc"}
 Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0}$ to $\DD$.
 
-#work
+#completed
 
 :::
 
@@ -67,7 +66,7 @@ Instead compose:
 :::{.exercise title="Upper half-disc to upper half-plane"}
 Find a conformal map from the upper half-disc to the upper half-plane.
 
-#work
+#completed
 
 :::
 
