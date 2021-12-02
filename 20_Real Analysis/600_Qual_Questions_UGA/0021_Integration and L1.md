@@ -732,8 +732,7 @@ $$
 Carefully show that $f \in L^1(\RR^2)$.
 :::
 
-
-:::{.solution .foldopen}
+:::{.solution}
 Note that
 
 \[
@@ -761,8 +760,6 @@ where
 The use of iterated integration is justified by Tonelli's theorem on $\abs{f} = f$, since $f$ is non-negative and clearly measurable on $\RR^2$, and if any iterated integral is finite then it is equal to $\int \abs{f}$.
 
 :::
-
-
 
 ## Fall 2014.3 #work
 Let $f\in L^1(\RR)$. Show that
