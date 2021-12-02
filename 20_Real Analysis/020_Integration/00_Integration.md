@@ -15,7 +15,6 @@
 - $L^1$: Lebesgue integrable functions, so $\norm{f}_{L^1} \da \int \abs{f} < \infty$.
 :::
 
-
 :::{.definition title="Measurable Function"}
 A function $f: (X, \mcm_X) \to (Y, \mcm_Y)$ is **$(\mcm_X, \mcm_Y)\dash$measurable** iff $f\inv(\mcm_Y) \subseteq \mcm_X$.
 Equivalently, if $\mce_Y$ is a generating set for $\mcb_Y$, $f\inv(\mce_Y) \subseteq \mcb_X$.
@@ -66,6 +65,12 @@ A **simple function** $s: \CC\to X$ is a finite linear combination of indicator 
 s(x) = \sum_{j=1}^n c_j \chi_{E_j}(x)
 .\]
 :::
+
+
+:::{.proposition title="Folland 2.10b"}
+If $f:X\to \CC$ is measurable, there is a sequence of simple functions $\phi_n\increasesto f$ which always converges pointwise, and converges uniformly on any bounded set.
+:::
+
 
 :::{.definition title="Lebesgue Integral"}
 \[
