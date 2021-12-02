@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Integration",
+      "path": "20_Real Analysis/020_Integration/00_Integration.md"
+    },
+    {
       "basename": "00_Measure",
       "path": "20_Real Analysis/010_Measure_Theory/00_Measure.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "001_Examples",
       "path": "40_Topology/020_Point_Set/001_Examples.md"
-    },
-    {
-      "basename": "060_Shwarz lemma",
-      "path": "30_Complex Analysis/050_Conformal_Maps/060_Shwarz lemma.md"
     }
   ],
   "omittedPaths": [],
