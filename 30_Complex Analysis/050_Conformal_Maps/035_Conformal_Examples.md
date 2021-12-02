@@ -21,17 +21,20 @@
 		E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
 	- $(z; z_1,z_2,z_3) \da z\mapsto \qty{z-z_2 \over z-3}\cdot \qty{z_1-z_3 \over z_1 - z_2}$ is the cross-ratio construction that sends $(z_1, z_2,z_3) \to (1, 0, \infty)$.
 - Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
+- Conformal maps preserve "clines", i.e. the image of a line or circle must be a line or circle.
+	Orthogonal lines/circles must go to lines/circles intersecting a circle orthogonally.
 
 :::
 
 ## Discs and Planes
 
 :::{.example title="Mapping the half-disc to the half-plane"}
+To send $\DD\to \HH$, "unwrap" the boundary by sending $i\to 1
 \[
 (z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv
 .\]
 
-#work
+#completed
 
 :::
 
