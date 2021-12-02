@@ -737,8 +737,10 @@ Carefully show that $f \in L^1(\RR^2)$.
 \[
 \int_{\RR^2}\abs{f} \dmu 
 &= \int_0^\infty \int_x^\infty x^{1\over 3}(1+xy)^{-3\over 2} \dy \dx \\
-&= \int_0^\infty -2x^{-2\over 3}(1+xy)^{-1\over 2}\evalfrom_{y=x}^{y=\infty} \\
-&= \int_0^\infty {2\over x^{2\over 3} (1+x^2)^{1\over 2}}
+&= \int_0^\infty -2x^{-{ 2\over 3} }(1+xy)^{-{ 1\over 2} }\evalfrom_{y=x}^{y=\infty} \dx \\
+&= \int_0^\infty {2\over x^{2\over 3} (1+x^2)^{1\over 2}}\\
+&= \int_0^1 {2\over x^{2\over 3} (1+x^2)^{1\over 2}}
++ \int_1^\infty {2\over x^{2\over 3} (1+x^2)^{1\over 2}}
 .\]
 
 :::
