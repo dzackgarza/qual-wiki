@@ -196,9 +196,13 @@ Measurable sets form a sigma algebra, and these are expressed as countable union
 :::{.theorem title="Borel-Cantelli"}
 Let $\{E_{k}\}$ be a countable collection of measurable sets.
 Then
-$$
+\[
 \sum_{k} m(E_{k}) < \infty \implies \text{ almost every } x\in \RR \text{ is in at most finitely many } E_{k}
-.$$
+\iff
+m(\limsup_k E_k) = 0
+.\]
+
+In words, interpreting $E_k$ as events and $m(E_k) = \PP(E_k)$ as a probability: if the sum of probabilities of events is finite, the probability of infinitely many events occurring is zero.
 :::
 
 :::{.proof title="of Borel-Cantelli"}

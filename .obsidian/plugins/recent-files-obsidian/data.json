@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Measure",
+      "path": "20_Real Analysis/010_Measure_Theory/00_Measure.md"
+    },
+    {
       "basename": "0020_Integrals Convergence",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md"
     },
@@ -191,10 +195,6 @@
     {
       "basename": "001_Examples",
       "path": "40_Topology/020_Point_Set/001_Examples.md"
-    },
-    {
-      "basename": "00_Measure",
-      "path": "20_Real Analysis/010_Measure_Theory/00_Measure.md"
     },
     {
       "basename": "060_Shwarz lemma",

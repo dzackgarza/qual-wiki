@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md",
+            "file": "20_Real Analysis/010_Measure_Theory/00_Measure.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md",
+                "file": "20_Real Analysis/010_Measure_Theory/00_Measure.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md"
+                "file": "20_Real Analysis/010_Measure_Theory/00_Measure.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md",
+                "file": "20_Real Analysis/010_Measure_Theory/00_Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md",
+                "file": "20_Real Analysis/010_Measure_Theory/00_Measure.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,6 +256,7 @@
   },
   "active": "0ae2fedaa1d2ad76",
   "lastOpenFiles": [
+    "20_Real Analysis/010_Measure_Theory/00_Measure.md",
     "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md",
     "20_Real Analysis/600_Qual_Questions_UGA/0021_Integration and L1.md",
     "20_Real Analysis/figures/densities.png",
@@ -264,7 +265,6 @@
     "30_Complex Analysis/900 Unsorted/Fourier.md",
     "20_Real Analysis/020_Integration/Techniques.md",
     "20_Real Analysis/200_Appendices/Functional Analysis.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/9999_2021_Fall.md"
+    "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md"
   ]
 }
