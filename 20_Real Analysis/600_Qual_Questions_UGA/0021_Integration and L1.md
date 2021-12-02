@@ -818,10 +818,22 @@ choose $n\gg 1$ to bound the first term by $\eps$, noting that the second term i
 
 ## Spring 2014.1 #work
 
+
+:::{.problem title="?"}
 1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.
 
 2. Show that if $f$ is *uniformly* continuous, then
 \[
 \lim_{\abs x \to \infty} f(x) = 0.
 \]
+
+:::
+
+
+:::{.solution}
+Part 1:
+Take a train of triangles with base points at $k$ and $k+1$, each of area $2^{-k}$.
+Then $\int \abs{f} \approx \sum_{k\geq 0} 2^{-k} <\infty$, but $f(x)\not\to 0$ since $f(x) > 0$ infinitely often.
+:::
+
 
