@@ -762,6 +762,8 @@ The use of iterated integration is justified by Tonelli's theorem on $\abs{f} = 
 :::
 
 ## Fall 2014.3 #work
+
+:::{.problem title="?"}
 Let $f\in L^1(\RR)$. Show that
 \[
 \forall\varepsilon > 0 \exists \delta > 0 \text{ such that } \qquad 
@@ -769,6 +771,14 @@ m(E) < \delta
 \implies 
 \int _{E} |f(x)| \, dx < \varepsilon
 \]
+
+:::
+
+
+:::{.solution title="by contradiction" .foldopen}
+Note that if $m(E) = 0$ then $\int_E f = 0$ for any $f$.
+:::
+
 
 ## Spring 2014.1 #work
 
