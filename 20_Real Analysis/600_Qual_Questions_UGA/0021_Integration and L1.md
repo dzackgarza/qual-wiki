@@ -746,12 +746,17 @@ Note that
 &=
 \int_0^1 {2\over x^{2\over 3} }
 + \int_1^\infty {2\over x^{5\over 3} } \\
+&<\inty
 ,\]
-where we've entirely neglected the $1+x^2$ factor in the first term, since neglecting to divide by a positive number only makes the integrand larger, and 
+where 
+
+- For the first term: We've entirely neglected the $1+x^2$ factor, since neglecting to divide by a positive number can only make the integrand larger,
+- For the second term:
 \[
 1+x^2\geq 0 \implies {1\over \sqrt{1+x^2}} \leq {1\over \sqrt{x^2}} = {1\over x}
 \]
 
+- Both terms converge by the $p\dash$tests.
 
 :::
 
