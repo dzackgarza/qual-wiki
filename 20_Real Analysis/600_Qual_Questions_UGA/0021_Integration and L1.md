@@ -836,6 +836,18 @@ Take a train of triangles with base points at $k$ and $k+1$, each of area $2^{-k
 Then $\int \abs{f} \approx \sum_{k\geq 0} 2^{-k} <\infty$, but $f(x)\not\to 0$ since $f(x) > 0$ infinitely often.
 
 Part 2:
+
+- Idea: use contradiction to produce a sequence with arbitrarily large terms, and bound below an integral in a ball about each point.
+- Suppose $\lim_{\abs{x}\to \infty}f(x) = L > 0$.
+  - Then for all $\eps$ we can find an $M = M(\eps)$ such that $x\geq x_0 \implies L - \eps \leq f(x) \leq L+\eps$.
+  - But then 
+  \[
+  \int_\RR \abs{f(x)} \dx 
+  &\geq \int_{\abs{x} \geq M} \abs{f(x)} \dx \\
+  &\geq \int_{\abs x \geq M} \abs{L-\eps} \dx \\
+  &= \abs{L-\eps}m\qty{\ts{\abs{x} \geq M}}
+  .\]
+
 :::
 
 
