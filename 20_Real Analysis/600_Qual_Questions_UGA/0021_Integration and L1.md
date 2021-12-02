@@ -716,7 +716,7 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 
 
 - For simple functions:
-  - Let $\phi = \sum_{k\leq N} c_k \chi_{E_k}$.
+  - Let $\psi = \sum_{k\leq N} c_k \chi_{E_k}$.
   - By the argument above, for each $k$ we can find $I_{\eps, k}$ such that $\chi_{I_{\eps, k}}$ converges to $\chi_{E_k}$ in $L^1$. 
   - So defining $\psi_\eps = \sum_{k\leq N} c_k \chi_{I_{\eps, k}}$, the claim is that this will converge to $\phi$ in $L_1$.
   - Note that 
@@ -726,6 +726,16 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
   = \sum_{k, j} c_k \chi_{ I_{j, k} } \in S
   \]
   since now the $I_{j, k}$ are indicators of intervals.
+  - Moreover
+  \[
+  \norm{\psi_\eps - \psi} 
+  = \norm{ \sum_k c_k \qty{ \chi_{E_k} - \chi_{I_{\eps, k} }}  }
+  \leq \sum_k c_k \norm{ \chi_{E_k} - \chi_{I_{\eps, k}} }
+  ,\]
+  where the last norm can be bounded by the proof for characteristic functions.
+
+- For arbitrary functions:
+
 
 
 :::
