@@ -712,14 +712,14 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
   ,\]
   so the $\chi_{I_\eps}$ converge to $\chi_A$ in $L_1$.
 
-  - Then just note that $\chi_{I_\eps} = \sum_{j\leq N} \chi I_j$ where $I_\eps = \Disjoint_{j\leq N} I_j$, so $\chi_{I_\eps} \in S$.
+  - Then just note that $\chi_{I_\eps} = \sum_{j\leq N} \chi_{I_j}$ where $I_\eps = \Disjoint_{j\leq N} I_j$, so $\chi_{I_\eps} \in S$.
 
 
 - For simple functions:
   - Let $\phi(x) = \sum_{k\leq N} c_k \chi_{E_k}(x)$.
-  - By the argument above, for each $k$ we can find a 
-- Since any simple function is a finite linear combination of $\chi_{A_i}$, we can do this for each $i$ to extend this result to all simple functions.
-- But simple functions are dense in $L^1$, so $S$ is dense in $L^1$.
+  - By the argument above, for each $k$ we can find $I_{\eps, k}$ such that $\chi_{I_{\eps, k}}$ converges to $\chi_{E_k}$ in $L^1$. 
+
+
 :::
 
 
