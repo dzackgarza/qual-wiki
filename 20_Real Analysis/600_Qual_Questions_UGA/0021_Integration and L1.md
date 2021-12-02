@@ -254,7 +254,7 @@ a-\eps \leq b \leq a+\eps \implies b=a
 
 - Now use $N$ to make the densities almost disjoint: choose $N\gg 1$ so that $N-R_2 > R_1$:
 
-![Shifting density](densities.png)
+![Shifting density](figures/densities.png)
 
 - Consider the change of variables $x\mapsto x-N$:
 \[
@@ -722,12 +722,26 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 
 
 ## Spring 2015.4 #work
+
+:::{.problem title="?"}
 Define
 $$
 f(x, y):=\left\{\begin{array}{ll}{\frac{x^{1 / 3}}{(1+x y)^{3 / 2}}} & {\text { if } 0 \leq x \leq y} \\ {0} & {\text { otherwise }}\end{array}\right.
 $$
 
 Carefully show that $f \in L^1(\RR^2)$.
+:::
+
+
+:::{.solution}
+\[
+\int_{\RR^2}\abs{f} \dmu 
+&= \int_0^\infty \int_
+.\]
+
+:::
+
+
 
 ## Fall 2014.3 #work
 Let $f\in L^1(\RR)$. Show that
