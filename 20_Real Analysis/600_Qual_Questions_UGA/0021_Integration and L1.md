@@ -391,7 +391,16 @@ defines a $C^1$ function.
 - Apply the MVT:
 \[
 { h(x, y_n) - h(x, y_0) \over y_n - y_0}
-= \dd{h}{y}(x, y_t) && \text{ for some } y_t \in [y_0, y_n]
+&= \dd{h}{y}(x, y_t) && \text{ for some } y_t \in [y_0, y_n]
+.\]
+
+- Use this to get a bound for DCT:
+\[
+\abs{ h(x, y_n) - h(x, y_0) \over y_n - y_0}
+&= \abs{ \dd{h}{y}(x, y_t) } \\
+&\leq \sup_{y\in [y_0, y_n]} \abs{ \dd{h}{y}(x, y) } \\
+&\leq \sup_{y\in [y_0, y_n]} \abs{ xf(x) \sin(yx) } \\
+&\leq \abs{ xf(x) } \in L^1
 .\]
 
 
