@@ -834,6 +834,8 @@ choose $n\gg 1$ to bound the first term by $\eps$, noting that the second term i
 Part 1:
 Take a train of triangles with base points at $k$ and $k+1$, each of area $2^{-k}$.
 Then $\int \abs{f} \approx \sum_{k\geq 0} 2^{-k} <\infty$, but $f(x)\not\to 0$ since $f(x) > 0$ infinitely often.
+
+Part 2:
 :::
 
 
