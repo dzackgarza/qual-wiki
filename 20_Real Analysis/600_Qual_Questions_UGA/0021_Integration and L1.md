@@ -856,8 +856,13 @@ Part 2:
 \[
 \int_{B_\delta(x_n)} \abs{f(x)}\dx 
 \geq  2\delta \cdot 3\eps/4 > 0
-,\]
-contradicting the small tails property of $L^1$.
+.\]
+- But now we've contradicted $f\in L^1$:
+\[
+\int_\RR \abs{f} \geq \sum_{n\geq 1} \int_{B_\delta(x_n)} \abs{f} \geq \sum_{n\geq 1} 2\delta 3\eps 4 \to \infty
+.\]
+$\contradiction$
+
 
 
   
