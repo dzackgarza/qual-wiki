@@ -386,7 +386,7 @@ defines a $C^1$ function.
 - Define
 \[
 h_n(x) \da 
-\lim_{y_n\to y_0} { h(x, y_n) - h(x, y_0) \over y_n - y_0}
+{ h(x, y_n) - h(x, y_0) \over y_n - y_0}
 .\]
 
 - We can then write 
@@ -396,14 +396,15 @@ h_n(x) \da
 .\]
 - Apply the MVT:
 \[
-{ h(x, y_n) - h(x, y_0) \over y_n - y_0}
-&= \dd{h}{y}(x, y_t) && \text{ for some } y_t \in [y_0, y_n]
+h_n(x) \da { h(x, y_n) - h(x, y_0) \over y_n - y_0}
+&= \dd{h}{y}(x, y_t) && \text{ for some } \tilde y \in [y_0, y_n]
 .\]
 
 - Use this to get a bound for DCT:
 \[
-\abs{ h(x, y_n) - h(x, y_0) \over y_n - y_0}
-&= \abs{ \dd{h}{y}(x, y_t) } \\
+\abs{h_n(x)}
+&\da \abs{ h(x, y_n) - h(x, y_0) \over y_n - y_0}
+&= \abs{ \dd{h}{y}(x, \tilde y) } \\
 &\leq \sup_{y\in [y_0, y_n]} \abs{ \dd{h}{y}(x, y) } \\
 &\leq \sup_{y\in [y_0, y_n]} \abs{ xf(x) \sin(yx) } \\
 &\leq \abs{ xf(x) }
