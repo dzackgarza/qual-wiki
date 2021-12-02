@@ -17,6 +17,8 @@
 	- $Q_i$ is the $i$th quadrant, e.g. $Q_1 \da \ts{z \st \Re(z), \Im(z) > 0}$.
 	- $\DD \da \ts{z \st \abs{z} < 1}$ is the open unit disc.
 	- $\HH \da \ts{z \st \Im(z) > 0}$ is the open upper half-plane.
+	- $Q_{ij} \da Q_i \union Q_j$ is the union of two quadrants.
+		E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
 
 :::
 
@@ -54,7 +56,7 @@ Set $T(z) = S(w)$ and solve for $w$ to get
 :::
 
 :::{.exercise title="Half disc to full disc"}
-Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0}$ to $\DD$.
+Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0} = \DD \inters$ to $\DD$.
 
 #completed
 
