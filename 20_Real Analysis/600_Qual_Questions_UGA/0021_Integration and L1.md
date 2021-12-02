@@ -1,7 +1,6 @@
 # Integrals: Approximation
 
-## Fall 2021.2 #work
-
+## Fall 2021.2 #completed
 
 :::{.problem title="?"}
 a.
@@ -24,6 +23,27 @@ Prove that $I(x)=\infty$ if $x \not\in F$, however $I(x)<\infty$ for almost ever
   > Hint: investigate $\int_{F} I(x) d x$.
 
 :::
+
+:::{.solution title="Part a"}
+Let $y\in F^c$ which is open, then one can find an epsilon ball about $y$ avoiding $F$.
+We can take $\eps \da \delta_F(y)$ to define $A \da B_{\eps}(y)$, and we still have $A \subseteq F^c$ and $F \subseteq A^c$.
+Note that $\abs{x-y}^2 = (x-y)^2$ since this is always positive, then
+\[
+\int_F \abs{x-y}^{-2} \dx 
+&\leq \int_{A^c} \abs{x-y}^{-2} \dx \\
+&= \int_{-\infty}^{-\eps} \qty{x-y}^{-2} \dx + \int_{\eps}^{\infty} \qty{x-y}^{-2}\dx \\
+&= \int_{-\infty}^{-\eps} u^{-2} \dx + \int_{\eps}^{\infty} u^{-2} \dx \\
+&= -u\inv \evalfrom_{u=-\eps}^{u=-\infty}- u\inv\evalfrom_{u=\infty}^{u=\eps} \\
+&= {2\over \eps} \\
+&\da {2\over \delta_F(y)}
+.\]
+:::
+
+
+:::{.solution title="Part b"}
+
+:::
+
 
 
 
