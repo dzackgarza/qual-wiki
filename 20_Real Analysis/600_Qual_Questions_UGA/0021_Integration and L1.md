@@ -839,15 +839,20 @@ Part 2:
 
 - Idea: use contradiction to produce a sequence with arbitrarily large terms, and bound below an integral in a ball about each point.
 - Suppose $\lim_{\abs{x}\to \infty}f(x) = L > 0$.
-  - Then for all $\eps$ we can find an $M = M(\eps)$ such that $x\geq x_0 \implies L - \eps \leq f(x) \leq L+\eps$.
-  - But then 
+  - Then for any $\eps$ there exists an $M$ such that $x\geq M \implies \abs{f(x) - L} < \eps$, so $L-\eps \leq f(x) \leq L+\eps$
+  - Choosing $\eps=L/2$ yields $L/2 \leq f(x) \leq 3L/2$, and so
   \[
-  \int_\RR \abs{f(x)} \dx 
-  &\geq \int_{\abs{x} \geq M} \abs{f(x)} \dx \\
-  &\geq \int_{\abs x \geq M} \abs{L-\eps} \dx \\
-  &= \abs{L-\eps}m\qty{\ts{\abs{x} \geq M}}
-  .\]
+  \int_\RR \abs f
+  \geq \int_{\abs x \geq M} \abs{f} \geq \int_{\abs x\geq M} L/2 \to \infty
+  ,\]
+  contradicting $f\in L^1(\RR)$. $\contradiction$.
 
+- So it must be that this limit does not exist.
+  Fix $\eps>0$, then there are infinitely many $x$ such that $f(x) > \eps$, so choose a sequence $x_n\to \infty$ with $f(x_n) > \eps$ for each $n$.
+
+- Now use uniform continuity: pick a uniform $\delta = \delta(\eps)$ such that $x\in B_\delta(x_n) \implies \abs{f(x) - f(x_n)} < \eps$.
+
+  
 :::
 
 
