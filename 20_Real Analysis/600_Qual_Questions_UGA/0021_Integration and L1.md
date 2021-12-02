@@ -780,8 +780,18 @@ m(E) < \delta
 - Note that if $m(E) = 0$ then $\int_E f = 0$ for any $f$.
 - Toward a contradiction, suppose there exists an $\eps>0$ such that for all $\delta>0$ there exists a set $E_\delta \subseteq \RR$ with $m(E) < \delta$ but $\int_{E_\delta} \abs f > \eps$.
 - Let $\delta_n \decreasesto 0$ be any sequence converging to zero and choose $E_n$ with $\int_{E_n} \abs f > \eps$ for every $n$.
-- Define $A \da \limsup_n E_n \da \Intersect_{N\geq 1} \Union_{n\geq N} E_n$, then $m(A) = 0$ by Borel-Cantelli.
-- 
+- Define $E \da \limsup_n E_n \da \Intersect_{N\geq 1} \Union_{n\geq N} E_n$, then $m(E) = 0$ by Borel-Cantelli.
+- Now estimate using Fatou:
+\[
+\int_{E} \abs{f} 
+&= \int_X \chi_E \abs{f} \\
+&= \int_X \limsup_n \chi_{E_n} \abs{f} \\
+&\geq \limsup_n \int_X \chi_{E_n }\abs{f}  \\
+&\geq \limsup_n \int_{E_n} \abs{f} \\
+&\geq \limsup_n \eps \\
+&= \eps
+,\]
+however $\int_E \abs{f}\dm = 0$ since $m(E) = 0$, a contradiction. $\contradiction$.
 :::
 
 
