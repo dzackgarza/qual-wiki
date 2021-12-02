@@ -850,14 +850,14 @@ Part 2:
 - So it must be that this limit does not exist.
   Fix $\eps>0$, then there are infinitely many $x$ such that $f(x) > \eps$, so choose a sequence $x_n\to \infty$ with $f(x_n) > \eps$ for each $n$.
 
-- Now use uniform continuity: pick a uniform $\delta = \delta(\eps)$ such that $x\in B_\delta(x_n) \implies \abs{f(x) - f(x_n)} < \eps/10$.
+- Now use uniform continuity: pick a uniform $\delta = \delta(\eps)$ such that $x\in B_\delta(x_n) \implies \abs{f(x) - f(x_n)} < \eps/4$.
 
-- Now use that $f(x_n) - \eps/4 \leq f(x) \leq f(x_n)+\eps/4$ to estimate
+- Now use that $f(x_n) - \eps/4 \leq f(x) \leq f(x_n)+\eps/4$ implies that $f(x) \geq 3\eps/4$ whenever $x\in B_\delta(x_n)$ for any $n$ to estimate
 \[
 \int_{B_\delta(x_n)} \abs{f(x)}\dx 
-&\geq \int_{B_\delta(x_n)} \eps - \eps/4 \dx \\
-&= 2\delta \cdot 3\eps/4
-.\]
+\geq  2\delta \cdot 3\eps/4 > 0
+,\]
+contradicting the small tails property of $L^1$.
 
 
   
