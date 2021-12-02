@@ -793,7 +793,7 @@ m(E) < \delta
 however $\displaystyle\int_E \abs{f}\dm = 0$ since $m(E) = 0$, a contradiction. $\contradiction$.
 :::
 
-:::{.solution title="direct" .foldopen}
+:::{.solution title="direct" }
 Note that this is clear for simple functions: let $\phi = \sum_{k\leq n} c_k m(A_k) < \infty$ be simple function. then $\phi$ is necessarily bounded on $\RR$, so let $M\da \sup_\RR \phi$ and estimate
 \[
 \int_E \phi 
@@ -815,8 +815,6 @@ choose $n\gg 1$ to bound the first term by $\eps$, noting that the second term i
 
 
 :::
-
-
 
 ## Spring 2014.1 #work
 
