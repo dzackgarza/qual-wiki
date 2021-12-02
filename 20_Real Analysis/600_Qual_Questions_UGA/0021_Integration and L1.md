@@ -701,20 +701,26 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 :::{.solution}
 \envlist
 
-- It suffices to show that $S$ is dense in simple functions, and since simple functions are *finite* linear combinations of characteristic functions, it suffices to show this for $\chi_A$ for $A$ a measurable set.
+- Idea: first show this for characteristic functions, then simple functions, then for arbitrary $f$.
 
-- Let $s = \chi_{A}$. 
-  By regularity of the Lebesgue measure, choose an open set $O \supseteq A$ such that $m(O\setminus A) < \varepsilon$.
+- For characteristic functions:
+  - Consider $\chi_{A}$ for $A$ a measurable set.
+    By regularity of the Lebesgue measure, choose an open set $O \supseteq A$ such that $m(O\setminus A) < \varepsilon$.
 
-- $O$ is an open subset of $\RR$, and thus $O = \Disjoint_{j\geq 1} I_j$ is a disjoint union of countably many open intervals.
+  - $O$ is an open subset of $\RR$, and thus $O = \Disjoint_{j\geq 1} I_j$ is a disjoint union of countably many open intervals.
 
-- For $\eps \da 1/n$, define $I_{n} \subseteq O$ by setting $I_n = \Disjoint_{j\leq N} I_j$ where $N\gg 1$ is chosen large enough to ensure $m(O \Delta I_n) < \eps$.
+  - Define $I_{n} \subseteq O$ by setting $I_n = \Disjoint_{j\leq N} I_j$ where $N\gg 1$ is chosen large enough to ensure $m(O \Delta I_n) < {1\over n}$.
 
-- Now define $f_n = \chi_{I_{n}}$, then
-\[
-\norm{s - f_n}_1 = \int_\RR \abs{\chi_A(x)- \chi_{I_{n}(x)}} = m(A \Delta I_{n}) \converges{n\to\infty}\too 0
-.\]
+  - Define $f_n \da \chi_{I_{n}}$, then
+  \[
+  \norm{s - f_n}_1 
+  = \int_\RR \abs{\chi_A(x)- \chi_{I_{n}}(x) } 
+  = m(A \Delta I_{n}) \converges{n\to\infty}\too 0
+  ,\]
+  so the $\chi_{I_n}$ converge to $\chi_A$ in $L^1$
 
+- For simple functions:
+  - Let $\phi(x) = \sum c_k \chi_{E_k}(x)$.
 - Since any simple function is a finite linear combination of $\chi_{A_i}$, we can do this for each $i$ to extend this result to all simple functions.
 - But simple functions are dense in $L^1$, so $S$ is dense in $L^1$.
 :::
