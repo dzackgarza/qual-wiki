@@ -387,6 +387,7 @@ defines a $C^1$ function.
 \[
 \dd{h}{y}(x, y_0) 
 \da \lim_{y_n\to y_0} { h(x, y_n) - h(x, y_0) \over y_n - y_0}
+\da \lim_{n\to 0} h_n(x)
 .\]
 - Apply the MVT:
 \[
@@ -400,8 +401,17 @@ defines a $C^1$ function.
 &= \abs{ \dd{h}{y}(x, y_t) } \\
 &\leq \sup_{y\in [y_0, y_n]} \abs{ \dd{h}{y}(x, y) } \\
 &\leq \sup_{y\in [y_0, y_n]} \abs{ xf(x) \sin(yx) } \\
-&\leq \abs{ xf(x) } \in L^1
+&\leq \abs{ xf(x) }
+,\]
+  and by assumption $xf(x) \in L^1$.
+
+- So this justifies commuting an integral and a limit:
+\[
+F'(y_0) 
+&\da \lim_{y_n\to y_0} { F(y_n) - F(y_0) \over y_n - y_0} \\
+&= \lim_{n\to 0} \int {h_n(x) - h_0(x) \over  }
 .\]
+
 
 
 :::
