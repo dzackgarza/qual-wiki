@@ -708,11 +708,11 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 
 - $O$ is an open subset of $\RR$, and thus $O = \Disjoint_{j\geq 1} I_j$ is a disjoint union of countably many open intervals.
 
-- For $\eps \da 1/n$, define $I_{n} \subseteq O$ by setting $I_n = \Disjoint_{j\leq N}$ where $N\gg 1$ is chosen large enough to ensure $m(O \Delta I_n) < \eps$.
+- For $\eps \da 1/n$, define $I_{n} \subseteq O$ by setting $I_n = \Disjoint_{j\leq N} I_j$ where $N\gg 1$ is chosen large enough to ensure $m(O \Delta I_n) < \eps$.
 
-- Now define $f_n = \chi_{I_{N, n}}$, then
+- Now define $f_n = \chi_{I_{n}}$, then
 \[
-\norm{s - f_n}_1 = \int \abs{\chi_A - \chi_{I_{N, n}}} = m(A \Delta I_{N, n}) \converges{n\to\infty}\too 0
+\norm{s - f_n}_1 = \int_\RR \abs{\chi_A(x)- \chi_{I_{n}(x)}} = m(A \Delta I_{n}) \converges{n\to\infty}\too 0
 .\]
 
 - Since any simple function is a finite linear combination of $\chi_{A_i}$, we can do this for each $i$ to extend this result to all simple functions.
