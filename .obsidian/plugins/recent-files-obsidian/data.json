@@ -5,6 +5,14 @@
       "path": "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md"
     },
     {
+      "basename": "031_Conformal_Standard",
+      "path": "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md"
+    },
+    {
+      "basename": "030_LFTs",
+      "path": "30_Complex Analysis/050_Conformal_Maps/030_LFTs.md"
+    },
+    {
       "basename": "00_Integration",
       "path": "20_Real Analysis/020_Integration/00_Integration.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "020 Liouville",
       "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
-    },
-    {
-      "basename": "010_Counterexamples",
-      "path": "20_Real Analysis/020_Integration/010_Counterexamples.md"
-    },
-    {
-      "basename": "005_Calculus_Preliminaries",
-      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
     }
   ],
   "omittedPaths": [],

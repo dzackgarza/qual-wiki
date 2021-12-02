@@ -1,7 +1,6 @@
 # Standard Conformal Maps
 
 :::{.remark}
-Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
 
 :::
 

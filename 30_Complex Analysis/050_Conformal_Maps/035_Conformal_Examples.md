@@ -19,6 +19,7 @@
 	- $\HH \da \ts{z \st \Im(z) > 0}$ is the open upper half-plane.
 	- $Q_{ij} \da Q_i \union Q_j$ is the union of two quadrants.
 		E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
+- Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
 
 :::
 
@@ -80,9 +81,8 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 
 :::{.solution}
 
-![](figures/2021-07-29_19-26-39.png)
-
 - $z\mapsto {1+z\over 1-z}$ is a standard map $\DD\to Q_{14}$ which restricts to $\DD \intersect \HH \to Q_1$
+- $z\mapsto z^2$ unwraps $Q_1\to \HH$.
 
 :::
 
