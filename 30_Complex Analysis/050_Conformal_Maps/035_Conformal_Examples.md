@@ -12,6 +12,9 @@
 
 - For circles with tangencies: send the tangent point to $\infty$ to get parallel lines.
 
+- Notation:
+	- $Q_i$ is the $i$th quadrant, e.g. $Q_1 \da \ts{
+
 :::
 
 ## Discs and Planes
