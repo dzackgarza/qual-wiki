@@ -750,7 +750,7 @@ Note that
 \int_0^1 {2\over x^{2\over 3} (1+x^2)^{1\over 2}}
 + \int_1^\infty {2\over x^{2\over 3} (x^2)^{1\over 2}} \\
 &=
-\int_0^1 {2\over x^{2\over 3} (1+x^2)^{1\over 2}}
+\int_0^1 {2\over x^{2\over 3} }
 + \int_1^\infty {2\over x^{5\over 3} } \\
 .\]
 
