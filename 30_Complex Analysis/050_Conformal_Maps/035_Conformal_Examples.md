@@ -13,7 +13,7 @@
 - For circles with tangencies: send the tangent point to $\infty$ to get parallel lines.
 
 - Notation:
-	- $Q_i$ is the $i$th quadrant, e.g. $Q_1 \da \ts{
+	- $Q_i$ is the $i$th quadrant, e.g. $Q_1 \da \ts{z \st \Re(z), \Im(z) > 0}$
 
 :::
 
