@@ -736,6 +736,15 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 
 - For arbitrary functions:
 
+  - Now just use that every $f \in L^1$ can be approximated by simple functions $\phi_n$ so that $\norm{f-\phi_n}_1 < \eps$ for $n \gg 1$.
+  - So find $\phi_n\to f$, and for each $n$, find $g_{n, k} \in S$ with $\norm{g_{n, k} - \phi_n}_1 \convergesto{k\to \infty} 0$, an approximation by functions in $S$.
+  - Then
+  \[
+  \norm{f - g_{n, k}} \leq \norm{f - \phi_n} + \norm{\phi_n - g_{n, k}}
+  ,\]
+  which can be made arbitrarily small.
+
+
 
 
 :::
