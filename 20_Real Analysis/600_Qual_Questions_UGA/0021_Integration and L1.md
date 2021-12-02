@@ -791,7 +791,7 @@ m(E) < \delta
 &\geq \limsup_n \eps \\
 &= \eps
 ,\]
-however $\int_E \abs{f}\dm = 0$ since $m(E) = 0$, a contradiction. $\contradiction$.
+however $\displaystyle\int_E \abs{f}\dm = 0$ since $m(E) = 0$, a contradiction. $\contradiction$.
 :::
 
 
