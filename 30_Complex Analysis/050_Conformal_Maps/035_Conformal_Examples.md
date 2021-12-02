@@ -31,26 +31,19 @@
 :::{.example title="Mapping the half-disc to the half-plane"}
 To send $\DD\to \HH$, "unwrap" the boundary by sending the boundary curve through $(i,1,-1)$ to the real line $(1, 0, \infty)$:
 \[
-(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv = -i\qty{z-1\over z+1}
+(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv = -i\qty{z-1\over z+1} = i\qty{1-z\over 1+z}
 .\]
+
+#todo Why does this coincide with the standard map...?
 
 #completed
 
 :::
 
 :::{.example title="?"}
-\envlist
+Find a Mobius transformation where $(1,i, 2) \to (3,0,-1)$.
 
-- $(z; i, 1, -1): \DD\to \HH$
-- $(z; 0, -1, 1): \DD \intersect \HH \to Q_1$.
-
-A Mobius transformation of the following form:
-\[
-1 &\mapsto 3 \\
-i &\mapsto 0 \\
-2 &\mapsto -1
-.\]
-Write $T(z) = (z; 1, i, 2)$ and $S(w) = (w; 3, 0, -1)$.
+Write $T(z) = (z; 1, i, 2)$ and $S(w) = (w; 3, 0, -1)$, then the desired map is $T\circ S\inv$.
 Set $T(z) = S(w)$ and solve for $w$ to get
 \[
 \frac{-3 z+3 i}{(7-4 i) z+(-8+5 i)}
