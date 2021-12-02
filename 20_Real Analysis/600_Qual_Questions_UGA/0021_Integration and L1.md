@@ -705,22 +705,19 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 
 - For characteristic functions:
   - Consider $\chi_{A}$ for $A$ a measurable set.
-    By regularity of the Lebesgue measure, choose an open set $O \supseteq A$ such that $m(O\setminus A) < \varepsilon$.
-
-  - $O$ is an open subset of $\RR$, and thus $O = \Disjoint_{j\geq 1} I_j$ is a disjoint union of countably many open intervals.
-
-  - Define $I_{n} \subseteq O$ by setting $I_n = \Disjoint_{j\leq N} I_j$ where $N\gg 1$ is chosen large enough to ensure $m(O \Delta I_n) < {1\over n}$.
-
-  - Define $f_n \da \chi_{I_{n}}$, then
+  - By regularity of the Lebesgue measure, for every $\eps>0$ we can find an $I_\eps$ such that $m(A\Delta I_\eps)< \eps$ where $I_\eps$ is a finite disjoint union of intervals.
+  - Then use
   \[
-  \norm{s - f_n}_1 
-  = \int_\RR \abs{\chi_A(x)- \chi_{I_{n}}(x) } 
-  = m(A \Delta I_{n}) \converges{n\to\infty}\too 0
+  \eps > m(A\Delta I\eps) = \int_X \abs{\chi_A - \chi_{I_\eps}}
   ,\]
-  so the $\chi_{I_n}$ converge to $\chi_A$ in $L^1$
+  so the $\chi_{I_\eps}$ converge to $\chi_A$ in $L_1$.
+
+  - Then just note that $\chi_{I_\eps} = \sum_{j\leq N} \chi I_j$ where $I_\eps = \Disjoint_{j\leq N} I_j$, so $\chi_{I_\eps} \in S$.
+
 
 - For simple functions:
-  - Let $\phi(x) = \sum c_k \chi_{E_k}(x)$.
+  - Let $\phi(x) = \sum_{k\leq N} c_k \chi_{E_k}(x)$.
+  - By the argument above, for each $k$ we can find a 
 - Since any simple function is a finite linear combination of $\chi_{A_i}$, we can do this for each $i$ to extend this result to all simple functions.
 - But simple functions are dense in $L^1$, so $S$ is dense in $L^1$.
 :::
