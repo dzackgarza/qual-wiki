@@ -368,7 +368,7 @@ I_2
 
 :::
 
-## Fall 2020.4 #work
+## Fall 2020.4 #completed
 
 :::{.problem title="?"}
 Prove that if $xf(x) \in L^1(\RR)$, then
@@ -378,8 +378,7 @@ F(y) \da \int f(x) \cos(yx)\,  dx
 defines a $C^1$ function.
 :::
 
-
-:::{.solution .foldopen}
+:::{.solution }
 
 - Fix $y_0$, we'll show $F'$ exists and is continuous at $y_0$.
 - Fix a sequence $y_n\decreasesto y_0$ and define
@@ -423,21 +422,18 @@ and since this limit exists and is finite, $F$ is differentiable at $y_0$.
 
 - That $F$ is continuous:
 \[
-\lim_{y_n \to y_0} F'(y_0)
-&= \lim_{y_n \to y_0} \int \dd{h}{y}(x, y_0) \dx \\
-&\equalsbecause{\text{DCT}} 
-\int \lim_{y_n \to y_0} \dd{h}{y}(x, y_0) \dx 
-&=
-- \int \lim_{y_n \to y_0} xf(x) \sin(yx) \dx 
-.\]
+\lim_{y_n \to y_0} F'(y_n)
+&= \lim_{y_n \to y_0} \int \dd{h}{y}(x, y_n) \dx \\
+&\equalsbecause{\text{DCT}} \int \lim_{y_n \to y_0} \dd{h}{y}(x, y_n) \dx \\
+&= - \int \lim_{y_n \to y_0} xf(x) \sin(y_n x) \dx \\
+&= - \int xf(x) \sin(y_0x) \dx 
+,\]
+where we've used that $y\mapsto \sin(yx)$ is clearly continuous.
 
 
 
 
 :::
-
-
-
 
 ## Spring 2020.3 #completed
 
