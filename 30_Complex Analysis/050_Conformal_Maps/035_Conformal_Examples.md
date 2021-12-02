@@ -15,6 +15,8 @@
 - Notation:
 	- Almost everything is an *open* set, so don't include boundaries in definitions.
 	- $Q_i$ is the $i$th quadrant, e.g. $Q_1 \da \ts{z \st \Re(z), \Im(z) > 0}$.
+	- $\DD \da \ts{z \st \abs{z} < 1}$ is the open unit disc.
+	- $\HH \da \ts{z \st \Im(z) > 0}$ is the open upper half-plane.
 
 :::
 
