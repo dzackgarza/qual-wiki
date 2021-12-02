@@ -56,7 +56,7 @@ Set $T(z) = S(w)$ and solve for $w$ to get
 :::
 
 :::{.exercise title="Half disc to full disc"}
-Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0} = \DD \inters$ to $\DD$.
+Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0} = \DD \intersect \HH$ to $\DD$.
 
 #completed
 
@@ -81,6 +81,8 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 :::{.solution}
 
 ![](figures/2021-07-29_19-26-39.png)
+
+- $z\mapsto {1+z\over 1-z}$ is a standard map $\DD\to Q_{14}$ which restricts to $\DD \intersect \HH \to Q_1$
 
 :::
 
