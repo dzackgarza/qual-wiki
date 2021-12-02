@@ -382,9 +382,7 @@ defines a $C^1$ function.
 :::{.solution .foldopen}
 
 - Fix $y_0$, we'll show $F'$ exists and is continuous at $y_0$.
-- Fix a sequence $y_n\decreasesto y_0$ and define $h_n(x) \da h(x, y_n) \da f(x)\cos(y_n x)$.
-  Note that $F(y_n) = \displaystyle\int h_n(x) \dx$.
-- Define
+- Fix a sequence $y_n\decreasesto y_0$ and define
 \[
 h_n(x) \da 
 { h(x, y_n) - h(x, y_0) \over y_n - y_0}
@@ -398,7 +396,7 @@ h_n(x) \da
 - Apply the MVT:
 \[
 h_n(x) \da { h(x, y_n) - h(x, y_0) \over y_n - y_0}
-&= \dd{h}{y}(x, y_t) && \text{ for some } \tilde y \in [y_0, y_n]
+&= \dd{h}{y}(x, \tilde y) && \text{ for some } \tilde y \in [y_0, y_n]
 .\]
 
 - Use this to get a bound for DCT:
@@ -416,7 +414,7 @@ h_n(x) \da { h(x, y_n) - h(x, y_0) \over y_n - y_0}
 \[
 F'(y_0) 
 &\da \lim_{y_n\to y_0} { F(y_n) - F(y_0) \over y_n - y_0} \\
-&= \lim_{n\to 0} \int {h_n(x) - h_0(x) \over  }
+&= \lim_{n\to 0} \int {h_n(x)  }
 .\]
 
 
