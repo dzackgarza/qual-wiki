@@ -385,7 +385,8 @@ defines a $C^1$ function.
 - Fix a sequence $y_n\to y_0$ and define $h_n(x) \da h(x, y_n) \da f(x)\cos(y_n x)$.
 - Note that
 \[
-\dd{h}{y}(x, y_0) = \lim_{y_n\to y_0} ?
+\dd{h}{y}(x, y_0) 
+\da \lim_{y_n\to y_0} { h(x, y_n) - h(x, y_0) \over y_n - y_0} \da \lim_{n\to 0} H_n(x)
 .\]
 
 :::
