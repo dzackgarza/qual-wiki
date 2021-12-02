@@ -385,7 +385,7 @@ defines a $C^1$ function.
 - Fix a sequence $y_n\decreasesto y_0$ and define
 \[
 h_n(x) \da 
-{ h(x, y_n) - h(x, y_0) \over y_n - y_0}
+{ h(x, y_n) - h(x, y_0) \over y_n - y_0} && h(x, y) \da f(x) \cos(yx)
 .\]
 
 - We can then write 
@@ -416,15 +416,19 @@ F'(y_0)
 &\da \lim_{y_n\to y_0} { F(y_n) - F(y_0) \over y_n - y_0} \\
 &= \lim_{n\to 0} \int {h_n(x)  } \dx \\
 &\equalsbecause{\text{DCT}} \int \lim_{n\to\infty} h_n(x) \dx \\
-&\da \int \dd{h}{y}(x, y_0) \dx 
+&\da \int \dd{h}{y}(x, y_0) \dx \\
+&\da - \int xf(x) \sin(yx) \dx 
 ,\]
 and since this limit exists and is finite, $F$ is differentiable at $y_0$.
 
 - That $F$ is continuous:
 \[
 \lim_{y_n \to y_0} F'(y_0)
-&= \lim_{y_n \to y_0} \int \dd{h}{y}(x, y_0) \dx 
-&\equalsbecause{\text{DCT}} \int \lim_{y_n \to y_0} \dd{h}{y}(x, y_0) \dx 
+&= \lim_{y_n \to y_0} \int \dd{h}{y}(x, y_0) \dx \\
+&\equalsbecause{\text{DCT}} 
+\int \lim_{y_n \to y_0} \dd{h}{y}(x, y_0) \dx 
+&=
+- \int \lim_{y_n \to y_0} xf(x) \sin(yx) \dx 
 .\]
 
 
