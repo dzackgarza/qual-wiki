@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md",
+            "file": "30_Complex Analysis/050_Conformal_Maps/030_LFTs.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md",
+                "file": "30_Complex Analysis/050_Conformal_Maps/030_LFTs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md"
+                "file": "30_Complex Analysis/050_Conformal_Maps/030_LFTs.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md",
+                "file": "30_Complex Analysis/050_Conformal_Maps/030_LFTs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md",
+                "file": "30_Complex Analysis/050_Conformal_Maps/030_LFTs.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,9 +256,9 @@
   },
   "active": "0ae2fedaa1d2ad76",
   "lastOpenFiles": [
-    "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md",
-    "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md",
     "30_Complex Analysis/050_Conformal_Maps/030_LFTs.md",
+    "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md",
+    "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md",
     "20_Real Analysis/020_Integration/00_Integration.md",
     "20_Real Analysis/010_Measure_Theory/00_Measure.md",
     "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md",

@@ -19,6 +19,7 @@
 	- $\HH \da \ts{z \st \Im(z) > 0}$ is the open upper half-plane.
 	- $Q_{ij} \da Q_i \union Q_j$ is the union of two quadrants.
 		E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
+	- $(z; z_1,z_2,z_3) \da z\mapsto \qty{z-z_2 \over z-3}\cdot \qty{z_1-z_3 \over z_1 - z_2}$ is the cross-ratio construction that sends $(z_1, z_2,z_3) \to (1, 0, \infty)$.
 - Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
 
 :::
