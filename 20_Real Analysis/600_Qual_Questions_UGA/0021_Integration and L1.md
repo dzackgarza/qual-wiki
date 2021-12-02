@@ -369,11 +369,27 @@ I_2
 :::
 
 ## Fall 2020.4 #work
+
+:::{.problem title="?"}
 Prove that if $xf(x) \in L^1(\RR)$, then
 \[  
 F(y) \da \int f(x) \cos(yx)\,  dx
 \]
 defines a $C^1$ function.
+:::
+
+
+:::{.solution .foldopen}
+
+- Fix $y_0$, we'll show $F'$ exists and is continuous at $y_0$.
+- Fix a sequence $y_n\to y_0$ and define $h_n(x) \da h(x, y_n) \da f(x)\cos(y_n x)$.
+- Note that
+\[
+\dd{h}{y}(x, y_0) = \lim_{y_n\to y_0} ?
+.\]
+
+:::
+
 
 
 
@@ -691,8 +707,6 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 \lim _{n \rightarrow \infty}\left\|f_{n}-f\right\|_{1}=0
 \]
 
-\todo[inline]{Walk through.}
-
 :::{.concept}
 \envlist
 - From homework: $E$ is Lebesgue measurable iff there exists a finite union of closed cubes $A$ such that $m(E\Delta A) < \varepsilon$.
@@ -743,9 +757,6 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
   \norm{f - g_{n, k}} \leq \norm{f - \phi_n} + \norm{\phi_n - g_{n, k}}
   ,\]
   which can be made arbitrarily small.
-
-
-
 
 :::
 
