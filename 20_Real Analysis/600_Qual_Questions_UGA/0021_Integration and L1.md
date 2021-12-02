@@ -721,7 +721,7 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 :::
 
 
-## Spring 2015.4 #work
+## Spring 2015.4 #completed
 
 :::{.problem title="?"}
 Define
@@ -757,6 +757,8 @@ where
 \]
 
 - Both terms converge by the $p\dash$tests.
+
+The use of iterated integration is justified by Tonelli's theorem on $\abs{f} = f$, since $f$ is non-negative and clearly measurable on $\RR^2$, and if any iterated integral is finite then it is equal to $\int \abs{f}$.
 
 :::
 
