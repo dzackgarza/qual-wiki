@@ -382,12 +382,18 @@ defines a $C^1$ function.
 :::{.solution .foldopen}
 
 - Fix $y_0$, we'll show $F'$ exists and is continuous at $y_0$.
-- Fix a sequence $y_n\to y_0$ and define $h_n(x) \da h(x, y_n) \da f(x)\cos(y_n x)$.
+- Fix a sequence $y_n\decreasesto y_0$ and define $h_n(x) \da h(x, y_n) \da f(x)\cos(y_n x)$.
 - Note that
 \[
 \dd{h}{y}(x, y_0) 
-\da \lim_{y_n\to y_0} { h(x, y_n) - h(x, y_0) \over y_n - y_0} \da \lim_{n\to 0} H_n(x)
+\da \lim_{y_n\to y_0} { h(x, y_n) - h(x, y_0) \over y_n - y_0}
 .\]
+- Apply the MVT:
+\[
+{ h(x, y_n) - h(x, y_0) \over y_n - y_0}
+= \dd{h}{y}(x, y_t) && \text{ for some } y_t \in [y_0, y_n]
+.\]
+
 
 :::
 
