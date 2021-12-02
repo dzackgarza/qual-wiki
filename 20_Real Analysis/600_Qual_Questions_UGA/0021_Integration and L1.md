@@ -761,7 +761,7 @@ The use of iterated integration is justified by Tonelli's theorem on $\abs{f} = 
 
 :::
 
-## Fall 2014.3 #work
+## Fall 2014.3 #completed
 
 :::{.problem title="?"}
 Let $f\in L^1(\RR)$. Show that
@@ -793,7 +793,6 @@ m(E) < \delta
 however $\displaystyle\int_E \abs{f}\dm = 0$ since $m(E) = 0$, a contradiction. $\contradiction$.
 :::
 
-
 :::{.solution title="direct" .foldopen}
 Note that this is clear for simple functions: let $\phi = \sum_{k\leq n} c_k m(A_k) < \infty$ be simple function. then $\phi$ is necessarily bounded on $\RR$, so let $M\da \sup_\RR \phi$ and estimate
 \[
@@ -802,7 +801,18 @@ Note that this is clear for simple functions: let $\phi = \sum_{k\leq n} c_k m(A
 &\leq \sum_k M\cdot m(E)\\ 
 &= C M m(E) 
 ,\]
-for some constant $C$, so choosing $\delta < { \eps \over C M}$ bounds this by $\eps$.
+for some constant $C$, so choosing $\delta < { \eps \over C M}$ (and its corresponding $E$ with $m(E) < \delta$) bounds this above by $\eps$.
+
+For arbitrary $f \in L^1$, there is a sequence of simple functions $\phi_n$ with $\int \phi_n \increasesto \int f$ and $\norm{\phi_n - f}_{L_1} \convergesto{n\to\infty} 0$.
+Choose $\delta$ and $E$ as above,
+and use the triangle inequality to estimate
+\[
+\int_E \abs{f} 
+&= \int_E \abs{f - \phi_n + \phi_n} \\
+&\leq \int_E \abs{f - \phi_n} + \int_E \abs{\phi_n}
+,\]
+choose $n\gg 1$ to bound the first term by $\eps$, noting that the second term is bounded by $\eps$ by the case for simple functions.
+
 
 :::
 
