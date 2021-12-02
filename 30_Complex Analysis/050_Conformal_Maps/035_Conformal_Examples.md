@@ -23,15 +23,15 @@
 - Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
 - Conformal maps preserve "clines", i.e. the image of a line or circle must be a line or circle.
 	Orthogonal lines/circles must go to lines/circles intersecting a circle orthogonally.
-
+	- Line segments between two points must go to line segments or circular arcs between their images.
 :::
 
 ## Discs and Planes
 
 :::{.example title="Mapping the half-disc to the half-plane"}
-To send $\DD\to \HH$, "unwrap" the boundary by sending $i\to 1
+To send $\DD\to \HH$, "unwrap" the boundary by sending the boundary curve through $(i,1,-1)$ to the real line $(1, 0, \infty)$:
 \[
-(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv
+(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv = -i\qty{z-1\over z+1}
 .\]
 
 #completed
