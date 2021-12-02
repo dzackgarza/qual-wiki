@@ -1,6 +1,6 @@
 # Integrals: Approximation
 
-## Fall 2021 #2
+## Fall 2021.2 #work
 
 a.
 Let $F \subset \mathbb{R}$ be closed, and define
@@ -200,7 +200,6 @@ Prove that
 
 
 # $L^1$
-
 
 ## Spring 2021.4 #completed
 
@@ -816,8 +815,7 @@ choose $n\gg 1$ to bound the first term by $\eps$, noting that the second term i
 
 :::
 
-## Spring 2014.1 #work
-
+## Spring 2014.1 #completed
 
 :::{.problem title="?"}
 1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.
@@ -828,7 +826,6 @@ choose $n\gg 1$ to bound the first term by $\eps$, noting that the second term i
 \]
 
 :::
-
 
 :::{.solution}
 Part 1:
@@ -855,12 +852,14 @@ Part 2:
 - Now use that $f(x_n) - \eps/4 \leq f(x) \leq f(x_n)+\eps/4$ implies that $f(x) \geq 3\eps/4$ whenever $x\in B_\delta(x_n)$ for any $n$ to estimate
 \[
 \int_{B_\delta(x_n)} \abs{f(x)}\dx 
-\geq  2\delta \cdot 3\eps/4 > 0
-.\]
+\geq  2\delta \cdot 3\eps/4 \da C = C_{\delta, \eps} > 0
+,\]
+where $C$ is a constant.
 - But now we've contradicted $f\in L^1$:
 \[
-\int_\RR \abs{f} \geq \sum_{n\geq 1} \int_{B_\delta(x_n)} \abs{f} \geq \sum_{n\geq 1} 2\delta 3\eps 4 \to \infty
-.\]
+\int_\RR \abs{f} \geq \sum_{n\geq 1} \int_{B_\delta(x_n)} \abs{f} \geq \sum_{n\geq 1} C \to \infty
+,\]
+provided we pass to a further subsequence of $x_n$ such that the balls $B_\delta(x_n)$ are disjoint.
 $\contradiction$
 
 
