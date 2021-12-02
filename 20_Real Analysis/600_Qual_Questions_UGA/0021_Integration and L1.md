@@ -774,8 +774,7 @@ m(E) < \delta
 
 :::
 
-
-:::{.solution title="by contradiction" .foldopen}
+:::{.solution title="by contradiction" }
 
 - Note that if $m(E) = 0$ then $\int_E f = 0$ for any $f$.
 - Toward a contradiction, suppose there exists an $\eps>0$ such that for all $\delta>0$ there exists a set $E_\delta \subseteq \RR$ with $m(E) < \delta$ but $\int_{E_\delta} \abs f > \eps$.
@@ -793,6 +792,12 @@ m(E) < \delta
 ,\]
 however $\displaystyle\int_E \abs{f}\dm = 0$ since $m(E) = 0$, a contradiction. $\contradiction$.
 :::
+
+
+:::{.solution title="direct" .foldopen}
+
+:::
+
 
 
 ## Spring 2014.1 #work
