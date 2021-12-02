@@ -735,9 +735,6 @@ Carefully show that $f \in L^1(\RR^2)$.
 
 :::{.solution .foldopen}
 Note that
-\[
-1+x^2\geq 0 \implies ?
-.\]
 
 \[
 \int_{\RR^2}\abs{f} \dmu 
@@ -746,13 +743,15 @@ Note that
 &= \int_0^\infty {2\over x^{2\over 3} (1+x^2)^{1\over 2}}\\
 &= \int_0^1 {2\over x^{2\over 3} (1+x^2)^{1\over 2}}
 + \int_1^\infty {2\over x^{2\over 3} (1+x^2)^{1\over 2}} \\
-&\leq 
-\int_0^1 {2\over x^{2\over 3} (1+x^2)^{1\over 2}}
-+ \int_1^\infty {2\over x^{2\over 3} (x^2)^{1\over 2}} \\
 &=
 \int_0^1 {2\over x^{2\over 3} }
 + \int_1^\infty {2\over x^{5\over 3} } \\
-.\]
+,\]
+where we've entirely neglected the $1+x^2$ factor in the first term, since neglecting to divide by a positive number only makes the integrand larger, and 
+\[
+1+x^2\geq 0 \implies {1\over \sqrt{1+x^2}} \leq {1\over \sqrt{x^2}} = {1\over x}
+\]
+
 
 :::
 
