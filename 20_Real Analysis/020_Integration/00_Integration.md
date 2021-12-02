@@ -71,7 +71,6 @@ s(x) = \sum_{j=1}^n c_j \chi_{E_j}(x)
 If $f:X\to \CC$ is measurable, there is a sequence of simple functions $\phi_n\increasesto f$ which always converges pointwise, and converges uniformly on any bounded set.
 :::
 
-
 :::{.definition title="Lebesgue Integral"}
 \[
 \int_X f \da \sup \ts{ \int s(x) \dmu \st 0\leq s \leq f, s\text{ simple } } 
@@ -121,6 +120,8 @@ If $f\in L^\infty(X)$, then $f$ is equal to some bounded function $g$ almost eve
 :::{.slogan}
 Large powers of $x$ help us in neighborhoods of infinity and hurt around zero.
 :::
+
+## The Convergence Theorems
 
 :::{.theorem title="Monotone Convergence"}
 If $f_n: X\to [0, \infty) \in L^+$ and $f_n \nearrow f$ almost everywhere, then
@@ -199,7 +200,6 @@ Proceed by showing $\limsup \int f_n \leq \int f \leq \liminf \int f_n$:
   - Here we use that $g_n + f_n \to g+f$ with $0 \leq \abs{f_n} + f_n \leq g_n + f_n$ so Fatou's lemma again applies.
 :::
 
-
 :::{.remark}
 The converse to the DCT does not hold, i.e. $L^p$ boundedness does not imply a.e. boundedness, i.e. it is not true that $\lim \int f_k = \int f$ implies that $\exists g\in L^p$ such that $f_k < g$ a.e. for every $k$.
 
@@ -251,7 +251,6 @@ If $f_n$ is a sequence of nonnegative measurable functions, then
 
 #todo Prove
 
-
 :::{.example title="Using Fatou to compute the limit of a sequence of integrals"}
 \[
 \lim _{n \rightarrow \infty} \int_{0}^{\infty} \frac{n^{2}}{1+n^{2} x^{2}} e^{-\frac{x^{2}}{n^{3}}} d x
@@ -262,7 +261,7 @@ If $f_n$ is a sequence of nonnegative measurable functions, then
 Note that MCT might work, but showing that this is non-decreasing in $n$ is difficult.
 :::
 
-
+## Commuting 
 
 :::{.proposition title="Commuting Sums with Integrals"}
 \[
@@ -302,5 +301,19 @@ Define $F_N = \sum^N f_k$ and $F = \lim_N F_N$, then $\norm{F_N}_1 \leq \sum^N \
 Almost everywhere convergence: ?
 :::
 
+:::{.proposition title="Commuting derivatives with integrals, Folland 2.27"}
+If $f:X\cross I \to \CC$ where $f_t: X\to \CC$ is integrable for each $t$, then if $\abs{f(x, t)} \leq \abs{g(x)}$ for some $g\in L^1$, then
+\[
+\lim_{t\to t_0}\int_X f(x, t) \dmu = \int_X f(x, t_0) \dmu \da F(t_0)
+,\]
+and if $f_x: I\to \CC$ is continuous for all $x$, then $F: I\to \CC$ is continuous.
 
+Moreover if $\dd{f}{t}$ exists and $\abs{\dd{f}{t}(x, t)} \leq \abs{g}$ for some $g\in L^1$, then 
+\[
+\dd{}{t} \int_X f(x, t) \dmu
+= \int_X \dd{}{t} f(x, t) \dmu
+.\]
+
+
+:::
 
