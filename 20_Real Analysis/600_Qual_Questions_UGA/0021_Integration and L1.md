@@ -746,7 +746,7 @@ Note that
 &=
 \int_0^1 {2\over x^{2\over 3} }
 + \int_1^\infty {2\over x^{5\over 3} } \\
-&<\inty
+&<\infty
 ,\]
 where 
 
