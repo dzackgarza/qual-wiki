@@ -44,12 +44,14 @@ To send $\DD\to \HH$, "unwrap" the boundary by sending the boundary curve throug
 Find a Mobius transformation where $(1,i, 2) \to (3,0,-1)$.
 
 Write $T(z) = (z; 1, i, 2)$ and $S(w) = (w; 3, 0, -1)$, then the desired map is $T\circ S\inv$.
-Set $T(z) = S(w)$ and solve for $w$ to get
+How to find a formula: set $T(z) = S(w)$ and solve for $w$ to get
 \[
 \frac{-3 z+3 i}{(7-4 i) z+(-8+5 i)}
 .\]
 
-#work
+#todo Check!
+
+#completed
 
 :::
 
@@ -83,7 +85,7 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Complement of the disc to the half-plane"}
 Show that $z\mapsto z + z\inv$ maps $\HH \intersect \DD^c \to \HH$.
 
 #work
@@ -132,11 +134,11 @@ In steps:
 
 ## Lunes
 
-:::{.exercise title="?"}
+:::{.exercise title="Lune between circles"}
 
 Find a conformal map $L\to \DD$ where
 \[
-L\da \ts{\abs{z - i } < \sqrt 2} \intersect \ts{\abs{z+i} \intersect \sqrt 2}
+L\da \ts{\abs{z - i } < \sqrt 2} \intersect \ts{\abs{z+i} < \sqrt 2}
 ,\]
 i.e. a lune with vertices $-1$ and $1$.
 
@@ -159,7 +161,7 @@ In steps:
 
 :::
 
-:::{.exercise title="Lune"}
+:::{.exercise title="Lune with a point at infinity"}
 Find a conformal map:
 \[
 \DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
@@ -187,7 +189,7 @@ The picture:
 
 ## Sectors
 
-:::{.exercise title="?"}
+:::{.exercise title="Standard sector"}
 Find a conformal map from the sector $\ts{\Arg(z) \in (0, \alpha)} \to \DD$.
 
 #completed
