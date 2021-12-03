@@ -1,6 +1,6 @@
 # Complex Geometry
 
-## Spring 2020 HW 1 # 1  #work 
+## Spring 2020 HW 1.1  #work 
 
 Geometrically describe the following subsets of $\CC$:
 
@@ -12,7 +12,7 @@ e. $\Im(z) = a$ with $a\in \RR$.
 f. $\Re(z) > a$ with $a\in \RR$.
 g. $\abs{z-1} < 2\abs{z-2}$
 
-## Spring 2020 HW 1 # 4 #work 
+## Spring 2020 HW 1.4 #work 
 
 a. Prove that if $c>0$,
 \[
@@ -27,7 +27,7 @@ Find its center and radius.
 
 > Hint: use part (a)
 
-## Spring 2020 HW 1 # 11 #work
+## Spring 2020 HW 1.11 #work
 
 Prove that the distinct complex numbers $z_1, z_2, z_3$ are the vertices of an equilateral triangle if and only if
 \[

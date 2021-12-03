@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "011_Complex Geometry",
+      "path": "30_Complex Analysis/999_Quals/011_Complex Geometry.md"
+    },
+    {
       "basename": "035_Conformal_Examples",
       "path": "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Examples.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "020_Residues",
       "path": "30_Complex Analysis/030_Residues/020_Residues.md"
-    },
-    {
-      "basename": "020 Liouville",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
     }
   ],
   "omittedPaths": [],
