@@ -25,7 +25,28 @@ E \da \Union_{x\in \RR} \ts{ x } \cross E_x
 
 ## Fall 2021 #4
 
+
+:::{.problem title="?"}
 Let $f$ be a measurable function on $\mathbb{R}$. Show that the graph of $f$ has measure zero in $\mathbb{R}^{2}$.
+:::
+
+
+:::{.solution}
+Write
+\[
+\Gamma \da \ts{(x, f(x)) \st x\in \RR} \subseteq \RR^d
+.\]
+Then
+\[
+\mu(\Gamma) 
+&= \int_{\RR^d} \chi_\Gamma \\
+&= \int_{\RR^{d-1}}\int_\RR \chi_\Gamma(x, y) \dx \dy \\
+.\]
+
+
+:::
+
+
 
 
 ## Spring 2020.4 #completed

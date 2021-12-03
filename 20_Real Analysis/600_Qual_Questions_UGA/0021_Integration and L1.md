@@ -278,8 +278,6 @@ where the DCT applies since defining $h_k \da g_k\cdot g$ we have $\abs{h_k} \le
 :::
 
 
-
-
 # $L^1$
 
 ## Spring 2021.4 #completed
