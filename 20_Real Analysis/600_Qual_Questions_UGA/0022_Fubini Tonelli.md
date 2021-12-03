@@ -378,6 +378,19 @@ Let $f, g \in L^1(\RR)$ be Borel measurable.
 
 
 :::{.solution}
+\envlist
+
+- $F \in \mcb(\RR^2)$:
+  - Write a function $\tilde f(x, y) \da f(x)$
+  - Write a linear transformation $T = \matt 1 0 0 {-1} \in \GL_2$, so $T\tv{x, y} = \tv{x-y, 0}$
+  - Write $f(x-y) \da (\tilde f \circ T)(x, y)$, which is a composition of measurable functions and thus measurable.
+  - A product of measurable functions is measurable.
+
+- $F_y$ is integrable: just directly 
+\[
+\int F_y(x) \dx
+.\]
+
 
 :::
 
