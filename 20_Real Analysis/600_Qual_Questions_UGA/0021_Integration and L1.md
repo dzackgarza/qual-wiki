@@ -255,6 +255,22 @@ Prove that
 :::
 
 
+:::{.solution}
+Use that $L^\infty[0, 1] \subseteq L^1[0, 1]$, so fixing $g$, choose a sequence of compactly supported continuous functions $f_k$ converging to $\sign(g)$ in $L^1$.
+Then
+\[
+\int \abs{g}
+&= \int\sign(g)\cdot g \\
+&= \int \lim_k g_k g \\
+&= \lim_k \int g_k g \\
+&=\lim_k 0 \\
+&= 0
+.\]
+
+:::
+
+
+
 
 # $L^1$
 
