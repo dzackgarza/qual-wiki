@@ -13,7 +13,7 @@ For $y \notin F$, show that
 \int_{F}|x-y|^{-2} d x \leq \frac{2}{\delta_F(y)},
 \]
 b.
-Let $F \subset \mathbb{R}$ be a closed set whose complement has finite measure, i.e. $m(R \sm F)< \infty$. 
+Let $F \subset \mathbb{R}$ be a closed set whose complement has finite measure, i.e. $m(\RR \sm F)< \infty$. 
 Define the function
 \[
 I(x):=\int_{\mathbb{R}} \frac{\delta_{F}(y)}{|x-y|^{2}} d y
@@ -56,8 +56,7 @@ Estimate:
 &<\infty
 ,\]
 where we've used that $y\in F\implies \delta_F(y) = 0$.
-
-
+This forces $I(x) < \infty$ for almost every $x\in F$, since if $I(x)$ is unbounded on any positive measure set then this integral would diverge.
 :::
 
 
