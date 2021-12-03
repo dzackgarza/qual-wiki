@@ -55,9 +55,19 @@ Estimate:
 &= 2\mu(F^c) \\
 &<\infty
 ,\]
-where we've used that $y\in F\implies \delta_F(y) = 0$.
-This forces $I(x) < \infty$ for almost every $x\in F$, since if $I(x)$ is unbounded on any positive measure set then this integral would diverge.
+where we've used that $y\in F\implies \delta_F(y) = 0$ and applied the bound from the first part.
 We've also implicitly used Fubini-Tonelli to change the order of integration, justified by positivity of the integrand and the finite iterated integral.
+This forces $I(x) < \infty$ for almost every $x\in F$, since if $I(x)$ is unbounded on any positive measure set then this integral would diverge.
+
+If $x\not\in F$, pick an $\eps\dash$ball $A$ about $x$ avoiding $F$ so that $\abs{x-y}> \eps$ for any $y\in A^c$ and thus $(x-y)^{-2} \leq \eps^{-2}$.
+Note that $\delta_F(y)>0$ is then a constant, 
+\[
+I(x) 
+&= \int_\RR\delta_F(y) (x-y)^2 \dy \\
+&\geq \int_{A^c} \delta_F(y) (x-y)^{-2} \dy \\
+&\geq \int_{A^c} \delta_F(y) \eps^{-2} \dy
+.\]
+
 :::
 
 
