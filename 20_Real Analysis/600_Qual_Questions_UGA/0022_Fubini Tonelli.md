@@ -39,9 +39,12 @@ Write
 Then
 \[
 \mu(\Gamma) 
-&= \int_{\RR^d} \chi_\Gamma \\
-&= \int_{\RR^{d-1}}\int_\RR \chi_\Gamma(x, y) \dx \dy \\
-.\]
+&= \int_{\RR^d} \chi_\Gamma \dmu \\
+&= \int_{\RR^{d-1}}\int_\RR \chi_\Gamma(x, y) \dy \dx \\
+&= \int_{\RR^{d-1}} 0 \dx \\
+&= 0
+,\]
+using that $\int_\RR \chi_\Gamma(x, y) \dy = 0$ since if $x$ is fixed then $\chi_\Gamma(x, y) = \ts{f(x)}$ is a singleton with measure zero.
 
 
 :::
