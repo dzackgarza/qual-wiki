@@ -1,6 +1,5 @@
 # Fubini-Tonelli
 
-
 ## Spring 2021.6 #work
 
 :::{.warnings}
@@ -360,15 +359,14 @@ m(E)
 
 
 
-## Fall 2015.5 #work
-
+## Fall 2015.5 #completed
 
 :::{.problem title="?"}
 Let $f, g \in L^1(\RR)$ be Borel measurable.
 
 - Show that 
   - The function $$F(x, y) \definedas f(x-y) g(y)$$ is Borel measurable on $\RR^2$, and
-  - For almost every $y\in \RR$, $$F_y(x) \definedas f(x-y)g(y)$$ is integrable with respect to $y$.
+  - For almost every $x\in \RR$, the function $f(x-y)g(y)$ is integrable with respect to $y$ on $\RR$.
 
 - Show that $f\ast g \in L^1(\RR)$ and
 \[
@@ -376,8 +374,7 @@ Let $f, g \in L^1(\RR)$ be Borel measurable.
 \]
 :::
 
-
-:::{.solution}
+:::{.solution .foldopen}
 \envlist
 
 - $F \in \mcb(\RR^2)$:
@@ -386,17 +383,26 @@ Let $f, g \in L^1(\RR)$ be Borel measurable.
   - Write $f(x-y) \da (\tilde f \circ T)(x, y)$, which is a composition of measurable functions and thus measurable.
   - A product of measurable functions is measurable.
 
-- $F_y$ is integrable: just directly 
-\[
-\int F_y(x) \dx
-.\]
 
+- $f\convolve g \in L^1(\RR)$: estimate
+\[
+\int \abs{ f\convolve g} d\mu 
+&= \int_\RR \int_\RR \abs{f(x-y)g(y)}\dx \dy \\
+&= \int_\RR \int_\RR \abs{f(x-y)}\abs{g(y)}\dx \dy \\
+&= \int_\RR \abs{g(y)} \int_\RR \abs{f(x-y)}\dx \dy \\
+&= \norm{g}_1 \norm{f}_1
+,\]
+where we've used translation invariance of the $L^1$ norm and Fubini-Tonelli justified by the finite result.
+
+- $F_x(y) \da f(x-y)g(y)$ is integrable with respect to $y$ for almost every $x$:
+  - This follows from Fubini-Tonelli, which says that if $F(x, y)$ is integrable, the slices $F^x(y)$ are integrable for almost every $x$.
+  Here take $F(x, y) \da f(x-y)g(y)$.
 
 :::
 
-
-
 ## Spring 2014.5 #work
+
+:::{.problem title="?"}
 Let $f, g \in L^1([0, 1])$ and for all $x\in [0, 1]$ define
 \[
 F(x) \definedas \int _{0}^{x} f(y) \, dy 
@@ -409,3 +415,4 @@ Prove that
 \int _{0}^{1} F(x) g(x) \, dx = 
 F(1) G(1) - \int _{0}^{1} f(x) G(x) \, dx
 \]
+:::
