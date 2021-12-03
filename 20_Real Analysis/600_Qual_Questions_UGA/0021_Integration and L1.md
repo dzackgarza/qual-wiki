@@ -39,7 +39,6 @@ Note that $\abs{x-y}^2 = (x-y)^2$ since this is always positive, then
 .\]
 :::
 
-
 :::{.solution title="Part b"}
 Estimate:
 \[
@@ -74,8 +73,6 @@ which can be made arbitrarily large by taking $\eps\to 0$.
 #todo: Not great, $A^c$ depends on $\eps$ so this ratio has a competing numerator...
 
 :::
-
-
 
 
 ## Spring 2018.3 #completed
@@ -246,6 +243,8 @@ Prove that
 
 
 ## Fall 2014.4 #work
+
+:::{.problem title="?"}
 Let $g\in L^\infty([0, 1])$
 Prove that
 \[
@@ -253,6 +252,8 @@ Prove that
 \quad\text{for all continuous } f:[0, 1] \to \RR 
 \implies g(x) = 0 \text{ almost everywhere. }
 \]
+:::
+
 
 
 # $L^1$
