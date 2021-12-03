@@ -60,13 +60,18 @@ We've also implicitly used Fubini-Tonelli to change the order of integration, ju
 This forces $I(x) < \infty$ for almost every $x\in F$, since if $I(x)$ is unbounded on any positive measure set then this integral would diverge.
 
 If $x\not\in F$, pick an $\eps\dash$ball $A$ about $x$ avoiding $F$ so that $\abs{x-y}> \eps$ for any $y\in A^c$ and thus $(x-y)^{-2} \leq \eps^{-2}$.
-Note that $\delta_F(y)>0$ is then a constant, 
+Note that $\delta_F(y)\geq \eps$, so
 \[
 I(x) 
-&= \int_\RR\delta_F(y) (x-y)^2 \dy \\
+&= \int_\RR\delta_F(y) (x-y)^{-2} \dy \\
 &\geq \int_{A^c} \delta_F(y) (x-y)^{-2} \dy \\
-&\geq \int_{A^c} \delta_F(y) \eps^{-2} \dy
-.\]
+&\geq \int_{A^c} \delta_F(y) \eps^{-2} \dy\\
+&\geq \int_{A^c} \eps^{-1} \dy \\
+&= \mu(A^c)\eps^{-1}
+,\]
+which can be made arbitrarily large by taking $\eps\to 0$.
+
+#todo: Not great, $A^c$ depends on $\eps$ so this ratio has a competing numerator...
 
 :::
 
