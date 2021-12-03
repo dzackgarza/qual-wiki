@@ -242,7 +242,7 @@ Prove that
 > Hint: show this first for the functions $f(t) = e^{2\pi i k t}$ for $k\in \ZZ$.
 
 
-## Fall 2014.4 #work
+## Fall 2014.4 #completed
 
 :::{.problem title="?"}
 Let $g\in L^\infty([0, 1])$
@@ -254,6 +254,13 @@ Prove that
 \]
 :::
 
+:::{.concept}
+\envlist
+
+- Polar decomposition: $f = \sign(f) \cdot \abs{f}$.
+- $L^\infty[0, 1] \subseteq L^1[0, 1]$.
+
+:::
 
 :::{.solution}
 Use that $L^\infty[0, 1] \subseteq L^1[0, 1]$, so fixing $g$, choose a sequence of compactly supported continuous functions $f_k$ converging to $\sign(g)$ in $L^1$.
@@ -267,8 +274,7 @@ Then
 &=\lim_k 0 \\
 &= 0
 ,\]
-where the DCT applies since defining $h_k \da g_k\cdot g$ we have $\abs{h_k} \leq g\in L^1[0, 1]$
-
+where the DCT applies since defining $h_k \da g_k\cdot g$ we have $\abs{h_k} \leq g\in L^1[0, 1]$, and each integral is zero since $g_k$ is continuous (and we use the hypothesis).
 :::
 
 
