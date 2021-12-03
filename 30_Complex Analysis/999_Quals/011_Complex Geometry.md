@@ -15,6 +15,15 @@ g. $\abs{z-1} < 2\abs{z-2}$
 
 :::
 
+
+:::{.solution}
+\envlist
+
+a. A circle of radius 1 about $z=1$.
+b. ?
+:::
+
+
 ## Spring 2020 HW 1.4 #work 
 
 :::{.problem title="?"}
