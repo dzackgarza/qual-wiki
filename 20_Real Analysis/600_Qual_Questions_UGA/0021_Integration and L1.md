@@ -41,6 +41,22 @@ Note that $\abs{x-y}^2 = (x-y)^2$ since this is always positive, then
 
 
 :::{.solution title="Part b"}
+Estimate:
+\[
+\int_F I(x) \dx 
+&\da \int_F \int_\RR {\delta_F(y) \over (x-y)^2 } \dy \dx \\
+&= \int_\RR \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy \\
+&= \int_F \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy 
++ \int_{F^c} \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy \\
+&= 0
++ \int_{F^c} \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy \\
+&\leq
+\int_{F^c} 2 \dy \\
+&= 2\mu(F^c) \\
+&<\infty
+,\]
+where we've used that $y\in F\implies \delta_F(y) = 0$.
+
 
 :::
 
