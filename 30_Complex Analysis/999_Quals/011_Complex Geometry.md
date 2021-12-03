@@ -1,6 +1,6 @@
 # Complex Geometry
 
-## Spring 2020 HW 1.1  #work 
+## Spring 2020 HW 1.1  #completed
 
 :::{.problem title="?"}
 Geometrically describe the following subsets of $\CC$:
@@ -21,6 +21,11 @@ g. $\abs{z-1} < 2\abs{z-2}$
 
 a. A circle of radius 1 about $z=1$.
 b. ?
+c. $S^1$, using that ${1\over z} = {\bar{z} \over z\bar{z}} = {\bar z\over \abs{z}^2}$ and if this equals $\bar{z}$, then $\abs{z}^2=1$.
+d. Vertical line through $z=3$.
+e. Horizontal line through $z=ia$.
+f. Region to the right of the vertical line through $z=a$.
+g. ?
 :::
 
 
