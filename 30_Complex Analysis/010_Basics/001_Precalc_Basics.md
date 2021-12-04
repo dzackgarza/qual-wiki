@@ -16,17 +16,23 @@ order: 1
 
 ![](figures/2021-12-04_00-53-36.png)
 
-- Hyperbola: $\qty{\frac x a}^2  - \qty{\frac y b}^2 = 1$
+- Hyperbola: $\qty{\frac x a}^2  - \qty{\frac y b}^2 = 1$ or equivalently $\abs{z-a} - \abs{z-b} = c$:
+
+![](figures/2021-12-04_00-57-40.png)
+
   - Rectangular Hyperbola: $xy = \frac{c^2}{2}$.
 - Parabola: $-4ax + y^2 = 0$.
 
-Mnemonic:
-Write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then consider the discriminant $\Delta = B^2 - 4AC$:
+:::
+
+:::{.remark}
+Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then consider the discriminant $\Delta = B^2 - 4AC$:
 
 - $\Delta < 0 \iff$ ellipse
   - $\Delta < 0$ and $A=C, B=0 \iff$ circle
 - $\Delta = 0 \iff$ parabola
 - $\Delta > 0 \iff$ hyperbola
+
 :::
 
 :::{.fact title="Completing the square"}
