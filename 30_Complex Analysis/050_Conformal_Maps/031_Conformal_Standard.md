@@ -1,9 +1,5 @@
 # Standard Conformal Maps
 
-:::{.remark}
-
-:::
-
 ## $\HH$ and $\DD$
 
 :::{.proposition title="Half-plane to Disc (Cayley Transform, very important)"}
