@@ -19,19 +19,17 @@ g. $\abs{z-1} < 2\abs{z-2}$
 
 :::
 
-
 :::{.solution}
 \envlist
 
 a. A circle of radius 1 about $z=1$.
-b. ?
+b. A circle, using that Apollonius circles are characterized as the locus of distances whose ratios to some fixed points $A, B$ are constant.
 c. $S^1$, using that ${1\over z} = {\bar{z} \over z\bar{z}} = {\bar z\over \abs{z}^2}$ and if this equals $\bar{z}$, then $\abs{z}^2=1$.
 d. Vertical line through $z=3$.
 e. Horizontal line through $z=ia$.
 f. Region to the right of the vertical line through $z=a$.
-g. ?
+g. Exterior of a circle
 :::
-
 
 ## Spring 2020 HW 1.4 #work 
 
