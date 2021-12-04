@@ -4,7 +4,7 @@ order: 4
 
 # Cauchy-Riemann and PDEs
 
-## Spring 2020 HW 1 # 10 #work
+## Spring 2020 HW 1.10 #work
 
 a. Show that in polar coordinates, the Cauchy-Riemann equations take the form
 \[
@@ -33,7 +33,7 @@ Show that there exist points $(x,y)\in D$ such that
 $\displaystyle{\limsup_{n\to\infty} |u(x,y)|=\infty}$.
 
 
-## Fall 2021 # 1 #complete
+## Fall 2021.1 #complete
 
 :::{.problem title="?"}
 Let $f(z)$ be an analytic function on $|z|<1$.
