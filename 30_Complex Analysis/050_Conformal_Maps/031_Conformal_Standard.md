@@ -2,6 +2,12 @@
 
 ## $\HH$ and $\DD$
 
+:::{.proposition title="Blaschke Factors"}
+
+![2021-10-29_14-23-57.png](figures/2021-10-29_14-23-57.png)
+
+:::
+
 :::{.proposition title="Half-plane to Disc (Cayley Transform, very important)"}
 \[
 \Psi: \HH&\mapstofrom \DD \\
