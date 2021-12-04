@@ -1,3 +1,7 @@
+---
+order: 21
+---
+
 # Laurent Expansions
 
 ## Tie, Spring 2015: #work 

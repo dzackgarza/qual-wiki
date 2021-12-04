@@ -1,3 +1,7 @@
+---
+order: 300
+---
+
 # Riemann Mapping and Casorati-Weierstrass
 
 ### Spring 2020 HW 3 #  4

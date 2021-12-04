@@ -1,3 +1,7 @@
+---
+order: 40
+---
+
 # Maximum Modulus
 
 ## Spring 2020 HW 3 #  3.8.15

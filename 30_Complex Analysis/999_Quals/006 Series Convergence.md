@@ -1,3 +1,7 @@
+---
+order: 6
+---
+
 # Series Convergence 
 
 ## Fall 2015, Spring 2020 HW2: Ratio Test #work 

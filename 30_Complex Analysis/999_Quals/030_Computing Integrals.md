@@ -1,3 +1,7 @@
+---
+order: 30
+---
+
 # Computing Integrals
 
 ## Tie's Extra Questions: Fall 2015 #work

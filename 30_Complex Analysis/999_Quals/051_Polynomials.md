@@ -1,3 +1,7 @@
+---
+order: 51
+---
+
 # Polynomials
 
 ## Tie's Extra Questions: Fall 2011
