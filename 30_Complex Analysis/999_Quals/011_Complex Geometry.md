@@ -107,14 +107,22 @@ z_{1}^{2}+z_{2}^{2}+z_{3}^{2}=z_{1} z_{2}+z_{2} z_{3}+z_{3} z_{1}
 
 :::{.solution}
 $\implies$:
-Write the vertices as $z_1, z_2, z_3$.
-Then the sides satisfy 
+Write the vertices as $z_1, z_2, z_3$ and the sides as
 
-- $z_2 - z_1 = \zeta_3 (z_3-z_1)$,
-- $z_3 - z_2 = \zeta_3(z_1 - z_3)$,
-- $z_1 - z_3 = \zeta_3(z_2 - z_3)$
+- $s_1 \da z_2-z_1$
+- $s_2 \da z_3 - z_2$
+- $s_1 \da z_1 -z_3$
 
-where $\zeta_3 \da \exp\qty{2\pi i \over 3}$.
+Note that $s_i = \pm \zeta_3 s_{i-1}$, dividing yields
+\[
+{s_2 \over s_3} &= {s_1\over s_2} \\
+\implies s_2^2 - s_1 s_3 &= 0 \\
+\left(z_{2}-z_{3}\right)^{2}-\left(z_{2}-z_{1}\right)\left(z_{1}-z_{3}\right)&=0 \\
+\left(z_{2}^{2}+z_{3}^{2}-2 z_{2} z_{3}\right)-\left(z_{2} z_{1}-z_{2} z_{3}-z_{1}^{2}+z_{1} z_{3}\right)&=0 \\
+z_{1}^{2}+z_{2}^{2}+z_{3}^{2}-\left(z_{1} z_{2}+z_{2} z_{3}+z_{3} z_{1}\right)&=0
+.\]
+
+
 
 
 :::
