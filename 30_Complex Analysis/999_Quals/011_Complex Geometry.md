@@ -24,7 +24,18 @@ g. $\abs{z-1} < 2\abs{z-2}$
 
 a. A circle of radius 1 about $z=1$.
 b. A circle, using that Apollonius circles are characterized as the locus of distances whose ratios to some fixed points $A, B$ are constant.
+  To actually compute this:
+  \[
+  \abs{z-1}^2 &= 4\abs{z-2}^2 \\
+  \implies (x-1)^2 + y^2 - 4\qty{(x-2)^2 + y^2 } &=0 \\
+  \implies x^2 - {14\over 3}x + y^2 + 5 &= 0 \\
+  \implies (x- {14\over 2\cdot 3})^2 - {14\over 2\cdot 3}^2 + y^2 + 5 &= 0 \\
+  \implies (x-{14\over 6})^2 + y^2 = \qty{2\over 3}^2
+  ,\]
+  which is a circle of radius $2/3$ with center $\qty{{14\over 6}, 0}$.
+
 c. $S^1$, using that ${1\over z} = {\bar{z} \over z\bar{z}} = {\bar z\over \abs{z}^2}$ and if this equals $\bar{z}$, then $\abs{z}^2=1$.
+Alternatively, $1 = \bar{z}z = \abs{z}^2$.
 d. Vertical line through $z=3$.
 e. Horizontal line through $z=ia$.
 f. Region to the right of the vertical line through $z=a$.
