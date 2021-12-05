@@ -116,12 +116,14 @@ Write the vertices as $z_1, z_2, z_3$ and the sides as
 Note that $s_i = \pm \zeta_3 s_{i-1}$, dividing yields
 \[
 {s_2 \over s_3} &= {s_1\over s_2} \\
-\implies s_2^2 - s_1 s_3 &= 0 \\
-\left(z_{2}-z_{3}\right)^{2}-\left(z_{2}-z_{1}\right)\left(z_{1}-z_{3}\right)&=0 \\
-\left(z_{2}^{2}+z_{3}^{2}-2 z_{2} z_{3}\right)-\left(z_{2} z_{1}-z_{2} z_{3}-z_{1}^{2}+z_{1} z_{3}\right)&=0 \\
-z_{1}^{2}+z_{2}^{2}+z_{3}^{2}-\left(z_{1} z_{2}+z_{2} z_{3}+z_{3} z_{1}\right)&=0
+&\iff s_2^2 - s_1 s_3 = 0 \\
+&\iff \left(z_{2}-z_{3}\right)^{2}-\left(z_{2}-z_{1}\right)\left(z_{1}-z_{3}\right)=0 \\
+&\iff \left(z_{2}^{2}+z_{3}^{2}-2 z_{2} z_{3}\right)-\left(z_{2} z_{1}-z_{2} z_{3}-z_{1}^{2}+z_{1} z_{3}\right)&=0 \\
+&\iff z_{1}^{2}+z_{2}^{2}+z_{3}^{2}-\left(z_{1} z_{2}+z_{2} z_{3}+z_{3} z_{1}\right)=0
 .\]
 
+$\impliedby$:
+We still have $s_i = \theta_i s_{i-1}$ for some angles $\theta_i$
 
 
 
