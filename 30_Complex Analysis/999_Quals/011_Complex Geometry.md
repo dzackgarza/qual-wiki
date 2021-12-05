@@ -81,6 +81,10 @@ z_{1}^{2}+z_{2}^{2}+z_{3}^{2}=z_{1} z_{2}+z_{2} z_{3}+z_{3} z_{1}
 
 ## Spring 2020 HW 1 # 5
 
+
+:::{.problem title="?"}
+\envlist
+
 a. Let $z, w \in \CC$ with $\bar z w \neq 1$. 
 Prove that
 \[
@@ -93,4 +97,6 @@ b. Prove that for a fixed $w\in \DD$, the mapping $F: z\mapsto {w-z \over 1 - \b
 - $F$ maps $\DD$ to itself and is holomorphic.
 - $F(0) = w$ and $F(w) = 0$.
 - $\abs{z} = 1$ implies $\abs{F(z)} = 1$.
+:::
+
 
