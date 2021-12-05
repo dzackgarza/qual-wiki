@@ -160,6 +160,13 @@ b. Prove that for a fixed $w\in \DD$, the mapping $F: z\mapsto {w-z \over 1 - \b
 
 
 :::{.solution}
+\[
+0 &\leq (1 - \abs{w}^2)(1-\abs{z}^2) \\
+\implies \abs{w}^2 + \abs{z}^2 &\leq 1 + \abs{w}^2 \abs{z}^2 \\
+\implies \abs{w}^2 + \abs{z}^2 - 2\Re(\bar{w} z) &\leq 1 + \abs{w}^2 \abs{z}^2 - 2\Re(\bar{w} z) \\
+\implies \abs{w-z}^2 &\leq \abs{1-\bar{w}z}^2
+.\]
+Note that if either $\abs{w}^2 = 1$ or $\abs{z}^2 = 1$ then the first line is an equality, yielding equality in the final line.
 
 :::
 
