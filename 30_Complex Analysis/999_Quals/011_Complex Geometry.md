@@ -70,6 +70,20 @@ Find its center and radius.
 
 :::
 
+
+:::{.solution title="part 1"}
+\[
+\abs{w_1 - c^2 w_2}^2 
+&= (w_1 - c^2 w_2) ( \bar{w_1} - c^2 \bar{w_2} ) \\
+&= \abs{w_1}^2 + c^4 \abs{w_2}^2 - 2c^2 \Re(w_1 \bar{w_2}) \\
+&= {\color{green} c^2 \abs{w_2}^2 } + c^4 \abs{w_2}^2 - 2c^2 \Re(w_1 \bar{w_2}) \\
+&= c^2 \abs{w_2}^2 + {\color{green} c^2 \abs{w_1}^2 } - 2c^2 \Re(w_1 \bar{w_2}) \\
+&= c^2 \abs{w_1 - w_2}
+,\]
+where we've applied the assumption $\abs{w_1} = c\abs{w_2}$ twice.
+:::
+
+
 ## Spring 2020 HW 1.11 #work
 
 :::{.problem title="?"}
@@ -80,7 +94,6 @@ z_{1}^{2}+z_{2}^{2}+z_{3}^{2}=z_{1} z_{2}+z_{2} z_{3}+z_{3} z_{1}
 :::
 
 ## Spring 2020 HW 1 # 5
-
 
 :::{.problem title="?"}
 \envlist
