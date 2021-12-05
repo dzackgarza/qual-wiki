@@ -104,7 +104,6 @@ z_{1}^{2}+z_{2}^{2}+z_{3}^{2}=z_{1} z_{2}+z_{2} z_{3}+z_{3} z_{1}
 .\]
 :::
 
-
 :::{.solution}
 $\implies$:
 Write the vertices as $z_1, z_2, z_3$ and the sides as
@@ -124,23 +123,21 @@ Note that $s_i = \pm \zeta_3 s_{i-1}$, dividing yields
 
 $\impliedby$:
 We still have $s_i = \theta_i s_{i-1}$ for some angles $\theta_i$
-Running the above calculation backward yields $s_2/s_3 = s_1/s_2$
 We have
 
 ![](figures/2021-12-04_20-53-12.png)
 
-And
+and
 \[
-{s_1\ over s_2} &= {\theta_1 \over \theta_2} \cdot {s_2\over s_1} \\
-{s_1\ over s_2} &= {\theta_1 \over \theta_2} \cdot {s_2\over s_1} \\
-{s_1\ over s_2} &= {\theta_1 \over \theta_2} \cdot {s_2\over s_1} \\
+{s_1\over s_2} &= {\theta_1 \over \theta_2} \cdot {s_3\over s_1} \\
+{s_2\over s_3} &= {\theta_2 \over \theta_3} \cdot {s_1\over s_2} \\
+{s_3\over s_1} &= {\theta_3 \over \theta_1} \cdot {s_2\over s_3} 
 .\]
 
-
-
+Running the above calculation backward yields $s_2/s_3 = s_1/s_2$, and by the 2nd equality above, this forces $\theta_2 = \theta_3$.
+Similar arguments show $\theta_1=\theta_2 = \theta_3$ which forces $s_1=s_2 = s_3$.
 
 :::
-
 
 ## Spring 2020 HW 1 # 5
 
@@ -161,4 +158,8 @@ b. Prove that for a fixed $w\in \DD$, the mapping $F: z\mapsto {w-z \over 1 - \b
 - $\abs{z} = 1$ implies $\abs{F(z)} = 1$.
 :::
 
+
+:::{.solution}
+
+:::
 
