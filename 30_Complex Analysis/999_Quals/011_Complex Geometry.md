@@ -118,12 +118,24 @@ Note that $s_i = \pm \zeta_3 s_{i-1}$, dividing yields
 {s_2 \over s_3} &= {s_1\over s_2} \\
 &\iff s_2^2 - s_1 s_3 = 0 \\
 &\iff \left(z_{2}-z_{3}\right)^{2}-\left(z_{2}-z_{1}\right)\left(z_{1}-z_{3}\right)=0 \\
-&\iff \left(z_{2}^{2}+z_{3}^{2}-2 z_{2} z_{3}\right)-\left(z_{2} z_{1}-z_{2} z_{3}-z_{1}^{2}+z_{1} z_{3}\right)&=0 \\
+&\iff \left(z_{2}^{2}+z_{3}^{2}-2 z_{2} z_{3}\right)-\left(z_{2} z_{1}-z_{2} z_{3}-z_{1}^{2}+z_{1} z_{3}\right)=0 \\
 &\iff z_{1}^{2}+z_{2}^{2}+z_{3}^{2}-\left(z_{1} z_{2}+z_{2} z_{3}+z_{3} z_{1}\right)=0
 .\]
 
 $\impliedby$:
 We still have $s_i = \theta_i s_{i-1}$ for some angles $\theta_i$
+Running the above calculation backward yields $s_2/s_3 = s_1/s_2$
+We have
+
+![](figures/2021-12-04_20-53-12.png)
+
+And
+\[
+{s_1\ over s_2} &= {\theta_1 \over \theta_2} \cdot {s_2\over s_1} \\
+{s_1\ over s_2} &= {\theta_1 \over \theta_2} \cdot {s_2\over s_1} \\
+{s_1\ over s_2} &= {\theta_1 \over \theta_2} \cdot {s_2\over s_1} \\
+.\]
+
 
 
 
