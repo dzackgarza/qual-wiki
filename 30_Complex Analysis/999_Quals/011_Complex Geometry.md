@@ -33,6 +33,12 @@ b. A circle, using that Apollonius circles are characterized as the locus of dis
   \implies (x-{14\over 6})^2 + y^2 = \qty{2\over 3}^2
   ,\]
   which is a circle of radius $2/3$ with center $\qty{{14\over 6}, 0}$.
+  To avoid the calculation, use
+  \[
+  Ax^2 + Bxy + Cy + \cdots = 0,\quad A=1, B=0, C=1 \implies \Delta \da B^2 - 4AC < 0
+  ,\]
+  which is an ellipse, and since $A=C$ it is in fact a circle.
+
 
 c. $S^1$, using that ${1\over z} = {\bar{z} \over z\bar{z}} = {\bar z\over \abs{z}^2}$ and if this equals $\bar{z}$, then $\abs{z}^2=1$.
 Alternatively, $1 = \bar{z}z = \abs{z}^2$.
