@@ -50,7 +50,7 @@ g. Exterior of a circle: same calculation is (2), replacing $=0$ with $<0$.
 Note that the line marked $\star$ involves dividing by a negative, so this flips the sign, and we get $\cdots > \qty{2\over 3}^2$ at the end.
 :::
 
-## Spring 2020 HW 1.4 #work 
+## Spring 2020 HW 1.4 #completed 
 
 :::{.problem title="?"}
 \envlist
@@ -95,7 +95,7 @@ where the $z_i$ and $r$ are all constant, so thus is the equation of a circle.
 
 :::
 
-## Spring 2020 HW 1.11 #work
+## Spring 2020 HW 1.11 #completed
 
 :::{.problem title="?"}
 Prove that the distinct complex numbers $z_1, z_2, z_3$ are the vertices of an equilateral triangle if and only if
@@ -139,7 +139,7 @@ Similar arguments show $\theta_1=\theta_2 = \theta_3$ which forces $s_1=s_2 = s_
 
 :::
 
-## Spring 2020 HW 1.5
+## Spring 2020 HW 1.5 #completed
 
 :::{.problem title="?"}
 \envlist
@@ -169,8 +169,25 @@ Note that if either $\abs{w}^2 = 1$ or $\abs{z}^2 = 1$ then the first line is an
 :::
 
 :::{.solution title="part 2"}
-That $F: \DD\to \DD$: follows from the inequality, since $\abs{z}, \abs{w} < 1$ for $z,w\in \DD$.
+\envlist
+
+- That $F: \DD\to \DD$: follows from the inequality, since $\abs{z}, \abs{w} < 1$ for $z,w\in \DD$.
 Holomorphicity: follows from the fact that rational expressions of holomorphic functions are holomorphic away from where the denominators vanish.
-Then just note that $\abs{\bar{w} z} \lleq \abs{w}\abs{z} < 1$, so $\abs{1 - \bar{w} z} > 0$.
+- Then just note that $\abs{\bar{w} z} \lleq \abs{w}\abs{z} < 1$, so $\abs{1 - \bar{w} z} > 0$.
+
+- $F(0) = {w-0 \over 1-0} = w$
+- $F(w) = {w-w\over 1 - \bar w w} = 0$
+- $\abs{z} = 1$ yields equality in part 1.
+
+> Other notes: $F$ is bijective on $\DD$:
+\[
+F(F(z))
+&= {w - \qty{w-z\over 1-\bar w z} \over 1 - \bar{w}\qty{w-z\over 1 - \bar w z} } \\
+&= {w(1-\bar w z) - (w-z) \over (1-\bar w z) - \bar w (w-z)} \\
+&= {z-\abs{w}^2 z \over 1 - \abs{w}^2 }\\
+&= z
+.\]
+
+
 :::
 

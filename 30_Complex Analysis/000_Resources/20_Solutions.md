@@ -32,3 +32,4 @@
 - [ ]  ![[complex_prelim.pdf]]
 - [ ]  [Berkeley final solutions](https://math.berkeley.edu/~nikhil/courses/185.f15/finalsol.pdf)
 - [ ]  [Antieau midterms solutions](https://math.northwestern.edu/~antieau/201202-132/midterm-sols.pdf)
+- [ ] [Berkeley class](https://math.berkeley.edu/~murphy/185-Solutions1.pdf)
