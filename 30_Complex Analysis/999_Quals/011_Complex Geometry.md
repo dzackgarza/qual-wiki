@@ -104,6 +104,22 @@ z_{1}^{2}+z_{2}^{2}+z_{3}^{2}=z_{1} z_{2}+z_{2} z_{3}+z_{3} z_{1}
 .\]
 :::
 
+
+:::{.solution}
+$\implies$:
+Write the vertices as $z_1, z_2, z_3$.
+Then the sides satisfy 
+
+- $z_2 - z_1 = \zeta_3 (z_3-z_1)$,
+- $z_3 - z_2 = \zeta_3(z_1 - z_3)$,
+- $z_1 - z_3 = \zeta_3(z_2 - z_3)$
+
+where $\zeta_3 \da \exp\qty{2\pi i \over 3}$.
+
+
+:::
+
+
 ## Spring 2020 HW 1 # 5
 
 :::{.problem title="?"}
