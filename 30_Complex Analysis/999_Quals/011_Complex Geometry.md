@@ -28,7 +28,7 @@ b. A circle, using that Apollonius circles are characterized as the locus of dis
   \[
   \abs{z-1}^2 &= 4\abs{z-2}^2 \\
   \implies (x-1)^2 + y^2 - 4\qty{(x-2)^2 + y^2 } &=0 \\
-  -3x^2 + 14x - 3y^2 - 15 &= 0 && \star
+  -3x^2 + 14x - 3y^2 - 15 &= 0 && \star\\
   \implies x^2 - {14\over 3}x + y^2 + 5 &= 0 \\
   \implies (x- {14\over 2\cdot 3})^2 - {14\over 2\cdot 3}^2 + y^2 + 5 &= 0 \\
   \implies (x-{14\over 6})^2 + y^2 = \qty{2\over 3}^2
@@ -46,7 +46,8 @@ Alternatively, $1 = \bar{z}z = \abs{z}^2$.
 d. Vertical line through $z=3$.
 e. Horizontal line through $z=ia$.
 f. Region to the right of the vertical line through $z=a$.
-g. Exterior of a circle: take the calculation in 
+g. Exterior of a circle: same calculation is (2), replacing $=0$ with $<0$.
+Note that the line marked $\star$ involves dividing by a negative, so this flips the sign, and we get $\cdots > \qty{2\over 3}^2$ at the end.
 :::
 
 ## Spring 2020 HW 1.4 #work 
