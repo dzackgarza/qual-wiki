@@ -41,9 +41,9 @@ T'(z) = {ad-bc \over (cz+d)^2}
 :::
 
 :::{.remark}
-Using that $\Aut(\CP^1) \cong \PGL_2(\CC)$, there is a nice matrix representation if you act on projective coordinates on the right:
+Using that $\Aut(\CP^1) \cong \PGL_2(\CC)$, there is a nice matrix representation if you act on projective coordinates:
 \[
-\tv{z: 1} \cdot \matt a b c d = \tv{f(z): 1}
+\matt a b c d \cdot \tv{z: 1}^t = = \tv{ {az+b \over cz + d }: 1} = \tv{f(z): 1}
 .\]
 This yields a quick way of finding $f\inv$: invert the matrix and ignore the determinant that shows up since it just scales every entry:
 \[
