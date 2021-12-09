@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6b7a0c3c0bf5e626",
+        "id": "0fc5d06558139213",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -244,8 +244,9 @@
     "direction": "horizontal",
     "width": 360
   },
-  "active": "6b7a0c3c0bf5e626",
+  "active": "0fc5d06558139213",
   "lastOpenFiles": [
+    "30_Complex Analysis/Riemann Mapping Principle.md",
     "30_Complex Analysis/045_Casorati/Picard Theorems.md",
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/045_Casorati/Picard theorem.md",
@@ -254,7 +255,6 @@
     "30_Complex Analysis/Laurent Series.md",
     "30_Complex Analysis/999_Quals/021 Laurent Expansions.md",
     "30_Complex Analysis/045_Casorati/Casorati.md",
-    "30_Complex Analysis/045_Casorati/Casorati-Weierstrass.md",
-    "30_Complex Analysis/Riemann Mapping Principle.md"
+    "30_Complex Analysis/045_Casorati/Casorati-Weierstrass.md"
   ]
 }
