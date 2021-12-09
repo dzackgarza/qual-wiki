@@ -47,14 +47,12 @@ Dive into some topics here:
 - [[20_Real Analysis]]
 - [[30_Complex Analysis]]
 - [[40_Topology]]
-- [[50_Algebraic Geometry]] #undeveloped
-- [[60_Differential Geometry]] #undeveloped 
 
 Do some #reading:
 
-- [[20_Books_Notes]]
-- [[15_Books_Notes]]
-- [[30_Complex Analysis/000_Resources/00_Books_Notes]]
+- [[20_Books_Notes|Algebra notes]]
+- [[15_Books_Notes|Real analysis notes]]
+- [[30_Complex Analysis/000_Resources/00_Books_Notes|Complex analy]]
 - [[40_Topology/000_Resources/00_Books_Notes]]
 - [[00_Books_Notes_AG]]
 - [[00_Books_Notes_AG]]

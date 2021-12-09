@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "000_My Active Problems.md",
+            "file": "index.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000_My Active Problems.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_My Active Problems.md"
+                "file": "index.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_My Active Problems.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000_My Active Problems.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -254,15 +254,15 @@
   },
   "active": "fbcfeea233323bd8",
   "lastOpenFiles": [
-    "000_My Active Problems.md",
+    "index.md",
     "unresolved links output.md",
+    "000_My Active Problems.md",
     "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md",
     "20_Real Analysis/000_Resources/10_Topics.md",
     "10_Algebra/000_Resources/50_Solutions_Algebra.md",
     "30_Complex Analysis/050_Conformal_Maps/055_Riemann Mapping.md",
     "30_Complex Analysis/Riemann Mapping Principle.md",
     "30_Complex Analysis/045_Casorati/Picard Theorems.md",
-    "30_Complex Analysis/000_Resources/00_Topics.md",
-    "30_Complex Analysis/045_Casorati/Picard theorem.md"
+    "30_Complex Analysis/000_Resources/00_Topics.md"
   ]
 }

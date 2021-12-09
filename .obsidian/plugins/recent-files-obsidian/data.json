@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
       "basename": "unresolved links output",
       "path": "unresolved links output.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "072_Fields and Galois Theory",
       "path": "10_Algebra/600_Qual_Questions_UGA/072_Fields and Galois Theory.md"
-    },
-    {
-      "basename": "60_Littlewood Principles",
-      "path": "20_Real Analysis/005_Basics/60_Littlewood Principles.md"
     }
   ],
   "omittedPaths": [],
