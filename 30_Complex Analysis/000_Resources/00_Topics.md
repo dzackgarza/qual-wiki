@@ -44,17 +44,16 @@ Integration II
 [[020 Liouville]]
     - FTA
     - Entire functions
-- Week 7 (June 30):
- Roots
+- Week 7 (June 30): **Roots**
     -  [[Rouche]]
 		- [[Argument Principle]]
-- Week 8 (July 7): Conformal Maps
+- Week 8 (July 7): **Conformal Maps**
 	- [[105_Conformal Maps]]
 	- The big 9 transformations
 	- Mobius transformations, [[100_Linear Fractional Transformations]]
 	- SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
 	- Uniformization
-- Week 9 (July 14): Schwarz
+- Week 9 (July 14): **Schwarz**
 	- [[30_Complex Analysis/999_Quals/200_Schwarz|Schwarz lemma]] 
 	- [[060 Schwarz Reflection|Schwarz Reflection]]
 	- [[30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping|Open Mapping Theorem]]
