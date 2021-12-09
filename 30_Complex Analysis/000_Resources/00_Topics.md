@@ -48,12 +48,12 @@ Integration II
  Roots
     -  [[Rouche]]
 		- [[Argument Principle]]
-- Week 8 (July 7):
+- Week 8 (July 7): Conformal Maps
 	- [[105_Conformal Maps]]
-    - The big 9 transformations
-    - Mobius transformations, [[100_Linear Fractional Transformations]]
-    - SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
-    - Uniformization
+	- The big 9 transformations
+	- Mobius transformations, [[100_Linear Fractional Transformations]]
+	- SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
+	- Uniformization
 - Week 9 (July 14):
 	- [[Shwarz Lemma]]] 
 	- [[060 Schwarz Reflection|Schwarz Reflection]]
