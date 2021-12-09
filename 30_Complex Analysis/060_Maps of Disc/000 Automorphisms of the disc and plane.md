@@ -1,3 +1,3 @@
 #todo
 
-- What are tutomorphisms of $\DD, \CC, \CP^1$
+- What are the automorphisms of $\DD, \CC, \CP^1$
