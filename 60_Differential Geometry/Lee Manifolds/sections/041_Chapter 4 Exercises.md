@@ -1,5 +1,0 @@
-[[LeeManifolds]]
-
-## Exercise
-
-Todo
