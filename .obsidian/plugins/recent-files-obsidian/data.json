@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "055_Riemann Mapping",
+      "path": "30_Complex Analysis/060_Maps of Disc/055_Riemann Mapping.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "50_Solutions_Algebra",
       "path": "10_Algebra/000_Resources/50_Solutions_Algebra.md"
-    },
-    {
-      "basename": "055_Riemann Mapping",
-      "path": "30_Complex Analysis/050_Conformal_Maps/055_Riemann Mapping.md"
     },
     {
       "basename": "00_Topics",

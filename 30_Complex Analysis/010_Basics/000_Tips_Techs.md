@@ -21,7 +21,8 @@ Things to know well:
 	- [[30_Complex Analysis/999_Quals/050 Liouville|Liouville qual questions]]
 - [[30_Complex Analysis/999_Quals/040_Maximum_Modulus]]
 - [[30_Complex Analysis/040_Zeros_and_Poles/030_Rouche]]
-- [[Schwarz reflect
+- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle]]
+- [[The Schwarz lemma]]
 - [[Maximum modulus principle]]
 - [[Rouche's theorem]]
 - [[The Schwarz reflection principle]]
