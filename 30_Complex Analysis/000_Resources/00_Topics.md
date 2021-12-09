@@ -9,7 +9,7 @@
 - Series and product developments: Laurent series, partial fractions expansions, and [[canonical products]]
 - Special functions: the [[Gamma function]], the [[zeta functions]] and [[elliptic functions]]
 - Basics of Riemann surfaces
-- [[Riemann mapping theorem]]. [[30_Complex Analysis/Picard theorem]]
+- [[Riemann mapping theorem]]. [[30_Complex Analysis/045_Casorati/Picard theorem]]
 
 # Scheduling
 
@@ -41,9 +41,9 @@ Integration I
 Integration II
     - [[020_Residues]]
 - Week 6 (June 23):
-[[020 Liouville]]
-    - FTA
-    - Entire functions
+	- [[020 Liouville]]
+	- FTA
+	- Entire functions
 - Week 7 (June 30): **Roots**
     -  [[Rouche]]
 		- [[Argument Principle]]
@@ -60,7 +60,7 @@ Integration II
 - Week 10  (July 21): 
 		- [[30_Complex Analysis/Riemann Mapping Principle|Riemann Mapping Principle]], 
 		- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass|Casorati-Weierstrass]], 
-		- [[30_Complex Analysis/Picard theorem|Picard]]
+		- [[30_Complex Analysis/045_Casorati/Picard theorem|Picard]]
 - Week 11 (July 28):
 	- [[030 Identity Principle]]
 	- [[Montel's theorem]]

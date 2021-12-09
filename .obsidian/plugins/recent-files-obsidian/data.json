@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
     {
+      "basename": "Picard theorem",
+      "path": "30_Complex Analysis/045_Casorati/Picard theorem.md"
+    },
+    {
       "basename": "040_Open Mapping",
       "path": "30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Riemann Mapping Principle",
       "path": "30_Complex Analysis/Riemann Mapping Principle.md"
-    },
-    {
-      "basename": "Picard theorem",
-      "path": "30_Complex Analysis/Picard theorem.md"
     },
     {
       "basename": "qual_progress",
