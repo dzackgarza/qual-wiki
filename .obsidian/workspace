@@ -4,20 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4c2f910e3fa54b94",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
-      },
-      {
         "id": "456a35cf45cdb358",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "unresolved links output.md",
+            "file": "000_My Active Problems.md",
             "mode": "source"
           }
         }
@@ -86,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unresolved links output.md",
+                "file": "000_My Active Problems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -121,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unresolved links output.md"
+                "file": "000_My Active Problems.md"
               }
             }
           }
@@ -146,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unresolved links output.md",
+                "file": "000_My Active Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unresolved links output.md",
+                "file": "000_My Active Problems.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -262,9 +254,9 @@
   },
   "active": "456a35cf45cdb358",
   "lastOpenFiles": [
+    "000_My Active Problems.md",
     "unresolved links output.md",
     "index.md",
-    "000_My Active Problems.md",
     "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md",
     "20_Real Analysis/000_Resources/10_Topics.md",
     "10_Algebra/000_Resources/50_Solutions_Algebra.md",
