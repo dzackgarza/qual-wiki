@@ -55,8 +55,8 @@ Integration II
     - SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
     - Uniformization
 - Week 9 (July 14):
-[[Shwarz Lemma]]] & [[060 Schwarz Reflection]]
-    - [[30_Complex Analysis/Open mapping theorem]]
+[[Shwarz Lemma]]] & [[060 Schwarz Reflection|Schwarz Reflec]]
+    - [[30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping|Open Mapping Theorem]]
 - Week 10  (July 21):
 		- [[30_Complex Analysis/Riemann Mapping Principle]], [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass]], [[30_Complex Analysis/Picard theorem]]
 - Week 11 (July 28):
