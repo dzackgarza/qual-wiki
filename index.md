@@ -53,9 +53,7 @@ Do some #reading:
 - [[20_Books_Notes|Algebra notes]]
 - [[15_Books_Notes|Real analysis notes]]
 - [[30_Complex Analysis/000_Resources/00_Books_Notes|Complex analysis notes]]
-- [[40_Topology/000_Resources/00_Books_Notes]]
-- [[00_Books_Notes_AG]]
-- [[00_Books_Notes_AG]]
+- [[40_Topology/000_Resources/00_Books_Notes|Topology notes]]
 
 ## My Work
 

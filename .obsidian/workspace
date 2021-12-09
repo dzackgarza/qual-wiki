@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fbcfeea233323bd8",
+        "id": "4c2f910e3fa54b94",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "index.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +75,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -138,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +159,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "index.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -252,10 +244,10 @@
     "direction": "horizontal",
     "width": 360
   },
-  "active": "fbcfeea233323bd8",
+  "active": "4c2f910e3fa54b94",
   "lastOpenFiles": [
-    "index.md",
     "unresolved links output.md",
+    "index.md",
     "000_My Active Problems.md",
     "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md",
     "20_Real Analysis/000_Resources/10_Topics.md",
