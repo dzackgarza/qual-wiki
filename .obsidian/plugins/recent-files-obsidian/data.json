@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Summer 2003",
-      "path": "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md"
+      "basename": "000_My Active Problems",
+      "path": "000_My Active Problems.md"
     },
     {
       "basename": "unresolved links output",
       "path": "unresolved links output.md"
+    },
+    {
+      "basename": "Summer 2003",
+      "path": "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md"
     },
     {
       "basename": "10_Topics",
@@ -195,10 +199,6 @@
     {
       "basename": "60_Littlewood Principles",
       "path": "20_Real Analysis/005_Basics/60_Littlewood Principles.md"
-    },
-    {
-      "basename": "36_Galois_Theory_Computations",
-      "path": "10_Algebra/060_Galois/36_Galois_Theory_Computations.md"
     }
   ],
   "omittedPaths": [],
