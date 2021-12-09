@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "030_Schwarz reflection principle",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "999_Exercises",
       "path": "30_Complex Analysis/030_Residues/999_Exercises.md"
-    },
-    {
-      "basename": "115_Complex Log",
-      "path": "30_Complex Analysis/010_Basics/115_Complex Log.md"
-    },
-    {
-      "basename": "Pasted image 20211127210218",
-      "path": "attachments/Pasted image 20211127210218.png"
     }
   ],
   "omittedPaths": [],

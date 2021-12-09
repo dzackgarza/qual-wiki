@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "456a35cf45cdb358",
+        "id": "7a43bf1ef58cc378",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+            "file": "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+                "file": "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -252,8 +252,10 @@
     "direction": "horizontal",
     "width": 360
   },
-  "active": "456a35cf45cdb358",
+  "active": "7a43bf1ef58cc378",
   "lastOpenFiles": [
+    "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md",
+    "30_Complex Analysis/020_Applications of Cauchy/060 Schwarz Reflection.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "unresolved links output.md",
     "index.md",
@@ -261,8 +263,6 @@
     "000_My Active Problems.md",
     "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md",
     "20_Real Analysis/000_Resources/10_Topics.md",
-    "10_Algebra/000_Resources/50_Solutions_Algebra.md",
-    "30_Complex Analysis/050_Conformal_Maps/055_Riemann Mapping.md",
-    "30_Complex Analysis/Riemann Mapping Principle.md"
+    "10_Algebra/000_Resources/50_Solutions_Algebra.md"
   ]
 }

@@ -10,18 +10,18 @@ order: 0
 
 Things to know well:
 
-- [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem]]
-- [[30_Complex Analysis/999_Quals/035_Cauchy Theorem]]
+- Estimates for derivatives
+- [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|MVT]]
+- [[30_Complex Analysis/999_Quals/035_Cauchy Theorem|Cauchy's theorem]]
 - [[30_Complex Analysis/020_Applications of Cauchy/012 Cauchy Integral Formula|Cauchy's integral formula]]
 - [[30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality|Cauch'y inequality]]
 - [[30_Complex Analysis/020_Applications of Cauchy/050_Morera_Theorem|Morera's theorem]]
 	- [[30_Complex Analysis/999_Quals/070_Morera|Morera qual questions]]
-- Estimates for derivatives, [[mean value theorem]]
-- [[Cauchy's theorem]]
-- [[Cauchy's integral formula]]
-- [[Cauchy's inequality]]
-- [[Morera's theorem]]
-- [[Liouville's theorem]]
+- [[30_Complex Analysis/020_Applications of Cauchy/020 Liouville]]
+	- [[30_Complex Analysis/999_Quals/050 Liouville|Liouville qual questions]]
+- [[30_Complex Analysis/999_Quals/040_Maximum_Modulus]]
+- [[30_Complex Analysis/040_Zeros_and_Poles/030_Rouche]]
+- [[Schwarz reflect
 - [[Maximum modulus principle]]
 - [[Rouche's theorem]]
 - [[The Schwarz reflection principle]]
