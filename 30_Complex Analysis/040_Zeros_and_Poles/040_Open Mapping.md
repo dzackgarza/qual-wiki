@@ -1,3 +1,7 @@
+---
+title: Open Mapping Theorem
+---
+
 # Open Mapping Theorem
 
 :::{.corollary title="Open Mapping"}

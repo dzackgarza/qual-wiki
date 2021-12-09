@@ -20,7 +20,7 @@ Things to know well:
 - [[Rouche's theorem]]
 - [[The Schwarz reflection principle]]
 - [[The Schwarz lemma]]
-- [[Casorati-Weierstrass]]
+- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass]]
 - Properties of [[100_Linear Fractional Transformations]] 
 - [[conformal maps]]
 - [[Maps of the disc]] and automorphisms of $\DD, \CC, \CP^1$

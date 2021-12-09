@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
+    },
+    {
+      "basename": "Open mapping theorem",
+      "path": "30_Complex Analysis/Open mapping theorem.md"
+    },
+    {
+      "basename": "040_Open Mapping",
+      "path": "30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping.md"
+    },
+    {
+      "basename": "021 Laurent Expansions",
+      "path": "30_Complex Analysis/999_Quals/021 Laurent Expansions.md"
+    },
+    {
+      "basename": "Casorati-Weierstrass",
+      "path": "30_Complex Analysis/045_Casorati/Casorati-Weierstrass.md"
+    },
+    {
+      "basename": "Riemann Mapping Principle",
+      "path": "30_Complex Analysis/Riemann Mapping Principle.md"
+    },
+    {
+      "basename": "Picard theorem",
+      "path": "30_Complex Analysis/Picard theorem.md"
+    },
+    {
       "basename": "qual_progress",
       "path": "qual_progress.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "025_Blaschke_Products",
       "path": "30_Complex Analysis/900 Unsorted/025_Blaschke_Products.md"
-    },
-    {
-      "basename": "20_Sets",
-      "path": "20_Real Analysis/005_Basics/20_Sets.md"
-    },
-    {
-      "basename": "012_Fundamental Group",
-      "path": "40_Topology/600_UGA_Qual_Questions/012_Fundamental Group.md"
-    },
-    {
-      "basename": "012 Cauchy Integral Formula",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/012 Cauchy Integral Formula.md"
-    },
-    {
-      "basename": "011_General",
-      "path": "40_Topology/600_UGA_Qual_Questions/011_General.md"
-    },
-    {
-      "basename": "021_Integrals",
-      "path": "30_Complex Analysis/030_Residues/021_Integrals.md"
-    },
-    {
-      "basename": "250_Surfaces_Manifolds",
-      "path": "40_Topology/100_Manifolds/250_Surfaces_Manifolds.md"
-    },
-    {
-      "basename": "Useful Tricks",
-      "path": "00_Prelims/Useful Tricks.md"
     }
   ],
   "omittedPaths": [],

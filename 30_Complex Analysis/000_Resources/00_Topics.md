@@ -9,7 +9,7 @@
 - Series and product developments: Laurent series, partial fractions expansions, and [[canonical products]]
 - Special functions: the [[Gamma function]], the [[zeta functions]] and [[elliptic functions]]
 - Basics of Riemann surfaces
-- [[Riemann mapping theorem]]. [[Picard theorem]]
+- [[Riemann mapping theorem]]. [[30_Complex Analysis/Picard theorem]]
 
 # Scheduling
 
@@ -56,9 +56,9 @@ Integration II
     - Uniformization
 - Week 9 (July 14):
 [[Shwarz Lemma]]] & [[060 Schwarz Reflection]]
-    - [[Open mapping theorem]]
+    - [[30_Complex Analysis/Open mapping theorem]]
 - Week 10  (July 21):
-		- [[Riemann Mapping Principle]], [[Casorati-Weierstrass]], [[Picard theorem]]
+		- [[30_Complex Analysis/Riemann Mapping Principle]], [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass]], [[30_Complex Analysis/Picard theorem]]
 - Week 11 (July 28):
 	- [[030 Identity Principle]]
 	- [[Montel's theorem]]
