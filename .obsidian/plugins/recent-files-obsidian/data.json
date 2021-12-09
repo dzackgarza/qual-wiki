@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "unresolved links output",
+      "path": "unresolved links output.md"
+    },
+    {
+      "basename": "50_Solutions_Algebra",
+      "path": "10_Algebra/000_Resources/50_Solutions_Algebra.md"
+    },
+    {
+      "basename": "055_Riemann Mapping",
+      "path": "30_Complex Analysis/050_Conformal_Maps/055_Riemann Mapping.md"
+    },
+    {
       "basename": "00_Topics",
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
@@ -187,10 +199,6 @@
     {
       "basename": "030 Identity Principle",
       "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
-    },
-    {
-      "basename": "025_Blaschke_Products",
-      "path": "30_Complex Analysis/900 Unsorted/025_Blaschke_Products.md"
     }
   ],
   "omittedPaths": [],
