@@ -49,7 +49,7 @@ Integration II
     -  [[Rouche]]
 		- [[Argument Principle]]
 - Week 8 (July 7):
-	[[105_Conformal Maps]]
+	- [[105_Conformal Maps]]
     - The big 9 transformations
     - Mobius transformations, [[100_Linear Fractional Transformations]]
     - SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
