@@ -10,6 +10,17 @@
           "type": "empty",
           "state": {}
         }
+      },
+      {
+        "id": "456a35cf45cdb358",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "unresolved links output.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -75,6 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "unresolved links output.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -108,7 +120,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "unresolved links output.md"
+              }
             }
           }
         ],
@@ -132,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "unresolved links output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "unresolved links output.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -244,7 +260,7 @@
     "direction": "horizontal",
     "width": 360
   },
-  "active": "4c2f910e3fa54b94",
+  "active": "456a35cf45cdb358",
   "lastOpenFiles": [
     "unresolved links output.md",
     "index.md",
