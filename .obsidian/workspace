@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "unresolved links output.md",
+            "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unresolved links output.md",
+                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unresolved links output.md"
+                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unresolved links output.md",
+                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unresolved links output.md",
+                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -254,6 +254,7 @@
   },
   "active": "456a35cf45cdb358",
   "lastOpenFiles": [
+    "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "unresolved links output.md",
     "index.md",
     "040_Topology.md",
@@ -262,7 +263,6 @@
     "20_Real Analysis/000_Resources/10_Topics.md",
     "10_Algebra/000_Resources/50_Solutions_Algebra.md",
     "30_Complex Analysis/050_Conformal_Maps/055_Riemann Mapping.md",
-    "30_Complex Analysis/Riemann Mapping Principle.md",
-    "30_Complex Analysis/045_Casorati/Picard Theorems.md"
+    "30_Complex Analysis/Riemann Mapping Principle.md"
   ]
 }

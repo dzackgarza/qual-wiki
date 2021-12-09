@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "000_Tips_Techs",
+      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
       "basename": "unresolved links output",
       "path": "unresolved links output.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20211127210218",
       "path": "attachments/Pasted image 20211127210218.png"
-    },
-    {
-      "basename": "100_Point_Set",
-      "path": "40_Topology/020_Point_Set/100_Point_Set.md"
     }
   ],
   "omittedPaths": [],
