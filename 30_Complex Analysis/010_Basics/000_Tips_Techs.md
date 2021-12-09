@@ -22,12 +22,11 @@ Things to know well:
 - [[30_Complex Analysis/999_Quals/040_Maximum_Modulus]]
 - [[30_Complex Analysis/040_Zeros_and_Poles/030_Rouche]]
 - [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle]]
-- [[The Schwarz lemma]]
-- [[Maximum modulus principle]]
-- [[Rouche's theorem]]
-- [[The Schwarz reflection principle]]
-- [[The Schwarz lemma]]
+- [[30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma]]
 - [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass]]
+	- [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati|Qual questions]]
+- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass]]
+- [[Conformal maps
 - Properties of [[100_Linear Fractional Transformations]] 
 - [[conformal maps]]
 - [[Maps of the disc]] and automorphisms of $\DD, \CC, \CP^1$
