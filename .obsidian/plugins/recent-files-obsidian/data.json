@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Summer 2003",
+      "path": "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md"
+    },
+    {
       "basename": "unresolved links output",
       "path": "unresolved links output.md"
+    },
+    {
+      "basename": "10_Topics",
+      "path": "20_Real Analysis/000_Resources/10_Topics.md"
     },
     {
       "basename": "50_Solutions_Algebra",
@@ -191,14 +199,6 @@
     {
       "basename": "36_Galois_Theory_Computations",
       "path": "10_Algebra/060_Galois/36_Galois_Theory_Computations.md"
-    },
-    {
-      "basename": "35_Fields_Extensions",
-      "path": "10_Algebra/060_Galois/35_Fields_Extensions.md"
-    },
-    {
-      "basename": "030 Identity Principle",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
     }
   ],
   "omittedPaths": [],

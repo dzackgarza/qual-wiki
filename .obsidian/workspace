@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "unresolved links output.md",
+            "file": "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unresolved links output.md",
+                "file": "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unresolved links output.md"
+                "file": "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unresolved links output.md",
+                "file": "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "unresolved links output.md",
+                "file": "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -254,15 +254,15 @@
   },
   "active": "fbcfeea233323bd8",
   "lastOpenFiles": [
+    "40_Topology/650_UCSD_Qual_Questions/Quals/Old/Summer 2003.md",
     "unresolved links output.md",
+    "20_Real Analysis/000_Resources/10_Topics.md",
     "10_Algebra/000_Resources/50_Solutions_Algebra.md",
     "30_Complex Analysis/050_Conformal_Maps/055_Riemann Mapping.md",
     "30_Complex Analysis/Riemann Mapping Principle.md",
     "30_Complex Analysis/045_Casorati/Picard Theorems.md",
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/045_Casorati/Picard theorem.md",
-    "30_Complex Analysis/Open mapping theorem.md",
-    "30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping.md",
-    "30_Complex Analysis/Laurent Series.md"
+    "30_Complex Analysis/Open mapping theorem.md"
   ]
 }
