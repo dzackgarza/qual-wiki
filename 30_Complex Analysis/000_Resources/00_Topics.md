@@ -54,7 +54,7 @@ Integration II
 	- Mobius transformations, [[100_Linear Fractional Transformations]]
 	- SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
 	- Uniformization
-- Week 9 (July 14):
+- Week 9 (July 14): Schwarz
 	- [[Shwarz Lemma]]] 
 	- [[060 Schwarz Reflection|Schwarz Reflection]]
 	- [[30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping|Open Mapping Theorem]]
