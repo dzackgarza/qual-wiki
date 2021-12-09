@@ -53,11 +53,11 @@ Integration II
 	- Mobius transformations, [[100_Linear Fractional Transformations]]
 	- SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
 	- Uniformization
-- Week 9 (July 14): **Schwarz**
+- Week 9 (July 14): **Schwarz lemma**
 	- [[30_Complex Analysis/999_Quals/200_Schwarz|Schwarz lemma]] 
 	- [[060 Schwarz Reflection|Schwarz Reflection]]
 	- [[30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping|Open Mapping Theorem]]
-- Week 10  (July 21):
+- Week 10  (July 21): 
 		- [[30_Complex Analysis/Riemann Mapping Principle|Riemann Mapping Principle]], 
 		- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass|Casorati-Weierstrass]], 
 		- [[30_Complex Analysis/Picard theorem|Picard]]
