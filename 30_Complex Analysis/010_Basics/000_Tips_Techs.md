@@ -26,10 +26,9 @@ Things to know well:
 - [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass]]
 	- [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati|Qual questions]]
 - [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass]]
-- [[Conformal maps
-- Properties of [[100_Linear Fractional Transformations]] 
-- [[conformal maps]]
-- [[Maps of the disc]] and automorphisms of $\DD, \CC, \CP^1$
+- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
+- [[30_Complex Analysis/900 Unsorted/Maps of the disc]]
+
 
 ## Common Tricks
 
