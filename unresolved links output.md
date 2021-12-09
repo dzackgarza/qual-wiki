@@ -35,4 +35,3 @@ Don't forget that creating the file from here may create the file in the wrong d
 - [[20_Real Analysis]] in [[index]]
 - [[30_Complex Analysis]] in [[index]]
 - [[40_Topology]] in [[index]]
-- [[30_Complex Analysis/999_Quals/0000_MOC UGA Complex Analysis Qual Questions]] in [[000_My Active Problems]]

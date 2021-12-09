@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "000_My Active Problems",
-      "path": "000_My Active Problems.md"
-    },
-    {
       "basename": "unresolved links output",
       "path": "unresolved links output.md"
     },
     {
       "basename": "index",
       "path": "index.md"
+    },
+    {
+      "basename": "040_Topology",
+      "path": "040_Topology.md"
+    },
+    {
+      "basename": "000_My Active Problems",
+      "path": "000_My Active Problems.md"
     },
     {
       "basename": "Summer 2003",
@@ -195,10 +199,6 @@
     {
       "basename": "100_Point_Set",
       "path": "40_Topology/020_Point_Set/100_Point_Set.md"
-    },
-    {
-      "basename": "072_Fields and Galois Theory",
-      "path": "10_Algebra/600_Qual_Questions_UGA/072_Fields and Galois Theory.md"
     }
   ],
   "omittedPaths": [],

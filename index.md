@@ -43,10 +43,10 @@ See [[Further Studying]].
 Dive into some topics here:
 
 - [[Prelim Resources]]
-- [[10_Algebra]]
-- [[20_Real Analysis]]
-- [[30_Complex Analysis]]
-- [[40_Topology]]
+- [[010_Algebra]]
+- [[020_Real Analysis]]
+- [[030_Complex Analysis]]
+- [[040_Topology]]
 
 Do some #reading:
 
