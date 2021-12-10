@@ -248,3 +248,36 @@ which is the composition
 
 :::
 
+
+:::{.proposition title="Lunar domains"}
+
+Idea: send $z_0\to 0$ and $z_1\to \infty$ to get a sector.
+
+![](figures/2021-12-10_17-12-12.png)
+
+:::
+
+
+:::{.exercise title="?"}
+Map $\DD^c \intersect \HH$ to $\HH$, sending 
+
+- $-1\to -1$
+- $i\to 0$
+- $1\to 1$
+
+:::
+
+
+:::{.solution}
+
+![](figures/2021-12-10_17-13-43.png)
+
+Compose to get:
+\[
+ {1\over z}{z + z\inv}
+.\]
+
+:::
+
+
+
