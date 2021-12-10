@@ -68,8 +68,12 @@ Equivalently, $v_{z_0}(f) \geq 0$
 - If $f(z) = p(z)/q(z)$ with $q(z_0)=0$ and $p(z_0)=0$, then $z_0$ is removable with $f(z_0)\da p'(z_0)/q'(z_0)$.
 :::
 
-:::{.theorem title="Extension over removable singularities"}
+:::{.theorem title="Extension over removable singularities, Riemann's removable singularity theorem"}
 If $f$ is holomorphic on $\Omega\sm\ts{z_0}$ where $z_0$ is a removable singularity, then there is a unique holomorphic extension of $f$ to all of $\Omega$.
+
+Equivalently, note that $f$ is bounded near removable singularities.
+There is a converse: let $z_{0}$ be an isolated singularity of $f(z)$. 
+If $f(z)$ is bounded near $z_{0}$, then $f(z)$ has a removable singularity at $z_{0}$.
 :::
 
 :::{.proof title="?"}
@@ -190,5 +194,4 @@ f(z) = {a_{-n} \over (z-z_0)^n } + \cdots + {a_{-1} \over z-z_0} + G(z) \da P(z)
 
 The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists of terms with negative degree, and the *residue* of $f$ at $z_0$ is the coefficient $a_{-1}$.
 :::
-
 
