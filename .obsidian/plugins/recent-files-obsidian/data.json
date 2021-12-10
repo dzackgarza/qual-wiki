@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "99999_Unsorted",
+      "path": "30_Complex Analysis/999_Quals/99999_Unsorted.md"
+    },
+    {
+      "basename": "105_Conformal Maps",
+      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+    },
+    {
       "basename": "00_References",
       "path": "10_Algebra/020_Groups/00_References.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "0000_Preface",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
-    },
-    {
-      "basename": "520_Counterexamples",
-      "path": "10_Algebra/100_Linear_Algebra/520_Counterexamples.md"
-    },
-    {
-      "basename": "510_Matrix_Groups",
-      "path": "10_Algebra/100_Linear_Algebra/510_Matrix_Groups.md"
     }
   ],
   "omittedPaths": [],

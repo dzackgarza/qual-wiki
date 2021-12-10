@@ -17,7 +17,7 @@ Find a conformal map from $R$ to $\HH$ the upper half-plane.
 - Blow up the point of tangency: inverting through a circle sends inner circles to lines, fixes the real line, and preserves regions between curves. 
 E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
 
-![](figures/2021-12-10_03-36-20.png)
+![[attachments/Circle Inversion.gif]]
 
 - So $z\to 1/z$ maps the region into a half-strip.
 
