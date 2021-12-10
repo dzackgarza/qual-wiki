@@ -10,6 +10,20 @@ R = \ts{z\in \CC\st \Re(z) > 0,\,\, \abs{z-{1\over 2}} > {1\over 2} } \sm \ts{z 
 Find a conformal map from $R$ to $\HH$ the upper half-plane.
 :::
 
+
+:::{.concept}
+\envlist
+
+- Blow up the point of tangency: inverting through a circle sends inner circles to lines, fixes the real line, and preserves regions between curves. 
+E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
+
+![](figures/2021-12-10_03-36-20.png)
+
+- So $z\to 1/z$ maps the region into a half-strip.
+
+:::
+
+
 ## Fall 2021 # 2  #work
 
 Let $\gamma(t)$ be a piecewise smooth curve in $\mathbb{C}, t \in[0,1]$. Let $F(w)$ be a continuous function on $\gamma$. Show that $f(z)$ defined by
