@@ -89,6 +89,19 @@ If $\gamma$ is a toy contour, then
 
 :::
 
+
+:::{.proposition title="Residues from partial fraction decomposition"}
+Every rational function $f(z) \da p(z)/q(z)$ can be expressed as 
+\[
+f(z) = P_{\infty}(z) + \sum_{1\leq j \leq m} P_j(z)
+,\]
+where $P_\infty(z)$ is a polynomial in $z$ and the $P_j$ are the principal parts of $f$ at its poles $\ts{z_1, \cdots, z_j}$.
+For example:
+
+![](figures/2021-12-10_18-44-20.png)
+
+:::
+
 :::{.proposition title="Residue formula for higher order poles"}
 If $f$ has a pole $z_0$ of order $n$, then
 \[  
