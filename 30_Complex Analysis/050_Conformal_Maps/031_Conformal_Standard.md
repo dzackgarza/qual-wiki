@@ -136,6 +136,22 @@ w^{\pi \over \alpha} &\mapsfrom w
 
 ## Logs and Exponentials
 
+
+:::{.remark}
+The exponential generally sends boxes to sectors, so
+\[
+\ts{z \st \Re(z) \in [a, b], \Im(z)\in [c, d]}\mapsto \ts{Re^{i\theta} \st R \in [e^a, e^b], \theta\in [c, d]}
+.\]
+
+Pictures of the situation:
+
+![](figures/2021-12-10_16-47-00.png)
+
+![](figures/2021-12-10_16-47-30.png)
+
+
+:::
+
 :::{.proposition title="Upper half-plane to horizontal strip"}
 \[
 F: \HH &\to \RR \times i(0, \pi) \\
@@ -171,6 +187,13 @@ e^w &\mapsfrom w
 
 
 ![](figures/2021-11-28_17-56-47.png)
+
+In general,
+
+- $\DD \intersect \HH$ maps to a half-strip in $Q_2$
+- $\DD \intersect Q_{34}$ maps to a half-strip in $Q_1$.
+- $\DD^c \intersect \HH$ maps to a half-strip in $Q_1$
+- $\DD^c \intersect Q_{34}$ maps to a half-strip in $Q_4$
 
 :::
 
