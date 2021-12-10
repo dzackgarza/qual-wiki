@@ -24,7 +24,7 @@ Some tips:
   E.g. Since $\abs{z-i}=1$ intersects $\RR$ in a parallel way, since the tangent vectors at zero will line up.
   So any conformal map must send them to parallel lines or circles with intersection angle zero.
   - Similarly if two circles intersect orthogonally, they must go to orthogonal lines or a line orthogonally intersecting a circle.
-  
+- $z\mapsto 1/z$ corresponds to a rotation of $\CP^1$ around the $x\dash$axis by $\pi$. 
 
 :::
 
