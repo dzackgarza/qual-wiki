@@ -1,8 +1,6 @@
-
-
 # Proofs of the Fundamental Theorem of Algebra
 
-### Argument Principle 
+## Argument Principle 
 
 :::{.proof title="using the argument principle"}
 \envlist
@@ -19,7 +17,15 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 :::
 
 
-### Rouche's Theorem
+## Rouche's Theorem
+
+
+:::{.proof title="From Gamelin"}
+
+![](figures/2021-12-10_18-02-14.png)
+
+:::
+
 
 :::{.proof title="using Rouche's theorem"}
 
@@ -48,7 +54,7 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 
 :::
 
-### Liouville's Theorem
+## Liouville's Theorem
 
 :::{.proof title="using Liouville's theorem"}
 \envlist
@@ -68,7 +74,7 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 
 :::
 
-### Open Mapping Theorem
+## Open Mapping Theorem
 
 :::{.proof title="using the Open Mapping theorem"}
 \envlist
@@ -86,7 +92,7 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 
 :::
 
-### Generalized Liouville
+## Generalized Liouville
 
 
 :::{.theorem title="Generalized Liouville"}

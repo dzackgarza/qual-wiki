@@ -22,10 +22,19 @@ The number of zeros/poles are determined by a dominating function.
 
 #todo prove
 
+:::{.remark}
+
 ![30_Complex Analysis/figures/2021-10-29_01-39-19.png](30_Complex%20Analysis/figures/2021-10-29_01-39-19.png)
 
 ![30_Complex Analysis/figures/2021-10-29_01-39-43.png](30_Complex%20Analysis/figures/2021-10-29_01-39-43.png)
 
+:::
+
+:::{.example title="?"}
+
+![](figures/2021-12-10_18-00-35.png)
+
+:::
 
 # Exercises
 
