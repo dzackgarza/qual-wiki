@@ -41,9 +41,7 @@ Things to know well:
 
 - Bounding a derivative using the original function: Cauchy's formula.
   - Also works to bound a function in terms of its integral, e.g. over a compact set like a curve.
-
 :::
-
 
 :::{.remark title="Showing a function is constant"}
 If you want to show that a function $f$ is constant, try one of the following:
@@ -55,7 +53,7 @@ If you want to show that a function $f$ is constant, try one of the following:
 - Holomorphic functions have isolated zeros.
 - For real analysis: if $f' < M$, apply the mean value theorem to show $f$ is Lipschit: $\abs{f(x) - f(y)} = \abs{f'(\xi)} \abs{x-y} < M\abs{x-y}$.
 - Showing something is constant or zero on a region: show it's zero on the boundary and apply the MMP.
-
+- Show that $f$ omits at least 2 values and apply little Picard.
 :::
 
 :::{.remark title="Showing a function is holomorphic"}
