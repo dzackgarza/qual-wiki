@@ -25,6 +25,7 @@ A summary:
 	.\] 
 	This reduces to a residue count in $\abs{z} \leq 1$.
 	
+- For rational function against a single trig function:
 
 ![](figures/2021-12-10_18-24-10.png)
 

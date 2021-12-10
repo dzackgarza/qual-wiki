@@ -9,7 +9,6 @@ Pedantic warning: $\Res_{z=p}(f)$ should really be $\Res_{z=p}(df)$ for $df = f(
 We freely abuse notation!
 :::
 
-
 ## Basics
 
 :::{.remark}
@@ -72,78 +71,6 @@ and check
 &= \max_{t\in [0, \pi} {1 \over 1 + R^2e^{2it} } \\
 &= {1\over R^2 - 1}
 .\]
-
-:::
-
-## Estimates
-
-:::{.remark}
-Note that
-\[
-a\geq b \implies e^{-a} \leq e^{-b}
-.\]
-
-:::
-
-:::{.proposition title="Length bound / ML Estimate"}
-\[
-\abs{ \int_\gamma f} \leq ML \da \sup_{z\in \gamma} \abs{f} \cdot \mathrm{length}(\gamma)
-.\]
-:::
-
-:::{.proof title="?"}
-\[
-\left|\int_{\gamma} f(z) d z\right| \leq \sup _{t \in[a, b]}|f(z(t))| \int_{a}^{b}\left|z^{\prime}(t)\right| d t \leq \sup _{z \in \gamma}|f(z)| \cdot \operatorname{length}(\gamma)
-.\]
-
-:::
-
-:::{.proposition title="Jordan's Lemma"}
-Suppose that $f(z) = e^{iaz}g(z)$ for some $g$, and let $C_R \da \ts{ z=Re^{it} \st t\in [0, \pi] }$. Then
-\[
-\abs{\int_{C_R} f(z) \dz} \leq {\pi M_R \over a}
-\]
-where $M_R \da \sup_{t\in [0, \pi]} \abs{g(Re^{it})}$.
-:::
-
-:::{.example title="of how to apply Jordan's lemma"}
-Show that
-\[
-\int_\RR {\sin(x) \over x} \dx = \pi
-.\]
-For a contour, take the indented half-disc, and set $f(z) = e^{iz}/z$:
-
-- For the innermost disc, use the fractional residue formula to get $-\pi i$ since $\Res_{z=0}f(z) = 1$
-- For the arc $\Gamma_R$, apply Jordan:
-\[
-\abs{\int_{\Gamma_R} f(z) \dz } \leq {1\over R} \int_{\Gamma_R} \abs{e^{iz}} \dz < {\pi \over R} \convergesto{R\to\infty} 0
-.\]
-
-
-
-:::
-
-:::{.proof title="?"}
-\[
-\abs{ \int_{C_R} f(z)\dz }
-&= \abs{ \int_{C_R} e^{iaz}g(z) \dz} \\
-&= \abs{ \int_{[0, \pi]} e^{ia\qty{Re^{it}}}g(Re^{it}) iRe^{it} \dt} \\
-&\leq \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}g(Re^{it}) iRe^{it}} \dt \\
-&=R \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}g(Re^{it})} \dt \\
-&\leq R M_R \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}} \dt \\
-&= R M_R \int_{[0, \pi]} e^{\Re\qty{iaRe^{it}}}   \dt \\
-&= R M_R \int_{[0, \pi]} e^{\Re\qty{iaR\qty{\cos(t) + i\sin(t) } }}   \dt \\
-&= R M_R \int_{[0, \pi]} e^{-aR\sin(t) }   \dt \\
-&= 2 R M_R \int_{[0, \pi/2]} e^{-aR\sin(t) }   \dt \\
-&\leq 2R M_R \int_{[0, \pi/2]} e^{-aR\qty{2t\over \pi} }   \dt \\
-&= 2RM_R \qty{\pi \over 2aR}\qty{1-e^{-aR}} \\
-&= {\pi M_R \over a}
-.\]
-
-where we've used that on $[0, \pi/2]$, there is an inequality $2t/\pi \leq \sin(t)$.
-This is obvious from a picture, since $\sin(t)$ is a height on $S^1$ and $2t/\pi$ is a height on a diagonal line:
-
-![figures/image_2021-06-09-01-29-22.png](figures/image_2021-06-09-01-29-22.png)
 
 :::
 
@@ -222,6 +149,84 @@ Let $f(z) = \frac{1}{1+z^2}$, then $g(z) = 1, h(z) = 1+z^2$, and $h'(z) = 2z$ so
 \[
 \Res_{z=\infty}f(z) = \Res_{z=0} g(z) && g(z) \da -{1 \over z^2}f\qty{1\over z} 
 .\]
+
+:::
+
+:::{.proposition title="Fractional Residue Formula"}
+
+![](figures/2021-12-10_18-27-31.png)
+
+:::
+
+## Estimates
+
+:::{.remark}
+Note that
+\[
+a\geq b \implies e^{-a} \leq e^{-b}
+.\]
+
+:::
+
+:::{.proposition title="Length bound / ML Estimate"}
+\[
+\abs{ \int_\gamma f} \leq ML \da \sup_{z\in \gamma} \abs{f} \cdot \mathrm{length}(\gamma)
+.\]
+:::
+
+:::{.proof title="?"}
+\[
+\left|\int_{\gamma} f(z) d z\right| \leq \sup _{t \in[a, b]}|f(z(t))| \int_{a}^{b}\left|z^{\prime}(t)\right| d t \leq \sup _{z \in \gamma}|f(z)| \cdot \operatorname{length}(\gamma)
+.\]
+
+:::
+
+:::{.proposition title="Jordan's Lemma"}
+Suppose that $f(z) = e^{iaz}g(z)$ for some $g$, and let $C_R \da \ts{ z=Re^{it} \st t\in [0, \pi] }$. Then
+\[
+\abs{\int_{C_R} f(z) \dz} \leq {\pi M_R \over a}
+\]
+where $M_R \da \sup_{t\in [0, \pi]} \abs{g(Re^{it})}$.
+:::
+
+:::{.example title="of how to apply Jordan's lemma"}
+Show that
+\[
+\int_\RR {\sin(x) \over x} \dx = \pi
+.\]
+For a contour, take the indented half-disc, and set $f(z) = e^{iz}/z$:
+
+- For the innermost disc, use the fractional residue formula to get $-\pi i$ since $\Res_{z=0}f(z) = 1$
+- For the arc $\Gamma_R$, apply Jordan:
+\[
+\abs{\int_{\Gamma_R} f(z) \dz } \leq {1\over R} \int_{\Gamma_R} \abs{e^{iz}} \dz < {\pi \over R} \convergesto{R\to\infty} 0
+.\]
+
+
+
+:::
+
+:::{.proof title="?"}
+\[
+\abs{ \int_{C_R} f(z)\dz }
+&= \abs{ \int_{C_R} e^{iaz}g(z) \dz} \\
+&= \abs{ \int_{[0, \pi]} e^{ia\qty{Re^{it}}}g(Re^{it}) iRe^{it} \dt} \\
+&\leq \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}g(Re^{it}) iRe^{it}} \dt \\
+&=R \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}g(Re^{it})} \dt \\
+&\leq R M_R \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}} \dt \\
+&= R M_R \int_{[0, \pi]} e^{\Re\qty{iaRe^{it}}}   \dt \\
+&= R M_R \int_{[0, \pi]} e^{\Re\qty{iaR\qty{\cos(t) + i\sin(t) } }}   \dt \\
+&= R M_R \int_{[0, \pi]} e^{-aR\sin(t) }   \dt \\
+&= 2 R M_R \int_{[0, \pi/2]} e^{-aR\sin(t) }   \dt \\
+&\leq 2R M_R \int_{[0, \pi/2]} e^{-aR\qty{2t\over \pi} }   \dt \\
+&= 2RM_R \qty{\pi \over 2aR}\qty{1-e^{-aR}} \\
+&= {\pi M_R \over a}
+.\]
+
+where we've used that on $[0, \pi/2]$, there is an inequality $2t/\pi \leq \sin(t)$.
+This is obvious from a picture, since $\sin(t)$ is a height on $S^1$ and $2t/\pi$ is a height on a diagonal line:
+
+![figures/image_2021-06-09-01-29-22.png](figures/image_2021-06-09-01-29-22.png)
 
 :::
 
