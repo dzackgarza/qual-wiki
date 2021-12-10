@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "00_References",
+      "path": "10_Algebra/020_Groups/00_References.md"
+    },
+    {
+      "basename": "30_Solutions",
+      "path": "40_Topology/000_Resources/30_Solutions.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "unresolved links output",
       "path": "unresolved links output.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
     },
     {
       "basename": "040_Topology",
@@ -191,14 +199,6 @@
     {
       "basename": "510_Matrix_Groups",
       "path": "10_Algebra/100_Linear_Algebra/510_Matrix_Groups.md"
-    },
-    {
-      "basename": "030_Rouche",
-      "path": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md"
-    },
-    {
-      "basename": "999_Exercises",
-      "path": "30_Complex Analysis/030_Residues/999_Exercises.md"
     }
   ],
   "omittedPaths": [],

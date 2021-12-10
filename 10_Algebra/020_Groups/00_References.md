@@ -12,10 +12,6 @@ Tags: #solutions #problems #pdfs
 
 [Ring Theory Review UCSD](attachments/ringsandmodules.pdf)
 
-[](https://people.math.sc.edu/mcnulty/qfers/gp.pdf)
-
-[](https://people.math.sc.edu/mcnulty/qfers/rng.pdf)
-
 Group Theory: [https://people.math.sc.edu/mcnulty/qfers/gp.pdf](https://people.math.sc.edu/mcnulty/qfers/gp.pdf)
 
 Ring Theory: [https://people.math.sc.edu/mcnulty/qfers/rng.pdf](https://people.math.sc.edu/mcnulty/qfers/rng.pdf)

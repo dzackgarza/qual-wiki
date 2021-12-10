@@ -1,5 +1,21 @@
 # Standard Conformal Maps
 
+
+:::{.remark}
+A summary:
+
+| Region | Map |
+|--------|-----|
+| $\DD\to \DD$ | $\lambda {z-a\over 1-\bar{a}z}, \lambda \in S^1$ |
+| $\HH\to \DD$ | ${z-i\over z+i}$ | 
+| Horizontal strip to sector | $e^{\alpha z}$ |
+| Sector to $\HH$ | $z^\alpha$ |
+| Lunes to sectors | FLTs |
+| Vertical half-strip to half-plane | $\sin(z)$ |
+
+:::
+
+
 ## $\HH$ and $\DD$
 
 :::{.proposition title="Blaschke Factors"}

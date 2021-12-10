@@ -36,8 +36,6 @@ Look at past prelims/quals:
 - Harvard Prelims: <http://www.math.harvard.edu/graduate/index.html#past>
 - UCLA Prelims and Quals: <https://secure.math.ucla.edu/gradquals/hbquals.php>
 
-See [[Further Studying]].
-
 ## Reading/Studying
 
 Dive into some topics here:
