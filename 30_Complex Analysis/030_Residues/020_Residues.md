@@ -4,7 +4,6 @@ See:
 
 - <https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter5.pdf>
 
-
 :::{.remark}
 Pedantic warning: $\Res_{z=p}(f)$ should really be $\Res_{z=p}(df)$ for $df = f(z) \dz$, since it's only an invariant of the 1-form $df$ and not necessarily $f$ itself.
 We freely abuse notation!
@@ -78,6 +77,14 @@ and check
 
 ## Estimates
 
+:::{.remark}
+Note that
+\[
+a\geq b \implies e^{-a} \leq e^{-b}
+.\]
+
+:::
+
 :::{.proposition title="Length bound / ML Estimate"}
 \[
 \abs{ \int_\gamma f} \leq ML \da \sup_{z\in \gamma} \abs{f} \cdot \mathrm{length}(\gamma)
@@ -97,6 +104,23 @@ Suppose that $f(z) = e^{iaz}g(z)$ for some $g$, and let $C_R \da \ts{ z=Re^{it} 
 \abs{\int_{C_R} f(z) \dz} \leq {\pi M_R \over a}
 \]
 where $M_R \da \sup_{t\in [0, \pi]} \abs{g(Re^{it})}$.
+:::
+
+:::{.example title="of how to apply Jordan's lemma"}
+Show that
+\[
+\int_\RR {\sin(x) \over x} \dx = \pi
+.\]
+For a contour, take the indented half-disc, and set $f(z) = e^{iz}/z$:
+
+- For the innermost disc, use the fractional residue formula to get $-\pi i$ since $\Res_{z=0}f(z) = 1$
+- For the arc $\Gamma_R$, apply Jordan:
+\[
+\abs{\int_{\Gamma_R} f(z) \dz } \leq {1\over R} \int_{\Gamma_R} \abs{e^{iz}} \dz < {\pi \over R} \convergesto{R\to\infty} 0
+.\]
+
+
+
 :::
 
 :::{.proof title="?"}

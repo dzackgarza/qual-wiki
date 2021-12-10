@@ -25,6 +25,9 @@ A summary:
 	.\] 
 	This reduces to a residue count in $\abs{z} \leq 1$.
 	
+
+![](figures/2021-12-10_18-24-10.png)
+
 :::
 
 :::{.exercise title="?"}
@@ -110,14 +113,12 @@ where we've used a variant of the triangle inequality:
 
 :::
 
-
 :::{.exercise title="?"}
 #work
 \[
 \int_{0}^{\infty} \frac{\cos (x)}{x^{2}+b^{2}} d x=\frac{\pi \mathrm{e}^{-b}}{2 b} .
 .\]
 :::
-
 
 :::{.solution}
 Extend to $\int_\RR$ using that $f$ is even.
@@ -126,7 +127,6 @@ Extend to $\int_\RR$ using that $f$ is even.
 
 :::
 
-
 :::{.exercise title="Trigonometric functions"}
 #work
 \[
@@ -134,7 +134,6 @@ Extend to $\int_\RR$ using that $f$ is even.
 = \begin{cases}\frac{2 \pi}{a^{2}-1} & \text { if }|a|>1 \\ \frac{2 \pi}{1-a^{2}} & \text { if }|a|<1\end{cases}
 .\]
 :::
-
 
 :::{.solution}
 Write $2\cos(z) = z + z\inv$ on $S^1$ to get
@@ -145,7 +144,6 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 :::
 
 ## Branch Cuts
-
 
 :::{.exercise title="?"}
 \[
@@ -159,13 +157,11 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 
 :::
 
-
 :::{.exercise title="?"}
 \[
 \int_{1}^{\infty} \frac{d x}{x \sqrt{x^{2}-1}} = {\pi \over 2}
 .\]
 :::
-
 
 :::{.solution}
 
