@@ -211,6 +211,18 @@ This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (
 
 ## Misc
 
+
+:::{.proposition title="Disc complement to doubly slit plane"}
+\[
+F: \DD^c \intersect \HH &\to \CC\sm[-2, 2] \\
+z &\mapsto z+ z\inv
+.\]
+
+![](figures/2021-12-10_17-44-34.png)
+
+:::
+
+
 :::{.proposition title="Upper half-disc to upper half-plane"}
 \[
 F: \DD \intersect \HH &\to \HH \\
