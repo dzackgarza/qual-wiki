@@ -54,6 +54,7 @@ If you want to show that a function $f$ is constant, try one of the following:
 - By the open mapping theorem, if $f \in \Hol( \Omega)$ then $\dim_\RR f(\Omega) \in {0, 2}$ but can never have dimension 1. So non-constant $f$ can not map open regions onto subsets of a curve, e.g. $I \subseteq \RR$, and if the image of $f$ is a curve or totally real, then $f$ is constant.
 - Holomorphic functions have isolated zeros.
 - For real analysis: if $f' < M$, apply the mean value theorem to show $f$ is Lipschit: $\abs{f(x) - f(y)} = \abs{f'(\xi)} \abs{x-y} < M\abs{x-y}$.
+- Showing something is constant or zero on a region: show it's zero on the boundary and apply the MMP.
 
 :::
 
