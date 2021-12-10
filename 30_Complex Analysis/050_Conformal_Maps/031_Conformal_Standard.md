@@ -218,7 +218,7 @@ F: \DD^c \intersect \HH &\to \CC\sm[-2, 2] \\
 z &\mapsto z+ z\inv
 .\]
 
-![](figures/2021-12-10_17-44-34.png)
+![](figures/2021-12-10_17-47-48.png)
 
 :::
 
