@@ -118,3 +118,14 @@ Let $f(z) = z^2 + z = z(z+1)$.
 - $\gamma_2 \da \ts{\abs z = {1\over 2}}$ contains 1 zero and 0 poles, so $f\circ \gamma$ winds once.
 
 :::
+
+
+:::{.remark}
+You can track the change in argument by just breaking a curve up into sub-curves and evaluating a branch of the $\arg$ function at the endpoints.
+For example, in this picture, the change in argument is $\pi$ no matter what the curve does in $\HH$:
+
+
+![](figures/2021-12-10_18-06-04.png)
+
+:::
+
