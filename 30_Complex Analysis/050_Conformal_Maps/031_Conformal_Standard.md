@@ -157,6 +157,7 @@ z &\mapsto \Log(z)
 ![](figures/2021-11-28_19-56-51.png)
 
 - Circles of radius $R$ are mapped to vertical line segments connecting $\ln(R) + i\pi$ to $\ln(R) - i\pi$, and rays are mapped to horizontal lines.
+- Inverse is useful: $z\mapsto e^z$ sends $\ts{ \abs{ \Re(z) } < \pi/2 }$ to $Q_{14}$, the right half-plane.
 
 
 :::
