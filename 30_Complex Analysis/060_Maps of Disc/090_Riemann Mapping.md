@@ -11,6 +11,26 @@ Moreover, it can be arranged so that $F(z_{0}) = 0$ and $F'(z_{0}) > 0$.
 Thus any two such sets $\Omega_{1}, \Omega_{2}$ are conformally equivalent.
 :::
 
+
+:::{.remark}
+Necessity of hypothesis:
+
+- Not all of $\CC$: $F: \CC \to \Omega$ with $\Omega$ bounded implies $F$ is constant by Liouville.
+- Simply connected: since $\pi_1 \DD = 1$, any closed curve in $\Omega$ is nullhomotopic by finding $F$ and composing $F\inv$ with a homotopy in $\DD$.
+
+:::
+
+
+:::{.corollary title="Uniformization"}
+A simply connected nonempty domain $\Omega \subseteq \CC$ is conformally equivalent to exactly one of
+
+- $\CP^1$,
+- $\CC$, or
+- $\DD$.
+
+:::
+
+
 :::{.proof title="Sketch"}
 The basic idea:
 
