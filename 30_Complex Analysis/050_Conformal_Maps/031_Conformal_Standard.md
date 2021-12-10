@@ -9,10 +9,10 @@ A summary:
 | $\DD\to \DD$ | $\lambda {z-a\over 1-\bar{a}z}, \lambda \in S^1$ |
 | $\HH\to \DD$ | ${z-i\over z+i}$ | 
 | Horizontal strip to sector | $e^{\alpha z}$ |
-| Horizontal strip to half-plaen| $e^{z}$ |
+| Horizontal strip to half-plane| $e^{z}$ |
 | Sector to $\HH$ | $z^\alpha$ |
 | Lunes to sectors | FLTs |
-| Vertical half-strip to half-plane | $\sin(z)$ |
+| $\HH$ to vertical half-strip | $\sin(z)$ |
 
 :::
 
