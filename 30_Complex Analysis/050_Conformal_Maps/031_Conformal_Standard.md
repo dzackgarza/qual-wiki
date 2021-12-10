@@ -14,6 +14,18 @@ A summary:
 | Lunes to sectors | FLTs |
 | $\HH$ to vertical half-strip | $\sin(z)$ |
 
+Some tips:
+
+- A quick computational fact: $1/z = \bar{z}\over \abs{z}^2$. 
+  Use this to quickly compute images, e.g. for $\abs{z-1} = 1$ under $f(z) = 1/z$, write $f(1+i)={1\over 1+i} = {1-i \over 2}$.
+- The locus of points equidistant to two fixed points is the perpendicular bisector.
+- Seems obvious, but *use* that conformal maps preserve angles.
+  You can use tangent vectors to reason about angles of intersection (even at $z=\infty$).
+  E.g. Since $\abs{z-i}=1$ intersects $\RR$ in a parallel way, since the tangent vectors at zero will line up.
+  So any conformal map must send them to parallel lines or circles with intersection angle zero.
+  - Similarly if two circles intersect orthogonally, they must go to orthogonal lines or a line orthogonally intersecting a circle.
+  
+
 :::
 
 
