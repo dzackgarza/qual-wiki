@@ -65,16 +65,21 @@ How do you generalize (a) and (b)?
   But $f(\Omega) \subseteq \bd \DD_r(0)$ can not be open, so $f$ must be constant.
   - The usual more direct proof: write $\abs{f(z)} = u^2 = v^2 = r^2$.
   The claim is that both $u$ and $v$ are constant.
-  Take partial derivatives:
+  Take partial derivatives and clear the factor of 2:
   \[
-  \del_x: \quad 2uu_x + 2vv_x &= 0
-  \del_y: \quad 2uu_y + 2vv_y &= 0
+  \del_x: \quad uu_x + vv_x &= 0\\
+  \del_y: \quad uu_y + vv_y &= 0
   .\]
   Now apply CR: $u_x= v_y, u_y=-v_x$, then
   \[
-  2uv_y + 2vv_x &=0
-  -2uv_x + 2vv_y &=0
+  uu_x - vu_y &=0 \\
+  uu_y + vu_x &=0
   .\]
+  Adding yields
+  \[
+ ? 
+  .\]
+
 
 
 :::
