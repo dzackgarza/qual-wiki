@@ -308,34 +308,34 @@ Show that
 .\]
 
 
-## Spring 2020 HW 3 #  3.8.5
+## Spring 2020 HW 3, SS 3.8.5 #work
 Show that if $\xi\in \RR$, then
 \[
 \int_{-\infty}^{\infty} \frac{e^{-2 \pi i x \xi}}{\left(1+x^{2}\right)^{2}} d x=\frac{\pi}{2}(1+2 \pi|\xi|) e^{-2 \pi|\xi|}
 .\]
 
 
-## Spring 2020 HW 3 #  3.8.6
+## Spring 2020 HW 3, SS 3.8.6 #work
 Show that
 \[
 \int_{-\infty}^{\infty} \frac{d x}{\left(1+x^{2}\right)^{n+1}}=\frac{1 \cdot 3 \cdot 5 \cdots(2 n-1)}{2 \cdot 4 \cdot 6 \cdots(2 n)} \cdot \pi
 .\]
 
 
-## Spring 2020 HW 3 #  3.8.7
+## Spring 2020 HW 3, SS 3.8.7 #work
 Show that
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{(a+\cos \theta)^{2}}=\frac{2 \pi a}{\left(a^{2}-1\right)^{3 / 2}}, \quad \text { whenever } a>1
 .\]
 
 
-## Spring 2020 HW 3 #  3.8.8
+## Spring 2020 HW 3, SS 3.8.8 #work
 Show that if $a,b\in \RR$ with $a > \abs{b}$, then
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{a+b \cos \theta}=\frac{2 \pi}{\sqrt{a^{2}-b^{2}}}
 .\]
 
-## Spring 2020 HW 3 #  3.8.9
+## Spring 2020 HW 3, SS 3.8.9 #work
 Show that
 \[
 \int_{0}^{1} \log (\sin \pi x) d x=-\log 2
@@ -345,7 +345,7 @@ Show that
 >
 > ![Image](30_Complex%20Analysis/999_Quals/figures/image_2020-06-17-21-52-40.png)
 
-## Spring 2020 HW 3 #  3.8.10
+## Spring 2020 HW 3, SS 3.8.10 #work
 Show that if $a>0$, then
 \[
 \int_{0}^{\infty} \frac{\log x}{x^{2}+a^{2}} d x=\frac{\pi}{2 a} \log a
@@ -355,7 +355,7 @@ Show that if $a>0$, then
 >
 > ![Image](30_Complex%20Analysis/999_Quals/figures/image_2020-06-17-21-53-19.png)
 
-## Spring 2020 HW 3 #  6
+## Spring 2020 HW 3.6 #work
 
 a. 
 Show (without using 3.8.9 in the S&S) that
@@ -369,14 +369,14 @@ Show that this identity is equivalent to S&S 3.8.9:
 \int_0^1 \log(\sin(\pi x)) ~dx = -\log 2
 .\]
 
-## Spring 2020 HW 3 #  7
+## Spring 2020 HW 3.7 #work
 
 Let $0<a<4$ and evaluate 
 \[
 \int_0^\infty \frac{x^{\alpha-1}}{1+x^3} ~dx
 \]
 
-## Spring 2020 HW 3 #  10
+## Spring 2020 HW 3.10 #work
 
 For $a> 0$, evaluate
 \[
@@ -438,12 +438,12 @@ Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x {x^2+a^2} \dx }$.
 
 Show that $\displaystyle \int_0^\infty \frac{x^{a-1} {1+x^n} \dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a < n$. Here $n$ is a positive integer.
 
-## Tie's Extra Questions: Spring 2014
+## Tie's Extra Questions: Spring 2014 #work
 
 
 Show that $\displaystyle \int_0^\infty \frac{x^{a-1} {1+x^n} \dx=\frac{\pi}{n\sin \frac{a\pi}{n}}$ using complex analysis, $0< a <n$. Here $n$ is a positive integer.
 
-## Tie's Extra Questions: Spring 2014
+## Tie's Extra Questions: Spring 2014 #work
 
 Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x {x^2+a^2} \dx }$.
 
