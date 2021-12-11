@@ -36,6 +36,20 @@ g(z) \da \prod_{1\leq k \leq m} {z-z_k \over 1 - \bar{z_k} z},
 h(z) \da {f(z) \over g(z)}
 .\]
 
+:::{.claim}
+$h(z) \equiv 1$ is constant on $\bar{\DD}$, so that $f = \lambda g$ for some $\lambda \in S^1$, i.e. $\lambda = e^{i\theta}$ for some $\theta$.
+:::
+
+
+:::{.proof title="?"}
+Note that $h$ cancels all zeros of $f$, so $h$ is nonzero and holomorphic on $\bar{\DD}$.
+Moreover $\abs{g(z)} \leq 1$ on $\bar{\DD}$ since these are well-known to be in $\Aut(\DD)$.
+
+
+:::
+
+
+
 
 
 :::
