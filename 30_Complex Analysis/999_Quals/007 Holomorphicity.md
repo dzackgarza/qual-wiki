@@ -41,11 +41,9 @@ Then let $z\to w$ along the curve $\ts{tw\st t\in [0, 1]}$, then $\abs{z} = t \a
 which is nonzero is $w\neq 0$.
 :::
 
-
-
-
 ## Spring 2020 HW 1.8 #work
 
+:::{.problem title="?"}
 Let $f(z)$ be analytic in a domain, and prove that $f$ is constant if it satisfies any of the following conditions:
 
 a. $\abs{f(z)}$ is constant.
@@ -54,6 +52,33 @@ c. $\arg(f(z))$ is constant.
 d. $\bar{f(z)}$ is analytic.
 
 How do you generalize (a) and (b)?
+
+:::
+
+
+:::{.solution}
+\envlist
+
+- Slick proof: use that no curve $\gamma \subseteq \CC$ is open in $\CC$.
+  If $\abs{f} = c = r^2$ for some $r$, then the image of $f$ is contained in the curve $\bd \DD_r(0)$.
+  Since $f$ is holomorphic on the source domain $\Omega$, $f$ is an open map, so if $f$ is nonconstant the $f(\Omega)$ is open.
+  But $f(\Omega) \subseteq \bd \DD_r(0)$ can not be open, so $f$ must be constant.
+  - The usual more direct proof: write $\abs{f(z)} = u^2 = v^2 = r^2$.
+  The claim is that both $u$ and $v$ are constant.
+  Take partial derivatives:
+  \[
+  \del_x: \quad 2uu_x + 2vv_x &= 0
+  \del_y: \quad 2uu_y + 2vv_y &= 0
+  .\]
+  Now apply CR: $u_x= v_y, u_y=-v_x$, then
+  \[
+  2uv_y + 2vv_x &=0
+  -2uv_x + 2vv_y &=0
+  .\]
+
+
+:::
+
 
 
 ## Spring 2020 HW 1.9 #work
