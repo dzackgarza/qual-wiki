@@ -84,11 +84,21 @@ See Spring 2021.1 above.
 
 **Part 2**: 
 This is clearly meromorphic, as it's a rational function, and has a singularity only at $z$ such that $\bar w z = 1$.
-The claim is that this can only happen for $z\in S^1$: taking the modulus yields
+This can only happen if $z, w \in S^1$: taking the modulus yields
 \[
 \bar w z = 1 \implies \abs{w}^2\abs{z}^2 = 1 
 ,\]
 and moreover since $\abs{w}^2 \leq 1$ and $\abs{z}^2\leq 1$, the only way this product can be one is when $\abs{w}^2 = \abs{z}^2 = 1$.
+This also forces $z=1/\bar w$.
+
+The claim is that the singularity $1/\bar w$ is removable:
+\[
+\qty{ z- \bar{w}\inv } \qty{w-z \over 1-\bar w z}
+&= \qty{\bar w z - 1 \over \bar w} \qty{w-z \over 1-\bar w z}
+&= \bar{w}\inv(w-z) \\
+&= \bar{w}\inv(w-z)
+\converges{z\to \bar w\inv }\to 0
+.\]
 
 :::
 
