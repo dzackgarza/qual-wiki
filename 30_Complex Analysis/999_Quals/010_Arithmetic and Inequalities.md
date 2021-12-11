@@ -77,6 +77,21 @@ b. Prove that for a fixed $w\in \DD$, the mapping $F: z\mapsto {w-z \over 1 - \b
 :::
 
 
+:::{.solution}
+
+**Part 1**: 
+See Spring 2021.1 above.
+
+**Part 2**: 
+This is clearly meromorphic, as it's a rational function, and has a singularity only at $z$ such that $\bar w z = 1$.
+The claim is that this can only happen for $z\in S^1$: taking the modulus yields
+\[
+\bar w z = 1 \implies \abs{w}^2\abs{z}^2 = 1 \implies \abs{z}^2 = 1/\abs{w}^2
+.\]
+
+:::
+
+
 
 ## Spring 2020 HW 1.2 #work 
 Prove the following inequality, and explain when equality holds:
