@@ -198,15 +198,4 @@ For $s>0$, the **gamma function** is defined by $\displaystyle{\Gamma(s)=\int_0^
 > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
 
 
-:::{.exercise title="?"}
-Show that if $f$ is entire and $f(z) \convergesto{z\to\infty} \infty$ then $f$ is a polynomial.
-:::
-
-:::{.solution}
-
-- Set $g(z) \da f(1/z)$, so $g(z) \convergesto{z\to 0} \infty$ making $z=0$ a singularity.
-- This is not an essential singularity by Casorati-Weierstrass.
-- So this is a pole and $g(z) = \sum_{-N\leq k \leq 0} c_k z^k$ for $N$ the order of the pole
-- Thus $f(z) = \sum_{0<k<N}c_k z^k$ is a polynomial.
-:::
 
