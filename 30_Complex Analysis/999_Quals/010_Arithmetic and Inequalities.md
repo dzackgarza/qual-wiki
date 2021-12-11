@@ -48,8 +48,8 @@ So write
 **Part 2**:
 \[
 \abs{z-w \over 1 - \bar z w}^2 < 1 
-&\iff \abs{z-w}^2 < \abs{z - \bar z w}^2 \\
-&\iff 
+&\iff \abs{z-w}^2 < \abs{1 - \bar z w}^2 \\
+&\iff (z-w)(\bar z - \bar w) < (1-\bar z w)(1 - z \bar w)
 .\]
 
 
