@@ -373,7 +373,9 @@
     "lunes",
     "Mobius",
     "orthogonally",
-    "clines"
+    "clines",
+    "PDEs",
+    "Rouché"
   ],
   "communityPluginSortOrder": "download",
   "autoPairMarkdown": false,

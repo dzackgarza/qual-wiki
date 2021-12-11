@@ -54,7 +54,7 @@ Show that there exist points $(x,y)\in D$ such that
 $\displaystyle{\limsup_{n\to\infty} |u(x,y)|=\infty}$.
 
 
-## Fall 2021.1 #complete
+## Fall 2021.1 #completed
 
 :::{.problem title="?"}
 Let $f(z)$ be an analytic function on $|z|<1$.

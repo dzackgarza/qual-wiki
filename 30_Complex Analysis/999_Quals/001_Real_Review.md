@@ -145,7 +145,7 @@ In this case, use the triangle inequality:
 where we've used that $M, y\in (M, M)^c$ to apply the first bound and $M, x\in [M, M]$ to apply the second.
 :::
 
-## Negating uniform continuity #complete
+## Negating uniform continuity #completed
 
 > Tie, Fall 2009
 
@@ -180,7 +180,7 @@ This contradicts that $\abs{z^2-w^2} < \eps = c < \infty$.
 :::
 
 
-## Non-continuously differentiable #complete
+## Non-continuously differentiable #completed
 
 :::{.problem title="?"}
 Give an example of a function $f:\RR\to \RR$ that is everywhere differentiable but $f'$ is not continuous at 0.
@@ -220,7 +220,7 @@ But now notice that the $\cos\qty{1\over x}$ term in $f'$ isn't enveloped by an 
 In particular, $\lim_{x\to 0}f'(x) \neq f'(0) = 0$.
 :::
 
-## Uniformly convergent + uniformly continuous #complete
+## Uniformly convergent + uniformly continuous #completed
 
 :::{.problem title="?"}
 Suppose $\theset{g_n}$ is a uniformly convergent sequence of functions from $\RR$ to $\RR$ and $f:\RR\to \RR$ is uniformly continuous.
@@ -251,7 +251,7 @@ Now writing $y_1 \da g_i(x), y_2 \da g_j(x)$, choose $i, j > N_0$ yields
 and taking the supremum over $x\in X$ preserves the inequality since $\delta_1$ and consequently $N_0$ only depend on $\eps$.
 :::
 
-## Uniform differentiability #complete
+## Uniform differentiability #completed
 
 :::{.problem title="?"}
 Let $f$ be differentiable on $[a, b]$.
@@ -286,7 +286,7 @@ Then use continuity of $f'$ to choose $\delta = \delta(\eps, x, y)$ so that $\ab
 
 :::
 
-## Inf distance #complete
+## Inf distance #completed
 
 :::{.problem title="?"}
 Suppose $A, B \subseteq \RR^n$ are disjoint and compact.
@@ -308,8 +308,7 @@ Then $d$ is a continuous function on a compact topological space (where the prod
 
 :::
 
-
-## Connectedness #complete
+## Connectedness #completed
 
 :::{.problem title="?"}
 Suppose $A, B\subseteq \RR^n$ are connected and not disjoint.
@@ -324,7 +323,7 @@ On the intersection, for $x\in A \intersect B \neq \emptyset$, we have $f_1(x) =
 So $f_1$ and $f_2$ are constant functions that must map to the *same* constant, so $f$ is constant and this $A\union B$ is connected.
 :::
 
-## Pointwise and uniform convergence #complete
+## Pointwise and uniform convergence #completed
 
 :::{.problem title="?"}
 Suppose $\theset{f_n}_{n\in \NN}$ is a sequence of continuous functions $f_n: [0, 1]\to \RR$ such that 

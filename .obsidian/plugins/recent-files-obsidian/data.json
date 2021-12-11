@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "030_Rouche",
+      "path": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md"
+    },
+    {
+      "basename": "000_Definitions",
+      "path": "10_Algebra/100_Linear_Algebra/000_Definitions.md"
+    },
+    {
+      "basename": "000 Automorphisms of the disc and plane",
+      "path": "30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane.md"
+    },
+    {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "15_Books_Notes",
+      "path": "20_Real Analysis/000_Resources/15_Books_Notes.md"
+    },
+    {
+      "basename": "007 Holomorphicity",
+      "path": "30_Complex Analysis/999_Quals/007 Holomorphicity.md"
+    },
+    {
       "basename": "001_Real_Review",
       "path": "30_Complex Analysis/999_Quals/001_Real_Review.md"
     },
@@ -27,10 +51,6 @@
     {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
-    },
-    {
-      "basename": "000 Automorphisms of the disc and plane",
-      "path": "30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane.md"
     },
     {
       "basename": "090_Riemann Mapping",
@@ -179,26 +199,6 @@
     {
       "basename": "91_01_2014_Fall_Exam2",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/91_01_2014_Fall_Exam2.md"
-    },
-    {
-      "basename": "0050_Functional Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md"
-    },
-    {
-      "basename": "0030_Convolution and Fourier Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0030_Convolution and Fourier Analysis.md"
-    },
-    {
-      "basename": "0022_Fubini Tonelli",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0022_Fubini Tonelli.md"
-    },
-    {
-      "basename": "0010_Measure Theory",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0010_Measure Theory.md"
-    },
-    {
-      "basename": "0000_Undergraduate Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
     }
   ],
   "omittedPaths": [],
