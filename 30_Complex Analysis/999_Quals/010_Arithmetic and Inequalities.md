@@ -82,7 +82,7 @@ b. Prove that for a fixed $w\in \DD$, the mapping $F: z\mapsto {w-z \over 1 - \b
 **Part 1**: 
 See Spring 2021.1 above.
 
-**Part 2**: 
+**Part 2, holomorphicity**: 
 This is clearly meromorphic, as it's a rational function, and has a singularity only at $z$ such that $\bar w z = 1$.
 This can only happen if $z, w \in S^1$: taking the modulus yields
 \[
@@ -100,6 +100,25 @@ Note that $1\over w = \bar w$ on the circle, so $1/\bar{w} = \bar{\bar w} = 2$, 
 &= w(w-z) \\
 &\converges{z\to \bar w\inv=w }\to 0
 .\]
+
+**Part 1, being a bijection**: 
+This follows from finding an explicit inverse, using that $F^2 = \id$:
+\[
+F(F(z))
+& \frac{w-\frac{w-z}{1-\bar{w} z}}{1-\bar{w} \frac{w-z}{1-\bar{w} z}} \\
+=& \frac{w-\frac{w-z}{1-\bar{w} z}}{1-\frac{\bar{w}(w-z)}{1-\bar{w} z}} \\
+=& \frac{w(1-\bar{w} z)-(w-z)}{q-\bar{w} z-\bar{w}(w-z)} \\
+=& \frac{w-|w|^{2} z-w+z}{1-\bar{w} z-|w|^{2}+\bar{w} z} \\
+=& \frac{z\left(1-|w|^{2}\right)}{1-|w|^{2}} \\
+=& z
+.\]
+
+
+**Part 2, being an involution**: 
+A direct check shows that $F(w) = 0$, since the numerator vanishes, and $F(0) = {w - 0 \over 1 - 0} = w$.
+
+**Part 3, preserving the circle**: 
+Follows from the estimate in part 1.
 
 :::
 
