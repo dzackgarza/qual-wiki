@@ -4,14 +4,12 @@ order: 10
 
 # Complex Arithmetic
 
-## Fall 2021.1 #work
-
+## Fall 2021.1 #completed
 
 :::{.warnings}
 The question as written on the original qual has several errors.
 What is below is the correct version of the inequality.
 :::
-
 
 :::{.problem title="?"}
 1. Let $z_{1}$ and $z_{2}$ be two complex numbers.
@@ -45,12 +43,15 @@ So write
 .\]
 
 
-**Part 2**:
+**Part 2 and 3**:
 \[
 \abs{z-w \over 1 - \bar z w}^2 \leq 1 
 &\iff 0 \leq \abs{1 - \bar z w}^2 - \abs{z-w}^2 \\
 &\iff 0 \leq (1 - \abs z^2 )(1 - \abs w^2)
-.\]
+,\]
+where we've used part 1.
+But this is clearly true when $\abs{z}, \abs{w} < 1$, so the RHS is positive.
+Moreover if $\abs{z} = \abs{w} = 1$, the RHS is zero, yielding equalities at every step instead.
 
 
 :::
