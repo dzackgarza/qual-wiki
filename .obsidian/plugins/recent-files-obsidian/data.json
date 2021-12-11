@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "000_Preface",
-      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
-    },
-    {
       "basename": "999_By Year",
       "path": "30_Complex Analysis/999_Quals/999_By Year.md"
+    },
+    {
+      "basename": "010_Arithmetic and Inequalities",
+      "path": "30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities.md"
+    },
+    {
+      "basename": "99999_Unsorted",
+      "path": "30_Complex Analysis/999_Quals/99999_Unsorted.md"
+    },
+    {
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
     {
       "basename": "qual_progress",
@@ -43,10 +51,6 @@
     {
       "basename": "001_Real_Review",
       "path": "30_Complex Analysis/999_Quals/001_Real_Review.md"
-    },
-    {
-      "basename": "99999_Unsorted",
-      "path": "30_Complex Analysis/999_Quals/99999_Unsorted.md"
     },
     {
       "basename": "105_Conformal Maps",
@@ -195,10 +199,6 @@
     {
       "basename": "91_10_2019_Fall_PracticeExam2",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/91_10_2019_Fall_PracticeExam2.md"
-    },
-    {
-      "basename": "91_10_2019_Fall_Exam1",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/91_10_2019_Fall_Exam1.md"
     }
   ],
   "omittedPaths": [],

@@ -4,18 +4,18 @@ order: 10
 
 # Complex Arithmetic
 
-## Fall 2021 # 1
+## Fall 2021.1 #work
 
-???
+??? Error in problem
 
-## Spring 2020 HW 1 # 2 #work 
+## Spring 2020 HW 1.2 #work 
 Prove the following inequality, and explain when equality holds:
 \[
 \abs{z+w} \geq \abs{ \abs{z} - \abs{w} }
 .\]
 
 
-## Spring 2020 HW 1 # 5 #work
+## Spring 2020 HW 1.5 #work
 
 a. Let $z, w \in \CC$ with $\bar z w \neq 1$. 
 Prove that
@@ -30,7 +30,7 @@ b. Prove that for a fixed $w\in \DD$, the mapping $F: z\mapsto {w-z \over 1 - \b
 - $F(0) = w$ and $F(w) = 0$.
 - $\abs{z} = 1$ implies $\abs{F(z)} = 1$.
 
-## Spring 2020 HW 1 # 6 #work
+## Spring 2020 HW 1.6 #work
 
 Use $n$th roots of unity to show that
 \[
@@ -45,7 +45,7 @@ Use $n$th roots of unity to show that
 
 
 
-## Spring 2021 # 1 #completed
+## Spring 2021.1 #completed
 
 :::{.problem title="?"}
 Let $z_1, z_2$ be two complex numbers.
@@ -102,7 +102,5 @@ Suppose $z_1\neq z_2$, then
 &\iff \qty{1 - \abs z_2^2}\qty{1 - \abs z_2^2} = 0 \\
 &\iff \abs{z_1} = 1 \text{ or } \abs{z_2} = 1
 .\]
-
-
 :::
 
