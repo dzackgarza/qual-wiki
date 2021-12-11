@@ -5,6 +5,11 @@
 - [[30_Complex Analysis/999_Quals/070_Morera#Fall 2021 2 completed]]
 
 - [[30_Complex Analysis/999_Quals/030_Computing Integrals#Fall 2021 3]]
+
 - [[30_Complex Analysis/999_Quals/005 Function Convergence#Fall 2021 4 completed]]
+
 - [[30_Complex Analysis/999_Quals/200_Schwarz#Fall 2021 5 completed]]
-- [[Schwarz
+
+- [[30_Complex Analysis/999_Quals/200_Schwarz#Fall 2021 6 completed]]
+
+# Spring 2021
