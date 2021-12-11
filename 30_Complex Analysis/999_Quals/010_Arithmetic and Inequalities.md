@@ -169,15 +169,15 @@ Use $n$th roots of unity to show that
 
 
 :::{.solution}
-Write $\zeta_n\da e^{2\pi i /n}$ and $\Phi_n = \prod_{1\leq j \leq n-1}(x-\zeta_n^j)$, note that $\Phi_n(1) = n$.
+Write $\zeta_n\da e^{2\pi i /n}$ and $\Phi_n(z) = \prod_{1\leq j \leq n-1}(z-\zeta_n^j)$, note that $\Phi_n(1) = n$.
 We can then write $\sin\qty{j\pi\over n} = \zeta_n^j$, so using that $\sin(z) = (2i)\inv(z + z\inv)$,
 \[
 \prod_{1\leq j\leq n-1} 
 \sin \left(\frac{j \pi}{n}\right)
 &=\prod_{1\leq j\leq n-1} \frac{1}{2 i}
-\qty{\zeta_n^j - \zeta_n^{-j}} \\
+\qty{\zeta_n^{j\over 2} - \zeta_n^{- {j \over 2} }} \\
 &=\left(\frac{1}{2 i}\right)^{n-1} \prod_{1\leq j\leq n-1} 
-\zeta_n^j \prod_{1\leq j \leq n-1} \qty{1 - \zeta_n^{-2j}} \\
+\zeta_n^{j\over 2} \prod_{1\leq j \leq n-1} \qty{1 - \zeta_n^{-j}} \\
 &=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\sum_{j=1}^{n-1} \frac{i j \pi}{n}\right) \Phi_{n}(1)\\
 &=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\frac{i \pi}{n} \sum_{j=1}^{n-1} j\right) \Phi_{n}(1)\\
 &=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\frac{(n-1) i \pi}{2}\right) \Phi_{n}(1)\\
