@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/999_Quals/99999_Unsorted.md",
-            "mode": "preview"
+            "file": "30_Complex Analysis/999_Quals/001_Real_Review.md",
+            "mode": "source"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#problems",
+                "query": "tag:#complete",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/99999_Unsorted.md",
+                "file": "30_Complex Analysis/999_Quals/001_Real_Review.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/99999_Unsorted.md"
+                "file": "30_Complex Analysis/999_Quals/001_Real_Review.md"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/99999_Unsorted.md",
+                "file": "30_Complex Analysis/999_Quals/001_Real_Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/99999_Unsorted.md",
+                "file": "30_Complex Analysis/999_Quals/001_Real_Review.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -233,7 +233,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "fe5142aeefaf35d2",
@@ -251,11 +252,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360,
-    "collapsed": true
+    "width": 360
   },
   "active": "7a43bf1ef58cc378",
   "lastOpenFiles": [
+    "30_Complex Analysis/999_Quals/001_Real_Review.md",
     "30_Complex Analysis/999_Quals/99999_Unsorted.md",
     "30_Complex Analysis/999_Quals/105_Conformal Maps.md",
     "10_Algebra/020_Groups/00_References.md",
@@ -264,7 +265,6 @@
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane.md",
     "30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping.md",
-    "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md",
-    "30_Complex Analysis/020_Applications of Cauchy/060 Schwarz Reflection.md"
+    "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md"
   ]
 }

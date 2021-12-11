@@ -1,50 +1,5 @@
 # Unsorted
 
-## Fall 2021.6 #completed
-
-
-:::{.problem title="?"}
-Show that if $f: D(0, R) \rightarrow \mathbb{C}$ is holomorphic, with $|f(z)| \leq M$ for some $M>0$, then
-\[
-\left|\frac{f(z)-f(0)}{M^{2}-\overline{f(0)} f(z)}\right| \leq \frac{|z|}{M R} .
-\]
-:::
-
-
-:::{.solution}
-
-> Proof due to Swaroop Hegde!
-
-Fix $R, M$ and make a clever choice: define
-\[
-F: \DD &\to \CC \\
-z &\mapsto {f(Rz) \over M}
-.\]
-Write $a\da F(0)$ and consider the Blaschke factor
-\[
-\psi_a(z) \da {a-z \over 1-\bar{a} z} \in \Aut(\DD)
-,\]
-and define
-\[
-g: \DD &\to \DD \\
-z &\mapsto (\psi_a \circ F)(z)
-.\]
-Then $g(0) = 0$ and $\abs{g(z)} \leq 1$ for all $z\in \DD$, so by Schwarz we have $\abs{g(z)} \leq \abs{z}$ for all $z\in \DD$.
-Thus for all $z\in \DD$,
-\[
-&\abs{g(z)} \leq z \\ \\
-\iff & \abs{\psi_a(F(z)) } \leq \abs{z} \\ \\
-\iff & \abs{ {f(Rz) \over M} - a \over 1 - {\bar a f(Rz) \over M}  } \leq \abs{z} \\ \\
-\iff & \abs{f(Rz) - f(0) \over 1 - {\bar{f(0)} f(Rz) \over M^2 } } \leq \abs{z} \\ \\
-\iff & \abs{f(Rz) - f(0) \over M^2 - \bar{f(0)} f(Rz) } \leq {\abs{z} \over M} \\ \\
-\iff & \abs{f(w) - f(0) \over M^2 - \bar{f(0)} f(w) } \leq {\abs{w} \over MR}
-,\]
-which holds for all $w\in \DD$ by replacing $Rz$ with $w$ (i.e. to show this equality for arbitrary $w\in \DD$, write $w = Rz$ for some $z\in \DD$ and run this chain of inequalities backward).
-
-
-
-
-:::
 
 
 ## Tie's Extra Questions: Fall 2015 #work

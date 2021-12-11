@@ -4,7 +4,7 @@ order: 1
 
 # Real Analysis Review
 
-## Recurrences #complete
+## Recurrences #todo
 
 :::{.problem title="?"}
 Let $x_0 = a, x_1 = b$, and set
@@ -109,7 +109,7 @@ x_n = {2\over 3}(a-b) \qty{-1\over 2}^n + {1\over 3}(a+b)\convergesto{n\to \inft
 .\]
 :::
 
-## Uniform continuity #complete
+## Uniform continuity 
 
 :::{.problem title="?"}
 Suppose $f:\RR\to\RR$ is continuous and $\lim_{x\to \pm \infty} f(x) = 0$.
