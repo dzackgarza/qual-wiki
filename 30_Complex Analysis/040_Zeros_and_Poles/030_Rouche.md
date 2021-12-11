@@ -20,7 +20,11 @@ In particular, if $f, g$ are holomorphic, they have the same number of zeros in 
 The number of zeros/poles are determined by a dominating function.
 :::
 
-#todo prove
+:::{.proof title="of Rouché"}
+
+![](figures/2021-12-10_22-23-58.png)
+
+:::
 
 :::{.remark}
 
