@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/999_Quals/999_By Year.md"
     },
     {
+      "basename": "105_Conformal Maps",
+      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+    },
+    {
       "basename": "070_Morera",
       "path": "30_Complex Analysis/999_Quals/070_Morera.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "001_Real_Review",
       "path": "30_Complex Analysis/999_Quals/001_Real_Review.md"
-    },
-    {
-      "basename": "105_Conformal Maps",
-      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
     },
     {
       "basename": "00_References",

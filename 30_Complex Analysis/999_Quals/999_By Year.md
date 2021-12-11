@@ -12,4 +12,7 @@
 
 - [[30_Complex Analysis/999_Quals/200_Schwarz#Fall 2021 6 completed]]
 
+- [[30_Complex Analysis/999_Quals/105_Conformal Maps#Conformal Maps#Fall 2021 7 work]]
+
 # Spring 2021
+
