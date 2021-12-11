@@ -2,7 +2,7 @@
 
 ## Fall 2021
 
-- ![[010_Arithmetic and Inequalities#Fall 2021 1 work|Problem 1]]
+- [[010_Arithmetic and Inequalities#Fall 2021 1 work|Problem 1]]
 
 - [[070_Morera#Fall 2021 2 completed|Problem 2]]
 
