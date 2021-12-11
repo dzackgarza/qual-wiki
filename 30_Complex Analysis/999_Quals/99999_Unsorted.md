@@ -44,6 +44,12 @@ $h(z) \equiv 1$ is constant on $\bar{\DD}$, so that $f = \lambda g$ for some $\l
 :::{.proof title="?"}
 Note that $h$ cancels all zeros of $f$, so $h$ is nonzero and holomorphic on $\bar{\DD}$.
 Moreover $\abs{g(z)} \leq 1$ on $\bar{\DD}$ since these are well-known to be in $\Aut(\DD)$.
+On $\bd \DD$:
+\[
+\abs{h(z)} = \abs{f(z) \over g(z)} = {1\over \abs{g(z)}} = ? \\
+\abs{1\over h(z)} = \abs{g(z) \over f(z)} = \abs{g(z)} \leq 1
+.\]
+
 
 
 :::
