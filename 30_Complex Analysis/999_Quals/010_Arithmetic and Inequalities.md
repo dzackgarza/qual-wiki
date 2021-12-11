@@ -172,10 +172,11 @@ Use $n$th roots of unity to show that
 Write $\zeta_n\da e^{2\pi i /n}$ and $\Phi_n = {x^n-1\over x-1}$, note that $\Phi_n(1) = n$.
 We can then write $\sin\qty{j\pi\over n} = \zeta_n^j$, so using that $\sin(z) = (2i)\inv(z + z\inv)$,
 \[
-\prod_{j=1}^{n-1} \sin \left(\frac{j \pi}{n}\right)
-&=\prod_{j=1}^{n-1} \frac{1}{2 i}
+\prod_{1\leq j\leq n-1} 
+\sin \left(\frac{j \pi}{n}\right)
+&=\prod_{1\leq j\leq n-1} \frac{1}{2 i}
 \qty{\zeta_n^j - \zeta_n^{-j}} \\
-&=\left(\frac{1}{2 i}\right)^{n-1} \prod_{j=1}^{n-1} 
+&=\left(\frac{1}{2 i}\right)^{n-1} \prod_{1\leq j\leq n-1} 
 \zeta_n^j \prod_{1\leq j \leq n-1} \qty{1 - \zeta_n^{-2j}} \\
 &=\left(\frac{1}{2 i}\right)^{n-1} \prod_{j=1}^{n-1} e^{i j \pi / n} \prod_{j=1}^{n-1}\left(1-\zeta_{n}^{j}\right)\\
 &=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\sum_{j=1}^{n-1} \frac{i j \pi}{n}\right) \Phi_{n}(1)\\
