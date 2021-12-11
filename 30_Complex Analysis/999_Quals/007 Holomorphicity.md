@@ -75,11 +75,12 @@ How do you generalize (a) and (b)?
   uu_x - vu_y &=0 \\
   uu_y + vu_x &=0
   .\]
-  Now add and subtract these two equations
+  Multiply the first by $u_x$ and the second by $u_y$:
   \[
- u(u_x + u_y) + v(u_x - u_y) &= 0 \\
- u(u_y - u_x) + v(u_x + u_y) &= 0
+  uu_x^2 - vu_y u_x &= 0 \\
+  uu_y^2 + vu_x u_y &=0
   .\]
+
 
 
 
