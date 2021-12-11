@@ -18,13 +18,24 @@ What is below is the correct version of the inequality.
 
 (a) Show that 
 \[
-\left|1-\bar{z}_{1} z_{2}\right|^{2}-\left|z_{1}-z_{2}\right|^{2}=\left(1-\left|z_{1}\right|^{2}\right)\left(1-\left|z_{2}\right|\right)
+\left|1-\bar{z}_{1} z_{2}\right|^{2}-\left|z_{1}-z_{2}\right|^{2}=\left(1-\left|z_{1}\right|^{2}\right)\left(1-\left|z_{2}\right|^2\right)
 \]
 
 (b) Show that if $\left|z_{1}\right|<1$ and $\left|z_{2}\right|<1$, then $\left|\frac{z_{1}-z_{2}}{1-\bar{z}_{1} z_{2}}\right|<1 .$
 
 (c) Assume that $z_{1} \neq z_{2}$. Show that $\left|\frac{z_{1}-z_{2}}{1-\bar{z}_{1} z_{2}}\right|=1$ if only if $\left|z_{1}\right|=1$ or $\left|z_{2}\right|=1$.
 :::
+
+
+:::{.solution}
+For ease of notation, let $z=z_1$ and $w=z_2$
+Now write
+\[
+\abs{1- z\bar{w}} - \abs{z-w}^2 = \qty{\abs{1 - \abs{z}^2 }} \qty{\abs{1 - \abs{w}^2}}
+.\]
+
+:::
+
 
 ## Spring 2020 HW 1.2 #work 
 Prove the following inequality, and explain when equality holds:
