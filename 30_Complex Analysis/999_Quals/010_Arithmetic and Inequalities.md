@@ -86,8 +86,9 @@ See Spring 2021.1 above.
 This is clearly meromorphic, as it's a rational function, and has a singularity only at $z$ such that $\bar w z = 1$.
 The claim is that this can only happen for $z\in S^1$: taking the modulus yields
 \[
-\bar w z = 1 \implies \abs{w}^2\abs{z}^2 = 1 \implies \abs{z}^2 = 1/\abs{w}^2
-.\]
+\bar w z = 1 \implies \abs{w}^2\abs{z}^2 = 1 
+,\]
+and moreover since $\abs{w}^2 \leq 1$ and $\abs{z}^2\leq 1$, the only way this product can be one is when $\abs{w}^2 = \abs{z}^2 = 1$.
 
 :::
 
