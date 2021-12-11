@@ -77,8 +77,8 @@ How do you generalize (a) and (b)?
   .\]
   Now add and subtract these two equations
   \[
- u(u_x + u_y) + v(u_x - u_y) &= 0
- u() + v() &= 0
+ u(u_x + u_y) + v(u_x - u_y) &= 0 \\
+ u(u_y - u_x) + v(u_x + u_y) &= 0
   .\]
 
 
