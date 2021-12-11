@@ -75,9 +75,10 @@ How do you generalize (a) and (b)?
   uu_x - vu_y &=0 \\
   uu_y + vu_x &=0
   .\]
-  Adding yields
+  Now add and subtract these two equations
   \[
- ? 
+ u(u_x + u_y) + v(u_x - u_y) &= 0
+ u() + v() &= 0
   .\]
 
 
