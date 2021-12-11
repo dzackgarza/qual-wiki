@@ -83,7 +83,12 @@ How do you generalize (a) and (b)?
   .\]
   A similar calculation yields $v(v_x^2 + v_y^2) = 0$, so
   \[
-  0 = u\laplacian u = v\laplacian v
+  0 \equiv u\laplacian u \equiv v\laplacian v
+  .\]
+  If $u(x,y) = v(x, y) = 0$ at any point, then $\abs{f} = 0$ and $f=0$ everywhere, so we're done.
+  Otherwise, $u,v$ do not simultaneously vanish, so we must have
+  \[
+  \laplacian u = \laplacian v \equiv 0
   .\]
 
 
