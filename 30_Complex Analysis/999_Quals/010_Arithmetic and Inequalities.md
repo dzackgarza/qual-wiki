@@ -122,12 +122,28 @@ Follows from the estimate in part 1.
 
 :::
 
-
 ## Spring 2020 HW 1.2 #work 
+
+:::{.problem title="?"}
 Prove the following inequality, and explain when equality holds:
 \[
 \abs{z+w} \geq \abs{ \abs{z} - \abs{w} }
 .\]
+
+:::
+
+
+:::{.solution}
+\[
+\abs{z+w}^2 
+&= (z+w)(\bar z + \bar w) \\
+&= \abs{z}^2 + \abs{w}^2 + z\bar{w} + \bar{z} w \\
+&= \abs{z}^2 + \abs{w}^2 + 2\Re(\bar w z) 
+.\]
+
+
+:::
+
 
 
 ## Spring 2020 HW 1.6 #work
