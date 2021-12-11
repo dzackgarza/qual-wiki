@@ -23,7 +23,7 @@ point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
 $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
 $\Delta$ in $\Omega$.
 
-## Fall 2021 # 2  #completed
+## Fall 2021.2  #completed
 
 :::{.problem title="?"}
 Let $\gamma(t)$ be a piecewise smooth curve in $\mathbb{C}, t \in[0,1]$. Let $F(w)$ be a continuous function on $\gamma$. Show that $f(z)$ defined by
