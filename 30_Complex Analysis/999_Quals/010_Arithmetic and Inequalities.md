@@ -188,6 +188,14 @@ We can then write $\sin\qty{j\pi\over n} = \zeta_n^j$, so using that $\sin(z) = 
 &=\left(\frac{1}{2}\right)^{n-1} \Phi_{n}(1)\\
 &=\frac{n}{2^{n-1}}
 .\]
+
+Write $e(z) \da e^{2\pi i z}$ and $e_j(z) \da e^{2\pi i jz}$.
+Then $e^{ij\pi/n} = e_j(1/2n)$.
+\[
+\prod_{1\leq j \leq n-1}\sin\qty{j\pi \over n}
+&= \prod_{1\leq j \leq n-1} \qty{e - e() \over 2i}
+.\]
+
 :::
 
 
