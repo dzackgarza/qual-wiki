@@ -168,5 +168,25 @@ Use $n$th roots of unity to show that
 :::
 
 
+:::{.solution}
+Write $\zeta_n\da e^{2\pi i /n}$ and $\Phi_n = {x^n-1\over x-1}$, note that $\Phi_n(1) = n$.
+We can then write $\sin\qty{j\pi\over n} = \zeta_n^j$, so using that $\sin(z) = (2i)\inv(z + z\inv)$,
+\[
+\prod_{j=1}^{n-1} \sin \left(\frac{j \pi}{n}\right)
+&=\prod_{j=1}^{n-1} \frac{1}{2 i}
+\qty{\zeta_n^j - \zeta_n^{-j}}
+&=\left(\frac{1}{2 i}\right)^{n-1} \prod_{j=1}^{n-1} e^{i j \pi / n} \prod_{j=1}^{n-1}\left(1-e^{-2 i j \pi / n}\right)\\
+&=\left(\frac{1}{2 i}\right)^{n-1} \prod_{j=1}^{n-1} e^{i j \pi / n} \prod_{j=1}^{n-1}\left(1-\zeta_{n}^{j}\right)\\
+&=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\sum_{j=1}^{n-1} \frac{i j \pi}{n}\right) \Phi_{n}(1)\\
+&=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\frac{i \pi}{n} \sum_{j=1}^{n-1} j\right) \Phi_{n}(1)\\
+&=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\frac{(n-1) i \pi}{2}\right) \Phi_{n}(1)\\
+&=\left(\frac{1}{2 i}\right)^{n-1}\left(e^{i \pi / 2}\right)^{n-1} \Phi_{n}(1)\\
+&=\left(\frac{1}{2 i}\right)^{n-1} i^{n-1} \Phi_{n}(1)\\
+&=\left(\frac{1}{2}\right)^{n-1} \Phi_{n}(1)\\
+&=\frac{n}{2^{n-1}}
+.\]
+:::
+
+
 
 
