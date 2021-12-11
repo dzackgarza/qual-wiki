@@ -1,6 +1,6 @@
 # Unsorted
 
-## Fall 2021 # 6 #work
+## Fall 2021.6 #completed
 
 
 :::{.problem title="?"}
@@ -26,20 +26,20 @@ Write $a\da F(0)$ and consider the Blaschke factor
 ,\]
 and define
 \[
-q: \DD &\to \DD \\
+g: \DD &\to \DD \\
 z &\mapsto (\psi_a \circ F)(z)
 .\]
-Then $q(0) = 0$ and $\abs{g(z)} \leq 1$ for all $z\in \DD$, so by Schwarz we have $\abs{g(z)} \leq \abs{z}$ for all $z\in \DD$.
+Then $g(0) = 0$ and $\abs{g(z)} \leq 1$ for all $z\in \DD$, so by Schwarz we have $\abs{g(z)} \leq \abs{z}$ for all $z\in \DD$.
 Thus for all $z\in \DD$,
 \[
-&\abs{g(z)} \leq z \\
-\implies & \abs{\psi_a(F(z)) } \leq \abs{z} \\
-\implies & \abs{ {f(Rz) \over M} - a \over 1 - {\bar a f(Rz) \over M}  } \leq \abs{z} \\
-\implies & \abs{f(Rz) - f(0) \over 1 - {\bar{f(0)} f(Rz) \over M^2 } } \leq \abs{z} \\
-\implies & \abs{f(Rz) - f(0) \over M^2 - \bar{f(0)} f(Rz) } \leq {\abs{z} \over M} \\
-\implies & \abs{f(w) - f(0) \over M^2 - \bar{f(0)} f(w) } \leq {\abs{w} \over MR}
+&\abs{g(z)} \leq z \\ \\
+\iff & \abs{\psi_a(F(z)) } \leq \abs{z} \\ \\
+\iff & \abs{ {f(Rz) \over M} - a \over 1 - {\bar a f(Rz) \over M}  } \leq \abs{z} \\ \\
+\iff & \abs{f(Rz) - f(0) \over 1 - {\bar{f(0)} f(Rz) \over M^2 } } \leq \abs{z} \\ \\
+\iff & \abs{f(Rz) - f(0) \over M^2 - \bar{f(0)} f(Rz) } \leq {\abs{z} \over M} \\ \\
+\iff & \abs{f(w) - f(0) \over M^2 - \bar{f(0)} f(w) } \leq {\abs{w} \over MR}
 ,\]
-which holds for all $w\in \DD$ by replacing $Rz$ with $w$.
+which holds for all $w\in \DD$ by replacing $Rz$ with $w$ (i.e. to show this equality for arbitrary $w\in \DD$, write $w = Rz$ for some $z\in \DD$ and run this chain of inequalities backward).
 
 
 
