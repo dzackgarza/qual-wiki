@@ -140,7 +140,7 @@ number. Show that there exist $a, b, c, d \in \mathbb C$ with
 $ad-bc \neq 0$, $c \neq 0$ such that
 $\displaystyle f(z) = \frac{az + b}{cz + d}$.
 
-## Spring 2021 # 7 #work
+## Spring 2021.7 #work
 
 :::{.problem title="?"}
 Let $R$ be the intersection of the right half-plane and the outside of the circle $\abs{z - {1\over 2}} = {1\over 2}$ with the line segment $[1, 2]$ removed, i.e. 

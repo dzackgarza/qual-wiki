@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "030_Computing Integrals",
-      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
-    },
-    {
       "basename": "999_By Year",
       "path": "30_Complex Analysis/999_Quals/999_By Year.md"
     },
@@ -13,16 +9,24 @@
       "path": "30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities.md"
     },
     {
-      "basename": "051_Polynomials",
-      "path": "30_Complex Analysis/999_Quals/051_Polynomials.md"
+      "basename": "105_Conformal Maps",
+      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
     },
     {
       "basename": "005 Function Convergence",
       "path": "30_Complex Analysis/999_Quals/005 Function Convergence.md"
     },
     {
-      "basename": "105_Conformal Maps",
-      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+      "basename": "200_Schwarz",
+      "path": "30_Complex Analysis/999_Quals/200_Schwarz.md"
+    },
+    {
+      "basename": "051_Polynomials",
+      "path": "30_Complex Analysis/999_Quals/051_Polynomials.md"
+    },
+    {
+      "basename": "030_Computing Integrals",
+      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
     },
     {
       "basename": "070_Morera",
@@ -195,10 +199,6 @@
     {
       "basename": "Functional Analysis",
       "path": "20_Real Analysis/200_Appendices/Functional Analysis.md"
-    },
-    {
-      "basename": "Extra_Questions",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/Extra_Questions.md"
     }
   ],
   "omittedPaths": [],

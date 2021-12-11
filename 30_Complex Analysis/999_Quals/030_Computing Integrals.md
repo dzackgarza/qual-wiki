@@ -453,7 +453,7 @@ Suppose $n \geq 2$. Use a wedge of angle $\frac{2 \pi}{n}$ to evaluate the integ
 I=\int_{0}^{\infty} \frac{1}{1+x^{n}} d x
 \]
 
-## Spring 2021 # 2 #completed
+## Spring 2021.2 #completed
 
 :::{.problem title="?"}
 Let $\xi\in \RR$, evaluate

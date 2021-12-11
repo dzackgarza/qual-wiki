@@ -125,7 +125,7 @@ This is because each derivative is analytic and the zeros of an analytic functio
 But by hypothesis this set is uncountable.
 :::
 
-## Spring 2021 # 3 #completed
+## Spring 2021.3 #completed
 
 :::{.problem title="?"}
 Suppose $f$ is entire, let $A, R> 0$ and $N \in \NN$, and suppose
@@ -210,7 +210,7 @@ This contradicts $A>0$. $\contradiction$
 
 
 
-## Spring 2021 # 4 #completed
+## Spring 2021.4 #completed
 
 :::{.problem title="?"}
 Let $f = u + iv$ be an entire function such that $\Re(f(x+iy))$ is polynomial in $x$ and $y$.
