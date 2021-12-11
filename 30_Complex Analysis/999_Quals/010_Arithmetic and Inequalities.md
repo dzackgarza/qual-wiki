@@ -29,10 +29,19 @@ What is below is the correct version of the inequality.
 
 :::{.solution}
 For ease of notation, let $z=z_1$ and $w=z_2$
-Now write
+We want to show
 \[
-\abs{1- z\bar{w}} - \abs{z-w}^2 = \qty{\abs{1 - \abs{z}^2 }} \qty{\abs{1 - \abs{w}^2}}
+\abs{1- z\bar{w}} - \abs{z-w}^2 
+= \qty{{1 - \abs{z}^2 }} \qty{{1 - \abs{w}^2}}
 .\]
+
+So write
+\[
+\abs{1- z\bar{w}} - \abs{z-w}^2 
+&= (1-z\bar w)(1-\bar z w) - (z-w)(\bar z - \bar w) \\
+&=
+.\]
+
 
 :::
 
