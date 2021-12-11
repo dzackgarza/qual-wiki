@@ -1,5 +1,7 @@
 # Exams by Year
 
+> Note: linking directly to sections doesn't seem to work yet. Just ctrl-F and search the page for the relevant year.
+
 ## Fall 2021
 
 - [[010_Arithmetic and Inequalities#Fall 2021 1 work|Problem 1]]

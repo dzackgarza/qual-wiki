@@ -151,8 +151,7 @@ Here we've used the basic estimate
 
 :::
 
-## Spring 2020 HW 1.6 #work
-
+## Spring 2020 HW 1.6 #completed
 
 :::{.problem title="?"}
 Use $n$th roots of unity to show that
@@ -167,7 +166,6 @@ Use $n$th roots of unity to show that
 .\]
 :::
 
-
 :::{.concept}
 \envlist
 
@@ -177,7 +175,6 @@ Use $n$th roots of unity to show that
 - $\sin(z) = \qty{e^{iz} - e^{-iz} \over 2i}$.
 - $\prod_k \exp(c_k) = \exp\qty{\sum_k c_k}$.
 :::
-
 
 :::{.solution}
 \[
@@ -189,7 +186,7 @@ Use $n$th roots of unity to show that
 \zeta_n^{j\over 2} \prod_{1\leq j \leq n-1} \qty{1 - \zeta_n^{-j}} \\
 &=\left(\frac{1}{2 i}\right)^{n-1} \prod_{1\leq j\leq n-1} 
 \exp\qty{ij\pi \over n} \prod_{1\leq j \leq n-1} \qty{1 - \zeta_n^{-j}} \\
-&=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\sum_{j=1}^{n-1} \frac{i j \pi}{n}\right) \Phi_{n}(1)\\
+&=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\sum_{1\leq j\leq n-1} \frac{i j \pi}{n}\right) \Phi_{n}(1)\\
 &=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\frac{(n-1) i \pi}{2}\right) \Phi_{n}(1)\\
 &=\left(\frac{1}{2 i}\right)^{n-1}\left(e^{i \pi / 2}\right)^{n-1} \Phi_{n}(1)\\
 &=\left(\frac{1}{2 i}\right)^{n-1} i^{n-1} \Phi_{n}(1)\\
@@ -198,7 +195,4 @@ Use $n$th roots of unity to show that
 .\]
 
 :::
-
-
-
 
