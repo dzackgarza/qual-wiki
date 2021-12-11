@@ -122,7 +122,7 @@ Follows from the estimate in part 1.
 
 :::
 
-## Spring 2020 HW 1.2 #work 
+## Spring 2020 HW 1.2 #completed
 
 :::{.problem title="?"}
 Prove the following inequality, and explain when equality holds:
@@ -132,24 +132,29 @@ Prove the following inequality, and explain when equality holds:
 
 :::
 
-
 :::{.solution}
 \[
 \abs{z-w}^2 
 &= (z-w)(\bar z - \bar w) \\
 &= \abs{z}^2 + \abs{w}^2 - z\bar{w} - \bar{z} w \\
 &= \abs{z}^2 + \abs{w}^2 - 2\Re(\bar w z) \\
-&\leq \abs{z}^2 + \abs{w}^2 - 2\abs{\bar w }\abs{z} \\
-&\leq \qty{ \abs{z} - \abs{w} }^2
+&\geq \abs{z}^2 + \abs{w}^2 - 2\abs{\bar w }\abs{z} \\
+&\geq \qty{ \abs{z} - \abs{w} }^2
+,\]
+and taking square roots introduces an absolute value on the final term.
+Here we've used the basic estimate 
+\[
+\Re(z) \leq \abs{z} \implies -\Re(z) \geq -\abs{z}
 .\]
+
 
 
 :::
 
-
-
 ## Spring 2020 HW 1.6 #work
 
+
+:::{.problem title="?"}
 Use $n$th roots of unity to show that
 \[
 2^{n-1} \sin\qty{\pi \over n} \sin\qty{2\pi \over n} \cdots \sin\qty{(n-1)\pi \over n} = n
@@ -160,6 +165,8 @@ Use $n$th roots of unity to show that
 1 - \cos(2\theta) &= 2\sin^2(\theta) \\
 2 \sin(2\theta) &= 2\sin(\theta) \cos(\theta)
 .\]
+:::
+
 
 
 
