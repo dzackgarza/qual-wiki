@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/999_Quals/999_By Year.md"
     },
     {
+      "basename": "005 Function Convergence",
+      "path": "30_Complex Analysis/999_Quals/005 Function Convergence.md"
+    },
+    {
       "basename": "105_Conformal Maps",
       "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "9000_Extra_Problems_MeasureTheory",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/9000_Extra_Problems_MeasureTheory.md"
-    },
-    {
-      "basename": "0999_Extra",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0999_Extra.md"
     }
   ],
   "omittedPaths": [],

@@ -88,7 +88,7 @@ has a limit point in $\Omega$. Show that $f_n$ converges to $f$ uniformly on com
 
 :::
 
-## Spring 2021, Spring 2015, Extras.6 #completed
+## Spring 2021.6, Spring 2015, Extras #completed
 
 :::{.problem title="?"}
 Let $\ts{f_n}_{n=1}^\infty$ is a sequence of holomorphic functions on $\DD$ and $f$ is also holomorphic on $\DD$. 
