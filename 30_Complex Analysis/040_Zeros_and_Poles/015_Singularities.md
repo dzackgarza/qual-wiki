@@ -125,6 +125,7 @@ If $f$ is analytic and not identically zero on $\Omega$ with $f(z_0) = 0$, then 
 f(z) = (z-z_0)^n g(z)
 .\]
 We refer to $z_0$ as a **zero of order $n$**.
+Equivalently, $f^{(n-1)}(z_0)=0$ but $f^{(n)}(z) \neq 0$, so the Laurent expansion has the form $f(z) = \sum_{k\geq n} c_k (z-z_0)^k$ where $c_n\neq 0$.
 :::
 
 :::{.remark}
