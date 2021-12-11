@@ -1,4 +1,3 @@
-
 # Cauchy's Inequality
 
 :::{.theorem title="Cauchy's Inequality / Cauchy's Estimate" ref="CauchyInequality"}
@@ -8,6 +7,10 @@ For $z_0 \in D_R(z_0) \subset \Omega$, setting $M \da \sup_{z\in \gamma}\abs{f(z
 \leq \frac{n !}{2 \pi} \int_{0}^{2 \pi} \frac{ M } {R^{n+1}} R \dtheta
 = \frac{M n ! }{R^n} 
 .\]
+:::
+
+:::{.slogan}
+The $n$th Taylor coefficient of an analytic function is at most $\sup_{\abs z = R} \abs{f}/R^n$.
 :::
 
 :::{.proof title="of Cauchy's inequality"}
@@ -27,8 +30,4 @@ For $z_0 \in D_R(z_0) \subset \Omega$, setting $M \da \sup_{z\in \gamma}\abs{f(z
 
 :::
 
-
-:::{.slogan}
-The $n$th Taylor coefficient of an analytic function is at most $\sup_{\abs z = R} \abs{f}/R^n$.
-:::
 
