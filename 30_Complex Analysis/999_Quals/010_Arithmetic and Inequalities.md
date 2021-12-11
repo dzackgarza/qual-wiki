@@ -105,12 +105,12 @@ Note that $1\over w = \bar w$ on the circle, so $1/\bar{w} = \bar{\bar w} = 2$, 
 This follows from finding an explicit inverse, using that $F^2 = \id$:
 \[
 F(F(z))
-& \frac{w-\frac{w-z}{1-\bar{w} z}}{1-\bar{w} \frac{w-z}{1-\bar{w} z}} \\
-=& \frac{w-\frac{w-z}{1-\bar{w} z}}{1-\frac{\bar{w}(w-z)}{1-\bar{w} z}} \\
-=& \frac{w(1-\bar{w} z)-(w-z)}{q-\bar{w} z-\bar{w}(w-z)} \\
-=& \frac{w-|w|^{2} z-w+z}{1-\bar{w} z-|w|^{2}+\bar{w} z} \\
-=& \frac{z\left(1-|w|^{2}\right)}{1-|w|^{2}} \\
-=& z
+&= \frac{w- \qty{ \frac{w-z}{1-\bar{w} z} } }{1-\bar{w} \frac{w-z}{1-\bar{w} z}} \\
+&= \frac{w-\frac{w-z}{1-\bar{w} z}}{1-\frac{\bar{w}(w-z)}{1-\bar{w} z}} \\
+&= \frac{w(1-\bar{w} z)-(w-z)}{q-\bar{w} z-\bar{w}(w-z)} \\
+&= \frac{w-|w|^{2} z-w+z}{1-\bar{w} z-|w|^{2}+\bar{w} z} \\
+&= \frac{z\left(1-|w|^{2}\right)}{1-|w|^{2}} \\
+&= z
 .\]
 
 
