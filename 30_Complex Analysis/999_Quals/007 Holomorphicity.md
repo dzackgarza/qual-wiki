@@ -11,6 +11,31 @@ Prove that $f(z) = \abs{z}^2$ has a derivative at $z=0$ and nowhere else.
 :::
 
 
+:::{.solution}
+The easy check: $f$ is differentiable iff $\delbar_z f = 0$, but
+\[
+\delbar_z \abs{z}^2 = \delbar_z z\bar{z} = z \neq 0
+,\]
+unless of course $z=0$.
+
+A more explicit check: check the limits.
+\[
+{f(z) - f(0) \over z-0} = { \abs{z}^2 \over z } = {z\bar z \over z} = \bar{z} \converges{z\to 0}\too 0
+,\]
+so $f$ is differentiable at zero.
+Now taking $w\neq 0$,
+\[
+{f(z) -f(w) \over z-w} = {\abs{z}^2 - \abs{w}^2 \over z - w} 
+= {\qty{\abs{z} + \abs{w} } \qty{\abs{z} - \abs{w}} \over z-w }
+= {\abs z - \abs w \over z-w}\cdot \qty{\abs{z} + \abs{w}}
+.\]
+
+
+
+:::
+
+
+
 
 ## Spring 2020 HW 1.8 #work
 
