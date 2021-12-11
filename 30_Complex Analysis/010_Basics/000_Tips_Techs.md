@@ -85,6 +85,7 @@ Some silly arithmetic tricks:
   - It can be useful to take a specific sequence $\ts{z_k}\to z_0$.
 - To show that a zero $z_0$ is order $n$, show that $f^{(<n)}(z_0) = 0$ but $f^{(n)}(z_0) \neq 0$.
 - To prove $a\leq b$, try showing ${a\over b} \leq 1$.
+- To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.
 
 :::
 

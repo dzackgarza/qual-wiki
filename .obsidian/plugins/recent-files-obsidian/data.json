@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "qual_progress",
+      "path": "qual_progress.md"
+    },
+    {
       "basename": "040_MMP",
       "path": "30_Complex Analysis/040_Zeros_and_Poles/040_MMP.md"
     },
@@ -107,10 +111,6 @@
     {
       "basename": "Casorati-Weierstrass",
       "path": "30_Complex Analysis/045_Casorati/Casorati-Weierstrass.md"
-    },
-    {
-      "basename": "qual_progress",
-      "path": "qual_progress.md"
     },
     {
       "basename": "011_Complex Geometry",
