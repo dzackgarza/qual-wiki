@@ -24,7 +24,7 @@ E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
 :::
 
 
-## Fall 2021 # 2  #work
+## Fall 2021 # 2  #completed
 
 :::{.problem title="?"}
 Let $\gamma(t)$ be a piecewise smooth curve in $\mathbb{C}, t \in[0,1]$. Let $F(w)$ be a continuous function on $\gamma$. Show that $f(z)$ defined by
@@ -34,7 +34,6 @@ f(z):=\int_{\gamma} \frac{F(w)}{w-z} d w
 is analytic on the complement of the curve $\gamma$.
 
 :::
-
 
 :::{.solution}
 By Morera's theorem, it suffices to show $\int_\Delta f(z) \dz = 0$ for all triangles $\Delta \subseteq \gamma^c$.
