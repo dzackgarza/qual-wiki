@@ -193,7 +193,8 @@ Write $e(z) \da e^{2\pi i z}$ and $e_j(z) \da e^{2\pi i jz}$.
 Then $e^{ij\pi/n} = e_j(1/2n)$.
 \[
 \prod_{1\leq j \leq n-1}\sin\qty{j\pi \over n}
-&= \prod_{1\leq j \leq n-1} \qty{e - e() \over 2i}
+&= \prod_{1\leq j \leq n-1} \qty{e_j(1/2n) - e_j(1/2n) \over 2i} \\
+&= (2i)^{1-n} \prod_{1\leq j \leq n-1} e_j(1/2n ) \qty{1 - e_j(1/4n)} \\
 .\]
 
 :::
