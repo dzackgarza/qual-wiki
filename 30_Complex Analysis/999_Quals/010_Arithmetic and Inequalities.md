@@ -178,6 +178,8 @@ We can then write $\sin\qty{j\pi\over n} = \zeta_n^j$, so using that $\sin(z) = 
 \qty{\zeta_n^{j\over 2} - \zeta_n^{- {j \over 2} }} \\
 &=\left(\frac{1}{2 i}\right)^{n-1} \prod_{1\leq j\leq n-1} 
 \zeta_n^{j\over 2} \prod_{1\leq j \leq n-1} \qty{1 - \zeta_n^{-j}} \\
+&=\left(\frac{1}{2 i}\right)^{n-1} \prod_{1\leq j\leq n-1} 
+\exp\qty{ij\pi \over n} \prod_{1\leq j \leq n-1} \qty{1 - \zeta_n^{-j}} \\
 &=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\sum_{j=1}^{n-1} \frac{i j \pi}{n}\right) \Phi_{n}(1)\\
 &=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\frac{i \pi}{n} \sum_{j=1}^{n-1} j\right) \Phi_{n}(1)\\
 &=\left(\frac{1}{2 i}\right)^{n-1} \exp \left(\frac{(n-1) i \pi}{2}\right) \Phi_{n}(1)\\
