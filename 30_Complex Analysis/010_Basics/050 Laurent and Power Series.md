@@ -134,13 +134,11 @@ so
 .\]
 :::
 
-
 :::{.example title="Inverting $\sin$ and computing $\tan$"}
 
 ![](figures/2021-12-10_19-28-19.png)
 
 :::
-
 
 :::{.fact title="Using geometric series to invert power series"}
 There is an alternative that sometimes (?) works: writing $A(z) = \sum_{k\geq 0} a_k z_k$, invert by formal manipulations:
