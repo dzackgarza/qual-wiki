@@ -447,7 +447,7 @@ Show that $\displaystyle \int_0^\infty \frac{x^{a-1} {1+x^n} \dx=\frac{\pi}{n\si
 
 Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x {x^2+a^2} \dx }$.
 
-## Fall 2021 #3
+## Fall 2021.3 #work
 Suppose $n \geq 2$. Use a wedge of angle $\frac{2 \pi}{n}$ to evaluate the integral
 \[
 I=\int_{0}^{\infty} \frac{1}{1+x^{n}} d x

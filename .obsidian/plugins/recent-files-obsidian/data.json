@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "030_Computing Integrals",
+      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
+    },
+    {
       "basename": "999_By Year",
       "path": "30_Complex Analysis/999_Quals/999_By Year.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "051_Polynomials",
       "path": "30_Complex Analysis/999_Quals/051_Polynomials.md"
-    },
-    {
-      "basename": "030_Computing Integrals",
-      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
     },
     {
       "basename": "070_Morera",

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/999_Quals/999_By Year.md",
+            "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/999_By Year.md",
+                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/999_By Year.md"
+                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/999_By Year.md",
+                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/999_By Year.md",
+                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -255,13 +255,13 @@
   },
   "active": "ffaeb9448df6db21",
   "lastOpenFiles": [
+    "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
     "30_Complex Analysis/999_Quals/999_By Year.md",
     "30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities.md",
     "30_Complex Analysis/999_Quals/105_Conformal Maps.md",
     "30_Complex Analysis/999_Quals/005 Function Convergence.md",
     "30_Complex Analysis/999_Quals/200_Schwarz.md",
     "30_Complex Analysis/999_Quals/051_Polynomials.md",
-    "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
     "30_Complex Analysis/999_Quals/070_Morera.md",
     "30_Complex Analysis/999_Quals/99999_Unsorted.md",
     "30_Complex Analysis/999_Quals/000_Preface.md"
