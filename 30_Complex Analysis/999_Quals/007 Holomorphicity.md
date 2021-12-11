@@ -41,7 +41,7 @@ Then let $z\to w$ along the curve $\ts{tw\st t\in [0, 1]}$, then $\abs{z} = t \a
 which is nonzero is $w\neq 0$.
 :::
 
-## Spring 2020 HW 1.8 #work
+## Spring 2020 HW 1.8 #completed
 
 :::{.problem title="?"}
 Let $f(z)$ be analytic in a domain, and prove that $f$ is constant if it satisfies any of the following conditions:
@@ -104,16 +104,28 @@ Then $u_x = u_y = 0$, and CR yields $v_y = u_x = 0$ and $v_y = -u_x = 0$, so $v$
 
 :::{.solution title="3"}
 Slick proof: apply the open mapping theorem again, since $\Arg(f) = \theta_0$ implies that $\im(f) \subseteq \gamma$ for the curve $\gamma \da \ts{t e^{i\theta_0}\st t\in \RR}$ which has no open subsets.
+
+Note that this implies that any $\RR\dash$valued holomorphic function is constant.
 :::
 
 :::{.solution title="4"}
-
+Write $f=u+iv$ so $\bar f = u +i\tilde v$ where $\tilde v \da -v$.
+Then $u, \tilde v$ are constant, so in particular $\Re(f)$ is constant and by 2 $f$ is constant.
 :::
 
 
 
 ## Spring 2020 HW 1.9 #work
+
+:::{.problem title="?"}
 Prove that if $z\mapsto f(z)$ is analytic, then $z \mapsto \bar{f(\bar z)}$ is analytic.
+:::
+
+
+:::{.solution}
+
+:::
+
 
 # Cauchy-Riemann and PDEs
 
