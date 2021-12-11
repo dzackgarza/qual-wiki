@@ -127,7 +127,7 @@ Follows from the estimate in part 1.
 :::{.problem title="?"}
 Prove the following inequality, and explain when equality holds:
 \[
-\abs{z+w} \geq \abs{ \abs{z} - \abs{w} }
+\abs{z-w} \geq \abs{ \abs{z} - \abs{w} }
 .\]
 
 :::
@@ -135,10 +135,12 @@ Prove the following inequality, and explain when equality holds:
 
 :::{.solution}
 \[
-\abs{z+w}^2 
-&= (z+w)(\bar z + \bar w) \\
-&= \abs{z}^2 + \abs{w}^2 + z\bar{w} + \bar{z} w \\
-&= \abs{z}^2 + \abs{w}^2 + 2\Re(\bar w z) 
+\abs{z-w}^2 
+&= (z-w)(\bar z - \bar w) \\
+&= \abs{z}^2 + \abs{w}^2 - z\bar{w} - \bar{z} w \\
+&= \abs{z}^2 + \abs{w}^2 - 2\Re(\bar w z) \\
+&\leq \abs{z}^2 + \abs{w}^2 - 2\abs{\bar w }\abs{z} \\
+&\leq \qty{ \abs{z} - \abs{w} }^2
 .\]
 
 
