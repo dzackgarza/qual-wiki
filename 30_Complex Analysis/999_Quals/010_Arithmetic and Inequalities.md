@@ -58,7 +58,7 @@ Moreover if $\abs{z} = \abs{w} = 1$, the RHS is zero, yielding equalities at eve
 
 :::
 
-## Spring 2020 HW 1.5 #work
+## Spring 2020 HW 1.5 #completed
 
 :::{.problem title="?"}
 a. Let $z, w \in \CC$ with $\bar z w \neq 1$. 
@@ -73,9 +73,9 @@ b. Prove that for a fixed $w\in \DD$, the mapping $F: z\mapsto {w-z \over 1 - \b
 - $F$ maps $\DD$ to itself and is holomorphic.
 - $F(0) = w$ and $F(w) = 0$.
 - $\abs{z} = 1$ implies $\abs{F(z)} = 1$.
+- $F$ is a bijection.
 
 :::
-
 
 :::{.solution}
 
@@ -101,7 +101,7 @@ Note that $1\over w = \bar w$ on the circle, so $1/\bar{w} = \bar{\bar w} = 2$, 
 &\converges{z\to \bar w\inv=w }\to 0
 .\]
 
-**Part 1, being a bijection**: 
+**Part 2, being a bijection**: 
 This follows from finding an explicit inverse, using that $F^2 = \id$:
 \[
 F(F(z))
@@ -121,7 +121,6 @@ A direct check shows that $F(w) = 0$, since the numerator vanishes, and $F(0) = 
 Follows from the estimate in part 1.
 
 :::
-
 
 
 ## Spring 2020 HW 1.2 #work 
