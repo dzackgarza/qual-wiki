@@ -26,8 +26,8 @@ What is below is the correct version of the inequality.
 (c) Assume that $z_{1} \neq z_{2}$. Show that $\left|\frac{z_{1}-z_{2}}{1-\bar{z}_{1} z_{2}}\right|=1$ if only if $\left|z_{1}\right|=1$ or $\left|z_{2}\right|=1$.
 :::
 
-
 :::{.solution}
+**Part 1**:
 For ease of notation, let $z=z_1$ and $w=z_2$
 We want to show
 \[
@@ -42,6 +42,14 @@ So write
 &= 1 - z\bar w - \bar z w - \abs{z}^2\abs{w}^2 - \abs{z}^2 - \abs{w}^2 + w\bar{z} + z\bar{w} \\
 &= 1 - \abs{z}^2\abs{w}^2 - \abs{z}^2 - \abs{w}^2 \\
 &=(1-\abs z^2)(1-\abs w^2)
+.\]
+
+
+**Part 2**:
+\[
+\abs{z-w \over 1 - \bar z w}^2 < 1 
+&\iff \abs{z-w}^2 < \abs{z - \bar z w}^2 \\
+&\iff 
 .\]
 
 :::
