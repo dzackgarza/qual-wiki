@@ -6,7 +6,16 @@ order: 10
 
 ## Fall 2021.1 #work
 
-??? Error in problem
+
+:::{.problem title="?"}
+1. Let $z_{1}$ and $z_{2}$ be two complex numbers.
+
+(a) Show that $\left|z_{1}-\bar{z}_{1} z_{2}\right|^{2}-\left|z_{1}-z_{2}\right|^{2}=\left(1-\left|z_{1}\right|^{2}\right)\left(1-\left|z_{2}\right|\right)$.
+
+(b) Show that if $\left|z_{1}\right|<1$ and $\left|z_{2}\right|<1$, then $\left|\frac{z_{1}-z_{2}}{1-\bar{z}_{1} z_{2}}\right|<1 .$
+
+(c) Assume that $z_{1} \neq z_{2}$. Show that $\left|\frac{z_{1}-z_{2}}{1-\bar{z}_{1} z_{2}}\right|=1$ if only if $\left|z_{1}\right|=1$ or $\left|z_{2}\right|=1$.
+:::
 
 ## Spring 2020 HW 1.2 #work 
 Prove the following inequality, and explain when equality holds:
