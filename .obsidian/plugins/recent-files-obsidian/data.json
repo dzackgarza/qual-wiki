@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
+    },
+    {
+      "basename": "999_By Year",
+      "path": "30_Complex Analysis/999_Quals/999_By Year.md"
+    },
+    {
       "basename": "qual_progress",
       "path": "qual_progress.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "91_10_2019_Fall_Exam1",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/91_10_2019_Fall_Exam1.md"
-    },
-    {
-      "basename": "91_01_2018_Fall_Exam2",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/91_01_2018_Fall_Exam2.md"
-    },
-    {
-      "basename": "91_01_2018_Fall_Exam1",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/91_01_2018_Fall_Exam1.md"
     }
   ],
   "omittedPaths": [],
