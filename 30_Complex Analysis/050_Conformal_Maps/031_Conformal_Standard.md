@@ -14,6 +14,19 @@ A summary:
 | Lunes to sectors | FLTs |
 | $\HH$ to vertical half-strip | $\sin(z)$ |
 
+- Exponentials and logs:
+  - $z\mapsto e^z$: $\ts{\Im(z) \in (-\pi, \pi) }\to \CC\sm\RR_{\leq 0}$, horizontal strips to slit planes.
+
+- Power functions:
+  - $z\mapsto z^2$: $\ts{\Re(z) > 0} \to \CC\sm\RR_{\leq 0}$
+  - For fixed $\theta_0\in (0, \pi)$ and $a\in [0, \pi/\theta_0]$, $z\mapsto z^a: \ts{\abs{\Arg(z) \in (-\theta_0, \theta_0) } \to \ts{\Arg(z) \in (-a\theta_0, a\theta_0) }$.
+  - $z\mapsto z^{\pi \over 2\theta_0}: \ts{\Arg(z) \in (-\theta_0, \theta_0)}\to \ts{\Arg(z) \in (-\pi/2, \pi/ 2)}$.
+
+  ![](figures/2021-12-10_20-24-49.png)
+
+  - ?
+    
+
 Some tips:
 
 - A quick computational fact: $1/z = \bar{z}\over \abs{z}^2$. 
