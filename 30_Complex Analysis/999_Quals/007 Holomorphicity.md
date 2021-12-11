@@ -106,6 +106,13 @@ Then $u_x = u_y = 0$, and CR yields $v_y = u_x = 0$ and $v_y = -u_x = 0$, so $v$
 
 :::{.solution title="3"}
 Slick proof: apply the open mapping theorem again, since $\Arg(f) = \theta_0$ implies that $\im(f) \subseteq \gamma$ for the curve $\gamma \da \ts{t e^{i\theta_0}\st t\in \RR}$ which has no open subsets.
+
+Slightly less slick proof: polar coordinates to write $f(z) = f(r, \theta) = u(r, \theta) + i v(r, \theta)$.
+Recall polar CR:
+\[
+r u_r = v_\theta && rv_r = u_\theta
+.\]
+
 :::
 
 
