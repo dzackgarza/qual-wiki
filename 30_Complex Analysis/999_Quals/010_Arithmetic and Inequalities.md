@@ -168,9 +168,18 @@ Use $n$th roots of unity to show that
 :::
 
 
+:::{.concept}
+\envlist
+
+- $\zeta_n \da e^{2\pi i \over n}$
+- $\Phi_n(z) \da \prod_{1\leq j \leq n-1}(z-\zeta_n^j)$
+- $\Phi_n(1) = n$, since $\Phi_n(z) = {z^n-1\over z-1} = \sum_{0\leq j\leq n-1} z^j$.
+- $\sin(z) = \qty{e^{iz} - e^{-iz} \over 2i}$.
+- $\prod_k \exp(c_k) = \exp\qty{\sum_k c_k}$.
+:::
+
+
 :::{.solution}
-Write $\zeta_n\da e^{2\pi i /n}$ and $\Phi_n(z) = \prod_{1\leq j \leq n-1}(z-\zeta_n^j)$, note that $\Phi_n(1) = n$.
-We can then write $\sin\qty{j\pi\over n} = \zeta_n^j$, so using that $\sin(z) = (2i)\inv(z + z\inv)$,
 \[
 \prod_{1\leq j\leq n-1} 
 \sin \left(\frac{j \pi}{n}\right)
