@@ -133,7 +133,8 @@ By the chain rule,
 \[
 a_x &= \del_x (x\mapsto u(x, -y)) = u_x \\ 
 a_y &= \del_x (y\mapsto u(x, y))\circ(y\mapsto -y) = -u_x \\ 
-= 
+b_x &= \del_x(x\mapsto -v(x, -y)) = -v_x \\
+b_y &= \del_x(y \mapsto - v(x, -y)) = v_y
 .\]
 
 
