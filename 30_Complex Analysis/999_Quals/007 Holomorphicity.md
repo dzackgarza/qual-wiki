@@ -123,6 +123,11 @@ Prove that if $z\mapsto f(z)$ is analytic, then $z \mapsto \bar{f(\bar z)}$ is a
 
 
 :::{.solution}
+It suffices to show that $g(z) \da \bar{f(\bar z)}$ satisfies CR.
+Write 
+\[
+f(x, y) = u(x, y) + i v(x, y) \implies g(x, y) = u(x, -y) -i v(x, -y)
+.\]
 
 :::
 
