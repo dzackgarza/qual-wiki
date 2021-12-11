@@ -75,11 +75,17 @@ How do you generalize (a) and (b)?
   uu_x - vu_y &=0 \\
   uu_y + vu_x &=0
   .\]
-  Multiply the first by $u_x$ and the second by $u_y$:
+  Multiply the first by $u_x$ and the second by $u_y$, then add
   \[
   uu_x^2 - vu_y u_x &= 0 \\
-  uu_y^2 + vu_x u_y &=0
+  uu_y^2 + vu_x u_y &=0 \\
+  \implies u(u_x^2 + u_y^2) &=0
   .\]
+  A similar calculation yields $v(v_x^2 + v_y^2) = 0$, so
+  \[
+  0 = u\laplacian u = v\laplacian v
+  .\]
+
 
 
 
