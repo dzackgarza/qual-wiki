@@ -40,20 +40,25 @@ h(z) \da {f(z) \over g(z)}
 $h(z) \equiv 1$ is constant on $\bar{\DD}$, so that $f = \lambda g$ for some $\lambda \in S^1$, i.e. $\lambda = e^{i\theta}$ for some $\theta$.
 :::
 
-
 :::{.proof title="?"}
 Note that $h$ cancels all zeros of $f$, so $h$ is nonzero and holomorphic on $\bar{\DD}$.
 Moreover $\abs{g(z)} \leq 1$ on $\bar{\DD}$ since these are well-known to be in $\Aut(\DD)$.
-On $\bd \DD$:
+It's also well-known that $\abs{g(z)} = 1$ on $\bd \DD$.
+Thus $\abs{h(z)} = 1$ and $\abs{1\over h(z)} =1$ on $\bd \DD$, and by the maximum modulus principle, 
 \[
-\abs{h(z)} = \abs{f(z) \over g(z)} = {1\over \abs{g(z)}} = ? \\
-\abs{1\over h(z)} = \abs{g(z) \over f(z)} = \abs{g(z)} \leq 1
-.\]
+\abs{h(z)} \leq 1 \quad\text{ and }\quad \abs{1\over h(z)}\leq 1 \quad \text{ on } \DD
+,\]
+forcing $\abs{h(z)}\equiv 1$ and thus $h(z) = e^{i\theta}$ for some $\theta$.
 
 
 
 :::
 
+So we now have
+\[
+f(z) = e^{i\theta} \prod_{1\leq k\leq m} {z-z_k \over 1 -\bar{z_k} z}
+,\]
+which evidently has poles precisely at $z = z_k$
 
 
 
