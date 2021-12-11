@@ -58,7 +58,12 @@ So we now have
 \[
 f(z) = e^{i\theta} \prod_{1\leq k\leq m} {z-z_k \over 1 -\bar{z_k} z}
 ,\]
-which evidently has poles precisely at $z = z_k$
+which has poles at points $z$ for which $\bar{z_k}z=1$ for some $z_k\in Z(f)$.
+However, since we assumed $f$ was entire, it can have no such poles, which forces $z_k = 0$ for all $k$.
+But then
+\[
+f(z) = e^{i\theta}\prod_{1\leq k \leq m}{z- 0 \over 1 - 0\cdot z} = e^{i\theta}z^m
+.\]
 
 
 
