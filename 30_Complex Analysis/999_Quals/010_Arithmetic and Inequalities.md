@@ -91,13 +91,14 @@ This can only happen if $z, w \in S^1$: taking the modulus yields
 and moreover since $\abs{w}^2 \leq 1$ and $\abs{z}^2\leq 1$, the only way this product can be one is when $\abs{w}^2 = \abs{z}^2 = 1$.
 This also forces $z=1/\bar w$.
 
-The claim is that the singularity $1/\bar w$ is removable:
+The claim is that the singularity $1/\bar w$ is removable.
+Note that $1\over w = \bar w$ on the circle, so $1/\bar{w} = \bar{\bar w} = 2$, so
 \[
 \qty{ z- \bar{w}\inv } \qty{w-z \over 1-\bar w z}
-&= \qty{\bar w z - 1 \over \bar w} \qty{w-z \over 1-\bar w z}
+&= \qty{\bar w z - 1 \over \bar w} \qty{w-z \over 1-\bar w z} \\
 &= \bar{w}\inv(w-z) \\
-&= \bar{w}\inv(w-z)
-\converges{z\to \bar w\inv }\to 0
+&= w(w-z) \\
+&\converges{z\to \bar w\inv=w }\to 0
 .\]
 
 :::
