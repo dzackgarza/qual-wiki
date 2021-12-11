@@ -51,6 +51,7 @@ Some tips:
 
 ![2021-10-29_14-23-57.png](figures/2021-10-29_14-23-57.png)
 
+These are characterized as the maps $S^1\to S^1$ with no poles in $\DD$.
 :::
 
 :::{.proposition title="Half-plane to Disc (Cayley Transform, very important)"}
