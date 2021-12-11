@@ -19,6 +19,9 @@ A summary:
 
 - Power functions:
   - $z\mapsto z^2$: $\ts{\Re(z) > 0} \to \CC\sm\RR_{\leq 0}$
+
+  ![](figures/2021-12-10_20-25-14.png)
+
   - For fixed $\theta_0\in (0, \pi)$ and $a\in [0, \pi/\theta_0]$, $z\mapsto z^a: \ts{\abs{\Arg(z) \in (-\theta_0, \theta_0) } \to \ts{\Arg(z) \in (-a\theta_0, a\theta_0) }$.
   - $z\mapsto z^{\pi \over 2\theta_0}: \ts{\Arg(z) \in (-\theta_0, \theta_0)}\to \ts{\Arg(z) \in (-\pi/2, \pi/ 2)}$.
 
