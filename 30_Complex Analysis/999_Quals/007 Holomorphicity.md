@@ -143,6 +143,19 @@ a_y &= -u_y = v_x = -b_x
 .\]
 
 
+Slick proof: use differential forms and the fact that $d = \del + \delbar$.
+Since $f$ is holomorphic, $\delbar f = 0$, and
+\[
+d f = (\del + \delbar )f = \dd{f}{z} + \dd{f}{\bar z} = \dd{f}{z}
+.\]
+Write $g(z) = \bar{f{\bar z}} = \sigma \circ f \circ \sigma$ for $\sigma(z) \da \bar{z}$, then
+\[
+d g = (\del + \delbar )g 
+= \dd{g}{z} + \dd{g}{\bar z}
+\implies
+dg(z) = \dd{\sigma}{z}(f(\bar z)) \dd{f}{z}(\bar z)
+.\]
+
 
 :::
 
