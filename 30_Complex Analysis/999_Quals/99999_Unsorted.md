@@ -11,6 +11,42 @@ Show that if $f: D(0, R) \rightarrow \mathbb{C}$ is holomorphic, with $|f(z)| \l
 :::
 
 
+:::{.solution}
+
+> Proof due to Swaroop Hegde!
+
+Fix $R, M$ and make a clever choice: define
+\[
+F: \DD &\to \CC \\
+z &\mapsto {f(Rz) \over M}
+.\]
+Write $a\da F(0)$ and consider the Blaschke factor
+\[
+\psi_a(z) \da {a-z \over 1-\bar{a} z} \in \Aut(\DD)
+,\]
+and define
+\[
+q: \DD &\to \DD \\
+z &\mapsto (\psi_a \circ F)(z)
+.\]
+Then $q(0) = 0$ and $\abs{g(z)} \leq 1$ for all $z\in \DD$, so by Schwarz we have $\abs{g(z)} \leq \abs{z}$ for all $z\in \DD$.
+Thus for all $z\in \DD$,
+\[
+&\abs{g(z)} \leq z \\
+\implies & \abs{\psi_a(F(z)) } \leq \abs{z} \\
+\implies & \abs{ {f(Rz) \over M} - a \over 1 - {\bar a f(Rz) \over M}  } \leq \abs{z} \\
+\implies & \abs{f(Rz) - f(0) \over 1 - {\bar{f(0)} f(Rz) \over M^2 } } \leq \abs{z} \\
+\implies & \abs{f(Rz) - f(0) \over M^2 - \bar{f(0)} f(Rz) } \leq {\abs{z} \over M} \\
+\implies & \abs{f(w) - f(0) \over M^2 - \bar{f(0)} f(w) } \leq {\abs{w} \over MR}
+,\]
+which holds for all $w\in \DD$ by replacing $Rz$ with $w$.
+
+
+
+
+:::
+
+
 ## Tie's Extra Questions: Fall 2015 #work
 
 
