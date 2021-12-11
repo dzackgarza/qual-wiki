@@ -6,7 +6,14 @@ If $f$ is continuous on a domain $\Omega$ and $\int_T f = 0$ for every triangle 
 
 :::{.slogan}
 If every integral along a triangle vanishes, implies holomorphic.
+Equivalently, $f(z)\dz$ is a closed differential form iff $f$ is holomorphic.
 :::
+
+:::{.remark}
+Sometimes stated for rectangles with sides parallel to axes.
+The power of this theorem is that virtually no assumptions on $f$ are made, e.g. $f$ is not even assumed smooth or even differentiable.
+:::
+
 
 :::{.corollary title="Sufficient condition for a sequence to converge to a holomorphic function"}
 If \( \ts{ f_n }_{n\in \NN} \) is a holomorphic sequence on a region \( \Omega  \) which uniformly converges to $f$ on every compact subset $K \subseteq \Omega$, then $f$ is holomorphic, and $f_n' \to f'$ uniformly on every such compact subset $K$.
@@ -19,7 +26,6 @@ Commute limit with integral and apply Morera's theorem.
 :::{.remark}
 This can be applied to series of the form $\sum_k f_k(z)$.
 :::
-
 
 :::{.theorem title="Goursat"}
 Holomorphic implies analytic.

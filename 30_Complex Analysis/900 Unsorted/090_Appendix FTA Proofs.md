@@ -26,7 +26,6 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 
 :::
 
-
 :::{.proof title="using Rouche's theorem"}
 
 ![](2021-07-29_20-41-18.png)
@@ -55,6 +54,15 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 :::
 
 ## Liouville's Theorem
+
+
+:::{.proof title="from Gamelin"}
+
+![](figures/2021-12-10_19-52-51.png)
+
+![](figures/2021-12-10_19-52-58.png)
+
+:::
 
 :::{.proof title="using Liouville's theorem"}
 \envlist
