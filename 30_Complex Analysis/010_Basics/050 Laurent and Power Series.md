@@ -78,6 +78,17 @@ b_n &= -a_0\inv \sum_{1\leq i \leq n} a_i b_{n-i} \\
 &= -a_0\inv \sum_{0\leq i \leq n-1} a_{n-i}b_i \\
 &= -{1\over a_0}\qty{a_nb_0 + a_{n-1}b_1 + \cdots + a_1 b_{n-1} }
 .\]
+
+Equivalently, supposing $A(z) \da 1 + a_1 z + a_2z^2 + \cdots$, a direct expansion gives
+\[
+{1\over A(z)} = {1\over 1 + \sum_{k\geq 1} a_k z^k }= 
+1 - \qty{\sum_{k\geq 1} a_k z^k}
++ \qty{\sum_{k\geq 1} a_k z^k}^2
+- \qty{\sum_{k\geq 1} a_k z^k}^3
++ \cdots
+= 1 - (A(z) - 1) + (A(z) - 1)^2 - (A(z) - 1)^3 + \cdots
+,\]
+where to compute the $z^m$ term you only need to consider the first $m+1$ summands in this expansion.
 :::
 
 :::{.proof title="Sketch"}
@@ -122,6 +133,14 @@ so
 = - \sum_{k\geq 0} (2z)^k
 .\]
 :::
+
+
+:::{.example title="Inverting $\sin$ and computing $\tan$"}
+
+![](figures/2021-12-10_19-28-19.png)
+
+:::
+
 
 :::{.fact title="Using geometric series to invert power series"}
 There is an alternative that sometimes (?) works: writing $A(z) = \sum_{k\geq 0} a_k z_k$, invert by formal manipulations:
