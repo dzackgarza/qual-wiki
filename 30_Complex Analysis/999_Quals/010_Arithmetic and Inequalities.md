@@ -39,9 +39,10 @@ So write
 \[
 \abs{1- z\bar{w}} - \abs{z-w}^2 
 &= (1-z\bar w)(1-\bar z w) - (z-w)(\bar z - \bar w) \\
-&= 1 - z\bar w - \bar z w - \abs{z}^2\abs{w}^2 - \abs{z}^2 - \abs{w}^2 + w\bar{z} + z\bar{w} - \abs{w}^2
+&= 1 - z\bar w - \bar z w - \abs{z}^2\abs{w}^2 - \abs{z}^2 - \abs{w}^2 + w\bar{z} + z\bar{w} \\
+&= 1 - \abs{z}^2\abs{w}^2 - \abs{z}^2 - \abs{w}^2 \\
+&=(1-\abs z^2)(1-\abs w^2)
 .\]
-
 
 :::
 
