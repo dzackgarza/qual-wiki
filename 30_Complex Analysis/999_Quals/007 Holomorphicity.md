@@ -126,8 +126,16 @@ Prove that if $z\mapsto f(z)$ is analytic, then $z \mapsto \bar{f(\bar z)}$ is a
 It suffices to show that $g(z) \da \bar{f(\bar z)}$ satisfies CR.
 Write 
 \[
-f(x, y) = u(x, y) + i v(x, y) \implies g(x, y) = u(x, -y) -i v(x, -y)
+f(x, y) = u(x, y) + i v(x, y) \implies g(x, y) = \da a(x, y) + ib(x, y) = u(x, -y) -i v(x, -y)
+,\]
+so we want to show $a_x = b_y$ and $a_y = -b_x$.
+By the chain rule,
+\[
+a_x &= \del_x (x\mapsto u(x, -y)) = u_x \\ 
+a_y &= \del_x (y\mapsto u(x, y))\circ(y\mapsto -y) = -u_x \\ 
+= 
 .\]
+
 
 :::
 
