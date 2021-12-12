@@ -195,6 +195,8 @@ Also show that this function is not continuous in $r>0$.
 
 
 :::{.solution}
+**Part 1:**
+
 Write 
 \[
 x &= r\cos \theta \implies \grad_{r, \theta} x = \tv{\cos \theta, -r\sin \theta} \\
@@ -220,6 +222,16 @@ v_r
 &= -r\inv \qty{u_x x_\theta + u_y y_\theta} \\
 &= -r\inv u_\theta
 .\]
+
+**Part 2:**
+
+Define $u(r, \theta) = \log(r)$ and $v(r, \theta) = \theta$ to write $\log(z) = u+iv$.
+Then check
+\[
+u_r &= r\inv, \quad v_\theta = 1 \implies u_r = r\inv v_\theta \\
+v_r &= 0, \quad u_\theta = 0 \implies v_r = -r\inv u_\theta
+.\]
+
 
 
 :::
