@@ -176,6 +176,8 @@ making $g$ analytic.
 ## Spring 2020 HW 1.10 #work
 
 :::{.problem title="?"}
+\envlist
+
 a. Show that in polar coordinates, the Cauchy-Riemann equations take the form
 \[
 \frac{\partial u}{\partial r}=\frac{1}{r} \frac{\partial v}{\partial \theta} \text { and } \frac{\partial v}{\partial r}=-\frac{1}{r} \frac{\partial u}{\partial \theta}
@@ -204,15 +206,19 @@ u_r
 &= u_x x_r + u_y y_r \\
 &= u_x \cos \theta + u_y \sin \theta \\
 &= v_y \cos \theta - v_x \sin \theta \\
-&= r\inv \qty{v_y r\cos\theta - u_y r \sin \theta} \\
+&= r\inv \qty{v_y \cdot r\cos\theta - u_y \cdot r \sin \theta} \\
 &= r\inv \qty{v_y y_\theta + u_y x_\theta} \\
 &= r\inv v_\theta
 .\]
 Similarly
 \[
-u_\theta 
-&= u_x x_\theta + u_y y_\theta \\
-&= - r\sin(\theta) u_x + r\cos(\theta)u_y
+v_r
+&= v_x x_r + v_y y_r \\
+&= v_x \cos \theta + v_y \sin \theta \\
+&= -u_y \cos \theta + u_x \sin \theta \\
+&= -r\inv\qty{u_y \cdot r\cos\theta i u_x \cdot r\sin \theta } \\
+&= -r\inv \qty{u_x x_\theta + u_y y_\theta} \\
+&= -r\inv u_\theta
 .\]
 
 
