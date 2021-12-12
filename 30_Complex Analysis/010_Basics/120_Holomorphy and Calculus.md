@@ -137,7 +137,8 @@ In this case, $a = f'(z_0)$.
 Some properties:
 
 - $\bar{\delbar f(z)} = \del \bar{f}(z)$, or $\del f^*(z) = (\delbar f(z))^*$
-  - E.g. $\del \abs{z}^2 = \del z\bar z = \bar{z}$
+  - E.g. $\del \bar{z} = 0$ and $\delbar z = 0$.
+  - E.g. $\del \abs{z}^2 = \del z\bar z = \bar{z}$ and $\delbar \abs{z}^2 = z$.
   - E.g. $\del \exp\qty{ - \abs{z}^2 } = \del \exp\qty{-z\bar z} = e^{-\abs{z}^2}\cdot \del(z\bar z) = \bar z e^{-\abs{z}^2}$.
 :::
 
