@@ -192,6 +192,19 @@ Also show that this function is not continuous in $r>0$.
 :::
 
 
+:::{.solution}
+Write $x=r\cos \theta, y=r\sin \theta$, then
+\[
+u_r 
+&= u_x x_r + u_y y_r \\
+&= u_x \cos \theta + u_y \sin \theta \\
+&= v_y \cos \theta - v_x \sin \theta \\
+&= r\inv \qty{v_y r\cos\theta + u_y r \sin \theta} \\
+.\]
+
+:::
+
+
 ### Tie's Extra Questions: Fall 2011 #work
 
 (1) 
