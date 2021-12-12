@@ -230,7 +230,28 @@ Then check
 \[
 u_r &= r\inv, \quad v_\theta = 1 \implies u_r = r\inv v_\theta \\
 v_r &= 0, \quad u_\theta = 0 \implies v_r = -r\inv u_\theta
+,\]
+provided $r>0$ so that $u_r$ is defined.
+
+That this function is not continuous: let $z_k = 1\cdot e^{i(0 + 1/k)}$ and $w_k = 1\cdot e^{i(2\pi - 1/k)}$, noting that these are two sequences converging to 1.
+If $\log(z)$ were continuous, we would have
+\[
+\lim_{k\to\infty} \log(z_k)
+= \lim_{k\to\infty} \log(w_k)
+= \log(1) = 0
+,\]
+i.e. for any $\eps$ we can choose $k\gg 1$ so that 
+\[
+\abs{\log(z_k) - 0}, \abs{\log(w_k) - 0 } < \eps
 .\]
+However,
+\[
+\log(w_k) = \log(1) + i(2\pi - 1/k) = i(2\pi - 1/k) = 2\pi i 1-/k > \eps
+,\]
+provided we choose $\eps$ small and $k$ large.
+
+
+
 
 
 
