@@ -144,16 +144,22 @@ a_y &= -u_y = v_x = -b_x
 
 
 Slick proof: use differential forms and the fact that $d = \del + \delbar$.
-Since $f$ is holomorphic, $\delbar f = 0$, and
+Since $f$ is holomorphic, $\delbar f = 0$.
 \[
 d f = (\del + \delbar )f = \dd{f}{z} + \dd{f}{\bar z} = \dd{f}{z}
 .\]
-Write $g(z) = \bar{f{\bar z}} = \sigma \circ f \circ \sigma$ for $\sigma(z) \da \bar{z}$, then
+Write $g(z) = \bar{f{\bar z}} = \sigma \circ f \circ \sigma$ for $\sigma(z) \da \bar{z}$.
+Note that $\del \sigma = 0$ and $\delbar \sigma = 1$,
 \[
-d g = (\del + \delbar )g 
-= \dd{g}{z} + \dd{g}{\bar z}
+d g 
+&= (\del + \delbar )g 
+= \dd{g}{z} + \dd{g}{\bar z} \\
 \implies
-dg(z) = \dd{\sigma}{z}(f(\bar z)) \dd{f}{z}(\bar z)
+dg(z) 
+&= 
+\dd{\sigma}{z}(f(\sigma(z))) \dd{f}{z}(\sigma(g)) \dd{\sigma}{z}
++ \dd{\sigma}{\bar z}(f(\sigma(z))) \dd{f}{\bar z}(\sigma(g)) \dd{\sigma}{\bar z}\\
+&= ?
 .\]
 
 
