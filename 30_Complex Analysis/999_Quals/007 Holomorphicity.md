@@ -122,7 +122,7 @@ Prove that if $z\mapsto f(z)$ is analytic, then $z \mapsto \bar{f(\bar z)}$ is a
 :::
 
 
-:::{.solution}
+:::{.solution title="Cauchy-Riemann"}
 It suffices to show that $g(z) \da \bar{f(\bar z)}$ satisfies CR.
 Write $f=u+iv$, then
 \[
@@ -143,23 +143,20 @@ a_y &= -u_y = v_x = -b_x
 .\]
 
 
-Slick proof: use differential forms and the fact that $d = \del + \delbar$.
-Since $f$ is holomorphic, $\delbar f = 0$.
-\[
-d f = (\del + \delbar )f = \dd{f}{z} + \dd{f}{\bar z} = \dd{f}{z}
-.\]
-Write $g(z) = \bar{f{\bar z}} = \sigma \circ f \circ \sigma$ for $\sigma(z) \da \bar{z}$.
-We can compute some Wirtinger derivatives:
-\[
-d\sigma &= \del \sigma\dz + \delbar \sigma \dzbar = 0\dz + 1\dzbar = \dzbar \\
-df &= \del f\dz + \delbar f \dzbar = \del f \dz
-.\]
-Then the chain rule yields
-\[
-\delbar g(z) = \delbar \sigma(f(\bar z)) \cdot \delbar f(\bar z) \cdot \delbar \sigma(z) = 0
-,\]
-since for example $\delbar f \equiv 0$.
 
+
+
+:::
+
+
+:::{.solution title="Direct definition"}
+Set $g(z) \da (f(z^*))^* \da \bar{f(\bar z)}$, we can then show $g'$ exists:
+\[
+{g(z+h) - g(z) \over h} 
+&\da {f((z+h)^*)^* - f(z^*)^* \over h^{**}} \\
+&= {\qty{ f(z^* + h) - f(z^*) }^* \over h^{**}}
+&= \qty{ f(z^* + h ) - f(z^*) \over h^* }^*
+.\]
 
 
 :::
