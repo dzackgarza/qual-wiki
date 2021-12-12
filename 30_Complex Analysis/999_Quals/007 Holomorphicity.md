@@ -152,10 +152,11 @@ a_y &= -u_y = v_x = -b_x
 :::{.solution title="Direct definition"}
 Set $g(z) \da (f(z^*))^* \da \bar{f(\bar z)}$, we can then show $g'$ exists:
 \[
-{g(z+h) - g(z) \over h} 
-&\da {f((z+h)^*)^* - f(z^*)^* \over h^{**}} \\
-&= {\qty{ f(z^* + h) - f(z^*) }^* \over h^{**}}
-&= \qty{ f(z^* + h ) - f(z^*) \over h^* }^*
+\lim_{h\to 0} {g(z+h) - g(z) \over h} 
+&\da \lim_{h\to 0} {f((z+h)^*)^* - f(z^*)^* \over h^{**}} \\
+&= \lim_{h\to 0} {\qty{ f(z^* + h^*) - f(z^*) }^* \over h^{**}} \\
+&= \lim_{h\to 0} \qty{ f(z^* + h^* ) - f(z^*) \over h^* }^* \\
+&\da \qty{f'(z^*)}^*
 .\]
 
 
