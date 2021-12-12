@@ -173,7 +173,7 @@ g(z) \da (f(z^*))^*
 making $g$ analytic.
 :::
 
-## Spring 2020 HW 1.10 #work
+## Spring 2020 HW 1.10 #completed
 
 :::{.problem title="?"}
 \envlist
@@ -192,7 +192,6 @@ is holomorphic on the region $r> 0, -\pi < \theta < \pi$.
 Also show that this function is not continuous in $r>0$.
 
 :::
-
 
 :::{.solution}
 **Part 1:**
@@ -250,28 +249,7 @@ However,
 \log(w_k) = \log(1) + i(2\pi - 1/k) = i(2\pi - 1/k) = 2\pi i - {1\over k} > \eps
 ,\]
 for arbitrarily large $k$, provided we choose $\eps$ small.
-
-
-
-
-
-
 :::
-
-
-### Tie's Extra Questions: Fall 2011 #work
-
-(1) 
-Show that the function $u=u(x,y)$ given by
-$$u(x,y)=\frac{e^{ny}-e^{-ny}}{2n^2}\sin nx\quad \text{for}\ n\in {\mathbf N}$$
-is the solution on $D=\{(x,y)\ | x^2+y^2<1\}$ of the Cauchy problem for the Laplace equation
-$$\frac{\partial ^2u}{\partial x^2}+\frac{\partial ^2u}{\partial y^2}=0,\quad
-u(x,0)=0,\quad \frac{\partial u}{\partial y}(x,0)=\frac{\sin nx}{n}.$$
-
-(2) 
-Show that there exist points $(x,y)\in D$ such that
-$\displaystyle{\limsup_{n\to\infty} |u(x,y)|=\infty}$.
-
 
 ## Fall 2021.1 #completed
 

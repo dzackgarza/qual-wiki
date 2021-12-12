@@ -79,14 +79,6 @@ We can now apply the $M\dash$test:
 :::
 
 
-## Tie's Extra Questions: Spring 2015 #work
-
-:::{.problem title="?"}
-Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region $\Omega$ that are uniformly bounded on compact subsets and $f \in H(\Omega)$ is such that the set
-$\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
-has a limit point in $\Omega$. Show that $f_n$ converges to $f$ uniformly on compact subsets of $\Omega$.
-
-:::
 
 ## Spring 2021.6, Spring 2015, Extras #completed
 
@@ -136,7 +128,7 @@ So given $\eps$, choose $n$ large enough to bound the integral as above.
 Then $\norm{f_n - f}_{\infty, K} \leq {\eps\over 2\pi M}$, so $f_n\to f$ uniformly on $K$.
 :::
 
-## Spring 2020 HW 2, Stein 2.6.10 #completed
+## Spring 2020 HW 2, SS 2.6.10 #completed
 
 :::{.problem title="?"}
 Can every continuous function on $\bar \DD$ be uniformly approximated by polynomials in the variable $z$?
@@ -233,5 +225,13 @@ Now estimate the difference:
 
 
 
+:::
+
+## Tie's Extra Questions: Spring 2015 #work
+
+:::{.problem title="?"}
+Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region $\Omega$ that are uniformly bounded on compact subsets and $f \in H(\Omega)$ is such that the set
+$\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
+has a limit point in $\Omega$. Show that $f_n$ converges to $f$ uniformly on compact subsets of $\Omega$.
 :::
 
