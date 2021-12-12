@@ -148,7 +148,6 @@ a_y &= -u_y = v_x = -b_x
 
 :::
 
-
 :::{.solution title="Direct definition"}
 Set $g(z) \da (f(z^*))^* \da \bar{f(\bar z)}$, we can then show $g'$ exists:
 \[
@@ -157,8 +156,21 @@ Set $g(z) \da (f(z^*))^* \da \bar{f(\bar z)}$, we can then show $g'$ exists:
 &= \lim_{h\to 0} {\qty{ f(z^* + h^*) - f(z^*) }^* \over h^{**}} \\
 &= \lim_{h\to 0} \qty{ f(z^* + h^* ) - f(z^*) \over h^* }^* \\
 &\da \qty{f'(z^*)}^*
-.\]
+,\]
+where we've used that $w\mapsto w^*$ is continuous to commute a limit.
+So this limit exists, $g$ is differentiable with $g'(z) \da \bar{f'(\bar z)}$.
 
+
+:::
+
+
+:::{.solution title="Power series"}
+Since $f$ is analytic, take a Laurent expansion $f(z) = \sum_{k\geq 0} c_k z^k$.
+Set 
+\[
+g(z) \da (f(z^*))^*
+= \qty{\sum_{k\geq 0} c_k \bar{z^k} }
+.\] 
 
 :::
 
