@@ -149,15 +149,17 @@ Since $f$ is holomorphic, $\delbar f = 0$.
 d f = (\del + \delbar )f = \dd{f}{z} + \dd{f}{\bar z} = \dd{f}{z}
 .\]
 Write $g(z) = \bar{f{\bar z}} = \sigma \circ f \circ \sigma$ for $\sigma(z) \da \bar{z}$.
-Note that $\del \sigma = 0$ and $\delbar \sigma = 1$,
-\[
-\delbar g(z) = \delbar \sigma(f(\bar z)) \cdot \delbar f(\bar z) \cdot \delbar \sigma(z)
-.\]
-
+We can compute some Wirtinger derivatives:
 \[
 d\sigma &= \del \sigma\dz + \delbar \sigma \dzbar = 0\dz + 1\dzbar = \dzbar \\
 df &= \del f\dz + \delbar f \dzbar = \del f \dz
 .\]
+Then the chain rule yields
+\[
+\delbar g(z) = \delbar \sigma(f(\bar z)) \cdot \delbar f(\bar z) \cdot \delbar \sigma(z) = 0
+,\]
+since for example $\delbar f \equiv 0$.
+
 
 
 :::

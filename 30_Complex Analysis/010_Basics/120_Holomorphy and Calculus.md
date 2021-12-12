@@ -130,6 +130,18 @@ In this case, $a = f'(z_0)$.
 
 #todo proof
 
+# Wirtinger Calculus
+
+
+:::{.remark}
+Some properties:
+
+- $\bar{\delbar f(z)} = \del \bar{f}(z)$, or $\del f^*(z) = (\delbar f(z))^*$
+  - E.g. $\del \abs{z}^2 = \del z\bar z = \bar{z}$
+  - E.g. $\del \exp\qty{ - \abs{z}^2 } = \del \exp\qty{-z\bar z} = e^{-\abs{z}^2}\cdot \del(z\bar z) = \bar z e^{-\abs{z}^2}$.
+:::
+
+
 # Exercises
 
 :::{.exercise title="?"}
