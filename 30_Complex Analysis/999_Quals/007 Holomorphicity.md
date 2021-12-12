@@ -151,14 +151,12 @@ d f = (\del + \delbar )f = \dd{f}{z} + \dd{f}{\bar z} = \dd{f}{z}
 Write $g(z) = \bar{f{\bar z}} = \sigma \circ f \circ \sigma$ for $\sigma(z) \da \bar{z}$.
 Note that $\del \sigma = 0$ and $\delbar \sigma = 1$,
 \[
-d g 
-&= (\del + \delbar )g 
-= \dd{g}{z} + \dd{g}{\bar z} \\
-\implies
-dg(z) 
-&= 
-\del\sigma(f(\bar z)) \cdot \del f(\bar z)\cdot \del\sigma(z)\dz
-+ \delbar \sigma(f(\bar z)) \cdot \delbar f(\bar z)\cdot \delbar\sigma(z) \dzbar
+\delbar g(z) = \delbar \sigma(f(\bar z)) \cdot \delbar f(\bar z) \cdot \delbar \sigma(z)
+.\]
+
+\[
+d\sigma &= \del \sigma\dz + \delbar \sigma \dzbar = 0\dz + 1\dzbar = \dzbar \\
+df &= \del f\dz + \delbar f \dzbar = \del f \dz
 .\]
 
 
