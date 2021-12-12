@@ -157,9 +157,8 @@ d g
 \implies
 dg(z) 
 &= 
-\dd{\sigma}{z}(f(\sigma(z))) \dd{f}{z}(\sigma(g)) \dd{\sigma}{z}
-+ \dd{\sigma}{\bar z}(f(\sigma(z))) \dd{f}{\bar z}(\sigma(g)) \dd{\sigma}{\bar z}\\
-&= ?
+\del\sigma(f(\bar z)) \cdot \del f(\bar z)\cdot \del\sigma(z)
++ \delbar \sigma(f(\bar z)) \cdot \delbar f(\bar z)\cdot \delbar\sigma(z)
 .\]
 
 
