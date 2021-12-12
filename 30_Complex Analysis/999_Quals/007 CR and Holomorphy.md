@@ -185,7 +185,7 @@ a. Show that in polar coordinates, the Cauchy-Riemann equations take the form
 
 b. Use (a) to show that the logarithm function, defined as 
 \[
-\log z=\log r+i \theta \text { where } z=r e^{i \theta} \text { with }-\pi<\theta<\pi
+\Log z=\log r+i \theta \text { where } z=r e^{i \theta} \text { with }-\pi<\theta<\pi
 .\]
 is holomorphic on the region $r> 0, -\pi < \theta < \pi$.
 
@@ -225,7 +225,7 @@ v_r
 
 **Part 2:**
 
-Define $u(r, \theta) = \log(r)$ and $v(r, \theta) = \theta$ to write $\log(z) = u+iv$.
+Define $u(r, \theta) = \log(r)$ and $v(r, \theta) = \theta$ to write $\Log(z) = u+iv$.
 Then check
 \[
 u_r &= r\inv, \quad v_\theta = 1 \implies u_r = r\inv v_\theta \\
@@ -233,22 +233,23 @@ v_r &= 0, \quad u_\theta = 0 \implies v_r = -r\inv u_\theta
 ,\]
 provided $r>0$ so that $u_r$ is defined.
 
-That this function is not continuous: let $z_k = 1\cdot e^{i(0 + 1/k)}$ and $w_k = 1\cdot e^{i(2\pi - 1/k)}$, noting that these are two sequences converging to 1.
-If $\log(z)$ were continuous, we would have
+That this function is not continuous: let $w_k = 1\cdot e^{i(2\pi - 1/k)}$, noting that these are two sequences converging to 1.
+If $\Log(z)$ were continuous, we would have
 \[
-\lim_{k\to\infty} \log(z_k)
-= \lim_{k\to\infty} \log(w_k)
-= \log(1) = 0
+\lim_{k\to\infty} \Log(w_k)
+= \Log(1) 
+\da \log(1) + i\cdot 0
+= 0
 ,\]
-i.e. for any $\eps$ we can choose $k\gg 1$ so that 
+Thus for any $\eps$ we could choose $k\gg 1$ so that 
 \[
 \abs{\log(z_k) - 0}, \abs{\log(w_k) - 0 } < \eps
 .\]
 However,
 \[
-\log(w_k) = \log(1) + i(2\pi - 1/k) = i(2\pi - 1/k) = 2\pi i 1-/k > \eps
+\log(w_k) = \log(1) + i(2\pi - 1/k) = i(2\pi - 1/k) = 2\pi i - {1\over k} > \eps
 ,\]
-provided we choose $\eps$ small and $k$ large.
+for arbitrarily large $k$, provided we choose $\eps$ small.
 
 
 
