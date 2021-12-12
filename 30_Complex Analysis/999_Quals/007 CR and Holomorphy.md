@@ -115,12 +115,11 @@ Then $u, \tilde v$ are constant, so in particular $\Re(f)$ is constant and by 2 
 
 
 
-## Spring 2020 HW 1.9 #work
+## Spring 2020 HW 1.9 #completed
 
 :::{.problem title="?"}
 Prove that if $z\mapsto f(z)$ is analytic, then $z \mapsto \bar{f(\bar z)}$ is analytic.
 :::
-
 
 :::{.solution title="Cauchy-Riemann"}
 It suffices to show that $g(z) \da \bar{f(\bar z)}$ satisfies CR.
@@ -163,15 +162,15 @@ So this limit exists, $g$ is differentiable with $g'(z) \da \bar{f'(\bar z)}$.
 
 :::
 
-
 :::{.solution title="Power series"}
 Since $f$ is analytic, take a Laurent expansion $f(z) = \sum_{k\geq 0} c_k z^k$.
-Set 
+Then
 \[
 g(z) \da (f(z^*))^*
-= \qty{\sum_{k\geq 0} c_k \bar{z^k} }
-.\] 
-
+= \qty{\sum_{k\geq 0} c_k \bar{z^k} }^* 
+= \sum_{k\geq 0} \bar{c_k} z^k
+,\] 
+making $g$ analytic.
 :::
 
 
