@@ -148,6 +148,11 @@ assuming $m>n$, but then taking $z\to z_0 =0$ on the RHS yields $g(z) = 0$, a co
 :::
 
 
+:::{.proposition title="Zeros of holomorphic functions are isolated"}
+
+![](figures/2021-12-15_02-12-08.png)
+
+:::
 
 ## Poles
 

@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "015_Singularities",
-      "path": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md"
+      "basename": "030 Identity Principle",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
     },
     {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
+      "basename": "015_Singularities",
+      "path": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md"
     },
     {
       "basename": "120_Holomorphy and Calculus",
@@ -195,10 +199,6 @@
     {
       "basename": "000 Automorphisms of the disc and plane",
       "path": "30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane.md"
-    },
-    {
-      "basename": "00_References",
-      "path": "10_Algebra/020_Groups/00_References.md"
     }
   ],
   "omittedPaths": [],

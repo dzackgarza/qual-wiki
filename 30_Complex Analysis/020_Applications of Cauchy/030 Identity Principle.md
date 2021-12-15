@@ -11,8 +11,7 @@ Two functions agreeing on a set with a limit point are equal on a domain.
 :::
 
 :::{.proof title="?"}
-Apply Improved Taylor Theorem?
-\todo[inline]{todo}    #todo
+![[attachments/Pasted image 20211215021255.png]]
 :::
 
 :::{.exercise title="?"}
