@@ -1,5 +1,7 @@
 # Rouché 
 
+Idea: use argument principle on $(f+g)/f$.
+
 :::{.theorem title="Rouché's Theorem" ref="Rouche"}
 If
 

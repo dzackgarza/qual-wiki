@@ -11,8 +11,8 @@ order: 0
 Things to know well:
 
 - Estimates for derivatives
-- [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|MVT]]
 - [[30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem|Cauchy's theorem]]
+- [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|MVT for harmonic/holomorphic functions]]
 - [[30_Complex Analysis/020_Applications of Cauchy/012 Cauchy Integral Formula|Cauchy's integral formula]]
 - [[30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality|Cauch'y inequality]]
 - [[30_Complex Analysis/020_Applications of Cauchy/050_Morera_Theorem|Morera's theorem]]
@@ -27,6 +27,10 @@ Things to know well:
 	- [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati|Casorati-Weierstrass Qual questions]]
 - [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 - [[30_Complex Analysis/900 Unsorted/Maps of the disc|Automorphisms of the disc]]
+- The identity principle
+- Big Picard
+- [[Open mapp
+- 
 
 
 ## Common Tricks

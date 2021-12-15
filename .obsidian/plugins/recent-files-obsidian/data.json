@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
     {
+      "basename": "030_Rouche",
+      "path": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md"
+    },
+    {
       "basename": "010_Cauchy_Theorem",
       "path": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
     },
@@ -167,10 +171,6 @@
     {
       "basename": "040_MMP",
       "path": "30_Complex Analysis/040_Zeros_and_Poles/040_MMP.md"
-    },
-    {
-      "basename": "030_Rouche",
-      "path": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md"
     },
     {
       "basename": "000_Definitions",

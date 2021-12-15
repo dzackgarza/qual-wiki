@@ -270,6 +270,7 @@
   "active": "ffaeb9448df6db21",
   "lastOpenFiles": [
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+    "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md",
     "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md",
     "30_Complex Analysis/010_Basics/001_Precalc_Basics.md",
     "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
@@ -277,7 +278,6 @@
     "30_Complex Analysis/000_Resources/20_Solutions.md",
     "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md",
     "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md",
-    "attachments/Fall_2019_Assignment_Solutions.pdf"
+    "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
   ]
 }
