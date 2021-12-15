@@ -29,7 +29,6 @@ Computing the LHS:
 &= ?
 .\]
 
-
 :::
 
 
