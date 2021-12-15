@@ -81,6 +81,11 @@ Some silly arithmetic tricks:
 	- How to use: show $f-g$ has uncountably many zeros
 - Show that $f$ omits at least 2 values and apply little Picard.
 - Define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$ and if $g$ is constant then $f$ is constant.
+- Show any of the following are constant:
+	- $u = \Re(f)$
+	- $v = \Im(f)$
+	- $\abs{f}$
+	- $\Arg(f)$
 
 
 ## Singularities 
