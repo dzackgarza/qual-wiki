@@ -86,7 +86,17 @@ which does not converge.
 Not possible: note that $1/n$ has a limit point, so if $f(1/n)=0$ then $f\equiv 0$ on $\DD$ by the identity principle.
 In particular, we can not have $f(1/n) = e^{-n}>0$.
 
+Alternatively, note that a holomorphic $f$ must have isolated zeros, while $z_0=0$ is forced to be a zero of $f$ by continuity, which has infinitely many zeros of the form $1/n$ in any neighborhood.
+
 **Part c**:
+Not possible: suppose so, then by continuity, we have
+\[
+f(0) = f(\lim 1/n^2)= \lim f(1/n^2)=\lim 1/n = 0
+,\]
+so $z_0=0$ is a zero.
+Now defining $g(z) = z^{1\over 2} \da e^{1\over 2 \log(z)}$ on $U \da \CC\sm(-\infty, 0]$ extending this continuously to zero by $g(0)= 0$ yields $g(z) = f(z)$on $\ts{1/n^2 \st n>1}\union\ts{0}$, so $g(z) \equiv f(z)$ on $U$.
+But then $g\equiv f$ on $\DD$, and $g$ is not holomorphic on all of $\D$, contradicting that $f$ was holomorphic on $\DD$.
+
 
 :::
 
