@@ -23,6 +23,12 @@ $$
 
 
 :::{.solution}
+Computing the LHS:
+\[
+\int_{[0, 2\pi]} \abs{f(re^{i\theta})}\dtheta
+&= ?
+.\]
+
 
 :::
 

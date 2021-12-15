@@ -67,6 +67,7 @@ Some silly arithmetic tricks:
 - $z\in \RR \iff \bar z = z$.
 - $\log\qty{\abs{z}} = {1\over 2}\log\qty{\abs{z}^2} = {1\over 2}\log\qty{x^2 + y^2}$, which is easier to differentiate.
 - To prove $a=b$, try $a/b = 1$ or $a-b=0$.
+- $\int_0^{2\pi} e^{i(m-n)\theta}\dtheta = \chi_{m=n}\cdot 2\pi$.
 
 ## Showing a function is constant (or zero)
 
