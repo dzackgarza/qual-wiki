@@ -12,22 +12,21 @@ Things to know well:
 
 - Estimates for derivatives
 - [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|MVT]]
-- [[30_Complex Analysis/999_Quals/035_Cauchy Theorem|Cauchy's theorem]]
+- [[30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem|Cauchy's theorem]]
 - [[30_Complex Analysis/020_Applications of Cauchy/012 Cauchy Integral Formula|Cauchy's integral formula]]
 - [[30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality|Cauch'y inequality]]
 - [[30_Complex Analysis/020_Applications of Cauchy/050_Morera_Theorem|Morera's theorem]]
 	- [[30_Complex Analysis/999_Quals/070_Morera|Morera qual questions]]
-- [[30_Complex Analysis/020_Applications of Cauchy/020 Liouville]]
+- [[30_Complex Analysis/020_Applications of Cauchy/020 Liouville|Liouville's theorem]]
 	- [[30_Complex Analysis/999_Quals/050 Liouville|Liouville qual questions]]
-- [[30_Complex Analysis/999_Quals/040_Maximum_Modulus]]
-- [[30_Complex Analysis/040_Zeros_and_Poles/030_Rouche]]
-- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle]]
-- [[30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma]]
-- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass]]
-	- [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati|Qual questions]]
-- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass]]
+- [[30_Complex Analysis/999_Quals/040_Maximum_Modulus|The Maximum Modulus principle]]
+- [[30_Complex Analysis/040_Zeros_and_Poles/030_Rouche|Rouche's theorem]]
+- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|The Schwarz reflection principle]]
+- [[30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma|The Schwarz lemma]]
+- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass|Casorati-Weierstrass]]
+	- [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati|Casorati-Weierstrass Qual questions]]
 - [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
-- [[30_Complex Analysis/900 Unsorted/Maps of the disc]]
+- [[30_Complex Analysis/900 Unsorted/Maps of the disc|Automorphisms of the disc]]
 
 
 ## Common Tricks

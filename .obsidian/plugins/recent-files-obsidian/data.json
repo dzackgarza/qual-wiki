@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "001_Precalc_Basics",
-      "path": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md"
-    },
-    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
+      "basename": "010_Cauchy_Theorem",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
+    },
+    {
+      "basename": "001_Precalc_Basics",
+      "path": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md"
     },
     {
       "basename": "05_Advice and Essentials",
@@ -195,10 +199,6 @@
     {
       "basename": "030_Schwarz reflection principle",
       "path": "30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle.md"
-    },
-    {
-      "basename": "unresolved links output",
-      "path": "unresolved links output.md"
     }
   ],
   "omittedPaths": [],
