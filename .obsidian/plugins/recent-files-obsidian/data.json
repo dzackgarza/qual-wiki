@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "040_Open Mapping",
+      "path": "30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping.md"
+    },
+    {
       "basename": "Jordan's Lemma",
       "path": "30_Complex Analysis/030_Residues/Jordan's Lemma.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "001_Precalc_Basics",
       "path": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md"
-    },
-    {
-      "basename": "040_Open Mapping",
-      "path": "30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping.md"
     },
     {
       "basename": "030_Rouche",

@@ -21,5 +21,7 @@ Any holomorphic non-constant map is an open map.
 
 ![](figures/2021-12-14_17-24-45.png)
 
+![[attachments/Pasted image 20211215022640.png]]
+
 :::
 
