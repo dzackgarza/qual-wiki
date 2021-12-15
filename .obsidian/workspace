@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md",
+            "file": "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md",
+            "file": "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md",
             "mode": "preview"
           }
         },
@@ -92,7 +92,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md",
+                "file": "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md"
+                "file": "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md",
+                "file": "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md",
+                "file": "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -270,6 +270,7 @@
   },
   "active": "ffaeb9448df6db21",
   "lastOpenFiles": [
+    "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md",
     "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md",
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
@@ -278,7 +279,6 @@
     "30_Complex Analysis/010_Basics/050 Laurent and Power Series.md",
     "30_Complex Analysis/010_Basics/001_Precalc_Basics.md",
     "30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping.md",
-    "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md",
-    "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
+    "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md"
   ]
 }

@@ -88,7 +88,9 @@ This is valid for $z\neq z_0$, but the right-hand side is analytic. (?)
 
 ![](figures/2021-10-29_01-30-50.png)
 
-![](figures/2021-10-29_01-31-06.png)
+![[attachments/Pasted image 20211215021531.png]]
+![[attachments/Pasted image 20211215021546.png]]
+
 
 :::{.theorem title="Riemann Extension Theorem"}
 A singularity of a holomorphic function is removable if and only if the function is bounded in some punctured neighborhood of the singular point.

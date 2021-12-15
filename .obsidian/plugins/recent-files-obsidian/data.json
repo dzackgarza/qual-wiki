@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "020_Casorati-Weierstrass",
+      "path": "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md"
+    },
+    {
       "basename": "015_Singularities",
       "path": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "040_MMP",
       "path": "30_Complex Analysis/040_Zeros_and_Poles/040_MMP.md"
-    },
-    {
-      "basename": "000_Definitions",
-      "path": "10_Algebra/100_Linear_Algebra/000_Definitions.md"
     }
   ],
   "omittedPaths": [],

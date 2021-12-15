@@ -1,3 +1,4 @@
+
 # Casorati-Weierstrass
 
 :::{.theorem title="Casorati-Weierstrass" ref="Casorati"}
@@ -23,3 +24,5 @@ In detail, from Gamelin:
 ![](figures/2021-12-10_18-47-34.png)
 
 :::
+
+![](figures/2021-10-29_01-31-06.png)
