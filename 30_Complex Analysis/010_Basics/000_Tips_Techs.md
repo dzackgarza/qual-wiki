@@ -99,6 +99,7 @@ Some silly arithmetic tricks:
 - To count zeros:
 	- Rouche's theorem
 	- The argument principle
+- If $f(z_0)\neq 0$, by continuity there is some neighborhood where $f$ is nonzero.
 
 ## Estimating
 - To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.
