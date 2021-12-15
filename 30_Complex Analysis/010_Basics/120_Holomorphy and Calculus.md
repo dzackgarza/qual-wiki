@@ -181,5 +181,9 @@ Some properties:
 
 :::{.exercise title="?"}
 Show that a real-valued holomorphic function is constant.
+
+#completed
+
 :::
+
 
