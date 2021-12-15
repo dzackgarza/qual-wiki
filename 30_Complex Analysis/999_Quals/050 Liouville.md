@@ -91,6 +91,14 @@ Prove this list is complete.
 
 :::
 
+
+:::{.concept}
+\envlist
+- If $f$ is bounded in a neighborhood of a singularity $z_0$, then $z_0$ is removable.
+
+:::
+
+
 :::{.solution}
 \envlist
 
