@@ -7,9 +7,9 @@ title: Abcde
 Some inline math $y=mx+b$.
 
 Some displaymath
-\[
+\\[
 f = \int_\RR e^t\dt
-\]
+\\]
 
 And more
 $$
