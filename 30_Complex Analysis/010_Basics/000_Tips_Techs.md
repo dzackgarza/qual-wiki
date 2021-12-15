@@ -77,10 +77,7 @@ To show a function is holomorphic,
 :::
 
 :::{.remark title="Counting zeros"}
-To count zeros:
 
-- Rouche's theorem
-- The argument principle
 
 :::
 
@@ -92,7 +89,6 @@ Some silly arithmetic tricks:
 - $z\in \RR \iff \bar z = z$.
 - $\log\qty{\abs{z}} = {1\over 2}\log\qty{\abs{z}^2} = {1\over 2}\log\qty{x^2 + y^2}$, which is easier to differentiate.
 - To prove $a=b$, try $a/b = 1$ or $a-b=0$.
-:::
 
 ## Constant or Zero
 
@@ -115,7 +111,9 @@ Some silly arithmetic tricks:
 
 - To show that a zero $z_0$ is order $n$, show that $f^{(<n)}(z_0) = 0$ but $f^{(n)}(z_0) \neq 0$.
 - Getting rid of zeros: divide by a Blaschke product.
-
+- To count zeros:
+	- Rouche's theorem
+	- The argument principle
 
 ## Estimating
 - To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.
