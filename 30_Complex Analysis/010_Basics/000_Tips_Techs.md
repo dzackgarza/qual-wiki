@@ -29,8 +29,8 @@ Things to know well:
 - [[30_Complex Analysis/900 Unsorted/Maps of the disc|Automorphisms of the disc]]
 	- The Cayley transformation
 	- Other Mobius transformations
-- [[Identi
-- Big Picard
+- [[30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle|The identity principle]]
+- [[30_Complex Analysis/070_Omitted Values/070_Picard|Picard theorems]]
 - [[30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping|The open mapping theorem]]
 - [[30_Complex Analysis/030_Residues/020_Residues|Computing residues]]
 - Jordan's lemma
