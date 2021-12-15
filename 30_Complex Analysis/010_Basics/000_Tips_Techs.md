@@ -76,7 +76,8 @@ Some silly arithmetic tricks:
 - Write $f = u + iv$ and use Cauchy-Riemann to show $u_x, u_y = 0$, etc.
 - Show that $f$ is entire and bounded.
   - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
-- By the open mapping theorem, if $f \in \Hol( \Omega)$ then $\dim_\RR f(\Omega) \in {0, 2}$ but can never have dimension 1. So non-constant $f$ can not map open regions onto subsets of a curve, e.g. $I \subseteq \RR$, and if the image of $f$ is a curve or totally real, then $f$ is constant.
+- Show that $f(\CC)$ is not an open set (e.g. $\RR$ or $\bd \DD_r(0)$, and apply the open mapping theorem.
+	- More generally, the image can be dimension 0 or 2, but never 1. 
 
 - Showing something is constant or zero on a region: show it's zero on the boundary and apply the MMP.
 - Show that $f$ omits at least 2 values and apply little Picard.
