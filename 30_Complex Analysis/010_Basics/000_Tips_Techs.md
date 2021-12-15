@@ -107,6 +107,7 @@ Some silly arithmetic tricks:
 	- Rouche's theorem
 	- The argument principle
 - If $f(z_0)\neq 0$, by continuity there is some neighborhood where $f$ is nonzero.
+	- Conversely, zeros 
 
 ## Estimating
 - To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.
@@ -131,3 +132,9 @@ Some silly arithmetic tricks:
 	- $f$ is entire and only has poles at $\infty$.
 
 
+## Series
+
+- A common trick:
+$$
+\frac{1}{z-w}=\frac{1}{(z-a)\left(1-\frac{w-a}{z-a}\right)}=\sum_{n=0}^{n} \frac{(w-a)^{n}}{(z-a)^{n+1}} .
+$$
