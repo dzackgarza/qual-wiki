@@ -190,3 +190,16 @@ Show that a real-valued holomorphic function is constant.
 Use that $\RR$ is not open in $\CC$ and apply the open mapping theorem to conclude: $f(\CC)$ must be open in $\CC$ if $f$ is holomorphic and nonconstant.
 :::
 
+:::{.exercise title="?"}
+Show that if $fg \equiv 0$ on a domain $\Omega$ then either $f\equiv 0$ or $g\equiv 0$.
+
+#completed
+
+:::
+
+:::{.solution}
+If $f\not\equiv 0$, there is a point $z_0$ where $f(z_0)\neq 0$, and thus a neighborhood $U\ni z_0$ where $f$ is nonvanishing.
+This forces $g\equiv 0$ on $U$, however $U$ is a set with a limit point, so $g\equiv 0$ on $\Omega$ by the identity principle.
+:::
+
+
