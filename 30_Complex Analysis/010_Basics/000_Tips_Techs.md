@@ -69,17 +69,9 @@ If you want to show that a function $f$ is constant, try one of the following:
 :::
 
 :::{.remark title="Showing a function is holomorphic"}
-To show a function is holomorphic,
-
-- Use Morera's theorem
-- Find a primitive (sufficient but not necessary)
 
 :::
 
-:::{.remark title="Counting zeros"}
-
-
-:::
 
 ## Arithmetic
 
