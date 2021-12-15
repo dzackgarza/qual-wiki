@@ -27,13 +27,18 @@ Things to know well:
 	- [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati|Casorati-Weierstrass Qual questions]]
 - [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 - [[30_Complex Analysis/900 Unsorted/Maps of the disc|Automorphisms of the disc]]
-- The identity principle
+	- The Cayley transformation
+	- Other Mobius transformations
+- [[Identi
 - Big Picard
 - [[30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping|The open mapping theorem]]
 - [[30_Complex Analysis/030_Residues/020_Residues|Computing residues]]
 - Jordan's lemma
-- The Cauchy-Riemann equations
-- The argument principle
+- [[30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations|The Cauchy-Riemann equations]]
+- [[30_Complex Analysis/040_Zeros_and_Poles/020_Argument Principle|The argument principle]]
+- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|The Riemann mapping theorem]]
+
+For just the statements of most of these theorems: [[attachments/ComplexAnalysisNotes.pdf|see this doc]].
 
 
 ## Common Tricks
