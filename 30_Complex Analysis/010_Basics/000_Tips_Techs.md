@@ -99,14 +99,13 @@ Some silly arithmetic tricks:
 
 - $\abs{f}$ constant implies $f$ constant by the open mapping theorem.
 
-## Singularities
+## Singularities and zeross
 
 - Let $z_0$ be a singularity of $f$. To show $z_0$ is...
 	- **Removable**: show that $\lim_{z\to z_0} f(z)$ is bounded.
-	- **A pole of order $m$**:
-- To prove that a singularity $z_0$ is a pole of $f$ of order $m$, write $f(z) = (z-z_0)^mg(z)$ where $g(z_0)\neq 0$ (or check the Laurent expansion directly).
-  - To just show it is a pole, show $\lim_{z\to z_o}f(z) = \infty$.
-- To show that a singularity is essential, show that $\lim_{z\to z_0} f(z)$ doesn't exist (e.g. if it's oscillatory).
+	- **A pole of some order:** show $\lim_{z\to z_o}f(z) = \infty$.
+	- **A pole of order $m$**: write $f(z) = (z-z_0)^mg(z)$ where $g(z_0)\neq 0$ (or check the Laurent expansion directly).
+	- **Essential**: show that $\lim_{z\to z_0} f(z)$ doesn't exist (e.g. if it's oscillatory).
   - It can be useful to take a specific sequence $\ts{z_k}\to z_0$.
 - To show that a zero $z_0$ is order $n$, show that $f^{(<n)}(z_0) = 0$ but $f^{(n)}(z_0) \neq 0$.
 
@@ -120,15 +119,21 @@ Some silly arithmetic tricks:
 .\]
 
 - To show $a\leq b$, try ${a\over b}\leq 1$ instead and reason about $\DD$.
-  Alternatively, try $b-a\geq 0$ (obvious, but useful!)
+  - Alternatively, try $b-a\geq 0$ (obvious, but useful!)
+	- If $\abs{f} = M$ on $\bd \Omega$, then if (importantly) $f\neq 0$ in $\Omega$ then $\abs{f} = M$ on all of $\bar \Omega$ by apply the MMP to $f$ and $1/f$.
+  - Why $f\neq 0$ is necessary: take $f(z) = z$.
+	
+## Polynomials
 
-## Guidelines
+- $f$ is polynomial when:
+	- $f^{(n)} =0$ for every $n$ large enough.
+	- $f$ is entire and only has poles at $\infty$.
 
-- Entire functions with only poles at $\infty$ must be polynomial.
+## General advice
+
 - Given $f$, define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$.
 - If $f$ is holomorphic in a neighborhood of $\DD$ and $\abs{f} = 1$ on $\bd \DD$, then $f$ is a finite Blaschke product.
-- If $\abs{f} = M$ on $\bd \Omega$, then if (importantly) $f\neq 0$ in $\Omega$ then $\abs{f} = M$ on all of $\bar \Omega$ by apply the MMP to $f$ and $1/f$.
-  - Why $f\neq 0$ is necessary: take $f(z) = z$.
+
 - A holomorphic function with a non-isolated zero is identically zero.
 - If $f$ has no zeros, put it in the denominator! No one can stop you!
   - Getting rid of zeros: divide by a Blaschke product.
