@@ -23,4 +23,14 @@ If $f$ is entire and bounded, $f$ is constant.
 
 :::{.exercise title="?"}
 ![figures/image_2021-05-17-11-54-14.png](figures/image_2021-05-17-11-54-14.png)
+
+#work 
+
+:::
+
+:::{.exercise title="?"}
+Show that an entire doubly periodic function is constant.
+
+#work 
+
 :::

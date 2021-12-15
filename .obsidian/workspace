@@ -271,6 +271,7 @@
   "active": "28229406020e1781",
   "lastOpenFiles": [
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+    "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md",
     "MDTest.md",
     "30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma.md",
     "30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping.md",
@@ -278,7 +279,6 @@
     "30_Complex Analysis/030_Residues/020_Residues.md",
     "30_Complex Analysis/030_Residues/021_Integrals.md",
     "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md",
-    "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md",
-    "30_Complex Analysis/000_Resources/00_Topics.md"
+    "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md"
   ]
 }
