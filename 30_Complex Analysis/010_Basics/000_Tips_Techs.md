@@ -75,7 +75,7 @@ Some silly arithmetic tricks:
   - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
 - Show that $f(\CC)$ is not an open set (e.g. $\RR$ or $\bd \DD_r(0)$, and apply the open mapping theorem.
 	- More generally, the image can be dimension 0 or 2, but never 1. 
-	- E.g. if $\im(f) 
+	- E.g. if $\im(f) \subseteq \RR$ or $\abs{f} = R$ is constant.
 - A holomorphic function with a non-isolated zero is identically zero.
 	- How to use: show $f-g$ has uncountably many zeros
 - $\abs{f}$ constant implies $f$ constant by the open mapping theorem.
