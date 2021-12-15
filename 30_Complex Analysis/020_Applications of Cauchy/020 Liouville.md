@@ -63,9 +63,12 @@ Show that if $\abs{f(z)/z^n}$ is bounded for $\abs{z}\geq R$, then $f$ is a poly
 Use that $f$ is entire to Laurent expand at $z=0$ to get $f(z) = \sum_{k\geq 0}c_k z^k$ everywhere.
 Claim: $c_{n+k} = 0$ for all $k\geq n+1$
 By the formula for Taylor coefficients, it suffices to show $f^{(n+k)}(0) = 0$ for all $k\geq n+1$.
-Apply the Cauchy estimate on a curve of radius $R' \geq R$:
+Apply the Cauchy estimate on a curve of radius $R\gg 1$:
 \[
-\abs{ f^{n+k} f(0)} \leq {(n+k)! \over 2\pi} \int_{\abs{z} = R'} \abs{f(\xi) \over \xi^{n+k+1}}\dxi
+\abs{ f^{n+k} (0)} 
+&\leq {(n+k)! \over 2\pi} \int_{\abs{z} = R} \abs{f(\xi) \over \xi^{n+k+1}}\dxi\\
+&\leq {(n+k)! \over 2\pi} \int_{\abs{z} = R} \abs{M \over \xi^{n+k+1}}\dxi\\
+&= {(n+k)! \over 2\pi} \int_{\abs{z} = R} \abs{M \over R ^{n+k+1}}\dxi
 .\]
 
 
