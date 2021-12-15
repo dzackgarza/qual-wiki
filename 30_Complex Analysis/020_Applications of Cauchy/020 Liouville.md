@@ -50,3 +50,26 @@ Now $h$ is bounded and entire, thus constant, so $c = h = f/g \implies f=cg$.
 :::
 
 
+
+:::{.exercise title="?"}
+Show that if $\abs{f(z)/z^n}$ is bounded for $\abs{z}\geq R$, then $f$ is a polynomial of degree at most $n$.
+
+#completed
+
+:::
+
+
+:::{.solution}
+Use that $f$ is entire to Laurent expand at $z=0$ to get $f(z) = \sum_{k\geq 0}c_k z^k$ everywhere.
+Claim: $c_{n+k} = 0$ for all $k\geq n+1$
+By the formula for Taylor coefficients, it suffices to show $f^{(n+k)}(0) = 0$ for all $k\geq n+1$.
+Apply the Cauchy estimate on a curve of radius $R' \geq R$:
+\[
+\abs{ f^{n+k} f(0)} \leq {(n+k)! \over 2\pi} \int_{\abs{z} = R'} \abs{f(\xi) \over \xi^{n+k+1}}\dxi
+.\]
+
+
+:::
+
+
+
