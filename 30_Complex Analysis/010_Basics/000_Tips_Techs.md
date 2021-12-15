@@ -70,8 +70,8 @@ Some silly arithmetic tricks:
 
 ## Showing a function is constant (or zero)
 
-- $\abs{f}$ constant implies $f$ constant by the open mapping theorem.
 - A holomorphic function with a non-isolated zero is identically zero.
+- $\abs{f}$ constant implies $f$ constant by the open mapping theorem.
 - Write $f = u + iv$ and use Cauchy-Riemann to show $u_x, u_y = 0$, etc.
 - Show that $f$ is entire and bounded.
   - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
