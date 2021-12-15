@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "001_Precalc_Basics",
+      "path": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md"
+    },
+    {
+      "basename": "000_Tips_Techs",
+      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
       "basename": "05_Advice and Essentials",
       "path": "20_Real Analysis/005_Basics/05_Advice and Essentials.md"
     },
@@ -181,10 +189,6 @@
       "path": "index.md"
     },
     {
-      "basename": "000_Tips_Techs",
-      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
-    },
-    {
       "basename": "090_Riemann Mapping",
       "path": "30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "unresolved links output",
       "path": "unresolved links output.md"
-    },
-    {
-      "basename": "040_Topology",
-      "path": "040_Topology.md"
     }
   ],
   "omittedPaths": [],

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
+            "file": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
+            "file": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md",
             "mode": "preview"
           }
         },
@@ -91,7 +91,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
+                "file": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md"
+                "file": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md"
               }
             }
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
+                "file": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
+                "file": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -269,6 +269,8 @@
   },
   "active": "ffaeb9448df6db21",
   "lastOpenFiles": [
+    "30_Complex Analysis/010_Basics/001_Precalc_Basics.md",
+    "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
@@ -276,8 +278,6 @@
     "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md",
     "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md",
     "attachments/Fall_2019_Assignment_Solutions.pdf",
-    "attachments/Spring 2019 with Solutions.pdf",
-    "attachments/Neil_Spring_2019_Solutions.pdf",
-    "attachments/Neil_Fall_2019_Solutions.pdf"
+    "attachments/Spring 2019 with Solutions.pdf"
   ]
 }
