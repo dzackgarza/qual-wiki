@@ -65,6 +65,7 @@ If you want to show that a function $f$ is constant, try one of the following:
 - For real analysis: if $f' < M$, apply the mean value theorem to show $f$ is Lipschit: $\abs{f(x) - f(y)} = \abs{f'(\xi)} \abs{x-y} < M\abs{x-y}$.
 - Showing something is constant or zero on a region: show it's zero on the boundary and apply the MMP.
 - Show that $f$ omits at least 2 values and apply little Picard.
+
 :::
 
 :::{.remark title="Showing a function is holomorphic"}
@@ -83,6 +84,8 @@ To count zeros:
 
 :::
 
+## Arithmetic
+
 :::{.remark title="Arithmetic tricks"}
 Some silly arithmetic tricks:
 
@@ -90,14 +93,21 @@ Some silly arithmetic tricks:
 - $z\in \RR \iff \bar z = z$.
 - $\log\qty{\abs{z}} = {1\over 2}\log\qty{\abs{z}^2} = {1\over 2}\log\qty{x^2 + y^2}$, which is easier to differentiate.
 - To prove $a=b$, try $a/b = 1$ or $a-b=0$.
+:::
+
+## Singularities
+
 - To prove that a singularity $z_0$ of $f$ is removable, show that $\lim_{z\to z_0} f(z)$ is bounded.
 - To prove that a singularity $z_0$ is a pole of $f$ of order $m$, write $f(z) = (z-z_0)^mg(z)$ where $g(z_0)\neq 0$ (or check the Laurent expansion directly).
   - To just show it is a pole, show $\lim_{z\to z_o}f(z) = \infty$.
 - To show that a singularity is essential, show that $\lim_{z\to z_0} f(z)$ doesn't exist (e.g. if it's oscillatory).
   - It can be useful to take a specific sequence $\ts{z_k}\to z_0$.
 - To show that a zero $z_0$ is order $n$, show that $f^{(<n)}(z_0) = 0$ but $f^{(n)}(z_0) \neq 0$.
-- To prove $a\leq b$, try showing ${a\over b} \leq 1$.
+
+
+## Estimating
 - To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.
+- To prove $a\leq b$, try showing ${a\over b} \leq 1$.
 - To bound a rational function, use the reverse triangle inequality:
 \[
 \abs{a\pm b} \geq \abs{ \abs{a} - \abs{b}} \implies {1\over \abs{a\pm b}} \leq {1\over \abs{\abs{a} - \abs{b} } }
@@ -105,6 +115,9 @@ Some silly arithmetic tricks:
 
 - To show $a\leq b$, try ${a\over b}\leq 1$ instead and reason about $\DD$.
   Alternatively, try $b-a\geq 0$ (obvious, but useful!)
+
+## Guidelines
+
 - Entire functions with only poles at $\infty$ must be polynomial.
 - Given $f$, define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$.
 - If $f$ is holomorphic in a neighborhood of $\DD$ and $\abs{f} = 1$ on $\bd \DD$, then $f$ is a finite Blaschke product.
@@ -115,7 +128,3 @@ Some silly arithmetic tricks:
   - Getting rid of zeros: divide by a Blaschke product.
 
 - $f$ and $f'$ have the same poles.
-
-:::
-
-

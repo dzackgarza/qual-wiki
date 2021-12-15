@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
     {
+      "basename": "050 Laurent and Power Series",
+      "path": "30_Complex Analysis/010_Basics/050 Laurent and Power Series.md"
+    },
+    {
       "basename": "001_Precalc_Basics",
       "path": "30_Complex Analysis/010_Basics/001_Precalc_Basics.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "index",
       "path": "index.md"
-    },
-    {
-      "basename": "090_Riemann Mapping",
-      "path": "30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping.md"
     }
   ],
   "omittedPaths": [],
