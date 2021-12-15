@@ -117,7 +117,7 @@ Some silly arithmetic tricks:
 ## Polynomials
 
 - $f$ is polynomial when:
-	- $f^{(n)} =0$ for every $n$ large enough.
+	- $f^{(n)} =0$ for every $n$ large enough (e.g. using Cauchy's inequality)
 	- $f$ is entire and only has poles at $\infty$.
 
 
