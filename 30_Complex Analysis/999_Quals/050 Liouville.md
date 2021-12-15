@@ -81,6 +81,13 @@ Not possible: if $f$ is holomorphic then $f$ is in particular continuous, so
 f(0) = f(\lim 1/n) = \lim f(1/n) = \lim (-1)^n
 ,\]
 which does not converge.
+
+**Part b**:
+Not possible: note that $1/n$ has a limit point, so if $f(1/n)=0$ then $f\equiv 0$ on $\DD$ by the identity principle.
+In particular, we can not have $f(1/n) = e^{-n}>0$.
+
+**Part c**:
+
 :::
 
 
