@@ -37,6 +37,7 @@ Things to know well:
 - [[30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations|The Cauchy-Riemann equations]]
 - [[30_Complex Analysis/040_Zeros_and_Poles/020_Argument Principle|The argument principle]]
 - [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|The Riemann mapping theorem]]
+- Riemann's removable singularity theorem.
 
 For just the statements of most of these theorems: [[attachments/ComplexAnalysisNotes.pdf|see this doc]].
 
