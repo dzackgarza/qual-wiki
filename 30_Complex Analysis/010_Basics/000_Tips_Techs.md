@@ -71,6 +71,7 @@ Some silly arithmetic tricks:
 ## Showing a function is constant (or zero)
 
 - A holomorphic function with a non-isolated zero is identically zero.
+	- How to use: show $f-g$ has uncountably many zeros
 - $\abs{f}$ constant implies $f$ constant by the open mapping theorem.
 - Write $f = u + iv$ and use Cauchy-Riemann to show $u_x, u_y = 0$, etc.
 - Show that $f$ is entire and bounded.
