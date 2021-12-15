@@ -104,6 +104,7 @@ var JaxPlugin = /** @class */ (function (_super) {
                     if (MathJax.tex2chtml == undefined) {
                         MathJax.startup.ready = function () {
                             MathJax.startup.defaultReady();
+                            debugger;
                             MathJax.tex2chtml(c);
                         };
                     }
