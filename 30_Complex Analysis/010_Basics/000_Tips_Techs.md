@@ -69,15 +69,17 @@ Some silly arithmetic tricks:
 
 ## Showing a function is constant (or zero)
 
-- A holomorphic function with a non-isolated zero is identically zero.
-	- How to use: show $f-g$ has uncountably many zeros
-- $\abs{f}$ constant implies $f$ constant by the open mapping theorem.
-- Write $f = u + iv$ and use Cauchy-Riemann to show $u_x, u_y = 0$, etc.
+- Show $f' = 0$.
+- Show $\abs{f}=0$ on the boundary and apply the MMP.
 - Show that $f$ is entire and bounded.
   - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
 - Show that $f(\CC)$ is not an open set (e.g. $\RR$ or $\bd \DD_r(0)$, and apply the open mapping theorem.
 	- More generally, the image can be dimension 0 or 2, but never 1. 
-- Show $\abs{f}=0$ on the boundary and apply the MMP.
+	- E.g. if $\im(f) 
+- A holomorphic function with a non-isolated zero is identically zero.
+	- How to use: show $f-g$ has uncountably many zeros
+- $\abs{f}$ constant implies $f$ constant by the open mapping theorem.
+- Write $f = u + iv$ and use Cauchy-Riemann to show $u_x, u_y = 0$, etc.
 - Show that $f$ omits at least 2 values and apply little Picard.
 - Define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$ and if $g$ is constant then $f$ is constant.
 
