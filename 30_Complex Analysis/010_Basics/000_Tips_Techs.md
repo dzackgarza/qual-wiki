@@ -120,8 +120,8 @@ Some silly arithmetic tricks:
 
 - To show $a\leq b$, try ${a\over b}\leq 1$ instead and reason about $\DD$.
   - Alternatively, try $b-a\geq 0$ (obvious, but useful!)
-	- If $\abs{f} = M$ on $\bd \Omega$, then if (importantly) $f\neq 0$ in $\Omega$ then $\abs{f} = M$ on all of $\bar \Omega$ by apply the MMP to $f$ and $1/f$.
-  - Why $f\neq 0$ is necessary: take $f(z) = z$.
+- If $\abs{f} = M$ on $\bd \Omega$, then if (importantly) $f\neq 0$ in $\Omega$ then $\abs{f} = M$ on all of $\bar \Omega$ by apply the MMP to $f$ and $1/f$.
+	- Why $f\neq 0$ is necessary: take $f(z) = z$.
 	
 ## Polynomials
 
