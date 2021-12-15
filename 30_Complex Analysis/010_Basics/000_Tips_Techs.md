@@ -74,7 +74,9 @@ Some silly arithmetic tricks:
 - Show $\abs{f}=0$ on the boundary and apply the MMP.
 - Show that $f$ is entire and bounded.
   - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
-  - Useful trick: show that *either* $\abs{f} \geq M$ or $\abs{f} \leq M$, then by Liouville on $f$ or $1/f$ respectively, 
+  - Useful trick: show that *either* $\abs{f} \geq M$ or $\abs{f} \leq M$, then by Liouville on $f$ or $1/f$ respectively, $f$ must be constant.
+  - Similar trick: show either $e^f$ or $e^{-f}$ is bounded.
+  - If the function is periodic, just bound it on a fundamental domain.
 - Show that $f(\CC)$ is not an open set (e.g. $\RR$ or $\bd \DD_r(0)$, and apply the open mapping theorem.
 	- More generally, the image can be dimension 0 or 2, but never 1. 
 	- E.g. if $\im(f) \subseteq \RR$ or $\abs{f} = R$ is constant.

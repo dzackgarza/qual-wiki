@@ -8,6 +8,10 @@ order: 50
 
 ^c6e205
 
+
+:::{.problem title="?"}
+\envlist
+
 - Assume $f(z)=\sum_{n=0}^{\infty} c_{n} z^{n}$ converges in $|z|<R$. Show that for $r<R$,
 
 $$
@@ -15,6 +19,9 @@ $$
 $$
 
 - Deduce Liouville's theorem from (a).
+
+:::
+
 
 ## 3 #work
 
