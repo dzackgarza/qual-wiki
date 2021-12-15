@@ -97,7 +97,7 @@ var JaxPlugin = /** @class */ (function (_super) {
         var _this = this;
         var preludeLoaded = false;
         this.registerMarkdownPostProcessor(function (el, ctx) {
-            //debugger;
+            debugger;
             if (typeof MathJax != 'undefined' && !preludeLoaded) {
                 _this.read_preamble().then(function (c) {
                     preludeLoaded = true;
