@@ -62,6 +62,7 @@ For just the statements of most of these theorems: [[attachments/ComplexAnalysis
 
 Some silly arithmetic tricks:
 
+- Absolutely essential: $\abs{f}^2 = f\bar{f}$.
 - $z$ is purely imaginary $\iff \bar{z} = -z$.
 - $z\in \RR \iff \bar z = z$.
 - $\log\qty{\abs{z}} = {1\over 2}\log\qty{\abs{z}^2} = {1\over 2}\log\qty{x^2 + y^2}$, which is easier to differentiate.

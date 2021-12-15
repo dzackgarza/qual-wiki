@@ -8,7 +8,6 @@ order: 50
 
 ^c6e205
 
-
 :::{.problem title="?"}
 \envlist
 
@@ -19,6 +18,11 @@ $$
 $$
 
 - Deduce Liouville's theorem from (a).
+
+:::
+
+
+:::{.solution}
 
 :::
 
