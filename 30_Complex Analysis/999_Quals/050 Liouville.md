@@ -33,7 +33,8 @@ Computing the LHS:
 &= \sum_{k,j\geq 0} c_k\bar{c_j} r^{k+j} \chi_{i=j}\cdot 2\pi \\
 &= \sum_{k\geq 0} c_k\bar{c_k} r^{2k} \cdot 2\pi \\
 &= 2\pi \sum_{k\geq 0}\abs{c_k}^2 r^{2k}
-.\]
+,\]
+where we've used that the series converges uniformly in its radius of convergence to commute sums and integrals.
 
 :::
 
