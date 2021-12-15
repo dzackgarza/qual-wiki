@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MDTest",
+      "path": "MDTest.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "050 Liouville",
       "path": "30_Complex Analysis/999_Quals/050 Liouville.md"
-    },
-    {
-      "basename": "040_Maximum_Modulus",
-      "path": "30_Complex Analysis/999_Quals/040_Maximum_Modulus.md"
     }
   ],
   "omittedPaths": [],
