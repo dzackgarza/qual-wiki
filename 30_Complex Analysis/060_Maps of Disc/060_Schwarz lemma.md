@@ -177,3 +177,5 @@ Set $a=0$:
 :::
 
 
+
+![[attachments/Pasted image 20211215022943.png]]
