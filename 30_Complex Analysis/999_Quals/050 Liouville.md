@@ -29,6 +29,10 @@ Computing the LHS:
 &= \int_{[0, 2\pi]} f(re^{i\theta}) \bar{f(re^{i\theta}) } \dtheta \\
 &= \int_{[0, 2\pi]} \sum_{k\geq 0} c_k r^k e^{ik\theta} \sum_{j\geq 0} \bar{c_j} r^j e^{-ij\theta} \dtheta \\
 &= \int_{[0, 2\pi]} \sum_{k,j\geq 0} c_k\bar{c_j} r^{k+j} e^{i(k-j)\theta} \dtheta \\
+&= \sum_{k,j\geq 0} c_k\bar{c_j} r^{k+j} \int_{[0, 2\pi]} e^{i(k-j)\theta} \dtheta \\
+&= \sum_{k,j\geq 0} c_k\bar{c_j} r^{k+j} \chi_{i=j}\cdot 2\pi \\
+&= \sum_{k\geq 0} c_k\bar{c_k} r^{2k} \cdot 2\pi \\
+&= 2\pi \sum_{k\geq 0}\abs{c_k}^2 r^{2k}
 .\]
 
 :::
