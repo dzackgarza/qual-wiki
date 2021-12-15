@@ -41,36 +41,21 @@ Things to know well:
 For just the statements of most of these theorems: [[attachments/ComplexAnalysisNotes.pdf|see this doc]].
 
 
-## Common Tricks
+## Common tricks
 
 - Virtually any time: consider $1/f(z)$ and $f(1/z)$.
-- Setting $w=e^z$ is useful.
+- Given $f$, define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$.
+- Set $w=e^z$.
+- If $f$ has no zeros, put it in the denominator! No one can stop you!
+- If $f$ is holomorphic in a neighborhood of $\DD$ and $\abs{f} = 1$ on $\bd \DD$, then $f$ is a finite Blaschke product.
 
+## Holomorphic
 
-:::{.remark title="Estimating and bounding"}
-\envlist
-
-- Bounding a derivative using the original function: Cauchy's formula.
-  - Also works to bound a function in terms of its integral, e.g. over a compact set like a curve.
-:::
-
-:::{.remark title="Showing a function is constant"}
-If you want to show that a function $f$ is constant, try one of the following:
-
-- Write $f = u + iv$ and use Cauchy-Riemann to show $u_x, u_y = 0$, etc.
-- Show that $f$ is entire and bounded.
-  - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
-- By the open mapping theorem, if $f \in \Hol( \Omega)$ then $\dim_\RR f(\Omega) \in {0, 2}$ but can never have dimension 1. So non-constant $f$ can not map open regions onto subsets of a curve, e.g. $I \subseteq \RR$, and if the image of $f$ is a curve or totally real, then $f$ is constant.
+-To show a function is holomorphic,
+	- Use Morera's theorem
+	- Find a primitive (sufficient but not necessary)
+	- Express $f$ as a convergent power series
 - Holomorphic functions have isolated zeros.
-- For real analysis: if $f' < M$, apply the mean value theorem to show $f$ is Lipschit: $\abs{f(x) - f(y)} = \abs{f'(\xi)} \abs{x-y} < M\abs{x-y}$.
-- Showing something is constant or zero on a region: show it's zero on the boundary and apply the MMP.
-- Show that $f$ omits at least 2 values and apply little Picard.
-
-:::
-
-:::{.remark title="Showing a function is holomorphic"}
-
-:::
 
 
 ## Arithmetic
@@ -82,11 +67,17 @@ Some silly arithmetic tricks:
 - $\log\qty{\abs{z}} = {1\over 2}\log\qty{\abs{z}^2} = {1\over 2}\log\qty{x^2 + y^2}$, which is easier to differentiate.
 - To prove $a=b$, try $a/b = 1$ or $a-b=0$.
 
-## Constant or Zero
+## Showing a function is constant (or zero)
 
 - $\abs{f}$ constant implies $f$ constant by the open mapping theorem.
 - A holomorphic function with a non-isolated zero is identically zero.
+- Write $f = u + iv$ and use Cauchy-Riemann to show $u_x, u_y = 0$, etc.
+- Show that $f$ is entire and bounded.
+  - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
+- By the open mapping theorem, if $f \in \Hol( \Omega)$ then $\dim_\RR f(\Omega) \in {0, 2}$ but can never have dimension 1. So non-constant $f$ can not map open regions onto subsets of a curve, e.g. $I \subseteq \RR$, and if the image of $f$ is a curve or totally real, then $f$ is constant.
 
+- Showing something is constant or zero on a region: show it's zero on the boundary and apply the MMP.
+- Show that $f$ omits at least 2 values and apply little Picard.
 
 ## Singularities 
 
@@ -119,16 +110,14 @@ Some silly arithmetic tricks:
   - Alternatively, try $b-a\geq 0$ (obvious, but useful!)
 - If $\abs{f} = M$ on $\bd \Omega$, then if (importantly) $f\neq 0$ in $\Omega$ then $\abs{f} = M$ on all of $\bar \Omega$ by apply the MMP to $f$ and $1/f$.
 	- Why $f\neq 0$ is necessary: take $f(z) = z$.
-	
+- For real analysis: if $f' < M$, apply the mean value theorem to show $f$ is Lipschitz: $\abs{f(x) - f(y)} = \abs{f'(\xi)} \abs{x-y} < M\abs{x-y}$.
+- Bounding a derivative using the original function: Cauchy's formula.
+  - Also works to bound a function in terms of its integral, e.g. over a compact set like a curve.
+  
 ## Polynomials
 
 - $f$ is polynomial when:
 	- $f^{(n)} =0$ for every $n$ large enough.
 	- $f$ is entire and only has poles at $\infty$.
 
-## General advice
-
-- Given $f$, define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$.
-- If $f$ is holomorphic in a neighborhood of $\DD$ and $\abs{f} = 1$ on $\bd \DD$, then $f$ is a finite Blaschke product.
-- If $f$ has no zeros, put it in the denominator! No one can stop you!
 
