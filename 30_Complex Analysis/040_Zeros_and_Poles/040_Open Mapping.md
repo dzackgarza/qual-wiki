@@ -2,6 +2,8 @@
 title: Open Mapping Theorem
 ---
 
+Idea: maximum modulus plus Rouche.
+
 # Open Mapping Theorem
 
 :::{.corollary title="Open Mapping"}

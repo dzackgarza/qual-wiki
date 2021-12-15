@@ -29,8 +29,11 @@ Things to know well:
 - [[30_Complex Analysis/900 Unsorted/Maps of the disc|Automorphisms of the disc]]
 - The identity principle
 - Big Picard
-- [[Open mapp
-- 
+- [[30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping|The open mapping theorem]]
+- [[30_Complex Analysis/030_Residues/020_Residues|Computing residues]]
+- Jordan's lemma
+- The Cauchy-Riemann equations
+- The argument principle
 
 
 ## Common Tricks
