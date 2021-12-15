@@ -25,8 +25,9 @@ $$
 :::{.solution}
 Computing the LHS:
 \[
-\int_{[0, 2\pi]} \abs{f(re^{i\theta})}\dtheta
-&= ?
+\int_{[0, 2\pi]} \abs{f(re^{i\theta})}^2 \dtheta
+&= \int_{[0, 2\pi]} f(re^{i\theta}) \bar{f(re^{i\theta}) } \dtheta \\
+&= \int_{[0, 2\pi]} \sum_{k\geq 0} c_k r^k e^{ik\theta} \sum_{j\geq 0} \bar{c_j} r^j e^{-ij\theta} \dtheta \\
 .\]
 
 :::
