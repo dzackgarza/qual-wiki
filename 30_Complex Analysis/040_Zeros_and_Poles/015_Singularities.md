@@ -147,6 +147,8 @@ z^n g(z) = z^m h(z) \implies g(z) = z^{m-n} h(z)
 assuming $m>n$, but then taking $z\to z_0 =0$ on the RHS yields $g(z) = 0$, a contradiction.
 :::
 
+
+
 ## Poles
 
 :::{.definition title="Poles (and associated terminology)"}

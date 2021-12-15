@@ -107,7 +107,7 @@ Some silly arithmetic tricks:
 	- Rouche's theorem
 	- The argument principle
 - If $f(z_0)\neq 0$, by continuity there is some neighborhood where $f$ is nonzero.
-	- Conversely, zeros 
+	- Conversely, if $f$ is holomorphic at $z_0$ *is* a zero, there is punctured neighborhood of $z_0$ where $f$ is nonzero.
 
 ## Estimating
 - To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.

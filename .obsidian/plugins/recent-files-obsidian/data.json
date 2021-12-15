@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "015_Singularities",
+      "path": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "00_References",
       "path": "10_Algebra/020_Groups/00_References.md"
-    },
-    {
-      "basename": "30_Solutions",
-      "path": "40_Topology/000_Resources/30_Solutions.md"
     }
   ],
   "omittedPaths": [],
