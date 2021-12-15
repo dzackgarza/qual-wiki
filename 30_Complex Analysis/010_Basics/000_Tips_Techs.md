@@ -86,7 +86,6 @@ To count zeros:
 
 ## Arithmetic
 
-:::{.remark title="Arithmetic tricks"}
 Some silly arithmetic tricks:
 
 - $z$ is purely imaginary $\iff \bar{z} = -z$.
@@ -98,8 +97,10 @@ Some silly arithmetic tricks:
 ## Constant or Zero
 
 - $\abs{f}$ constant implies $f$ constant by the open mapping theorem.
+- A holomorphic function with a non-isolated zero is identically zero.
 
-## Singularities and zeross
+
+## Singularities 
 
 - Let $z_0$ be a singularity of $f$. To show $z_0$ is...
 	- **Removable**: show that $\lim_{z\to z_0} f(z)$ is bounded.
@@ -107,7 +108,13 @@ Some silly arithmetic tricks:
 	- **A pole of order $m$**: write $f(z) = (z-z_0)^mg(z)$ where $g(z_0)\neq 0$ (or check the Laurent expansion directly).
 	- **Essential**: show that $\lim_{z\to z_0} f(z)$ doesn't exist (e.g. if it's oscillatory).
   - It can be useful to take a specific sequence $\ts{z_k}\to z_0$.
+
+- $f$ and $f'$ have the same poles.
+
+## Zeros
+
 - To show that a zero $z_0$ is order $n$, show that $f^{(<n)}(z_0) = 0$ but $f^{(n)}(z_0) \neq 0$.
+- Getting rid of zeros: divide by a Blaschke product.
 
 
 ## Estimating
@@ -133,9 +140,5 @@ Some silly arithmetic tricks:
 
 - Given $f$, define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$.
 - If $f$ is holomorphic in a neighborhood of $\DD$ and $\abs{f} = 1$ on $\bd \DD$, then $f$ is a finite Blaschke product.
-
-- A holomorphic function with a non-isolated zero is identically zero.
 - If $f$ has no zeros, put it in the denominator! No one can stop you!
-  - Getting rid of zeros: divide by a Blaschke product.
 
-- $f$ and $f'$ have the same poles.
