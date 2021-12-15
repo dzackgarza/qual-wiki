@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "05_Advice and Essentials",
+      "path": "20_Real Analysis/005_Basics/05_Advice and Essentials.md"
+    },
+    {
       "basename": "00_Books_Notes",
       "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "040_Topology",
       "path": "040_Topology.md"
-    },
-    {
-      "basename": "000_My Active Problems",
-      "path": "000_My Active Problems.md"
     }
   ],
   "omittedPaths": [],

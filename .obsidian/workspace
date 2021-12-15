@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+            "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "c8b0a87484db0d4e"
+      },
+      {
+        "id": "0382a7937778c0b5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
+            "mode": "preview"
+          }
+        },
+        "group": "c8b0a87484db0d4e"
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+                "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+                "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md"
               }
             }
           }
@@ -138,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+                "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +179,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+                "file": "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,6 +269,7 @@
   },
   "active": "ffaeb9448df6db21",
   "lastOpenFiles": [
+    "20_Real Analysis/005_Basics/05_Advice and Essentials.md",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
     "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md",
@@ -264,7 +278,6 @@
     "attachments/Fall_2019_Assignment_Solutions.pdf",
     "attachments/Spring 2019 with Solutions.pdf",
     "attachments/Neil_Spring_2019_Solutions.pdf",
-    "attachments/Neil_Fall_2019_Solutions.pdf",
-    "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md"
+    "attachments/Neil_Fall_2019_Solutions.pdf"
   ]
 }
