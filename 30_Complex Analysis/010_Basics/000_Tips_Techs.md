@@ -45,7 +45,6 @@ For just the statements of most of these theorems: [[attachments/ComplexAnalysis
 ## Common tricks
 
 - Virtually any time: consider $1/f(z)$ and $f(1/z)$.
-- Given $f$, define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$.
 - Set $w=e^z$.
 - If $f$ has no zeros, put it in the denominator! No one can stop you!
 - If $f$ is holomorphic in a neighborhood of $\DD$ and $\abs{f} = 1$ on $\bd \DD$, then $f$ is a finite Blaschke product.
@@ -78,9 +77,10 @@ Some silly arithmetic tricks:
   - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
 - Show that $f(\CC)$ is not an open set (e.g. $\RR$ or $\bd \DD_r(0)$, and apply the open mapping theorem.
 	- More generally, the image can be dimension 0 or 2, but never 1. 
-
-- Showing something is constant or zero on a region: show it's zero on the boundary and apply the MMP.
+- Show $\abs{f}=0$ on the boundary and apply the MMP.
 - Show that $f$ omits at least 2 values and apply little Picard.
+- Define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$ and if $g$ is constant then $f$ is constant.
+
 
 ## Singularities 
 
