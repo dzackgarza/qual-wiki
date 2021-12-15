@@ -1,4 +1,9 @@
-# Lp Facts
+# $L^p$ Spaces
+
+:::{.warnings}
+$L^p$ convergence does not imply pointwise convergence or even a.e. convergence -- instead, if $f_k\to f$ in $L^p$, there is some *subsequence* that converges to $f$ a.e.
+
+:::
 
 :::{.proposition title="Dense subspaces of $L^2(I)$ "}
 The following are dense subspaces of $L^2([0, 1])$ and $L^1(\RR)$:

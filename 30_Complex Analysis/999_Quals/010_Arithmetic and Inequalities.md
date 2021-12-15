@@ -4,9 +4,23 @@ order: 10
 
 # Complex Arithmetic
 
-## Fall 2021.1
+## Spring 2019.3 #work
+
+^c8872d
+
+Let $R>0$. Suppose $f$ is holomorphic on $\ts{z\st \abs{z} < 3R}$. Let
+$$
+M_{R}:=\sup _{|z| \leq R}|f(z)|, \quad N_{R}:=\sup _{|z| \leq R}\left|f^{\prime}(z)\right|
+$$
+
+- Estimate $M_{R}$ in terms of $N_{R}$ from above.
+
+- Estimate $N_{R}$ in terms of $M_{2 R}$ from above.
+
 
 ## Spring 2021.1 #completed
+
+^7d0c77
 
 :::{.warnings}
 The question as written on the original qual has several errors.
@@ -151,7 +165,9 @@ Here we've used the basic estimate
 
 :::
 
-## Spring 2020 HW 1.6 #completed
+## Fall 2020.1, Spring 2020 HW 1.6 #completed
+
+^b9b6b4
 
 :::{.problem title="?"}
 Use $n$th roots of unity to show that

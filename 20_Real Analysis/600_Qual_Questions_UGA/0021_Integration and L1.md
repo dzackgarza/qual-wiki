@@ -2,6 +2,8 @@
 
 ## Fall 2021.2 #completed
 
+^86c7a4
+
 :::{.problem title="?"}
 a.
 Let $F \subset \mathbb{R}$ be closed, and define
@@ -76,6 +78,9 @@ which can be made arbitrarily large by taking $\eps\to 0$.
 
 
 ## Spring 2018.3 #completed
+
+^a434b2
+
 Let $f$ be a non-negative measurable function on $[0, 1]$. 
 
 Show that
@@ -147,6 +152,9 @@ Show that
 
 
 ## Spring 2018.4 #completed
+
+^052756
+
 Let $f\in L^2([0, 1])$ and suppose
 $$
 \int _{[0,1]} f(x) x^{n} d x=0 \text { for all integers } n \geq 0.
@@ -281,6 +289,8 @@ where the DCT applies since defining $h_k \da g_k\cdot g$ we have $\abs{h_k} \le
 # $L^1$
 
 ## Spring 2021.4 #completed
+
+^b21dcb
 
 Let $f, g$ be Lebesgue integrable on $\RR$ and let $g_n(x) \da g(x- n)$.
 Prove that
@@ -449,6 +459,8 @@ I_2
 
 ## Fall 2020.4 #completed
 
+^58470f
+
 :::{.problem title="?"}
 Prove that if $xf(x) \in L^1(\RR)$, then
 \[  
@@ -515,6 +527,8 @@ where we've used that $y\mapsto \sin(yx)$ is clearly continuous.
 :::
 
 ## Spring 2020.3 #completed
+
+^6f50e6
 
 a. Prove that if $g\in L^1(\RR)$ then
 \[
@@ -711,6 +725,8 @@ For $x\geq 1$,
 
 ## Fall 2019.5 #completed
 
+^e6090c
+
 a.
 Show that if $f$ is continuous with compact support on $\RR$, then 
 \[
@@ -817,6 +833,9 @@ This works for arbitrary $f\in L^1$, using approximation by continuous functions
 
 
 ## Fall 2017.3 #completed
+
+^1e6067
+
 Let 
 $$
 S = \spanof_\CC\theset{\chi_{(a, b)} \suchthat a, b \in \RR},

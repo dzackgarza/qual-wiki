@@ -4,6 +4,21 @@ order: 51
 
 # Polynomials
 
+
+## Spring 2019.4 #work
+
+^047423
+
+Let $f$ be a meromorphic function on the complex plane with the property that $|f(z)| \leq$ $M$ for all $|z|>R$, for some constants $M>0, R>0$.
+
+Prove that $f(z)$ is a rational function, i.e., there exist polynomials $p, q$ so that $f=\frac{p}{q}$.
+
+## Fall 2019.4 #work
+
+^398dec
+
+Let $f: \mathbb{C} \rightarrow \mathbb{C}$ be an injective analytic (also called univalent) function. Show that there exist complex numbers $a \neq 0$ and $b$ such that $f(z)=a z+b$.
+
 ## Tie's Extra Questions: Fall 2011
 
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
@@ -127,6 +142,8 @@ But by hypothesis this set is uncountable.
 
 ## Spring 2021.3 #completed
 
+^409461
+
 :::{.problem title="?"}
 Suppose $f$ is entire, let $A, R> 0$ and $N \in \NN$, and suppose
 \[
@@ -211,6 +228,8 @@ This contradicts $A>0$. $\contradiction$
 
 
 ## Spring 2021.4 #completed
+
+^c3336f
 
 :::{.problem title="?"}
 Let $f = u + iv$ be an entire function such that $\Re(f(x+iy))$ is polynomial in $x$ and $y$.

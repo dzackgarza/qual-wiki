@@ -111,19 +111,30 @@ then $f$ is a rotation.
   - Then $\abs{z_0} = \abs{f(z_0)} = \abs{cz_0}$ since $f(z_0) = z_0$, so $\abs{c} = 1$ and $c = e^{i\theta}$ for some $\theta$.
 :::
 
+:::{.proof title="of Schwarz, alternative"}
+
+
+![](figures/2021-12-14_16-30-35.png)
+
+![](figures/2021-12-14_16-30-46.png)
+
+:::
+
 :::{.corollary title="Schwarz-Pick Lemma"}
-Let $f:\DD\to \bar{\DD}$, then for some $a\in \DD$,
+Suppose $\abs{f(z)}\leq 1$, then for all $z, w\in \DD$,
 \[
-\left|\frac{f(z)-f(a)}{1-\overline{f(a)} f(z)}\right| \leq\left|\frac{z-a}{1-\bar{a} z}\right|
-\qquad
-\left|f^{\prime}(a)\right| \leq \frac{1-|f(a)|^{2}}{1-|a|^{2}}
+\left|\frac{f(z)-f(w)}{1-\overline{f(w)} f(z)}\right| \leq\left|\frac{z-w}{1-\bar{w} z}\right|
+\quad\text{ and }
+\left|f^{\prime}(z)\right| \leq \frac{1-|f(z)|^{2}}{1-|z|^{2}}
 .\]
-If equality holds for some $z\neq a$ in either expression, then $f= \lambda F$ where $F$ is a linear fractional transformation and $\abs{\lambda} = 1$.
+If equality holds for some $z\neq w$ in either expression, then $f= \lambda F$ where $F$ is a linear fractional transformation and $\abs{\lambda} = 1$, so $f\in \Aut(\DD)$.
 :::
 
 :::{.proof title="of Schwarz-Pick"}
 
 ![](figures/2021-11-27_00-55-19.png)
+
+![](figures/2021-12-14_01-48-57.png)
 
 :::
 

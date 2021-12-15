@@ -1,9 +1,6 @@
 # Unsorted
 
-
-
 ## Tie's Extra Questions: Fall 2015 #work
-
 
 1.
 Let $f(z) \in H({\mathbb D})$, $\text{Re}(f(z)) >0$ and $f(0)= a>0$. 

@@ -1,6 +1,8 @@
 # Measure Theory: Sets
 
-## Fall 2021 #3
+## Fall 2021.3 #work
+
+^9d4269
 
 Recall that a set $E \subset \mathbb{R}^{d}$ is measurable if for every $c>0$ there is an open set $U \subseteq \RR^d$ such that $m^{*}(U \sm E)<\epsilon$.
 
@@ -16,6 +18,8 @@ Let $E \subset \mathbb{R}$ be a measurable set, such that $0<m(E)<\infty$. Use p
 \]
 
 ## Spring 2020.2 #completed
+
+^f771df
 
 Let $m_*$ denote the Lebesgue outer measure on \( \RR \).
 
@@ -132,6 +136,9 @@ where $m_*(N') = 0$ since $N'$ is null, and thus subadditivity forces $m_*(N) = 
 :::
 
 ## Fall 2019.3. #completed
+
+^275944
+
 Let $(X, \mathcal B, \mu)$ be a measure space with $\mu(X) = 1$ and $\{B_n\}_{n=1}^\infty$ be a sequence of $\mathcal B$-measurable subsets of $X$, and
 $$
 B \definedas \theset{x\in X \suchthat x\in B_n \text{ for infinitely many } n}.
@@ -249,6 +256,9 @@ if $\sum_{n=1}^\infty a_n \to \infty$ then for every $N$, the tail $\sum_{n=N}^\
 :::
 
 ## Spring 2019.2 #completed
+
+^d90e25
+
 Let $\mathcal B$ denote the set of all Borel subsets of $\RR$ and $\mu : \mathcal B \to [0, \infty)$ denote a finite Borel measure on $\RR$.
   
 a. 
@@ -409,6 +419,9 @@ where we've used that taking a union over *fewer* sets can only make the measure
 
 
 ## Fall 2018.2 #work
+
+^896c28
+
 Let $E\subset \RR$ be a Lebesgue measurable set.
 Show that there is a Borel set $B \subset E$ such that $m(E\setminus B) = 0$.
 
@@ -505,7 +518,10 @@ d.irect Proof (Todo)
 \todo[inline]{Try to construct the set.}
 :::
 
-## Spring 2018 # 1 #completed
+## Spring 2018.1 #completed
+
+^7c5f04
+
 Define
 $$
 E:=\left\{x \in \mathbb{R}:\left|x-\frac{p}{q}\right|<q^{-3} \text { for infinitely many } p, q \in \mathbb{N}\right\}.
@@ -603,6 +619,9 @@ m(E)
 :::
 
 ## Fall 2017.2 #completed
+
+^3279b9
+
 Let $f(x) = x^2$ and $E \subset [0, \infty) \definedas \RR^+$.
 
 1. Show that
@@ -683,6 +702,8 @@ Restricting to $[0, \infty)$, $f$ is bijection, and thus so is $\phi$.
 
 
 ## Spring 2017.1 #completed
+
+^730107
 
 Let $K$ be the set of numbers in $[0, 1]$ whose decimal expansions do not use the digit $4$.
 
@@ -790,6 +811,8 @@ Claim: **$K$ has no isolated points**:
 
 ## Spring 2017.2 #completed
 
+^769de0
+
 a. 
 Let $\mu$ be a measure on a measurable space $(X, \mathcal M)$ and $f$ a positive measurable function.
   
@@ -881,6 +904,9 @@ x\in E \iff gf\chi_E(x) > 0 \iff x\in A
 :::
 
 ## Fall 2016.4 #completed
+
+^4665ae
+
 Let $(X, \mathcal M, \mu)$ be a measure space and suppose $\theset{E_n} \subset \mathcal M$ satisfies
 \[
 \lim _{n \rightarrow \infty} \mu\left(X \backslash E_{n}\right)=0.
@@ -935,6 +961,9 @@ $$
 $$
 
 ## Spring 2016.5 #work
+
+^019bf5
+
 Let $(X, \mathcal M, \mu)$ be a measure space. For $f\in L^1(\mu)$ and $\lambda > 0$, define
 $$
 \phi(\lambda)=\mu(\{x \in X | f(x)>\lambda\}) 
@@ -948,6 +977,9 @@ $$
 $$
 
 ## Spring 2016.2 #work
+
+^3e8888
+
 Let $0 < \lambda < 1$ and construct a Cantor set $C_\lambda$ by successively removing middle intervals of length $\lambda$.
 
 Prove that $m(C_\lambda) = 0$.
@@ -998,6 +1030,8 @@ and characterize the collection of functions of each type.
 
 
 ## Spring 2021.1 #completed
+
+^bbb9a9
 
 :::{.problem title="Spring 2021, 1"}
 Let \( (X, \mathcal{M},\mu)  \) be a measure space and let $E_n \in \mathcal{M}$ be a measurable set for $n\geq 1$.
@@ -1089,11 +1123,15 @@ x\not\in \Intersect_{n\geq 0}\Union_{k\geq n} X\sm E_k \\
 
 ## Spring 2021.3 #work
 
+^9a2c9e
+
 Let \( (X, \mathcal{M}, \mu)  \) be a finite measure space and let \( \ts{ f_n}_{n=1}^{\infty } \subseteq L^1(X, \mu) \).
 Suppose $f\in L^1(X, \mu)$ such that $f_n(x) \converges{n\to \infty }\to f(x)$ for almost every $x \in X$.
 Prove that for every \( \eps > 0 \) there exists $M>0$ and a set $E\subseteq X$ such that \( \mu(E) \leq \eps \) and \( \abs{f_n(x)}\leq M  \) for all $x\in X\sm E$ and all $n\in \NN$.
 
 ## Fall 2020.2 #work
+
+^e41970
 
 a.
 Let $f: \RR \to \RR$. Prove that
@@ -1117,6 +1155,8 @@ is Borel measurable.
 
 
 ## Fall 2016.2 #completed
+
+^254fa4
 
 Let $f, g: [a, b] \to \RR$ be measurable with
 $$
@@ -1171,6 +1211,9 @@ The non-obvious move: split $A$ itself up to get a strict inequality.
 :::
 
 ## Spring 2016.4 #work
+
+^220946
+
 Let $E \subset \RR$ be measurable with $m(E) < \infty$. 
 Define
 \[

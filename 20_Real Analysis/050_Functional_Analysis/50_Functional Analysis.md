@@ -1,5 +1,5 @@
 ---
-title: Basics
+title: Functional Analysis 
 order: 50
 ---
 
@@ -33,7 +33,7 @@ Working with inner products:
 \[
 \inner{tx + sy}{z} &= t\inner{x}{z} + s\inner{y}{z} \\
 \inner{x}{y} &= \bar{\inner{y}{x}} \\
-x\neq 0 \implies \inner{x}{x} > 0 .
+x\neq 0 \implies \inner{x}{x} > 0
 .\]
 We define $\norm{x} \da \sqrt{\inner{x}{x}}$.
 :::
@@ -81,7 +81,6 @@ Proof:
 
 :::
 
-
 ## Fourier Coefficients
 
 :::{.theorem title="Bessel's Inequality"}
@@ -94,6 +93,7 @@ and thus
 \sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2} \leq\|x\|^{2}
 .\]
 
+Note that this generalizes to uncountable bases, and implies that only finitely many terms $\inner{x}{u_n}$ can be nonzero.
 :::
 
 :::{.proof title="of Bessel's inequality"}
@@ -134,6 +134,24 @@ and thus
 
 
 :::
+
+:::{.theorem title="Parseval"}
+Let $\ts{u_n}_{n\in A}$ be an orthonormal set in a Hilbert space $\mch$.
+TFAE:
+
+- Completeness: $\ts{u_n}$ is a complete basis, i.e. $\inner{x}{u_n}=0$ for all $n$ implies $x=0$
+- Parseval's identity:
+\[
+\sum_{n\in A} \abs{ \inner{x}{u_n} }^2 = \norm{x}^2_{\mch}
+.\]
+
+- Every $x\in \mch$ can be expressed uniquely as 
+\[
+x = \sum_{n\in A} \inner{x}{u_n}u_n
+,\]
+where the sum has only countably many nonzero terms.
+:::
+
 
 :::{.theorem title="Riesz Representation for Hilbert Spaces"}
 If $\Lambda$ is a continuous linear functional on a Hilbert space $H$, then there exists a unique $y \in H$ such that
@@ -291,14 +309,4 @@ n, m \geq N \implies \norm{L_{n} - L_{m}} < \varepsilon \implies \abs{L_{m}(x) -
 :::
 
 
-## Misc
-
-
-:::{.remark}
-Big theorems for Banach spaces:
-
-- Uniform boundedness principle
-- Open mapping theorem
-- Closed graph theorem
-:::
 

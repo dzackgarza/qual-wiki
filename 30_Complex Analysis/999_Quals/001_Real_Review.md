@@ -4,6 +4,27 @@ order: 1
 
 # Real Analysis Review
 
+## Spring 2019.1 #work
+
+^0a8ca5
+
+Define
+
+$$
+E(z)=e^{x}(\cos y+i \sin y) .
+$$
+
+- Show that $E(z)$ is the unique function analytic on $\mathbb{C}$ that satisfies
+
+$$
+E^{\prime}(z)=E(z), \quad E(0)=1 .
+$$
+
+- Conclude from the first part that 
+\[
+E(z)=\sum_{n=0}^{\infty} \frac{z^{n}}{n !}
+.\]
+
 ## Recurrences #todo
 
 :::{.problem title="?"}

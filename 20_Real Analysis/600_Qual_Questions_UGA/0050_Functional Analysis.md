@@ -3,6 +3,9 @@
 
 
 ## Fall 2019.4 #completed
+
+^43b95e
+
 Let $\{u_n\}_{n=1}^∞$ be an orthonormal sequence in a Hilbert space $\mathcal{H}$.
 
 a.
@@ -123,6 +126,8 @@ x\da \sum_{n\in \NN} a_n u_n
 
 
 ## Spring 2019.5 #completed
+
+^1858f6
 
 a.
 Show that $L^2([0, 1]) ⊆ L^1([0, 1])$ and argue that $L^2([0, 1])$ in fact forms a dense subset of $L^1([0, 1])$.
@@ -304,6 +309,9 @@ f \in L^p(\RR^n) \implies \|f\|_{p} = \sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d 
 # Banach and Hilbert Spaces
 
 ## Fall 2021.5 #work
+
+^7dc220
+
 Consider the Hilbert space $\mathcal{H}=L^{2}([0,1])$.
 
 a.
@@ -315,6 +323,9 @@ b.
 Construct a non-empty closed subset $E \subset \mathcal{H}$ which does not contain an element of smallest norm.
 
 ## Spring 2019.1 #completed
+
+^9007a4
+
 Let $C([0, 1])$ denote the space of all continuous real-valued functions on $[0, 1]$.
   
 a. Prove that $C([0, 1])$ is complete under the uniform norm $\norm{f}_u := \displaystyle\sup_{x\in [0,1]} |f (x)|$.
@@ -388,6 +399,9 @@ $$
 
 
 ## Spring 2017.6 #completed
+
+^54edac
+
 Show that the space $C^1([a, b])$ is a Banach space when equipped with the norm
 \[
 \|f\|:=\sup _{x \in[a, b]}|f(x)|+\sup _{x \in[a, b]}\left|f^{\prime}(x)\right|.
@@ -442,6 +456,9 @@ and define a candidate limit: for each $x\in I$, set \[f(x) \definedas \lim_{n\t
 
 
 ## Fall 2017.6 #work
+
+^ffabe6
+
 Let $X$ be a complete metric space and define a norm
 $$
 \|f\|:=\max \{|f(x)|: x \in X\}.

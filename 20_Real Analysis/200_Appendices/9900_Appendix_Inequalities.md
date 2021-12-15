@@ -1,5 +1,5 @@
 ---
-title: Basics
+title: Common Inequalities
 order: 9900
 ---
 

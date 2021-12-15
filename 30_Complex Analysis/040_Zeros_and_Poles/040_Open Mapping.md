@@ -8,4 +8,16 @@ title: Open Mapping Theorem
 Any holomorphic non-constant map is an open map.
 :::
 
-\todo[inline]{Prove}
+:::{.proof title="?"}
+
+![](figures/2021-12-14_16-26-16.png)
+
+:::
+
+
+:::{.proof title="Alternative"}
+
+![](figures/2021-12-14_17-24-45.png)
+
+:::
+

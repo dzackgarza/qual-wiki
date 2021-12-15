@@ -4,6 +4,17 @@ order: 50
 
 # Liouville's Theorem
 
+## Spring 2020.3 #work
+
+^c6e205
+
+- Assume $f(z)=\sum_{n=0}^{\infty} c_{n} z^{n}$ converges in $|z|<R$. Show that for $r<R$,
+
+$$
+\frac{1}{2 \pi} \int_{0}^{2 \pi}\left|f\left(r e^{i \theta}\right)\right|^{2} d \theta=\sum_{n=0}^{\infty}\left|c_{n}\right|^{2} r^{2 n}
+$$
+
+- Deduce Liouville's theorem from (a).
 
 ## 3 #work
 

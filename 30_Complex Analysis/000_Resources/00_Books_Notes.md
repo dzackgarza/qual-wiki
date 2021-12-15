@@ -48,11 +48,14 @@ In the Spirit of Lipman Bers*
 
 # Summaries
 
+- [Very condensed summary](https://www.math.uci.edu/~timmym/Complex%20Analysis.pdf)
+	#summaries
+
 -  [[attachments/Eur_ComplexAnalysis_Notes (1).pdf|Chris Eur, Stein and Shakarchi speedrun]]
-#summaries 
+	#summaries 
 
 - [[attachments/complex.pdf|Douglas Arnold, notes on various topics]]
-#summaries
+	#summaries
 
 - [[attachments/ist_ca_2015.pdf|Sameer Chavan, problems in complex analysis]]
 	#summaries
@@ -63,8 +66,11 @@ In the Spirit of Lipman Bers*
 - [UCSD Qual review](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
 	#summaries 
 
+- [Math Camp review](http://web.stanford.edu/~yuvalwig/math/teaching/ComplexAnalysisNotes.pdf)
+	#summaries
+
 - [[Won_-_Complex_Analysis_Qual_Sheet.pdf]]
-#summaries 
+	#summaries 
 
 - [[attachments/Complex_Qual_Notes.pdf|Josh Swanson Complex Prelim Notes]]
 	#summaries

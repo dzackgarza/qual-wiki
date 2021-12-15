@@ -27,3 +27,13 @@ and
 
 :::
 
+
+
+:::{.proof title="Alternative"}
+
+![](figures/2021-12-14_16-49-17.png)
+
+![](figures/2021-12-14_16-49-36.png)
+
+:::
+

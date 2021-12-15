@@ -1,16 +1,9 @@
 # Undergraduate Analysis: Uniform Convergence
 
-## Fall 2021 #1
-
-Let $\left\{x_{n}\right\}_{n-1}^{\infty}$ be a sequence of real numbers such that $x_{1}>0$ and
-\[
-x_{n+1}=1-\left(2+x_{n}\right)^{-1}=\frac{1+x_{n}}{2+x_{n}} \text {. }
-\]
-Prove that the sequence $\left\{x_{n}\right\}$ converges, and find its limit.
-
-
-
 ## Fall 2018.1 #completed
+
+^0484e7
+
 Let $f(x) = \frac 1 x$.
 Show that $f$ is uniformly continuous on $(1, \infty)$ but not on $(0,\infty)$.
 
@@ -76,6 +69,9 @@ To negate, find a bad $x$: since $1/x$ blows up near zero, go hunting for small 
 
 
 ## Fall 2017.1 #completed
+
+^1a7534
+
 Let 
 \[
 f(x) = \sum _{n=0}^{\infty} \frac{x^{n}}{n !}.
@@ -144,6 +140,9 @@ $f_N$ does not converge uniformly on all of $\RR$.
 :::
 
 ## Spring 2017.4 #completed
+
+^dce5bb
+
 Let $f(x, y)$ on $[-1, 1]^2$ be defined by 
 $$
 f(x, y) = \begin{cases}
@@ -354,97 +353,95 @@ f(x^-) &= \sum_{q_k< x} \alpha_k
 :::
 
 
+
 # General Analysis
 
+## Fall 2021.1 #completed
 
-## Fall 2020.1 #work
+^3d000f
+
+:::{.problem title="?"}
+Let $\left\{x_{n}\right\}_{n-1}^{\infty}$ be a sequence of real numbers such that $x_{1}>0$ and
+\[
+x_{n+1}=1-\left(2+x_{n}\right)^{-1}=\frac{1+x_{n}}{2+x_{n}} \text {. }
+\]
+Prove that the sequence $\left\{x_{n}\right\}$ converges, and find its limit.
+:::
+
+
+:::{.solution}
+If a limit $L$ exists, we have $x_n\to L$ for all $n$, so
+\[
+L = {1+L\over 2+L} \implies L^2 + L - 1 = 0 \implies L = -{1\over 2}\qty{-1 \pm \sqrt 5}
+.\]
+Noting that $\sqrt{5} > 1$, the condition $x_1>0$ and a small induction noting that if $x_n>0$ then ${1+x_n \over 2+x_n}>0$, the only solution can be $L = -1 + \sqrt 5$.
+To see that this does converge, write $f(z) = 1 - (2+z)\inv$ so that $x_{n+1} = f(x_n)$.
+The claim is that $f$ is a contracting map on a metric space, which implies it has a unique fixed point $z_0$ by the Banach fixed point theorem, and if $f(z_0) = z_0$ then $z_0 = L$.
+This follows from the mean value theorem, since
+\[
+\abs{f(z) - f(w)} = \abs{f'(\xi)}\abs{z-w} < \abs{z-w} && \text{for some } \xi \in (z, w)
+.\]
+Since $f'(z) = (2+z)^{-2}$ satisfies $0 < f'(z) < 1$ for all $z$, we have
+\[
+\abs{f(z) - f(w)} \leq \abs{z-w}
+.\]
+:::
+
+
+
+
+## Fall 2020.1 #completed
+
+^821653
+
+:::{.problem title="?"}
 Show that if $x_n$ is a decreasing sequence of positive real numbers such that $\sum_{n=1}^\infty x_n$ converges, then
 $$
 \lim_{n\to\infty} n x_n = 0.
 $$
 
-
-:::{.concept}
-\envlist
-
-- Cauchy criterion for convergence
-- Claim: even and odd subsequences converge iff whole sequence converges.
 :::
-
-
-:::{.proof title="of claim"}
-$\impliedby$: clear, since any subsequence of a convergent sequence converges, and to the same limit.
-
-$\implies$:
-Fix $\eps$, choose $N\gg 1$ so that both $\abs{a_n - L} < \eps, \abs{a_{2n} - L} < \eps$ for $n\geq N$.
-Then for any $n$, it is either even or odd, so one of these bounds applies.
-:::
-
 
 :::{.solution}
-See this MSE post for many solutions: <https://math.stackexchange.com/questions/4603/if-a-n-subset0-infty-is-non-increasing-and-sum-a-n-infty-then-lim>
-
-- Since $\sum_{k\geq 1}x_k < \infty$, by the Cauchy criterion for convergent sequences we have 
+> See this MSE post for many solutions: <https://math.stackexchange.com/questions/4603/if-a-n-subset0-infty-is-non-increasing-and-sum-a-n-infty-then-lim>
+> Note that the "obvious" thing here is fiddly: there are bounds on the slices
 \[
-\lim_{M, N\to \infty} \sum_{M\leq k \leq N} x_k = 0
+(N-M \pm 1) x_N \leq  \sum_{M\leq k \leq N} a_k \leq (N-M\pm 1) x_M
+,\]
+but arranging it so that the constants match the indices in $(N-M \pm 1)x_N \approx Nx_N$ requires something clever.
+
+Fix $\eps>0$, we'll find $n\gg 1$ so that $nx_n < \eps$.
+Find $n, m$ with $n>m$ large enough so that
+\[
+\eps > \sum_{m+1\leq k \leq n} x_k \geq \sum_{m+1\leq k \leq n}x_n = (m-n)x_n
 .\]
-  - This still holds if we freely add a constant $C$, so $C\sum_{M\leq k \leq N} x_k \to 0$ as well.
-- Trick: $N \da n, M \da 2n$ and take $C\da 2$:
+Then rearrange:
 \[
-2\sum_{n\leq k \leq 2n} x_k
-&\geq 2\sum_{n\leq k \leq 2n} x_{2n} && \text{$x_k$ are non-increasing }\\
-&= 2 (2n-n)x_{2n} \\
-&= 2nx_{2n}
-,\]
-  and the upper bound goes to zero as $n\to \infty$.
+\eps > (m-n)x_n \implies nx_n < \eps + mx_n
+.\]
+Now choose $n$ large enough so that $x_n < \eps$, which holds since $\sum x_n < \infty$, to obtain
+\[
+nx_n < \eps + m\eps = \eps(1+m) \to 0
+.\]
 
-- So the even subsequence $2n x_{2n} \to 0$, it now suffices to show the odd subsequence $(2n+1) x_{2n+1} \to 0$.
-- Write
-\[
-(2n+1)x_{2n+1} 
-&= 2n\cdot x_{2n+1} + 1\cdot x_{2n+1} \\
-&\leq 2n\cdot x_{2n} + 1\cdot x_{2n+1} &&\text{$x_k$ are non-increasing }\\
-&\converges{n\to \infty}\too 0
-,\]
-where the first term converges by what we showed above, and the second by assumption.
+
+
+
+
+
+
 :::
 
 
 
 
 
-## Fall 2020.3 #work
-Let $f$ be a non-negative Lebesgue measurable function on $[1, \infty)$.
-
-a.
-Prove that
-\[  
-1 \leq \qty{
-{1 \over b-a} \int_a^b f(x) \,dx
-}\qty{
-{1\over b-a} \int_a^b {1 \over f(x)}\, dx
-}
-\]
-for any $1\leq a < b <\infty$.
-
-b.
-Prove that if $f$ satisfies
-\[  
-\int_1^t f(x) \, dx \leq t^2 \log(t)
-\]
-for all $t\in [1, \infty)$, then
-\[  
-\int_1^\infty {1\over f(x) \,dx} = \infty
-.\]
-
-> Hint: write
-\[  
-\int_1^\infty {1\over f(x) \, dx} = \sum_{k=0}^\infty \int_{2^k}^{2^{k+1}} {1 \over f(x)}\,dx
-.\]
 
 
 
 ## Spring 2020.1 #completed
+
+^bc846d
 
 Prove that if $f: [0, 1] \to \RR$ is continuous then
 \[
@@ -515,6 +512,9 @@ Prove that if $f: [0, 1] \to \RR$ is continuous then
 :::
 
 ## Fall 2019.1 #completed
+
+^231f22
+
 Let $\{a_n\}_{n=1}^\infty$ be a sequence of real numbers.
 
 a.
@@ -614,6 +614,9 @@ k\geq M+1 \implies \abs{a_k - S} < \varepsilon
 :::
 
 ## Fall 2018.4 #completed
+
+^388af2
+
 Let $f\in L^1([0, 1])$.
 Prove that
 \[
@@ -727,6 +730,9 @@ General case:
 :::
 
 ## Fall 2017.4 #completed
+
+^572c64
+
 Let
 \[
 f_{n}(x) = n x(1-x)^{n}, \quad n \in \NN.
@@ -801,6 +807,8 @@ b. ?
 
 ## Spring 2017.3 #work
 
+^9838ec
+
 Let
 \[
 f_{n}(x) = a e^{-n a x} - b e^{-n b x} \quad \text{ where } 0 < a < b.
@@ -855,6 +863,8 @@ b.
 :::
 
 ## Fall 2016.1 #completed
+
+^0b1fb2
 
 Define
 \[
@@ -920,7 +930,9 @@ f'(x)  =\sum_{n=1}^{\infty}\left(\frac{1}{n^{x}}\right)^{\prime}.
 \todo[inline]{?}
 :::
 
-## Fall 2016 # 5 #completed
+## Fall 2016.5 #completed
+
+^4bd3db
 
 Let $\phi\in L^\infty(\RR)$. Show that the following limit exists and satisfies the equality
 \[
@@ -979,7 +991,9 @@ S_\eps \definedas \theset{x\in \RR^n\suchthat \abs{\phi(x)} \geq \norm{\phi}_\in
   where we've again used the fact that $c^{1\over n} \to 1$ for any constant.
 :::
 
-## Fall 2016 # 6 #completed
+## Fall 2016.6 #completed
+
+^26bed5
 
 Let $f, g \in L^2(\RR)$. Show that
 \[
@@ -1040,6 +1054,8 @@ Let $f, g \in L^2(\RR)$. Show that
 :::
 
 ## Spring 2016.1  #work
+
+^6ae65c
 
 For $n\in \NN$, define
 \[

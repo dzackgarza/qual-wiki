@@ -1,90 +1,73 @@
 # Solutions
 #solutions 
 
-## From Class
+## Collections
 
-![[attachments/Fall_2019_SOLUTIONS.pdf]]
+- ![[My Solutions to Old Analysis Quals.pdf|Jacob S Townson Solutions to Analysis Quals]]
 
-![[attachments/Spring2018_SOLUTIONS.pdf]]
+- [Giant List of Problems.pdf](attachments/Giant_List_of_Problems.pdf)
 
-![[attachments/Spring 2019 with Solutions.pdf]]
+- [UCLA Solutions.pdf](attachments/UCLA_Solutions.pdf)
 
+- [Texas Solns.pdf](attachments/Texas_Solns.pdf)
 
-### Collections
+- [Mostovoy - Partial Solutions to Folland’s Real Analysis Part.pdf](attachments/Mostovoy_-_Partial_Solutions_to_Follands_Real_Analysis_Part.pdf)
 
-![[My Solutions to Old Analysis Quals.pdf|Jacob S Townson
-Solutions to Analysis Quals]]
+- [Chernov - Selected Problems in Real Analysis.pdf](attachments/Chernov_-_Selected_Problems_in_Real_Analysis.pdf)
 
-[Giant List of Problems.pdf](attachments/Giant_List_of_Problems.pdf)
+- [Folland Real Analysis Solutions (Jonathan Mostovoy)](attachments/Folland_Real_Analysis_Solns.pdf)
 
-[UCLA Solutions.pdf](attachments/UCLA_Solutions.pdf)
+- [Measure and Integration.pdf](attachments/Folland_Solutions.pdf)
 
-[Texas Solns.pdf](attachments/Texas_Solns.pdf)
+- [https://rstudio-pubs-static.s3.amazonaws.com/342389_1cad63f68dff45fead17af37236a76c8.html](https://rstudio-pubs-static.s3.amazonaws.com/342389_1cad63f68dff45fead17af37236a76c8.html)
 
-[Mostovoy - Partial Solutions to Folland’s Real Analysis Part.pdf](attachments/Mostovoy_-_Partial_Solutions_to_Follands_Real_Analysis_Part.pdf)
+- [http://www.jchateley.com/project/real_qual.pdf](http://www.jchateley.com/project/real_qual.pdf)
 
-[Chernov - Selected Problems in Real Analysis.pdf](attachments/Chernov_-_Selected_Problems_in_Real_Analysis.pdf)
+- [http://www-personal.umich.edu/~hrichman/quals.html](http://www-personal.umich.edu/~hrichman/quals.html)
 
-[Folland Real Analysis Solutions (Jonathan Mostovoy)](attachments/Folland_Real_Analysis_Solns.pdf)
-
-[Measure and Integration.pdf](attachments/Folland_Solutions.pdf)
-
-[https://rstudio-pubs-static.s3.amazonaws.com/342389_1cad63f68dff45fead17af37236a76c8.html](https://rstudio-pubs-static.s3.amazonaws.com/342389_1cad63f68dff45fead17af37236a76c8.html)
-
-[http://www.jchateley.com/project/real_qual.pdf](http://www.jchateley.com/project/real_qual.pdf)
-
-[http://www-personal.umich.edu/~hrichman/quals.html](http://www-personal.umich.edu/~hrichman/quals.html)
-
-### Misc
+## Misc
 
 Huge bank of undergrad/grad questions:
 
-[https://www.math.lsu.edu/gradfiles/AnalysisTestBank_2009.pdf](https://www.math.lsu.edu/gradfiles/AnalysisTestBank_2009.pdf)
+- [https://www.math.lsu.edu/gradfiles/AnalysisTestBank_2009.pdf](https://www.math.lsu.edu/gradfiles/AnalysisTestBank_2009.pdf)
 
-[midpracsol.pdf](attachments/midpracsol.pdf)
+- [Berkeley undergrad pset solutions](https://math.berkeley.edu/~vvdatar/m104su18/Assignments/Solutions_A6.pdf)
+  - Lots of uniform convergence.
 
-[Neil Fall 2019 Solutions.pdf](attachments/Neil_Fall_2019_Solutions.pdf)
+- [midpracsol.pdf](attachments/midpracsol.pdf)
 
-[Neil Spring 2018 Solutions.pdf](attachments/Neil_Spring_2018_Solutions.pdf)
+- [Ma - A NOTE FOR REAL ANALYSIS QUALIFYING EXAM IN TAMU.pdf](attachments/Ma_-_A_NOTE_FOR_REAL_ANALYSIS_QUALIFYING_EXAM_IN_TAMU.pdf)
 
-[Neil Spring 2019 Solutions.pdf](attachments/Neil_Spring_2019_Solutions.pdf)
+- [Chapter3-notes1.pdf](attachments/Chapter3-notes1.pdf)
 
-[Fall 2019 Assignments.pdf](attachments/Fall_2019_Assignments.pdf)
+- [math6338_hw8.pdf](attachments/math6338_hw8.pdf)
 
-[Fall 2019 Assignment Solutions.pdf](attachments/Fall_2019_Assignment_Solutions.pdf)
+- [Le - MEASURE and INTEGRATION Problems with Solutions.pdf](attachments/Le_-_MEASURE_and_INTEGRATION_Problems_with_Solutions.pdf)
 
-[Ma - A NOTE FOR REAL ANALYSIS QUALIFYING EXAM IN TAMU.pdf](attachments/Ma_-_A_NOTE_FOR_REAL_ANALYSIS_QUALIFYING_EXAM_IN_TAMU.pdf)
+- [Measure Theory Qual Problems.pdf](attachments/Measure_Theory_Qual_Problems.pdf)
 
-[Chapter3-notes1.pdf](attachments/Chapter3-notes1.pdf)
+- [Measures Integrals and Martingales (Solutions)](attachments/Schilling_-_Acknowledgement._I_am_grateful_for_the_help_of_Dr..pdf)
 
-[math6338_hw8.pdf](attachments/math6338_hw8.pdf)
+- [PrincetonQuestions.pdf](attachments/PrincetonQuestions.pdf)
 
-[Le - MEASURE and INTEGRATION Problems with Solutions.pdf](attachments/Le_-_MEASURE_and_INTEGRATION_Problems_with_Solutions.pdf)
+- [Real_solutions.pdf](attachments/Real_solutions.pdf)
 
-[Measure Theory Qual Problems.pdf](attachments/Measure_Theory_Qual_Problems.pdf)
+- [Spring2020Final.pdf](attachments/Spring2020Final.pdf)
 
-[Measures Integrals and Martingales (Solutions)](attachments/Schilling_-_Acknowledgement._I_am_grateful_for_the_help_of_Dr..pdf)
+- [https://www.math.ucla.edu/~adamlott99/analysis_qual_solutions.pdf](https://www.math.ucla.edu/~adamlott99/analysis_qual_solutions.pdf)
 
-[PrincetonQuestions.pdf](attachments/PrincetonQuestions.pdf)
+- [https://drive.google.com/file/d/0B00coOUqVAAHMld0VHlIYzJrTnc/view](https://drive.google.com/file/d/0B00coOUqVAAHMld0VHlIYzJrTnc/view)
 
-[Real_solutions.pdf](attachments/Real_solutions.pdf)
+- [https://people.math.gatech.edu/~harrell/GP/Comp/compFall03AnSol.pdf](https://people.math.gatech.edu/~harrell/GP/Comp/compFall03AnSol.pdf)
 
-[Spring2020Final.pdf](attachments/Spring2020Final.pdf)
+- [Basic exam problems](https://www.math.ucla.edu/~chparkin/index/BasicExamProblems_Analysis.pdf)
 
-[https://www.math.ucla.edu/~adamlott99/analysis_qual_solutions.pdf](https://www.math.ucla.edu/~adamlott99/analysis_qual_solutions.pdf)
+- [Analysis solutions](https://people.math.gatech.edu/~harrell/GP/Comp/compSpringl04AnSol.pdf)
 
-[https://drive.google.com/file/d/0B00coOUqVAAHMld0VHlIYzJrTnc/view](https://drive.google.com/file/d/0B00coOUqVAAHMld0VHlIYzJrTnc/view)
+- [Harvard qual solutions](http://abel.harvard.edu/graduate/quals/qf13sol.pdf)
 
-[https://people.math.gatech.edu/~harrell/GP/Comp/compFall03AnSol.pdf](https://people.math.gatech.edu/~harrell/GP/Comp/compFall03AnSol.pdf)
+- [analysisqualproblems.pdf](https://drive.google.com/file/d/0B00coOUqVAAHMld0VHlIYzJrTnc/view)
 
-[Basic exam problems](https://www.math.ucla.edu/~chparkin/index/BasicExamProblems_Analysis.pdf)
+- [GA Tech Solutions](https://people.math.gatech.edu/~harrell/GP/Comp/compFall03AnSol.pdf)
 
-[Analysis solutions](https://people.math.gatech.edu/~harrell/GP/Comp/compSpringl04AnSol.pdf)
-
-[Harvard qual solutions](http://abel.harvard.edu/graduate/quals/qf13sol.pdf)
-
-[analysisqualproblems.pdf](https://drive.google.com/file/d/0B00coOUqVAAHMld0VHlIYzJrTnc/view)
-
-[GA Tech Solutions](https://people.math.gatech.edu/~harrell/GP/Comp/compFall03AnSol.pdf)
-
-[solutions-mims-2ed.pdf](attachments/solutions-mims-2ed.pdf)
+- [solutions-mims-2ed.pdf](attachments/solutions-mims-2ed.pdf)

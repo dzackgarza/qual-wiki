@@ -4,6 +4,12 @@
 If $f$ is continuous on a domain $\Omega$ and $\int_T f = 0$ for every triangle $T\subset \Omega$, then $f$ is holomorphic.
 :::
 
+:::{.proof title="Sketch"}
+Fix $z_0\in \Omega$ and attempt to define a primitive $F(z) \da \int_{z_0}^z f(\xi) \dxi$, integrating along any path connecting $z_0$ to $z$.
+This will be well-defined since integrating along 2 different paths $\gamma, \mu$ will yield $\int_\gamma f + \int_\mu f = \int_{\gamma \cdot \mu} f = 0$ by assumption since it bounds a closed region.
+Then just show $F' = f$.
+:::
+
 :::{.slogan}
 If every integral along a triangle vanishes, implies holomorphic.
 Equivalently, $f(z)\dz$ is a closed differential form iff $f$ is holomorphic.
@@ -13,7 +19,6 @@ Equivalently, $f(z)\dz$ is a closed differential form iff $f$ is holomorphic.
 Sometimes stated for rectangles with sides parallel to axes.
 The power of this theorem is that virtually no assumptions on $f$ are made, e.g. $f$ is not even assumed smooth or even differentiable.
 :::
-
 
 :::{.corollary title="Sufficient condition for a sequence to converge to a holomorphic function"}
 If \( \ts{ f_n }_{n\in \NN} \) is a holomorphic sequence on a region \( \Omega  \) which uniformly converges to $f$ on every compact subset $K \subseteq \Omega$, then $f$ is holomorphic, and $f_n' \to f'$ uniformly on every such compact subset $K$.

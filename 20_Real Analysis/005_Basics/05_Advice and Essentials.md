@@ -5,6 +5,7 @@ order: 5
 # Advice and Essentials 
 
 - General advice: try swapping the orders of limits, sums, integrals, etc.
+- Good set / bad set: for measure theory or integrals, try to break a set up into "good" and "bad" subsets, and put bounds on each piece separately.
 - Limits:
   - Take the $\limsup$ or $\liminf$, which always exist, and aim for an inequality like
   \[  
@@ -48,7 +49,11 @@ order: 5
 - Integrals
   - Calculus techniques: Taylor series, IVT, MVT, etc.
   - Break up $\RR^n = \theset{\abs{x} \leq 1} \coprod \theset{\abs{x} > 1}$.
-    - Or break integration region into disjoint annuli.
+    - Or break integration region into disjoint annuli: 
+    \[
+    \int_\RR f = \sum_{k\geq 0}\int_{2^k}^{2^{k+1}} d
+    .\]
+
   - For pairs of functions $f, g$: break up into $\theset{f>g} \disjoint \theset{f=g} \disjoint \theset{f< g}$.
   - Tail estimates!
   - Most of what works for integrals will work for sums.
@@ -76,7 +81,12 @@ order: 5
   - Measurable functions are almost continuous,
   - Pointwise convergent sequences of measurable functions are almost uniformly convergent.
 
-- $L^p$ spaces shrink as $p\nearrow \infty$ (by Holder).
+- Nesting of $L^p$ spaces: let $p< q$
+  - For $\mu(X) = \infty$: no general containments.
+  - For $\mu(X) < \infty: p < p+1 < \cdots \implies L^p \supseteq L^{p+1} \supseteq \cdots$.
+    Why? Holder.
+  - For $X=\ZZ: L^p \subseteq L^{p+1} \subseteq \cdots$
+- Failing to be in $L^p$: singularities away from infinity, or long tails.
 
 - Every Borel is $F_\sigma$ up to a null set.
 
@@ -85,6 +95,10 @@ order: 5
 - A problem using absolute continuity will often be used to imply bounded variation (which allow using FTC)
 
 - If two functions are in conjugate $L^p$ spaces, try Holder.
+
+- $\mu(X) = \norm{\id}_{L^1(X)} = \int_X 1 \dmu$
+
+- 
 
 # The Absolute Essentials
 

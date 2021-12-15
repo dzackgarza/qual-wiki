@@ -86,6 +86,11 @@ Compare this to integrating by parts:
 \[
 \int_a^b f g = F(b)g(b) - F(a)g(a) - \int_a^b Fg'
 .\]
+How to remember: set $\Delta g_k \da g_{k+1} - g_k$ and $\mathbf{I} g_k = g_{k+1}$, then 
+\[
+\sum_{k=m}^n f_k \cdot \Delta g_k = f_{n+1} g_{n+1} - f_m g_m - \sum_{k=m}^n \mathbf{I}g_{k} \cdot \Delta f_k
+.\]
+
 
 Note there is a useful form for taking the product of sums:
 \[
@@ -112,10 +117,6 @@ Behold:
 
 :::
 
-:::{.proposition title="?"}
-If $f$ is non-constant, then $f'$ is analytic and the zeros of $f'$ are isolated.
-If $f,g$ are analytic with $f'=g'$, then $f-g$ is constant.
-:::
 
 
 # Exercises
@@ -150,4 +151,11 @@ Show that $\prod_{n\in \ZZ} (1 + a_n) < \infty$ if $\ts{a_n} \in \ell_1(\ZZ)$.
 
 :::{.exercise title="Application of summation by parts"}
 Use summation by parts to show that $\sin(n)/n$ converges.
+:::
+
+:::{.problem title="?"}
+Show that ${1\over z} \sum_{k=1}^\infty {z^k \over k}$ converges on $S^1 \setminus\theset{1}$ using summation by parts. 
+
+#work
+
 :::

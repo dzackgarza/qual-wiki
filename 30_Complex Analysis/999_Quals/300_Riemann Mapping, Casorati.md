@@ -4,6 +4,13 @@ order: 300
 
 # Riemann Mapping and Casorati-Weierstrass
 
+
+## Spring 2020.6 #work
+
+^128e58
+
+Prove the open mapping theorem for holomorphic functions: If $f$ is a non-constant holomorphic function on an open set $U$ in $\mathbb{C}$, then $f(U)$ is also an open set.
+
 ### Spring 2020 HW 3 #  4
 
 Let $f$ be non-constant, analytic in $\abs{z} > 0$, where $f(z_n) = 0$

@@ -4,6 +4,18 @@ order: 11
 
 # Complex Geometry
 
+
+## Spring 2020.1 #work
+
+^ea471a
+
+- Prove that if $\left|w_{1}\right|=c\left|w_{2}\right|$ where $c>0$, then 
+\[
+\left|w_{1}-c^{2} w_{2}\right|=c\left|w_{1}-w_{2}\right|
+.\]
+
+- Prove that if $c>0, c \neq 1$ and $z_{1} \neq z_{2}$, then $\left|\frac{z-z_{1}}{z-z_{2}}\right|=c$ represents a circle. Find its center and radius.
+- 
 ## Spring 2020 HW 1.1  #completed
 
 :::{.problem title="?"}
@@ -95,7 +107,9 @@ where the $z_i$ and $r$ are all constant, so thus is the equation of a circle.
 
 :::
 
-## Spring 2020 HW 1.11 #completed
+## Fall 2019.2, Spring 2020 HW 1.11 #completed
+
+^a35657
 
 :::{.problem title="?"}
 Prove that the distinct complex numbers $z_1, z_2, z_3$ are the vertices of an equilateral triangle if and only if

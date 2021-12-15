@@ -1,11 +1,9 @@
 ---
-title: Basics
+title: Undergraduate Review
 order: 9900
 ---
 
-# Appendix: Undergrad Material
-
-
+# Appendix: Undergrad Review
 
 :::{.definition title="limsup"}
 \[
@@ -13,15 +11,12 @@ order: 9900
 .\]
 :::
 
-
 :::{.example title="?"}
 \envlist
 
 - For $(x_n) \da \qty{n+1\over n}$, $\sup_n x_n = 2$ but $\limsup_n x_n = 1$.
 
 :::
-
-
 
 :::{.theorem title="Bounded Convergence"}
 
@@ -33,29 +28,33 @@ order: 9900
 
 :::
 
-
+:::{.example title="?"}
 ![](2021-10-29_16-51-23.png)
 
 ![](2021-10-29_16-55-00.png)
 
+:::
+
+:::{.example title="A nowhere differentiable function"}
 A nowhere differentiable function:
 
 
 ![](2021-10-29_16-57-12.png)
 
+:::
+
+:::{.fact}
 Monotone functions are differentiable almost everywhere.
 
 
 ![](2021-10-29_17-28-39.png)
 
+:::
 
 :::{.exercise title="?"}
 Can there be a function $f:I\to \RR$ that is continuous on $\QQ$ and discontinuous otherwise?
 :::
 
-
 :::{.solution}
 ![](2021-10-29_18-23-37.png)
 :::
-
-

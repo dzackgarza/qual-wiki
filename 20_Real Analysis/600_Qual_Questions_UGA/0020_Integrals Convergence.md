@@ -1,7 +1,77 @@
-1# Integrals: Convergence
+# Integrals: Convergence
 
+## Fall 2020.3 #completed
+
+^b424e2
+
+:::{.problem title="?"}
+Let $f$ be a non-negative Lebesgue measurable function on $[1, \infty)$.
+
+a.
+Prove that
+\[  
+1 \leq \qty{
+{1 \over b-a} \int_a^b f(x) \,dx
+}\qty{
+{1\over b-a} \int_a^b {1 \over f(x)}\, dx
+}
+\]
+for any $1\leq a < b <\infty$.
+
+b.
+Prove that if $f$ satisfies
+\[  
+\int_1^t f(x) \, dx \leq t^2 \log(t)
+\]
+for all $t\in [1, \infty)$, then
+\[  
+\int_1^\infty {1\over f(x)}\dx = \infty
+.\]
+
+> Hint: write
+\[  
+\int_1^\infty {1\over f(x) }\dx = \sum_{k=0}^\infty \int_{2^k}^{2^{k+1}} {1 \over f(x)}\dx
+.\]
+
+
+:::
+
+:::{.solution}
+**Part 1**:
+By Holder with $p=q=2$ on $L_1[a, b]$,
+\[
+(b-a)^2 = \norm{\id}_1^2 = \norm{f^{1\over 2}f^{- {1\over 2} } }_1^2 \leq \norm{f^{1\over 2}}_2^2 \cdot \norm{f^{-{1\over 2}}}_2^2 = \int_a^b f(x)\dx \cdot \int_a^b {1\over f(x)}\dx
+.\]
+
+**Part 2**:
+It suffices to show 
+\[
+\int_{2^k}^{2^{k+1}}{1\over f} > c_k \text{ where } \sum_{k\geq 0} c_k = \infty
+.\]
+Manipulate the given inequality a bit:
+\[
+\int_a^b f \leq \int_1^b f \leq b^2 \log(b) \implies 
+\qty{\int_a^b f}\inv \geq {1\over b^2\log(b)}\\
+\implies 
+.\]
+Rewrite the bound in part 1:
+\[
+\int_a^b {1\over f} \geq \qty{\int_a^b f}\inv (b-a)^2 \geq {(b-a)^2 \over b^2 \log(b) }
+.\]
+Now set $a=2^k, b=2^{k+1}$:
+\[
+\int_{2^k}^{2^{k+1}} {1\over f(x)} \dx
+\geq
+{(2^{k+1} - 2^k )^2 \over 2^{2(k+1)} (k+1)\log(2) }
+= {2^{2k} \over 2^{2k} \cdot 4(k+1)\log(2)}
+= \bigo(1/k)
+,\]
+and $\sum 1/k = \infty$.
+:::
 
 ## Spring 2021.2 #completed
+
+^aef235
 
 :::{.problem title="?"}
 Calculate the following limit, justifying each step of your calculation:
@@ -63,6 +133,10 @@ where we've used that $\cos(\theta)$ is continuous on $\RR$ to pass a limit insi
 
 ## Spring 2021.5 #work
 
+^417454
+
+
+:::{.problem title="?"}
 Let \( f_n \in L^2([0, 1]) \) for \( n\in \NN \), and assume that 
 
 - \( \norm{f_n}_2 \leq n^{-51 \over 100} \)  for all \( n\in \NN \),
@@ -76,9 +150,22 @@ Prove that \( \sum_{n\in \NN} f_n \) converges in the Hilbert space \( L^2([0, 1
 
 > Hint: Plancherel's identity may be helpful.
 
+:::
+
+:::{.warnings}
+Although this mentions Plancherel, probably what is needed is Parseval's identity:
+\[
+\sum_{k\in \ZZ} \abs{\hat{f}(k)}^2 = \int_0^1 \abs{f(x)}^2\dx
+.\]
+
+:::
+
+
 
 
 ## Fall 2019.2 #completed
+
+^8f0945
 
 Prove that
 \[
@@ -167,6 +254,8 @@ for all $x \neq 0$ and positive integers $n$.
 
 ## Spring 2020.5 #completed
 
+^e3c620
+
 Compute the following limit and justify your calculations:
 \[
 \lim_{n\to\infty} \int_0^n \qty{1 + {x^2 \over n}}^{-(n+1)} \,dx
@@ -224,6 +313,9 @@ Justifying the DCT:
 :::
 
 ## Spring 2019.3 #completed
+
+^ac0795
+
 Let $\{f_k\}$ be any sequence of functions in $L^2([0, 1])$ satisfying $\norm{f_k}_2 ≤ M$ for all $k ∈ \NN$.
   
 Prove that if $f_k \to f$ almost everywhere, then $f ∈ L^2([0, 1])$ with $\norm{f}_2 ≤ M$ and
@@ -288,6 +380,9 @@ Equality of Integrals:
 :::
 
 ## Fall 2018.6 #completed
+
+^bf6519
+
 Compute the following limit and justify your calculations:
 \[
 \lim_{n \rightarrow \infty} \int_{1}^{n} \frac{d x}{\left(1+\frac{x}{n}\right)^{n} \sqrt[n]{x}}
@@ -313,6 +408,9 @@ Compute the following limit and justify your calculations:
 :::
 
 ## Fall 2018.3 #completed
+
+^68e34b
+
 Suppose $f(x)$ and $xf(x)$ are integrable on $\RR$.
 Define $F$ by
 \[
@@ -362,6 +460,8 @@ $$
 :::
 
 ## Spring 2018.5 #completed
+
+^766ce0
 
 Suppose that
 
@@ -427,6 +527,9 @@ g_n &= \abs{f_n} + \abs{f} &\converges{n\to\infty}\to 2\abs {f} ~a.e.
 :::
 
 ## Spring 2018.2 #completed
+
+^ae21f1
+
 Let
 \[
 f_{n}(x):=\frac{x}{1+x^{n}}, \quad x \geq 0.
@@ -513,6 +616,8 @@ x, & 0 \leq x < 1 \\
 
 ## Fall 2016.3 #completed
 
+^dbf2a8
+
 Let $f\in L^1(\RR)$.
 Show that
 \[
@@ -571,11 +676,45 @@ Show that
   .\]
 :::
 
-## Fall 2015.3 #work
+## Fall 2015.3 #completed
+
+:::{.problem title="?"}
 Compute the following limit:
 \[
 \lim _{n \rightarrow \infty} \int_{1}^{n} \frac{n e^{-x}}{1+n x^{2}} \, \sin \left(\frac x n\right) \, dx
 \]
+
+:::
+
+:::{.solution}
+\[
+I = \lim_{n\to\infty} \int_1^\infty {e^{-x} \over {1\over n} + x^2 }\sin\qty{x\over n}\chi_{[1, n]}  \dx
+= \int_1^\infty{e^{-x}\over x^2}\lim_{n\to\infty }\sin\qty{x\over n } \chi_{[1, n]} \dx
+= 0
+,\]
+since $\sin(x/n) \to 0$.
+Passing the limit through the integral is justified by the DCT: write
+\[
+f_n(x) \da {ne^{-x} \over 1 + nx^2}\sin\qty{x\over n}\chi_{[1, n]}
+.\]
+Then
+\[
+\abs{f_n(x)} \leq g(x) \da {e^{-x}\over x^2}\in L^1(1, \infty)
+,\]
+
+since
+\[
+\norm{f}_{L^1(1, \infty)}
+=
+\int_1^\infty \abs{1\over x^2e^x}\dx \leq \int_1^\infty \abs{1\over x^2}\dx = 1 < \infty
+.\]
+
+
+
+
+
+:::
+
 
 ## Fall 2015.4 #work
 Let $f: [1, \infty) \to \RR$ such that $f(1) = 1$ and

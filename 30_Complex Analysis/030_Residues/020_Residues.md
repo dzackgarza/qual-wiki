@@ -32,7 +32,7 @@ You may be able to just compute an integral!
 
 :::
 
-:::{.fact title="Integrating $z^k$ around $S^1$ powers residues"}
+:::{.fact title="Integrating $z^k$ around $S^1$ is the source of residue theory"}
 The major fact that reduces integrals to residues:
 
 \[
@@ -52,28 +52,6 @@ i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansi
 
 :::
 
-:::{.example title="?"}
-Consider
-\[
-f(z) \da {e^{iz} \over 1 + z^2}
-\]
-
-where $z\neq \pm i$, and attempt to integrate
-\[
-\int_\RR f(z) \dz
-.\]
-
-Use a semicircular contour $\gamma_R$ where $z = Re^{it}$
-and check
-\[
-\sup_{z\in \gamma_R} \abs{f(z)} 
-&= \max_{t\in [0, \pi} {1 \over 1 + (Re^{it})^2 } \\
-&= \max_{t\in [0, \pi} {1 \over 1 + R^2e^{2it} } \\
-&= {1\over R^2 - 1}
-.\]
-
-:::
-
 ## Residue Formulas
 
 :::{.theorem title="The Residue Theorem"}
@@ -88,7 +66,6 @@ If $\gamma$ is a toy contour, then
 .\]
 
 :::
-
 
 :::{.proposition title="Residues from partial fraction decomposition"}
 Every rational function $f(z) \da p(z)/q(z)$ can be expressed as 
@@ -190,6 +167,28 @@ a\geq b \implies e^{-a} \leq e^{-b}
 :::{.proof title="?"}
 \[
 \left|\int_{\gamma} f(z) d z\right| \leq \sup _{t \in[a, b]}|f(z(t))| \int_{a}^{b}\left|z^{\prime}(t)\right| d t \leq \sup _{z \in \gamma}|f(z)| \cdot \operatorname{length}(\gamma)
+.\]
+
+:::
+
+:::{.example title="of estimating a sup"}
+Consider
+\[
+f(z) \da {e^{iz} \over 1 + z^2}
+\]
+
+where $z\neq \pm i$, and attempt to integrate
+\[
+\int_\RR f(z) \dz
+.\]
+
+Use a semicircular contour $\gamma_R$ where $z = Re^{it}$
+and check
+\[
+\sup_{z\in \gamma_R} \abs{f(z)} 
+&= \max_{t\in [0, \pi]} {1 \over 1 + (Re^{it})^2 } \\
+&= \max_{t\in [0, \pi]} {1 \over 1 + R^2e^{2it} } \\
+&= {1\over R^2 - 1}
 .\]
 
 :::

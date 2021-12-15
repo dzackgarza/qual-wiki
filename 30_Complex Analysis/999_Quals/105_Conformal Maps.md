@@ -1,3 +1,4 @@
+
 ---
 order: 105
 ---
@@ -6,7 +7,74 @@ order: 105
 
 > Notation: $\DD$ is the open unit disc, $\HH$ is the open upper half-plane.
 
+
+
+## Spring 2019.6 #work
+
+^5c3979
+
+Find a conformal map from 
+\[
+\ts{ z\st  \abs{z -1 / 2} >1 / 2, \Re(z)>0 }
+\]
+to $\mathbb{H}$.
+
+## Fall 2019.5 #work
+
+^043381
+
+Find a conformal map from $D=\{z:|z|<1,|z-1 / 2|>1 / 2\}$ to the unit disk $\Delta=\{z:|z|<1\} .$
+
+## Spring 2020.5 #work
+
+^0df993
+
+Find a conformal map that maps the region 
+\[
+\ts{z \st \Re(z) > 0,\, \abs{z - {1\over 2} }> {1\over 2} }
+\]
+to the upper half plane.
+
+## Spring 2021.7 #work
+
+^644ace
+
+:::{.problem title="?"}
+Let $R$ be the intersection of the right half-plane and the outside of the circle $\abs{z - {1\over 2}} = {1\over 2}$ with the line segment $[1, 2]$ removed, i.e. 
+\[
+R = \ts{z\in \CC\st \Re(z) > 0,\,\, \abs{z-{1\over 2}} > {1\over 2} } \sm \ts{z \da x+iy \st 1\leq x\leq 2,\,\, y=0}
+.\]
+Find a conformal map from $R$ to $\HH$ the upper half-plane.
+:::
+
+:::{.concept}
+\envlist
+
+- Blow up the point of tangency: inverting through a circle sends inner circles to lines, fixes the real line, and preserves regions between curves. 
+E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
+
+![[attachments/Circle Inversion.gif]]
+
+- So $z\to 1/z$ maps the region into a half-strip.
+
+:::
+
+## Fall 2020.5 #work
+
+^931c0a
+
+Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \mathbb{C} \backslash\{0\}$. Let $\mathbb{D}$ denote the open unit disc.
+
+- Show that $f$ is one-to-one on the punctured disc $\mathbb{D} \backslash\{0\}$. What is the image of the circle $|z|=r$ under this map when $0<r<1$ ?
+
+- Show that $f$ is one-to-one on the domain $\mathbb{C} \backslash \mathbb{D}$. What is the image of this domain under this map?
+
+- Show that there exists a map $g: \mathbb{C} \backslash[-1,1] \rightarrow \mathbb{D} \backslash\{0\}$ such that $(g \circ f)(z)=z$ for all $z \in \mathbb{D} \backslash\{0\}$. Describe the map $g$ by an explicit formula.
+
 ## Fall 2021.7 #work
+
+^efdbde
+
 Find a conformal map from the intersection of $|z-1|<2$ and $|z+1|<2$ to the upper half plane.
 
 
@@ -56,7 +124,7 @@ b. It is possible to choose $a,b,c,d$ to be real numbers.
 c. $\bar{T(z)} = T(\bar z)$ for every $z\in \CP^1$.
 d. There exist $\alpha\in \RR, \beta \in \CC\setminus \RR$ such that $T(\alpha) = \alpha$ and $T(\bar \beta) = \bar{T(\beta)}$.
 
-## 13
+## 13 #work
 Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$ to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
 ## Tie's Extra Questions: Fall 2009
@@ -140,26 +208,6 @@ number. Show that there exist $a, b, c, d \in \mathbb C$ with
 $ad-bc \neq 0$, $c \neq 0$ such that
 $\displaystyle f(z) = \frac{az + b}{cz + d}$.
 
-## Spring 2021.7 #work
 
-:::{.problem title="?"}
-Let $R$ be the intersection of the right half-plane and the outside of the circle $\abs{z - {1\over 2}} = {1\over 2}$ with the line segment $[1, 2]$ removed, i.e. 
-\[
-R = \ts{z\in \CC\st \Re(z) > 0,\,\, \abs{z-{1\over 2}} > {1\over 2} } \sm \ts{z \da x+iy \st 1\leq x\leq 2,\,\, y=0}
-.\]
-Find a conformal map from $R$ to $\HH$ the upper half-plane.
-:::
-
-:::{.concept}
-\envlist
-
-- Blow up the point of tangency: inverting through a circle sends inner circles to lines, fixes the real line, and preserves regions between curves. 
-E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
-
-![[attachments/Circle Inversion.gif]]
-
-- So $z\to 1/z$ maps the region into a half-strip.
-
-:::
 
 

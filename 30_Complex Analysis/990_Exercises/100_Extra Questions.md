@@ -8,6 +8,11 @@ Show that if $f_k\to f$ uniformly on $\Omega$ with $f_k$ holomorphic then $f$ is
 
 ![](figures/2021-12-10_19-34-52.png)
 
+Alternatively,
+
+![](figures/2021-12-14_16-55-11.png)
+
+
 :::
 
 :::{.exercise title="Uniform limit of holomorphic derivatives is the derivative"}
@@ -19,6 +24,11 @@ Show that if $f_k \to f$ uniformly with $f$ holomorphic then every $n$th derivat
 ![](figures/2021-12-10_19-38-03.png)
 
 ![](figures/2021-12-10_19-38-12.png)
+
+Alt:
+
+![](figures/2021-12-14_16-55-41.png)
+
 
 :::
 

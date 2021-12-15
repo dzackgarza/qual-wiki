@@ -17,3 +17,13 @@ If $f$ is holomorphic on a region $\Omega$ with $\pi_1 \Omega = 1$, then for any
 :::{.slogan}
 Closed path integrals of holomorphic functions vanish.
 :::
+
+:::{.proof title="of Cauchy"}
+Apply Stokes':
+\[
+\oint_{\partial D} f(z) d z=\int_{D} d(f(z) d z)=\int_{D}\left(\frac{\partial f}{\partial z} d z+\frac{\partial f}{\partial \bar{z}} d \bar{z}\right) \wedge d z=\int_{D} \frac{\partial f}{\partial z} d z \wedge d z+0 d \bar{z} \wedge d z=0
+.\]
+
+
+:::
+

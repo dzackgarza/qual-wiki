@@ -1,6 +1,5 @@
 # Hurwitz 
 
-
 :::{.definition title="Locally uniform convergence"}
 Say a sequence $f_k\to f$ **locally uniformly** on $\Omega$ if $f_k\to f$ uniformly on every compact subset.
 Equivalently, $f_k \to f$ uniformly on any bounded subset of strictly positive distance to $\bd \Omega$.
@@ -28,5 +27,4 @@ If $\ts{f_k}$ are univalent functions on $\Omega$ converging normally to $f$, th
 - $f$ is constant.
 
 :::
-
 

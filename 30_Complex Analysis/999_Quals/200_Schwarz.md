@@ -5,7 +5,73 @@ order: 200
 
 # Schwarz Lemma
 
+
+## Fall 2020.4 #completed
+
+^0f90ac
+
+
+:::{.problem title="?"}
+Let $\mathbb{D}:=\{z:|z|<1\}$ denote the open unit disk. Suppose that $f(z): \mathbb{D} \rightarrow \mathbb{D}$ is holomorphic, and that there exists $a \in \mathbb{D} \backslash\{0\}$ such that $f(a)=f(-a)=0$.
+
+- Prove that $|f(0)| \leq|a|^{2}$.
+
+- What can you conclude when $|f(0)|=|a|^{2} ?$
+
+:::
+
+:::{.solution}
+**Part 1**:
+
+Write $B_{z_0}(z) \da {z-z_0\over 1-\bar{z_0}z}$ for the Blaschke factor associated to $z_0$, which swaps $z_0$ and $0$.
+Define
+\[
+g(z) \da {f(z) \over B_a(z) B_{-a}(z)}
+.\]
+Then $\abs{g(z)}\leq 1$ on $\DD$, and in particular, $\abs{g(0)} \leq 1$. 
+Rewriting this yields
+\[
+1\geq \abs{g(0)} = {\abs{f(0)} \over \abs{B_a(0)} \cdot \abs{B_{-a}(0)}}
+= {\abs{f(0)} \over \abs{a}^2} \implies \abs{a}^2 \geq \abs{f(0)}
+.\]
+
+**Part 2**:
+Applying Schwarz-Pick:
+\[
+\abs{f'(0)} \leq {1 - \abs{f(0)}^2 \over 1 - \abs{0}^2 } = 1-\abs{a}^2 < 1
+,\]
+using that $a\neq 0$, so $f$ is a contraction.
+
+#todo Is there more..?
+
+
+:::
+
+
+## Spring 2020.7 #work
+
+^aff739
+
+Let $f$ be analytic on a bounded domain $D$, and assume also that $f$ that is continuous and nowhere zero on the closure $\bar{D}$. 
+
+Show that if $|f(z)|=M$ (a constant) for $z$ on the boundary of $D$, then $f(z)=e^{i \theta} M$ for $z$ in $D$, where $\theta$ is a real constant.
+
+## Spring 2019.5 #work
+
+^5d5430
+
+Suppose that $f(z)$ is holomorphic on $\mathbb{D}$ and that $|f(z)|<1$. Show that
+
+$$
+\left|\frac{f(z)-f\left(z_{0}\right)}
+{1-{ \bar{ f\left(z_{0}\right) } f(z)}}\right| \leq\left|\frac{z-z_{0}}{1-\bar{z}_{0} z}\right|
+$$
+
+> Hint: Schwarz lemma.
+
 ## Spring 2021.5 #completed
+
+^14ad86
 
 :::{.problem title="?"}
 Let $f$ be a holomorphic map of the open unit disc $\DD$ to itself.
@@ -250,6 +316,8 @@ $0 \leq \theta < 2 \pi$.
 
 ## Fall 2021.5  #completed
 
+^ee1748
+
 :::{.problem title="?"}
 Assume $f$ is an entire function such that $|f(z)|=1$ on $|z|=1$. Prove that $f(z)=e^{i \theta} z^{n}$, where $\theta$ is a real number and $n$ a non-negative integer. 
 
@@ -316,6 +384,8 @@ f(z) = e^{i\theta}\prod_{1\leq k \leq m}{z- 0 \over 1 - 0\cdot z} = e^{i\theta}z
 :::
 
 ## Fall 2021.6 #completed
+
+^33ab95
 
 :::{.problem title="?"}
 Show that if $f: D(0, R) \rightarrow \mathbb{C}$ is holomorphic, with $|f(z)| \leq M$ for some $M>0$, then

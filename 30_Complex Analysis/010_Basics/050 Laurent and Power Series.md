@@ -47,6 +47,51 @@ e^z &= \sum_{k\geq 0} {z^k \over k!} \\
   &= 1 + (1/2)z + {(1/2)(-1/2) \over 2!}z^2 + {(1/2)(-1/2)(-3/2) \over 3!}z^3 + \cdots \\
   &= 1 + {1\over 2}z - {1\over 8}z^2 + {1\over 16}z^3 - \cdots
 \]
+
+Some other classes of series to remember:
+\[
+\sum_{k=1}^{n} k
+&= \frac{n(n+1)}{2} \\
+\sum_{k=1}^{n} k(k+1)
+&= \frac{n(n+1)(n+2)}{3} \\
+\sum_{k=1}^{n} k(k+1)(k+2)
+&= \frac{n(n+1)(n+2)(n+3)}{4} \\
+\vdots \quad & \vdots \\
+\sum_{k=1}^{n} k^{(p)} 
+&= \frac{n^{(p+1)}}{p+1} && k^{(p)}\da k(k+1)(k+2) \cdots (k+p-1)
+.\]
+How to remember: compare to the integral
+\[
+\int_{x=0}^{x=n} x^p \dx = { n^{p+1} \over p+1}
+.\]
+
+Remembering that $\sum_{1\leq k \leq n} k = n(n+1)/2$: realize as counting a triangle, flip to count an entire rectangle of size $n\times (n+1)$ and take half:
+
+![](figures/2021-12-11_22-15-41.png)
+
+
+Write $k^2 = k(k+1) - k$ to get
+\[
+\sum k^2 = \sum k(k+1) - \sum k = {n(n+1/2)(n+2/2) \over 3}
+.\]
+Similarly $\sum k^3 = (\sum k )^2$.
+
+For summing the odds, $\sum_{k\geq 1} (2k-1)$:
+
+![](figures/2021-12-11_22-09-24.png)
+
+For denominators: 
+\[
+\sum_{k=1}^{n} \frac{1}{k(k+1)}=\frac{1}{1}-\frac{1}{n+1} \\
+\sum_{k=1}^{n} \frac{2}{k(k+1)(k+2)}=\frac{1}{1 \cdot 2}-\frac{1}{(n+1)(n+2)} \\
+\sum_{k=1}^{n} \frac{p}{k^{(p+1)}}=\frac{1}{1^{(p)}}-\frac{1}{(n+1)^{(p)}}
+,\]
+where $1^{(p)} \da p!$.
+How to remember the last one:
+\[
+\int_{x=1}^{x=n+1}{p\over x^{p+1}}\dx = {1\over 1^p} - {1\over (n+1)^p}
+.\]
+
 :::
 
 :::{.fact title="Expanding square roots"}
@@ -256,6 +301,30 @@ z - {1\over 3!}z^3 + {1\over 5!}z^5
 
 # Exercises
 
+
+:::{.exercise title="Integral formula for coefficients"}
+Show that if $f(z) \sum_{k\in \ZZ} c_k (z-z_0)^k$, then 
+\[
+c_k = {1\over 2\pi i}\int_\gamma {f(z) \over (z-z_0)^{n+1}}\dz
+,\]
+and that this converges in an annulus $D_R(z_0)\sm \bar{D_r(z_0)}$ where
+\[
+r=\limsup _{n \rightarrow \infty} \sqrt[n]{\left|a_{-n}\right|} \text { and } R=\frac{1}{\limsup _{n \rightarrow \infty} \sqrt[n]{\left|a_{n}\right|}} \text {. }
+.\]
+
+
+Hint: start with
+\[
+f(z)=\frac{1}{2 \pi i} \oint_{\left|w-z_{0}\right|=s_{2}} \frac{f(w)}{w-z} d w-\frac{1}{2 \pi i} \oint_{\left|w-z_{0}\right|=s_{1}} \frac{f(w)}{w-z} d w
+,\]
+and try to obtain a geometric series to obtain
+\[
+f(z)=\sum_{j=-\infty}^{\infty}\left(\frac{1}{2 \pi i} \oint_{\left|w-z_{0}\right|=r} \frac{f(w)}{\left(w-z_{0}\right)^{j+1}} d w\right)\left(z-z_{0}\right)^{j}
+.\]
+
+:::
+
+
 :::{.exercise title="?"}
 Find the radius of convergences for the power series expansion of $\sqrt{z}$ about $z_0 = 4 +3i$.
 Repeat with $z_1=-4+3i$.
@@ -322,14 +391,6 @@ For $z=1$:
 &= {1\over z-1} \qty{1 + \sum_{k\geq 0} (1-z)^k } \\
 &= {1\over z-1} \qty{1 + \sum_{k\geq 0} (-1)^k (z-1)^k }
 .\]
-
-:::
-
-:::{.problem title="?"}
-Show that ${1\over z} \sum_{k=1}^\infty {z^k \over k}$ converges on $S^1 \setminus\theset{1}$ using summation by parts. 
-
-#work
-
 
 :::
 

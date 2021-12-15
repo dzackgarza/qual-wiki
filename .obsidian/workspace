@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
+            "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Fall 2021",
+                "query": "\"Spring 2016.\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
+                "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -251,19 +251,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 360,
+    "collapsed": true
   },
   "active": "ffaeb9448df6db21",
   "lastOpenFiles": [
-    "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
-    "30_Complex Analysis/999_Quals/999_By Year.md",
-    "30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities.md",
-    "30_Complex Analysis/999_Quals/105_Conformal Maps.md",
-    "30_Complex Analysis/999_Quals/005 Function Convergence.md",
-    "30_Complex Analysis/999_Quals/200_Schwarz.md",
-    "30_Complex Analysis/999_Quals/051_Polynomials.md",
-    "30_Complex Analysis/999_Quals/070_Morera.md",
-    "30_Complex Analysis/999_Quals/99999_Unsorted.md",
-    "30_Complex Analysis/999_Quals/000_Preface.md"
+    "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+    "30_Complex Analysis/000_Resources/20_Solutions.md",
+    "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md",
+    "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md",
+    "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md",
+    "attachments/Fall_2019_Assignment_Solutions.pdf",
+    "attachments/Spring 2019 with Solutions.pdf",
+    "attachments/Neil_Spring_2019_Solutions.pdf",
+    "attachments/Neil_Fall_2019_Solutions.pdf",
+    "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md"
   ]
 }

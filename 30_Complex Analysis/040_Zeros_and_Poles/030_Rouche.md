@@ -26,6 +26,13 @@ The number of zeros/poles are determined by a dominating function.
 
 :::
 
+
+:::{.proof title="of Rouché, alternative"}
+
+![](figures/2021-12-14_16-25-41.png)
+
+:::
+
 :::{.remark}
 
 ![30_Complex Analysis/figures/2021-10-29_01-39-19.png](30_Complex%20Analysis/figures/2021-10-29_01-39-19.png)

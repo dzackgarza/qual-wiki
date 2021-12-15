@@ -60,6 +60,12 @@ f(z)=\frac{1}{2 \pi i} \int_{S^{1}} \frac{f(w) }{w-z} \dw
 
 :::
 
+:::{.proof title="Holomorphic implies analytic, alternative"}
+
+![](figures/2021-12-14_16-53-51.png)
+
+:::
+
 :::{.proposition title="Exponential is uniformly convergent in discs"}
 $f(z) = e^z$ is uniformly convergent in any disc in $\CC$.
 :::
@@ -74,3 +80,11 @@ Now by the $M\dash$test,
 \abs{z} \leq R < \infty \implies \abs{\sum {z^n \over n!}} \leq e^R < \infty
 .\]
 :::
+
+# Exercises
+
+:::{.exercise title="?"}
+Show that if $f$ is non-constant, then $f'$ is analytic and the zeros of $f'$ are isolated.
+Show that moreover if $f,g$ are analytic with $f'=g'$, then $f-g$ is constant.
+:::
+

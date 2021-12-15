@@ -4,6 +4,15 @@ order: 22
 
 # Singularities
 
+## Spring 2020.4 #work
+
+^4bd9ee
+
+Suppose that $f$ is holomorphic in an open set containing the closed unit disc, except for a simple pole at $z=1$. Let $f(z)=\sum_{n=1}^{\infty} c_{n} z^{n}$ denote the power series in the open unit disc. Show that 
+\[
+\lim _{n \rightarrow \infty} c_{n}=-\lim _{z \rightarrow 1}(z-1) f(z)
+.\]
+
 ## 5 #work
 
 Find all entire functions with have poles at $\infty$.

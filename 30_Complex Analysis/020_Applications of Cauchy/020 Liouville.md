@@ -1,4 +1,4 @@
-### Liouville's Theorem
+# Liouville's Theorem
 
 :::{.theorem title="Liouville's Theorem" ref="Liouville"}
 If $f$ is entire and bounded, $f$ is constant.
@@ -13,6 +13,12 @@ If $f$ is entire and bounded, $f$ is constant.
 \abs{f'(z)} \leq { 1! \norm{f}_{C_R} \over R } \leq {M \over R}\converges{R\to\infty}\too 0
 ,\]
   so $f'(z) = 0$ for all $z$.
+:::
+
+:::{.proof title="of Liouville, alternative"}
+
+![](figures/2021-12-14_16-51-04.png)
+
 :::
 
 :::{.exercise title="?"}

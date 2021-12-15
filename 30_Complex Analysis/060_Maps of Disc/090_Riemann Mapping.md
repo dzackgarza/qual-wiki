@@ -9,8 +9,10 @@ If $\Omega$ is simply connected, nonempty, and not all of $\CC$, then for every 
 Moreover, it can be arranged so that $F(z_{0}) = 0$ and $F'(z_{0}) > 0$.
 
 Thus any two such sets $\Omega_{1}, \Omega_{2}$ are conformally equivalent.
-:::
 
+![](figures/2021-12-14_16-33-52.png)
+
+:::
 
 :::{.remark}
 Necessity of hypothesis:
@@ -19,17 +21,6 @@ Necessity of hypothesis:
 - Simply connected: since $\pi_1 \DD = 1$, any closed curve in $\Omega$ is nullhomotopic by finding $F$ and composing $F\inv$ with a homotopy in $\DD$.
 
 :::
-
-
-:::{.corollary title="Uniformization"}
-A simply connected nonempty domain $\Omega \subseteq \CC$ is conformally equivalent to exactly one of
-
-- $\CP^1$,
-- $\CC$, or
-- $\DD$.
-
-:::
-
 
 :::{.proof title="Sketch"}
 The basic idea:
@@ -63,6 +54,23 @@ h'_w(w) &= {1\over 1 - \abs{w}^2}
   Apply Hurwitz's theorem to conclude $h$ is injective as a uniform limit of injective functions.
 - Show $h$ is surjective by showing $\abs{h'(z_0)} \geq \abs{g'(z_0)}$ (contrapositive to earlier step).
 
+
+![](figures/2021-12-14_16-34-14.png)
+
+![](figures/2021-12-14_16-34-24.png)
+
+![](figures/2021-12-14_16-34-50.png)
+
+![](figures/2021-12-14_17-34-54.png)
+
+:::
+
+:::{.corollary title="Uniformization"}
+A simply connected nonempty domain $\Omega \subseteq \CC$ is conformally equivalent to exactly one of
+
+- $\CP^1$,
+- $\CC$, or
+- $\DD$.
 
 :::
 

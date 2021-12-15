@@ -25,6 +25,8 @@ $\Delta$ in $\Omega$.
 
 ## Fall 2021.2  #completed
 
+^a550c1
+
 :::{.problem title="?"}
 Let $\gamma(t)$ be a piecewise smooth curve in $\mathbb{C}, t \in[0,1]$. Let $F(w)$ be a continuous function on $\gamma$. Show that $f(z)$ defined by
 \[

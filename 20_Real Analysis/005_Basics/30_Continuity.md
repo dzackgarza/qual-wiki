@@ -4,7 +4,6 @@ order: 30
 
 # Continuity
 
-
 :::{.remark}
 Some inclusions on the real line:
 
@@ -12,15 +11,12 @@ Some inclusions on the real line:
     
 Proofs: 
 
-- Mean Value Theorem, Triangle inequality, Definition of absolute continuity specialized to one interval, Definition of uniform continuity
-
+- Mean Value Theorem, 
+- Triangle inequality, 
+- Definition of absolute continuity specialized to one interval, 
+- Definition of uniform continuity
 
 :::
-
-
-
-
-
 
 :::{.lemma title="Function discontinuous on the rationals"}
 There is a function discontinuous precisely on $\QQ$.
@@ -66,6 +62,7 @@ for a fixed $\eps$ take $\delta(\eps) \da \eps/C$, then
 
 :::{.theorem title="Heine-Cantor"}
 Every continuous function $f:X\to Y$ where $X$ is a compact metric space is uniformly continuous.
+As a result, if $f:U\to \RR$ is continuous, then $f$ is uniformly continuous on any $K \subseteq U$ compact.
 :::
 
 :::{.proof title="?"}
@@ -73,7 +70,6 @@ Fix $\eps>0$, we'll find a $\delta$ that works for all $x\in X$ uniformly.
 For every $x\in X$, pick a $\delta_x$ neighborhood satisfying the conditions for (assumed) continuity.
 Take an open cover by $\delta_x/2$ balls, extract a finite subcover, take $\delta$ the minimal radius.
 :::
-
 
 :::{.definition title="Equicontinuity"}
 If $\mathcal F \subset C(X)$ is a family of continuous functions on $X$, then $\mathcal F$ *equicontinuous* at $x$ iff
@@ -83,5 +79,4 @@ If $\mathcal F \subset C(X)$ is a family of continuous functions on $X$, then $\
 .\]
 
 :::
-
 

@@ -22,7 +22,9 @@ E \da \Union_{x\in \RR} \ts{ x } \cross E_x
 
 
 
-## Fall 2021 #4 #completed
+## Fall 2021.4 #completed
+
+^f1b6eb
 
 :::{.problem title="?"}
 Let $f$ be a measurable function on $\mathbb{R}$. Show that the graph of $f$ has measure zero in $\mathbb{R}^{2}$.
@@ -47,6 +49,8 @@ Since the iterated integral was finite, the equalities are justified by Fubini-T
 :::
 
 ## Spring 2020.4 #completed
+
+^2aea9d
 
 Let $f, g\in L^1(\RR)$. 
 Argue that $H(x, y) \definedas f(y) g(x-y)$ defines a function in $L^1(\RR^2)$ and deduce from this fact that
@@ -166,6 +170,9 @@ $H$ is measurable on $\RR^2$:
 
 
 ## Spring 2019.4 #completed
+
+^fdb921
+
 Let $f$ be a non-negative function on $\RR^n$ and $\mathcal A = \{(x, t) ∈ \RR^n \times \RR : 0 ≤ t ≤ f (x)\}$.
 
 Prove the validity of the following two statements:
@@ -290,6 +297,9 @@ $\impliedby$:
 :::
 
 ## Fall 2018.5 #completed
+
+^1ae35c
+
 Let $f \geq 0$ be a measurable function on $\RR$.
 Show that
 \[

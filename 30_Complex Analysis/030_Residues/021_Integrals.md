@@ -3,31 +3,50 @@
 :::{.remark}
 For guidelines for what techniques to use,
 [see this very detailed note](https://math.mit.edu/~jorloff/18.04/notes/topic9.pdf).
-A summary:
+Let $\deg$ denote the $z\dash$adic valuation, so $\deg(p(x)/q(x)) = \deg(p) - \deg(q)$.
+A summary of techniques:
 
-- $f(z) \sim 1/z^{1+\eps}$: semicircular contours.
+- Rational functions in $z$ with $\deg(f) \leq -2$: 
+  Semicircle. Always get $\int_\RR f = \sum_{z_0\in \HH} \Res_{z=z_0}f(z)$.
 
-	![figures/2021-07-29_18-37-57.png](figures/2021-07-29_18-37-57.png)
-	
-	- The relevant theorem: $f(z) \leq {M \over \abs{z}^{1+\eps} }$ for $\abs{z} \gg 0$ implies $\int_{C_R} f \convergesto{R\to\infty} 0$.
+- Rational function in $z$ against a single $\sin$ or $\cos$:
+  - Semicircles. Realize $\int_\RR f(z)\cos(z) = \Re\qty{\int_\RR f(z)e^{iz}}$.
 
--  $f(z) \sim 1/z$: rectangular contours.
+![](figures/2021-12-10_18-24-10.png)
 
-	![figures/2021-07-29_18-38-24.png](figures/2021-07-29_18-38-24.png)
-	
-	- The relevant theorem: $f(z) \leq {M \over \abs{z} }$ for $\abs{z} \gg 0$ implies $\int_{C_R} f(z) e^{i\alpha z} \convergesto{R\to\infty} 0$ where for $\alpha>0$ take $C_R$ to be the left rectangular contour, and $\alpha>0$ take $C_R$ the right.
+- Rational functions in $z$:
 
-- $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int f \approx \Re\displaystyle\int (g(e^{iz}))$.
+  - $f(z) \sim 1/z^{1+\eps}$: semicircular contours.
 
-- $f \in \CC[\cos(z), \sin(z)]$ rational functions of $\cos, \sin$: set 
+    ![figures/2021-07-29_18-37-57.png](figures/2021-07-29_18-37-57.png)
+    
+    - The relevant theorem: $f(z) \leq {M \over \abs{z}^{1+\eps} }$ for $\abs{z} \gg 0$ implies $\int_{C_R} f \convergesto{R\to\infty} 0$.
+
+  -  $f(z) \sim 1/z$: rectangular contours.
+
+    ![figures/2021-07-29_18-38-24.png](figures/2021-07-29_18-38-24.png)
+    
+    - The relevant theorem: $f(z) \leq {M \over \abs{z} }$ for $\abs{z} \gg 0$ implies $\int_{C_R} f(z) e^{i\alpha z} \convergesto{R\to\infty} 0$ where for $\alpha>0$ take $C_R$ to be the left rectangular contour, and $\alpha>0$ take $C_R$ the right.
+
+- Rational functions of $\cos, \sin$:
+  - Set
 	\[
 	2\cos(z) = z + z\inv, \quad 2\sin(z) = z - z\inv, && \dtheta = {\dz\over iz}
 	.\] 
 	This reduces to a residue count in $\abs{z} \leq 1$.
 	
-- For rational function against a single trig function:
+- $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int f \approx \Re\displaystyle\int (g(e^{iz}))$.
 
-![](figures/2021-12-10_18-24-10.png)
+- $\int_\RR f(x)\cos(x) = \Im(f(z)e^{iz})$ or $\int_\RR f(x)\sin x = \Im(f(z)e^{iz})$: use a semicircular contour, then if $f(re^{i\theta})\to 0$ uniformly as $r\to \infty$ for $0<\theta<\pi$, then just picks up the residues in $\HH$.
+
+- $\int_{\RR_{\geq 0}} f(x)x^\alpha$ for $\alpha$ rational with $\abs{\alpha} < 1$ 
+  - For $f$ rational with $\deg f\leq -2$, take a keyhole
+
+  ![](figures/2021-12-14_17-19-31.png)
+
+- $\int_{\RR_{\geq 0}} f(x) \log(x)$: indented semicircular contours
+
+![](figures/2021-12-14_17-20-48.png)
 
 :::
 

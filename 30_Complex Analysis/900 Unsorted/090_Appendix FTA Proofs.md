@@ -55,6 +55,12 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 
 ## Liouville's Theorem
 
+:::{.proof title="?"}
+
+![](figures/2021-12-14_16-58-33.png)
+
+:::
+
 
 :::{.proof title="from Gamelin"}
 

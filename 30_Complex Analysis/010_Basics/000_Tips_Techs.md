@@ -87,6 +87,23 @@ Some silly arithmetic tricks:
 - To show that a zero $z_0$ is order $n$, show that $f^{(<n)}(z_0) = 0$ but $f^{(n)}(z_0) \neq 0$.
 - To prove $a\leq b$, try showing ${a\over b} \leq 1$.
 - To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.
+- To bound a rational function, use the reverse triangle inequality:
+\[
+\abs{a\pm b} \geq \abs{ \abs{a} - \abs{b}} \implies {1\over \abs{a\pm b}} \leq {1\over \abs{\abs{a} - \abs{b} } }
+.\]
+
+- To show $a\leq b$, try ${a\over b}\leq 1$ instead and reason about $\DD$.
+  Alternatively, try $b-a\geq 0$ (obvious, but useful!)
+- Entire functions with only poles at $\infty$ must be polynomial.
+- Given $f$, define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$.
+- If $f$ is holomorphic in a neighborhood of $\DD$ and $\abs{f} = 1$ on $\bd \DD$, then $f$ is a finite Blaschke product.
+- If $\abs{f} = M$ on $\bd \Omega$, then if (importantly) $f\neq 0$ in $\Omega$ then $\abs{f} = M$ on all of $\bar \Omega$ by apply the MMP to $f$ and $1/f$.
+  - Why $f\neq 0$ is necessary: take $f(z) = z$.
+- A holomorphic function with a non-isolated zero is identically zero.
+- If $f$ has no zeros, put it in the denominator! No one can stop you!
+  - Getting rid of zeros: divide by a Blaschke product.
+
+- $f$ and $f'$ have the same poles.
 
 :::
 

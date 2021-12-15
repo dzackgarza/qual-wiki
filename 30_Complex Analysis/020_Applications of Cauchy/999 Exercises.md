@@ -60,3 +60,16 @@ where on the right we take the sup over all $\Omega$.
 where if $R$ is fixed then by uniform convergence of $f_n\to f$, for $n$ large enough $\norm{f_n - f} < \eps/R$.
 :::
 
+:::{.exercise title="Sublinear growth"}
+
+![](figures/2021-12-14_16-52-03.png)
+
+:::
+
+:::{.exercise title="Polynomial growth"}
+
+![](figures/2021-12-14_16-52-37.png)
+![](figures/2021-12-14_16-52-44.png)
+
+:::
+

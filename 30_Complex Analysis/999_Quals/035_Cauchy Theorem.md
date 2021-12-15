@@ -4,6 +4,20 @@ order: 35
 
 # Cauchy's Theorem
 
+## Fall 2019.3, Spring 2020 HW 2.9 (Cauchy's Formula for Exterior Regions) #work
+
+^f2a684
+
+Let $\gamma$ be a piecewise smooth simple closed curve with interior $\Omega_1$ and exterior $\Omega_2$.
+Assume $f'$ exists in an open set containing $\gamma$ and $\Omega_2$ with $\lim_{z\to \infty} f(z) = A$.
+Show that
+$$
+\frac{1}{2 \pi i} \int_{\gamma} \frac{f(\xi)}{\xi-z} d \xi=\left\{\begin{array}{ll}
+A, & \text { if } z \in \Omega_{1} \\
+-f(z)+A, & \text { if } z \in \Omega_{2}
+\end{array}\right.
+.$$
+
 ## 2 #work
 
 State and prove Green's Theorem for rectangles.
@@ -150,20 +164,23 @@ $\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$
 ## Tie's Extra Questions: Fall 2009 #work
 
 Let $f$ be a continuous function in the region
-$$D=\{z \suchthat  \abs{z}>R, 0\leq \arg z\leq \theta\}\quad\text{where}\quad
-1\leq \theta \leq 2\pi.$$ If there exists $k$ such that
-$\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region
-$D$.
-Show that $$\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k,$$
-where $L$ is the part of the circle $|z|=R'$ which lies in the
-region $D$.
+$$
+D=\{z \suchthat  \abs{z}>R, 0\leq \arg z\leq \theta\}\quad\text{where}\quad 1\leq \theta \leq 2\pi
+.$$ 
+If there exists $k$ such that
+$\displaystyle{\lim_{z\to\infty} zf(z)=k}$ for $z$ in the region $D$.
+Show that 
+$$
+\lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k
+,$$ 
+where $L$ is the part of the circle $|z|=R'$ which lies in the region $D$.
 
 ## Spring 2020 HW 2 #  2.6.5 #work
 
 Suppose $f\in C_\CC^1(\Omega)$ and $T\subset \Omega$ is a triangle with $T^\circ \subset \Omega$.
-1. Apply Green's theorem to show that $\int_T f(z) ~dz = 0$.
 
-2. Assume that $f'$ is continuous and prove Goursat's theorem.
+- Apply Green's theorem to show that $\int_T f(z) ~dz = 0$.
+- Assume that $f'$ is continuous and prove Goursat's theorem.
 
 > Hint: Green's theorem states
 \[
@@ -220,7 +237,9 @@ Show that if $C$ is a circle of sufficiently small radius centered at $z_0$, the
 
 > Hint: use the inverse function theorem.
 
+
 ## Spring 2020 HW 2 #  8 #work
+
 Assume two functions $u, b: \RR^2 \to \RR$ have continuous partial derivatives at $(x_0 ,y_0)$.
 Show that $f \definedas u + iv$ has derivative $f'(z_0)$ at $z_0 = x_0 + iy_0$ if and only if
 \[
@@ -228,17 +247,8 @@ Show that $f \definedas u + iv$ has derivative $f'(z_0)$ at $z_0 = x_0 + iy_0$ i
 .\]
 
 
-## Spring 2020 HW 2 #  9 (Cauchy's Formula for Exterior Regions) #work
 
-Let $\gamma$ be a piecewise smooth simple closed curve with interior $\Omega_1$ and exterior $\Omega_2$.
-Assume $f'$ exists in an open set containing $\gamma$ and $\Omega_2$ with $\lim_{z\to \infty} f(z) = A$.
-Show that
-\[
-\frac{1}{2 \pi i} \int_{\gamma} \frac{f(\xi)}{\xi-z} d \xi=\left\{\begin{array}{ll}
-A, & \text { if } z \in \Omega_{1} \\
--f(z)+A, & \text { if } z \in \Omega_{2}
-\end{array}\right.
-.\]
+
 
 ## Spring 2020 HW 2 #  10 #work
 Let $f(z)$ be bounded and analytic in $\CC$.

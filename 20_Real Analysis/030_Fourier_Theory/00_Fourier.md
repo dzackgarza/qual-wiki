@@ -4,6 +4,8 @@ order: 40
 
 # Fourier Transform and Convolution
 
+> Some nice reading: <https://people.math.gatech.edu/~heil/7338/fall09/approxid.pdf>
+
 ## The Fourier Transform
 
 :::{.proposition title="?"}
@@ -17,6 +19,14 @@ f\in L^1 \implies
 ,\]
 
 if $f \in L^1$, then $\hat f$ is continuous and bounded.
+:::
+
+:::{.remark}
+Note that this implies there can be no identity for convolution: if there existed a function $\delta$ with $\delta(x) = 0$ for $x\neq 0$ and $\int\delta = 1$, then
+\[
+\widehat{\delta}(\xi)=\int \delta(x) e^{-2 \pi i \xi x} d x=\int \delta(x) d x=1
+,\]
+contradicting Riemann-Lebesgue.
 :::
 
 :::{.proof title="?"}
