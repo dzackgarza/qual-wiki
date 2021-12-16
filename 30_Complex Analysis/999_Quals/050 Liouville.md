@@ -4,7 +4,7 @@ order: 50
 
 # Liouville's Theorem
 
-## Spring 2020.3 #completed
+## Spring 2020.3, Extras Fall 2009 #completed
 
 ^c6e205
 
@@ -120,8 +120,7 @@ Thus all such functions are of the form $f(z) = cz$ for some $c\in \CC$ with $\a
 :::
 
 
-## 9 #work
-
+## Entire functions with an asymptotic bound #completed
 
 :::{.problem title="?"}
 Find all entire functions satisfying
@@ -145,21 +144,6 @@ This forces $f = c_0$ to be constant.
 
 :::
 
-
-
-
-## Tie's Extra Questions: Fall 2009 #work
-
-1. 
-Assume $\displaystyle f(z) = \sum_{n=0}^\infty c_n z^n$ converges in $|z| < R$. 
-
-Show that for $r <R$,
-$$
-\frac{1}{2 \pi} \int_0^{2 \pi} |f(r e^{i \theta})|^2 d \theta = \sum_{n=0}^\infty |c_n|^2 r^{2n}
-.$$
-
-2.
-Deduce Liouville's theorem from (1).
 
 
 ## Tie's Extra Questions: Fall 2009 #work
