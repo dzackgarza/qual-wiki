@@ -88,3 +88,21 @@ This means $f\equiv c$ is constant, but $\lim_{z\to \infty}g(z) = 0$ forces $c=\
 :::
 
 
+:::{.exercise title="Rudin 10.3"}
+Suppose $\abs{f(z)}\leq \abs{g(z)}$ for all $z$.
+What conclusion can you draw?
+
+#completed
+
+:::
+
+
+:::{.solution}
+Write $h(z) \da f(z)/g(z)$, then $\abs{f}\leq 1$ is bounded.
+Provided the zeros of $g$ do not have a limit point, the singularities of $h$ are isolated and thus removable.
+By Riemann's removable singularity theorem, $h$ extends to an entire function, and thus by Liouville $h$ is constant, making $f = cg$ for some $c$.
+:::
+
+
+
+
