@@ -102,6 +102,25 @@ f^{(n-1)}(0) = {(n-1)! \over 2\pi i} \int_{S^1} {f(z) \over z^n}\dz \\
 
 :::
 
+
+:::{.exercise title="?"}
+Compute
+\[
+\int_\gamma {z^2+1 \over z(z^2 + 4)}\dz
+\]
+for a circle of radius $1$
+
+#completed
+
+:::
+
+
+:::{.solution}
+Notice this can be written as $f(z)/z$ where $f(z) = {z^2+1\over z^2+4}$ is holomorphic on $\DD$, so this yields $2\pi i f(0) = {i\pi \over 2}$.
+:::
+
+
+
 ## Residue Formulas
 
 :::{.theorem title="The Residue Theorem"}
