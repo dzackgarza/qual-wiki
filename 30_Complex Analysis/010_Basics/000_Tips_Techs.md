@@ -86,6 +86,7 @@ Some silly arithmetic tricks:
 - A holomorphic function with a non-isolated zero is identically zero.
 	- How to use: show $f-g$ has uncountably many zeros
 - Show that $f$ omits at least 2 values and apply little Picard.
+	- E.g. if $f$ misses an open set, or $\abs{f} \geq M$ or $\abs{f} \leq M$.
 - Define $g\da e^f$, then $\abs{g} = e^{\Re(f)}$ and if $g$ is constant then $f$ is constant.
 - Show any of the following are constant:
 	- $u = \Re(f)$

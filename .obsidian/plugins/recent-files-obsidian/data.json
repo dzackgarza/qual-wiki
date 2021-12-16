@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
-    },
-    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
+      "basename": "00_Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
+    },
+    {
+      "basename": "20_Solutions",
+      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
     },
     {
       "basename": "020 Liouville",
@@ -35,10 +39,6 @@
     {
       "basename": "015_Singularities",
       "path": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
     {
       "basename": "030 Identity Principle",
