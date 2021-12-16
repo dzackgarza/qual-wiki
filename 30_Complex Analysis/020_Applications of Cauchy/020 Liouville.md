@@ -67,3 +67,24 @@ Apply the Cauchy estimate on a curve of radius $R\gg 1$:
 If this holds on all of $\CC$, then $h(z) \da f(z)/z^n$ is constant and thus $f(z) = cz^n$.
 :::
 
+:::{.exercise title="?"}
+Find all entire functions $f$ satisfying
+\[
+\abs{f(z)} \geq \abs{z} + 1 &&\forall z\in \CC
+.\]
+
+#completed
+
+:::
+
+:::{.solution}
+The inequality implies $f$ has no zeros, so $g(z) \da 1/f(z)$ is entire.
+Moreover it is bounded on $\CC$, since
+\[
+\abs{g(z)} \leq {1\over \abs{z} + 1} \leq 1
+,\]
+so $g\equiv c$ is constant by Liouville.
+This means $f\equiv c$ is constant, but $\lim_{z\to \infty}g(z) = 0$ forces $c=\infty$, so there are no such entire functions.
+:::
+
+
