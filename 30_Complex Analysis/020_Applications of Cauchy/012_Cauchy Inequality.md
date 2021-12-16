@@ -11,6 +11,10 @@ For $z_0 \in D_R(z_0) \subset \Omega$, setting $M \da \sup_{z\in \gamma}\abs{f(z
 
 :::{.slogan}
 The $n$th Taylor coefficient of an analytic function is at most $\sup_{\abs z = R} \abs{f}/R^n$.
+\[
+\abs{c} \asymptotic {\norm{f}_\infty \over R^n}
+.\]
+
 :::
 
 :::{.proof title="of Cauchy's inequality"}
@@ -31,8 +35,7 @@ The $n$th Taylor coefficient of an analytic function is at most $\sup_{\abs z = 
 :::
 
 
-
-:::{.exercise title="?"}
+:::{.exercise title="?"} 
 Show that if $f$ is entire and $\abs{f(z)} \in \bigo(\abs{z}^p)$ for $\abs{z}$ sufficiently large, then $f$ is a polynomial of degree at most $\floor{p}$.
 
 #completed
