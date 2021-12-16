@@ -130,7 +130,6 @@ Find all entire functions satisfying
 .\]
 :::
 
-
 :::{.solution}
 Since $f$ is entire, take a Laurent expansion at $z=0$, so $f(z) = \sum_{k\geq 0} c_k z^k$ where ${2\pi i\over k!} c_k = f^{(k)}(0)$ by Cauchy's integral formula.
 Take a Cauchy estimate on a disc of radius $R>10$:

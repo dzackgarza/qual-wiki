@@ -12,10 +12,11 @@ For $z_0 \in D_R(z_0) \subset \Omega$, setting $M \da \sup_{z\in \gamma}\abs{f(z
 :::{.slogan}
 The $n$th Taylor coefficient of an analytic function is at most $\sup_{\abs z = R} \abs{f}/R^n$.
 \[
-\abs{c} \asymptotic {\norm{f}_\infty \over R^n}
+\abs{c_k} \asymptotic {\norm{f}_\infty \over R^k}
 .\]
 
 :::
+
 
 :::{.proof title="of Cauchy's inequality"}
 \envlist
