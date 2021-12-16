@@ -141,6 +141,8 @@ Take a Cauchy estimate on a disc of radius $R>10$:
 &= {1\over 2\pi} \cdot {1\over R^{k+{1\over 2}}}\cdot 2\pi R \\
 &= \bigo(1/R^{k-{1\over 2}})
 .\]
+So in particular, if $k\geq 1$ then $k-{1\over 2}>0$ and $c_k = 0$.
+This forces $f = c_0$ to be constant.
 
 :::
 
