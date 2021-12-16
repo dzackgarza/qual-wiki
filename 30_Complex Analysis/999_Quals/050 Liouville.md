@@ -161,9 +161,27 @@ But now $1/f =c$ is constant by Liouville, which forces $f= 1/c$ to be constant.
 
 ## Tie's Extra Questions: Fall 2015
 
+
+:::{.problem title="?"}
 Let $f(z)$ be bounded and analytic in $\mathbb C$. Let $a \neq b$ be any fixed complex numbers. Show that the following limit exists:
 $$
 \lim_{R \rightarrow \infty} \int_{|z|=R} \frac{f(z)}{(z-a)(z-b)} dz
 .$$
 
 Use this to show that $f(z)$ must be a constant (Liouville's theorem).
+:::
+
+
+:::{.solution}
+Apply PFD and Cauchy's formula:
+\[
+\int_\gamma {f(z) \over (z-a)(z-b)}\dz
+&= \int_\gamma f(z)\qty{{a-b \over z-a} + {b-a\over z-b} } \dz\\
+&= (a-b) \int_\gamma {f(z) \over z-a} \dz + (b-a) \int_\gamma {f(z) \over z-b}\dz \\ 
+&= (a-b) \cdot 2\pi i f(a) + (b-a)\cdot 2\pi i f(b)
+.\]
+
+:::
+
+
+
