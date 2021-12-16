@@ -177,9 +177,9 @@ Apply PFD and use that $f$ is holomorphic to apply Cauchy's formula over a curve
 \[
 \int_\gamma {f(z) \over (z-a)(z-b)}\dz
 &= \int_\gamma f(z)\qty{{a-b \over z-a} + {b-a\over z-b} } \dz\\
-&= (a-b) \int_\gamma {f(z) \over z-a} \dz + (b-a) \int_\gamma {f(z) \over z-b}\dz \\ 
-&= (a-b) \cdot 2\pi i f(a) + (b-a)\cdot 2\pi i f(b)\\
-&= 2\pi i (a-b)\qty{f(a) - f(b) }
+&= (a-b)\inv \int_\gamma {f(z) \over z-a} \dz + (b-a)\inv \int_\gamma {f(z) \over z-b}\dz \\ 
+&= (a-b)\inv \cdot 2\pi i f(a) + (b-a)\cdot 2\pi i f(b)\\
+&= 2\pi i\qty{f(a) - f(b) \over a-b }
 .\]
 Since $f$ is bounded, this number is finite and independent of $R$, so taking $R\to\infty$ preserves this equality.
 
