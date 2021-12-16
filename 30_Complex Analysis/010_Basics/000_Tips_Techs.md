@@ -74,6 +74,7 @@ Some silly arithmetic tricks:
 - Show $f' = 0$.
 	- Can write $f=u+iv$ and show $u_x, u_y = 0$ and apply CR.
 - Show $\abs{f}=0$ on the boundary and apply the MMP.
+- Show that $f$ attains a minimum or maximum on the interior of a domain where it is nonzero.
 - Show that $f$ is entire and bounded.
   - If you additionally want to show $f$ is zero, show $\lim_{z\to\infty} f(z) = 0$.
   - Useful trick: show that *either* $\abs{f} \geq M$ or $\abs{f} \leq M$, then by Liouville on $f$ or $1/f$ respectively, $f$ must be constant.
