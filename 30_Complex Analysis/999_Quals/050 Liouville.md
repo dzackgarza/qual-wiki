@@ -133,11 +133,13 @@ Find all entire functions satisfying
 
 :::{.solution}
 Consider $g(z) \da f(z)/z^{1\over 2}$, then for $\abs{z} > 10, \abs{g(z)} \leq 1$.
-Now apply a Cauchy estimate on a disc of radius $R>10$:
+Now apply a Cauchy estimate on a disc of radius $R>10$: for $n\geq 1$, we have
 \[
-\abs{ f^{(n+1)}(z) } 
-&\leq {1\over 2\pi}\int_{\abs{z} = R} \abs{f(z) \over (z-a)^n}\dz \\
-&\leq {1\over 2\pi}\int_{\abs{z} = R} \abs{f(z)}R^n \dz \\
+\abs{ g^{(n)}(z) } 
+&\leq {1\over 2\pi}\int_{\abs{z} = R} \abs{g(z) \over (z-a)^{n+1}}\dz \\
+&\leq {1\over 2\pi}\int_{\abs{z} = R} \abs{g(z)}R^{-(n+1)} \dz \\
+&= {1\over 2\pi}\cdot R^{-(n+1)} \cdot 2\pi R \\
+&= \bigo(R^{-n})\to 0
 .\]
 
 :::
