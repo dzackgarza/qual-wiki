@@ -122,10 +122,27 @@ Thus all such functions are of the form $f(z) = cz$ for some $c\in \CC$ with $\a
 
 ## 9 #work
 
+
+:::{.problem title="?"}
 Find all entire functions satisfying
 \[
 \abs{f(z)} \leq \abs{z}^{1\over 2} \quad\text{ for } \abs{z} > 10
 .\]
+:::
+
+
+:::{.solution}
+Consider $g(z) \da f(z)/z^{1\over 2}$, then for $\abs{z} > 10, \abs{g(z)} \leq 1$.
+Now apply a Cauchy estimate on a disc of radius $R>10$:
+\[
+\abs{ f^{(n+1)}(z) } 
+&\leq {1\over 2\pi}\int_{\abs{z} = R} \abs{f(z) \over (z-a)^n}\dz \\
+&\leq {1\over 2\pi}\int_{\abs{z} = R} \abs{f(z)}R^n \dz \\
+.\]
+
+:::
+
+
 
 
 ## Tie's Extra Questions: Fall 2009 #work
