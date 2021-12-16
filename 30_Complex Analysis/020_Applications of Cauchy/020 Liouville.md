@@ -49,15 +49,13 @@ So any such singularities are removable, and $h$ extends over the singularities 
 Now $h$ is bounded and entire, thus constant, so $c = h = f/g \implies f=cg$.
 :::
 
-
-
 :::{.exercise title="?"}
 Show that if $\abs{f(z)/z^n}$ is bounded for $\abs{z}\geq R$, then $f$ is a polynomial of degree at most $n$.
+What happens if this bound holds on all of $\CC$?
 
 #completed
 
 :::
-
 
 :::{.solution}
 Use that $f$ is entire to Laurent expand at $z=0$ to get $f(z) = \sum_{k\geq 0}c_k z^k$ everywhere.
@@ -67,12 +65,12 @@ Apply the Cauchy estimate on a curve of radius $R\gg 1$:
 \[
 \abs{ f^{n+k} (0)} 
 &\leq {(n+k)! \over 2\pi} \int_{\abs{z} = R} \abs{f(\xi) \over \xi^{n+k+1}}\dxi\\
-&\leq {(n+k)! \over 2\pi} \int_{\abs{z} = R} \abs{M \over \xi^{n+k+1}}\dxi\\
-&= {(n+k)! \over 2\pi} \int_{\abs{z} = R} \abs{M \over R ^{n+k+1}}\dxi
+&\leq {(n+k)! \over 2\pi} \int_{\abs{z} = R} \abs{M \over \xi^n \xi^{k+1}}\dxi\\
+&= {(n+k)! \over 2\pi} \int_{\abs{z} = R} \abs{M \over R ^{k+1}}\dxi\\
+&= {(n+k)! \over 2\pi} {M\over R^{k+1}} \cdot 2\pi R \\
+&= \bigo(1/R) \to 0
 .\]
 
-
+If this holds on all of $\CC$, then $h(z) \da f(z)/z^n$ is constant and thus $f(z) = cz^n$.
 :::
-
-
 
