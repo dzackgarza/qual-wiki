@@ -1,4 +1,4 @@
-# Integrals
+# Exercises: Integrals
 
 :::{.remark}
 For guidelines for what techniques to use,
@@ -188,7 +188,6 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 ![figures/2021-07-29_18-53-35.png](figures/2021-07-29_18-53-35.png)
 
 :::
-
 
 
 
