@@ -87,7 +87,6 @@ so $g\equiv c$ is constant by Liouville.
 This means $f\equiv c$ is constant, but $\lim_{z\to \infty}g(z) = 0$ forces $c=\infty$, so there are no such entire functions.
 :::
 
-
 :::{.exercise title="Rudin 10.4"}
 Let $f$ be entire and suppose that for $\abs{z} \geq M$,
 \[
@@ -98,7 +97,6 @@ Show that $f$ is a polynomial of degree at most $k$.
 
 #completed
 
-
 :::
 
 :::{.solution}
@@ -107,10 +105,7 @@ Apply a Cauchy estimate over a contour of radius $R> M$ to obtain
 \abs{f^{(n)}(0)} \leq n!{A+B R^k \over R^n} \asymptotic 1/R^{n-k}
 ,\]
 and if $n>k$ then this goes to zero in $R$ and $c_n = 0$ for all $n>k$.
-
 :::
-
-
 
 :::{.exercise title="Rudin 10.3"}
 Suppose $\abs{f(z)}\leq \abs{g(z)}$ for all $z$.
@@ -119,7 +114,6 @@ What conclusion can you draw?
 #completed
 
 :::
-
 
 :::{.solution}
 Write $h(z) \da f(z)/g(z)$, then $\abs{f}\leq 1$ is bounded.
