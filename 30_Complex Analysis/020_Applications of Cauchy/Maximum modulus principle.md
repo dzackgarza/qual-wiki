@@ -10,15 +10,31 @@ If $f(z) = 0$ for some $z\in \bd G$, we're done, so suppose $f\neq 0$ on $\bar G
 Then $1/f$ is holomorphic on $G$ and continuous on $\bar G$, so $\max_{z\in \bar G}\abs{1/f(z)} = \max_{z\in \bd G} \abs{1/f(z)}$.
 :::
 
-
 :::{.exercise title="?"}
 Suppose $f$ is holomorphic on $\DD$ with $\abs{f} = 1$ on $S^1$.
 Show that $f$ is either constant or has a zero in $\DD$.
+
+#completed
+
 :::
 
 :::{.solution}
 If $f$ has no zeros in $\DD$, apply the MMP to $1/f$ to get $\abs{f} = 1$ on all of $\DD$.
 By Cauchy-Riemann, if $\abs{f}$ is constant, $f$ is constant.
+:::
+
+
+:::{.exercise title="?"}
+Let $f: \Omega\to \CC$ be holomorphic and suppose there is a $z_0 \in \Omega$ with $\abs{f(z_0)}\leq \abs{f(z)}$ for all $z\in \Omega$.
+Show that either $f(a) = 0$ or $f$ is constant.
+
+#completed 
+
+:::
+
+
+:::{.solution}
+
 :::
 
 

@@ -202,4 +202,17 @@ If $f\not\equiv 0$, there is a point $z_0$ where $f(z_0)\neq 0$, and thus a neig
 This forces $g\equiv 0$ on $U$, however $U$ is a set with a limit point, so $g\equiv 0$ on $\Omega$ by the identity principle.
 :::
 
+:::{.exercise title="?"}
+Find all entire functions $f$ such that $f(x) = e^x$ on $\RR$.
+
+#completed
+
+:::
+
+:::{.solution}
+The function $g(z) \da f(z) - e^z$ is entire and identically zero on $\RR$, which contains a limit point.
+So $g(z) \equiv 0$ on $\CC$, meaning $f(z) = e^z$ is the only such function.
+
+:::
+
 
