@@ -37,5 +37,21 @@ So $g(z) \da 1/f(z)$ is nonzero and holomorphic on $\Omega$ and $\abs{g(z)}\leq 
 Since $z_0\in \Omega$, the MMP forces $g$ to be constant, and thus so is $f$.
 :::
 
+:::{.exercise title="?"}
+Show that if $\Re(f(z)) \geq 0$ for all $z\in \CC$, then $f$ is constant.
+
+#completed
+
+:::
+
+:::{.solution}
+Define $g(z) \da e^{-f(z)}$, then
+\[
+\abs{g(z)} = e^{-\Re(f(z))} \leq e^0 = 1
+.\]
+Since $g$ is entire and bounded, $g$ is constant and thus so is $f$.
+:::
+
+
 
 
