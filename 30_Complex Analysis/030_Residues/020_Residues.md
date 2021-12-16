@@ -15,6 +15,8 @@ We freely abuse notation!
 Check: do you need residues at all??
 You may be able to just compute an integral!
 
+- Check to see if the function is holomorphic in the interior first, in which case the integral just vanishes.
+
 - Directly by parameterization:
 \[
 \int_\gamma f \dz = \int_a^b f(z(t))\, z'(t) \dt && \text{for } z(t) \text{ a parameterization of } \gamma
