@@ -15,7 +15,8 @@ We freely abuse notation!
 Check: do you need residues at all??
 You may be able to just compute an integral!
 
-- Check to see if the function is holomorphic in the interior first, in which case the integral just vanishes.
+- Check to see if the integrand is holomorphic in the interior first, in which case the integral just vanishes.
+  - If you have an integral of the form $\int {f(z) \over (z-a)^n}\dz$, apply Cauchy.
 
 - Directly by parameterization:
 \[
@@ -32,7 +33,6 @@ You may be able to just compute an integral!
   z= z_0 + re^{i \theta }
   .\]
 
-- Apply Cauchy's formula, if you have an integral of the form $\int {f(z) \over (z-a)^n}\dz$.
 :::
 
 :::{.fact title="Integrating $z^k$ around $S^1$ is the source of residue theory"}
