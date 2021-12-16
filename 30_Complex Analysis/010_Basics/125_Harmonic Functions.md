@@ -104,8 +104,6 @@ Write $f=u+iv$, which is analytic.
 - $f'$ is analytic and one can write $f' = u_x + iv_x$, which has harmonic components.
 :::
 
-
-
 :::{.exercise title="?"}
 Find a harmonic conjugate for
 \[
@@ -116,6 +114,18 @@ u(x, y) = x^3 - 3xy^2 -x -y
 
 :::
 
+:::{.concept}
+The standard procedure for harmonic conjugates:
+
+- Start with $u$
+- Take $\dd{}{x}$ to get $u_x$
+- Apply CR to get $u_x = v_y$
+- Take $\int \dy$ to get $v$, which is essentially the solution up to an unknown $f(x)$.
+- Take $\dd{}{x}$ to get $v_x$ which involves $f_x$
+- Apply CR to set $v_x = -u_y$ and solve for $f_x$
+- Compute $\int f_x \dx$ to obtain $f(x)$.
+
+:::
 
 :::{.solution}
 First, check that $u$ is actually harmonic: 
@@ -136,10 +146,6 @@ Thus
 \[
 v(x, y) = 3x^2y - y^3 - y + x + c_1
 .\]
-
-
-
-
 
 :::
 
