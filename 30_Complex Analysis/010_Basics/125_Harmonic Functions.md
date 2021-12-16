@@ -125,6 +125,24 @@ The standard procedure for harmonic conjugates:
 - Apply CR to set $v_x = -u_y$ and solve for $f_x$
 - Compute $\int f_x \dx$ to obtain $f(x)$.
 
+My quick mnemonic:
+
+\begin{tikzcd}
+	u & f &&& \textcolor{rgb,255:red,92;green,214;blue,92}{v, f} \\
+	&&&& {v, f(x)} \\
+	& {u_y, f_x} && {v_x, f_x} \\
+	{u_x} &&&& {v_y}
+	\arrow["{\dd{}{x}}", from=1-1, to=4-1]
+	\arrow["CR", dashed, from=4-1, to=4-5]
+	\arrow["{\dd{}{x}}"', from=2-5, to=3-4]
+	\arrow["CR", dashed, from=3-4, to=3-2]
+	\arrow["{\int \dx}"', from=3-2, to=1-2]
+	\arrow[squiggly, from=1-2, to=1-5]
+	\arrow["{\int \dy}"', from=4-5, to=2-5]
+\end{tikzcd}
+
+> [Link to Diagram](https://q.uiver.app/?q=WzAsOCxbMCwwLCJ1Il0sWzAsMywidV94Il0sWzQsMywidl95Il0sWzQsMSwidiwgZih4KSJdLFszLDIsInZfeCwgZl94Il0sWzEsMiwidV95LCBmX3giXSxbMSwwLCJmIl0sWzQsMCwidiwgZiIsWzEyMCw2MCw2MCwxXV0sWzAsMSwiXFxkZHt9e3h9Il0sWzEsMiwiQ1IiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMyw0LCJcXGRke317eH0iLDJdLFs0LDUsIkNSIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzUsNiwiXFxpbnQgXFxkeCIsMl0sWzYsNywiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoic3F1aWdnbHkifX19XSxbMiwzLCJcXGludCBcXGR5IiwyXV0=)
+
 :::
 
 :::{.solution}
@@ -148,5 +166,4 @@ v(x, y) = 3x^2y - y^3 - y + x + c_1
 .\]
 
 :::
-
 
