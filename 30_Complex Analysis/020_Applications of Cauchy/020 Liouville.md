@@ -100,7 +100,9 @@ What conclusion can you draw?
 :::{.solution}
 Write $h(z) \da f(z)/g(z)$, then $\abs{f}\leq 1$ is bounded.
 Provided the zeros of $g$ do not have a limit point, the singularities of $h$ are isolated and thus removable.
-By Riemann's removable singularity theorem, $h$ extends to an entire function, and thus by Liouville $h$ is constant, making $f = cg$ for some $c$.
+By Riemann's removable singularity theorem, $h$ extends to an entire function.
+By continuity, $\abs{h(z)}\leq 1$ on $\CC$ and is thus bounded.
+By Liouville $h$ is constant, making $f = cg$ for some $c$.
 :::
 
 
