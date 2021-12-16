@@ -105,3 +105,42 @@ Write $f=u+iv$, which is analytic.
 :::
 
 
+
+:::{.exercise title="?"}
+Find a harmonic conjugate for
+\[
+u(x, y) = x^3 - 3xy^2 -x -y
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+First, check that $u$ is actually harmonic: 
+\[
+\laplacian u = \dd{}{x}(3x^2-3y^2-1) + \dd{}{y}(-6xy - 1) = 6x + (-6x) = 0
+.\]
+
+Standard procedure: integrate $v_y=u_x$ with respect to $x$,
+\[
+v_y = u_x = 3x^2 - 3y^2 - 1 \implies 
+v = \int u_x \dy = 3x^2y - y^3 - y + f_1(x)
+.\]
+Now differentiate $v$ with respect to $x$ and set $v_x = -u_y$:
+\[
+v_x = 6xy + (f_1)_x = -u_y = 6xy + 1\implies f_1 = x + c_1
+.\]
+Thus
+\[
+v(x, y) = 3x^2y - y^3 - y + x + c_1
+.\]
+
+
+
+
+
+:::
+
+
