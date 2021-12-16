@@ -82,8 +82,6 @@ M_{z_1} \da {z_1 - z \over 1 - \bar{z_1} z}
 This swaps $z_1$ and $0$.
 :::
 
-
-
 :::{.remark}
 Note that if $T(z) = {az+b\over cz + d}$, this can be written as the cross-ratio 
 \[
@@ -91,4 +89,3 @@ T(z) = (z; {d-b\over a-c}, -{b\over a}, -{d\over c})
 .\]
 
 :::
-
