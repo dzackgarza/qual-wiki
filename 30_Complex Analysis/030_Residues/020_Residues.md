@@ -54,18 +54,28 @@ i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansi
 
 :::{.exercise title="?"}
 Compute $\int_\gamma {1\over z^2 - 1} \dz$ for $\gamma$ a circle of radius 1 about $z=1$.
+Also compute this integral for $\gamma$ a circle of radius 2 about $z=0$.
 
 #completed
 
 :::
 
 :::{.solution}
+For the first integral:
 \[
 \int_\gamma{1\over z^2-1}\dz = {1\over 2}\int_\gamma {1\over z-1} + {1\over z+1}\dz = {1\over 2}\int_\gamma {1\over z-1} = {1\over 2}\cdot 2\pi i \Res_{z=1}f(z) = \pi i
 \]
 using that $f(z) = {1\over z-1}$ is already an expansion of $f$ about $z=1$ since it is a Laurent series in $(z-1)^k$, so the residue is $1$.
-:::
 
+For the second integral:
+attempt to define a primitive
+\[
+F(z) \da {1\over 2}\log\qty{z-1\over z+1} \implies F'(z) = {1\over z^2-1}
+.\]
+If this primitive is well-defined on $\gamma$, the integral will vanish because this is a closed curve.
+Choose the branch cut $\CC\sm(-\infty, 0]$ and define $g(z) = {z-1\over z+1}$, so that $F(z) = {1\over 2}\log(g(z))$.
+Then then $g(z)\in (-\infty, 0] \iff z\in [-1, 1]$ and $[-1, 1] \intersect \gamma = \emptyset$.
+:::
 
 ## Residue Formulas
 
