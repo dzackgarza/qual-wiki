@@ -28,7 +28,8 @@
 - [ ]  [[complex_prelim.pdf]]
 - [ ]  [Berkeley final solutions](https://math.berkeley.edu/~nikhil/courses/185.f15/finalsol.pdf)
 - [ ]  [Antieau midterms solutions](https://math.northwestern.edu/~antieau/201202-132/midterm-sols.pdf)
-- [ ] [[attachments/JHU Years of Analysis Exams.pdf]]
+- [ ] [[attachments/JHU Years of Analysis Exams.pdf|JHU Exams]]
+- [ ] [Rudin solutions](https://pages.uoregon.edu/ncp/Courses/Math618_Sp20_Web/HW/618_Sp20_HW06_Soln.pdf)
 
 ## Solutions from courses
 - [ ] Some homework solutions from an undergrad course at Berkeley: #solutions
