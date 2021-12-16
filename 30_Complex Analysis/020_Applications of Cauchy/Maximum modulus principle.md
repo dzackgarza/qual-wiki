@@ -23,7 +23,6 @@ If $f$ has no zeros in $\DD$, apply the MMP to $1/f$ to get $\abs{f} = 1$ on all
 By Cauchy-Riemann, if $\abs{f}$ is constant, $f$ is constant.
 :::
 
-
 :::{.exercise title="?"}
 Let $f: \Omega\to \CC$ be holomorphic and suppose there is a $z_0 \in \Omega$ with $\abs{f(z_0)}\leq \abs{f(z)}$ for all $z\in \Omega$.
 Show that either $f(a) = 0$ or $f$ is constant.
@@ -32,9 +31,10 @@ Show that either $f(a) = 0$ or $f$ is constant.
 
 :::
 
-
 :::{.solution}
-
+Suppose $f(z_0)\neq 0$, then the inequality forces there to be no zeros in $\Omega$.
+So $g(z) \da 1/f(z)$ is nonzero and holomorphic on $\Omega$ and $\abs{g(z)}\leq \abs{1\over f(z_0)} \da \abs{g(z_0)}$.
+Since $z_0\in \Omega$, the MMP forces $g$ to be constant, and thus so is $f$.
 :::
 
 
