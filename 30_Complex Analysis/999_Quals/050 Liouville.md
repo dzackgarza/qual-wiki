@@ -159,7 +159,7 @@ So $1/f$ extends to a holomorphic function.
 But now $1/f =c$ is constant by Liouville, which forces $f= 1/c$ to be constant.
 :::
 
-## Tie's Extra Questions: Fall 2015
+## Tie's Extra Questions: Fall 2015 #completed
 
 
 :::{.problem title="?"}
@@ -182,7 +182,14 @@ Apply PFD and use that $f$ is holomorphic to apply Cauchy's formula over a curve
 &= 2\pi i\qty{f(a) - f(b) \over a-b }
 .\]
 Since $f$ is bounded, this number is finite and independent of $R$, so taking $R\to\infty$ preserves this equality.
-
+On the other hand, if $\abs{f(z)}\leq M$, then we can estimate this integral directly as 
+\[
+I \leq 
+\int_{\abs z = R} {M \over \abs{R-a} \cdot \abs{R-b} } 
+= {M\cdot 2\pi R \over \abs{R-a} \cdot \abs{R-b}} \asymptotic {1\over R} \to 0
+,\]
+which forces $f(a) =f(b)$.
+Since $a, b$ were arbitrary, $f$ must be constant.
 :::
 
 
