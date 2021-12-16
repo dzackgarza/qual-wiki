@@ -141,6 +141,7 @@ Now apply a Cauchy estimate on a disc of radius $R>10$: for $n\geq 1$, we have
 &= {1\over 2\pi}\cdot R^{-(n+1)} \cdot 2\pi R \\
 &= \bigo(R^{-n})\to 0
 .\]
+In particular, $g'(z) = 0$ and $g$ is constant, so $f(z) = cz^{1\over 2}$ for some $c\in \CC$.
 
 :::
 
