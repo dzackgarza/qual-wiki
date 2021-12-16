@@ -137,11 +137,27 @@ Characterize all possibilities for $f$.
 
 :::
 
-
 :::{.solution}
 Write $g(z) \da f(z) / \sin(z)$, which is meromorphic with singularities at the zeros of $\sin(z)$ and bounded by 1.
 By boundedness, these singularities are removable, so $g$ extends to a bounded entire and thus constant function.
 So $f(z) = c\sin(z)$ where $\abs{c} \leq 1$.
 :::
+
+:::{.exercise title="?"}
+Let $f$ be entire with $\im(f) \intersect \DD_r(z_0)$ empty. 
+Show $f$ must be constant without using the Casorati-Weierstrass or Picard theorems.
+
+#complete 
+
+:::
+
+:::{.solution}
+Write $g(z) \da f(z) - z_0$, so $\abs{g(z)} \geq r$.
+Now $\abs{1/g(z)} \leq 1/r$ for all $z$, so $1/g$ is bounded. 
+Moreover it is entire since $f(z) \neq z_0$ for any $z$, and so $1/g = c$ is constant.
+Now unwind to get $f(z) = z_0 + {1\over c}$, which is also constant.
+:::
+
+
 
 
