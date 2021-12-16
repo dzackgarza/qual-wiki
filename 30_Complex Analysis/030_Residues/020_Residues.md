@@ -77,6 +77,32 @@ Choose the branch cut $\CC\sm(-\infty, 0]$ and define $g(z) = {z-1\over z+1}$, s
 Then then $g(z)\in (-\infty, 0] \iff z\in [-1, 1]$ and $[-1, 1] \intersect \gamma = \emptyset$.
 :::
 
+
+:::{.exercise title="?"}
+Compute
+\[
+\int_{S^1} {2 \sinh(z) \over z^n}\dz
+.\]
+
+
+#completed
+
+:::
+
+
+:::{.solution}
+Write $f(z) = 2\sinh(z) = e^{z} - e^{-z}$ and apply the generalized Cauchy formula:
+\[
+f^{(n-1)}(0) = {(n-1)! \over 2\pi i} \int_{S^1} {f(z) \over z^n}\dz \\
+\implies \int_{S^1}{f(z)\over z^n}\dz 
+= {2\pi i f^{(n-1)(0)} \over (n-1)!}
+= {2\pi i \qty{e^{z} + (-1)^n e^{-z}} \over (n-1)!}
+.\]
+
+:::
+
+
+
 ## Residue Formulas
 
 :::{.theorem title="The Residue Theorem"}
