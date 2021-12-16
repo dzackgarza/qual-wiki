@@ -52,6 +52,21 @@ i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansi
 
 :::
 
+:::{.exercise title="?"}
+Compute $\int_\gamma {1\over z^2 - 1} \dz$ for $\gamma$ a circle of radius 1 about $z=1$.
+
+#completed
+
+:::
+
+:::{.solution}
+\[
+\int_\gamma{1\over z^2-1}\dz = {1\over 2}\int_\gamma {1\over z-1} + {1\over z+1}\dz = {1\over 2}\int_\gamma {1\over z-1} = {1\over 2}\cdot 2\pi i \Res_{z=1}f(z) = \pi i
+\]
+using that $f(z) = {1\over z-1}$ is already an expansion of $f$ about $z=1$ since it is a Laurent series in $(z-1)^k$, so the residue is $1$.
+:::
+
+
 ## Residue Formulas
 
 :::{.theorem title="The Residue Theorem"}
