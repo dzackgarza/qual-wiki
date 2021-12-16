@@ -1,4 +1,3 @@
-
 # Casorati-Weierstrass
 
 :::{.theorem title="Casorati-Weierstrass" ref="Casorati"}
@@ -45,5 +44,7 @@ This contradicts Casorati-Weierstrass, which requires that $\im g$ be dense in $
 
 Alternatively, note $f\neq 0$ by the inequality, so $1/f$ is bounded and entire and thus constant.
 However, $f(z) = c$ contradicts the inequality, since $e^{\abs{z}}\to \infty$ as $\abs{z}\to \infty$.
+
+Alternatively, note that $e^{\abs{z}} \geq 1$ for all $z$, so $\im(f) \intersect \DD$ is empty, again contradicting Casorati-Weierstrass.
 :::
 
