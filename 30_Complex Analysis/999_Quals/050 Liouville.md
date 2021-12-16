@@ -132,16 +132,13 @@ Find all entire functions satisfying
 
 
 :::{.solution}
-Consider $g(z) \da f(z)/z^{1\over 2}$, then for $\abs{z} > 10, \abs{g(z)} \leq 1$.
-Now apply a Cauchy estimate on a disc of radius $R>10$: for $n\geq 1$, we have
+Since $f$ is entire, take a Laurent expansion at $z=0$, so $f(z) = \sum_{k\geq 0} c_k z^k$ where $2\pi i c_k = f^{(k)}(0)$ by Cauchy's integral formula.
+Take a Cauchy estimate on a disc of radius $R>10$:
 \[
-\abs{ g^{(n)}(z) } 
-&\leq {1\over 2\pi}\int_{\abs{z} = R} \abs{g(z) \over (z-a)^{n+1}}\dz \\
-&\leq {1\over 2\pi}\int_{\abs{z} = R} \abs{g(z)}R^{-(n+1)} \dz \\
-&= {1\over 2\pi}\cdot R^{-(n+1)} \cdot 2\pi R \\
-&= \bigo(R^{-n})\to 0
+\abs{c_k} 
+&\leq {1\over 2\pi}\int_{\abs{z} = R} \abs{f(\xi) \over (\xi - 0)^{k+1}}\dxi\\
+&\leq {1\over 2\pi}\int_{\abs z = R}{ \abs{\xi}^{1\over 2} \over \abs{\xi}^{k+1} }\dxi
 .\]
-In particular, $g'(z) = 0$ and $g$ is constant, so $f(z) = cz^{1\over 2}$ for some $c\in \CC$.
 
 :::
 
