@@ -26,3 +26,24 @@ In detail, from Gamelin:
 :::
 
 ![](figures/2021-10-29_01-31-06.png)
+
+:::{.exercise title="?"}
+Find all entire functions $f$ that satisfy
+\[
+\abs{f(z)} \geq e^{\abs{z}} && \forall z\in \CC
+.\]
+
+#completed
+
+:::
+
+:::{.solution}
+Claim: there are no such functions.
+Consider $g(z) \da f(z)/e^z$, which is entire since $e^z$ is nonvanishing.
+Now $g$ is entire and $\abs{g} \geq 1$ everywhere, so $\im(g) \intersect \DD$ is empty.
+This contradicts Casorati-Weierstrass, which requires that $\im g$ be dense in $\CC$.
+
+Alternatively, note $f\neq 0$ by the inequality, so $1/f$ is bounded and entire and thus constant.
+However, $f(z) = c$ contradicts the inequality, since $e^{\abs{z}}\to \infty$ as $\abs{z}\to \infty$.
+:::
+
