@@ -226,8 +226,7 @@ With practice, it's much quicker to just do polynomial long division:
 Now do the Euclidean algorithm:
 \[
 z 
-= 
-\qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
+\ = \qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
 (1) + 
 \qty{{z^3\over 3!} - {z^5 \over 5!} + {z^7 \over 7!} + \bigo(z^9) } 
 \\ \\
@@ -243,7 +242,7 @@ z
 \quad =
 \qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
 \qty{z^4 \qty{ {1\over 3! 3!} - { 1\over 5!}  } }
-\quad + \bigo(z^7)
++ \bigo(z^7)
 \\ \\
 \implies {z\over \sin(z)} 
 = 1 + {z^2\over 3!} + {7 z^4 \over 360 } + \bigo(z^6) \\
