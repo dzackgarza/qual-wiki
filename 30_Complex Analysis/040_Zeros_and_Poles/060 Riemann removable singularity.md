@@ -24,10 +24,34 @@ Showing a singularity $z_0$ of $f$ is removable: it suffices to show
 :::{.exercise title="?"}
 Show that there is an entire function $h$ such that
 \[
-{\pi^2\over \sin^2(\pi z)} = \sum_{k\in \ZZ} {1\over (z-k)^2}
+{\pi^2\over \sin^2(\pi z)} = \sum_{k\in \ZZ} {1\over (z-k)^2} + h(z)
+.\]
+
+#completed 
+
+:::
+
+
+:::{.solution}
+Write 
+
+- $f(z) = {\pi^2 \over \sin^2(\pi z)}$
+- $g(z) = \sum_{k\in \ZZ} {1\over (z-k)^2}$
+
+Write the above equation as $f(z) = g(z) - h(z)$ and consider $h(z) \da f(z) - g(z)$.
+Then $h$ is meromorphic with singularities precisely on the set $\ZZ$, and are thus isolated.
+By the classification of isolated singularities, these can be removable, poles, or essential.
+If they are removable, then $h$ is entire.
+
+Consider the singularity at $z_0 = 0$.
+This is a pole of $f$, and a computation shows it is order 2:
+\[
+f(z) = \qty{\pi \over \sin(\pi z)}^2 
+= \qty{\pi \over \pi z + {1\over 3!}(\pi z)^3 + \cdots}
 .\]
 
 
 :::
+
 
 
