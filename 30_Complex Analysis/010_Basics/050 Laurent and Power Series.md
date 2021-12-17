@@ -130,9 +130,9 @@ Equivalently, supposing $A(z) \da 1 + a_1 z + a_2z^2 + \cdots$, a direct expansi
 &= {1\over 1 + \displaystyle\sum_{k\geq 1} a_k z^k }\\
 &= 
 1 - \qty{\sum_{k\geq 1} a_k z^k}
-+ \qty{\sum_{k\geq 1} a_k z^k}^2
-- \qty{\sum_{k\geq 1} a_k z^k}^3
-+ \cdots \\
+\, + \qty{\sum_{k\geq 1} a_k z^k}^2
+\, - \qty{\sum_{k\geq 1} a_k z^k}^3
+\, + \cdots \\
 &= 1 - (A(z) - 1) + (A(z) - 1)^2 - (A(z) - 1)^3 + \cdots
 ,\]
 where to compute the $z^m$ term you only need to consider the first $m+1$ summands in this expansion.
