@@ -209,9 +209,9 @@ Inverting $\sin(z)$ using a geometric series, heeding the warning above:
 &= z\inv \sum_{k\geq 0} p(z)^k \\
 &= z\inv\qty{ 1 + p(z) + p(z)^2 + \bigo(z^2)^3 } \\
 &= z\inv\qty{ 1 
-+ \qty{{z^2\over 3!} - {z^4\over 5!} + \bigo(z^6)} 
-+ \qty{{z^2\over 3!} - {z^4\over 5!} + \bigo(z^6)}^2
-+ \bigo(z^6)} \\
+\ + \qty{{z^2\over 3!} - {z^4\over 5!} + \bigo(z^6)} 
+\ + \qty{{z^2\over 3!} - {z^4\over 5!} + \bigo(z^6)}^2
+\ + \bigo(z^6)} \\
 &= {1\over z}\qty{ 1 + {1\over 3!}z^2 + \qty{\qty{1\over 3!}^2 - {1\over 5!} }z^4 + \bigo(z^6) }\\
 &= {1\over z} + {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)
 .\]
@@ -259,7 +259,7 @@ Polynomial long division basically works for formal power series, and with pract
 Recall the Euclidean algorithm, e.g. for ${z^3+1 \over z+1}$:
 \[
 z^3 + 1 &= (z+1)(z^2) + (-z^2 + 1) \\
--z^2 + 1 &= (z+1)(-z) + (z+1) \\
+\ -z^2 + 1 &= (z+1)(-z) + (z+1) \\
 (z+1) &= (z+1)(1) + 0 \\
 \implies
 {z^3 + 1\over z+1} &= z^2 - z + 1
@@ -267,7 +267,7 @@ z^3 + 1 &= (z+1)(z^2) + (-z^2 + 1) \\
 This goes by *increasing* powers, but one can also go by *decreasing* powers:
 \[
 1+z^3 &= (1+z)(1) + (-z+z^3) \\
--z+z^3 &= (1+z)(-z) + (z^2 + z^3) \\
+\ -z+z^3 &= (1+z)(-z) + (z^2 + z^3) \\
 z^2 +z^3 &= (1+z)(z^2) + 0 \\
 \implies
 {z^3 + 1\over z+1}&= 1 - z + z^2
@@ -283,13 +283,13 @@ Computing the Laurent series for $\tan(z)$ at $z=0$:
 \\ \\
 z - {1\over 3!}z^3 + {1\over 5!}z^5 
 &= \qty{1 - {1\over 2!}z^2 + {1\over 4!}z^4}(z)
-+\qty{ \qty{{1\over 2!} - {1\over 3!}}z^3 + \qty{-{1\over 4!} + {1\over 5!} }z^5 } \\
+\ +\qty{ \qty{{1\over 2!} - {1\over 3!}}z^3 + \qty{-{1\over 4!} + {1\over 5!} }z^5 } \\
 &= \qty{1 - {1\over 2!}z^2 + {1\over 4!}z^4}(z)
-+\qty{ {1\over 3}z^3 -{1\over 30}z^5 } 
+\ +\qty{ {1\over 3}z^3 -{1\over 30}z^5 } 
 \\ \\
 {1\over 3}z^3 -{1\over 30}z^5 
 &= \qty{1 - {1\over 2!}z^2 + {1\over 4!}z^4}\qty{{1\over 3} z^3}
-+\qty{ \qty{ {1\over 6} - {1\over 30} } z^5 + \qty{ -{1\over 3\cdot 24} }z^7 } 
+\ +\qty{ \qty{ {1\over 6} - {1\over 30} } z^5 + \qty{ -{1\over 3\cdot 24} }z^7 } 
 \\
 &= \qty{1 - {1\over 2!}z^2 + {1\over 4!}z^4}\qty{{1\over 3} z^3}
  + \qty{ {2\over 15}z^5 - {1\over 72}z^7 }
