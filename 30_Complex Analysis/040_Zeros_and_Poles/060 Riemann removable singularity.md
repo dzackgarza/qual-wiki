@@ -46,8 +46,10 @@ If they are removable, then $h$ is entire.
 Consider the singularity at $z_0 = 0$.
 This is a pole of $f$, and a computation shows it is order 2:
 \[
-f(z) = \qty{\pi \over \sin(\pi z)}^2 
-= \qty{\pi \over \pi z + {1\over 3!}(\pi z)^3 + \cdots}
+f(z) 
+&= \qty{\pi \over \sin(\pi z)}^2 \\
+&= \qty{\pi \over \pi z + {1\over 3!}(\pi z)^3 + \cdots} \\
+&= \qty{\pi \over \pi z (1 + {1\over 3!}(\pi z)^2 + \cdots)}
 .\]
 
 
