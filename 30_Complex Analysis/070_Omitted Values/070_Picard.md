@@ -9,8 +9,6 @@ If $f$ is nonconstant and entire, it takes on every value in $\CC$ with at most 
 Equivalently, if $f$ omits 2 finite values, $f$ is constant.
 :::
 
-
-
 :::{.exercise title="?"}
 Show that $\sin(z) = z$ has infinitely many solutions in $\CC$.
 
@@ -30,6 +28,5 @@ f(z+2\pi) = \sin(z+2\pi) - z - 2\pi = \sin(z) - z - 2\pi = (z_0 + 2\pi)-2\pi = z
 so we can produce infinitely many points in the fiber over $w_0$, contradicting finiteness. 
 So no exception $z_0$ exists, and in particular, $z_0=0$ is not an exception so $f(z) = 0$ has infinitely many solutions.
 :::
-
 
 
