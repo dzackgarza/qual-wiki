@@ -16,6 +16,12 @@ then
 .\]
 In particular, if $f, g$ are holomorphic, they have the same number of zeros in $\Omega$.
 
+Alternative statement: if $f, g$ are holomorphic in a domain $\Omega$ and there is a strict inequality
+\[
+\abs{f(z) - g(z)}\leq \abs{f(z) + g(z)}
+\]
+on $\bd \Omega$, then $f$ and $g$ have the same number of zeros on $\Omega$.
+
 :::
 
 :::{.slogan}
