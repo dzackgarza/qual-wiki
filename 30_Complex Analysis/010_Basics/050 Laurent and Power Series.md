@@ -126,12 +126,14 @@ b_n &= -a_0\inv \sum_{1\leq i \leq n} a_i b_{n-i} \\
 
 Equivalently, supposing $A(z) \da 1 + a_1 z + a_2z^2 + \cdots$, a direct expansion gives
 \[
-{1\over A(z)} = {1\over 1 + \sum_{k\geq 1} a_k z^k }= 
+{1\over A(z)} 
+&= {1\over 1 + \displaystyle\sum_{k\geq 1} a_k z^k }\\
+&= 
 1 - \qty{\sum_{k\geq 1} a_k z^k}
 + \qty{\sum_{k\geq 1} a_k z^k}^2
 - \qty{\sum_{k\geq 1} a_k z^k}^3
-+ \cdots
-= 1 - (A(z) - 1) + (A(z) - 1)^2 - (A(z) - 1)^3 + \cdots
++ \cdots \\
+&= 1 - (A(z) - 1) + (A(z) - 1)^2 - (A(z) - 1)^3 + \cdots
 ,\]
 where to compute the $z^m$ term you only need to consider the first $m+1$ summands in this expansion.
 :::
@@ -401,7 +403,6 @@ Show that any power series is continuous on its domain of convergence.
 
 :::
 
-
 :::{.exercise title="?"}
 Find the radius of convergence of 
 
@@ -412,13 +413,11 @@ Find the radius of convergence of
 
 :::
 
-
 :::{.solution}
 \envlist
 
 - $R = 1/\limsup \abs{a^k}^{1\over k} = 1\over \abs{a}$
 - $R = 1/\limsup \abs{a^{k^2}}^{1\over k} = 1/\limsup \abs{a}^k$, so $R=\infty$ if $\abs{a}< 1$, $R=0$ if $\abs{a}<1$, and $R=1$ if $\abs{a} = 1$.
 :::
-
 
 
