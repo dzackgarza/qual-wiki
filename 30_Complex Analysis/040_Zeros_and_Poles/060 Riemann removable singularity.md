@@ -13,11 +13,21 @@ More generally, TFAE:
 
 :::
 
-
 :::{.remark}
 Showing a singularity $z_0$ of $f$ is removable: it suffices to show 
 
 - Expand $f(z) = \sum_{k\in \ZZ} c_k z^k$ and show $z_k=0$ for $k<0$.
 - Show $\lim_{z\to z_0}f(z) \neq \infty$
 :::
+
+
+:::{.exercise title="?"}
+Show that there is an entire function $h$ such that
+\[
+{\pi^2\over \sin^2(\pi z)} = \sum_{k\in \ZZ} {1\over (z-k)^2}
+.\]
+
+
+:::
+
 
