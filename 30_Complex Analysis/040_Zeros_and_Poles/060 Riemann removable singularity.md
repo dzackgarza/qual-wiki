@@ -48,11 +48,12 @@ This is a pole of $f$, and a computation shows it is order 2:
 \[
 f(z) 
 &= \qty{\pi \over \sin(\pi z)}^2 \\
-&= \qty{\pi \over \pi z + {1\over 3!}(\pi z)^3 + \cdots}^2 \\
-&= \qty{\pi \over \pi z (1 + {1\over 3!}(\pi z)^2 + \cdots)}^2 \\
-&= {1\over z^2} \qty{1 \over 1 + {1\over 3!}(\pi z)^2 + \cdots}^2
+&= \qty{\pi \over \pi z + {1\over 3!}(\pi z)^3 + \bigo(z^5) }^2 \\
+&= \qty{\pi \over \pi z (1 + {1\over 3!}(\pi z)^2 + \bigo(z^4))}^2 \\
+&= {1\over z^2} \qty{1 \over 1 + {1\over 3!}(\pi z)^2 + \bigo(z^4)}^2
 ,\]
-so $\lim_{z\to 0} z^2f(z) = 1$.
+so $z=0$ is a zero of order 2 of $1/f$.
+Note that $\lim_{z\to 0} z^2f(z) = 1$.
 
 
 :::
