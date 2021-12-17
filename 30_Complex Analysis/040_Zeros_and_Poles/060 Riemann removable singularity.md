@@ -48,8 +48,9 @@ This is a pole of $f$, and a computation shows it is order 2:
 \[
 f(z) 
 &= \qty{\pi \over \sin(\pi z)}^2 \\
-&= \qty{\pi \over \pi z + {1\over 3!}(\pi z)^3 + \cdots} \\
-&= \qty{\pi \over \pi z (1 + {1\over 3!}(\pi z)^2 + \cdots)}
+&= \qty{\pi \over \pi z + {1\over 3!}(\pi z)^3 + \cdots}^2 \\
+&= \qty{\pi \over \pi z (1 + {1\over 3!}(\pi z)^2 + \cdots)}^2 \\
+&= {1\over (\pi z)^2} \qty{\pi \over 1 + {1\over 3!}(\pi z)^2 + \cdots}^2
 .\]
 
 
