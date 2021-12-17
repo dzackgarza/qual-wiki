@@ -50,8 +50,9 @@ f(z)
 &= \qty{\pi \over \sin(\pi z)}^2 \\
 &= \qty{\pi \over \pi z + {1\over 3!}(\pi z)^3 + \cdots}^2 \\
 &= \qty{\pi \over \pi z (1 + {1\over 3!}(\pi z)^2 + \cdots)}^2 \\
-&= {1\over (\pi z)^2} \qty{\pi \over 1 + {1\over 3!}(\pi z)^2 + \cdots}^2
-.\]
+&= {1\over z^2} \qty{1 \over 1 + {1\over 3!}(\pi z)^2 + \cdots}^2
+,\]
+so $\lim_{z\to 0} z^2f(z) = 1$.
 
 
 :::
