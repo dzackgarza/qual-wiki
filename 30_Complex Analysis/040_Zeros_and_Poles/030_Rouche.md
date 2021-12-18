@@ -15,17 +15,25 @@ In particular, if $f, g$ are *holomorphic* on $\Omega$, then $f$ and $f+g$ have 
 
 Some alternative formulations:
 
-- Bounding a difference:
+- Bounding a difference: given $f$, find a big part $g$, then
 \[
-\abs{f-g} \leq \abs{f+g}
+\abs{f-g} \leq \abs{g}
 \text{ on }\bd\Omega \implies Z_f = Z_g
 .\]
+
 
 :::
 
 :::{.slogan}
-The number of zeros/poles are determined by a dominating function.
 You can add a small perturbation $g$ to $f$ and preserve the number of zeros, where "small" means $\abs{g} < \abs{f}$ on the boundary.
+:::
+
+:::{.slogan}
+The number of zeros/poles are determined by a dominating function on the boundary.
+:::
+
+:::{.remark}
+On strategy: write your function as big + small, where big $>$ small on the boundary and it's clear how many zeros big has inside. 
 :::
 
 :::{.proof title="of Rouché"}
@@ -46,28 +54,34 @@ Alternatively, use that $N(f+tg, \Omega)$ is a continuous $\ZZ\dash$valued funct
 
 # Exercises
 
-:::{.exercise title="?"}
+:::{.exercise title="Number of zeros of a standard polynomial in $\DD$"}
 Find the number of zeros in $\abs{z} < 1$ of
 \[
 p(z) \da z^6 + 9z^4 + z^3 + 2z + 4
 .\]
 
+#completed
 
 :::
 
 :::{.solution}
+Strategy: bound the difference.
+Find the big and small term:
 
-#work
+- Big: $f(z) = 9z^4$, so $\abs{f(z)} = 9$ on the boundary
+- Small: $g(z) = p(z) - f(z) = z^6 + z^3 + 2z + 4$, so $\abs{g(z)}\leq 1+1+2+4=8$ on the boundary.
+So $\abs{f-g} \leq \abs{g}$ on $\abs{z} = 2$, meaning $Z_f = Z_g = 4$.
 
-![](figures/2021-12-10_18-00-35.png)
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Number of zeros of an arbitrary polynomial in $R\mathbb{D}$"}
 Show that if $p(z) \da z^d + a_1z^{d-1} + \cdots + a_d$ and $\abs{a_k}\leq {R^k \over d}$ for every $k$, then $p$ has $d$ zeros in $\abs{z} < R$.
 :::
 
 :::{.solution}
+Strategy: bound the difference.
+Find the big and small term:
 
 #work
 
