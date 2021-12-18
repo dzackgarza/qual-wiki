@@ -85,7 +85,7 @@ f(z) \da \int_\gamma { f(\xi) \over \xi - z} \dx
 This is valid for $z\neq z_0$, but the right-hand side is analytic. (?)
 :::
 
-\todo[inline]{Revisit}
+#work 
 
 ![](figures/2021-10-29_01-30-50.png)
 
@@ -150,7 +150,6 @@ z^n g(z) = z^m h(z) \implies g(z) = z^{m-n} h(z)
 assuming $m>n$, but then taking $z\to z_0 =0$ on the RHS yields $g(z) = 0$, a contradiction.
 :::
 
-
 :::{.proposition title="Zeros of holomorphic functions are isolated"}
 
 ![](figures/2021-12-15_02-12-08.png)
@@ -174,7 +173,6 @@ f(z) = \sum_{k\geq -n} c_k (z-z_0)^k, && c_{-n}\neq 0
 
 :::
 
-
 :::{.proposition title="Well-definedness of pole order"}
 In this case there exists a minimal $n$ and a holomorphic $h$ such that
 \[  
@@ -196,17 +194,15 @@ f(z) = (z-z_0)^{-n} h(z) && \quad h(z) \da {1\over g(z)}
 .\]
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Poles of $1/\sin$"}
 Show that all singularities of $1/\sin(z)$ are poles of order 1.
 :::
-
 
 :::{.solution}
 
 #work
 
 :::
-
 
 :::{.example title="Of using this characterization"}
 Claim: if $f$ has a pole of order $m$ at $z_0$, then $g(z) \da f(z^2)$ has a pole of order $2m$ at $z_0$.
@@ -237,6 +233,21 @@ Suppose $f$ is meromorphic. Show that if $z_0$ is a removable singularity of $f$
 
 :::
 
+:::{.solution}
+
+#work
+
+:::
+
+:::{.exercise title="Poles of derivatives"}
+Show that if $z_0$ is a pole of order $n$ of $f$, then it is a pole of order $n+k$ for $f^{(k)}$.
+:::
+
+:::{.solution}
+
+#work
+
+:::
 
 :::{.exercise title="?"}
 Let $f$ be an elliptic function and $P$ be its fundamental parallelogram.
@@ -318,5 +329,4 @@ z^{\ell}F(z) = z^{\ell + m}f(z) \leq z^{\ell + m} \cdot Mz^{-m} = z^{\ell} \conv
 $\contradiction$
 
 :::
-
 
