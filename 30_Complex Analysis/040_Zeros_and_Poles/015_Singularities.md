@@ -160,13 +160,18 @@ assuming $m>n$, but then taking $z\to z_0 =0$ on the RHS yields $g(z) = 0$, a co
 ## Poles
 
 :::{.definition title="Poles (and associated terminology)"}
-Let $f$ be a meromorphic function.
+Let $f$ be a meromorphic function with an isolated singularity at $z_0$.
 TFAE:
 
-- $z_0$ is a pole of $f$
+- $z_0$ is a pole of $f$ of order $n$.
 - $\abs{f(z)}\convergesto{z\to z_0} \infty$
 - $z_0$ is a zero of order $n$ of $g(z) \da {1\over f(z)}$
 - $f(z) = (z-z_0)^{-n}h(z)$ where $h$ is holomorphic in a punctured neighborhood of $z_0$.
+- $f$ admits a Laurent expansion of the form
+\[
+f(z) = \sum_{k\geq -n} c_k (z-z_0)^k
+.\]
+
 :::
 
 :::{.proposition title="Well-definedness of pole order"}
