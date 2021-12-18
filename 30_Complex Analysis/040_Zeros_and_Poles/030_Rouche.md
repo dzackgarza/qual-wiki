@@ -69,7 +69,7 @@ p(z) \da z^6 + 9z^4 + z^3 + 2z + 4
 Strategy: bound the difference.
 Find the big and small term:
 
-- Big: $F(z) = 9z^4$, so $\abs{f(z)} = 9$ on the boundary
+- Big: $F(z) = 9z^4$, so $\abs{F(z)} = 9$ on the boundary
 - Small: $g(z) = p(z) - F(z) = z^6 + z^3 + 2z + 4$, so $\abs{g(z)}\leq 1+1+2+4=8$ on the boundary.
 
 
@@ -80,13 +80,16 @@ So $\abs{p-F} \leq \abs{F}$ on $\abs{z} = 2$, meaning $Z_{p} = Z_F = 4$.
 
 :::{.exercise title="Number of zeros of an arbitrary polynomial in $R\mathbb{D}$"}
 Show that if $p(z) \da z^d + a_1z^{d-1} + \cdots + a_d$ and $\abs{a_k}< {R^k \over d}$ for every $k$ (noting the strict inequality), then $p$ has $d$ zeros in $\abs{z} < R$.
+
+#completed
+
 :::
 
 :::{.solution}
 Strategy: bound the difference.
 Find the big and small term:
 
-- Big: $G(z) = z^d$, so $\abs{F} = R^d$ on $\abs{z} = R$
+- Big: $F(z) = z^d$, so $\abs{F(z)} = R^d$ on $\abs{z} = R$.
 - Small: $g(z) = p(z) - F(z) = a_1 z^{d-1} + \cdots + a_d$, so
 \[
 \abs{g(z)} 
@@ -95,11 +98,6 @@ Find the big and small term:
 &= d {R^d\over d} = R^d
 ,\]
 so $\abs{g} < R^d = \abs{F}$, meaning $Z_{p-F} = Z_F = d$ in $R\DD$.
-
-
-#work
-
-![30_Complex Analysis/figures/2021-10-29_01-39-43.png](30_Complex%20Analysis/figures/2021-10-29_01-39-43.png)
 
 :::
 
