@@ -228,7 +228,7 @@ The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists 
 ## Exercises
 
 
-:::{.exercise title="?"}
+:::{.exercise title="Removable singularities for derivatives"}
 Suppose $f$ is meromorphic. Show that if $z_0$ is a removable singularity of $f$, then it is also a removable singularity of $f'$.
 
 :::
@@ -249,7 +249,7 @@ Show that if $z_0$ is a pole of order $n$ of $f$, then it is a pole of order $n+
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Poles of elliptic functions"}
 Let $f$ be an elliptic function and $P$ be its fundamental parallelogram.
 Supposing that $f$ is nonconstant, show that $f$ has at least two poles in $P$ (counted with multiplicity).
 
@@ -283,7 +283,7 @@ This argument in fact shows that the residues *can not* cancel, i.e. $\sum_{k} \
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Bounded derivatives imply removable singularities"}
 Suppose $f$ is holomorphic on $\DD\smz$ and there exist $M, k$ such that
 \[
 \abs{f^{(k)}(z)} \leq {M\over \abs{z}^k} && \forall 0 < \abs z < 1
@@ -327,6 +327,16 @@ Apply the assumed bound yields the last contradiction:
 z^{\ell}F(z) = z^{\ell + m}f(z) \leq z^{\ell + m} \cdot Mz^{-m} = z^{\ell} \convergesto{z\to 0} 0
 .\]
 $\contradiction$
+
+:::
+
+
+:::{.exercise title="When bounds imply removability"}
+Suppose $f$ is holomorphic with $z_0 = 0$ an isolated singularity, and suppose 
+\[
+\abs{f(z)} \leq \abs{z}^{-{ 1\over 2}}
+.\]
+
 
 :::
 
