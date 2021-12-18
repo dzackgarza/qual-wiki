@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "28229406020e1781",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "qual_progress.md",
-            "mode": "source"
-          }
-        },
-        "group": "444a0d0eda36342d"
-      },
-      {
         "id": "fac2a65aac3ba4b2",
         "type": "leaf",
         "state": {
@@ -24,8 +12,7 @@
             "file": "qual_progress.md",
             "mode": "preview"
           }
-        },
-        "group": "444a0d0eda36342d"
+        }
       }
     ],
     "direction": "vertical"
