@@ -258,6 +258,14 @@ Show that if $f$ has a singularity at $z=0$, then it must be removable.
 :::
 
 
+:::{.concept}
+\envlist
+
+- $\dd{}{z}$ is a left-shift on power series, $z^m$ is a right-shift.
+
+:::
+
+
 :::{.solution}
 Define $F(z) \da z^k f^{(k)}(z)$ and note that $\abs{F(z)} \leq M$ on $\DD\smz$.
 
@@ -267,12 +275,15 @@ f(z) = \sum_{k\in \ZZ} c_k z^k
 \implies z^m f^{(m)}(z) = \sum_{k\leq 1} \tilde c_k z^{-k} + \sum_{k\geq m}\tilde c_{k}z^{k}
 ,\]
 which will still have infinitely many terms in its principal part at $0$.
-However, if $F$ had an essential singularity, its image would be dense in $\CC$ by Casorati-Weierstrass, contradicting that its image is bounded (by $M$). 
+However, if $F$ had an essential singularity, the image of $F$ in a neighborhood of $0$ would be dense in $\CC$ by Casorati-Weierstrass, contradicting that its image is bounded (by $M$). 
 
+Suppose instead $z=0$ is a pole of order $\ell$ of $f$.
+Then again by considering power series expansions, $z=0$ remains a pole of $F$, now of order at worst $\ell$:
+\[
+f(z) = \bigo(z^{ell}) 
+\implies z^m f^{(m)}(z) \approx z^m \cdot \bigo(z^{\ell - m}) = \bigo(z^\ell)
+.\]
 
-, $F$ would be unbounded in some neighborhood of $0$, and if it were essential, its image would be dense by Casorati-Weierstrass, but its image is bounded.
-
-The claim is that $\lim_{z\to 0} F(z) < \infty$, making $z=0$ a removable singularity of $f$ by definition.
 
 :::
 
