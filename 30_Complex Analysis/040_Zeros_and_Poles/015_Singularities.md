@@ -73,8 +73,8 @@ Equivalently, $v_{z_0}(f) \geq 0$
 Suppose $f$ is holomorphic on $\Omega\sm\ts{z_0}$.
 TFAE:
 
-- $z_0$ is a removable singularity of $f$.
 - $z_0$ is a pole of order $0$.
+- $z_0$ is a removable singularity of $f$.
 - There exists some neighborhood of $z_0$ on which $f$ is bounded.
 - $(z-a)f(z) \convergesto{z\to z_0} 0$
 - $f$ admits a holomorphic extension $F$ to all of $\Omega$

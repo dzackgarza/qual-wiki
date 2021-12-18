@@ -1,6 +1,5 @@
 # Rouché 
 
-Idea: use argument principle on $(f+g)/f$.
 
 :::{.theorem title="Rouché's Theorem" ref="Rouche"}
 If
@@ -25,9 +24,11 @@ on $\bd \Omega$, then $f$ and $g$ have the same number of zeros on $\Omega$.
 
 :::{.slogan}
 The number of zeros/poles are determined by a dominating function.
+You can add a small perturbation $g$ to $f$ and preserve the number of zeros, where "small" means $\abs{g} < \abs{f}$ on the boundary.
 :::
 
 :::{.proof title="of Rouché"}
+Idea: use argument principle on $(f+g)/f$.
 
 ![](figures/2021-12-10_22-23-58.png)
 
@@ -40,7 +41,6 @@ The number of zeros/poles are determined by a dominating function.
 ![](figures/2021-12-15_02-24-10.png)
 
 :::
-
 
 :::{.remark}
 
