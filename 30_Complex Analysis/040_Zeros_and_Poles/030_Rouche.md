@@ -2,26 +2,25 @@
 
 
 :::{.theorem title="Rouché's Theorem" ref="Rouche"}
-If
-
-- $f, g$ are meromorphic on $\Omega$
-- $\gamma \subset \Omega$ is a toy contour winding about each zero/pole of $f, g$ exactly once,
-- $\abs{g} < \abs{f}$ on $\gamma$
-
-then
+Let $f, g$ be meromorphic on $\Omega$ and write $Z_f, Z_g, P_f, P_g$ for the numbers of zeros and poles of $f$ and $g$ respectively.
+Suppose $\gamma \subseteq \Omega$ is a toy contour winding about each zero and pole of $f$ and $g$ precisely once.
+Then
 \[
-\Index_{z=0}(f\circ \gamma)(z) 
+\abs{g} \leq \abs{f} \text{ on } \gamma \implies \Index_{z=0}(f\circ \gamma)(z) 
 &= \Index_{z=0}((f+g)\circ \gamma)(z) \\
 \implies Z_f - P_f 
 &= Z_{f+g} - P_{f+g}
 .\]
-In particular, if $f, g$ are holomorphic, they have the same number of zeros in $\Omega$.
+In particular, if $f, g$ are *holomorphic* on $\Omega$, then $f$ and $f+g$ have the same number of zeros in $\Omega$, i.e. $Z_f = Z_{f+g}$.
 
-Alternative statement: if $f, g$ are holomorphic in a domain $\Omega$ and there is a strict inequality
+Some alternative formulations:
+
+- Bounding a difference:
 \[
-\abs{f(z) - g(z)}\leq \abs{f(z) + g(z)}
-\]
-on $\bd \Omega$, then $f$ and $g$ have the same number of zeros on $\Omega$.
+\abs{f-g} \leq \abs{f+g}
+\text{ on }\bd\Omega \implies Z_f = Z_g
+.\]
+
 :::
 
 :::{.slogan}
