@@ -174,6 +174,7 @@ f(z) = \sum_{k\geq -n} c_k (z-z_0)^k, && c_{-n}\neq 0
 
 :::
 
+
 :::{.proposition title="Well-definedness of pole order"}
 In this case there exists a minimal $n$ and a holomorphic $h$ such that
 \[  
@@ -194,6 +195,18 @@ Taking reciprocals yields
 f(z) = (z-z_0)^{-n} h(z) && \quad h(z) \da {1\over g(z)}
 .\]
 :::
+
+:::{.exercise title="?"}
+Show that all singularities of $1/\sin(z)$ are poles of order 1.
+:::
+
+
+:::{.solution}
+
+#work
+
+:::
+
 
 :::{.example title="Of using this characterization"}
 Claim: if $f$ has a pole of order $m$ at $z_0$, then $g(z) \da f(z^2)$ has a pole of order $2m$ at $z_0$.
