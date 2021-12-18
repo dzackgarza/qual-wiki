@@ -265,7 +265,9 @@ If $f$ has an essential singularity at $z=0$, then so does $F$ by considering po
 \[
 f(z) = \sum_{k\in \ZZ} c_k z^k 
 \implies z^m f^{(m)}(z) = \sum_{k\leq 1} \tilde c_k z^{-k} + \sum_{k\geq m}\tilde c_{k}z^{k}
-.\]
+,\]
+which will still have infinitely many terms in its principal part at $0$.
+However, if $F$ had an essential singularity, its image would be dense in $\CC$ by Casorati-Weierstrass, contradicting that its image is bounded (by $M$). 
 
 
 , $F$ would be unbounded in some neighborhood of $0$, and if it were essential, its image would be dense by Casorati-Weierstrass, but its image is bounded.
