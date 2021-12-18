@@ -74,10 +74,12 @@ Suppose $f$ is holomorphic on $\Omega\sm\ts{z_0}$.
 TFAE:
 
 - $z_0$ is a removable singularity of $f$.
+- $z_0$ is a pole of order $0$.
 - There exists some neighborhood of $z_0$ on which $f$ is bounded.
 - $(z-a)f(z) \convergesto{z\to z_0} 0$
 - $f$ admits a holomorphic extension $F$ to all of $\Omega$
 - $f$ admits a continuous extension $F$ to all of $\Omega$.
+- $f$ admits a Laurent expansion about $z_0$ with vanishing principal part, i.e. $f(z) = \sum_{k\geq 0}c_k (z-z_0)^k$.
 
 :::
 
