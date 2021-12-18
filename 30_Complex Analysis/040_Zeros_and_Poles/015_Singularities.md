@@ -210,6 +210,12 @@ The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists 
 
 
 :::{.exercise title="?"}
+Suppose $f$ is meromorphic. Show that if $z_0$ is a removable singularity of $f$, then it is also a removable singularity of $f'$.
+
+:::
+
+
+:::{.exercise title="?"}
 Let $f$ be an elliptic function and $P$ be its fundamental parallelogram.
 Supposing that $f$ is nonconstant, show that $f$ has at least two poles in $P$ (counted with multiplicity).
 
@@ -243,8 +249,6 @@ This argument in fact shows that the residues *can not* cancel, i.e. $\sum_{k} \
 
 :::
 
-
-
 :::{.exercise title="?"}
 Suppose $f$ is holomorphic on $\DD\smz$ and there exist $M, k$ such that
 \[
@@ -257,7 +261,6 @@ Show that if $f$ has a singularity at $z=0$, then it must be removable.
 
 :::
 
-
 :::{.concept}
 \envlist
 
@@ -266,7 +269,6 @@ Show that if $f$ has a singularity at $z=0$, then it must be removable.
   - In general, if $z_0$ is an order $\ell$ pole of $f$, then it is at least an order $\ell + m$ pole of $f^{(m)}$.
 
 :::
-
 
 :::{.solution}
 Define $F(z) \da z^k f^{(k)}(z)$ and note that $\abs{F(z)} \leq M$ on $\DD\smz$.
@@ -291,8 +293,6 @@ Apply the assumed bound yields the last contradiction:
 z^{\ell}F(z) = z^{\ell + m}f(z) \leq z^{\ell + m} \cdot Mz^{-m} = z^{\ell} \convergesto{z\to 0} 0
 .\]
 $\contradiction$
-
-
 
 :::
 
