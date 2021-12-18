@@ -263,6 +263,7 @@ Show that if $f$ has a singularity at $z=0$, then it must be removable.
 
 - $\dd{}{z}$ is a left-shift on power series, $z^m$ is a right-shift.
 - $f'$ has the same poles as $f$, possibly with worse order due to the left-shift.
+  - In general, if $z_0$ is an order $\ell$ pole of $f$, then it is at least an order $\ell + m$ pole of $f^{(m)}$.
 
 :::
 
