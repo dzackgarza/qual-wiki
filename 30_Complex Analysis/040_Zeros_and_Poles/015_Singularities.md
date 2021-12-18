@@ -160,8 +160,13 @@ assuming $m>n$, but then taking $z\to z_0 =0$ on the RHS yields $g(z) = 0$, a co
 ## Poles
 
 :::{.definition title="Poles (and associated terminology)"}
-A *pole* $z_0$ of a function $f(z)$ is a zero of $g(z) \definedas {1\over f(z)}$ where $g$ is holomorphic in some neighborhood of $z_0$.
-Equivalently, $\lim_{z\to z_0} f(z) = \infty$.
+Let $f$ be a meromorphic function.
+TFAE:
+
+- $z_0$ is a pole of $f$
+- $\abs{f(z)}\convergesto{z\to z_0} \infty$
+- $z_0$ is a zero of order $n$ of $g(z) \da {1\over f(z)}$
+- $f(z) = (z-z_0)^{-n}h(z)$ where $h$ is holomorphic in a punctured neighborhood of $z_0$.
 :::
 
 :::{.proposition title="Well-definedness of pole order"}
