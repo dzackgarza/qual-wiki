@@ -83,6 +83,15 @@ Show that if $p(z) \da z^d + a_1z^{d-1} + \cdots + a_d$ and $\abs{a_k}\leq {R^k 
 Strategy: bound the difference.
 Find the big and small term:
 
+- Big: $g(z) = z^d$, so $\abs{g} = R^d$ on $\abs{z} = R$
+- Small: $f(z) = p(z) - g(z) = a_1 z^{d-1} + \cdots + a_d$, so
+\[
+\abs{f(z)} 
+&\leq \abs{a_1} R^{d-1} + \abs{a_2} R^{d-2} + \cdots + \abs{a_d} \\
+&\leq {R\over d} \cdot R^{d-1} + {R^2 \over d} \cdot R^{d-2} + \cdots + {R^{d-1} \over d} \cdot R + {R^{d} \over d}
+.\]
+
+
 #work
 
 ![30_Complex Analysis/figures/2021-10-29_01-39-43.png](30_Complex%20Analysis/figures/2021-10-29_01-39-43.png)
