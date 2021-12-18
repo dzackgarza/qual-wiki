@@ -1,6 +1,5 @@
 # Removable Singularities 
 
-
 :::{.theorem title="Riemann's removable singularity theorem"}
 If $z_0$ is an isolated singularity of $f(z)$ and $\abs{f(z)}$ is bounded near $z_0$, then $z_0$ is removable.
 
@@ -19,7 +18,6 @@ Showing a singularity $z_0$ of $f$ is removable: it suffices to show
 - Expand $f(z) = \sum_{k\in \ZZ} c_k z^k$ and show $z_k=0$ for $k<0$.
 - Show $\lim_{z\to z_0}f(z) \neq \infty$
 :::
-
 
 :::{.exercise title="?"}
 Show that there is an entire function $h$ such that
@@ -62,10 +60,8 @@ f(z)
 ,\]
 so $z=0$ is a zero of order 2 of $1/f$.
 This expansion also shows that the principal part of $f$ at $z=0$ is ${1\over z^2}$, which is precisely that of $g$ at $z=0$, i.e. ${1\over (z-0)^2} = 1/z^2$, 
-Since $h\da f-g$ subtracts off this part, $z=0$ becomes a removable singularity for $h$ since $\lim_{z\to 0} \qty{ f(z) - {1\over z^2}} = 1<\infty$.
+Since $f-g$ subtracts off this part, $z=0$ becomes a removable singularity for $h$ since $\lim_{z\to 0} \qty{ f(z) - {1\over z^2}} = 1<\infty$.
 
-
+Now note that $f$ is periodic, and since the period is 1, a similar argument shows that the remaining singularities on $\ZZ\smz$ are all removable for $f-g$.
+By Riemann's removable singularity theorem, $f-g$ extends over these singularities, yielding an entire function $h$ that restricts to $f-g$ on $\CC\sm\ZZ$.
 :::
-
-
-
