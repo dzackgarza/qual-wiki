@@ -53,6 +53,9 @@ f(z)
 &= {1\over z^2} \qty{1 \over 1 - {1\over 3!}(\pi z)^2 + \bigo(z^4)}^2
 ,\]
 so $z=0$ is a zero of order 2 of $1/f$.
+The claim is that the principal part of $f$ at its pole $z_0=0$ is precisely the principal part of $g$ at $z_0=0$, which is ${1\over (z-0)^2}$.
+Then $h\da f-g$ will have the effect of subtracting off this part, so $z_0$ will become a removable singularity of $h$.
+
 Note that $\lim_{z\to 0} z^2f(z) = 1<\infty$, so
 
 
