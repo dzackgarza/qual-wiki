@@ -54,7 +54,7 @@ Alternatively, use that $N(f+tg, \Omega)$ is a continuous $\ZZ\dash$valued funct
 
 # Exercises
 
-:::{.exercise title="Number of zeros of a standard polynomial in $\DD$"}
+:::{.exercise title="Number of zeros of a standard polynomial in $\mathbb{D}$"}
 Find the number of zeros in $\abs{z} < 1$ of
 \[
 p(z) \da z^6 + 9z^4 + z^3 + 2z + 4
