@@ -244,3 +244,25 @@ This argument in fact shows that the residues *can not* cancel, i.e. $\sum_{k} \
 :::
 
 
+
+:::{.exercise title="?"}
+Suppose $f$ is holomorphic on $\DD\smz$ and there exist $M, k$ such that
+\[
+\abs{f^{(k)}(z)} \leq {M\over \abs{z}^k} && \forall 0 < \abs z < 1
+.\]
+
+Show that if $f$ has a singularity at $z=0$, then it must be removable.
+
+#completed
+
+:::
+
+
+:::{.solution}
+Since $F(z) \da z^k f^{(k)}(z)$ satisfies $\abs{F(z)} \leq M$ on $\DD\smz$, the function $F$ can only have a removable singularity at $z=0$ -- if it were a pole, $F$ would be unbounded in some neighborhood of $0$, and if it were essential, its image would be dense by Casorati-Weierstrass, but its image is bounded.
+
+The claim is that $\lim_{z\to 0} F(z) < \infty$, making $z=0$ a removable singularity of $f$ by definition.
+
+:::
+
+
