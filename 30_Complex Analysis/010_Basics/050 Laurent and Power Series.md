@@ -322,10 +322,6 @@ Conclusion:
 = {1\over z}  + {z\over 3!} + {7 z^3 \over 360 } + \bigo(z^5)
 .\]
 
-
-
-> This looks like a lot, but it's really just the grade school algorithm.
-
 :::
 
 :::{.fact title="Dividing using polynomial long division"}
@@ -349,7 +345,11 @@ z^2 +z^3 &= (1+z)(z^2) + 0 \\
 which is useful for generating the first few low order terms of a series expansion.
 :::
 
-:::{.example title="Laurent series for $\tan$ by long division"}
+:::{.exercise title="Tangent from polynomial long division"}
+Find a Laurent expansion about $z_0=0$ for $f(z) = \tan(z)$ by using polynomial long division on the series expansions for $\sin(z)$ and $\cos(z)$.
+:::
+
+:::{.solution}
 Computing the Laurent series for $\tan(z)$ at $z=0$:
 
 \[
@@ -376,7 +376,6 @@ z - {1\over 3!}z^3 + {1\over 5!}z^5
 .\]
 
 :::
-
 
 # Exercises
 
