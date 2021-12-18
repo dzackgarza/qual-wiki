@@ -4,6 +4,7 @@
 
 :::{.remark}
 On notation: for an analytic function $f$ expanded as a power series about $a$, write $v_a(f)$ as the $a\dash$adic valuation of $f$: expanding $f(z) = \sum_{k\in \ZZ} a_k (z-a)^k$ about $a$, define $v_a(f) = n$ iff $a_n\neq 0$ but $a_{\leq n} = 0$.
+In other words, $v_a$ is the lowest power of $(z-a)$ occurring in a Laurent expansion of $f$ about $a$.
 :::
 
 :::{.definition title="Isolated singularities"}
