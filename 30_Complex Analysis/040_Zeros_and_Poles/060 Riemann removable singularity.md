@@ -31,6 +31,12 @@ Show that there is an entire function $h$ such that
 
 :::
 
+:::{.concept}
+\envlist
+
+- The principal part of $f$ at $z=z_0$ is gotten by expanding $f(z) = \sum_{k\in \ZZ} c_k z^k$ and taking $\sum_{k\leq 1} c_k z^k$.
+- Common trick: to control a singularity, subtract off a function with the same principal part at that point.
+:::
 
 :::{.solution}
 Write 
@@ -50,11 +56,13 @@ f(z)
 &= \qty{\pi \over \sin(\pi z)}^2 \\
 &= \qty{\pi \over \pi z - {1\over 3!}(\pi z)^3 + \bigo(z^5) }^2 \\
 &= \qty{\pi \over \pi z (1 - {1\over 3!}(\pi z)^2 + \bigo(z^4))}^2 \\
-&= {1\over z^2} \qty{1 \over 1 - {1\over 3!}(\pi z)^2 + \bigo(z^4)}^2
+&= {1\over z^2} \qty{1 \over 1 - {1\over 3!}(\pi z)^2 + \bigo(z^4)}^2 \\
+&= {1\over z^2}\qty{1 + \bigo(z^2)}^2 \\
+&= {1\over z^2} + \bigo(z^2)
 ,\]
 so $z=0$ is a zero of order 2 of $1/f$.
-The claim is that the principal part of $f$ at its pole $z_0=0$ is precisely the principal part of $g$ at $z_0=0$, which is ${1\over (z-0)^2}$.
-Then $h\da f-g$ will have the effect of subtracting off this part, so $z_0$ will become a removable singularity of $h$.
+This expansion also shows that the principal part of $f$ at $z=0$ is ${1\over z^2}$, which is precisely that of $g$ at $z=0$, i.e. ${1\over (z-0)^2} = 1/z^2$, 
+Since $h\da f-g$ subtracts off this part, $z=0$ becomes a removable singularity for $h$. 
 
 Note that $\lim_{z\to 0} z^2f(z) = 1<\infty$, so
 
