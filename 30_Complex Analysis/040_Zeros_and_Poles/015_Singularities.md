@@ -259,7 +259,16 @@ Show that if $f$ has a singularity at $z=0$, then it must be removable.
 
 
 :::{.solution}
-Since $F(z) \da z^k f^{(k)}(z)$ satisfies $\abs{F(z)} \leq M$ on $\DD\smz$, the function $F$ can only have a removable singularity at $z=0$ -- if it were a pole, $F$ would be unbounded in some neighborhood of $0$, and if it were essential, its image would be dense by Casorati-Weierstrass, but its image is bounded.
+Define $F(z) \da z^k f^{(k)}(z)$ and note that $\abs{F(z)} \leq M$ on $\DD\smz$.
+
+If $f$ has an essential singularity at $z=0$, then so does $F$ by considering power series expansions:
+\[
+f(z) = \sum_{k\in \ZZ} c_k z^k 
+\implies z^m f^{(m)}(z) = \sum_{k\leq 1} \tilde c_k z^{-k} + \sum_{k\geq m}\tilde c_{k}z^{k}
+.\]
+
+
+, $F$ would be unbounded in some neighborhood of $0$, and if it were essential, its image would be dense by Casorati-Weierstrass, but its image is bounded.
 
 The claim is that $\lim_{z\to 0} F(z) < \infty$, making $z=0$ a removable singularity of $f$ by definition.
 
