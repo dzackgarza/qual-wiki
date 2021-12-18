@@ -15,10 +15,11 @@ In particular, if $f, g$ are *holomorphic* on $\Omega$, then $f$ and $f+g$ have 
 
 Some alternative formulations:
 
-- Bounding a difference: given $f$, find a big part $g$, then
+- Bounding a difference: given $f$, find a big part $F$ and call the small part $g\da f-F$. 
+Then
 \[
-\abs{f-g} \leq \abs{g}
-\text{ on }\bd\Omega \implies Z_f = Z_g
+\abs{g} \da \abs{f-F} \leq \abs{F}
+\text{ on }\bd\Omega \implies Z_f = Z_F
 .\]
 
 
@@ -70,6 +71,8 @@ Find the big and small term:
 
 - Big: $F(z) = 9z^4$, so $\abs{f(z)} = 9$ on the boundary
 - Small: $g(z) = p(z) - F(z) = z^6 + z^3 + 2z + 4$, so $\abs{g(z)}\leq 1+1+2+4=8$ on the boundary.
+
+
 So $\abs{p-F} \leq \abs{F}$ on $\abs{z} = 2$, meaning $Z_{p} = Z_F = 4$.
 
 
@@ -83,15 +86,15 @@ Show that if $p(z) \da z^d + a_1z^{d-1} + \cdots + a_d$ and $\abs{a_k}< {R^k \ov
 Strategy: bound the difference.
 Find the big and small term:
 
-- Big: $g(z) = z^d$, so $\abs{g} = R^d$ on $\abs{z} = R$
-- Small: $f(z) = p(z) - g(z) = a_1 z^{d-1} + \cdots + a_d$, so
+- Big: $G(z) = z^d$, so $\abs{F} = R^d$ on $\abs{z} = R$
+- Small: $g(z) = p(z) - F(z) = a_1 z^{d-1} + \cdots + a_d$, so
 \[
-\abs{f(z)} 
+\abs{g(z)} 
 &\leq \abs{a_1} R^{d-1} + \abs{a_2} R^{d-2} + \cdots + \abs{a_d} \\
 &< {R\over d} \cdot R^{d-1} + {R^2 \over d} \cdot R^{d-2} + \cdots + {R^{d-1} \over d} \cdot R + {R^{d} \over d} \\
 &= d {R^d\over d} = R^d
 ,\]
-so $\abs{f} < R^d = \abs{g}$, meaning $Z_{f+g} = Z_g = d$ in $R\DD$.
+so $\abs{g} < R^d = \abs{F}$, meaning $Z_{p-F} = Z_F = d$ in $R\DD$.
 
 
 #work
