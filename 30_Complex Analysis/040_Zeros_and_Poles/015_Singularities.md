@@ -205,3 +205,12 @@ f(z) = {a_{-n} \over (z-z_0)^n } + \cdots + {a_{-1} \over z-z_0} + G(z) \da P(z)
 The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists of terms with negative degree, and the *residue* of $f$ at $z_0$ is the coefficient $a_{-1}$.
 :::
 
+## Exercises
+
+
+:::{.exercise title="?"}
+Let $f$ be an elliptic function and $P$ be its fundamental parallelogram.
+Supposing that $f$ is nonconstant, show that $f$ has at least two poles in $P$ (counted with multiplicity).
+
+:::
+
