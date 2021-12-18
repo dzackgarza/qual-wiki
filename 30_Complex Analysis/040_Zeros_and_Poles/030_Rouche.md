@@ -30,6 +30,7 @@ You can add a small perturbation $g$ to $f$ and preserve the number of zeros, wh
 
 :::{.proof title="of Rouché"}
 Idea: use argument principle on $(f+g)/f$.
+Alternatively, use that $N(f+tg, \Omega)$ is a continuous $\ZZ\dash$valued function for all $t\in [0, 1]$.
 
 ![](figures/2021-12-10_22-23-58.png)
 
@@ -43,21 +44,36 @@ Idea: use argument principle on $(f+g)/f$.
 
 :::
 
-:::{.remark}
+# Exercises
 
-![30_Complex Analysis/figures/2021-10-29_01-39-19.png](30_Complex%20Analysis/figures/2021-10-29_01-39-19.png)
+:::{.exercise title="?"}
+Find the number of zeros in $\abs{z} < 1$ of
+\[
+p(z) \da z^6 + 9z^4 + z^3 + 2z + 4
+.\]
 
-![30_Complex Analysis/figures/2021-10-29_01-39-43.png](30_Complex%20Analysis/figures/2021-10-29_01-39-43.png)
 
 :::
 
-:::{.example title="?"}
+:::{.solution}
+
+#work
 
 ![](figures/2021-12-10_18-00-35.png)
 
 :::
 
-# Exercises
+:::{.exercise title="?"}
+Show that if $p(z) \da z^d + a_1z^{d-1} + \cdots + a_d$ and $\abs{a_k}\leq {R^k \over d}$ for every $k$, then $p$ has $d$ zeros in $\abs{z} < R$.
+:::
+
+:::{.solution}
+
+#work
+
+![30_Complex Analysis/figures/2021-10-29_01-39-43.png](30_Complex%20Analysis/figures/2021-10-29_01-39-43.png)
+
+:::
 
 :::{.exercise title="?"}
 Show that $h(z) =z^5 + 3z + 1$ has 5 zeros in $\abs z \leq 2$.
