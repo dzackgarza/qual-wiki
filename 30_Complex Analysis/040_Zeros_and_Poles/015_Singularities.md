@@ -279,12 +279,19 @@ f(z) = \sum_{k\in \ZZ} c_k z^k
 which will still have infinitely many terms in its principal part at $0$.
 However, if $F$ had an essential singularity, the image of $F$ in a neighborhood of $0$ would be dense in $\CC$ by Casorati-Weierstrass, contradicting that its image is bounded (by $M$). 
 
-Suppose instead $z=0$ is a pole of order $\ell$ of $f$.
+Suppose instead $z=0$ is a pole of order $\ell$ of $f$, so $\abs{f(z)}\to \infty$ as $z\to 0$.
 Then again by considering power series expansions, $z=0$ remains a pole of $F$, now of order at worst $\ell$:
 \[
 f(z) = \bigo(z^{\ell}) 
 \implies z^m f^{(m)}(z) \approx z^m \cdot \bigo(z^{\ell - m}) = \bigo(z^\ell)
 .\]
+But if this is an order $\ell$ pole of $F$, then $\lim_{z\to 0} \abs{F(z)} = \infty$ and $\lim_{z\to 0} z^\ell F(z))$ is finite and nonzero.
+Apply the assumed bound yields the last contradiction:
+\[
+z^{\ell}F(z) = z^{\ell + m}f(z) \leq z^{\ell + m} \cdot Mz^{-m} = z^{\ell} \convergesto{z\to 0} 0
+.\]
+$\contradiction$
+
 
 
 :::
