@@ -301,30 +301,27 @@ With practice, it's much quicker to just do polynomial long division:
 \[
 {1\over \sin(z) } = z\inv\qty{z\over \sin(z)}
 .\]
-Now do the Euclidean algorithm:
+
+Now just run the grade school algorithm:
 \[
-z 
-= \qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) } (1) + 
-\qty{{z^3\over 3!} - {z^5 \over 5!} + {z^7 \over 7!} + \bigo(z^9) } 
-\\ \\
-{z^3\over 3!} - {z^5 \over 5!} + {z^7 \over 7!} + \bigo(z^9) =
-\qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
-\qty{z^2\over 3!}
-\\
-\quad + 
-\qty{ z^5\qty{ -{1 \over 3! 3!} - {1\over 5!} } + z^7 \qty{- {1\over 3! 5!} + {1\over 7!}} + \bigo(z^9) }
-\\ \\
- z^5\qty{ -{1 \over 3! 3!} - {1\over 5!} } + z^7 \qty{- {1\over 3! 5!} + {1\over 7!}} + \bigo(z^9)
-= \qty{z - {z^3\over 3!} + {z^5\over 5!} - {z^7\over 7!} + \bigo(z^9) }
-\qty{z^4 \qty{ {1\over 3! 3!} - { 1\over 5!}  } }
-\quad + \bigo(z^7)
-\\ \\
-\implies {z\over \sin(z)} 
+  \begin{array}{rl}
+    \underline{\hspace{8em} 1 + {1\over 3!}z^2 + \left({1\over 3!3!} - {1\over 5!} \right)z^4 + \cdots } &  \\[-5pt]
+     z-{1\over 3!}z^3 + {1\over 5!}z^5 + \cdots\hspace{3em} |z\hspace{9em}  \\
+      \underline{-(z-{1\over 3!}z^3 + {1\over 5!}z^5 + \cdots)} & \\
+      {1\over 3!}z^3 - {1\over 5!}z^5 + {1\over 7!}z^7 - \cdots \hspace{0em}& \\
+     \underline{-{1\over 3!}z^2(z-{1\over 3!}z^3 + {1\over 5!}z^5 + \cdots)} & \\
+      \left( -{1\over 5!} + {1\over 3!3!}\right)z^5 + \left( {1\over 7!} - {1\over 3! 5!} \right)z + \cdots & \\
+  \end{array}
+.\]
+
+Conclusion:
+\[
+{z\over \sin(z)} 
 = 1 + {z^2\over 3!} + {7 z^4 \over 360 } + \bigo(z^6) \\
 \implies {1 \over \sin(z)} 
-= {1\over z}\qty {z\over \sin(z)}
 = {1\over z}  + {z\over 3!} + {7 z^3 \over 360 } + \bigo(z^5)
 .\]
+
 
 
 > This looks like a lot, but it's really just the grade school algorithm.
