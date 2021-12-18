@@ -114,6 +114,10 @@ The product of two sequences is given by the Cauchy product
 .\]
 :::
 
+# Inverting Series
+
+## Cauchy product formula for coefficients of $1/A(z)$
+
 :::{.fact title="Multiplicatively inverting a series"}
 Using the general ring theory fact that $A(z) \da \sum_{k\geq 0} a_k z^k \in R[[z]]$ is invertible iff $a_0$ is invertible in $R$, power series over fields can always be inverted.
 There is a formula: writing $B(z) \da \sum_{k\geq 0 } b_k z^k \da 1/A(z) \in \CC[[z]]$, the coefficients can be inductively computed as
@@ -124,18 +128,6 @@ b_n &= -a_0\inv \sum_{1\leq i \leq n} a_i b_{n-i} \\
 &= -{1\over a_0}\qty{a_nb_0 + a_{n-1}b_1 + \cdots + a_1 b_{n-1} }
 .\]
 
-Equivalently, supposing $A(z) \da 1 + a_1 z + a_2z^2 + \cdots$, a direct expansion gives
-\[
-{1\over A(z)} 
-&= {1\over 1 + \displaystyle\sum_{k\geq 1} a_k z^k }\\
-&= 
-1 - \qty{\sum_{k\geq 1} a_k z^k}
-\  + \qty{\sum_{k\geq 1} a_k z^k}^2
-\  - \qty{\sum_{k\geq 1} a_k z^k}^3
-\  + \cdots \\
-&= 1 - (A(z) - 1) + (A(z) - 1)^2 - (A(z) - 1)^3 + \cdots
-,\]
-where to compute the $z^m$ term you only need to consider the first $m+1$ summands in this expansion.
 :::
 
 :::{.proof title="Sketch"}
@@ -151,8 +143,11 @@ a_0b_2 + a_1b_1 + a_2b_0 &= 1 \\
 
 :::
 
-:::{.example title="Inverse coefficient formula for $1/1-z$"}
-For example, for $A(z) = 1-z$, this recovers $(1-z)\inv = \sum_{k\geq 0} z_k$.
+:::{.exercise title="Invert $1-z$"}
+Use this formulation to show that if $A(z)= 1-z$ then $1/A(z) = \sum z^k$.
+:::
+
+:::{.solution}
 Noting $a_0 = 1, a_1 = -1$, we have
 
 - $b_0 = 1/a_0 = 1$
@@ -166,7 +161,11 @@ and so on, so
 
 :::
 
-:::{.example title="Inverse of $2z-1$"}
+:::{.exercise title="Invert $2z-1$"}
+Let $A(z) \da 2z-1$ and find $1/A(z)$.
+:::
+
+:::{.solution}
 To compute the inverse of $A(z) \da (2z-1)$, note $a_0 = -1, a_1 = 2$, so
 
 - $b_0 = 1/a_0 = -1$
@@ -179,23 +178,33 @@ so
 {1\over 1-2z} = -1 - 2z - 4z^2 - 8z^3 \cdots 
 = - \sum_{k\geq 0} (2z)^k
 .\]
-:::
-
-:::{.example title="Inverting $\sin$ and computing $\tan$"}
-
-![](figures/2021-12-10_19-28-19.png)
 
 :::
+
+## Geometric Series
 
 :::{.fact title="Using geometric series to invert power series"}
-There is an alternative that sometimes (?) works: writing $A(z) = \sum_{k\geq 0} a_k z_k$, invert by formal manipulations:
+Supposing $A(z) \da 1 + a_1 z + a_2z^2 + \cdots$, a direct expansion gives
+\[
+{1\over A(z)} 
+&= {1\over 1 + \displaystyle\sum_{k\geq 1} a_k z^k }\\
+&= 
+1 - \qty{\sum_{k\geq 1} a_k z^k}
+\  + \qty{\sum_{k\geq 1} a_k z^k}^2
+\  - \qty{\sum_{k\geq 1} a_k z^k}^3
+\  + \cdots \\
+&= 1 - (A(z) - 1) + (A(z) - 1)^2 - (A(z) - 1)^3 + \cdots
+,\]
+where to compute the $z^m$ term you only need to consider the first $m+1$ summands in this expansion.
+
+Purely formally, we have
 \[
 {1\over A(z)} = {1 \over 1- (1-A(z))} = \sum_{k\geq 0} (1-A(z))^k z^k
 .\]
 :::
 
 :::{.warnings}
-In order to invert $A$, you need to clear powers of $z$ so that a leading term is constant.
+In order to invert $A$ using this method, you need to clear powers of $z$ so that a leading term is constant.
 :::
 
 :::{.example title="Inverting using geometric series"}
@@ -217,6 +226,8 @@ Inverting $\sin(z)$ using a geometric series, heeding the warning above:
 .\]
 
 :::
+
+## Polynomial Long Division
 
 :::{.example title="Inverting by polynomial long division"}
 With practice, it's much quicker to just do polynomial long division:
@@ -302,7 +313,17 @@ z - {1\over 3!}z^3 + {1\over 5!}z^5
 
 :::
 
+
 # Exercises
+
+:::{.exercise title="Inverting $\sin$ and computing $\tan$"}
+
+Find a power series representation for $\tan(z)$ about $z_0 = 0$ using the series for $\sin, \cos$.
+:::
+
+:::{.solution}
+![](figures/2021-12-10_19-28-19.png)
+:::
 
 
 :::{.exercise title="Integral formula for coefficients"}
