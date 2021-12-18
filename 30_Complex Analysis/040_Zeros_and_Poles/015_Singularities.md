@@ -262,6 +262,7 @@ Show that if $f$ has a singularity at $z=0$, then it must be removable.
 \envlist
 
 - $\dd{}{z}$ is a left-shift on power series, $z^m$ is a right-shift.
+- $f'$ has the same poles as $f$, possibly with worse order due to the left-shift.
 
 :::
 
@@ -280,7 +281,7 @@ However, if $F$ had an essential singularity, the image of $F$ in a neighborhood
 Suppose instead $z=0$ is a pole of order $\ell$ of $f$.
 Then again by considering power series expansions, $z=0$ remains a pole of $F$, now of order at worst $\ell$:
 \[
-f(z) = \bigo(z^{ell}) 
+f(z) = \bigo(z^{\ell}) 
 \implies z^m f^{(m)}(z) \approx z^m \cdot \bigo(z^{\ell - m}) = \bigo(z^\ell)
 .\]
 
