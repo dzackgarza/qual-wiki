@@ -143,7 +143,7 @@ a_0b_2 + a_1b_1 + a_2b_0 &= 1 \\
 
 :::
 
-:::{.exercise title="Invert $1-z$"}
+:::{.exercise title="Invert $1-z$, one coefficient at a time"}
 Use this formulation to show that if $A(z)= 1-z$ then $1/A(z) = \sum z^k$.
 :::
 
@@ -161,7 +161,7 @@ and so on, so
 
 :::
 
-:::{.exercise title="Invert $2z-1$"}
+:::{.exercise title="Invert $2z-1$, one coefficient at a time"}
 Let $A(z) \da 2z-1$ and find $1/A(z)$.
 :::
 
@@ -181,11 +181,9 @@ so
 
 :::
 
-
-:::{.exercise title="Invert $\cos(z)$"}
+:::{.exercise title="Invert $\cos(z)$, one coefficient at a tiem"}
 Find $1/\cos(z)$ using this method.
 :::
-
 
 :::{.solution}
 We have $\cos(z) = c_0 +c_2^2 + c_4 z^4 + \bigo(z^6)$ where
@@ -209,7 +207,7 @@ So
 .\]
 :::
 
-:::{.exercise title="Invert $\sin(z)$"}
+:::{.exercise title="Invert $\sin(z)$, one coefficient at a time"}
 Find $1/\sin(z)$ using this method.
 :::
 
@@ -246,7 +244,6 @@ Thus $1/B(z) = 1 -c_2z^2 + (c_2^2-c_4)z^4 + \bigo(z^6)$, and
 
 
 
-
 ## Geometric Series
 
 :::{.fact title="Using geometric series to invert power series"}
@@ -273,8 +270,12 @@ Purely formally, we have
 In order to invert $A$ using this method, you need to clear powers of $z$ so that a leading term is constant.
 :::
 
-:::{.example title="Inverting using geometric series"}
-Inverting $\sin(z)$ using a geometric series, heeding the warning above:
+:::{.exercise title="Invert $\sin(z)$ using geometric series"}
+Invert $\sin(z)$ using a geometric series, heeding the warning above.
+:::
+
+:::{.solution}
+Just a computation:
 \[
 {1\over \sin(z)} 
 &= {1\over z-{z^3\over 3!} + {z^5\over 5!} - \bigo(z^7) } \\
