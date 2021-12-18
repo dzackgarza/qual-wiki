@@ -127,7 +127,6 @@ b_n &= -a_0\inv \sum_{1\leq i \leq n} a_i b_{n-i} \\
 &= -a_0\inv \sum_{0\leq i \leq n-1} a_{n-i}b_i \\
 &= -{1\over a_0}\qty{a_nb_0 + a_{n-1}b_1 + \cdots + a_1 b_{n-1} }
 .\]
-
 :::
 
 :::{.proof title="Sketch"}
@@ -242,8 +241,6 @@ Thus $1/B(z) = 1 -c_2z^2 + (c_2^2-c_4)z^4 + \bigo(z^6)$, and
 .\]
 :::
 
-
-
 ## Geometric Series
 
 :::{.fact title="Using geometric series to invert power series"}
@@ -292,6 +289,15 @@ Just a computation:
 &= {1\over z} + {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)
 .\]
 
+:::
+
+:::{.exercise title="Find $\tan$ using geometric series"}
+Laurent expand $\tan(z)$ at $0$ using this method to compute $1/\cos(z)$ and taking the product $\sin(z) \cdot {1\over \cos(z)}$.
+
+:::
+
+:::{.solution}
+![](figures/2021-12-10_19-28-19.png)
 :::
 
 ## Polynomial Long Division
@@ -379,17 +385,7 @@ z - {1\over 3!}z^3 + {1\over 5!}z^5
 
 # Exercises
 
-:::{.exercise title="Inverting $\sin$ and computing $\tan$"}
-
-Find a power series representation for $\tan(z)$ about $z_0 = 0$ using the series for $\sin, \cos$.
-:::
-
-:::{.solution}
-![](figures/2021-12-10_19-28-19.png)
-:::
-
-
-:::{.exercise title="Integral formula for coefficients"}
+:::{.exercise title="Cauchy integral formula for coefficients"}
 Show that if $f(z) \sum_{k\in \ZZ} c_k (z-z_0)^k$, then 
 \[
 c_k = {1\over 2\pi i}\int_\gamma {f(z) \over (z-z_0)^{n+1}}\dz
@@ -409,10 +405,30 @@ and try to obtain a geometric series to obtain
 f(z)=\sum_{j=-\infty}^{\infty}\left(\frac{1}{2 \pi i} \oint_{\left|w-z_{0}\right|=r} \frac{f(w)}{\left(w-z_{0}\right)^{j+1}} d w\right)\left(z-z_{0}\right)^{j}
 .\]
 
+#work
+
 :::
 
+## Radius of Convergence 
 
-:::{.exercise title="?"}
+:::{.exercise title="Radius of convergence"}
+Find the radius of convergence of 
+
+- $\sum a^k z^k$ for $a$ a constant.
+- $\sum a^{k^2}z^k$
+
+#completed
+
+:::
+
+:::{.solution}
+\envlist
+
+- $R = 1/\limsup \abs{a^k}^{1\over k} = 1\over \abs{a}$
+- $R = 1/\limsup \abs{a^{k^2}}^{1\over k} = 1/\limsup \abs{a}^k$, so $R=\infty$ if $\abs{a}< 1$, $R=0$ if $\abs{a}<1$, and $R=1$ if $\abs{a} = 1$.
+:::
+
+:::{.exercise title="Radius of convergence"}
 Find the radius of convergences for the power series expansion of $\sqrt{z}$ about $z_0 = 4 +3i$.
 Repeat with $z_1=-4+3i$.
 
@@ -430,6 +446,8 @@ For $z_1$, the distance to zero is $\abs{4+3i - 0} = 5$ but the distance to the 
 > Note the subtle distinction: the series converges to $f$ in a disc $\abs{z-z_0}<1$, but the series itself converges in larger discs.
 
 :::
+
+## Finding Laurent Expansions
 
 :::{.exercise title="Expanding Laurent series in different regions"}
 Expand $f(z) = {1\over z(z-1)}$ in both
@@ -486,23 +504,6 @@ Show that any power series is continuous on its domain of convergence.
 
 #work
 
-:::
-
-:::{.exercise title="?"}
-Find the radius of convergence of 
-
-- $\sum a^k z^k$ for $a$ a constant.
-- $\sum a^{k^2}z^k$
-
-#completed
-
-:::
-
-:::{.solution}
-\envlist
-
-- $R = 1/\limsup \abs{a^k}^{1\over k} = 1\over \abs{a}$
-- $R = 1/\limsup \abs{a^{k^2}}^{1\over k} = 1/\limsup \abs{a}^k$, so $R=\infty$ if $\abs{a}< 1$, $R=0$ if $\abs{a}<1$, and $R=1$ if $\abs{a} = 1$.
 :::
 
 
