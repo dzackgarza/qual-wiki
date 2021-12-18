@@ -68,15 +68,15 @@ p(z) \da z^6 + 9z^4 + z^3 + 2z + 4
 Strategy: bound the difference.
 Find the big and small term:
 
-- Big: $f(z) = 9z^4$, so $\abs{f(z)} = 9$ on the boundary
-- Small: $g(z) = p(z) - f(z) = z^6 + z^3 + 2z + 4$, so $\abs{g(z)}\leq 1+1+2+4=8$ on the boundary.
-So $\abs{f-g} \leq \abs{g}$ on $\abs{z} = 2$, meaning $Z_f = Z_g = 4$.
+- Big: $F(z) = 9z^4$, so $\abs{f(z)} = 9$ on the boundary
+- Small: $g(z) = p(z) - F(z) = z^6 + z^3 + 2z + 4$, so $\abs{g(z)}\leq 1+1+2+4=8$ on the boundary.
+So $\abs{p-F} \leq \abs{F}$ on $\abs{z} = 2$, meaning $Z_{p} = Z_F = 4$.
 
 
 :::
 
 :::{.exercise title="Number of zeros of an arbitrary polynomial in $R\mathbb{D}$"}
-Show that if $p(z) \da z^d + a_1z^{d-1} + \cdots + a_d$ and $\abs{a_k}\leq {R^k \over d}$ for every $k$, then $p$ has $d$ zeros in $\abs{z} < R$.
+Show that if $p(z) \da z^d + a_1z^{d-1} + \cdots + a_d$ and $\abs{a_k}< {R^k \over d}$ for every $k$ (noting the strict inequality), then $p$ has $d$ zeros in $\abs{z} < R$.
 :::
 
 :::{.solution}
@@ -88,8 +88,10 @@ Find the big and small term:
 \[
 \abs{f(z)} 
 &\leq \abs{a_1} R^{d-1} + \abs{a_2} R^{d-2} + \cdots + \abs{a_d} \\
-&\leq {R\over d} \cdot R^{d-1} + {R^2 \over d} \cdot R^{d-2} + \cdots + {R^{d-1} \over d} \cdot R + {R^{d} \over d}
-.\]
+&< {R\over d} \cdot R^{d-1} + {R^2 \over d} \cdot R^{d-2} + \cdots + {R^{d-1} \over d} \cdot R + {R^{d} \over d} \\
+&= d {R^d\over d} = R^d
+,\]
+so $\abs{f} < R^d = \abs{g}$, meaning $Z_{f+g} = Z_g = d$ in $R\DD$.
 
 
 #work
