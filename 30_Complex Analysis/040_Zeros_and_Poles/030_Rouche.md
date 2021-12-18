@@ -10,8 +10,10 @@ If
 
 then
 \[
-\Ind_{z=0}(f\circ \gamma)(z) = \Ind_{z=0}((f+g)\circ \gamma)(z) \\
-\implies Z_f - P_f = Z_{f+g} - P_{f+g}
+\Index_{z=0}(f\circ \gamma)(z) 
+&= \Index_{z=0}((f+g)\circ \gamma)(z) \\
+\implies Z_f - P_f 
+&= Z_{f+g} - P_{f+g}
 .\]
 In particular, if $f, g$ are holomorphic, they have the same number of zeros in $\Omega$.
 
