@@ -62,9 +62,7 @@ f(z)
 ,\]
 so $z=0$ is a zero of order 2 of $1/f$.
 This expansion also shows that the principal part of $f$ at $z=0$ is ${1\over z^2}$, which is precisely that of $g$ at $z=0$, i.e. ${1\over (z-0)^2} = 1/z^2$, 
-Since $h\da f-g$ subtracts off this part, $z=0$ becomes a removable singularity for $h$. 
-
-Note that $\lim_{z\to 0} z^2f(z) = 1<\infty$, so
+Since $h\da f-g$ subtracts off this part, $z=0$ becomes a removable singularity for $h$ since $\lim_{z\to 0} \qty{ f(z) - {1\over z^2}} = 1<\infty$.
 
 
 :::
