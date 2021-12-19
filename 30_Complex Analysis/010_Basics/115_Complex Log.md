@@ -71,6 +71,12 @@ Note that this is sometimes written
 .\]
 :::
 
+:::{.example title="Log is multivalued"}
+\[
+\log(1+i) = \ln\qty{\sqrt 2} + \qty{{\pi\over 4} + 2k\pi}i
+.\]
+Note that this assigns an infinite number of complex numbers to $1+i$, all on the line $\Re(z) = \ln\qty{\sqrt 2}$ with imaginary parts differing by multiples of $2\pi$.
+:::
 
 :::{.remark}
 The principal branch of $\Log$ is defined so that $\Log(1) = 0$, and can be written as 
