@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "qual_progress.md",
-            "mode": "preview"
+            "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+            "mode": "source"
           }
         }
       }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "qual_progress.md",
+                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "qual_progress.md"
+                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "qual_progress.md",
+                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "qual_progress.md",
+                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,8 +256,8 @@
   },
   "active": "fac2a65aac3ba4b2",
   "lastOpenFiles": [
-    "qual_progress.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+    "qual_progress.md",
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
     "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md",

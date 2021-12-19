@@ -23,7 +23,7 @@ Things to know well:
 - [[30_Complex Analysis/040_Zeros_and_Poles/030_Rouche|Rouche's theorem]]
 - [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|The Schwarz reflection principle]]
 - [[30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma|The Schwarz lemma]]
-- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass|Casorati-Weierstrass]]
+- [[30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass|Casorati-Weierstrass]]
 	- [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati|Casorati-Weierstrass Qual questions]]
 - [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 - [[30_Complex Analysis/900 Unsorted/Maps of the disc|Automorphisms of the disc]]
@@ -118,20 +118,18 @@ Some silly arithmetic tricks:
 	- Conversely, if $f$ is holomorphic at $z_0$ *is* a zero, there is punctured neighborhood of $z_0$ where $f$ is nonzero.
 
 ## Estimating
-- To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.
-- To prove $a\leq b$, try showing ${a\over b} \leq 1$.
+- To prove $a\leq b$, try showing ${a\over b} \leq 1$ and reason about $\DD$, or show $b-a\geq 0$, 
 - To bound a rational function, use the reverse triangle inequality:
 \[
 \abs{a\pm b} \geq \abs{ \abs{a} - \abs{b}} \implies {1\over \abs{a\pm b}} \leq {1\over \abs{\abs{a} - \abs{b} } }
 .\]
-
-- To show $a\leq b$, try ${a\over b}\leq 1$ instead and reason about $\DD$.
-  - Alternatively, try $b-a\geq 0$ (obvious, but useful!)
-- If $\abs{f} = M$ on $\bd \Omega$, then if (importantly) $f\neq 0$ in $\Omega$ then $\abs{f} = M$ on all of $\bar \Omega$ by apply the MMP to $f$ and $1/f$.
-	- Why $f\neq 0$ is necessary: take $f(z) = z$.
-- For real analysis: if $f' < M$, apply the mean value theorem to show $f$ is Lipschitz: $\abs{f(x) - f(y)} = \abs{f'(\xi)} \abs{x-y} < M\abs{x-y}$.
 - Bounding a derivative using the original function: Cauchy's formula.
   - Also works to bound a function in terms of its integral, e.g. over a compact set like a curve.
+- If $\abs{f} = M$ on $\bd \Omega$, then if (importantly) $f\neq 0$ in $\Omega$ then $\abs{f} = M$ on all of $\bar \Omega$ by apply the MMP to $f$ and $1/f$.
+	- Why $f\neq 0$ is necessary: take $f(z) = z$.
+- To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.
+- For real analysis: if $f' < M$, apply the mean value theorem to show $f$ is Lipschitz: $\abs{f(x) - f(y)} = \abs{f'(\xi)} \abs{x-y} < M\abs{x-y}$.
+
   
 ## Polynomials
 
