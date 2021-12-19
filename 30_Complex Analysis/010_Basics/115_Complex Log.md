@@ -71,6 +71,8 @@ Note that this is sometimes written
 .\]
 :::
 
+
+
 :::{.example title="Log is multivalued"}
 \[
 \log(1+i) = \ln\qty{\sqrt 2} + \qty{{\pi\over 4} + 2k\pi}i
@@ -94,7 +96,7 @@ z^\alpha \da e^{\alpha \log(z)}
 where some branch of $\log$ (usually the principal branch) is implicitly chosen.
 :::
 
-:::{.theorem title="Existence of $\log$ on domains"}
+:::{.theorem title="Existence of $\log(f)$ on domains"}
 If $\Omega$ is a connected domain with $f\in \OO\units(\Omega)$ an invertible regular function with 
 \[
 \int_\gamma {f'\over f} = 0
@@ -108,6 +110,10 @@ for all $\gamma \subseteq \Omega$, then
 g(z) = g(z_0) + \int_{z_0}^z {f'(\xi) \over \xi}\dxi
 .\]
 
+:::
+
+:::{.remark}
+$\Log(f(z))$ has branch points at the zeros of $f$.
 :::
 
 :::{.fact}
@@ -128,8 +134,6 @@ Then there exists a branch of $F(z) \da \Log(z)$ such that
 
 :::
 
-
-
 :::{.exercise title="?"}
 Show that
 
@@ -137,7 +141,6 @@ Show that
 - $\log(\exp(z))\neq z$
 
 :::
-
 
 :::{.solution}
 Counterexamples: 
