@@ -53,6 +53,15 @@ Some computations that come up frequently:
 .\]
 :::
 
+
+:::{.fact}
+The inversion $z\to 1/z$ is easiest to understand in polar coordinates, $Re^{i\theta}\mapsto {1\over R}e^{-i\theta}$:
+
+![](figures/2021-12-18_23-32-13.png)
+
+:::
+
+
 # Exercises
 
 :::{.exercise title="Finding complex roots"}
@@ -110,6 +119,14 @@ Then
 &= x^4 + 4ix^3y - 6x^2y^2 - 4ixy^3 + y^4 \\
 &= (x^4 - 6x^2y^2 + y^4) + i(4x^3y - 4xy^3)
 .\]
+So
+\[
+\cos(4\theta) 
+&= \cos^4(\theta) - 6\cos^2(\theta)\sin^2(\theta) + \sin^4(\theta)\\
+\sin(4\theta)
+&= \cos^3(\theta)\sin(\theta) + \cos(\theta)\sin^3(\theta)
+.\]
+
 
 :::
 
