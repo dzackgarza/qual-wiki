@@ -1,9 +1,7 @@
 # Linear Fractional Transformations
 
-:::{.fact}
-Checking if $f$ is conformal: $f'(z_0) \neq 0$.
-
-- Conformal Mapping Dictionary:
+:::{.remark title="Resources"}
+Conformal Mapping Dictionary:
 
   Parts [I](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.1.html),[II](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.2.html) ,[III](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.3.html) ,[IV](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.4.html), and [V](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.5.html)
 :::
@@ -12,6 +10,10 @@ Checking if $f$ is conformal: $f'(z_0) \neq 0$.
 A map $f$ is **conformal** on $\Omega$ iff $f$ is complex-differentiable, $f'(z)\neq 0$ for $z\in \Omega$, and $f$ preserves signed angles (so $f$ is orientation-preserving).
 
 A bijective conformal map $f:U\to V$ **biholomorphism**, and we say $U$ and $V$ are **biholomorphic**.
+:::
+
+:::{.fact title="Checking if a map is conformal"}
+To check if a map is conformal at $p$, it *suffices* to check that $f'(p)\neq 0$.
 :::
 
 :::{.remark}
@@ -49,7 +51,6 @@ T(z) \da
 
 If any of the $z_i$ are $\infty$, the convention is to remove the corresponding terms where they appear:
 :::
-
 
 :::{.definition title="Mobius transformation"}
 A map of the following form is a **linear fractional transformation** ( or a **Mobius transformation**):
