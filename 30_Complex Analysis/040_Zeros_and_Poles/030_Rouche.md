@@ -55,7 +55,7 @@ Alternatively, use that $N(f+tg, \Omega)$ is a continuous $\ZZ\dash$valued funct
 
 # Exercises
 
-:::{.exercise title="Number of zeros of a standard polynomial in $\mathbb{D}$"}
+:::{.exercise title="Explicit Rouché, $\mathbb{D}$"}
 Find the number of zeros in $\abs{z} < 1$ of
 \[
 p(z) \da z^6 + 9z^4 + z^3 + 2z + 4
@@ -78,7 +78,26 @@ So $\abs{p-F} \leq \abs{F}$ on $\abs{z} = 2$, meaning $Z_{p} = Z_F = 4$.
 
 :::
 
-:::{.exercise title="Number of zeros of an arbitrary polynomial in $R\mathbb{D}$"}
+:::{.exercise title="Explicit Rouche, $2\mathbb{D}$"}
+Find the number of zeros in $\abs{z} < 2$ of
+\[
+h(z) \da z^5 + 3z + 1
+.\]
+
+
+#completed
+:::
+
+:::{.solution}
+Strategy: bound the difference.
+
+- Big: $F(z) \da z^5$ so $\abs{F(z)} = 2^5 = 32$ on $\abs{z} = 2$
+- Small: $g(z) \da p(z) - F(z) = 3z+1$, so $\abs{g(z)} \leq 3\abs{z}+ 1 = 7$ on $\abs{z} = 2$.
+
+Then $\abs{g}\leq \abs{F}$ on $\abs{z} = 2$, $Z_{p} = Z_F = 5$.
+:::
+
+:::{.exercise title="Arbitrary Rouché, $R\mathbb{D}$"}
 Show that if $p(z) \da z^d + a_1z^{d-1} + \cdots + a_d$ and $\abs{a_k}< {R^k \over d}$ for every $k$ (noting the strict inequality), then $p$ has $d$ zeros in $\abs{z} < R$.
 
 #completed
@@ -99,22 +118,6 @@ Find the big and small term:
 ,\]
 so $\abs{g} < R^d = \abs{F}$, meaning $Z_{p-F} = Z_F = d$ in $R\DD$.
 
-:::
-
-:::{.exercise title="?"}
-Show that $h(z) =z^5 + 3z + 1$ has 5 zeros in $\abs z \leq 2$.
-
-#completed
-:::
-
-:::{.solution}
-Write $h(z) = f(z) + g(z)$ where $f(z) = z^5$ and $g(z) = 3z+1$.
-Then $\size Z(f) = 5$ and on $\abs{z} = 2$,
-\[
-\abs{f(z)} &= \abs{z}^5 = 32 \\
-\abs{g(z)} &= \abs{3z+1} \leq 3\abs{z} +1 = 7 < \abs{f(z)} \\
-,\]
-so $f$ and $f+g \da h$ have the same number of zeros: 5.
 :::
 
 :::{.exercise title="?"}
