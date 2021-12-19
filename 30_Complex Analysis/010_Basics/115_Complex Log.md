@@ -79,6 +79,17 @@ Thus
 .\]
 :::
 
+
+:::{.definition title="Complex log"}
+Define
+\[
+\log(z) \da \ln\qty{\abs{z}} + i\Arg(z)
+,\]
+where $\Arg(z)$ is the principal argument in $(-\pi, \pi]$.
+
+:::
+
+
 :::{.definition title="Complex fractional powers"}
 Define
 \[
