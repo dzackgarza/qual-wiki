@@ -10,7 +10,6 @@ If $f(z) = 0$ for some $z\in \bd G$, we're done, so suppose $f\neq 0$ on $\bar G
 Then $1/f$ is holomorphic on $G$ and continuous on $\bar G$, so $\max_{z\in \bar G}\abs{1/f(z)} = \max_{z\in \bd G} \abs{1/f(z)}$.
 :::
 
-
 :::{.exercise title="SS 3.2.15"}
 Suppose $f$ is continuous and nonzero on $\bar\DD$ and holomorphic on $\DD$.
 Show that if $\abs{f(z)} = \abs{z}$ for all $\abs{z} = 1$ then $f$ is constant.
@@ -61,5 +60,17 @@ Show that if $f$ is constant on any closed disk $r\bar\DD$ for $r<1$, then $f$ i
 By MMP applied to $r\bar \DD$, since $f$ achieves its maximum on the interior $r\DD$, $f$ is necessarily constant.
 
 :::
+
+:::{.exercise title="?"}
+Suppose $f$ is entire and $f^{(n)}$ is bounded on $\CC$.
+Show that $f$ is a polynomial of degree at most $n$.
+:::
+
+:::{.solution}
+By Liouville or MMP, $f^{(n)}$ is bounded and entire and thus constant.
+Integrating a constant $n$ times yields a polynomial of degree t most $n$.
+
+:::
+
 
 
