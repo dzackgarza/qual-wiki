@@ -133,8 +133,6 @@ So $\int_\Gamma \Re(z) \dz = i$.
 
 :::
 
-
-
 ## Series and Sequences
 
 :::{.proposition title="Uniform Convergence of Series"}
