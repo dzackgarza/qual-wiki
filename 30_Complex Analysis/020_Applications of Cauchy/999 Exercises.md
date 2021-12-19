@@ -107,9 +107,9 @@ Claim: $f'(z) \equiv 0$.
 Use Cauchy's formula:
 \[
 \abs{f'(z)} 
-&= \abs{{1\over 2\pi i } \int_{\abs{\xi - z} = R} { f(\xi) \over (\xi - z)^2 }\dxi  } \\
-&\leq {1\over 2\pi} \int_{\abs{\xi - z} = R} { \abs{ f(\xi) } \over \abs{\xi - z}^2 } \dxi  \\
-&\leq {1\over 2\pi} \int_{\abs{\xi - z} = R} { \abs{ f(\xi) } \over R^2 } \dxi  
+&= \abs{{1\over 2\pi i } \int_{\abs \xi = R} { f(\xi) \over (\xi - z)^2 }\dxi  } \\
+&\leq {1\over 2\pi} \int_{\abs \xi = R} { \abs{ f(\xi) } \over \abs{\xi - z}^2 } \dxi  \\
+&\leq {1\over 2\pi} \int_{\abs \xi = R} { \eps \abs{\xi} \over \qty{R - \abs{\xi}^2 } } \dxi  
 .\]
 
 
