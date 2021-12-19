@@ -38,9 +38,11 @@ Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then c
 
 :::{.fact title="Completing the square"}
 \[
-x^2 - bx = (x - s)^2 - s^2 \quad\text{where } s = \frac{b}{2} \\
-x^2 + bx = (x + s)^2 - s^2 \quad\text{where } s = \frac{b}{2}
+x^2 + bx + c = 0 
+\iff x^2 + bx {\color{red} + \qty{b\over 2}^2 - \qty{b\over 2}^2 } + c = 0 \\
+\iff \qty{x+ \qty{b\over 2}^2}^2 + \qty{c - \qty{b\over 2}^2} = 0
 .\]
+
 :::
 
 :::{.fact}
