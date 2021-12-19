@@ -14,7 +14,7 @@ Tips:
 
 - If just mapping the disc to itself, use the hypberolic translations
 \[
-\psi_a \da {z-a\over 1-\bar z a}
+\psi_a \da {z-a\over 1-\bar a z}
 .\]
 
 - For lunes (regions bounded by arcs): map the cusps to $0$ and $\infty$ to get a sector.
