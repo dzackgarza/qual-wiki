@@ -24,6 +24,8 @@
 - Conformal maps preserve "clines", i.e. the image of a line or circle must be a line or circle.
 	Orthogonal lines/circles must go to lines/circles intersecting a circle orthogonally.
 	- Line segments between two points must go to line segments or circular arcs between their images.
+
+- $\RR =\ts{\tan(t) \st t\in (-\pi/2, \pi/ 2)}$.
 :::
 
 ## Discs and Planes
@@ -220,6 +222,27 @@ Find a conformal map that sends $i\RR$ to $\abs{z-{1\over 2}} = {1\over 2}$.
 
 
 :::{.solution}
+Idea: need the line $-i\infty\to 0 \to i\infty$ to get mapped to a circle $0\to 1\to 0$.
+Take the cross ratio $R(z) = (z, 0, \infty, -1)$ to send
+
+- $0\to 1$
+- $\infty\to 0$
+- $-1\to \infty$
+
+
+This yields
+\[
+R(z) = {z-\infty \over z+1}{0+1\over 0-\infty} = {1\over z+1}
+.\]
+Some deductions:
+
+- $R$ preserves circles, so $\RR\mapsto \RR$. 
+  - The segment $0\to\infty\mapsto 1\to 0$
+  - The ray $-1\to 0 \to \infty \mapsto \infty\to 1\to 0$
+  - The ray $-\infty \to -1 \mapsto 0\to -\infty$
+
+- $R$ preserves angles, to at $w=0$, the image of $i\RR$ must be orthogonal to $\RR$, so it's either a circle or $i\RR$ itself.
+- 
 
 :::
 
