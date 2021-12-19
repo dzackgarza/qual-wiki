@@ -49,6 +49,9 @@ where
 - $\gamma_1 = \ts{r_0 e^{it} \st t\in (0, \pi) }$,
 - $\gamma_2 = \ts{r_0 e^{-it} \st t\in (\pi, 0) }$
 
+
+![The situation](figures/2021-12-19_03-19-37.png)
+
 :::
 
 :::{.solution}
@@ -70,8 +73,6 @@ Note that this is sometimes written
 \log(z) \da \ln\qty{\abs{r}} + i\theta
 .\]
 :::
-
-
 
 :::{.example title="Log is multivalued"}
 \[
@@ -134,7 +135,7 @@ Then there exists a branch of $F(z) \da \Log(z)$ such that
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Log properties can fail"}
 Show that
 
 - $\log(zw)\neq \log(z)\log(w)$
