@@ -4,6 +4,7 @@ order: 5
 
 # Calculus Preliminaries
 
+## Derivatives and Integrals
 
 :::{.proposition title="Contraction principle"}
 If $(X, \abs{\wait})$ is a metric space and $f: X\to X$ with
@@ -44,16 +45,15 @@ Show that if $f$ is a differentiable contraction, $f$ is uniformly continuous.
 
 :::
 
-:::{.definition title="Locally uniform convergence"}
-A sequence of functions $f_n$ is said to converge **locally uniformly** on $\Omega \subseteq \CC$ iff $f_n\to f$ uniformly on every compact subset $K \subseteq \Omega$.
-:::
-
-:::{.theorem title="Uniform limit theorem"}
-A continuous function on a compact set is uniformly continuous.
-:::
-
 :::{.theorem title="Implicit Function Theorem"}
-???
+Suppose $f\in C^1(\RR^n, \RR^n)$, $f'(a)$ is an invertible linear map, and $b\da f(a)$.
+Then there exist neighborhoods $U\ni a, V\ni f(a)$ such that $f:U\to V$ is a bijection with an inverse $g:V\to U$ satisfying $g(f(x)) = x$ for all $x\in U$.
+Moreover, $g \in C^1(V)$.
+:::
+
+:::{.slogan}
+A $C^1$ function is invertible in any neighborhood in which its derivative $f'$ is invertible.
+
 :::
 
 :::{.theorem title="Inverse Function Theorem"}
@@ -79,7 +79,18 @@ In vector form,
 .\]
 :::
 
-## Convergence
+## Function Convergence
+
+:::{.definition title="Locally uniform convergence"}
+A sequence of functions $f_n$ is said to converge **locally uniformly** on $\Omega \subseteq \CC$ iff $f_n\to f$ uniformly on every compact subset $K \subseteq \Omega$.
+:::
+
+:::{.theorem title="Uniform limit theorem"}
+A continuous function on a compact set is uniformly continuous.
+
+#work
+
+:::
 
 :::{.remark}
 Recall that absolutely convergent implies convergent, but not conversely: $\sum k\inv = \infty$ but $\sum (-1)^k k\inv < \infty$.
