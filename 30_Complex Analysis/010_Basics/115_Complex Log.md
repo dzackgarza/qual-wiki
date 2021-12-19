@@ -17,9 +17,24 @@ There is a formula based on which quadrant $z$ is in:
 
 ![](figures/2021-12-19_02-35-23.png)
 
-Note that $\Arg(0)$ is undefined.
+Note that $\Arg(0)$ is undefined, so that $\Arg(z)$ makes sense on $\CC \sm (-\infty, 0]$, where $(\infty, 0]$ is a **branch cut**. Since $\log(z)$ and $z^\alpha$ are defined in terms of $\Arg$, this is where most branching issues come from!
+:::
+
+
+:::{.example title="Of choosing branches"}
+There are two ways to define $z^{1\over 2}$:
+
+- $f_1(z) = \sqrt{\abs z} e^{i{ \Arg(z) \over 2} } = \sqrt{r}\cos\qty{\theta\over 2} + i\sqrt{r} \sin\qty{\theta\over 2}$.
+- $f_2(z) = \sqrt{\abs z} e^{i{ \Arg(z) + 2\pi \over 2} } = \sqrt{r}\cos\qty{\theta + 2\pi \over 2} + i\sqrt{r} \sin\qty{\theta + 2\pi \over 2}$.
+
+Note that 
+\[
+f_2(z) = \sqrt{r}e^{i{\Arg(z) + 2\pi \over 2} } = \sqrt{r} e^{i{\Arg(z) \over 2}}e^{i\pi} = -\sqrt{r}e^{i{\Arg(z) \over 2}} = -f_1(z)
+.\]
+
 
 :::
+
 
 
 :::{.fact title="Complex Log"}
