@@ -110,7 +110,7 @@ Choose $R = R(\eps) \gg 1$ so that $\abs{f(z)} \leq \eps \abs{z}$ for $\abs{z} \
 &= \abs{{1\over 2\pi i } \int_{\abs \xi = R} { f(\xi) \over (\xi - z)^2 }\dxi  } \\
 &\leq {1\over 2\pi} \int_{\abs \xi = R} { \abs{ f(\xi) } \over \abs{\xi - z}^2 } \dxi  \\
 &\leq {1\over 2\pi} \int_{\abs \xi = R} { \eps \abs{\xi} \over \qty{R - \abs{z}^2 } } \dxi  \\
-&= {1\over 2\pi} \qty{R\over \qty{\eps R-\abs{z}}^2 } \cdot 2\pi R \\
+&= {1\over 2\pi} \qty{\eps R\over \qty{R-\abs{z}}^2 } \cdot 2\pi R \\
 &= \bigo\qty{\eps R^2\over R^2} = \bigo(\eps) \\
 &\convergesto{\eps\to 0} 0
 .\]
