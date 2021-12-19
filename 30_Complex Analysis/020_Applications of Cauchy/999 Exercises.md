@@ -93,7 +93,11 @@ where if $R$ is fixed then by uniform convergence of $f_n\to f$, for $n$ large e
 :::
 
 :::{.exercise title="Sublinear growth"}
-Suppose that $f$ is entire and $\abs{f(z)\over z}\to 0$ as $\abs{z}\to \infty$.
+Suppose that $f$ is entire and $f$ has sublinear growth in the following sense:
+\[
+\abs{f(z)\over z}\to 0
+\text{ as } \abs{z}\to \infty
+.\]
 Show that $f$ must be constant.
 
 #completed
@@ -137,10 +141,29 @@ Choose $R = R(\eps) \gg 1$ so that $\abs{f(z)} \leq \eps \abs{z}$ for $\abs{z} \
 :::
 
 :::{.exercise title="Polynomial growth"}
+Suppose that $f$ is entire and has polynomial growth in the following sense:
+\[
+\abs{f(z)\over z^n} \leq k \text{ for }\abs{z} \geq R
+,\]
+for some constants $k$ and $R$.
+Show that $f$ is a polynomial of degree at most $n$.
+
 
 ![](figures/2021-12-14_16-52-37.png)
 ![](figures/2021-12-14_16-52-44.png)
 
+#completed
+
 :::
+
+
+:::{.solution}
+Since $f$ is entire, it equals its Laurent expansion about $z_0 = 0$, so
+\[
+f(z) = \sum_{k\geq 0} c_k z^k && c_k = {f^{(k)}(0)\over k! } = {1\over 2\pi i}\int_{\abs{z} = R} {f(\xi) \over \xi^{k+1}}\dxi
+.\]
+
+:::
+
 
 
