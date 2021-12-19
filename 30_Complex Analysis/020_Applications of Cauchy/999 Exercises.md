@@ -73,3 +73,31 @@ where if $R$ is fixed then by uniform convergence of $f_n\to f$, for $n$ large e
 
 :::
 
+
+:::{.exercise title="Linear growth"}
+Suppose that $f$ is entire and $\abs{f(z)\over z}\to 0$ as $\abs{z}\to \infty$.
+Show that $f$ must be constant.
+:::
+
+
+:::{.solution}
+Claim: $f'(z_0) = 0$ for every $z_0\in \CC$, so $f'\equiv 0$, making $f$ constant.
+Fix $z_0$, then define
+\[
+g(z) \da 
+\begin{cases}
+{f(z) - f(0) \over z-0} & z\neq 0 
+\\
+f'(0) & z=0.
+\end{cases}
+.\]
+Note that for $z\neq 0$,
+\[
+\abs{g(z)} \da \abs{f(z) - f(0)\over z} \leq \abs{f(z) \over z} + \abs{f(0)\over z} \convergesto{\abs{z} \to \infty }0
+,\]
+so for $\abs{z}$ large enough, $\abs{g(z)} < \eps$.
+
+
+:::
+
+
