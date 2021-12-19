@@ -1,6 +1,17 @@
 # Conformal Map Examples and Exercises 
 
 :::{.remark title="Tips and tricks"}
+Notation:
+
+- Almost everything is an *open* set, so don't include boundaries in definitions.
+- $Q_i$ is the $i$th quadrant, e.g. $Q_1 \da \ts{z \st \Re(z), \Im(z) > 0}$.
+- $\DD \da \ts{z \st \abs{z} < 1}$ is the open unit disc.
+- $\HH \da \ts{z \st \Im(z) > 0}$ is the open upper half-plane.
+- $Q_{ij} \da Q_i \union Q_j$ is the union of two quadrants.
+  E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
+
+Tips:
+
 - If just mapping the disc to itself, use the hypberolic translations
 \[
 \psi_a \da {z-a\over 1-\bar z a}
@@ -12,13 +23,6 @@
 
 - For circles with tangencies: send the tangent point to $\infty$ to get parallel lines.
 
-- Notation:
-	- Almost everything is an *open* set, so don't include boundaries in definitions.
-	- $Q_i$ is the $i$th quadrant, e.g. $Q_1 \da \ts{z \st \Re(z), \Im(z) > 0}$.
-	- $\DD \da \ts{z \st \abs{z} < 1}$ is the open unit disc.
-	- $\HH \da \ts{z \st \Im(z) > 0}$ is the open upper half-plane.
-	- $Q_{ij} \da Q_i \union Q_j$ is the union of two quadrants.
-		E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
 - Remembering the cross ratio: the order $1,0,\infty$ is very important (as images of $z_2, z_3, z_4$).
   - Send $z_3\to 0$ by including $z-z_3$ in the numerator.
   - Send $z_4\to \infty$ by including $z-z_4$ in the denominator.
