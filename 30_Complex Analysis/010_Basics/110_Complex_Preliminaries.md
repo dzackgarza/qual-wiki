@@ -4,7 +4,9 @@ order: 110
 
 # Complex Preliminaries
 
-- Since $\CC$ is a field, $\CC[x]$ is a UFD.
+:::{.fact}
+Since $\CC$ is a field, $\CC[x]$ is a UFD.
+:::
 
 :::{.definition title="Toy contour"}
 A closed Jordan curve that separates $\CC$ into an exterior and interior region is referred to as a **toy contour**.
@@ -21,6 +23,29 @@ z = re^{i\theta} = re^{i\qty{\theta + 2k\pi}} \implies z^{1/n} =
 Note that one root is $r^{1/n}\in \RR$, and the rest are separated by angles of $2\pi/n$.
 :::
 
+## Complex Factoring
+
+:::{.fact title="A complex perspective on factoring"}
+For $f$ a quadratic, writing $\Delta \da b^2-4ac$, the roots take on the form
+\[
+z_k = {1\over 2a}\qty{-b + i\sqrt{-\Delta}} = {1\over 2a}\qty{-b + i\sqrt{4ac - b^2}}
+.\]
+For monic polynomials, this becomes slightly nicer:
+\[
+z_k = {1\over 2}\qty{-b + i\sqrt{4c-b^2} }
+.\]
+:::
+
+:::{.example title="Factoring a quadratic"}
+There is a slightly nicer way to find roots, e.g.:
+\[
+x^2 + 2x + 6 &= 0 \\
+\implies x^2 + 2x + 1 + 4 &= 0 \\
+\implies (x+1)^2 + 4 &= 0 \\
+\implies x+1 &= \pm 2i \\
+\implies x &= -1\pm 2i
+.\]
+:::
 
 :::{.fact title="Factoring $z^n-1$"}
 \[

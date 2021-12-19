@@ -44,6 +44,7 @@ Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then c
 
 ## Algebra
 
+
 :::{.fact title="Completing the square"}
 \[
 x^2 + bx + c = 0 
@@ -60,5 +61,4 @@ ax^2 + bx + c = 0
 So given $ax^2+bx+c=0$, you can always write it as $a(x+d)^2 + e$ where $d\da b/2a$ and $e\da c - (b/2a)^2$.
 
 :::
-
 
