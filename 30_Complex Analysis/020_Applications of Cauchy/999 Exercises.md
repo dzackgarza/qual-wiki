@@ -61,19 +61,6 @@ where if $R$ is fixed then by uniform convergence of $f_n\to f$, for $n$ large e
 :::
 
 :::{.exercise title="Sublinear growth"}
-
-![](figures/2021-12-14_16-52-03.png)
-
-:::
-
-:::{.exercise title="Polynomial growth"}
-
-![](figures/2021-12-14_16-52-37.png)
-![](figures/2021-12-14_16-52-44.png)
-
-:::
-
-:::{.exercise title="Sublinear growth"}
 Suppose that $f$ is entire and $\abs{f(z)\over z}\to 0$ as $\abs{z}\to \infty$.
 Show that $f$ must be constant.
 
@@ -115,6 +102,12 @@ Choose $R = R(\eps) \gg 1$ so that $\abs{f(z)} \leq \eps \abs{z}$ for $\abs{z} \
 &\convergesto{\eps\to 0} 0
 .\]
 
+:::
+
+:::{.exercise title="Polynomial growth"}
+
+![](figures/2021-12-14_16-52-37.png)
+![](figures/2021-12-14_16-52-44.png)
 
 :::
 
