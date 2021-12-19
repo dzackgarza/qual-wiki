@@ -1,8 +1,9 @@
 ---
 order: 1
+title: Precalculus Preliminaries 
 ---
 
-# Basic Algebra
+# Precalculus Preliminaries 
 
 :::{.fact title="Standard forms of conic sections"}
 \envlist
@@ -37,8 +38,8 @@ Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then c
 
 :::{.fact title="Completing the square"}
 \[
-x^2 - bx = (x - s)^2 - s^2 \quad\text{where} s = \frac{b}{2} \\
-x^2 + bx = (x + s)^2 - s^2 \quad\text{where} s = \frac{b}{2}
+x^2 - bx = (x - s)^2 - s^2 \quad\text{where } s = \frac{b}{2} \\
+x^2 + bx = (x + s)^2 - s^2 \quad\text{where } s = \frac{b}{2}
 .\]
 :::
 
