@@ -5,6 +5,12 @@ title: Precalculus Preliminaries
 
 # Precalculus Preliminaries 
 
+## Geometry
+
+:::{.fact}
+The sum of the interior angles of an $n\dash$gon is $(n-2)\pi$, where each angle is $\frac{n-2}{n}\pi$.
+:::
+
 :::{.fact title="Standard forms of conic sections"}
 \envlist
 
@@ -36,6 +42,8 @@ Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then c
 
 :::
 
+## Algebra
+
 :::{.fact title="Completing the square"}
 \[
 x^2 + bx + c = 0 
@@ -49,10 +57,8 @@ ax^2 + bx + c = 0
 \iff x^2 + {b\over a}x + {\color{red} \qty{b/a \over 2}^2 - \qty{b/a \over 2}^2} + c = 0 \\
 \iff (x + {b\over 2a})^2 + \qty{c - \qty{b\over 2a}^2} = 0
 .\]
+So given $ax^2+bx+c=0$, you can always write it as $a(x+d)^2 + e$ where $d\da b/2a$ and $e\da c - (b/2a)^2$.
 
 :::
 
-:::{.fact}
-The sum of the interior angles of an $n\dash$gon is $(n-2)\pi$, where each angle is $\frac{n-2}{n}\pi$.
-:::
 
