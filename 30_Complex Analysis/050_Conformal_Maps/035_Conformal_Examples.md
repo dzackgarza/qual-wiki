@@ -28,19 +28,7 @@
 - $\RR =\ts{\tan(t) \st t\in (-\pi/2, \pi/ 2)}$.
 :::
 
-## Discs and Planes
-
-:::{.example title="Mapping the half-disc to the half-plane"}
-To send $\DD\to \HH$, "unwrap" the boundary by sending the boundary curve through $(i,1,-1)$ to the real line $(1, 0, \infty)$:
-\[
-(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv = -i\qty{z-1\over z+1} = i\qty{1-z\over 1+z}
-.\]
-
-#todo Why does this coincide with the standard map...?
-
-#completed
-
-:::
+## Identifying maps
 
 :::{.example title="?"}
 Find a Mobius transformation where $(1,i, 2) \to (3,0,-1)$.
@@ -52,6 +40,29 @@ How to find a formula: set $T(z) = S(w)$ and solve for $w$ to get
 .\]
 
 #todo Check!
+
+#completed
+
+:::
+
+## Discs and Planes
+
+:::{.exercise title="Disc to half-plane"}
+Find a conformal map $\DD \to \HH$.
+:::
+
+:::{.solution}
+To send $\DD\to \HH$, "unwrap" the boundary by sending the boundary curve through $(i,1,-1)$ to the real line $(1, 0, \infty)$:
+\[
+(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv = -i\qty{z-1\over z+1} = i\qty{1-z\over 1+z}
+.\]
+
+:::
+
+
+:::{.example title="Mapping the half-disc to the half-plane"}
+
+#todo Why does this coincide with the standard map...?
 
 #completed
 

@@ -53,14 +53,12 @@ Some computations that come up frequently:
 .\]
 :::
 
-
 :::{.fact}
 The inversion $z\to 1/z$ is easiest to understand in polar coordinates, $Re^{i\theta}\mapsto {1\over R}e^{-i\theta}$:
 
 ![](figures/2021-12-18_23-32-13.png)
 
 :::
-
 
 # Exercises
 
@@ -102,11 +100,9 @@ Find $\Re\qty{z+2\over z-1}$.
 
 :::
 
-
 :::{.exercise title="Trig identities"}
 Find an identity for $\cos(4\theta)$ in terms of $\sin(\theta)$ and $\cos(\theta)$.
 :::
-
 
 :::{.solution}
 Write $x=\cos(\theta), y= \sin(\theta)$, so $e^{i\theta} = x+iy$.
@@ -130,8 +126,6 @@ So
 
 :::
 
-
-
 :::{.exercise title="Modulus of $e^z$"}
 Show that $\abs{e^z} = e^{\Re(z)}$.
 
@@ -147,10 +141,10 @@ Then
 using that $e^x>0$ for all $x\in \RR$.
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Purely imaginary if on circle"}
 Show that ${z-1\over z+1}$ is purely imaginary $\iff z\in S^1$.
 
-> Hint: $z$ is purely imaginary iff $\bar{z} = -z$.
+> Hint: $z$ is real iff $\bar{z} = z$ and purely imaginary iff $\bar{z} = -z$.
 
 :::
 
