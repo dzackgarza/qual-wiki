@@ -53,6 +53,13 @@ Define $g(z) \da e^{-f(z)}$, then
 Since $g$ is entire and bounded, $g$ is constant and thus so is $f$.
 :::
 
+:::{.exercise title="?"}
+Show that if $f$ is constant on any closed disk $r\bar\DD$ for $r<1$, then $f$ is constant on $\DD$.
+:::
 
+:::{.solution}
+By MMP applied to $r\bar \DD$, since $f$ achieves its maximum on the interior $r\DD$, $f$ is necessarily constant.
+
+:::
 
 
