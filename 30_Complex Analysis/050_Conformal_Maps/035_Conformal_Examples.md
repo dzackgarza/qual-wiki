@@ -55,26 +55,13 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 &=
 -\frac{3 \, {\left(\left(i + 1\right) \, z - i + 1\right)}}{\left(3 i + 11\right) \, z - 3 i - 13}
 \\
-&= - {3z - 3 \over {3i+11\over i+1}z + {3i-13 \over 3i+11}} \\
-&= - {3z - 3i \over {3i+11\over i+1}z + {3i-13 \over 3i+11}} \\
+&= - {3z - 3i \over {3i+11\over i+1}z + {-3i-13 \over 3i+11}} \\
+&= - {3z - 3i \over (7-4i) z + {-8+5i} } \\
+&= \frac{-3 z+3 i}{(7-4 i) z+(-8+5 i)}
 .\]
 
 :::
 
-
-:::{.example title="?"}
-
-Write $T(z) = (z; 1, i, 2)$ and $S(w) = (w; 3, 0, -1)$, then the desired map is $T\circ S\inv$.
-How to find a formula: set $T(z) = S(w)$ and solve for $w$ to get
-\[
-\frac{-3 z+3 i}{(7-4 i) z+(-8+5 i)}
-.\]
-
-#todo Check!
-
-#completed
-
-:::
 
 ## Discs and Planes
 
