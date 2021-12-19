@@ -28,10 +28,7 @@
 - $\RR =\ts{\tan(t) \st t\in (-\pi/2, \pi/ 2)}$.
 :::
 
-## Identifying maps
-
-
-:::{.exercise title="?"}
+:::{.exercise title="Conformal maps to arbitrary points"}
 Find a Mobius transformation sending 
 
 - $1\to 3$
@@ -41,7 +38,6 @@ Find a Mobius transformation sending
 #completed
 
 :::
-
 
 :::{.solution}
 Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $T(z) = S(w) \implies w = (S\inv T)(z)$:
@@ -62,11 +58,10 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 
 :::
 
-
 ## Discs and Planes
 
 :::{.exercise title="Disc to half-plane"}
-Find a conformal map $\DD \to \HH$.
+Find a conformal map $\DD \to \HH$ using cross-ratios.
 
 #completed
 
