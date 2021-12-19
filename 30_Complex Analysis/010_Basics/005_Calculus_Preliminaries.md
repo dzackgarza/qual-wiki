@@ -14,7 +14,6 @@ then $f$ is a **contraction**.
 If $X$ is complete, then $f$ has a unique fixed point $x_0$ such that $f(x_0) = x_0$.
 :::
 
-
 :::{.proof title="?"}
 Uniqueness: if $x, y$ are two fixed points, then 
 \[
@@ -32,19 +31,24 @@ so inductively
 \[
 \abs{x_{k+1}- x_k}\leq c^k \abs{x_1 - x_0}
 .\]
-
-
-
-
+The claim is that this makes $\ts{x_k}$ a Cauchy sequence, this follows from the fact that if $n < m$ then
+\[
+\abs{x_n - x_m} \leq \sum_{n+1\leq k \leq m} \abs{x_k - x_{k-1}} \leq \sum_{n \leq k \leq m-1} c^k \abs{x_1 - x_0} \leq c^n \abs{x_1 - x_0 \over 1-c} \to 0
+.\]
 :::
 
+:::{.exercise title="?"}
+Show that if $f$ is a differentiable contraction, $f$ is uniformly continuous.
 
+#work
+
+:::
 
 :::{.definition title="Locally uniform convergence"}
 A sequence of functions $f_n$ is said to converge **locally uniformly** on $\Omega \subseteq \CC$ iff $f_n\to f$ uniformly on every compact subset $K \subseteq \Omega$.
 :::
 
-:::{.theorem title="?"}
+:::{.theorem title="Uniform limit theorem"}
 A continuous function on a compact set is uniformly continuous.
 :::
 
