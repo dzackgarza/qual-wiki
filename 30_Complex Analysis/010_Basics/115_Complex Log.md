@@ -71,6 +71,15 @@ Note that this is sometimes written
 .\]
 :::
 
+
+:::{.remark}
+The principal branch of $\Log$ is defined so that $\Log(1) = 0$, and can be written as 
+\[
+\Log(z) = \int_\gamma {1\over \xi} \dxi
+\]
+where $\gamma$ is any piecewise smooth path connecting 1 to $z$.
+:::
+
 :::{.definition title="Complex fractional powers"}
 Define
 \[
@@ -113,23 +122,6 @@ Then there exists a branch of $F(z) \da \Log(z)$ such that
 
 :::
 
-:::{.definition title="Principal branch and exponential"}
-Take $\CC$ and delete $\RR^{\leq 0}$ to obtain the **principal branch** of the logarithm. 
-Equivalently, this is define for all $z=re^{i\theta}$ where $\theta \in (-\pi, \pi)$.
-
-Here the log is defined as 
-\[
-\Log(z) \da \log(r) + i\theta && \abs{\theta} < \pi
-.\]
-Similarly define
-\[
-z^{\alpha} \da e^{\alpha \Log(z)}
-.\]
-
-The principal branch of $\Log$ is defined so that $\Log(1) = 0$, and can be written as $\Log(z) = \int_\gamma {1\over \xi} \dxi$ where $\gamma$ is any piecewise smooth path connecting 1 to $z$.
-This yields the usual $\Log(re^{i\theta}) = \log(\abs{r}) + i\theta$.
-
-:::
 
 
 :::{.exercise title="?"}
@@ -146,6 +138,9 @@ Counterexamples:
 
 - Take $z=\zeta_4^3$ and $w=\zeta_4^2$, noting that $\Arg(z) = {3\pi \over 4}$ and $\Arg(w) = {\pi \over 2}$
   Then $zw = e^{5\pi \over 4}$ but $\Arg(zw) = {-3\pi \over 4}$ because we are forced to use the domain $(-\pi, \pi]$.
+
+- Take $z= 
+- Take $z= 
 :::
 
 
