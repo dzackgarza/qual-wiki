@@ -82,7 +82,6 @@ This yields a quick way of finding $f\inv$: invert the matrix and ignore the det
 
 :::
 
-
 :::{.remark}
 A very useful variant that shows up in applications of the Schwarz' lemma:
 \[
