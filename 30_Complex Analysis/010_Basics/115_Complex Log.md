@@ -40,7 +40,7 @@ f_2(z) = \sqrt{r}e^{i{\Arg(z) + 2\pi \over 2} } = \sqrt{r} e^{i{\Arg(z) \over 2}
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Existence of multiple values in branches"}
 Let $z_0 = r_0e^{i\pi} \in (-\infty, 0) \subseteq \RR$, and show that $z^{1\over 2}$ is not continuous along $(-\infty, 0)$ by computing
 \[
 \lim_{z\in \gamma_1} f_1(z) &= i\sqrt{r_0} \\
@@ -54,7 +54,6 @@ where
 
 :::
 
-
 :::{.solution}
 \[
 \lim _{(r, \theta) \rightarrow\left(r_{0}, \pi\right)} f_{1}\left(r e^{i \theta}\right) &=\lim _{(r, \theta) \rightarrow\left(r_{0}, \pi\right)} r^{\frac{1}{2}}\left(\cos \frac{\theta}{2}+i \sin \frac{\theta}{2}\right)=i r_{0}^{\frac{1}{2}}, \quad \text { and } \\
@@ -63,32 +62,17 @@ where
 
 :::
 
-
-
-
-:::{.fact title="Complex Log"}
-For $z= r e^{i\theta}\neq 0$, $\theta$ is of the form $\Theta + 2k\pi$ where $\Theta = \Arg z$
-We define
-\[
-\log(z) = \ln\qty{\abs{z}} + i\Arg(z)
-\]
-and $z^c \da e^{c\log(z)}$.
-Thus
-\[
-\log(re^{i\theta}) = \ln \abs{r} + i\theta
-.\]
-:::
-
-
 :::{.definition title="Complex log"}
 Define
 \[
 \log(z) \da \ln\qty{\abs{z}} + i\Arg(z)
 ,\]
 where $\Arg(z)$ is the principal argument in $(-\pi, \pi]$.
-
+Note that this is sometimes written
+\[
+\log(z) \da \ln\qty{\abs{r}} + i\theta
+.\]
 :::
-
 
 :::{.definition title="Complex fractional powers"}
 Define
