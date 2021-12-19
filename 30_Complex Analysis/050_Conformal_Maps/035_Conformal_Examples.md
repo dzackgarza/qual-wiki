@@ -231,6 +231,8 @@ Find a conformal map that sends $i\RR$ to $\abs{z-{1\over 2}} = {1\over 2}$.
 - Parameterize a line by $x=\tan(t)$ for $t\in (-\pi/2, \pi/2)$
 - The methods in SS Theorem 1.2: particularly the boundary behavior of $F(z) \da {i-z\over i+z}$, where $F(\RR) = \ts{\cos(2t)+i\sin(2t) = e^{2it} \st t\in (-\pi/2, \pi/2)}$.
 
+- Nyquist plots: a common applied problem, essentially computing the image $F(i\RR)$.
+
 :::
 
 
