@@ -72,8 +72,8 @@ T^{-1}(w) = {dw-b \over -cw + a}
 and derivatives given by
 \[
 T'(z) = {ad-bc \over (cz+d)^2}
-.\]
-Every such $T$ can be written as a cross-ratio $R(z)$.
+,\]
+so this is always a conformal map when $ad-bc\neq 0$.
 :::
 
 :::{.remark title="Mobius transformations as projective linear automorphisms"}
@@ -90,13 +90,18 @@ This yields a quick way of finding $f\inv$: invert the matrix and ignore the det
 
 :::
 
-:::{.remark title="Writing a Mobius transformation as a cross-ratio"}
-Note that if $T(z) = {az+b\over cz + d}$, this can be written as the cross-ratio 
-\[
-T(z) = (z; {d-b\over a-c}, -{b\over a}, -{d\over c})
-.\]
-
+:::{.exercise title="Mobius transformations as cross-ratios"}
+Write a Mobius transformation $f(z) = {az+b\over cz + d}$
+as a cross-ratio.
 :::
+
+:::{.solution}
+\[
+T(z) = \qty{ z; {d-b\over a-c}, -{b\over a}, -{d\over c}}
+.\]
+:::
+
+
 ## Blaschke Factors
 
 :::{.remark}
@@ -107,6 +112,29 @@ A very useful variant that shows up in applications of the Schwarz' lemma:
 Some nice properties:
 
 - $\psi_a(a) = 0$ and $\psi_a(0) = a$
-- ?
+- $\psi_a$ has a simple pole at $1/\bar{a}$
+- $\psi_a(\bd \DD) = \bd \DD$
+- $\Aut(\DD) = \ts{ e^{i\theta} \prod_{k\leq N} \psi_{a_k} \st N\in \ZZ_{\geq 0}, a_k\in \DD}$, i.e. these form the factors of automorphisms of the disc after including rotations.
+- Fun fact: these yield continuous dynamical systems on $\bd \DD$!
 :::
+
+:::{.exercise title="Cancelling poles"}
+Let $f$ be meromorphic on $\DD$ with no poles on $\bd\DD$.
+Show that there exists a meromorphic $g$ with *no* poles in $\DD$ such that $\abs{f(z)} = \abs{g(z)}$ when $\abs{z} = 1$.
+
+#completed
+
+:::
+
+:::{.solution}
+Write $\ts{a_1,\cdots, a_n}$ for all of the poles of $f$, indexed with multiplicity, and define
+\[
+g(z) \da \prod_{1\leq k\leq n} \psi_{a_k}(z) f(z) 
+\da \qty{ \prod_{1\leq k \leq n}{z-a_k\over 1 -\bar{a_k} z}} f(z)
+.\]
+Then $g$ has no poles, and since $\abs{ \psi_{a_k} } = 1$ on $\bd \DD$, this works.
+:::
+
+
+
 
