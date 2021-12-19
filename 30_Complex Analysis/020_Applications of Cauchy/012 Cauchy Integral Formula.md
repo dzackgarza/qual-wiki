@@ -76,3 +76,28 @@ Now show that $\int_{C_R}$ vanishes: parameterize as $\gamma(t) = Re^{it}$ and u
 .\]
 
 :::
+
+
+:::{.exercise title="?"}
+Suppose $f$ is holomorphic on $\Omega$, a simply connected region, and suppose $\gamma \subseteq \Omega$.
+Using the Cauchy integral formula, show that
+\[
+\int_\gamma {f'(z) \over z-a}\dz = \int_\gamma {f(z) \over (z-a)^2 }\dz
+.\]
+:::
+
+
+:::{.solution}
+Use the integral formula directly:
+\[
+\int_\gamma {f'(z) \over z-a}\dz = 2\pi i f'(a)
+.\]
+
+On the other hand, use Cauchy's formula for derivatives:
+\[
+\int_\gamma {f(z) \over (z-a)^2}\dz = 2\pi i f^{(1)}(a)
+.\]
+
+:::
+
+
