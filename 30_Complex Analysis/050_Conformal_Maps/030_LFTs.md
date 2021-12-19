@@ -101,7 +101,6 @@ T(z) = \qty{ z; {d-b\over a-c}, -{b\over a}, -{d\over c}}
 .\]
 :::
 
-
 ## Blaschke Factors
 
 :::{.remark}
@@ -112,8 +111,8 @@ A very useful variant that shows up in applications of the Schwarz' lemma:
 Some nice properties:
 
 - $\psi_a(a) = 0$ and $\psi_a(0) = a$
-- $\psi_a$ has a simple pole at $1/\bar{a}$
-- $\psi_a(\bd \DD) = \bd \DD$
+- $\psi_a$ has a simple pole at $1/\bar{a}$ and a simple zero at $z=a$.
+- $\psi_a(\bd \DD) = \bd \DD$, i.e. $\abs{\psi_a(z)} = \abs{z}$ when $\abs{z} = 1$.
 - $\Aut(\DD) = \ts{ e^{i\theta} \prod_{k\leq N} \psi_{a_k} \st N\in \ZZ_{\geq 0}, a_k\in \DD}$, i.e. these form the factors of automorphisms of the disc after including rotations.
 - Fun fact: these yield continuous dynamical systems on $\bd \DD$!
 :::
@@ -134,7 +133,4 @@ g(z) \da \prod_{1\leq k\leq n} \psi_{a_k}(z) f(z)
 .\]
 Then $g$ has no poles, and since $\abs{ \psi_{a_k} } = 1$ on $\bd \DD$, this works.
 :::
-
-
-
 
