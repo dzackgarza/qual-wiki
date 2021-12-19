@@ -4,8 +4,18 @@
 Show that if $f$ has a primitive $F$ on $\Omega$ then $\int_\gamma f = 0$ for every closed curve $\gamma \subseteq \Omega$.
 :::
 
-:::{.exercise title="?"}
-Prove the uniform limit theorem for holomorphic functions: if $f_n\to f$ locally uniformly and each $f_n$ is holomorphic then $f$ is holomorphic.
+
+:::{.solution}
+Let $F$ be a primitive of $f$, so $\dd{}{z}F = f$.
+Then
+\[
+\int_\gamma f(z) \dz = F(\gamma(1)) - F(\gamma(0)) = F(p) - F(p) = 0
+.\]
+
+:::
+
+:::{.exercise title="Uniform limit theorem for holomorphic functions"}
+Show that if $f_n\to f$ locally uniformly and each $f_n$ is holomorphic then $f$ is holomorphic.
 :::
 
 :::{.solution}
@@ -15,16 +25,19 @@ Statement: if $f_n\to f$ uniformly locally uniformly on $\Omega$ then $f$ is hol
 \envlist
 
 - Let $D \subset \Omega$ with $\bar\DD \subset \Omega$ and $\Delta \subset D$ be a triangle.
-- Apply Goursat: $\int_\Delta f_n = 0$.
+- Apply Cauchy-Goursat: 
+\[
+\int_\Delta f_n = 0
+.\]
 - $f_n\to f$ uniformly on $\Delta$ since it is closed and bounded and thus compact by Heine-Borel, so $f$ is continuous and
 \[
-\lim_n \int_\Delta f_n = \int_\Delta \lim_n f_n \da \int_\Delta f
+\lim_n 0 = \lim_n \int_\Delta f_n = \int_\Delta \lim_n f_n \da \int_\Delta f
 .\]
-- Apply Morera's theorem: $\int_\Delta f$ vanishes on every triangle in $\Omega$, so $f$ is holomorphic on $\Omega$.
+- Apply Morera's theorem: $\displaystyle\int_\Delta f$ vanishes on every triangle in $\Omega$, so $f$ is holomorphic on $\Omega$.
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Locally uniform limit theorem for holomorphic functions"}
 Prove that if $f_n\to f$ locally uniformly with $f_n$ holomorphic, then $f_n'\to f'$ locally uniformly and $f'$ is holomorphic.
 :::
 
