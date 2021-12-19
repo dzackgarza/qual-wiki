@@ -155,8 +155,10 @@ Evaluate the following integrals using Cauchy's integral formula:
 \int_{\abs z = 2} {1\over z^2 + z + 1}\dz 
 &= \int {1\over (z-\zeta_3) (z- \bar{\zeta_3} )} \dz \\
 &= \int_{\DD + \bar{ \zeta_3} } {1/(z-\zeta_3) \over (z- \bar{\zeta_3} )} \dz + \int_{\DD + {\zeta_3} } {1/(z- \bar{ \zeta_3} ) \over (z- {\zeta_3} )} \dz \\
-&= 2\pi i {1\over z-\zeta_3}\evalfrom_{z=\bar{\zeta_3}} + 2\pi i {1\over z-\bar{\zeta_3}}\evalfrom_{z=\zeta_3} \\
-&= ?
+&= 2\pi i \qty{1\over z-\zeta_3}\evalfrom_{z=\bar{\zeta_3}} + 2\pi i \qty{1\over z-\bar{\zeta_3}}\evalfrom_{z=\zeta_3} \\
+&= 2\pi i \qty{ {1\over \bar{\zeta_3} - \zeta_3 } + {1\over \zeta_3 - \bar{\zeta_3}} }\\
+&= 2\pi i \qty{ {1\over \bar{\zeta_3} - \zeta_3 } - {1\over \bar{\zeta_3} - {\zeta_3}} } \\
+&= 0
 ,\]
 where for the last we note that $\zeta_3 = e^{2\pi i \over 3} = -1 + i\sqrt 3$ and $\zeta_3 \bar{\zeta_3} = 2\Re(\zeta_3) = 2\cdot {1\over 2} = 1$, yielding the factorization of the denominator.
 
