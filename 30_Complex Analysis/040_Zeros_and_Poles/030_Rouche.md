@@ -98,7 +98,12 @@ Then $\abs{g}\leq \abs{F}$ on $\abs{z} = 2$, $Z_{p} = Z_F = 5$.
 :::
 
 :::{.exercise title="Arbitrary Rouché, $R\mathbb{D}$"}
-Show that if $p(z) \da z^d + a_1z^{d-1} + \cdots + a_d$ and $\abs{a_k}< {R^k \over d}$ for every $k$ (noting the strict inequality), then $p$ has $d$ zeros in $\abs{z} < R$.
+Find the number of zeros in $\abs{z} < R$ of 
+\[
+p(z) \da z^d + a_1z^{d-1} + \cdots + a_d
+,\]
+supposing that
+$\abs{a_k}< {R^k \over d}$ for every $k$ (noting the strict inequality).
 
 #completed
 
@@ -120,8 +125,14 @@ so $\abs{g} < R^d = \abs{F}$, meaning $Z_{p-F} = Z_F = d$ in $R\DD$.
 
 :::
 
-:::{.exercise title="?"}
-Show that $h(z) = z + 3 + 2e^z$ has one root in $\ts{ \Re(z) \leq 0}$.
+:::{.exercise title="Explicit Rouché, half-plane"}
+Find the number of solutions in $\ts{\Re(z) \leq 0}$ of
+\[
+-2e^z = z+3
+.\]
+
+> Hint: show $h(z) = z + 3 + 2e^z$ has one root in $\ts{ \Re(z) \leq 0}$.
+
 :::
 
 :::{.solution}
