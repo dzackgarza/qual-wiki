@@ -39,6 +39,15 @@ Show that if $\mcf$ is a family of differentiable functions with uniformly bound
 
 :::
 
+:::{.exercise title="?"}
+Give an example of a non-equicontinuous family.
+:::
+
+:::{.solution}
+Take $f_k(z) \da z^k$ on $[0, 1]$ -- fix any $z_0\in [0, 1)$, then $\abs{f_k(1) - f_k(x_0)} \converges{k\to\infty} 1$.
+
+:::
+
 :::{.definition title="Normal Family"}
 A family of functions $\mcf \da \ts{f_j}_{j\in J}$ is **normal** iff every sequence $\ts{f_k}$ has a subsequence that converges locally uniformly, i.e. $\ts{f_{k_i}}$ converges uniformly on every compact subset.
 
