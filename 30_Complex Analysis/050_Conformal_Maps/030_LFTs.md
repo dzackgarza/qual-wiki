@@ -4,7 +4,10 @@
 Conformal Mapping Dictionary:
 
   Parts [I](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.1.html),[II](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.2.html) ,[III](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.3.html) ,[IV](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.4.html), and [V](http://mathfaculty.fullerton.edu/mathews/c2003/ConformalMapDictionary.5.html)
+
 :::
+
+## Conformal Map Facts
 
 :::{.definition title="Conformal Map / Biholomorphism"}
 A map $f$ is **conformal** on $\Omega$ iff $f$ is complex-differentiable, $f'(z)\neq 0$ for $z\in \Omega$, and $f$ preserves signed angles (so $f$ is orientation-preserving).
@@ -25,6 +28,8 @@ Self-biholomorphisms of a domain $\Omega$ form a group $\Aut_\CC(\Omega)$.
 :::{.remark}
 The bijectivity condition can be weakened: an *injective* holomorphic map satisfies $f'(z) \neq 0$ and $f ^{-1}$ is well-defined on its range and holomorphic.
 :::
+
+## The Cross-Ratio Construction
 
 :::{.proposition title="Cross ratio construction of conformal maps"}
 Define generalized cross-ratios as
@@ -52,6 +57,8 @@ T(z) \da
 If any of the $z_i$ are $\infty$, the convention is to remove the corresponding terms where they appear:
 :::
 
+## Linear Fractional/Mobius Transformations
+
 :::{.definition title="Mobius transformation"}
 A map of the following form is a **linear fractional transformation** ( or a **Mobius transformation**):
 \[  
@@ -69,7 +76,7 @@ T'(z) = {ad-bc \over (cz+d)^2}
 Every such $T$ can be written as a cross-ratio $R(z)$.
 :::
 
-:::{.remark}
+:::{.remark title="Mobius transformations as projective linear automorphisms"}
 Using that $\Aut(\CP^1) \cong \PGL_2(\CC)$, there is a nice matrix representation if you act on projective coordinates:
 \[
 \matt a b c d \cdot \tv{z: 1}^t = \tv{ {az+b \over cz + d }: 1} = \tv{f(z): 1}
@@ -83,18 +90,23 @@ This yields a quick way of finding $f\inv$: invert the matrix and ignore the det
 
 :::
 
-:::{.remark}
-A very useful variant that shows up in applications of the Schwarz' lemma:
-\[
-M_{z_1} \da {z_1 - z \over 1 - \bar{z_1} z}
-.\]
-This swaps $z_1$ and $0$.
-:::
-
-:::{.remark}
+:::{.remark title="Writing a Mobius transformation as a cross-ratio"}
 Note that if $T(z) = {az+b\over cz + d}$, this can be written as the cross-ratio 
 \[
 T(z) = (z; {d-b\over a-c}, -{b\over a}, -{d\over c})
 .\]
 
 :::
+## Blaschke Factors
+
+:::{.remark}
+A very useful variant that shows up in applications of the Schwarz' lemma:
+\[
+\psi_a \da {z-a \over 1-\bar{a} z}
+.\]
+Some nice properties:
+
+- $\psi_a(a) = 0$ and $\psi_a(0) = a$
+- ?
+:::
+
