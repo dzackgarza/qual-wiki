@@ -21,7 +21,7 @@
 		E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
 	- $(z; z_1,z_2,z_3) \da z\mapsto \qty{z-z_2 \over z-3}\cdot \qty{z_1-z_3 \over z_1 - z_2}$ is the cross-ratio construction that sends $(z_1, z_2,z_3) \to (1, 0, \infty)$.
 - Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
-- Conformal maps preserve "clines", i.e. the image of a line or circle must be a line or circle.
+- Conformal maps preserve generalized spheres, i.e. circles get mapped to circles (which could be lines on $\CP^1$). 
 	Orthogonal lines/circles must go to lines/circles intersecting a circle orthogonally.
 	- Line segments between two points must go to line segments or circular arcs between their images.
 
