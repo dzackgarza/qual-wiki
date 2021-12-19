@@ -27,8 +27,6 @@ and
 
 :::
 
-
-
 :::{.proof title="Alternative"}
 
 ![](figures/2021-12-14_16-49-17.png)
@@ -121,7 +119,6 @@ where $G(z) \da {f(z) \over z-a}$ is a primitive for the integrand by definition
 
 :::
 
-
 :::{.exercise title="Evaluating integrals"}
 Evaluate the following integrals using Cauchy's integral formula:
 
@@ -135,7 +132,6 @@ Evaluate the following integrals using Cauchy's integral formula:
 .\]
 
 :::
-
 
 :::{.solution}
 \[
