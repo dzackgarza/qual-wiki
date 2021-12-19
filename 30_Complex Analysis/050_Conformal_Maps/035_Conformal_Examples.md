@@ -19,11 +19,16 @@
 	- $\HH \da \ts{z \st \Im(z) > 0}$ is the open upper half-plane.
 	- $Q_{ij} \da Q_i \union Q_j$ is the union of two quadrants.
 		E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
-	- $(z; z_1,z_2,z_3) \da z\mapsto \qty{z-z_2 \over z-3}\cdot \qty{z_1-z_3 \over z_1 - z_2}$ is the cross-ratio construction that sends $(z_1, z_2,z_3) \to (1, 0, \infty)$.
+- Remembering the cross ratio: the order $1,0,\infty$ is very important (as images of $z_2, z_3, z_4$).
+  - Send $z_3\to 0$ by including $z-z_3$ in the numerator.
+  - Send $z_4\to \infty$ by including $z-z_4$ in the denominator.
+  - Send $z_1\to 1$ by canceling the terms just added: 
+    - Cancel $z-z_4$ in the denominator with $z_2 - z_4$ in the numerator.
+    - Cancel $z-z_3$ in the numerator with a $z_2 - z_3$ in the denominator.
 - Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
 - Conformal maps preserve generalized spheres, i.e. circles get mapped to circles (which could be lines on $\CP^1$). 
-	Orthogonal lines/circles must go to lines/circles intersecting a circle orthogonally.
-	- Line segments between two points must go to line segments or circular arcs between their images.
+- Orthogonal circles must go to orthogonal circles.
+- Arcs between two points must go to arcs between their images
 
 - $\RR =\ts{\tan(t) \st t\in (-\pi/2, \pi/ 2)}$.
 :::
