@@ -212,14 +212,12 @@ In steps:
 
 ## Misc
 
-
 :::{.exercise title="?"}
 Find a conformal map that sends $i\RR$ to $\abs{z-{1\over 2}} = {1\over 2}$.
 
 #completed
 
 :::
-
 
 :::{.concept}
 \envlist
@@ -234,8 +232,6 @@ Find a conformal map that sends $i\RR$ to $\abs{z-{1\over 2}} = {1\over 2}$.
 - Nyquist plots: a common applied problem, essentially computing the image $F(i\RR)$.
 
 :::
-
-
 
 :::{.solution}
 Idea: need the line $-i\infty\to 0 \to i\infty$ to get mapped to a circle $0\to 1\to 0$:
@@ -279,5 +275,4 @@ Conclusion:
 - $i\RR \to \ts{\abs{z-{1\over 2}} = {1\over 2} }$ by $z\to {1\over 1+z}$.
 - The reverse map: $w\mapsto {1-w\over w}$.
 :::
-
 

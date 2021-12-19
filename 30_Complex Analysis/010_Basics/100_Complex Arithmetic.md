@@ -86,3 +86,25 @@ Show that ${z-1\over z+1}$ is purely imaginary $\iff z\in S^1$.
 :::
 
 
+
+:::{.exercise title="?"}
+Find $\Re\qty{z+2\over z-1}$.
+
+#completed
+
+:::
+
+
+:::{.solution}
+\[
+{z+2\over z-1}\cdot{\bar{z-1} \over \bar{z-1}}
+&= {(z+2)\bar{z-1} \over \abs{z-1}^2} \\
+&= {((z-1) + 3)\bar{z-1} \over \abs{z-1}^2} \\
+&= {\abs{z-1}^2 + 3\bar{z} -3 \over \abs{z-1}^2} \\
+&= {(x-1)^2 + y^2 + 3(x-iy) - 3 \over (x-1)^2 + y^2} \\
+&= ?
+.\]
+
+:::
+
+
