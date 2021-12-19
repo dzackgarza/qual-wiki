@@ -77,7 +77,7 @@ Now show that $\int_{C_R}$ vanishes: parameterize as $\gamma(t) = Re^{it}$ and u
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Equality of different integrals"}
 Suppose $f$ is holomorphic on $\Omega$, a simply connected region, and suppose $\gamma \subseteq \Omega$.
 Using the Cauchy integral formula, show that
 \[
@@ -120,5 +120,21 @@ where $G(z) \da {f(z) \over z-a}$ is a primitive for the integrand by definition
 
 
 :::
+
+
+:::{.exercise title="Evaluating integrals"}
+Evaluate the following integrals using Cauchy's integral formula:
+
+\[
+\int_{S^1} {\cos(z) \over z} \dz&\\
+\int_{S^1} {\sin(z) \over z}\dz&\\
+\int_{\abs z = 2} {z^2\over z-1} \dz &\\
+\int_{S^1} {e^z \over z^2} \dz &\\
+\int_{\abs z = 2} {z^2 - 1 \over z^2 + 1}\dz &\\
+\int_{\abs z = 2} {1\over z^2 + z + 1}\dz &
+.\]
+
+:::
+
 
 
