@@ -4,6 +4,24 @@ order: 115
 
 # Complex Log
 
+
+:::{.fact title="Polar decomposition and $\arg$"}
+Any $z\neq 0$ can be written in the form
+\[
+z = \abs{z} e^{i\arg(z)}
+,\]
+where $\arg(z)$ is the multivalued function $\arg(z) = \Arg(z) + 2\pi n$ where $\Arg(z)\in (-\pi, \pi]$ is the **principal value** of the argument.
+Note that it's not necessarily true that if $z=x+iy$ that $\Arg(z) = \arctan\qty{y\over x}$, because $\arctan$ is also multivalued.
+There is a formula based on which quadrant $z$ is in:
+
+
+![](figures/2021-12-19_02-35-23.png)
+
+Note that $\Arg(0)$ is undefined.
+
+:::
+
+
 :::{.fact title="Complex Log"}
 For $z= r e^{i\theta}\neq 0$, $\theta$ is of the form $\Theta + 2k\pi$ where $\Theta = \Arg z$
 We define
