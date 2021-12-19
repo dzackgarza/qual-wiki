@@ -18,11 +18,25 @@ A family of functions $f_n$ is **equicontinuous** iff for every $\eps$ there exi
 .\]
 :::
 
+:::{.slogan}
+Equicontinuity is uniform continuity which is also uniform across the family.
+:::
+
 :::{.remark}
-Recall Arzelà-Ascoli, an analog of Heine-Borel: for $X$ compact Hausdorff, consider the the Banach space $C(X; \RR)$ equipped with the *uniform norm* $\norm{f}_{\infty, X} \da \sup_{x\in X} \abs{f(x)}$.
+Recall Arzelà-Ascoli, an analog of Heine-Borel: for $X$ compact Hausdorff, consider the Banach space $C(X; \RR)$ equipped with the *uniform norm* $\norm{f}_{\infty, X} \da \sup_{x\in X} \abs{f(x)}$.
+
 Then a subset $A \subseteq X$ is compact iff $A$ is closed, uniformly bounded, and equicontinuous.
 As a consequence, if $A$ is a sequence, it contains a subsequence converging uniformly to a continuous function.
 The proof is an $\eps/3$ argument.
+:::
+
+:::{.exercise title="?"}
+Show that if $\mcf$ is a family of differentiable functions with uniformly bounded derivatives, then $\mcf$ is equicontinuous.
+
+> Hint: apply the MVT.
+
+#work
+
 :::
 
 :::{.definition title="Normal Family"}
