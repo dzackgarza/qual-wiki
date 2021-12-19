@@ -30,8 +30,30 @@
 
 ## Identifying maps
 
+
+:::{.exercise title="?"}
+Find a Mobius transformation sending 
+
+- $1\to 3$
+- $i\to 0$
+- $2\to -1$
+
+#completed
+
+:::
+
+
+:::{.solution}
+Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $T(z) = S(w) \implies w = (S\inv T)(z)$:
+\[
+{z-i \over z-2}{1-2\over 1-i} =
+-\frac{\left(i + 1\right) \, {\left(z - i\right)}}{2 \, {\left(z - 2\right)}}
+.\]
+
+:::
+
+
 :::{.example title="?"}
-Find a Mobius transformation where $(1,i, 2) \to (3,0,-1)$.
 
 Write $T(z) = (z; 1, i, 2)$ and $S(w) = (w; 3, 0, -1)$, then the desired map is $T\circ S\inv$.
 How to find a formula: set $T(z) = S(w)$ and solve for $w$ to get
