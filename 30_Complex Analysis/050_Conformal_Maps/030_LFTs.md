@@ -25,18 +25,20 @@ The bijectivity condition can be weakened: an *injective* holomorphic map satisf
 :::
 
 :::{.proposition title="Cross ratio construction of conformal maps"}
-Given any three points $z_1, z_2, z_3$, the following Möbius transformation sends them to $1, 0, \infty$ respectively:
+Define generalized cross-ratios as
 \[
-T(z) 
-&\da {z-z_2\over z-z_3} 
-\cdot
-{z_1 - z_3 \over z_1 - z_2
-\\
-z_1 & \mapsto 1 \\
-z_2 & \mapsto 0 \\
-z_3 & \mapsto \infty
+(z_1, z_2, z_3, z_4) &\da {z_1 - z_3\over z_1-z_4}{z_2 - z_4 \over z_2 - z_3} \\
+R(z) \da (z, z_2, z_3, z_4) &\da {z - z_3\over z-z_4}{z_2 - z_4 \over z_2 - z_3} \\
 .\]
-Such a map is sometimes denoted $(z; z_1, z_2, z_3)$.
+
+Given any three points, $R(z)$ sends
+\[
+z_2 &\to 1 \\
+z_3 &\to 0 \\
+z_4 &\to \infty
+.\]
+
+
 One can use this to produce a map sending any three points to any other three points:
 \[
 T(z) \da 
@@ -44,10 +46,13 @@ T(z) \da
 \circ
 (z; z_1,z_2, z_3)
 .\]
+
+If any of the $z_i$ are $\infty$, the convention is to remove the corresponding terms where they appear:
 :::
 
-:::{.definition title="Linear fractional transformation / Mobius transformation"}
-A map of the following form is a **linear fractional transformation**:
+
+:::{.definition title="Mobius transformation"}
+A map of the following form is a **linear fractional transformation** ( or a **Mobius transformation**):
 \[  
 T(z) = {az + b \over cz + d}
 ,\]
@@ -60,6 +65,7 @@ and derivatives given by
 \[
 T'(z) = {ad-bc \over (cz+d)^2}
 .\]
+Every such $T$ can be written as a cross-ratio $R(z)$.
 :::
 
 :::{.remark}
