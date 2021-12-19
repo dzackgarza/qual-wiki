@@ -4,6 +4,42 @@ order: 5
 
 # Calculus Preliminaries
 
+
+:::{.proposition title="Contraction principle"}
+If $(X, \abs{\wait})$ is a metric space and $f: X\to X$ with
+\[
+\abs{f(x) - f(y)} \leq c \abs{x-y} \text{ for some }c < 1, \forall x, y\in X
+,\]
+then $f$ is a **contraction**.
+If $X$ is complete, then $f$ has a unique fixed point $x_0$ such that $f(x_0) = x_0$.
+:::
+
+
+:::{.proof title="?"}
+Uniqueness: if $x, y$ are two fixed points, then 
+\[
+0 \leq \abs{x-y} = \abs{f(x) - f(y)}\leq c \abs{x-y}\leq \abs{x-y}
+,\]
+forcing $\abs{x-y} = 0$
+
+Existence:
+Define a sequence by picking $x_0$ arbitrarily and setting $x_k \da f(x_{k-1})$.
+Then 
+\[
+\abs{x_{k+1}-x_k} = \abs{f(x_k) - f(x_{k-1}) } \leq c\abs{x_k - x_{k-1}}
+,\]
+so inductively
+\[
+\abs{x_{k+1}- x_k}\leq c^k \abs{x_1 - x_0}
+.\]
+
+
+
+
+:::
+
+
+
 :::{.definition title="Locally uniform convergence"}
 A sequence of functions $f_n$ is said to converge **locally uniformly** on $\Omega \subseteq \CC$ iff $f_n\to f$ uniformly on every compact subset $K \subseteq \Omega$.
 :::
