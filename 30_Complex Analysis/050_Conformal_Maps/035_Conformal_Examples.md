@@ -50,7 +50,10 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 &= {w-0\over w+1}{3+1 \over 3-0} \\
 \implies -\frac{\left(i + 1\right) \, {\left(z - i\right)}}{2 \, {\left(z - 2\right)}}
 &=
-\frac{4 \, w}{3 \, {\left(w + 1\right)}}
+\frac{4 \, w}{3 \, {\left(w + 1\right)}} \\
+\implies w
+&=
+-\frac{3 \, {\left(\left(i + 1\right) \, z - i + 1\right)}}{\left(3 i + 11\right) \, z - 3 i - 13}
 .\]
 
 :::
