@@ -46,8 +46,11 @@ Find a Mobius transformation sending
 :::{.solution}
 Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $T(z) = S(w) \implies w = (S\inv T)(z)$:
 \[
-{z-i \over z-2}{1-2\over 1-i} =
--\frac{\left(i + 1\right) \, {\left(z - i\right)}}{2 \, {\left(z - 2\right)}}
+{z-i \over z-2}{1-2\over 1-i} 
+&= {w-0\over w+1}{3+1 \over 3-0} \\
+\implies -\frac{\left(i + 1\right) \, {\left(z - i\right)}}{2 \, {\left(z - 2\right)}}
+&=
+\frac{4 \, w}{3 \, {\left(w + 1\right)}}
 .\]
 
 :::
