@@ -24,6 +24,28 @@ Self-biholomorphisms of a domain $\Omega$ form a group $\Aut_\CC(\Omega)$.
 The bijectivity condition can be weakened: an *injective* holomorphic map satisfies $f'(z) \neq 0$ and $f ^{-1}$ is well-defined on its range and holomorphic.
 :::
 
+:::{.proposition title="Cross ratio construction of conformal maps"}
+Given any three points $z_1, z_2, z_3$, the following Möbius transformation sends them to $1, 0, \infty$ respectively:
+\[
+T(z) 
+&\da {z-z_2\over z-z_3} 
+\cdot
+{z_1 - z_3 \over z_1 - z_2
+\\
+z_1 & \mapsto 1 \\
+z_2 & \mapsto 0 \\
+z_3 & \mapsto \infty
+.\]
+Such a map is sometimes denoted $(z; z_1, z_2, z_3)$.
+One can use this to produce a map sending any three points to any other three points:
+\[
+T(z) \da 
+(w; w_1, w_2, w_3)\inv
+\circ
+(z; z_1,z_2, z_3)
+.\]
+:::
+
 :::{.definition title="Linear fractional transformation / Mobius transformation"}
 A map of the following form is a **linear fractional transformation**:
 \[  
@@ -43,7 +65,7 @@ T'(z) = {ad-bc \over (cz+d)^2}
 :::{.remark}
 Using that $\Aut(\CP^1) \cong \PGL_2(\CC)$, there is a nice matrix representation if you act on projective coordinates:
 \[
-\matt a b c d \cdot \tv{z: 1}^t = = \tv{ {az+b \over cz + d }: 1} = \tv{f(z): 1}
+\matt a b c d \cdot \tv{z: 1}^t = \tv{ {az+b \over cz + d }: 1} = \tv{f(z): 1}
 .\]
 This yields a quick way of finding $f\inv$: invert the matrix and ignore the determinant that shows up since it just scales every entry:
 \[
@@ -54,25 +76,6 @@ This yields a quick way of finding $f\inv$: invert the matrix and ignore the det
 
 :::
 
-:::{.proposition title="Constructing Mobius transformations"}
-Given any three points $z_1, z_2, z_3$, the following Möbius transformation sends them to $1, 0, \infty$ respectively:
-\[
-T(z) 
-&\da \qty{z-z_2\over z-z_3} \qty{z_1 - z_2 \over z_1 - z_3} \inv
-\\
-z_1 & \mapsto 1 \\
-z_2 & \mapsto 0 \\
-z_3 & \mapsto \infty
-.\]
-Such a map is sometimes denoted $(z; z_1, z_2, z_3)$.
-One can use this to produce a map sending any three points to any other three points:
-\[
-T(z) \da 
-(w; w_1, w_2, w_3)\inv
-\circ
-(z; z_1,z_2, z_3)
-.\]
-:::
 
 :::{.remark}
 A very useful variant that shows up in applications of the Schwarz' lemma:

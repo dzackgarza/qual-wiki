@@ -207,3 +207,20 @@ In steps:
 - Map $\HH\to \DD$ using the standard $z\mapsto {z-i\over z+i}$.
 
 :::
+
+## Misc
+
+
+:::{.exercise title="?"}
+Find a conformal map that sends $i\RR$ to $\abs{z-{1\over 2}} = {1\over 2}$.
+
+#completed
+
+:::
+
+
+:::{.solution}
+
+:::
+
+
