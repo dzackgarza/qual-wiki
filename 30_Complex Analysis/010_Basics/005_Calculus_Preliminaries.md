@@ -1,10 +1,11 @@
 ---
 order: 5
+title: Calculus Preliminaries
 ---
 
 # Calculus Preliminaries
 
-## Derivatives and Integrals
+## Derivatives 
 
 :::{.proposition title="Contraction principle"}
 If $(X, \abs{\wait})$ is a metric space and $f: X\to X$ with
@@ -70,23 +71,6 @@ The version for holomorphic functions: if $f\in \Hol(\CC; \CC)$ with $f'(p)\neq 
 
 :::
 
-:::{.theorem title="Green's Theorem"}
-If $\Omega \subseteq \CC$ is bounded with $\bd \Omega$ piecewise smooth and $f, g\in C^1(\bar \Omega)$, then 
-$$\int_{\bd \Omega} f\, dx + g\, dy = \iint_{\Omega} \qty{ \dd{g}{x} - \dd{f}{y} } \, \dA.$$
-In vector form,
-\[
-\int_\gamma F\cdot \dr = \iint_R \curl F \dA
-.\]
-:::
-
-## Function Convergence
-
-:::{.definition title="Locally uniform convergence"}
-A sequence of functions $f_n$ is said to converge **locally uniformly** on $\Omega \subseteq \CC$ iff $f_n\to f$ uniformly on every compact subset $K \subseteq \Omega$.
-:::
-
-:::{.theorem title="Uniform limit theorem"}
-A continuous function on a compact set is uniformly continuous.
 
 #work
 
@@ -98,19 +82,25 @@ This converges because the even (odd) partial sums are monotone increasing/decre
 Their difference converges to 0, and their common limit is the limit of the sum.
 :::
 
-:::{.proposition title="Uniform Convergence of Series"}
-A series of functions $\sum_{n=1}^\infty f_n(x)$ converges uniformly iff 
-\[  
-\lim_{n\to \infty} \norm{ \sum_{k\geq n} f_k }_\infty = 0
+
+## Integrals
+
+:::{.theorem title="Green's Theorem"}
+If $\Omega \subseteq \CC$ is bounded with $\bd \Omega$ piecewise smooth and $f, g\in C^1(\bar \Omega)$, then 
+$$\int_{\bd \Omega} f\, dx + g\, dy = \iint_{\Omega} \qty{ \dd{g}{x} - \dd{f}{y} } \, \dA.$$
+In vector form,
+\[
+\int_\gamma F\cdot \dr = \iint_R \curl F \dA
 .\]
 :::
 
-:::{.theorem title="Weierstrass $M\dash$Test"}
-If $\theset{f_n}$ with $f_n: \Omega \to \CC$ and there exists a sequence $\theset{M_n}$ with $\norm{f_n}_\infty \leq M_n$ and $\sum_{n\in \NN} M_n < \infty$, then $f(x) \definedas \sum_{n\in \NN} f_n(x)$ converges absolutely and uniformly on $\Omega$. 
-Moreover, if the $f_n$ are continuous, by the uniform limit theorem, $f$ is again continuous.
-:::
+:::{.fact title="Partial Fraction Decomposition"}
+\envlist
 
-## Integrals
+- For every root $r_i$ of multiplicity 1, include a term $A/(x-r_i)$.
+- For any factors $g(x)$ of multiplicity $k$, include terms $A_1/g(x), A_2/g(x)^2, \cdots, A_k / g(x)^k$.
+- For irreducible quadratic factors $h_i(x)$, include terms of the form ${Ax+B \over h_i(x)}$.
+:::
 
 :::{.remark}
 Some basic facts needed for line integrals in the plane:
@@ -124,6 +114,18 @@ Some basic facts needed for line integrals in the plane:
 :::
 
 ## Series and Sequences
+
+:::{.proposition title="Uniform Convergence of Series"}
+A series of functions $\sum_{n=1}^\infty f_n(x)$ converges uniformly iff 
+\[  
+\lim_{n\to \infty} \norm{ \sum_{k\geq n} f_k }_\infty = 0
+.\]
+:::
+
+:::{.theorem title="Weierstrass $M\dash$Test"}
+If $\theset{f_n}$ with $f_n: \Omega \to \CC$ and there exists a sequence $\theset{M_n}$ with $\norm{f_n}_\infty \leq M_n$ and $\sum_{n\in \NN} M_n < \infty$, then $f(x) \definedas \sum_{n\in \NN} f_n(x)$ converges absolutely and uniformly on $\Omega$. 
+Moreover, if the $f_n$ are continuous, by the uniform limit theorem, $f$ is again continuous.
+:::
 
 :::{.remark}
 Note that if a power series converges uniformly, then summing commutes with integrating or differentiating.
@@ -155,30 +157,24 @@ R = {1\over \limsup_n \abs{a_n}^{1\over n}}
 Moreover $f$ is holomorphic in $D_R$, can be differentiated term-by-term, and $f' = \sum_{k\in \NN} n c_k z^k$.
 :::
 
-:::{.fact}
+:::{.proposition title="The $p\dash$test"}
 Recall the **$p\dash$test**:
 \[
 \sum n^{-p} < \infty \iff p \in (1, \infty)
 .\]
 :::
 
-:::{.fact}
-Recall how to carry out polynomial long division:
 
-\todo[inline]{Polynomial long division}
+## Function Convergence
 
+:::{.definition title="Locally uniform convergence"}
+A sequence of functions $f_n$ is said to converge **locally uniformly** on $\Omega \subseteq \CC$ iff $f_n\to f$ uniformly on every compact subset $K \subseteq \Omega$.
 :::
 
-:::{.fact title="Partial Fraction Decomposition"}
-\envlist
-
-- For every root $r_i$ of multiplicity 1, include a term $A/(x-r_i)$.
-- For any factors $g(x)$ of multiplicity $k$, include terms $A_1/g(x), A_2/g(x)^2, \cdots, A_k / g(x)^k$.
-- For irreducible quadratic factors $h_i(x)$, include terms of the form ${Ax+B \over h_i(x)}$.
-:::
+:::{.exercise title="Uniform limit theorem"}
+A continuous function on a compact set is uniformly continuous.
 
 ## Exercises
-
 
 :::{.exercise title="?"}
 Show that a uniform limit of continuous functions is continuous, and a uniform limit of uniformly continuous functions is uniformly continuous.
