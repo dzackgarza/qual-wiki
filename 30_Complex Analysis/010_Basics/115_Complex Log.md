@@ -23,9 +23,6 @@ Any choice of interval $(\theta_0, \theta_0 + 2\pi]$ yields a different branch c
 Since $\log(z)$ and $z^\alpha$ are defined in terms of $\Arg$, this is where most branching issues come from!
 :::
 
-
-
-
 :::{.example title="Of choosing branches"}
 There are two ways to define $z^{1\over 2}$:
 
@@ -78,11 +75,25 @@ Note that this is sometimes written
 Define
 \[
 z^\alpha \da e^{\alpha \log(z)}
+,\]
+where some branch of $\log$ (usually the principal branch) is implicitly chosen.
+:::
+
+:::{.theorem title="Existence of $\log$ on domains"}
+If $\Omega$ is a connected domain with $f\in \OO\units(\Omega)$ an invertible regular function with 
+\[
+\int_\gamma {f'\over f} = 0
+\]
+for all $\gamma \subseteq \Omega$, then
+
+- There exists a holomorphic $g:\Omega\to \CC$ such that $g = \log(f)$ and $e^g = f$.
+
+- $g' = {f'\over f}$, yielding an explicit formula
+\[
+g(z) = g(z_0) + \int_{z_0}^z {f'(\xi) \over \xi}\dxi
 .\]
 
 :::
-
-![attachments/Pasted image 20211127210218.png](attachments/Pasted%20image%2020211127210218.png)
 
 :::{.fact}
 Common trick:
@@ -121,21 +132,12 @@ This yields the usual $\Log(re^{i\theta}) = \log(\abs{r}) + i\theta$.
 :::
 
 :::{.warnings}
-It's tempting to define
-\[
-z^{1\over n} \da (re^{i\theta})^{1\over n} = r^{1\over n} e^{i\theta \over n}
-,\]
-but this requires a branch cut to ensure continuity.
-
-:::
-
-:::{.warnings}
 \[
 \Log(zw) &\neq \Log(z) + \Log(w) \\
 \Log(e^z) &\neq z
 .\]
 
-For counterexamples, take $z=\zeta_4^3=\exp(3\pi i / 4$ and $w=\zeta_4^2 = \eexp(\pi i/2)$.
+For counterexamples, take $z=\zeta_4^3=\exp(3\pi i / 4$ and $w=\zeta_4^2 = \exp(\pi i/2)$.
 Then $zw= \exp(-3 \pi i /4)$, using that the domain of $\Arg$ is $(-\pi, \pi]$.
 :::
 

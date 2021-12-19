@@ -48,6 +48,7 @@ For just the statements of most of these theorems: [[attachments/ComplexAnalysis
 - Set $w=e^z$.
 - If $f$ has no zeros, put it in the denominator! No one can stop you!
 - If $f$ is holomorphic in a neighborhood of $\DD$ and $\abs{f} = 1$ on $\bd \DD$, then $f$ is a finite Blaschke product.
+- If $\Omega$ is connected, $f$ admits a log and exponential, so try setting $f^{1\over n} = \exp\qty{{1\over n}\log(f)}$.
 
 ## Holomorphic
 
