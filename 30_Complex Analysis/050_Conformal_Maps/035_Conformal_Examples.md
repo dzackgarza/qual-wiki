@@ -49,22 +49,29 @@ How to find a formula: set $T(z) = S(w)$ and solve for $w$ to get
 
 :::{.exercise title="Disc to half-plane"}
 Find a conformal map $\DD \to \HH$.
+
+#completed
+
 :::
 
 :::{.solution}
-To send $\DD\to \HH$, "unwrap" the boundary by sending the boundary curve through $(i,1,-1)$ to the real line $(1, 0, \infty)$:
+Idea: rotate the upper hemisphere $(\HH)$ of $\CP^1$ to make the equator $\bd \DD$, "zoom" by placing $i$ at the center so $0\to i\mapsto -1\to 0$ and $i\to \infty\mapsto 0\to 1$.
+Accomplish this by sending
+
+- $\infty\to 1$
+- $i\to 0$
+- $-i\to \infty$
+
+Use the cross-ratio
 \[
-(z: i, 1, -1) = \qty{z-1 \over z+1} \qty{i-1 \over i+1}\inv = -i\qty{z-1\over z+1} = i\qty{1-z\over 1+z}
+R(z) \da (z, \infty, i, -i) = {z-i \over z-(-i)} {\infty - (-i) \over \infty - i} = {z-i\over z+i}
 .\]
 
-:::
+Checking that this works:
 
+- If $z\in \RR$ then $\abs{z-i} = \abs{z+i}$ so $\abs(F(z)) = 1$.
+- If $z\in \HH$ then $\abs{z-i}\leq \abs{z+i}$ so $\abs{F(z)}< 1$.
 
-:::{.example title="Mapping the half-disc to the half-plane"}
-
-#todo Why does this coincide with the standard map...?
-
-#completed
 
 :::
 
