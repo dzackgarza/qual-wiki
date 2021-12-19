@@ -73,12 +73,13 @@ where if $R$ is fixed then by uniform convergence of $f_n\to f$, for $n$ large e
 
 :::
 
-
 :::{.exercise title="Linear growth"}
 Suppose that $f$ is entire and $\abs{f(z)\over z}\to 0$ as $\abs{z}\to \infty$.
 Show that $f$ must be constant.
-:::
 
+#completed
+
+:::
 
 :::{.solution}
 Claim: $f'(z_0) = 0$ for every $z_0\in \CC$, so $f'\equiv 0$, making $f$ constant.
@@ -95,9 +96,10 @@ Note that for $z\neq 0$,
 \[
 \abs{g(z)} \da \abs{f(z) - f(0)\over z} \leq \abs{f(z) \over z} + \abs{f(0)\over z} \convergesto{\abs{z} \to \infty }0
 ,\]
-so for $\abs{z}$ large enough, $\abs{g(z)} < \eps$.
-
-
+where we've used the assumption in the last step.
+So for $\abs{z}\geq R_\eps$ large enough, $\abs{g(z)} < \eps$.
+In particular, $\abs{g(z)}<\eps$ on the circle $\abs{z} = R_\eps$, and by the MMP $\abs{g(z)} < \eps$ in the disc $\abs{z}\leq R_\eps$.
+Taking $\eps\to 0$ yields $g(z) = 0$ for all $z\in \CC$, so $f(z) = f(0)$ is a constant for all $z$.
 :::
 
 
