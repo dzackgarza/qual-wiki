@@ -4,7 +4,6 @@ order: 115
 
 # Complex Log
 
-
 :::{.fact title="Polar decomposition and $\arg$"}
 Any $z\neq 0$ can be written in the form
 \[
