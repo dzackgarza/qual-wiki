@@ -17,7 +17,10 @@ There is a formula based on which quadrant $z$ is in:
 
 ![](figures/2021-12-19_02-35-23.png)
 
-Note that $\Arg(0)$ is undefined, so that $\Arg(z)$ makes sense on $\CC \sm (-\infty, 0]$, where $(\infty, 0]$ is a **branch cut**. Since $\log(z)$ and $z^\alpha$ are defined in terms of $\Arg$, this is where most branching issues come from!
+Note that $\Arg(0)$ is undefined, so that $\Arg(z)$ makes sense on $\CC \sm (-\infty, 0]$, where $(\infty, 0]$ is a **branch cut**. 
+Any choice of interval $(\theta_0, \theta_0 + 2\pi]$ yields a different branch cut.
+
+Since $\log(z)$ and $z^\alpha$ are defined in terms of $\Arg$, this is where most branching issues come from!
 :::
 
 
