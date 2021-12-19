@@ -84,6 +84,7 @@ Using the Cauchy integral formula, show that
 \[
 \int_\gamma {f'(z) \over z-a}\dz = \int_\gamma {f(z) \over (z-a)^2 }\dz
 .\]
+Also prove this when $\Omega$ is *not* simply connected.
 :::
 
 
@@ -97,6 +98,25 @@ On the other hand, use Cauchy's formula for derivatives:
 \[
 \int_\gamma {f(z) \over (z-a)^2}\dz = 2\pi i f^{(1)}(a)
 .\]
+
+If $\Omega$ is not simply connected, note that by the quotient rule
+\[
+\dd{}{z} {f(z) \over z-a} = {f'(z)\over z-a} - {f(z) \over (z-a)^2}
+.\]
+
+Thus
+\[
+\int_\gamma {f'(z) \over z-a}
+&\da - \int_\gamma {f(z) \over (z-a)^2}\dz \\
+&= \int_\gamma \qty{ {f'(z) \over z-a} - {f(z) \over (z-a)^2} }\dz \\
+&= \int_\gamma \dd{}{z} {f(z) \over z-a} \dz \\
+&= G(\gamma(1)) - G(\gamma(0)) \\
+&= G(p) - G(p) \\
+&= 0
+,\]
+where $G(z) \da {f(z) \over z-a}$ is a primitive for the integrand by definition.
+
+
 
 :::
 
