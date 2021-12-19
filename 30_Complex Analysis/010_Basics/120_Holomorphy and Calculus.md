@@ -64,16 +64,18 @@ Note an issue: a different parameterization yields a different (still nonzero) n
 This is these are paths that don't lift to closed loops on the Riemann surface defined by $z\mapsto z^2$.
 :::
 
-
 :::{.remark title="Solving real integrals with complex calculus"}
 The function $e^z$ is entire, so "usual" calculus using it works.
 For example, 
 \[
-\int e^{3x}\cos(2x) \dx = \Im \int e^{3z}e^{2iz}\dz = \Im \int e^{(3+2i)z} \dz = {e^{(3+2i)z} \over 3+2i} + C
+\int e^{3x}\cos(2x) \dx 
+&= \Re \int e^{3z}e^{2iz}\dz \\
+&= \Re \int e^{(3+2i)z} \dz \\
+&= \Re {e^{(3+2i)z} \over 3+2i} + C \\
+&= e^{2x \over 13}\qty{\cos(2x) + i\sin(2x)}
 .\]
 
 :::
-
 
 # Holomorphy
 
