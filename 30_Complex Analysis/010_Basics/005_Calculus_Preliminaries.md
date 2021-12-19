@@ -11,7 +11,11 @@ A sequence of functions $f_n$ is said to converge **locally uniformly** on $\Ome
 :::
 
 :::{.definition title="Equicontinuous Family"}
-A family of functions $f_n$ is **equicontinuous** iff for every $\eps$ there exists a $\delta = \delta(\eps)$ (not depending on $n$ or $f_n$) such that $\abs{x-y}<\eps \implies \abs{f_n(x) - f_n(y)} < \eps$ for all $n$.
+A family of functions $f_n$ is **equicontinuous** iff for every $\eps$ there exists a $\delta = \delta(\eps)$ (not depending on $n$ or $f_n$) such that 
+\[
+\abs{x-y}<\eps \implies \abs{f_n(x) - f_n(y)} < \eps
+&& \forall n
+.\]
 :::
 
 :::{.remark}
@@ -22,6 +26,7 @@ The proof is an $\eps/3$ argument.
 :::
 
 :::{.definition title="Normal Family"}
+A family of functions $\mcf \da \ts{f_j}_{j\in J}$ is **normal** iff every sequence $\ts{f_k}$ has a subsequence that converges locally uniformly, i.e. $\ts{f_{k_i}}$ converges uniformly on every compact subset.
 
 :::
 
