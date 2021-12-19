@@ -123,9 +123,6 @@ By continuity, $\abs{h(z)}\leq 1$ on $\CC$ and is thus bounded.
 By Liouville $h$ is constant, making $f = cg$ for some $c$.
 :::
 
-
-
-
 :::{.exercise title="?"}
 Suppose $f$ is entire and for every $z$,
 \[
@@ -157,6 +154,16 @@ Now $\abs{1/g(z)} \leq 1/r$ for all $z$, so $1/g$ is bounded.
 Moreover it is entire since $f(z) \neq z_0$ for any $z$, and so $1/g = c$ is constant.
 Now unwind to get $f(z) = z_0 + {1\over c}$, which is also constant.
 :::
+
+:::{.exercise title="?"}
+Show that if $f$ is entire and $\abs{f(z)} > 1$ for all $z$, then $f$ is constant.
+:::
+
+:::{.solution}
+The inequality forces $f\neq 0$ anywhere, so $1/f$ is entire and bounded by 1.
+By Liouville, $1/f$ is constant, and thus so is $f$.
+:::
+
 
 
 
