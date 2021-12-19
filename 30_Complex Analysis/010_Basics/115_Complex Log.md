@@ -131,6 +131,25 @@ This yields the usual $\Log(re^{i\theta}) = \log(\abs{r}) + i\theta$.
 
 :::
 
+
+:::{.exercise title="?"}
+Show that
+
+- $\log(zw)\neq \log(z)\log(w)$
+- $\log(\exp(z))\neq z$
+
+:::
+
+
+:::{.solution}
+Counterexamples: 
+
+- Take $z=\zeta_4^3$ and $w=\zeta_4^2$, noting that $\Arg(z) = {3\pi \over 4}$ and $\Arg(w) = {\pi \over 2}$
+  Then $zw = e^{5\pi \over 4}$ but $\Arg(zw) = {-3\pi \over 4}$ because we are forced to use the domain $(-\pi, \pi]$.
+:::
+
+
+
 :::{.warnings}
 \[
 \Log(zw) &\neq \Log(z) + \Log(w) \\
