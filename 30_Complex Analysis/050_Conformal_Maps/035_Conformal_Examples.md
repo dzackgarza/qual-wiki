@@ -54,6 +54,8 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 \implies w
 &=
 -\frac{3 \, {\left(\left(i + 1\right) \, z - i + 1\right)}}{\left(3 i + 11\right) \, z - 3 i - 13}
+\\
+&= - {3z - 3 \over {3i+11\over i+1}z + {3i-13 \over 3i+11}}
 .\]
 
 :::
