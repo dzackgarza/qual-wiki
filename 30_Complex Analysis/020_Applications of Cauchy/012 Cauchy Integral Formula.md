@@ -137,4 +137,23 @@ Evaluate the following integrals using Cauchy's integral formula:
 :::
 
 
+:::{.solution}
+\[
+\int_{S^1} {\cos(z) \over z} \dz
+&= 2\pi i \cos(0) = 2\pi i \\
+\int_{S^1} {\sin(z) \over z}\dz
+&= 2\pi i \sin(0) = 0 \\
+\int_{\abs z = 2} {z^2\over z-1} \dz 
+&= 2\pi i \dd{}{z}z^2\evalfrom_{z=1} \\
+\int_{S^1} {e^z \over z^2} \dz 
+&= \\
+\int_{\abs z = 2} {z^2 - 1 \over z^2 + 1}\dz 
+&= \\
+\int_{\abs z = 2} {1\over z^2 + z + 1}\dz 
+&=
+.\]
+
+:::
+
+
 
