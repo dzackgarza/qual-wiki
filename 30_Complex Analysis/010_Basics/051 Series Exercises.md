@@ -256,7 +256,12 @@ Now find the two expansions for each term:
 
 Now, just combinatorics to pick the various series that converge on the desired regions:
 \[
-0 \leq \abs{z} < 1 && 
+0 \leq \abs{z} < 1 
+\qquad & f(z) = {1\over 2}\sum_{k\geq 0}z^k + {1\over 6}\sum_{k\geq 0} 3^{-k}z^k \\
+1 \leq \abs{z} < 3 
+\qquad & f(z) = {1\over 2}\sum_{k\geq 0}z^{-k-1} + {1\over 6}\sum_{k\geq 0} 3^{-k}z^k \\
+3 \leq \abs{z} < \infty 
+\qquad & f(z) = {1\over 2}\sum_{k\geq 0}z^{-k-1} + {1\over 2}\sum_{k\geq 0} 3^{k}z^{-k-1}
 .\]
 
 
