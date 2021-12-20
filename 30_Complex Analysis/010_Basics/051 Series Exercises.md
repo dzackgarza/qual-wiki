@@ -334,6 +334,36 @@ Note that something like ${1\over 1-e^z} = \sum_{k\geq 0} e^{kz}$ won't converge
 .\]
 :::
 
+
+:::{.exercise title="Expansion at an essential singularity"}
+Find a Laurent expansion at $z=0$ for
+\[
+f(z) \da e^{1\over z}\cos\qty{1\over z}
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+Note that a direct expansion won't work, since there are infinitely many contributions to the constant term.
+Instead, a trick: consider $g(z) \da e^z\cos(z)$, so $g(1/z ) = f(z)$.
+Expanding $g$ is easier:
+\[
+g(z) 
+&= e^{z}\cos(z)\\
+&= {1\over 2}e^z\qty{e^{iz} + e^{-iz}} \\
+&= {1\over 2}\qty{e^{(1+i)z} + e^{(1-i)z}} \\
+&= {1\over 2} \sum_{k\geq 0}\qty{(1+i)^k + (1-i)^k} {z^k\over k!} \\
+\implies f(z) 
+&= {1\over 2} \sum_{k\geq 0}\qty{(1+i)^k + (1-i)^k} {1 \over k!z^k } \\
+.\]
+
+:::
+
+
+
 ## New Things in $\CC$
 
 :::{.exercise title="Cauchy integral formula for coefficients"}
