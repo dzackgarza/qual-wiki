@@ -71,6 +71,13 @@ Approach along $\ts{0 + ti \st t\in \RR}$:
 \[
 f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0, y_0 + t) - f(x_0, y_0) \over it} \da {1\over i} \dd{f}{y}(x_0)
 .\]
+Thus
+\[
+if_x = f_y \implies i(u_x + i v_x) = u_y + i v_y \\ 
+\implies -v_x + iux = u_y + iv_y \\ 
+\implies u_x = v_y,\, u_y = -v_x
+.\]
+
 
 
 :::
