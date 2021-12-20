@@ -295,8 +295,20 @@ That $z=\pi$ is removable:
 &= \lim_{z\to \pi} {1\over \sin(z)} - {1\over z} + {1\over z-\pi} + {1\over z+\pi}\\
 &= c_1 + \lim_{z\to \pi} {1\over \sin(z)} + {1\over z-\pi} \\
 &= c_1 + \lim_{z\to \pi} { (z-\pi) -\sin(z) \over (z-\pi) \sin(z) }\\
-&\equalsbecause{\text{LH}} c_1 + 
+&= c_1 + \lim_{w\to 0} { w -\sin(w + \pi) \over w \sin(w+\pi) } \qquad w\da z-\pi \\
+&= c_1 - \lim_{w\to 0} { w + \sin(w) \over w \sin(w) } \\
+&\equalsbecause{\text{LH}} c_1 + 0
+,\]
+using the same L'Hopital argument as above. 
+So this limit is bounded.
+
+That $z=-\pi$ is removable:
+\[
+\lim_{z\to \pi} f(z) 
+&= \lim_{z\to -\pi} {1\over \sin(z)} - {1\over z} + {1\over z-\pi} + {1\over z+\pi}\\
+&= c_2 + \lim_{z\to -\pi} {1\over \sin(z)} + {1\over z+\pi}\\
 .\]
+
 
 
 :::
