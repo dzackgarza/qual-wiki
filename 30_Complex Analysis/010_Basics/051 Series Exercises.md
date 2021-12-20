@@ -107,18 +107,18 @@ That $f_k'\to f'$:
 .\]
 
 That the convergence is locally uniform:
-take a compact set $K$, and find a small disc $D \subseteq K$.
-Write $\norm{g}_\infty \da \sup_{z\in D} \abs{g(z)}$.
-Then
+first consider what happens on an closed discs $K = D$ with $\gamma \da \bd{D}$.
+Then for $z\in D$,
 \[
-\abs{f'(z) f_k'(z) }
-&= \abs{{1\over 2\pi i} \int_{\abs{\xi - z} = r} {f(\xi) - f_k(\xi) \over (\xi - z)^2}\dxi }\\
-&\leq {1\over 2\pi}\int_{\abs{\xi - z} = r} {\abs{f(\xi) - f_k(\xi) } \over \abs{\xi - z}^2} \dxi\\
-&\leq {1\over 2\pi}\int_{\abs{\xi - z} = r} { \sup_{\abs{\xi - z} = r} \abs{f(\xi) - f_k(\xi) } \over r^2 } \dxi\\
-&= {1\over 2\pi} { \sup_{\abs{\xi - z} = r} \abs{f(\xi) - f_k(\xi) } \over r^2} \cdot {2\pi r} \\
+\abs{f'(z) - f_k'(z) }
+&= \abs{{1\over 2\pi i} \int_{\gamma} {f(\xi) - f_k(\xi) \over (\xi - z)^2}\dxi }\\
+&\leq {1\over 2\pi}\int_{\gamma} {\abs{f(\xi) - f_k(\xi) } \over \abs{\xi - z}^2} \dxi\\
+&\leq {1\over 2\pi}\int_{\gamma } { \sup_{\xi \in \gamma} \abs{f(\xi) - f_k(\xi) } \over r^2 } \dxi\\
+&= {1\over 2\pi} { \sup_{\xi \in \gamma } \abs{f(\xi) - f_k(\xi) } \over r^2} \cdot {2\pi r} \\
 &= {\eps\over r}
 ,\]
 where we can bound this $\sup$ using locally uniform convergence of $f_k\to f$ and the fact that $\ts{ \xi \st \abs{z-\xi} = r}$ is compact.
+Now cover $K$ by 
 
 
 :::
