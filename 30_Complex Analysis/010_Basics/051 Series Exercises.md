@@ -324,14 +324,9 @@ f(z) = f_1(z) + f_2(z) \da \sum_{k\geq 1} 2^{-k}z^{-k} + \sum_{k\geq 0} 2^{-k}z^
 
 Using the ratio test:
 \[
-f_1(z) < \infty \impliedby \limsup_k \abs{2^{-k}z^{-k}}^{1\over k} < 1 \iff \limsup_k \abs{2z} < 1 \iff \abs{z} < {1\over 2}
+f_1(z) < \infty &\impliedby \limsup_k \abs{2^{-k}z^{-k}}^{1\over k} < 1 \iff \limsup_k \abs{1\over 2z} < 1 \iff {1\over 2}< \abs{z} \\
+f_2(z) < \infty &\impliedby \limsup_k \abs{2^{-k}z^{k}}^{1\over k} < 1 \iff \limsup_k \abs{z\over 2}< 1 \iff \abs{z} < 2 
 .\]
-
-
-Then $R_1 = R_2 = \qty{\limsup_k \abs{2^{-k}}^{1\over k} } = 2$, and 
-
-- $f_1$ converges if $\abs{z}\inv < 2$, so $2\inv < \abs{z}$, and
-- $f_2$ converges if $\abs{z} < 2$.
 
 So $f$ converges on ${1\over 2}< \abs{z} < 2$.
 
