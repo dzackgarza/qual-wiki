@@ -52,6 +52,30 @@ using that $z/\sin(z) \convergesto{z\to 0} 1$.
 
 ## Poles and Zeros
 
+:::{.exercise title="True/false"}
+Prove that the following statements or true, or find a counterexample:
+
+- If $f,g$ have a pole at $a$, then $f+g$ has a pole at $a$.
+- If $f,g$ have a pole at $a$, then $fg$ has a pole at $a$.
+- If $f$ has an essential singularity at $z_0$ at $g$ is has a pole at $z_0$, then $z_0$ is an essential singularity for $f+g$.
+
+:::
+
+
+:::{.solution}
+\envlist
+
+- False: $f(z) \da 1/z, g(z) \da -1/z \implies f+g = 0$.
+- False: $f(z) = g(z) = 1/z \implies fg = 1/z^2$.
+- True: write $f(z) = \sum_{k\in \ZZ} c_k (z-z_0)^k$, which has infinitely many negative coefficients, and $g(z) = \sum_{k\geq -N}d_k (z-z_0)^k$.
+  Then 
+  \[
+  f(z) + g(z) = \sum_{k\leq -N-1}c_k(z-z_0)^k + \sum_{k\geq -N} (c_k + d_k)(z-z_0)^k
+  ,\] 
+  which again has infinitely many negative coefficients.
+:::
+
+
 :::{.exercise title="Residues and classifying singularities"}
 Classify the singularities of 
 \[
@@ -203,7 +227,6 @@ Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
 - For anything else, take $z_k \da {1\over \Log(a) + 2\pi i n}$ if $a \in \RR_{\geq 0}$.
   Again $f(z_k) = a$ for all $k$ but $z_k\to 0$.
 :::
-
 
 :::{.exercise title="Constructing functions with specified singularities"}
 Determine a function with
