@@ -274,6 +274,28 @@ f(z) = z^2\qty{ 1 + {1\over 2!}\qty{1\over 3z}^2 + {1\over 4!}\qty{1\over 3z}^4 
 :::
 
 
+:::{.exercise title="Expansion for a reciprocal"}
+Find a power series expansion of 
+\[
+f(z) = {1\over e^z-1}
+.\]
+
+:::
+
+
+:::{.solution}
+One way: polynomial long division.
+\[
+{1\over e^z-1} 
+&= {1\over z + {1\over 2}z^2 + {1\over 6}z^2 + \cdots } \\
+&= {1\over z}\qty{1 - {1\over 2}z + \qty{-{1\over 6} + {1\over 4} }z^2 + \cdots } \\
+&= z\inv - {1\over 2} + {1\over 12}z + \bigo(z^3)
+.\]
+
+:::
+
+
+
 ## New Things in $\CC$
 
 :::{.exercise title="Cauchy integral formula for coefficients"}
