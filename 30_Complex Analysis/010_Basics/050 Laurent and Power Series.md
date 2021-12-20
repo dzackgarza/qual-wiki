@@ -519,7 +519,13 @@ Define $f_k \da c_k (z-z_0)^k$, then
 Then
 \[
 \sum_{k\geq 0} M_k = \sum_{k\geq 0} \abs{c_k} r^k
+,\]
+and the claim is that this converges.
+Note that since $r\leq R$, we have convergence of 
+\[
+\sum_{k\geq 0} c_k r^k
 .\]
+
 
 :::
 
