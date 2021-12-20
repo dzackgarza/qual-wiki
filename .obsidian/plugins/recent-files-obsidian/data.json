@@ -45,24 +45,8 @@
       "path": "30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma.md"
     },
     {
-      "basename": "040_Open Mapping",
-      "path": "30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping.md"
-    },
-    {
-      "basename": "Jordan's Lemma",
-      "path": "30_Complex Analysis/030_Residues/Jordan's Lemma.md"
-    },
-    {
-      "basename": "020_Residues",
-      "path": "30_Complex Analysis/030_Residues/020_Residues.md"
-    },
-    {
       "basename": "020_Casorati-Weierstrass",
       "path": "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md"
-    },
-    {
-      "basename": "015_Singularities",
-      "path": "30_Complex Analysis/040_Zeros_and_Poles/015_Singularities.md"
     },
     {
       "basename": "030 Identity Principle",
@@ -71,10 +55,6 @@
     {
       "basename": "120_Holomorphy and Calculus",
       "path": "30_Complex Analysis/010_Basics/120_Holomorphy and Calculus.md"
-    },
-    {
-      "basename": "030_Rouche",
-      "path": "30_Complex Analysis/040_Zeros_and_Poles/030_Rouche.md"
     },
     {
       "basename": "010_Cauchy_Theorem",
