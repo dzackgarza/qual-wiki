@@ -38,6 +38,12 @@ Some other useful facts about the hyperbolic exponentials:
 - $\cosh(z + i\pi) = -\cosh(z)$ and $\sinh(z + i\pi) = -\sinh(z)$.
 - $\cosh$ has zeros at $\ts{i\pi\qty{2k+1\over 2}} = \ts{i \qty{\pi/2 + k\pi}}$, i.e. $\cdots, -\pi/2, \pi/2, 3\pi/2,\cdots$, the half-integers.
 - $\sinh$ has zeros at $\ts{i\pi k}$, i.e. the integers.
+- $\sinh(z)$ has a particularly nice formula for derivatives:
+\[
+f(z) &\da \cosh(z) \implies f^{(n)}(z) = {e^z + (-1)^n e^{-z}\over 2} \\
+f(z) &\da \sinh(z) \implies f^{(n)}(z) = {e^z - (-1)^{n} e^{-z}\over 2} 
+.\]
+
 
 
 
