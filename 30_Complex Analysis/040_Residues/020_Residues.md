@@ -435,11 +435,22 @@ Define
 \[
 C_R \da \ts{ z=Re^{it} \st t\in [0, \pi] }
 ,\]
-then
+then for $\alpha > 0$,
 \[
-\abs{\int_{C_R} e^{i\alpha z} g(z) \dz} \leq {\pi \over a}\sup_{z\in C_R} \abs{g(z)}
+\abs{\int_{C_R} e^{i\alpha z} g(z) \dz} \leq \pi\alpha\inv M_R \qquad M_R \da \sup_{z\in C_R} \abs{g(z)}
+.\]
+Note that if $M_R\to 0$ as $R\to \infty$, this integral vanishes -- so this works if $M_R \in \bigo\qty{1\over R^\eps}$ for $\eps>0$.
+:::
+
+:::{.remark}
+Compare to the above computation of $\int_\RR { \cos(x) \over x^2 + 1}$.
+Taking $\alpha = 1$, this yields
+\[
+\abs{ \int_{C_R} { e^{iz} \over z^2 + 1 } \dz } \leq \pi \sup_{z\in C_R} \abs{1\over z^2 +1} \leq {\pi \over R^2 - 1}\to 0
 .\]
 :::
+
+
 
 :::{.example title="of how to apply Jordan's lemma"}
 Show that
