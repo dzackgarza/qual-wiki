@@ -12,35 +12,6 @@
 
 :::
 
-
-
-
-
-:::{.proposition title="Special functions"}
-The gamma function:
-\[
-\Gamma(z)=\int_{0}^{\infty} t^{z-1} e^{-t} d t
-.\]
-
-- Integrating by parts yields $z\Gamma(z) = \Gamma(z+1)$. 
-- Simple poles on $-\ZZ_{\leq 0}$ with $\Res_{z=-k}\Gamma(z) = {(-1)^k \over k!}$.
-
-
-The Riemann-Zeta function:
-\[
-\zeta(s) = \sum_{k\geq 1}k^{-s}
-.\]
-
-Its functional equation:
-\[
-\zeta(z)=2^{z} \pi^{z-1} \sin \left(\frac{\pi z}{2}\right) \Gamma(1-z) \zeta(1-z)
-.\]
-
-
-:::
-
-
-
 ## The Gamma Function
 
 :::{.definition title="Gamma function"}
@@ -119,18 +90,15 @@ There is a functional equation:
 
 ## Weierstrass $\wp$
 
-
 :::{.definition title="The Weierstrass $\wp$ function"}
 
 ![](figures/2021-12-19_22-33-34.png)
 
 :::
 
-
 :::{.remark}
 
 ![](figures/2021-12-19_22-34-18.png)
 
 :::
-
 
