@@ -289,6 +289,15 @@ That $z=0$ is removable:
 ,\]
 so in particular $f$ is bounded in a neighborhood of $z=0$, making it removable.
 
+That $z=\pi$ is removable:
+\[
+\lim_{z\to \pi} f(z) 
+&= \lim_{z\to \pi} {1\over \sin(z)} - {1\over z} + {1\over z-\pi} + {1\over z+\pi}\\
+&= c_1 + \lim_{z\to \pi} {1\over \sin(z)} + {1\over z-\pi} \\
+&= c_1 + \lim_{z\to \pi} { (z-\pi)\sin(z) - (z-\pi) \over (z-\pi) \sin(z) }\\
+&= c_1 + 
+.\]
+
 
 :::
 
