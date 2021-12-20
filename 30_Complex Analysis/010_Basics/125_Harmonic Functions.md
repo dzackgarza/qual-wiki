@@ -65,11 +65,11 @@ f'(z_0) \da \lim_{h\to 0, h\in \CC} {f(z_0 + h) - f(z_0) \over h}
 .\]
 Approach along $\ts{t + 0i \st t\in \RR}$:
 \[
-f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0 + t, y_0) - f(x_0, y_0) \over t} \da \dd{f}{x}(x_0)
+f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0 + t, y_0) - f(x_0, y_0) \over t} \da f_x(x_0, y_0)
 .\]
 Approach along $\ts{0 + ti \st t\in \RR}$:
 \[
-f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0, y_0 + t) - f(x_0, y_0) \over it} \da {1\over i} \dd{f}{y}(x_0)
+f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0, y_0 + t) - f(x_0, y_0) \over it} \da {1\over i} f_y(x_0, y_0)
 .\]
 Thus
 \[
