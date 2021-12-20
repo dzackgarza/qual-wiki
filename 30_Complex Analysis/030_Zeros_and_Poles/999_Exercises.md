@@ -39,8 +39,12 @@ The residue is computed as
 
 Alternatively, expand as a Laurent series about $z=0$:
 \[
-f(z) = z^{-2}(z^3 + 1) {1\over 1+z} = (z + z^{-2})\sum_{k\geq 0}z^k
-.\]
+f(z) 
+&= z^{-2}(z^3 + 1) {1\over 1+z} \\
+&= (z + z^{-2})\sum_{k\geq 0}(-z)^k \\
+&= (z-z^2 + z^3 - \cdots) + (z^{-2} - z\inv + 1 - z + \cdots)
+,\]
+and read off the coefficient of $z\inv$.
 
 
 :::
