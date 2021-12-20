@@ -92,12 +92,12 @@ f(z)
 &= \lim_k {1\over 2\pi i}\int_\gamma g_k(\xi)\dxi\\
 &= {1\over 2\pi i}\int_\gamma \lim_k g_k(\xi)\dxi \\
 &= {1\over 2\pi i}\int_\gamma g(\xi)\dxi\\
-&= {1\over 2\pi i}\int_\gamma {f(\xi) \over \xi - z} \dxi\\
+&= {1\over 2\pi i}\int_\gamma {f(\xi) \over \xi - z} \dxi
 ,\]
 where we've used uniform convergence on $\gamma$ to commute the limit and integral.
 So $f$ has an integral representation, making it differentiable.
 
-That $f_k'\to f'$ locally uniformly:
+That $f_k'\to f'$: 
 \[
 \lim_k f_k'(z)
 &= \lim_k {1\over 2\pi i}\int_\gamma {f_k(\xi) \over (\xi - z)^2 }\dxi\\
@@ -105,6 +105,17 @@ That $f_k'\to f'$ locally uniformly:
 &= {1\over 2\pi i}\int_\gamma {f(\xi) \over (\xi - z)^2}\dxi\\
 &= f'(z)
 .\]
+
+That the convergence is locally uniform:
+take a compact set $K$, and find a small disc $D \subseteq K$.
+Write $\norm{g}_\infty \da \sup_{z\in D} \abs{g(z)}$.
+Then
+\[
+\abs{f'(z) f_k'(z) }
+&= \abs{{1\over 2\pi i} \int_\gamma {f(\xi) - f_k(\xi) \over (\xi - z)^2}\dxi }\\
+&\leq {1\over 2\pi}\int {\abs{f(\xi) - f_k(\xi) } \over \abs{\xi - z}^2} \dxi
+.\]
+
 
 :::
 
