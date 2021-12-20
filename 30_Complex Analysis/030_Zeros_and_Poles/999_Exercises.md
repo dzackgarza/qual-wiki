@@ -324,6 +324,12 @@ For a Laurent expansion about $z=0$, note
 &= z\inv - {1\over 3!} z + \qty{ \qty{1\over 3!}^2 - {1\over 5!} }z^3 + \bigo(z^5) \\
 &= z\inv - {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)
 .\]
+and
+\[
+{1\over z^2-\pi^2} 
+= - {1\over \pi^2} {1\over 1 - \qty{z\over \pi}^2 }= -{1\over \pi^2}\sum_{k\geq 0}\qty{z\over \pi}^k
+.\]
+
 
 :::
 
