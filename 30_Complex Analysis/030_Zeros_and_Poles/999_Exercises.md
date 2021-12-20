@@ -60,6 +60,8 @@ Prove that the following statements or true, or find a counterexample:
 - If $f$ has an essential singularity at $z_0$ at $g$ is has a pole at $z_0$, then $z_0$ is an essential singularity for $f+g$.
 - If $f$ has a pole of order $N$ at $z_0$ then $f^2$ has a pole of order $2N$ at $z_0$.
 
+#completed 
+
 :::
 
 :::{.solution}
@@ -191,6 +193,9 @@ Classify the singularities and compute the residues at any poles of the followin
 \[
 f(z) \da {1\over e^z - 1}
 .\]
+
+#completed
+
 :::
 
 :::{.solution}
@@ -201,6 +206,8 @@ Start by computing the first:
 \lim_{z\to z_k}(z-z_k)f(z) = \lim_{z\to z_k} {z-z_k\over e^z - 1} \equalsbecause{\text{LH}} \lim_{z\to z_k} {1\over e^z} = e^{-z_k} = 1
 .\]
 :::
+
+## Poles at Infinity 
 
 :::{.exercise title="Entire functions with poles at infinity"}
 Characterize all entire functions with a pole of order $m$ at $\infty$.
@@ -213,7 +220,6 @@ Since $f$ is entire, $f(z) = \sum_{k\geq 0 } c_k z^k$.
 Expanding about $z_0=\infty$, we have $f(1/z) = \sum_{k\geq 0} c_k z^{-k} = c_0 + {c_1\over z} + \cdots$.
 If $z_0=\infty$ is a pole of order $m$, then $c_m\neq 0$ but $c_{>m} = 0$, which forces $f(z) = \sum_{0\leq k \leq m} c_k z^k$ to be a polynomial of degree $m$.
 :::
-
 
 ## Essential Singularities
 
@@ -257,9 +263,7 @@ f(z) = e^{1\over z-1} + e^{1\over z} + {1\over z - (1-i)} + {1\over (z - (1+i) )
 
 :::
 
-
 ## Removable Singularities
-
 
 :::{.exercise title="?"}
 Consider
@@ -271,7 +275,6 @@ Show that on $\abs{z} < 2\pi$, all singularities are removable, and find a Laure
 #completed
 
 :::
-
 
 :::{.solution title="Using L'Hopital and boundedness"}
 Note that the singularities are
@@ -314,7 +317,6 @@ That $z=-\pi$ is removable:
 again by the same argument.
 :::
 
-
 :::{.solution title="Comparing orders of vanishing"}
 Write
 \[
@@ -330,8 +332,5 @@ f_1(z)
 ,\]
 so there is a zero of order 3 in the numerator and of order 2 in the denominator, making the singularity removable.
 A similar argument works at $z=\pm \pi$.
-
-
 :::
-
 
