@@ -355,6 +355,15 @@ a\leq b \implies e^{-a} \geq e^{-b}
 
 :::
 
+:::{.remark}
+If $C_R$ is a semicircular contour subtending an angle of $\theta$,
+\[
+\abs{\int_{C_R} f\, }\leq MR\theta
+,\]
+so provided $M = \bigo\qty{1\over R^{1+\eps}}$, this goes to zero as $R\to\infty$.
+
+:::
+
 :::{.proof title="?"}
 \[
 \abs{ \int_\gamma f(z) \dz } 
@@ -385,16 +394,19 @@ Then noting that $z_0 = i$ is the only pole of $f$ in $\HH$, by the residue theo
 \[
 \int_\Gamma f(z) \dz = 2\pi i \Res_{z=i} f(z) = \qty{\int_{C_1} + \int_{C_2}} f
 .\]
-Note that $I = \Re \lim_{R\to\infty} \int_{C_1} f$
-By Jordan's lemma,
+Note also that \[
+I = \Re \lim_{R\to\infty} \int_{C_1} f
+.\]
+
+By the ML estimate,
 \[
 \abs{\int_{C_2} f(z)\dz } 
-&\leq \sup_{z\in C_2} \abs{f(z)} \\
-&\da \sup_{z\in C_2} \abs{e^{iz}\over z^2 + 1} \\
-&\leq \sup_{z\in C_2} {1 \over \abs{ z^2 + 1} } \\
-&\leq \sup_{z\in C_2} {1 \over \abs{z}^2 - 1 } \text{ by the reverse triangle ineq.}\\
-&= {1\over R^2-1} \\
-&= \bigo(R^{-2}) \\
+&\leq 2\pi R \sup_{z\in C_2} \abs{f(z)} \\
+&\da 2\pi R \sup_{z\in C_2} \abs{e^{iz}\over z^2 + 1} \\
+&\leq 2\pi R \sup_{z\in C_2} {1 \over \abs{ z^2 + 1} } \\
+&\leq 2\pi R\sup_{z\in C_2} {1 \over \abs{z}^2 - 1 } \text{ by the reverse triangle ineq.}\\
+&= {2\pi R\over R^2-1} \\
+&= \bigo(R^{-1}) \\
 &\convergesto{R\to\infty}0
 .\]
 
