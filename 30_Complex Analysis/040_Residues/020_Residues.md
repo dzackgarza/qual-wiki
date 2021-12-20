@@ -463,7 +463,11 @@ Compute
 
 
 :::{.solution}
-Note that the ML bound is not sufficient here:
+Note that the ML bound is not sufficient to bound a semicircular contour:
+\[
+\abs{\int_{C_R} { e^{iz} \over z}\dz } \leq 2\pi R \sup_{z\in C_R} \abs{1\over z} = 2\pi \not\to 0
+.\]
+
 :::
 
 
