@@ -266,7 +266,7 @@ Consider
 \[
 f(z) \da {1\over \sin(z)} - {1\over z} + {2z\over z^2-\pi^2}
 .\]
-Show that on $\abs{z} < 2\pi$, all singularities are removable, and find a Laurent series.
+Show that on $\abs{z} < 2\pi$, all singularities are removable, and find a Laurent expansion about $z=0$.
 
 #completed
 
@@ -274,6 +274,21 @@ Show that on $\abs{z} < 2\pi$, all singularities are removable, and find a Laure
 
 
 :::{.solution}
+Note that the singularities are
+\[
+z = 0, \pi, -\pi
+.\]
+
+That $z=0$ is removable:
+\[
+\lim_{z\to 0} f(z) 
+&= \lim_{z\to 0} {z-\sin(z) \over z\sin(z)} \\
+&\equalsbecause{\text{LH}} \lim_{z\to 0} {1 - \cos(z) \over \sin(z) + z\cos(z)} \\
+&\equalsbecause{\text{LH}} \lim_{z\to 0} {\sin(z) \over \cos(z) + \cos(z) -z\sin(z) } \\
+&= 0
+,\]
+so in particular $f$ is bounded in a neighborhood of $z=0$, making it removable.
+
 
 :::
 
