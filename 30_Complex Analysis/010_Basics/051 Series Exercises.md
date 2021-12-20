@@ -334,7 +334,6 @@ Note that something like ${1\over 1-e^z} = \sum_{k\geq 0} e^{kz}$ won't converge
 .\]
 :::
 
-
 :::{.exercise title="Expansion at an essential singularity"}
 Find a Laurent expansion at $z=0$ for
 \[
@@ -344,7 +343,6 @@ f(z) \da e^{1\over z}\cos\qty{1\over z}
 #completed
 
 :::
-
 
 :::{.solution}
 Note that a direct expansion won't work, since there are infinitely many contributions to the constant term.
@@ -361,6 +359,32 @@ g(z)
 .\]
 
 :::
+
+:::{.exercise title="Expansion at an essential singularity"}
+Find a Laurent expansion about $z=0$ of
+\[
+f(z) \da \cos\qty{1- {1\over z}}
+,\]
+and compute the "residue" coefficient $c_{-1}$.
+
+#completed
+
+:::
+
+
+:::{.solution}
+Write $g(z) \da \cos(1-z)$, so $g(1/z) = f(z)$, and expand:
+\[
+g(z) 
+&= \cos(1-z) \\
+&= {1\over 2}\qty{e^{i(1-z)} + e^{-i(1-z)}} \\
+&= {1\over 2}\qty{e^i e^{-z} + e^{-i} e^z}\\
+&= {1\over 2}\sum_{k\geq 0} \qty{ e^i(-1)^k + e^{-i} } {z^k \over k!} \\
+\implies f(z) &= {1\over 2}\sum_{k\geq 0} \qty{ e^i(-1)^k + e^{-i} } {1 \over k!z^k}
+.\]
+
+:::
+
 
 
 
