@@ -306,6 +306,33 @@ Note that something like ${1\over 1-e^z} = \sum_{k\geq 0} e^{kz}$ won't converge
 .\]
 :::
 
+
+:::{.exercise title="Convergence of a $\ZZ\dash$index series"}
+Find the radius of convergence for 
+\[
+f(z) \da \sum_{k\in \ZZ} 2^{-\abs{k}}z^k
+.\]
+
+:::
+
+
+:::{.solution}
+Break this up into a principal part at $z=0$ and a holomorphic part:
+\[
+f(z) = f_1(z) + f_2(z) \da \sum_{k\geq 1} 2^{-k}z^{-k} + \sum_{k\geq 0} 2^{-k}z^k
+.\]
+
+Then 
+
+- $R_1 = \qty{ \limsup_k \abs{2^k}^{1\over k} }\inv = {1\over 2}$,
+- $R_2 = \qty{\limsup_k \abs{2^{-k}}^{1\over k} } = 2$,
+
+
+
+:::
+
+
+
 ## New Things in $\CC$
 
 :::{.exercise title="Cauchy integral formula for coefficients"}
