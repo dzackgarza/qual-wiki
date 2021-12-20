@@ -64,7 +64,7 @@ i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansi
 \]
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Primitive in the complement of a branch cut"}
 Compute the following integrals:
 \[
 \int_{\abs{z-1} = 1} {1\over z^2-1} \dz \\
@@ -107,7 +107,7 @@ Thus for $\gamma$ any parameterization of $\abs{z} = 2$,
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Cauchy formula"}
 Compute
 \[
 \int_{S^1} {2 \sinh(z) \over z^n}\dz
@@ -121,10 +121,12 @@ Compute
 :::{.solution}
 Write $f(z) = 2\sinh(z) = e^{z} - e^{-z}$ and apply the generalized Cauchy formula:
 \[
-f^{(n-1)}(0) = {(n-1)! \over 2\pi i} \int_{S^1} {f(z) \over z^n}\dz \\
-\implies \int_{S^1}{f(z)\over z^n}\dz 
-= {2\pi i f^{(n-1)(0)} \over (n-1)!}
-= {2\pi i \qty{e^{z} + (-1)^n e^{-z}} \over (n-1)!}
+f^{(n-1)}(0) 
+&= {(n-1)! \over 2\pi i} \int_{S^1} {f(z) \over z^n}\dz \\
+\implies \int_{S^1}{f(z)\over z^n}\dz \\
+&= {2\pi i f^{(n-1)(0)} \over (n-1)!} \\
+&= {2\pi i \qty{e^{z} + (-1)^n e^{-z}} \over (n-1)!} \\
+&= ?
 .\]
 
 :::
