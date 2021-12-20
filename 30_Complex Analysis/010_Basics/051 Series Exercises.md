@@ -213,7 +213,6 @@ For $z=1$:
 
 :::
 
-
 :::{.exercise title="Laurent expansions on annuli"}
 Find a Laurent expansion for the following function on the 3 annular regions centered at $0$ where $f$ is holomorphic.
 
@@ -222,7 +221,6 @@ Find a Laurent expansion for the following function on the 3 annular regions cen
 #completed
 
 :::
-
 
 :::{.solution}
 The three regions are 
@@ -263,10 +261,21 @@ Now, just combinatorics to pick the various series that converge on the desired 
 3 \leq \abs{z} < \infty 
 \qquad & f(z) = - {1\over 2}\sum_{k\geq 0}z^{-k-1} + {1\over 2}\sum_{k\geq 0} 3^{k}z^{-k-1}
 .\]
+:::
 
 
+:::{.exercise title="Residues from Laurent expansion"}
+Find the residue of $f(z) = z^2\cos\qty{z\over 3}$ using a Laurent series expansion.
+:::
+
+
+:::{.solution}
+\[
+f(z) = z^2\qty{ 1 + {1\over 2!}\qty{1\over 3z}^2 }
+.\]
 
 :::
+
 
 
 ## New Things in $\CC$
