@@ -1,6 +1,6 @@
 # Exercises: Integrals
 
-## Rational Functions 
+## Strategies
 
 :::{.remark}
 For guidelines for what techniques to use,
@@ -54,6 +54,8 @@ A summary of techniques:
 ![](figures/2021-12-14_17-20-48.png)
 
 :::
+
+## Rational Functions 
 
 :::{.exercise title="$1/(1+x^2)^2$"}
 \[
@@ -138,10 +140,42 @@ where we've used a variant of the triangle inequality:
 
 :::
 
+:::{.exercise title="$1/(1+x^2)^{n+1}\,$"}
+\[
+\int_{-\infty}^{\infty} \frac{d x}{\left(1+x^{2}\right)^{n+1}}=\frac{(2 n) !}{4^{n}(n !)^{2}} \pi
+.\]
+
+:::
+
+
+:::{.exercise title="$1/a+b\cos(\theta)$"}
+\[
+\int_{0}^{2 \pi} \frac{d \theta}{a+b \cos \theta}=\frac{2 \pi}{\sqrt{a^{2}-b^{2}}}
+.\]
+:::
+
+
+:::{.exercise title="?"}
+\[
+\int_0^\infty {\log(x) \over x^2+a^2}\dx &= {\pi\log(a)\over 2a} && a>0
+.\]
+
+
+:::
+
+
+
+![figures/image_2021-05-17-13-33-12.png](figures/image_2021-05-17-13-33-12.png)
+
+![figures/image_2021-05-17-13-33-30.png](figures/image_2021-05-17-13-33-30.png)
+
+
+## Trig in Numerator
+
 :::{.exercise title="$\cos(x) / x^2 + b^2$"}
 #work
 \[
-\int_{0}^{\infty} \frac{\cos (x)}{x^{2}+b^{2}} d x=\frac{\pi \mathrm{e}^{-b}}{2 b} .
+\int_{0}^{\infty} \frac{\cos (x)}{x^{2}+b^{2}} d x=\frac{\pi \mathrm{e}^{-b}}{2 b}
 .\]
 :::
 
@@ -152,7 +186,9 @@ Extend to $\int_\RR$ using that $f$ is even.
 
 :::
 
-:::{.exercise title="Trigonometric functions"}
+## Trig in Denominator
+
+:::{.exercise title="$1/1+a^2+\cos(\theta)$"}
 #work
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{1+a^{2}-2 a \cos (\theta)}
@@ -195,21 +231,11 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 :::
 
 
-# Exercises
-
-
 :::{.exercise}
 Show that the complex zeros of $f(z) \da \sin(\pi z)$ are exactly $\ZZ$, and each is order 1.
 Calculate the residue of $1/\sin(\pi x)$ at $z=n\in \ZZ$.
 :::
 
-![figures/image_2021-05-17-13-32-46.png](figures/image_2021-05-17-13-32-46.png)
-
-![figures/image_2021-05-17-13-32-57.png](figures/image_2021-05-17-13-32-57.png)
-
-![figures/image_2021-05-17-13-33-12.png](figures/image_2021-05-17-13-33-12.png)
-
-![figures/image_2021-05-17-13-33-30.png](figures/image_2021-05-17-13-33-30.png)
 
 :::{.exercise title="?"}
 \[
