@@ -1,11 +1,12 @@
 # Special Functions
 
+## The Gamma Function
+
 :::{.definition title="Gamma function"}
 \[
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t} \dt
 .\]
 :::
-
 
 :::{.remark}
 Some interesting properties of $\Gamma$:
@@ -23,6 +24,30 @@ which yields a product factorization for $\sin(\pi z)$.
 
 $\mcl(t^{z-1}, s=1) = \Gamma(z)$ and $\mcl(t^n, s=1) = \Gamma(n+1)$.
 
+The residues:
+
+![](figures/2021-12-19_19-59-45.png)
 
 :::
+
+:::{.proposition title="$\Gamma$ is holomorphic on the right half-plane"}
+
+![](figures/2021-12-19_19-58-16.png)
+
+:::
+
+
+:::{.proposition title="Functional equation for $\Gamma$"}
+
+![](figures/2021-12-19_19-58-44.png)
+
+:::
+
+
+:::{.proposition title="Meromorphic continuation of $\Gamma$"}
+
+![](figures/2021-12-19_19-59-05.png)
+:::
+
+
 
