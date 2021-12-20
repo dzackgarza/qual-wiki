@@ -377,7 +377,6 @@ Show that if $f$ is entire and injective then $f$ is necessarily linear, i.e. $f
 
 :::
 
-
 :::{.solution}
 Write $g(z) \da f(1/z)$, which has a singularity at $z=0$.
 The claim is that this is a pole.
@@ -403,8 +402,17 @@ f(z) = \sum_{k\geq 0} d_k z^k
 ,\]
 making $f$ a polynomial of degree at most $N$.
 
+Now $f$ can not be degree zero, since constant maps are not injective.
+Moreover $f$ can not be degree $N\geq 2$, since any polynomial of degree $N$ has $N$ roots in $\CC$ by the fundamental theorem of algebra, and any two distinct roots will be points where injectivity fails.
+Finally, ruling out the case of roots with multiplicity, if $f(z) = c(z-a)^N$, then $f$ has exactly $N$ preimages in a neighborhood of $a$.
+Letting $p$ be any such point, we can find $N$ complex points mapping to it:
+\[
+p = c(z-a)^N &\implies {p\over c} = (z-a)^N \\
+&\implies \qty{p\over c}^{1\over N}\zeta_N^k = z-a \quad k=0,1,\cdots, n-1 \\
+&\implies z_k\da \qty{p\over c}^{1\over N}\zeta_N^k + a \mapsvia{f} p
+.\]
 
-
+So $f$ must be degree exactly 1, i.e. $f(z) = az+b$.
 :::
 
 
