@@ -15,18 +15,20 @@ We freely abuse notation!
 Check: do you need residues at all??
 You may be able to just compute an integral!
 
-- Check to see if the integrand is holomorphic in the interior first, in which case the integral just vanishes.
-  - If you have an integral of the form $\int {f(z) \over (z-a)^n}\dz$, apply Cauchy.
+- If the integrand is holomorphic throughout the region enclosed by $\gamma$, $\int_\gamma f = 0$
+- If $f$ has a well-defined primitive $F$ on $\gamma$, then 
+\[
+\int_\gamma f = \int_\gamma F' = F(\gamma(1)) - F(\gamma(0)) = 0
+.\]
+- Use Cauchy's theorem when applicable:
+\[
+\int_\gamma {f(z) \over (z-a)^n} = 2\pi i f^{(n-1)}(a)
+.\]
 
-- Directly by parameterization:
+- Compute directly by parameterization:
 \[
 \int_\gamma f \dz = \int_a^b f(z(t))\, z'(t) \dt && \text{for } z(t) \text{ a parameterization of } \gamma
 ,\]
-
-- Finding a primitive $F$, then 
-\[
-\int_\gamma f = F(b) - F(a)
-.\]
 
   - Note: you can parameterize a circle around $z_0$ using
   \[
@@ -34,7 +36,6 @@ You may be able to just compute an integral!
   .\]
 
 :::
-
 
 :::{.exercise title="Integrating $z^k$ around $S^1$ is the source of residue theory"}
 Show that
