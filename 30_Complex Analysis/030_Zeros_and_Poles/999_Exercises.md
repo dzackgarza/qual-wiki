@@ -327,7 +327,9 @@ For a Laurent expansion about $z=0$, note
 and
 \[
 {1\over z^2-\pi^2} 
-= - {1\over \pi^2} {1\over 1 - \qty{z\over \pi}^2 }= -{1\over \pi^2}\sum_{k\geq 0}\qty{z\over \pi}^k
+&= - {1\over \pi^2} {1\over 1 - \qty{z\over \pi}^2 } \\
+&= -{1\over \pi^2}\sum_{k\geq 0}\qty{z\over \pi}^k \\
+&= -{1\over \pi^2}\qty{1 + {1\over \pi}z + {1\over \pi^2} z^2 + \bigo(z^3)}  
 .\]
 
 
