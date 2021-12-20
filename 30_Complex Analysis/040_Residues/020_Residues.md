@@ -317,7 +317,7 @@ f(z) = {1\over z^m + 1}
 :::
 
 :::{.solution title="?"}
-Check that $\dd{}{z} z^n+1 = nz^{n-1}\neq 0$ for $z\neq 0$, so this has no repeated roots.
+Check that $\dd{}{z} z^n+1 = nz^{n-1}\neq 0$ for $z\neq 0$, so this has no repeated roots since $z=0$ is not a root.
 Thus all of the poles are simple, so apply the rational function formula:
 \[
 \Res_{z=\zeta_{m}} {1\over z^n + 1} 
@@ -325,7 +325,10 @@ Thus all of the poles are simple, so apply the rational function formula:
 &= {\zeta_m^{1-n}\over n} \\
 &= -{\zeta_m \over n}
 ,\]
-which follows from expanding $\zeta_m^{1-n} = e^{2\pi i (1-n) \over m}$.
+which follows from expanding 
+\[
+\zeta_m^{1-n} = e^{2\pi i (1-n) \over m} = e^{2\pi i}e^{-2ni\pi }
+.\].
 :::
 
 ## Estimates
