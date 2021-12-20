@@ -451,6 +451,23 @@ Taking $\alpha = 1$, this yields
 :::
 
 
+:::{.exercise title="Applying Jordan's lemma"}
+Compute
+\[
+\int_\RR {\sin(x) \over x}\dx
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+Note that the ML bound is not sufficient here:
+:::
+
+
+
 
 :::{.example title="of how to apply Jordan's lemma"}
 Show that
