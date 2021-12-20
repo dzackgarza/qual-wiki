@@ -52,7 +52,29 @@ Show that $f = u+iv$ with $u, v\in C^1(\RR)$ satisfying the Cauchy-Riemann equat
 \[
 f'(z) = \dd{f}{x} = {1\over i} \dd{f}{y} = {1\over 2}\qty{u_x + iv_x}
 .\]
+Conversely, show that if $f$ is holomorphic, then $f$ satisfies the Cauchy-Riemann equations.
 :::
+
+
+:::{.solution}
+Holomorphic $\implies$ CR:
+
+Suppose $f'(z_0)$ exists for all $z_0\in \CC$, so the following limit exists:
+\[
+f'(z_0) \da \lim_{h\to 0, h\in \CC} {f(z_0 + h) - f(z_0) \over h}
+.\]
+Approach along $\ts{t + 0i \st t\in \RR}$:
+\[
+f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0 + t, y_0) - f(x_0, y_0) \over t} \da \dd{f}{x}(x_0)
+.\]
+Approach along $\ts{0 + ti \st t\in \RR}$:
+\[
+f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0, y_0 + t) - f(x_0, y_0) \over it} \da {1\over i} \dd{f}{y}(x_0)
+.\]
+
+
+:::
+
 
 :::{.exercise title="Holomorphic functions have harmonic components"}
 Show that if $f = u+iv$ is holomorphic then $u, v$ are harmonic.
