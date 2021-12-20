@@ -377,6 +377,7 @@ Then noting that $z_0 = i$ is the only pole of $f$ in $\HH$, by the residue theo
 \[
 \int_\Gamma f(z) \dz = 2\pi i \Res_{z=i} f(z) = \qty{\int_{C_1} + \int_{C_2}} f
 .\]
+Note that $I = \Re \lim_{R\to\infty} \int_{C_1} f$
 By Jordan's lemma,
 \[
 \abs{\int_{C_2} f(z)\dz } 
@@ -398,8 +399,15 @@ For the residue, $z=i$ is at worst an order 1 pole, and remains order 1 since $i
 .\]
 Thus 
 \[
-I = \lim_{R\to\infty}\int_{C_1} f = 2\pi i \Res_{z=i} f = {2\pi i \over 2ei} = {\pi \over e}
+\lim_{R\to\infty}\int_{C_1} f = 2\pi i \Res_{z=i} f = {2\pi i \over 2ei} = {\pi \over e} \\
+\implies I = \Re\qty{\pi \over e} = {\pi \over e}
 .\]
+
+Note that this also shows that
+\[
+\int_\RR { \sin(z) \over z^2 + 1} \dz = 0
+.\]
+
 :::
 
 
