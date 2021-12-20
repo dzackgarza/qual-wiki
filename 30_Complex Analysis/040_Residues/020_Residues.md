@@ -335,7 +335,12 @@ which follows from expanding
 ## Estimates
 
 :::{.remark}
-Note that
+The reverse triangle inequality in all of its glorious variants:
+\[
+\abs{z-w} \geq \abs{ \abs{z} - \abs{w}} \implies {1\over \abs{z-w}}\leq \abs{1\over \abs z - \abs w} \\
+\abs{z+w} \geq \abs{ \abs{z} - \abs{w}} \implies {1\over \abs{z+w}}\leq \abs{1\over \abs z - \abs w} \\
+.\]
+
 \[
 a\geq b \implies e^{-a} \leq e^{-b}
 .\]
