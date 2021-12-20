@@ -148,14 +148,9 @@ Suppose that $f$ is entire and has polynomial growth in the following sense:
 for some constants $k$ and $R$.
 Show that $f$ is a polynomial of degree at most $n$.
 
-
-![](figures/2021-12-14_16-52-37.png)
-![](figures/2021-12-14_16-52-44.png)
-
 #completed
 
 :::
-
 
 :::{.solution}
 Since $f$ is entire, it equals its Laurent expansion about $z_0 = 0$, so
@@ -166,12 +161,12 @@ A direct estimate yields
 \[
 \abs{c_k} 
 &\leq {1\over 2\pi} \int_{\abs{\xi} = R} {\abs{f(\xi)} \over \abs{\xi}^{k+1} }\dxi\\
-&\leq {1\over 2\pi} \int_{\abs{\xi} = R} {M \abs{\xi}^n \over \abs{\xi}^{k+1} }\dxi
-&\leq {1\over 2\pi} \int_{\abs{\xi} = R} \abs{\xi}^{n-(k+1)} \dxi 
-.\]
-
-
+&\leq {1\over 2\pi} \int_{\abs{\xi} = R} {M \abs{\xi}^n \over \abs{\xi}^{k+1} }\dxi \\
+&\leq {M\over 2\pi} \int_{\abs{\xi} = R} \abs{\xi}^{n-(k+1)} \dxi \\
+&\leq {M\over 2\pi} \int_{\abs{\xi} = R} R^{n-(k+1)} \dxi \\
+&= {M\over 2\pi} R^{n-k-1} \cdot 2\pi R \\
+&= MR^{n-k}
+,\]
+which converges to $0$ as $R\to \infty$ provided $n-k<0$, i.e. $k>n$.
 :::
-
-
 
