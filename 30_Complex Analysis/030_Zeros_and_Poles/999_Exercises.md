@@ -324,8 +324,12 @@ f(z) = {z-\sin(z) \over z\sin(z)} - {2z\over z^2-\pi^2}
 For $z=0$, the 2nd term doesn't contribute to zero/pole order.
 For the first, take an expansion:
 \[
-f_1(z) = { z - \qty{z - {1\over 3!}z^3 + \cdots } \over z \qty{ {1\over 3!}z^3 + \cdots } }
-.\]
+f_1(z) 
+&= {z - \qty{ z + c_3z^3 + \bigo(z^5)} \over z \qty{z + c_3z^3 + \bigo(z^5)} } \\ \\
+&= { -c_3z^3 + \bigo(z^5)\over z^2 + \bigo(z^4) }
+,\]
+so there is a zero of order 3 in the numerator and of order 2 in the denominator, making the singularity removable.
+A similar argument works at $z=\pm \pi$.
 
 
 :::
