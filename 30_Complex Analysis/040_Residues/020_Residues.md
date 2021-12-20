@@ -350,13 +350,20 @@ a\geq b \implies e^{-a} \leq e^{-b}
 
 :::{.proof title="?"}
 \[
+\abs{ \int_\gamma f(z) \dz } 
+&\leq \int_\gamma \abs{f(z)} \dz \\
+&\leq \int_\gamma \sup_{\xi\in \gamma} \abs{f(\xi)} \dz \\
+&\da \int_\gamma M\dz \\
+&= M \cdot \length(\gamma)
+.\]
+
+\[
 \left|\int_{\gamma} f(z) d z\right| \leq \sup _{t \in[a, b]}|f(z(t))| \int_{a}^{b}\left|z^{\prime}(t)\right| d t \leq \sup _{z \in \gamma}|f(z)| \cdot \operatorname{length}(\gamma)
 .\]
 
 :::
 
-
-:::{.exercise title="?"}
+:::{.exercise title="Jordan's lemma on a semicircular contour"}
 Use a semicircular contour and the residue theorem to evaluate
 \[
 I = \int_\RR {\cos(x) \over x^2 + 1 }\dx
@@ -365,7 +372,6 @@ I = \int_\RR {\cos(x) \over x^2 + 1 }\dx
 #completed
 
 :::
-
 
 :::{.solution}
 Write
