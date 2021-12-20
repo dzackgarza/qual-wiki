@@ -288,7 +288,7 @@ yielding poles at $\pm i$ with residues
 ### Applying the formulas
 
 :::{.exercise title="Residue of $1/z^2 + 1$"}
-Compute the residue at $z=i$ of
+Use the rational function formula to compute the residues at $z=\pm i$ of
 \[
 f(z) \da {1\over z^2 + 1}
 .\]
@@ -297,9 +297,11 @@ f(z) \da {1\over z^2 + 1}
 :::
 
 :::{.solution}
-Let $f(z) = \frac{1}{1+z^2}$, then $g(z) = 1, h(z) = 1+z^2$, and $h'(z) = 2z$ so that $h'(i) = 2i \neq 0$. Thus
+Applying the formula directly:
 \[
-\Res_{z=i}{1\over 1+z^2} = \frac{1}{2i}
+\Res_{z=z_0}{1\over 1+z^2} &= {1\over 2z}\evalfrom_{z= z_0} \implies\\
+\Res_{z=i}f(z) &= {1\over 2i} = -{i\over 2} \\
+\Res_{z=-i}f(z) &= -{1\over 2i} = {i\over 2}
 .\]
 
 :::
