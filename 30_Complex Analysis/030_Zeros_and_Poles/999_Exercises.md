@@ -368,3 +368,43 @@ so there is a zero of order 3 in the numerator and of order 2 in the denominator
 A similar argument works at $z=\pm \pi$.
 :::
 
+## Misc
+
+:::{.exercise title="Entire injective functions"}
+Show that if $f$ is entire and injective then $f$ is necessarily linear, i.e. $f(z) = az+b$ for some constants $a,b\in \CC$ with $a\neq 0$.
+
+#completed
+
+:::
+
+
+:::{.solution}
+Write $g(z) \da f(1/z)$, which has a singularity at $z=0$.
+The claim is that this is a pole.
+
+If $z=0$ is a removable singularity, $g$ is bounded on some closed disc $\abs{z} \leq \eps$, so $f$ is bounded on $\abs{z} > \eps$.
+Moreover $f$ is continuous and $\abs{z}\leq \eps$, $f$ is bounded on this disc.
+This makes $f$ an entire bounded function and thus constant by Liouville, contradicting injectivity.
+
+If $z=0$ is essential, then by Casorati-Weierstrass pick a punctured disc $D = \ts{\abs{z} \leq \eps}$ where $g(D)$ is dense in $\CC$.
+Writing $D^c \da \ts{\abs{z} > \eps}$, this means that $f(D^c)$ is dense. 
+But $U\da \ts{\abs{z} < \eps}$ is open and by the open mapping theorem $f(U)$ is open, so by density there is a point $w\in f(D^c) \intersect f(U)$ while $U \intersect D^c = \emptyset$, again contradicting injectivity.
+
+So $z=0$ is a pole of $g$, and $g$ admits a Laurent expansion
+\[
+g(z) = \sum_{k\geq -N} c_k z^k
+.\]
+Since $f$ is entire, it equals its Laurent expansion at $z=0$, so equating the two series yields
+\[
+f(z) = \sum_{k\geq 0} d_k z^k 
+&\implies g(z) = \sum_{k\geq 0} {d_k \over z^k} = \sum_{1\leq k\leq N} {c_k\over z^k} + \sum_{k\geq 0} c_k z^k \\
+&\implies \sum_{k\geq 0} c_k z^k = 0 \\
+&\implies f(z) = \sum_{0\leq k \leq N} c_k z^k
+,\]
+making $f$ a polynomial of degree at most $N$.
+
+
+
+:::
+
+
