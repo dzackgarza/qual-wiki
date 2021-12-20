@@ -465,8 +465,28 @@ Compute
 :::{.solution}
 Note that the ML bound is not sufficient to bound a semicircular contour:
 \[
-\abs{\int_{C_R} { e^{iz} \over z}\dz } \leq 2\pi R \sup_{z\in C_R} \abs{1\over z} = 2\pi \not\to 0
+\abs{\int_{C_R} { e^{iz} \over z}\dz } \leq \pi R \sup_{z\in C_R} \abs{1\over z} = \pi \not\to 0
 .\]
+Jordan's lemma on this contour yields
+\[
+\abs{\int_{C_R} {e^{iz} \over z} \dz } \leq \pi \sup_{z\in C_R}\abs{1\over Z} = {\pi \over R} \to 0
+.\]
+
+To compute the full integral, use an indented semicircular contour:
+
+- $C_+ \da [\eps, R]$
+- $C_i \da [-R, \eps]$
+- $C_\eps \da \eps e^{it}$ with $t\in [0, \pi]$
+- $C_R \da R e^{it}$ with $t\in [0, \pi]$
+- $\Gamma \da C_+ C_R + C_- + C_\eps$.
+
+Set $f(z) \da { e^{iz} \over z}$, then
+by the residue theorem
+\[
+\int_\gamma f(z) \dz = 2\pi i \sum_{z_k \in \HH} \Res_{z=z_k} f(z) = \qty{\int_{C_+} + \int_{C_R} + \int_{C_-} + \int_{C_\eps} }f
+.\]
+
+
 
 :::
 
@@ -482,9 +502,6 @@ For a contour, take the indented half-disc, and set $f(z) = e^{iz}/z$:
 
 - For the innermost disc, use the fractional residue formula to get $-\pi i$ since $\Res_{z=0}f(z) = 1$
 - For the arc $\Gamma_R$, apply Jordan:
-\[
-\abs{\int_{\Gamma_R} f(z) \dz } \leq {1\over R} \int_{\Gamma_R} \abs{e^{iz}} \dz < {\pi \over R} \convergesto{R\to\infty} 0
-.\]
 
 
 
