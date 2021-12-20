@@ -2,7 +2,7 @@
 
 ## Singularities and Zeros
 
-:::{.exercise title="Classifying singularities"}
+:::{.exercise title="Residues and classifying singularities"}
 Classify the singularities of 
 \[
 f(z) = {z^3+1\over z^2(z+1)}
@@ -25,6 +25,7 @@ p(z)
 &= (z+1)(z-\omega)(z-\bar\omega)
 ,\]
 so $z=-1$ is a removable singularity of $f$.
+Alternatively, note that ${z^3+1 \over z+1} = z^2-z+1$ and cancel the common term.
 
 Note that $z=0$ is a zero of order $n=2$ of $1/f(z)$, since $1/f(z) = z^2h(z)$ where $h$ is nonvanishing in a neighborhood of $0$.
 Thus $z=0$ is a pole of order $n=2$ of $f$.
@@ -45,7 +46,6 @@ f(z)
 &= (z-z^2 + z^3 - \cdots) + (z^{-2} - z\inv + 1 - z + \cdots)
 ,\]
 and read off the coefficient of $z\inv$.
-
 
 :::
 
