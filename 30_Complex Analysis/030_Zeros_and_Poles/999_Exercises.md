@@ -320,9 +320,9 @@ For a Laurent expansion about $z=0$, note
 \[
 {1\over \sin(z) } 
 &= {1\over z + c_3 z^3 + c_5 z^5 + \bigo(z^7)} \\
-&= z\inv( 1 + (-c_3)z^2 + (c_3^2-c_5)z^4 + \bigo(z^6)) \\
-&= z\inv - {1\over 3!} z + \qty{ \qty{1\over 3!}^2 - {1\over 5!} }z^3 + \bigo(z^5) \\
-&= z\inv - {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)
+&= z\inv( 1 + c_3z^2 + (c_3^2-c_5)z^4 + \bigo(z^6)) \\
+&= z\inv + {1\over 3!} z + \qty{ \qty{1\over 3!}^2 - {1\over 5!} }z^3 + \bigo(z^5) \\
+&= z\inv + {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)
 .\]
 and
 \[
@@ -335,7 +335,7 @@ and
 so
 \[
 f(z) &= 
-\qty{z\inv - {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)}
+\qty{z\inv + {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)}
 +
 \qty{-{2\over \pi^2}z -{2\over \pi^4}z^3 - {2\over \pi^6} z^5 - \bigo(z^7)}
 - z\inv \\
