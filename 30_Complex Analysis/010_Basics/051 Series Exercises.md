@@ -122,7 +122,6 @@ For $K$ arbitrary, cover $K$ by discs $D_z$ for every $z\in K$ and extract a fin
 Produce $n_0, n_1,\cdots, n_N$ as in the above argument, and take $n\da \max\ts{n_k}_{k\leq N}$ to obtain uniform convergence on every $D_{z_k}$ and thus on $K$.
 :::
 
-
 ## Radius of Convergence 
 
 :::{.exercise title="Radius of convergence"}
@@ -406,8 +405,6 @@ f(z) = e^{-(1-z)} = e^{z-1} = e\inv e^z = e\inv\sum_{k\geq 0} {z^k\over k!}
 .\]
 Since $e^z$ is entire, this converges on $\CC$.
 :::
-
-
 
 ## New Things in $\CC$
 

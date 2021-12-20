@@ -125,8 +125,14 @@ f^{(n-1)}(0)
 &= {(n-1)! \over 2\pi i} \int_{S^1} {f(z) \over z^n}\dz \\
 \implies \int_{S^1}{f(z)\over z^n}\dz 
 &= {2\pi i \over (n-1)!} f^{(n-1)}(0) \\
-&= {2\pi i \qty{e^{z} + (-1)^n e^{-z}} \over (n-1)!} \\
-&= ?
+&= {2\pi i\over (n-1)!} \qty{e^z + (-1)^ne^z}\evalfrom_{z=0} \\
+&= {2\pi i\over (n-1)!} \qty{1 + (-1)^n} \\
+&=
+\begin{cases}
+{4\pi i \over (n-1)!} & n \text{ even } 
+\\
+0 & \text{ else}.
+\end{cases}
 .\]
 
 :::
