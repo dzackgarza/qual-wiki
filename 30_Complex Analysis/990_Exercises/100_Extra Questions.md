@@ -42,8 +42,6 @@ Alt:
 - Show that if each $f_n$ is holomorphic on $\Omega$ and $F \definedas \sum f_n$ converges uniformly on every compact subset of $\Omega$, then $F$ is holomorphic.
 - Show that if $f$ is once complex differentiable at each point of $\Omega$, then $f$ is holomorphic.
 
-
-
 ## Polynomials
 
 :::{.exercise title="?"}
