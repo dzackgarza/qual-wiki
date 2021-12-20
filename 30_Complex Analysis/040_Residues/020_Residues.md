@@ -136,7 +136,7 @@ f^{(n-1)}(0)
 .\]
 :::
 
-:::{.exercise title="Cauchy formula"}
+:::{.exercise title="Cauchy formula and principal parts"}
 Compute
 \[
 \int_\gamma {z^2+1 \over z(z^2 + 4)}\dz
@@ -151,6 +151,7 @@ for
 :::
 
 :::{.solution}
+For the smaller circle, use Cauchy's formula
 \[
 \int_{\abs{z} = 1} f(z) \dz 
 &= \int_{\abs{z} = 1} { {z^2 + 1 \over z^2 + 4} \over z} \dz \\
@@ -162,6 +163,16 @@ For the larger circle, use PFD:
 \[
 \int_\gamma f(z) \dz = \int_\gamma {1/4\over z} + {3/8\over z+2i} + {3/8 \over z-2i}\dz = 2\pi i\qty{ {1\over 4} + {3\over 8} + {3\over 8}}
 .\]
+For the larger circle, break into principal parts.
+Write
+\[
+{z^2 + 1 \over z(z^2+4)} = {a\over z} + {b\over z+2i} + {c\over z-2i}
+,\]
+and use the cover-up method (i.e. finding the residues):
+
+- $a = \qty{z^2+1\over z^2+4}\evalfrom_{z=0} = {1\over 4}$
+- $b= \qty{z^2 + 1 \over z(z-2i)}\evalfrom_{z=2i}
+
 
 :::
 
