@@ -114,8 +114,11 @@ Then
 \abs{f'(z) f_k'(z) }
 &= \abs{{1\over 2\pi i} \int_{\abs{\xi - z} = r} {f(\xi) - f_k(\xi) \over (\xi - z)^2}\dxi }\\
 &\leq {1\over 2\pi}\int_{\abs{\xi - z} = r} {\abs{f(\xi) - f_k(\xi) } \over \abs{\xi - z}^2} \dxi\\
-&\leq {1\over 2\pi}\int_{\abs{\xi - z} = r} {\abs{f(\xi) - f_k(\xi) } \over r^2 } \dxi
-.\]
+&\leq {1\over 2\pi}\int_{\abs{\xi - z} = r} { \sup_{\abs{\xi - z} = r} \abs{f(\xi) - f_k(\xi) } \over r^2 } \dxi\\
+&= {1\over 2\pi} { \sup_{\abs{\xi - z} = r} \abs{f(\xi) - f_k(\xi) } \over r^2} \cdot {2\pi r} \\
+&= {\eps\over r}
+,\]
+where we can bound this $\sup$ using locally uniform convergence of $f_k\to f$ and the fact that $\ts{ \xi \st \abs{z-\xi} = r}$ is compact.
 
 
 :::
