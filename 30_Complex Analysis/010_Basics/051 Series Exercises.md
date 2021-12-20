@@ -112,8 +112,9 @@ Write $\norm{g}_\infty \da \sup_{z\in D} \abs{g(z)}$.
 Then
 \[
 \abs{f'(z) f_k'(z) }
-&= \abs{{1\over 2\pi i} \int_\gamma {f(\xi) - f_k(\xi) \over (\xi - z)^2}\dxi }\\
-&\leq {1\over 2\pi}\int {\abs{f(\xi) - f_k(\xi) } \over \abs{\xi - z}^2} \dxi
+&= \abs{{1\over 2\pi i} \int_{\abs{\xi - z} = r} {f(\xi) - f_k(\xi) \over (\xi - z)^2}\dxi }\\
+&\leq {1\over 2\pi}\int_{\abs{\xi - z} = r} {\abs{f(\xi) - f_k(\xi) } \over \abs{\xi - z}^2} \dxi\\
+&\leq {1\over 2\pi}\int_{\abs{\xi - z} = r} {\abs{f(\xi) - f_k(\xi) } \over r^2 } \dxi
 .\]
 
 
