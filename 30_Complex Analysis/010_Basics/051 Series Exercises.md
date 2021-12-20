@@ -93,8 +93,18 @@ f(z)
 &= {1\over 2\pi i}\int_\gamma \lim_k g_k(\xi)\dxi \\
 &= {1\over 2\pi i}\int_\gamma g(\xi)\dxi\\
 &= {1\over 2\pi i}\int_\gamma {f(\xi) \over \xi - z} \dxi\\
-.\]
+,\]
+where we've used uniform convergence on $\gamma$ to commute the limit and integral.
 So $f$ has an integral representation, making it differentiable.
+
+That $f_k'\to f'$ locally uniformly:
+\[
+\lim_k f_k'(z)
+&= \lim_k {1\over 2\pi i}\int_\gamma {f_k(\xi) \over (\xi - z)^2 }\dxi\\
+&= {1\over 2\pi i}\int_\gamma \lim_k {f_k(\xi) \over (\xi - z)^2}\dxi\\
+&= {1\over 2\pi i}\int_\gamma {f(\xi) \over (\xi - z)^2}\dxi\\
+&= f'(z)
+.\]
 
 :::
 
