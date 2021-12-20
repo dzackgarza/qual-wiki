@@ -161,6 +161,34 @@ For $z_1$, the distance to zero is $\abs{4+3i - 0} = 5$ but the distance to the 
 
 :::
 
+:::{.exercise title="Convergence of a $\ZZ\dash$index series"}
+Find the radius of convergence for 
+\[
+f(z) \da \sum_{k\in \ZZ} 2^{-\abs{k}}z^k
+.\]
+
+#completed
+
+:::
+
+:::{.solution}
+Break this up into a principal part at $z=0$ and a holomorphic part:
+\[
+f(z) = f_1(z) + f_2(z) \da \sum_{k\geq 1} 2^{-k}z^{-k} + \sum_{k\geq 0} 2^{-k}z^k
+.\]
+
+Using the ratio test:
+\[
+f_1(z) < \infty &\impliedby \limsup_k \abs{2^{-k}z^{-k}}^{1\over k} < 1 \iff \limsup_k \abs{1\over 2z} < 1 \iff {1\over 2}< \abs{z} \\
+f_2(z) < \infty &\impliedby \limsup_k \abs{2^{-k}z^{k}}^{1\over k} < 1 \iff \limsup_k \abs{z\over 2}< 1 \iff \abs{z} < 2 
+.\]
+
+So $f$ converges on ${1\over 2}< \abs{z} < 2$.
+
+
+
+:::
+
 ## Finding Laurent Expansions
 
 :::{.exercise title="Expanding Laurent series in different regions"}
@@ -214,7 +242,7 @@ For $z=1$:
 :::
 
 :::{.exercise title="Laurent expansions on annuli"}
-Find a Laurent expansion for the following function on the 3 annular regions centered at $0$ where $f$ is holomorphic.
+Find a Laurent expansion for $f(z) \da {1\over (z-3)(z-1)}$ on the 3 annular regions centered at $0$ where $f$ is holomorphic.
 
 ![](figures/2021-12-19_22-39-19.png)
 
@@ -263,7 +291,7 @@ Now, just combinatorics to pick the various series that converge on the desired 
 .\]
 :::
 
-:::{.exercise title="Residues from Laurent expansion"}
+:::{.exercise title="Cosine expansion in $z\inv$"}
 Expand $f(z) = z^2\cos\qty{z\over 3}$ about $z=0$.
 :::
 
@@ -305,36 +333,6 @@ Note that something like ${1\over 1-e^z} = \sum_{k\geq 0} e^{kz}$ won't converge
 &= z\inv - {1\over 2} + {1\over 12}z + \bigo(z^2)
 .\]
 :::
-
-
-:::{.exercise title="Convergence of a $\ZZ\dash$index series"}
-Find the radius of convergence for 
-\[
-f(z) \da \sum_{k\in \ZZ} 2^{-\abs{k}}z^k
-.\]
-
-:::
-
-
-:::{.solution}
-Break this up into a principal part at $z=0$ and a holomorphic part:
-\[
-f(z) = f_1(z) + f_2(z) \da \sum_{k\geq 1} 2^{-k}z^{-k} + \sum_{k\geq 0} 2^{-k}z^k
-.\]
-
-Using the ratio test:
-\[
-f_1(z) < \infty &\impliedby \limsup_k \abs{2^{-k}z^{-k}}^{1\over k} < 1 \iff \limsup_k \abs{1\over 2z} < 1 \iff {1\over 2}< \abs{z} \\
-f_2(z) < \infty &\impliedby \limsup_k \abs{2^{-k}z^{k}}^{1\over k} < 1 \iff \limsup_k \abs{z\over 2}< 1 \iff \abs{z} < 2 
-.\]
-
-So $f$ converges on ${1\over 2}< \abs{z} < 2$.
-
-
-
-:::
-
-
 
 ## New Things in $\CC$
 
