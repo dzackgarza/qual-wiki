@@ -36,18 +36,42 @@ The residues:
 
 :::
 
-
 :::{.proposition title="Functional equation for $\Gamma$"}
 
 ![](figures/2021-12-19_19-58-44.png)
 
 :::
 
-
 :::{.proposition title="Meromorphic continuation of $\Gamma$"}
 
 ![](figures/2021-12-19_19-59-05.png)
 :::
 
+## Riemann Zeta
 
+:::{.definition title="The Riemann Zeta Function"}
 
+![](figures/2021-12-19_20-00-12.png)
+
+There is a product expansion
+\[
+\zeta(s) = \prod_{p\in \spec \ZZ} {1\over 1-p^{-s}}
+,\]
+where $\spec \ZZ$ are the primes of $\ZZ$.
+:::
+
+:::{.proposition title="Meromorphic continuation of $\zeta$"}
+
+![](figures/2021-12-19_20-00-54.png)
+
+There is a functional equation:
+
+![](figures/2021-12-19_20-03-08.png)
+
+:::
+
+:::{.proposition title="Zeros of $\zeta$"}
+
+![](figures/2021-12-19_20-02-43.png)
+
+:::
