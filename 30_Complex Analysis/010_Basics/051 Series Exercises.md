@@ -213,6 +213,37 @@ For $z=1$:
 
 :::
 
+
+:::{.exercise title="Laurent expansions on annuli"}
+Find a Laurent expansion for the following function on the 3 annular regions centered at $0$ where $f$ is holomorphic.
+
+![](figures/2021-12-19_22-39-19.png)
+
+#completed
+
+:::
+
+
+:::{.solution}
+The three regions are 
+
+- $0 \leq \abs{z} < 1$
+- $1 < \abs{z} < 3$
+- $3 < \abs{z} < \infty$
+
+Write $f$ in terms of its principal parts at $z=1$ and $z=3$ by computing the residues:
+
+- $\Res_{z=1}f(z) = (z-1)f(z)\evalfrom_{z=1} = {1\over z-3}\evalfrom_{z=1} = -{1\over 2}$
+- $\Res_{z=3}f(z) = (z-3)f(z)\evalfrom_{z=3} = {1\over z-1}\evalfrom_{z=3} = {1\over 2}$
+
+Thus
+\[
+f(z) = {-1/2 \over z-1} + {1/2 \over z-3}
+.\]
+
+:::
+
+
 ## New Things in $\CC$
 
 :::{.exercise title="Cauchy integral formula for coefficients"}
