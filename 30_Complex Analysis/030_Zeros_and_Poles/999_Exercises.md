@@ -339,11 +339,8 @@ f(z) &=
 +
 \qty{-{2\over \pi^2}z -{2\over \pi^4}z^3 - {2\over \pi^6} z^5 - \bigo(z^7)}
 - z\inv \\
-&= 
+&= \qty{ {1\over 6} - {2\over \pi^2}}z + \qty{{7\over 360} - {2\over \pi^4} }z^3 + \bigo(z^5)
 .\]
-
-
-
 :::
 
 :::{.solution title="Comparing orders of vanishing"}
