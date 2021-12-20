@@ -294,8 +294,8 @@ That $z=\pi$ is removable:
 \lim_{z\to \pi} f(z) 
 &= \lim_{z\to \pi} {1\over \sin(z)} - {1\over z} + {1\over z-\pi} + {1\over z+\pi}\\
 &= c_1 + \lim_{z\to \pi} {1\over \sin(z)} + {1\over z-\pi} \\
-&= c_1 + \lim_{z\to \pi} { (z-\pi)\sin(z) - (z-\pi) \over (z-\pi) \sin(z) }\\
-&= c_1 + 
+&= c_1 + \lim_{z\to \pi} { (z-\pi) -\sin(z) \over (z-\pi) \sin(z) }\\
+&\equalsbecause{\text{LH}} c_1 + 
 .\]
 
 
