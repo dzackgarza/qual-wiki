@@ -54,12 +54,12 @@ f'(z) = \del f = {1\over 2}\qty{u_x + iv_x}
 .\]
 :::
 
-:::{.proposition title="Holomorphic functions have harmonic components"}
-If $f(z) = u(x, y) + iv(x, y)$ is holomorphic, then $u, v$ are harmonic.
+:::{.exercise title="Holomorphic functions have harmonic components"}
+Show that if $f = u+iv$ is holomorphic then $u, v$ are harmonic.
 :::
 
-:::{.proof title="?"}
-\envlist
+:::{.solution title="?"}
+Idea: use Cauchy-Riemann, take further derivatives, and use equality of partials.
 
 - By CR, 
 \[
@@ -84,9 +84,23 @@ v_{xx} + u_{yx} = 0 \implies v_{xx} + v_{yy} = 0 \\ \\
 
 :::
 
-:::{.fact}
-A function harmonic $u$ on all of $\RR^2$ and bounded is necessarily constant.
-This follows from writing $f=u+iv$, which will then be a bounded entire function and thus constant by Liouville, which then must have constant real part.
+:::{.exercise title="Bounded harmonic function is constant"}
+Show that if $u$ is harmonic on $\RR^2$ and bounded, then $u$ is constant.
+:::
+
+:::{.solution title="Using Liouville"}
+Write $f=u+iv$ for $v$ a harmonic conjugate of $u$, then $f$ is holomorphic on $\CC$.
+Now $e^f = e^{u+iv} = e^u e^{iv}$ and thus 
+\[
+\abs{e^f}\leq \abs{e^u} \abs{e^{iv}} = \abs{e^u}
+\]
+is bounded, so $f$ is a bounded entire function and thus constant by Liouville.
+:::
+
+:::{.solution title="Using the mean value property"}
+
+![](figures/2021-12-19_20-20-29.png)
+
 :::
 
 :::{.exercise title="Proving functions are harmonic using components of holomorphic functions"}
