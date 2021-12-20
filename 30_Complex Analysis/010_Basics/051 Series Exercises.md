@@ -306,7 +306,6 @@ Note that something like ${1\over 1-e^z} = \sum_{k\geq 0} e^{kz}$ won't converge
 .\]
 :::
 
-
 ## New Things in $\CC$
 
 :::{.exercise title="Cauchy integral formula for coefficients"}
