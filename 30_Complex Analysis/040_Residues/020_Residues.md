@@ -478,7 +478,9 @@ To compute the full integral, use an indented semicircular contour:
 - $C_i \da [-R, \eps]$
 - $C_\eps \da \eps e^{it}$ with $t\in [0, \pi]$
 - $C_R \da R e^{it}$ with $t\in [0, \pi]$
-- $\Gamma \da C_+ + C_R + C_- + C_\eps$.
+- $\Gamma \da C_+ + C_R + C_- - C_\eps$, noting that $C_\eps$ is is taken with a reversed orientation.
+
+![](figures/2021-12-20_06-55-40.png)
 
 Write $I$ for the original integral, and
 \[
@@ -488,24 +490,23 @@ By the residue theorem
 \[
 \int_\gamma f(z) \dz 
 &= 2\pi i \sum_{z_k \in \HH} \Res_{z=z_k} f(z) = 0 \\
-&= \qty{\int_{C_+} + \int_{C_R} + \int_{C_-} + \int_{C_\eps} }f \\
-&= \tilde I + \qty{\int_{C_R} + \int_{C_\eps}}f
+&= \qty{\int_{C_+} + \int_{C_R} + \int_{C_-} - \int_{C_\eps} }f \\
+&= \tilde I + \qty{\int_{C_R} - \int_{C_\eps}}f
 ,\]
 where $\Im(\tilde I) = I$ is the original integral, so
 \[
-\tilde I = \qty{\int_{C_R} + \int_{C_\eps}}f
+\tilde I = -\qty{\int_{C_R} - \int_{C_\eps}}f
 .\]
 
-Since $\int_{C_R}\to 0$, it just remains to compute $\int_{C_\eps}$.
+Since $\int_{C_R}f \to 0$, it just remains to compute $\int_{C_\eps}$.
 By the fractional residue formula,
 \[
-\lim_{\eps \to 0} {e^{iz} \over z}\dz = i\pi \Res_{z=0} {e^{iz} \over z}
+\lim_{\eps \to 0} {e^{iz} \over z}\dz = i\pi \Res_{z=0} {e^{iz} \over z} = i\pi
 .\]
-
-
-
-
-
+Thus
+\[
+I = \Im(i\pi) = \pi
+.\]
 :::
 
 
