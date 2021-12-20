@@ -35,9 +35,25 @@ You may be able to just compute an integral!
 
 :::
 
-:::{.fact title="Integrating $z^k$ around $S^1$ is the source of residue theory"}
-The major fact that reduces integrals to residues:
 
+:::{.exercise title="Integrating $z^k$ around $S^1$ is the source of residue theory"}
+Show that
+\[
+\int_{S^1}z^k \dz = 
+\begin{cases}
+2\pi i & k=-1 
+\\
+0 & \text{else}.
+\end{cases}
+,\]
+and thus
+\[
+\int \sum_{k\geq -M} c_k z^k = \sum_{k\geq -M} \int c_k z^k = 2\pi i c_{-1}
+,\]
+i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansion.
+:::
+
+:::{.solution}
 \[
 \int_\gamma z^k \dz = \int_0^{2\pi} e^{ik\theta} ie^{i\theta } \dtheta = i\int_0^{2\pi} e^{i(k+1)\theta \dtheta }
 = \begin{cases}
@@ -46,13 +62,6 @@ The major fact that reduces integrals to residues:
 0 & \text{else}.
 \end{cases}
 \]
-
-Thus
-\[
-\int \sum_{k\geq -M} c_k z^k = \sum_{k\geq -M} \int c_k z^k = 2\pi i c_{-1}
-,\]
-i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansion.
-
 :::
 
 :::{.exercise title="?"}
@@ -128,7 +137,7 @@ For the larger circle, use PFD:
 
 ## Residue Formulas
 
-:::{.theorem title="The Residue Theorem"}
+:::{.theorem title="The residue theorem"}
 Let $f$ be meromorphic on a region $\Omega$ with poles \( \ts{ \elts{z}{N} } \).
 Then for any $\gamma \in \Omega\sm \ts{ \elts{z}{N} }$, 
 \[
@@ -141,7 +150,7 @@ If $\gamma$ is a toy contour with winding number 1 about each pole, then
 
 :::
 
-:::{.theorem title="The Residue formula"}
+:::{.theorem title="The residue formula"}
 If $f$ has a pole $z_0$ of order $n$, then
 \[  
 \Res_{z=z_0} f = \lim_{z\to z_0} {1 \over (n-1)!} \qty{\dd{}{z}}^{n-1} (z-z_0)^n f(z)
@@ -151,7 +160,6 @@ As a special case, if $z_0$ is a simple pole of $f$, then
 \[  
 \Res_{z=z_0}f = \lim_{z\to z_0} (z-z_0) f(z)
 .\]
-
 :::
 
 :::{.corollary title="Residue formula: simple poles of rational functions"}
@@ -186,10 +194,6 @@ If $z_0$ is an order 1 pole of $f$ and $\gamma_{\eps, \theta}$ is an arc of the 
 \[
 \lim_{\eps\to 0} \int_{\gamma_{\eps, \theta}} f(z) \dz  = i\theta \Res_{z = z_0}f(z)
 .\]
-
-
-![](figures/2021-12-10_18-27-31.png)
-
 :::
 
 ## Residue Exercises
