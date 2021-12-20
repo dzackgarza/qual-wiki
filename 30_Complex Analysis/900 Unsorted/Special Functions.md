@@ -75,3 +75,21 @@ There is a functional equation:
 ![](figures/2021-12-19_20-02-43.png)
 
 :::
+
+## Weierstrass $\wp$
+
+
+:::{.definition title="The Weierstrass $\wp$ function"}
+
+![](figures/2021-12-19_22-33-34.png)
+
+:::
+
+
+:::{.remark}
+
+![](figures/2021-12-19_22-34-18.png)
+
+:::
+
+

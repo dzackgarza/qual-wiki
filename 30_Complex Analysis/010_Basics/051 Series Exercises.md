@@ -63,8 +63,7 @@ So the partial sums $S_N$ are continuous, and since $S_N\to f$ uniformly, $f$ is
 
 :::
 
-
-:::{.exercise title="Uniform limits of derivatives"}
+:::{.exercise title="Uniform limits of derivatives, term-by-term differentiation"}
 Suppose $f_k: \Omega\to \CC$ is a sequence of differentiable functions converging locally uniformly to $f:\Omega\to \CC$.
 Show that
 
@@ -72,10 +71,11 @@ Show that
 - $f$ is differentiable,
 - $\ts{f_k'}\to f'$ locally uniformly.
 
+Thus if $f(z) = \sum{k\geq 0} c_k (z-z_0)^k$ is a power series, since $S_N\to f$ locally uniformly, $f$ can be differentiated term-by-term within its radius of convergence.
+
 #complete
 
 :::
-
 
 :::{.solution}
 That $f$ is continuous is a local question: fixing a point $z_0$, take a closed disc $\DD+z_0$ about $z_0$.
@@ -115,14 +115,12 @@ Then for $z\in D$,
 &\leq {1\over 2\pi}\int_{\gamma} {\abs{f(\xi) - f_k(\xi) } \over \abs{\xi - z}^2} \dxi\\
 &\leq {1\over 2\pi}\int_{\gamma } { \sup_{\xi \in \gamma} \abs{f(\xi) - f_k(\xi) } \over r^2 } \dxi\\
 &= {1\over 2\pi} { \sup_{\xi \in \gamma } \abs{f(\xi) - f_k(\xi) } \over r^2} \cdot {2\pi r} \\
-&= {\eps\over r}
-,\]
-where we can bound this $\sup$ using locally uniform convergence of $f_k\to f$ and the fact that $\ts{ \xi \st \abs{z-\xi} = r}$ is compact.
-Now cover $K$ by 
-
-
+&= { \sup_{\xi \in \gamma } \abs{f(\xi) - f_k(\xi) }}/r 
+.\]
+Since $\gamma$ is compact, using locally uniform convergence of $f_k\to f$, there exists an $n_0$ such that $n\geq n_0$ bounds this $\sup$ by $\eps$.
+For $K$ arbitrary, cover $K$ by discs $D_z$ for every $z\in K$ and extract a finite cover $\ts{D_{z_k}}_{k\leq N}$.
+Produce $n_0, n_1,\cdots, n_N$ as in the above argument, and take $n\da \max\ts{n_k}_{k\leq N}$ to obtain uniform convergence on every $D_{z_k}$ and thus on $K$.
 :::
-
 
 
 ## Radius of Convergence 
