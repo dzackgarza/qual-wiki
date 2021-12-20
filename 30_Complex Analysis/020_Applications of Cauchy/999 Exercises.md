@@ -164,7 +164,10 @@ f(z) = \sum_{k\geq 0} c_k z^k, && c_k = {f^{(k)}(0)\over k! } = {1\over 2\pi i}\
 .\]
 A direct estimate yields
 \[
-\abs{c_k} \leq {1\over 2\pi}\int_{\abs{\xi} = R} {\abs{f(\xi)} \over \abs{\xi}^{k+1} }\dxi
+\abs{c_k} 
+&\leq {1\over 2\pi} \int_{\abs{\xi} = R} {\abs{f(\xi)} \over \abs{\xi}^{k+1} }\dxi\\
+&\leq {1\over 2\pi} \int_{\abs{\xi} = R} {M \abs{\xi}^n \over \abs{\xi}^{k+1} }\dxi
+&\leq {1\over 2\pi} \int_{\abs{\xi} = R} \abs{\xi}^{n-(k+1)} \dxi 
 .\]
 
 
