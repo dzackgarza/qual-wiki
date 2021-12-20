@@ -76,4 +76,13 @@ Since $\varepsilon_{n} \rightarrow 0$ as $n \rightarrow \infty$, we must have
 By Morera's theorem, $f(z)$ is analytic.
 :::
 
+:::{.exercise title="Bounded holomorphic functions form a Banach space"}
+For $\Omega\subseteq\CC$, show that $A(\CC)\definedas \theset{f: \Omega \to \CC \st f\text{ is holomorphic, bounded}}$ is a Banach space.
+
+> Hint: Apply Morera's Theorem and Cauchy's Theorem
+
+#work
+
+:::
+
 

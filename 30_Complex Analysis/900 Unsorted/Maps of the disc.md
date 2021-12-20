@@ -1,3 +1,0 @@
-# Maps of the disc
-
-
