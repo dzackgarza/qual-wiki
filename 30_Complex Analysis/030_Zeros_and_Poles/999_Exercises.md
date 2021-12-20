@@ -3,6 +3,39 @@
 ## Singularities and Zeros
 
 :::{.exercise title="Classifying singularities"}
+Classify the singularities of 
+\[
+f(z) = {z^3+1\over z^2(z+1)}
+.\]
+
+#completed
+
+:::
+
+:::{.concept}
+Showing a pole $z_0$ of $f$ is order $n$: show that $z_0$ is a zero of order $n$ of $1/f$, i.e. $1/f = (z-z_0)^nh(z)$ with $h$ nonvanishing in a neighborhood of $z_0$.
+:::
+
+:::{.solution}
+Write $f(z) = p(z)/q(z)$ and factor $p$: a principal root is $\omega = e^{i\pi 3}$, so 
+\[
+p(z) 
+&= (z-\omega\zeta_3^0)(z-\omega\zeta_3^1)(z-\omega\zeta_3^2) \\
+&= (z-e^{i\pi\over 3})(z-e^{3i\pi \over 3})(z-e^{5i\pi \over 3}) \\
+&= (z+1)(z-\omega)(z-\bar\omega)
+,\]
+so $z=-1$ is a removable singularity of $f$.
+
+Note that $z=0$ is a zero of order $n=2$ of $1/f(z)$, since $1/f(z) = z^2h(z)$ where $h$ is nonvanishing in a neighborhood of $0$.
+Thus $z=0$ is a pole of order $n=2$ of $f$.
+The residue is computed as
+\[
+\Res_{z=0} f(z) = {1\over (1-1)!} \lim_{z\to 0} \dd{}{z} (z-0)^2f(z) = \dd{}{z} {z^3+1\over (z+1)}\evalfrom_{z=0}
+.\]
+
+:::
+
+:::{.exercise title="Classifying singularities"}
 Classify the singularities at $z=0$ of the following
 \[
 f_1(z) &= {\Log(1+z) \sin(z) \over z^2} \\
@@ -40,34 +73,6 @@ $f_3$: pole of order 1 with residue 1, evident after some slightly clever Lauren
 &={1\over z} - \bigo(z) + \bigo(z^3)
 .\]
 
-:::
-
-:::{.exercise title="Classifying singularities"}
-Classify the singularities of 
-\[
-f(z) = {z^3+1\over z^2(z+1)}
-.\]
-
-#completed
-
-:::
-
-:::{.concept}
-Showing a pole $z_0$ of $f$ is order $n$: show that $z_0$ is a zero of order $n$ of $1/f$, i.e. $1/f = (z-z_0)^nh(z)$ with $h$ nonvanishing in a neighborhood of $z_0$.
-:::
-
-:::{.solution}
-Write $f(z) = p(z)/q(z)$ and factor $p$: a principal root is $\omega = e^{i\pi 3}$, so 
-\[
-p(z) 
-&= (z-\omega\zeta_3^0)(z-\omega\zeta_3^1)(z-\omega\zeta_3^2) \\
-&= (z-e^{i\pi\over 3})(z-e^{3i\pi \over 3})(z-e^{5i\pi \over 3}) \\
-&= (z+1)(z-\omega)(z-\bar\omega)
-,\]
-so $z=-1$ is a removable singularity of $f$.
-
-Note that $z=0$ is a zero of order $n=2$ of $1/f(z)$, since $1/f(z) = z^2h(z)$ where $h$ is nonvanishing in a neighborhood of $0$.
-Thus $z=0$ is a pole of order $n=2$ of $f$.
 :::
 
 :::{.exercise title="Singularities of of $\sin(z)/z$"}
