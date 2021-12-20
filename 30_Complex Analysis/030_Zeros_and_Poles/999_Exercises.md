@@ -265,7 +265,7 @@ f(z) = e^{1\over z-1} + e^{1\over z} + {1\over z - (1-i)} + {1\over (z - (1+i) )
 
 ## Removable Singularities
 
-:::{.exercise title="?"}
+:::{.exercise title="Showing singularities are removable"}
 Consider
 \[
 f(z) \da {1\over \sin(z)} - {1\over z} + {2z\over z^2-\pi^2}
@@ -315,6 +315,16 @@ That $z=-\pi$ is removable:
 &= c_2 + 0 < \infty
 ,\]
 again by the same argument.
+
+For a Laurent expansion about $z=0$, note
+\[
+{1\over \sin(z) } 
+&= {1\over z + c_3 z^3 + c_5 z^5 + \bigo(z^7)} \\
+&= z\inv( 1 + (-c_3)z^2 + (c_3^2-c_5)z^4 + \bigo(z^6)) \\
+&= z\inv - {1\over 3!} z + \qty{ \qty{1\over 3!}^2 - {1\over 5!} }z^3 + \bigo(z^5) \\
+&= z\inv - {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)
+.\]
+
 :::
 
 :::{.solution title="Comparing orders of vanishing"}
