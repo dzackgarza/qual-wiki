@@ -122,11 +122,37 @@ where we've used a variant of the triangle inequality:
 
 
 
+:::
 
+:::{.exercise title="?"}
+\[
+\int_\RR {1 \over (1+x^2)^2} \dx
+.\]
+:::
+
+:::{.solution}
+\envlist
+
+- Factor $(1+z^2)^2 = ((z-i)(z+i))^2$, so $f$ has poles at $\pm i$ of order 2.
+- Take a semicircular contour $\gamma \da I_R \union D_R$, then $f(z) \approx 1/z^4 \to 0$ for large $R$ and $\int_{D_R} f \to 0$.
+- Note $\int_{I_R} f \to \int_\RR f$, so $\int_\gamma f \to \int_\RR f$.
+- $\int_\gamma f = 2\pi i \sum_{z_0} \Res_{z=z_0} f$, and $z_0 = i$ is the only pole in this region.
+- Compute
+\[
+\Res_{z=i} f 
+&= \lim_{z\to i} {1\over (2-1)!} \dd{}{z} (z-i)^2 f(z) \\
+&= \lim_{z\to i} \dd{}{z} {1\over (z+i)^2 } \\
+&= \lim_{z\to i} {-2 \over (z+i)^3 } \\
+&= -{2 \over (2i)^3 } \\
+&= {1\over 4i} \\ \\
+\implies
+\int_\gamma f &= {2\pi i \over 4i} = \pi/2
+,\]
 
 :::
 
 :::{.exercise title="$1/x^4+1$"}
+
 #work
 
 \[
@@ -140,35 +166,13 @@ where we've used a variant of the triangle inequality:
 
 :::
 
-:::{.exercise title="$1/(1+x^2)^{n+1}\,$"}
+:::{.exercise title="$1/(1+x^2)^{n+1}"}
+
 \[
 \int_{-\infty}^{\infty} \frac{d x}{\left(1+x^{2}\right)^{n+1}}=\frac{(2 n) !}{4^{n}(n !)^{2}} \pi
 .\]
 
 :::
-
-
-:::{.exercise title="$1/a+b\cos(\theta)$"}
-\[
-\int_{0}^{2 \pi} \frac{d \theta}{a+b \cos \theta}=\frac{2 \pi}{\sqrt{a^{2}-b^{2}}}
-.\]
-:::
-
-
-:::{.exercise title="?"}
-\[
-\int_0^\infty {\log(x) \over x^2+a^2}\dx &= {\pi\log(a)\over 2a} && a>0
-.\]
-
-
-:::
-
-
-
-![figures/image_2021-05-17-13-33-12.png](figures/image_2021-05-17-13-33-12.png)
-
-![figures/image_2021-05-17-13-33-30.png](figures/image_2021-05-17-13-33-30.png)
-
 
 ## Trig in Numerator
 
@@ -204,9 +208,21 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 
 :::
 
+:::{.exercise title="$1/a+b\cos(\theta)$"}
+\[
+\int_{0}^{2 \pi} \frac{d \theta}{a+b \cos \theta}=\frac{2 \pi}{\sqrt{a^{2}-b^{2}}}
+.\]
+:::
+
 ## Branch Cuts
 
-:::{.exercise title="?"}
+:::{.exercise title="$\log(x) / x^2+a^2$"}
+\[
+\int_0^\infty {\log(x) \over x^2+a^2}\dx &= {\pi\log(a)\over 2a} && a>0
+.\]
+:::
+
+:::{.exercise title="$x^? / 1+x^2$"}
 \[
 \int_0^\infty {x^{1\over 3} \over 1 + x^2} \dx = {\pi \over \sqrt 3}
 .\]
@@ -218,7 +234,7 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="$1/x(x^2-1)^{1/2}$"}
 \[
 \int_{1}^{\infty} \frac{d x}{x \sqrt{x^{2}-1}} = {\pi \over 2}
 .\]
@@ -230,39 +246,11 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 
 :::
 
-
-:::{.exercise}
+:::{.exercise title="Complex zeros of $\sin(\pi z)$"}
 Show that the complex zeros of $f(z) \da \sin(\pi z)$ are exactly $\ZZ$, and each is order 1.
 Calculate the residue of $1/\sin(\pi x)$ at $z=n\in \ZZ$.
 :::
 
-
-:::{.exercise title="?"}
-\[
-\int_\RR {1 \over (1+x^2)^2} \dx
-.\]
-:::
-
-:::{.solution}
-\envlist
-
-- Factor $(1+z^2)^2 = ((z-i)(z+i))^2$, so $f$ has poles at $\pm i$ of order 2.
-- Take a semicircular contour $\gamma \da I_R \union D_R$, then $f(z) \approx 1/z^4 \to 0$ for large $R$ and $\int_{D_R} f \to 0$.
-- Note $\int_{I_R} f \to \int_\RR f$, so $\int_\gamma f \to \int_\RR f$.
-- $\int_\gamma f = 2\pi i \sum_{z_0} \Res_{z=z_0} f$, and $z_0 = i$ is the only pole in this region.
-- Compute
-\[
-\Res_{z=i} f 
-&= \lim_{z\to i} {1\over (2-1)!} \dd{}{z} (z-i)^2 f(z) \\
-&= \lim_{z\to i} \dd{}{z} {1\over (z+i)^2 } \\
-&= \lim_{z\to i} {-2 \over (z+i)^3 } \\
-&= -{2 \over (2i)^3 } \\
-&= {1\over 4i} \\ \\
-\implies
-\int_\gamma f &= {2\pi i \over 4i} = \pi/2
-,\]
-
-:::
 
 :::{.exercise title="?"}
 Use a direct Laurent expansion to show
