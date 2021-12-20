@@ -324,7 +324,7 @@ f(z) = f_1(z) + f_2(z) \da \sum_{k\geq 1} 2^{-k}z^{-k} + \sum_{k\geq 0} 2^{-k}z^
 
 Then $R_1 = R_2 = \qty{\limsup_k \abs{2^{-k}}^{1\over k} } = 2$, and 
 
-- $f_1$ converges if $\abs{z}\inv < 2$, so $\abs{z} > 2\inv$, and
+- $f_1$ converges if $\abs{z}\inv < 2$, so $2\inv < \abs{z}$, and
 - $f_2$ converges if $\abs{z} < 2$.
 
 So $f$ converges on ${1\over 2}< \abs{z} < 2$.
