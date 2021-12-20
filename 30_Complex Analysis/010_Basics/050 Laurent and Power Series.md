@@ -499,7 +499,26 @@ For $z=1$:
 
 :::
 
-:::{.problem title="?"}
+:::{.exercise title="Power series converge uniformly on their radius of convergence"}
+Show that any power series converges uniformly within its radius of convergence.
+
+#completed
+
+:::
+
+
+:::{.solution}
+Write $S_N(z) \da \sum_{0\leq k\leq N} c_k (z-z_0)^k$ and $S \da \lim_{N\to\infty} S_N$.
+Suppose $R$ is the radius of convergence and let $r\leq R$.
+Use the small tails characterization of convergent series: $\sum f_k$ converges if $\norm{f_k}_\infty\to 0$.
+Define $f_k \da c_k (z-z_0)^k$, then 
+\[
+\norm{f_k}_\infty =\sup_{\abs{z-z_0}\leq R} \abs{c_k(z-z_0)^k} \leq \abs{c_k} R^k \da M_k
+.\]
+:::
+
+
+:::{.exercise title="?"}
 Show that any power series is continuous on its domain of convergence. 
 
 #work
