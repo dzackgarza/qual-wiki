@@ -355,6 +355,42 @@ a\geq b \implies e^{-a} \leq e^{-b}
 
 :::
 
+
+:::{.exercise title="?"}
+Use a semicircular contour and the residue theorem to evaluate
+\[
+I = \int_\RR {\cos(x) \over x^2 + 1 }\dx
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+Write
+\[
+I = \Im \int_\RR f(z) \dz && f(z) \da {e^{iz} \over z^2 + 1}\dz
+.\]
+Define contours $C_1 = [-R, R]$, $C_2 = \ts{Re^{it} \st t\in [0, \pi]}$, and $\Gamma = C_1 + C_2$.
+Then noting that $z_0 = i$ is the only pole of $f$ in $\HH$, by the residue theorem
+\[
+\int_\Gamma f(z) \dz = 2\pi i \Res_{z=i} f(z) = \qty{\int_{C_1} + \int_{C_2}} f
+.\]
+By Jordan's lemma,
+\[
+\abs{\int_{C_2} f(z)\dz } 
+&\leq \sup_{z\in C_2} \abs{f(z)} \\
+&\leq \sup_{z\in C_2} \abs{e^{iz}\over z^2 + 1} \\
+&\leq \sup_{z\in C_2} {1 \over \abs{ z^2 + 1} } \\
+&\leq \sup_{z\in C_2} {1 \over \abs{ z^2} - 1 } \\
+.\]
+
+
+
+:::
+
+
 :::{.example title="of estimating a sup"}
 Consider
 \[
