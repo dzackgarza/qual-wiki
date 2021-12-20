@@ -2,23 +2,7 @@
 
 ## Singularities and Zeros
 
-:::{.exercise title="?"}
-Show that $\sin(z)/z$ has no poles.
-
-#completed
-:::
-
-:::{.solution}
-Heuristic: $\sin(z)$ has a zero of order 1, so the $z$ in the denominator exactly cancels it.
-Explicitly, this is evident from the Laurent expansion about zero:
-\[
-z\inv \sin(z) = z\inv\qty{ z - {z^3 \over 3!} + {z^5\over 5!} - \cdots} = 1 - {z^2\over 3!} + {z^4 \over 5!} - \cdots
-,\]
-which has no factors of $z^{-k}$.
-So $z=0$ is a removable singularity.
-:::
-
-:::{.exercise title="?"}
+:::{.exercise title="Classifying singularities"}
 Classify the singularities at $z=0$ of the following
 \[
 f_1(z) &= {\Log(1+z) \sin(z) \over z^2} \\
@@ -58,7 +42,48 @@ $f_3$: pole of order 1 with residue 1, evident after some slightly clever Lauren
 
 :::
 
-:::{.exercise title="?"}
+
+:::{.exercise title="Classifying singularities"}
+Classify the singularities of 
+\[
+f(z) = {z^3+1\over z^2(z+1)}
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+Write $f(z) = p(z)/q(z)$ and factor $p$: a principal root is $\omega = e^{i\pi 3}$, so 
+\[
+p(z) 
+&= (z-\omega\zeta_3^0)(z-\omega\zeta_3^1)(z-\omega\zeta_3^2) \\
+&= (z-e^{i\pi\over 3})(z-e^{3i\pi \over 3})(z-e^{5i\pi \over 3}) \\
+&= (z-1)(z-\omega)(z-\bar\omega)
+.\]
+
+:::
+
+
+
+:::{.exercise title="Singularities of of $\sin(z)/z$"}
+Show that $\sin(z)/z$ has no poles.
+
+#completed
+:::
+
+:::{.solution}
+Heuristic: $\sin(z)$ has a zero of order 1, so the $z$ in the denominator exactly cancels it.
+Explicitly, this is evident from the Laurent expansion about zero:
+\[
+z\inv \sin(z) = z\inv\qty{ z - {z^3 \over 3!} + {z^5\over 5!} - \cdots} = 1 - {z^2\over 3!} + {z^4 \over 5!} - \cdots
+,\]
+which has no factors of $z^{-k}$.
+So $z=0$ is a removable singularity.
+:::
+
+:::{.exercise title="Entire functions with poles at infinity"}
 Characterize all entire functions with a pole of order $m$ at $\infty$.
 
 #completed
