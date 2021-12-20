@@ -134,42 +134,27 @@ Then for any $\gamma \in \Omega\sm \ts{ \elts{z}{N} }$,
 \[
 {1 \over 2\pi i } \int_\gamma f(z) \dz = \sum_{j=1}^N n_\gamma(z_j) \Res_{z=z_j} f
 .\]
-If $\gamma$ is a toy contour, then  
+If $\gamma$ is a toy contour with winding number 1 about each pole, then
 \[
 {1\over 2\pi i}\int_\gamma f\dz = \sum_{j=1}^N \Res_{z=z_j}f
 .\]
 
 :::
 
-:::{.proposition title="Residues from partial fraction decomposition"}
-Every rational function $f(z) \da p(z)/q(z)$ can be expressed as 
-\[
-f(z) = P_{\infty}(z) + \sum_{1\leq j \leq m} P_j(z)
-,\]
-where $P_\infty(z)$ is a polynomial in $z$ and the $P_j$ are the principal parts of $f$ at its poles $\ts{z_1, \cdots, z_j}$.
-For example:
-
-![](figures/2021-12-10_18-44-20.png)
-
-:::
-
-:::{.proposition title="Residue formula for higher order poles"}
+:::{.theorem title="The Residue formula"}
 If $f$ has a pole $z_0$ of order $n$, then
 \[  
 \Res_{z=z_0} f = \lim_{z\to z_0} {1 \over (n-1)!} \qty{\dd{}{z}}^{n-1} (z-z_0)^n f(z)
 .\]
-:::
 
-:::{.proposition title="Residue formula for simple poles"}
 As a special case, if $z_0$ is a simple pole of $f$, then
 \[  
 \Res_{z=z_0}f = \lim_{z\to z_0} (z-z_0) f(z)
 .\]
+
 :::
 
-:::{.corollary title="Better derivative formula that sometimes works for simple poles"}
-
-
+:::{.corollary title="Residue formula: simple poles of rational functions"}
 If additionally $f=g/h$ where $h(z_0) = 0$ and $h'(z_0)\neq 0$, 
 \[
 \Res_{z=z_0} {g(z) \over h(z)} = {g(z_0) \over h'(z_0)}
@@ -190,21 +175,24 @@ Apply L'Hopital:
 .\]
 :::
 
-:::{.proposition title="Residue at infinity"}
-
+:::{.theorem title="Residue formula: poles at infinity"}
 \[
 \Res_{z=\infty}f(z) = \Res_{z=0} g(z) && g(z) \da -{1 \over z^2}f\qty{1\over z} 
 .\]
 :::
 
-:::{.proposition title="Fractional Residue Formula"}
+:::{.theorem title="Residue formula: fractional residues"}
+If $z_0$ is an order 1 pole of $f$ and $\gamma_{\eps, \theta}$ is an arc of the circle $C_\eps \da \ts{ \abs{z-z_0} = \eps}$ subtending an angle of $\theta$, then
+\[
+\lim_{\eps\to 0} \int_{\gamma_{\eps, \theta}} f(z) \dz  = i\theta \Res_{z = z_0}f(z)
+.\]
+
 
 ![](figures/2021-12-10_18-27-31.png)
 
 :::
 
 ## Residue Exercises
-
 
 :::{.exercise title="Residues using partial fractions/principal parts"}
 Find all residues of the following function by writing it as a sum of principal parts at its poles:
@@ -215,7 +203,6 @@ f(z) = {z^3 \over z^2 + 1}
 #completed
 
 :::
-
 
 :::{.solution}
 Use polynomial long division to write
@@ -242,8 +229,6 @@ yielding poles at $\pm i$ with residues
 
 
 :::
-
-
 
 :::{.exercise title="Residue of $1/z^2 + 1$"}
 Compute the residue at $z=i$ of
