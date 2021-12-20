@@ -107,7 +107,7 @@ Thus for $\gamma$ any parameterization of $\abs{z} = 2$,
 
 :::
 
-:::{.exercise title="Cauchy formula"}
+:::{.exercise title="Cauchy formula and $\sinh$"}
 Compute
 \[
 \int_{S^1} {2 \sinh(z) \over z^n}\dz
@@ -134,10 +134,9 @@ f^{(n-1)}(0)
 0 & n \text{ odd }.
 \end{cases}
 .\]
-
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Cauchy formula"}
 Compute
 \[
 \int_\gamma {z^2+1 \over z(z^2 + 4)}\dz
@@ -152,7 +151,12 @@ for
 :::
 
 :::{.solution}
-Notice this can be written as $f(z)/z$ where $f(z) = {z^2+1\over z^2+4}$ is holomorphic on $\DD$, so this yields $2\pi i f(0) = {i\pi \over 2}$.
+\[
+\int_{\abs{z} = 1} f(z) \dz 
+&= \int_{\abs{z} = 1} { {z^2 + 1 \over z^2 + 4} \over z} \dz \\
+&=  2\pi i \qty{z^2 + 1 \over z^2 + 4} \evalfrom_{z=0} \\
+&= {i\pi \over 2}
+.\].
 
 For the larger circle, use PFD:
 \[
