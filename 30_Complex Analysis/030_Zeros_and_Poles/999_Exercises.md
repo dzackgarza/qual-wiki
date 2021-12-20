@@ -1,6 +1,56 @@
 # Exercises
 
-## Singularities and Zeros
+## Orders of poles/zeros
+
+:::{.exercise title="Orders of zeros"}
+Find the orders of zeros of the following functions:
+
+- $(e^z-1)^3$
+
+#completed
+:::
+
+:::{.solution}
+\envlist
+
+- $z=0$ of order 3: if $z_0$ is order $n$ for $f$, then it's order $kn$ for $f^k$.
+  So check that $e^z-1$ has a root $z=0$ and $\dd{}{z}e^z-1\mid_{z=0} = e^z\mid_{z=0}\neq 0$, making it order 1.
+:::
+
+:::{.exercise title="Orders of poles"}
+Determine the order of the pole of 
+
+- ${1\over z\sin(z)}$ at $z_0 = 0$.
+- ${e^{z^2}-1\over z^4}$ at $z_0=0$
+
+#completed
+:::
+
+:::{.solution}
+- Order 2:
+\[
+\lim_{z\to 0}z^0 f(z) &= \infty\\
+\lim_{z\to 0}z^1 f(z) &= \infty\\
+\lim_{z\to 0}z^2 f(z) &= 1 \neq 0 
+,\]
+using that $z/\sin(z) \convergesto{z\to 0} 1$.
+
+- Order 2: apply L'Hopital as necessary
+\[
+\lim_{z\to 0}z^0 f(z) &= \infty\\
+\lim_{z\to 0}z^1 f(z) &= \infty\\
+\lim_{z\to 0}z^2 f(z) &= 1 \neq 0 
+.\]
+  Alternatively, take the Laurent expansion:
+  \[
+  f(z) 
+  &= z^{-4}(1 + z^2 + {1\over 2!} (z^2)^2 + {1\over 3!} (z^2)^3 + \bigo(z^4) - 1) \\
+  &= z^{-2} + {1\over 2!} + {1\over 3!} z^2 + \bigo(z^4)
+  .\]
+
+:::
+
+## Poles and Zeros
 
 :::{.exercise title="Residues and classifying singularities"}
 Classify the singularities of 
@@ -133,57 +183,8 @@ Expanding about $z_0=\infty$, we have $f(1/z) = \sum_{k\geq 0} c_k z^{-k} = c_0 
 If $z_0=\infty$ is a pole of order $m$, then $c_m\neq 0$ but $c_{>m} = 0$, which forces $f(z) = \sum_{0\leq k \leq m} c_k z^k$ to be a polynomial of degree $m$.
 :::
 
-## Orders of poles/zeros
 
-:::{.exercise title="?"}
-Determine the order of the pole of 
-
-- ${1\over z\sin(z)}$ at $z_0 = 0$.
-- ${e^{z^2}-1\over z^4}$ at $z_0=0$
-
-#completed
-:::
-
-:::{.solution}
-- Order 2:
-\[
-\lim_{z\to 0}z^0 f(z) &= \infty\\
-\lim_{z\to 0}z^1 f(z) &= \infty\\
-\lim_{z\to 0}z^2 f(z) &= 1 \neq 0 
-,\]
-using that $z/\sin(z) \convergesto{z\to 0} 1$.
-
-- Order 2: apply L'Hopital as necessary
-\[
-\lim_{z\to 0}z^0 f(z) &= \infty\\
-\lim_{z\to 0}z^1 f(z) &= \infty\\
-\lim_{z\to 0}z^2 f(z) &= 1 \neq 0 
-.\]
-  Alternatively, take the Laurent expansion:
-  \[
-  f(z) 
-  &= z^{-4}(1 + z^2 + {1\over 2!} (z^2)^2 + {1\over 3!} (z^2)^3 + \bigo(z^4) - 1) \\
-  &= z^{-2} + {1\over 2!} + {1\over 3!} z^2 + \bigo(z^4)
-  .\]
-
-:::
-
-:::{.exercise title="?"}
-Find the orders of zeros of the following functions:
-
-- $(e^z-1)^3$
-
-#completed
-:::
-
-:::{.solution}
-\envlist
-
-- $z=0$ of order 3: if $z_0$ is order $n$ for $f$, then it's order $kn$ for $f^k$.
-  So check that $e^z-1$ has a root $z=0$ and $\dd{}{z}e^z-1\mid_{z=0} = e^z\mid_{z=0}\neq 0$, making it order 1.
-:::
-
-## Misc
+## Essential Singularities
 
 :::{.exercise title="Essential singularities"}
 Fix $a\in \CC\union\ts{\infty}$ and let $f(z) \da e^{1\over z^2}$.
@@ -202,4 +203,26 @@ Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
 - For anything else, take $z_k \da {1\over \Log(a) + 2\pi i n}$ if $a \in \RR_{\geq 0}$.
   Again $f(z_k) = a$ for all $k$ but $z_k\to 0$.
 :::
+
+
+:::{.exercise title="Constructing functions with specified singularities"}
+Determine a function with
+
+- An essential singularity at $z=1$
+- An essential singularity at $z=0$
+- A pole of order 1 at $z=1-i$
+- A pole of order 2 at $z=1+i$
+
+:::
+
+
+:::{.solution}
+Note that writing a single function for each singularity and taking a product *might* work, except that there may be unforeseen cancellation of zeros of one with poles of another.
+A surefire way is to take a sum, e.g. 
+\[
+f(z) = e^{1\over z-1} + e^{1\over z} + {1\over z - (1-i)} + {1\over (z - (1+i)^2 ) }
+.\]
+
+:::
+
 
