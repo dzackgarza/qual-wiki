@@ -4,43 +4,51 @@ order: 130
 
 # The Cauchy-Riemann equations
 
-:::{.proposition title="Holomorphic implies Cauchy-Riemann"}
-If $f$ is differentiable at $z_0$, then the limit defining $f'(z_0)$ must exist when approaching from any direction.
-Identify $f(z) = f(x, y)$ and write $z_0 = x+ iy$, then first consider $h\in \RR$, so $h = h_1 + ih_2$ with $h_2 = 0$.
-Then
+:::{.exercise title="Cauchy-Riemann iff holomorphic"}
+Show that $f = u+iv$ with $u, v\in C^1(\RR)$ satisfying the Cauchy-Riemann equations on $\Omega$, then $f$ is holomorphic on $\Omega$ with
 \[
-f'(z_0) = 
-\lim_{h_1\to 0} { f(x+h_1, y) - f(x, y) \over h_1}
-\da \dd{f}{x}(x, y)
+f'(z) = \dd{f}{x} = {1\over i} \dd{f}{y} = {1\over 2}\qty{u_x + iv_x}
 .\]
+Conversely, show that if $f$ is holomorphic, then $f$ satisfies the Cauchy-Riemann equations.
+:::
 
-Taking $h \in i\RR$ purely imaginary, so $h= ih_2$,
+:::{.solution}
+Holomorphic $\implies$ CR:
+
+Suppose $f'(z_0)$ exists for all $z_0\in \CC$, so the following limit exists:
 \[
-f'(z_0)
-= \lim_{ih_2\to 0} { f(x, y+h_2) - f(x, y) \over ih_2 } \da {1\over i} \dd{f}{y}(x, y)
+f'(z_0) \da \lim_{h\to 0, h\in \CC} {f(z_0 + h) - f(z_0) \over h}
 .\]
-Equating,
+Approach along $\ts{t + 0i \st t\in \RR}$:
 \[
-\dd{f}{x} = {1\over i} \dd{f}{y}
-,\]
-and writing $f = u + iv$ and $1/i = -i$ yields
+f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0 + t, y_0) - f(x_0, y_0) \over t} \da f_x(x_0, y_0)
+.\]
+Approach along $\ts{0 + ti \st t\in \RR}$:
 \[
-\dd{f}{x} &= \dd{u}{x} + i \dd{v}{x} \\
-{1\over i} \dd{f}{y} &= {1\over i} \qty{ \dd{u}{y} + i \dd{v}{y}} = \dd{v}{y} - i\dd{u}{y} 
+f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0, y_0 + t) - f(x_0, y_0) \over it} \da {1\over i} f_y(x_0, y_0)
 .\]
 Thus
 \[
-\dd{u}{x} = \dd{v}{y} \hspace{8em} \dd{u}{y} = -\dd{v}{x}
+if_x = f_y \implies i(u_x + i v_x) = u_y + i v_y \\ 
+\implies -v_x + iu_x = u_y + iv_y \\ 
+\implies u_x = v_y,\, u_y = -v_x
 .\]
+
+
+CR $\implies$ holomorphic:
+A straightforward but messy calculation, not likely to be useful for quals!
+
 :::
 
-:::{.proposition title="Polar Cauchy-Riemann equations"}
+:::{.exercise title="Polar CR equations"}
+Show that in polar coordinates, the CR equations take the following form:
 \[  
 \frac{\partial u}{\partial r}=\frac{1}{r} \frac{\partial v}{\partial \theta} \quad \text { and } \quad \frac{1}{r} \frac{\partial u}{\partial \theta}=-\frac{\partial v}{\partial r}
 .\]
+
 :::
 
-:::{.proof}
+:::{.solution}
 Setting 
 \[
 z = re^{i\theta} = r(\cos(\theta) + i\sin(\theta) ) = x+iy

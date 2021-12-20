@@ -4,6 +4,13 @@ order: 125
 
 # Delbar and the Laplacian
 
+:::{.definition title="Laplacian and Harmonic Functions"}
+A real function of two variables $u(x, y)$ is **harmonic** iff it is in the kernel of the Laplacian operator:
+\[  
+\Delta u \definedas \qty{\dd{^2}{x^2} + \dd{^2}{y^2}}u = 0
+.\]
+:::
+
 :::{.definition title="del and delbar operators"}
 \[
 \del \da \del_z \da {1\over 2}\qty{\del_x - i \del_y}
@@ -14,9 +21,9 @@ order: 125
 \da \del_{\bar z}
 ={1\over 2}\qty{ \del_x + i\del_y}
 .\]
-Moreover, the 1-form corresponding to $f$ can be written as 
+Moreover, the 1-form corresponding to $F$ can be written as 
 \[
-df = \del f + \delbar f = \dd{F}{z} \dz + \dd{F}{\zbar}\dzbar
+dF = \del F + \delbar F = \dd{F}{z} \dz + \dd{F}{\zbar}\dzbar
 .\]
 
 Written slightly more explicitly:
@@ -27,8 +34,11 @@ Written slightly more explicitly:
 
 :::
 
-:::{.proposition title="Holomorphic iff delbar vanishes"}
-$f$ is holomorphic at $z_0$ iff $\delbar f(z_0) = 0$:
+:::{.exercise title="Holomorphic iff delbar vanishes"}
+Show that $f$ is holomorphic iff $\delbar f = 0$.
+:::
+
+:::{.solution}
 \[
 2\delbar f 
 &\da (\del_x + i \del_y) (u+iv) \\
@@ -38,50 +48,7 @@ $f$ is holomorphic at $z_0$ iff $\delbar f(z_0) = 0$:
 .\]
 :::
 
-### Harmonic Functions and the Laplacian
-
-:::{.definition title="Laplacian and Harmonic Functions"}
-A real function of two variables $u(x, y)$ is **harmonic** iff it is in the kernel of the Laplacian operator:
-\[  
-\Delta u \definedas \qty{\dd{^2}{x^2} + \dd{^2}{y^2}}u = 0
-.\]
-:::
-
-:::{.exercise title="Cauchy-Riemann iff holomorphic"}
-Show that $f = u+iv$ with $u, v\in C^1(\RR)$ satisfying the Cauchy-Riemann equations on $\Omega$, then $f$ is holomorphic on $\Omega$ with
-\[
-f'(z) = \dd{f}{x} = {1\over i} \dd{f}{y} = {1\over 2}\qty{u_x + iv_x}
-.\]
-Conversely, show that if $f$ is holomorphic, then $f$ satisfies the Cauchy-Riemann equations.
-:::
-
-
-:::{.solution}
-Holomorphic $\implies$ CR:
-
-Suppose $f'(z_0)$ exists for all $z_0\in \CC$, so the following limit exists:
-\[
-f'(z_0) \da \lim_{h\to 0, h\in \CC} {f(z_0 + h) - f(z_0) \over h}
-.\]
-Approach along $\ts{t + 0i \st t\in \RR}$:
-\[
-f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0 + t, y_0) - f(x_0, y_0) \over t} \da f_x(x_0, y_0)
-.\]
-Approach along $\ts{0 + ti \st t\in \RR}$:
-\[
-f'(z_0) = f'(x_0, y_0) = \lim_{t\to 0, t\in \RR} {f(x_0, y_0 + t) - f(x_0, y_0) \over it} \da {1\over i} f_y(x_0, y_0)
-.\]
-Thus
-\[
-if_x = f_y \implies i(u_x + i v_x) = u_y + i v_y \\ 
-\implies -v_x + iux = u_y + iv_y \\ 
-\implies u_x = v_y,\, u_y = -v_x
-.\]
-
-
-
-:::
-
+### Exercises: Harmonic Functions
 
 :::{.exercise title="Holomorphic functions have harmonic components"}
 Show that if $f = u+iv$ is holomorphic then $u, v$ are harmonic.
