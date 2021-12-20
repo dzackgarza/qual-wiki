@@ -257,11 +257,13 @@ Compute the residues by just applying the formula and manually computing derivat
 
 :::
 
-:::{.exercise title="$1/x(x^2-1)^{1/2}$"}
+
+:::{.exercise title="$1/x\sqrt{x^2-1}"}
 \[
 \int_{1}^{\infty} \frac{d x}{x \sqrt{x^{2}-1}} = {\pi \over 2}
 .\]
 :::
+
 
 :::{.solution}
 
@@ -273,7 +275,4 @@ Compute the residues by just applying the formula and manually computing derivat
 
 
 
-:::{.exercise title="Entire injective functions"}
-Show that if $f$ is entire and injective then $f$ is necessarily linear, i.e. $f(z) = az+b$ for some constants $a,b\in \CC$ with $a\neq 0$.
-:::
 
