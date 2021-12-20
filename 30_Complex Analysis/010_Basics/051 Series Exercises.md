@@ -241,6 +241,14 @@ Thus
 f(z) = {-1/2 \over z-1} + {1/2 \over z-3}
 .\]
 
+Now find the two expansions for each term:
+
+\[
+{-1/2 \over z-1} &= {1/2 \over 1-z} = {1\over 2}\sum_{k\geq 0} z^k\\
+{-1/2 \over z-1} &= -{1\over 2}{z\inv \over z\inv - 1} = {1\over 2z}{1\over 1-z\inv} = {1\over 2}\sum_{k\geq 0}z^{-k-1}
+.\]
+
+
 :::
 
 
