@@ -65,8 +65,11 @@ i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansi
 :::
 
 :::{.exercise title="?"}
-Compute $\int_\gamma {1\over z^2 - 1} \dz$ for $\gamma$ a circle of radius 1 about $z=1$.
-Also compute this integral for $\gamma$ a circle of radius 2 about $z=0$.
+Compute the following integrals:
+\[
+\int_{\abs{z-1} = 1} {1\over z^2-1} \dz \\
+\int_{\abs{z-0} = 2} {1\over z^2-1} \dz \\
+.\]
 
 #completed
 
@@ -75,8 +78,12 @@ Also compute this integral for $\gamma$ a circle of radius 2 about $z=0$.
 :::{.solution}
 For the first integral:
 \[
-\int_\gamma{1\over z^2-1}\dz = {1\over 2}\int_\gamma {1\over z-1} + {1\over z+1}\dz = {1\over 2}\int_\gamma {1\over z-1} = {1\over 2}\cdot 2\pi i \Res_{z=1}f(z) = \pi i
-\]
+\int_\gamma{1\over z^2-1}\dz 
+&= {1\over 2}\int_\gamma {1\over z-1} + {1\over z+1}\dz \\
+&= {1\over 2}\int_\gamma {1\over z-1} \\
+&= {1\over 2}\cdot 2\pi i \Res_{z=1}f(z) \\
+&= \pi i
+,\]
 using that $f(z) = {1\over z-1}$ is already an expansion of $f$ about $z=1$ since it is a Laurent series in $(z-1)^k$, so the residue is $1$.
 
 For the second integral:
