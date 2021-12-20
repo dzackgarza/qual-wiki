@@ -124,13 +124,7 @@ where we've used a variant of the triangle inequality:
 
 :::
 
-:::{.exercise title="?"}
-\[
-\int_\RR {1 \over (1+x^2)^2} \dx
-.\]
-:::
-
-:::{.solution}
+:::{.solution title="Older solution"}
 \envlist
 
 - Factor $(1+z^2)^2 = ((z-i)(z+i))^2$, so $f$ has poles at $\pm i$ of order 2.
@@ -216,6 +210,35 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 
 ## Branch Cuts
 
+:::{.exercise title="Keyhole contour and ML estimate: $\log(x) / (1+x^2)^2$"}
+Compute
+\[
+\int_{[0, \infty]} {\log(x) \over (1+x^2)^2}\dx 
+.\]
+:::
+
+:::{.solution}
+Factor $(1+z^2)^2 = (z+i^2(z-i)^2$.
+Take a keyhole contour similar to the following:
+
+![attachments/image_2021-06-09-02-11-59.png](attachments/image_2021-06-09-02-11-59.png)
+
+Show that outer radius $R$ and inner radius $\rho$ circles contribute zero in the limit by the ML estimate?
+Compute the residues by just applying the formula and manually computing derivatives:
+\[
+\Res_{z= \pm i} f(z) 
+&= \lim_{z\to \pm i} \dd{}{z} {\log^2(z) \over (z\pm i)^2} \\
+&= \lim_{z\to \pm i} {2\log(z) (z\pm i)^2 - 2(z\pm i)^2 \log^2(z) \over \qty{(z\pm i )^2}^2} \\
+&= {
+2\log(\pm i)(\pm 2i)^2 - 2(\pm 2i)^2 \log^2(\pm i)
+\over {\qty{\pm 2i}}^4 } \\
+&=_? {\pi \over 4}\pm {i\pi^2 \over 16}
+.\]
+
+> See p.4: <http://www.math.toronto.edu/mnica/complex1.pdf>
+
+:::
+
 :::{.exercise title="$\log(x) / x^2+a^2$"}
 \[
 \int_0^\infty {\log(x) \over x^2+a^2}\dx &= {\pi\log(a)\over 2a} && a>0
@@ -246,13 +269,10 @@ Write $2\cos(z) = z + z\inv$ on $S^1$ to get
 
 :::
 
-:::{.exercise title="Complex zeros of $\sin(\pi z)$"}
-Show that the complex zeros of $f(z) \da \sin(\pi z)$ are exactly $\ZZ$, and each is order 1.
-Calculate the residue of $1/\sin(\pi x)$ at $z=n\in \ZZ$.
-:::
+## Misc 
 
 
-:::{.exercise title="?"}
+:::{.exercise title="Residue from Laurent expansion"}
 Use a direct Laurent expansion to show
 \[
 \Res_{z=0} {1\over z-\sin(z)} = {3! \over 5\cdot 4}
@@ -278,7 +298,7 @@ Expand:
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Computing residues"}
 Compute
 \[
 \Res_{z=0} {1\over z^2 \sin(z)}
@@ -309,49 +329,7 @@ z\inv\qty{1 + {1\over 3!}z^2 \pm O(z^4) } \\
 .\]
 :::
 
-:::{.exercise title="Keyhole contour and ML estimate"}
-Compute
-\[
-\int_{[0, \infty]} {\log(x) \over (1+x^2)^2}\dx 
-.\]
+:::{.exercise title="Entire injective functions"}
+Show that if $f$ is entire and injective then $f$ is necessarily linear, i.e. $f(z) = az+b$ for some constants $a,b\in \CC$ with $a\neq 0$.
 :::
 
-:::{.solution}
-Factor $(1+z^2)^2 = (z+i^2(z-i)^2$.
-Take a keyhole contour similar to the following:
-
-![attachments/image_2021-06-09-02-11-59.png](attachments/image_2021-06-09-02-11-59.png)
-
-Show that outer radius $R$ and inner radius $\rho$ circles contribute zero in the limit by the ML estimate?
-Compute the residues by just applying the formula and manually computing derivatives:
-\[
-\Res_{z= \pm i} f(z) 
-&= \lim_{z\to \pm i} \dd{}{z} {\log^2(z) \over (z\pm i)^2} \\
-&= \lim_{z\to \pm i} {2\log(z) (z\pm i)^2 - 2(z\pm i)^2 \log^2(z) \over \qty{(z\pm i )^2}^2} \\
-&= {
-2\log(\pm i)(\pm 2i)^2 - 2(\pm 2i)^2 \log^2(\pm i)
-\over {\qty{\pm 2i}}^4 } \\
-&=_? {\pi \over 4}\pm {i\pi^2 \over 16}
-.\]
-
-> See p.4: <http://www.math.toronto.edu/mnica/complex1.pdf>
-
-:::
-
-:::{.exercise title="Sinc Function"}
-Show
-\[
-\int_{(0, \infty)} {\sin(x) \over x }\dx = {\pi \over 2}
-.\]
-:::
-
-:::{.solution}
-Take an indented semicircle.
-Let $I$ be the original integral, then 
-\[
-I = {1\over 2i} \int_\RR {e^{iz} - 1 \over z } \dz
-.\]
-
-:::
-
-![figures/image_2021-05-17-13-33-55.png](figures/image_2021-05-17-13-33-55.png)

@@ -52,6 +52,14 @@ using that $z/\sin(z) \convergesto{z\to 0} 1$.
 
 ## Poles and Zeros
 
+:::{.exercise title="Zeros of $\sin(\pi z)$"}
+Show that the complex zeros of $f(z) \da \sin(\pi z)$ are exactly $\ZZ$, and each is order 1.
+Calculate the residue of $1/\sin(\pi x)$ at $z=n\in \ZZ$.
+
+#work
+
+:::
+
 :::{.exercise title="True/false"}
 Prove that the following statements or true, or find a counterexample:
 
