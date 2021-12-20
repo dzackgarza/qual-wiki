@@ -4,7 +4,7 @@ order: 0
 
 # Info / Tips / Techniques
 
-> A great deal of content borrowed from the following: <https://web.stanford.edu/~chriseur/notes_pdf/Eur_ComplexAnalysis_Notes.pdf>
+> A great deal of content borrowed from <https://web.stanford.edu/~chriseur/notes_pdf/Eur_ComplexAnalysis_Notes.pdf>
 
 ## Greatest Hits
 
@@ -23,22 +23,23 @@ Things to know well:
 	- [[30_Complex Analysis/999_Quals/052_Rouche|Rouche qual questions]]
 - [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|The Schwarz reflection principle]]
 - [[30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma|The Schwarz lemma]]
-	- [[Schwarz 
+	- [[30_Complex Analysis/999_Quals/200_Schwarz|Schwarz lemma qual questions]]
 - [[30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass|Casorati-Weierstrass]]
 	- [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati|Casorati-Weierstrass Qual questions]]
 - [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
-- [[30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane]]
-	- The Cayley transformation
-	- Other Mobius transformations
+- [[30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]]
+	- The Cayley transformation and other Mobius transformations
+	- [[30_Complex Analysis/999_Quals/105_Conformal Maps|Conformal map questions]]
 - [[30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle|The identity principle]]
 - [[30_Complex Analysis/070_Omitted Values/070_Picard|Picard theorems]]
-- [[30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping]]
-- [[30_Complex Analysis/040_Residues/020_Residues]]
+- [[30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping|The open mapping theorem]]
+- [[30_Complex Analysis/040_Residues/020_Residues|Computing residues]]
+	- [[30_Complex Analysis/999_Quals/030_Computing Integrals|Qual integrals]]
 - Jordan's lemma
 - [[30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations|The Cauchy-Riemann equations]]
-- [[30_Complex Analysis/030_Zeros_and_Poles/020_Argument Principle]]
+- [[30_Complex Analysis/030_Zeros_and_Poles/020_Argument Principle|The argument principle]]
 - [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|The Riemann mapping theorem]]
-- Riemann's removable singularity theorem.
+- [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity|Riemann's removable singularity theorem]]
 
 For just the statements of most of these theorems: [[attachments/ComplexAnalysisNotes.pdf|see this doc]].
 
