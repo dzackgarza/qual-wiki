@@ -93,7 +93,11 @@ This follows from writing $f=u+iv$, which will then be a bounded entire function
 Show that if $u,v$ are harmonic conjugates, then
 
 - $u^2-v^2$ is harmonic
+- $uv$ is harmonic.
 - $u_x$ is harmonic.
+
+#completed
+
 :::
 
 :::{.solution}
@@ -101,7 +105,20 @@ Write $f=u+iv$, which is analytic.
 
 - $f^2$ is analytic, and $f^2 = (u+iv)^2 = u^2 - v^2 + i (2uv)$, which necessarily has harmonic components.
 
+- Covered by the first case.
+
 - $f'$ is analytic and one can write $f' = u_x + iv_x$, which has harmonic components.
+
+As an alternative to show that $uv$ is harmonic directly: compute
+\[
+\laplacian(uv) 
+&= (uv)_{xx} + (uv)_{yy} \\
+&= (u_{xx}v + uv_{xx} + 2u_x v_x) + (u_{yy}v + uv_{yy} + 2u_y v_y) \\
+&= (u_{xx} + u_{yy}) v + (v_{xx} + v_{yy}) u + 2(u_xv_x + u_yv_y) \\
+&=
+.\]
+
+
 :::
 
 :::{.exercise title="Finding harmonic conjugates"}
