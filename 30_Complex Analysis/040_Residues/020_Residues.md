@@ -287,7 +287,7 @@ yielding poles at $\pm i$ with residues
 
 :::
 
-:::{.exercise title="Residue from Laurent expansion"}
+:::{.exercise title="Residue from Laurent expansion: $1/(z - \sin(z))$"}
 Use a direct Laurent expansion to show
 \[
 \Res_{z=0} {1\over z-\sin(z)} = {3! \over 5\cdot 4}
