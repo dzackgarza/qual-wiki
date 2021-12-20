@@ -273,7 +273,7 @@ Show that on $\abs{z} < 2\pi$, all singularities are removable, and find a Laure
 :::
 
 
-:::{.solution}
+:::{.solution title="Using L'Hopital and boundedness"}
 Note that the singularities are
 \[
 z = 0, \pi, -\pi
@@ -285,7 +285,7 @@ That $z=0$ is removable:
 &= \lim_{z\to 0} {z-\sin(z) \over z\sin(z)} \\
 &\equalsbecause{\text{LH}} \lim_{z\to 0} {1 - \cos(z) \over \sin(z) + z\cos(z)} \\
 &\equalsbecause{\text{LH}} \lim_{z\to 0} {\sin(z) \over \cos(z) + \cos(z) -z\sin(z) } \\
-&= 0
+&= 0 < \infty
 ,\]
 so in particular $f$ is bounded in a neighborhood of $z=0$, making it removable.
 
@@ -297,7 +297,7 @@ That $z=\pi$ is removable:
 &= c_1 + \lim_{z\to \pi} { (z-\pi) -\sin(z) \over (z-\pi) \sin(z) }\\
 &= c_1 + \lim_{w\to 0} { w -\sin(w + \pi) \over w \sin(w+\pi) } \qquad w\da z-\pi \\
 &= c_1 - \lim_{w\to 0} { w + \sin(w) \over w \sin(w) } \\
-&\equalsbecause{\text{LH}} c_1 + 0
+&\equalsbecause{\text{LH}} c_1 + 0 < \infty
 ,\]
 using the same L'Hopital argument as above. 
 So this limit is bounded.
@@ -307,8 +307,25 @@ That $z=-\pi$ is removable:
 \lim_{z\to \pi} f(z) 
 &= \lim_{z\to -\pi} {1\over \sin(z)} - {1\over z} + {1\over z-\pi} + {1\over z+\pi}\\
 &= c_2 + \lim_{z\to -\pi} {1\over \sin(z)} + {1\over z+\pi}\\
-.\]
+&= c_2 + \lim_{z\to -\pi} {(z+\pi) - \sin(z) \over (z+\pi) \sin(z) } \\
+&= c_2 - \lim_{z\to -\pi} {w + \sin(w) \over w \sin(w) } \qquad w \da z+\pi \\
+&= c_2 + 0 < \infty
+,\]
+again by the same argument.
+:::
 
+
+:::{.solution title="Comparing orders of vanishing"}
+Write
+\[
+f(z) = {z-\sin(z) \over z\sin(z)} - {2z\over z^2-\pi^2}
+,\]
+
+For $z=0$, the 2nd term doesn't contribute to zero/pole order.
+For the first, take an expansion:
+\[
+f_1(z) = { z - \qty{z - {1\over 3!}z^3 + \cdots } \over z \qty{ {1\over 3!}z^3 + \cdots } }
+.\]
 
 
 :::
