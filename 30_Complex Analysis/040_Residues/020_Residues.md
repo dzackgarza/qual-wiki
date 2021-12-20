@@ -335,22 +335,24 @@ which follows from expanding
 ## Estimates
 
 :::{.remark}
-The reverse triangle inequality in all of its glorious variants:
+The reverse triangle shows up here often!
 \[
 \abs{z-w} \geq \abs{ \abs{z} - \abs{w}} \implies {1\over \abs{z-w}}\leq \abs{1\over \abs z - \abs w} \\
-\abs{z+w} \geq \abs{ \abs{z} - \abs{w}} \implies {1\over \abs{z+w}}\leq \abs{1\over \abs z - \abs w} \\
+\abs{z+w} = \abs{z -(-w)} \geq \abs{ \abs{z} - \abs{w}} \implies {1\over \abs{z+w}}\leq \abs{1\over \abs z - \abs w} \\
 .\]
 
+Also often useful: $e^{-x}$ is monotonically decreasing on $\RR$, so
 \[
-a\geq b \implies e^{-a} \leq e^{-b}
+a\leq b \implies e^{-a} \geq e^{-b}
 .\]
 
 :::
 
-:::{.proposition title="ML Estimate"}
+:::{.theorem title="ML Estimate"}
 \[
-\abs{ \int_\gamma f} \leq ML \da \sup_{z\in \gamma} \abs{f} \cdot \mathrm{length}(\gamma)
+\abs{ \int_\gamma f(z) \dz } \leq ML \da \sup_{\xi \in \gamma} \abs{f(\xi)} \cdot \length(\gamma) 
 .\]
+
 :::
 
 :::{.proof title="?"}
@@ -416,7 +418,7 @@ Note that this also shows that
 
 :::
 
-:::{.proposition title="Jordan's Lemma"}
+:::{.theorem title="Jordan's Lemma"}
 Suppose that $f(z) = e^{iaz}g(z)$ for some $g$, and let $C_R \da \ts{ z=Re^{it} \st t\in [0, \pi] }$. Then
 \[
 \abs{\int_{C_R} f(z) \dz} \leq {\pi M_R \over a}
