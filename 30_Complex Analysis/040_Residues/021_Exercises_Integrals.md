@@ -272,62 +272,6 @@ Compute the residues by just applying the formula and manually computing derivat
 ## Misc 
 
 
-:::{.exercise title="Residue from Laurent expansion"}
-Use a direct Laurent expansion to show
-\[
-\Res_{z=0} {1\over z-\sin(z)} = {3! \over 5\cdot 4}
-.\]
-
-> Note the necessity: one doesn't know the order of the pole at zero, so it's unclear how many derivatives to take.
-
-:::
-
-:::{.solution}
-Expand:
-\[
-{1\over z - \sin(z)}
-&= z\inv \qty{1 - z\inv \sin(z) }\inv \\
-&= z\inv \qty{1 - z\inv\qty{ z - {1\over 3!}z^3 + {1\over 5!} z^5 - \cdots}}\inv\\
-&= z\inv \qty{1 - \qty{ 1 - {1\over 3!}z^2 + {1\over 5!} z^4 - \cdots}}\inv \\
-&= z\inv \qty{{1\over 3!}z^2 - {1\over 5!}z^4 + \cdots}\inv \\
-&= z\inv \cdot 3! z^{-2} \qty{1 - {1\over 5!/3!}z^2 + \cdots}\inv \\
-&= {3!\over z^3} \qty{1 \over 1 - \qty{ {1\over 5\cdot 4}z^2 + \cdots}} \\
-&= {3!\over z^3}\qty{1 + \qty{{1\over 5\cdot 4}z^2} + \qty{{1\over 5\cdot 4}z^2}^2 + \cdots} \\
-&= 3! z^{-3} + {3!\over 5\cdot 4}z\inv + O(z) \\
-.\]
-
-:::
-
-:::{.exercise title="Computing residues"}
-Compute
-\[
-\Res_{z=0} {1\over z^2 \sin(z)}
-.\]
-:::
-
-:::{.solution}
-First expand $(\sin(z))\inv$:
-\[
-{1\over \sin(z)}
-&= \qty{z - {1\over 3!}z^3 + {1\over 5!}z^5 -\cdots }\inv \\
-&= z\inv \qty{1 - {1\over 3!}z^2 + {1\over 5!}z^4 - \cdots }\inv \\
-&= z\inv \qty{1 + 
-\qty{{1\over 3!}z^2 - {1\over 5!} z^4 + \cdots} 
-+
-\qty{{1\over 3!}z^2 - \cdots}^2 + \cdots
-} \\
-&= z\inv\qty{1 + {1\over 3!}z^2 \pm O(z^4) }
-,\]
-using that $(1-x)\inv = 1 + x + x^2 + \cdots$.
-
-Thus
-\[
-z^{-2}\qty{\sin(z)}\inv 
-&= z^{-2} \cdot
-z\inv\qty{1 + {1\over 3!}z^2 \pm O(z^4) } \\
-&= z^{-3} + {1\over 3!}z\inv + O(z)
-.\]
-:::
 
 :::{.exercise title="Entire injective functions"}
 Show that if $f$ is entire and injective then $f$ is necessarily linear, i.e. $f(z) = az+b$ for some constants $a,b\in \CC$ with $a\neq 0$.
