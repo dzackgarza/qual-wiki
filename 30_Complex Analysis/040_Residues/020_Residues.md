@@ -381,9 +381,12 @@ By Jordan's lemma,
 \[
 \abs{\int_{C_2} f(z)\dz } 
 &\leq \sup_{z\in C_2} \abs{f(z)} \\
-&\leq \sup_{z\in C_2} \abs{e^{iz}\over z^2 + 1} \\
+&\da \sup_{z\in C_2} \abs{e^{iz}\over z^2 + 1} \\
 &\leq \sup_{z\in C_2} {1 \over \abs{ z^2 + 1} } \\
-&\leq \sup_{z\in C_2} {1 \over \abs{ z^2} - 1 } \\
+&\leq \sup_{z\in C_2} {1 \over \abs{z}^2 - 1 } \text{ by the reverse triangle ineq.}\\
+&= {1\over R^2-1} \\
+&= \bigo(R^{-2}) \\
+&\convergesto{R\to\infty}0
 .\]
 
 
