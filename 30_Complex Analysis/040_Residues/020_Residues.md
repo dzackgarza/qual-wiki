@@ -342,7 +342,7 @@ a\geq b \implies e^{-a} \leq e^{-b}
 
 :::
 
-:::{.proposition title="Length bound / ML Estimate"}
+:::{.proposition title="ML Estimate"}
 \[
 \abs{ \int_\gamma f} \leq ML \da \sup_{z\in \gamma} \abs{f} \cdot \mathrm{length}(\gamma)
 .\]
@@ -356,14 +356,9 @@ a\geq b \implies e^{-a} \leq e^{-b}
 &\da \int_\gamma M\dz \\
 &= M \cdot \length(\gamma)
 .\]
-
-\[
-\left|\int_{\gamma} f(z) d z\right| \leq \sup _{t \in[a, b]}|f(z(t))| \int_{a}^{b}\left|z^{\prime}(t)\right| d t \leq \sup _{z \in \gamma}|f(z)| \cdot \operatorname{length}(\gamma)
-.\]
-
 :::
 
-:::{.exercise title="Jordan's lemma on a semicircular contour"}
+:::{.exercise title="ML estimate for a semicircular contour"}
 Use a semicircular contour and the residue theorem to evaluate
 \[
 I = \int_\RR {\cos(x) \over x^2 + 1 }\dx
@@ -412,29 +407,6 @@ Thus
 Note that this also shows that
 \[
 \int_\RR { \sin(z) \over z^2 + 1} \dz = 0
-.\]
-
-:::
-
-
-:::{.example title="of estimating a sup"}
-Consider
-\[
-f(z) \da {e^{iz} \over 1 + z^2}
-\]
-
-where $z\neq \pm i$, and attempt to integrate
-\[
-\int_\RR f(z) \dz
-.\]
-
-Use a semicircular contour $\gamma_R$ where $z = Re^{it}$
-and check
-\[
-\sup_{z\in \gamma_R} \abs{f(z)} 
-&= \max_{t\in [0, \pi]} {1 \over 1 + (Re^{it})^2 } \\
-&= \max_{t\in [0, \pi]} {1 \over 1 + R^2e^{2it} } \\
-&= {1\over R^2 - 1}
 .\]
 
 :::
