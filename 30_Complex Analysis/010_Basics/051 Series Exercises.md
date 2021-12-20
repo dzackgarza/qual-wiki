@@ -390,6 +390,24 @@ c_{-1} = {-ie^i + ie^{-i} \over 2} = -i\cdot {e^i - e^{-i}\over 2} = {e^i - e^{-
 
 :::
 
+:::{.exercise title="Laurent expanding exponentials"}
+Find a Laurent expansion that converges for $\abs{z} > 1$ of
+\[
+f(z) \da {1 \over e^{1-z}}
+.\]
+
+#completed
+
+:::
+
+:::{.solution}
+\[
+f(z) = e^{-(1-z)} = e^{z-1} = e\inv e^z = e\inv\sum_{k\geq 0} {z^k\over k!}
+.\]
+Since $e^z$ is entire, this converges on $\CC$.
+:::
+
+
 
 ## New Things in $\CC$
 

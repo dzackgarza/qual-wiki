@@ -258,3 +258,23 @@ f(z) = e^{1\over z-1} + e^{1\over z} + {1\over z - (1-i)} + {1\over (z - (1+i) )
 :::
 
 
+## Removable Singularities
+
+
+:::{.exercise title="?"}
+Consider
+\[
+f(z) \da {1\over \sin(z)} - {1\over z} + {2z\over z^2-\pi^2}
+.\]
+Show that on $\abs{z} < 2\pi$, all singularities are removable, and find a Laurent series.
+
+#completed
+
+:::
+
+
+:::{.solution}
+
+:::
+
+
