@@ -361,7 +361,7 @@ If $C_R$ is a semicircular contour subtending an angle of $\theta$,
 \abs{\int_{C_R} f\, }\leq MR\theta
 ,\]
 so provided $M = \bigo\qty{1\over R^{1+\eps}}$, this goes to zero as $R\to\infty$.
-
+If $M = \bigo(R)$, use Jordan's lemma!
 :::
 
 :::{.proof title="?"}
@@ -431,11 +431,14 @@ Note that this also shows that
 :::
 
 :::{.theorem title="Jordan's Lemma"}
-Suppose that $f(z) = e^{iaz}g(z)$ for some $g$, and let $C_R \da \ts{ z=Re^{it} \st t\in [0, \pi] }$. Then
+Define
 \[
-\abs{\int_{C_R} f(z) \dz} \leq {\pi M_R \over a}
-\]
-where $M_R \da \sup_{t\in [0, \pi]} \abs{g(Re^{it})}$.
+C_R \da \ts{ z=Re^{it} \st t\in [0, \pi] }
+,\]
+then
+\[
+\abs{\int_{C_R} e^{i\alpha z} g(z) \dz} \leq {\pi \over a}\sup_{z\in C_R} \abs{g(z)}
+.\]
 :::
 
 :::{.example title="of how to apply Jordan's lemma"}
