@@ -263,19 +263,15 @@ Now, just combinatorics to pick the various series that converge on the desired 
 .\]
 :::
 
-
 :::{.exercise title="Residues from Laurent expansion"}
-Find the residue of $f(z) = z^2\cos\qty{z\over 3}$ using a Laurent series expansion.
+Expand $f(z) = z^2\cos\qty{z\over 3}$ about $z=0$.
 :::
-
 
 :::{.solution}
 \[
-f(z) = z^2\qty{ 1 + {1\over 2!}\qty{1\over 3z}^2 }
+f(z) = z^2\qty{ 1 + {1\over 2!}\qty{1\over 3z}^2 + {1\over 4!}\qty{1\over 3z}^4 } = z^2 + {1\over 2! \cdot 3^2} + {1\over 4! \cdot 3^4}z^{-2} + \cdots
 .\]
-
 :::
-
 
 
 ## New Things in $\CC$
