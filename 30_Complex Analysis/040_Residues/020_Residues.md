@@ -389,8 +389,17 @@ By Jordan's lemma,
 &\convergesto{R\to\infty}0
 .\]
 
-
-
+For the residue, $z=i$ is at worst an order 1 pole, and remains order 1 since $i$ is not a zero of the numerator.
+\[
+\Res_{z=i} f(z) 
+&= \Res_{z=i} {e^{iz} \over (z+i)(z-i)} \\
+&= { e^{iz} \over z+i}\evalfrom_{z=i} \\
+&= {1\over 2ei}
+.\]
+Thus 
+\[
+I = \lim_{R\to\infty}\int_{C_1} f = 2\pi i \Res_{z=i} f = {2\pi i \over 2ei} = {\pi \over e}
+.\]
 :::
 
 
