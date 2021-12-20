@@ -65,7 +65,7 @@ As a special case, if $z_0$ is a simple pole of $f$, then
 .\]
 :::
 
-:::{.corollary title="Residue formula: simple poles of rational functions"}
+:::{.corollary title="Residue formula: rational function formula for simple poles"}
 If additionally $f=g/h$ where $h(z_0) = 0$ and $h'(z_0)\neq 0$, 
 \[
 \Res_{z=z_0} {g(z) \over h(z)} = {g(z_0) \over h'(z_0)}
@@ -297,7 +297,7 @@ f(z) \da {1\over z^2 + 1}
 :::
 
 :::{.solution}
-Applying the formula directly:
+Applying the rational function formula:
 \[
 \Res_{z=z_0}{1\over 1+z^2} &= {1\over 2z}\evalfrom_{z= z_0} \implies\\
 \Res_{z=i}f(z) &= {1\over 2i} = -{i\over 2} \\
@@ -317,11 +317,13 @@ f(z) = {1\over z^m + 1}
 :::
 
 :::{.solution title="?"}
-Factor $z^n+1 = \prod_{k=1}^n (z-\zeta_m^k)$ where $m\da 2n$, and apply the residue formula:
+Check that $\dd{}{z} z^n+1 = nz^{n-1}\neq 0$ for $z\neq 0$, so this has no repeated roots.
+Thus all of the poles are simple, so apply the rational function formula:
 \[
-\Res_{z=\zeta_{m}} {1\over z^n + 1} = {1 \over nz^{n-1}}\evalfrom_{z=\zeta_m} = {1\over n\zeta_m^{n-1}}
-= {\zeta_m^{1-n}\over n}
-= -{\zeta_m \over n}
+\Res_{z=\zeta_{m}} {1\over z^n + 1} 
+&= {1 \over nz^{n-1}}\evalfrom_{z=\zeta_m} = {1\over n\zeta_m^{n-1}} \\
+&= {\zeta_m^{1-n}\over n} \\
+&= -{\zeta_m \over n}
 ,\]
 which follows from expanding $\zeta_m^{1-n} = e^{2\pi i (1-n) \over m}$.
 :::
