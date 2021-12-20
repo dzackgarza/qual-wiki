@@ -1,8 +1,11 @@
 # Residues
 
-See:
 
-- <https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter5.pdf>
+:::{.remark}
+On strategy: see <https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter5.pdf>
+:::
+
+
 
 :::{.remark}
 Pedantic warning: $\Res_{z=p}(f)$ should really be $\Res_{z=p}(df)$ for $df = f(z) \dz$, since it's only an invariant of the 1-form $df$ and not necessarily $f$ itself.
@@ -246,7 +249,6 @@ Thus
 &= 2\pi i\qty{ {1\over 4} + {3\over 8} + {3\over 8}}
 .\]
 
-
 :::
 
 :::{.exercise title="Residues using partial fractions/principal parts"}
@@ -450,6 +452,29 @@ Taking $\alpha = 1$, this yields
 .\]
 :::
 
+:::{.proof title="of Jordan's lemma"}
+\[
+\abs{ \int_{C_R} f(z)\dz }
+&= \abs{ \int_{C_R} e^{iaz}g(z) \dz} \\
+&= \abs{ \int_{[0, \pi]} e^{ia\qty{Re^{it}}}g(Re^{it}) iRe^{it} \dt} \\
+&\leq \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}g(Re^{it}) iRe^{it}} \dt \\
+&=R \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}g(Re^{it})} \dt \\
+&\leq R M_R \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}} \dt \\
+&= R M_R \int_{[0, \pi]} e^{\Re\qty{iaRe^{it}}}   \dt \\
+&= R M_R \int_{[0, \pi]} e^{\Re\qty{iaR\qty{\cos(t) + i\sin(t) } }}   \dt \\
+&= R M_R \int_{[0, \pi]} e^{-aR\sin(t) }   \dt \\
+&= 2 R M_R \int_{[0, \pi/2]} e^{-aR\sin(t) }   \dt \\
+&\leq 2R M_R \int_{[0, \pi/2]} e^{-aR\qty{2t\over \pi} }   \dt \\
+&= 2RM_R \qty{\pi \over 2aR}\qty{1-e^{-aR}} \\
+&= {\pi M_R \over a}
+.\]
+
+where we've used that on $[0, \pi/2]$, there is an inequality $2t/\pi \leq \sin(t)$.
+This is obvious from a picture, since $\sin(t)$ is a height on $S^1$ and $2t/\pi$ is a height on a diagonal line:
+
+![figures/image_2021-06-09-01-29-22.png](figures/image_2021-06-09-01-29-22.png)
+
+:::
 
 :::{.exercise title="Applying Jordan's lemma"}
 Compute
@@ -460,7 +485,6 @@ Compute
 #completed
 
 :::
-
 
 :::{.solution}
 Note that the ML bound is not sufficient to bound a semicircular contour:
@@ -508,45 +532,3 @@ Thus
 I = \Im(i\pi) = \pi
 .\]
 :::
-
-
-
-
-:::{.example title="of how to apply Jordan's lemma"}
-Show that
-\[
-\int_\RR {\sin(x) \over x} \dx = \pi
-.\]
-For a contour, take the indented half-disc, and set $f(z) = e^{iz}/z$:
-
-- For the innermost disc, use the fractional residue formula to get $-\pi i$ since $\Res_{z=0}f(z) = 1$
-- For the arc $\Gamma_R$, apply Jordan:
-
-
-
-:::
-
-:::{.proof title="?"}
-\[
-\abs{ \int_{C_R} f(z)\dz }
-&= \abs{ \int_{C_R} e^{iaz}g(z) \dz} \\
-&= \abs{ \int_{[0, \pi]} e^{ia\qty{Re^{it}}}g(Re^{it}) iRe^{it} \dt} \\
-&\leq \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}g(Re^{it}) iRe^{it}} \dt \\
-&=R \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}g(Re^{it})} \dt \\
-&\leq R M_R \int_{[0, \pi]} \abs{ e^{ia\qty{Re^{it}}}} \dt \\
-&= R M_R \int_{[0, \pi]} e^{\Re\qty{iaRe^{it}}}   \dt \\
-&= R M_R \int_{[0, \pi]} e^{\Re\qty{iaR\qty{\cos(t) + i\sin(t) } }}   \dt \\
-&= R M_R \int_{[0, \pi]} e^{-aR\sin(t) }   \dt \\
-&= 2 R M_R \int_{[0, \pi/2]} e^{-aR\sin(t) }   \dt \\
-&\leq 2R M_R \int_{[0, \pi/2]} e^{-aR\qty{2t\over \pi} }   \dt \\
-&= 2RM_R \qty{\pi \over 2aR}\qty{1-e^{-aR}} \\
-&= {\pi M_R \over a}
-.\]
-
-where we've used that on $[0, \pi/2]$, there is an inequality $2t/\pi \leq \sin(t)$.
-This is obvious from a picture, since $\sin(t)$ is a height on $S^1$ and $2t/\pi$ is a height on a diagonal line:
-
-![figures/image_2021-06-09-01-29-22.png](figures/image_2021-06-09-01-29-22.png)
-
-:::
-
