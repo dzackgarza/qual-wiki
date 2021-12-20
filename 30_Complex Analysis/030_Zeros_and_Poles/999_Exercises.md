@@ -30,8 +30,18 @@ Note that $z=0$ is a zero of order $n=2$ of $1/f(z)$, since $1/f(z) = z^2h(z)$ w
 Thus $z=0$ is a pole of order $n=2$ of $f$.
 The residue is computed as
 \[
-\Res_{z=0} f(z) = {1\over (1-1)!} \lim_{z\to 0} \dd{}{z} (z-0)^2f(z) = \dd{}{z} {z^3+1\over (z+1)}\evalfrom_{z=0}
+\Res_{z=0} f(z) 
+&= {1\over (1-1)!} \lim_{z\to 0} \dd{}{z} (z-0)^2f(z) \\
+&= \dd{}{z} {z^3+1\over z+1}\evalfrom_{z=0} \\
+&= \qty{ {3z^2\over z+1} - {(z^3+1)\cdot 1\over (z+1)^2} }\evalfrom_{z=0} \\
+&= -1
 .\]
+
+Alternatively, expand as a Laurent series about $z=0$:
+\[
+f(z) = z^{-2}(z^3 + 1) {1\over 1+z} = (z + z^{-2})\sum_{k\geq 0}z^k
+.\]
+
 
 :::
 
