@@ -326,15 +326,20 @@ For a Laurent expansion about $z=0$, note
 .\]
 and
 \[
-{1\over z^2-\pi^2} 
-&= - {1\over \pi^2} {1\over 1 - \qty{z\over \pi}^2 } \\
-&= -{1\over \pi^2}\sum_{k\geq 0}\qty{z\over \pi}^{2k} \\
-&= -{1\over \pi^2}\qty{1 + {1\over \pi^2} z^2 + {1\over \pi^4}z^4 + \bigo(z^6) } \\
-&= -{1\over \pi^2} -{1\over \pi^4}z^2 - {1\over \pi^6} z^4 - \bigo(z^6)
+{2z\over z^2-\pi^2} 
+&= - {2z\over \pi^2} {1\over 1 - \qty{z\over \pi}^2 } \\
+&= -{2z\over \pi^2}\sum_{k\geq 0}\qty{z\over \pi}^{2k} \\
+&= -{2z\over \pi^2}\qty{1 + {1\over \pi^2} z^2 + {1\over \pi^4}z^4 + \bigo(z^6) } \\
+&= -{2\over \pi^2}z -{2\over \pi^4}z^3 - {2\over \pi^6} z^5 - \bigo(z^7)
 ,\]
 so
 \[
-f(z) = 
+f(z) &= 
+\qty{z\inv - {1\over 6}z + {7\over 360}z^3 + \bigo(z^5)}
++
+\qty{-{2\over \pi^2}z -{2\over \pi^4}z^3 - {2\over \pi^6} z^5 - \bigo(z^7)}
+- z\inv \\
+&= 
 .\]
 
 
