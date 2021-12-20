@@ -63,6 +63,43 @@ So the partial sums $S_N$ are continuous, and since $S_N\to f$ uniformly, $f$ is
 
 :::
 
+
+:::{.exercise title="Uniform limits of derivatives"}
+Suppose $f_k: \Omega\to \CC$ is a sequence of differentiable functions converging locally uniformly to $f:\Omega\to \CC$.
+Show that
+
+- $f$ is continuous,
+- $f$ is differentiable,
+- $\ts{f_k'}\to f'$ locally uniformly.
+
+#complete
+
+:::
+
+
+:::{.solution}
+That $f$ is continuous is a local question: fixing a point $z_0$, take a closed disc $\DD+z_0$ about $z_0$.
+By local uniform convergence $f_k\to f$ uniformly on $\DD+z_0$, and differentiable $\implies$ continuous.
+So each $f_k$ is continuous, making $f$ continuous on $\DD+z_0$ by the uniform limit theorem.
+
+That $f$ is differentiable is again a local question: fix $z$ and write $\gamma \da \bar{\DD + z}$ as the boundary of the disc about $z$.
+Define $g_k(\xi) \da {f_k\over \xi-z}$, so $g_k \to {f \over \xi-a}$ locally uniformly.
+Now apply Cauchy's integral formula at $z$:
+\[
+f(z) 
+&= \lim_k f_k(z) \\
+&= \lim_k {1\over 2\pi i}\int_\gamma {f_k(\xi) \over \xi - z}\dxi \\
+&= \lim_k {1\over 2\pi i}\int_\gamma g_k(\xi)\dxi\\
+&= {1\over 2\pi i}\int_\gamma \lim_k g_k(\xi)\dxi \\
+&= {1\over 2\pi i}\int_\gamma g(\xi)\dxi\\
+&= {1\over 2\pi i}\int_\gamma {f(\xi) \over \xi - z} \dxi\\
+.\]
+So $f$ has an integral representation, making it differentiable.
+
+:::
+
+
+
 ## Radius of Convergence 
 
 :::{.exercise title="Radius of convergence"}
