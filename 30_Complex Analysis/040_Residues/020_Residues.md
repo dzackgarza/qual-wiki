@@ -37,6 +37,72 @@ You may be able to just compute an integral!
 
 :::
 
+
+## Residue Formulas
+
+:::{.theorem title="The residue theorem"}
+Let $f$ be meromorphic on a region $\Omega$ with poles \( \ts{ \elts{z}{N} } \).
+Then for any $\gamma \in \Omega\sm \ts{ \elts{z}{N} }$, 
+\[
+{1 \over 2\pi i } \int_\gamma f(z) \dz = \sum_{j=1}^N n_\gamma(z_j) \Res_{z=z_j} f
+.\]
+If $\gamma$ is a toy contour with winding number 1 about each pole, then
+\[
+{1\over 2\pi i}\int_\gamma f\dz = \sum_{j=1}^N \Res_{z=z_j}f
+.\]
+
+:::
+
+:::{.theorem title="The residue formula"}
+If $f$ has a pole $z_0$ of order $n$, then
+\[  
+\Res_{z=z_0} f = \lim_{z\to z_0} {1 \over (n-1)!} \qty{\dd{}{z}}^{n-1} (z-z_0)^n f(z)
+.\]
+
+As a special case, if $z_0$ is a simple pole of $f$, then
+\[  
+\Res_{z=z_0}f = \lim_{z\to z_0} (z-z_0) f(z)
+.\]
+:::
+
+:::{.corollary title="Residue formula: simple poles of rational functions"}
+If additionally $f=g/h$ where $h(z_0) = 0$ and $h'(z_0)\neq 0$, 
+\[
+\Res_{z=z_0} {g(z) \over h(z)} = {g(z_0) \over h'(z_0)}
+.\]
+
+Note that if $f(z) = 1/h(z)$ and $z_0$ is a simple pole, this reduces to
+\[
+\Res_{z=z_0}{1\over h(z)} = {1\over h'(z_0)}
+.\]
+
+:::
+
+:::{.proof title="Of derivative formula for simple poles"}
+Apply L'Hopital:
+\[
+(z-z_0) {g(z) \over h(z)} = {(z-z_0) g(z) \over h(z) } \equalsbecause{LH}
+{g(z) + (z-z_0) g'(z) \over h'(z)} \converges{z\to z_0}\too {g(z_0) \over h'(z_0)}
+.\]
+:::
+
+:::{.theorem title="Residue formula: poles at infinity"}
+\[
+\Res_{z=\infty}f(z) = \Res_{z=0} g(z) && g(z) \da -{1 \over z^2}f\qty{1\over z} 
+.\]
+:::
+
+:::{.theorem title="Residue formula: fractional residues"}
+If $z_0$ is an order 1 pole of $f$ and $\gamma_{\eps, \theta}$ is an arc of the circle $C_\eps \da \ts{ \abs{z-z_0} = \eps}$ subtending an angle of $\theta$, then
+\[
+\lim_{\eps\to 0} \int_{\gamma_{\eps, \theta}} f(z) \dz  = i\theta \Res_{z = z_0}f(z)
+.\]
+:::
+
+## Residue Exercises
+
+### Avoiding Residue Formulas
+
 :::{.exercise title="Integrating $z^k$ around $S^1$ is the source of residue theory"}
 Show that
 \[
@@ -52,6 +118,9 @@ and thus
 \int \sum_{k\geq -M} c_k z^k = \sum_{k\geq -M} \int c_k z^k = 2\pi i c_{-1}
 ,\]
 i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansion.
+
+#completed
+
 :::
 
 :::{.solution}
@@ -113,7 +182,6 @@ Compute
 \[
 \int_{S^1} {2 \sinh(z) \over z^n}\dz
 .\]
-
 
 #completed
 
@@ -181,69 +249,6 @@ Thus
 
 :::
 
-## Residue Formulas
-
-:::{.theorem title="The residue theorem"}
-Let $f$ be meromorphic on a region $\Omega$ with poles \( \ts{ \elts{z}{N} } \).
-Then for any $\gamma \in \Omega\sm \ts{ \elts{z}{N} }$, 
-\[
-{1 \over 2\pi i } \int_\gamma f(z) \dz = \sum_{j=1}^N n_\gamma(z_j) \Res_{z=z_j} f
-.\]
-If $\gamma$ is a toy contour with winding number 1 about each pole, then
-\[
-{1\over 2\pi i}\int_\gamma f\dz = \sum_{j=1}^N \Res_{z=z_j}f
-.\]
-
-:::
-
-:::{.theorem title="The residue formula"}
-If $f$ has a pole $z_0$ of order $n$, then
-\[  
-\Res_{z=z_0} f = \lim_{z\to z_0} {1 \over (n-1)!} \qty{\dd{}{z}}^{n-1} (z-z_0)^n f(z)
-.\]
-
-As a special case, if $z_0$ is a simple pole of $f$, then
-\[  
-\Res_{z=z_0}f = \lim_{z\to z_0} (z-z_0) f(z)
-.\]
-:::
-
-:::{.corollary title="Residue formula: simple poles of rational functions"}
-If additionally $f=g/h$ where $h(z_0) = 0$ and $h'(z_0)\neq 0$, 
-\[
-\Res_{z=z_0} {g(z) \over h(z)} = {g(z_0) \over h'(z_0)}
-.\]
-
-Note that if $f(z) = 1/h(z)$ and $z_0$ is a simple pole, this reduces to
-\[
-\Res_{z=z_0}{1\over h(z)} = {1\over h'(z_0)}
-.\]
-
-:::
-
-:::{.proof title="Of derivative formula for simple poles"}
-Apply L'Hopital:
-\[
-(z-z_0) {g(z) \over h(z)} = {(z-z_0) g(z) \over h(z) } \equalsbecause{LH}
-{g(z) + (z-z_0) g'(z) \over h'(z)} \converges{z\to z_0}\too {g(z_0) \over h'(z_0)}
-.\]
-:::
-
-:::{.theorem title="Residue formula: poles at infinity"}
-\[
-\Res_{z=\infty}f(z) = \Res_{z=0} g(z) && g(z) \da -{1 \over z^2}f\qty{1\over z} 
-.\]
-:::
-
-:::{.theorem title="Residue formula: fractional residues"}
-If $z_0$ is an order 1 pole of $f$ and $\gamma_{\eps, \theta}$ is an arc of the circle $C_\eps \da \ts{ \abs{z-z_0} = \eps}$ subtending an angle of $\theta$, then
-\[
-\lim_{\eps\to 0} \int_{\gamma_{\eps, \theta}} f(z) \dz  = i\theta \Res_{z = z_0}f(z)
-.\]
-:::
-
-## Residue Exercises
-
 :::{.exercise title="Residues using partial fractions/principal parts"}
 Find all residues of the following function by writing it as a sum of principal parts at its poles:
 \[
@@ -280,11 +285,15 @@ yielding poles at $\pm i$ with residues
 
 :::
 
+### Applying the formulas
+
 :::{.exercise title="Residue of $1/z^2 + 1$"}
 Compute the residue at $z=i$ of
 \[
 f(z) \da {1\over z^2 + 1}
 .\]
+
+#completed
 :::
 
 :::{.solution}
@@ -300,6 +309,9 @@ Find the residue at $\zeta_m \da e^{2\pi i \over m}$ of
 \[
 f(z) = {1\over z^m + 1}
 .\]
+
+#completed 
+
 :::
 
 :::{.solution title="?"}
