@@ -121,7 +121,6 @@ Start by computing the first:
 .\]
 :::
 
-
 :::{.exercise title="Entire functions with poles at infinity"}
 Characterize all entire functions with a pole of order $m$ at $\infty$.
 
