@@ -509,12 +509,18 @@ Show that any power series converges uniformly within its radius of convergence.
 
 :::{.solution}
 Write $S_N(z) \da \sum_{0\leq k\leq N} c_k (z-z_0)^k$ and $S \da \lim_{N\to\infty} S_N$.
-Suppose $R$ is the radius of convergence and let $r\leq R$.
-Use the small tails characterization of convergent series: $\sum f_k$ converges if $\norm{f_k}_\infty\to 0$.
+Suppose $R$ is the radius of convergence and let $r\leq R$, we'll show $S_N\to S$ uniformly on any disc $\abs{z-z_0}\leq r$.
+
+Use $M\dash$test: $\sum f_k$ converges if $\norm{f_k}_\infty\leq M_k$ where $\sum M_k < \infty$.
 Define $f_k \da c_k (z-z_0)^k$, then 
 \[
-\norm{f_k}_\infty =\sup_{\abs{z-z_0}\leq R} \abs{c_k(z-z_0)^k} \leq \abs{c_k} R^k \da M_k
+\norm{f_k}_\infty =\sup_{\abs{z-z_0}\leq r} \abs{c_k(z-z_0)^k} \leq \abs{c_k} r^k \da M_k
 .\]
+Then
+\[
+\sum_{k\geq 0} M_k = \sum_{k\geq 0} \abs{c_k} r^k
+.\]
+
 :::
 
 
