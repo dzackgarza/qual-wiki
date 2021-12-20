@@ -190,8 +190,16 @@ Apply L'Hopital:
 .\]
 :::
 
-:::{.example title="?"}
-Let $f(z) \da {1\over x^n + 1}$, then factor $z^n+1 = \prod_{k=1}^n (z-\zeta_m^k)$ where $m\da 2n$, and apply the formula:
+
+:::{.exercise title="Residues of $1/z^m+1$"}
+Find the residue at $\zeta_m \da e^{2\pi i \over m}$ of
+\[
+f(z) = {1\over z^m + 1}
+.\]
+:::
+
+:::{.solution title="?"}
+Factor $z^n+1 = \prod_{k=1}^n (z-\zeta_m^k)$ where $m\da 2n$, and apply the residue formula:
 \[
 \Res_{z=\zeta_{m}} {1\over z^n + 1} = {1 \over nz^{n-1}}\evalfrom_{z=\zeta_m} = {1\over n\zeta_m^{n-1}}
 = {\zeta_m^{1-n}\over n}
