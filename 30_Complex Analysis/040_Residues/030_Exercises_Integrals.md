@@ -68,7 +68,7 @@ A summary of techniques:
 :::{.exercise title="$x/(x^2+4x+13)^2$"}
 
 \[
-\int_\RR {x\over (x^2 + 4x+13)^2}\dx
+I\da \int_\RR {x\over (x^2 + 4x+13)^2}\dx
 .\]
 
 #completed
@@ -82,11 +82,11 @@ Factor the denominator:
 x^2 + 4x + 13 = 0 
 &\implies x^2 + 4x + \qty{4\over 2}^2 = -13 + \qty{4\over 2}^2 \\
 &\implies (x+2)^2 = -9 \\
-&\implies x + -2 \pm 3i
+&\implies x = -2 \pm 3i
 ,\]
 one of which is in $\HH$.
 Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
-A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so
+A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so using the reverse triangle inequality,
 \[
 \abs{z\over (z^2 + 4z + 13)^2} 
 &= \abs{z\over z^4 + 8z^3 + 42z^2 + 104z + 169}\\
@@ -95,8 +95,22 @@ A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so
 &= \abs{z\over \abs{z}^4( 1 - 8 - 42 - 104 - 169)}\\
 &= 322 {\abs{z} \over \abs{z}^4} \\
 &= 322 \abs{z}^{-3} \\
-&= 322 R^{-3}
+&= 322 R^{-3} \to 0 \text{ as } R\to\infty
 .\]
+
+So let $C_1 = [-R,R]$, $C_2 = \ts{Re^{it} \st t\in [0, \pi]}$, $\Gamma = C_1 + C_2$, then
+\[
+2\pi i \sum_{z_k\in \HH} \Res_{z=z_k}f(z) = \int_\Gamma f = \qty{\int_{C_1} + \int_{C_2}}f
+,\]
+where $\int_{C_2} f\to 0$ and $\int_{C_1} f\to I$.
+So in the limit, 
+\[
+I &= \Res_{z=-2+3i} {z\over (z^2 + 4z + 13)^2 } \\
+&=\lim_{z\to -2+3i}
+{(z- (-2+3i)) z\over z^4 + 8z^3 + 42z^2 + 104z + 169}\\
+&= {1\over 4z^3 + 24z^2 + 42z + 104}\evalfrom_{z=-2+3i}
+.\]
+
 
 
 :::
