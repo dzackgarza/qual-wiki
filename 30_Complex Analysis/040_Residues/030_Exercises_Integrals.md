@@ -206,12 +206,12 @@ Extend to $\int_\RR$ using that $f$ is even.
 Set $z=e^{i\theta}$, so $\sin(\theta) = {z+z\inv\over 2i}$ and $\sin^2(\theta) = -{1\over 4}(z^{-2}-2+z^2)$.
 Then
 \[
-\int_{[-\pi, \pi]} {1\over 1 + \sin^2(\theta)} \dtheta
+I\da \int_{[-\pi, \pi]} {1\over 1 + \sin^2(\theta)} \dtheta
 &= \int_{S^1} {1\over 1 - {1\over 4}(z^{-2} -2 + z^2) } {1\over iz}\dz \\
 &= \int_{S^1} {-4i \over z(4-(z^{-2} -2 + z^2))}\dz \\
 &= \int_{S^1} {-4iz \over z^2(6-z^{-2} - z^2)}\dz \\
 &= \int_{S^1} {4iz \over z^4-6z^2+1}\dz \\
-&= \sum_{z_k\in \DD} \Res_{z=z_k} {4iz\over z^4-6z^2+1}
+&= 2\pi i \sum_{z_k\in \DD} \Res_{z=z_k} {4iz\over z^4-6z^2+1}
 .\]
 
 Factoring the denominator:
@@ -255,6 +255,10 @@ At $z_2$:
 &= -{i\over \sqrt 8}
 .\]
 
+Thus 
+\[
+I = 2\pi i \cdot -{2i\over \sqrt 8} = {4\pi \over \sqrt{8}}
+.\]
 :::
 
 
