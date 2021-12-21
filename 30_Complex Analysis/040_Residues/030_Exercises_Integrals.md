@@ -5,7 +5,6 @@ title: Residues for Integrals
 
 # Exercises: Integrals
 
-
 ## Rational Functions 
 
 ### Superlinear Decay
@@ -222,6 +221,12 @@ so
 I = {\pi \over e}
 .\]
 :::
+
+
+:::{.exercise title="$\cos(x) / i+x"}
+
+:::
+
 
 ## Trig in Numerator
 
