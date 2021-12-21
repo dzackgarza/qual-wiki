@@ -527,7 +527,24 @@ Now there are two cases:
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{a+b \cos \theta}=\frac{2 \pi}{\sqrt{a^{2}-b^{2}}}
 .\]
+
+#completed
+
 :::
+
+
+:::{.solution}
+The usual substitution: $z=e^{i\theta}, \dtheta = (iz)\inv \dz$.
+\[
+\int_{[0, 2\pi]} (a +b\cos(\theta))\inv \dtheta 
+&= \oint \qty{ a + {b\over 2}(z+z\inv)}\inv (iz)\inv \dz \\
+&= -i\oint \qty{ za + {b\over 2}(z^2 + 1)} \inv \dz \\
+&= -i \oint \qty{{b\over 2}z^2 + az + {b\over 2} }\inv \dz \\
+&= -{2i\over b} \oint \qty{z^2 + {2a\over b}z + 1}\inv \dz
+.\]
+
+:::
+
 
 ## Branch Cuts
 
