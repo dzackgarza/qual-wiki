@@ -62,6 +62,46 @@ A summary of techniques:
 
 ## Rational Functions 
 
+### Superlinear Decay
+
+
+:::{.exercise title="$x/(x^2+4x+13)^2$"}
+
+\[
+\int_\RR {x\over (x^2 + 4x+13)^2}\dx
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+Factor the denominator:
+\[
+x^2 + 4x + 13 = 0 
+&\implies x^2 + 4x + \qty{4\over 2}^2 = -13 + \qty{4\over 2}^2 \\
+&\implies (x+2)^2 = -9 \\
+&\implies x + -2 \pm 3i
+,\]
+one of which is in $\HH$.
+Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
+A quick justification: find a bound
+\[
+\abs{z\over (z^2 + 4z + 13)^2} 
+&= \abs{z\over z^4 + 8z^3 + 42z^2 + 104*z + 169}\\
+&= \abs{1\over z^3 + 8z^2 + 42z + 104 + 169z\inv} \\
+&\leq \abs{1\over \abs{z}^3 - 8\abs{z}^2 - 42\abs{z} - 104 - 169\abs{z}\inv} \\
+&\leq \abs{1\over \abs{z}^3 - 8\abs{z}^3 - 42\abs{z}^3 - 104\abs{z}^3 - 169\abs{z}\inv} \\
+&= \abs{1\over \abs{z}^3(1 - 8 - 42 - 104) - 169\abs{z}\inv} \\
+&= \abs{1\over -153\abs{z}^3 - 169\abs{z}\inv} \\
+.\]
+
+
+:::
+
+
+
 :::{.exercise title="$1/(1+x^2)^2$"}
 \[
 \int_\RR {1 \over (1+x^2)^2} = {\pi \over 2}
