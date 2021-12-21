@@ -45,6 +45,14 @@ Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then c
 ## Algebra
 
 
+:::{.remark}
+Some useful numerology:
+
+- $\sqrt{2} \approx 1.4142$
+- $\sqrt{3} \approx 1.732$
+:::
+
+
 :::{.fact title="Completing the square"}
 \[
 x^2 + bx + c = 0 
