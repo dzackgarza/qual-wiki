@@ -223,9 +223,31 @@ I = {\pi \over e}
 :::
 
 
-:::{.exercise title="$\cos(x) / i+x"}
+:::{.exercise title="$\cos(x) / i+x$"}
+\[
+I \da \int_\RR {\cos(x) \over x+i}\dx
+.\]
+
+#work
 
 :::
+
+
+:::{.solution}
+
+:::
+
+
+:::{.exercise title="$xe^{2ix}/x^2-1$ "}
+\[
+I \da \int_\RR {xe^{2ix} \over x^2-1}\dx
+.\]
+
+#work
+
+:::
+
+
 
 
 ## Trig in Numerator
