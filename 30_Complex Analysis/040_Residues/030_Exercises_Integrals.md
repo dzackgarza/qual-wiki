@@ -407,7 +407,7 @@ I
 .\]
 :::
 
-## Trig in Denominator
+## Rational functions of $\cos, \sin$
 
 :::{.exercise title="$1/1+\sin^2$"}
 \[
@@ -478,7 +478,6 @@ I = 2\pi i \cdot -{2i\over \sqrt 8} = {4\pi \over \sqrt{8}}
 :::
 
 :::{.exercise title="$1/1+a^2+\cos(\theta)$"}
-#work
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{1+a^{2}-2 a \cos (\theta)}
 = \begin{cases}\frac{2 \pi}{a^{2}-1} & \text { if }|a|>1 \\ \frac{2 \pi}{1-a^{2}} & \text { if }|a|<1\end{cases}
@@ -486,10 +485,13 @@ I = 2\pi i \cdot -{2i\over \sqrt 8} = {4\pi \over \sqrt{8}}
 :::
 
 :::{.solution}
-Write $2\cos(z) = z + z\inv$ on $S^1$ to get
+The usual substitution: $z=e^{i\theta}, \dz = (iz)\dtheta$.
 \[
-=\int_{|z|=1} \frac{1}{i\left(\left(1+a^{2}\right) z-a\left(z^{2}+1\right)\right)} d z
+\int_{[0, 2\pi]} \qty{a^2 - 2a\cos(\theta) + 1}\inv \dtheta
+&= \oint \qty{a^2-2(z+z\inv) + 1}\inv (iz)\inv \dz \\
+&= -i\oint \qty{za^2 - a(z^2+1) +z}\inv \dz
 .\]
+
 
 :::
 
