@@ -558,6 +558,8 @@ r_1 &\da b\inv\qty{-a + \sqrt{a^2-b^2}} \\
 r_2 &\da b\inv\qty{-a - \sqrt{a^2-b^2}} 
 .\]
 
+Since $r_1 r_2 = 1$ and thus $\abs{r_1 r_2} = 1$, only one root is in $\DD$.
+
 
 :::
 
