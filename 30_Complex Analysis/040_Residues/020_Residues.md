@@ -93,6 +93,8 @@ Apply L'Hopital:
 \[
 \Res_{z=\infty}f(z) = \Res_{z=0} g(z) && g(z) \da -{1 \over z^2}f\qty{1\over z} 
 .\]
+
+Note on where this weird formula comes from: residues are associated not to function $f$ but to *differential forms* $f(z)\dz$, and inversion sends $f(z) \dz\to f(1/z)d(1/z) = f(1/z)\cdot -{1\over z^2}\dz$.
 :::
 
 :::{.theorem title="Residue formula: fractional residues"}
@@ -390,6 +392,12 @@ which follows from expanding
 \omega_n^{1-n} = e^{i\pi (1-n) \over n} =  e^{i\pi\over n}e^{-i\pi n \over n} = e^{i\pi \over n}\cdot (-1) = -\omega_n
 .\].
 :::
+
+
+:::{.exercise title="Residues at $\infty$"}
+
+:::
+
 
 ## Estimates
 
