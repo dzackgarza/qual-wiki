@@ -258,10 +258,9 @@ I
 I \da \int_\RR {xe^{2ix} \over x^2-1}\dx
 .\]
 
-#work
+#completed
 
 :::
-
 
 :::{.solution}
 Factor the denominator as $(z-1)(z+1)$, then there are two poles of order 1 on $\RR$.
@@ -289,13 +288,25 @@ which converge to the fractional residues at $z=\pm 1$.
 \[
 \int_{C_2} 
 &\to \pi i \Res_{z=-1} f(z) \\\
+&= \pi i \lim_{z\to -1} {e^{2iz} \over z-1} \\
+&= \pi i {e^{-2i} \over 2}
 .\]
 
+For $z=-1$:
+\[
+\int_{C_4} 
+&\to \pi i \Res_{z=1} f(z) \\\
+&= \pi i \lim_{z\to 1} {e^{2iz} \over z+1} \\
+&= \pi i {e^{2i} \over 2}
+.\]
+So
+\[
+I 
 
-
-
+&= \pi i {e^{-2i} \over 2} + \pi i {e^{2i}\over 2} \\
+&=\pi i \cos(2)
+.\]
 :::
-
 
 ## Trig in Numerator
 
