@@ -163,7 +163,7 @@ where we've used a variant of the triangle inequality:
 
 :::
 
-:::{.exercise title="$1/x^4+1$"}
+:::{.exercise title="$1/x^4+1$, balancing exponentials"}
 \[
 \int_\RR {1 \over x^4 + 1} = {\pi \sqrt{2} \over 2}
 .\]
@@ -182,10 +182,25 @@ so
 \[
 z^4 + 1 = (z-\omega)(z-\omega\zeta_4)(z-\omega\zeta_4^2)(z-\omega\zeta_4^3) \leadsto {\pi \over 4}, {3\pi \over 4}, {5\pi \over 4}, {7\pi \over 4}
 .\]
-
-
+So there are two poles in $\HH$:
 
 ![figures/2021-07-29_18-41-05.png](figures/2021-07-29_18-41-05.png)
+
+Write them as $z_1 = e^{i\pi \over 4}$ and $z_2 = e^{3 i \pi \over 4}$.
+Computing the residues:
+\[
+\Res_{z=z_k} f(z) 
+= {4z^3}\evalfrom_{z=z_k}
+,\]
+so
+\[
+2\pi i \sum \Res_{z=z_k} 
+&= {2\pi i \over 4}\qty{z_1^{-3} + z_2^{-3}} \\
+&= {2\pi i \over 4}\qty{e^{-3 i \pi \over 4} + z_2^{-9 i \pi \over 4}} \\
+&= {2\pi i \over 4}\qty{e^{-3 i \pi \over 4} + z_2^{-i \pi \over 4}} \\
+.\]
+
+
 
 :::
 
