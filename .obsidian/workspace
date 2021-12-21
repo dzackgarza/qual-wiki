@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fac2a65aac3ba4b2",
+        "id": "6812191371727805",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -78,7 +75,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -138,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +159,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -254,7 +246,7 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "fac2a65aac3ba4b2",
+  "active": "6812191371727805",
   "lastOpenFiles": [
     "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
