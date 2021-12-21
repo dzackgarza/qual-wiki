@@ -543,8 +543,11 @@ The usual substitution: $z=e^{i\theta}, \dtheta = (iz)\inv \dz$.
 &= -{2i\over b} \oint \qty{z^2 + {2a\over b}z + 1}\inv \dz \\
 &= -{2i\over b}\oint (z-r_1)\inv (z-r_2)\inv \dz
 ,\]
-where
-
+where the roots can just be found using the quadratic formula
+\[
+z_k = {1\over 2} \qty{-{2a\over b} \pm \sqrt{\qty{2a\over b}^2 - 4}}
+.\]
+Thus
 \[
 r_1 &\da b\inv\qty{-a + \sqrt{a^2-b^2}} \\
 r_2 &\da b\inv\qty{-a - \sqrt{a^2-b^2}} 
