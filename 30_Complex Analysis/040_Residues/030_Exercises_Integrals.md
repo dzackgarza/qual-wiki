@@ -558,9 +558,22 @@ r_1 &\da b\inv\qty{-a + \sqrt{a^2-b^2}} \\
 r_2 &\da b\inv\qty{-a - \sqrt{a^2-b^2}} 
 .\]
 
-Since $r_1 r_2 = 1$ and thus $\abs{r_1 r_2} = 1$, only one root is in $\DD$.
+Since $r_1 r_2 = 1$ and thus $\abs{r_1 r_2} = 1$, only one root is in $\DD$ and this yields one simple pole.
 Assume $a>b$.
-Note that for $r_2$, $\abs{a/b} > 1$ and $\abs{a^2-b^2}>0$, so $r_2 \approx -1 - \eps < 1$, so $r_1\in \DD$.
+Note that for $r_2$, $\abs{a/b} > 1$ and $\abs{a^2-b^2}>0$, so $r_2 \approx -1 - \eps < -1$, so $r_1\in \DD$.
+Computing the residue here:
+\[
+\Res_{z=r_1} (z-r_1)\inv (z-r_2)\inv 
+&= (z-r_2)\inv \evalfrom_{z=r_1} \\
+&= (r_1 - r_2)\inv \\
+&= \qty{2b\inv \sqrt{a^2-b^2} }\inv
+,\]
+so 
+\[
+I = 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}}
+.\]
+
+
 
 
 :::
