@@ -85,7 +85,7 @@ x^2 + 4x + 13 = 0
 &\implies x + -2 \pm 3i
 ,\]
 one of which is in $\HH$.
-Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{-3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
+Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
 A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so
 \[
 \abs{z\over (z^2 + 4z + 13)^2} 
