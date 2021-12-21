@@ -222,16 +222,14 @@ I = {\pi \over e}
 .\]
 :::
 
-
 :::{.exercise title="$\cos(x) / i+x$"}
 \[
 I \da \int_\RR {\cos(x) \over x+i}\dx
 .\]
 
-#work
+#completed
 
 :::
-
 
 :::{.solution}
 Use $\cos(z) = {1\over 2}(e^{iz} + e^{-iz})$ to decompose into two integrals:
@@ -254,14 +252,6 @@ I
 :::
 
 
-:::{.exercise title="$xe^{2ix}/x^2-1$ "}
-\[
-I \da \int_\RR {xe^{2ix} \over x^2-1}\dx
-.\]
-
-#work
-
-:::
 
 
 
