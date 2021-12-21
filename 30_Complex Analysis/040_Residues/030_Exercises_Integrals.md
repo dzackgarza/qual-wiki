@@ -85,6 +85,11 @@ x^2 + 4x + 13 = 0
 &\implies x = -2 \pm 3i
 ,\]
 one of which is in $\HH$.
+Write these as 
+\[
+z_1 \da -2+3i && z_2 \da -2 - 3i
+.\]
+
 Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
 A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so using the reverse triangle inequality,
 \[
@@ -103,13 +108,24 @@ So let $C_1 = [-R,R]$, $C_2 = \ts{Re^{it} \st t\in [0, \pi]}$, $\Gamma = C_1 + C
 2\pi i \sum_{z_k\in \HH} \Res_{z=z_k}f(z) = \int_\Gamma f = \qty{\int_{C_1} + \int_{C_2}}f
 ,\]
 where $\int_{C_2} f\to 0$ and $\int_{C_1} f\to I$.
-So in the limit, 
+So in the limit, $I = \Res_{z=z_1} f(z)$.
+Computing this residue: note $z_1$ is a pole of order 2, so
 \[
-I &= \Res_{z=-2+3i} {z\over (z^2 + 4z + 13)^2 } \\
-&=\lim_{z\to -2+3i}
-{(z- (-2+3i)) z\over z^4 + 8z^3 + 42z^2 + 104z + 169}\\
-&= {1\over 4z^3 + 24z^2 + 42z + 104}\evalfrom_{z=-2+3i}
+\Res_{z=z_1} 
+&= \lim_{z\to z_1} \dd{}{z} (z-z_1)^2f(z)
+&= \lim_{z\to z_1} \dd{}{z} {z \over (z-z_2)^2} \\
+&= \lim_{z\to z_1} { (z-z_2)^2 - 2z(z-z_2 ) \over (z-z_2)^4} \\
+&= \lim_{z\to z_1} { (z-z_2) - 2z \over (z-z_2)^3} \\
+&= \lim_{z\to z_1} -{ z+z_2 \over (z-z_2)^3} \\
+&= - {z_1 + z_2 \over (z_1 - z_2)^2}\\
+&= - {z_1 + \bar{z_1} \over (z_1 - \bar{z_1} )^2}\\
+&= - {2\Re(z_1) \over (2i\Im(z_1))^3} \\
+&= - {2\cdot (-2) \over (2i\cdot 3) ^3} \\
+&= {4\over 2^3 \cdot 3^3 \cdot i^3} \\
+&= {-i \over 2 \cdot 3^3 i^2} \\
+&= {i\over 54}
 .\]
+
 
 
 
