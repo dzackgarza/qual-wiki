@@ -182,7 +182,7 @@ so
 \[
 z^4 + 1 = (z-\omega)(z-\omega\zeta_4)(z-\omega\zeta_4^2)(z-\omega\zeta_4^3) \leadsto {\pi \over 4}, {3\pi \over 4}, {5\pi \over 4}, {7\pi \over 4}
 .\]
-So there are two poles in $\HH$:
+So there are two simple poles in $\HH$:
 
 ![figures/2021-07-29_18-41-05.png](figures/2021-07-29_18-41-05.png)
 
@@ -190,7 +190,9 @@ Write them as $z_1 = e^{i\pi \over 4}$ and $z_2 = e^{3 i \pi \over 4}$.
 Computing the residues:
 \[
 \Res_{z=z_k} f(z) 
-= {4z^3}\evalfrom_{z=z_k}
+&= \lim_{z\to z_k} {z-z_k \over z^4 + 1} \\
+&\eqLH \lim_{z\to z_k} {1\over 4z^3} \\
+&= {4z^{-3} }\evalfrom_{z=z_k}
 ,\]
 so
 \[
