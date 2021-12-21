@@ -164,15 +164,26 @@ where we've used a variant of the triangle inequality:
 :::
 
 :::{.exercise title="$1/x^4+1$"}
-
-#work
-
 \[
 \int_\RR {1 \over x^4 + 1} = {\pi \sqrt{2} \over 2}
 .\]
+
+#completed
+
 :::
 
 :::{.solution}
+The integrand $f\in \bigo\qty{1\over z^4} \subseteq \bigo\qty{1\over z^{1+\eps}}$, so a semicircular contour works.
+Factoring the denominator: find a principal root 
+\[
+\omega^4 = -1 = e^{i\pi} \implies \omega = e{i\pi\over 4}
+,\]
+so 
+\[
+z^4 + 1 = (z-\omega)(z-\omega\zeta_4)(z-\omega\zeta_4^2)(z-\omega\zeta_4^3) \leadsto {\pi \over 4}, {3\pi \over 4}, {5\pi \over 4}, {7\pi \over 4}
+.\]
+
+
 
 ![figures/2021-07-29_18-41-05.png](figures/2021-07-29_18-41-05.png)
 
