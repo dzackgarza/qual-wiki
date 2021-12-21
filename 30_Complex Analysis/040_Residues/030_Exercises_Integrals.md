@@ -495,6 +495,10 @@ The usual substitution: $z=e^{i\theta}, \dz = (iz)\dtheta$.
 &= {i\over a}\oint (z-a)\inv (z-a\inv)\inv \dz
 ,\]
 noting that ${a^2+a\over a} = a+a\inv$.
+Now there are two cases:
+
+- $\abs{a} < 1$: then $a\in \DD,a\inv\in \DD^c$, so there is a simple pole at $a$.
+- $\abs{a}> 1$: then $a\inv \in \DD, a\in \DD^c$ so there is a simple pole at $a\inv$.
 
 
 :::
