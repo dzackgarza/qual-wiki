@@ -5,6 +5,96 @@ title: Residues for Integrals
 
 # Residues for Integrals
 
+## Strategies
+
+
+:::{.remark title="Resources"}
+Some resources:
+
+- For guidelines for what techniques to use,
+[see this very detailed note](https://math.mit.edu/~jorloff/18.04/notes/topic9.pdf).
+
+- Some good computations [here](https://math.mit.edu/~jorloff/18.04/notes/topic9.pdf).
+
+:::
+
+:::{.remark title="Rational functions $f$ with $\deg(f) \leq -2$ or $f\sim 1/z^{1+\varepsilon}$ "}
+Semicircle. Always get 
+\[
+\int_\RR f = \sum_{z_0\in \HH} \Res_{z=z_0}f(z)
+.\]
+
+![figures/2021-07-29_18-37-57.png](figures/2021-07-29_18-37-57.png)
+:::
+
+:::{.remark title="Rational functions $f$ against a single $\sin$ or $\cos$, if $\deg(f) \geq -1$"}
+Semicircles. Realize 
+\[
+\int_\RR f(z)\cos(z) = \Re\qty{\int_\RR f(z)e^{iz}}
+.\]
+
+This works for $f(z)e^{iz}$ where $f(z) = p(z)/q(z)$ with $\deg q \geq \deg p+2$ by the ML estimate, or $\deg q \geq \deg p +1$ by Jordan's lemma.
+:::
+
+:::{.remark title="?"}
+
+
+:::
+
+:::{.remark title="?"}
+
+:::
+
+:::{.remark title="?"}
+
+:::
+
+:::{.remark title="?"}
+
+:::
+
+:::{.remark title="?"}
+
+:::
+
+
+:::{.remark}
+
+Let $\deg$ denote the $z\dash$adic valuation, so $\deg(p(x)/q(x)) = \deg(p) - \deg(q)$.
+A summary of techniques:
+
+
+- Rational functions in $z$:
+
+
+  -  $f(z) \sim 1/z$: rectangular contours.
+
+    ![figures/2021-07-29_18-38-24.png](figures/2021-07-29_18-38-24.png)
+    
+    - The relevant theorem: $f(z) \leq {M \over \abs{z} }$ for $\abs{z} \gg 0$ implies $\int_{C_R} f(z) e^{i\alpha z} \convergesto{R\to\infty} 0$ where for $\alpha>0$ take $C_R$ to be the left rectangular contour, and $\alpha>0$ take $C_R$ the right.
+
+- Rational functions of $\cos, \sin$:
+  - Set $z=e^{i\theta}$, then
+	\[
+	2\cos(z) = z + z\inv, \quad 2i\sin(z) = z - z\inv, && \dtheta = {\dz\over iz}
+	.\] 
+	Then $\int_{-\pi}^\pi f(\theta)\dtheta \to \int_{\abs{z} = 1} f(z) \dz$, which reduces to a residue count in $\DD$.
+	
+- $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int f \approx \Re\displaystyle\int (g(e^{iz}))$.
+
+- $\int_\RR f(x)\cos(x) = \Im(f(z)e^{iz})$ or $\int_\RR f(x)\sin x = \Im(f(z)e^{iz})$: use a semicircular contour, then if $f(re^{i\theta})\to 0$ uniformly as $r\to \infty$ for $0<\theta<\pi$, then just picks up the residues in $\HH$.
+
+- $\int_{\RR_{\geq 0}} f(x)x^\alpha$ for $\alpha$ rational with $\abs{\alpha} < 1$ 
+  - For $f$ rational with $\deg f\leq -2$, take a keyhole
+
+  ![](figures/2021-12-14_17-19-31.png)
+
+- $\int_{\RR_{\geq 0}} f(x) \log(x)$: indented semicircular contours
+
+![](figures/2021-12-14_17-20-48.png)
+
+:::
+
 :::{.remark}
 The reverse triangle shows up here often!
 \[
@@ -208,3 +298,5 @@ Thus
 I = \Im(i\pi) = \pi
 .\]
 :::
+
+
