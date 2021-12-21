@@ -6,9 +6,14 @@ order: 100
 
 :::{.fact title="Some useful facts about basic complex algebra"}
 \[
-z\bar z &= \abs{z}^2 && 
+z + \bar{z} &= 2\Re(z) 
+&& 
+z - \bar{z} = 2i\Im(z) \\
+z\bar z &= \abs{z}^2 
+&& 
 \Arg(z/w) = \Arg(z) - \Arg(w) \\
-\Re(z) &= { z + \bar z \over 2} && 
+\Re(z) &= { z + \bar z \over 2} 
+&& 
 \Im(z) = {z - \bar{z} \over 2i}
 .\]
 
