@@ -241,6 +241,25 @@ where we've used a variant of the triangle inequality:
 
 :::
 
+### Linear or sublinear decay
+
+
+:::{.exercise title="$x\sin(x)/1+x^2$"}
+\[
+I = \int_\RR {x\sin(x) \over 1 + x^2}\dx
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+Write $f(z) = {ze^{iz} \over 1+z^2}$, and note that $f\in \bigo\qty{1\over z}$, so the usual semicircular contour with the ML estimate won't work.
+:::
+
+
+
 ## Trig in Numerator
 
 :::{.exercise title="$\cos(x) / x^2 + b^2$"}
