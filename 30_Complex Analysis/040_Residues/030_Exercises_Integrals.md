@@ -545,7 +545,12 @@ The usual substitution: $z=e^{i\theta}, \dtheta = (iz)\inv \dz$.
 ,\]
 where the roots can just be found using the quadratic formula
 \[
-z_k = {1\over 2} \qty{-{2a\over b} \pm \sqrt{\qty{2a\over b}^2 - 4}}
+z_k 
+&= {1\over 2} \qty{-{2a\over b} \pm \sqrt{\qty{2a\over b}^2 - 4}} \\
+&= -{a\over b}\pm {1\over 2}\sqrt{{4a^2 \over b^2} - 4} \\
+&= -{a\over b}\pm \sqrt{{a^2 \over b^2} - 1} \\
+&= -{a\over b}\pm \sqrt{{a^2 - b^2 \over b^2}} \\
+&= -{a\over b}\pm {1\over b } \sqrt{{a^2 - b^2}} 
 .\]
 Thus
 \[
