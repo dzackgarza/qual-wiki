@@ -85,16 +85,17 @@ x^2 + 4x + 13 = 0
 &\implies x + -2 \pm 3i
 ,\]
 one of which is in $\HH$.
-Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
-A quick justification: find a bound
+Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{-3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
+A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so
 \[
 \abs{z\over (z^2 + 4z + 13)^2} 
-&= \abs{z\over z^4 + 8z^3 + 42z^2 + 104*z + 169}\\
-&= \abs{1\over z^3 + 8z^2 + 42z + 104 + 169z\inv} \\
-&\leq \abs{1\over \abs{z}^3 - 8\abs{z}^2 - 42\abs{z} - 104 - 169\abs{z}\inv} \\
-&\leq \abs{1\over \abs{z}^3 - 8\abs{z}^3 - 42\abs{z}^3 - 104\abs{z}^3 - 169\abs{z}\inv} \\
-&= \abs{1\over \abs{z}^3(1 - 8 - 42 - 104) - 169\abs{z}\inv} \\
-&= \abs{1\over -153\abs{z}^3 - 169\abs{z}\inv} \\
+&= \abs{z\over z^4 + 8z^3 + 42z^2 + 104z + 169}\\
+&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^3 - 42\abs{z}^2 - 104\abs{z} - 169}\\
+&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^4 - 42\abs{z}^4 - 104\abs{z}^4 - 169\abs{z}^4}\\
+&= \abs{z\over \abs{z}^4( 1 - 8 - 42 - 104 - 169)}\\
+&= 322 {\abs{z} \over \abs{z}^4} \\
+&= 322 \abs{z}^{-3} \\
+&= 322 R^{-3}
 .\]
 
 
