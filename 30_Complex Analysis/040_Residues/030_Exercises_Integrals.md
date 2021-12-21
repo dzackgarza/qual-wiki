@@ -196,9 +196,11 @@ so
 \[
 2\pi i \sum \Res_{z=z_k} 
 &= {2\pi i \over 4}\qty{z_1^{-3} + z_2^{-3}} \\
-&= {2\pi i \over 4}\qty{e^{-3 i \pi \over 4} + z_2^{-9 i \pi \over 4}} \\
+&= {2\pi i \over 4}\qty{e^{-3 i \pi \over 4} + e^{-9 i \pi \over 4}} \\
 &= {\pi i \over 2}\qty{e^{-3 i \pi \over 4} + e^{-i \pi \over 4}} \\
 &= {\pi i \over 2}\cdot e^{-2i\pi \over 4}\qty{e^{- i \pi \over 4} + e^{i \pi \over 4}} \\
+&= \pi i\, {1\over i} \cos\qty{\pi \over 4} \\
+&= {\pi \sqrt 2 \over 2}
 .\]
 
 
