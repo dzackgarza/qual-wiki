@@ -5,60 +5,6 @@ title: Residues for Integrals
 
 # Exercises: Integrals
 
-## Strategies
-
-:::{.remark}
-For guidelines for what techniques to use,
-[see this very detailed note](https://math.mit.edu/~jorloff/18.04/notes/topic9.pdf).
-
-Some good computations [here](https://math.mit.edu/~jorloff/18.04/notes/topic9.pdf).
-
-Let $\deg$ denote the $z\dash$adic valuation, so $\deg(p(x)/q(x)) = \deg(p) - \deg(q)$.
-A summary of techniques:
-
-- Rational functions in $z$ with $\deg(f) \leq -2$: 
-  Semicircle. Always get $\int_\RR f = \sum_{z_0\in \HH} \Res_{z=z_0}f(z)$.
-
-- Rational function in $z$ against a single $\sin$ or $\cos$:
-  - Semicircles. Realize $\int_\RR f(z)\cos(z) = \Re\qty{\int_\RR f(z)e^{iz}}$.
-
-![](figures/2021-12-10_18-24-10.png)
-
-- Rational functions in $z$:
-
-  - $f(z) \sim 1/z^{1+\eps}$: semicircular contours.
-
-    ![figures/2021-07-29_18-37-57.png](figures/2021-07-29_18-37-57.png)
-    
-    - The relevant theorem: $f(z) \leq {M \over \abs{z}^{1+\eps} }$ for $\abs{z} \gg 0$ implies $\int_{C_R} f \convergesto{R\to\infty} 0$.
-
-  -  $f(z) \sim 1/z$: rectangular contours.
-
-    ![figures/2021-07-29_18-38-24.png](figures/2021-07-29_18-38-24.png)
-    
-    - The relevant theorem: $f(z) \leq {M \over \abs{z} }$ for $\abs{z} \gg 0$ implies $\int_{C_R} f(z) e^{i\alpha z} \convergesto{R\to\infty} 0$ where for $\alpha>0$ take $C_R$ to be the left rectangular contour, and $\alpha>0$ take $C_R$ the right.
-
-- Rational functions of $\cos, \sin$:
-  - Set $z=e^{i\theta}$, then
-	\[
-	2\cos(z) = z + z\inv, \quad 2i\sin(z) = z - z\inv, && \dtheta = {\dz\over iz}
-	.\] 
-	Then $\int_{-\pi}^\pi f(\theta)\dtheta \to \int_{\abs{z} = 1} f(z) \dz$, which reduces to a residue count in $\DD$.
-	
-- $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int f \approx \Re\displaystyle\int (g(e^{iz}))$.
-
-- $\int_\RR f(x)\cos(x) = \Im(f(z)e^{iz})$ or $\int_\RR f(x)\sin x = \Im(f(z)e^{iz})$: use a semicircular contour, then if $f(re^{i\theta})\to 0$ uniformly as $r\to \infty$ for $0<\theta<\pi$, then just picks up the residues in $\HH$.
-
-- $\int_{\RR_{\geq 0}} f(x)x^\alpha$ for $\alpha$ rational with $\abs{\alpha} < 1$ 
-  - For $f$ rational with $\deg f\leq -2$, take a keyhole
-
-  ![](figures/2021-12-14_17-19-31.png)
-
-- $\int_{\RR_{\geq 0}} f(x) \log(x)$: indented semicircular contours
-
-![](figures/2021-12-14_17-20-48.png)
-
-:::
 
 ## Rational Functions 
 
@@ -243,7 +189,6 @@ where we've used a variant of the triangle inequality:
 
 ### Linear or sublinear decay
 
-
 :::{.exercise title="$x\sin(x)/1+x^2$"}
 \[
 I = \int_\RR {x\sin(x) \over 1 + x^2}\dx
@@ -253,12 +198,30 @@ I = \int_\RR {x\sin(x) \over 1 + x^2}\dx
 
 :::
 
-
 :::{.solution}
 Write $f(z) = {ze^{iz} \over 1+z^2}$, and note that $f\in \bigo\qty{1\over z}$, so the usual semicircular contour with the ML estimate won't work.
+Writing $f(z) = e^{iz}g(z)$ where $g(z) \da {z\over 1 + z^2}$, we have $g\in \bigo\qty{1\over z} \to 0$ as $\abs{z}\to \infty$, so Jordan's lemma applies.
+Write $C_1 = [-R, R]$ and $C_R = \ts{Re^{it} \st t\in [0, \pi]}$, then
+\[
+\abs{\int_{C_R} e^{iz} g(z)\dz }\leq \pi M_R,\, \qquad M_R \da \sup_{z\in C_R}\abs{z\over 1+z^2}
+.\]
+Now use that ${z+1\over z^2}\leq M\abs{z}$ for $\abs{z}$ large enough to conclude this integral goes to zero.
+By the residue theorem,
+\[
+2\pi i \sum_{z_k\in \HH}\Res_{z=z_k}f(z) = \int_{C_1 + C_R} f = \qty{\int_{C_1} + \int_{C_R}}f \converges{R\to\infty} \int_{C_1} f = I
+,\]
+so it suffices to compute the residues of $f$.
+Check that $1+z^2 = (1+i)(1-i)$, so $z_1 = i \in \HH$ is a simple pole and
+\[
+2\pi i \Res_{z=i} f(z) 
+&= 2\pi i \lim_{z\to i} {e^{iz} \over z+i} \\
+&= 2\pi i {i\over 2ei} = {\pi \over e}
+,\]
+so
+\[
+I = {\pi \over e}
+.\]
 :::
-
-
 
 ## Trig in Numerator
 
