@@ -5,10 +5,10 @@ order: 50
 # Reference Info for Series 
 
 
-:::{.fact .title="Convenient notation"}
+:::{.fact title="Convenient notation"}
 Define $\rising{n}{k}$ to be the **rising factorial**
 \[
-\rising{n}{k} = n(n+1)(n+2) \cdots (n+(k-1))
+\rising{n}{k} = n(n+1)(n+2) \cdots (n+(k-1)) = k! {n+k-1\choose k}
 ,\]
 which has exactly $k$ terms.
 Some useful identities:
@@ -19,7 +19,7 @@ Some useful identities:
 
 Similarly define the **falling factorial**
 \[
-\falling{n}{k} = n(n-1)(n-2)\cdots(n-(k-1))
+\falling{n}{k} = n(n-1)(n-2)\cdots(n-(k-1)) = k!{n\choose k}
 ,\]
 which again has $k$ terms.
 \[
@@ -27,7 +27,10 @@ which again has $k$ terms.
 {\falling{n}{k} \over k!} &= {n\choose k}
 .\]
 
-
+Where this comes up most often:
+\[
+\qty{\dd{}{z}}^k z^n = \falling{n}{k} z^{n-k}
+.\]
 
 
 :::
