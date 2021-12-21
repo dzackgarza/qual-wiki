@@ -36,7 +36,7 @@ Where this comes up most often:
 :::{.fact title="Generalized Binomial Theorem"}
 Extend the binomial coefficients to negative numbers in the following way:
 \[
-k!{-n \choose k} &\da (-n)(-(n+1))\cdots (-(n + (k-1))) = (-1)^k {n+k-1 \choose k}
+{-n \choose k} &\da (-n)(-(n+1))\cdots (-(n + (k-1))) \cdot {1\over k!} = (-1)^k {n+k-1 \choose k}
 .\]
 Then
 \[
