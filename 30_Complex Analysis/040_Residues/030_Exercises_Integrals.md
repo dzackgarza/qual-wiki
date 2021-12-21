@@ -208,8 +208,8 @@ I
 &= \qquad \vdots \\
 &= 2\pi i \lim_{z\to i}{1\over n!}\qty{\dd{}{z}}^{n-k} (-1)^k (n+1)(n+2)\cdots(n+k) (z+i)^{-(n+k-1)} \\
 &= \qquad \vdots \\
-&= 2\pi i \lim_{z\to i} (-1)^n (n+1)(n+2)\cdots(2n)(z+i)^{-(2n-1)} \\
-&= 2\pi i \falling{2n}{n} (-1)^n (2i)^{-(2n-1)} 
+&= 2\pi i \lim_{z\to i} {1 \over n!}(-1)^n (n+1)(n+2)\cdots(2n)(z+i)^{-(2n-1)} \\
+&= { \falling{2n}{n} \over n!} 2\pi i (-1)^n (2i)^{-(2n-1)} 
 .\]
 
 :::
