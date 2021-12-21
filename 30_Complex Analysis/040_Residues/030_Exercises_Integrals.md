@@ -559,6 +559,8 @@ r_2 &\da b\inv\qty{-a - \sqrt{a^2-b^2}}
 .\]
 
 Since $r_1 r_2 = 1$ and thus $\abs{r_1 r_2} = 1$, only one root is in $\DD$.
+Assume $a>b$.
+Note that for $r_2$, $\abs{a/b} > 1$ and $\abs{a^2-b^2}>0$, so $r_2 \approx -1 - \eps < 1$, so $r_1\in \DD$.
 
 
 :::
