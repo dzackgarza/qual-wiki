@@ -540,8 +540,16 @@ The usual substitution: $z=e^{i\theta}, \dtheta = (iz)\inv \dz$.
 &= \oint \qty{ a + {b\over 2}(z+z\inv)}\inv (iz)\inv \dz \\
 &= -i\oint \qty{ za + {b\over 2}(z^2 + 1)} \inv \dz \\
 &= -i \oint \qty{{b\over 2}z^2 + az + {b\over 2} }\inv \dz \\
-&= -{2i\over b} \oint \qty{z^2 + {2a\over b}z + 1}\inv \dz
+&= -{2i\over b} \oint \qty{z^2 + {2a\over b}z + 1}\inv \dz \\
+&= -{2i\over b}\oint (z-r_1)\inv (z-r_2)\inv \dz
+,\]
+where
+
+\[
+r_1 &\da b\inv\qty{-a + \sqrt{a^2-b^2}} \\
+r_2 &\da b\inv\qty{-a - \sqrt{a^2-b^2}} 
 .\]
+
 
 :::
 
