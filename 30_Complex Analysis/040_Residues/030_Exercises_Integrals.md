@@ -188,6 +188,7 @@ Note that this solution can be written many ways:
 \[
 I = {2n \choose n} {\pi \over 4^n}
 = {\falling{2n}{n} \over n!} {\pi \over 4^n}
+= {(2n)(2n-1)\cdots(n+1)\over n!} {\pi \over 4^n}
 .\]
 
 
