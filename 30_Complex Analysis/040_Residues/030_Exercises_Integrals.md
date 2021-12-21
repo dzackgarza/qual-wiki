@@ -493,7 +493,8 @@ The usual substitution: $z=e^{i\theta}, \dz = (iz)\dtheta$.
 &= -i \oint\qty{-az^2 + (a^2+1)z - a}\inv\dz \\
 &= {i\over a}\oint \qty{z^2 - \qty{a^2+a\over a}z + 1}\inv \dz \\
 &= {i\over a}\oint (z-a)\inv (z-a\inv)\inv \dz
-.\]
+,\]
+noting that ${a^2+a\over a} = a+a\inv$.
 
 
 :::
