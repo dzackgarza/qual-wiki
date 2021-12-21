@@ -487,7 +487,7 @@ I = 2\pi i \cdot -{2i\over \sqrt 8} = {4\pi \over \sqrt{8}}
 :::{.solution}
 The usual substitution: $z=e^{i\theta}, \dz = (iz)\dtheta$.
 \[
-\int_{[0, 2\pi]} \qty{a^2 - 2a\cos(\theta) + 1}\inv \dtheta
+I\da \int_{[0, 2\pi]} \qty{a^2 - 2a\cos(\theta) + 1}\inv \dtheta
 &= \oint \qty{a^2-2(z+z\inv) + 1}\inv (iz)\inv \dz \\
 &= -i\oint \qty{za^2 - a(z^2+1) +z}\inv \dz \\
 &= -i \oint\qty{-az^2 + (a^2+1)z - a}\inv\dz \\
@@ -498,6 +498,14 @@ noting that ${a^2+a\over a} = a+a\inv$.
 Now there are two cases:
 
 - $\abs{a} < 1$: then $a\in \DD,a\inv\in \DD^c$, so there is a simple pole at $a$.
+  Then 
+  \[
+  {a\over i} I 
+  &= {a\over i} 2\pi i \Res_{z=a} (z-a)\inv(z-a\inv)\inv \\
+  &=  2\pi a (a-a\inv)\inv \evalfrom_{z=a} \\
+  &= {2\pi \over a^2 - 1}
+  .\]
+
 - $\abs{a}> 1$: then $a\inv \in \DD, a\in \DD^c$ so there is a simple pole at $a\inv$.
 
 
