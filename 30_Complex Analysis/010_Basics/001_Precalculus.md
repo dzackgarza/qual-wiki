@@ -46,10 +46,14 @@ Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then c
 
 
 :::{.remark}
-Some useful numerology:
+Some useful numerology that comes up when trying to estimate when poles fall within a disc:
 
 - $\sqrt{2} \approx 1.4142$
+- $1/\sqrt{2} \approx 0.707$
 - $\sqrt{3} \approx 1.732$
+- $1/\sqrt{3} \approx 0.577$
+- $e\approx 2.718$
+- $\pi \approx 3.14159$
 :::
 
 

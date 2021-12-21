@@ -223,7 +223,12 @@ w^2 - 6w - 1 =0
 &\implies z= \pm\sqrt{3\pm \sqrt 8}
 .\]
 
+Some numerology to figure out the modulus of these roots:
 
+- $3 + \sqrt{8} = 3+2\sqrt{2} 3+2\cdot(1.4) \approx 5.8$, so $\abs{ \pm \sqrt{3+\sqrt 8}}>\sqrt{4}>2>1$.
+- $3-\sqrt{8} \approx 3-2.8 \approx 0.2$ so $\abs{ \pm \sqrt{3-\sqrt 8} } < 1$.
+
+So it suffices to compute the residues at $z_1, z_2 = \pm \sqrt{3-\sqrt 8}$.
 :::
 
 
