@@ -490,7 +490,7 @@ The usual substitution: $z=e^{i\theta}, \dz = (iz)\dtheta$.
 \int_{[0, 2\pi]} \qty{a^2 - 2a\cos(\theta) + 1}\inv \dtheta
 &= \oint \qty{a^2-2(z+z\inv) + 1}\inv (iz)\inv \dz \\
 &= -i\oint \qty{za^2 - a(z^2+1) +z}\inv \dz \\
-&= -i \oint\qty{-az^2 + (a^2+1)z - a}\inv\dz
+&= -i \oint\qty{-az^2 + (a^2+1)z - a}\inv\dz \\
 &= {i\over a}\oint \qty{z^2 - \qty{a^2+a\over a}z + 1}\inv \dz \\
 &= {i\over a}\oint (z-a)\inv (z-a\inv)\inv \dz
 .\]
