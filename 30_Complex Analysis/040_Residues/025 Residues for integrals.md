@@ -18,16 +18,22 @@ Some resources:
 :::
 
 :::{.remark title="Tricks of the trade"}
-The reverse triangle shows up here often!
+\envlist
+
+- The reverse triangle shows up here often!
 \[
 \abs{z-w} \geq \abs{ \abs{z} - \abs{w}} \implies {1\over \abs{z-w}}\leq \abs{1\over \abs z - \abs w} \\
 \abs{z+w} = \abs{z -(-w)} \geq \abs{ \abs{z} - \abs{w}} \implies {1\over \abs{z+w}}\leq \abs{1\over \abs z - \abs w} \\
 .\]
 
-Also often useful: $e^{-x}$ is monotonically decreasing on $\RR$, so
+- Also often useful: $e^{-x}$ is monotonically decreasing on $\RR$, so
 \[
 a\leq b \implies e^{-a} \geq e^{-b}
 .\]
+
+- All residue theorems assume counterclockwise orientation.
+If you curve is clockwise (e.g. in the lower half-plane), so it traces out $[-R, R]$ on $\RR$), then a negative sign is introduced.
+
 Let $\deg$ denote the $z\dash$adic valuation, so $\deg(p(x)/q(x)) = \deg(p) - \deg(q)$.
 :::
 

@@ -236,12 +236,21 @@ I \da \int_\RR {\cos(x) \over x+i}\dx
 :::{.solution}
 Use $\cos(z) = {1\over 2}(e^{iz} + e^{-iz})$ to decompose into two integrals:
 \[
-\int {\cos(z) \over z+i} = {1\over 2} \int {e^{iz} \over z+i} + {1\over 2}\int {e^{-iz} \over z+i} \da \int f_1 + \int f_2
-.\]
+I \da \int {\cos(z) \over z+i} = {1\over 2} \int {e^{iz} \over z+i} + {1\over 2}\int {e^{-iz} \over z+i} \da \int f_1 + \int f_2
+,\]
 These both have $\deg(f_i) = -1$, so Jordan's lemma on semicircular contours will work.
-For $e^{i\alpha z}$, one needs to take the upper half-plane for $\alpha>0$ and the lower for $\alpha<0$.
+For $e^{i\alpha z}$, one needs to take the upper half-plane for $\alpha>0$ (so $f_1$) and the lower for $\alpha<0$ ($f_2$).
 
+![](figures/2021-12-21_01-41-03.png)
 
+Note that this is parameterized clockwise, so we need to introduce a negative sign.
+The integrands only have poles at $z=-i\not \in \HH$, so $\int f_1 = 0$, so 
+\[
+I 
+&= -2\pi i \Res_{z=-i} {e^{iz}\over 2(z+i)} \\
+&= -2\pi i \lim_{z\to -i} {e^{iz}\over 2} \\
+&= -\pi i e
+.\]
 :::
 
 
