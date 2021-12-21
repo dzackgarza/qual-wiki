@@ -29,19 +29,16 @@ which again has $k$ terms.
 
 Where this comes up most often:
 \[
-\qty{\dd{}{z}}^k z^n = \falling{n}{k} z^{n-k}
+\qty{\dd{}{z}}^k z^n = \falling{n}{k} \, z^{n-k}
 .\]
-
-
 :::
 
-
 :::{.fact title="Generalized Binomial Theorem"}
-Define $(n)_k$ to be the falling factorial 
+Extend the binomial coefficients to negative numbers in the following way:
 \[
-\prod_{j=0}^{k-1} (n-k) = n(n-1)\cdots(n-k+1)
-\]
-and set ${n\choose k} \da (n)_k/k!$, then
+k!{-n \choose k} &\da (-n)(-(n+1))\cdots (-(n + (k-1))) = (-1)^k {n+k-1 \choose k}
+.\]
+Then
 \[
 (x+y)^n = \sum_{k\geq 0} {n\choose k} x^{k}y^{n-k}
 .\]
