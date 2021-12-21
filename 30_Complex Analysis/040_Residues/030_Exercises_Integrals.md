@@ -210,8 +210,19 @@ Then
 &= \int_{S^1} {1\over 1 - {1\over 4}(z^{-2} -2 + z^2) } {1\over iz}\dz \\
 &= \int_{S^1} {-4i \over z(4-(z^{-2} -2 + z^2))}\dz \\
 &= \int_{S^1} {-4iz \over z^2(6-z^{-2} - z^2)}\dz \\
-&= \int_{S^1} {4iz \over z^4-6z^2+1}
+&= \int_{S^1} {4iz \over z^4-6z^2+1}\dz
 .\]
+
+Factoring the denominator:
+\[
+w^2 - 6w - 1 =0 
+&\implies w^2 - 6w - \qty{-6\over 2}^2 + \qty{-6\over 2}^2 + 1 =0 \\
+&\implies (w - 3)^2 = -1 + 9 = 8 \\
+&\implies w-3 = \zeta_2^k \sqrt{8},\, k=0, 1 \\
+&\implies w = 3 \pm \sqrt{8} \\
+&\implies z= \pm\sqrt{3\pm \sqrt 8}
+.\]
+
 
 :::
 
