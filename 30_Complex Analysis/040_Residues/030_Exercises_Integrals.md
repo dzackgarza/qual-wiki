@@ -210,7 +210,8 @@ Then
 &= \int_{S^1} {1\over 1 - {1\over 4}(z^{-2} -2 + z^2) } {1\over iz}\dz \\
 &= \int_{S^1} {-4i \over z(4-(z^{-2} -2 + z^2))}\dz \\
 &= \int_{S^1} {-4iz \over z^2(6-z^{-2} - z^2)}\dz \\
-&= \int_{S^1} {4iz \over z^4-6z^2+1}\dz
+&= \int_{S^1} {4iz \over z^4-6z^2+1}\dz \\
+&= \sum_{z_k\in \DD} \Res_{z=z_k} {4iz\over z^4-6z^2+1}
 .\]
 
 Factoring the denominator:
@@ -235,7 +236,7 @@ Some numerology to figure out the modulus of these roots:
 - $3-\sqrt{8} \approx 3-2.8 \approx 0.2$ so $\abs{ \pm \sqrt{3-\sqrt 8} } < 1$.
 
 So it suffices to compute the residues at $z_1, z_2 = \pm \sqrt{3-\sqrt 8}$:
-
+At $z_1$:
 \[
 \Res_{z = z_1} 
 &= \lim_{z\to z_1} {(z-z_1) 4i z \over z^4-6z^2+1 } \\
@@ -243,6 +244,14 @@ So it suffices to compute the residues at $z_1, z_2 = \pm \sqrt{3-\sqrt 8}$:
 &= {4iz_1 \over 4z_1^3 - 12z_1} \\
 &= {i\over z_1^2 - 3} \\
 &= {i\over (3-\sqrt 8) - 3} \\
+&= -{i\over \sqrt 8}
+.\]
+At $z_2$:
+\[
+\Res_{z=z_2} 
+&= \lim_{z\to z_2} {(z-z_2) 4i z \over z^4-6z^2+1 } \\
+&= {4iz_2\over 4z_2^2 - 12z_2}\\
+&= {i \over z_2^2 - 3} \\
 &= -{i\over \sqrt 8}
 .\]
 
