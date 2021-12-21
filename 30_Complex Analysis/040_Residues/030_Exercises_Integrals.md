@@ -181,8 +181,15 @@ where we've used a variant of the triangle inequality:
 :::{.exercise title="$1/(1+x^2)^{n+1}$ "}
 
 \[
-\int_{-\infty}^{\infty} \frac{d x}{\left(1+x^{2}\right)^{n+1}}=\frac{(2 n) !}{4^{n}(n !)^{2}} \pi = {2n \choose n} {\pi \over 4^n}
+I \da \int_{-\infty}^{\infty} \frac{d x}{\left(1+x^{2}\right)^{n+1}}=\frac{(2 n) !}{4^{n}(n !)^{2}} \pi .
+\]
+
+Note that this solution can be written many ways:
+\[
+I = {2n \choose n} {\pi \over 4^n}
+= {\falling{2n}{n} \over n!} {\pi \over 4^n}
 .\]
+
 
 #work
 
