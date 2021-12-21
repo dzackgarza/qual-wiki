@@ -14,7 +14,9 @@ z\bar z &= \abs{z}^2
 \Arg(z/w) = \Arg(z) - \Arg(w) \\
 \Re(z) &= { z + \bar z \over 2} 
 && 
-\Im(z) = {z - \bar{z} \over 2i}
+\Im(z) = {z - \bar{z} \over 2i} \\
+{1\over i} &= -i = i^3 &&
+{1\over i^3} = i
 .\]
 
 Exponential forms of cosine and sine, where it's sometimes useful to set $w\da e^{iz}$:

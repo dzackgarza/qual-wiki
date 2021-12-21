@@ -64,7 +64,6 @@ A summary of techniques:
 
 ### Superlinear Decay
 
-
 :::{.exercise title="$x/(x^2+4x+13)^2$"}
 
 \[
@@ -74,7 +73,6 @@ I\da \int_\RR {x\over (x^2 + 4x+13)^2}\dx
 #completed
 
 :::
-
 
 :::{.solution}
 Factor the denominator:
@@ -108,7 +106,7 @@ So let $C_1 = [-R,R]$, $C_2 = \ts{Re^{it} \st t\in [0, \pi]}$, $\Gamma = C_1 + C
 2\pi i \sum_{z_k\in \HH} \Res_{z=z_k}f(z) = \int_\Gamma f = \qty{\int_{C_1} + \int_{C_2}}f
 ,\]
 where $\int_{C_2} f\to 0$ and $\int_{C_1} f\to I$.
-So in the limit, $I = \Res_{z=z_1} f(z)$.
+So in the limit, $I = 2\pi i \Res_{z=z_1} f(z)$.
 Computing this residue: note $z_1$ is a pole of order 2, so
 \[
 \Res_{z=z_1} 
@@ -124,14 +122,13 @@ Computing this residue: note $z_1$ is a pole of order 2, so
 &= {4\over 2^3 \cdot 3^3 \cdot i^3} \\
 &= {-i \over 2 \cdot 3^3 i^2} \\
 &= {i\over 54}
+,\]
+so 
+\[
+I = 2\pi i \cdot {i\over 54} = -{\pi \over 27}
 .\]
 
-
-
-
 :::
-
-
 
 :::{.exercise title="$1/(1+x^2)^2$"}
 \[
