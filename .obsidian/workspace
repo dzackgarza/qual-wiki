@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
-            "mode": "source"
+            "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
+            "mode": "preview"
           }
         }
       }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+                "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
+                "file": "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,6 +256,7 @@
   },
   "active": "fac2a65aac3ba4b2",
   "lastOpenFiles": [
+    "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "010_Algebra.md",
     "10_Algebra/000_Resources/000_Resources.md",
@@ -264,7 +265,6 @@
     "10_Algebra/000_Resources/20_Books_Notes.md",
     "qual_progress.md",
     "30_Complex Analysis/000_Resources/00_Topics.md",
-    "30_Complex Analysis/000_Resources/20_Solutions.md",
-    "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
+    "30_Complex Analysis/000_Resources/20_Solutions.md"
   ]
 }
