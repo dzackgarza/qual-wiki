@@ -477,11 +477,14 @@ I = 2\pi i \cdot -{2i\over \sqrt 8} = {4\pi \over \sqrt{8}}
 .\]
 :::
 
-:::{.exercise title="$1/1+a^2+\cos(\theta)$"}
+:::{.exercise title="$1/1+a^2+2a\cos(\theta)$"}
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{1+a^{2}-2 a \cos (\theta)}
 = \begin{cases}\frac{2 \pi}{a^{2}-1} & \text { if }|a|>1 \\ \frac{2 \pi}{1-a^{2}} & \text { if }|a|<1\end{cases}
 .\]
+
+#completed
+
 :::
 
 :::{.solution}
