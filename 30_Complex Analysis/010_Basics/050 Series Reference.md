@@ -4,6 +4,35 @@ order: 50
 
 # Reference Info for Series 
 
+
+:::{.fact .title="Convenient notation"}
+Define $\rising{n}{k}$ to be the **rising factorial**
+\[
+\rising{n}{k} = n(n+1)(n+2) \cdots (n+(k-1))
+,\]
+which has exactly $k$ terms.
+Some useful identities:
+\[
+\rising{n}{k} &= {(n+k-1)! \over (k-1)!} = {\Gamma(n+k) \over \Gamma(n)} \\
+{\rising{n}{k} \over k!} &= {n+k-1 \choose k}
+.\]
+
+Similarly define the **falling factorial**
+\[
+\falling{n}{k} = n(n-1)(n-2)\cdots(n-(k-1))
+,\]
+which again has $k$ terms.
+\[
+\falling{n}{k} &= {n! \over (n-k)!} = {\Gamma(n+1) \over \Gamma(n - (k-1))}\\
+{\falling{n}{k} \over k!} &= {n\choose k}
+.\]
+
+
+
+
+:::
+
+
 :::{.fact title="Generalized Binomial Theorem"}
 Define $(n)_k$ to be the falling factorial 
 \[
