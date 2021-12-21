@@ -501,20 +501,20 @@ Now there are two cases:
   Then 
   \[
   I 
-  &= {a\over i} 2\pi i \Res_{z=a} (z-a)\inv(z-a\inv)\inv \\
-  &=  2\pi a (z-a\inv)\inv \evalfrom_{z=a} \\
-  &= {2\pi a \over a-a\inv} \\
-  &= {2\pi \over a^2 - 1}
+  &= {i\over a}\, 2\pi i \Res_{z=a} (z-a)\inv(z-a\inv)\inv \\
+  &=  -{2\pi \over a} (z-a\inv)\inv \evalfrom_{z=a} \\
+  &= -{2\pi \over a(a-a\inv)} \\
+  &= {2\pi \over 1 - a^2}
   .\]
 
 - $\abs{a}> 1$: then $a\inv \in \DD, a\in \DD^c$ so there is a simple pole at $a\inv$.
   Then 
   \[
   I 
-  &= {a\over i} 2\pi i \Res_{z=a\inv } (z-a)\inv(z-a\inv)\inv \\
-  &=  2\pi a (z-a)\inv \evalfrom_{z=a\inv} \\
-  &= {2\pi a\over a\inv - a} \\
-  &= {2\pi \over 1-a^2}
+  &= {i\over a}\, 2\pi i \Res_{z=a\inv } (z-a)\inv(z-a\inv)\inv \\
+  &=  -{2\pi \over a} (z-a)\inv \evalfrom_{z=a\inv} \\
+  &= -{2\pi \over a(a\inv - a)} \\
+  &= {2\pi \over a^2 - 1}
   .\]
 
 
