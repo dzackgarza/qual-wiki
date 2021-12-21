@@ -40,7 +40,6 @@ You may be able to just compute an integral!
 
 :::
 
-
 ## Residue Formulas
 
 :::{.theorem title="The residue theorem"}
@@ -95,6 +94,11 @@ Apply L'Hopital:
 .\]
 
 Note on where this weird formula comes from: residues are associated not to function $f$ but to *differential forms* $f(z)\dz$, and inversion sends $f(z) \dz\to f(1/z)d(1/z) = f(1/z)\cdot -{1\over z^2}\dz$.
+This residue can alternatively be calculated for $f$ by taking $\gamma$ a contour enclosing all singularities of $f$ and computing
+\[
+\Res_{z=\infty}f(z) = -{1\over 2\pi}\int_\gamma f(z) \dz
+.\]
+
 :::
 
 :::{.theorem title="Residue formula: fractional residues"}
@@ -395,8 +399,29 @@ which follows from expanding
 
 
 :::{.exercise title="Residues at $\infty$"}
+Compute
+\[
+&\Res_{z=\infty}e^z\\
+&\Res_{z=\infty}{z-1\over z+1}
+.\]
+
+#completed
 
 :::
+
+
+:::{.solution}
+In parts:
+
+- For $e^z$:
+  - Integral formula: $\Res_{z=\infty}f(z) = -{1\over 2\pi }\int_\gamma f(z)\dz$ where $\gamma$ encloses all singularities of $f$, but $e^z$ is entire, so this integral is zero and thus the residue is zero.
+  - Laurent expansion: 
+  \[
+  {1\over z^2}e^{1\over z} = z^{-2}\sum_{k\geq 0}z^{-k}/k! = \sum_{k\geq 0}z^{-k-2}/k! = z^{-2} + z^{-3} + {1\over 2!}z^{-4} + \bigo(z^{-5}) 
+  .\]
+
+:::
+
 
 
 ## Estimates
