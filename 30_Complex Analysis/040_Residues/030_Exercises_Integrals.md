@@ -1,3 +1,8 @@
+---
+sort: 025
+title: Residues for Integrals
+---
+
 # Exercises: Integrals
 
 ## Strategies
