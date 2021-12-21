@@ -191,6 +191,31 @@ Extend to $\int_\RR$ using that $f$ is even.
 
 ## Trig in Denominator
 
+
+:::{.exercise title="?"}
+\[
+\int_{[-\pi, \pi]} {1\over 1 + \sin^2(\theta)} \dtheta
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+Set $z=e^{i\theta}$, so $\sin(\theta) = {z+z\inv\over 2i}$ and $\sin^2(\theta) = -{1\over 4}(z^{-2}-2+z^2)$.
+Then
+\[
+\int_{[-\pi, \pi]} {1\over 1 + \sin^2(\theta)} \dtheta
+&= \int_{S^1} {1\over 1 - {1\over 4}(z^{-2} -2 + z^2) } {1\over iz}\dz \\
+&= \int_{S^1} {-4i \over z(4-(z^{-2} -2 + z^2))}\dz \\
+&= \int_{S^1} {-4iz \over z^2(6-z^{-2} - z^2)}\dz \\
+&= \int_{S^1} {4iz \over z^4-6z^2+1}
+.\]
+
+:::
+
+
 :::{.exercise title="$1/1+a^2+\cos(\theta)$"}
 #work
 \[
