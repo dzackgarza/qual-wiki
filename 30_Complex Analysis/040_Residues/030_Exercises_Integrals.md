@@ -192,10 +192,9 @@ I = {2n \choose n} {\pi \over 4^n}
 .\]
 
 
-#work
+#completed
 
 :::
-
 
 :::{.solution}
 The integrand is $f\in \bigo\qty{1\over z^{2n+2}} \subseteq \bigo\qty{1\over z^{1+\eps}}$, so a semicircular contour will work and thus
@@ -213,10 +212,10 @@ I
 &= { \falling{2n}{n} \over n!} 2\pi i (-1)^n (2i)^{-(2n-1)} \\
 &= { \falling{2n}{n} \over n!} 2\pi i (-1)^n {1\over 2^{2n+1} i^{2n+1}} \\
 &= { \falling{2n}{n} \over n!} \pi (-1)^n {1\over 4^n i^{2n}} \\
+&= { \falling{2n}{n} \over n!} \pi (-1)^n {1\over 4^n (-1)^n } \\
+&= { \falling{2n}{n} \over n!} {\pi \over 4^n } 
 .\]
-
 :::
-
 
 :::{.exercise title="$\cos(x) / x^2 + b^2$"}
 \[
