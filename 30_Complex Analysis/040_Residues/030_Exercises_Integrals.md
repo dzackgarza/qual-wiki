@@ -9,10 +9,9 @@ title: Residues for Integrals
 
 ### Superlinear Decay
 
-:::{.exercise title="$x/(x^2+4x+13)^2$"}
-
+:::{.exercise title="$1/x^4+1$, balancing exponentials"}
 \[
-I\da \int_\RR {x\over (x^2 + 4x+13)^2}\dx
+\int_\RR {1 \over x^4 + 1} = {\pi \sqrt{2} \over 2}
 .\]
 
 #completed
@@ -20,60 +19,41 @@ I\da \int_\RR {x\over (x^2 + 4x+13)^2}\dx
 :::
 
 :::{.solution}
-Factor the denominator:
+The integrand $f\in \bigo\qty{1\over z^4} \subseteq \bigo\qty{1\over z^{1+\eps}}$, so a semicircular contour works.
+Factoring the denominator: find a principal root 
 \[
-x^2 + 4x + 13 = 0 
-&\implies x^2 + 4x + \qty{4\over 2}^2 = -13 + \qty{4\over 2}^2 \\
-&\implies (x+2)^2 = -9 \\
-&\implies x = -2 \pm 3i
-,\]
-one of which is in $\HH$.
-Write these as 
-\[
-z_1 \da -2+3i && z_2 \da -2 - 3i
-.\]
-
-Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
-A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so using the reverse triangle inequality,
-\[
-\abs{z\over (z^2 + 4z + 13)^2} 
-&= \abs{z\over z^4 + 8z^3 + 42z^2 + 104z + 169}\\
-&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^3 - 42\abs{z}^2 - 104\abs{z} - 169}\\
-&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^4 - 42\abs{z}^4 - 104\abs{z}^4 - 169\abs{z}^4}\\
-&= \abs{z\over \abs{z}^4( 1 - 8 - 42 - 104 - 169)}\\
-&= 322 {\abs{z} \over \abs{z}^4} \\
-&= 322 \abs{z}^{-3} \\
-&= 322 R^{-3} \to 0 \text{ as } R\to\infty
-.\]
-
-So let $C_1 = [-R,R]$, $C_2 = \ts{Re^{it} \st t\in [0, \pi]}$, $\Gamma = C_1 + C_2$, then
-\[
-2\pi i \sum_{z_k\in \HH} \Res_{z=z_k}f(z) = \int_\Gamma f = \qty{\int_{C_1} + \int_{C_2}}f
-,\]
-where $\int_{C_2} f\to 0$ and $\int_{C_1} f\to I$.
-So in the limit, $I = 2\pi i \Res_{z=z_1} f(z)$.
-Computing this residue: note $z_1$ is a pole of order 2, so
-\[
-\Res_{z=z_1} 
-&= \lim_{z\to z_1} \dd{}{z} (z-z_1)^2f(z)
-&= \lim_{z\to z_1} \dd{}{z} {z \over (z-z_2)^2} \\
-&= \lim_{z\to z_1} { (z-z_2)^2 - 2z(z-z_2 ) \over (z-z_2)^4} \\
-&= \lim_{z\to z_1} { (z-z_2) - 2z \over (z-z_2)^3} \\
-&= \lim_{z\to z_1} -{ z+z_2 \over (z-z_2)^3} \\
-&= - {z_1 + z_2 \over (z_1 - z_2)^2}\\
-&= - {z_1 + \bar{z_1} \over (z_1 - \bar{z_1} )^2}\\
-&= - {2\Re(z_1) \over (2i\Im(z_1))^3} \\
-&= - {2\cdot (-2) \over (2i\cdot 3) ^3} \\
-&= {4\over 2^3 \cdot 3^3 \cdot i^3} \\
-&= {-i \over 2 \cdot 3^3 i^2} \\
-&= {i\over 54}
+\omega^4 = -1 = e^{i\pi} \implies \omega = e{i\pi\over 4}
 ,\]
 so 
 \[
-I = 2\pi i \cdot {i\over 54} = -{\pi \over 27}
+z^4 + 1 = (z-\omega)(z-\omega\zeta_4)(z-\omega\zeta_4^2)(z-\omega\zeta_4^3) \leadsto {\pi \over 4}, {3\pi \over 4}, {5\pi \over 4}, {7\pi \over 4}
+.\]
+So there are two simple poles in $\HH$:
+
+![figures/2021-07-29_18-41-05.png](figures/2021-07-29_18-41-05.png)
+
+Write them as $z_1 = e^{i\pi \over 4}$ and $z_2 = e^{3 i \pi \over 4}$.
+Computing the residues:
+\[
+\Res_{z=z_k} f(z) 
+&= \lim_{z\to z_k} {z-z_k \over z^4 + 1} \\
+&\eqLH \lim_{z\to z_k} {1\over 4z^3} \\
+&= {4z^{-3} }\evalfrom_{z=z_k}
+,\]
+so
+\[
+2\pi i \sum \Res_{z=z_k} 
+&= {2\pi i \over 4}\qty{z_1^{-3} + z_2^{-3}} \\
+&= {\pi i \over 2}\qty{e^{-3 i \pi \over 4} + e^{-9 i \pi \over 4}} \\
+&= {\pi i \over 2}\qty{e^{-3 i \pi \over 4} + e^{-i \pi \over 4}} \\
+&= {\pi i \over 2}\cdot e^{-2i\pi \over 4}\qty{e^{- i \pi \over 4} + e^{i \pi \over 4}} \\
+&= \pi i\, {1\over i} \cos\qty{\pi \over 4} \\
+&= {\pi \sqrt 2 \over 2}
 .\]
 
+
 :::
+
 
 :::{.exercise title="$1/(1+x^2)^2$"}
 \[
@@ -163,51 +143,6 @@ where we've used a variant of the triangle inequality:
 
 :::
 
-:::{.exercise title="$1/x^4+1$, balancing exponentials"}
-\[
-\int_\RR {1 \over x^4 + 1} = {\pi \sqrt{2} \over 2}
-.\]
-
-#completed
-
-:::
-
-:::{.solution}
-The integrand $f\in \bigo\qty{1\over z^4} \subseteq \bigo\qty{1\over z^{1+\eps}}$, so a semicircular contour works.
-Factoring the denominator: find a principal root 
-\[
-\omega^4 = -1 = e^{i\pi} \implies \omega = e{i\pi\over 4}
-,\]
-so 
-\[
-z^4 + 1 = (z-\omega)(z-\omega\zeta_4)(z-\omega\zeta_4^2)(z-\omega\zeta_4^3) \leadsto {\pi \over 4}, {3\pi \over 4}, {5\pi \over 4}, {7\pi \over 4}
-.\]
-So there are two simple poles in $\HH$:
-
-![figures/2021-07-29_18-41-05.png](figures/2021-07-29_18-41-05.png)
-
-Write them as $z_1 = e^{i\pi \over 4}$ and $z_2 = e^{3 i \pi \over 4}$.
-Computing the residues:
-\[
-\Res_{z=z_k} f(z) 
-&= \lim_{z\to z_k} {z-z_k \over z^4 + 1} \\
-&\eqLH \lim_{z\to z_k} {1\over 4z^3} \\
-&= {4z^{-3} }\evalfrom_{z=z_k}
-,\]
-so
-\[
-2\pi i \sum \Res_{z=z_k} 
-&= {2\pi i \over 4}\qty{z_1^{-3} + z_2^{-3}} \\
-&= {\pi i \over 2}\qty{e^{-3 i \pi \over 4} + e^{-9 i \pi \over 4}} \\
-&= {\pi i \over 2}\qty{e^{-3 i \pi \over 4} + e^{-i \pi \over 4}} \\
-&= {\pi i \over 2}\cdot e^{-2i\pi \over 4}\qty{e^{- i \pi \over 4} + e^{i \pi \over 4}} \\
-&= \pi i\, {1\over i} \cos\qty{\pi \over 4} \\
-&= {\pi \sqrt 2 \over 2}
-.\]
-
-
-:::
-
 :::{.exercise title="$1/(1+x^2)^{n+1}$ "}
 
 \[
@@ -245,6 +180,72 @@ I
 &= { \falling{2n}{n} \over n!} \pi (-1)^n {1\over 4^n (-1)^n } \\
 &= { \falling{2n}{n} \over n!} {\pi \over 4^n } 
 .\]
+:::
+
+:::{.exercise title="$x/(x^2+4x+13)^2$"}
+
+\[
+I\da \int_\RR {x\over (x^2 + 4x+13)^2}\dx
+.\]
+
+#completed
+
+:::
+
+:::{.solution}
+Factor the denominator:
+\[
+x^2 + 4x + 13 = 0 
+&\implies x^2 + 4x + \qty{4\over 2}^2 = -13 + \qty{4\over 2}^2 \\
+&\implies (x+2)^2 = -9 \\
+&\implies x = -2 \pm 3i
+,\]
+one of which is in $\HH$.
+Write these as 
+\[
+z_1 \da -2+3i && z_2 \da -2 - 3i
+.\]
+
+Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
+A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so using the reverse triangle inequality,
+\[
+\abs{z\over (z^2 + 4z + 13)^2} 
+&= \abs{z\over z^4 + 8z^3 + 42z^2 + 104z + 169}\\
+&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^3 - 42\abs{z}^2 - 104\abs{z} - 169}\\
+&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^4 - 42\abs{z}^4 - 104\abs{z}^4 - 169\abs{z}^4}\\
+&= \abs{z\over \abs{z}^4( 1 - 8 - 42 - 104 - 169)}\\
+&= 322 {\abs{z} \over \abs{z}^4} \\
+&= 322 \abs{z}^{-3} \\
+&= 322 R^{-3} \to 0 \text{ as } R\to\infty
+.\]
+
+So let $C_1 = [-R,R]$, $C_2 = \ts{Re^{it} \st t\in [0, \pi]}$, $\Gamma = C_1 + C_2$, then
+\[
+2\pi i \sum_{z_k\in \HH} \Res_{z=z_k}f(z) = \int_\Gamma f = \qty{\int_{C_1} + \int_{C_2}}f
+,\]
+where $\int_{C_2} f\to 0$ and $\int_{C_1} f\to I$.
+So in the limit, $I = 2\pi i \Res_{z=z_1} f(z)$.
+Computing this residue: note $z_1$ is a pole of order 2, so
+\[
+\Res_{z=z_1} 
+&= \lim_{z\to z_1} \dd{}{z} (z-z_1)^2f(z)
+&= \lim_{z\to z_1} \dd{}{z} {z \over (z-z_2)^2} \\
+&= \lim_{z\to z_1} { (z-z_2)^2 - 2z(z-z_2 ) \over (z-z_2)^4} \\
+&= \lim_{z\to z_1} { (z-z_2) - 2z \over (z-z_2)^3} \\
+&= \lim_{z\to z_1} -{ z+z_2 \over (z-z_2)^3} \\
+&= - {z_1 + z_2 \over (z_1 - z_2)^2}\\
+&= - {z_1 + \bar{z_1} \over (z_1 - \bar{z_1} )^2}\\
+&= - {2\Re(z_1) \over (2i\Im(z_1))^3} \\
+&= - {2\cdot (-2) \over (2i\cdot 3) ^3} \\
+&= {4\over 2^3 \cdot 3^3 \cdot i^3} \\
+&= {-i \over 2 \cdot 3^3 i^2} \\
+&= {i\over 54}
+,\]
+so 
+\[
+I = 2\pi i \cdot {i\over 54} = -{\pi \over 27}
+.\]
+
 :::
 
 :::{.exercise title="$\cos(x) / x^2 + b^2$"}
