@@ -195,6 +195,19 @@ I = {2n \choose n} {\pi \over 4^n}
 
 :::
 
+
+:::{.solution}
+The integrand is $f\in \bigo\qty{1\over z^{2n+2}} \subseteq \bigo\qty{1\over z^{1+\eps}}$, so a semicircular contour will work and thus
+\[
+I 
+&= 2\pi i \sum_{z_k \in \HH} \Res_{z=z_k} {1\over (1+z^2)^{n+1}} \\
+&= 2\pi i
+\Res_{z=i} {1\over (z+i)^{n+1}(z-i)^{n+1} } \\
+.\]
+
+:::
+
+
 :::{.exercise title="$\cos(x) / x^2 + b^2$"}
 \[
 I \da \int_{0}^{\infty} \frac{\cos (x)}{x^{2}+b^{2}} d x=\frac{\pi \mathrm{e}^{-b}}{2 b}
