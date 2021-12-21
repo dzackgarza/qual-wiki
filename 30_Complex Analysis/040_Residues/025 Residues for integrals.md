@@ -19,7 +19,7 @@ a\leq b \implies e^{-a} \geq e^{-b}
 
 :::
 
-### The ML Estimate
+## The ML Estimate
 
 :::{.theorem title="ML Estimate"}
 \[
@@ -103,7 +103,7 @@ Note that this also shows that
 
 :::
 
-### Jordan's Lemma
+## Jordan's Lemma
 
 :::{.theorem title="Jordan's Lemma"}
 Define
