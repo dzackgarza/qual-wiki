@@ -7,6 +7,7 @@ title: Residues
 
 :::{.remark}
 On strategy: see <https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter5.pdf>
+
 :::
 
 :::{.remark}
