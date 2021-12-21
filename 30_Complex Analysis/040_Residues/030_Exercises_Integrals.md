@@ -201,8 +201,8 @@ The integrand is $f\in \bigo\qty{1\over z^{2n+2}} \subseteq \bigo\qty{1\over z^{
 \[
 I 
 &= 2\pi i \sum_{z_k \in \HH} \Res_{z=z_k} {1\over (1+z^2)^{n+1}} \\
-&= 2\pi i
-\Res_{z=i} {1\over (z+i)^{n+1}(z-i)^{n+1} } \\
+&= 2\pi i \Res_{z=i} {1\over (z+i)^{n+1}(z-i)^{n+1} } \\
+&= 2\pi i \lim_{z\to i}{1\over n!}\qty{\dd{}{z}}^n (z+i)^{-(n+1)}
 .\]
 
 :::
