@@ -191,8 +191,7 @@ Extend to $\int_\RR$ using that $f$ is even.
 
 ## Trig in Denominator
 
-
-:::{.exercise title="?"}
+:::{.exercise title="$1/1+\sin^2$"}
 \[
 \int_{[-\pi, \pi]} {1\over 1 + \sin^2(\theta)} \dtheta
 .\]
@@ -200,7 +199,6 @@ Extend to $\int_\RR$ using that $f$ is even.
 #completed
 
 :::
-
 
 :::{.solution}
 Set $z=e^{i\theta}$, so $\sin(\theta) = {z+z\inv\over 2i}$ and $\sin^2(\theta) = -{1\over 4}(z^{-2}-2+z^2)$.
@@ -260,7 +258,6 @@ Thus
 I = 2\pi i \cdot -{2i\over \sqrt 8} = {4\pi \over \sqrt{8}}
 .\]
 :::
-
 
 :::{.exercise title="$1/1+a^2+\cos(\theta)$"}
 #work
