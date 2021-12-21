@@ -234,6 +234,11 @@ I \da \int_\RR {\cos(x) \over x+i}\dx
 
 
 :::{.solution}
+Use $\cos(z) = {1\over 2}(e^{iz} + e^{-iz})$ to decompose into two integrals:
+\[
+\int {\cos(z) \over z+i} = {1\over 2} \int {e^{iz} \over z+i} + {1\over 2}\int {e^{-iz} \over z+i} \da I_1 + I_2
+.\]
+
 
 :::
 
@@ -421,7 +426,6 @@ Compute the residues by just applying the formula and manually computing derivat
 
 :::
 
-## Misc 
 
 
 
