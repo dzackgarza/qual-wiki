@@ -532,7 +532,6 @@ Now there are two cases:
 
 :::
 
-
 :::{.solution}
 The usual substitution: $z=e^{i\theta}, \dtheta = (iz)\inv \dz$.
 \[
@@ -570,14 +569,11 @@ Computing the residue here:
 ,\]
 so 
 \[
-I = 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}}
+I &= 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}} \\
+&= {2\pi \over \sqrt{a^2-b^2} }
 .\]
 
-
-
-
 :::
-
 
 ## Branch Cuts
 
