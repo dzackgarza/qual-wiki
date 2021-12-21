@@ -162,18 +162,20 @@ Note that this also shows that
 ## Jordan's Lemma
 
 :::{.theorem title="Jordan's Lemma"}
-Define
+
+For $\alpha > 0$,
+define
 \[
 C_R \da \ts{ z=Re^{it} \st t\in [0, \pi] }
 .\]
 
 ![](figures/2021-12-20_20-35-11.png)
-
-For $\alpha > 0$,
 \[
 \abs{\int_{C_R} e^{i\alpha z} g(z) \dz} \leq \pi\alpha\inv M_R \qquad M_R \da \sup_{z\in C_R} \abs{g(z)}
 .\]
 Note that if $M_R\to 0$ as $R\to \infty$, this integral vanishes -- so this works if $M_R \in \bigo\qty{1\over R^\eps}$ for $\eps>0$.
+
+For $\alpha < 0$, the same statement holds with the contour replaced by $\tilde C_R\da \ts{Re{it} \st t\in [0, -\pi]}$.
 :::
 
 :::{.remark}

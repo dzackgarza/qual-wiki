@@ -236,8 +236,10 @@ I \da \int_\RR {\cos(x) \over x+i}\dx
 :::{.solution}
 Use $\cos(z) = {1\over 2}(e^{iz} + e^{-iz})$ to decompose into two integrals:
 \[
-\int {\cos(z) \over z+i} = {1\over 2} \int {e^{iz} \over z+i} + {1\over 2}\int {e^{-iz} \over z+i} \da I_1 + I_2
+\int {\cos(z) \over z+i} = {1\over 2} \int {e^{iz} \over z+i} + {1\over 2}\int {e^{-iz} \over z+i} \da \int f_1 + \int f_2
 .\]
+These both have $\deg(f_i) = -1$, so Jordan's lemma on semicircular contours will work.
+For $e^{i\alpha z}$, one needs to take the upper half-plane for $\alpha>0$ and the lower for $\alpha<0$.
 
 
 :::
