@@ -8,6 +8,12 @@ title: Residues
 :::{.remark}
 On strategy: see <https://www.damtp.cam.ac.uk/user/reh10/lectures/nst-mmii-chapter5.pdf>
 
+A quick shortcut (?) for the quotient rule:
+\[
+\dd{}{z} {p(z) \over q(z)} = {p'(z)\over q(z)} - {p(z)q'(z) \over q^2(z)}
+.\]
+Useful when taking $z\to z_0$ with $z_0$ a root of $p, p', q'$.
+
 :::
 
 :::{.remark}
