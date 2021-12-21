@@ -216,19 +216,36 @@ Then
 Factoring the denominator:
 \[
 w^2 - 6w - 1 =0 
-&\implies w^2 - 6w - \qty{-6\over 2}^2 + \qty{-6\over 2}^2 + 1 =0 \\
+&\implies w^2 - 6w + \qty{-6\over 2}^2 - \qty{-6\over 2}^2 + 1 =0 \\
 &\implies (w - 3)^2 = -1 + 9 = 8 \\
 &\implies w-3 = \zeta_2^k \sqrt{8},\, k=0, 1 \\
 &\implies w = 3 \pm \sqrt{8} \\
 &\implies z= \pm\sqrt{3\pm \sqrt 8}
 .\]
+Write these roots as 
+
+- $z_1 \da \sqrt{3-\sqrt 8}$
+- $z_2 \da -\sqrt{3-\sqrt 8}$
+- $z_3 \da \sqrt{3+\sqrt 8}$
+- $z_4 \da -\sqrt{3 + \sqrt 8}$
 
 Some numerology to figure out the modulus of these roots:
 
 - $3 + \sqrt{8} = 3+2\sqrt{2} 3+2\cdot(1.4) \approx 5.8$, so $\abs{ \pm \sqrt{3+\sqrt 8}}>\sqrt{4}>2>1$.
 - $3-\sqrt{8} \approx 3-2.8 \approx 0.2$ so $\abs{ \pm \sqrt{3-\sqrt 8} } < 1$.
 
-So it suffices to compute the residues at $z_1, z_2 = \pm \sqrt{3-\sqrt 8}$.
+So it suffices to compute the residues at $z_1, z_2 = \pm \sqrt{3-\sqrt 8}$:
+
+\[
+\Res_{z = z_1} 
+&= \lim_{z\to z_1} {(z-z_1) 4i z \over z^4-6z^2+1 } \\
+&\equalsbecause{\text{LH}} \lim_{z\to z_1} { 4iz + 4i(z-z_1) \over 4z^3 -12z} \\
+&= {4iz_1 \over 4z_1^3 - 12z_1} \\
+&= {i\over z_1^2 - 3} \\
+&= {i\over (3-\sqrt 8) - 3} \\
+&= -{i\over \sqrt 8}
+.\]
+
 :::
 
 
