@@ -205,7 +205,9 @@ I
 &= 2\pi i \lim_{z\to i}{1\over n!}\qty{\dd{}{z}}^n (z+i)^{-(n+1)} \\
 &= 2\pi i \lim_{z\to i}{1\over n!}\qty{\dd{}{z}}^{n-1} -(n+1)(z+i)^{-(n+2)} \\
 &= 2\pi i \lim_{z\to i}{1\over n!}\qty{\dd{}{z}}^{n-2} -(n+1) \cdot -(n+2) (z+i)^{-(n+3)} \\
-&= \vdots \\
+&= \qquad \vdots \\
+&= 2\pi i \lim_{z\to i}{1\over n!}\qty{\dd{}{z}}^{n-k} (-1)^k (n+1)(n+2)\cdots(n+k-1) (z+i)^{-(n+k-1)} \\
+&= \qquad \vdots \\
 &= 2\pi i \lim_{z\to i} (-1)^n (z+i)^{-(2n-1)}
 .\]
 
