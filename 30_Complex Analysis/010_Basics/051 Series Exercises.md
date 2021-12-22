@@ -452,16 +452,20 @@ Let $\omega \da z-i\pi$, then
 &= {1\over 1 + e^{z-i\pi}e^{i\pi}} \\
 &= {1\over 1 - e^{\omega} } \\
 &= {1 \over -\omega - {1\over 2!}\omega^2 - {1\over 3!}\omega^3 - \bigo(\omega^4) } \\
-&= -{1\over \omega} {1 \over 1 + {1\over 2!}\omega + {1\over 3!}\omeg^2a + \bigo(\omega^3) } \\
+&= -{1\over \omega} {1 \over 1 + {1\over 2!}\omega + {1\over 3!}\omega^2 + \bigo(\omega^3) } \\
 &= -{1\over \omega}{1\over 1-(- p(z) ) } \qquad p(z) \da \sum_{k\geq 2}{\omega^{k-1}\over k!} \\
 &= -{1\over \omega} \sum_{k\geq 0} (-p(z))^k \\
 &= -{1\over \omega}
 \left[
+1 -
 \qty{{1\over 2!}\omega + {1\over 3!}\omega^2 + \bigo(\omega^3)} + 
-\qty{{1\over 2!}\omega + {1\over 3!}\omega^2 + \bigo(\omega^3)}^2 + 
+\qty{{1\over 2!}\omega + {1\over 3!}\omega^2 + \bigo(\omega^3)}^2 -
 \bigo(\omega^3)
 \right] \\
-&= ?
+&= -{1\over \omega}
+\left[
+1 + \omega\qty{} + \omega^2\qty{} + \bigo(\omega^3)
+\right]
 .\]
 
 
