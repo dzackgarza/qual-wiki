@@ -6,6 +6,8 @@
 f(x) = {1\over 2\pi}\int_\RR e^{i\xi x} \hat{f}(\xi) \dxi 
 .\]
 
+![](figures/2021-12-20_07-55-38.png)
+
 
 ## The Gamma Function
 
