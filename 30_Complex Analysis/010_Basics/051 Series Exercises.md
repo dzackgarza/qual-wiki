@@ -406,6 +406,40 @@ f(z) = e^{-(1-z)} = e^{z-1} = e\inv e^z = e\inv\sum_{k\geq 0} {z^k\over k!}
 Since $e^z$ is entire, this converges on $\CC$.
 :::
 
+
+:::{.exercise title="Laurent expanding tricky exponentials"}
+Find a Laurent expansion for
+\[
+f(z) = {1\over 1 + e^z}
+\]
+about $z_0 = 0$ and $z_1 = i\pi$.
+
+#completed
+
+:::
+
+
+:::{.solution}
+At $z=0$, we can use a geometric series approach since $\abs{e^z} = e^{\Re(z)} \leq 1$ near $0$.
+However, we still have to get rid of the leading 1 in the expansion of $e^z$ in order to get a constant coefficient.
+\[
+{1\over 1 + e^z} 
+&= {1\over 1 + 1 + z + {1\over 2!}z^2 + {1\over 3!} z^3 + \bigo(z^4)} \\
+&= {1\over 2 + z + {1\over 2!}z^2 + {1\over 3!} z^3 + \bigo(z^4) } \\
+&= {1\over 2} {1\over 1 + {1\over 2} z + {1\over 2\cdot 2!}z^2 + {1\over 2\cdot 3!} z^3 + \bigo(z^4) } \\
+&= {1\over 2}{1\over 1 - (-p(z)) } && p(z) \da {1\over 2\cdot 2!}z + {1\over 2\cdot 3!}z^3 + \bigo(z^4)  \\
+&= {1\over 2} \sum_{k\geq 0} (-p(z))^k \\
+&= {1\over 2}\left[ 1 + 
+\qty{{1\over 2\cdot 2!}z + {1\over 2\cdot 3!}z^3 + \bigo\qty{z^4} } +
+\qty{{1\over 2\cdot 2!}z + {1\over 2\cdot 3!}z^3 + \bigo\qty{z^4} }^2
++ \bigo(z^3)
+\right]
+.\]
+
+:::
+
+
+
 ## New Things in $\CC$
 
 :::{.exercise title="Cauchy integral formula for coefficients"}
