@@ -727,6 +727,19 @@ Thus in the limit,
 &= (1-e^{2\pi i\alpha})\int_{\RR}f(z)\dz \\
 .\]
 
+Computing the residue at $z_0 = -1$:
+\[
+\Res_{z=-1}f(z) 
+&= \lim_{z\to -1} \dd{}{z} (z+1)^2 f(z) \\
+&= \lim_{z\to -1} \dd{}{z} z^\alpha \\
+&= \alpha (-1)^{\alpha - 1} \\
+&= \alpha e^{i\pi(\alpha - 1)} \\
+&= -\alpha e^{i\pi \alpha}
+.\]
+Thus
+\[
+\int_\RR f(z) \dz = {-\alpha e^{i\pi \alpha}\over 1 - e^{2\pi i \alpha}}
+.\]
 
 
 :::
