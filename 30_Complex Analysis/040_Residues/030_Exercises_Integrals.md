@@ -786,12 +786,14 @@ thus
 .\]
 
 By the ML estimate, the semicircular piece vanishes.
-Miraculously, since $\lim_{x\to 0}{ x\ln(x) \over x+c} = 0$ for any $c>0$, the inner indented pieces goes to zero.
+Miraculously, since $\lim_{x\to 0}{ x\ln(x) \over x^n+c} = 0$ for any $c>0$ and $n\geq 1$, the inner indented pieces goes to zero.
 Parameterize by $z= \eps e^{it}$
 \[
 \int_{C_\eps} f(z)\ln(z)\dz
 &\approx \int_{\eps}^{2\pi - \eps} {\ln(\eps e^{it}) \over \eps^2 + 3\eps + 2} \eps e^{it}\dt \\
 &= \int_{\eps}^{2\pi - \eps} {\ln(\eps) + it \over \eps^2 + 3\eps + 2} \eps e^{it}\dt \\
+&\approx \int_\eps^{2\pi - \eps} {\eps \ln(\eps) \over \eps^2 + c}\dt \\
+&\convergesto{\eps\to 0} 0
 ,\]
 where I've been *extremely* sloppy and left out many negligible $e^{it}$ terms.
 

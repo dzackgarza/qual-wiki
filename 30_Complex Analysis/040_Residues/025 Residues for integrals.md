@@ -89,9 +89,9 @@ If $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int
 
   - Another useful fact: for any constant $c$,
   \[
-  \lim_{x\to 0} {x\ln(x) \over x + c} = 0 
+  \lim_{x\to 0} {x\ln(x) \over x^n + c} = 0 
   .\]
-  The constant is necessary!
+  Note that you can't drop the constant!
 
 
 - $\int_{\RR_{\geq 0}} f(x) \log(x)$: indented semicircular contours
