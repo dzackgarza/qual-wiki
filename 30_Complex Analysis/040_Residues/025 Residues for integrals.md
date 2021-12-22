@@ -87,6 +87,13 @@ If $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int
 \lim_{\eps\decreasesto 0} \ln(x-i\eps) = \ln(x) + 2\pi i
   .\]
 
+  - Another useful fact: for any constant $c$,
+  \[
+  \lim_{x\to 0} {x\ln(x) \over x + c} = 0 
+  .\]
+  The constant is necessary!
+
+
 - $\int_{\RR_{\geq 0}} f(x) \log(x)$: indented semicircular contours
 
 ![](figures/2021-12-14_17-20-48.png)
