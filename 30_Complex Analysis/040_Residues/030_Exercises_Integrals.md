@@ -777,10 +777,17 @@ Note the symmetry:
 \int_{\gamma_+}g(z) 
 &= \int_{-R}^{-\eps} { \log^2(t) \over (t^2 +1)^2 } \dt \\
 &= - \int_{-eps}^{-R} { \log^2(t) \over (t^2 +1)^2 } \dt \\
-&= \int_{eps}^{R} { \log^2(-s) \over ( (-s)^2 +1)^2 } \ds && s=-t,\, \ds = -\dt \\
-&= \int_{eps}^{R} { \log^2(e^{i\pi} s) \over (s^2 +1)^2 } \ds \\
-&= \int_{eps}^{R} { \qty{ \log(s) + i\pi}^2 \over (s^2 +1)^2 } \ds \\
+&= \int_{\eps}^{R} { \log^2(e^{i\pi} s) \over ( (-s)^2 +1)^2 } \ds && t = e^{i\pi}s,\, \ds = -\dt \\
+&= \int_{\eps}^{R} { \qty{ \log(s) + i\pi}^2 \over (s^2 +1)^2 } \ds \\
+,\]
+and similarly
+\[
+\int_{\gamma_-}g(z) 
+&= \int_{-\eps}^{-R} { \log^2(t) \over (t^2 +1)^2 } \dt \\
+&= -\int_{\eps}^{R} { \log^2(e^{-i\pi} s) \over ((-s)^2 +1)^2 } \ds && t=e^{-i\pi }s,\, \dt = -\ds \\
+&= -\int_{\eps}^{R} { \qty{ \log(s) - i\pi}^2 \over (s^2 +1)^2 } \dt \\
 .\]
+
 
 
 
