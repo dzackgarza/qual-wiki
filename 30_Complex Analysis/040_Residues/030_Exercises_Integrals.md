@@ -363,8 +363,34 @@ I
 
 
 :::{.exercise title="$e^{x/2} / 1+e^x,$ replication"}
+\[
+I \da \int_\RR {e^{x\over 2}\over 1+e^x}\dx
+.\]
+
+#completed
 
 :::
+
+
+:::{.solution}
+Replication: find $b$ such that $f(z) = f(z+ib)$ and use a rectangle.
+\[
+f(z+ib) 
+= {e^{z\over 2}e^{ib\over 2} \over 1 + e^{ib}e^z} 
+= e^{ib\over 2} {e^{z\over 2} \over 1 + e^{ib}e^z } = f(z) \impliedby e^{ib} = 1 \impliedby b=2\pi
+,\]
+in which case
+\[
+f(z + 2\pi i) = e^{ib\over 2}f(z) = e^{2\pi i \over 2}f(z) = -f(z)
+.\]
+
+So take the following rectangle where $H_-$ is at $2\pi i$ and $H_+$ is at 0, with sides at $\pm R$:
+
+![](figures/2021-12-21_21-25-04.png)
+
+
+:::
+
 
 
 ## Singularities along $\RR$
