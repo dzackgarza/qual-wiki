@@ -54,6 +54,14 @@ so
 
 :::
 
+:::{.exercise title="$1/x^4+1$, half-line"}
+\[
+I \da \int_0^\infty {1\over x^4 + 1 }\dx = {2\pi \sqrt 3 \over 9}
+.\]
+
+#work
+
+:::
 
 :::{.exercise title="$1/(1+x^2)^2$"}
 \[
@@ -351,6 +359,14 @@ I
 .\]
 :::
 
+### No clear decay
+
+
+:::{.exercise title="$e^{x/2} / 1+e^x,$ replication"}
+
+:::
+
+
 ## Singularities along $\RR$
 
 :::{.exercise title="$xe^{2ix}/x^2-1$ "}
@@ -576,6 +592,16 @@ I &= 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}} \\
 :::
 
 ## Branch Cuts
+
+
+:::{.exercise title="$x^\alpha/(x+1)^2$, keyhole contour"}
+\[
+I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx
+.\]
+
+#work
+
+:::
 
 :::{.exercise title="Keyhole contour and ML estimate: $\log(x) / (1+x^2)^2$"}
 Compute
