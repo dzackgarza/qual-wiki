@@ -1,16 +1,11 @@
 # Special Functions
 
-:::{.fact title="Infinite products"}
+## Transforms
+\[
+\hat{f}(\xi) \da \int_\RR e^{-i\xi x} f(x)\dx \\
+f(x) = {1\over 2\pi}\int_\RR e^{i\xi x} \hat{f}(\xi) \dxi 
+.\]
 
-![](figures/2021-12-14_17-36-04.png)
-
-:::
-
-:::{.theorem title="Weierstrass factorization"}
-
-![](figures/2021-12-14_17-36-26.png)
-
-:::
 
 ## The Gamma Function
 
@@ -124,7 +119,19 @@ There is a functional equation:
 :::
 
 
-## Infinite Series
+## Infinite Series and Products
+
+:::{.fact title="Infinite products"}
+
+![](figures/2021-12-14_17-36-04.png)
+
+:::
+
+:::{.theorem title="Weierstrass factorization"}
+
+![](figures/2021-12-14_17-36-26.png)
+
+:::
 
 
 :::{.remark}
