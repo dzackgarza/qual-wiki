@@ -369,3 +369,17 @@ A similar argument works at $z=\pm \pi$.
 :::
 
 
+## Misc
+
+
+:::{.exercise title="?"}
+By computing
+\[
+{1\over 2\pi i}\oint {\cot(\pi z)\over z^2}\dz
+,\]
+say using a large rectangle, show that
+\[
+\zeta(2) = \sum_{k\geq 0} {1\over k^2} = {\pi^2\over 6}
+.\]
+:::
+
