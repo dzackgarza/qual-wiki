@@ -464,7 +464,7 @@ Let $\omega \da z-i\pi$, then
 \right] \\
 &= -{1\over \omega}
 \left[
-1 + \omega\qty{} + \omega^2\qty{} + \bigo(\omega^3)
+1 + \omega\qty{-{1\over 2!}} + \omega^2\qty{-{1\over 3!} + \qty{1\over 2!}^2} + \bigo(\omega^3)
 \right]
 .\]
 
