@@ -693,16 +693,23 @@ Note the single pole of order 2 at $z=-1$, and also the branch singularity.
 Choose a branch cut of $\log$ by deleting $\theta=0$, and take a keyhole contour.
 Write the contours as 
 
-- $\gamma_\eps$
-- $\gamma_+$
-- $\gamma_R$
-- $\gamma_-$
+- $\gamma_\eps = \ts{\eps e^{it} \st t\in[0+\eps, 2\pi - \eps]}$
+- $\gamma_+ = \ts{x+i\eps \st x\in [\eps, R]}$
+- $\gamma_R = \ts{Re^{it} \st t\in [0+\eps, 2\pi - \eps]$
+- $\gamma_- = \ts{x-i\eps \st t\in [\eps, R]}$,
+
+all oriented so that the total curve $\Gamma$ is traversed counter-clockwise.
 
 The claim is that $\int_{\gamma_\eps} f, \int_{\gamma_R} f\to 0$, and $\int_{\gamma_+} f$ is a multiple of $\int \gamma_- f$. 
 For $z=x-i\eps$ on $\gamma_-$, we have
 \[
 \log(z) = \log(x+i\eps) = \ln\abs{x+i\eps} + i\Arg(x+i\eps)\convergesto{\eps\to 0} \ln\abs{x} + 2\pi i = e^{2\pi i}z
+,\]
+and 
+\[
+f(e^{2\pi i}z) = {(e^{2\pi i}z)^\alpha \over ((e^{2\pi i}z)^2+1)^2 } = e^{2\pi i\alpha } {z \over z^2+1}
 .\]
+
 
 :::
 
