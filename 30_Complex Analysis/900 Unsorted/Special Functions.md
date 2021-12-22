@@ -135,7 +135,6 @@ There is a functional equation:
 
 :::
 
-
 :::{.remark}
 An interesting way to sum infinite series:
 
@@ -146,5 +145,13 @@ An interesting way to sum infinite series:
 \sum_{n=-\infty}^{\infty}(-1)^{n} f\left(\frac{2 n+1}{2}\right) &=(\operatorname{sum} \quad \text { of residues of } \pi \sec \pi z f(z)) .
 .\]
 
+:::
+
+
+:::{.exercise title="Sum formulas"}
+Show that
+\[
+\sum_{k\in \ZZ}{1\over (z-k)^2} = (\pi \csc(\pi z))^2
+.\]
 :::
 

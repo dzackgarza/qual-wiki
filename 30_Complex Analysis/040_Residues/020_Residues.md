@@ -115,6 +115,9 @@ If $z_0$ is an order 1 pole of $f$ and $\gamma_{\eps, \theta}$ is an arc of the 
 \[
 \lim_{\eps\to 0} \int_{\gamma_{\eps, \theta}} f(z) \dz  = i\theta \Res_{z = z_0}f(z)
 .\]
+
+![](figures/2021-12-22_05-13-02.png)
+
 :::
 
 ## Residue Exercises
