@@ -749,31 +749,40 @@ Thus
 
 :::
 
-:::{.exercise title="Keyhole contour and ML estimate: $\log(x) / (1+x^2)^2$"}
+:::{.exercise title="$\log(x) / (1+x^2)^2$"}
 \[
 I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx 
 .\]
+
+#completed
+
 :::
 
-:::{.solution}
+:::{.solution title="The squaring trick"}
 Factor $(1+z^2)^2 = (z+i)^2(z-i)^2$.
-Take a keyhole contour similar to the following:
-
-![attachments/image_2021-06-09-02-11-59.png](attachments/image_2021-06-09-02-11-59.png)
-
-Show that outer radius $R$ and inner radius $\rho$ circles contribute zero in the limit by the ML estimate?
-Compute the residues by just applying the formula and manually computing derivatives:
+Apropos of nothing, considering the auxiliary function
 \[
-\Res_{z= \pm i} f(z) 
-&= \lim_{z\to \pm i} \dd{}{z} {\log^2(z) \over (z\pm i)^2} \\
-&= \lim_{z\to \pm i} {2\log(z) (z\pm i)^2 - 2(z\pm i)^2 \log^2(z) \over \qty{(z\pm i )^2}^2} \\
-&= {
-2\log(\pm i)(\pm 2i)^2 - 2(\pm 2i)^2 \log^2(\pm i)
-\over {\qty{\pm 2i}}^4 } \\
-&=_? {\pi \over 4}\pm {i\pi^2 \over 16}
+g(z) \da \qty{\log(z) \over 1+x^2}^2 = {\log^2(z) \over (1+x^2)^2}
+.\]
+Use a keyhole contour for a branch cut along $\theta = -\pi$, so $\Arg(z) \in (-\pi, \pi)$:
+
+- $\gamma_+: \ts{t + i\eps \st t \in [-\eps, -R]}$,
+- $\gamma_{\eps}: \ts{\eps e^{it} \st t\in [-\pi + \eps, \pi - \eps] }$,
+- $\gamma_+: \ts{t - i\eps \st t \in [-\eps, -R]}$,
+- $\gamma_{R}: \ts{R e^{it} \st t\in [-\pi + \eps, \pi - \eps] }$,
+
+and $\Gamma$ the combined contour oriented counterclockwise.
+Note the symmetry:
+\[
+\int_{\gamma_+}g(z) 
+&= \int_{-R}^{-\eps} { \log^2(t) \over (t^2 +1)^2 } \dt \\
+&= - \int_{-eps}^{-R} { \log^2(t) \over (t^2 +1)^2 } \dt \\
+&= \int_{eps}^{R} { \log^2(-s) \over ( (-s)^2 +1)^2 } \ds && s=-t,\, \ds = -\dt \\
+&= \int_{eps}^{R} { \log^2(e^{i\pi} s) \over (s^2 +1)^2 } \ds \\
+&= \int_{eps}^{R} { \qty{ \log(s) + i\pi}^2 \over (s^2 +1)^2 } \ds \\
 .\]
 
-> See p.4: <http://www.math.toronto.edu/mnica/complex1.pdf>
+
 
 :::
 
