@@ -406,7 +406,6 @@ f(z) = e^{-(1-z)} = e^{z-1} = e\inv e^z = e\inv\sum_{k\geq 0} {z^k\over k!}
 Since $e^z$ is entire, this converges on $\CC$.
 :::
 
-
 :::{.exercise title="Laurent expanding tricky exponentials"}
 Find a Laurent expansion for
 \[
@@ -417,7 +416,6 @@ about $z_0 = 0$ and $z_1 = i\pi$.
 #completed
 
 :::
-
 
 :::{.solution}
 At $z=0$, we can use a geometric series approach since $\abs{e^z} = e^{\Re(z)} \leq 1$ near $0$.
@@ -465,14 +463,11 @@ Let $\omega \da z-i\pi$, then
 &= -{1\over \omega}
 \left[
 1 + \omega\qty{-{1\over 2!}} + \omega^2\qty{-{1\over 3!} + \qty{1\over 2!}^2} + \bigo(\omega^3)
-\right]
+\right] \\
+&= -{1\over w} + {1\over 2} - {1\over 12}\omega + \bigo(\omega^2)
 .\]
 
-
-
 :::
-
-
 
 ## New Things in $\CC$
 
