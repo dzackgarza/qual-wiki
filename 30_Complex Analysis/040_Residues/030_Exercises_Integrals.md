@@ -758,7 +758,7 @@ I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx
 
 :::
 
-:::{.solution title="The squaring trick"}
+:::{.solution title="Log squaring trick"}
 Factor $(1+z^2)^2 = (z+i)^2(z-i)^2$.
 Apropos of nothing, considering the auxiliary function
 \[
@@ -816,23 +816,24 @@ At $z=i$:
 &= 2^{-4}\qty{(2i)^2 \cdot 2 \cdot {i\pi \over 2} {1\over i} - \qty{i\pi \over 2}^2 \cdot 2 \cdot 2i} \\
 &= 2^{-4}\qty{2^3 i^2 {\pi \over 2} - 2^{-2}i^2 \pi^2 2^2 i} \\
 &= 2^{-4}\qty{-2^2\pi + i\pi ^2} \\
-&= - {\pi \over 4} + i {\pi^2\over 16}
+&= r_1 \da - {\pi \over 4} + i {\pi^2\over 16} 
 .\]
 Similarly,
 \[
 \Res_{z=-i}g(z)
 &= \lim_{z\to -i} \dd{}{z} {\log^2(z) \over (z+i)^2} \\
-&= \lim_{z\to i} {(z-i)^2 2\log(z) z\inv - \log^2(z) 2(z-i) \over (z+i)^4} \\
+&= \lim_{z\to -i} {(z-i)^2 2\log(z) z\inv - \log^2(z) 2(z-i) \over (z-i)^4} \\
+&= 2^{-4} \qty{ (-2i)^2 \cdot 2 \qty{-i\pi \over 2}{1\over -i} - \qty{-i\pi\over 2}^2 \cdot 2(-2i) } \\
+&= 2^{-4} \qty{ 2^2 i^2 \pi - 2^{-2} \pi^2 (-4i) }\\
+&= 2^{-4}\qty{-2^2\pi - \pi^2} \\
+&= r_2 \da -{\pi \over 4} - i {\pi^2\over 16}
 .\]
-
-
-
-
-
-
-
-
-
+Solving for $I$ above, we have
+\[
+I &= {2\pi i \over 4\pi i}(r_1 + r_2) \\
+&= {1\over 2} \qty{- {\pi \over 4} - {\pi \over 4}} \\
+&= -{\pi \over 4}
+.\]
 :::
 
 :::{.exercise title="$\log(x) / x^2+a^2$"}
@@ -853,7 +854,7 @@ Similarly,
 
 :::
 
-:::{.exercise title="$1/x\sqrt{x^2-1}"}
+:::{.exercise title="$1/x\sqrt{x^2-1}$ "}
 \[
 \int_{1}^{\infty} \frac{d x}{x \sqrt{x^{2}-1}} = {\pi \over 2}
 .\]
