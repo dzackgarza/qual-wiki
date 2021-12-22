@@ -445,6 +445,20 @@ However, we still have to get rid of the leading 1 in the expansion of $e^z$ in 
 &= {1\over 2} - {1\over 4}z + 0z^2 + {1\over 48}z^3 + \bigo(z^4)
 .\]
 
+Expanding at $z-i\pi$: quite a bit easier.
+Let $\omega \da z-i\pi$, then
+\[
+{1\over 1 + e^z}
+&= {1\over 1 + e^{z-i\pi}e^{i\pi}} \\
+&= {1\over 1 - e^{\omega} } \\
+&= {1 \over -\omega - {1\over 2!}\omega^2 - {1\over 3!}\omega^3 - \bigo(\omega^4) } \\
+&= -{1\over \omega} {1 \over 1 + {1\over 2!}\omega + {1\over 3!}\omega + \bigo(\omega^3) } \\
+&= -{1\over \omega}{1\over 1-(- p(z) ) } \qquad p(z) \da \sum_{k\geq 1}{\omega^k\over k!} \\
+&= -{1\over \omega} \sum_{k\geq 0} (-p(z))^k \\
+&= -{1\over \omega}
+.\]
+
+
 
 :::
 
