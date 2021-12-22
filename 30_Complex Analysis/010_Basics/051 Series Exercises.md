@@ -433,7 +433,9 @@ However, we still have to get rid of the leading 1 in the expansion of $e^z$ in 
 &\qquad + \qty{ {1\over 2}z + {1\over 2\cdot 2!}z^2 + {1\over 2\cdot 3!}z^3 + \bigo\qty{z^4} }^2 \\ 
 &\qquad - \qty{{1\over 2} z + {1\over 2\cdot 2!}z^2 + {1\over 2\cdot 3!}z^3 + \bigo\qty{z^4} }^3 \\
 &\qquad - \bigo(z^4) \Big]\\
-&= {1\over 2}\left[ 1 + z\qty{- {1\over 4}} + z^2\qty{} \right]
+&= {1\over 2}\left[ 
+1 + z\qty{- {1\over 2}} + z^2\qty{- {1\over 2!} + \qty{1\over 2}^2} 
+\right]
 .\]
 
 
