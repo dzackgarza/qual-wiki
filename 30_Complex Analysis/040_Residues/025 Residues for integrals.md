@@ -91,8 +91,6 @@ If $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int
 
 ![](figures/2021-12-14_17-20-48.png)
 
-
-
 :::
 
 :::{.remark title="No clear decay on semicircles: replication"}
