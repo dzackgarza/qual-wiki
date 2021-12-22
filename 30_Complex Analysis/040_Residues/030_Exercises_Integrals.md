@@ -431,7 +431,6 @@ Computing this residue:
 
 ## Singularities along $\RR$, Principal Values
 
-
 :::{.exercise title="$\sin(x)/x$ and $\cos(x)/x$"}
 Compute
 \[
@@ -681,10 +680,29 @@ I &= 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}} \\
 
 :::{.exercise title="$x^\alpha/(x+1)^2$, keyhole contour"}
 \[
-I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx
+I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx && 0 < \alpha < 2
 .\]
 
 #work
+
+:::
+
+
+:::{.solution}
+Note the single pole of order 2 at $z=-1$, and also the branch singularity.
+Choose a branch cut of $\log$ by deleting $\theta=0$, and take a keyhole contour.
+Write the contours as 
+
+- $\gamma_\eps$
+- $\gamma_+$
+- $\gamma_R$
+- $\gamma_-$
+
+The claim is that $\int_{\gamma_\eps} f, \int_{\gamma_R} f\to 0$, and $\int_{\gamma_+} f$ is a multiple of $\int \gamma_- f$. 
+For $z=x-i\eps$ on $\gamma_-$, we have
+\[
+\log(z) = \log(x+i\eps) = \ln\abs{x+i\eps} + i\Arg(x+i\eps)\convergesto{\eps\to 0} \ln\abs{x} + 2\pi i = e^{2\pi i}z
+.\]
 
 :::
 
@@ -747,7 +765,6 @@ Compute the residues by just applying the formula and manually computing derivat
 
 :::
 
-
 :::{.exercise title="$1/x^2+3x+2$, the log trick"}
 \[
 I\da \int_\RR {1\over x^2 + 3x+ 2 }\dx
@@ -756,7 +773,6 @@ I\da \int_\RR {1\over x^2 + 3x+ 2 }\dx
 #completed 
 
 :::
-
 
 :::{.solution}
 Note that $f(x) = (x+2)(x+1)$, so the singularities on on $\RR_{< 0}$.
@@ -822,14 +838,6 @@ I
 &= \ln(2)
 ,\]
 noting that we've chosen a branch of $\log(z) \da \ln\qty{\abs{z}} + i\Arg(z)$ where $\Arg(z) \in (0, 2\pi)$.
-
-
-
-
-
-
-
-
 :::
 
 
