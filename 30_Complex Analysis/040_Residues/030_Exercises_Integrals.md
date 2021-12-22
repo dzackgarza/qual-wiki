@@ -811,8 +811,9 @@ Factoring the denominator as $(1+z^2)^2 = (z-i)^2(z+i)^2$, there are two order 2
 At $z=i$:
 \[
 \Res_{z=i}g(z) 
-&= \lim_{z\to i} {\log^2(z) \over (z+i)^2} \\
-&= { (\log(i))^2 \over (2i)^2 }
+&= \lim_{z\to i} \dd{}{z} {\log^2(z) \over (z+i)^2} \\
+&= \lim_{z\to i} {(z+i)^2 2\log(z)(1/z) - \log^2(z) 2(z+i) \over (z+i)^4} \\
+&= ?
 .\]
 
 
