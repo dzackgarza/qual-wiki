@@ -769,6 +769,27 @@ Thus
 
 :::
 
+
+:::{.exercise title="$\log(x)/1+x^2$"}
+\[
+I \da \int_\RR {\log(x) \over 1+x^2}\dx = 0
+.\]
+
+#work
+
+:::
+
+
+:::{.solution}
+
+![](figures/2021-12-22_05-21-05.png)
+
+Use $\Res_{z=i}f(x) = {\pi \over 4}$.
+
+:::
+
+
+
 :::{.exercise title="$\log(x) / (1+x^2)^2$"}
 \[
 I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx 
