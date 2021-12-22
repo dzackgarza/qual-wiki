@@ -804,14 +804,14 @@ There are just two simple poles at $z_1 = -1, z_2 = -2$, so
 For $z_1$:
 \[
 \Res_{z=-1}{\log(z) \over (z+1)(z+2)} 
-&= \lim_{z\to -1} {\log(z) \over z+2} \\
-&= \log(-1)
+= \lim_{z\to -1} {\log(z) \over z+2} 
+= \log(-1)
 ,\]
 and for $z_2$,
 \[
 \Res_{z=-2}{\log(z) \over (z+1)(z+2)} 
-&= \lim_{z\to -2} {\log(z) \over z+1} \\
-&= -\log(-2)
+= \lim_{z\to -2} {\log(z) \over z+1}
+= -\log(-2)
 .\]
 
 Thus
