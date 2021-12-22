@@ -25,7 +25,7 @@ Let $f$ be entire and for every $a\in \CC$, and write the Laurent expansion abou
 Suppose that for every $a$, there exists some $k$ such that $c_{k, a} = 0$.
 Show that $f$ is a polynomial.
 
-#complete
+#completed
 
 :::
 

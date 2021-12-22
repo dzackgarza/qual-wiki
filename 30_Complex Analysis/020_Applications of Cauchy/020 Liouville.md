@@ -144,7 +144,7 @@ So $f(z) = c\sin(z)$ where $\abs{c} \leq 1$.
 Let $f$ be entire with $\im(f) \intersect \DD_r(z_0)$ empty. 
 Show $f$ must be constant without using the Casorati-Weierstrass or Picard theorems.
 
-#complete 
+#completed
 
 :::
 

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "030 Identity Principle",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
+    },
+    {
+      "basename": "051 Series Exercises",
+      "path": "30_Complex Analysis/010_Basics/051 Series Exercises.md"
+    },
+    {
+      "basename": "020 Liouville",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
+    },
+    {
       "basename": "qual_progress",
       "path": "qual_progress.md"
     },
@@ -41,20 +53,12 @@
       "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
     },
     {
-      "basename": "020 Liouville",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
-    },
-    {
       "basename": "060_Schwarz lemma",
       "path": "30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma.md"
     },
     {
       "basename": "020_Casorati-Weierstrass",
       "path": "30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass.md"
-    },
-    {
-      "basename": "030 Identity Principle",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
     },
     {
       "basename": "120_Holomorphy and Calculus",

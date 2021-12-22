@@ -73,7 +73,7 @@ Show that
 
 Thus if $f(z) = \sum{k\geq 0} c_k (z-z_0)^k$ is a power series, since $S_N\to f$ locally uniformly, $f$ can be differentiated term-by-term within its radius of convergence.
 
-#complete
+#completed
 
 :::
 

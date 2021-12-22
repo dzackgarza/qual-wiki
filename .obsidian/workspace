@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "qual_progress.md",
-            "mode": "preview"
+            "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
+            "mode": "source"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Riemann removable",
+                "query": "tag:#complete",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "qual_progress.md",
+                "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "qual_progress.md"
+                "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "qual_progress.md",
+                "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "qual_progress.md",
+                "file": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -251,20 +251,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360,
-    "collapsed": true
+    "width": 360
   },
   "active": "6812191371727805",
   "lastOpenFiles": [
+    "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md",
+    "30_Complex Analysis/010_Basics/051 Series Exercises.md",
+    "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md",
     "qual_progress.md",
     "40_Topology/080_Degree/240_Fixed_Points_and_Degree.md",
     "30_Complex Analysis/040_Residues/Jordan's Lemma.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "010_Algebra.md",
     "10_Algebra/000_Resources/000_Resources.md",
-    "10_Algebra/000_Resources/50_Solutions_Algebra.md",
-    "10_Algebra/000_Resources/40_Problems.md",
-    "10_Algebra/000_Resources/20_Books_Notes.md",
-    "30_Complex Analysis/000_Resources/00_Topics.md"
+    "10_Algebra/000_Resources/50_Solutions_Algebra.md"
   ]
 }

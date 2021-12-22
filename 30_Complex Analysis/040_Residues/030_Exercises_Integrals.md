@@ -683,10 +683,9 @@ I &= 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}} \\
 I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx && 0 < \alpha < 2
 .\]
 
-#work
+#completed
 
 :::
-
 
 :::{.solution}
 Note the single pole of order 2 at $z=-1$, and also the branch singularity.
@@ -738,9 +737,13 @@ Computing the residue at $z_0 = -1$:
 .\]
 Thus
 \[
-\int_\RR f(z) \dz = {-\alpha e^{i\pi \alpha}\over 1 - e^{2\pi i \alpha}}
+\int_\RR f(z) \dz 
+&= 2\pi i \cdot {-\alpha e^{i\pi \alpha}\over 1 - e^{2\pi i \alpha}} \\
+&=-2\pi i \alpha {1\over e^{-i\pi\alpha} (1- e^{2\pi i \alpha})} \\
+&=-2\pi i \alpha {1\over e^{-i\pi\alpha} - e^{i\pi\alpha}} \\
+&=2\pi i \alpha {1\over e^{-i\pi\alpha} - e^{-i\pi\alpha}} \\
+&= \pi \alpha \csc(\pi\alpha)
 .\]
-
 
 :::
 
