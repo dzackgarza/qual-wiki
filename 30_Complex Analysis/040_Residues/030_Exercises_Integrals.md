@@ -769,7 +769,6 @@ Thus
 
 :::
 
-
 :::{.exercise title="$\log(x)/1+x^2$"}
 \[
 I \da \int_\RR {\log(x) \over 1+x^2}\dx = 0
@@ -779,7 +778,6 @@ I \da \int_\RR {\log(x) \over 1+x^2}\dx = 0
 
 :::
 
-
 :::{.solution}
 
 ![](figures/2021-12-22_05-21-05.png)
@@ -788,8 +786,6 @@ Use $\Res_{z=i}f(x) = {\pi \over 4}$ and $\log(z) = \ln\abs{z} + i\pi$ on the ne
 Also need $\int_0^\infty {1\over x^2 + 1}\dx = \pi/2$.
 
 :::
-
-
 
 :::{.exercise title="$\log(x) / (1+x^2)^2$"}
 \[
@@ -895,6 +891,26 @@ I &= {2\pi i \over 4\pi i}(r_1 + r_2) \\
 ![figures/2021-07-29_18-51-17.png](figures/2021-07-29_18-51-17.png)
 
 :::
+
+
+:::{.exercise title="$\log(z)/1+z^a$"}
+\[
+I\da \int_0^\infty {\log(x) \over 1+x^a}\dx = - \qty{\pi \over a}^2\cos\qty{\pi\over a}\csc^2\qty{\pi \over a}
+.\]
+
+#work
+
+:::
+
+
+:::{.solution}
+
+![](figures/2021-12-22_05-25-35.png)
+
+Use that the integral rotates by $e^{2\pi i\over a}$.
+:::
+
+
 
 :::{.exercise title="$1/x\sqrt{x^2-1}$ "}
 \[
