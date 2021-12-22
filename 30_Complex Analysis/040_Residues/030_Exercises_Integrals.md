@@ -790,16 +790,24 @@ and similarly
 Now note that
 \[
 (\log(s) + i\pi)^2 - (\log(s) - i\pi)^2 
-= \qty{\log^2(s) + 2i\pi \log(s) - \pi^2 } - \qty{\log^2(s) -2i\pi\log(s) - \pi^2}
-= 4i\pi\log(s)
+&= \cdots \\
+&= \qty{\log^2(s) + 2i\pi \log(s) - \pi^2 } - \qty{\log^2(s) -2i\pi\log(s) - \pi^2} \\
+&= 4i\pi\log(s)
 ,\]
 and so miraculously
 \[
 \int_{\gamma_+}f(z)\dz + \int_{\gamma_-}f(z)\dz 
 &= \int_{\eps}^{R} { \qty{ \log(s) + i\pi}^2 \over (s^2 +1)^2 } \ds - \int_{\eps}^{R} { \qty{ \log(s) - i\pi}^2 \over (s^2 +1)^2 } \dt \\
 &= \int_\eps^R { \qty{ \log(s) + i\pi}^2 - \qty{ \log(s) - i\pi}^2  \over (s^2+1)^2 }\ds \\
-&= 4i\pi \int_{\eps}^R {\log(s) \over (s^2+1)^2}\ds
+&= 4i\pi \int_{\eps}^R {\log(s) \over (s^2+1)^2}\ds \\
+&\too 4i \pi I
 .\]
+The contributions from $\gamma_R$ vanish since ${\log(z) \over z^4}\to 0$ as $\abs{z}\to \infty$, and the contribution from $\gamma_\eps$ vanish since ${\log(z) \over z^4+c}\to 0$ as $\abs{z}\to 0$ (and applying the ML estimate).
+Thus
+\[
+2\pi i \sum_{z_k\in \CC}\Res_{z=z_k}g(z) = \int_\Gamma g(z) \dz = 4i\pi I
+.\]
+
 
 
 
