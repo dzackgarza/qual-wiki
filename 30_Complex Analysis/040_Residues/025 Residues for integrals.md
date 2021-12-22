@@ -82,13 +82,20 @@ If $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int
 
   ![](figures/2021-12-14_17-19-31.png)
 
+  - A useful fact: 
+  \[
+\lim_{\eps\decreasesto 0} \ln(x-i\eps) = \ln(x) + 2\pi i
+  .\]
+
 - $\int_{\RR_{\geq 0}} f(x) \log(x)$: indented semicircular contours
 
 ![](figures/2021-12-14_17-20-48.png)
 
+
+
 :::
 
-:::{.remark title="No clear decay on semicircles"}
+:::{.remark title="No clear decay on semicircles: replication"}
 The replication trick: if $f(z) = f(\zeta_m z)$ for some $m$, try a sector.
 If $f(z) = f(z + ib)$ for some $b$, a rectangle.
 :::
