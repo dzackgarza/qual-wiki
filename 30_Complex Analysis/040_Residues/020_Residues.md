@@ -120,6 +120,12 @@ If $z_0$ is an order 1 pole of $f$ and $\gamma_{\eps, \theta}$ is an arc of the 
 
 :::
 
+:::{.proof title="?"}
+
+![](figures/2021-12-22_05-13-27.png)
+
+:::
+
 ## Residue Exercises
 
 ### Avoiding Residue Formulas
