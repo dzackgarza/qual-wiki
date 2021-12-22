@@ -9,6 +9,17 @@ Conformal Mapping Dictionary:
 
 ## Conformal Map Facts
 
+
+:::{.remark}
+It's a theorem that holomorphic and $f'\neq 0$ implies conformal.
+Write $f(z+\eps) = f(z) + \eps f'(z) + \bigo(\eps^2)$, then
+\[
+\Arg(f(z+\eps) - f(z)) \approx \Arg(\eps f'(z)) = \Arg(\eps) + \Arg(f'(z))\to \Arg(f'(z))
+,\]
+so all tangent vectors near $z_0$ are rotated by approximately the same angle $f'(z_0)$, preserving their relative angles.
+:::
+
+
 :::{.definition title="Conformal Map / Biholomorphism"}
 A map $f$ is **conformal** on $\Omega$ iff $f$ is complex-differentiable, $f'(z)\neq 0$ for $z\in \Omega$, and $f$ preserves signed angles (so $f$ is orientation-preserving).
 
