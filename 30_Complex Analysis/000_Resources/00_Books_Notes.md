@@ -75,6 +75,9 @@ In the Spirit of Lipman Bers*
 - [[attachments/Complex_Qual_Notes.pdf|Josh Swanson Complex Prelim Notes]]
 	#summaries
 	
+- Cambridge notes: <https://dec41.user.srcf.net/notes/IB_L/complex_analysis_trim.pdf>
+	#summaries 
+	
 # Course Notes
 
 - [[http://people.math.harvard.edu/~ctm/papers/home/text/class/harvard/213a/course/course.pdf|Harvard 2021 Complex Analysis courses notes]]

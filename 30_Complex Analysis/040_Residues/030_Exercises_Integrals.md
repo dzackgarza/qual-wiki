@@ -784,7 +784,8 @@ I \da \int_\RR {\log(x) \over 1+x^2}\dx = 0
 
 ![](figures/2021-12-22_05-21-05.png)
 
-Use $\Res_{z=i}f(x) = {\pi \over 4}$.
+Use $\Res_{z=i}f(x) = {\pi \over 4}$ and $\log(z) = \ln\abs{z} + i\pi$ on the negative real curve.
+Also need $\int_0^\infty {1\over x^2 + 1}\dx = \pi/2$.
 
 :::
 
