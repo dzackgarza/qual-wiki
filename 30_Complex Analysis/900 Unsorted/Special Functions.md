@@ -59,6 +59,25 @@ The residues:
 ![](figures/2021-12-19_19-59-05.png)
 :::
 
+## The Beta Function
+
+
+:::{.definition title="Beta function"}
+\[
+B(z, w)=\int_{0}^{1} t^{z-1}(1-t)^{w-1} \mathrm{~d} t
+.\]
+
+:::
+
+:::{.exercise title="?"}
+Show that
+\[
+B(z, w) = {\Gamma(z) \Gamma(w) \over \Gamma(z+w)}
+.\]
+:::
+
+
+
 ## Riemann Zeta
 
 :::{.definition title="The Riemann Zeta Function"}

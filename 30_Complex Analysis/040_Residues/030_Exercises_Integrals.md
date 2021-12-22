@@ -56,10 +56,12 @@ so
 
 :::{.exercise title="$1/x^4+1$, half-line"}
 \[
-I \da \int_0^\infty {1\over x^4 + 1 }\dx = {2\pi \sqrt 3 \over 9}
+I \da \int_0^\infty {1\over x^4 + 1 }\dx = {\pi \over 2\sqrt 2}
 .\]
 
 #work
+
+> Hint: Keyhole. <https://physicspages.com/pdf/Mathematics/Contour%20integration%20around%20a%20branch%20cut.pdf>
 
 :::
 
@@ -578,7 +580,7 @@ I = 2\pi i \cdot -{2i\over \sqrt 8} = {4\pi \over \sqrt{8}}
 .\]
 :::
 
-:::{.exercise title="$1/1+a^2+2a\cos(\theta)$"}
+:::{.exercise title="$1/1+a^2+2a\cos(\theta)$, Poisson kernels"}
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{1+a^{2}-2 a \cos (\theta)}
 = \begin{cases}\frac{2 \pi}{a^{2}-1} & \text { if }|a|>1 \\ \frac{2 \pi}{1-a^{2}} & \text { if }|a|<1\end{cases}
@@ -748,14 +750,13 @@ Thus
 :::
 
 :::{.exercise title="Keyhole contour and ML estimate: $\log(x) / (1+x^2)^2$"}
-Compute
 \[
-\int_{[0, \infty]} {\log(x) \over (1+x^2)^2}\dx 
+I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx 
 .\]
 :::
 
 :::{.solution}
-Factor $(1+z^2)^2 = (z+i^2(z-i)^2$.
+Factor $(1+z^2)^2 = (z+i)^2(z-i)^2$.
 Take a keyhole contour similar to the following:
 
 ![attachments/image_2021-06-09-02-11-59.png](attachments/image_2021-06-09-02-11-59.png)
