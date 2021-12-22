@@ -155,3 +155,15 @@ Show that
 .\]
 :::
 
+
+:::{.exercise title="Sum formulas"}
+Show
+\[
+\sum_{n \geq 1} \frac{1}{n^{2}}=\frac{\pi^{2}}{6}
+\]
+by integrating $\pi \cot(\pi z)z^{-2}$.
+
+
+:::
+
+
