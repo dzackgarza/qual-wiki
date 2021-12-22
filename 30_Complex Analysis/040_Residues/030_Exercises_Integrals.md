@@ -361,7 +361,6 @@ I
 
 ### No clear decay
 
-
 :::{.exercise title="$e^{x/2} / 1+e^x,$ replication"}
 \[
 I \da \int_\RR {e^{x\over 2}\over 1+e^x}\dx
@@ -370,7 +369,6 @@ I \da \int_\RR {e^{x\over 2}\over 1+e^x}\dx
 #completed
 
 :::
-
 
 :::{.solution}
 Replication: find $b$ such that $f(z) = f(z+ib)$ and use a rectangle.
@@ -422,13 +420,14 @@ Computing this residue:
 \[
 \pi i \Res_{z=i\pi }f(z) 
 &= \pi i \lim_{z\to i\pi} { (z-i\pi) e^{z\over 2}\over e^z + 1} \\
-&\eqLH \pi i \lim_{z\to i\pi} {{z\over 2} e^{z\over 2} \over e^z}
+&\eqLH \pi i \lim_{z\to i\pi} {e^{z\over 2} \over e^z} \\
+&= \pi i  e^{-i\pi \over 2} \\
+&= \pi
 .\]
 
+> DZG: This is much easier than trying to find the Laurent expansion about $z=i\pi$ -- trust me!
 
 :::
-
-
 
 ## Singularities along $\RR$
 
