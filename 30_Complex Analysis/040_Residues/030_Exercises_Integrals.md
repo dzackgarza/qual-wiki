@@ -714,8 +714,17 @@ Thus
 \int_{\gamma_-} f(z)\dz 
 &\too \int_R^\eps f(e^{2\pi i }z)\dz \\
 &= \int_R^\eps e^{2\pi i \alpha}f(z)\dz \\
-&= e^{2\pi i \alpha}\int_\eps^R f(z)\dz \\
+&= -e^{2\pi i \alpha}\int_\eps^R f(z)\dz \\
 &= -e^{2\pi i\alpha}\int_{\gamma_+}f(z)\dz
+.\]
+
+Thus in the limit,
+\[
+2\pi i \sum_{z_k\in \CC\sm\RR_{\geq 0}} \Res_{z=z_k}f(z) 
+&= \int_\Gamma f(z)\dz \\
+&= \int_{\gamma_+}f(z)\dz + \int_{\gamma_-}f(z)\dz \\
+&= (1-e^{2\pi i\alpha})\int_{\gamma_+}f(z)\dz \\
+&= (1-e^{2\pi i\alpha})\int_{\RR}f(z)\dz \\
 .\]
 
 
