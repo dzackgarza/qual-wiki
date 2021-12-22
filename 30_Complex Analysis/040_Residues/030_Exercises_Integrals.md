@@ -429,7 +429,25 @@ Computing this residue:
 
 :::
 
-## Singularities along $\RR$
+## Singularities along $\RR$, Principal Values
+
+
+:::{.exercise title="$\sin(x)/x$ and $\cos(x)/x$"}
+Compute
+\[
+I_1 \da \operatorname{PV}\int_\RR {\sin(x) \over x}\dx \\
+I_2 \da \operatorname{PV}\int_\RR {\cos(x) \over x}\dx 
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+Take $\Gamma$ an upper-half-plane semicircular contour indented at the origin; considering $f(z) = e^{iz}$, by Jordan's lemma $\int_{C_R}f \to 0$ and the pieces along $\RR$ converge to $\PV \int f$.
+:::
+
 
 :::{.exercise title="$xe^{2ix}/x^2-1$ "}
 \[
