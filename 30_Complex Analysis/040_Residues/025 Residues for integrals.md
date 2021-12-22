@@ -37,7 +37,7 @@ If you curve is clockwise (e.g. in the lower half-plane), so it traces out $[-R,
 Let $\deg$ denote the $z\dash$adic valuation, so $\deg(p(x)/q(x)) = \deg(p) - \deg(q)$.
 :::
 
-:::{.remark title="Rational functions $f$ with $\deg(f) \leq -2$ or $f\sim 1/z^{1+\varepsilon}$ "}
+:::{.remark title="Rational, $\deg(f) \leq -2$ or $f\sim 1/z^{1+\varepsilon}$ "}
 For $\int_\RR f$: Semicircle. Always get 
 \[
 \int_\RR f = \sum_{z_0\in \HH} \Res_{z=z_0}f(z)
@@ -49,9 +49,11 @@ For $\int_{\RR_{\geq 0}} f$: use symmetry to convert to $\int_\RR$ (e.g. if $f$ 
 
 ![](figures/2021-12-21_21-14-04.png)
 
+![](figures/2021-12-21_21-17-25.png)
+
 :::
 
-:::{.remark title="Rational functions $f$ against a single $\sin$ or $\cos$, if $\deg(f) \geq -1$"}
+:::{.remark title="Rational $f$ against a single $\sin$ or $\cos$, if $\deg(f) \geq -1$"}
 Semicircles. Realize 
 \[
 \int_\RR f(z)\cos(z) = \Re\qty{\int_\RR f(z)e^{iz}}
@@ -84,6 +86,11 @@ If $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int
 
 ![](figures/2021-12-14_17-20-48.png)
 
+:::
+
+:::{.remark title="No clear decay on semicircles"}
+The replication trick: if $f(z) = f(\zeta_m z)$ for some $m$, try a sector.
+If $f(z) = f(z + ib)$ for some $b$, a rectangle.
 :::
 
 ## The ML Estimate
