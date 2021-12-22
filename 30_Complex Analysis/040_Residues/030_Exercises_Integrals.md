@@ -767,7 +767,7 @@ f(z) = f(e^{i\theta } z) \implies \theta = 2k\pi
 ,\]
 which suggests a keyhole.
 But since there's no $\log$ in $f$, there's no monodromy, and the contributions cancel out.
-So introduce a log, and consider
+So introduce a log with a branch cut along $\theta = 0$, and consider
 \[
 \int f(z) \ln(z)
 .\]
@@ -780,10 +780,20 @@ Now use the general fact
 ,\]
 thus 
 \[
-\int_{\gamma_i}f(z)\ln(z)\dz + \int_{\gamma_+}f(z)\ln(z) 
+\int_{\gamma_+}f(z)\ln(z)\dz + \int_{\gamma_-}f(z)\ln(z) 
 &\too \int_0^\infty f(t)\ln(t)\dt - \int_0^\infty f(t)(\ln(t) + 2\pi i) \dt \\
 &= -2\pi i \int_0^\infty f(t) \dt
 .\]
+
+By the ML estimate, the semicircular piece vanishes.
+Miraculously, since $\lim_{x\to 0}{ x\ln(x) \over x+c} = 0$ for any $c>0$, the inner indented pieces goes to zero.
+Parameterize by $z= \eps e^{it}$
+\[
+\int_{C_\eps} f(z)\ln(z)\dz
+&\approx \int_{\eps}^{2\pi - \eps} {\ln(\eps e^{it}) \over \eps^2 + 3\eps + 2} \eps e^{it}\dt \\
+&= \int_{\eps}^{2\pi - \eps} {\ln(\eps) + it \over \eps^2 + 3\eps + 2} \eps e^{it}\dt \\
+,\]
+where I've been *extremely* sloppy and left out many negligible $e^{it}$ terms.
 
 
 
