@@ -792,7 +792,7 @@ Parameterize by $z= \eps e^{it}$
 \int_{C_\eps} f(z)\ln(z)\dz
 &\approx \int_{\eps}^{2\pi - \eps} {\ln(\eps e^{it}) \over \eps^2 + 3\eps + 2} \eps e^{it}\dt \\
 &= \int_{\eps}^{2\pi - \eps} {\ln(\eps) + it \over \eps^2 + 3\eps + 2} \eps e^{it}\dt \\
-&\approx \int_\eps^{2\pi - \eps} {\eps \ln(\eps) \over \eps^2 + c}\dt \\
+&\approx \int_\eps^{2\pi - \eps} {\eps \ln(\eps) + c_1 \over \eps^2 + c_2}\dt \\
 &\convergesto{\eps\to 0} 0
 ,\]
 where I've been *extremely* sloppy and left out many negligible $e^{it}$ terms.
