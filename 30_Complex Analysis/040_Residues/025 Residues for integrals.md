@@ -93,6 +93,19 @@ The replication trick: if $f(z) = f(\zeta_m z)$ for some $m$, try a sector.
 If $f(z) = f(z + ib)$ for some $b$, a rectangle.
 :::
 
+:::{.remark title="Integrating over singularities: take principal values"}
+For real integrals:
+\[
+\operatorname{PV} \int_{-\infty}^{\infty} \frac{f(x)}{x-x_{0}} d x=\lim _{\epsilon \backslash 0}\left(\int_{-\infty}^{x_{0}-\epsilon} f(x) d x+\int_{x_{0}+\epsilon}^{\infty} f(x) d x\right) .
+.\]
+The same principle works for complex contours, e.g. for $\int_\RR p(z)/q(z)$ where $q$ has real roots:
+
+![](figures/2021-12-21_23-40-15.png)
+
+The contours along the real line converge to the principal values of the real integral.
+
+:::
+
 ## The ML Estimate
 
 :::{.theorem title="ML Estimate"}
