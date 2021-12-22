@@ -679,7 +679,6 @@ I &= 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}} \\
 
 ## Branch Cuts
 
-
 :::{.exercise title="$x^\alpha/(x+1)^2$, keyhole contour"}
 \[
 I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx
@@ -747,6 +746,50 @@ Compute the residues by just applying the formula and manually computing derivat
 ![figures/2021-07-29_18-53-35.png](figures/2021-07-29_18-53-35.png)
 
 :::
+
+
+:::{.exercise title="$1/x^2+3x+2$, the log trick"}
+\[
+I\da \int_\RR {1\over x^2 + 3x+ 2 }\dx
+.\]
+
+#completed 
+
+:::
+
+
+:::{.solution}
+Note that $f(x) = (x+2)(x+1)$, so the singularities on on $\RR_{< 0}$.
+The function isn't even, so a semicircular contour won't work.
+Attempting to find a ray-like symmetry only yields one option:
+\[
+f(z) = f(e^{i\theta } z) \implies \theta = 2k\pi
+,\]
+which suggests a keyhole.
+But since there's no $\log$ in $f$, there's no monodromy, and the contributions cancel out.
+So introduce a log, and consider
+\[
+\int f(z) \ln(z)
+.\]
+
+Let $\gamma_+ = \ts{t + i\eps \st t\geq 0}$ (right-to left) and $\gamma_0 = \ts{t-i\eps \st t\geq 0}$ (left-to-right).
+Now use the general fact
+\[
+\int_{\gamma_+}f(z)\ln(z) \dz &= \int_\eps^R f(t+i\eps)\ln(t+i\eps) \dt \too \int_\RR f(t)\ln(t)\dt \\
+\int_{\gamma_-}f(z)\ln(z) \dz &= \int_R^\eps f(t-i\eps)\ln(t-i\eps) \dt \too -\int_\RR f(t)\qty{ \ln(t) + 2\pi i} \dt \\
+,\]
+thus 
+\[
+\int_{\gamma_i}f(z)\ln(z)\dz + \int_{\gamma_+}f(z)\ln(z) 
+&\too \int_0^\infty f(t)\ln(t)\dt - \int_0^\infty f(t)(\ln(t) + 2\pi i) \dt \\
+&= -2\pi i \int_0^\infty f(t) \dt
+.\]
+
+
+
+
+:::
+
 
 
 
