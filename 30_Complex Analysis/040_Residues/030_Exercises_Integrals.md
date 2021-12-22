@@ -812,18 +812,17 @@ At $z=i$:
 \[
 \Res_{z=i}g(z) 
 &= \lim_{z\to i} \dd{}{z} {\log^2(z) \over (z+i)^2} \\
-&= \lim_{z\to i} {(z+i)^2 2\log(z)(1/z) - \log^2(z) 2(z+i) \over (z+i)^4} \\
-&= { 2\log(i) (2i)^2 - 2(2i)\log^2(i) \over (2i)^4} \\
-&= {-2^3{\pi \over 2} - 4i {\pi^2\over 4} \over 2^4} \\
-&= -\qty{{2^2\pi \over 2^4} - {i\pi^2\over 2^4}} \\
-&= - {\pi \over 4} + i{\pi^2 \over 16}
+&= \lim_{z\to i} {(z+i)^2 2\log(z)z\inv - \log^2(z) 2(z+i) \over (z+i)^4} \\
+&= 2^{-4}\qty{(2i)^2 \cdot 2 \cdot {i\pi \over 2} {1\over i} - \qty{i\pi \over 2}^2 \cdot 2 \cdot 2i} \\
+&= 2^{-4}\qty{2^3 i^2 {\pi \over 2} - 2^{-2}i^2 \pi^2 2^2 i} \\
+&= 2^{-4}\qty{-2^2\pi + i\pi ^2} \\
+&= - {\pi \over 4} + i {\pi^2\over 16}
 .\]
 Similarly,
 \[
 \Res_{z=-i}g(z)
-&= \lim_{z\to -i} \dd{}{z} {\log^2(z) \over (z-i)^2} \\
-&= \lim_{z\to -i } { (z-i)^2 2\log(z) - \log^2(z) 2(z-i) \over (z-i)^4} \\
-&= { (-2i)^3 \over (-2i)^4 }
+&= \lim_{z\to -i} \dd{}{z} {\log^2(z) \over (z+i)^2} \\
+&= \lim_{z\to i} {(z-i)^2 2\log(z) z\inv - \log^2(z) 2(z-i) \over (z+i)^4} \\
 .\]
 
 
