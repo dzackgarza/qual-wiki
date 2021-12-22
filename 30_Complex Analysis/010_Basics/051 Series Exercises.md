@@ -441,7 +441,8 @@ However, we still have to get rid of the leading 1 in the expansion of $e^z$ in 
 -{1\over 2\cdot 3! } +\left[ \qty{1\over 2}^3 + {1\over 2}{1\over 2\cdot 2!}\right] - \qty{1\over 2}^3 
 \Big) \\
 &\qquad + \bigo(z^4)
-\Big]
+\Big]\\
+&= {1\over 2} - {1\over 4}z + 0z^2 + {1\over 48}z^3 + \bigo(z^4)
 .\]
 
 
