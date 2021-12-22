@@ -42,7 +42,7 @@ An easy way to see this: they are nonconstant and entire, thus unbounded by Liou
 
 :::
 
-:::{.example title="?"}
+:::{.example title="Square root is not holomorphic"}
 You can show $f(z) = \sqrt{z}$ is not holomorphic by showing its integral over $S^1$ is nonzero.
 This is a direct computation:
 \[
@@ -78,6 +78,19 @@ For example,
 :::
 
 # Holomorphy
+
+
+:::{.remark}
+Let $f:\CC\to \CC$ satisfy CR and consider it as a map $f:\RR^2\to\RR^2$, writing $f(x+iy) = u(x, y) + iv(x, y)$, the Jacobian is 
+\[
+J = u_xv_y -v_x u_y = u_x^2 + v_x^2
+.\]
+OTOH,
+\[
+\abs{f'(z)}^2 = \abs{u_x + iv_y}^2 = J
+.\]
+
+:::
 
 :::{.definition title="Complex differentiable / holomorphic /entire"}
 A function $f: \CC\to \CC$ is **complex differentiable** or **holomorphic** at $z_0$ iff the following limit exists:
