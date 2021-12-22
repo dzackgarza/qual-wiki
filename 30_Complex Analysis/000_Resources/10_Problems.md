@@ -17,6 +17,7 @@
 - [ ]  [[attachments/Azoff Problems by Topic.pdf]]
 
 - [ ]  [[30_Complex Analysis/999_Quals/000_Preface|UGA Qual Problems]]
+- [ ]  [Problem sheet from Cambridge Part 1B](https://dec41.user.srcf.net/notes/IB_L/complex_methods_eg.pdf)
     
 ## Misc
 
