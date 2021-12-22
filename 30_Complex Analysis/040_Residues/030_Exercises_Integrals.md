@@ -390,12 +390,22 @@ So take the following rectangle where $H_-$ is at $2\pi i$ and $H_+$ is at 0, wi
 
 Bounding the sides: for the right,
 \[
-\abs{\int{V_+} f(z) \dz} 
+\abs{\int_{V_+} f(z) \dz} 
 &\leq 2\pi \sup_{t\in [0, 2\pi]} \abs{e^{R + it\over 2} \over 1 + e^{R + it} } \\
-&\leq 2\pi \sup_t {\abs{ e^{R\over 2} e^{it \over 2} }  \over \abs{e^{R}e^{it}} - 1}
+&\leq 2\pi \sup_t {\abs{ e^{R\over 2} e^{it \over 2} }  \over \abs{e^{R}e^{it}} - 1} \\
 &\leq 2\pi \sup_t {\abs{ e^{R\over 2} }  \over \abs{e^{R}} - 1} \\
-&\in \bigo(e^{- {R\over 2} })
+&\in \bigo(e^{- {R\over 2} }) \to 0
 .\]
+
+For the left:
+\[
+\abs{\int_{V_-} f(z) \dz} 
+&\leq \sup_{t\in [0, 2\pi] } \abs{ e^{-R-it\over 2} \over 1 + e^{-R- it}} \\
+&\leq \sup_{t\in [0, 2\pi]}\abs{e^{-R\over 2} e^{-it\over 2}} \\
+&\in \bigo(e^{- {R\over 2} }) \to 0
+,\]
+where we've thrown away positive terms in the denominator, which only makes this quantity larger.
+
 
 
 :::
