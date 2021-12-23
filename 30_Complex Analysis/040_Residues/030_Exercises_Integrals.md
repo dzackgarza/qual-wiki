@@ -118,9 +118,8 @@ I
 :::{.solution title="The log trick"}
 Consider the auxiliary function $g(z) \da \log(z) f(z)$, and take a keyhole contour:
 
-![](figures/2021-12-23_00-39-57.png)
 
-![Keyhole contour](figures/2021-12-23_18-31-37.png)
+![](figures/2021-12-23_00-39-57.png)
 
 Let $\Gamma$ be the counterclockwise contour consisting of
 
@@ -498,11 +497,16 @@ I \da \int_\RR {\cos(z) \over z+i}
 = {1\over 2} \int_\RR {e^{iz} \over z+i} + {1\over 2}\int_\RR {e^{-iz} \over z+i} \da \int_\RR f_1 + \int_\RR f_2
 ,\]
 These both have $\deg(f_i) = -1$, so Jordan's lemma on semicircular contours will work.
-For $e^{i\alpha z}$, one needs to take the upper half-plane for $\alpha>0$ (so $f_1$) and the lower for $\alpha<0$ ($f_2$).
+For $e^{i\alpha z}$, one needs to take the upper half-plane for $\alpha>0$ (so $f_1$) and the lower for $\alpha<0$ (for $f_2$).
+For $f_1$, use the upper contour:
 
 ![Semicircular contour](figures/2021-12-23_18-14-14.png)
 
-![](figures/2021-12-21_01-41-03.png)
+Then by Jordan's lemma, since $f(z) = e^{iz}g(z)$ with $g(z) \to 0$ as $\abs{z}\to \infty$, $\int_{\gamma_R} f \to 0$ and we're left with the residues in $\HH$.
+Here, the only residue is at $z=-i$, so this integral is zero.
+For $f_2$, use the lower contour:
+
+![](figures/2021-12-23_18-39-11.png)
 
 Note that this is parameterized clockwise, so we need to introduce a negative sign.
 The integrands only have poles at $z=-i\not \in \HH$, so $\int f_1 = 0$, so 
