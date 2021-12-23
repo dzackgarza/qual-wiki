@@ -508,13 +508,13 @@ For $f_2$, use the lower contour:
 
 ![](figures/2021-12-23_18-39-11.png)
 
-Note that this is parameterized clockwise, so we need to introduce a negative sign.
-The integrands only have poles at $z=-i\not \in \HH$, so $\int f_1 = 0$, so 
+This is parameterized counterclockwise, and so the piece along $\RR$ converges to $-I$.
+By Jordan's lemma
 \[
-I 
-&= -2\pi i \Res_{z=-i} {e^{iz}\over 2(z+i)} \\
-&= -2\pi i \lim_{z\to -i} {e^{iz}\over 2} \\
-&= -\pi i e
+-I 
+&= 2\pi i \Res_{z=-i} {e^{iz}\over 2(z+i)} \\
+&= 2\pi i \lim_{z\to -i} {e^{iz}\over 2} \\
+&= \pi i e
 .\]
 :::
 
