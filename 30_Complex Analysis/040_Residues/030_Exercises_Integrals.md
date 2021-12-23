@@ -118,8 +118,9 @@ I
 :::{.solution title="The log trick"}
 Consider the auxiliary function $g(z) \da \log(z) f(z)$, and take a keyhole contour:
 
-
 ![](figures/2021-12-23_00-39-57.png)
+
+![Keyhole contour](figures/2021-12-23_18-31-37.png)
 
 Let $\Gamma$ be the counterclockwise contour consisting of
 
