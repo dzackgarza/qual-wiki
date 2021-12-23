@@ -330,16 +330,16 @@ I\da \int_\RR {x\over (x^2 + 4x+13)^2}\dx
 :::
 
 :::{.solution}
-
+Write the integrand as $f$.
 
 :::{.claim}
-Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
-
+$f\in \bigo\qty{1\over z^{3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work:
 
 ![Semicircular contour](figures/2021-12-23_18-14-14.png)
 
 :::
 
+:::{.proof title="Of integrand decay"}
 A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so using the reverse triangle inequality,
 \[
 \abs{z\over (z^2 + 4z + 13)^2} 
@@ -351,6 +351,8 @@ A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so usin
 &= 322 \abs{z}^{-3} \\
 &= 322 R^{-3} \to 0 \text{ as } R\to\infty
 .\]
+
+:::
 
 Factor the denominator:
 \[
