@@ -151,7 +151,7 @@ so
 Now use that in the limit, 
 \[
 2\pi i \sum_k \Res_{z=z_k}g(z) 
-&= \int_\Gamma g(z) \dz 
+&= \int_\Gamma g(z) \dz \\
 &= \qty{\int_{\gamma_+} + \int_{\gamma_i}} f \\
 &= -2\pi i I
 ,\]
@@ -160,28 +160,28 @@ so $I = -\sum_k \Res_{z=z_k} g(z)$.
 Computing the arguments of all of the poles:
 \[
 \sum_{k=1,3,5,7}\Res_{z=z_k} g(z) 
-&= -{1\over 4}
+&= {1\over 4}
 \qty{
 \omega \zeta_4^0 \log(\omega\zeta_4^0) + 
 \omega \zeta_4^1 \log(\omega\zeta_4^1) + 
 \omega \zeta_4^2 \log(\omega\zeta_4^2) + 
 \omega \zeta_4^3 \log(\omega\zeta_4^3)
 } \\
-&= -{\omega\over 4}
+&= {\omega\over 4}
 \qty{
 {i\pi \over 4} + \zeta_4 {3 i \pi \over 4} + \zeta_4^2 {-3i\pi \over 4} + \zeta_4^3 {-i\pi \over 4}
 }\\
-&= -{\omega i \pi \over 4}
+&= {\omega i \pi \over 4}
 \qty{
 1 + 3\zeta_4 - 3\zeta_4^2 - \zeta_4^3
 } \\
-&= -{\omega i \pi \over 4}
+&= {\omega i \pi \over 4}
 \qty{
 1 + 3i +3 + i
 } \\
-&= -(1+i){\omega i \pi} \\
+&= (1+i){\omega i \pi} \\
 &= {\omega^2 \pi i \over 2/\sqrt{2}}\\
-&= {-\pi \over 2\sqrt{2}}
+&= {\pi \over 2\sqrt{2}}
 ,\]
 using that ${\sqrt 2\over 2}(1+i) = e^{i\pi \over 4} = \omega$ and $\omega^2 = i$.
 
