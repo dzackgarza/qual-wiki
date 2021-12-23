@@ -166,6 +166,10 @@ e^{0 i \pi \over 4} \cdot 1 +
 e^{2i\pi \over 4 }\cdot {3} +
 e^{4i\pi \over 4}\cdot {5 } +
 e^{6i\pi \over 4}\cdot {7 }
+} \\
+&= -{i\pi \over 16}e^{i\pi \over 4}
+\qty{
+1 + 3i + 5 + 7i
 }
 .\]
 
