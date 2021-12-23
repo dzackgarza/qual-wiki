@@ -287,7 +287,11 @@ I = {2n \choose n} {\pi \over 4^n}
 :::
 
 :::{.solution}
-The integrand is $f\in \bigo\qty{1\over z^{2n+2}} \subseteq \bigo\qty{1\over z^{1+\eps}}$, so a semicircular contour will work and thus
+The integrand is $f\in \bigo\qty{1\over z^{2n+2}} \subseteq \bigo\qty{1\over z^{1+\eps}}$, so a semicircular contour will work:
+
+![](figures/2021-12-23_18-05-57.png)
+
+Thus
 \[
 I 
 &= 2\pi i \sum_{z_k \in \HH} \Res_{z=z_k} {1\over (1+z^2)^{n+1}} \\
