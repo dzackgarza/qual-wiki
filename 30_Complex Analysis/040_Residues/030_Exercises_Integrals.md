@@ -160,12 +160,12 @@ e^{3i\pi \over 4}\cdot {3i\pi \over 4} +
 e^{5i\pi \over 4}\cdot {5i\pi \over 4} +
 e^{7i\pi \over 4}\cdot {7i\pi \over 4}
 } \\
-&= -{1\over 16}e^{-i\pi \over 4}
+&= -{i\pi \over 16}e^{-i\pi \over 4}
 \qty{
-e^{i\pi}\cdot {i\pi } +
-e^{3i\pi}\cdot {3i\pi } +
-e^{5i\pi}\cdot {5i\pi } +
-e^{7i\pi}\cdot {7i\pi }
+e^{i\pi}\cdot 1
+e^{3i\pi}\cdot {3} +
+e^{5i\pi}\cdot {5 } +
+e^{7i\pi}\cdot {7 }
 }
 .\]
 
