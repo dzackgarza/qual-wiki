@@ -330,6 +330,28 @@ I\da \int_\RR {x\over (x^2 + 4x+13)^2}\dx
 :::
 
 :::{.solution}
+
+
+:::{.claim}
+Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
+
+
+![Semicircular contour](figures/2021-12-23_18-14-14.png)
+
+:::
+
+A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so using the reverse triangle inequality,
+\[
+\abs{z\over (z^2 + 4z + 13)^2} 
+&= \abs{z\over z^4 + 8z^3 + 42z^2 + 104z + 169}\\
+&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^3 - 42\abs{z}^2 - 104\abs{z} - 169}\\
+&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^4 - 42\abs{z}^4 - 104\abs{z}^4 - 169\abs{z}^4}\\
+&= \abs{z\over \abs{z}^4( 1 - 8 - 42 - 104 - 169)}\\
+&= 322 {\abs{z} \over \abs{z}^4} \\
+&= 322 \abs{z}^{-3} \\
+&= 322 R^{-3} \to 0 \text{ as } R\to\infty
+.\]
+
 Factor the denominator:
 \[
 x^2 + 4x + 13 = 0 
@@ -343,20 +365,12 @@ Write these as
 z_1 \da -2+3i && z_2 \da -2 - 3i
 .\]
 
-Write the integrand as $f$, then $f\in \bigo\qty{1\over z^{3}} \subseteq \bigo\qty{1\over z^{1+\eps}}$ means that a semicircular contour will work.
-A quick justification: for $R>1$, if $n>k$ then $\abs{z}^n > \abs{z}^k$, so using the reverse triangle inequality,
-\[
-\abs{z\over (z^2 + 4z + 13)^2} 
-&= \abs{z\over z^4 + 8z^3 + 42z^2 + 104z + 169}\\
-&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^3 - 42\abs{z}^2 - 104\abs{z} - 169}\\
-&\leq \abs{z\over \abs{z}^4 - 8\abs{z}^4 - 42\abs{z}^4 - 104\abs{z}^4 - 169\abs{z}^4}\\
-&= \abs{z\over \abs{z}^4( 1 - 8 - 42 - 104 - 169)}\\
-&= 322 {\abs{z} \over \abs{z}^4} \\
-&= 322 \abs{z}^{-3} \\
-&= 322 R^{-3} \to 0 \text{ as } R\to\infty
-.\]
 
-So let $C_1 = [-R,R]$, $C_2 = \ts{Re^{it} \st t\in [0, \pi]}$, $\Gamma = C_1 + C_2$, then
+So let $\Gamma$ be comprised of
+
+- $C_1 = [-R,R]$, 
+- $C_2 = \ts{Re^{it} \st t\in [0, \pi]}$, 
+- $\Gamma = C_1 + C_2$, then
 \[
 2\pi i \sum_{z_k\in \HH} \Res_{z=z_k}f(z) = \int_\Gamma f = \qty{\int_{C_1} + \int_{C_2}}f
 ,\]
