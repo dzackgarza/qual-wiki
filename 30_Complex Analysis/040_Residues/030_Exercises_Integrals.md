@@ -61,6 +61,8 @@ I \da \int_0^\infty {1\over x^4 + 1 }\dx = {\pi \over 2\sqrt 2}
 
 > Hint: Keyhole. <https://physicspages.com/pdf/Mathematics/Contour%20integration%20around%20a%20branch%20cut.pdf>
 
+#completed
+
 :::
 
 :::{.solution title="Sector"}
@@ -106,7 +108,6 @@ I
 .\]
 
 :::
-
 
 :::{.solution title="The log trick"}
 Consider the auxiliary function $g(z) \da \log(z) f(z)$, and take a keyhole contour:
@@ -157,7 +158,7 @@ Now use that in the limit,
 ,\]
 so $I = -\sum_k \Res_{z=z_k} g(z)$.
 
-Being very careful to note that we've chosen a branch of $\log$ where $\Arg(z) \in (0, \pi)$,
+Being very careful to note that we've chosen a branch of $\log$ where $\Arg(z) \in (0, 2\pi)$ in order to get the signs right,
 \[
 -\sum_k \Res(z=z_k) g(z) 
 &= {1\over 4}\qty{ z_1\log(z_1) + z_2\log(z_2)+z_3\log(z_3)+z_4\log(z_4) } \\
@@ -168,7 +169,7 @@ Being very careful to note that we've chosen a branch of $\log$ where $\Arg(z) \
 &= {i\pi \omega \over 16}(-4-4i) \\
 &= -{i\pi \omega \over 4}(1+i) \\
 &= -{i\pi \omega \over 2}{ \omega \over \sqrt{2} } \\
-&= -i\omega^2 {\pi \over 2 \sqrt 2}
+&= -i\omega^2 {\pi \over 2 \sqrt 2} \\
 &= {\pi \over 2\sqrt{2} }
 ,\]
 using that ${\sqrt 2\over 2}(1+i) = e^{i\pi \over 4} = \omega$ and $\omega^2 = i$.
@@ -180,7 +181,6 @@ using that ${\sqrt 2\over 2}(1+i) = e^{i\pi \over 4} = \omega$ and $\omega^2 = i
 
 
 :::
-
 
 :::{.exercise title="$1/(1+x^2)^2$"}
 \[
