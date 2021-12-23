@@ -455,7 +455,7 @@ I = \int_\RR {x\sin(x) \over 1 + x^2}\dx
 Write $f(z) = {ze^{iz} \over 1+z^2}$, and note that $f\in \bigo\qty{1\over z}$, so the usual semicircular contour with the ML estimate won't work.
 Claim: a semicircular contour with a better estimate *will* work:
 
-![](figures/2021-12-23_18-17-16.png)
+![Semicircular contour](figures/2021-12-23_18-14-14.png)
 
 Writing $f(z) = e^{iz}g(z)$ where $g(z) \da {z\over 1 + z^2}$, we have $g\in \bigo\qty{1\over z} \to 0$ as $\abs{z}\to \infty$, so Jordan's lemma applies.
 Write $C_1 = [-R, R]$ and $C_R = \ts{Re^{it} \st t\in [0, \pi]}$, then
