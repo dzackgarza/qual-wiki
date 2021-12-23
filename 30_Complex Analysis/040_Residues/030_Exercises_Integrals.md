@@ -419,6 +419,7 @@ I = \Re{1\over 2} \tilde I \da {1\over 2} \int_\RR {e^{iz} \over (z+ib)(z-ib)}
 Since $f \sim 1/x^2$, the ML estimate on a semicircular contour works:
 
 ![figures/2021-07-29_18-42-38.png](figures/2021-07-29_18-42-38.png)
+
 Then $\int_{C_R} f\to 0$ and $\int_{C_1} f\to \tilde I$.
 Thus
 \[
@@ -452,6 +453,10 @@ I = \int_\RR {x\sin(x) \over 1 + x^2}\dx
 
 :::{.solution}
 Write $f(z) = {ze^{iz} \over 1+z^2}$, and note that $f\in \bigo\qty{1\over z}$, so the usual semicircular contour with the ML estimate won't work.
+Claim: a semicircular contour with a better estimate *will* work:
+
+![](figures/2021-12-23_18-17-16.png)
+
 Writing $f(z) = e^{iz}g(z)$ where $g(z) \da {z\over 1 + z^2}$, we have $g\in \bigo\qty{1\over z} \to 0$ as $\abs{z}\to \infty$, so Jordan's lemma applies.
 Write $C_1 = [-R, R]$ and $C_R = \ts{Re^{it} \st t\in [0, \pi]}$, then
 \[
