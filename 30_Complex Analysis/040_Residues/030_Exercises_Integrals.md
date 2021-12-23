@@ -148,6 +148,15 @@ so
 \Res_{z=z_k}g(z) = -{z_k \over 4}\log(z_k) 
 .\]
 
+Now use that in the limit, 
+\[
+2\pi i \sum_k \Res_{z=z_k}g(z) 
+&= \int_\Gamma g(z) \dz 
+&= \qty{\int_{\gamma_+} + \int_{\gamma_i}} f \\
+&= -2\pi i I
+,\]
+so $I = -\sum_k \Res_{z=z_k} g(z)$.
+
 Computing the arguments of all of the poles:
 \[
 \sum_{k=1,3,5,7}\Res_{z=z_k} g(z) 
@@ -170,15 +179,12 @@ Computing the arguments of all of the poles:
 \qty{
 1 + 3i +3 + i
 } \\
-&= -(1+i){\omega i \pi}
+&= -(1+i){\omega i \pi} \\
+&= {\omega^2 \pi i \over 2/\sqrt{2}}\\
+&= {-\pi \over 2\sqrt{2}}
 ,\]
-so noting that ${\sqrt 2\over 2}(1+i) = e^{i\pi \over 4} = \omega$,
-\[
-\int_\Gamma f(z) \dz 
-&= - 2\pi i(1+i)\omega i \pi \\
-&= (1+i)\omega\pi^2 \\
-&= {2\omega^2\pi^2\over \sqrt{2}}
-.\]
+using that ${\sqrt 2\over 2}(1+i) = e^{i\pi \over 4} = \omega$ and $\omega^2 = i$.
+
 
 
 
