@@ -11,7 +11,7 @@ title: Residues for Integrals
 
 :::{.exercise title="$1/x^4+1$, balancing exponentials"}
 \[
-\int_\RR {1 \over x^4 + 1} = {\pi \sqrt{2} \over 2}
+\int_\RR {1 \over x^4 + 1} = {\pi \sqrt{2} \over 2} = {\pi \over \sqrt 2}
 .\]
 
 #completed
@@ -61,6 +61,14 @@ I \da \int_0^\infty {1\over x^4 + 1 }\dx = {\pi \over 2\sqrt 2}
 
 #completed
 
+:::
+
+:::{.solution title="Integrand symmetry"}
+Note that the function is even, so
+\[
+\int_{0^\infty} f(x) \dx = {1\over 2} \int_\RR f(x)\dx = {1\over 2} {\pi \over \sqrt 2} = {\pi \over 2 \sqrt 2}
+,\]
+using the solution from a previous problem.
 :::
 
 :::{.solution title="Sector"}
@@ -289,7 +297,7 @@ I = {2n \choose n} {\pi \over 4^n}
 :::{.solution}
 The integrand is $f\in \bigo\qty{1\over z^{2n+2}} \subseteq \bigo\qty{1\over z^{1+\eps}}$, so a semicircular contour will work:
 
-![](figures/2021-12-23_18-05-57.png)
+![Semicircular contour](figures/2021-12-23_18-05-57.png)
 
 Thus
 \[
