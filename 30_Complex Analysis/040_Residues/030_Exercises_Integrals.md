@@ -149,8 +149,6 @@ so
 .\]
 
 Computing the arguments of all of the poles:
-
-Thus
 \[
 \sum_{k=1,3,5,7}\Res_{z=z_k} g(z) 
 &= -{1\over 4}
@@ -174,9 +172,12 @@ Thus
 } \\
 &= -(1+i){\omega i \pi}
 ,\]
-so
+so noting that ${\sqrt 2\over 2}(1+i) = e^{i\pi \over 4} = \omega$,
 \[
-\int_\Gamma f(z) \dz = - 2\pi i(1+i)\omega i \pi = (1+i)\omega\pi^2
+\int_\Gamma f(z) \dz 
+&= - 2\pi i(1+i)\omega i \pi \\
+&= (1+i)\omega\pi^2 \\
+&= {2\omega^2\pi^2\over \sqrt{2}}
 .\]
 
 
