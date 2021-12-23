@@ -59,11 +59,55 @@ so
 I \da \int_0^\infty {1\over x^4 + 1 }\dx = {\pi \over 2\sqrt 2}
 .\]
 
-#work
-
 > Hint: Keyhole. <https://physicspages.com/pdf/Mathematics/Contour%20integration%20around%20a%20branch%20cut.pdf>
 
 :::
+
+
+:::{.solution}
+A sector will work, since there is a symmetry under $z\to \zeta_4 z$ and $f(z) \sim z^{-4}$, so the semicircular piece will vanish.
+Take the contour $\Gamma$ comprised of
+
+- $\gamma_1: \ts{t + 0i \st t\in [0, R]}$,
+- $C_R: \ts{Re^{it}\st t\in [0, \pi/2]}$,
+- $\gamma_2: \ts{0 + it \st t\in [0, R]}$,
+
+oriented counter-clockwise.
+Note that $z^4+1 = \prod_{k=0}^3 (z-\omega \zeta_4)$ where $\omega = e^{i\pi \over 4}$ and $\zeta_4 = e^{2\pi i\over 4} = i$, so there is only one pole at $z_0 \da e^{i\pi\over 4}$ within this contour.
+
+Computing the symmetry:
+\[
+\int_{\gamma_2} f(z) \dz 
+&= \int_R^0 {i \over (ti)^4 + 1}\dt \qquad z=ti,\, \dz = i\dt \\
+&= -i \int_0^R {1\over t^4 + 1}\dt \\
+&= -i \int_{\gamma_1} f(z) \dz
+,\]
+so applying the residue theorem and noting that $\int_{C_R}f\to 0$,
+\[
+2\pi \Res_{z=z_0} f(z) = \int_\Gamma f(z) \dz = \qty{\int_{\gamma_1} + \int_{C_R} + \int_{\gamma_2}}f \too (1-i) I
+.\]
+Computing the residue:
+\[
+\Res_{z=z_0}f(z) 
+&= {1\over 4z^3}\evalfrom_{z= e^{i\pi \over 4}} \\
+&= {1\over 4}e^{-3i\pi \over 4} \\
+&= {1\over 4}e^{5i\pi \over 4}
+.\]
+
+Thus
+\[
+I 
+&= (1-i)\inv 2\pi i \Res_{z=z_0} f(z) \\
+&= \qty{\bar{1-i} \over \abs{1-i}^2} 2\pi i \cdot {1\over 4}e^{5i\pi \over 4} \\
+&= {1+i \over 2} {\pi i \over 2}e^{5i\pi \over 4} \\
+&= {e^{i\pi \over 4} \over \sqrt{2} } {\pi i \over 2}e^{5i\pi \over 4} \\
+&= {\pi i \over 2\sqrt{2}}e^{6i\pi \over 4} \\
+&= {\pi i \over 2\sqrt{2}}(-i) \\
+&= {\pi \over 2\sqrt{2}} 
+.\]
+
+:::
+
 
 :::{.exercise title="$1/(1+x^2)^2$"}
 \[
