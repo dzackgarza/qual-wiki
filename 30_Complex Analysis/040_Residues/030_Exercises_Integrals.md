@@ -431,7 +431,6 @@ Computing this residue:
 
 :::
 
-
 :::{.exercise title="$e^ax\sech(z)$ "}
 \[
 I \da \int_\RR {e^{ax} \over \cosH(x) }\dx = \pi \sec\qty{a\pi \over 2}
@@ -442,14 +441,11 @@ I \da \int_\RR {e^{ax} \over \cosH(x) }\dx = \pi \sec\qty{a\pi \over 2}
 
 :::
 
-
 :::{.solution}
 
 ![](figures/2021-12-22_05-16-12.png)
   
 :::
-
-
 
 ## Singularities along $\RR$, Principal Values
 
