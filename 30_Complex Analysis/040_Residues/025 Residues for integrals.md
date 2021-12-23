@@ -32,7 +32,11 @@ a\leq b \implies e^{-a} \geq e^{-b}
 .\]
 
 - All residue theorems assume counterclockwise orientation.
-If you curve is clockwise (e.g. in the lower half-plane), so it traces out $[-R, R]$ on $\RR$), then a negative sign is introduced.
+  If your curve is clockwise (e.g. in the lower half-plane), so it traces out $[-R, R]$ on $\RR$), then a negative sign is introduced.
+
+- Some standard contours:
+
+  ![](figures/2021-12-23_18-51-55.png)
 
 Let $\deg$ denote the $z\dash$adic valuation, so $\deg(p(x)/q(x)) = \deg(p) - \deg(q)$.
 :::
