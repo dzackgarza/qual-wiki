@@ -63,8 +63,7 @@ I \da \int_0^\infty {1\over x^4 + 1 }\dx = {\pi \over 2\sqrt 2}
 
 :::
 
-
-:::{.solution}
+:::{.solution title="Sector"}
 A sector will work, since there is a symmetry under $z\to \zeta_4 z$ and $f(z) \sim z^{-4}$, so the semicircular piece will vanish.
 Take the contour $\Gamma$ comprised of
 
@@ -105,6 +104,74 @@ I
 &= {\pi i \over 2\sqrt{2}}(-i) \\
 &= {\pi \over 2\sqrt{2}} 
 .\]
+
+:::
+
+
+:::{.solution title="The log trick"}
+Consider the auxiliary function $g(z) \da \log(z) f(z)$, and take a keyhole contour:
+
+
+![](figures/2021-12-23_00-39-57.png)
+
+Let $\Gamma$ be the counterclockwise contour consisting of
+
+- $C_\eps = \ts{\eps e^{it}\st t\in [0+\eps, 2\pi - \eps]}$
+- $\gamma_+ = \ts{x+i\eps \st x\in [\eps, R]}$
+- $C_R= \ts{R e^{it}\st t\in [0+\eps, 2\pi - \eps]}$
+- $\gamma_- = \ts{x-i\eps \st x\in [\eps, R]}$
+
+Computing the symmetry:
+\[
+\int_{\gamma_-}{\log(z) \over z^{4} + 1} \dz 
+&= \int_{R}^\eps {\log(x-i\eps) \over (x-i\eps)^4 + 1} \dx \qquad z=x-i\eps, \dz = \dx \\
+&\to - \int_{\eps}^R {\log(x) + 2\pi i\over x^4 + 1}\dz \\
+&= -\int_{\gamma_+} {\log(z) \over z^4+1}\dz - 2\pi i\int_{\gamma_+} {1\over z^4+1} \dz
+,\]
+so
+\[
+\int_{\gamma_+} f + \int_{\gamma_-}f \too -2\pi i I
+.\]
+By the ML estimate, since $\log(z)/z^4\to 0$ as $\abs{z}\to \infty$, $\int_{C_R}g(z) \to 0$.
+Similarly, since $\log(z) / (z^4+1)\to 0$ as $\abs{z}\to 0$, $\int_{C_\eps}\to 0$.
+We're then left with the sum of residues at $e^{k i \pi \over 4}$ for $k = 1,3,5,7$.
+We have
+\[
+\Res_{z=z_k} f(z) 
+&= {1\over 4z^3}\evalfrom_{z=z_k} \\
+&= {z\over 4z^4}\evalfrom_{z=z_k} \\
+&= - {z\over 4}\evalfrom_{z=z_k} \qquad \text{ since } z_k^4 = -1 \\
+&= -{z_k \over 4}
+,\]
+so
+\[
+\Res_{z=z_k}g(z) = -{z_k \over 4}\log(z_k) 
+.\]
+
+Computing the arguments of all of the poles:
+
+Thus
+\[
+\sum_{k=1,3,5,7}\Res_{z=z_k} g(z) 
+&= -{1\over 4}
+\qty{
+e^{i\pi \over 4}\cdot {i\pi \over 4} +
+e^{3i\pi \over 4}\cdot {3i\pi \over 4} +
+e^{5i\pi \over 4}\cdot {5i\pi \over 4} +
+e^{7i\pi \over 4}\cdot {7i\pi \over 4}
+} \\
+&= -{1\over 16}e^{-i\pi \over 4}
+\qty{
+e^{i\pi}\cdot {i\pi } +
+e^{3i\pi}\cdot {3i\pi } +
+e^{5i\pi}\cdot {5i\pi } +
+e^{7i\pi}\cdot {7i\pi }
+}
+.\]
+
+
+
+
 
 :::
 
