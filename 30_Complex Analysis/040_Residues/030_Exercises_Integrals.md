@@ -163,8 +163,22 @@ Thus
 &= -{\omega\over 4}
 \qty{
 {i\pi \over 4} + \zeta_4 {3 i \pi \over 4} + \zeta_4^2 {-3i\pi \over 4} + \zeta_4^3 {-i\pi \over 4}
-}
+}\\
+&= -{\omega i \pi \over 4}
+\qty{
+1 + 3\zeta_4 - 3\zeta_4^2 - \zeta_4^3
+} \\
+&= -{\omega i \pi \over 4}
+\qty{
+1 + 3i +3 + i
+} \\
+&= -(1+i){\omega i \pi}
+,\]
+so
+\[
+\int_\Gamma f(z) \dz = - 2\pi i(1+i)\omega i \pi = (1+i)\omega\pi^2
 .\]
+
 
 
 
