@@ -157,31 +157,19 @@ Now use that in the limit,
 ,\]
 so $I = -\sum_k \Res_{z=z_k} g(z)$.
 
-Computing the arguments of all of the poles:
+Being very careful to note that we've chosen a branch of $\log$ where $\Arg(z) \in (0, \pi)$,
 \[
-\sum_{k=1,3,5,7}\Res_{z=z_k} g(z) 
-&= {1\over 4}
-\qty{
-\omega \zeta_4^0 \log(\omega\zeta_4^0) + 
-\omega \zeta_4^1 \log(\omega\zeta_4^1) + 
-\omega \zeta_4^2 \log(\omega\zeta_4^2) + 
-\omega \zeta_4^3 \log(\omega\zeta_4^3)
-} \\
-&= {\omega\over 4}
-\qty{
-{i\pi \over 4} + \zeta_4 {3 i \pi \over 4} + \zeta_4^2 {-3i\pi \over 4} + \zeta_4^3 {-i\pi \over 4}
-}\\
-&= {\omega i \pi \over 4}
-\qty{
-1 + 3\zeta_4 - 3\zeta_4^2 - \zeta_4^3
-} \\
-&= {\omega i \pi \over 4}
-\qty{
-1 + 3i +3 + i
-} \\
-&= (1+i){\omega i \pi} \\
-&= {\omega^2 \pi i \over 2/\sqrt{2}}\\
-&= {\pi \over 2\sqrt{2}}
+-\sum_k \Res(z=z_k) g(z) 
+&= {1\over 4}\qty{ z_1\log(z_1) + z_2\log(z_2)+z_3\log(z_3)+z_4\log(z_4) } \\
+&= {1\over 4}\qty{ z_1 {i\pi \over 4} + z_2 {3i\pi \over 4} + z_3 {5i\pi \over 4}+ z_4 {7i\pi \over 4} } \\
+&= {i\pi \over 16}\qty{ z_1  + 3z_2  + 5z_3+ 7z_4 } \\
+&= {i\pi \over 16}\qty{ \omega \zeta_4^0  + 3\omega\zeta_4^1  + 5\omega\zeta_4^2+ 7\omega \zeta_4^3 } \\
+&= {i\pi \omega \over 16}\qty{ 1 + 3i  + -5 + -7i } \\
+&= {i\pi \omega \over 16}(-4-4i) \\
+&= -{i\pi \omega \over 4}(1+i) \\
+&= -{i\pi \omega \over 2}{ \omega \over \sqrt{2} } \\
+&= -i\omega^2 {\pi \over 2 \sqrt 2}
+&= {\pi \over 2\sqrt{2} }
 ,\]
 using that ${\sqrt 2\over 2}(1+i) = e^{i\pi \over 4} = \omega$ and $\omega^2 = i$.
 
