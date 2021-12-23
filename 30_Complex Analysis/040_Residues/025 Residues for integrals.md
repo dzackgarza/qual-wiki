@@ -221,6 +221,15 @@ C_R \da \ts{ z=Re^{it} \st t\in [0, \pi] }
 Note that if $M_R\to 0$ as $R\to \infty$, this integral vanishes -- so this works if $M_R \in \bigo\qty{1\over R^\eps}$ for $\eps>0$.
 
 For $\alpha < 0$, the same statement holds with the contour replaced by $\tilde C_R\da \ts{Re{it} \st t\in [0, -\pi]}$.
+This is because the main estimate involves
+\[
+\cdots & \leq \lim _{R \rightarrow \infty} \int_{H_{R}} e^{-\alpha R \sin \theta}|F(z)| R d \theta
+,\]
+which goes to zero if $-\alphan\sin(\theta)<0$, i.e. 
+
+- $\alpha>0$ and $\sin(\theta)>0$, so $C_R$ is in the upper half-plane, or
+- $\alpha < 0$ and $\sin(\theta)<0$, so $C_R$ is in the lower half-plane.
+
 :::
 
 :::{.remark title="Slightly stronger than the ML estimate"}
@@ -238,6 +247,12 @@ Taking $\alpha = 1$, this yields
 :::
 
 :::{.proof title="of Jordan's lemma"}
+The quick justification:
+\[
+\lim _{R \rightarrow \infty}\left|\int_{H_{R}} e^{i m z} F(z) d z\right| &=\lim _{R \rightarrow \infty}\left|\int_{H_{R}} e^{i m R \cos \theta-m R \sin \theta} F(z) R e^{i \theta} d \theta\right| \\
+& \leq \lim _{R \rightarrow \infty} \int_{H_{R}} e^{-m R \sin \theta}|F(z)| R d \theta
+.\]
+
 \[
 \abs{ \int_{C_R} f(z)\dz }
 &= \abs{ \int_{C_R} e^{iaz}g(z) \dz} \\
