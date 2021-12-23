@@ -155,21 +155,14 @@ Thus
 \sum_{k=1,3,5,7}\Res_{z=z_k} g(z) 
 &= -{1\over 4}
 \qty{
-e^{i\pi \over 4}\cdot {i\pi \over 4} +
-e^{3i\pi \over 4}\cdot {3i\pi \over 4} +
-e^{5i\pi \over 4}\cdot {5i\pi \over 4} +
-e^{7i\pi \over 4}\cdot {7i\pi \over 4}
+\omega \zeta_4^0 \log(\omega\zeta_4^0) + 
+\omega \zeta_4^1 \log(\omega\zeta_4^1) + 
+\omega \zeta_4^2 \log(\omega\zeta_4^2) + 
+\omega \zeta_4^3 \log(\omega\zeta_4^3)
 } \\
-&= -{i\pi \over 16}e^{i\pi \over 4}
+&= -{\omega\over 4}
 \qty{
-e^{0 i \pi \over 4} \cdot 1 + 
-e^{2i\pi \over 4 }\cdot {3} +
-e^{4i\pi \over 4}\cdot {5 } +
-e^{6i\pi \over 4}\cdot {7 }
-} \\
-&= -{i\pi \over 16}e^{i\pi \over 4}
-\qty{
-1 + 3i + 5 + 7i
+{i\pi \over 4} + \zeta_4 {3 i \pi \over 4} + \zeta_4^2 {-3i\pi \over 4} + \zeta_4^3 {-i\pi \over 4}
 }
 .\]
 
@@ -546,9 +539,9 @@ Computing this residue:
 
 :::
 
-:::{.exercise title="$e^ax\sech(z)$ "}
+:::{.exercise title="$e^ax\operatorname{sech}(z)$ "}
 \[
-I \da \int_\RR {e^{ax} \over \cosH(x) }\dx = \pi \sec\qty{a\pi \over 2}
+I \da \int_\RR {e^{ax} \over \cosh(x) }\dx = \pi \sec\qty{a\pi \over 2}
 .\]
 
 #work
