@@ -59,8 +59,6 @@ so
 I \da \int_0^\infty {1\over x^4 + 1 }\dx = {\pi \over 2\sqrt 2}
 .\]
 
-> Hint: Keyhole. <https://physicspages.com/pdf/Mathematics/Contour%20integration%20around%20a%20branch%20cut.pdf>
-
 #completed
 
 :::
