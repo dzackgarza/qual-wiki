@@ -514,7 +514,11 @@ By Jordan's lemma
 -I 
 &= 2\pi i \Res_{z=-i} {e^{iz}\over 2(z+i)} \\
 &= 2\pi i \lim_{z\to -i} {e^{iz}\over 2} \\
-&= \pi i e
+&= \pi i e\inv
+,\]
+so 
+\[
+I = -{i\pi \over e}
 .\]
 :::
 
