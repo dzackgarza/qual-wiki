@@ -1121,8 +1121,8 @@ Now consider the contribution from $\gamma_2$:
 &= \int_{-R}^{-\eps} f(t+0i) \dt \\
 &= \int_{-R}^{-\eps} {\log(t) \over (t^2 + 1)^2 }\dt \\
 &= -\int_{R}^{\eps} {\log(-x) \over ((-x)^2 + 1)^2 }\dx \\
-&= \int_{\eps}^{R} {i\pi  \over (x^2 + 1)^2 }\dx \\
-&\to i\pi \int_{0}^\infty {1\over (x^2 + 1)}\dx
+&= \int_{\eps}^{R} {\ln\abs{x} + i\pi  \over (x^2 + 1)^2 }\dx \\
+&\to I + i\pi \int_{0}^\infty {1\over (x^2 + 1)^2}\dx
 .\]
 This auxiliary integral can be handled easily with a usual semicircular contour, since the integrand is $\bigo(x^4)$:
 \[
@@ -1134,6 +1134,25 @@ This auxiliary integral can be handled easily with a usual semicircular contour,
 &= 2\pi i \cdot {-i\over 4} \\
 &= {\pi \over 2}
 .\]
+Computing the residue of the main integral:
+\[
+2\pi i \Res_{z=i} f(z) 
+&= 2\pi i \lim_{z\to i} \dd{}{z} { \log(z) \over (z+i)^2} \\
+&= 2\pi i \lim_{z\to i} { (z+i)^2 z\inv - 2(z+i)\log(z) \over (z+i)^4 } \\
+&= 2\pi i { -i(2i)^2 - 2(2i)\qty{i\pi \over 2} \over (2i)^4 } \\
+&= \pi i { 2i + \pi \over 2^2 }\\
+&= -{\pi \over 2} + {i\pi^2 \over 4}
+.\]
+Combining all of this:
+\[
+2\pi i \Res_{z=i} f(z) = \int_\Gamma f(z) \dz = \qty{\int_{\gamma_1} + \int_{ \gamma_2} } f 
+= I + \qty{I + {i\pi^2\over 4}} \\
+\implies -{\pi \over 2} + {i\pi^2 \over 4} = 2I + {i\pi^2\over 4} \\
+\implies -{\pi\over 2} = 2I \\
+\implies I = -{\pi \over 4}
+.\]
+
+
 
 
 :::

@@ -148,15 +148,14 @@ An interesting way to sum infinite series:
 :::
 
 
-:::{.exercise title="Sum formulas"}
+:::{.exercise title="Sum formulas: 1/(n-a)^2"}
 Show that
 \[
 \sum_{k\in \ZZ}{1\over (z-k)^2} = (\pi \csc(\pi z))^2
 .\]
 :::
 
-
-:::{.exercise title="Sum formulas"}
+:::{.exercise title="Sum formulas: $1/n^2$"}
 Show
 \[
 \sum_{n \geq 1} \frac{1}{n^{2}}=\frac{\pi^{2}}{6}
@@ -165,5 +164,43 @@ by integrating $\pi \cot(\pi z)z^{-2}$.
 
 
 :::
+
+
+:::{.exercise title="Sum formulas: $1/n^2+a^2$"}
+Show that
+\[
+\sum_{k\in \ZZ} {1\over k^2 + a^2} = {\pi \coth(\pi a) \over a} \qquad\text{for } a>0
+.\]
+:::
+
+
+:::{.exercise title="?"}
+Show that
+\[
+\sum_{k\geq 1}{1\over k^2 + a^2} = {1\over 2}{\pi \coth(\pi a)\over a} - {1\over 2a^2} \qquad a>0
+.\]
+
+
+:::
+
+
+:::{.exercise title="?"}
+Show that
+\[
+\sum_{k\in \ZZ} {1\over \qty{ k - {1\over 2}}^2 } = \pi^2
+.\]
+:::
+
+
+:::{.exercise title="?"}
+Show that
+\[
+\sim_{k\in \ZZ} { (-1)^k \over (k+a)^2} = \pi^2 \cos(\pi a)\csc^2(\pi a) && \text{for } a\in \RR\sm\ZZ
+.\]
+
+
+:::
+
+
 
 
