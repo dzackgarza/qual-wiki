@@ -642,7 +642,6 @@ so
 \qty{\int_{\gamma_0} + \int_{\gamma_1}} f = (1+e^{ai\pi}) I
 .\]
 
-
 :::{.claim}
 The integrals along the sides vanish as $R\to\infty$.
 :::
@@ -656,25 +655,41 @@ Then
 \[
 \abs{ \int_{\gamma^+} f(z) \dz }
 &= \abs{ \int_0^\pi f(R+it) \dt \qquad z=R+it, \dz=\dt} \\
-&= \abs{ \int_0^\pi { e^{a(R+it} \over \cosh(R+it) }  \dt } \\
+&= \abs{ \int_0^\pi { e^{a{R+it} \over \cosh(R+it) }  \dt } \\
 &= \abs{ \int_0^\pi { e^{aR}e^{ait} \over e^Re^{it} + e^{-R} e^{-it} }   \dt } \\
 &\leq  \int_0^\pi \abs{{ e^{aR}e^{ait} \over e^Re^{it} + e^{-R} e^{-it} } }  \dt  \\
 &=  \int_0^\pi {{ \abs{ e^{aR}e^{ait} } \over \abs{ e^Re^{it} + e^{-R} e^{-it} } } }  \dt  \\
-&\leq  \int_0^\pi {{ \abs{ e^{aR} } \over \abs{ e^{-R} (e^{2R}e^{it} + e^{-it}) } } }  \dt  \\
-&=  \int_0^\pi {{ \abs{ e^{(a-1)R} } \over \abs{(e^{2R}e^{it} + e^{-it}) } } }  \dt  \\
-&\leq  \int_0^\pi {{ \abs{ e^{(a-1)R} } \over \abs{e^{2R}e^{it} } - \abs{e^{-it} } } }  \dt  \\
-&=  \int_0^\pi {{ e^{\Re((a-1)R)} \over e^{2R} - 1 } }  \dt  \\
-&=  {{ \pi e^{\Re((a-1)R)} \over e^{2R} - 1 } }  \\
-&\leq  {{ \pi e^{\Re((a-1)R)}} } 
+&\leq  c\int_0^\pi {{ \abs{ e^{aR} } \over \abs{ e^{-R} (e^{2R}e^{it} + e^{-it}) } } }  \dt \qquad c\da e^{ait} \\
+&=  c\int_0^\pi {{ \abs{ e^{(a-1)R} } \over \abs{(e^{2R}e^{it} + e^{-it}) } } }  \dt  \\
+&\leq  c\int_0^\pi {{ \abs{ e^{(a-1)R} } \over \abs{e^{2R}e^{it} } - \abs{e^{-it} } } }  \dt  \\
+&=  c\int_0^\pi {{ e^{\Re((a-1)R)} \over e^{2R} - 1 } }  \dt  \\
+&=  {{ c\pi e^{\Re((a-1)R)} \over e^{2R} - 1 } }  \\
+&\leq  {{ c\pi e^{R\cdot \Re((a-1))}} } 
 ,\]
 which goes to zero provide $\Re(a-1) < 0$, so $\Re(a) < 1$ (as assumed).
 Here we've thrown out positive denominators, which only makes the terms larger.
 
 Similarly, parameterized the left contour as 
 \[
-\gamma^- = \ts{R-it \st t\in [0, \pi]}
+\gamma^- = \ts{-R+it \st t\in [0, \pi]}
 ,\]
-and you'll find that exactly the same argument goes through, since $\abs{e^{-it}} = \abs{e^{it}} = 1$.
+then
+\[
+\abs{ \int_{\gamma^-} f(z) \dz }
+&= \abs{ \int_0^\pi f(-R+it) \dt \qquad z=-R+it, \dz=\dt} \\
+&= \abs{ \int_0^\pi { e^{a(-R+it)} \over \cosh(-R+it) }  \dt } \\
+&= \abs{ \int_0^\pi { e^{-aR}e^{ait} \over e^{-R}e^{it} + e^{R} e^{-it} }   \dt } \\
+&\leq  \int_0^\pi \abs{{ e^{-aR}e^{ait} \over e^{-R}e^{it} + e^{R} e^{-it} } }  \dt  \\
+&=  \int_0^\pi {{ \abs{ e^{-aR}e^{ait} } \over \abs{ e^{-R}e^{it} + e^{R} e^{-it} } } }  \dt  \\
+&\leq  c\int_0^\pi {{ \abs{ e^{-aR} } \over \abs{ e^{-R} (e^{it} + e^{2R}e^{-it}) } } }  \dt  \\
+&=  c\int_0^\pi {{ \abs{ e^{-R(a+1)} } \over \abs{(e^{it} + e^{2R}e^{-it}) } } }  \dt  \\
+&\leq  c\int_0^\pi {{ \abs{ e^{-R(a+1)} } \over \abs{e^{2R}e^{-it} } - \abs{e^{it} } } }  \dt  \\
+&=  c\int_0^\pi {{ e^{\Re(-R(a+1))} \over e^{2R} - 1 } }  \dt  \\
+&=  {{ c\pi e^{\Re(-R(a+1))} \over e^{2R} - 1 } }  \\
+&\leq  {{ c\pi e^{-R \cdot \Re((a+1))}} }
+,\]
+which now goes to zero provided $\Re(a+1)>0$, so $\Re(a) > -1$ (again as assumed).
+
 :::
 
 Given thus, noting that only the pole $z_0 = {i\pi \over 2}$ is enclosed, the residue theorem yields
