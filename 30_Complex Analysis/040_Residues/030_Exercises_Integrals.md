@@ -629,14 +629,19 @@ Computing the integral on the upper contour:
 \int_{\gamma_1} f(z) \dz 
 &= \int_R^{-R} f(t+ib) \dt \qquad z=t+ib, \dz = \dt \\
 &= - \int_{-R}^R f(t+ib) \dt \\
-&= - \int_{-R}^R {e^{t+i\pi} \over \cosh(t+i\pi ) } \dt \\
-&= - \int_{-R}^R e^{i\pi} {e^{t} \over e^t e^{i\pi} + e^{-t} e^{-i\pi} } \dt \\
-&= - \int_{-R}^R e^{i\pi} {e^{t} \over -e^t - e^{-t} } \dt \\
-&= \int_{-R}^R e^{i\pi} {e^{t} \over e^t + e^{-t} } \dt \\
-&= - \int_{-R}^R {e^{t} \over e^t + e^{-t} } \dt \\
-&= - \int_{-R}^R {e^{t} \over \cosh(t) } \dt \\
-&= -\int_{\gamma_0} f(z) \dz
+&= - \int_{-R}^R {e^{a(t+i\pi)} \over \cosh(t+i\pi ) } \dt \\
+&= - \int_{-R}^R e^{ai\pi} {e^{t} \over e^t e^{i\pi} + e^{-t} e^{-i\pi} } \dt \\
+&= - \int_{-R}^R e^{ai\pi} {e^{t} \over -e^t - e^{-t} } \dt \\
+&= \int_{-R}^R e^{ai\pi} {e^{t} \over e^t + e^{-t} } \dt \\
+&= e^{ai\pi} \int_{-R}^R {e^{t} \over e^t + e^{-t} } \dt \\
+&= e^{ai\pi} \int_{-R}^R {e^{t} \over \cosh(t) } \dt \\
+&= e^{ai\pi} \int_{\gamma_0} f(z) \dz
+,\]
+so
+\[
+\qty{\int_{\gamma_0} + \int_{\gamma_1}} f = 
 .\]
+
 
   
 :::
