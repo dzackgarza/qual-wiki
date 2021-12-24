@@ -666,6 +666,16 @@ Computing the residue:
 &= -i e^{ai\pi \over 2}
 ,\]
 where we've used that $\sinh(iz) = i\sin(z)$.
+Putting it all together:
+\[
+I 
+&= {2\pi i \cdot -i e^{ai\pi \over 2} \over 1 + e^{a i \pi}} \\
+&= {2\pi e^{ai\pi \over 2} \over 1 + e^{a i \pi}} \\
+&= {2\pi \over e^{-ai\pi \over 2}\qty{ 1 + e^{a i \pi}} } \\
+&= {2\pi \over e^{-ai\pi \over 2}+ e^{a i \pi\over 2} }  \\
+&= {\pi \over \cos\qty{a\pi \over 2}}\\
+&= \pi \csc\qty{a\pi \over 2}
+.\]
 
 
 
