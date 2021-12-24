@@ -654,14 +654,18 @@ The integrals along the sides vanish as $R\to\infty$.
 
 Given thus, noting that only the pole $z_0 = {i\pi \over 2}$ is enclosed, the residue theorem yields
 \[
-2\pi i \Res_{z=z_0}f(z) = \int_\Gamma f = (1+e^{ai\pi})I
+2\pi i \Res_{z=z_0}f(z) = \int_\Gamma f = (1+e^{ai\pi})I \implies I = {2\pi i \Res_{z=z_0} f(z) \over 1 + e^{ai\pi}}
 .\]
 Computing the residue:
 \[
 \Res_{z=z_0}f(z) 
-&= \lim_{z\to {i\pi \over 2}} \qty{z-{i\pi \over 2} e^{az} \over \cosh(z)} \\
-&= ?
-.\]
+&= \lim_{z\to z_0} {(z-z_0)e^{az} \over \cosh(z)}\\
+&\eqLH \lim_{z\to z_0} {a(z-z_0) e^{az} \over \sinh(z)} + {e^{az}\over \sinh(z)} \\
+&= {a \cdot 0 \cdot e^{ai\pi \over 2} \over i \sin\qty{\pi \over 2} } + {e^{a i \pi \over 2} \over i\sin\qty{\pi \over 2}} \\
+&= {e^{ai\pi\over 2} \over i} \\
+&= -i e^{ai\pi \over 2}
+,\]
+where we've used that $\sinh(iz) = i\sin(z)$.
 
 
 
