@@ -993,7 +993,7 @@ I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx && 0 < \alpha < 2
 Note the single pole of order 2 at $z=-1$, and also the branch singularity.
 Choose a branch cut of $\log$ by deleting $\theta=0$, and take a keyhole contour.
 
-![This, but along the negative axis](figures/2021-12-24_04-00-31.png)
+![Keyhole contour](figures/2021-12-24_04-00-31.png)
 
 Write the contours as 
 
@@ -1241,7 +1241,7 @@ Use that the integral rotates by $e^{2\pi i\over a}$.
 
 :::
 
-:::{.exercise title="$1/x^2+3x+2$, the log trick"}
+:::{.exercise title="$1/x^2+3x+2$"}
 \[
 I\da \int_\RR {1\over x^2 + 3x+ 2 }\dx
 .\]
@@ -1250,7 +1250,7 @@ I\da \int_\RR {1\over x^2 + 3x+ 2 }\dx
 
 :::
 
-:::{.solution}
+:::{.solution title="Phantom log trick"}
 Note that $f(x) = (x+2)(x+1)$, so the singularities on on $\RR_{< 0}$.
 The function isn't even, so a semicircular contour won't work.
 Attempting to find a ray-like symmetry only yields one option:
@@ -1263,6 +1263,8 @@ So introduce a log with a branch cut along $\theta = 0$, and consider
 \[
 \int f(z) \log(z)
 .\]
+
+![](figures/2021-12-24_04-03-05.png)
 
 Let $\gamma_+ = \ts{t + i\eps \st t\geq 0}$ (right-to left) and $\gamma_0 = \ts{t-i\eps \st t\geq 0}$ (left-to-right).
 Now use the general fact
