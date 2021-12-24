@@ -639,7 +639,7 @@ Computing the integral on the upper contour:
 ,\]
 so
 \[
-\qty{\int_{\gamma_0} + \int_{\gamma_1}} f = 
+\qty{\int_{\gamma_0} + \int_{\gamma_1}} f = (1+e^{ai\pi}) I
 .\]
 
 
