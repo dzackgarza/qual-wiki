@@ -1061,7 +1061,7 @@ I \da \int_0^\infty {\log(x) \over 1+x^2}\dx = 0
 
 :::
 
-:::{.solution title="Semicircle"}
+:::{.solution title="Semicircle, real reduction trick"}
 Noting the partial $\zeta_2 = -1$ symmetry, take a branch cut for $\log$ along $\theta = -\pi/2$ and the following semicircular contour:
 
 ![](figures/2021-12-22_05-21-05.png)
@@ -1108,6 +1108,11 @@ I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx
 
 :::
 
+
+:::{.solution title="Semicircle, real reduction trick"}
+Let $f$ be the integrand, then $f\sim \log(z)/(z^4+1)$, so an indented semicircular contour will work since $f\to 0$ as $\abs{z}\to \infty$ and as $\abs{z} \to 0$.
+:::
+
 :::{.solution title="Log squaring trick"}
 Factor $(1+z^2)^2 = (z+i)^2(z-i)^2$.
 Apropos of nothing, considering the auxiliary function
@@ -1152,7 +1157,7 @@ and so miraculously
 &= 4i\pi \int_{\eps}^R {\log(s) \over (s^2+1)^2}\ds \\
 &\too 4i \pi I
 .\]
-The contributions from $\gamma_R$ vanish since ${\log(z) \over z^4}\to 0$ as $\abs{z}\to \infty$, and the contribution from $\gamma_\eps$ vanish since ${\log(z) \over z^4+c}\to 0$ as $\abs{z}\to 0$ (and applying the ML estimate).
+The contributions from $\gamma_R$ vanish since ${\log(z) \over z^4}\to 0$ as $\abs{z}\to \infty$, and the contribution from $\gamma_\eps$ vanish since ${\eps \log(\eps) \over \eps^4+c}\to 0$ as $\eps \to 0$ (and applying the ML estimate).
 Thus
 \[
 2\pi i \sum_{z_k\in \CC}\Res_{z=z_k}g(z) = \int_\Gamma g(z) \dz = 4i\pi I
