@@ -1101,7 +1101,7 @@ so by the residue theorem,
 
 :::{.exercise title="$\log(x) / (1+x^2)^2$"}
 \[
-I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx 
+I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx = -{\pi \over 4}
 .\]
 
 #completed
@@ -1110,7 +1110,32 @@ I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx
 
 
 :::{.solution title="Semicircle, real reduction trick"}
-Let $f$ be the integrand, then $f\sim \log(z)/(z^4+1)$, so an indented semicircular contour will work since $f\to 0$ as $\abs{z}\to \infty$ and as $\abs{z} \to 0$.
+Let $f$ be the integrand, then $f\sim \log(z)/(z^4+1)$, so an indented semicircular contour will work since $\abs{f}\to 0$ as $\abs{z\to\infty}$, and the inner integral will be dominated by a term of the form $\eps\log(\eps)/\eps^4\to 0$ as $\eps\to 0$.
+So take such a contour, branch cutting along $\theta = -\pi/2$:
+
+![](figures/2021-12-22_05-21-05.png)
+
+Now consider the contribution from $\gamma_2$:
+\[
+\int_{\gamma_2} f(z) \dz 
+&= \int_{-R}^{-\eps} f(t+0i) \dt \\
+&= \int_{-R}^{-\eps} {\log(t) \over (t^2 + 1)^2 }\dt \\
+&= -\int_{R}^{\eps} {\log(-x) \over ((-x)^2 + 1)^2 }\dx \\
+&= \int_{\eps}^{R} {i\pi  \over (x^2 + 1)^2 }\dx \\
+&\to i\pi \int_{0}^\infty {1\over (x^2 + 1)}\dx
+.\]
+This auxiliary integral can be handled easily with a usual semicircular contour, since the integrand is $\bigo(x^4)$:
+\[
+\int_{0}^\infty {1\over (z^2 + 1)}\dx 
+&= 2\pi i \sum_{z_k\in \HH}\Res_{z=z_k} {1\over (z^2 + 1)} \\
+&= 2\pi i \Res_{z=i} {1\over (z^2 + 1)} \\
+&= 2\pi i \lim_{z\to i} \dd{}{z} {1\over (z+i)^2} \\
+&= 2\pi i \cdot {-2\over (2i)^3 } \\
+&= 2\pi i \cdot {-i\over 4} \\
+&= {\pi \over 2}
+.\]
+
+
 :::
 
 :::{.solution title="Log squaring trick"}
