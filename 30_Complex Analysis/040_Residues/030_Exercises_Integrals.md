@@ -980,7 +980,7 @@ I &= 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}} \\
 
 ## Branch Cuts
 
-:::{.exercise title="$x^\alpha/(x+1)^2$, keyhole contour"}
+:::{.exercise title="$x^\alpha/(x+1)^2$"}
 \[
 I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx && 0 < \alpha < 2
 .\]
@@ -989,9 +989,12 @@ I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx && 0 < \alpha < 2
 
 :::
 
-:::{.solution}
+:::{.solution title="Keyhole contour"}
 Note the single pole of order 2 at $z=-1$, and also the branch singularity.
 Choose a branch cut of $\log$ by deleting $\theta=0$, and take a keyhole contour.
+
+![](figures/2021-12-24_04-00-31.png)
+
 Write the contours as 
 
 - $\gamma_\eps = \ts{\eps e^{it} \st t\in[0+\eps, 2\pi - \eps]}$
