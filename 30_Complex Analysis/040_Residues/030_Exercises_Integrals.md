@@ -594,7 +594,7 @@ Computing this residue:
 
 :::{.exercise title="$e^{ax}\operatorname{sech}(z)$ "}
 \[
-I \da \int_\RR {e^{ax} \over \cosh(x) }\dx = \pi \sec\qty{a\pi \over 2}
+I \da \int_\RR {e^{ax} \over \cosh(x) }\dx = \pi \sec\qty{a\pi \over 2} && \abs{\Re(a)} < 1
 .\]
 
 #work
@@ -603,6 +603,7 @@ I \da \int_\RR {e^{ax} \over \cosh(x) }\dx = \pi \sec\qty{a\pi \over 2}
 :::
 
 :::{.solution}
+Heuristically, $\int e^{ax} \sech(x)$ should converge since $\sech(x) \sim e^{-x}$, so $\abs{f} \sim \abs{e^{(a-1)x}}\sim e^{\Re(a-1)x} \sim e^{-x}$ when $\Re(a-1)$ is negative, so $\Re(a) < 1$.
 
 ![](figures/2021-12-22_05-16-12.png)
   
