@@ -644,6 +644,13 @@ so
 
 :::{.claim}
 The integrals along the sides vanish as $R\to\infty$.
+
+The quick argument:
+\[
+f(R+\pi i) &=-\frac{e^{a(R+\pi i)}}{\cosh R} \sim-e^{\pi a i} e^{R(a-1)} \\
+f(-R+\pi i) &=-\frac{e^{a(-R+\pi i)}}{\cosh R} \sim-e^{\pi a i} e^{-R(a+1)}
+.\]
+
 :::
 
 :::{.proof title="That the side integral vanish"}
