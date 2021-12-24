@@ -643,6 +643,30 @@ so
 .\]
 
 
+:::{.claim}
+The integrals along the sides vanish as $R\to\infty$.
+:::
+
+
+:::{.proof title="?"}
+??
+:::
+
+Given thus, noting that only the pole $z_0 = {i\pi \over 2}$ is enclosed, the residue theorem yields
+\[
+2\pi i \Res_{z=z_0}f(z) = \int_\Gamma f = (1+e^{ai\pi})I
+.\]
+Computing the residue:
+\[
+\Res_{z=z_0}f(z) 
+&= \lim_{z\to {i\pi \over 2}} \qty{z-{i\pi \over 2} e^{az} \over \cosh(z)} \\
+&= ?
+.\]
+
+
+
+
+
   
 :::
 
