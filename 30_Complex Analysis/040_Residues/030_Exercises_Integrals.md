@@ -605,7 +605,39 @@ I \da \int_\RR {e^{ax} \over \cosh(x) }\dx = \pi \sec\qty{a\pi \over 2} && \abs{
 :::{.solution}
 Heuristically, $\int e^{ax} \sech(x)$ should converge since $\sech(x) \sim e^{-x}$, so $\abs{f} \sim \abs{e^{(a-1)x}}\sim e^{\Re(a-1)x} \sim e^{-x}$ when $\Re(a-1)$ is negative, so $\Re(a) < 1$.
 
+We'll need a contour along $\RR$, so immediate options are a semicircular contour or a rectangle.
+A semicircular contour is not a good idea here, since there are infinitely many poles of this function:
+\[
+\cosh(z) = 0 \implies e^z + e^{-z} = 0 \implies e^{2z} = -1 \implies z = {i\pi \cdot k \over 2}
+.\]
+It turns out the residues at these poles are all 1, the residue theorem would yield a divergent series.
+So take the rectangle contour with one side long $\RR$ and one along $\ts{t+ib \st t\in [-R, R]}$ respectively, where we'll choose $ib$ so that the two integrals differ by a scalar.
+Computing the symmetry by looking at $f(z+ib)$:
+\[
+{e^{a(z+ib)} \over \cosh(z+ib)} 
+= e^{aib} {e^{z} \over e^z e^{ib} + e^{-z} e^{-ib} }
+,\]
+and we now need $e^{ib} = e^{-ib}$ in order to scale it out.
+Noting that if $z\da e^{ib}$ then $\bar{z} = e^{-ib}$, this forces $z\in \RR$, so $z=\pm 1$.
+Taking $z=+1$ forces $b=0$, which is the original contour, so taking $z=-1$ yields $b=\pi i$.
+So we take the following contour:
+
 ![](figures/2021-12-22_05-16-12.png)
+
+Computing the integral on the upper contour:
+\[
+\int_{\gamma_1} f(z) \dz 
+&= \int_R^{-R} f(t+ib) \dt \qquad z=t+ib, \dz = \dt \\
+&= - \int_{-R}^R f(t+ib) \dt \\
+&= - \int_{-R}^R {e^{t+i\pi} \over \cosh(t+i\pi ) } \dt \\
+&= - \int_{-R}^R e^{i\pi} {e^{t} \over e^t e^{i\pi} + e^{-t} e^{-i\pi} } \dt \\
+&= - \int_{-R}^R e^{i\pi} {e^{t} \over -e^t - e^{-t} } \dt \\
+&= \int_{-R}^R e^{i\pi} {e^{t} \over e^t + e^{-t} } \dt \\
+&= - \int_{-R}^R {e^{t} \over e^t + e^{-t} } \dt \\
+&= - \int_{-R}^R {e^{t} \over \cosh(t) } \dt \\
+&= -\int_{\gamma_0} f(z) \dz
+.\]
+
   
 :::
 
