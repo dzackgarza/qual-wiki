@@ -104,6 +104,9 @@ If $f(z) \approx \cos(z), \sin(z), \tan(z), \cdots$: check if $\displaystyle\int
 
 ![](figures/2021-12-22_05-14-24.png)
 
+- When a log trick is useful: if $f(z) = \log(z)g(z)$ where $\int g(z)$ is easy, try a contour that is a rotation of $\RR$.
+  The substitution usually yields $\log(\zeta x) \leadsto \ln\abs{x} + i\theta$, so $\int \log(\zeta x)g(\zeta x) = \int \log(x)g(x) + \int i\theta g(x)$ if $g$ is $\zeta\dash$invariant.
+
 :::
 
 :::{.remark title="No clear decay on semicircles: replication"}
