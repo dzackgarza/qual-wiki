@@ -1284,4 +1284,3 @@ noting that we've chosen a branch of $\log(z) \da \ln\qty{\abs{z}} + i\Arg(z)$ w
 
 
 
-
