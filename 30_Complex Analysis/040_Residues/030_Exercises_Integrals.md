@@ -597,7 +597,7 @@ Computing this residue:
 I \da \int_\RR {e^{ax} \over \cosh(x) }\dx = \pi \sec\qty{a\pi \over 2} && \abs{\Re(a)} < 1
 .\]
 
-#work
+#completed
 
 
 :::
@@ -647,9 +647,34 @@ so
 The integrals along the sides vanish as $R\to\infty$.
 :::
 
+:::{.proof title="That the side integral vanish"}
+Parameterize the right contour as 
+\[
+\gamma^+ = \ts{R+it \st t\in [0, \pi]}
+.\]
+Then
+\[
+\abs{ \int_{\gamma^+} f(z) \dz }
+&= \abs{ \int_0^\pi f(R+it) \dt \qquad z=R+it, \dz=\dt} \\
+&= \abs{ \int_0^\pi { e^{a(R+it} \over \cosh(R+it) }  \dt } \\
+&= \abs{ \int_0^\pi { e^{aR}e^{ait} \over e^Re^{it} + e^{-R} e^{-it} }   \dt } \\
+&\leq  \int_0^\pi \abs{{ e^{aR}e^{ait} \over e^Re^{it} + e^{-R} e^{-it} } }  \dt  \\
+&=  \int_0^\pi {{ \abs{ e^{aR}e^{ait} } \over \abs{ e^Re^{it} + e^{-R} e^{-it} } } }  \dt  \\
+&\leq  \int_0^\pi {{ \abs{ e^{aR} } \over \abs{ e^{-R} (e^{2R}e^{it} + e^{-it}) } } }  \dt  \\
+&=  \int_0^\pi {{ \abs{ e^{(a-1)R} } \over \abs{(e^{2R}e^{it} + e^{-it}) } } }  \dt  \\
+&\leq  \int_0^\pi {{ \abs{ e^{(a-1)R} } \over \abs{e^{2R}e^{it} } - \abs{e^{-it} } } }  \dt  \\
+&=  \int_0^\pi {{ e^{\Re((a-1)R)} \over e^{2R} - 1 } }  \dt  \\
+&=  {{ \pi e^{\Re((a-1)R)} \over e^{2R} - 1 } }  \\
+&\leq  {{ \pi e^{\Re((a-1)R)}} } 
+,\]
+which goes to zero provide $\Re(a-1) < 0$, so $\Re(a) < 1$ (as assumed).
+Here we've thrown out positive denominators, which only makes the terms larger.
 
-:::{.proof title="?"}
-??
+Similarly, parameterized the left contour as 
+\[
+\gamma^- = \ts{R-it \st t\in [0, \pi]}
+,\]
+and you'll find that exactly the same argument goes through, since $\abs{e^{-it}} = \abs{e^{it}} = 1$.
 :::
 
 Given thus, noting that only the pole $z_0 = {i\pi \over 2}$ is enclosed, the residue theorem yields
