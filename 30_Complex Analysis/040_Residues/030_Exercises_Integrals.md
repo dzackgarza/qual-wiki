@@ -592,7 +592,7 @@ Computing this residue:
 
 :::
 
-:::{.exercise title="$e^ax\operatorname{sech}(z)$ "}
+:::{.exercise title="$e^{ax}\operatorname{sech}(z)$ "}
 \[
 I \da \int_\RR {e^{ax} \over \cosh(x) }\dx = \pi \sec\qty{a\pi \over 2}
 .\]
