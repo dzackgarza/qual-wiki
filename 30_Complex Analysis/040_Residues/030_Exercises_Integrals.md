@@ -654,8 +654,8 @@ Parameterize the right contour as
 Then
 \[
 \abs{ \int_{\gamma^+} f(z) \dz }
-&= \abs{ \int_0^\pi f(R+it) \dt \qquad z=R+it, \dz=\dt} \\
-&= \abs{ \int_0^\pi { e^{a{R+it} \over \cosh(R+it) }  \dt } \\
+&= \abs{ \int_0^\pi f(R+it) \dt} \qquad z=R+it, \dz=\dt \\
+&= \abs{ \int_0^\pi { e^{a(R+it)} \over \cosh(R+it) }  \dt } \\
 &= \abs{ \int_0^\pi { e^{aR}e^{ait} \over e^Re^{it} + e^{-R} e^{-it} }   \dt } \\
 &\leq  \int_0^\pi \abs{{ e^{aR}e^{ait} \over e^Re^{it} + e^{-R} e^{-it} } }  \dt  \\
 &=  \int_0^\pi {{ \abs{ e^{aR}e^{ait} } \over \abs{ e^Re^{it} + e^{-R} e^{-it} } } }  \dt  \\
@@ -664,8 +664,8 @@ Then
 &\leq  c\int_0^\pi {{ \abs{ e^{(a-1)R} } \over \abs{e^{2R}e^{it} } - \abs{e^{-it} } } }  \dt  \\
 &=  c\int_0^\pi {{ e^{\Re((a-1)R)} \over e^{2R} - 1 } }  \dt  \\
 &=  {{ c\pi e^{\Re((a-1)R)} \over e^{2R} - 1 } }  \\
-&\leq  {{ c\pi e^{R\cdot \Re((a-1))}} } 
-,\]
+&\leq  {{ c\pi e^{R\cdot \Re((a-1))}} }
+\]
 which goes to zero provide $\Re(a-1) < 0$, so $\Re(a) < 1$ (as assumed).
 Here we've thrown out positive denominators, which only makes the terms larger.
 
