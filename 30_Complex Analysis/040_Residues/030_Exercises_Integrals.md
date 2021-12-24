@@ -645,12 +645,12 @@ so
 :::{.claim}
 The integrals along the sides vanish as $R\to\infty$.
 
-The quick argument:
+The quick argument: $\cos(z) \sim e^z$ so $\sech(z) \sim e^{-z}$, so
 \[
-f(R+\pi i) &=-\frac{e^{a(R+\pi i)}}{\cosh R} \sim-e^{\pi a i} e^{R(a-1)} \\
-f(-R+\pi i) &=-\frac{e^{a(-R+\pi i)}}{\cosh R} \sim-e^{\pi a i} e^{-R(a+1)}
-.\]
-
+\abs{f(R+ it)} &= \abs{e^{a(R+it)}\sech(R+it)} \sim \abs{ e^{aR}e^{-R}}  = \abs{ e^{R(a-1)} } = e^{R\cdot \Re(a-1)} \\
+\abs{f(-R+ it)} &= \abs{e^{a(-R+it)}\sech(-R+it)} \sim \abs{ e^{-aR}e^{R}}  = \abs{ e^{-R(a+1)}} = e^{-R \cdot \Re(a+1)}
+,\]
+where the first goes to zero when $\Re(a)<1$ and the second when $\Re(a) > -1$.
 :::
 
 :::{.proof title="That the side integral vanish"}
