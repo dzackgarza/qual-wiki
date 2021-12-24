@@ -1051,7 +1051,7 @@ Thus
 
 :::{.exercise title="$\log(x)/1+x^2$"}
 \[
-I \da \int_\RR {\log(x) \over 1+x^2}\dx = 0
+I \da \int_0^\infty {\log(x) \over 1+x^2}\dx = 0
 .\]
 
 #work
@@ -1158,12 +1158,18 @@ I &= {2\pi i \over 4\pi i}(r_1 + r_2) \\
 \[
 \int_0^\infty {\log(x) \over x^2+a^2}\dx &= {\pi\log(a)\over 2a} && a>0
 .\]
+
+#work
+
 :::
 
 :::{.exercise title="$x^? / 1+x^2$"}
 \[
 \int_0^\infty {x^{1\over 3} \over 1 + x^2} \dx = {\pi \over \sqrt 3}
 .\]
+
+#work
+
 :::
 
 :::{.solution}
@@ -1171,7 +1177,6 @@ I &= {2\pi i \over 4\pi i}(r_1 + r_2) \\
 ![figures/2021-07-29_18-51-17.png](figures/2021-07-29_18-51-17.png)
 
 :::
-
 
 :::{.exercise title="$\log(z)/1+z^a$"}
 \[
@@ -1182,7 +1187,6 @@ I\da \int_0^\infty {\log(x) \over 1+x^a}\dx = - \qty{\pi \over a}^2\cos\qty{\pi\
 
 :::
 
-
 :::{.solution}
 
 ![](figures/2021-12-22_05-25-35.png)
@@ -1190,12 +1194,13 @@ I\da \int_0^\infty {\log(x) \over 1+x^a}\dx = - \qty{\pi \over a}^2\cos\qty{\pi\
 Use that the integral rotates by $e^{2\pi i\over a}$.
 :::
 
-
-
 :::{.exercise title="$1/x\sqrt{x^2-1}$ "}
 \[
 \int_{1}^{\infty} \frac{d x}{x \sqrt{x^{2}-1}} = {\pi \over 2}
 .\]
+
+#work
+
 :::
 
 :::{.solution}
