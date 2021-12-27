@@ -1244,8 +1244,7 @@ I &= {2\pi i \over 4\pi i}(r_1 + r_2) \\
 
 :::
 
-
-:::{.solution title="Monodromy"}
+:::{.solution title="Semicircle monodromy"}
 Note that the poles are at $z=\pm ia$, and since $\lim_{\abs{z}\to\infty}f(z) = 0$ and $\lim{R\to 0} {R\log(R)\over R^2 + a^2} = 0$, an indented semicircular contour will work.
 
 
@@ -1282,19 +1281,58 @@ In the limit, by the residue theorem we have
 &= 2I + i\pi\qty{\pi \over 2a} \\
 \implies I &= {\pi \log(a) \over 2a}
 .\]
-
-
 :::
-
 
 :::{.exercise title="$x^? / 1+x^2$"}
 \[
-\int_0^\infty {x^{1\over 3} \over 1 + x^2} \dx = {\pi \over \sqrt 3}
+I\da \int_0^\infty {x^{1\over 3} \over 1 + x^2} \dx = {\pi \over \sqrt 3}
 .\]
 
-#work
+#completed
 
 :::
+
+
+:::{.solution title="Semicircle monodromy"}
+Write $f(z) \da {z^{1\over 3}\over z^2+1}$, the claim is that an indented semicircular contour will work:
+
+![](figures/2021-12-26_20-04-14.png)
+
+Why:
+after parameterizing $C_R$, the integrand is approximately $R\cdot R^{1\over 3}/ R^2 \sim R^{{4\over 3} - 2} = R{-{2\over 3}}$, which goes to zero as $R\to \infty$.
+Similarly, on $C_\eps$, the integrand is approximately $\eps^{4\over 3}/(\eps^2+1)$, which goes to zero as $\eps\to 0$.
+
+Note the poles at $z=\pm i$.
+Computing the residue contribution at $z=i$:
+\[
+\Res_{z=i} f(z) &= {i^{1\over 3} \over 2i} = {1\over 2e^{i\pi \over 3}}
+.\]
+
+Computing the contribution from the integrals: let $\gamma_1$ be the contour along $\RR_{\geq \eps}$, and $\gamma_2$ along $\RR_{\leq \eps}$.
+Noting that $I = \int_{\gamma_1}f(z)\dz$,
+\[
+\int_{\gamma_2}f(z)\dz 
+&= \int_{-R}^{-\eps} { t^{1\over 3} \over t^2 +1 } \dt \\
+&= -\int_R^\eps {(-x)^{1\over 3} \over x^2+1}\dx \qquad x=-t,\, \dx = -\dt \\
+&= \int_\eps^R {(\zeta_2 x)^{1\over 3} \over x^2+1}\dx \\
+&= \zeta_2^{1\over 3} I \\
+&= e^{i\pi\over 3}I
+,\]
+so $\qty{\int_{\gamma_1} + \int_{\gamma_2}} f$ contributes $(1+e^{i\pi \over 3})I$.
+By the residue theorem,
+\[
+2\pi i \cdot
+{1\over 2e^{i\pi \over 3} }
+&=
+(1+e^{i\pi \over 3})I \\ \\
+\implies
+I &= {1\over 2e^{i\pi \over 3} (1+e^{i\pi \over 3}) }
+.\]
+
+
+
+:::
+
 
 :::{.solution}
 
