@@ -1418,13 +1418,31 @@ Then $\int_{\gamma_1}f(z)\dz \to I$ for $f(z) \da {\log(z) \over 1+z^a}$, so com
 \[
 I' = {\pi\over a}\csc\qty{\pi\over a}
 .\]
-
 :::
-
 
 :::{.proof title="?"}
 Computing the auxiliary integral $I'$:
 the integrand has the same pole at $\omega_a$, so apply the same technique.
+Write $g(z) \da {1\over z^a+1}$.
+
+The contributions from the contours:
+\[
+\qty{ \int_{\gamma_1} + \int_{\gamma_2}} g(z) \to (1-e^{2\pi i })I' = -2i\sin\qty{\pi\over a}e^{i\pi\over a}
+,\]
+using the exponential balancing trick.
+
+Computing the residue:
+\[
+\Res_{z=e^{i\pi\over a}}g(z) 
+&= {1\over az^{a-1}}\evalfrom_{z=e^{i\pi\over a}} = {1\over ae^{i\pi\qty{a-1\over a}}} = {1\over a e^{i\pi} e^{-i\pi\over a}} \\
+\implies 2\pi i \Res_{z=e^{i\pi\over a}}g(z) 
+&= -{2\pi i \over a}e^{i \pi \over a}
+.\]
+
+Combining and solving:
+\[
+I' = { - {2\pi i\over a} e^{i\pi \over a} \over -2i\sin\qty{\pi\over a}e^{i\pi\over a}} = {\pi \over a}\csc\qty{\pi \over a}
+.\]
 :::
 
 Given this, the RHS of the residue theorem limits to
