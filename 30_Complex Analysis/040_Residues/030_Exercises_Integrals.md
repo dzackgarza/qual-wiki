@@ -1372,7 +1372,17 @@ So the contribution from the residue theorem is
 2\pi i\qty{ {e^{\pi\over 6} \over 2i} - {i\over 2i} } = \pi\qty{e^{\pi\over 6} - 1}
 .\]
 
-
+Solving for the integral:
+\[
+I 
+&= {\pi (e^{\pi \over 6} - i) \over 1 - e^{2i\pi \over 3}} \\
+&=\pi { e^{i\omega} - e^{3i\omega} \over e^{0i\omega} - e^{4i\omega}},\qquad \omega = {\pi\over 6} \\
+&= \pi {e^{2i\omega} \qty{e^{-i\omega} - e^{i\omega} } \over e^{2i\omega}\qty{e^{-2i\omega} - e^{2i\omega} } } \\
+&= \pi {-2i\sin(\omega) \over -2i\sin(2\omega)} \\
+&= \pi {\sin\qty{\pi\over 6} \over \sin\qty{\pi\over 3}} \\
+&= \pi{ 1/2\over \sqrt{3}/2}\\
+&= {\pi \over \sqrt 3} 
+.\]
 
 :::
 
