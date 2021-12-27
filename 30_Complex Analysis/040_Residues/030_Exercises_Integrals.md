@@ -978,7 +978,7 @@ I &= 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}} \\
 
 :::
 
-## Branch Cuts
+## Logarithmic Branch Cuts
 
 :::{.exercise title="$x^\alpha/(x+1)^2$"}
 \[
@@ -1107,7 +1107,6 @@ I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx = -{\pi \over 4}
 #completed
 
 :::
-
 
 :::{.solution title="Semicircle, real reduction trick"}
 Let $f$ be the integrand, then $f\sim \log(z)/(z^4+1)$, so an indented semicircular contour will work since $\abs{f}\to 0$ as $\abs{z\to\infty}$, and the inner integral will be dominated by a term of the form $\eps\log(\eps)/\eps^4\to 0$ as $\eps\to 0$.
@@ -1495,18 +1494,43 @@ I
 
 :::
 
+## Polynomial Branch Cuts
+
 :::{.exercise title="$1/x\sqrt{x^2-1}$ "}
 \[
 \int_{1}^{\infty} \frac{d x}{x \sqrt{x^{2}-1}} = {\pi \over 2}
 .\]
 
-#work
+#completed
 
 :::
 
 :::{.solution}
+Write $f(z) \da (z^2-1)^{-{1\over 2}}/z$.
+In order for $(z^2-1)^{-{1\over 2}}$ to be well-defined, one needs to introduce a branch cut. 
+Note that $f$ has a simple pole at $z=0$ and is holomorphic away from $z=0$ **if** $z^2-1$ is not on the positive real axis, where we've chosen the branch cut $\theta = 0$ for $\Log(z)$ and define $z^{1\over 2} = e^{1\over 2\Log(z)}$.
+But $z^2-1 \in \RR_{\geq 0} \iff z\in [-1, 1]^c$, which is what we've cut.
+
+So take the branch cut $(-\infty, 1] \union [1, \infty)$ and use the following indented double-keyhole contour:
 
 ![figures/2021-07-29_18-53-35.png](figures/2021-07-29_18-53-35.png)
+
+Contributions along $C_8$ and $C_6$: note that $\int_{C_8}f \to I$, the desired integral.
+For reference, note that $z^2-1 = (z+1)(z-1)$, and we can parameterize
+\[
+C_8 = \ts{t+1+ i\eps \st t\in [\eps, R] } \implies \\
+\int_{C_8}f(z)\dz \to \int_0^\infty t\inv (t+2)^{-{1\over 2}} t^{-{1\over 2}} \dt
+,\]
+where on $C_8$ we choose a branch of the square root so that $\arg(z+1) \in [-\pi, \pi)$ and $\arg(z-1)\in [-\pi, \pi)$.
+Now consider $C_6$.
+Write $\zeta_0 \da e^{2\pi i}$, then
+\[
+C_6 = \ts{\zeta_0 t + 1 - i\eps \st t\in [\eps, R]} \implies \\
+\int_{C_6} f(z)\dz = \int_R^{\eps} (\zeta_0 t\inv)(\zeta_0 t + 2)^{-{1\over 2}}(\zeta_0 t)^{-{1\over 2}}\dt \to -\zeta_0^{-1{\over 2}} \int_0^\infty t\inv (t+2)^{-{1\over 2}} t^{-{1\over 2}}\dt = I
+.\]
+
+
+
 
 :::
 
