@@ -1326,12 +1326,16 @@ By the residue theorem,
 &=
 (1+e^{i\pi \over 3})I \\ \\
 \implies
-I &= {i\pi \over 2e^{i\pi \over 3} (1+e^{i\pi \over 3}) } \\
-&= i\pi \qty{2}\inv
-.\]
-
-
-
+I 
+&= {i\pi \over 2e^{i\pi \over 3} (1+e^{i\pi \over 3}) } \\
+&= {i\pi \over 2} \qty{ e^{i\pi \over 3} + e^{2i\pi \over 3} }\inv \\
+&= {i\pi \over 2} \qty{ e^{i\omega} + e^{2i\omega} }\inv,\qquad \omega={\pi\over 3} \\
+&= {i\pi \over 2} \qty{ e^{3i\omega\over 2} \qty{ e^{-i\omega\over 2} + e^{i\omega\over 2}} }\inv \\
+&= i\pi e^{-3i\omega\over 2}{1\over \cos\qty{\omega\over 2}} \\
+&= i\pi e^{-i\pi\over 2 }{1\over \cos\qty{\pi \over 6}} \\
+&= {\pi \over \sqrt{3}}
+,\]
+where we've used the "exponential balancing trick" (see complex arithmetic section).
 :::
 
 
