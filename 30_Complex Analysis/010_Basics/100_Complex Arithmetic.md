@@ -4,6 +4,39 @@ order: 100
 
 # Complex Arithmetic
 
+
+:::{.fact title="The balancing exponentials trick"}
+There are formulas:
+\[
+&e^{a i \omega}+e^{b i \omega}
+&=2 \cos \left(\frac{a-b}{2} \omega\right) e^{\frac{a+b}{2} i \omega} \\
+e^{a i \omega}-e^{b i \omega}
+&=2 i \sin \left(\frac{a-b}{2} \omega\right) e^{\frac{a+b}{2} i \omega}
+.\]
+Why this is useful: you can reduce a sum of two exponentials to a complex scalar times a real trig function, e.g. when computing a residue to get a real number.
+Why this is true: for the right choice of $\ell$,
+\[
+e^{aiw} + e^{biw} = e^{\ell iw} \qty{ e^{(l-a)iw} + e^{(\ell - b)iw} } = e^{\ell i w} \qty{ e^{kiw} + e^{-kiw}} = e^{\ell i w}\cdot 2\cos(kw)
+.\]
+To make this hold, choose
+
+- $\ell \da {a+b\over 2}$
+- Then $\ell - a = {b-a \over 2} \da k$
+- $\ell -b = {a-b\over 2} = -k$
+
+An example:
+\[
+e^{-i\pi \over 2}+ e^{-3i\pi \over 2} 
+&\da e^{-iw} + e^{-3iw} \\
+&= e^{-2iw} \qty{e^{iw} + e^{-iw}}\\
+&= e^{-2iw}\cdot 2\cos(w) \\
+&= e^{-2i\cdot {\pi \over 2}}\cdot 2\cos\qty{\pi \over 2} \\
+&= -i\cdot 0 = 0
+.\]
+
+:::
+
+
 :::{.fact title="Some useful facts about basic complex algebra"}
 \[
 z + \bar{z} &= 2\Re(z) 

@@ -1326,7 +1326,8 @@ By the residue theorem,
 &=
 (1+e^{i\pi \over 3})I \\ \\
 \implies
-I &= {1\over 2e^{i\pi \over 3} (1+e^{i\pi \over 3}) }
+I &= {i\pi \over 2e^{i\pi \over 3} (1+e^{i\pi \over 3}) } \\
+&= i\pi \qty{2}\inv
 .\]
 
 
