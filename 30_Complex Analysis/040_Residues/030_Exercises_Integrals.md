@@ -1292,7 +1292,6 @@ I\da \int_0^\infty {x^{1\over 3} \over 1 + x^2} \dx = {\pi \over \sqrt 3}
 
 :::
 
-
 :::{.solution title="Semicircle monodromy"}
 Write $f(z) \da {z^{1\over 3}\over z^2+1}$, the claim is that an indented semicircular contour will work:
 
@@ -1339,9 +1338,41 @@ where we've used the "exponential balancing trick" (see complex arithmetic secti
 :::
 
 
-:::{.solution}
+:::{.solution title="Keyhole"}
+For the same reasons as in the semicircular solution, a keyhole will work:
 
 ![figures/2021-07-29_18-51-17.png](figures/2021-07-29_18-51-17.png)
+
+The contributions from $C_2$: 
+\[
+\int_{C_2}f(z) \dz 
+&= \int_R^\eps { (t-i\eps)^{1\over 3} \over (t-i\eps)^2 + 1 }\dt \\
+&= - \int^R_\eps { e^{{1\over 3}\qty{\ln\abs{t-i\eps} + i\Arg(t-i\eps) } } \over (t-i\eps)^2 + 1 }\dt \\
+&\to - \int^R_\eps { e^{{1\over 3}\qty{\ln\abs{t} + 2\pi i } } \over t^2 + 1 }\dt \\
+&= -\int_\eps^R { e^{2\pi i \over 3} t^{1\over 3} \over t^2 + 1}\dt \\
+&= - \zeta_3 I
+,\]
+so the contributions from the contours sums to $(1-\zeta_3 I)$.
+
+The contributions from residues:
+\[
+\Res_{z=\pm i} f(z)
+&= { (\pm i)^{1\over 3} \over \pm 2i} \cdot \\ 
+&= { (e^{k\pi \over 2})^{1\over 3} \over \pm 2i},\qquad k=1,3\\ 
+&= { e^{k\pi \over 6} \over \pm 2i} \\
+&=
+\begin{cases}
+ { e^{\pi\over 6} \over 2i} &  z=i
+\\
+ {e^{3\pi \over 6} \over -2i} = -{1\over 2} & z=-i.
+\end{cases}
+.\]
+So the contribution from the residue theorem is
+\[
+2\pi i\qty{ {e^{\pi\over 6} \over 2i} - {i\over 2i} } = \pi\qty{e^{\pi\over 6} - 1}
+.\]
+
+
 
 :::
 
