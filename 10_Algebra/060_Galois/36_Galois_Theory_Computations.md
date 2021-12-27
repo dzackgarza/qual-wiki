@@ -223,7 +223,7 @@ If $f\in k[x]$ is irreducible, then $\Gal(\SF(f)/k) \leq S_n$ is **always** a tr
 n\divides \size \Gal(K/\QQ) \divides n!
 .\]
 
-Why: $\Gal(K/\QQ) \cong G\leq S_n$, and Lagrange yields $\sizeH \divides n!$.
+Why: $\Gal(K/\QQ) \cong G\leq S_n$, and Lagrange yields $\size H \divides n!$.
 Note that $G$ acts on $R$ the set of $n$ roots, and since it acts transitively, $R$ is a single orbit.
 By orbit stabilizer, $\OO_r \cong G/\Stab_G(r)$ and thus
 \[
@@ -246,7 +246,7 @@ The following are transitive subgroups of $S_n$ for small $n$, where blue groups
 
 Other useful facts:
 
-- $\size D_n = 2n$, $\sizeS_n = n!, \size A_n = n!/2$, and $\size F_5 = 20$.
+- $\size D_n = 2n$, $\size S_n = n!, \size A_n = n!/2$, and $\size F_5 = 20$.
 - For degree 8 extensions (which sometimes arise as quadratic extensions of degree 4 extensions): 
   $Q_8 \leq S_8$ is transitive and nonabelian of order 8, and has presentation
 \[
