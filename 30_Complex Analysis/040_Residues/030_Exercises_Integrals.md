@@ -1409,8 +1409,8 @@ Then $\int_{\gamma_1}f(z)\dz \to I$ for $f(z) \da {\log(z) \over 1+z^a}$, so com
 &=\int_R^\eps f(\zeta_a t) \zeta_a \dt \\
 &= -\zeta_a \int_\eps^R {\log(\zeta_a t) \over (\zeta_a t)^a + 1}\dt \\
 &= -\zeta_a \int_{\eps}^R {\log(z) + {2\pi i \over a} \over  t^a+1}\dt \\
-&\to -\zeta_a I - \zeta_a \int_0^\infty {1\over t^a + 1 }\dt \\
-&\da -\zeta_a I - \zeta_a I' 
+&\to -\zeta_a I - \zeta_a {2\pi i \over a} \int_0^\infty {1\over t^a + 1 }\dt \\
+&\da -\zeta_a I - {2\pi i\over a}\zeta_a I'
 .\]
 
 
