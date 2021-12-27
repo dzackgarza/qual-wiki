@@ -1526,7 +1526,15 @@ Now consider $C_6$.
 Write $\zeta_0 \da e^{2\pi i}$, then
 \[
 C_6 = \ts{\zeta_0 t + 1 - i\eps \st t\in [\eps, R]} \implies \\
-\int_{C_6} f(z)\dz = \int_R^{\eps} (\zeta_0 t\inv)(\zeta_0 t + 2)^{-{1\over 2}}(\zeta_0 t)^{-{1\over 2}}\dt \to -\zeta_0^{-1{\over 2}} \int_0^\infty t\inv (t+2)^{-{1\over 2}} t^{-{1\over 2}}\dt = I
+\int_{C_6} f(z)\dz 
+&\to \int_R^{\eps} (\zeta_0 t)\inv(\zeta_0 t + 2)^{-{1\over 2}}(\zeta_0 t)^{-{1\over 2}}\dt \\
+&\to -\zeta_0^{-{1 \over 2}} \int_0^\infty t\inv (t+2)^{-{1\over 2}} t^{-{1\over 2}}\dt \\
+&= I
+,\]
+since $-\zeta_0^{-{1\over 2}} \da -e^{-\pi i} = 1$.
+So 
+\[
+\qty{ \int_{C_8} + \int_{C_6}}f = 2I
 .\]
 
 
