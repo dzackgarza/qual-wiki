@@ -1437,9 +1437,13 @@ For the LHS, we compute the residue at $\omega_a$:
 \Res_{z=\omega_a} f(z) 
 &= \lim_{z\to \omega_a} {(z-\omega_a) \log(z) \over z^a + 1} \\
 &\eqLH \lim_{z\to \omega_k} {\log(z) \over az^{a-1}}\\
-&= {\log\qty{e^{\pi i \over a}} \over ae^{\pi i \qty{a-1\over a}} } \\
-&= {\pi i/a \over ae^{- \pi i\over a} } \\
-&= {i\pi \over a} e^{i\pi\over a}
+&= {\log\qty{e^{i\pi \over a}} \over ae^{i\pi \qty{a-1\over a}} } \\
+&= -{i\pi /a \over ae^{- i\pi \over a} } \\
+&= -{i\pi \over a^2} e^{i\pi\over a}
+,\]
+so
+\[
+2\pi i \Res_{z=\omega_a} f(z) = -2\pi i \qty{i\pi\over a^2}e^{i\pi \over a} = {2\pi^2\over a}e^{i\pi\over a}
 .\]
 
 
