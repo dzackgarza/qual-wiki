@@ -1443,7 +1443,7 @@ For the LHS, we compute the residue at $\omega_a$:
 ,\]
 so
 \[
-2\pi i \Res_{z=\omega_a} f(z) = -2\pi i \qty{i\pi\over a^2}e^{i\pi \over a} = {2\pi^2\over a}e^{i\pi\over a}
+2\pi i \Res_{z=\omega_a} f(z) = -2\pi i \qty{i\pi\over a^2}e^{i\pi \over a} = {2\pi^2\over a^2}e^{i\pi\over a}
 .\]
 
 
