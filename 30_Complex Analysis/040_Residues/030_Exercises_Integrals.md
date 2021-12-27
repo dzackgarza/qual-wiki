@@ -1429,7 +1429,7 @@ the integrand has the same pole at $\omega_a$, so apply the same technique.
 
 Given this, the RHS of the residue theorem limits to
 \[
-(1-\zeta_a) I - {2\pi i\over a}\zeta_a \cdot {\pi \over a}\csc\qty{\pi\over a}
+(1-\zeta_a) I - {2\pi i\over a}\zeta_a \qty{ {\pi \over a}\csc\qty{\pi\over a} }
 = (1-\zeta_a) I - {2\pi^2\over a^2}i\zeta_a \csc\qty{\pi\over a}
 .\]
 
