@@ -1079,9 +1079,9 @@ Computing the contribution from $\gamma_2$:
 &= \int_{-R}^{-\eps} f(t) \dt \qquad z=t+0i, \dz=\dt \\
 &= \int_{-R}^{-\eps} {\log(t) \over t^2 + 1}\dt \\
 &= -\int_{R}^{\eps} {\log(-x) \over (-x)^2 + 1 }\dx \qquad t=-x, \dt = -\dx \\
-&= \int_{\eps}^{R} {i\pi \over x^2 + 1 }\dx  \\
-&= i\pi \cdot {\pi \over 2} \\
-&= {i\pi^2\over 2}
+&= \int_{\eps}^{R} {\log(x) + i\pi \over x^2 + 1 }\dx  \\
+&= I + i\pi \cdot {\pi \over 2} \\
+&= I + {i\pi^2\over 2}
 ,\]
 using the known antiderivative $\arctan$.
 
@@ -1091,7 +1091,7 @@ Note that there are two simple poles at $\pm i$, so only the residue at $z_0=i$ 
 ,\]
 so by the residue theorem,
 \[
-2\pi i \Res_{z=i}f(z) = \int_{\Gamma}f(z) \dz = \qty{ \int_{\gamma_1} + \int{\gamma_2}}f = I + {i\pi^2 \over 2} \\
+2\pi i \Res_{z=i}f(z) = \int_{\Gamma}f(z) \dz = \qty{ \int_{\gamma_1} + \int{\gamma_2}}f = 2I + {i\pi^2 \over 2} \\
 \implies 2\pi i \cdot {\pi \over 4} = I + {i\pi^2\over 2} \\
 \implies {i\pi^2\over 4} = I + {i\pi^2\over 4} \\
 \implies I = 0
@@ -1149,7 +1149,7 @@ Combining all of this:
 = I + \qty{I + {i\pi^2\over 4}} \\
 \implies -{\pi \over 2} + {i\pi^2 \over 4} = 2I + {i\pi^2\over 4} \\
 \implies -{\pi\over 2} = 2I \\
-\implies I = -{\pi \over 4}
+implies I = -{\pi \over 4}
 .\]
 
 
@@ -1240,9 +1240,52 @@ I &= {2\pi i \over 4\pi i}(r_1 + r_2) \\
 \int_0^\infty {\log(x) \over x^2+a^2}\dx &= {\pi\log(a)\over 2a} && a>0
 .\]
 
-#work
+#completed
 
 :::
+
+
+:::{.solution title="Monodromy"}
+Note that the poles are at $z=\pm ia$, and since $\lim_{\abs{z}\to\infty}f(z) = 0$ and $\lim{R\to 0} {R\log(R)\over R^2 + a^2} = 0$, an indented semicircular contour will work.
+
+
+![](figures/2021-12-26_20-04-14.png)
+
+Computing the contribution from the residues:
+\[
+\Res_{z=ia}f(z) 
+&= \lim_{z\to ia }{\log(z) \over (z+ia)} \\
+&= {\log(ia) \over 2ia} \\
+&= {\log(a) + i\pi/2 \over 2ia} \\
+&= {\pi \over 4a} + {\log(a) \over 2ia} \\ \\
+\implies 2\pi i \Res_{z=ia}f(z) 
+&= {i\pi^2 \over 2a} + {\pi\log(a) \over a}
+.\]
+The contribution from the integrals will come from $\qty{\int_{\gamma_1} + \int_{\gamma_2}}f$ where
+
+- $\gamma_1 \da \ts{tR + (1-t)\eps \st t\in [\eps, R] }$
+- $\gamma_2 \da \ts{t(-\eps) + (1-t)(-R) \st t\in [\eps, R] }$, 
+
+so that the overall contour is oriented counterclockwise.
+Noting that $\int_{\gamma_1}f(z)\dz \to I$ the desired integral, the other contribution is
+\[
+\int_{\gamma_2}f(z)\dz 
+&= \int_{-R}^{-\eps} {\log(t)\over t^2 + a^2}\dt \\
+&= - \int_{-\eps}^{-R} {\log(t) \over t^2+a^2} \dt \\
+&= \int_{\eps}^{R} {\log(-x) \over x^2+a^2} \dt \qquad x=-t,\, \dx = -\dt\\
+&= \int_\eps^R {\log(x) \over x^2 + a^2}\dx + i\pi \int_\eps^R {1\over x^2 +a^2}\dx \\
+&= I + i\pi\qty{\pi \over 2a}
+.\]
+In the limit, by the residue theorem we have
+\[
+{i\pi^2 \over 2a} + {\pi\log(a) \over a}
+&= 2I + i\pi\qty{\pi \over 2a} \\
+\implies I &= {\pi \log(a) \over 2a}
+.\]
+
+
+:::
+
 
 :::{.exercise title="$x^? / 1+x^2$"}
 \[
