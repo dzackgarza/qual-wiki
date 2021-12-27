@@ -1409,7 +1409,7 @@ Then $\int_{\gamma_1}f(z)\dz \to I$ for $f(z) \da {\log(z) \over 1+z^a}$, so com
 &=\int_R^\eps f(\zeta_a t) \zeta_a \dt \\
 &= -\zeta_a \int_\eps^R {\log(\zeta_a t) \over (\zeta_a t)^a + 1}\dt \\
 &= -\zeta_a \int_{\eps}^R {\log(z) + {2\pi i \over a} \over  t^a+1}\dt \\
-&\to -\zeta_a I - \zeta_a \int_0^\infty {1\over t^a + 1 }\dt
+&\to -\zeta_a I - \zeta_a \int_0^\infty {1\over t^a + 1 }\dt \\
 &\da -\zeta_a I - \zeta_a I' 
 .\]
 
@@ -1422,8 +1422,28 @@ I' = {\pi\over a}\csc\qty{\pi\over a}
 :::
 
 
+:::{.proof title="?"}
 Computing the auxiliary integral $I'$:
-the integrand has the same pole $
+the integrand has the same pole at $\omega_a$, so apply the same technique.
+:::
+
+Given this, the RHS of the residue theorem limits to
+\[
+(1-\zeta_a) I - {\zeta_a \pi \over a}\csc\qty{\pi\over a}
+.\]
+
+For the LHS, we compute the residue at $\omega_a$:
+\[
+\Res_{z=\omega_a} f(z) 
+&= \lim_{z\to \omega_a} {(z-\omega_a) \log(z) \over z^a + 1} \\
+&\eqLH \lim_{z\to \omega_k} {\log(z) \over az^{a-1}}\\
+&= {\log\qty{e^{\pi i \over a}} \over ae^{\pi i \qty{a-1\over a}} } \\
+&= {\pi i/a \over ae^{- \pi i\over a} } \\
+&= {i\pi \over a} e^{i\pi\over a}
+.\]
+
+
+
 
 
 :::
