@@ -1396,7 +1396,7 @@ I\da \int_0^\infty {\log(x) \over 1+x^a}\dx
 
 :::
 
-:::{.solution}
+:::{.solution title="Sector monodromy"}
 For the usual reasons, integrals along semicircles of radius $R$ and $\eps$ go to zero, so noting the poles at $\omega_a \da e^{i\pi\over a}$, take an indented sector:
 
 ![](figures/2021-12-22_05-25-35.png)
@@ -1410,7 +1410,20 @@ Then $\int_{\gamma_1}f(z)\dz \to I$ for $f(z) \da {\log(z) \over 1+z^a}$, so com
 &= -\zeta_a \int_\eps^R {\log(\zeta_a t) \over (\zeta_a t)^a + 1}\dt \\
 &= -\zeta_a \int_{\eps}^R {\log(z) + {2\pi i \over a} \over  t^a+1}\dt \\
 &\to -\zeta_a I - \zeta_a \int_0^\infty {1\over t^a + 1 }\dt
+&\da -\zeta_a I - \zeta_a I' 
 .\]
+
+
+:::{.claim}
+\[
+I' = {\pi\over a}\csc\qty{\pi\over a}
+.\]
+
+:::
+
+
+Computing the auxiliary integral $I'$:
+the integrand has the same pole $
 
 
 :::
