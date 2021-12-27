@@ -1337,8 +1337,7 @@ I
 where we've used the "exponential balancing trick" (see complex arithmetic section).
 :::
 
-
-:::{.solution title="Keyhole"}
+:::{.solution title="Keyhole monodromy"}
 For the same reasons as in the semicircular solution, a keyhole will work:
 
 ![figures/2021-07-29_18-51-17.png](figures/2021-07-29_18-51-17.png)
@@ -1388,7 +1387,9 @@ I
 
 :::{.exercise title="$\log(z)/1+z^a$"}
 \[
-I\da \int_0^\infty {\log(x) \over 1+x^a}\dx = - \qty{\pi \over a}^2\cos\qty{\pi\over a}\csc^2\qty{\pi \over a}
+I\da \int_0^\infty {\log(x) \over 1+x^a}\dx 
+&= - \qty{\pi \over a}^2\cos\qty{\pi\over a}\csc^2\qty{\pi \over a} \\
+&= - {\pi^2\over a^2} {\cos\qty{\pi\over a} \over \sin^2\qty{\pi\over a}}
 .\]
 
 #work
