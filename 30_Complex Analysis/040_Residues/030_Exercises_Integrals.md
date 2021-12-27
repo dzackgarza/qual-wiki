@@ -1444,8 +1444,32 @@ For the LHS, we compute the residue at $\omega_a$:
 ,\]
 so
 \[
-2\pi i \Res_{z=\omega_a} f(z) = -2\pi i \qty{i\pi\over a^2}e^{i\pi \over a} = {2\pi^2\over a^2}e^{i\pi\over a}
+2\pi i \Res_{z=\omega_a} f(z) = -2\pi i \qty{i\pi\over a^2}e^{i\pi \over a} 
+= {2\pi^2\over a^2}e^{i\pi\over a}
 .\]
+
+After some truly arduous arithmetic, this assembles to:
+\[
+{2\pi^2\over a^2}e^{i\pi\over a}
+&= (1-\zeta_a) I - {2\pi^2\over a^2}i\zeta_a \csc\qty{\pi\over a} \\ \\
+\implies
+{2\pi^2\over a^2}e^{i\pi\over a}
+&= (1-e^{2\pi i\over a}) I - {2\pi^2\over a^2}ie^{2\pi i \over a} \csc\qty{\pi\over a} \\ \\
+\implies
+{2\pi^2\over a^2}
+&= (e^{-{i\pi\over a}}-e^{\pi i\over a}) I - {2\pi^2\over a^2}ie^{\pi i \over a} \csc\qty{\pi\over a} \\ \\
+&= -2i\sin\qty{\pi\over a}I  - {2\pi^2\over a^2}ie^{\pi i \over a} \csc\qty{\pi\over a} \\ \\
+\implies
+I 
+&= { {2\pi^2\over a^2} + {2\pi^2\over a^2}ie^{\pi i \over a} \csc\qty{\pi\over a}  \over -2i\sin\qty{\pi \over a} } \\\\
+&= {2\pi^2\over a^2} \qty{ 1 + ie^{\pi i \over a} \csc\qty{\pi\over a}  \over -2i\sin\qty{\pi \over a} } \\ \\
+&= -{\pi^2\over a^2}\csc\qty{\pi\over a} \cdot (-i)\qty{1 + ie^{i\pi\over a}\csc\qty{\pi\over a}} \\ \\
+&= -{\pi^2\over a^2}\csc\qty{\pi\over a} \qty{ -i + \qty{\cos\qty{\pi\over a} +i\sin\qty{\pi\over a}}\csc\qty{\pi\over a}} \\ \\
+&= -{\pi^2\over a^2}\csc\qty{\pi\over a} \qty{-i + \cot\qty{\pi\over a} + i } \\ \\
+&= -{\pi^2\over a^2}\csc\qty{\pi\over a} \cot\qty{\pi\over a} \\
+&= -{\pi^2\over a^2}\cos\qty{\pi\over a} \csc^2\qty{\pi\over a} \\
+.\]
+
 
 
 
