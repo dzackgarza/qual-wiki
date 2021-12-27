@@ -1392,15 +1392,27 @@ I\da \int_0^\infty {\log(x) \over 1+x^a}\dx
 &= - {\pi^2\over a^2} {\cos\qty{\pi\over a} \over \sin^2\qty{\pi\over a}}
 .\]
 
-#work
+#completed
 
 :::
 
 :::{.solution}
+For the usual reasons, integrals along semicircles of radius $R$ and $\eps$ go to zero, so noting the poles at $\omega_a \da e^{i\pi\over a}$, take an indented sector:
 
 ![](figures/2021-12-22_05-25-35.png)
 
-Use that the integral rotates by $e^{2\pi i\over a}$.
+Set $\zeta_a \da e^{2\pi i \over a}$.
+Contributions from the contours: let $\gamma_1$ be the contour along $\RR$ and $\gamma_2$ along $\zeta_a \RR$, oriented so the overall contour is counterclockwise.
+Then $\int_{\gamma_1}f(z)\dz \to I$ for $f(z) \da {\log(z) \over 1+z^a}$, so compute the monodromy term: parameterize $\gamma_2 \da \ts{\zeta_a t \st t\in [\eps, R]}$, so
+\[
+\int_{\gamma_2}f(z) \dz 
+&=\int_R^\eps f(\zeta_a t) \zeta_a \dt \\
+&= -\zeta_a \int_\eps^R {\log(\zeta_a t) \over (\zeta_a t)^a + 1}\dt \\
+&= -\zeta_a \int_{\eps}^R {\log(z) + {2\pi i \over a} \over  t^a+1}\dt \\
+&\to -\zeta_a I - \zeta_a \int_0^\infty {1\over t^a + 1 }\dt
+.\]
+
+
 :::
 
 :::{.exercise title="$1/x\sqrt{x^2-1}$ "}
