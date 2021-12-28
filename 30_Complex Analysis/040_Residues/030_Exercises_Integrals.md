@@ -1496,7 +1496,6 @@ I
 
 ## Polynomial Branch Cuts
 
-
 :::{.exercise title="$1/\sqrt{x^2-1}$ "}
 \[
 I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
@@ -1506,7 +1505,6 @@ I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
 
 :::
 
-
 :::{.concept}
 \envlist
 
@@ -1514,9 +1512,7 @@ I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
 \[
 \Res_{z=\infty}f(z) = -{1\over 2\pi i}\oint_\Gamma f(z) \dz,\quad \Res_{z=\infty}f(z) = \Res_{z=0} -{1\over z^2}f\qty{1\over z}
 .\]
-
 :::
-
 
 :::{.solution}
 Write $f(z) = \sqrt{z^2-1} = \sqrt{(z+1)(z-1)}$.
@@ -1546,7 +1542,7 @@ These combine to contribute
 \qty{\int_{\gamma_1} + \int_{\gamma_2}}f = -2I'
 .\]
 
-Note -- we'll want the contour about infinity to be oriented counterclockwise with respect to $z=\infty$, so we should reverse the orientation of $\Gamma$ to get a total contribution to $2I$ instead.
+Note -- we'll want the contour to actually be positively oriented with respect to $z=\infty$, so we should reverse the orientation of $\Gamma$ to get a total contribution to $2I$ instead.
 
 The contribution from the small circles:
 parameterize the first as $-1 + R e^{2\pi i t}$, then
@@ -1558,7 +1554,7 @@ A similar bound works for the second circle using the parameterization $1+ Re^{2
 Contributions from residues: take the residue at infinity,
 \[
 \Res_{z=\infty}f(z) 
-&= \Res_{z=0}{-1\over z^2}f\qty{1\over z} \\
+&= \Res_{z=0}-{1\over z^2}f\qty{1\over z} \\
 &= \Res_{z=0} {-1\over z^2\sqrt{z^{-2} - 1 }} \\
 &= \Res_{z=0} {-1\over z\sqrt{1-z^2}} \\
 &= \lim_{z\to 0} {-1\over \sqrt{1-z^2}}\\
@@ -1574,8 +1570,6 @@ Putting this together
 \implies I &= {i\pi \over 2}
 .\]
 :::
-
-
 
 :::{.exercise title="$1/(x-a)\sqrt{1-x^2}$ "}
 \[
