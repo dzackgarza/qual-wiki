@@ -1497,12 +1497,37 @@ I
 ## Polynomial Branch Cuts
 
 
-:::{.exercise title="$\sqrt{x^2-1}$ "}
+:::{.exercise title="$1/\sqrt{x^2-1}$ "}
 \[
 I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
 .\]
 
+#completed
+
 :::
+
+
+:::{.solution}
+Write $f(z) = \sqrt{z^2-1} = \sqrt{(z+1)(z-1)}$.
+First note $f$ is even, so
+\[
+I = {1\over 2}I',\qquad I' \da \int_{-1}^1 {1\over \sqrt{z^2-1}} \dz
+.\]
+
+Each branch point $\pm 1$ introduces a monodromy factor of $\sqrt{e^{2i\pi}} = e^{i\pi} = -1$, which cancel provided loops are not able to encircle a single branch point. 
+So take the branch cut to be the slit $[-1, 1]$, forcing any loop to encircle neither or both of $\pm 1$ -- now use a dogbone contour around the slit and apply the residue theorem to the *exterior* region:
+
+
+![](figures/2021-12-28_00-31-24.png)
+
+The contribution from the top segment $\gamma_1$:
+\[
+\int_{\gamma_1}f(z)\dz \to \int_1^{-1} {1\over \sqrt{x^2-1}}\dx = -I'
+.\]
+
+
+:::
+
 
 
 :::{.exercise title="$1/(x-a)\sqrt{1-x^2}$ "}
