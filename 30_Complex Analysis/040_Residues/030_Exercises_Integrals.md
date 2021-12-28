@@ -979,79 +979,9 @@ I &= 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}} \\
 
 :::
 
-## Logarithmic Branch Cuts
+## Branch Cuts
 
-:::{.exercise title="$x^\alpha/(x+1)^2$"}
-\[
-I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx && 0 < \alpha < 2
-.\]
-
-#completed
-
-:::
-
-:::{.solution title="Keyhole contour"}
-Note the single pole of order 2 at $z=-1$, and also the branch singularity.
-Choose a branch cut of $\log$ by deleting $\theta=0$, and take a keyhole contour.
-
-![Keyhole contour](figures/2021-12-24_04-00-31.png)
-
-Write the contours as 
-
-- $\gamma_\eps = \ts{\eps e^{it} \st t\in[0+\eps, 2\pi - \eps]}$
-- $\gamma_+ = \ts{x+i\eps \st x\in [\eps, R]}$
-- $\gamma_R = \ts{Re^{it} \st t\in [0+\eps, 2\pi - \eps]}$
-- $\gamma_- = \ts{x-i\eps \st t\in [\eps, R]}$,
-
-all oriented so that the total curve $\Gamma$ is traversed counter-clockwise.
-
-The claim is that $\int_{\gamma_\eps} f, \int_{\gamma_R} f\to 0$, and $\int_{\gamma_+} f$ is a multiple of $\int{\gamma_-} f$. 
-For $z=x-i\eps$ on $\gamma_-$, we have
-\[
-\log(z) = \log(x-i\eps) = \ln\abs{x-i\eps} + i\Arg(x-i\eps)\convergesto{\eps\to 0} \ln\abs{x} + 2\pi i = e^{2\pi i}z
-,\]
-and 
-\[
-f(e^{2\pi i}z) = {(e^{2\pi i}z)^\alpha \over ((e^{2\pi i}z)^2+1)^2 } = e^{2\pi i\alpha } {z \over z^2+1} = e^{2\pi i\alpha}f(z)
-.\]
-Thus
-\[
-\int_{\gamma_-} f(z)\dz 
-&\too \int_R^\eps f(e^{2\pi i }z)\dz \\
-&= \int_R^\eps e^{2\pi i \alpha}f(z)\dz \\
-&= -e^{2\pi i \alpha}\int_\eps^R f(z)\dz \\
-&= -e^{2\pi i\alpha}\int_{\gamma_+}f(z)\dz
-.\]
-
-Thus in the limit,
-\[
-2\pi i \sum_{z_k\in \CC\sm\RR_{\geq 0}} \Res_{z=z_k}f(z) 
-&= \int_\Gamma f(z)\dz \\
-&= \int_{\gamma_+}f(z)\dz + \int_{\gamma_-}f(z)\dz \\
-&= (1-e^{2\pi i\alpha})\int_{\gamma_+}f(z)\dz \\
-&= (1-e^{2\pi i\alpha})\int_{\RR}f(z)\dz \\
-.\]
-
-Computing the residue at $z_0 = -1$:
-\[
-\Res_{z=-1}f(z) 
-&= \lim_{z\to -1} \dd{}{z} (z+1)^2 f(z) \\
-&= \lim_{z\to -1} \dd{}{z} z^\alpha \\
-&= \alpha (-1)^{\alpha - 1} \\
-&= \alpha e^{i\pi(\alpha - 1)} \\
-&= -\alpha e^{i\pi \alpha}
-.\]
-Thus
-\[
-\int_\RR f(z) \dz 
-&= 2\pi i \cdot {-\alpha e^{i\pi \alpha}\over 1 - e^{2\pi i \alpha}} \\
-&=-2\pi i \alpha {1\over e^{-i\pi\alpha} (1- e^{2\pi i \alpha})} \\
-&=-2\pi i \alpha {1\over e^{-i\pi\alpha} - e^{i\pi\alpha}} \\
-&=2\pi i \alpha {1\over e^{-i\pi\alpha} - e^{-i\pi\alpha}} \\
-&= \pi \alpha \csc(\pi\alpha)
-.\]
-
-:::
+### Logarithms
 
 :::{.exercise title="$\log(x)/1+x^2$"}
 \[
@@ -1283,108 +1213,6 @@ In the limit, by the residue theorem we have
 .\]
 :::
 
-:::{.exercise title="$x^? / 1+x^2$"}
-\[
-I\da \int_0^\infty {x^{1\over 3} \over 1 + x^2} \dx = {\pi \over \sqrt 3}
-.\]
-
-#completed
-
-:::
-
-:::{.solution title="Semicircle monodromy"}
-Write $f(z) \da {z^{1\over 3}\over z^2+1}$, the claim is that an indented semicircular contour will work:
-
-![](figures/2021-12-26_20-04-14.png)
-
-Why:
-after parameterizing $C_R$, the integrand is approximately $R\cdot R^{1\over 3}/ R^2 \sim R^{{4\over 3} - 2} = R{-{2\over 3}}$, which goes to zero as $R\to \infty$.
-Similarly, on $C_\eps$, the integrand is approximately $\eps^{4\over 3}/(\eps^2+1)$, which goes to zero as $\eps\to 0$.
-
-Note the poles at $z=\pm i$.
-Computing the residue contribution at $z=i$:
-\[
-\Res_{z=i} f(z) &= {i^{1\over 3} \over 2i} = {1\over 2e^{i\pi \over 3}}
-.\]
-
-Computing the contribution from the integrals: let $\gamma_1$ be the contour along $\RR_{\geq \eps}$, and $\gamma_2$ along $\RR_{\leq \eps}$.
-Noting that $I = \int_{\gamma_1}f(z)\dz$,
-\[
-\int_{\gamma_2}f(z)\dz 
-&= \int_{-R}^{-\eps} { t^{1\over 3} \over t^2 +1 } \dt \\
-&= -\int_R^\eps {(-x)^{1\over 3} \over x^2+1}\dx \qquad x=-t,\, \dx = -\dt \\
-&= \int_\eps^R {(\zeta_2 x)^{1\over 3} \over x^2+1}\dx \\
-&= \zeta_2^{1\over 3} I \\
-&= e^{i\pi\over 3}I
-,\]
-so $\qty{\int_{\gamma_1} + \int_{\gamma_2}} f$ contributes $(1+e^{i\pi \over 3})I$.
-By the residue theorem,
-\[
-2\pi i \cdot
-{1\over 2e^{i\pi \over 3} }
-&=
-(1+e^{i\pi \over 3})I \\ \\
-\implies
-I 
-&= {i\pi \over 2e^{i\pi \over 3} (1+e^{i\pi \over 3}) } \\
-&= {i\pi \over 2} \qty{ e^{i\pi \over 3} + e^{2i\pi \over 3} }\inv \\
-&= {i\pi \over 2} \qty{ e^{i\omega} + e^{2i\omega} }\inv,\qquad \omega={\pi\over 3} \\
-&= {i\pi \over 2} \qty{ e^{3i\omega\over 2} \qty{ e^{-i\omega\over 2} + e^{i\omega\over 2}} }\inv \\
-&= i\pi e^{-3i\omega\over 2}{1\over \cos\qty{\omega\over 2}} \\
-&= i\pi e^{-i\pi\over 2 }{1\over \cos\qty{\pi \over 6}} \\
-&= {\pi \over \sqrt{3}}
-,\]
-where we've used the "exponential balancing trick" (see complex arithmetic section).
-:::
-
-:::{.solution title="Keyhole monodromy"}
-For the same reasons as in the semicircular solution, a keyhole will work:
-
-![figures/2021-07-29_18-51-17.png](figures/2021-07-29_18-51-17.png)
-
-The contributions from $C_2$: 
-\[
-\int_{C_2}f(z) \dz 
-&= \int_R^\eps { (t-i\eps)^{1\over 3} \over (t-i\eps)^2 + 1 }\dt \\
-&= - \int^R_\eps { e^{{1\over 3}\qty{\ln\abs{t-i\eps} + i\Arg(t-i\eps) } } \over (t-i\eps)^2 + 1 }\dt \\
-&\to - \int^R_\eps { e^{{1\over 3}\qty{\ln\abs{t} + 2\pi i } } \over t^2 + 1 }\dt \\
-&= -\int_\eps^R { e^{2\pi i \over 3} t^{1\over 3} \over t^2 + 1}\dt \\
-&= - \zeta_3 I
-,\]
-so the contributions from the contours sums to $(1-\zeta_3 I)$.
-
-The contributions from residues:
-\[
-\Res_{z=\pm i} f(z)
-&= { (\pm i)^{1\over 3} \over \pm 2i} \cdot \\ 
-&= { (e^{k\pi \over 2})^{1\over 3} \over \pm 2i},\qquad k=1,3\\ 
-&= { e^{k\pi \over 6} \over \pm 2i} \\
-&=
-\begin{cases}
- { e^{\pi\over 6} \over 2i} &  z=i
-\\
- {e^{3\pi \over 6} \over -2i} = -{1\over 2} & z=-i.
-\end{cases}
-.\]
-So the contribution from the residue theorem is
-\[
-2\pi i\qty{ {e^{\pi\over 6} \over 2i} - {i\over 2i} } = \pi\qty{e^{\pi\over 6} - 1}
-.\]
-
-Solving for the integral:
-\[
-I 
-&= {\pi (e^{\pi \over 6} - i) \over 1 - e^{2i\pi \over 3}} \\
-&=\pi { e^{i\omega} - e^{3i\omega} \over e^{0i\omega} - e^{4i\omega}},\qquad \omega = {\pi\over 6} \\
-&= \pi {e^{2i\omega} \qty{e^{-i\omega} - e^{i\omega} } \over e^{2i\omega}\qty{e^{-2i\omega} - e^{2i\omega} } } \\
-&= \pi {-2i\sin(\omega) \over -2i\sin(2\omega)} \\
-&= \pi {\sin\qty{\pi\over 6} \over \sin\qty{\pi\over 3}} \\
-&= \pi{ 1/2\over \sqrt{3}/2}\\
-&= {\pi \over \sqrt 3} 
-.\]
-
-:::
-
 :::{.exercise title="$\log(z)/1+z^a$"}
 \[
 I\da \int_0^\infty {\log(x) \over 1+x^a}\dx 
@@ -1495,7 +1323,184 @@ I
 
 :::
 
-## Slits 
+### Power Functions
+
+:::{.exercise title="$x^\alpha/(x+1)^2$"}
+\[
+I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx && 0 < \alpha < 2
+.\]
+
+#completed
+
+:::
+
+:::{.solution title="Keyhole contour"}
+Note the single pole of order 2 at $z=-1$, and also the branch singularity.
+Choose a branch cut of $\log$ by deleting $\theta=0$, and take a keyhole contour.
+
+![Keyhole contour](figures/2021-12-24_04-00-31.png)
+
+Write the contours as 
+
+- $\gamma_\eps = \ts{\eps e^{it} \st t\in[0+\eps, 2\pi - \eps]}$
+- $\gamma_+ = \ts{x+i\eps \st x\in [\eps, R]}$
+- $\gamma_R = \ts{Re^{it} \st t\in [0+\eps, 2\pi - \eps]}$
+- $\gamma_- = \ts{x-i\eps \st t\in [\eps, R]}$,
+
+all oriented so that the total curve $\Gamma$ is traversed counter-clockwise.
+
+The claim is that $\int_{\gamma_\eps} f, \int_{\gamma_R} f\to 0$, and $\int_{\gamma_+} f$ is a multiple of $\int{\gamma_-} f$. 
+For $z=x-i\eps$ on $\gamma_-$, we have
+\[
+\log(z) = \log(x-i\eps) = \ln\abs{x-i\eps} + i\Arg(x-i\eps)\convergesto{\eps\to 0} \ln\abs{x} + 2\pi i = e^{2\pi i}z
+,\]
+and 
+\[
+f(e^{2\pi i}z) = {(e^{2\pi i}z)^\alpha \over ((e^{2\pi i}z)^2+1)^2 } = e^{2\pi i\alpha } {z \over z^2+1} = e^{2\pi i\alpha}f(z)
+.\]
+Thus
+\[
+\int_{\gamma_-} f(z)\dz 
+&\too \int_R^\eps f(e^{2\pi i }z)\dz \\
+&= \int_R^\eps e^{2\pi i \alpha}f(z)\dz \\
+&= -e^{2\pi i \alpha}\int_\eps^R f(z)\dz \\
+&= -e^{2\pi i\alpha}\int_{\gamma_+}f(z)\dz
+.\]
+
+Thus in the limit,
+\[
+2\pi i \sum_{z_k\in \CC\sm\RR_{\geq 0}} \Res_{z=z_k}f(z) 
+&= \int_\Gamma f(z)\dz \\
+&= \int_{\gamma_+}f(z)\dz + \int_{\gamma_-}f(z)\dz \\
+&= (1-e^{2\pi i\alpha})\int_{\gamma_+}f(z)\dz \\
+&= (1-e^{2\pi i\alpha})\int_{\RR}f(z)\dz \\
+.\]
+
+Computing the residue at $z_0 = -1$:
+\[
+\Res_{z=-1}f(z) 
+&= \lim_{z\to -1} \dd{}{z} (z+1)^2 f(z) \\
+&= \lim_{z\to -1} \dd{}{z} z^\alpha \\
+&= \alpha (-1)^{\alpha - 1} \\
+&= \alpha e^{i\pi(\alpha - 1)} \\
+&= -\alpha e^{i\pi \alpha}
+.\]
+Thus
+\[
+\int_\RR f(z) \dz 
+&= 2\pi i \cdot {-\alpha e^{i\pi \alpha}\over 1 - e^{2\pi i \alpha}} \\
+&=-2\pi i \alpha {1\over e^{-i\pi\alpha} (1- e^{2\pi i \alpha})} \\
+&=-2\pi i \alpha {1\over e^{-i\pi\alpha} - e^{i\pi\alpha}} \\
+&=2\pi i \alpha {1\over e^{-i\pi\alpha} - e^{-i\pi\alpha}} \\
+&= \pi \alpha \csc(\pi\alpha)
+.\]
+
+:::
+
+:::{.exercise title="$x^? / 1+x^2$"}
+\[
+I\da \int_0^\infty {x^{1\over 3} \over 1 + x^2} \dx = {\pi \over \sqrt 3}
+.\]
+
+#completed
+
+:::
+
+:::{.solution title="Semicircle monodromy"}
+Write $f(z) \da {z^{1\over 3}\over z^2+1}$, the claim is that an indented semicircular contour will work:
+
+![](figures/2021-12-26_20-04-14.png)
+
+Why:
+after parameterizing $C_R$, the integrand is approximately $R\cdot R^{1\over 3}/ R^2 \sim R^{{4\over 3} - 2} = R{-{2\over 3}}$, which goes to zero as $R\to \infty$.
+Similarly, on $C_\eps$, the integrand is approximately $\eps^{4\over 3}/(\eps^2+1)$, which goes to zero as $\eps\to 0$.
+
+Note the poles at $z=\pm i$.
+Computing the residue contribution at $z=i$:
+\[
+\Res_{z=i} f(z) &= {i^{1\over 3} \over 2i} = {1\over 2e^{i\pi \over 3}}
+.\]
+
+Computing the contribution from the integrals: let $\gamma_1$ be the contour along $\RR_{\geq \eps}$, and $\gamma_2$ along $\RR_{\leq \eps}$.
+Noting that $I = \int_{\gamma_1}f(z)\dz$,
+\[
+\int_{\gamma_2}f(z)\dz 
+&= \int_{-R}^{-\eps} { t^{1\over 3} \over t^2 +1 } \dt \\
+&= -\int_R^\eps {(-x)^{1\over 3} \over x^2+1}\dx \qquad x=-t,\, \dx = -\dt \\
+&= \int_\eps^R {(\zeta_2 x)^{1\over 3} \over x^2+1}\dx \\
+&= \zeta_2^{1\over 3} I \\
+&= e^{i\pi\over 3}I
+,\]
+so $\qty{\int_{\gamma_1} + \int_{\gamma_2}} f$ contributes $(1+e^{i\pi \over 3})I$.
+By the residue theorem,
+\[
+2\pi i \cdot
+{1\over 2e^{i\pi \over 3} }
+&=
+(1+e^{i\pi \over 3})I \\ \\
+\implies
+I 
+&= {i\pi \over 2e^{i\pi \over 3} (1+e^{i\pi \over 3}) } \\
+&= {i\pi \over 2} \qty{ e^{i\pi \over 3} + e^{2i\pi \over 3} }\inv \\
+&= {i\pi \over 2} \qty{ e^{i\omega} + e^{2i\omega} }\inv,\qquad \omega={\pi\over 3} \\
+&= {i\pi \over 2} \qty{ e^{3i\omega\over 2} \qty{ e^{-i\omega\over 2} + e^{i\omega\over 2}} }\inv \\
+&= i\pi e^{-3i\omega\over 2}{1\over \cos\qty{\omega\over 2}} \\
+&= i\pi e^{-i\pi\over 2 }{1\over \cos\qty{\pi \over 6}} \\
+&= {\pi \over \sqrt{3}}
+,\]
+where we've used the "exponential balancing trick" (see complex arithmetic section).
+:::
+
+:::{.solution title="Keyhole monodromy"}
+For the same reasons as in the semicircular solution, a keyhole will work:
+
+![figures/2021-07-29_18-51-17.png](figures/2021-07-29_18-51-17.png)
+
+The contributions from $C_2$: 
+\[
+\int_{C_2}f(z) \dz 
+&= \int_R^\eps { (t-i\eps)^{1\over 3} \over (t-i\eps)^2 + 1 }\dt \\
+&= - \int^R_\eps { e^{{1\over 3}\qty{\ln\abs{t-i\eps} + i\Arg(t-i\eps) } } \over (t-i\eps)^2 + 1 }\dt \\
+&\to - \int^R_\eps { e^{{1\over 3}\qty{\ln\abs{t} + 2\pi i } } \over t^2 + 1 }\dt \\
+&= -\int_\eps^R { e^{2\pi i \over 3} t^{1\over 3} \over t^2 + 1}\dt \\
+&= - \zeta_3 I
+,\]
+so the contributions from the contours sums to $(1-\zeta_3 I)$.
+
+The contributions from residues:
+\[
+\Res_{z=\pm i} f(z)
+&= { (\pm i)^{1\over 3} \over \pm 2i} \cdot \\ 
+&= { (e^{k\pi \over 2})^{1\over 3} \over \pm 2i},\qquad k=1,3\\ 
+&= { e^{k\pi \over 6} \over \pm 2i} \\
+&=
+\begin{cases}
+ { e^{\pi\over 6} \over 2i} &  z=i
+\\
+ {e^{3\pi \over 6} \over -2i} = -{1\over 2} & z=-i.
+\end{cases}
+.\]
+So the contribution from the residue theorem is
+\[
+2\pi i\qty{ {e^{\pi\over 6} \over 2i} - {i\over 2i} } = \pi\qty{e^{\pi\over 6} - 1}
+.\]
+
+Solving for the integral:
+\[
+I 
+&= {\pi (e^{\pi \over 6} - i) \over 1 - e^{2i\pi \over 3}} \\
+&=\pi { e^{i\omega} - e^{3i\omega} \over e^{0i\omega} - e^{4i\omega}},\qquad \omega = {\pi\over 6} \\
+&= \pi {e^{2i\omega} \qty{e^{-i\omega} - e^{i\omega} } \over e^{2i\omega}\qty{e^{-2i\omega} - e^{2i\omega} } } \\
+&= \pi {-2i\sin(\omega) \over -2i\sin(2\omega)} \\
+&= \pi {\sin\qty{\pi\over 6} \over \sin\qty{\pi\over 3}} \\
+&= \pi{ 1/2\over \sqrt{3}/2}\\
+&= {\pi \over \sqrt 3} 
+.\]
+
+:::
+
+
+### Square Roots / Slits
 
 :::{.concept}
 \envlist
