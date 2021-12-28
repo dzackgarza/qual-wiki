@@ -1533,7 +1533,7 @@ a monodromy factor of $-1$ is introduced to $g(z)\da \sqrt{z}$ over a path that 
 The contribution from the small circles:
 parameterize the first as $-1 + R e^{2\pi i t}$, then
 \[
-\abs{ \int_{C_\eps^1}f(z)\dz} = \abs{\int_0^1 {2\pi i R e^{2\pi i t}\over \sqrt{ (-1 + R e^{2\pi i t} )^2 - 1 } } \dt} \leq 2\pi i R \int_0^1 \dt \convergesto{R\to 0} 0
+\abs{ \int_{C_\eps^1}f(z)\dz} = \abs{\int_0^1 {2\pi i R e^{2\pi i t}\over \sqrt{ (-1 + R e^{2\pi i t} )^2 - 1 } } \dt} \sim \int_0^1 {R\over \sqrt{R^2-1}} \dt \convergesto{R\to 0} 0
 .\]
 A similar bound works for the second circle using the parameterization $1+ Re^{2\pi i t}$.
 
