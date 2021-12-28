@@ -1504,7 +1504,51 @@ I
 \Res_{z=\infty}f(z) = -{1\over 2\pi i}\oint_\Gamma f(z) \dz,\quad \Res_{z=\infty}f(z) = \Res_{z=0} -{1\over z^2}f\qty{1\over z}
 .\]
 - Slits: for $f(z) = \sqrt{(z-z_1)(z-z_2)\cdots (z-z_n)}$, one needs to introduce slits that disallow winding around an odd number of the branch points $z_k$.
+  - Be sure to check to see if $z=\infty$ is a branch point!
 :::
+
+
+:::{.exercise title="$\sqrt{x^2-1}$ "}
+\[
+I\da \int_{-1}^1 \sqrt{x^2-1} \dx = {\pi \over 2}
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+Take a branch cut $[-1, 1]$ and $\Gamma$ the standard dogbone contour:
+
+![](figures/2021-12-28_01-50-50.png)
+
+Orient $\Gamma$ positively about *infinity*, i.e. counterclockwise.
+
+Contribution from $\gamma_1 \da\ts{t+i\eps \st t\in [-1, 1]}$, the upper horizontal piece:
+\[
+\int_{\gamma_1}f(z)\dz \to \int_{-1}^1 \sqrt{t^2-1} \dt = I
+.\]
+
+Contribution from $\gamma_2\da\ts{t-i\eps \st t\in [-1, 1]}$, the lower horizontal piece:
+note that following $e^{2\pi i t}z$ to $t=1$ sends $\sqrt{z}$ to $-\sqrt{z}$, so
+\[
+\int_{\gamma_2}f(z)\dz \to \int_{1}^{-1} - \sqrt{t^2-1} \dt = I
+.\]
+
+Contributions from the circles: use that $f(z) \da \sqrt{z^2-1}$ is a continuous function and these arcs are compact, so they are uniformly bounded.
+Thus $\int f\to 0$ by the ML estimate on these arcs.
+
+The total contribution:
+\[
+\qty{\int_{\gamma_1} + \int_{\gamma_2}} f = 2I
+.\]
+
+
+
+:::
+
+
 
 :::{.exercise title="$1/\sqrt{x^2-1}$ "}
 \[
