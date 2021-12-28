@@ -18,5 +18,6 @@
   "obsidian-emoji-toolbar",
   "obsidian-charts",
   "obsidian-chartsview-plugin",
-  "obsidian-tracker"
+  "obsidian-tracker",
+  "obsidian-pandoc"
 ]
