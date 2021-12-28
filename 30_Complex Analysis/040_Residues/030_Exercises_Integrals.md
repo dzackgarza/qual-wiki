@@ -1496,6 +1496,28 @@ I
 
 ## Polynomial Branch Cuts
 
+
+:::{.exercise title="$1/(x-a)\sqrt{1-x^2}$ "}
+\[
+I \da \int_{-1}^1 {1\over (x-a) \sqrt{1-x^2} }\dx = {\pi \over \sqrt{a^2-1}}
+.\]
+
+#completed
+
+:::
+
+
+:::{.solution}
+To motivate what contour to choose, note the simple pole at $z=a$, and consider the residue there:
+\[
+2\pi i \Res_{z=a} f(z) = 2\pi i \lim{z\to a} {1\over \sqrt{1-z^2}} = - {2\pi i \over \sqrt{1-a^2}} = {2\pi \over i\sqrt{1-a^2}} = {2\pi \over \sqrt{a^2-1}}
+.\]
+
+
+:::
+
+
+
 :::{.exercise title="$1/x\sqrt{x^2-1}$ "}
 \[
 \int_{1}^{\infty} \frac{d x}{x \sqrt{x^{2}-1}} = {\pi \over 2}
@@ -1528,20 +1550,26 @@ Write $\zeta_0 \da e^{2\pi i}$, then
 C_6 = \ts{\zeta_0 t + 1 - i\eps \st t\in [\eps, R]} \implies \\
 \int_{C_6} f(z)\dz 
 &\to \int_R^{\eps} (\zeta_0 t)\inv(\zeta_0 t + 2)^{-{1\over 2}}(\zeta_0 t)^{-{1\over 2}}\dt \\
-&\to -\zeta_0^{-{1 \over 2}} \int_0^\infty t\inv (t+2)^{-{1\over 2}} t^{-{1\over 2}}\dt \\
+&\to -\zeta_0^{-{3 \over 2}} \int_0^\infty t\inv (t+2)^{-{1\over 2}} t^{-{1\over 2}}\dt \\
 &= I
 ,\]
-since $-\zeta_0^{-{1\over 2}} \da -e^{-\pi i} = 1$.
+since $-\zeta_0^{-{3\over 2}} \da -e^{-3\pi i} = 1$.
 So in the limit $\eps\to 0, R\to\infty$,
 \[
 \qty{ \int_{C_8} + \int_{C_6}}f \too 2I
 .\]
 
 The contribution from $C_2$:
-note that
+parameterize
+\[
+C_2 = \ts{s + i\eps \st x\in [-R, -1-\eps]}
+,\]
+which implies
 \[
 \int_{C_2}f(z)\dz 
-&= \int_\infty^1{1\over (-x) \sqrt{ (-x)^2 - 1} }\dx \\
+&= \int_{-\infty}^{-1} {1\over s\sqrt{s^2-1}}\ds \\
+&= - \int_{\infty}^{1} {1\over (-x) \sqrt{(-x)^2-1}}\dx,\qquad x=-s,\, \dx = -\ds \\
+&= \int_\infty^1 {1\over (-x) \sqrt{ (-x)^2 - 1} }\dx \\
 &= - \int_\infty^1 {1\over x \sqrt{ x^2 - 1} }\dx \\
 &= \int_1^\infty {1\over x \sqrt{ x^2 - 1} }\dx \\
 &= I
