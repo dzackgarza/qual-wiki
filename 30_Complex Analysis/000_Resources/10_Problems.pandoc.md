@@ -5,7 +5,7 @@
 [30_Complex Analysis/010_Basics/999_Basics_Exercises \>
 Exercises]{.internal-embed
 alt="30_Complex Analysis/010_Basics/999_Basics_Exercises > Exercises"
-src="30_Complex Analysis/010_Basics/999_Basics_Exercises#Exercises"}
+src="30_Complex Analysis/010_Basics/999_Basics_Exercises.html#Exercises"}
 
 # Exercises: Integrals {#exercises-integrals heading="Exercises: Integrals"}
 

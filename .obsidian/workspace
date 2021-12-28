@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/000_Resources/10_Problems.pandoc.md",
-            "mode": "preview"
+            "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+            "mode": "source"
           }
         }
       }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.pandoc.md",
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.pandoc.md"
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.pandoc.md",
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.pandoc.md",
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -255,8 +255,8 @@
   },
   "active": "6812191371727805",
   "lastOpenFiles": [
-    "30_Complex Analysis/000_Resources/10_Problems.pandoc.md",
     "30_Complex Analysis/000_Resources/10_Problems.md",
+    "30_Complex Analysis/000_Resources/10_Problems.pandoc.md",
     "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
     "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
     "30_Complex Analysis/010_Basics/001_Precalculus.md",
