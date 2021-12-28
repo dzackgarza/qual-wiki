@@ -1518,12 +1518,25 @@ Each branch point $\pm 1$ introduces a monodromy factor of $\sqrt{e^{2i\pi}} = e
 So take the branch cut to be the slit $[-1, 1]$, forcing any loop to encircle neither or both of $\pm 1$ -- now use a dogbone contour around the slit and apply the residue theorem to the *exterior* region:
 
 
-![](figures/2021-12-28_00-31-24.png)
+![](figures/2021-12-28_00-37-42.png)
 
 The contribution from the top segment $\gamma_1$:
 \[
 \int_{\gamma_1}f(z)\dz \to \int_1^{-1} {1\over \sqrt{x^2-1}}\dx = -I'
 .\]
+The contribution from the bottom segment $\gamma_2$:
+a monodromy factor of $-1$ is introduced to $g(z)\da \sqrt{z}$ over a path that traces an angle of $2\pi$, so
+\[
+\int_{\gamma_2}f(z)\dz = \int_{-1}^1 {1\over -\sqrt{x^2-1}} = -I'
+.\]
+
+The contribution from the small circles:
+parameterize the first as $-1 + R e^{2\pi i t}$, then
+\[
+\abs{ \int_{C_\eps^1}f(z)\dz} = \abs{\int_0^1 {2\pi i R e^{2\pi i t}\over \sqrt{ (-1 + R e^{2\pi i t} )^2 - 1 } } \dt} \leq 2\pi i R \int_0^1 \dt \convergesto{R\to 0} 0
+.\]
+A similar bound works for the second circle using the parameterization $1+ Re^{2\pi i t}$.
+
 
 
 :::
