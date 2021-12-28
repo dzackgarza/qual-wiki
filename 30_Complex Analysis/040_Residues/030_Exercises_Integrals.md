@@ -1505,6 +1505,9 @@ I
 .\]
 - Slits: for $f(z) = \sqrt{(z-z_1)(z-z_2)\cdots (z-z_n)}$, one needs to introduce slits that disallow winding around an odd number of the branch points $z_k$.
   - Be sure to check to see if $z=\infty$ is a branch point!
+- A standard argument: for $f(z) = \sqrt{z}$, take a path $\gamma(t) = e^{2\pi i t}$ for $t\in [0, 1]$.
+  Then $f(\gamma(0)) = f(z)$ and $f(\gamma(1)) = \sqrt{e^{2\pi i} z} = e^{i\pi}\sqrt{z} = -\sqrt{z}$, so the monodromy/phase factor introduced by square roots is $-1$.
+
 :::
 
 :::{.exercise title="$\sqrt{x^2-1}$ "}
