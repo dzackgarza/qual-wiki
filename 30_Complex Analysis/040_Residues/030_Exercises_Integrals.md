@@ -1507,7 +1507,6 @@ I
   - Be sure to check to see if $z=\infty$ is a branch point!
 :::
 
-
 :::{.exercise title="$\sqrt{x^2-1}$ "}
 \[
 I\da \int_{-1}^1 \sqrt{1-x^2} \dx = {\pi \over 2}
@@ -1517,8 +1516,7 @@ I\da \int_{-1}^1 \sqrt{1-x^2} \dx = {\pi \over 2}
 
 :::
 
-
-:::{.solution}
+:::{.solution title="Dogbone and residue at $\infty$"}
 Take a branch cut $[-1, 1]$ and $\Gamma$ the standard dogbone contour:
 
 ![](figures/2021-12-28_01-50-50.png)
@@ -1558,11 +1556,7 @@ thus
 \[
 2\pi i \cdot -{i\over 2} = 2I \implies I = {\pi \over 2}
 .\]
-
-
 :::
-
-
 
 :::{.exercise title="$1/\sqrt{x^2-1}$ "}
 \[
