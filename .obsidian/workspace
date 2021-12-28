@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#complete",
+                "query": ".exercise",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3ce32054145f32a1",
@@ -133,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.49999809265137
+    "width": 723.0074996948242
   },
   "right": {
     "id": "a1502ca3cb933e96",
