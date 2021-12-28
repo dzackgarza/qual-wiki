@@ -1636,11 +1636,10 @@ I \da \int_{-1}^1 {1\over (x-a) \sqrt{1-x^2} }\dx = {\pi \over \sqrt{a^2-1}}
 
 :::
 
-
-:::{.solution}
+:::{.solution title="T-bone"}
 Note the simple pole at $x=a$ and the branch points $x=\pm 1$, coming from factoring $\sqrt{1-z^2} = \sqrt{(1-z)(1+z)}$.
 The standard dog bone contour will work, but will involve a residue at $z=a$ and at $z=\infty$.
-Instead of taking the usual branch cut $[-1, 1]$, take instead $(-\infty, -1] \union [1, \infty)$ and the following contour (noting that it is oriented *negatively*):
+Instead of taking the usual branch cut $[-1, 1]$, take instead $(-\infty, -1] \union [1, \infty)$ and the following T-bone contour (noting that it is oriented *negatively*):
 
 ![](figures/2021-12-28_02-47-45.png)
 
@@ -1648,7 +1647,11 @@ Note that in the limit, the two vertical pieces cancel since there is no phase i
 Also note that $\int_{\gamma_1}f(z)\dz \to I$.
 
 Let $\gamma_2$ be the bottom horizontal segment.
-As in the arguments for the standard bone contour, $\int_{\gamma_2}f(z)\dz = -\int_{\gamma_1} -f(z)\dz = I$, so 
+As in the arguments for the standard bone contour, 
+\[
+\int_{\gamma_2}f(z)\dz = -\int_{\gamma_1} -f(z)\dz = I
+,\]
+so 
 \[
 \qty{\int_{\gamma_1} + \int_{\gamma_2} }f \to 2I
 .\]
@@ -1664,13 +1667,7 @@ so
 {2\pi \over \sqrt{a^2-1}} = 2I \implies I = {\pi \over \sqrt{a^2-1}}
 .\]
 
-
-
-
-
 :::
-
-
 
 :::{.exercise title="$1/x\sqrt{x^2-1}$ "}
 \[
