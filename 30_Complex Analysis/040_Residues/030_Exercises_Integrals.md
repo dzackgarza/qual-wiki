@@ -1730,7 +1730,7 @@ so the same argument as above shows
 \qty{ \int_{C_2} + \int_{C_4}}f \too 2I
 .\]
 
-Computing the residues: the full contour encloses  simple pole at $z=0$, so
+Computing the residues: the full contour encloses a simple pole at $z=0$, so
 \[
 2\pi i \Res_{z=0} f(z) = 2\pi i \lim_{z\to 0} {1\over \sqrt{z^2-1}} = 2\pi \cdot (-i) = 2\pi
 .\]
@@ -1817,9 +1817,5 @@ I
 ,\]
 noting that we've chosen a branch of $\log(z) \da \ln\qty{\abs{z}} + i\Arg(z)$ where $\Arg(z) \in (0, 2\pi)$.
 :::
-
-
-
-
 
 
