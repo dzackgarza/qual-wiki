@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "10_Problems",
+      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
+    },
+    {
+      "basename": "999_Basics_Exercises",
+      "path": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
+    },
+    {
+      "basename": "005_Calculus_Preliminaries",
+      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
+    },
+    {
+      "basename": "001_Precalculus",
+      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
+    },
+    {
+      "basename": "20_Solutions",
+      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
+    },
+    {
       "basename": "025 Residues for integrals",
       "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
     },
@@ -15,10 +35,6 @@
     {
       "basename": "00_Topics",
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
     },
     {
       "basename": "240_Fixed_Points_and_Degree",
@@ -39,10 +55,6 @@
     {
       "basename": "030 Identity Principle",
       "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
-    },
-    {
-      "basename": "10_Problems",
-      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
     {
       "basename": "scratch",
@@ -187,18 +199,6 @@
     {
       "basename": "007 CR and Holomorphy",
       "path": "30_Complex Analysis/999_Quals/007 CR and Holomorphy.md"
-    },
-    {
-      "basename": "035_Cauchy Theorem",
-      "path": "30_Complex Analysis/999_Quals/035_Cauchy Theorem.md"
-    },
-    {
-      "basename": "011_Complex Geometry",
-      "path": "30_Complex Analysis/999_Quals/011_Complex Geometry.md"
-    },
-    {
-      "basename": "300_Riemann Mapping, Casorati",
-      "path": "30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati.md"
     }
   ],
   "omittedPaths": [],
