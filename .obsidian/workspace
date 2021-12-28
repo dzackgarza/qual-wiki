@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+            "file": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+                "file": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md"
+                "file": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+                "file": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+                "file": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -255,15 +255,15 @@
   },
   "active": "6812191371727805",
   "lastOpenFiles": [
+    "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
+    "30_Complex Analysis/010_Basics/001_Precalculus.md",
+    "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/000_Resources/10_Problems.md",
     "30_Complex Analysis/000_Resources/10_Problems.pandoc.md",
     "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
-    "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
-    "30_Complex Analysis/010_Basics/001_Precalculus.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
     "30_Complex Analysis/040_Residues/025 Residues for integrals.md",
     "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md",
-    "30_Complex Analysis/000_Resources/00_Books_Notes.md",
-    "30_Complex Analysis/000_Resources/00_Topics.md"
+    "30_Complex Analysis/000_Resources/00_Books_Notes.md"
   ]
 }

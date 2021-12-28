@@ -2,9 +2,9 @@
 
 ## Exercises
 
-![[30_Complex Analysis/010_Basics/999_Basics_Exercises#Exercises]]
+- [[30_Complex Analysis/010_Basics/999_Basics_Exercises#Exercises]]
 
-![[30_Complex Analysis/040_Residues/030_Exercises_Integrals]]
+- [[30_Complex Analysis/040_Residues/030_Exercises_Integrals]]
 
 ## UGA Courses
 	
@@ -23,6 +23,7 @@
 - [ ]  [[attachments/Azoff Problems by Topic.pdf]]
 
 - [ ]  [[30_Complex Analysis/999_Quals/000_Preface|UGA Qual Problems]]
+
 - [ ]  [Problem sheet from Cambridge Part 1B](https://dec41.user.srcf.net/notes/IB_L/complex_methods_eg.pdf)
     
 ## Misc

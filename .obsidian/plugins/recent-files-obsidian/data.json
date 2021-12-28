@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "005_Calculus_Preliminaries",
+      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
+    },
+    {
+      "basename": "001_Precalculus",
+      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
+    },
+    {
+      "basename": "000_Tips_Techs",
+      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
       "basename": "10_Problems",
       "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
@@ -11,14 +23,6 @@
     {
       "basename": "999_Basics_Exercises",
       "path": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
-    },
-    {
-      "basename": "005_Calculus_Preliminaries",
-      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
-    },
-    {
-      "basename": "001_Precalculus",
-      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
     },
     {
       "basename": "20_Solutions",
@@ -63,10 +67,6 @@
     {
       "basename": "scratch",
       "path": "scratch.md"
-    },
-    {
-      "basename": "000_Tips_Techs",
-      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
     {
       "basename": "010_Algebra",
