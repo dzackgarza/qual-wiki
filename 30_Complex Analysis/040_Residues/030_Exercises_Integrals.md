@@ -1494,16 +1494,7 @@ I
 
 :::
 
-## Polynomial Branch Cuts
-
-:::{.exercise title="$1/\sqrt{x^2-1}$ "}
-\[
-I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
-.\]
-
-#completed
-
-:::
+## Slits 
 
 :::{.concept}
 \envlist
@@ -1512,6 +1503,16 @@ I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
 \[
 \Res_{z=\infty}f(z) = -{1\over 2\pi i}\oint_\Gamma f(z) \dz,\quad \Res_{z=\infty}f(z) = \Res_{z=0} -{1\over z^2}f\qty{1\over z}
 .\]
+- Slits: for $f(z) = \sqrt{(z-z_1)(z-z_2)\cdots (z-z_n)}$, one needs to introduce slits that disallow winding around an odd number of the branch points $z_k$.
+:::
+
+:::{.exercise title="$1/\sqrt{x^2-1}$ "}
+\[
+I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
+.\]
+
+#completed
+
 :::
 
 :::{.solution}
@@ -1582,26 +1583,7 @@ I \da \int_{-1}^1 {1\over (x-a) \sqrt{1-x^2} }\dx = {\pi \over \sqrt{a^2-1}}
 
 
 :::{.solution}
-To motivate what contour to choose, note the simple pole at $z=a$, and consider the residue there:
-\[
-2\pi i \Res_{z=a} f(z) = 2\pi i \lim{z\to a} {1\over \sqrt{1-z^2}} = - {2\pi i \over \sqrt{1-a^2}} = {2\pi \over i\sqrt{1-a^2}} = {2\pi \over \sqrt{a^2-1}}
-,\]
-so look for a contour whose total contribution is $2I$.
-Choose a branch cut along $\RR_{\leq 0}$ for $\Log$ and define $(z^2-1)^{1\over 2} = e^{{1\over 2}\Log(z^2-1)}$, then $\sqrt{z^2-1}$ is well-defined provided we delete $[-1, 1]$.
-With this choice, the residue theorem can be applied to the following contour:
-
-![](figures/2021-12-27_19-46-31.png)
-
-Contributions from the horizontal segments: in the limit, the two upper segments fuse into a single segment, call it $\gamma_1$ and call the lower segment $\gamma_2$.
-Parameterize $\gamma_1 = \ts{t + i\eps \st t\in [-1, 1]}$, so
-\[
-\int_{\gamma_1}f(z) \dz 
-&= \int_{1}^{-1} {1\over (t-a) (1-(t-1)^2 )^{1\over 2} } \dt \\
-&= \int_{0}^2 {1\over (s-1-a) (1-s^2 )^{1\over 2}} \ds,\, s=t-1, \ds=\dt \\
-.\]
-
-
-
+Note the simple pole at $x=a$ and the branch points $x=\pm 1$, coming from factoring $\sqrt{1-z^2} = \sqrt{(1-z)(1+z)}$.
 
 
 :::
