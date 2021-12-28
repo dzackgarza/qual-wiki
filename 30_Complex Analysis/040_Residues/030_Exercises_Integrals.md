@@ -1508,7 +1508,7 @@ I
 :::{.solution}
 Write $f(z) \da (z^2-1)^{-{1\over 2}}/z$.
 In order for $(z^2-1)^{-{1\over 2}}$ to be well-defined, one needs to introduce a branch cut. 
-Note that $f$ has a simple pole at $z=0$ and is holomorphic away from $z=0$ **if** $z^2-1$ is not on the positive real axis, where we've chosen the branch cut $\theta = 0$ for $\Log(z)$ and define $z^{1\over 2} = e^{1\over 2\Log(z)}$.
+Note that $f$ has a simple pole at $z=0$ and is holomorphic away from $z=0$ **if** $z^2-1$ is not on the positive real axis, where we've chosen the branch cut $\theta = 0$ for $\Log(z)$ and define $z^{1\over 2} = e^{{1\over 2}\Log(z)}$.
 But $z^2-1 \in \RR_{\geq 0} \iff z\in [-1, 1]^c$, which is what we've cut.
 
 So take the branch cut $(-\infty, 1] \union [1, \infty)$ and use the following indented double-keyhole contour:
@@ -1532,14 +1532,34 @@ C_6 = \ts{\zeta_0 t + 1 - i\eps \st t\in [\eps, R]} \implies \\
 &= I
 ,\]
 since $-\zeta_0^{-{1\over 2}} \da -e^{-\pi i} = 1$.
-So 
+So in the limit $\eps\to 0, R\to\infty$,
 \[
-\qty{ \int_{C_8} + \int_{C_6}}f = 2I
+\qty{ \int_{C_8} + \int_{C_6}}f \too 2I
 .\]
 
+The contribution from $C_2$:
+note that
+\[
+\int_{C_2}f(z)\dz 
+&= \int_\infty^1{1\over (-x) \sqrt{ (-x)^2 - 1} }\dx \\
+&= - \int_\infty^1 {1\over x \sqrt{ x^2 - 1} }\dx \\
+&= \int_1^\infty {1\over x \sqrt{ x^2 - 1} }\dx \\
+&= I
+,\]
+so the same argument as above shows
+\[
+\qty{ \int_{C_2} + \int_{C_4}}f \too 2I
+.\]
 
+Computing the residues: the full contour encloses  simple pole at $z=0$, so
+\[
+2\pi i \Res_{z=0} f(z) = 2\pi i \lim_{z\to 0} {1\over \sqrt{z^2-1}} = 2\pi \cdot (-i) = 2\pi
+.\]
 
-
+So by the residue theorem,
+\[
+2\pi = 2I + 2I \implies I = {\pi \over 2}
+.\]
 :::
 
 :::{.exercise title="$1/x^2+3x+2$"}
