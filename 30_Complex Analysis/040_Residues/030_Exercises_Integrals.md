@@ -1507,6 +1507,17 @@ I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
 :::
 
 
+:::{.concept}
+\envlist
+
+- The residue at $\infty$: if $\Gamma$ is a positively oriented curve (counterclockwise about $z=0$), then
+\[
+\Res_{z=\infty}f(z) = -{1\over 2\pi i}\oint_\Gamma f(z) \dz,\quad \Res_{z=\infty}f(z) = \Res_{z=0} -{1\over z^2}f\qty{1\over z}
+.\]
+
+:::
+
+
 :::{.solution}
 Write $f(z) = \sqrt{z^2-1} = \sqrt{(z+1)(z-1)}$.
 First note $f$ is even, so
