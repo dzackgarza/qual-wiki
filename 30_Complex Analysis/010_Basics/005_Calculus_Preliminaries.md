@@ -39,13 +39,6 @@ The claim is that this makes $\ts{x_k}$ a Cauchy sequence, this follows from the
 .\]
 :::
 
-:::{.exercise title="?"}
-Show that if $f$ is a differentiable contraction, $f$ is uniformly continuous.
-
-#work
-
-:::
-
 :::{.theorem title="Implicit Function Theorem"}
 Suppose $f\in C^1(\RR^n, \RR^n)$, $f'(a)$ is an invertible linear map, and $b\da f(a)$.
 Then there exist neighborhoods $U\ni a, V\ni f(a)$ such that $f:U\to V$ is a bijection with an inverse $g:V\to U$ satisfying $g(f(x)) = x$ for all $x\in U$.
@@ -71,17 +64,11 @@ The version for holomorphic functions: if $f\in \Hol(\CC; \CC)$ with $f'(p)\neq 
 
 :::
 
-
-#work
-
-:::
-
 :::{.remark}
 Recall that absolutely convergent implies convergent, but not conversely: $\sum k\inv = \infty$ but $\sum (-1)^k k\inv < \infty$.
 This converges because the even (odd) partial sums are monotone increasing/decreasing respectively and in $(0, 1)$, so they converge to a finite number.
 Their difference converges to 0, and their common limit is the limit of the sum.
 :::
-
 
 ## Integrals
 
@@ -113,25 +100,6 @@ Some basic facts needed for line integrals in the plane:
 
 :::
 
-:::{.exercise title="Line integrals"}
-Compute $\int_\Gamma \Re(z) \dz$ for $\Gamma$ the unit square.
-:::
-
-:::{.solution}
-Write $\Gamma = \sum_{1\leq k \leq 4}\gamma_k$, starting at zero and traversing clockwise:
-
-![](figures/2021-12-19_03-22-20.png)
-
-Compute:
-
-- $\gamma_1$: parameterize to get $\int_0^1t1\dt = 1/2$.
-- $\gamma_2$: $\int_0^1 i \dt = i$
-- $\gamma_2$: $-\int_0^1 (1-t)\dt = -1/2$
-- $\gamma_2$: $- \int_0^1 0 \dt = 0$
-
-So $\int_\Gamma \Re(z) \dz = i$.
-
-:::
 
 ## Series and Sequences
 
@@ -184,17 +152,50 @@ Recall the **$p\dash$test**:
 .\]
 :::
 
-
 ## Function Convergence
 
 :::{.definition title="Locally uniform convergence"}
 A sequence of functions $f_n$ is said to converge **locally uniformly** on $\Omega \subseteq \CC$ iff $f_n\to f$ uniformly on every compact subset $K \subseteq \Omega$.
 :::
 
-:::{.exercise title="Uniform limit theorem"}
-A continuous function on a compact set is uniformly continuous.
-
 ## Exercises
+
+:::{.exercise title="Line integrals"}
+Compute $\int_\Gamma \Re(z) \dz$ for $\Gamma$ the unit square.
+
+#completed
+
+:::
+
+:::{.solution}
+Write $\Gamma = \sum_{1\leq k \leq 4}\gamma_k$, starting at zero and traversing clockwise:
+
+![](figures/2021-12-19_03-22-20.png)
+
+Compute:
+
+- $\gamma_1$: parameterize to get $\int_0^1t1\dt = 1/2$.
+- $\gamma_2$: $\int_0^1 i \dt = i$
+- $\gamma_2$: $-\int_0^1 (1-t)\dt = -1/2$
+- $\gamma_2$: $- \int_0^1 0 \dt = 0$
+
+So $\int_\Gamma \Re(z) \dz = i$.
+
+:::
+
+:::{.exercise title="?"}
+Show that if $f$ is a differentiable contraction, $f$ is uniformly continuous.
+
+#work
+
+:::
+
+:::{.exercise title="Uniform limit theorem"}
+Show that a continuous function on a compact set is uniformly continuous.
+
+#work
+
+:::
 
 :::{.exercise title="?"}
 Show that a uniform limit of continuous functions is continuous, and a uniform limit of uniformly continuous functions is uniformly continuous.
@@ -297,6 +298,4 @@ Show that if $f_n\to f$ uniformly then $\int_\gamma f_n\to \int_\gamma f$.
 .\]
 
 :::
-
-
 

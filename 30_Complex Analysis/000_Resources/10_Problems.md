@@ -2,6 +2,7 @@
 
 ## Exercises
 
+- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries#Exercises]]
 - [[30_Complex Analysis/010_Basics/999_Basics_Exercises#Exercises]]
 
 - [[30_Complex Analysis/040_Residues/030_Exercises_Integrals]]
