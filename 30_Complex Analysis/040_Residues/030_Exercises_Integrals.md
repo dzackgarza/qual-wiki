@@ -1497,12 +1497,20 @@ I
 ## Polynomial Branch Cuts
 
 
+:::{.exercise title="$\sqrt{x^2-1}$ "}
+\[
+I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
+.\]
+
+:::
+
+
 :::{.exercise title="$1/(x-a)\sqrt{1-x^2}$ "}
 \[
 I \da \int_{-1}^1 {1\over (x-a) \sqrt{1-x^2} }\dx = {\pi \over \sqrt{a^2-1}}
 .\]
 
-#completed
+#work
 
 :::
 
@@ -1511,7 +1519,23 @@ I \da \int_{-1}^1 {1\over (x-a) \sqrt{1-x^2} }\dx = {\pi \over \sqrt{a^2-1}}
 To motivate what contour to choose, note the simple pole at $z=a$, and consider the residue there:
 \[
 2\pi i \Res_{z=a} f(z) = 2\pi i \lim{z\to a} {1\over \sqrt{1-z^2}} = - {2\pi i \over \sqrt{1-a^2}} = {2\pi \over i\sqrt{1-a^2}} = {2\pi \over \sqrt{a^2-1}}
+,\]
+so look for a contour whose total contribution is $2I$.
+Choose a branch cut along $\RR_{\leq 0}$ for $\Log$ and define $(z^2-1)^{1\over 2} = e^{{1\over 2}\Log(z^2-1)}$, then $\sqrt{z^2-1}$ is well-defined provided we delete $[-1, 1]$.
+With this choice, the residue theorem can be applied to the following contour:
+
+![](figures/2021-12-27_19-46-31.png)
+
+Contributions from the horizontal segments: in the limit, the two upper segments fuse into a single segment, call it $\gamma_1$ and call the lower segment $\gamma_2$.
+Parameterize $\gamma_1 = \ts{t + i\eps \st t\in [-1, 1]}$, so
+\[
+\int_{\gamma_1}f(z) \dz 
+&= \int_{1}^{-1} {1\over (t-a) (1-(t-1)^2 )^{1\over 2} } \dt \\
+&= \int_{0}^2 {1\over (s-1-a) (1-s^2 )^{1\over 2}} \ds,\, s=t-1, \ds=\dt \\
 .\]
+
+
+
 
 
 :::
