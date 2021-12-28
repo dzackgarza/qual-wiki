@@ -1,9 +1,9 @@
 ---
 sort: 025
-title: Residues for Integrals
+title: Integral Exercises 
 ---
 
-# Exercises: Integrals
+# Integral Exercises 
 
 ## Rational Functions 
 
