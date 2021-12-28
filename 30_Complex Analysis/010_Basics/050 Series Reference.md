@@ -72,9 +72,11 @@ e^z &= \sum_{k\geq 0} {z^k \over k!} \\
   &= \sum_{n=k}^\infty (n)_k \, c_n z^{n-k} \\
   &= \sum_{n=k}^\infty n(n-1)\cdots(n-k+1) c_n z^{n-k} \\
 (1+z)^{1/2} 
-  &= \sum_{k\geq 0} {1/2 \choose k}z^k \\
+  &= \sum_{k\geq 0} {1/2 \choose k}z^k,\qquad \abs{z} < 1 \\
   &= 1 + (1/2)z + {(1/2)(-1/2) \over 2!}z^2 + {(1/2)(-1/2)(-3/2) \over 3!}z^3 + \cdots \\
-  &= 1 + {1\over 2}z - {1\over 8}z^2 + {1\over 16}z^3 - \cdots
+  &= 1 + {1\over 2}z - {1\over 8}z^2 + {1\over 16}z^3 - \cdots \\
+(1+z)^{\alpha} 
+  &= \sum_{k\geq 0} {\alpha \choose k}z^k,\qquad \abs{z} < 1
 \]
 
 Some other classes of series to remember:
