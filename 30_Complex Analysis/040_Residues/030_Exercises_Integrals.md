@@ -1629,13 +1629,19 @@ Putting this together
 I \da \int_{-1}^1 {1\over (x-a) \sqrt{1-x^2} }\dx = {\pi \over \sqrt{a^2-1}}
 .\]
 
-#work
+#completed
 
 :::
 
 
 :::{.solution}
 Note the simple pole at $x=a$ and the branch points $x=\pm 1$, coming from factoring $\sqrt{1-z^2} = \sqrt{(1-z)(1+z)}$.
+The standard dog bone contour will work, but will involve a residue at $z=a$ and at $z=\infty$.
+Instead of taking the usual branch cut $[-1, 1]$, take instead $(-\infty, -1] \union [1, \infty)$ and an "inverse" bone contour:
+
+
+![](figures/2021-12-28_02-45-44.png)
+
 
 
 :::
