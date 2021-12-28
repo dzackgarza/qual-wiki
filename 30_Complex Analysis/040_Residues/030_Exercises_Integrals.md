@@ -736,8 +736,8 @@ I
 :::{.exercise title="$\sin(x)/x$ and $\cos(x)/x$"}
 Compute
 \[
-I_1 \da \operatorname{PV}\int_\RR {\sin(x) \over x}\dx \\
-I_2 \da \operatorname{PV}\int_\RR {\cos(x) \over x}\dx 
+I_1 \da \operatorname{PV}\int_\RR {\sin(x) \over x}\dx = \pi \\
+I_2 \da \operatorname{PV}\int_\RR {\cos(x) \over x}\dx = 0 
 .\]
 
 #completed
@@ -758,7 +758,7 @@ I \da \PV \int_\RR f(z)\dz = 0 + i\pi \implies I_1 = \Im(I) = \pi, \quad I_2 = \
 
 :::{.exercise title="$xe^{2ix}/x^2-1$ "}
 \[
-I \da \int_\RR {xe^{2ix} \over x^2-1}\dx
+I \da \int_\RR {xe^{2ix} \over x^2-1}\dx = i\pi \cos(2)
 .\]
 
 #completed
@@ -785,9 +785,9 @@ Thus
 \[
 0 = \int_{C_2} f + \int_{C_4} f
 ,\]
-which converge to the fractional residues at $z=\pm 1$.
+which converges to the fractional residues at $z=\pm 1$.
 
-- For $z=-1$,
+For $z=-1$,
 \[
 \int_{C_2} 
 &\to \pi i \Res_{z=-1} f(z) \\\
@@ -802,7 +802,8 @@ For $z=-1$:
 &= \pi i \lim_{z\to 1} {e^{2iz} \over z+1} \\
 &= \pi i {e^{2i} \over 2}
 .\]
-So
+
+Putting it all together:
 \[
 I 
 &= \pi i {e^{-2i} \over 2} + \pi i {e^{2i}\over 2} \\
