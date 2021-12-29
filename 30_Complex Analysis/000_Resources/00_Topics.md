@@ -31,10 +31,10 @@
     - [[012 Cauchy Integral Formula|Cauchy's integral formula]], [[012_Cauchy Inequality|Cauchy's inequality]]
 
 - Week 3 (June 2): **Analytic Functions**
-	- Power series, convergence, Laurent expansions
-	- [[
+	- [[30_Complex Analysis/010_Basics/050 Series Reference|Power series and convergence]]
+	- [[30_Complex Analysis/010_Basics/051 Series Exercises|Laurent expansions]]
 	- [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity|Riemann's removable singularity theorem]]
-	- Singularities, poles, , meromorphic functions, isolated singularities
+	- Singularities, poles, meromorphic functions, isolated singularities
 
 - Week 4 (June 9): **Integration I**
 		- [[010_Cauchy_Theorem|Cauchy's theorem]] and [[050_Morera_Theorem|Morera's theorem]]
