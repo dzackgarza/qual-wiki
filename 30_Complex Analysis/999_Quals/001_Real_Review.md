@@ -4,7 +4,7 @@ order: 1
 
 # Real Analysis Review
 
-## Spring 2019.1 #work
+## Spring 2019.1 #work/qual
 
 ^0a8ca5
 
@@ -25,7 +25,7 @@ $$
 E(z)=\sum_{n=0}^{\infty} \frac{z^{n}}{n !}
 .\]
 
-## Recurrences #todo
+## Recurrences #work/qual
 
 :::{.problem title="?"}
 Let $x_0 = a, x_1 = b$, and set
@@ -130,7 +130,7 @@ x_n = {2\over 3}(a-b) \qty{-1\over 2}^n + {1\over 3}(a+b)\convergesto{n\to \inft
 .\]
 :::
 
-## Uniform continuity 
+## Uniform continuity #work/qual
 
 :::{.problem title="?"}
 Suppose $f:\RR\to\RR$ is continuous and $\lim_{x\to \pm \infty} f(x) = 0$.
@@ -166,7 +166,7 @@ In this case, use the triangle inequality:
 where we've used that $M, y\in (M, M)^c$ to apply the first bound and $M, x\in [M, M]$ to apply the second.
 :::
 
-## Negating uniform continuity #completed
+## Negating uniform continuity #completed/qual
 
 > Tie, Fall 2009
 
@@ -201,7 +201,7 @@ This contradicts that $\abs{z^2-w^2} < \eps = c < \infty$.
 :::
 
 
-## Non-continuously differentiable #completed
+## Non-continuously differentiable #completed/qual
 
 :::{.problem title="?"}
 Give an example of a function $f:\RR\to \RR$ that is everywhere differentiable but $f'$ is not continuous at 0.
@@ -241,7 +241,7 @@ But now notice that the $\cos\qty{1\over x}$ term in $f'$ isn't enveloped by an 
 In particular, $\lim_{x\to 0}f'(x) \neq f'(0) = 0$.
 :::
 
-## Uniformly convergent + uniformly continuous #completed
+## Uniformly convergent + uniformly continuous #completed/qual
 
 :::{.problem title="?"}
 Suppose $\theset{g_n}$ is a uniformly convergent sequence of functions from $\RR$ to $\RR$ and $f:\RR\to \RR$ is uniformly continuous.
@@ -272,7 +272,7 @@ Now writing $y_1 \da g_i(x), y_2 \da g_j(x)$, choose $i, j > N_0$ yields
 and taking the supremum over $x\in X$ preserves the inequality since $\delta_1$ and consequently $N_0$ only depend on $\eps$.
 :::
 
-## Uniform differentiability #completed
+## Uniform differentiability #completed/qual
 
 :::{.problem title="?"}
 Let $f$ be differentiable on $[a, b]$.
@@ -307,7 +307,7 @@ Then use continuity of $f'$ to choose $\delta = \delta(\eps, x, y)$ so that $\ab
 
 :::
 
-## Inf distance #completed
+## Inf distance #completed/qual
 
 :::{.problem title="?"}
 Suppose $A, B \subseteq \RR^n$ are disjoint and compact.
@@ -329,7 +329,7 @@ Then $d$ is a continuous function on a compact topological space (where the prod
 
 :::
 
-## Connectedness #completed
+## Connectedness #completed/qual
 
 :::{.problem title="?"}
 Suppose $A, B\subseteq \RR^n$ are connected and not disjoint.
@@ -344,7 +344,7 @@ On the intersection, for $x\in A \intersect B \neq \emptyset$, we have $f_1(x) =
 So $f_1$ and $f_2$ are constant functions that must map to the *same* constant, so $f$ is constant and this $A\union B$ is connected.
 :::
 
-## Pointwise and uniform convergence #completed
+## Pointwise and uniform convergence #completed/qual
 
 :::{.problem title="?"}
 Suppose $\theset{f_n}_{n\in \NN}$ is a sequence of continuous functions $f_n: [0, 1]\to \RR$ such that 
@@ -364,7 +364,7 @@ Then $n\geq N_0 \implies N\geq M_{x_i}$ for each $i$, so $\abs{f_n(x)} < \eps$ f
 So $\sup_{x\in X} \abs{f_n(x)} = \norm{f_n}_{\infty } < \eps$.
 :::
 
-## #work
+## #work/qual
 
 :::{.problem title="?"}
 Show that if $E\subset [0, 1]$ is uncountable, then there is some $t\in \RR$ such that $E\intersect (-\infty ,t)$ and $E\intersect (t, \infty)$ are also uncountable.
@@ -395,7 +395,7 @@ Claim: $S = (\sup S_-,, \inf S_+)$.
 
 
 
-## #work
+## #work/qual
 
 
 :::{.problem title="?"}
@@ -430,9 +430,11 @@ U(f, P) - L(f, P) < \eps \\
 
 ## Exercises
 
-
 :::{.problem title="Uniform continuity of $x^n$"}
 Show that $f(x) = x^n$ is uniformly continuous on any interval $[-M, M]$.
+
+#work/exercise
+
 :::
 
 :::{.solution}
@@ -443,6 +445,9 @@ Show that $f(x) = x^n$ is uniformly continuous on any interval $[-M, M]$.
 
 :::{.problem title="?"}
 Show $f(x) = x^{-n}$ for $n\in \ZZ_{\geq 0}$ is uniformly continuous on $[0, \infty)$.
+
+#work/exercise
+
 :::
 
 :::{.solution}
@@ -454,6 +459,9 @@ using $(a+b)^m \geq a^m + b^m$
 
 :::{.problem title="?"}
 Show that $f'$ bounded implies $f$ is uniformly continuous.
+
+#work/exercise
+
 :::
 
 :::{.solution}
@@ -466,8 +474,10 @@ Apply the MVT:
 
 :::{.problem title="?"}
 Show that the Dirichlet function $f(x) = \chi_{I \intersect \QQ}$ is not Riemann integrable and is everywhere discontinuous.
-:::
 
+#work/exercise
+
+:::
 
 :::{.solution}
 Check $\sup f = 1$ and $\inf f = 0$ on every sub-interval, so $L(f, P) = 0$ and $U(f, P) = 1$ for every partition $P$ of $[0, 1]$.
@@ -475,10 +485,4 @@ Check $\sup f = 1$ and $\inf f = 0$ on every sub-interval, so $L(f, P) = 0$ and 
 Discontinuity: #todo
 
 :::
-
-
-
-
-
-
 

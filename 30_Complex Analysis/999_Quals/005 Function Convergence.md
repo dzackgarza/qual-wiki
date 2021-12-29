@@ -4,7 +4,7 @@ order: 5
 
 # Function Convergence 
 
-## Spring 2019.7 #work
+## Spring 2019.7 #work/qual
 
 ^d94130
 
@@ -15,7 +15,7 @@ Let $\Omega \subset \CC$ be a connected open subset. Let $\left\{f_{n}: \Omega \
 has a limit point in $\Omega$. Show that $f_{n}$ converges to $f$ uniformly on compact subsets of $\Omega$.
 
 
-## Fall 2020.7 #work
+## Fall 2020.7 #work/qual
 
 ^4c605e
 
@@ -28,7 +28,7 @@ $$
 Suppose that for each $z \in \mathbb{D}, \lim _{n \rightarrow \infty} f_{n}(z)$ exists and equals to $g(z)$. Prove that either $g(z) \equiv 0$ or $g(z)=z$ for all $z \in D$.
 
 
-## Fall 2021.4 #completed
+## Fall 2021.4 #completed/qual
 
 ^b0c999
 
@@ -104,7 +104,7 @@ We can now apply the $M\dash$test:
 
 :::
 
-## Spring 2021.6, Spring 2015, Extras #completed
+## Spring 2021.6, Spring 2015, Extras #completed/qual
 
 ^c94b57
 
@@ -153,7 +153,7 @@ So given $\eps$, choose $n$ large enough to bound the integral as above by some 
 Taking $\sup$ of both sides yields $\norm{f_n - f}_{\infty, K} \leq {\eps\over 2\pi M}$, so $f_n\to f$ uniformly on $K$.
 :::
 
-## Spring 2020 HW 2, SS 2.6.10 #completed
+## Spring 2020 HW 2, SS 2.6.10 #completed/qual
 
 :::{.problem title="?"}
 Can every continuous function on $\bar \DD$ be uniformly approximated by polynomials in the variable $z$?
@@ -169,7 +169,7 @@ No: polynomials are holomorphic and the uniform limit of holomorphic functions i
 However, $f(z) \da \bar{z}$ is continuous on $\bar\DD$ but not holomorphic, so can not be uniformly approximated by any sequence of polynomials.
 :::
 
-## Spring 2020 HW 2.5 #completed
+## Spring 2020 HW 2.5 #completed/qual
 
 :::{.problem title="?"}
 Assume $f$ is continuous in the region $\theset{x+iy \suchthat x\geq x_0, ~ 0\leq y \leq b}$, and the following limit exists independent of $y$:
@@ -206,7 +206,7 @@ So now estimate the difference:
 using that $\length(\gamma_x) = b$ is constant.
 :::
 
-## Limiting curve variant #completed
+## Limiting curve variant #completed/qual
 
 :::{.problem title="?"}
 Let $0\leq \alpha \leq 2\pi$ be a fixed angle.
@@ -249,7 +249,7 @@ Now estimate the difference:
 
 :::
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/qual
 
 :::{.problem title="?"}
 Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region $\Omega$ that are uniformly bounded on compact subsets and $f \in H(\Omega)$ is such that the set
