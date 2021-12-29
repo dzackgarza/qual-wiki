@@ -31,8 +31,8 @@
     - [[012 Cauchy Integral Formula|Cauchy's integral formula]], [[012_Cauchy Inequality|Cauchy's inequality]]
 
 - Week 3 (June 2): **Analytic Functions**
-    - Power series, convergence, Laurent expansions
-    - Singularities, poles, [[Riemann's removable singularity theorem]], meromorphic functions, isolated singularities
+	- Power series, convergence, Laurent expansions
+	- Singularities, poles, [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity]], meromorphic functions, isolated singularities
 
 - Week 4 (June 9): **Integration I**
 		- [[010_Cauchy_Theorem|Cauchy's theorem]] and [[050_Morera_Theorem|Morera's theorem]]
@@ -57,8 +57,6 @@
 	- [[30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background#Linear Fractional Mobius Transformations|Mobius transformations and linear fractional transformations]]
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard#The Big 9 Conformal Maps|The big 9 standard maps]]
 	- [[30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]], 
-	- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem and unformization]]
-	- SL(2, R), the hyperbolic metric
 
 - Week 9 (July 14): **Schwarz lemma**
 	- [[30_Complex Analysis/999_Quals/200_Schwarz|Schwarz lemma]] 
@@ -72,3 +70,5 @@
 	- [[030 Identity Principle|The identity principle]]
 	- [[30_Complex Analysis/070_Omitted Values/050_Montel#Normal Families|Normal families]]
 	- [[30_Complex Analysis/070_Omitted Values/050_Montel|Montel's theorem]]
+	- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem and unformization]]
+	- SL(2, R), the hyperbolic metric
