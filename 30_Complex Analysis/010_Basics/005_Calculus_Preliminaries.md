@@ -88,6 +88,15 @@ In vector form,
 .\]
 :::
 
+:::{.theorem title="Stokes Theorem"}
+If $\Omega \subseteq \CC$ is bounded with $\bd \Omega$ piecewise smooth and $f, g\in C^1(\bar \Omega)$, then 
+$$\int_{\bd \Omega} f\, dx + g\, dy = \iint_{\Omega} \qty{ \dd{g}{x} - \dd{f}{y} } \, \dA.$$
+In vector form,
+\[
+\int_\gamma F\cdot \dr = \iint_R \curl F \dA
+.\]
+:::
+
 :::{.fact title="Partial Fraction Decomposition"}
 \envlist
 
