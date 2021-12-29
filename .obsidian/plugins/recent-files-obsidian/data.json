@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "005_Calculus_Preliminaries",
+      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
+    },
+    {
+      "basename": "001_Real_Review",
+      "path": "30_Complex Analysis/999_Quals/001_Real_Review.md"
+    },
+    {
       "basename": "999_Basics_Exercises",
       "path": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "050 Series Reference",
       "path": "30_Complex Analysis/010_Basics/050 Series Reference.md"
-    },
-    {
-      "basename": "005_Calculus_Preliminaries",
-      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
     },
     {
       "basename": "001_Precalculus",
@@ -167,10 +171,6 @@
     {
       "basename": "0010_Measure Theory",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0010_Measure Theory.md"
-    },
-    {
-      "basename": "001_Real_Review",
-      "path": "30_Complex Analysis/999_Quals/001_Real_Review.md"
     },
     {
       "basename": "0022_Fubini Tonelli",
