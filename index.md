@@ -12,8 +12,7 @@ Try some #problems (see also #work) and read #solutions, or help me  unsolved ex
 Try some problems! See the following tags:
 
 
-- #algebra/qual/completed 
-- #topology/qual/completed #topology/qual/work 
+-  
 - #real_analysis/qual/completed 
 - #complex/qual/completed 
 - #complex/exercise/completed 
@@ -21,18 +20,20 @@ Try some problems! See the following tags:
 Some indices into more content:
 
 - Algebra
-	- #algebra/qual/work 
+	- #algebra/qual/work #algebra/qual/completed 
 	- [[50_Solutions_Algebra]]
 	- [[00_Solutions|Ring Theory Solutions]]
 	- [[9960 UGA Problems|UGA Algebra Course PSets]]
 
 - Real Analysis
+	- 
 	- [[20_Real Analysis/000_Resources/20_Solutions|Real Analysis Solutions]]
 
 - Complex Analysis
 	- [[30_Complex Analysis/000_Resources/20_Solutions|Complex Analysis Solutions]]
 
 - Topology
+	- #topology/qual/completed #topology/qual/work 
 	- [[30_Solutions|Topology Solutions]]
 
 
