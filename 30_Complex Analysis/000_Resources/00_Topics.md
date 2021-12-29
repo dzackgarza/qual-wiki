@@ -23,16 +23,16 @@ Preliminary Review
     - Green's theorem, Stokes theorem
     - Complex plane, Riemann sphere
     - Blaschke factors
-- Week 2 (May 26): Differentiation and integration
+- Week 2 (May 26): **Differentiation and integration**
     - [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries]]
 	    - Implicit function theorem, inverse function theorem
     - [[130_The Cauchy-Riemann equations||Cauchy-Riemann]], the Laplace equation, [[125_Harmonic Functions|Harmonic functions]]
+    - Contours, parameterization, primitives
     - [[012 Cauchy Integral Formula|Cauchy's integral formula]], [[012_Cauchy Inequality|Cauchy's inequality]]
-- Week 3 (June 2): Analytic Functions
+- Week 3 (June 2): **Analytic Functions**
     - Power series, convergence, Laurent expansions
     - Singularities, poles, [[Riemann's removable singularity theorem]], meromorphic functions, isolated singularities
-- Week 4 (June 9): Integration I
-    - Contours, parameterization, primitives
+- Week 4 (June 9): **Integration I**
 		- [[010_Cauchy_Theorem|Cauchy's theorem]] and [[050_Morera_Theorem|Morera's theorem]]
 		- [[012 Cauchy Integral Formula|Cauchy's Integral Formula]]
 		- [[30_Complex Analysis/030_Zeros_and_Poles/040_MMP|Maximum Modulus Principle]]]
