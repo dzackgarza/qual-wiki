@@ -13,6 +13,7 @@ Try some problems! See the following tags:
 
 - #algebra/completed/qual 
 - #topology/completed/qual 
+- #real_analysis/completed/qual 
 
 Some indices into more content:
 
