@@ -52,9 +52,8 @@ Integration II
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 	- [[30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background#Linear Fractional Mobius Transformations|Mobius transformations and linear fractional transformations]]
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard#The Big 9 Conformal Maps|The big 9 standard maps]]
-		- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem]], 
 	- [[30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]], 
-	- Uniformization
+	- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem and unformization]]
 	- SL(2, R), the hyperbolic metric
 - Week 9 (July 14): **Schwarz lemma**
 	- [[30_Complex Analysis/999_Quals/200_Schwarz|Schwarz lemma]] 
