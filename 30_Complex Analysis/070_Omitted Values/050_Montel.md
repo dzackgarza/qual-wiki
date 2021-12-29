@@ -2,6 +2,8 @@
 
 #todo Clean up!
 
+## Equicontinuity
+
 :::{.definition title="Equicontinuous Family"}
 A family of functions $f_n$ is **equicontinuous** iff for every $\eps$ there exists a $\delta = \delta(\eps)$ (not depending on $n$ or $f_n$) such that 
 \[
@@ -20,24 +22,6 @@ Recall Arzelà-Ascoli, an analog of Heine-Borel: for $X$ compact Hausdorff, cons
 Then a subset $A \subseteq X$ is compact iff $A$ is closed, uniformly bounded, and equicontinuous.
 As a consequence, if $A$ is a sequence, it contains a subsequence converging uniformly to a continuous function.
 The proof is an $\eps/3$ argument.
-:::
-
-:::{.exercise title="?"}
-Show that if $\mcf$ is a family of differentiable functions with uniformly bounded derivatives, then $\mcf$ is equicontinuous.
-
-> Hint: apply the MVT.
-
-#work
-
-:::
-
-:::{.exercise title="?"}
-Give an example of a non-equicontinuous family.
-:::
-
-:::{.solution}
-Take $f_k(z) \da z^k$ on $[0, 1]$ -- fix any $z_0\in [0, 1)$, then $\abs{f_k(1) - f_k(x_0)} \converges{k\to\infty} 1$.
-
 :::
 
 :::{.definition title="Normal Family"}
@@ -104,6 +88,8 @@ Equicontinuity is uniform continuity, where the uniformity extends across all $f
 The following is a stark difference between holomorphic and smooth functions, and is used in the Riemann mapping theorem:
 :::
 
+## Montel's Theorem
+
 :::{.theorem title="Montel's theorem"}
 If $\mcf$ is a family of locally uniformly bounded holomorphic functions on $\Omega$, then
 
@@ -122,11 +108,16 @@ This says that a sequence of holomorphic functions avoiding the exterior of a di
 In particular, the limit is holomorphic.
 :::
 
-:::{.proposition title="Equicontinuity + pointwise convergence implies uniform convergence"}
-If $\ts{f_n}$ is equicontinuous on $K$ a compact set and $f_n\to f$ pointwise, then $f_n\to f$ uniformly.
+## Exercise
+
+:::{.exercise title="Equicontinuity + pointwise convergence implies uniform convergence"}
+Prove the following: if $\ts{f_n}$ is equicontinuous on $K$ a compact set and $f_n\to f$ pointwise, then $f_n\to f$ uniformly.
+
+#work/exercise
+
 :::
 
-:::{.proof title="?"}
+:::{.solution title="?"}
 Fix $\eps$, it suffices to find an $n= n(\eps)$ to bound $\norm{f_n - f}_{\infty, K } < \eps$.
 A standard $\eps/3$ argument works: write
 \[
@@ -138,5 +129,25 @@ This takes care of the 1st and 3rd terms.
 
 For the 2nd term, cover $K$ by $\delta\dash$balls and by compactness obtain a finite cover $B_{\delta}(y_k)\covers K$.
 Then $x\in B_\delta(y)$ for $y=y_j$ for some $j$, and in this ball use pointwise convergence of $f_n\to f$. 
+
 :::
 
+:::{.exercise title="?"}
+Show that if $\mcf$ is a family of differentiable functions with uniformly bounded derivatives, then $\mcf$ is equicontinuous.
+
+> Hint: apply the MVT.
+
+#work/exercise
+
+:::
+
+:::{.exercise title="?"}
+Give an example of a non-equicontinuous family.
+
+#completed/exercise
+
+:::
+
+:::{.solution}
+Take $f_k(z) \da z^k$ on $[0, 1]$ -- fix any $z_0\in [0, 1)$, then $\abs{f_k(1) - f_k(x_0)} \converges{k\to\infty} 1$.
+:::

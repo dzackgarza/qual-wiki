@@ -9,10 +9,12 @@ If $f$ is nonconstant and entire, it takes on every value in $\CC$ with at most 
 Equivalently, if $f$ omits 2 finite values, $f$ is constant.
 :::
 
+## Exercise
+
 :::{.exercise title="?"}
 Show that $\sin(z) = z$ has infinitely many solutions in $\CC$.
 
-#completed
+#completed/exercise
 
 :::
 
