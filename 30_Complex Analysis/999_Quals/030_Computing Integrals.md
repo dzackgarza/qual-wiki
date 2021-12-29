@@ -539,7 +539,7 @@ Evaluate
 Evaluate $$\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
 dx }.$$
 
-### Cosine over quadratic #completed
+### Cosine over quadratic #completed/exercise
 
 :::{.problem title="?"}
 Show that

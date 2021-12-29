@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "0000_Undergraduate Analysis",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
+    },
+    {
+      "basename": "0030_Convolution and Fourier Analysis",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0030_Convolution and Fourier Analysis.md"
+    },
+    {
+      "basename": "030_Computing Integrals",
+      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
+    },
+    {
       "basename": "005_Calculus_Preliminaries",
       "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
     },
@@ -129,10 +141,6 @@
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md"
     },
     {
-      "basename": "0000_Undergraduate Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
-    },
-    {
       "basename": "0000_Preface",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
     },
@@ -189,16 +197,8 @@
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
     {
-      "basename": "030_Computing Integrals",
-      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
-    },
-    {
       "basename": "070_Morera",
       "path": "30_Complex Analysis/999_Quals/070_Morera.md"
-    },
-    {
-      "basename": "010_Arithmetic and Inequalities",
-      "path": "30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities.md"
     }
   ],
   "omittedPaths": [],

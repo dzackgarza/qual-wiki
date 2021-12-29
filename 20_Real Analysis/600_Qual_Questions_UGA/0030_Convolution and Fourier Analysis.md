@@ -104,7 +104,7 @@ Now
 .\]
 :::
 
-## Spring 2020.6 #completed
+## Spring 2020.6 #completed/qual
 
 :::{.problem title="?"}
 \envlist
