@@ -89,12 +89,8 @@ In vector form,
 :::
 
 :::{.theorem title="Stokes Theorem"}
-If $\Omega \subseteq \CC$ is bounded with $\bd \Omega$ piecewise smooth and $f, g\in C^1(\bar \Omega)$, then 
-$$\int_{\bd \Omega} f\, dx + g\, dy = \iint_{\Omega} \qty{ \dd{g}{x} - \dd{f}{y} } \, \dA.$$
-In vector form,
-\[
-\int_\gamma F\cdot \dr = \iint_R \curl F \dA
-.\]
+Suppose $\omega \da f(z)\dz$ is a differential 1-form on an orientable manifold $\Omega$, then 
+$$\int_{\bd\Omega}\omega = \int_\Omega d\omega \qquad \text{i.e.} \qquad \int_{\bd\Omega}f(z)\dz = \int_\Omega d(f(z)\dz)$$
 :::
 
 :::{.fact title="Partial Fraction Decomposition"}
