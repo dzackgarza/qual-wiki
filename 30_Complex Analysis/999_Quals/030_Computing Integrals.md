@@ -17,7 +17,27 @@ I=\int_{0}^{\infty} \frac{1}{1+x^{n}} d x
 \]
 :::
 
-:::{.solution}
+:::{.solution title="Newer, sketch"}
+By the ML estimate, $\int_{C_R} f \to 0$.
+
+The residue contribution: note the simple pole at $\omega_n \da e^{i\pi \over n}$,
+\[
+\Res_{z=\omega_n} f(z) = {1\over n\omega_n^{n-1}} = {\omega \over n\omega^n} = -{\omega_n \over n}
+.\]
+
+The segment contributions: $\int_{\gamma_1}f\to I$, and
+\[
+\int_{\gamma_2}f(z) \dz = \int_\infty^0 {1\over 1 + (\zeta_nt)^n} \zeta_n \dt = -\zeta_n I
+,\]
+so the contour contributions sum to $(1-\zeta_n)I$.
+
+Solving:
+\[
+I = -{2\pi i \omega_n\over n(1-\zeta_n)} = -2\pi i {1\over \omega_n\inv - \omega_n\} = -2\pi i {1\over \sin\qty{\pi \over n}} = {\pi \over n}\csc\qty{\pi \over n}
+.\]
+:::
+
+:::{.solution title="Older, more detailed"}
 Write $\omega_{n, k} = \exp\qty{(2k+1)i\pi \over n}$ and factor $z^n+1$ as 
 \[
 z^n+1  = \prod_{1\leq k \leq n}(z-\omega_{n, k}) = 
