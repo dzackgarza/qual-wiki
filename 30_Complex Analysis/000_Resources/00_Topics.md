@@ -64,11 +64,11 @@
 	- [[30_Complex Analysis/999_Quals/200_Schwarz|Schwarz lemma]] 
 	- [[30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping|Open Mapping Theorem]]
 
-- Week 10  (July 21): 
-		- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass|Casorati-Weierstrass]], 
-		- [[30_Complex Analysis/045_Casorati/Picard theorem|Picard]]
+- Week 10  (July 21): **Omitted values**
+	- [[30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass|Casorati-Weierstrass]]
+	- [[30_Complex Analysis/070_Omitted Values/070_Picard|Picard's theorem]]
 
-- Week 11 (July 28):
+- Week 11 (July 28): **Montel**
 	- [[030 Identity Principle|The identity principle]]
 	- [[30_Complex Analysis/070_Omitted Values/050_Montel#Normal Families|Normal families]]
 	- [[30_Complex Analysis/070_Omitted Values/050_Montel|Montel's theorem]]
