@@ -4,7 +4,7 @@ order: 10
 
 # Complex Arithmetic
 
-## Spring 2019.3 #work
+## Spring 2019.3 #work/qual
 
 ^c8872d
 
@@ -18,7 +18,7 @@ $$
 - Estimate $N_{R}$ in terms of $M_{2 R}$ from above.
 
 
-## Spring 2021.1 #completed
+## Spring 2021.1 #completed/qual
 
 ^7d0c77
 
@@ -72,7 +72,7 @@ Moreover if $\abs{z} = \abs{w} = 1$, the RHS is zero, yielding equalities at eve
 
 :::
 
-## Spring 2020 HW 1.5 #completed
+## Spring 2020 HW 1.5 #completed/qual
 
 :::{.problem title="?"}
 a. Let $z, w \in \CC$ with $\bar z w \neq 1$. 
@@ -136,7 +136,7 @@ Follows from the estimate in part 1.
 
 :::
 
-## Spring 2020 HW 1.2 #completed
+## Spring 2020 HW 1.2 #completed/qual
 
 :::{.problem title="?"}
 Prove the following inequality, and explain when equality holds:
@@ -165,7 +165,7 @@ Here we've used the basic estimate
 
 :::
 
-## Fall 2020.1, Spring 2020 HW 1.6 #completed
+## Fall 2020.1, Spring 2020 HW 1.6 #completed/qual
 
 ^b9b6b4
 

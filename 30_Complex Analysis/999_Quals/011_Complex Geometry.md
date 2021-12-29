@@ -5,7 +5,7 @@ order: 11
 # Complex Geometry
 
 
-## Spring 2020.1 #work
+## Spring 2020.1 #work/qual
 
 ^ea471a
 
@@ -16,7 +16,7 @@ order: 11
 
 - Prove that if $c>0, c \neq 1$ and $z_{1} \neq z_{2}$, then $\left|\frac{z-z_{1}}{z-z_{2}}\right|=c$ represents a circle. Find its center and radius.
 - 
-## Spring 2020 HW 1.1  #completed
+## Spring 2020 HW 1.1  #completed/qual
 
 :::{.problem title="?"}
 Geometrically describe the following subsets of $\CC$:
@@ -62,7 +62,7 @@ g. Exterior of a circle: same calculation is (2), replacing $=0$ with $<0$.
 Note that the line marked $\star$ involves dividing by a negative, so this flips the sign, and we get $\cdots > \qty{2\over 3}^2$ at the end.
 :::
 
-## Spring 2020 HW 1.4 #completed 
+## Spring 2020 HW 1.4 #completed/qual 
 
 :::{.problem title="?"}
 \envlist
@@ -107,7 +107,7 @@ where the $z_i$ and $r$ are all constant, so thus is the equation of a circle.
 
 :::
 
-## Fall 2019.2, Spring 2020 HW 1.11 #completed
+## Fall 2019.2, Spring 2020 HW 1.11 #completed/qual
 
 ^a35657
 
@@ -153,7 +153,7 @@ Similar arguments show $\theta_1=\theta_2 = \theta_3$ which forces $s_1=s_2 = s_
 
 :::
 
-## Spring 2020 HW 1.5 #completed
+## Spring 2020 HW 1.5 #completed/qual
 
 :::{.problem title="?"}
 \envlist
@@ -206,7 +206,7 @@ F(F(z))
 :::
 
 
-## Fixed argument exercise #completed
+## Fixed argument exercise #completed/qual
 
 :::{.exercise title="?"}
 Fix $a,b\in \CC$ and $\theta$, and describe the locus

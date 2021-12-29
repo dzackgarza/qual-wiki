@@ -4,12 +4,12 @@ order: 21
 
 # Laurent Expansions
 
-## Tie, Spring 2015: #work 
+## Tie, Spring 2015: #work/qual 
 
 Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. 
 Find all the Laurent series of $f$ and describe the largest annuli in which these series are valid.
 
-## 1 #completed
+## 1 #completed/qual
 Find the Laurent expansion of
 \[
 f(z) = {z + 1 \over z(z-1)}
@@ -50,7 +50,7 @@ f(z)
 
 
 
-## 2 #completed
+## 2 #completed/qual
 
 Find the Laurent expansions about $z=0$ of the following functions:
 \[
@@ -92,7 +92,7 @@ f(z)
 :::
 
 
-## 3 #work
+## 3 #work/qual
 
 Find the Laurent expansion of 
 \[
@@ -102,7 +102,7 @@ about $z=0$ and $z=1$ respectively.
 
 > Hint: recall that power series can be differentiated.
 
-## 4 #work
+## 4 #work/qual
 
 For the following functions, find the Laurent series about $0$ and classify their singularities there:
 \[
@@ -111,7 +111,7 @@ z \exp{1\over z^2} \\
 {1 \over z(4-z)}
 .\]
 
-## Tie's Extra Questions: Fall 2015 #work
+## Tie's Extra Questions: Fall 2015 #work/qual
 
 Expand the following functions into Laurent series in the indicated
 regions:
@@ -123,7 +123,7 @@ $3 < |z| < + \infty$.
 (b)
 $\displaystyle f(z) = \sin \frac{z}{1-z}, \; \; 0 < |z-1| < + \infty$
 
-## Tie, Fall 2015: Laurent Coefficients #work 
+## Tie, Fall 2015: Laurent Coefficients #work/qual 
 
 Suppose that $f$ is holomorphic in an open set containing the closed unit disc, except for a pole at $z_0$ on the unit circle. Let $\displaystyle f(z) = \sum_{n = 1}^\infty c_n z^n$ denote the the power series in the open disc. Show that 
 
@@ -133,27 +133,27 @@ $c_n \neq 0$ for all large enough $n$'s, and
 (2)
 $\displaystyle \lim_{n \rightarrow \infty} \frac{c_n}{c_{n+1}}= z_0$.
 
-## Spring 2020 HW 2 #  2.6.14 #work
+## Spring 2020 HW 2, SS 2.6.14 #work/qual
 
 Suppose that $f$ is holomorphic in an open set containing $\DD$ except for a pole $z_0 \in \bd \DD$.
 Let $\sum_{n=0}^\infty a_n z^n$ be the power series expansion of $f$ in $\DD$, and show that $\lim \frac{a_n}{a_{n+1}} = z_0$.
 
 > [Solution](https://math.stackexchange.com/questions/1358964/show-that-lim-limits-n-fraca-na-n1-z-0?rq=1)
 
-## 2 #work
+## 2 #work/qual
 
 Suppose $f$ is entire and has Taylor series $\sum a_n z^n$ about 0.
 
-a.  #work
+a.  #work/qual
 Express $a_n$ as a contour integral along the circle $\abs{z} = R$.
 
-b. #work
+b. #work/qual
 Apply (a) to show that the above Taylor series converges uniformly on every bounded subset of $\CC$.
 
-c. #work
+c. #work/qual
 Determine those functions $f$ for which the above Taylor series converges uniformly on all of $\CC$.
 
-## Spring 2020 HW 2 #  4 #work
+## Spring 2020 HW 2.4 #work/qual
 Without using Cauchy's integral formula, show that if $\abs{a} < r < \abs{b}$, then
 \[
 \int_{\gamma} \frac{d z}{(z-\alpha)(z-\beta)}
@@ -163,7 +163,7 @@ where $\gamma$ denotes the circle centered at the origin of radius $r$ with posi
 
 > Hint: take a Laurent expansion.
 
-### Spring 2020 HW 3 #  1 #work
+### Spring 2020 HW 3 #  1 #work/qual
 
 Prove that if $f$ has two Laurent series expansions,
 \[
@@ -171,7 +171,7 @@ f(z) = \sum c_n(z-a)^n \quad\text{and}\quad f(z) = \sum c_n'(z-a)^n
 \]
 then $c_n = c_n'$.
 
-### Spring 2020 HW 3 #  2 #work
+### Spring 2020 HW 3 #  2 #work/qual
 
 Find Laurent series expansions of
 \[

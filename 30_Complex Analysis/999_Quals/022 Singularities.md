@@ -4,7 +4,7 @@ order: 22
 
 # Singularities
 
-## Spring 2020.4 #work
+## Spring 2020.4 #work/qual
 
 ^4bd9ee
 
@@ -13,22 +13,22 @@ Suppose that $f$ is holomorphic in an open set containing the closed unit disc, 
 \lim _{n \rightarrow \infty} c_{n}=-\lim _{z \rightarrow 1}(z-1) f(z)
 .\]
 
-## 5 #work
+## 5 #work/qual
 
 Find all entire functions with have poles at $\infty$.
 
-## 6 #work
+## 6 #work/qual
 
 Find all functions on the Riemann sphere that have a simple pole at $z=2$ and a double pole at $z=\infty$, but are analytic elsewhere.
 
 
-## 7 #work
+## 7 #work/qual
 Let $f$ be entire, and discuss (with proofs and examples) the types of singularities $f$ might have (removable, pole, or essential) at $z=\infty$ in the following cases:
 
 1. $f$ has at most finitely many zeros in $\CC$.
 2. $f$ has infinitely many zeros in $\CC$.
 
-## 8 #work
+## 8 #work/qual
 Define
 \[
 f(z) &= {\pi^2 \over \sin^2 \qty{\pi z} } \\
@@ -51,7 +51,7 @@ Idea: show their $f-g$ is analytic by taking away all of the negative powers, an
 
 :::
 
-## Tie's Extra Questions: Fall 2015
+## Tie's Extra Questions: Fall 2015 #work/qual
 
 Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that $f(z_n) = 0$ for infinite many points $z_n$ with $\lim_{n \rightarrow \infty} z_n =0$. 
 
