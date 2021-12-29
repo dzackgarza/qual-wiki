@@ -277,13 +277,13 @@ Now apply Riesz Representation for $L^2$: there is a $g \in L^2$ such that $$f\i
 :::
 
 
-## Spring 2016.6 #work
+## Spring 2016.6 #real_analysis/qual/work
 Without using the Riesz Representation Theorem, compute
 \[
 \sup \left\{\left|\int_{0}^{1} f(x) e^{x} d x\right| \suchthat f \in L^{2}([0,1], m),~~ \|f\|_{2} \leq 1\right\}
 \]
 
-## Spring 2015.5 #work
+## Spring 2015.5 #real_analysis/qual/work
 Let $\mathcal H$ be a Hilbert space.
 
 1. Let $x\in \mathcal H$ and $\theset{u_n}_{n=1}^N$ be an orthonormal set.
@@ -293,14 +293,14 @@ Let $\mathcal H$ be a Hilbert space.
   $$
 2. Conclude that finite dimensional subspaces of $\mathcal H$ are always closed.
 
-## Fall 2015.6 #work
+## Fall 2015.6 #real_analysis/qual/work
 Let $f: [0, 1] \to \RR$ be continuous.
 Show that
 \[
 \sup \left\{\|f g\|_{1} \suchthat g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
 \]
 
-## Fall 2014.6 #work
+## Fall 2014.6 #real_analysis/qual/work
 Let $1 \leq p,q \leq \infty$ be conjugate exponents, and show that
 \[
 f \in L^p(\RR^n) \implies \|f\|_{p} = \sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d x\right|
@@ -308,7 +308,7 @@ f \in L^p(\RR^n) \implies \|f\|_{p} = \sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d 
 
 # Banach and Hilbert Spaces
 
-## Fall 2021.5 #work
+## Fall 2021.5 #real_analysis/qual/work
 
 ^7dc220
 
@@ -455,7 +455,7 @@ and define a candidate limit: for each $x\in I$, set \[f(x) \definedas \lim_{n\t
 :::
 
 
-## Fall 2017.6 #work
+## Fall 2017.6 #real_analysis/qual/work
 
 ^ffabe6
 

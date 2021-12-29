@@ -1,6 +1,6 @@
 # Measure Theory: Sets
 
-## Fall 2021.3 #work
+## Fall 2021.3 #real_analysis/qual/work
 
 ^9d4269
 
@@ -418,7 +418,7 @@ where we've used that taking a union over *fewer* sets can only make the measure
 :::
 
 
-## Fall 2018.2 #work
+## Fall 2018.2 #real_analysis/qual/work
 
 ^896c28
 
@@ -949,7 +949,7 @@ Show that $G \in \mathcal M$ and $\mu(G) = 0$.
 \todo[inline]{Last step seems wrong!}
 :::
 
-## Spring 2016.3 #work
+## Spring 2016.3 #real_analysis/qual/work
 Let $f$ be Lebesgue measurable on $\RR$ and $E \subset \RR$ be measurable such that
 $$
 0<A=\int_{E} f(x) d x<\infty.
@@ -960,7 +960,7 @@ $$
 \int_{E_{t}} f(x) d x=t A.
 $$
 
-## Spring 2016.5 #work
+## Spring 2016.5 #real_analysis/qual/work
 
 ^019bf5
 
@@ -976,7 +976,7 @@ $$
 \int_{X}|f| ~d \mu=\int_{0}^{\infty}[\phi(\lambda)+\psi(\lambda)] ~d \lambda
 $$
 
-## Spring 2016.2 #work
+## Spring 2016.2 #real_analysis/qual/work
 
 ^3e8888
 
@@ -984,13 +984,13 @@ Let $0 < \lambda < 1$ and construct a Cantor set $C_\lambda$ by successively rem
 
 Prove that $m(C_\lambda) = 0$.
 
-## Fall 2015.2 #work
+## Fall 2015.2 #real_analysis/qual/work
 Let $f: \RR \to \RR$ be Lebesgue measurable.
 
 1. Show that there is a sequence of simple functions $s_n(x)$ such that $s_n(x) \to f(x)$ for all $x\in \RR$.
 2. Show that there is a Borel measurable function $g$ such that $g = f$ almost everywhere.
 
-## Spring 2015.3 #work
+## Spring 2015.3 #real_analysis/qual/work
 
 Let $\mu$ be a finite Borel measure on $\RR$ and $E \subset \RR$ Borel. 
 Prove that the following statements are equivalent:
@@ -1004,14 +1004,14 @@ $$
 H \subseteq E \subseteq V \quad \text{and}\quad \mu(V\setminus H) = 0
 $$
 
-## Spring 2014.3 #work
+## Spring 2014.3 #real_analysis/qual/work
 Let $f: \RR \to \RR$ and suppose
 $$
 \forall x\in \RR,\quad f(x) \geq \limsup _{y \rightarrow x} f(y)
 $$
 Prove that $f$ is Borel measurable.
 
-## Spring 2014.4 #work
+## Spring 2014.4 #real_analysis/qual/work
 Let $(X, \mathcal M, \mu)$ be a measure space and suppose $f$ is a measurable function on $X$.
 Show that
 $$
@@ -1121,7 +1121,7 @@ x\not\in \Intersect_{n\geq 0}\Union_{k\geq n} X\sm E_k \\
 :::
 
 
-## Spring 2021.3 #work
+## Spring 2021.3 #real_analysis/qual/work
 
 ^9a2c9e
 
@@ -1129,7 +1129,7 @@ Let \( (X, \mathcal{M}, \mu)  \) be a finite measure space and let \( \ts{ f_n}_
 Suppose $f\in L^1(X, \mu)$ such that $f_n(x) \converges{n\to \infty }\to f(x)$ for almost every $x \in X$.
 Prove that for every \( \eps > 0 \) there exists $M>0$ and a set $E\subseteq X$ such that \( \mu(E) \leq \eps \) and \( \abs{f_n(x)}\leq M  \) for all $x\in X\sm E$ and all $n\in \NN$.
 
-## Fall 2020.2 #work
+## Fall 2020.2 #real_analysis/qual/work
 
 ^e41970
 
@@ -1210,7 +1210,7 @@ The non-obvious move: split $A$ itself up to get a strict inequality.
   .\] 
 :::
 
-## Spring 2016.4 #work
+## Spring 2016.4 #real_analysis/qual/work
 
 ^220946
 

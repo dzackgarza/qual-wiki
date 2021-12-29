@@ -49,7 +49,7 @@ $\impliedby$:
 
 :::
 
-## 2 (Spring '09/Spring '07/Fall '07/Fall '06) #work
+## 2 (Spring '09/Spring '07/Fall '07/Fall '06) #topology/qual/work
 
 a. 
 State van Kampen's theorem.
@@ -68,42 +68,42 @@ Calculate the fundamental group of the one-point union of $S^1 \times S^1$ and $
 
 > **Note: multiple appearances!!**
 
-## 3 (Fall '18) #work
+## 3 (Fall '18) #topology/qual/work
 Prove the following portion of van Kampen's theorem. 
 If $X = A\cup B$ and $A$, $B$, and $A \cap B$ are nonempty and path connected with $\pt \in A \cap B$, then there is a surjection 
 $$
 \pi_1 (A, \pt) \ast \pi_1 (B, \pt) \to \pi_1 (X, \pt)
 .$$
 
-## 4 (Spring '15) #work
+## 4 (Spring '15) #topology/qual/work
 Let $X$ denote the quotient space formed from the sphere $S^2$ by identifying two distinct points. 
 
 Compute the fundamental group and the homology groups of $X$.
 
-## 5 (Spring '06) #work
+## 5 (Spring '06) #topology/qual/work
 Start with the unit disk $\DD^2$ and identify points on the boundary if their angles, thought of in polar coordinates, differ a multiple of $\pi/2$. 
 
 Let $X$ be the resulting space. Use van Kampen's theorem to compute $\pi_1 (X, \ast)$.
 
-## 6 (Spring '08) #work
+## 6 (Spring '08) #topology/qual/work
 Let $L$ be the union of the $z$-axis and the unit circle in the $xy\dash$plane. 
 Compute $\pi_1 (\RR^3 \backslash L, \ast)$.
 
-## 7 (Fall '16) #work
+## 7 (Fall '16) #topology/qual/work
 Let $A$ be the union of the unit sphere in $\RR^3$ and the interval $\theset {(t, 0, 0) : -1 \leq t \leq 1} \subset \RR^3$. 
 
 Compute $\pi_1 (A)$ and give an explicit description of the universal cover of $X$.
 
-## 8 (Spring '13) #work
+## 8 (Spring '13) #topology/qual/work
 a. Let $S_1$ and $S_2$ be disjoint surfaces. 
     Give the definition of their connected sum $S^1 \#S^2$.
 
 b. Compute the fundamental group of the connected sum of the projective plane and the two-torus.
 
-## 9 (Fall '15) #work
+## 9 (Fall '15) #topology/qual/work
 Compute the fundamental group, using any technique you like, of $\RP^2 \#\RP^2 \#\RP^2$.
 
-## 10 (Fall '11) #work
+## 10 (Fall '11) #topology/qual/work
 Let 
 $$
 V = \DD^2 \times S^1 = \theset{ (z, e^{it}) \suchthat \norm z \leq 1,~~ 0 \leq t < 2\pi}
@@ -122,14 +122,14 @@ V_n = {V\disjoint V \over \sim n}
 $$
 where the equivalence relation $\sim_n$ identifies a point $x$ on the boundary $T$ of the first copy of $V$ with the point $\phi_n (x)$ on the boundary of the second copy of $V$.
 
-## 11 (Fall '16) #work
+## 11 (Fall '16) #topology/qual/work
 Let $S_k$ be the space obtained by removing $k$ disjoint open disks from the sphere $S^2$. 
 Form $X_k$ by gluing $k$ Möbius bands onto $S_k$ , one for each circle boundary component of $S_k$ (by identifying the boundary circle of a Möbius band homeomorphically with a given boundary component circle). 
 
 Use van Kampen's theorem to calculate $\pi_1 (X_k)$ for each $k > 0$ and identify $X_k$ in terms of the classification of surfaces.
 
 
-## 12 (Spring '13) #work
+## 12 (Spring '13) #topology/qual/work
 
 a.
 Let $A$ be a subspace of a topological space $X$. 

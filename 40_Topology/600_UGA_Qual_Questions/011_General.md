@@ -90,7 +90,7 @@ Only need finitely many more opens to cover the rest.
 
 :::
 
-### 7 (Fall '06). #work
+### 7 (Fall '06). #topology/qual/work
 
 :::{.problem title="Fall 2006, 7"}
 A topological space is **sequentially compact** if every infinite sequence in $X$ has a convergent subsequence. 
@@ -166,7 +166,7 @@ N_x \da \Union_{j\leq m} U_j \supseteq x \cross Y
 
 :::
 
-### 12 (Spring '06). #work
+### 12 (Spring '06). #topology/qual/work
 
 :::{.problem title="Spring 2006, 12"}
 Write $Y$ for the interval $[0, \infty)$, equipped with the usual topology. 
@@ -183,7 +183,7 @@ Find, with proof, all subspaces $Z$ of $Y$ which are retracts of $Y$.
 - No finite discrete sets occur, since the retract of a connected set is connected.
 :::
 
-### 13 (Fall '06). #work
+### 13 (Fall '06). #topology/qual/work
 
 :::{.problem title="Fall 2006, 13"}
 \envlist
@@ -196,7 +196,7 @@ Is the converse true? Prove or give a counterexample.
 
 :::
 
-### 14 (Fall '07) #work
+### 14 (Fall '07) #topology/qual/work
 
 :::{.problem title="?"}
 Let $\theset{X_\alpha \mid \alpha \in A}$ be a family of connected subspaces of a space $X$ such that there is a point $p \in X$ which is in each of the $X_\alpha$.
@@ -244,7 +244,7 @@ But then these two sets disconnect $X_\alpha$, which was assumed to be connected
 
 :::
 
-### 5 (Fall '04). #work
+### 5 (Fall '04). #topology/qual/work
 
 :::{.problem title="?"}
 Let $X$ be a topological space.
@@ -355,7 +355,7 @@ Similarly, since $A$ is open, $B$ is closed, and $\bar B = B \implies \bar B \ca
 
 :::
 
-### ? (Spring '11) #work
+### ? (Spring '11) #topology/qual/work
 
 :::{.problem title="?"}
 A topological space is **totally disconnected** if its only connected subsets are one-point sets. 
@@ -366,7 +366,7 @@ Is the converse true? Justify your answers.
 
 :::
 
-### 21 (Fall '14) #work
+### 21 (Fall '14) #topology/qual/work
 
 :::{.problem title="?"}
 Let $X$ and $Y$ be topological spaces and let $f : X \to Y$ be a function. 
@@ -411,7 +411,7 @@ So pick $U_1 \ni p_1, \cdots, U_n \ni p_n$; then $\RR \subset U_\alpha \union_{i
  
 :::
 
-### 25 (Fall '16) #work
+### 25 (Fall '16) #topology/qual/work
 
 :::{.problem title="?"}
 Let $\mcs, \mct$ be topologies on a set $X$.
@@ -431,7 +431,7 @@ Describe, with proof, all open subsets of $X$ with respect to this topology.
 :::
 
 
-### 43 (Fall '12) #work
+### 43 (Fall '12) #topology/qual/work
 
 :::{.problem title="?"}
 Let $A$ denote a subset of points of $S^2$ that looks exactly like the capital letter A. 
@@ -443,7 +443,7 @@ Show that $Q$ is homeomorphic to a familiar topological space and identify that 
 
 ## Compactness and Metric Spaces
 
-### 1 (Spring '06) #work
+### 1 (Spring '06) #topology/qual/work
 
 :::{.problem title="?"}
 Suppose $(X, d)$ is a metric space. State criteria for continuity of a function $f : X \to X$ in terms of:
@@ -458,7 +458,7 @@ Then prove that (iii) implies (i).
 
 :::
 
-### 26 (Fall '17) #work
+### 26 (Fall '17) #topology/qual/work
 
 :::{.problem title="?"}
 Let $f : X \to Y$ be a continuous function between topological spaces. 
@@ -474,7 +474,7 @@ Decide which is which, prove the true statement, and provide a counterexample to
 
 :::
 
-### 2 (Spring '12) #work
+### 2 (Spring '12) #topology/qual/work
 
 :::{.problem title="?"}
 Let $X$ be a topological space.
@@ -521,7 +521,7 @@ c. Todo
 
 :::
 
-### 3 (Spring '09) #work
+### 3 (Spring '09) #topology/qual/work
 
 :::{.problem title="?"}
 Let $(X, d)$ be a compact metric space, and let $f : X \to X$ be an isometry: 
@@ -579,7 +579,7 @@ x &\mapsto {1\over n} \sum_{i=1}^n d(x, X\setminus U_i)
 
 :::
 
-### 44 (Spring '15) #work
+### 44 (Spring '15) #topology/qual/work
 
 :::{.problem title="?"}
 a.
@@ -705,7 +705,7 @@ $X\da$ the Topologist's sine curve suffices.
 :::
 
 
-### 22 (Fall '18) #work
+### 22 (Fall '18) #topology/qual/work
 
 :::{.problem title="?"}
 Let $X$ be a compact space and let $f : X \times R \to R$ be a continuous function such that $f (x, 0) > 0$ for all $x \in X$. 
@@ -717,7 +717,7 @@ Moreover give an example showing that this conclusion may not hold if $X$ is not
 
 :::
 
-### 24 (Spring '16) #work
+### 24 (Spring '16) #topology/qual/work
 
 :::{.problem title="?"}
 In each part of this problem $X$ is a compact topological space.
@@ -731,7 +731,7 @@ If $\theset{O_n}_{n=1}^\infty$ is a sequence of nonempty *open* subsets of $X$ s
 
 :::
 
-### 27 (Fall '17) #work
+### 27 (Fall '17) #topology/qual/work
 
 :::{.problem title="?"}
 A metric space is said to be **totally bounded** if for every $\eps > 0$ there exists a finite cover of $X$ by open balls of radius $\eps$.
@@ -866,7 +866,7 @@ We can write $\overline{(X, \tau)} = (X \disjoint \pt , \tau \union \tau')$ wher
 
 :::
 
-### Spring 2021 #3 #work
+### Spring 2021 #3 #topology/qual/work
 
 :::{.problem title="Spring 2021, 3"}
 For nonempty subsets $A, B$ of a metric space $(X, d)$, define the **setwise distance** as 
@@ -892,7 +892,7 @@ Give an example in which $A$ is closed, $B$ is compact, and $d(a, b) > d(A, B)$ 
 
 ## Connectedness
 
-### 9 (Spring '13) #work
+### 9 (Spring '13) #topology/qual/work
 
 :::{.problem title="?"}
 Recall that a topological space is said to be **connected** if there
@@ -1021,7 +1021,7 @@ In particular, we can pick $n$ large enough such that $\norm{\vector x_n}$ is as
 
 :::
 
-### 11 (Fall '18) #work
+### 11 (Fall '18) #topology/qual/work
 
 :::{.problem title="?"}
 Let
@@ -1062,7 +1062,7 @@ Show that $X$ is totally disconnected, i.e. the only nonempty connected subsets 
 
 ## Hausdorff Spaces and Separation
 
-### 29 (Fall '14) #work
+### 29 (Fall '14) #topology/qual/work
 
 :::{.problem title="?"}
 Is every product (finite or infinite) of Hausdorff spaces Hausdorff?
@@ -1175,7 +1175,7 @@ $\impliedby$:
 
 :::
 
-### 33 (Fall '06) #work
+### 33 (Fall '06) #topology/qual/work
 
 :::{.problem title="?"}
 If $f$ is a function from $X$ to $Y$ , consider the graph 
@@ -1191,7 +1191,7 @@ Prove that if $G$ is closed and $Y$ is compact, then $f$ is continuous.
 
 :::
 
-### 34 (Fall '04) #work
+### 34 (Fall '04) #topology/qual/work
 
 :::{.problem title="?"}
 Let X be a noncompact locally compact Hausdorff space, with topology $\mct$. 
@@ -1218,7 +1218,7 @@ ii. $X = \RR^2$.
 
 :::
 
-### 35 (Fall '16) #work
+### 35 (Fall '16) #topology/qual/work
 
 :::{.problem title="?"}
 Prove that a metric space $X$ is **normal**, i.e. if $A, B \subset X$ are closed and disjoint then there exist open sets $A \subset U \subset X, ~B \subset V \subset X$ such that
@@ -1226,13 +1226,13 @@ $U \cap V = \emptyset$.
 
 :::
 
-### 36 (Spring '06) #work
+### 36 (Spring '06) #topology/qual/work
 
 :::{.problem title="?"}
 Prove that every compact, Hausdorff topological space is normal.
 :::
 
-### 37 (Spring '09) #work
+### 37 (Spring '09) #topology/qual/work
 
 :::{.problem title="?"}
 Show that a connected, normal topological space with more than a single point is uncountable.
@@ -1258,28 +1258,28 @@ Direct proof that $\RR/\QQ$ isn't Hausdorff:
 - Then $[p] = [q] \in U\intersect V$.
 :::
 
-### 39 (Fall '04) #work
+### 39 (Fall '04) #topology/qual/work
 
 :::{.problem title="?"}
 Let $X$ be a compact Hausdorff space and suppose $R \subset X \times X$ is a closed equivalence relation. 
 Show that the quotient space $X/R$ is Hausdorff.
 :::
 
-### 40 (Spring '18) #work
+### 40 (Spring '18) #topology/qual/work
 
 :::{.problem title="?"}
 Let $U \subset \RR^n$ be an open set which is bounded in the standard Euclidean metric. 
 Prove that the quotient space $\RR^n / U$ is not Hausdorff.
 :::
 
-### 41 (Fall '09) #work
+### 41 (Fall '09) #topology/qual/work
 
 :::{.problem title="?"}
 Let $A$ be a closed subset of a normal topological space $X$.
 Show that both $A$ and the quotient $X/A$ are normal.
 :::
 
-### 45 (Spring '11) #work
+### 45 (Spring '11) #topology/qual/work
 
 :::{.problem title="?"}
 Recall that a topological space is **regular** if for every point $p \in X$ and for every closed subset $F \subset X$ not containing $p$, there exist disjoint open sets $U, V \subset X$ with $p \in U$ and $F \subset V$. 
@@ -1299,7 +1299,7 @@ Show that there is a continuous function $f : X \to [0,1]$ such that $f (x) > 0$
 
 ### Basics
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that for $A\subseteq X$, $\cl_X(A)$ is the smallest closed subset containing $A$.
 
 #### Exercise #topology/qual/completed
@@ -1317,16 +1317,16 @@ But $[0, 1]$ is not open in $\RR$:
   - E.g. $\theset{1}$ is not an interior point (every neighborhood intersects the complement $\RR\setminus[0, 1]$).
 :::
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that the diagonal map $\Delta(x) = (x, x)$ is continuous.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $A_i \subseteq X$, then $\cl_X(\union_i A_i) = \union_i \cl_X(A_i)$.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that $\RR$ is not homeomorphic to $[0, \infty)$.
 
-#### Exercise #work
+#### Exercise #topology/qual/work
 Show that the set $(x, y) \in \RR^2$ such that at least one of $x, y$ is rational with the subspace topology is a connected space.
 
 #### Exercise: $\RR/\QQ$ is indiscrete
@@ -1349,27 +1349,27 @@ Show that $\RR/\QQ$ has the indiscrete topology.
 
 ### Connectedness
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Prove that $X$ is connected iff the only clopen subsets are $\emptyset, X$.
 
-#### Exercise #work
+#### Exercise #topology/qual/work
 Let $A \subset X$ be a connected subspace.
 
 Show that if $B\subset X$ satisfies $A\subseteq B \subseteq \bar{A}$, then $B$ is connected.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that:
   - Connected does not imply path connected
   - Connected and locally path connected *does* imply path connected
   - Path connected implies connected
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Use the fact that intervals are connected to prove the intermediate value theorem.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Prove that the continuous image of a connected set is connected.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $X$ is locally path connected, then 
 
 - Every open subset of $X$ is again locally path-connected.
@@ -1450,95 +1450,95 @@ Then the finite subcover $\theset{U_j\suchthat j\leq N} \covers f(X)$, since if 
 Let $A$ be a compact subspace of a Hausdorff space $X$. 
 Show that $A$ is closed.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that any infinite set with the cofinite topology is compact.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that every compact metric space is complete.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $X$ is second countable and Hausdorff, or a metric space, then TFAE:
 
 - $X$ is compact
 - Every infinite subset $A\subseteq X$ has a limit point in $X$.
 - Every sequence in $X$ has a convergent subsequence in $X$. 
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $f: A\to B$ is a continuous map between metric spaces and $K\subset A$ is compact, then $\restrictionof{f}{K}$ is uniformly continuous.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $f:X\to Y$ is continuous and $X$ is compact then $f(X)$ is compact.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $f:X\to \RR$ and $X$ is compact then $f$ is bounded and attains its min/max.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that a finite product or union compact spaces is again compact.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that a quotient of a compact space is again compact.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $X$ is compact and $A\subseteq X$ is closed then $A$ is compact.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $X$ is Hausdorff and $A\subseteq X$ is compact then $A$ is closed.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $X$ is a metric space and $A\subseteq X$ is compact then $A$ is bounded.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that a continuous map from a compact space to a Hausdorff space is closed.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that an injective continuous map from a compact space to a Hausdorff space is an embedding (a homeomorphism onto its image).
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that $[0, 1]$ is compact.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that a compact Hausdorff space is is metrizable iff it is second-countable.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that if $X$ is metrizable, then $X$ is compact
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Give an example of a space that is compact but not sequentially compact, and vice versa.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that a sequentially compact space is totally bounded.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that $\RR$ with the cofinite topology is compact.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that $[0, 1]$ is compact without using the Heine-Borel theorem.
 
 
 ### Separation
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that $X$ is Hausdorff iff $\Delta(X)$ is closed in $X\cross X$.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Prove that $X, Y$ are Hausdorff iff $X\cross Y$ is Hausdorff.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that $\RR$ is separable.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that any space with the indiscrete topology is separable.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that any countable space with the discrete topology is separable.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that the minimal uncountable order with the order topology is not separable.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that every first countable space is second countable.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that every metric space is Hausdorff in its metric topology.
 
 ### Hausdorff Spaces
@@ -1586,13 +1586,13 @@ Show that a continuous bijection from a compact space to a Hausdorff space is a 
   - Since compact subsets of Hausdorff spaces are closed.
 :::
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that a closed subset of a Hausdorff space need not be compact.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that in a *compact* Hausdorff space, $A$ is closed iff $A$ is compact.
 
-#### Exercise  #work
+#### Exercise  #topology/qual/work
 Show that a local homeomorphism between compact Hausdorff spaces is a covering space.
 
 

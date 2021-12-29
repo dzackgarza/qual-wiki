@@ -131,7 +131,7 @@ where we've used that $\cos(\theta)$ is continuous on $\RR$ to pass a limit insi
 
 
 
-## Spring 2021.5 #work
+## Spring 2021.5 #real_analysis/qual/work
 
 ^417454
 
@@ -716,7 +716,7 @@ since
 :::
 
 
-## Fall 2015.4 #work
+## Fall 2015.4 #real_analysis/qual/work
 Let $f: [1, \infty) \to \RR$ such that $f(1) = 1$ and
 \[
 f^{\prime}(x)= \frac{1} {x^{2}+f(x)^{2}}

@@ -10,12 +10,12 @@ Prove or disprove:
 
 Every continuous map from $S^2$ to $S^2$ has a fixed point.
 
-## 3 (Spring '11) #work
+## 3 (Spring '11) #topology/qual/work
 a. State the **Lefschetz Fixed Point Theorem** for a finite simplicial complex $X$.
 
 b. Use degree theory to prove this theorem in case $X = S^n$.
 
-## 4 (Spring '12) #work
+## 4 (Spring '12) #topology/qual/work
 
 ### a
 Prove that for every continuous map $f : S^2 \to S^2$ there is some $x$ such that either $f (x) = x$ or $f (x) = -x$. 
@@ -46,7 +46,7 @@ Let $X$ and $Y$ be finite connected simplicial complexes and let $f : X \to Y$ a
 
 Show that no matter how you homotope $f \lor g : X \lor Y \to X \lor Y$, there will always be a fixed point.
 
-## 10 (Fall '12) #work
+## 10 (Fall '12) #topology/qual/work
 Let $f = \id_{\RP^2} \lor \ast$ and $g = \ast \lor id_{S^1}$ be two maps of $\RP^2 \lor S^1$ to itself where $\ast$ denotes the constant map of a space to its basepoint.
 
 Show that one map is homotopic to a map with no fixed points, while the other is not.

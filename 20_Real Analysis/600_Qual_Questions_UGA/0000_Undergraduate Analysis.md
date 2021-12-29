@@ -805,7 +805,7 @@ b. ?
 .\]
 :::
 
-## Spring 2017.3 #work
+## Spring 2017.3 #real_analysis/qual/work
 
 ^9838ec
 
@@ -1053,7 +1053,7 @@ Let $f, g \in L^2(\RR)$. Show that
 .\]
 :::
 
-## Spring 2016.1  #work
+## Spring 2016.1  #real_analysis/qual/work
 
 ^6ae65c
 
@@ -1077,7 +1077,7 @@ Use this to show the following:
 3. $2 < e_n < E_n < 4$.
 4. $\lim _{n \to \infty} e_{n} = \lim _{n \to \infty} E_{n}$.
 
-## Fall 2015.1  #work
+## Fall 2015.1  #real_analysis/qual/work
 
 Define
 \[

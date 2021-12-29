@@ -417,7 +417,7 @@ Then
 
 
 
-## Spring 2017.5 #work
+## Spring 2017.5 #real_analysis/qual/work
 
 ^736e88
 
@@ -428,7 +428,7 @@ h(x) \definedas \int _{-\infty}^{\infty} f(t) g(x-t) \, dt
 \]
 defines a uniformly continuous function $h$ on $\RR$.
 
-## Spring 2015.6 #work
+## Spring 2015.6 #real_analysis/qual/work
 Let $f \in L^1(\RR)$ and $g$ be a bounded measurable function on $\RR$.
 
 1. Show that the convolution $f\ast g$ is well-defined, bounded, and uniformly continuous on $\RR$.
@@ -437,7 +437,7 @@ Let $f \in L^1(\RR)$ and $g$ be a bounded measurable function on $\RR$.
 \frac{d}{d x}(f * g)=f *\left(\frac{d}{d x} g\right)
 \]
 
-## Fall 2014.5 #work
+## Fall 2014.5 #real_analysis/qual/work
 
 1. Let $f \in C_c^0(\RR^n)$, and show
 \[

@@ -1,6 +1,6 @@
 # Fubini-Tonelli
 
-## Spring 2021.6 #work
+## Spring 2021.6 #real_analysis/qual/work
 
 :::{.warnings}
 This problem may be much harder than expected.
@@ -410,7 +410,7 @@ where we've used translation invariance of the $L^1$ norm and Fubini-Tonelli jus
 
 :::
 
-## Spring 2014.5 #work
+## Spring 2014.5 #real_analysis/qual/work
 
 :::{.problem title="?"}
 Let $f, g \in L^1([0, 1])$ and for all $x\in [0, 1]$ define

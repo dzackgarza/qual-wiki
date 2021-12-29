@@ -240,7 +240,7 @@ $$
 
 :::
 
-## Spring 2015.2 #work
+## Spring 2015.2 #real_analysis/qual/work
 Let $f: \RR \to \CC$ be continuous with period 1. 
 Prove that
 \[

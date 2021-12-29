@@ -38,7 +38,7 @@ Let $X$ be the topological space obtained as the quotient space of a regular $2n
 
 First show that X is a compact, orientable surface without boundary, and then identify its genus as a function of $n$.
 
-## 8 (Fall '10) #work
+## 8 (Fall '10) #topology/qual/work
 
 ### a
 Show that any compact connected surface with nonempty boundary is homotopy equivalent to a wedge of circles 
@@ -72,7 +72,7 @@ Determine, with proof, all valued of $g$ with the property that there exists a c
 Find *all* surfaces, orientable and non-orientable, which can be covered by a closed surface (i.e. compact with empty boundary) of genus 2. 
 Prove that your answer is correct.
 
-## 14 (Spring '18) #work
+## 14 (Spring '18) #topology/qual/work
 
 ### a
 Write down (without proof) a presentation for $\pi_1 (\Sigma_2 , p)$ where $\Sigma_2$ is a closed, connected, orientable genus 2 surface and $p$ is any point on $\Sigma_2$ .
