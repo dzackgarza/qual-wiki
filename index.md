@@ -11,8 +11,8 @@ Try some #problems (see also #work) and read #solutions, or help me  unsolved ex
 
 Try some problems! See the following tags:
 
-- #algebra/qual/completed 
-- #topology/qual/completed 
+- #algebra/qual/completed #algebra/qual/work 
+- #topology/qual/completed #topology/qual/work 
 - #real_analysis/qual/completed 
 - #complex/qual/completed 
 - #complex/exercise/completed 
