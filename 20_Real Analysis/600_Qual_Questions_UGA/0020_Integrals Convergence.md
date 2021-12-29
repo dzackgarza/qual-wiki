@@ -1,6 +1,6 @@
 # Integrals: Convergence
 
-## Fall 2020.3 #real_analysis/completed/qual
+## Fall 2020.3 #real_analysis/qual/completed
 
 ^b424e2
 
@@ -69,7 +69,7 @@ Now set $a=2^k, b=2^{k+1}$:
 and $\sum 1/k = \infty$.
 :::
 
-## Spring 2021.2 #real_analysis/completed/qual
+## Spring 2021.2 #real_analysis/qual/completed
 
 ^aef235
 
@@ -163,7 +163,7 @@ Although this mentions Plancherel, probably what is needed is Parseval's identit
 
 
 
-## Fall 2019.2 #real_analysis/completed/qual
+## Fall 2019.2 #real_analysis/qual/completed
 
 ^8f0945
 
@@ -252,7 +252,7 @@ for all $x \neq 0$ and positive integers $n$.
   - We've again used the fact that $f_n(x, t)$ is of the form $\pm \cos(tx)$ or $\pm \sin(tx)$, both of which are bounded by 1.
 :::
 
-## Spring 2020.5 #real_analysis/completed/qual
+## Spring 2020.5 #real_analysis/qual/completed
 
 ^e3c620
 
@@ -312,7 +312,7 @@ Justifying the DCT:
   where the last inequality follows from the fact that $1 + {x^2 \over n} \geq 1$
 :::
 
-## Spring 2019.3 #real_analysis/completed/qual
+## Spring 2019.3 #real_analysis/qual/completed
 
 ^ac0795
 
@@ -379,7 +379,7 @@ Equality of Integrals:
 - Now take a nested sequence of sets $F_{\eps}$ with $\mu(F_\eps) \to 0$ and applying continuity of measure yields the desired statement.
 :::
 
-## Fall 2018.6 #real_analysis/completed/qual
+## Fall 2018.6 #real_analysis/qual/completed
 
 ^bf6519
 
@@ -407,7 +407,7 @@ Compute the following limit and justify your calculations:
 .\]
 :::
 
-## Fall 2018.3 #real_analysis/completed/qual
+## Fall 2018.3 #real_analysis/qual/completed
 
 ^68e34b
 
@@ -459,7 +459,7 @@ $$
 - Since $xf(x) \in L^1(\RR)$ by assumption, the DCT applies. 
 :::
 
-## Spring 2018.5 #real_analysis/completed/qual
+## Spring 2018.5 #real_analysis/qual/completed
 
 ^766ce0
 
@@ -526,7 +526,7 @@ g_n &= \abs{f_n} + \abs{f} &\converges{n\to\infty}\to 2\abs {f} ~a.e.
   so $\lim_{n\to\infty} \int f_n = \int f$.
 :::
 
-## Spring 2018.2 #real_analysis/completed/qual
+## Spring 2018.2 #real_analysis/qual/completed
 
 ^ae21f1
 
@@ -614,7 +614,7 @@ x, & 0 \leq x < 1 \\
 - So set $$g \definedas g_0 \cdot \chi_{(0, 1)} + g_1 \cdot \chi_{[1, \infty)},$$ then by the above arguments $g \in L^1((0, \infty))$ and $f_n \leq g$ everywhere, so the DCT applies.
 :::
 
-## Fall 2016.3 #real_analysis/completed/qual
+## Fall 2016.3 #real_analysis/qual/completed
 
 ^dbf2a8
 
@@ -676,7 +676,7 @@ Show that
   .\]
 :::
 
-## Fall 2015.3 #real_analysis/completed/qual
+## Fall 2015.3 #real_analysis/qual/completed
 
 :::{.problem title="?"}
 Compute the following limit:

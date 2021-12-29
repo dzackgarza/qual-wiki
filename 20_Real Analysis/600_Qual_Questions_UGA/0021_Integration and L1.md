@@ -1,6 +1,6 @@
 # Integrals: Approximation
 
-## Fall 2021.2 #real_analysis/completed/qual
+## Fall 2021.2 #real_analysis/qual/completed
 
 ^86c7a4
 
@@ -77,7 +77,7 @@ which can be made arbitrarily large by taking $\eps\to 0$.
 :::
 
 
-## Spring 2018.3 #real_analysis/completed/qual
+## Spring 2018.3 #real_analysis/qual/completed
 
 ^a434b2
 
@@ -151,7 +151,7 @@ Show that
 :::
 
 
-## Spring 2018.4 #real_analysis/completed/qual
+## Spring 2018.4 #real_analysis/qual/completed
 
 ^052756
 
@@ -250,7 +250,7 @@ Prove that
 > Hint: show this first for the functions $f(t) = e^{2\pi i k t}$ for $k\in \ZZ$.
 
 
-## Fall 2014.4 #real_analysis/completed/qual
+## Fall 2014.4 #real_analysis/qual/completed
 
 :::{.problem title="?"}
 Let $g\in L^\infty([0, 1])$
@@ -288,7 +288,7 @@ where the DCT applies since defining $h_k \da g_k\cdot g$ we have $\abs{h_k} \le
 
 # $L^1$
 
-## Spring 2021.4 #real_analysis/completed/qual
+## Spring 2021.4 #real_analysis/qual/completed
 
 ^b21dcb
 
@@ -457,7 +457,7 @@ I_2
 
 :::
 
-## Fall 2020.4 #real_analysis/completed/qual
+## Fall 2020.4 #real_analysis/qual/completed
 
 ^58470f
 
@@ -526,7 +526,7 @@ where we've used that $y\mapsto \sin(yx)$ is clearly continuous.
 
 :::
 
-## Spring 2020.3 #real_analysis/completed/qual
+## Spring 2020.3 #real_analysis/qual/completed
 
 ^6f50e6
 
@@ -723,7 +723,7 @@ For $x\geq 1$,
 :::
 
 
-## Fall 2019.5 #real_analysis/completed/qual
+## Fall 2019.5 #real_analysis/qual/completed
 
 ^e6090c
 
@@ -832,7 +832,7 @@ This works for arbitrary $f\in L^1$, using approximation by continuous functions
 
 
 
-## Fall 2017.3 #real_analysis/completed/qual
+## Fall 2017.3 #real_analysis/qual/completed
 
 ^1e6067
 
@@ -901,7 +901,7 @@ Show that for every $f\in L^1(\RR)$, there exists a sequence of functions $\thes
 :::
 
 
-## Spring 2015.4 #real_analysis/completed/qual
+## Spring 2015.4 #real_analysis/qual/completed
 
 :::{.problem title="?"}
 Define
@@ -941,7 +941,7 @@ The use of iterated integration is justified by Tonelli's theorem on $\abs{f} = 
 
 :::
 
-## Fall 2014.3 #real_analysis/completed/qual
+## Fall 2014.3 #real_analysis/qual/completed
 
 :::{.problem title="?"}
 Let $f\in L^1(\RR)$. Show that
@@ -996,7 +996,7 @@ choose $n\gg 1$ to bound the first term by $\eps$, noting that the second term i
 
 :::
 
-## Spring 2014.1 #real_analysis/completed/qual
+## Spring 2014.1 #real_analysis/qual/completed
 
 :::{.problem title="?"}
 1. Give an example of a continuous $f\in L^1(\RR)$ such that $f(x) \not\to 0$ as$\abs x \to \infty$.

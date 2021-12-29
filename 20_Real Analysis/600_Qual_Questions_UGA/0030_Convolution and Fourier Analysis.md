@@ -1,7 +1,7 @@
 # $L^2$ and Fourier Analysis
 
 
-## Fall 2020.5 #real_analysis/completed/qual
+## Fall 2020.5 #real_analysis/qual/completed
 
 ^31cd83
 
@@ -104,7 +104,7 @@ Now
 .\]
 :::
 
-## Spring 2020.6 #real_analysis/completed/qual
+## Spring 2020.6 #real_analysis/qual/completed
 
 :::{.problem title="?"}
 \envlist
@@ -271,7 +271,7 @@ where the last term is the tail of a convergent sum since $\ts{\hat f(n)} \in \e
   Since $S_N\to g$ a.e., $f=g$ a.e. by uniqueness of limits.
 :::
 
-## Fall 2017.5 #real_analysis/completed/qual
+## Fall 2017.5 #real_analysis/qual/completed
 
 ^2ef915
 
