@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+            "file": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:30_Complex .exercise",
+                "query": "tag:#completed/work",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+                "file": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md"
+                "file": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+                "file": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+                "file": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,15 +256,15 @@
   },
   "active": "6812191371727805",
   "lastOpenFiles": [
+    "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
+    "30_Complex Analysis/030_Zeros_and_Poles/040_MMP.md",
+    "30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality.md",
     "30_Complex Analysis/000_Resources/10_Problems.md",
     "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md",
     "000_My Active Problems.md",
     "30_Complex Analysis/010_Basics/050 Series Reference.md",
     "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
     "30_Complex Analysis/000_Resources/10_Problems.pandoc.md",
-    "30_Complex Analysis/010_Basics/001_Precalculus.md",
-    "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
-    "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
-    "30_Complex Analysis/000_Resources/20_Solutions.md"
+    "30_Complex Analysis/010_Basics/001_Precalculus.md"
   ]
 }

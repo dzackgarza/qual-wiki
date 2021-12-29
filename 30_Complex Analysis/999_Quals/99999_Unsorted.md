@@ -1,6 +1,6 @@
 # Unsorted
 
-## Tie's Extra Questions: Fall 2015 #work
+## Tie's Extra Questions: Fall 2015 #work/exercise
 
 1.
 Let $f(z) \in H({\mathbb D})$, $\text{Re}(f(z)) >0$ and $f(0)= a>0$. 
@@ -14,7 +14,7 @@ Show that the above is still true if $\text{Re}(f(z)) >0$ is replaced with $\tex
 
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 (1) Let $p(z)$ be a polynomial, $R>0$ any positive number, and
@@ -28,7 +28,7 @@ $$\sup \{|p(z) - z^{-m}|: z \in K  \} \geq \varepsilon_0 \, .$$
 
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 
@@ -38,7 +38,7 @@ $$\sup \{|p(z) - z^{-m}|: z \in K  \} \geq \varepsilon_0 \, .$$
 
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 
@@ -55,14 +55,14 @@ straightforward consequence of this stronger result using the integral form of t
 
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 
 Let $f$ be an analytic function on a region $\Omega$. Show that $f$
 is a constant if there is a simple closed curve $\gamma$ in $\Omega$ such that its image $f(\gamma)$ is contained in the real axis.
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 (1) Show that $\displaystyle \frac{\pi^2}{\sin^2 \pi z}$ and
@@ -76,7 +76,7 @@ $\displaystyle \frac{\pi^2}{\sin^2 \pi z} = \sum_{n = - \infty}^{ \infty} \frac{
 
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 
@@ -86,7 +86,7 @@ $\displaystyle \sum_{n=1}^\infty f^{n}(z)$ converges uniformly to an
 analytic function on compact subsets of ${\mathbb D}$, where
 $f^{n+1}(z) = f(f^{n}(z))$.
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 Let $f$ be a non-constant analytic function on $\mathbb D$ with $f(\mathbb D) \subseteq \mathbb D$. Use $\psi_{a} (f(z))$ (where $a=f(0)$, $\displaystyle \psi_a(z) = \frac{a - z}{1 - \bar{a}z}$) to
@@ -95,7 +95,7 @@ $\displaystyle \frac{|f(0)| - |z|}{1 + |f(0)||z|} \leq |f(z)| \leq \frac{|f(0)| 
 
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 
@@ -108,7 +108,7 @@ $\displaystyle \|f\|_{(\infty, s)} = \text{sup}_{z \in D_s(z_0)}|f(z)|$
 and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 Let $\Omega$ be a simply connected open set and let $\gamma$ be a simple closed contour in $\Omega$ and enclosing a bounded region $U$ anticlockwise. Let $f: \ \Omega \to {\mathbb C}$ be a holomorphic function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
@@ -116,7 +116,7 @@ $|f(z)|\leq M$ for all $z\in U$.
 
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 Let $f$ be holomorphic in a neighborhood of $D_r(z_0)$. Show that for any $s<r$, there exists a constant $c>0$ such that
@@ -126,7 +126,7 @@ and $\displaystyle \|f\|_{(1, r)} = \int_{D_r(z_0)} |f(z)|dx dy$.
 
 
 
-## Tie's Extra Questions: Fall 2016 #work
+## Tie's Extra Questions: Fall 2016 #work/exercise
 
 
 a.
@@ -145,7 +145,7 @@ Let $f(z)=z^2$ be defined in $\CC$.
 - What are the angles of intersections between the level curves $\mbox{\textrm Re}{(f)}=0$ and $\mbox{\textrm Im}{(f)}$? 
 Is your answer in agreement with part a) of this question?
 
-## Tie's Extra Questions: Fall 2016 #work
+## Tie's Extra Questions: Fall 2016 #work/exercise
 
 
 
@@ -165,7 +165,7 @@ Let $C_R$ be the circle $|z|=R$, described in the counterclockwise direction, wh
 
 
 
-## Tie's Extra Questions: Fall 2016 #work
+## Tie's Extra Questions: Fall 2016 #work/exercise
 
 
 a.
@@ -181,7 +181,7 @@ where $C$ is the circle $|z|=4$.
 
 
 
-## Tie's Extra Questions: Spring 2014, Fall 2009, Fall 2011  #work
+## Tie's Extra Questions: Spring 2014, Fall 2009, Fall 2011  #work/exercise
 
 For $s>0$, the **gamma function** is defined by $\displaystyle{\Gamma(s)=\int_0^{\infty} e^{-t}t^{s-1} dt}$.
 
@@ -195,7 +195,7 @@ For $s>0$, the **gamma function** is defined by $\displaystyle{\Gamma(s)=\int_0^
 > Hint: You may need $\displaystyle{\Gamma(1-s)=t \int_0^{\infty}e^{-vt}(vt)^{-s} dv}$ for $t>0$.
 
 
-### Tie's Extra Questions: Fall 2011 #work
+### Tie's Extra Questions: Fall 2011 #work/exercise
 
 :::{.problem title="?"}
  \envlist

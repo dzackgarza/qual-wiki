@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "999_Basics_Exercises",
+      "path": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
+    },
+    {
+      "basename": "040_MMP",
+      "path": "30_Complex Analysis/030_Zeros_and_Poles/040_MMP.md"
+    },
+    {
+      "basename": "012_Cauchy Inequality",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality.md"
+    },
+    {
       "basename": "10_Problems",
       "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
-    },
-    {
-      "basename": "999_Basics_Exercises",
-      "path": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
     },
     {
       "basename": "20_Solutions",
@@ -191,14 +199,6 @@
     {
       "basename": "010_Arithmetic and Inequalities",
       "path": "30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities.md"
-    },
-    {
-      "basename": "200_Schwarz",
-      "path": "30_Complex Analysis/999_Quals/200_Schwarz.md"
-    },
-    {
-      "basename": "105_Conformal Maps",
-      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
     }
   ],
   "omittedPaths": [],

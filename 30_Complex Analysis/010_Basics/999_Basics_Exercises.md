@@ -63,7 +63,7 @@ If $f$ is holomorphic on $\Omega$ and any of the following hold, then $f$ is con
 2. $\Im(f)$ is constant.
 3. $\abs{f}$ is constant.
 
-#completed/work
+#completed/exercise
 
 :::
 
