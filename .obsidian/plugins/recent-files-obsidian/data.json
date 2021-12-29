@@ -5,6 +5,14 @@
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
     {
+      "basename": "005_Calculus_Preliminaries",
+      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
+    },
+    {
+      "basename": "001_Precalculus",
+      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
+    },
+    {
       "basename": "031_Conformal_Standard",
       "path": "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md"
     },
@@ -105,10 +113,6 @@
       "path": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
     },
     {
-      "basename": "001_Precalculus",
-      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
-    },
-    {
       "basename": "115_Complex Log",
       "path": "30_Complex Analysis/010_Basics/115_Complex Log.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "051 Series Exercises",
       "path": "30_Complex Analysis/010_Basics/051 Series Exercises.md"
-    },
-    {
-      "basename": "005_Calculus_Preliminaries",
-      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
     },
     {
       "basename": "001_Real_Review",

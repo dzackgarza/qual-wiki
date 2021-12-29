@@ -15,13 +15,16 @@
 # Scheduling
 
 - Week 1 (May 19):  **Preliminary Review**
-	- [[30_Complex Analysis/010_Basics/100_Complex Arithmetic]]
-    - Complex arithmetic and geometry, conic section equations
-    - Uniform (continuity,  differentiability, convergence)
-        - Heine-Cantor
-    - Inverse and implicit function theorems
-    - Green's theorem, Stokes theorem
-    - Complex plane, Riemann sphere
+	- [[30_Complex Analysis/010_Basics/100_Complex Arithmetic|100_Complex Arithmetic]]
+	- [[30_Complex Analysis/010_Basics/115_Complex Log|Arguments, branch cuts, complex log]]
+	- [[30_Complex Analysis/010_Basics/001_Precalculus|Elementary geometry, conic sections]]
+	- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries|Calculus/analysis review]]
+		- Uniform (continuity,  differentiability, convergence)
+		- Heine-Cantor
+		- Inverse and implicit function theorems
+	- Green's theorem, Stokes theorem
+	- 
+	- Complex plane, Riemann sphere
 
 - Week 2 (May 26): **Differentiation and integration**
     - [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries]]
