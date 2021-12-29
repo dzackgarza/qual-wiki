@@ -58,7 +58,7 @@ using that $z/\sin(z) \convergesto{z\to 0} 1$.
 Show that the complex zeros of $f(z) \da \sin(\pi z)$ are exactly $\ZZ$, and each is order 1.
 Calculate the residue of $1/\sin(\pi x)$ at $z=n\in \ZZ$.
 
-#work/exercises
+#complex/exercise/work 
 
 :::
 
