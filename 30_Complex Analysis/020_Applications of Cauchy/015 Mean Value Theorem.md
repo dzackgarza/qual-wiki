@@ -18,3 +18,6 @@ f\left(z_{0}\right)=\frac{1}{2 \pi i} \int_{\left|z-z_{0}\right|=r} \frac{f(z)}{
 
 :::
 
+## Exercises
+
+#todo

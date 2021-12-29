@@ -21,6 +21,8 @@ If $f$ is entire and bounded, $f$ is constant.
 
 :::
 
+## Exercises
+
 :::{.exercise title="?"}
 Show that an entire doubly periodic function is constant.
 
@@ -157,14 +159,13 @@ Now unwind to get $f(z) = z_0 + {1\over c}$, which is also constant.
 
 :::{.exercise title="?"}
 Show that if $f$ is entire and $\abs{f(z)} > 1$ for all $z$, then $f$ is constant.
+
+#completed/exercise
+
 :::
 
 :::{.solution}
 The inequality forces $f\neq 0$ anywhere, so $1/f$ is entire and bounded by 1.
 By Liouville, $1/f$ is constant, and thus so is $f$.
 :::
-
-
-
-
 

@@ -35,6 +35,8 @@ and
 
 :::
 
+## Exercises
+
 :::{.exercise title="Integral computation"}
 Compute
 \[

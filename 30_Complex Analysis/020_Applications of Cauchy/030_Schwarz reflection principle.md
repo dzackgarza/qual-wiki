@@ -1,9 +1,9 @@
 # Schwarz reflection principle
 
-
-
+:::{.remark}
 In this section, take $\Omega$ to be a region symmetric about the real axis, so $z\in \Omega \iff \bar{z} \in \Omega$.
 Partition this set as $\Omega^+ \subseteq \HH, I \subseteq \RR, \Omega^- \subseteq \bar{\HH}$.
+:::
 
 :::{.theorem title="Symmetry Principle"}
 Suppose that $f^+$ is holomorphic on $\Omega^+$ and $f^-$ is holomorphic on $\Omega^-$, and $f$ extends continuously to $I$ with $f^+(x) = f^-(x)$ for $x\in I$.
@@ -37,6 +37,6 @@ Apply the symmetry principle.
 $\HH^+, \HH^-$ can be replaced with any region symmetric about a line segment $L\subseteq \RR$.
 :::
 
+## Exercises
 
-
-
+#todo

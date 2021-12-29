@@ -10,11 +10,13 @@ If $f(z) = 0$ for some $z\in \bd G$, we're done, so suppose $f\neq 0$ on $\bar G
 Then $1/f$ is holomorphic on $G$ and continuous on $\bar G$, so $\max_{z\in \bar G}\abs{1/f(z)} = \max_{z\in \bd G} \abs{1/f(z)}$.
 :::
 
+## Exercises
+
 :::{.exercise title="SS 3.2.15"}
 Suppose $f$ is continuous and nonzero on $\bar\DD$ and holomorphic on $\DD$.
 Show that if $\abs{f(z)} = \abs{z}$ for all $\abs{z} = 1$ then $f$ is constant.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -27,7 +29,7 @@ By Cauchy-Riemann (or the open mapping theorem), if $\abs{f}$ is constant, $f$ i
 Let $f: \Omega\to \CC$ be holomorphic and suppose there is a $z_0 \in \Omega$ with $\abs{f(z_0)}\leq \abs{f(z)}$ for all $z\in \Omega$.
 Show that either $f(a) = 0$ or $f$ is constant.
 
-#completed 
+#completed/exercise 
 
 :::
 
@@ -40,7 +42,7 @@ Since $z_0\in \Omega$, the MMP forces $g$ to be constant, and thus so is $f$.
 :::{.exercise title="?"}
 Show that if $\Re(f(z)) \geq 0$ for all $z\in \CC$, then $f$ is constant.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -54,6 +56,9 @@ Since $g$ is entire and bounded, $g$ is constant and thus so is $f$.
 
 :::{.exercise title="?"}
 Show that if $f$ is constant on any closed disk $r\bar\DD$ for $r<1$, then $f$ is constant on $\DD$.
+
+#completed/exercise
+
 :::
 
 :::{.solution}
@@ -64,6 +69,9 @@ By MMP applied to $r\bar \DD$, since $f$ achieves its maximum on the interior $r
 :::{.exercise title="?"}
 Suppose $f$ is entire and $f^{(n)}$ is bounded on $\CC$.
 Show that $f$ is a polynomial of degree at most $n$.
+
+#completed/exercise
+
 :::
 
 :::{.solution}
@@ -74,10 +82,12 @@ Integrating a constant $n$ times yields a polynomial of degree t most $n$.
 
 :::{.exercise title="Bounded harmonic functions"}
 Find all harmonic functions $u:\DD\to \CC$ such that $u(1/2) = 2$ and $\abs{u(z)}\geq 2$ for all $\abs{z} \leq 1$.
+
+#completed/exercise
+
 :::
 
 :::{.solution}
 Since $1/2 \in \ts{\abs{z}\leq 1}$ is an interior point of $\DD$, by the MMP if $u$ is nonconstant then $u(1/2) = 2$ can not be a relative maximum for $u$ on $\DD$.
 :::
-
 

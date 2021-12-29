@@ -3,7 +3,7 @@
 :::{.exercise title="Primitives imply vanishing integral"}
 Show that if $f$ has a primitive $F$ on $\Omega$ then $\displaystyle\int_\gamma f = 0$ for every closed curve $\gamma \subseteq \Omega$.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -30,7 +30,7 @@ since $z(b) = z(a)$ for a closed curve.
 :::{.exercise title="Uniform limit theorem for holomorphic functions"}
 Show that if $f_n\to f$ locally uniformly and each $f_n$ is holomorphic then $f$ is holomorphic.
 
-#work
+#work/exercise
 
 :::
 
@@ -56,7 +56,7 @@ Statement: if $f_n\to f$ uniformly locally uniformly on $\Omega$ then $f$ is hol
 :::{.exercise title="Locally uniform limit theorem for holomorphic functions"}
 Prove that if $f_n\to f$ locally uniformly with $f_n$ holomorphic, then $f_n'\to f'$ locally uniformly and $f'$ is holomorphic.
 
-#work
+#work/exercise
 
 :::
 
@@ -100,7 +100,7 @@ Suppose that $f$ is entire and $f$ has sublinear growth in the following sense:
 .\]
 Show that $f$ must be constant.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -148,7 +148,7 @@ Suppose that $f$ is entire and has polynomial growth in the following sense:
 for some constants $k$ and $R$.
 Show that $f$ is a polynomial of degree at most $n$.
 
-#completed
+#completed/exercise
 
 :::
 
