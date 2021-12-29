@@ -4,7 +4,7 @@ order: 35
 
 # Cauchy's Theorem
 
-## Fall 2019.3, Spring 2020 HW 2.9 (Cauchy's Formula for Exterior Regions) #work
+## Fall 2019.3, Spring 2020 HW 2.9 (Cauchy's Formula for Exterior Regions) #work/qual
 
 ^f2a684
 
@@ -18,20 +18,20 @@ A, & \text { if } z \in \Omega_{1} \\
 \end{array}\right.
 .$$
 
-## 2 #work
+## 2 #work/exercise
 
 State and prove Green's Theorem for rectangles.
 Use this to prove Cauchy's Theorem for functions that are analytic in a rectangle.
 
 
-## 3 #work
+## 3 #work/exercise
 
 Suppose $\theset{f_n}_{n\in \NN}$ is a sequence of analytic functions on $\DD \definedas \theset{z\in \CC \suchthat \abs{z} < 1}$.
 
 Show that if $f_n\to g$ for some $g: \DD \to \CC$ uniformly on every compact $K\subset \DD$, then $g$ is analytic on $\DD$.
 
 
-## 4 #work
+## 4 #work/exercise
 
 Suppose $\theset{f_n}_{n\in \NN}$ is a sequence of entire functions where
 
@@ -43,7 +43,7 @@ Show that
 - $g$ is entire, and
 - $f_n\to g$ uniformly on every compact subset of $\CC$.
 
-## 5 #completed
+## 5 #completed/exercise
 
 Prove that there is no sequence of polynomials that uniformly converge to $f(z) = {1\over z}$ on $S^1$.
 
@@ -66,7 +66,7 @@ Prove that there is no sequence of polynomials that uniformly converge to $f(z) 
   which forces $\int f = \int p_j = 0$.
 :::
 
-## 6 #work
+## 6 #work/exercise
 
 Suppose that $f: \RR\to\RR$ is a continuous function that vanishes outside of some finite interval.
 For each $z\in \CC$, define
@@ -77,7 +77,7 @@ g(z) = \int_{-\infty}^\infty f(t) e^{-izt} \,dt
 Show that $g$ is entire.
 
 
-## 7 #work
+## 7 #work/exercise
 
 Suppose $f: \CC\to \CC$ is entire and
 \[
@@ -86,7 +86,7 @@ Suppose $f: \CC\to \CC$ is entire and
 
 Prove that $f$ is constant.
 
-## 8 #work
+## 8 #work/exercise
 
 Let $\gamma$ be a smooth curve joining two distinct points $a, b\in \CC$.
 
@@ -96,7 +96,7 @@ f(z) \definedas \int_\gamma {g(w) \over w-z} \,dw
 \]
 is analytic in $\CC\setminus\gamma$.
 
-## 9 #completed
+## 9 #completed/exercise
 Suppose that $f: \CC\to\CC$ is continuous everywhere and analytic on $\CC\setminus \RR$ and prove that $f$ is entire.
 
 \todo[inline]{Something missing?}
@@ -126,7 +126,7 @@ Suppose that $f: \CC\to\CC$ is continuous everywhere and analytic on $\CC\setmin
 :::
 
 
-## 10 #completed
+## 10 #completed/exercise
 Prove Liouville's theorem: suppose $f:\CC\to\CC$ is entire and bounded. 
 Use Cauchy's formula to prove that $f'\equiv 0$ and hence $f$ is constant.
 
@@ -151,7 +151,7 @@ Use Cauchy's formula to prove that $f'\equiv 0$ and hence $f$ is constant.
 
 
 
-## ? #work
+## ? #work/exercise
 
 Assume $f$ is continuous in the region:
 $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
@@ -161,7 +161,7 @@ $$\lim_{r \rightarrow 0} \int_{\gamma_r} f(z) dz  = i A \beta_0 \; , \; \;$$
 where
 $\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$
 
-## Tie's Extra Questions: Fall 2009 #work
+## Tie's Extra Questions: Fall 2009 #work/exercise
 
 Let $f$ be a continuous function in the region
 $$
@@ -175,7 +175,7 @@ $$
 ,$$ 
 where $L$ is the part of the circle $|z|=R'$ which lies in the region $D$.
 
-## Spring 2020 HW 2 #  2.6.5 #work
+## Spring 2020 HW 2 #  2.6.5 #work/exercise
 
 Suppose $f\in C_\CC^1(\Omega)$ and $T\subset \Omega$ is a triangle with $T^\circ \subset \Omega$.
 
@@ -187,13 +187,13 @@ Suppose $f\in C_\CC^1(\Omega)$ and $T\subset \Omega$ is a triangle with $T^\circ
 \int_{T} F d x+G d y=\int_{T^\circ}\left(\frac{\partial G}{\partial x}-\frac{\partial F}{\partial y}\right) d x d y
 .\]
 
-## Spring 2020 HW 2 #  2.6.6 #work
+## Spring 2020 HW 2 #  2.6.6 #work/exercise
 
 Suppose that $f$ is holomorphic on a punctured open set $\Omega\setminus\theset{w_0}$ and let $T\subset \Omega$ be a triangle containing $w_0$.
 Prove that if $f$ is bounded near $w_0$, then $\int_T f(z) ~dz = 0$.
 
 
-## Spring 2020 HW 2 #  2.6.7 #work
+## Spring 2020 HW 2 #  2.6.7 #work/exercise
 
 Suppose $f: \DD \to \CC$ is holomorphic and let $d \definedas \sup_{z, w\in \DD}\abs{f(z) - f(w)}$ be the diameter of the image of $f$.
 Show that $2 \abs{f'(0)} \leq d$, and that equality holds iff $f$ is linear, so $f(z) = a_1 z + a_2$.
@@ -205,14 +205,14 @@ Show that $2 \abs{f'(0)} \leq d$, and that equality holds iff $f$ is linear, so 
 whenever $0<r<1$.
 
 
-## Spring 2020 HW 2 #  2.6.8 #work
+## Spring 2020 HW 2 #  2.6.8 #work/exercise
 
 Suppose that $f$ is holomorphic on the strip $S = \theset{x+iy \suchthat x\in \RR,~ -1<y<1}$ with $\abs{f(z)} \leq A \qty{1 + \abs z}^\nu$ for $\nu$ some fixed real number.
 Show that for all $z\in S$, for each integer $n\geq 0$ there exists an $A_n \geq 0$ such that $\abs{f^{(n)}(x)} \leq A_n (1 + \abs x)^\nu$ for all $x\in \RR$.
 
 > Hint: Use the Cauchy inequalities.
 
-## Spring 2020 HW 2 #  2.6.9 #work
+## Spring 2020 HW 2 #  2.6.9 #work/exercise
 
 Let $\Omega \subset \CC$ be open and bounded and $\phi: \Omega \to \Omega$ holomorphic.
 Prove that if there exists a point $z_0 \in \Omega$ such that $\phi(z_0) = z_0$ and $\phi'(z_0) = 1$, then $\phi$ is linear.
@@ -221,14 +221,14 @@ Prove that if there exists a point $z_0 \in \Omega$ such that $\phi(z_0) = z_0$ 
   Let $\phi_k = \phi \circ \phi \circ \cdots \circ \phi$ and prove that $\phi_k(z) = z + ka_nz^n  + O(z^{n+1})$.
   Apply Cauchy's inequalities and let $k\to \infty$ to conclude.
 
-## Spring 2020 HW 2 #  6 #work
+## Spring 2020 HW 2 #  6 #work/exercise
 Show by example that there exists a function $f(z)$ that is holomorphic on $\theset{z\in \CC \suchthat 0 < \abs{z} < 1}$ and for all $r<1$,
 \[
 \int_{\abs z = r} f(z) \, dz = 0
 ,\]
 but $f$ is not holomorphic at $z=0$.
 
-## Spring 2020 HW 2 #  7 #work
+## Spring 2020 HW 2 #  7 #work/exercise
 Let $f$ be analytic on a region $R$ and suppose $f'(z_0) \neq 0$ for some $z_0 \in R$.
 Show that if $C$ is a circle of sufficiently small radius centered at $z_0$, then 
 \[
@@ -238,7 +238,7 @@ Show that if $C$ is a circle of sufficiently small radius centered at $z_0$, the
 > Hint: use the inverse function theorem.
 
 
-## Spring 2020 HW 2 #  8 #work
+## Spring 2020 HW 2 #  8 #work/exercise
 
 Assume two functions $u, b: \RR^2 \to \RR$ have continuous partial derivatives at $(x_0 ,y_0)$.
 Show that $f \definedas u + iv$ has derivative $f'(z_0)$ at $z_0 = x_0 + iy_0$ if and only if
@@ -250,7 +250,7 @@ Show that $f \definedas u + iv$ has derivative $f'(z_0)$ at $z_0 = x_0 + iy_0$ i
 
 
 
-## Spring 2020 HW 2 #  10 #work
+## Spring 2020 HW 2 #  10 #work/exercise
 Let $f(z)$ be bounded and analytic in $\CC$.
 Let $a\neq b$ be any fixed complex numbers.
 Show that the following limit exists:
@@ -261,7 +261,7 @@ Show that the following limit exists:
 Use this to show that $f(z)$ must be constant.
 
 
-## Spring 2020 HW 2 #  11 #work
+## Spring 2020 HW 2 #  11 #work/exercise
 Suppose $f(z)$ is entire and 
 \[
 \lim_{z\to\infty} {f(z) \over z} = 0
@@ -269,7 +269,7 @@ Suppose $f(z)$ is entire and
 
 Show that $f(z)$ is a constant.
 
-## Spring 2020 HW 2 #  12 #work
+## Spring 2020 HW 2 #  12 #work/exercise
 Let $f$ be analytic in a domain $D$ and $\gamma$ be a closed curve in $D$.
 For any $z_0\in D$ not on $\gamma$, show that
 \[
@@ -278,7 +278,7 @@ For any $z_0\in D$ not on $\gamma$, show that
 Give a generalization of this result.
 
 
-## Spring 2020 HW 2 #  13 #work
+## Spring 2020 HW 2 #  13 #work/exercise
 
 Compute
 \[
@@ -289,7 +289,7 @@ and use it to show that
 \int_0^{2\pi} \cos^{2n}(\theta) \, d\theta = 2\pi \qty{1\cdot 3 \cdot 5 \cdots (2n-1) \over 2 \cdot 4 \cdot 6 \cdots (2n)}
 .\]
 
-## Entire and $O$ of polynomial implies polynomial #completed
+## Entire and $O$ of polynomial implies polynomial #completed/exercise
 
 :::{.problem title="?"}
 Let $f(z)$ be entire and assume that $\abs{f(z)} \leq M |z|^2$ outside of some disk for some constant $M$. 
@@ -312,10 +312,10 @@ Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
 :::
 
 
-## Uniform sequence implies uniform derivatives #work
+## Uniform sequence implies uniform derivatives #work/exercise
 
 :::{.problem title="?"}
-#work
+#work/exercise
 Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
 $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
 bounded and closed sub-regions of $D$. 
@@ -334,7 +334,7 @@ Show that $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on bou
 :::
 
 
-## Tie's Extra Questions: Spring 2014 #work
+## Tie's Extra Questions: Spring 2014 #work/exercise
 
 
 The question provides some insight into Cauchy's theorem. Solve the
