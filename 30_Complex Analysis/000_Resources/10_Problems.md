@@ -1,14 +1,9 @@
 # Problems (Complex)
 
 ## Exercises
-
-- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries#Exercises]]
-- [[30_Complex Analysis/010_Basics/999_Basics_Exercises#Exercises]]
-
-- [[30_Complex Analysis/040_Residues/030_Exercises_Integrals]]
-
+  
 ```query
-tag:completed/exercise
+tag:complex/exercise path:"999_Quals"
 ```
 
 - 
@@ -33,7 +28,6 @@ tag:completed/exercise
 - [ ]  [Problem sheet from Cambridge Part 1B](https://dec41.user.srcf.net/notes/IB_L/complex_methods_eg.pdf)
     
 ## Misc
-
 
 - [ ]  [Utah Math 6220 Assignments.](http://www.math.utah.edu/~astephan/134.pdf) #problems
 - [ ]  [Lots of problems from JHU](https://math.jhu.edu/gradexam/analysisexams.pdf)
