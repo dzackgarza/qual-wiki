@@ -5,11 +5,7 @@ order: 105
 
 # Conformal Maps 
 
-> Notation: $\DD$ is the open unit disc, $\HH$ is the open upper half-plane.
-
-
-
-## Spring 2019.6 #work
+## Spring 2019.6 #work/qual
 
 ^5c3979
 
@@ -19,13 +15,13 @@ Find a conformal map from
 \]
 to $\mathbb{H}$.
 
-## Fall 2019.5 #work
+## Fall 2019.5 #work/qual
 
 ^043381
 
 Find a conformal map from $D=\{z:|z|<1,|z-1 / 2|>1 / 2\}$ to the unit disk $\Delta=\{z:|z|<1\} .$
 
-## Spring 2020.5 #work
+## Spring 2020.5 #work/qual
 
 ^0df993
 
@@ -35,7 +31,7 @@ Find a conformal map that maps the region
 \]
 to the upper half plane.
 
-## Spring 2021.7 #work
+## Spring 2021.7 #work/qual
 
 ^644ace
 
@@ -59,7 +55,7 @@ E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
 
 :::
 
-## Fall 2020.5 #work
+## Fall 2020.5 #work/qual
 
 ^931c0a
 
@@ -71,52 +67,52 @@ Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \m
 
 - Show that there exists a map $g: \mathbb{C} \backslash[-1,1] \rightarrow \mathbb{D} \backslash\{0\}$ such that $(g \circ f)(z)=z$ for all $z \in \mathbb{D} \backslash\{0\}$. Describe the map $g$ by an explicit formula.
 
-## Fall 2021.7 #work
+## Fall 2021.7 #work/qual
 
 ^efdbde
 
 Find a conformal map from the intersection of $|z-1|<2$ and $|z+1|<2$ to the upper half plane.
 
 
-## 1 #work
+## 1 #work/exercise
 Find a conformal map from $\DD$ to $\HH$.
 
-## 2 #work
+## 2 #work/exercise
 Find a conformal map from the strip $\theset{z\in \CC \suchthat 0 < \Im(z) < 1}$ to $\HH$.
 
-## 3 #work
+## 3 #work/exercise
 Find a fractional linear transformation $T$ which maps $\HH$ to $\DD$, and explicitly describe the image of the first quadrant under $T$.
 
-## 4 #work
+## 4 #work/exercise
 Find a conformal map from $\theset{z\in \CC\suchthat \abs{z-i} > 1,\, \Re(z) > 0}$ to $\HH$.
 
-## 5 #work
+## 5 #work/exercise
 Find a conformal map from $\theset{z\in \CC \suchthat \abs{z} < 1,\, \abs{z - {1\over 2}} > {1\over 2} }$ to $\DD$.
 
-## 6 #work
+## 6 #work/exercise
 Find a conformal  map from $\theset{\abs{z-1} < 2} \intersect \theset{\abs{z+1} < 2}$ to $\HH$.
 
-## 7 #work
+## 7 #work/exercise
 Let $\Omega$ be the region inside the unit circle $\abs{z} = 1$ and outside the circle $\abs{z-{1\over 4}} = {1\over 4}$.
 
 Find an injective conformal map from $\Omega$ onto some annulus $\theset{r < \abs{z} < 1}$ for constant $r$.
 
-## 8 #work
+## 8 #work/exercise
 Let $D$ be the region obtained by deleting the real interval $[0, 1)$ from $\DD$; find a conformal map from $D$ to $\DD$.
 
-## 9 #work
+## 9 #work/exercise
 Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\leq 0}$ to $\DD$.
 
-## 10 #work
+## 10 #work/exercise
 Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\geq 1}$ to $\DD$.
 
-## 11 #work
+## 11 #work/exercise
 Find a bijective conformal map from $G$ to $\HH$, where
 \[  
 G \definedas \theset{z\in \CC \suchthat \abs{z-1} < \sqrt 2,\, \abs{z+1} < \sqrt 2} \setminus [0, i)
 .\]
 
-## 12 #work
+## 12 #work/exercise
 Prove that TFAE for a Möbius transformation $T$ given by $T(z) = {az + b \over cz + d}$:
 
 a. $T$ maps $\RR\union \theset{\infty}$ to itself.
@@ -124,27 +120,27 @@ b. It is possible to choose $a,b,c,d$ to be real numbers.
 c. $\bar{T(z)} = T(\bar z)$ for every $z\in \CP^1$.
 d. There exist $\alpha\in \RR, \beta \in \CC\setminus \RR$ such that $T(\alpha) = \alpha$ and $T(\bar \beta) = \bar{T(\beta)}$.
 
-## 13 #work
+## 13 #work/exercise
 Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$ to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
-## Tie's Extra Questions: Fall 2009
+## Tie's Extra Questions: Fall 2009 #work/exercise
 
 Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
 to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
-## Tie's Extra Questions: Fall 2011
-
-
-Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
-to the unit disk $\Delta=\{z: \ |z|<1\}$.
-
-## Tie's Extra Questions: Spring 2014
+## Tie's Extra Questions: Fall 2011 #work/exercise
 
 
 Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
 to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
-## Tie's Extra Questions: Spring 2015
+## Tie's Extra Questions: Spring 2014 #work/exercise
+
+
+Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
+to the unit disk $\Delta=\{z: \ |z|<1\}$.
+
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 Find a conformal map
 
@@ -171,7 +167,7 @@ $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
 conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
 half plane ${\mathbb H}=\{z=x+iy:\ y>0\}$.
 
-## Tie's Extra Questions: Spring 2015
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
@@ -185,18 +181,19 @@ Prove that $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$
 is a conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
 half plane $\mathbb H=\{z=x+iy:\ y>0\}$.
 
-## Tie's Extra Questions: Fall 2016
+## Tie's Extra Questions: Fall 2016 #work/exercise
 
 Find the conformal map that takes the upper half-plane conformally onto the half-strip $\{w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
 
+
 # Linear Fractional Transformations
 
-## Tie's Extra Questions: Spring 2015
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 Let $C$ and $C'$ be two circles and let $z_1 \in C$, $z_2 \notin C$, $z'_1 \in C'$, $z'_2 \notin C'$. Show that there is a unique fractional linear transformation $f$ with $f(C) = C'$ and
 $f(z_1) = z'_1$, $f(z_2) = z'_2$.
 
-## Tie's Extra Questions: Spring 2015
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 
 Let $f(z)$ be an analytic function on
