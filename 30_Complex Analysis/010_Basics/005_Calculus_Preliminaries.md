@@ -39,8 +39,10 @@ The claim is that this makes $\ts{x_k}$ a Cauchy sequence, this follows from the
 .\]
 :::
 
+## Implicit Function Theorem
+
 :::{.theorem title="Implicit Function Theorem"}
-Suppose $f\in C^1(\RR^n, \RR^n)$, $f'(a)$ is an invertible linear map, and $b\da f(a)$.
+Suppose $f\in C^1(\RR^{n+m}, \RR^n)$, $f'(a)$ is an invertible linear map at the point $a$, and $b\da f(a)$, and suppose that $f(a, b) = 0
 Then there exist neighborhoods $U\ni a, V\ni f(a)$ such that $f:U\to V$ is a bijection with an inverse $g:V\to U$ satisfying $g(f(x)) = x$ for all $x\in U$.
 Moreover, $g \in C^1(V)$.
 :::
