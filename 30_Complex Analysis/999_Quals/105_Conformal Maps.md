@@ -81,6 +81,17 @@ Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \m
 Find a conformal map from the intersection of $|z-1|<2$ and $|z+1|<2$ to the upper half plane.
 :::
 
+## Lune #complex/exercise/work
+
+
+:::{.problem title="?"}
+Let $\lambda = {1\over 2}\qty{1 + i \sqrt{3}}$ and find a map 
+\[
+R \da \ts{\abs{z - \lambda} < 1} \intersect \ts{\abs{z-\bar{\lambda}} < 1 } \too \DD
+.\]
+
+:::
+
 
 
 ## 1 #complex/exercise/work
