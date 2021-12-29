@@ -33,7 +33,7 @@ Show that an entire doubly periodic function is constant.
 :::{.exercise title="?"}
 Show that if $f, g$ are entire with $\abs{f(z)}\leq \abs{g(z)}$, then $f(z) = cg(z)$ for some constant $c$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -48,7 +48,7 @@ Now $h$ is bounded and entire, thus constant, so $c = h = f/g \implies f=cg$.
 Show that if $\abs{f(z)/z^n}$ is bounded for $\abs{z}\geq R$, then $f$ is a polynomial of degree at most $n$.
 What happens if this bound holds on all of $\CC$?
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -75,7 +75,7 @@ Find all entire functions $f$ satisfying
 \abs{f(z)} \geq \abs{z} + 1 &&\forall z\in \CC
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -97,7 +97,7 @@ Let $f$ be entire and suppose that for $\abs{z} \geq M$,
 for some constants $A, B$ and $k$.
 Show that $f$ is a polynomial of degree at most $k$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -113,7 +113,7 @@ and if $n>k$ then this goes to zero in $R$ and $c_n = 0$ for all $n>k$.
 Suppose $\abs{f(z)}\leq \abs{g(z)}$ for all $z$.
 What conclusion can you draw?
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -132,7 +132,7 @@ Suppose $f$ is entire and for every $z$,
 .\]
 Characterize all possibilities for $f$.
 
-#complex/completed/exercise 
+#complex/exercise/completed 
 
 :::
 
@@ -146,7 +146,7 @@ So $f(z) = c\sin(z)$ where $\abs{c} \leq 1$.
 Let $f$ be entire with $\im(f) \intersect \DD_r(z_0)$ empty. 
 Show $f$ must be constant without using the Casorati-Weierstrass or Picard theorems.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -160,7 +160,7 @@ Now unwind to get $f(z) = z_0 + {1\over c}$, which is also constant.
 :::{.exercise title="?"}
 Show that if $f$ is entire and $\abs{f(z)} > 1$ for all $z$, then $f$ is constant.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

@@ -61,7 +61,7 @@ Find the number of zeros in $\abs{z} < 1$ of
 p(z) \da z^6 + 9z^4 + z^3 + 2z + 4
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -85,7 +85,7 @@ h(z) \da z^5 + 3z + 1
 .\]
 
 
-#complex/completed/exercise
+#complex/exercise/completed
 :::
 
 :::{.solution}
@@ -105,7 +105,7 @@ p(z) \da z^d + a_1z^{d-1} + \cdots + a_d
 supposing that
 $\abs{a_k}< {R^k \over d}$ for every $k$ (noting the strict inequality).
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -133,7 +133,7 @@ Find the number of solutions in $\ts{\Re(z) \leq 0}$ of
 
 > Hint: show $h(z) = z + 3 + 2e^z$ has one root in $\ts{ \Re(z) \leq 0}$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -172,7 +172,7 @@ Thus $Z_{h+F} = Z_f = 1$ in this region, and taking $R\to\infty$ covers all of $
 :::{.exercise title="?"}
 Show that $P(z) \da z^4 + 6z + 3$ has 3 zeros in $\ts{1\leq \abs{z} \leq 2}$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -192,7 +192,7 @@ Show that $P(z) \da z^4 + 6z + 3$ has 3 zeros in $\ts{1\leq \abs{z} \leq 2}$.
 :::{.exercise title="?"}
 Show that $\alpha z e^z = 1$ where $\abs{\alpha} > e$ has exactly one solution in $\DD$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

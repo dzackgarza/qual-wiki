@@ -27,7 +27,7 @@ Show that there is an entire function $h$ such that
 {\pi^2\over \sin^2(\pi z)} = \sum_{k\in \ZZ} {1\over (z-k)^2} + h(z)
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

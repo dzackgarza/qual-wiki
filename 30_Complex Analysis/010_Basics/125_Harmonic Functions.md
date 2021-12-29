@@ -106,7 +106,7 @@ Show that if $u,v$ are harmonic conjugates, then
 - $uv$ is harmonic.
 - $u_x$ is harmonic.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -139,7 +139,7 @@ Find a harmonic conjugate for
 u(x, y) = x^3 - 3xy^2 -x -y
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

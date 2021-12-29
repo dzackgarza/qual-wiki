@@ -23,7 +23,7 @@ point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
 $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
 $\Delta$ in $\Omega$.
 
-## Fall 2021.2  #complex/completed/qual
+## Fall 2021.2  #complex/qual/completed
 
 ^a550c1
 

@@ -34,7 +34,7 @@ Find all entire functions $f$ that satisfy
 \abs{f(z)} \geq e^{\abs{z}} && \forall z\in \CC
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

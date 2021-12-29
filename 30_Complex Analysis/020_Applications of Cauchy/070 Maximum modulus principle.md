@@ -16,7 +16,7 @@ Then $1/f$ is holomorphic on $G$ and continuous on $\bar G$, so $\max_{z\in \bar
 Suppose $f$ is continuous and nonzero on $\bar\DD$ and holomorphic on $\DD$.
 Show that if $\abs{f(z)} = \abs{z}$ for all $\abs{z} = 1$ then $f$ is constant.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -29,7 +29,7 @@ By Cauchy-Riemann (or the open mapping theorem), if $\abs{f}$ is constant, $f$ i
 Let $f: \Omega\to \CC$ be holomorphic and suppose there is a $z_0 \in \Omega$ with $\abs{f(z_0)}\leq \abs{f(z)}$ for all $z\in \Omega$.
 Show that either $f(a) = 0$ or $f$ is constant.
 
-#complex/completed/exercise 
+#complex/exercise/completed 
 
 :::
 
@@ -42,7 +42,7 @@ Since $z_0\in \Omega$, the MMP forces $g$ to be constant, and thus so is $f$.
 :::{.exercise title="?"}
 Show that if $\Re(f(z)) \geq 0$ for all $z\in \CC$, then $f$ is constant.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -57,7 +57,7 @@ Since $g$ is entire and bounded, $g$ is constant and thus so is $f$.
 :::{.exercise title="?"}
 Show that if $f$ is constant on any closed disk $r\bar\DD$ for $r<1$, then $f$ is constant on $\DD$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -70,7 +70,7 @@ By MMP applied to $r\bar \DD$, since $f$ achieves its maximum on the interior $r
 Suppose $f$ is entire and $f^{(n)}$ is bounded on $\CC$.
 Show that $f$ is a polynomial of degree at most $n$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -83,7 +83,7 @@ Integrating a constant $n$ times yields a polynomial of degree t most $n$.
 :::{.exercise title="Bounded harmonic functions"}
 Find all harmonic functions $u:\DD\to \CC$ such that $u(1/2) = 2$ and $\abs{u(z)}\geq 2$ for all $\abs{z} \leq 1$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

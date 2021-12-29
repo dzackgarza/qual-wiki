@@ -6,7 +6,7 @@ order: 30
 
 ## Rational, wedge 
 
-### Fall 2021.3 #complex/completed/exercise
+### Fall 2021.3 #complex/exercise/completed
 
 ^1eefcc
 
@@ -296,7 +296,7 @@ Show that
 
 ## Rectangles
 
-### Spring 2021.2 #complex/completed/qual
+### Spring 2021.2 #complex/qual/completed
 
 ^0a6802
 
@@ -539,7 +539,7 @@ Evaluate
 Evaluate $$\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \,
 dx }.$$
 
-### Cosine over quadratic #complex/completed/exercise
+### Cosine over quadratic #complex/exercise/completed
 
 :::{.problem title="?"}
 Show that

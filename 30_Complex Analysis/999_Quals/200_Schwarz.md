@@ -5,7 +5,7 @@ title: "Schwarz Lemma"
 
 # Schwarz Lemma
 
-## Fall 2020.4 #complex/completed/qual
+## Fall 2020.4 #complex/qual/completed
 
 ^0f90ac
 
@@ -68,7 +68,7 @@ $$
 
 > Hint: Schwarz lemma.
 
-## Spring 2021.5 #complex/completed/qual
+## Spring 2021.5 #complex/qual/completed
 
 ^14ad86
 
@@ -180,7 +180,7 @@ f'(z_1) \leq {1- \abs{f(z_1)}^2 \over 1 - \abs{z_1}^2}
 :::
 
 
-## Fall 2021.5  #complex/completed/qual
+## Fall 2021.5  #complex/qual/completed
 
 ^ee1748
 
@@ -249,7 +249,7 @@ f(z) = e^{i\theta}\prod_{1\leq k \leq m}{z- 0 \over 1 - 0\cdot z} = e^{i\theta}z
 
 :::
 
-## Fall 2021.6 #complex/completed/qual
+## Fall 2021.6 #complex/qual/completed
 
 ^33ab95
 

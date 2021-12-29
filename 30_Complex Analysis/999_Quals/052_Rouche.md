@@ -4,7 +4,7 @@ order: 52
 
 # Rouché's Theorem
 
-## 1 #complex/completed/exercise
+## 1 #complex/exercise/completed
 
 Prove that for every $n\in \ZZ^{\geq 0}$ the following polynomial has no roots in the open unit disc:
 \[
@@ -33,7 +33,7 @@ Note
 :::
 
 
-## 2 #complex/completed/exercise
+## 2 #complex/exercise/completed
 Assume that $\abs b < 1$ and show that the following polynomial has exactly two roots (counting multiplicity) in $\abs{z} < 1$:
 \[
 f(z) \definedas z^3 + 3z^2 + bz + b^2
@@ -66,7 +66,7 @@ Let $c\in \CC$ with $\abs{c} < {1\over 3}$.
 Show that on the open set $\theset{z\in \CC \suchthat \Re(z) < 1}$, the function $f(z) \definedas ce^z$ has exactly one fixed point.
 
 
-## 4 #complex/completed/exercise
+## 4 #complex/exercise/completed
 How many roots does the following polynomial have in the open disc $\abs{z} < 1$?
 \[
 f(z) = z^7 - 4z^3 - 1

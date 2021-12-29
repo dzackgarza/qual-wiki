@@ -3,7 +3,7 @@
 :::{.exercise title="Primitives imply vanishing integral"}
 Show that if $f$ has a primitive $F$ on $\Omega$ then $\displaystyle\int_\gamma f = 0$ for every closed curve $\gamma \subseteq \Omega$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -100,7 +100,7 @@ Suppose that $f$ is entire and $f$ has sublinear growth in the following sense:
 .\]
 Show that $f$ must be constant.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -148,7 +148,7 @@ Suppose that $f$ is entire and has polynomial growth in the following sense:
 for some constants $k$ and $R$.
 Show that $f$ is a polynomial of degree at most $n$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

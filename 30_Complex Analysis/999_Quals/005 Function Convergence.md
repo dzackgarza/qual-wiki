@@ -28,7 +28,7 @@ $$
 Suppose that for each $z \in \mathbb{D}, \lim _{n \rightarrow \infty} f_{n}(z)$ exists and equals to $g(z)$. Prove that either $g(z) \equiv 0$ or $g(z)=z$ for all $z \in D$.
 
 
-## Fall 2021.4 #complex/completed/qual
+## Fall 2021.4 #complex/qual/completed
 
 ^b0c999
 
@@ -104,7 +104,7 @@ We can now apply the $M\dash$test:
 
 :::
 
-## Spring 2021.6, Spring 2015, Extras #complex/completed/qual
+## Spring 2021.6, Spring 2015, Extras #complex/qual/completed
 
 ^c94b57
 
@@ -153,7 +153,7 @@ So given $\eps$, choose $n$ large enough to bound the integral as above by some 
 Taking $\sup$ of both sides yields $\norm{f_n - f}_{\infty, K} \leq {\eps\over 2\pi M}$, so $f_n\to f$ uniformly on $K$.
 :::
 
-## Spring 2020 HW 2, SS 2.6.10 #complex/completed/qual
+## Spring 2020 HW 2, SS 2.6.10 #complex/qual/completed
 
 :::{.problem title="?"}
 Can every continuous function on $\bar \DD$ be uniformly approximated by polynomials in the variable $z$?
@@ -169,7 +169,7 @@ No: polynomials are holomorphic and the uniform limit of holomorphic functions i
 However, $f(z) \da \bar{z}$ is continuous on $\bar\DD$ but not holomorphic, so can not be uniformly approximated by any sequence of polynomials.
 :::
 
-## Spring 2020 HW 2.5 #complex/completed/qual
+## Spring 2020 HW 2.5 #complex/qual/completed
 
 :::{.problem title="?"}
 Assume $f$ is continuous in the region $\theset{x+iy \suchthat x\geq x_0, ~ 0\leq y \leq b}$, and the following limit exists independent of $y$:
@@ -206,7 +206,7 @@ So now estimate the difference:
 using that $\length(\gamma_x) = b$ is constant.
 :::
 
-## Limiting curve variant #complex/completed/qual
+## Limiting curve variant #complex/qual/completed
 
 :::{.problem title="?"}
 Let $0\leq \alpha \leq 2\pi$ be a fixed angle.

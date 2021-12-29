@@ -14,8 +14,8 @@ Try some problems! See the following tags:
 - #algebra/qual/completed 
 - #topology/qual/completed 
 - #real_analysis/qual/completed 
-- #complex/completed/qual 
-- #complex/completed/exercise 
+- #complex/qual/completed 
+- #complex/exercise/completed 
 
 Some indices into more content:
 

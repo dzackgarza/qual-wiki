@@ -7,7 +7,7 @@ Find the orders of zeros of the following functions:
 
 - $(e^z-1)^3$
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -24,7 +24,7 @@ Determine the order of the pole of
 - ${1\over z\sin(z)}$ at $z_0 = 0$.
 - ${e^{z^2}-1\over z^4}$ at $z_0=0$
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -70,7 +70,7 @@ Prove that the following statements or true, or find a counterexample:
 - If $f$ has an essential singularity at $z_0$ at $g$ is has a pole at $z_0$, then $z_0$ is an essential singularity for $f+g$.
 - If $f$ has a pole of order $N$ at $z_0$ then $f^2$ has a pole of order $2N$ at $z_0$.
 
-#complex/completed/exercise 
+#complex/exercise/completed 
 
 :::
 
@@ -101,7 +101,7 @@ Classify the singularities of
 f(z) = {z^3+1\over z^2(z+1)}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -150,7 +150,7 @@ f_2(z) &= e^{\sin\qty{1\over z}} \\
 f_3(z) &= {1+z \over e^z-1}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -186,7 +186,7 @@ $f_3$: pole of order 1 with residue 1, evident after some slightly clever Lauren
 :::{.exercise title="Singularities of of $\sin(z)/z$"}
 Show that $\sin(z)/z$ has no poles.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -206,7 +206,7 @@ Classify the singularities and compute the residues at any poles of the followin
 f(z) \da {1\over e^z - 1}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -224,7 +224,7 @@ Start by computing the first:
 :::{.exercise title="Entire functions with poles at infinity"}
 Characterize all entire functions with a pole of order $m$ at $\infty$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -240,7 +240,7 @@ If $z_0=\infty$ is a pole of order $m$, then $c_m\neq 0$ but $c_{>m} = 0$, which
 Fix $a\in \CC\union\ts{\infty}$ and let $f(z) \da e^{1\over z^2}$.
 Find a sequence $z_k\to 0$ such that $f(z_k) \convergesto{k\to\infty} a$
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -264,7 +264,7 @@ Determine a function with
 - A pole of order 2 at $z=1+i$
 - A removable singularity at $z=7$
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -286,7 +286,7 @@ f(z) \da {1\over \sin(z)} - {1\over z} + {2z\over z^2-\pi^2}
 .\]
 Show that on $\abs{z} < 2\pi$, all singularities are removable, and find a Laurent expansion about $z=0$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

@@ -94,7 +94,7 @@ Show that if $f$ is once complex differentiable at each point of $\Omega$, then 
 :::{.exercise title="?"}
 Show that if $f$ is entire and $f(z) \convergesto{z\to\infty} \infty$ then $f$ is a polynomial.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

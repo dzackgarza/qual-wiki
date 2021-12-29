@@ -14,7 +14,7 @@ title: Integral Exercises
 \int_\RR {1 \over x^4 + 1} = {\pi \sqrt{2} \over 2} = {\pi \over \sqrt 2}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -59,7 +59,7 @@ so
 I \da \int_0^\infty {1\over x^4 + 1 }\dx = {\pi \over 2\sqrt 2}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -193,7 +193,7 @@ using that ${\sqrt 2\over 2}(1+i) = e^{i\pi \over 4} = \omega$ and $\omega^2 = i
 \int_\RR {1 \over (1+x^2)^2} = {\pi \over 2}
 .\]
 
-#complex/completed/exercise 
+#complex/exercise/completed 
 
 :::
 
@@ -290,7 +290,7 @@ I = {2n \choose n} {\pi \over 4^n}
 .\]
 
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -325,7 +325,7 @@ I
 I\da \int_\RR {x\over (x^2 + 4x+13)^2}\dx
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -406,7 +406,7 @@ I = 2\pi i \cdot {i\over 54} = -{\pi \over 27}
 I \da \int_{0}^{\infty} \frac{\cos (x)}{x^{2}+b^{2}} d x=\frac{\pi \mathrm{e}^{-b}}{2 b}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -447,7 +447,7 @@ I = \Re {1\over 2} \tilde I = {\pi e^{-b} \over 2b}
 I = \int_\RR {x\sin(x) \over 1 + x^2}\dx
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -485,7 +485,7 @@ I = {\pi \over e}
 I \da \int_\RR {\cos(x) \over x+i}\dx
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -529,7 +529,7 @@ I = -{i\pi \over e}
 I \da \int_\RR {e^{x\over 2}\over 1+e^x}\dx
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -597,7 +597,7 @@ Computing this residue:
 I \da \int_\RR {e^{ax} \over \cosh(x) }\dx = \pi \sec\qty{a\pi \over 2} && \abs{\Re(a)} < 1
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 
 :::
@@ -740,7 +740,7 @@ I_1 \da \operatorname{PV}\int_\RR {\sin(x) \over x}\dx = \pi \\
 I_2 \da \operatorname{PV}\int_\RR {\cos(x) \over x}\dx = 0 
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -761,7 +761,7 @@ I \da \PV \int_\RR f(z)\dz = 0 + i\pi \implies I_1 = \Im(I) = \pi, \quad I_2 = \
 I \da \int_\RR {xe^{2ix} \over x^2-1}\dx = i\pi \cos(2)
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -818,7 +818,7 @@ I
 \int_{[-\pi, \pi]} {1\over 1 + \sin^2(\theta)} \dtheta
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -887,7 +887,7 @@ I = 2\pi i \cdot -{2i\over \sqrt 8} = {4\pi \over \sqrt{8}}
 = \begin{cases}\frac{2 \pi}{a^{2}-1} & \text { if }|a|>1 \\ \frac{2 \pi}{1-a^{2}} & \text { if }|a|<1\end{cases}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -932,7 +932,7 @@ Now there are two cases:
 \int_{0}^{2 \pi} \frac{d \theta}{a+b \cos \theta}=\frac{2 \pi}{\sqrt{a^{2}-b^{2}}}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -988,7 +988,7 @@ I &= 2\pi i \cdot -{2 i \over b}{b\over 2\sqrt{a^2-b^2}} \\
 I \da \int_0^\infty {\log(x) \over 1+x^2}\dx = 0
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1035,7 +1035,7 @@ so by the residue theorem,
 I\da \int_0^\infty {\log(x) \over (1+x^2)^2}\dx = -{\pi \over 4}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1170,7 +1170,7 @@ I &= {2\pi i \over 4\pi i}(r_1 + r_2) \\
 \int_0^\infty {\log(x) \over x^2+a^2}\dx &= {\pi\log(a)\over 2a} && a>0
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1220,7 +1220,7 @@ I\da \int_0^\infty {\log(x) \over 1+x^a}\dx
 &= - {\pi^2\over a^2} {\cos\qty{\pi\over a} \over \sin^2\qty{\pi\over a}}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1330,7 +1330,7 @@ I
 I \da \int_0^\infty {x^\alpha \over (x+1)^2}\dx && 0 < \alpha < 2
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1402,7 +1402,7 @@ Thus
 I\da \int_0^\infty {x^{1\over 3} \over 1 + x^2} \dx = {\pi \over \sqrt 3}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1520,7 +1520,7 @@ I
 I\da \int_{-1}^1 \sqrt{1-x^2} \dx = {\pi \over 2}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1571,7 +1571,7 @@ thus
 I \da \int_0^1 {1\over \sqrt{x^2-1}}\dx = {i\pi \over 2}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1637,7 +1637,7 @@ Putting this together
 I \da \int_{-1}^1 {1\over (x-a) \sqrt{1-x^2} }\dx = {\pi \over \sqrt{a^2-1}}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1679,7 +1679,7 @@ so
 \int_{1}^{\infty} \frac{d x}{x \sqrt{x^{2}-1}} = {\pi \over 2}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -1751,7 +1751,7 @@ So by the residue theorem,
 I\da \int_\RR {1\over x^2 + 3x+ 2 }\dx
 .\]
 
-#complex/completed/exercise 
+#complex/exercise/completed 
 
 :::
 

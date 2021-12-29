@@ -9,7 +9,7 @@ order: 51
 :::{.exercise title="Power series converge uniformly on their radius of convergence"}
 Show that any power series converges uniformly within its radius of convergence.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -52,7 +52,7 @@ Thus $\ts{M_k}\in \ell^1(\NN)$, and so $\sum_k f_k$ converges uniformly and abso
 :::{.exercise title="Power series are continuous"}
 Show that any power series is continuous on its domain of convergence. 
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -73,7 +73,7 @@ Show that
 
 Thus if $f(z) = \sum{k\geq 0} c_k (z-z_0)^k$ is a power series, since $S_N\to f$ locally uniformly, $f$ can be differentiated term-by-term within its radius of convergence.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -130,7 +130,7 @@ Find the radius of convergence of
 - $\sum a^k z^k$ for $a$ a constant.
 - $\sum a^{k^2}z^k$
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -145,7 +145,7 @@ Find the radius of convergence of
 Find the radius of convergences for the power series expansion of $\sqrt{z}$ about $z_0 = 4 +3i$.
 Repeat with $z_1=-4+3i$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -166,7 +166,7 @@ Find the radius of convergence for
 f(z) \da \sum_{k\in \ZZ} 2^{-\abs{k}}z^k
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -196,7 +196,7 @@ Expand $f(z) = {1\over z(z-1)}$ in both
 - $\abs{z} < 1$
 - $\abs{z} > 1$
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -216,7 +216,7 @@ Find the Laurent expansion about $z=0$ and $z=1$ respectively of the following f
 f(z) \da {z+1 \over z(z-1)}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 :::
 
 :::{.solution}
@@ -245,7 +245,7 @@ Find a Laurent expansion for $f(z) \da {1\over (z-3)(z-1)}$ on the 3 annular reg
 
 ![](figures/2021-12-19_22-39-19.png)
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -306,7 +306,7 @@ Find a power series expansion of
 f(z) = {1\over e^z-1}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -339,7 +339,7 @@ Find a Laurent expansion at $z=0$ for
 f(z) \da e^{1\over z}\cos\qty{1\over z}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -366,7 +366,7 @@ f(z) \da \cos\qty{1- {1\over z}}
 ,\]
 and compute the "residue" coefficient $c_{-1}$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -395,7 +395,7 @@ Find a Laurent expansion that converges for $\abs{z} > 1$ of
 f(z) \da {1 \over e^{1-z}}
 .\]
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 
@@ -413,7 +413,7 @@ f(z) = {1\over 1 + e^z}
 \]
 about $z_0 = 0$ and $z_1 = i\pi$.
 
-#complex/completed/exercise
+#complex/exercise/completed
 
 :::
 

@@ -139,7 +139,7 @@ This is because each derivative is analytic and the zeros of an analytic functio
 But by hypothesis this set is uncountable.
 :::
 
-## Spring 2021.3 #complex/completed/qual
+## Spring 2021.3 #complex/qual/completed
 
 ^409461
 
@@ -226,7 +226,7 @@ This contradicts $A>0$. $\contradiction$
 
 
 
-## Spring 2021.4 #complex/completed/qual
+## Spring 2021.4 #complex/qual/completed
 
 ^c3336f
 
@@ -273,7 +273,7 @@ But we can write
 
 :::
 
-## Entire injective functions are linear #complex/completed/exercise
+## Entire injective functions are linear #complex/exercise/completed
 
 :::{.exercise title="Entire injective functions"}
 Show that if $f$ is entire and injective then $f$ is necessarily linear, i.e. $f(z) = az+b$ for some constants $a,b\in \CC$ with $a\neq 0$.
