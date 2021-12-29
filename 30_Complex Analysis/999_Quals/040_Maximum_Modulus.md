@@ -4,7 +4,7 @@ order: 40
 
 # Maximum Modulus
 
-## Fall 2020.6 #work
+## Fall 2020.6 #work/qual
 
 ^189826
 
@@ -18,7 +18,7 @@ $$
 
 - Show furthermore that if $|f(z)|$ is constant on $\partial U$, then $f(z)$ has a zero in $U$ (i.e., there exists $z_{0} \in U$ for which $f\left(z_{0}\right)=0$ ).
 
-## Spring 2020 HW 3, SS 3.8.15 #work
+## Spring 2020 HW 3, SS 3.8.15 #work/exercise
 Use the Cauchy inequalities or the maximum modulus principle to solve the following problems:
 
 a. 
@@ -40,7 +40,7 @@ Conclude that there exists a point $w\in S^1$ such that the product of the above
 d. 
 Show that if the real part of an entire function is bounded, then $f$ is constant.
 
-## Spring 2020 HW 3, 3.8.17 #work
+## Spring 2020 HW 3, 3.8.17 #work/exercise
 
 Let $f$ be non-constant and holomorphic in an open set containing the closed unit disc.
 
@@ -53,7 +53,7 @@ Show that if $\abs{f(z)} = 1$ whenever $\abs{z} = 1$, then the image of $f$ cont
 b. 
 If $\abs{f(z)} \geq 1$ whenever $\abs{z} = 1$ and there exists a $z_0\in \DD$ such that $\abs{f(z_0)} < 1$, then the image of $f$ contains the unit disc.
 
-## Spring 2020 HW 3, 3.8.19 #work
+## Spring 2020 HW 3, 3.8.19 #work/exercise
 
 Prove that maximum principle for harmonic functions, i.e.
 
@@ -69,14 +69,14 @@ b. Suppose $\Omega$ is a region with compact closure $\bar \Omega$.
 > Let $f$ be holomorphic near $z_0$ with $\Re(f) = u$, and show that $f$ is not an open map.
 > Then (a) implies (b).
 
-## Spring 2020 HW 3.9 #work
+## Spring 2020 HW 3.9 #work/exercise
 
 Let $f$ be analytic in a region $D$ and $\gamma$ a rectifiable curve in
 $D$ with interior in $D$.
 
 Prove that if $f(z)$ is real for all $z\in \gamma$, then $f$ is constant.
 
-## Spring 2020 HW 3.14 #work
+## Spring 2020 HW 3.14 #work/exercise
 
 Let $f$ be nonzero, analytic on a bounded region $\Omega$ and continuous
 on its closure $\overline \Omega$.
@@ -84,7 +84,7 @@ on its closure $\overline \Omega$.
 Show that if $\abs{f(z)} \equiv M$ is constant for $z\in \partial \Omega$, then $f(z) \equiv Me^{i\theta}$ for some real constant $\theta$.
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 Let
 $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
@@ -95,11 +95,12 @@ with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. Prove that
 -   $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2} \log \frac{1}{1-|\alpha|^2}}$.
 
 
-## Tie's Extra Questions: Spring 2015 #work
+## Tie's Extra Questions: Spring 2015 #work/exercise
 
 Let $\Omega$ be a simply connected open set and let $\gamma$ be a simple closed contour in $\Omega$ and enclosing a bounded region $U$ anticlockwise. Let $f: \ \Omega \to {\mathbb C}$ be a holomorphic function and $|f(z)|\leq M$ for all $z\in \gamma$. Prove that
 $|f(z)|\leq M$ for all $z\in U$.
 
-## Tie's Extra Questions: Fall 2015 #work
+## Tie's Extra Questions: Fall 2015 #work/exercise
 
 Assume $f(z)$ is analytic in region $D$ and $\Gamma$ is a rectifiable curve in $D$ with interior in $D$. Prove that if $f(z)$ is real for all $z \in \Gamma$, then $f(z)$ is a constant.
+

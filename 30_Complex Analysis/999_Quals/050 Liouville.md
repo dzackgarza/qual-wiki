@@ -4,7 +4,7 @@ order: 50
 
 # Liouville's Theorem
 
-## Spring 2020.3, Extras Fall 2009 #completed
+## Spring 2020.3, Extras Fall 2009 #completed/qual
 
 ^c6e205
 
@@ -50,7 +50,7 @@ So $f(z) = c_0$ is constant.
 
 :::
 
-## FTA via Liouville #completed
+## FTA via Liouville #completed/exercise
 
 :::{.problem title="?"}
 Prove the Fundamental Theorem of Algebra (using complex analysis).
@@ -80,7 +80,7 @@ Prove the Fundamental Theorem of Algebra (using complex analysis).
 - By Liouville's theorem, $1/p$ is constant and thus $p$ is constant, a contradiction.
 :::
 
-## Entire functions satisfying an inequality #completed
+## Entire functions satisfying an inequality #completed/exercise
 
 :::{.problem title="?"}
 Find all entire functions that satisfy
@@ -120,7 +120,7 @@ Thus all such functions are of the form $f(z) = cz$ for some $c\in \CC$ with $\a
 :::
 
 
-## Entire functions with an asymptotic bound #completed
+## Entire functions with an asymptotic bound #completed/exercise
 
 :::{.problem title="?"}
 Find all entire functions satisfying
@@ -146,7 +146,7 @@ This forces $f = c_0$ to be constant.
 
 
 
-## Tie's Extra Questions: Fall 2009 #completed
+## Tie's Extra Questions: Fall 2009 #completed/exercise
 
 :::{.problem title="?"}
 Let $f(z)$ be entire and assume values of $f(z)$ lie outside a *bounded* open set $\Omega$. Show without using Picard's theorems that $f(z)$ is a constant.
@@ -159,7 +159,7 @@ So $1/f$ extends to a holomorphic function.
 But now $1/f =c$ is constant by Liouville, which forces $f= 1/c$ to be constant.
 :::
 
-## Tie's Extra Questions: Fall 2015 #completed
+## Tie's Extra Questions: Fall 2015 #completed/exercise
 
 
 :::{.problem title="?"}
