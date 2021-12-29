@@ -69,18 +69,18 @@ In the Spirit of Lipman Bers*
 - [Math Camp review](http://web.stanford.edu/~yuvalwig/math/teaching/ComplexAnalysisNotes.pdf)
 	#resources/summaries
 
-- [[Won_-_Complex_Analysis_Qual_Sheet.pdf]]
+- [Won's UCSD Review Sheet](Won_-_Complex_Analysis_Qual_Sheet.pdf)
 	#resources/summaries 
 
 - [[attachments/Complex_Qual_Notes.pdf|Josh Swanson Complex Prelim Notes]]
 	#resources/summaries
 	
-- Cambridge notes: <https://dec41.user.srcf.net/notes/IB_L/complex_analysis_trim.pdf>
+- [Cambridge notes](https://dec41.user.srcf.net/notes/IB_L/complex_analysis_trim.pdf)
 	#resources/summaries 
 	
 # Course Notes
 
-- [[http://people.math.harvard.edu/~ctm/papers/home/text/class/harvard/213a/course/course.pdf|Harvard 2021 Complex Analysis courses notes]]
+- [Harvard 2021 Complex Analysis courses notes](http://people.math.harvard.edu/~ctm/papers/home/text/class/harvard/213a/course/course.pdf)
 	#resources/course_notes
 	
 - [Ko Honda Course Notes](https://www.math.ucla.edu/~honda/math520/notes.pdf)
@@ -95,11 +95,10 @@ In the Spirit of Lipman Bers*
 - [Berkeley 2015 Course Notes](https://web.mst.edu/~jcmcfd/Complex-Analysis.pdf)
 	#resources/course_notes 
 
-- [[McMullen_-_Advanced_Complex_Analysis.pdf|Something something]]
+- [[McMullen_-_Advanced_Complex_Analysis.pdf|McMulllen Advanced Complex Analysis]]
 
 
 
 # Fun Extras
 
-- Good Paper: Hormander 1955
-[https://projecteuclid.org/download/pdf_1/euclid.acta/1485892151](https://projecteuclid.org/download/pdf_1/euclid.acta/1485892151)
+[Good Paper: Hormander 1955](https://projecteuclid.org/download/pdf_1/euclid.acta/1485892151)

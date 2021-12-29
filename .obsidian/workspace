@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "30_Complex Analysis/000_Resources/00_Books_Notes.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         }
       }

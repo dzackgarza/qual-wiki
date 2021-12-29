@@ -383,5 +383,7 @@
   "fileSortOrder": "alphabetical",
   "autoPairBrackets": false,
   "tabSize": 2,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "legacyEditor": false,
+  "livePreview": true
 }
