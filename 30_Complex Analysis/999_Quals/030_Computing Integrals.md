@@ -113,7 +113,7 @@ Parameterize $\gamma_2 = \ts{Re^{it} \st t\in [0, 2\pi/n]}$ and apply the ML est
 
 :::
 
-### Spring 2020 HW 3, SS 3.8.2 #work/qual/exercise
+### Spring 2020 HW 3, SS 3.8.2 #work/exercise/exercise
 
 Evaluate the integral
 \[
@@ -123,7 +123,7 @@ Evaluate the integral
 What are the poles of ${1\over 1 + z^4}$ ?
 
 
-### Spring 2020 HW 3, SS 3.8.6 #work/qual/exercise
+### Spring 2020 HW 3, SS 3.8.6 #work/exercise/exercise
 Show that
 \[
 \int_{-\infty}^{\infty} \frac{d x}{\left(1+x^{2}\right)^{n+1}}=\frac{1 \cdot 3 \cdot 5 \cdots(2 n-1)}{2 \cdot 4 \cdot 6 \cdots(2 n)} \cdot \pi
@@ -131,7 +131,7 @@ Show that
 
 
 
-### Quadratic over quartic #work/qual
+### Quadratic over quartic #work/exercise
 
 :::{.problem title="?"}
 Let $a>0$ and calculate
@@ -140,7 +140,7 @@ Let $a>0$ and calculate
 .\]
 :::
 
-### Rational function #work/qual
+### Rational function #work/exercise
 
 :::{.problem title="?"}
 Calculate
@@ -150,7 +150,7 @@ Calculate
 
 :::
 
-### Denominator polynomial #work/qual
+### Denominator polynomial #work/exercise
 
 :::{.problem title="?"}
 Calculate
@@ -161,7 +161,7 @@ Calculate
 
 ## Rational, branch cut
 
-### Standard example #work/qual
+### Standard example #work/exercise
 
 :::{.problem title="?"}
 Show that 
@@ -185,7 +185,7 @@ Show that
 \]
 using complex analysis, $0<a<n$. Here $n$ is a positive integer.
 
-### Spring 2020 HW 3.7 #work/qual
+### Spring 2020 HW 3.7 #work/exercise
 
 Let $0<a<4$ and evaluate 
 \[
@@ -214,7 +214,7 @@ Let $a \in \mathbb{R}$ with $0<a<3$. Evaluate
 
 ## Rational Functions of $\sin$ or $\cos$
 
-### Cosine in denominator #work/qual
+### Cosine in denominator #work/exercise
 
 :::{.problem title="?"}
 Show 
@@ -257,7 +257,7 @@ Show that if $a,b\in \RR$ with $a > \abs{b}$, then
 \int_{0}^{2 \pi} \frac{d \theta}{a+b \cos \theta}=\frac{2 \pi}{\sqrt{a^{2}-b^{2}}}
 .\]
 
-### Fresnel #work/qual
+### Fresnel #work/exercise
 
 :::{.problem title="?"}
 Suppose $a>b>0$ and calculate
@@ -269,7 +269,7 @@ Suppose $a>b>0$ and calculate
 
 
 
-### Fresnel #work/qual
+### Fresnel #work/exercise
 
 :::{.problem title="?"}
 Let $n\in \ZZ^{\geq 1}$ and $0<\theta<\pi$ and show that
@@ -296,7 +296,7 @@ Show that
 
 ## Rectangles
 
-### Spring 2021.2 #completed/exercise
+### Spring 2021.2 #completed/qual
 
 ^0a6802
 
@@ -416,7 +416,7 @@ Show that if $a>0$, then
 >
 > ![Image](30_Complex%20Analysis/999_Quals/figures/image_2020-06-17-21-53-19.png)
 
-### Spring 2020.2 #work/exercise
+### Spring 2020.2 #work/qual
 
 ^c765ed
 
@@ -427,7 +427,7 @@ $$
 $$
 
 
-### Square root in numerator #work/qual
+### Square root in numerator #work/exercise
 
 :::{.problem title="?"}
 Calculate
@@ -437,7 +437,7 @@ Calculate
 
 :::
 
-### Square root #work/qual
+### Square root #work/exercise
 
 :::{.problem title="?"}
 Calculate
@@ -602,7 +602,7 @@ Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \dx }$.
 
 ## Unsorted
 
-### Spring 2020 HW 3.6 #work/qual
+### Spring 2020 HW 3.6 #work/exercise
 
 a. 
 Show (without using 3.8.9 in the S&S) that
@@ -616,7 +616,7 @@ Show that this identity is equivalent to S&S 3.8.9:
 \int_0^1 \log(\sin(\pi x)) ~dx = -\log 2
 .\]
 
-### Tie's Extra Questions: Spring 2015
+### Tie's Extra Questions: Spring 2015 #work/exercise
 
 Compute the following integrals.
 
@@ -643,7 +643,7 @@ $\displaystyle \int_{|z| = 1} \cot^2 z \, dz$.
 
 ## Conceptual
 
-### Spring 2020 HW 3 #  3.8.1
+### Spring 2020 HW 3, SS 3.8.1 #work/exercise
 Use the following formula to show that the complex zeros of $\sin(\pi z)$ are exactly the integers, and they are each of order 1:
 \[
 \sin \pi z=\frac{e^{i \pi z}-e^{-i \pi z}}{2 i}
@@ -652,7 +652,7 @@ Use the following formula to show that the complex zeros of $\sin(\pi z)$ are ex
 Calculate the residue of ${1\over \sin(\pi z)}$ at $z=n\in \ZZ$.
 
 
-### Zeros using residue theorem #work/qual
+### Zeros using residue theorem #work/exercise
 
 :::{.problem title="?"}
 Suppose that $f$ is an analytic function in the region $D$ which
@@ -679,7 +679,7 @@ where $w$ is the zero from (1).
 
 :::
 
-### Tie's Extra Questions: Fall 2009
+### Tie's Extra Questions: Fall 2009 #work/exercise
 
 Suppose that $f$ is an analytic function in the region $D$ which
 contains the point $a$. Let
