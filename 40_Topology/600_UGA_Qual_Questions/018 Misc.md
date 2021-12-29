@@ -6,7 +6,7 @@ Prove that $\RR^2$ is not homeomorphic to $\RR^n$ for $n > 2$.
 ## 2 (Spring '12) #work 
 Prove that any finite tree is contractible, where a **tree** is a connected graph that contains no closed edge paths.
 
-## 3 (Spring '13) #topology/completed/qual
+## 3 (Spring '13) #topology/qual/completed
 Show that any continuous map $f : \RP^2 \to S^1 \times S^1$ is necessarily null-homotopic.
 
 :::{.solution}
@@ -27,7 +27,7 @@ Show that any continuous map $f : \RP^2 \to S^1 \times S^1$ is necessarily null-
   - Note that $\widetilde{S^1\cross S^1} = \RR^2$.
 :::
 
-## 4 (Fall '11) #topology/completed/qual
+## 4 (Fall '11) #topology/qual/completed
 Prove that, for $n \geq 2$, every continuous map $f: \RP^n \to S^1$ is null-homotopic.
 
 :::{.solution}
@@ -60,7 +60,7 @@ Let $S^2 \to \RP^2$ be the universal covering map.
 Is this map null-homotopic? 
 Give a proof of your answer.
 
-## 6 (Spring '17) #topology/completed/qual
+## 6 (Spring '17) #topology/qual/completed
 Suppose that a map $f : S^3 \times S^3 \to \RP^3$ is not surjective. 
 
 Prove that $f$ is homotopic to a constant function.

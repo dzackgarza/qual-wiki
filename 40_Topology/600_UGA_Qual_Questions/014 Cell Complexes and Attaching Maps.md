@@ -138,7 +138,7 @@ Let $\phi_k : S^n \to S^n$ be a degree $k$ map for some integer $k$.
 
 Find $H_i(C(\phi_k ))$ for all $i$.
 
-## Spring 2019 #7 #topology/completed/qual
+## Spring 2019 #7 #topology/qual/completed
 For $f:X\to Y$, the *mapping cone* of $f$ is defined as
 \[  
 C_f \definedas \qty{X\cross I} \disjoint Y/\sim \\

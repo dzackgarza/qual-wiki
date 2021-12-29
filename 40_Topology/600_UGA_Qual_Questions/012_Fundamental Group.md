@@ -1,6 +1,6 @@
 # The Fundamental Group
 
-## 1 (Spring '15) #topology/completed/qual
+## 1 (Spring '15) #topology/qual/completed
 
 :::{.problem title="?"}
 Let $S^1$ denote the unit circle in $C$, $X$ be any topological space, $x_0 \in X$, and $$\gamma_0, \gamma_1 : S^1 \to X$$ be two continuous maps such that $\gamma_0 (1) = \gamma_1 (1) = x_0$.

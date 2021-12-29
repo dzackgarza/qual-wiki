@@ -1,6 +1,6 @@
 # Covering Spaces
 
-## 1 (Spring 11/Spring '14) #topology/completed/qual
+## 1 (Spring 11/Spring '14) #topology/qual/completed
 
 a.  
 Give the definition of a **covering space** $\hat{X}$
@@ -105,7 +105,7 @@ Give an example of a nontrivial element of $\pi_1 (S, \ast)$ which lifts to a tr
 ## 5 (Fall '04) #work
 Describe the 3-fold connected covering spaces of $S^1 \lor S^1$.
 
-## 6 (Spring '17) #topology/completed/qual
+## 6 (Spring '17) #topology/qual/completed
 Find all three-fold covers of the wedge of two copies of $\RP^2$ .
 Justify your answer.
 
@@ -138,7 +138,7 @@ To get a threefold cover, we want the basepoint to lift to three preimages, so w
 :::
 
 
-## 7 (Fall '17) #topology/completed/qual
+## 7 (Fall '17) #topology/qual/completed
 Describe, as explicitly as you can, two different (non-homeomorphic) connected two-sheeted covering spaces of $\RP^2 \lor \RP^3$, and prove that they are not homeomorphic.
 
 \todo[inline]{Expand solution.}
@@ -153,7 +153,7 @@ Describe, as explicitly as you can, two different (non-homeomorphic) connected t
 :::
 
 
-## 8 (Spring '19) #topology/completed/qual
+## 8 (Spring '19) #topology/qual/completed
 Is there a covering map from
 $$
 X_3 = \theset{x^2 + y^2 = 1} \cup \theset{(x - 2)^2 + y^2 = 1} \cup \theset{(x + 2)^2 + y^2 = 1} \subset \RR^2

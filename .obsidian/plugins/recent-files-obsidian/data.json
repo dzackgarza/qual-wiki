@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "030_Computing Integrals",
+      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
+    },
+    {
       "basename": "index",
       "path": "index.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "0000_Undergraduate Analysis",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
-    },
-    {
-      "basename": "030_Computing Integrals",
-      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
     },
     {
       "basename": "001_Real_Review",

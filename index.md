@@ -12,7 +12,7 @@ Try some #problems (see also #work) and read #solutions, or help me  unsolved ex
 Try some problems! See the following tags:
 
 - #algebra/qual/completed 
-- #topology/completed/qual 
+- #topology/qual/completed 
 - #real_analysis/qual/completed 
 - #complex/completed/qual 
 - #complex/completed/exercise 
