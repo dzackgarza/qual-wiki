@@ -156,6 +156,6 @@ Use summation by parts to show that $\sin(n)/n$ converges.
 :::{.problem title="?"}
 Show that ${1\over z} \sum_{k=1}^\infty {z^k \over k}$ converges on $S^1 \setminus\theset{1}$ using summation by parts. 
 
-#work
+#work/exercise
 
 :::

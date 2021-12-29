@@ -186,14 +186,14 @@ So $\int_\Gamma \Re(z) \dz = i$.
 :::{.exercise title="?"}
 Show that if $f$ is a differentiable contraction, $f$ is uniformly continuous.
 
-#work
+#work/exercise
 
 :::
 
 :::{.exercise title="Uniform limit theorem"}
 Show that a continuous function on a compact set is uniformly continuous.
 
-#work
+#work/exercise
 
 :::
 

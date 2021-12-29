@@ -218,7 +218,7 @@ One can find branch points for $\log(f(z))$ by noting that $\log$ should be a pr
 :::{.exercise title="?"}
 Prove that if $D$ is a simply connected domain and $f(z)$ is holomorphic and nonzero on $D$, then $f(z)=e^{g(z)}$, where $g(z)$ is holomorphic on $D$.
 
-#work
+#work/exercise
 
 :::
 

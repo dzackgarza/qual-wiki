@@ -491,7 +491,7 @@ and try to obtain a geometric series to obtain
 f(z)=\sum_{j=-\infty}^{\infty}\left(\frac{1}{2 \pi i} \oint_{\left|w-z_{0}\right|=r} \frac{f(w)}{\left(w-z_{0}\right)^{j+1}} d w\right)\left(z-z_{0}\right)^{j}
 .\]
 
-#work
+#work/exercise
 
 :::
 

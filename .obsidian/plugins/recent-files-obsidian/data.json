@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "999_Basics_Exercises",
+      "path": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
+    },
+    {
+      "basename": "001_Precalculus",
+      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
+    },
+    {
+      "basename": "115_Complex Log",
+      "path": "30_Complex Analysis/010_Basics/115_Complex Log.md"
+    },
+    {
+      "basename": "061_Analytic_NT",
+      "path": "30_Complex Analysis/010_Basics/061_Analytic_NT.md"
+    },
+    {
+      "basename": "051 Series Exercises",
+      "path": "30_Complex Analysis/010_Basics/051 Series Exercises.md"
+    },
+    {
+      "basename": "005_Calculus_Preliminaries",
+      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
+    },
+    {
       "basename": "0000_Undergraduate Analysis",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
     },
@@ -13,16 +37,8 @@
       "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
     },
     {
-      "basename": "005_Calculus_Preliminaries",
-      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
-    },
-    {
       "basename": "001_Real_Review",
       "path": "30_Complex Analysis/999_Quals/001_Real_Review.md"
-    },
-    {
-      "basename": "999_Basics_Exercises",
-      "path": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
     },
     {
       "basename": "040_MMP",
@@ -47,10 +63,6 @@
     {
       "basename": "050 Series Reference",
       "path": "30_Complex Analysis/010_Basics/050 Series Reference.md"
-    },
-    {
-      "basename": "001_Precalculus",
-      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
     },
     {
       "basename": "000_Tips_Techs",
@@ -83,10 +95,6 @@
     {
       "basename": "020 Liouville",
       "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
-    },
-    {
-      "basename": "051 Series Exercises",
-      "path": "30_Complex Analysis/010_Basics/051 Series Exercises.md"
     },
     {
       "basename": "030 Identity Principle",
@@ -191,14 +199,6 @@
     {
       "basename": "9999_2021_Fall",
       "path": "10_Algebra/600_Qual_Questions_UGA/9999_2021_Fall.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
-    },
-    {
-      "basename": "070_Morera",
-      "path": "30_Complex Analysis/999_Quals/070_Morera.md"
     }
   ],
   "omittedPaths": [],
