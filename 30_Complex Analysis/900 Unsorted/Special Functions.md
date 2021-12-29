@@ -1,6 +1,9 @@
 # Special Functions
 
 ## Transforms
+
+:::{.remark}
+
 \[
 \hat{f}(\xi) \da \int_\RR e^{-i\xi x} f(x)\dx \\
 f(x) = {1\over 2\pi}\int_\RR e^{i\xi x} \hat{f}(\xi) \dxi 
@@ -8,6 +11,7 @@ f(x) = {1\over 2\pi}\int_\RR e^{i\xi x} \hat{f}(\xi) \dxi
 
 ![](figures/2021-12-20_07-55-38.png)
 
+:::
 
 ## The Gamma Function
 
@@ -58,7 +62,6 @@ The residues:
 
 ## The Beta Function
 
-
 :::{.definition title="Beta function"}
 \[
 B(z, w)=\int_{0}^{1} t^{z-1}(1-t)^{w-1} \mathrm{~d} t
@@ -74,8 +77,6 @@ B(z, w) = {\Gamma(z) \Gamma(w) \over \Gamma(z+w)}
 
 > Hint: find $\mcl(t^{z-1})$ and $\mcl(t^{z-1}\convolve t^{w-1})$.
 :::
-
-
 
 ## Riemann Zeta
 
@@ -120,7 +121,6 @@ There is a functional equation:
 
 :::
 
-
 ## Infinite Series and Products
 
 :::{.fact title="Infinite products"}
@@ -147,12 +147,14 @@ An interesting way to sum infinite series:
 
 :::
 
-
 :::{.exercise title="Sum formulas: 1/(n-a)^2"}
 Show that
 \[
 \sum_{k\in \ZZ}{1\over (z-k)^2} = (\pi \csc(\pi z))^2
 .\]
+
+#work/exercise
+
 :::
 
 :::{.exercise title="Sum formulas: $1/n^2$"}
@@ -163,16 +165,20 @@ Show
 by integrating $\pi \cot(\pi z)z^{-2}$.
 
 
-:::
+#work/exercise
 
+:::
 
 :::{.exercise title="Sum formulas: $1/n^2+a^2$"}
 Show that
 \[
 \sum_{k\in \ZZ} {1\over k^2 + a^2} = {\pi \coth(\pi a) \over a} \qquad\text{for } a>0
 .\]
-:::
 
+
+#work/exercise
+
+:::
 
 :::{.exercise title="?"}
 Show that
@@ -181,16 +187,20 @@ Show that
 .\]
 
 
-:::
+#work/exercise
 
+:::
 
 :::{.exercise title="?"}
 Show that
 \[
 \sum_{k\in \ZZ} {1\over \qty{ k - {1\over 2}}^2 } = \pi^2
 .\]
-:::
 
+
+#work/exercise
+
+:::
 
 :::{.exercise title="?"}
 Show that
@@ -199,8 +209,9 @@ Show that
 .\]
 
 
+#work/exercise
+
+
 :::
-
-
 
 

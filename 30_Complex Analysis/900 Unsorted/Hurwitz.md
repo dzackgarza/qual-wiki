@@ -20,6 +20,7 @@ Moreover, these zeros converge to $z_0$ as $k\to \infty$.
 The zeros of the sequence converge to the zeros of the limit.
 :::
 
+:qa
 :::{.theorem title="Hurwitz 2"}
 If $\ts{f_k}$ are univalent functions on $\Omega$ converging normally to $f$, then either
 

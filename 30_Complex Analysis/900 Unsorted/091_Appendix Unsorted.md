@@ -10,10 +10,11 @@ Moreover, $\tilde S$ is biholomorphic to either
 
 :::
 
-
-
 :::{.exercise title="Using algebraic topology"}
 Show that there is no continuous square root function defined on all of $\CC$.
+
+#completed/exercise
+
 :::
 
 :::{.solution}
@@ -27,5 +28,4 @@ so $p\circ f = \id$.
 Using $\pi_1(\CC\units) = \ZZ$, the induced maps are $p_*(1) = 2$ and $f_*(1) = n$ for some $n\in \ZZ$.
 But then $p_* \circ f_*$ is multiplication by $2n$, contradicting $p_* \circ f_* = \id$ by functoriality.
 :::
-
 

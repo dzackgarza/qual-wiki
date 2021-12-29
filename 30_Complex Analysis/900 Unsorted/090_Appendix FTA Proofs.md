@@ -16,9 +16,7 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 - Integrate term-by-term to get $N(0) = n$.
 :::
 
-
 ## Rouche's Theorem
-
 
 :::{.proof title="From Gamelin"}
 
@@ -60,7 +58,6 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 ![](figures/2021-12-14_16-58-33.png)
 
 :::
-
 
 :::{.proof title="from Gamelin"}
 
@@ -108,12 +105,10 @@ N(0) = {1\over 2\pi i} \oint_{\abs{\xi} = R} g(\xi) \,d\xi
 
 ## Generalized Liouville
 
-
 :::{.theorem title="Generalized Liouville"}
 If $X$ is a compact complex manifold,
 any holomorphic $f:X\to \CC$ is constant.
 :::
-
 
 :::{.lemma title="?"}
 If $f:X\to Y$ is a nonconstant holomorphic map between Riemann surfaces with $X$ compact, then
@@ -124,13 +119,7 @@ If $f:X\to Y$ is a nonconstant holomorphic map between Riemann surfaces with $X$
 - The branch and ramification loci consist of finitely many points.
 :::
 
-
-
 :::{.proof title="of FTA, using Generalized Liouville"}
 Given a nonconstant $p\in \CC[x]$, regard it as a function $p: \PP^1(\CC) \to \PP^1(\CC)$ by extending so that $p(\infty) = \infty$.
 Since $p$ is nonconstant, by the lemma $p$ is surjective, so there exists some $x\neq \infty$ in $\PP^1(\CC)$ with $p(x) = 0$.
 :::
-
-
-
-

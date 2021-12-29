@@ -31,4 +31,3 @@ so we can produce infinitely many points in the fiber over $w_0$, contradicting 
 So no exception $z_0$ exists, and in particular, $z_0=0$ is not an exception so $f(z) = 0$ has infinitely many solutions.
 :::
 
-

@@ -24,4 +24,3 @@ Then the following function is harmonic on $\RR^2$ and satisfies that Dirichlet 
 T(x ,y) = e^{-y} \sin(x) = \Re(-ie^{iz}) = \Im(e^{iz})
 .\]
 :::
-
