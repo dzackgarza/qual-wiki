@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "qual_progress",
+      "path": "qual_progress.md"
+    },
+    {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
@@ -159,10 +163,6 @@
     {
       "basename": "240_Fixed_Points_and_Degree",
       "path": "40_Topology/080_Degree/240_Fixed_Points_and_Degree.md"
-    },
-    {
-      "basename": "qual_progress",
-      "path": "qual_progress.md"
     },
     {
       "basename": "020 Liouville",
