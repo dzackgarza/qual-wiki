@@ -43,7 +43,7 @@ Integration I
 - Week 5 (June 16):
 Integration II
     - [[020_Residues|Residues]]
-    - [[30_Complex Analysis/040_Residues/025 Residues for integrals]]
+    - [[complex residues ]]
 - Week 6 (June 23):
 	- [[020 Liouville|Liouville's theorem]]
 	- [[30_Complex Analysis/900 Unsorted/090_Appendix FTA Proofs|The fundamental theorem of algebra]]
