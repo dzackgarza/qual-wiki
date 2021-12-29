@@ -35,8 +35,8 @@ Analytic Functions
 - Week 4 (June 9):
 Integration I
     - Contours, parameterization, primitives
-		- [[010_Cauchy_Theorem]], [[012 Cauchy Integral Formula|Cauchy's Integral Formula]]
-		- [[050_Morera_Theorem|Morera's theorem]]
+		- , [[012 Cauchy Integral Formula|Cauchy's Integral Formula]]
+		- [[010_Cauchy_Theorem|Cauchy's theorem]] and [[050_Morera_Theorem|Morera's theorem]]
 		- [[30_Complex Analysis/030_Zeros_and_Poles/040_MMP|Maximum Modulus Principle]]]
 		- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle]]
 - Week 5 (June 16):
