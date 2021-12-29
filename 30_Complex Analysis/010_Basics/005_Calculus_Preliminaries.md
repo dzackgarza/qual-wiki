@@ -47,9 +47,10 @@ Then there exists a neighborhood $U\subseteq \RR^n$ containing $a$ and a unique 
 :::
 
 :::{.slogan}
-A $C^1$ function is invertible in any neighborhood in which its derivative $f'$ is invertible.
-
+A relation is locally the graph of a function wherever the derivative is nonsingular.
 :::
+
+### Inverse Function Theorem
 
 :::{.theorem title="Inverse Function Theorem"}
 For $f \in C^1(\RR; \RR)$ with $f'(a) \neq 0$, then $f$ is invertible in a neighborhood $U \ni a$, $g\da f\inv \in C^1(U; \RR)$, and at $b\da f(a)$ the derivative of $g$ is given by
@@ -62,7 +63,10 @@ J_{F\inv}(q) = \qty{J_F(p)}\inv
 .\]
 
 The version for holomorphic functions: if $f\in \Hol(\CC; \CC)$ with $f'(p)\neq 0$ then there is a neighborhood $V\ni p$ with that $f\in \BiHol(V, f(V))$.
+:::
 
+:::{.slogan}
+A $C^1$ function is invertible in any neighborhood in which its derivative $f'$ is invertible.
 :::
 
 :::{.remark}
@@ -72,6 +76,8 @@ Their difference converges to 0, and their common limit is the limit of the sum.
 :::
 
 ## Integrals
+
+### Green's Theorem
 
 :::{.theorem title="Green's Theorem"}
 If $\Omega \subseteq \CC$ is bounded with $\bd \Omega$ piecewise smooth and $f, g\in C^1(\bar \Omega)$, then 
