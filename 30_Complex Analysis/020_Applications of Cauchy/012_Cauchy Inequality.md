@@ -17,7 +17,6 @@ The $n$th Taylor coefficient of an analytic function is at most $\sup_{\abs z = 
 
 :::
 
-
 :::{.proof title="of Cauchy's inequality"}
 \envlist
 - Given $z_0\in \Omega$, pick the largest disc $D_R(z_0) \subset \Omega$ and let $C = \bd D_R$.
@@ -35,11 +34,10 @@ The $n$th Taylor coefficient of an analytic function is at most $\sup_{\abs z = 
 
 :::
 
-
 :::{.exercise title="?"} 
 Show that if $f$ is entire and $\abs{f(z)} \in \bigo(\abs{z}^p)$ for $\abs{z}$ sufficiently large, then $f$ is a polynomial of degree at most $\floor{p}$.
 
-#completed
+#completed/exercises
 
 :::
 

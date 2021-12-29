@@ -24,14 +24,14 @@ If $f$ is entire and bounded, $f$ is constant.
 :::{.exercise title="?"}
 Show that an entire doubly periodic function is constant.
 
-#work 
+#work/exercise 
 
 :::
 
 :::{.exercise title="?"}
 Show that if $f, g$ are entire with $\abs{f(z)}\leq \abs{g(z)}$, then $f(z) = cg(z)$ for some constant $c$.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -46,7 +46,7 @@ Now $h$ is bounded and entire, thus constant, so $c = h = f/g \implies f=cg$.
 Show that if $\abs{f(z)/z^n}$ is bounded for $\abs{z}\geq R$, then $f$ is a polynomial of degree at most $n$.
 What happens if this bound holds on all of $\CC$?
 
-#completed
+#completed/exercise
 
 :::
 
@@ -73,7 +73,7 @@ Find all entire functions $f$ satisfying
 \abs{f(z)} \geq \abs{z} + 1 &&\forall z\in \CC
 .\]
 
-#completed
+#completed/exercise
 
 :::
 
@@ -95,7 +95,7 @@ Let $f$ be entire and suppose that for $\abs{z} \geq M$,
 for some constants $A, B$ and $k$.
 Show that $f$ is a polynomial of degree at most $k$.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -111,7 +111,7 @@ and if $n>k$ then this goes to zero in $R$ and $c_n = 0$ for all $n>k$.
 Suppose $\abs{f(z)}\leq \abs{g(z)}$ for all $z$.
 What conclusion can you draw?
 
-#completed
+#completed/exercise
 
 :::
 
@@ -130,7 +130,7 @@ Suppose $f$ is entire and for every $z$,
 .\]
 Characterize all possibilities for $f$.
 
-#completed 
+#completed/exercise 
 
 :::
 
@@ -144,7 +144,7 @@ So $f(z) = c\sin(z)$ where $\abs{c} \leq 1$.
 Let $f$ be entire with $\im(f) \intersect \DD_r(z_0)$ empty. 
 Show $f$ must be constant without using the Casorati-Weierstrass or Picard theorems.
 
-#completed
+#completed/exercise
 
 :::
 

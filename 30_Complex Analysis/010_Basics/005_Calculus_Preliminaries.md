@@ -163,7 +163,7 @@ A sequence of functions $f_n$ is said to converge **locally uniformly** on $\Ome
 :::{.exercise title="Line integrals"}
 Compute $\int_\Gamma \Re(z) \dz$ for $\Gamma$ the unit square.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -201,7 +201,7 @@ Show that a continuous function on a compact set is uniformly continuous.
 Show that a uniform limit of continuous functions is continuous, and a uniform limit of uniformly continuous functions is uniformly continuous.
 Show that this is not true if uniform convergence is weakened to pointwise convergence.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -240,7 +240,7 @@ Determine where the following real-valued function is or is not uniformly conver
 f_n(x) \da {\sin(nx)\over 1+nx}
 .\]
 
-#completed
+#completed/exercise
 :::
 
 :::{.solution}
@@ -258,7 +258,7 @@ x_n \da {1\over n} \implies \abs{f_n(x_n)} = \abs{\sin(1) \over 2} > \eps
 :::{.exercise title="?"}
 Show that $\sum_{k\geq 0}z^k/k!$ converges locally uniformly to $e^z$.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -280,7 +280,7 @@ Apply the $M\dash$test on a compact set $K$ with $z\in K \implies \abs{z} \leq M
 :::{.exercise title="?"}
 Show that if $f_n\to f$ uniformly then $\int_\gamma f_n\to \int_\gamma f$.
 
-#completed
+#completed/exercise
 
 :::
 

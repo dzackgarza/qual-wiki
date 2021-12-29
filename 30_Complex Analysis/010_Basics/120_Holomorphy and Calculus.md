@@ -208,7 +208,7 @@ Some properties:
 :::{.exercise title="?"}
 Show that a real-valued holomorphic function is constant.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -219,7 +219,7 @@ Use that $\RR$ is not open in $\CC$ and apply the open mapping theorem to conclu
 :::{.exercise title="?"}
 Show that if $fg \equiv 0$ on a domain $\Omega$ then either $f\equiv 0$ or $g\equiv 0$.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -231,7 +231,7 @@ This forces $g\equiv 0$ on $U$, however $U$ is a set with a limit point, so $g\e
 :::{.exercise title="?"}
 Find all entire functions $f$ such that $f(x) = e^x$ on $\RR$.
 
-#completed
+#completed/exercise
 
 :::
 

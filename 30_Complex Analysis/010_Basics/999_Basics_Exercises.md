@@ -6,12 +6,16 @@ order: 999
 
 :::{.exercise title="Injectivity relates to derivatives"}
 Show that if $z_0$ is a zero of $f'$ of order $n$, then $f$ is $(n+1)$-to-one in a neighborhood of $z_0$.
-:::
 
-#todo proof
+#work/exercise
+
+:::
 
 :::{.exercise title="Zero derivative implies constant"}
 Show that if $f' = 0$ on a domain $\Omega$, then $f$ is constant on $\Omega$
+
+#completed/exercise
+
 :::
 
 :::{.solution}
@@ -22,6 +26,9 @@ Then $u(p) = u(q) = a$ some constant, and $v(p) = v(q) = b$, so $f(z) = a+bi$ ev
 
 :::{.exercise title="f and fbar holomorphic implies constant"}
 Show that if $f$ and $\bar{f}$ are both holomorphic on a domain $\Omega$, then $f$ is constant on $\Omega$.
+
+#completed/exercise
+
 :::
 
 :::{.solution}
@@ -56,6 +63,8 @@ If $f$ is holomorphic on $\Omega$ and any of the following hold, then $f$ is con
 2. $\Im(f)$ is constant.
 3. $\abs{f}$ is constant.
 
+#completed/work
+
 :::
 
 :::{.solution}
@@ -68,5 +77,3 @@ If $f$ is holomorphic on $\Omega$ and any of the following hold, then $f$ is con
 - Similarly $f$ is analytic, and $f,\bar{f}$ analytic implies $f'=0$ implies $f$ is constant. 
 
 :::
-
-#todo Finish

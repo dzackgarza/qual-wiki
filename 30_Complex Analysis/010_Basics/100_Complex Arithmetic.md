@@ -111,7 +111,7 @@ The inversion $z\to 1/z$ is easiest to understand in polar coordinates, $Re^{i\t
 :::{.exercise title="Finding complex roots"}
 Solve $z^4=i$.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -129,7 +129,7 @@ Now all of the roots are $\ts{z_k = z_0 \zeta_4^k \st k=0,1,2,3}$ where $\zeta_4
 :::{.exercise title="Working with conjugates"}
 Find $\Re\qty{z+2\over z-1}$.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -175,7 +175,7 @@ So
 :::{.exercise title="Modulus of $e^z$"}
 Show that $\abs{e^z} = e^{\Re(z)}$.
 
-#completed
+#completed/exercise
 :::
 
 :::{.solution}
