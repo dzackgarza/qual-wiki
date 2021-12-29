@@ -88,19 +88,6 @@ In vector form,
 .\]
 :::
 
-:::{.theorem title="Stokes Theorem"}
-Suppose $\omega \da f(z)\dz$ is a differential 1-form on an orientable manifold $\Omega$, then 
-$$\int_{\bd\Omega}\omega = \int_\Omega d\omega \qquad \text{i.e.} \qquad \int_{\bd\Omega}f(z)\dz = \int_\Omega d(f(z)\dz)$$
-:::
-
-:::{.fact title="Partial Fraction Decomposition"}
-\envlist
-
-- For every root $r_i$ of multiplicity 1, include a term $A/(x-r_i)$.
-- For any factors $g(x)$ of multiplicity $k$, include terms $A_1/g(x), A_2/g(x)^2, \cdots, A_k / g(x)^k$.
-- For irreducible quadratic factors $h_i(x)$, include terms of the form ${Ax+B \over h_i(x)}$.
-:::
-
 :::{.remark}
 Some basic facts needed for line integrals in the plane:
 
@@ -112,8 +99,21 @@ Some basic facts needed for line integrals in the plane:
 
 :::
 
+### Stokes Theorem
+:::{.theorem title="Stokes Theorem"}
+Suppose $\omega \da f(z)\dz$ is a differential 1-form on an orientable manifold $\Omega$, then 
+$$\int_{\bd\Omega}\omega = \int_\Omega d\omega \qquad \text{i.e.} \qquad \int_{\bd\Omega}f(z)\dz = \int_\Omega d(f(z)\dz)$$
+:::
 
 ## Series and Sequences
+
+:::{.fact title="Partial Fraction Decomposition"}
+\envlist
+
+- For every root $r_i$ of multiplicity 1, include a term $A/(x-r_i)$.
+- For any factors $g(x)$ of multiplicity $k$, include terms $A_1/g(x), A_2/g(x)^2, \cdots, A_k / g(x)^k$.
+- For irreducible quadratic factors $h_i(x)$, include terms of the form ${Ax+B \over h_i(x)}$.
+:::
 
 :::{.proposition title="Uniform Convergence of Series"}
 A series of functions $\sum_{n=1}^\infty f_n(x)$ converges uniformly iff 

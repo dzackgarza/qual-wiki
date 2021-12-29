@@ -15,21 +15,27 @@
 # Scheduling
 
 - Week 1 (May 19):  **Preliminary Review**
-	- [[30_Complex Analysis/010_Basics/100_Complex Arithmetic|Complex arithmetic]]
 	- $\CC, \DD, \HH, \CP^1$
+	- [[30_Complex Analysis/010_Basics/100_Complex Arithmetic|Complex arithmetic]]
 	- [[30_Complex Analysis/010_Basics/115_Complex Log|Arguments, branch cuts, complex log]]
 	- [[30_Complex Analysis/010_Basics/001_Precalculus|Elementary geometry, conic sections]]
-	- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries|Calculus/analysis review]]
+	- Analysis Review 
 		- Uniform (continuity,  differentiability, convergence)
 		- Heine-Cantor
-	- Inverse and implicit function theorems
-	- Green's theorem, Stokes theorem
+	- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries|Calculus review]]
+		- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries#Implicit Function Theorem|Implicit function theorem]]
+		- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries#Inverse Function Theorem|Inverse function theorem]]
+		- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries#Green's Theorem|Green's theorem]]
+		- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries#Stokes Theorem|Stokes' theorem]]
+
 - Week 2 (May 26): **Differentiation and integration**
-    - [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries]]
-	    - Implicit function theorem, inverse function theorem
-    - [[130_The Cauchy-Riemann equations||Cauchy-Riemann]], the Laplace equation, [[125_Harmonic Functions|Harmonic functions]]
+    - [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries|Calculus preliminaries]]
+    - The Laplace equation, 
+    - [[130_The Cauchy-Riemann equations||Cauchy-Riemann]], 
+    - [[125_Harmonic Functions|Harmonic functions]]
     - Contours, parameterization, primitives
-    - [[012 Cauchy Integral Formula|Cauchy's integral formula]], [[012_Cauchy Inequality|Cauchy's inequality]]
+    - [[012 Cauchy Integral Formula|Cauchy's integral formula]], 
+    - [[012_Cauchy Inequality|Cauchy's inequality]]
 
 - Week 3 (June 2): **Analytic Functions and singularities**
 	- [[30_Complex Analysis/010_Basics/050 Series Reference|Power series and convergence]]
