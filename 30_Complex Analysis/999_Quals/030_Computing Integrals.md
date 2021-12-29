@@ -131,7 +131,7 @@ Show that
 
 
 
-### Quadratic over quartic #work/exercise
+### Quadratic over quartic #complex/exercise/work
 
 :::{.problem title="?"}
 Let $a>0$ and calculate
@@ -140,7 +140,7 @@ Let $a>0$ and calculate
 .\]
 :::
 
-### Rational function #work/exercise
+### Rational function #complex/exercise/work
 
 :::{.problem title="?"}
 Calculate
@@ -150,7 +150,7 @@ Calculate
 
 :::
 
-### Denominator polynomial #work/exercise
+### Denominator polynomial #complex/exercise/work
 
 :::{.problem title="?"}
 Calculate
@@ -161,7 +161,7 @@ Calculate
 
 ## Rational, branch cut
 
-### Standard example #work/exercise
+### Standard example #complex/exercise/work
 
 :::{.problem title="?"}
 Show that 
@@ -175,7 +175,7 @@ Sketch: see [here](https://people.reed.edu/~jerry/311/lec08.pdf).
 
 :::
 
-### Fall 2019.1 #work/qual
+### Fall 2019.1 #complex/qual/work
 
 ^d9cb99
 
@@ -185,14 +185,14 @@ Show that
 \]
 using complex analysis, $0<a<n$. Here $n$ is a positive integer.
 
-### Spring 2020 HW 3.7 #work/exercise
+### Spring 2020 HW 3.7 #complex/exercise/work
 
 Let $0<a<4$ and evaluate 
 \[
 \int_0^\infty \frac{x^{\alpha-1}}{1+x^3} ~dx
 \]
 
-### Tie's Extra Questions: Fall 2011, Spring 2015 #work/qual
+### Tie's Extra Questions: Fall 2011, Spring 2015 #complex/qual/work
 
 Show that 
 \[
@@ -200,7 +200,7 @@ Show that
 .\]
 using complex analysis, $0< a < n$. Here $n$ is a positive integer.
 
-### Fall 2020.3, Spring 2019.2 #work/qual
+### Fall 2020.3, Spring 2019.2 #complex/qual/work
 
 ^590fc7
 
@@ -214,7 +214,7 @@ Let $a \in \mathbb{R}$ with $0<a<3$. Evaluate
 
 ## Rational Functions of $\sin$ or $\cos$
 
-### Cosine in denominator #work/exercise
+### Cosine in denominator #complex/exercise/work
 
 :::{.problem title="?"}
 Show 
@@ -238,7 +238,7 @@ Sketch:
 
 
 
-### Spring 2020 HW 2, SS 2.6.1 #work/exercise
+### Spring 2020 HW 2, SS 2.6.1 #complex/exercise/work
 
 Show that
 \[
@@ -251,13 +251,13 @@ Show that
 ![Image](figures/2020-02-03-13:51.png)\
 
 
-### Spring 2020 HW 3, SS 3.8.8 #work/exercise
+### Spring 2020 HW 3, SS 3.8.8 #complex/exercise/work
 Show that if $a,b\in \RR$ with $a > \abs{b}$, then
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{a+b \cos \theta}=\frac{2 \pi}{\sqrt{a^{2}-b^{2}}}
 .\]
 
-### Fresnel #work/exercise
+### Fresnel #complex/exercise/work
 
 :::{.problem title="?"}
 Suppose $a>b>0$ and calculate
@@ -269,7 +269,7 @@ Suppose $a>b>0$ and calculate
 
 
 
-### Fresnel #work/exercise
+### Fresnel #complex/exercise/work
 
 :::{.problem title="?"}
 Let $n\in \ZZ^{\geq 1}$ and $0<\theta<\pi$ and show that
@@ -279,7 +279,7 @@ Let $n\in \ZZ^{\geq 1}$ and $0<\theta<\pi$ and show that
 :::
 
 
-### Spring 2020 HW 3.10 #work/exercise
+### Spring 2020 HW 3.10 #complex/exercise/work
 
 For $a> 0$, evaluate
 \[
@@ -287,7 +287,7 @@ For $a> 0$, evaluate
 \]
 
 
-### Spring 2020 HW 3, SS 3.8.7 #work/exercise
+### Spring 2020 HW 3, SS 3.8.7 #complex/exercise/work
 Show that
 \[
 \int_{0}^{2 \pi} \frac{d \theta}{(a+\cos \theta)^{2}}=\frac{2 \pi a}{\left(a^{2}-1\right)^{3 / 2}}, \quad \text { whenever } a>1
@@ -386,7 +386,7 @@ Putting it all together:
 
 
 
-### Spring 2020 HW 3, SS 3.8.9 #work/exercise
+### Spring 2020 HW 3, SS 3.8.9 #complex/exercise/work
 Show that
 \[
 \int_{0}^{1} \log (\sin \pi x) d x=-\log 2
@@ -398,7 +398,7 @@ Show that
 
 ## Branch Cuts
 
-### Tie's Extra Questions: Spring 2015 #work/exercise
+### Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 Compute the following integrals:
 
@@ -406,7 +406,7 @@ Compute the following integrals:
 - $\displaystyle \int_0^\infty \frac{\log x}{(1 + x^2)^2}\, dx$
 
 
-### Spring 2020 HW 3, SS 3.8.10 #work/exercise
+### Spring 2020 HW 3, SS 3.8.10 #complex/exercise/work
 Show that if $a>0$, then
 \[
 \int_{0}^{\infty} \frac{\log x}{x^{2}+a^{2}} d x=\frac{\pi}{2 a} \log a
@@ -416,7 +416,7 @@ Show that if $a>0$, then
 >
 > ![Image](30_Complex%20Analysis/999_Quals/figures/image_2020-06-17-21-53-19.png)
 
-### Spring 2020.2 #work/qual
+### Spring 2020.2 #complex/qual/work
 
 ^c765ed
 
@@ -427,7 +427,7 @@ $$
 $$
 
 
-### Square root in numerator #work/exercise
+### Square root in numerator #complex/exercise/work
 
 :::{.problem title="?"}
 Calculate
@@ -437,7 +437,7 @@ Calculate
 
 :::
 
-### Square root #work/exercise
+### Square root #complex/exercise/work
 
 :::{.problem title="?"}
 Calculate
@@ -450,14 +450,14 @@ Calculate
 
 ## Trigonometric transforms 
 
-### Spring 2020 HW 3, SS 3.8.4 #work/exercise
+### Spring 2020 HW 3, SS 3.8.4 #complex/exercise/work
 Show that
 \[
 \int_{-\infty}^{\infty} \frac{x \sin x}{x^{2}+a^{2}} d x=\pi e^{-a}, \quad \text { for all } a>0
 .\]
 
 
-### Spring 2020 HW 2, 2.6.2 #work/exercise
+### Spring 2020 HW 2, 2.6.2 #complex/exercise/work
 
 Show that
 
@@ -467,14 +467,14 @@ Show that
 
 > Hint: use the fact that this integral eexercises $\frac{1}{2 i} \int_{-\infty}^{\infty} \frac{e^{i x}-1}{x} d x$, and integrate around an indented semicircle.
 
-### Spring 2020 HW 3, SS 3.8.5 #work/exercise
+### Spring 2020 HW 3, SS 3.8.5 #complex/exercise/work
 Show that if $\xi\in \RR$, then
 \[
 \int_{-\infty}^{\infty} \frac{e^{-2 \pi i x \xi}}{\left(1+x^{2}\right)^{2}} d x=\frac{\pi}{2}(1+2 \pi|\xi|) e^{-2 \pi|\xi|}
 .\]
 
 
-### $\sin$ in numerator #work/exercise
+### $\sin$ in numerator #complex/exercise/work
 
 :::{.problem title="?"}
 Let $a>0$ and calculate
@@ -486,7 +486,7 @@ Let $a>0$ and calculate
 
 
 
-### $\sin$ in numerator #work/exercise
+### $\sin$ in numerator #complex/exercise/work
 
 :::{.problem title="?"}
 Calculate
@@ -496,7 +496,7 @@ Calculate
 
 :::
 
-### $\sinc$ #work/exercise
+### $\sinc$ #complex/exercise/work
 
 :::{.problem title="?"}
 Calculate
@@ -505,7 +505,7 @@ Calculate
 .\]
 :::
 
-### $\cos$ in numerator #work/exercise
+### $\cos$ in numerator #complex/exercise/work
 
 :::{.problem title="?"}
 Let $a>0$ and calculate
@@ -514,7 +514,7 @@ Let $a>0$ and calculate
 .\]
 :::
 
-### $\sin$ in numerator #work/exercise
+### $\sin$ in numerator #complex/exercise/work
 
 :::{.problem title="?"}
 Calculate
@@ -524,7 +524,7 @@ Calculate
 :::
 
 
-### $\sin$ in numerator #work/exercise
+### $\sin$ in numerator #complex/exercise/work
 
 :::{.problem title="?"}
 Evaluate 
@@ -580,13 +580,13 @@ Compute the integral
 $\displaystyle{\int_{-\infty}^{\infty} \frac{e^{-2\pi ix\xi}}{\cosh\pi x}dx}$
 where $\displaystyle{\cosh z=\frac{e^{z}+e^{-z}}{2}}$.
 
-### Tie's Extra Questions: Fall 2015 #work/exercise
+### Tie's Extra Questions: Fall 2015 #complex/exercise/work
 
 Prove by *justifying all steps* that for all $\xi \in {\mathbb C}$ we have $\displaystyle e^{- \pi \xi^2} = \int_{- \infty}^\infty e^{- \pi x^2} e^{2 \pi i x \xi} dx \; .$
 
 > Hint: You may use that fact in Example 1 on p. 42 of the textbook without proof, i.e., you may assume the above is true for real values of $\xi$.
 
-### Multiple cosines in numerator #work/exercise
+### Multiple cosines in numerator #complex/exercise/work
 
 :::{.problem title="?"}
 Calculate
@@ -602,7 +602,7 @@ Evaluate $\displaystyle{ \int_{0}^{\infty}\frac{x\sin x}{x^2+a^2} \dx }$.
 
 ## Unsorted
 
-### Spring 2020 HW 3.6 #work/exercise
+### Spring 2020 HW 3.6 #complex/exercise/work
 
 a. 
 Show (without using 3.8.9 in the S&S) that
@@ -616,7 +616,7 @@ Show that this identity is equivalent to S&S 3.8.9:
 \int_0^1 \log(\sin(\pi x)) ~dx = -\log 2
 .\]
 
-### Tie's Extra Questions: Spring 2015 #work/exercise
+### Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 Compute the following integrals.
 
@@ -643,7 +643,7 @@ $\displaystyle \int_{|z| = 1} \cot^2 z \, dz$.
 
 ## Conceptual
 
-### Spring 2020 HW 3, SS 3.8.1 #work/exercise
+### Spring 2020 HW 3, SS 3.8.1 #complex/exercise/work
 Use the following formula to show that the complex zeros of $\sin(\pi z)$ are exactly the integers, and they are each of order 1:
 \[
 \sin \pi z=\frac{e^{i \pi z}-e^{-i \pi z}}{2 i}
@@ -652,7 +652,7 @@ Use the following formula to show that the complex zeros of $\sin(\pi z)$ are ex
 Calculate the residue of ${1\over \sin(\pi z)}$ at $z=n\in \ZZ$.
 
 
-### Zeros using residue theorem #work/exercise
+### Zeros using residue theorem #complex/exercise/work
 
 :::{.problem title="?"}
 Suppose that $f$ is an analytic function in the region $D$ which
@@ -679,7 +679,7 @@ where $w$ is the zero from (1).
 
 :::
 
-### Tie's Extra Questions: Fall 2009 #work/exercise
+### Tie's Extra Questions: Fall 2009 #complex/exercise/work
 
 Suppose that $f$ is an analytic function in the region $D$ which
 contains the point $a$. Let

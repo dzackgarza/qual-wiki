@@ -132,7 +132,7 @@ suppose $\abs{f(z)}\leq 1$, then for all $z, w\in \DD$,
 .\]
 If equality holds for some $z\neq w$ in either expression, then $f= \lambda F$ where $F$ is a linear fractional transformation and $\abs{\lambda} = 1$, so $f\in \Aut(\DD)$.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -180,7 +180,7 @@ Set $a=0$:
 \left|f^{\prime}(0)\right| \leq \frac{1-|f(0)|^{2}}{1-|0|^{2}} \implies \abs{f'(0)}^2 \leq 1 - \abs{f(0)}^2
 .\]
 
-#work/exercise
+#complex/exercise/work
 
 :::
 

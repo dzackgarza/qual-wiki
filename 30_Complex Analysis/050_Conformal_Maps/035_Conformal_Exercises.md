@@ -135,7 +135,7 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 :::{.exercise title="Complement of the disc to the half-plane"}
 Show that $z\mapsto z + z\inv$ maps $\HH \intersect \DD^c \to \HH$.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 

@@ -4,7 +4,7 @@ order: 10
 
 # Complex Arithmetic
 
-## Spring 2019.3 #work/qual
+## Spring 2019.3 #complex/qual/work
 
 ^c8872d
 

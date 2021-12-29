@@ -153,7 +153,7 @@ Show that
 \sum_{k\in \ZZ}{1\over (z-k)^2} = (\pi \csc(\pi z))^2
 .\]
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -165,7 +165,7 @@ Show
 by integrating $\pi \cot(\pi z)z^{-2}$.
 
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -176,7 +176,7 @@ Show that
 .\]
 
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -187,7 +187,7 @@ Show that
 .\]
 
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -198,7 +198,7 @@ Show that
 .\]
 
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -209,7 +209,7 @@ Show that
 .\]
 
 
-#work/exercise
+#complex/exercise/work
 
 
 :::

@@ -5,7 +5,7 @@ order: 51
 # Polynomials
 
 
-## Spring 2019.4 #work/qual
+## Spring 2019.4 #complex/qual/work
 
 ^047423
 
@@ -13,18 +13,18 @@ Let $f$ be a meromorphic function on the complex plane with the property that $|
 
 Prove that $f(z)$ is a rational function, i.e., there exist polynomials $p, q$ so that $f=\frac{p}{q}$.
 
-## Fall 2019.4 #work/qual
+## Fall 2019.4 #complex/qual/work
 
 ^398dec
 
 Let $f: \mathbb{C} \rightarrow \mathbb{C}$ be an injective analytic (also called univalent) function. Show that there exist complex numbers $a \neq 0$ and $b$ such that $f(z)=a z+b$.
 
-## Tie's Extra Questions: Fall 2011 #work/exercise
+## Tie's Extra Questions: Fall 2011 #complex/exercise/work
 
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
 disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
 
-## Tie's Extra Questions: Spring 2014 #work/exercise
+## Tie's Extra Questions: Spring 2014 #complex/exercise/work
 
 Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
 that 
@@ -36,18 +36,18 @@ $f$ is a polynomial and
 the degree of $f$ is at least $N$.
 
 
-## Tie's Extra Questions: Fall 2015 #work/exercise
+## Tie's Extra Questions: Fall 2015 #complex/exercise/work
 
 
 Let $f$ be entire and suppose that
 $\lim_{z \rightarrow \infty} f(z) = \infty$. Show that $f$ is a polynomial.
 
-## Spring 2020 HW 3.5 #work/exercise
+## Spring 2020 HW 3.5 #complex/exercise/work
 
 Show that if $f$ is entire and $\lim_{z\to\infty}f(z) = \infty$, then
 $f$ is a polynomial.
 
-## Tie's Extra Questions: Fall 2009 #work/exercise
+## Tie's Extra Questions: Fall 2009 #complex/exercise/work
 Suppose $f$ is entire and there exist $A, R >0$ and natural number
 $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
 that
@@ -55,12 +55,12 @@ that
 1. $f$ is a polynomial and
 2. the degree of $f$ is at least $N$.
 
-## Tie's Extra Questions: Fall 2009 #work/exercise
+## Tie's Extra Questions: Fall 2009 #complex/exercise/work
 
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
 degree $\leq 2$.
 
-## #work/exercise
+## #complex/exercise/work
 
 Suppose $f$ is entire and suppose that for some integer $n\geq 1$,
 \[
@@ -69,7 +69,7 @@ Suppose $f$ is entire and suppose that for some integer $n\geq 1$,
 
 Prove that $f$ is a polynomial of degree at most $n-1$.
 
-## Spring 2020 HW 3.3 #work/exercise
+## Spring 2020 HW 3.3 #complex/exercise/work
 
 Let $P, Q$ be polynomials with no common zeros. Assume $a$ is a root of
 $Q$.
@@ -79,7 +79,7 @@ Find the principal part of $P/Q$ at $z=a$ in terms of $P$ and $Q$ if $a$ is
 (2) a double root.
 
 
-## Tie's Extra Questions: Spring 2015 #work/exercise
+## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 
 Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. 
@@ -88,7 +88,7 @@ Show that
 (i) $f$ is a polynomial and 
 (ii) the degree of $f$ is at most $N$.
 
-## Tie's Extra Questions: Fall 2016 #work/exercise
+## Tie's Extra Questions: Fall 2016 #complex/exercise/work
 
 
 (a) 
@@ -100,20 +100,20 @@ Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire function. Suppose that t
 Prove that $f$ must be a constant.
 
 
-## Tie's Extra Questions: Spring 2015 #work/exercise
+## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 Suppose $f$ is entire and there exist $A, R >0$ and natural number
 $N$ such that $|f(z)| \geq A |z|^N$ for $|z| \geq R$. Show that (i)
 $f$ is a polynomial and (ii) the degree of $f$ is at least $N$.
 
-## Tie's Extra Questions: Spring 2015 #work/exercise
+## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 
 Let $0<r<1$. Show that polynomials
 $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
 $|z|<r$ for all sufficiently large $n$'s.
 
-## Spring 2020 HW 1.3 #work/exercise
+## Spring 2020 HW 1.3 #complex/exercise/work
 Prove that the following polynomial has its roots outside of the unit circle:
 \[
 p(z) = z^3 + 2z + 4
@@ -121,7 +121,7 @@ p(z) = z^3 + 2z + 4
 
 > Hint: What is the maximum value of the modulus of the first two terms if $\abs{z} \leq 1$?
 
-## Spring 2020 HW 2, SS 2.6.13 #work/exercise
+## Spring 2020 HW 2, SS 2.6.13 #complex/exercise/work
 
 Suppose $f$ is analytic, defined on all of $\CC$, and for each $z_0 \in \CC$ there is at least one coefficient in the expansion $f(z) = \sum_{n=0}^\infty c_n(z-z_0)^n$ is zero.
 Prove that $f$ is a polynomial.

@@ -4,7 +4,7 @@ order: 6
 
 # Series Convergence 
 
-## Fall 2020.2 #work/qual
+## Fall 2020.2 #complex/qual/work
 
 ^c47851
 
@@ -49,7 +49,7 @@ where we've integrated over a curve contained in $D$ the disc of convergence, an
 
 
 
-## Fall 2015, Spring 2020 HW2: Ratio Test #work/qual 
+## Fall 2015, Spring 2020 HW2: Ratio Test #complex/qual/work 
 
 :::{.problem title="?"}
 Let $a_n\neq 0$ and show that
@@ -165,7 +165,7 @@ By the Cauchy criterion for sums, $f(z)$ converges pointwise for $z\neq 1$.
 
 :::
 
-## Uniform convergence of series #work/qual
+## Uniform convergence of series #complex/qual/work
 
 :::{.problem title="?"}
 Suppose $\sum_{n=0}^\infty a_n z^n$ converges for some $z_0 \neq 0$.
@@ -179,7 +179,7 @@ Suppose $0 < r < \abs{z_0}$ and show that the series converges uniformly on $\ab
 :::
 
 
-## Sine series? #work/qual
+## Sine series? #complex/qual/work
 
 :::{.problem title="?"}
 Prove that the following series converges uniformly on the set $\theset{z \suchthat \Im(z) < \ln 2}$:
@@ -191,7 +191,7 @@ Suppose $0 < r < \abs{z_0}$ and show that the series converges uniformly on $\ab
 
 :::
 
-## Fall 2015 Extras #work/qual
+## Fall 2015 Extras #complex/qual/work
 
 Assume $f(z)$ is analytic in ${\mathbb D}$ and $f(0)=0$ and is not a rotation (i.e. $f(z) \neq e^{i \theta} z$). 
 Show that $\displaystyle \sum_{n=1}^\infty f^{n}(z)$ converges uniformly to an analytic function on compact subsets of ${\mathbb D}$, where $f^{n+1}(z) = f(f^{n}(z))$.

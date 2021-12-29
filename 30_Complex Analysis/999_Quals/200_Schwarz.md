@@ -47,7 +47,7 @@ using that $a\neq 0$, so $f$ is a contraction.
 :::
 
 
-## Spring 2020.7 #work/qual
+## Spring 2020.7 #complex/qual/work
 
 ^aff739
 
@@ -55,7 +55,7 @@ Let $f$ be analytic on a bounded domain $D$, and assume also that $f$ that is co
 
 Show that if $|f(z)|=M$ (a constant) for $z$ on the boundary of $D$, then $f(z)=e^{i \theta} M$ for $z$ in $D$, where $\theta$ is a real constant.
 
-## Spring 2019.5 #work/qual
+## Spring 2019.5 #complex/qual/work
 
 ^5d5430
 
@@ -295,7 +295,7 @@ which holds for all $w\in \DD$ by replacing $Rz$ with $w$ (i.e. to show this equ
 
 :::
 
-## 1 #work/exercise
+## 1 #complex/exercise/work
 Suppose $f:\DD\to\DD$ is analytic and admits a continuous extension $\tilde f: \bar \DD \to \bar \DD$ such that $\abs{z} = 1 \implies \abs{f(z)} = 1$.
 
 a.
@@ -314,7 +314,7 @@ Suppose that $a_1, \cdots, a_n \in \DD$ are the zeros of $f$ and prove that
 \exists \lambda \in S^1 \qtext{such that} f(z) = \lambda \prod_{j=1}^n {z - a_j \over 1 - \bar{a_j} z}
 .\]
 
-## 2 #work/exercise
+## 2 #complex/exercise/work
 Let $\bar B(a, r)$ denote the closed disc of radius $r$ about $a\in \CC$.
 Let $f$ be holomorphic on an open set containing $\bar B(a, r)$ and let 
 \[  
@@ -326,7 +326,7 @@ Prove that
 z\in \bar B\qty{a, {r\over 2}},\,z\neq a, \qquad {\abs{ f(z) - f(a)} \over \abs{z-a}} \leq {2M \over r}
 .\]
 
-## 3 #work/exercise
+## 3 #complex/exercise/work
 Define
 \[  
 G \definedas \theset{z\in \CC\suchthat \Re(z) > 0, \, \abs{z-1} > 1}
@@ -337,17 +337,17 @@ These may be expressed as compositions of maps, but explain why this list is com
 
 
 
-## 5 #work/exercise
+## 5 #complex/exercise/work
 Suppose $f: \DD\to \HH$ is analytic and satisfies $f(0) = 2$.
 Find a sharp upper bound for $\abs{f'(0)}$, and prove it is sharp by example.
 
-## 6 #work/exercise
+## 6 #complex/exercise/work
 Suppose $f:\DD\to\DD$ is analytic, has a single zero of order $k$ at $z=0$, and satisfies $\lim_{\abs z \to 1} \abs{f(z)} = 1$.
 Give with proof a formula for $f(z)$.
 
 
 
-## 8 #work/exercise
+## 8 #complex/exercise/work
 Suppose $f, g: \DD\to \Omega$ are holomorphic with $f$ injective and $f(0) = g(0)$.
 
 Show that 
@@ -357,13 +357,13 @@ Show that
 
 > The first part of this problem asks for a statement of the Schwarz lemma.
 
-## 9 #work/exercise
+## 9 #complex/exercise/work
 Let $S\definedas \theset{z\in \DD\suchthat \Im(z) \geq 0}$.
 Suppose $f:S\to \CC$ is continuous on $S$, real on $S\intersect \RR$, and holomorphic on $S^\circ$.
 
 Prove that $f$ is the restriction of a holomorphic function on $\DD$.
 
-## 10 #work/exercise
+## 10 #complex/exercise/work
 Suppose $f:\DD\to \DD$ is analytic.
 Prove that 
 \[  

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "0000_Undergraduate Analysis",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
+    },
+    {
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
+    },
+    {
+      "basename": "015_Singularities",
+      "path": "30_Complex Analysis/030_Zeros_and_Poles/015_Singularities.md"
+    },
+    {
       "basename": "011_Complex Geometry",
       "path": "30_Complex Analysis/999_Quals/011_Complex Geometry.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "005_Calculus_Preliminaries",
       "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
-    },
-    {
-      "basename": "0000_Undergraduate Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
     },
     {
       "basename": "001_Real_Review",
@@ -191,14 +199,6 @@
     {
       "basename": "000_Preface",
       "path": "40_Topology/600_UGA_Qual_Questions/000_Preface.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "20_Real Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "15_Books_Notes",
-      "path": "20_Real Analysis/000_Resources/15_Books_Notes.md"
     }
   ],
   "omittedPaths": [],

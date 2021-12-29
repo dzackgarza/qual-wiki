@@ -61,7 +61,7 @@ Multiple versions of Rouches theorem!
 :::
 
 
-## 3 #work/exercise
+## 3 #complex/exercise/work
 Let $c\in \CC$ with $\abs{c} < {1\over 3}$.
 Show that on the open set $\theset{z\in \CC \suchthat \Re(z) < 1}$, the function $f(z) \definedas ce^z$ has exactly one fixed point.
 
@@ -87,20 +87,20 @@ f(z) = z^7 - 4z^3 - 1
 :::
 
 
-## 5 #work/exercise
+## 5 #complex/exercise/work
 Let $n\in \ZZ^{\geq 0}$ and show that the equation
 \[
 e^z = az^n
 \]
 has $n$ solutions in the open unit disc if $\abs{a} > e$, and no solutions if $\abs{a} < {1\over e}$.
 
-## 6 #work/exercise
+## 6 #complex/exercise/work
 Let $f$ be analytic in a domain $D$ and fix $z_0 \in D$ with $w_0 \definedas f(z_0)$.
 Suppose $z_0$ is a zero of $f(z) - w_0$ with finite multiplicity $m$.
 Show that there exists $\delta >0$ and $\eps > 0$ such that for each $w$ such that $0 < \abs{w-w_0} < \eps$, the equation $f(z) - w = 0$ has exactly $m$ *distinct* solutions inside the disc $\abs{z-z_0} < \delta$.
 
 
-## 7 #work/exercise
+## 7 #complex/exercise/work
 For $k=1,2,\cdots, n$, suppose $\abs{a_k} < 1$ and
 \[
 f(z) \definedas \qty{z - a_1 \over 1 - \bar a_q z} \qty{z-a_2 \over 1 - \bar a_2 z} \cdots \qty{z - a_n \over 1 - \bar a_n z}
@@ -108,14 +108,14 @@ f(z) \definedas \qty{z - a_1 \over 1 - \bar a_q z} \qty{z-a_2 \over 1 - \bar a_2
 Show that $f(z) = b$ has $n$ solutions in $\abs{z} < 1$.
 
 
-## 8 #work/exercise
+## 8 #complex/exercise/work
 For each $n\in \ZZ^{\geq 1}$, let
 \[
 P_n(z) = 1 + z + {1\over 2!} z^2 + \cdots + {1\over n!}z^n
 .\]
 Show that for sufficiently large $n$, the polynomial $P_n$ has no zeros in $\abs{z} < 10$, while the polynomial $P_n(z) - 1$ has precisely 3 zeros there.
 
-## 9 #work/exercise
+## 9 #complex/exercise/work
 Prove that
 \[
 \max_{\abs z = 1} \abs{a_0 + a_1 z + \cdots + a_{n-1}z^{n-1} + z^n} \geq 1
@@ -123,12 +123,12 @@ Prove that
 
 > Hint: the first part of the problem asks for a statement of Rouche's theorem.
 
-## 10 #work/exercise
+## 10 #complex/exercise/work
 Use Rouche's theorem to prove the Fundamental Theorem of Algebra.
 
 
 
-## #work/exercise
+## #complex/exercise/work
 Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: 
 
 If
@@ -138,7 +138,7 @@ $$
 is a polynomial of degree $n$, then it has $n$ zeros in $\mathbb{C}$.
 
 
-## #work/exercise
+## #complex/exercise/work
 Suppose $f$ is entire and there exist $A, R >0$ and natural number
 $N$ such that 
 $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ 
@@ -146,13 +146,13 @@ $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$
 Show that (i) $f$ is a polynomial and (ii) the degree of $f$ is at least
 $N$.
 
-## Tie's Extra Questions: Fall 2009 #work/exercise
+## Tie's Extra Questions: Fall 2009 #complex/exercise/work
 
 Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
 $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
 is a polynomial of degree n, then it has n zeros in $\mathbb C$.
 
-## Spring 2020 HW 3.8 #work/exercise
+## Spring 2020 HW 3.8 #complex/exercise/work
 
 Prove the fundamental theorem of Algebra using
 
@@ -162,22 +162,22 @@ Rouche's Theorem.
 b. 
 The maximum modulus principle.
 
-## Spring 2020 HW 3.11 #work/exercise
+## Spring 2020 HW 3.11 #complex/exercise/work
 
 Find the number of roots of $p(z) = 4z^4 - 6z + 3$ in $\abs{z} < 1$ and
 $1 < \abs{z} < 2$ respectively.
 
-## Spring 2020 HW 3.12 #work/exercise
+## Spring 2020 HW 3.12 #complex/exercise/work
 
 Prove that $z^4 + 2z^3 -2z + 10$ has exactly one root in each open
 quadrant.
 
-## Spring 2020 HW 3.13 #work/exercise
+## Spring 2020 HW 3.13 #complex/exercise/work
 
 Prove that for $a> 0$, $z\tan z - a$ has only real roots.
 
 
-## Tie's Extra Questions: Fall 2011 #work/exercise
+## Tie's Extra Questions: Fall 2011 #complex/exercise/work
 
 Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
 $$
@@ -185,37 +185,37 @@ P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)
 $$
 is a polynomial of degree n, then it has n zeros in $\mathbb C$.
 
-## Tie's Extra Questions: Fall 2016 #work/exercise
+## Tie's Extra Questions: Fall 2016 #complex/exercise/work
 
 Prove that all the roots of the complex polynomial
 $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
 
-## Tie's Extra Questions: Spring 2014 #work/exercise
+## Tie's Extra Questions: Spring 2014 #complex/exercise/work
 
 
 Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
 $$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
 is a polynomial of degree n, then it has n zeros in $\mathbf C$.
 
-## Tie's Extra Questions: Spring 2015 #work/exercise
+## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 Let $0<r<1$. Show that polynomials
 $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in $|z|<r$
 for all sufficiently large $n$'s.
 
-## Tie's Extra Questions: Spring 2015 #work/exercise
+## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 
 Let $0<r<1$. Show that polynomials
 $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
 $|z|<r$ for all sufficiently large $n$'s.
 
-## Tie's Extra Questions: Fall 2015 #work/exercise
+## Tie's Extra Questions: Fall 2015 #complex/exercise/work
 
 Find the number of roots of $z^4 - 6z + 3 =0$ in $|z|<1$ and
 $1 < |z| < 2$ respectively.
 
-## Tie's Extra Questions: Fall 2015 #work/exercise
+## Tie's Extra Questions: Fall 2015 #complex/exercise/work
 
 
 Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each

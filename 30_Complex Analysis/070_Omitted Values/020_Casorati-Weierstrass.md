@@ -58,7 +58,7 @@ r &\mapsto \min_{\abs{z} = r} \abs{f(z)}
 .\]
 Suppose $\tilde m \da \lim_{r\to \infty}m(r)$ exists and is a finite positive real number, and show that $f$ is constant.
 
-#work/exercise
+#complex/exercise/work
 
 > Hint: consider $g(z) \da f(1/z)$.
 

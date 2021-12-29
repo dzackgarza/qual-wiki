@@ -5,7 +5,7 @@ order: 11
 # Complex Geometry
 
 
-## Spring 2020.1 #work/qual
+## Spring 2020.1 #complex/qual/work
 
 ^ea471a
 

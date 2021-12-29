@@ -386,6 +386,6 @@ say using a large rectangle, show that
 \zeta(2) = \sum_{k\geq 0} {1\over k^2} = {\pi^2\over 6}
 .\]
 
-#work/exercise
+#complex/exercise/work
 
 :::

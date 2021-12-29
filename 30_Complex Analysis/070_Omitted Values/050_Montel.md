@@ -113,7 +113,7 @@ In particular, the limit is holomorphic.
 :::{.exercise title="Equicontinuity + pointwise convergence implies uniform convergence"}
 Prove the following: if $\ts{f_n}$ is equicontinuous on $K$ a compact set and $f_n\to f$ pointwise, then $f_n\to f$ uniformly.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -137,7 +137,7 @@ Show that if $\mcf$ is a family of differentiable functions with uniformly bound
 
 > Hint: apply the MVT.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 

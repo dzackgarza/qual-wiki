@@ -4,7 +4,7 @@ order: 301
 
 # Schwarz Reflection
 
-## Tie's Extra Questions: Spring 2015 #work/exercise
+## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 
 (1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
@@ -23,7 +23,7 @@ harmonic functions
 > Hint: Verify the mean value property for your new function obtained by
 Schwarz reflection principle.
 
-## 7 #work/exercise
+## 7 #complex/exercise/work
 
 a. 
 State the standard Schwarz reflection principle involving reflection across the real axis.

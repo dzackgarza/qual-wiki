@@ -23,7 +23,7 @@ Schwarz lemma.
 :::{.exercise title="?"}
 Show that $\Aut_\CC(\CC) = \ts{ z \mapsto az+b\st a\in \CC\units, b\in \CC }$.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 

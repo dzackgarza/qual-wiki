@@ -30,7 +30,7 @@ since $z(b) = z(a)$ for a closed curve.
 :::{.exercise title="Uniform limit theorem for holomorphic functions"}
 Show that if $f_n\to f$ locally uniformly and each $f_n$ is holomorphic then $f$ is holomorphic.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -56,7 +56,7 @@ Statement: if $f_n\to f$ uniformly locally uniformly on $\Omega$ then $f$ is hol
 :::{.exercise title="Locally uniform limit theorem for holomorphic functions"}
 Prove that if $f_n\to f$ locally uniformly with $f_n$ holomorphic, then $f_n'\to f'$ locally uniformly and $f'$ is holomorphic.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 

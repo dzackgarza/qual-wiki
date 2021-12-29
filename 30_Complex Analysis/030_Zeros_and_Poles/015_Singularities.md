@@ -91,7 +91,7 @@ f(z) \da \int_\gamma { f(\xi) \over \xi - z} \dx
 This is valid for $z\neq z_0$, but the right-hand side is analytic. (?)
 :::
 
-#work/proof
+#complex/exercise/work 
 
 ![](figures/2021-10-29_01-30-50.png)
 
@@ -226,21 +226,21 @@ The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists 
 :::{.exercise title="Poles of $1/\sin$"}
 Show that all singularities of $1/\sin(z)$ are poles of order 1.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
 :::{.exercise title="Removable singularities for derivatives"}
 Suppose $f$ is meromorphic. Show that if $z_0$ is a removable singularity of $f$, then it is also a removable singularity of $f'$.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
 :::{.exercise title="Poles of derivatives"}
 Show that if $z_0$ is a pole of order $n$ of $f$, then it is a pole of order $n+k$ for $f^{(k)}$.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 

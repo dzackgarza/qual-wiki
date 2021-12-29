@@ -4,7 +4,7 @@ order: 1
 
 # Real Analysis Review
 
-## Spring 2019.1 #work/qual
+## Spring 2019.1 #complex/qual/work
 
 ^0a8ca5
 
@@ -25,7 +25,7 @@ $$
 E(z)=\sum_{n=0}^{\infty} \frac{z^{n}}{n !}
 .\]
 
-## Recurrences #work/qual
+## Recurrences #complex/qual/work
 
 :::{.problem title="?"}
 Let $x_0 = a, x_1 = b$, and set
@@ -130,7 +130,7 @@ x_n = {2\over 3}(a-b) \qty{-1\over 2}^n + {1\over 3}(a+b)\convergesto{n\to \inft
 .\]
 :::
 
-## Uniform continuity #work/qual
+## Uniform continuity #complex/qual/work
 
 :::{.problem title="?"}
 Suppose $f:\RR\to\RR$ is continuous and $\lim_{x\to \pm \infty} f(x) = 0$.
@@ -364,7 +364,7 @@ Then $n\geq N_0 \implies N\geq M_{x_i}$ for each $i$, so $\abs{f_n(x)} < \eps$ f
 So $\sup_{x\in X} \abs{f_n(x)} = \norm{f_n}_{\infty } < \eps$.
 :::
 
-## #work/qual
+## #complex/qual/work
 
 :::{.problem title="?"}
 Show that if $E\subset [0, 1]$ is uncountable, then there is some $t\in \RR$ such that $E\intersect (-\infty ,t)$ and $E\intersect (t, \infty)$ are also uncountable.
@@ -395,7 +395,7 @@ Claim: $S = (\sup S_-,, \inf S_+)$.
 
 
 
-## #work/qual
+## #complex/qual/work
 
 
 :::{.problem title="?"}
@@ -433,7 +433,7 @@ U(f, P) - L(f, P) < \eps \\
 :::{.problem title="Uniform continuity of $x^n$"}
 Show that $f(x) = x^n$ is uniformly continuous on any interval $[-M, M]$.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -446,7 +446,7 @@ Show that $f(x) = x^n$ is uniformly continuous on any interval $[-M, M]$.
 :::{.problem title="?"}
 Show $f(x) = x^{-n}$ for $n\in \ZZ_{\geq 0}$ is uniformly continuous on $[0, \infty)$.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -460,7 +460,7 @@ using $(a+b)^m \geq a^m + b^m$
 :::{.problem title="?"}
 Show that $f'$ bounded implies $f$ is uniformly continuous.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
@@ -475,7 +475,7 @@ Apply the MVT:
 :::{.problem title="?"}
 Show that the Dirichlet function $f(x) = \chi_{I \intersect \QQ}$ is not Riemann integrable and is everywhere discontinuous.
 
-#work/exercise
+#complex/exercise/work
 
 :::
 

@@ -4,7 +4,7 @@ order: 5
 
 # Function Convergence 
 
-## Spring 2019.7 #work/qual
+## Spring 2019.7 #complex/qual/work
 
 ^d94130
 
@@ -15,7 +15,7 @@ Let $\Omega \subset \CC$ be a connected open subset. Let $\left\{f_{n}: \Omega \
 has a limit point in $\Omega$. Show that $f_{n}$ converges to $f$ uniformly on compact subsets of $\Omega$.
 
 
-## Fall 2020.7 #work/qual
+## Fall 2020.7 #complex/qual/work
 
 ^4c605e
 
@@ -249,7 +249,7 @@ Now estimate the difference:
 
 :::
 
-## Tie's Extra Questions: Spring 2015 #work/qual
+## Tie's Extra Questions: Spring 2015 #complex/qual/work
 
 :::{.problem title="?"}
 Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region $\Omega$ that are uniformly bounded on compact subsets and $f \in H(\Omega)$ is such that the set

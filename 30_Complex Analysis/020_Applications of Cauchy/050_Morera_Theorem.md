@@ -83,7 +83,7 @@ For $\Omega\subseteq\CC$, show that $A(\CC)\definedas \theset{f: \Omega \to \CC 
 
 > Hint: Apply Morera's Theorem and Cauchy's Theorem
 
-#work/exercise
+#complex/exercise/work
 
 :::
 
