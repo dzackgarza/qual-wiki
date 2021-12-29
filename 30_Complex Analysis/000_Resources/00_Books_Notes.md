@@ -59,9 +59,6 @@ In the Spirit of Lipman Bers*
 
 - [[attachments/ist_ca_2015.pdf|Sameer Chavan, problems in complex analysis]]
 	#resources/summaries
-	
-- [UCSD Review Sheet](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
-	#resources/summaries 
 
 - [UCSD Qual review](http://www.math.ucsd.edu/~rwon/files/qualprep/complex.pdf)
 	#resources/summaries 
