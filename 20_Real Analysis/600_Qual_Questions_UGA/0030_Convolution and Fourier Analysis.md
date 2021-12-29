@@ -104,7 +104,7 @@ Now
 .\]
 :::
 
-## Spring 2020.6 #real_analysis/completed/qual/qual
+## Spring 2020.6 #real_analysis/completed/qual
 
 :::{.problem title="?"}
 \envlist

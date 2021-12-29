@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#completed",
+                "query": "tag:#real_analysis/completed/qual/qual",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -257,6 +257,7 @@
   "active": "caa5da98ca3bd313",
   "lastOpenFiles": [
     "index.md",
+    "20_Real Analysis/600_Qual_Questions_UGA/0030_Convolution and Fourier Analysis.md",
     "40_Topology/600_UGA_Qual_Questions/011_General.md",
     "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
     "30_Complex Analysis/010_Basics/001_Precalculus.md",
@@ -264,7 +265,6 @@
     "30_Complex Analysis/010_Basics/061_Analytic_NT.md",
     "30_Complex Analysis/010_Basics/051 Series Exercises.md",
     "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/0030_Convolution and Fourier Analysis.md"
+    "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
   ]
 }
