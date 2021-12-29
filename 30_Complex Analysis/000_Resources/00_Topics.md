@@ -52,7 +52,7 @@ Integration II
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 	- [[30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background#Linear Fractional Mobius Transformations|Mobius transformations and linear fractional transformations]]
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard#The Big 9 Conformal Maps|The big 9 standard maps]]
-	- SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
+	- SL(2, R), conformal [[disc]], the hyperbolic metric
 	- Uniformization
 - Week 9 (July 14): **Schwarz lemma**
 	- [[30_Complex Analysis/999_Quals/200_Schwarz|Schwarz lemma]] 
