@@ -50,7 +50,7 @@ Integration II
 		- [[Argument Principle]]
 - Week 8 (July 7): **Conformal Maps**
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
-	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard#The Big 9 Conformal Maps|]]
+	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard#The Big 9 Conformal Maps|The big 9 stand]]
 	- Mobius transformations, [[100_Linear Fractional Transformations]]
 	- SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
 	- Uniformization
