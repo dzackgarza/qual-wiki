@@ -24,10 +24,11 @@ Preliminary Review
     - Complex plane, Riemann sphere
     - Blaschke factors
 - Week 2 (May 26):
-Differentiation
-    - Implicit function theorem
-    - [[130_The Cauchy-Riemann equations]], the Laplace equation, [[125_Harmonic Functions]], holomorphicity
-    - [[010_Cauchy_Theorem]], [[012 Cauchy Integral Formula]], [[012_Cauchy Inequality]]
+Differentiation and integration
+    - [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries]]
+	    - Implicit function theorem, inverse function theorem
+    - [[130_The Cauchy-Riemann equations||Cauchy-Riemann]], the Laplace equation, [[125_Harmonic Functions|Harmonic functions]]
+    - [[012 Cauchy Integral Formula|Cauchy's integral formula]], [[012_Cauchy Inequality|Cauchy's inequality]]
 - Week 3 (June 2):
 Analytic Functions
     - Power series, convergence, Laurent expansions
@@ -41,14 +42,14 @@ Integration I
 		- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|Schwarz reflection principle]]
 - Week 5 (June 16):
 Integration II
-    - [[020_Residues]]
+    - [[020_Residues|Residues]]
+    - [[30_Complex Analysis/040_Residues/025 Residues for integrals]]
 - Week 6 (June 23):
-	- [[020 Liouville]]
-	- FTA
-	- Entire functions
+	- [[020 Liouville|Liouville's theorem]]
+	- [[30_Complex Analysis/900 Unsorted/090_Appendix FTA Proofs|The fundamental theorem of algebra]]
 - Week 7 (June 30): **Roots**
-    -  [[Rouche]]
-		- [[Argument Principle]]
+	- [[30_Complex Analysis/030_Zeros_and_Poles/020_Argument Principle|Argument principle]]
+	-  [[30_Complex Analysis/030_Zeros_and_Poles/030_Rouche|Rouche's theorem]]
 - Week 8 (July 7): **Conformal Maps**
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 	- [[30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background#Linear Fractional Mobius Transformations|Mobius transformations and linear fractional transformations]]

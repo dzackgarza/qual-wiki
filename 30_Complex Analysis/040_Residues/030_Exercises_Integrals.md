@@ -3,7 +3,7 @@ sort: 025
 title: Integral Exercises 
 ---
 
-# Exercises: Integrals
+# Exercises: Contour Integration
 
 ## Rational Functions 
 

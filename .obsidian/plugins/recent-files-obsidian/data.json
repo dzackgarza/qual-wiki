@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "030_Exercises_Integrals",
+      "path": "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md"
+    },
+    {
+      "basename": "025 Residues for integrals",
+      "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
+    },
+    {
       "basename": "00_Topics",
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
@@ -125,10 +133,6 @@
       "path": "30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality.md"
     },
     {
-      "basename": "030_Exercises_Integrals",
-      "path": "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md"
-    },
-    {
       "basename": "000_My Active Problems",
       "path": "000_My Active Problems.md"
     },
@@ -143,10 +147,6 @@
     {
       "basename": "20_Solutions",
       "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "025 Residues for integrals",
-      "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
     },
     {
       "basename": "240_Fixed_Points_and_Degree",
