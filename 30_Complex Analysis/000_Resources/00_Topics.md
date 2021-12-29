@@ -50,7 +50,7 @@
 
 - Week 7 (June 30): **Roots**
 	- [[30_Complex Analysis/030_Zeros_and_Poles/020_Argument Principle|Argument principle]]
-	-  [[30_Complex Analysis/030_Zeros_and_Poles/030_Rouche|Rouche's theorem]]
+	- [[30_Complex Analysis/030_Zeros_and_Poles/030_Rouche|Rouche's theorem]]
 
 - Week 8 (July 7): **Conformal Maps**
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
@@ -63,7 +63,6 @@
 - Week 9 (July 14): **Schwarz lemma**
 	- [[30_Complex Analysis/999_Quals/200_Schwarz|Schwarz lemma]] 
 	- [[30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping|Open Mapping Theorem]]
-	- [[30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping|]]
 
 - Week 10  (July 21): 
 		- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass|Casorati-Weierstrass]], 
