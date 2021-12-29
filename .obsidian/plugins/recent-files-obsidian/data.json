@@ -5,12 +5,12 @@
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
     {
-      "basename": "025 Residues for integrals",
-      "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
-    },
-    {
       "basename": "030_Exercises_Integrals",
       "path": "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md"
+    },
+    {
+      "basename": "025 Residues for integrals",
+      "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
     },
     {
       "basename": "040_MMP",

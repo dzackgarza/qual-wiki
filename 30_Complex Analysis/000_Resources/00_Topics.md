@@ -23,8 +23,7 @@ Preliminary Review
     - Green's theorem, Stokes theorem
     - Complex plane, Riemann sphere
     - Blaschke factors
-- Week 2 (May 26):
-Differentiation and integration
+- Week 2 (May 26): Differentiation and integration
     - [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries]]
 	    - Implicit function theorem, inverse function theorem
     - [[130_The Cauchy-Riemann equations||Cauchy-Riemann]], the Laplace equation, [[125_Harmonic Functions|Harmonic functions]]
@@ -43,7 +42,7 @@ Integration I
 - Week 5 (June 16):
 Integration II
     - [[020_Residues|Residues]]
-    - [[complex residues ]]
+    - [[30_Complex Analysis/040_Residues/030_Exercises_Integrals|Techniques in contour integration]]
 - Week 6 (June 23):
 	- [[020 Liouville|Liouville's theorem]]
 	- [[30_Complex Analysis/900 Unsorted/090_Appendix FTA Proofs|The fundamental theorem of algebra]]
