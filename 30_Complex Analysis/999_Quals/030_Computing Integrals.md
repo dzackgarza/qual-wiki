@@ -113,7 +113,7 @@ Parameterize $\gamma_2 = \ts{Re^{it} \st t\in [0, 2\pi/n]}$ and apply the ML est
 
 :::
 
-### Spring 2020 HW 3, SS 3.8.2 #complex
+### Spring 2020 HW 3, SS 3.8.2 #complex/exercise/work
 
 Evaluate the integral
 \[
@@ -123,7 +123,7 @@ Evaluate the integral
 What are the poles of ${1\over 1 + z^4}$ ?
 
 
-### Spring 2020 HW 3, SS 3.8.6 #work/exercise/exercise
+### Spring 2020 HW 3, SS 3.8.6 #complex/exercise/work 
 Show that
 \[
 \int_{-\infty}^{\infty} \frac{d x}{\left(1+x^{2}\right)^{n+1}}=\frac{1 \cdot 3 \cdot 5 \cdots(2 n-1)}{2 \cdot 4 \cdot 6 \cdots(2 n)} \cdot \pi
