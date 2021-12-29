@@ -11,14 +11,6 @@ Try some #problems (see also #work) and read #solutions, or help me  unsolved ex
 
 Try some problems! See the following tags:
 
-
--  
-- #real_analysis/qual/completed 
-- #complex/qual/completed 
-- #complex/exercise/completed 
-
-Some indices into more content:
-
 - Algebra
 	- #algebra/qual/work #algebra/qual/completed 
 	- [[50_Solutions_Algebra]]
@@ -26,10 +18,11 @@ Some indices into more content:
 	- [[9960 UGA Problems|UGA Algebra Course PSets]]
 
 - Real Analysis
-	- 
+	- #real_analysis/qual/work #real_analysis/qual/completed 
 	- [[20_Real Analysis/000_Resources/20_Solutions|Real Analysis Solutions]]
 
 - Complex Analysis
+	- #complex/qual/work #complex/qual/completed 
 	- [[30_Complex Analysis/000_Resources/20_Solutions|Complex Analysis Solutions]]
 
 - Topology
