@@ -9,7 +9,6 @@ Conformal Mapping Dictionary:
 
 ## Conformal Map Facts
 
-
 :::{.remark}
 It's a theorem that holomorphic and $f'\neq 0$ implies conformal.
 Write $f(z+\eps) = f(z) + \eps f'(z) + \bigo(\eps^2)$, then
@@ -18,7 +17,6 @@ Write $f(z+\eps) = f(z) + \eps f'(z) + \bigo(\eps^2)$, then
 ,\]
 so all tangent vectors near $z_0$ are rotated by approximately the same angle $f'(z_0)$, preserving their relative angles.
 :::
-
 
 :::{.definition title="Conformal Map / Biholomorphism"}
 A map $f$ is **conformal** on $\Omega$ iff $f$ is complex-differentiable, $f'(z)\neq 0$ for $z\in \Omega$, and $f$ preserves signed angles (so $f$ is orientation-preserving).
@@ -101,17 +99,6 @@ This yields a quick way of finding $f\inv$: invert the matrix and ignore the det
 
 :::
 
-:::{.exercise title="Mobius transformations as cross-ratios"}
-Write a Mobius transformation $f(z) = {az+b\over cz + d}$
-as a cross-ratio.
-:::
-
-:::{.solution}
-\[
-T(z) = \qty{ z; {d-b\over a-c}, -{b\over a}, -{d\over c}}
-.\]
-:::
-
 ## Blaschke Factors
 
 :::{.remark}
@@ -128,11 +115,26 @@ Some nice properties:
 - Fun fact: these yield continuous dynamical systems on $\bd \DD$!
 :::
 
+## Exercise
+
+:::{.exercise title="Mobius transformations as cross-ratios"}
+Write a Mobius transformation $f(z) = {az+b\over cz + d}$ as a cross-ratio.
+
+#completed/exercise
+
+:::
+
+:::{.solution}
+\[
+T(z) = \qty{ z; {d-b\over a-c}, -{b\over a}, -{d\over c}}
+.\]
+:::
+
 :::{.exercise title="Cancelling poles"}
 Let $f$ be meromorphic on $\DD$ with no poles on $\bd\DD$.
 Show that there exists a meromorphic $g$ with *no* poles in $\DD$ such that $\abs{f(z)} = \abs{g(z)}$ when $\abs{z} = 1$.
 
-#completed
+#completed/exercise
 
 :::
 
