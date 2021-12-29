@@ -124,9 +124,11 @@ Included years:
 [Spring 2017](https://www.math.uga.edu/sites/default/files/ComplexAnalysis_Spring2017.pdf)
 
 
-See subdirectory and #work tag.
   
 ```query
 tag:complex/exercise path:"999_Quals"
 ```
 
+```query
+tag:complex/qual path:"999_Quals"
+```
