@@ -216,7 +216,14 @@ z &\mapsto e^{iz} \\
 This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (-\pi/2, \pi/2)$ and $y\in (0, \infty)$ so this fills out a half-disc as $x,y$ vary.
 :::
 
-## Hyperbolic Maps
+## Joukowski-type Maps
+
+
+:::{.remark}
+
+![](figures/2021-12-29_03-07-40.png)
+:::
+
 
 :::{.proposition title="Disc complement to doubly slit plane"}
 \[
