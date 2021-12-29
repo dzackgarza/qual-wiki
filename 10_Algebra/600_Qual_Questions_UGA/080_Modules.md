@@ -2,7 +2,7 @@
 
 ## General Questions
 
-## Spring 2017 #3 #work
+## Spring 2017 #3 #algebra/qual/work
 Let $R$ be a commutative ring with 1.
 Suppose that $M$ is a free $R\dash$module with a finite basis $X$.
 
@@ -124,7 +124,7 @@ Thus by (b), $H$ can not be maximal, a contradiction.
 
 :::
 
-### Fall 2019 Final #2  #work
+### Fall 2019 Final #2  #algebra/qual/work
 Consider the $\ZZ\dash$submodule $N$ of $\ZZ^3$ spanned by 
 \[
 f_1 &= [-1, 0, 1], \\
@@ -134,7 +134,7 @@ f_4 &= [3,1,5]
 .\] 
 Find a basis for $N$ and describe $\ZZ^3/N$.
 
-### Spring 2018 #6 #work
+### Spring 2018 #6 #algebra/qual/work
 Let
 \[
 M &= \{(w, x, y, z) \in \ZZ^4 \suchthat w + x + y + z \in 2\ZZ\} \\
@@ -163,7 +163,7 @@ d_1 u_1,~ d_2 u_2,~ d_3 u_3,~ d_4 u_4
 c.
 Use the previous part to describe $M/N$ as a direct sum of cyclic $\ZZ\dash$modules.
 
-### Spring 2018 #7 #work
+### Spring 2018 #7 #algebra/qual/work
 Let $R$ be a PID and $M$ be an $R\dash$module. Let $p$ be a prime element of $R$. The module $M$ is called *$\generators{p}\dash$primary* if for every $m \in M$ there exists $k > 0$ such that $p^k m = 0$.
 
 a.
@@ -174,11 +174,11 @@ b.
 A submodule $S$ of $M$ is said to be *pure* if $S \cap r M = rS$ for all $r \in R$. Show that if $M$ is $\generators{p}\dash$primary, then $S$ is pure if and only if $S \cap p^k M = p^k S$ for all $k \geq 0$.
 
 
-### Fall 2016 #6 #work
+### Fall 2016 #6 #algebra/qual/work
 Let $R$ be a ring and $f: M\to N$ and $g: N\to M$ be $R\dash$module homomorphisms such that $g\circ f = \id_M$.
 Show that $N\cong \im f \oplus \ker g$.
 
-### Spring 2016 #4 #work
+### Spring 2016 #4 #algebra/qual/work
 Let $R$ be a ring with the following commutative diagram of $R\dash$modules, where each row represents a short exact sequence of $R\dash$modules:
 
 \begin{tikzcd}
@@ -188,7 +188,7 @@ Let $R$ be a ring with the following commutative diagram of $R\dash$modules, whe
 
 Prove that if $\alpha$ and $\gamma$ are isomorphisms then $\beta$ is an isomorphism.
 
-### Spring 2015 #8 #work
+### Spring 2015 #8 #algebra/qual/work
 Let $R$ be a PID and $M$ a finitely generated $R\dash$module.
 
 a.
@@ -203,7 +203,7 @@ Is the integer $n$ in part (a) uniquely determined by $M$?
 Prove your answer.
 
 
-### Fall 2012 #6 #work
+### Fall 2012 #6 #algebra/qual/work
 Let $R$ be a ring and $M$ an $R\dash$module.
 Recall that $M$ is *Noetherian* iff any strictly increasing chain of submodule $M_1 \subsetneq M_2 \subsetneq \cdots$ is finite.
 Call a proper submodule $M' \subsetneq M$ *intersection-decomposable* if it can not be written as the intersection of two proper submodules $M' = M_1\intersect M_2$ with $M_i \subsetneq M$.
@@ -211,10 +211,10 @@ Call a proper submodule $M' \subsetneq M$ *intersection-decomposable* if it can 
 Prove that for every Noetherian module $M$, any proper submodule $N\subsetneq M$ can be written as a finite intersection $N = N_1 \intersect \cdots \intersect N_k$ of intersection-indecomposable modules.
 
 
-### Fall 2019 Final #1  #work
+### Fall 2019 Final #1  #algebra/qual/work
 Let $A$ be an abelian group, and show $A$ is a $\ZZ\dash$module in a unique way.
 
-### Fall 2020 #6 #work
+### Fall 2020 #6 #algebra/qual/work
 Let $R$ be a ring with $1$ and let $M$ be a left \(R\dash\)module.
 If $I$ is a left ideal of $R$, define 
 \[
@@ -633,7 +633,7 @@ M_t = r(m + M_t) \da (rm) + M_t \implies rm\in M_t
 
 :::
 
-### Spring 2012 #5 #work
+### Spring 2012 #5 #algebra/qual/work
 Let $M$ be a finitely generated module over a PID $R$.
 
 a.
@@ -645,7 +645,7 @@ Show that $M/M_t$ is torsion free.
 c.
 Prove that $M \cong M_t \oplus F$ where $F$ is a free module.
 
-### Spring 2017 #5 #work
+### Spring 2017 #5 #algebra/qual/work
 Let $R$ be an integral domain and let $M$ be a nonzero torsion $R\dash$module.
 
 a.
@@ -654,17 +654,17 @@ Prove that if $M$ is finitely generated then the annihilator in $R$ of $M$ is no
 b.
 Give an example of a non-finitely generated torsion $R\dash$module whose annihilator is $(0)$, and justify your answer.
 
-### Fall 2019 Final #3 #work
+### Fall 2019 Final #3 #algebra/qual/work
 Let $R = k[x]$ for $k$ a field and let $M$ be the $R\dash$module given by
 \[
 M=\frac{k[x]}{(x-1)^{3}} \oplus \frac{k[x]}{\left(x^{2}+1\right)^{2}} \oplus \frac{k[x]}{(x-1)\left(x^{2}+1\right)^{4}} \oplus \frac{k[x]}{(x+2)\left(x^{2}+1\right)^{2}}
 .\]
 Describe the elementary divisors and invariant factors of $M$.
 
-### Fall 2019 Final #4 #work
+### Fall 2019 Final #4 #algebra/qual/work
 Let $I = (2, x)$ be an ideal in $R = \ZZ[x]$, and show that $I$ is not a direct sum of nontrivial cyclic $R\dash$modules.
 
-### Fall 2019 Final #5 #work
+### Fall 2019 Final #5 #algebra/qual/work
 Let $R$ be a PID. 
 
 a.
@@ -673,19 +673,19 @@ Classify irreducible $R\dash$modules up to isomorphism.
 b.
 Classify indecomposable $R\dash$modules up to isomorphism.
 
-### Fall 2019 Final #6 #work
+### Fall 2019 Final #6 #algebra/qual/work
 Let $V$ be a finite-dimensional $k\dash$vector space and $T:V\to V$ a non-invertible $k\dash$linear map. Show that there exists a $k\dash$linear map $S:V\to V$ with $T\circ S = 0$ but $S\circ T\neq 0$. 
 
-### Fall 2019 Final #7 #work
+### Fall 2019 Final #7 #algebra/qual/work
 Let $A\in M_n(\CC)$ with $A^2 = A$. Show that $A$ is similar to a diagonal matrix, and exhibit an explicit diagonal matrix similar to $A$.
 
-### Fall 2019 Final #10 #work
+### Fall 2019 Final #10 #algebra/qual/work
 Show that the eigenvalues of a Hermitian matrix $A$ are real and that $A = PDP\inv$ where $P$ is an invertible matrix with orthogonal columns.
 
 
 
 
-### Fall 2020 #7 #work
+### Fall 2020 #7 #algebra/qual/work
 
 Let $A \in \Mat(n\times n, \RR)$ be arbitrary.
 Make $\RR^n$ into an $\RR[x]\dash$module by letting $f(x).\vector{v} \da f(A)(\vector{v})$ for $f(\vector{v})\in \RR[x]$ and $\vector{v} \in \RR^n$.

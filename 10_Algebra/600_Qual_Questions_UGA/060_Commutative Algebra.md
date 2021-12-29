@@ -209,7 +209,7 @@ Define *maximal ideal*, give an example of a nontrivial maximal ideal in $\ZZ$ a
 :::
 
 
-### Fall 2014 #8 #work
+### Fall 2014 #8 #algebra/qual/work
 Let $R$ be a nonzero commutative ring without unit such that $R$ does not contain a proper maximal ideal.
 Prove that for all $x\in R$, the ideal $xR$ is proper.
 
@@ -649,7 +649,7 @@ R &\cong \ZZ/(2)[t] / (t^2)
 
 ## Zorn's Lemma
 
-### Fall 2013 #4 #work
+### Fall 2013 #4 #algebra/qual/work
 Let $R$ be a commutative ring with $1\neq 0$.
 Recall that $x\in R$ is *nilpotent* iff $x^n = 0$ for some positive integer $n$.
 
@@ -908,7 +908,7 @@ Prove that for some $n$, we have $(a_j) = (a_n)$ for all $j\geq n$.
   So inductively, the chain stabilizes at $m$.
 :::
 
-### Spring 2021 #6 #work
+### Spring 2021 #6 #algebra/qual/work
 
 a. 
 Carefully state the definition of **Noetherian** for a commutative ring $R$.
@@ -1224,7 +1224,7 @@ cu = db\inv a u = dv
 
 
 
-### Spring 2014 #6 #work
+### Spring 2014 #6 #algebra/qual/work
  $R$ be a commutative ring with identity and let $n$ be a positive integer.
 
 a.

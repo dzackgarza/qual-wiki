@@ -713,6 +713,6 @@ n_q \divides p^2 &\implies n_q \in \ts{ 1, p, p^2}
 
 :::
 
-### Fall 2019 Midterm #4 #work
+### Fall 2019 Midterm #4 #algebra/qual/work
 Let $p$ be a prime. Show that $S_p = \gens{\tau, \sigma}$ where $\tau$ is a transposition and $\sigma$ is a $p\dash$cycle.
 

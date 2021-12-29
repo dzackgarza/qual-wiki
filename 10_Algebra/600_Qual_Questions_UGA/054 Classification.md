@@ -1,6 +1,6 @@
 # Groups: Classification
 
-## Spring 2020 #1 #work
+## Spring 2020 #1 #algebra/qual/work
 
 a.
 Show that any group of order 2020 is solvable.
@@ -45,7 +45,7 @@ Describe a representative from each class.
 
 \todo[inline]{Revisit, seems short.}
 
-## Spring 2012 #3 #work
+## Spring 2012 #3 #algebra/qual/work
 Let $G$ be a group of order 70.
 
 a.
@@ -54,7 +54,7 @@ Show that $G$ is not simple.
 a.
 Exhibit 3 nonisomorphic groups of order 70 and prove that they are not isomorphic.
 
-## Fall 2016 #3 #work
+## Fall 2016 #3 #algebra/qual/work
 How many groups are there up to isomorphism of order $pq$ where $p<q$ are prime integers?
 
 ## Spring 2018 #1 #algebra/qual/completed

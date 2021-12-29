@@ -1,6 +1,6 @@
 # Groups: Group Actions
 
-## Fall 2012 #1 #work
+## Fall 2012 #1 #algebra/qual/work
 Let $G$ be a finite group and $X$ a set on which $G$ acts.
 
 a.
@@ -11,7 +11,7 @@ b.
 Let $x\in X$ and $G\cdot x \definedas \theset{g\cdot x \suchthat g\in G}$.
 Prove that there is a bijection between elements in $G\cdot x$ and the left cosets of $G_x$ in $G$.
 
-## Fall 2015 #2 #work
+## Fall 2015 #2 #algebra/qual/work
 Let $G$ be a finite group, $H$ a $p\dash$subgroup, and $P$ a sylow $p\dash$subgroup for $p$ a prime.
 Let $H$ act on the left cosets of $P$ in $G$ by left translation.
 
@@ -19,7 +19,7 @@ Prove that this is an orbit under this action of length 1.
 
 Prove that $xP$ is an orbit of length 1 $\iff H$ is contained in $xPx\inv$.
 
-## Spring 2016 #5 #work
+## Spring 2016 #5 #algebra/qual/work
 Let $G$ be a finite group acting on a set $X$.
 For $x\in X$, let $G_x$ be the stabilizer of $x$ and $G\cdot x$ be the orbit of $x$.
 
@@ -29,7 +29,7 @@ Prove that there is a bijection between the left cosets $G/G_x$ and $G\cdot x$.
 b.
 Prove that the center of every finite $p\dash$group $G$ is nontrivial by considering that action of $G$ on $X=G$ by conjugation.
 
-## Fall 2017 #1 #work
+## Fall 2017 #1 #algebra/qual/work
 Suppose the group $G$ acts on the set $A$. 
 Assume this action is faithful (recall that this means that the kernel of the homomorphism from $G$ to $\sym(A)$ which gives the action is trivial) and transitive (for all $a, b$ in $A$, there exists $g$ in $G$ such that $g \cdot a = b$.)
 
