@@ -11,7 +11,7 @@ Try some #problems (see also #work) and read #solutions (see also #completed), o
 
 Try some problems! See the following tags:
 
-- 
+- #algebra
 
 Some indices into more content:
 
