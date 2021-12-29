@@ -65,21 +65,21 @@ Pointwise uniform convergence of functions, equi-continuity, *l*2, *L*2(*S*1),
 
 ## Notes
 
-#summaries 
+#resources/summaries 
 
 - Analysis
 	- [[attachments/140A_Exam_Review.pdf]]
-		#summaries 
+		#resources/summaries 
 
 	- [[attachments/Real_Analysis_Review_Midterm.pdf]]
 
 - Linear Algebra
 	- [[attachments/Basic_Linear_Algebra_Review.pdf]]
-		#summaries 
+		#resources/summaries 
 
 - Probability
 	- [[attachments/Probability_Review.pdf]]
-		#summaries 
+		#resources/summaries 
 
 - Topology
 	- [[attachments/Topology_Prelim_Answers_-_Unknown.pdf]]
@@ -88,7 +88,7 @@ Pointwise uniform convergence of functions, equi-continuity, *l*2, *L*2(*S*1),
 
 ## Problems
 
-#problems 
+#resources/problem_collections 
 
 - [ ] [[attachments/Big_List_of_Math_Problems.pdf]]
 - [ ]  [Duke Analysis and Linear Algebra Quals](https://services.math.duke.edu/graduate/wqual/oldquals.html)
@@ -108,7 +108,7 @@ Pointwise uniform convergence of functions, equi-continuity, *l*2, *L*2(*S*1),
 
 ## Solutions
 
-#solutions 
+#resources/solutions 
 
 - [ ]  Berkeley Prelim Archive 
 [https://math.berkeley.edu/programs/graduate/prelim-exams/archive](https://math.berkeley.edu/programs/graduate/prelim-exams/archive)

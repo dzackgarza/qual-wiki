@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
       "basename": "10_Problems",
       "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
@@ -111,10 +115,6 @@
     {
       "basename": "025 Residues for integrals",
       "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
-    },
-    {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
     {
       "basename": "00_Topics",

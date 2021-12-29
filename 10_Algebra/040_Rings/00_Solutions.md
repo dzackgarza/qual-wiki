@@ -1,4 +1,4 @@
-Tags: #solutions 
+Tags: #resources/solutions 
 
 # Solutions (Rings)
 
@@ -10,13 +10,13 @@ Tags: #solutions
 
 [Ch17Sltns.pdf](attachments/Ch17Sltns.pdf)
 
-[603_11.pdf](attachments/603_11.pdf) #problems #solutions
+[603_11.pdf](attachments/603_11.pdf) #resources/problem_collections #resources/solutions
 
 -   Week 6: Commutative algebra (3/8)
     -   [Problems for discussion](https://www.mit.edu/~fengt/CommutativeAlg.pdf), collected together in [one file](https://www.mit.edu/~fengt/CAlgProblems.pdf).
     -   Extra problems for practice: 2015 Spring M5
     -   [Hints/Solutions](https://www.mit.edu/~fengt/CAlgSolns.pdf). 
-	#problems #solutions 
+	#resources/problem_collections #resources/solutions 
 
 ## Galois Theory
 

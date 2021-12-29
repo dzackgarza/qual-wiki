@@ -1,6 +1,6 @@
 # Algebra Books and Notes
 
-#reading
+#resources/reading
 
 # Books
 

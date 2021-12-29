@@ -1,6 +1,6 @@
 # Problems (Real)
 
-#problems 
+#resources/problem_collections 
 
 ## Folland Exercises
 Exercises from Folland:
@@ -51,7 +51,7 @@ Exercises from Folland:
 
 # Qual Workshop Materials
 
-#summaries 
+#resources/summaries 
 
 > DZG: not mine, just copied from somewhere.
 

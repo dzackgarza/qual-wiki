@@ -1,5 +1,5 @@
 # Solutions (Algebra)
-#solutions 
+#resources/solutions 
 
 Todo: no algebra-specific solutions yet! See compendia:
 

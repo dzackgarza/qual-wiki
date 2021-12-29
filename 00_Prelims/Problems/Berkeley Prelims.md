@@ -1,4 +1,4 @@
-Tags: #problems #solutions 
+Tags: #resources/problem_collections #resources/solutions 
 
 # Berkeley Prelims
 
@@ -205,7 +205,7 @@ Tags: #problems #solutions
 [Spring 2019 prelim.pdf](attachments/Spring_2019_prelim.pdf)
 
 [Spring_2019_prelim_solutions.pdf](attachments/Spring_2019_prelim_solutions.pdf)
-#solutions 
+#resources/solutions 
 
 [Summer77.pdf](attachments/Summer77.pdf)
 

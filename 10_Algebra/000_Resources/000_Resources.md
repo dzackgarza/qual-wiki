@@ -1,4 +1,4 @@
-Tags: #pdfs #problems
+Tags: #resources/pdfs #resources/problem_collections
 
 # Resources (Algebra)
 

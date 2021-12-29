@@ -1,8 +1,8 @@
 # Real Analysis Books and Notes
 
-#reading
+#resources/reading
 
-# #textbooks
+# #resources/textbooks
 
 - Rudin: Real and complex analysis 
 
@@ -27,7 +27,7 @@
 
 - Durrett: Probability: Theory And Examples
 
-# #course_notes 
+# #resources/course_notes 
 
 - [Harvard 2019 Grad Analysis Course Notes](https://people.math.harvard.edu/~ctm/home/text/class/harvard/212a/19/html/home/course/course.pdf)
 
@@ -36,7 +36,7 @@
 - [[cambride_analysis_ii.pdf|Cambridge analysis notes]]
 
 
-# #summaries 
+# #resources/summaries 
 
 - [Stanford, notes on Folland](http://web.stanford.edu/~eugeniam/math205a/L2m.pdf)
 

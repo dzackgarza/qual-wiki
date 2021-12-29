@@ -2,7 +2,7 @@
 title: Algebra Group and Ring Theory Resources
 ---
 
-Tags: #solutions #problems #pdfs
+Tags: #resources/solutions #resources/problem_collections #resources/pdfs
 
 # Solutions
 

@@ -1,5 +1,5 @@
 # Solutions
-#solutions 
+#resources/solutions 
 
 ## Collections
 

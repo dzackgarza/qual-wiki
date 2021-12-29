@@ -1,5 +1,5 @@
 # Topology References
-#reading
+#resources/reading
 
 # Books
 

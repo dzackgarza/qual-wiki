@@ -1,4 +1,4 @@
-Tags: #problems 
+Tags: #resources/problem_collections 
 
 # UCLA Prelims
 

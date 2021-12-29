@@ -1,4 +1,4 @@
-Tags: #problems #pdfs #summaries
+Tags: #resources/problem_collections #resources/pdfs #resources/summaries
 
 # Resources
 

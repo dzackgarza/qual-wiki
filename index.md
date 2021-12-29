@@ -7,7 +7,7 @@
 
 ## Problems
 
-Try some #problems, or help me with unsolved ones:
+Try some #resources/problem_collections, or help me with unsolved ones:
 
 - Algebra
 	- #algebra/qual/work #algebra/qual/completed 
@@ -28,10 +28,10 @@ Try some #problems, or help me with unsolved ones:
 	- [[30_Solutions|Topology Solutions]]
 
 
-Read some #solutions 
+Read some #resources/solutions 
 
 
-Enjoy some light #reading:
+Enjoy some light #resources/reading:
 
 - [The Written Qual Book](https://people.csail.mit.edu/ddeford/The_Written_Qual_Book.pdf)
 - [Berkeley Problems in Mathematics](https://ravuthleang12.files.wordpress.com/2013/08/berkeley-problems-in-mathematics.pdf)
@@ -53,7 +53,7 @@ Dive into some topics here:
 - [[030_Complex Analysis]]
 - [[040_Topology]]
 
-Do some #reading:
+Do some #resources/reading:
 
 - [[20_Books_Notes|Algebra notes]]
 - [[15_Books_Notes|Real analysis notes]]
