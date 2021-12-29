@@ -113,7 +113,7 @@ Parameterize $\gamma_2 = \ts{Re^{it} \st t\in [0, 2\pi/n]}$ and apply the ML est
 
 :::
 
-### Spring 2020 HW 3, SS 3.8.2 #work/exercise/exercise
+### Spring 2020 HW 3, SS 3.8.2 #complex/work/exercise 
 
 Evaluate the integral
 \[
