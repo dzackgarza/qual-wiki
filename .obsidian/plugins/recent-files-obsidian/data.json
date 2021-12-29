@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "999_Exercises",
+      "path": "30_Complex Analysis/030_Zeros_and_Poles/999_Exercises.md"
+    },
+    {
+      "basename": "030 Identity Principle",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
+    },
+    {
       "basename": "030_Computing Integrals",
       "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
     },
@@ -105,10 +113,6 @@
       "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
     },
     {
-      "basename": "030 Identity Principle",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
-    },
-    {
       "basename": "scratch",
       "path": "scratch.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "0010_Measure Theory",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0010_Measure Theory.md"
-    },
-    {
-      "basename": "0022_Fubini Tonelli",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0022_Fubini Tonelli.md"
     }
   ],
   "omittedPaths": [],

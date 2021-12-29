@@ -33,7 +33,7 @@ For the generalization, consider $F(z, w) \da e^{z+w}-e^z e^w$; then $F\equiv 0$
 
 ![figures/image_2021-05-17-11-53-33.png](figures/image_2021-05-17-11-53-33.png)
 
-#work/exercises
+#complex/exercise/work 
 
 :::
 
