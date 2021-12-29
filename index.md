@@ -7,8 +7,6 @@
 
 ## Problems
 
-Try some #problems (see also #work) and , or:
-
 Try some #problems, or help me with unsolved ones:
 
 - Algebra

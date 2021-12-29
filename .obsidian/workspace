@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "30_Complex Analysis/999_Quals/000_Preface.md",
             "mode": "source"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "index.md",
+                "file": "30_Complex Analysis/999_Quals/000_Preface.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "30_Complex Analysis/999_Quals/000_Preface.md"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "30_Complex Analysis/999_Quals/000_Preface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "index.md",
+                "file": "30_Complex Analysis/999_Quals/000_Preface.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -252,16 +252,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 172.80758666992188
+    "width": 589.007568359375
   },
   "active": "caa5da98ca3bd313",
   "lastOpenFiles": [
+    "30_Complex Analysis/999_Quals/000_Preface.md",
     "index.md",
     "40_Topology/600_UGA_Qual_Questions/017 Fixed Points.md",
     "40_Topology/600_UGA_Qual_Questions/016 Surfaces.md",
     "40_Topology/600_UGA_Qual_Questions/011_General.md",
     "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md",
-    "30_Complex Analysis/999_Quals/000_Preface.md",
     "30_Complex Analysis/030_Zeros_and_Poles/015_Singularities.md",
     "30_Complex Analysis/999_Quals/011_Complex Geometry.md",
     "30_Complex Analysis/030_Zeros_and_Poles/999_Exercises.md",

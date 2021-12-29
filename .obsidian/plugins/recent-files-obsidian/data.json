@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
+    },
+    {
       "basename": "index",
       "path": "index.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "0000_Undergraduate Analysis",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
     {
       "basename": "015_Singularities",
