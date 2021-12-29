@@ -7,9 +7,9 @@
 
 ## Problems
 
-Try some #problems (see also #work) and , or help me  unsolved exercises:
+Try some #problems (see also #work) and , or:
 
-Try some problems!
+Try some #problems, or help me with unsolved ones:
 
 - Algebra
 	- #algebra/qual/work #algebra/qual/completed 
@@ -30,7 +30,7 @@ Try some problems!
 	- [[30_Solutions|Topology Solutions]]
 
 
-Read some #solutions
+Read some #solutions 
 
 
 Enjoy some light #reading:
