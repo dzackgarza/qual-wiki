@@ -21,8 +21,6 @@ Pedantic warning: $\Res_{z=p}(f)$ should really be $\Res_{z=p}(df)$ for $df = f(
 We freely abuse notation!
 :::
 
-## Basics
-
 :::{.remark}
 Check: do you need residues at all??
 You may be able to just compute an integral!
@@ -126,7 +124,7 @@ If $z_0$ is an order 1 pole of $f$ and $\gamma_{\eps, \theta}$ is an arc of the 
 
 :::
 
-## Residue Exercises
+## Exercises
 
 ### Avoiding Residue Formulas
 
@@ -146,7 +144,7 @@ and thus
 ,\]
 i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansion.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -169,7 +167,7 @@ Compute the following integrals:
 .\]
 Compute the 2nd integral by finding a primitive.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -210,7 +208,7 @@ Compute
 \int_{S^1} {2 \sinh(z) \over z^n}\dz
 .\]
 
-#completed
+#completed/exercise
 
 :::
 
@@ -242,7 +240,7 @@ for
 - A circle of radius $1$,
 - A circle of radius $2+\eps$,
 
-#completed
+#completed/exercise
 
 :::
 
@@ -281,7 +279,7 @@ Find all residues of the following function by writing it as a sum of principal 
 f(z) = {z^3 \over z^2 + 1}
 .\]
 
-#completed
+#completed/exercise
 
 :::
 
@@ -319,6 +317,8 @@ Use a direct Laurent expansion to show
 
 > Note the necessity: one doesn't know the order of the pole at zero, so it's unclear how many derivatives to take.
 
+#completed/exercise
+
 :::
 
 :::{.solution}
@@ -342,6 +342,9 @@ Compute
 \[
 \Res_{z=0} {1\over z^2 \sin(z)}
 .\]
+
+#completed/exercise
+
 :::
 
 :::{.solution}
@@ -376,7 +379,8 @@ Use the rational function formula to compute the residues at $z=\pm i$ of
 f(z) \da {1\over z^2 + 1}
 .\]
 
-#completed
+#completed/exercise
+
 :::
 
 :::{.solution}
@@ -395,7 +399,7 @@ Find the residue at $\omega_n \da e^{\pi i \over n}$ of
 f(z) = {1\over z^n + 1}
 .\]
 
-#completed 
+#completed/exercise
 
 :::
 
@@ -422,7 +426,7 @@ Compute
 &\Res_{z=\infty}{z-1\over z+1}
 .\]
 
-#completed
+#completed/exercise
 
 :::
 
@@ -456,5 +460,4 @@ In parts:
 
 
 :::
-
 
