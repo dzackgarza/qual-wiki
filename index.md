@@ -9,6 +9,9 @@
 
 Try some #problems (see also #work) and read #solutions (see also #completed), or help me  unsolved exercises:
 
+
+Some indices into more 
+
 - Algebra
 	- [[50_Solutions_Algebra]]
 	- [[00_Solutions|Ring Theory Solutions]]
