@@ -32,7 +32,9 @@
 
 - Week 3 (June 2): **Analytic Functions**
 	- Power series, convergence, Laurent expansions
-	- Singularities, poles, [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity]], meromorphic functions, isolated singularities
+	- [[
+	- [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity|Riemann's removable singularity theorem]]
+	- Singularities, poles, , meromorphic functions, isolated singularities
 
 - Week 4 (June 9): **Integration I**
 		- [[010_Cauchy_Theorem|Cauchy's theorem]] and [[050_Morera_Theorem|Morera's theorem]]
