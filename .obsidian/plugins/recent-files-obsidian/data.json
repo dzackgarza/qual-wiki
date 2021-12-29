@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
     {
+      "basename": "031_Conformal_Standard",
+      "path": "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md"
+    },
+    {
       "basename": "030_Exercises_Integrals",
       "path": "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "040_MMP",
       "path": "30_Complex Analysis/030_Zeros_and_Poles/040_MMP.md"
-    },
-    {
-      "basename": "031_Conformal_Standard",
-      "path": "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md"
     },
     {
       "basename": "030_Conformal Map Theory and Background",

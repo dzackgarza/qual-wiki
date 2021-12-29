@@ -15,13 +15,13 @@
 # Scheduling
 
 - Week 1 (May 19):  **Preliminary Review**
+	- [[30_Complex Analysis/010_Basics/100_Complex Arithmetic]]
     - Complex arithmetic and geometry, conic section equations
     - Uniform (continuity,  differentiability, convergence)
         - Heine-Cantor
     - Inverse and implicit function theorems
     - Green's theorem, Stokes theorem
     - Complex plane, Riemann sphere
-    - Blaschke factors
 
 - Week 2 (May 26): **Differentiation and integration**
     - [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries]]
@@ -62,6 +62,7 @@
 	- [[30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]], 
 
 - Week 9 (July 14): **Schwarz lemma**
+	- [[30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background#Blaschke Factors|Blaschke Factors]]
 	- [[30_Complex Analysis/999_Quals/200_Schwarz|Schwarz lemma]] 
 	- [[30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping|Open Mapping Theorem]]
 
