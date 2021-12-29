@@ -148,7 +148,7 @@ If equality holds for some $z\neq w$ in either expression, then $f= \lambda F$ w
 Show that if $f: \Delta\to\Delta$ is a biholomorphism with $f(0) = 0$ then $f$ is a rotation.
 
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

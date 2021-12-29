@@ -120,7 +120,7 @@ Some nice properties:
 :::{.exercise title="Mobius transformations as cross-ratios"}
 Write a Mobius transformation $f(z) = {az+b\over cz + d}$ as a cross-ratio.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -134,7 +134,7 @@ T(z) = \qty{ z; {d-b\over a-c}, -{b\over a}, -{d\over c}}
 Let $f$ be meromorphic on $\DD$ with no poles on $\bd\DD$.
 Show that there exists a meromorphic $g$ with *no* poles in $\DD$ such that $\abs{f(z)} = \abs{g(z)}$ when $\abs{z} = 1$.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

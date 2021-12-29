@@ -43,7 +43,7 @@ Show that
 - $g$ is entire, and
 - $f_n\to g$ uniformly on every compact subset of $\CC$.
 
-## 5 #completed/exercise
+## 5 #complex/completed/exercise
 
 Prove that there is no sequence of polynomials that uniformly converge to $f(z) = {1\over z}$ on $S^1$.
 
@@ -96,7 +96,7 @@ f(z) \definedas \int_\gamma {g(w) \over w-z} \,dw
 \]
 is analytic in $\CC\setminus\gamma$.
 
-## 9 #completed/exercise
+## 9 #complex/completed/exercise
 Suppose that $f: \CC\to\CC$ is continuous everywhere and analytic on $\CC\setminus \RR$ and prove that $f$ is entire.
 
 \todo[inline]{Something missing?}
@@ -126,7 +126,7 @@ Suppose that $f: \CC\to\CC$ is continuous everywhere and analytic on $\CC\setmin
 :::
 
 
-## 10 #completed/exercise
+## 10 #complex/completed/exercise
 Prove Liouville's theorem: suppose $f:\CC\to\CC$ is entire and bounded. 
 Use Cauchy's formula to prove that $f'\equiv 0$ and hence $f$ is constant.
 
@@ -289,7 +289,7 @@ and use it to show that
 \int_0^{2\pi} \cos^{2n}(\theta) \, d\theta = 2\pi \qty{1\cdot 3 \cdot 5 \cdots (2n-1) \over 2 \cdot 4 \cdot 6 \cdots (2n)}
 .\]
 
-## Entire and $O$ of polynomial implies polynomial #completed/exercise
+## Entire and $O$ of polynomial implies polynomial #complex/completed/exercise
 
 :::{.problem title="?"}
 Let $f(z)$ be entire and assume that $\abs{f(z)} \leq M |z|^2$ outside of some disk for some constant $M$. 

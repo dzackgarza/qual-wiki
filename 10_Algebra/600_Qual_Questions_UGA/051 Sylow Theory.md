@@ -1,6 +1,6 @@
 # Groups: Sylow Theory
 
-## Fall 2019 #1 #completed
+## Fall 2019 #1 #algebra/completed/qual
 Let $G$ be a finite group with $n$ distinct conjugacy classes.
 Let $g_1 \cdots g_n$ be representatives of the conjugacy classes of $G$.
 Prove that if $g_i g_j = g_j g_i$ for all $i, j$ then $G$ is abelian.
@@ -141,7 +141,7 @@ Give all possible presentations and relations for $G$.
 c.
 Determine how many groups of order 30 there are up to isomorphism.
 
-## Fall 2018 #1 #completed 
+## Fall 2018 #1 #algebra/completed/qual 
 Let $G$ be a finite group whose order is divisible by a prime number $p$.
 Let $P$ be a normal $p\dash$subgroup of $G$
 (so $\abs P = p^c$ for some $c$).
@@ -200,7 +200,7 @@ P = gPg\inv \subseteq gS_p^i g\inv = S_p^j
 
 :::
 
-## Fall 2019 #2  #completed
+## Fall 2019 #2  #algebra/completed/qual
 Let $G$ be a group of order 105 and let $P, Q, R$ be Sylow 3, 5, 7 subgroups respectively.
 
 a.

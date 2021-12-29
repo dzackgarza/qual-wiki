@@ -9,7 +9,7 @@ order: 21
 Let $\displaystyle f(z) = \frac{1}{z} + \frac{1}{z^2 -1}$. 
 Find all the Laurent series of $f$ and describe the largest annuli in which these series are valid.
 
-## 1 #completed/qual
+## 1 #complex/completed/qual
 Find the Laurent expansion of
 \[
 f(z) = {z + 1 \over z(z-1)}
@@ -50,7 +50,7 @@ f(z)
 
 
 
-## 2 #completed/qual
+## 2 #complex/completed/qual
 
 Find the Laurent expansions about $z=0$ of the following functions:
 \[

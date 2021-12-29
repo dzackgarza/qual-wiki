@@ -13,7 +13,7 @@ Moreover, $\tilde S$ is biholomorphic to either
 :::{.exercise title="Using algebraic topology"}
 Show that there is no continuous square root function defined on all of $\CC$.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

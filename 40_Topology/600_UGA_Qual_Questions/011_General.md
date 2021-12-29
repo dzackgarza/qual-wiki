@@ -2,7 +2,7 @@
 
 ## Topologies, Subspaces, Closures, and Maps
 
-### Fall '11 #completed
+### Fall '11 #topology/completed/qual
 
 :::{.problem title="Fall 2011"}
 Let $X$ be a topological space, and $B \subset A \subset X$. 
@@ -48,7 +48,7 @@ Just need to remember what the closure with respect to a subspace looks like:
 
 :::
 
-### 6 (Fall '05) #completed
+### 6 (Fall '05) #topology/completed/qual
 
 :::{.problem title="Fall 2005"}
 Prove that the unit interval $I$ is compact. Be sure to explicitly state any properties of $\RR$ that you use.
@@ -99,7 +99,7 @@ Prove that every compact metric space is sequentially compact.
 
 :::
 
-### 8 (Fall '10). #completed
+### 8 (Fall '10). #topology/completed/qual
 
 :::{.problem title="Fall 2010, 8"}
 Show that for any two topological spaces $X$ and $Y$ , $X \cross Y$ is compact if and only if both $X$ and $Y$ are compact.
@@ -266,7 +266,7 @@ $X$ is not compact.
 
 :::
 
-### ? (Spring '10) #completed
+### ? (Spring '10) #topology/completed/qual
 
 :::{.problem title="?"}
 If $X$ is a topological space and $S \subset X$, define in terms of
@@ -378,7 +378,7 @@ Prove that $f$ is continuous.
 
 :::
 
-### 23 (Spring '15) #completed
+### 23 (Spring '15) #topology/completed/qual
 
 :::{.problem title="?"}
 Define a family $\mct$ of subsets of $\RR$ by saying that $A \in T$ is $\iff A = \emptyset$ or $\RR \setminus A$ is a finite set. 
@@ -420,7 +420,7 @@ Show that $\mcs \cap \mct$ is a topology on $X$.
 Give an example to show that $\mcs \cup \mct$ need not be a topology.
 :::
 
-### 42 (Spring '10) #completed
+### 42 (Spring '10) #topology/completed/qual
 
 :::{.problem title="?"}
 Define an equivalence relation $\sim$ on $\RR$ by $x \sim y$ if and only if $x - y \in \QQ$. 
@@ -532,7 +532,7 @@ Prove that $f$ is a bijection.
 
 :::
 
-### 4 (Spring '05) #completed
+### 4 (Spring '05) #topology/completed/qual
 
 :::{.problem title="?"}
 Suppose $(X, d)$ is a compact metric space and $U$ is an open covering of $X$. 
@@ -590,7 +590,7 @@ Prove that the converse to (a) holds if the space is a metric space.
 
 :::
 
-### 18 (Fall '07) #completed
+### 18 (Fall '07) #topology/completed/qual
 
 :::{.problem title="?"}
 Prove that if $(X, d)$ is a compact metric space, $f : X \to X$ is a
@@ -639,7 +639,7 @@ d(x, f(x)) &\leq d(x, y) + d(y, f(y)) + d(f(x), f(y)) \\
 
 :::
 
-### 19 (Spring '15) #completed
+### 19 (Spring '15) #topology/completed/qual
 
 :::{.problem title="?"}
 Prove that the product of two connected topological spaces is connected.
@@ -658,7 +658,7 @@ Prove that the product of two connected topological spaces is connected.
 
 :::
 
-### 20 (Fall '14) #completed
+### 20 (Fall '14) #topology/completed/qual
 
 :::{.problem title="?"}
 a.
@@ -787,7 +787,7 @@ Moreover, $\theset{f_n}$ is closed. (Why?)
 
 :::
 
-### Spring '19 #1  #completed
+### Spring '19 #1  #topology/completed/qual
 
 :::{.problem title="?"}
 Is every complete bounded metric space compact? 
@@ -833,7 +833,7 @@ This produces a non-convergent sequence in the closed ball, so it can not be com
 
 :::
 
-### Spring 2019 #2 #completed
+### Spring 2019 #2 #topology/completed/qual
 
 :::{.problem title="?"}
 Let $X$ be Hausdorff, and recall that the *one-point compactification* $\tilde X$ is given by the following:
@@ -907,7 +907,7 @@ If $a$ and $b$ are two points of $X$ and $r$ is a point of $\RR$ lying between $
 
 :::
 
-### 10 (Fall '05) #completed
+### 10 (Fall '05) #topology/completed/qual
 
 :::{.problem title="?"}
 Let 
@@ -1069,7 +1069,7 @@ Is every product (finite or infinite) of Hausdorff spaces Hausdorff?
 If yes, prove it. If no, give a counterexample.
 :::
 
-### 30 (Spring '18) #completed
+### 30 (Spring '18) #topology/completed/qual
 
 :::{.problem title="?"}
 Suppose that $X$ is a Hausdorff topological space and that $A \subset X$. 
@@ -1090,7 +1090,7 @@ Prove that if $A$ is compact in the subspace topology then $A$ is closed as a su
 
 :::
 
-### 31 (Spring '09) #completed
+### 31 (Spring '09) #topology/completed/qual
 
 :::{.problem title="Spring 2009, 31"}
 \envlist
@@ -1138,7 +1138,7 @@ Let $g$ be the inverse map; then note that $1 \in \tau_1$ but $g\inv(1) = 1$ is 
 
 :::
 
-### 32 (Fall '14) #completed
+### 32 (Fall '14) #topology/completed/qual
 
 :::{.problem title="?"}
 Let $X$ be a topological space and let
@@ -1238,7 +1238,7 @@ Prove that every compact, Hausdorff topological space is normal.
 Show that a connected, normal topological space with more than a single point is uncountable.
 :::
 
-### 38 (Spring '08) #completed
+### 38 (Spring '08) #topology/completed/qual
 
 :::{.problem title="?"}
 Give an example of a quotient map in which the domain is Hausdorff, but the quotient is not.
@@ -1302,7 +1302,7 @@ Show that there is a continuous function $f : X \to [0,1]$ such that $f (x) > 0$
 #### Exercise  #work
 Show that for $A\subseteq X$, $\cl_X(A)$ is the smallest closed subset containing $A$.
 
-#### Exercise #completed
+#### Exercise #topology/completed/qual
 Give an example of spaces $A\subseteq B \subseteq X$ such that $A$ is open in $B$ but $A$ is *not* open in $X$.
 
 :::{.solution}
@@ -1377,7 +1377,7 @@ Show that if $X$ is locally path connected, then
 - Every path component of $X$ is a connected component of $X$.
 - Every connected component of $X$ is open in $X$.
 
-#### Exercise #completed
+#### Exercise #topology/completed/qual
 Show that $[0, 1]$ is connected.
 
 :::{.solution}
@@ -1412,7 +1412,7 @@ But then $s\in K$ but $s\not\in A_K \disjoint B_K = K$, a contradiction.
 
 ### Compactness
 
-#### $\star$ Exercise #completed
+#### $\star$ Exercise #topology/completed/qual
 Let $X$ be a compact space and let $A$ be a closed subspace. 
 Show that $A$ is compact. 
 
@@ -1430,7 +1430,7 @@ By compactness of $X$, there is a finite subcover $\theset{U_j \suchthat j\leq N
 Then $\qty{\theset{U_j} \union \theset{X\setminus A}} \intersect A \definedas \theset{V_j}$ is a finite cover of $A$.
 :::
   
-#### $\star$ Exercise #completed
+#### $\star$ Exercise #topology/completed/qual
 Let $f : X \to Y$ be a continuous function, with $X$ compact. 
 Show that $f(X)$ is compact.
 
@@ -1547,7 +1547,7 @@ Show that every metric space is Hausdorff in its metric topology.
 #### Exercise
 Show that a compact set in a Hausdorff space is closed.
 
-#### Exercise #completed
+#### Exercise #topology/completed/qual
 Let $A\subset X$ with $A$ closed and $X$ compact, and show that $A$ is compact.
 
 :::{.concept}
@@ -1571,7 +1571,7 @@ Alternative definition of "open": todo.
 ![](image_2020-06-11-20-35-11.png) 
 :::
 
-#### Exercise #completed
+#### Exercise #topology/completed/qual
 Show that a continuous bijection from a compact space to a Hausdorff space is a homeomorphism.
 
 :::{.solution}

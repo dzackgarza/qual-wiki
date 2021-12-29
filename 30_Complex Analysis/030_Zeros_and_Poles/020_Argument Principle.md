@@ -121,7 +121,7 @@ Show that $\logd(fg) = \logd f + \logd g$, i.e.
 { (fg)' \over fg} = {f'\over f} + {g' \over g}
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

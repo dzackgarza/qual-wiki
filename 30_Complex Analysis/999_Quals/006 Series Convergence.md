@@ -14,7 +14,7 @@ Expand $\frac{1}{1-z^{2}}+\frac{1}{z-3}$ in a series of the form $\sum_{-\infty}
 - $1<|z|<3$,
 - $|z|>3$.
 
-## Spring 2020 HW 2.2 #completed/qual
+## Spring 2020 HW 2.2 #complex/completed/qual
 
 :::{.problem title="?"}
 Let $f$ be a power series centered at the origin.
@@ -60,7 +60,7 @@ Let $a_n\neq 0$ and show that
 In particular, this shows that when applicable, the ratio test can be used to calculate the radius of convergence of a power series.
 :::
 
-## Analytic on circles #completed/qual
+## Analytic on circles #complex/completed/qual
 
 :::{.problem title="?"}
 Suppose $f$ is analytic on a region $\Omega$ such that $\DD \subseteq \Omega \subseteq \CC$ and $f(z) = \sum_{n=0}^\infty a_n z^n$ is a power series with radius of convergence exactly 1.
@@ -91,7 +91,7 @@ Then $a_k = (-1)^k$,
 
 :::
 
-## Spring 2020 HW 2.3: series on the circle #completed/qual
+## Spring 2020 HW 2.3: series on the circle #complex/completed/qual
 
 :::{.problem title="?"}
 Prove the following:

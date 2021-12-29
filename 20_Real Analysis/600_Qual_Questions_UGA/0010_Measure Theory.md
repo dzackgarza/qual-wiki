@@ -17,7 +17,7 @@ Let $E \subset \mathbb{R}$ be a measurable set, such that $0<m(E)<\infty$. Use p
 \lim _{n \rightarrow \infty} \int_{E} \sin (n t) d t=0
 \]
 
-## Spring 2020.2 #completed
+## Spring 2020.2 #real_analysis/completed/qual
 
 ^f771df
 
@@ -135,7 +135,7 @@ N = B\setminus E = \qty{ \Union_R B_R } \setminus \qty{\Union_R E_R } \subseteq 
 where $m_*(N') = 0$ since $N'$ is null, and thus subadditivity forces $m_*(N) = 0$.
 :::
 
-## Fall 2019.3. #completed
+## Fall 2019.3. #real_analysis/completed/qual
 
 ^275944
 
@@ -255,7 +255,7 @@ if $\sum_{n=1}^\infty a_n \to \infty$ then for every $N$, the tail $\sum_{n=N}^\
 
 :::
 
-## Spring 2019.2 #completed
+## Spring 2019.2 #real_analysis/completed/qual
 
 ^d90e25
 
@@ -518,7 +518,7 @@ d.irect Proof (Todo)
 \todo[inline]{Try to construct the set.}
 :::
 
-## Spring 2018.1 #completed
+## Spring 2018.1 #real_analysis/completed/qual
 
 ^7c5f04
 
@@ -618,7 +618,7 @@ m(E)
 - Thus $E$ is measurable as a subset of a null set and $m(E) = 0$.
 :::
 
-## Fall 2017.2 #completed
+## Fall 2017.2 #real_analysis/completed/qual
 
 ^3279b9
 
@@ -701,7 +701,7 @@ Restricting to $[0, \infty)$, $f$ is bijection, and thus so is $\phi$.
 :::
 
 
-## Spring 2017.1 #completed
+## Spring 2017.1 #real_analysis/completed/qual
 
 ^730107
 
@@ -809,7 +809,7 @@ Claim: **$K$ has no isolated points**:
 - So every ball containing $x$ contains some endpoint of a removed interval, and thus an element of $K$.
 :::
 
-## Spring 2017.2 #completed
+## Spring 2017.2 #real_analysis/completed/qual
 
 ^769de0
 
@@ -903,7 +903,7 @@ x\in E \iff gf\chi_E(x) > 0 \iff x\in A
 - But $m \ll \mu$ and $\mu(E) = 0$, so we can conclude that $m(E) = 0$.
 :::
 
-## Fall 2016.4 #completed
+## Fall 2016.4 #real_analysis/completed/qual
 
 ^4665ae
 
@@ -1029,7 +1029,7 @@ and characterize the collection of functions of each type.
 # Measure Theory: Functions
 
 
-## Spring 2021.1 #completed
+## Spring 2021.1 #real_analysis/completed/qual
 
 ^bbb9a9
 
@@ -1154,7 +1154,7 @@ is Borel measurable.
 
 
 
-## Fall 2016.2 #completed
+## Fall 2016.2 #real_analysis/completed/qual
 
 ^254fa4
 

@@ -1,6 +1,6 @@
 # Undergraduate Analysis: Uniform Convergence
 
-## Fall 2018.1 #completed
+## Fall 2018.1 #real_analysis/completed/qual
 
 ^0484e7
 
@@ -68,7 +68,7 @@ To negate, find a bad $x$: since $1/x$ blows up near zero, go hunting for small 
 :::
 
 
-## Fall 2017.1 #completed
+## Fall 2017.1 #real_analysis/completed/qual
 
 ^1a7534
 
@@ -139,7 +139,7 @@ $f_N$ does not converge uniformly on all of $\RR$.
 - **Conclusion**: $f_N$ converges on any bounded $A\subseteq \RR$ but not on all of $\RR$.
 :::
 
-## Spring 2017.4 #completed
+## Spring 2017.4 #real_analysis/completed/qual
 
 ^dce5bb
 
@@ -172,7 +172,7 @@ Switching to polar coordinates and integrating over the quarter of the unit disc
 .\]
 :::
 
-## Fall 2014.1 #completed
+## Fall 2014.1 #real_analysis/completed/qual
 Let $\theset{f_n}$ be a sequence of continuous functions such that $\sum f_n$ converges uniformly.
 
 Prove that $\sum f_n$ is also continuous.
@@ -214,7 +214,7 @@ If $F_N\to F$ uniformly with each $F_N$ continuous, then $F$ is continuous.
 
 
 
-## Spring 2015.1 #completed
+## Spring 2015.1 #real_analysis/completed/qual
 Let $(X, d)$ and $(Y, \rho)$ be metric spaces, $f: X\to Y$, and $x_0 \in X$.
 
 Prove that the following statements are equivalent:
@@ -259,7 +259,7 @@ Prove that the following statements are equivalent:
 :::
 
 
-## Fall 2014.2  #completed
+## Fall 2014.2  #real_analysis/completed/qual
 Let $I$ be an index set and $\alpha: I \to (0, \infty)$.
 
 a.
@@ -356,7 +356,7 @@ f(x^-) &= \sum_{q_k< x} \alpha_k
 
 # General Analysis
 
-## Fall 2021.1 #completed
+## Fall 2021.1 #real_analysis/completed/qual
 
 ^3d000f
 
@@ -390,7 +390,7 @@ Since $f'(z) = (2+z)^{-2}$ satisfies $0 < f'(z) < 1$ for all $z$, we have
 
 
 
-## Fall 2020.1 #completed
+## Fall 2020.1 #real_analysis/completed/qual
 
 ^821653
 
@@ -439,7 +439,7 @@ nx_n < \eps + m\eps = \eps(1+m) \to 0
 
 
 
-## Spring 2020.1 #completed
+## Spring 2020.1 #real_analysis/completed/qual
 
 ^bc846d
 
@@ -511,7 +511,7 @@ Prove that if $f: [0, 1] \to \RR$ is continuous then
 
 :::
 
-## Fall 2019.1 #completed
+## Fall 2019.1 #real_analysis/completed/qual
 
 ^231f22
 
@@ -613,7 +613,7 @@ k\geq M+1 \implies \abs{a_k - S} < \varepsilon
 
 :::
 
-## Fall 2018.4 #completed
+## Fall 2018.4 #real_analysis/completed/qual
 
 ^388af2
 
@@ -729,7 +729,7 @@ General case:
   which is the desired result.
 :::
 
-## Fall 2017.4 #completed
+## Fall 2017.4 #real_analysis/completed/qual
 
 ^572c64
 
@@ -862,7 +862,7 @@ b.
 ?
 :::
 
-## Fall 2016.1 #completed
+## Fall 2016.1 #real_analysis/completed/qual
 
 ^0b1fb2
 
@@ -930,7 +930,7 @@ f'(x)  =\sum_{n=1}^{\infty}\left(\frac{1}{n^{x}}\right)^{\prime}.
 \todo[inline]{?}
 :::
 
-## Fall 2016.5 #completed
+## Fall 2016.5 #real_analysis/completed/qual
 
 ^4bd3db
 
@@ -991,7 +991,7 @@ S_\eps \definedas \theset{x\in \RR^n\suchthat \abs{\phi(x)} \geq \norm{\phi}_\in
   where we've again used the fact that $c^{1\over n} \to 1$ for any constant.
 :::
 
-## Fall 2016.6 #completed
+## Fall 2016.6 #real_analysis/completed/qual
 
 ^26bed5
 
@@ -1086,7 +1086,7 @@ f(x)=c_{0}+c_{1} x^{1}+c_{2} x^{2}+\ldots+c_{n} x^{n} \text { with } n \text { e
 
 Show that there is a number $x_m$ such that $f(x_m) \leq f(x)$ for all $x\in \RR$.
 
-## Spring 2014.2  #completed
+## Spring 2014.2  #real_analysis/completed/qual
 
 Let $\theset{a_n}$ be a sequence of real numbers such that
 \[

@@ -144,7 +144,7 @@ Show that if $\mcf$ is a family of differentiable functions with uniformly bound
 :::{.exercise title="?"}
 Give an example of a non-equicontinuous family.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

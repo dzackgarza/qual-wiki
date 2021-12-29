@@ -49,7 +49,7 @@ Find a Mobius transformation sending
 - $i\to 0$
 - $2\to -1$
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -77,7 +77,7 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 :::{.exercise title="Disc to half-plane"}
 Find a conformal map $\DD \to \HH$ using cross-ratios.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -105,7 +105,7 @@ Checking that this works:
 :::{.exercise title="Half disc to full disc"}
 Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0} = \DD \intersect \HH$ to $\DD$.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -121,7 +121,7 @@ Instead compose:
 :::{.exercise title="Upper half-disc to upper half-plane"}
 Find a conformal map from the upper half-disc to the upper half-plane.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -147,7 +147,7 @@ Find a conformal map
 \DD\sm [1/2, 1) \to \DD
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -189,7 +189,7 @@ L\da \ts{\abs{z - i } < \sqrt 2} \intersect \ts{\abs{z+i} < \sqrt 2}
 ,\]
 i.e. a lune with vertices $-1$ and $1$.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -214,7 +214,7 @@ Find a conformal map:
 \DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -239,7 +239,7 @@ The picture:
 :::{.exercise title="Standard sector"}
 Find a conformal map from the sector $\ts{\Arg(z) \in (0, \alpha)} \to \DD$.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -260,7 +260,7 @@ In steps:
 :::{.exercise title="?"}
 Find a conformal map that sends $i\RR$ to $\abs{z-{1\over 2}} = {1\over 2}$.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

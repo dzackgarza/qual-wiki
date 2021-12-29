@@ -22,7 +22,7 @@ E \da \Union_{x\in \RR} \ts{ x } \cross E_x
 
 
 
-## Fall 2021.4 #completed
+## Fall 2021.4 #real_analysis/completed/qual
 
 ^f1b6eb
 
@@ -48,7 +48,7 @@ Since $f$ is measurable, $\Gamma$ is a measurable set and $\chi_\Gamma$ is measu
 Since the iterated integral was finite, the equalities are justified by Fubini-Tonelli.
 :::
 
-## Spring 2020.4 #completed
+## Spring 2020.4 #real_analysis/completed/qual
 
 ^2aea9d
 
@@ -169,7 +169,7 @@ $H$ is measurable on $\RR^2$:
 :::
 
 
-## Spring 2019.4 #completed
+## Spring 2019.4 #real_analysis/completed/qual
 
 ^fdb921
 
@@ -296,7 +296,7 @@ $\impliedby$:
 
 :::
 
-## Fall 2018.5 #completed
+## Fall 2018.5 #real_analysis/completed/qual
 
 ^1ae35c
 
@@ -369,7 +369,7 @@ m(E)
 
 
 
-## Fall 2015.5 #completed
+## Fall 2015.5 #real_analysis/completed/qual
 
 :::{.problem title="?"}
 Let $f, g \in L^1(\RR)$ be Borel measurable.

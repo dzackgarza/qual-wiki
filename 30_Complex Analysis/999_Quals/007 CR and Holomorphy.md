@@ -4,7 +4,7 @@ order: 7
 
 # Holomorphicity 
 
-## Fall 2019.6 #completed/qual
+## Fall 2019.6 #complex/completed/qual
 
 ^430a0a
 
@@ -60,7 +60,7 @@ where the first inequality is from making the disc small and the second from cho
 :::
 
 
-## Spring 2020 HW 1.7 #completed/qual
+## Spring 2020 HW 1.7 #complex/completed/qual
 
 :::{.problem title="?"}
 Prove that $f(z) = \abs{z}^2$ has a derivative at $z=0$ and nowhere else.
@@ -97,7 +97,7 @@ Then let $z\to w$ along the curve $\ts{tw\st t\in [0, 1]}$, then $\abs{z} = t \a
 which is nonzero is $w\neq 0$.
 :::
 
-## Spring 2020 HW 1.8 #completed/qual
+## Spring 2020 HW 1.8 #complex/completed/qual
 
 :::{.problem title="?"}
 Let $f(z)$ be analytic in a domain, and prove that $f$ is constant if it satisfies any of the following conditions:
@@ -171,7 +171,7 @@ Then $u, \tilde v$ are constant, so in particular $\Re(f)$ is constant and by 2 
 
 
 
-## Spring 2020 HW 1.9 #completed/qual
+## Spring 2020 HW 1.9 #complex/completed/qual
 
 :::{.problem title="?"}
 Prove that if $z\mapsto f(z)$ is analytic, then $z \mapsto \bar{f(\bar z)}$ is analytic.
@@ -229,7 +229,7 @@ g(z) \da (f(z^*))^*
 making $g$ analytic.
 :::
 
-## Spring 2020 HW 1.10 #completed/qual
+## Spring 2020 HW 1.10 #complex/completed/qual
 
 :::{.problem title="?"}
 \envlist
@@ -307,7 +307,7 @@ However,
 for arbitrarily large $k$, provided we choose $\eps$ small.
 :::
 
-## Fall 2021.1 #completed/qual
+## Fall 2021.1 #complex/completed/qual
 
 :::{.problem title="?"}
 Let $f(z)$ be an analytic function on $|z|<1$.
@@ -329,7 +329,7 @@ so $\grad u = [u_x, u_y] \equiv \vector 0$ making $u$ constant.
 Similarly $\grad v = [v_x, v_y] = \vector 0$, so $f: \RR^2\to \RR$ is constant.
 :::
 
-## Holomorphic functions form an integral domain #completed/qual
+## Holomorphic functions form an integral domain #complex/completed/qual
 
 :::{.problem title="?"}
 Suppose $D$ is a domain and $f, g$ are analytic on $D$.
@@ -346,7 +346,7 @@ So $g\equiv 0$ on $U$.
 Now $U$ is a set with a limit point, so by the identity principle, $g\equiv 0$ on $D$.
 :::
 
-## Holomorphic functions with specified values #completed/qual
+## Holomorphic functions with specified values #complex/completed/qual
 
 :::{.problem title="?"}
 Suppose $f$ is analytic on $\DD^\circ$.

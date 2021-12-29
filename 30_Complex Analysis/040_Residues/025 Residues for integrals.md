@@ -235,7 +235,7 @@ Use a semicircular contour and the residue theorem to evaluate
 I = \int_\RR {\cos(x) \over x^2 + 1 }\dx
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -291,7 +291,7 @@ Compute
 \int_\RR {\sin(x) \over x}\dx
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

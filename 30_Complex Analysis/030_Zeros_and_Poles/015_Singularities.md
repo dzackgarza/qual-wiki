@@ -248,7 +248,7 @@ Show that if $z_0$ is a pole of order $n$ of $f$, then it is a pole of order $n+
 Let $f$ be an elliptic function and $P$ be its fundamental parallelogram.
 Supposing that $f$ is nonconstant, show that $f$ has at least two poles in $P$ (counted with multiplicity).
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -286,7 +286,7 @@ Suppose $f$ is holomorphic on $\DD\smz$ and there exist $M, k$ such that
 
 Show that if $f$ has a singularity at $z=0$, then it must be removable.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -334,7 +334,7 @@ Show that $z_0$ is removable.
 
 > Warning: Riemann's removable singularity theorem won't apply to $z^{1\over 2}f(z)$ since $z^{1\over 2}$ is highly singular at $z=0$.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

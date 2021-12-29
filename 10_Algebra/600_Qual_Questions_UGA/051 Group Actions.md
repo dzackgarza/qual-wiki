@@ -43,7 +43,7 @@ $$
 b.
 Suppose that $G$ is abelian. Prove that $|G| = |A|$. Deduce that every abelian transitive subgroup of $S_n$ has order $n$.
 
-## Fall 2018 #2 #completed
+## Fall 2018 #2 #algebra/completed/qual
 
 a.
 Suppose the group $G$ acts on the set $X$ . Show that the stabilizers of elements in the same orbit are conjugate.

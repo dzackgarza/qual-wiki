@@ -144,7 +144,7 @@ and thus
 ,\]
 i.e. the integral picks out the $c_{-1}$ coefficient in a Laurent series expansion.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -167,7 +167,7 @@ Compute the following integrals:
 .\]
 Compute the 2nd integral by finding a primitive.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -208,7 +208,7 @@ Compute
 \int_{S^1} {2 \sinh(z) \over z^n}\dz
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -240,7 +240,7 @@ for
 - A circle of radius $1$,
 - A circle of radius $2+\eps$,
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -279,7 +279,7 @@ Find all residues of the following function by writing it as a sum of principal 
 f(z) = {z^3 \over z^2 + 1}
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -317,7 +317,7 @@ Use a direct Laurent expansion to show
 
 > Note the necessity: one doesn't know the order of the pole at zero, so it's unclear how many derivatives to take.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -343,7 +343,7 @@ Compute
 \Res_{z=0} {1\over z^2 \sin(z)}
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -379,7 +379,7 @@ Use the rational function formula to compute the residues at $z=\pm i$ of
 f(z) \da {1\over z^2 + 1}
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -399,7 +399,7 @@ Find the residue at $\omega_n \da e^{\pi i \over n}$ of
 f(z) = {1\over z^n + 1}
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -426,7 +426,7 @@ Compute
 &\Res_{z=\infty}{z-1\over z+1}
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

@@ -2,7 +2,7 @@
 
 
 
-## Fall 2019.4 #completed
+## Fall 2019.4 #real_analysis/completed/qual
 
 ^43b95e
 
@@ -125,7 +125,7 @@ x\da \sum_{n\in \NN} a_n u_n
 :::
 
 
-## Spring 2019.5 #completed
+## Spring 2019.5 #real_analysis/completed/qual
 
 ^1858f6
 
@@ -322,7 +322,7 @@ Prove that of $E \subset \mathcal{H}$ is closed and convex then $E$ contains an 
 b.
 Construct a non-empty closed subset $E \subset \mathcal{H}$ which does not contain an element of smallest norm.
 
-## Spring 2019.1 #completed
+## Spring 2019.1 #real_analysis/completed/qual
 
 ^9007a4
 
@@ -398,7 +398,7 @@ $$
 :::
 
 
-## Spring 2017.6 #completed
+## Spring 2017.6 #real_analysis/completed/qual
 
 ^54edac
 

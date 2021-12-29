@@ -43,7 +43,7 @@ Compute
 \int_{\bd\DD} {e^z\over z^2}\dz
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -60,7 +60,7 @@ Without using the residue formula, compute
 \int_\RR f(x) \dx && f(x) \da {1\over x^4 + 16}
 .\]
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -91,7 +91,7 @@ Using the Cauchy integral formula, show that
 .\]
 Also prove this when $\Omega$ is *not* simply connected.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -140,7 +140,7 @@ Evaluate the following integrals using Cauchy's integral formula:
 .\]
 
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

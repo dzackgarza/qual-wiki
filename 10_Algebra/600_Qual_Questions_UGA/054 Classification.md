@@ -13,7 +13,7 @@ Describe one nonabelian group of order 2020.
 
 \todo[inline]{Work this problem.}
 
-## Spring 2019 #3 #completed
+## Spring 2019 #3 #algebra/completed/qual
 How many isomorphism classes are there of groups of order 45?
 
 Describe a representative from each class.
@@ -57,7 +57,7 @@ Exhibit 3 nonisomorphic groups of order 70 and prove that they are not isomorphi
 ## Fall 2016 #3 #work
 How many groups are there up to isomorphism of order $pq$ where $p<q$ are prime integers?
 
-## Spring 2018 #1 #completed
+## Spring 2018 #1 #algebra/completed/qual
 
 a.
 Use the Class Equation (equivalently, the conjugation action of a group on itself) to prove that any $p\dash$group (a group whose order is a positive power of a prime integer $p$) has a nontrivial center.

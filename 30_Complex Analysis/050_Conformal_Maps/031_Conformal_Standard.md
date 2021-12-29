@@ -284,7 +284,7 @@ Map $\DD^c \intersect \HH$ to $\HH$, sending
 - $i\to 0$
 - $1\to 1$
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

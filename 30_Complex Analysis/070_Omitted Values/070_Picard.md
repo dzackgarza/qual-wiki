@@ -14,7 +14,7 @@ Equivalently, if $f$ omits 2 finite values, $f$ is constant.
 :::{.exercise title="?"}
 Show that $\sin(z) = z$ has infinitely many solutions in $\CC$.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 

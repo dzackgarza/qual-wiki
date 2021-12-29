@@ -14,7 +14,7 @@ Show that if $z_0$ is a zero of $f'$ of order $n$, then $f$ is $(n+1)$-to-one in
 :::{.exercise title="Zero derivative implies constant"}
 Show that if $f' = 0$ on a domain $\Omega$, then $f$ is constant on $\Omega$
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -27,7 +27,7 @@ Then $u(p) = u(q) = a$ some constant, and $v(p) = v(q) = b$, so $f(z) = a+bi$ ev
 :::{.exercise title="f and fbar holomorphic implies constant"}
 Show that if $f$ and $\bar{f}$ are both holomorphic on a domain $\Omega$, then $f$ is constant on $\Omega$.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
@@ -63,7 +63,7 @@ If $f$ is holomorphic on $\Omega$ and any of the following hold, then $f$ is con
 2. $\Im(f)$ is constant.
 3. $\abs{f}$ is constant.
 
-#completed/exercise
+#complex/completed/exercise
 
 :::
 
