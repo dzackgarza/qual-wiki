@@ -26,13 +26,15 @@ In detail, from Gamelin:
 
 ![](figures/2021-10-29_01-31-06.png)
 
+# Exercises
+
 :::{.exercise title="?"}
 Find all entire functions $f$ that satisfy
 \[
 \abs{f(z)} \geq e^{\abs{z}} && \forall z\in \CC
 .\]
 
-#completed
+#completed/exercise
 
 :::
 
@@ -48,7 +50,6 @@ However, $f(z) = c$ contradicts the inequality, since $e^{\abs{z}}\to \infty$ as
 Alternatively, note that $e^{\abs{z}} \geq 1$ for all $z$, so $\im(f) \intersect \DD$ is empty, again contradicting Casorati-Weierstrass.
 :::
 
-
 :::{.exercise title="?"}
 Let $f$ be entire and define a function
 \[
@@ -57,7 +58,7 @@ r &\mapsto \min_{\abs{z} = r} \abs{f(z)}
 .\]
 Suppose $\tilde m \da \lim_{r\to \infty}m(r)$ exists and is a finite positive real number, and show that $f$ is constant.
 
-#work
+#work/exercise
 
 > Hint: consider $g(z) \da f(1/z)$.
 

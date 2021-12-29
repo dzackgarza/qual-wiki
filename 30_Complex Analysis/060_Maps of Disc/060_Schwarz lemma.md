@@ -91,7 +91,7 @@ then $f$ is a rotation.
 
 ![figures/2021-10-29_02-32-14.png](figures/2021-10-29_02-32-14.png)
 
-:::{.proof title="?"}
+:::{.proof title="of Schwarz lemma"}
 \envlist
 
 - Idea: apply the maximum modulus principle to $g(z) \da f(z)/z$.
@@ -120,14 +120,20 @@ then $f$ is a rotation.
 
 :::
 
-:::{.corollary title="Schwarz-Pick Lemma"}
-Suppose $\abs{f(z)}\leq 1$, then for all $z, w\in \DD$,
+# Exercises
+
+:::{.exercise title="Schwarz-Pick Lemma"}
+Prove the following:
+suppose $\abs{f(z)}\leq 1$, then for all $z, w\in \DD$,
 \[
 \left|\frac{f(z)-f(w)}{1-\overline{f(w)} f(z)}\right| \leq\left|\frac{z-w}{1-\bar{w} z}\right|
 \quad\text{ and }
 \left|f^{\prime}(z)\right| \leq \frac{1-|f(z)|^{2}}{1-|z|^{2}}
 .\]
 If equality holds for some $z\neq w$ in either expression, then $f= \lambda F$ where $F$ is a linear fractional transformation and $\abs{\lambda} = 1$, so $f\in \Aut(\DD)$.
+
+#work/exercise
+
 :::
 
 :::{.proof title="of Schwarz-Pick"}
@@ -138,11 +144,12 @@ If equality holds for some $z\neq w$ in either expression, then $f= \lambda F$ w
 
 :::
 
-
-# Exercises
-
 :::{.exercise title="?"}
 Show that if $f: \Delta\to\Delta$ is a biholomorphism with $f(0) = 0$ then $f$ is a rotation.
+
+
+#completed/exercise
+
 :::
 
 :::{.solution}
@@ -173,9 +180,8 @@ Set $a=0$:
 \left|f^{\prime}(0)\right| \leq \frac{1-|f(0)|^{2}}{1-|0|^{2}} \implies \abs{f'(0)}^2 \leq 1 - \abs{f(0)}^2
 .\]
 
+#work/exercise
 
 :::
-
-
 
 ![[attachments/Pasted image 20211215022943.png]]
