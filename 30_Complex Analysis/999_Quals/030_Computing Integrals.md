@@ -20,9 +20,7 @@ I=\int_{0}^{\infty} \frac{1}{1+x^{n}} d x
 :::{.solution}
 Write $\omega_{n, k} = \exp\qty{(2k+1)i\pi \over n}$ and factor $z^n+1$ as 
 \[
-z^n+1 
-= \prod_{1\leq k \leq n}(z-\omega_{n, k})
-= 
+z^n+1  = \prod_{1\leq k \leq n}(z-\omega_{n, k}) = 
 (z-e^{i\pi \over n})(z-e^{3i\pi \over n})
 \cdots (z-e^{(2n-1)i\pi \over n})
 .\]

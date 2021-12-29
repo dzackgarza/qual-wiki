@@ -12,6 +12,15 @@ I'd like to thank the following individuals for their contributions to this docu
 - Swaroop Hegde for supplying a number of proofs
 
 
+# Qual Problems ToDo
+
+See #complex/qual/work and #complex/qual/completed 
+
+```query
+tag:complex/qual/work path:"999_Quals"
+```
+
+
 # Exams by Year
 
 > Note: linking directly to sections doesn't seem to work yet. Just ctrl-F and search the page for the relevant year.
