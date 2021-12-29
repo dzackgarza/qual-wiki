@@ -1,6 +1,5 @@
 # Standard Conformal Maps
 
-
 :::{.remark}
 A summary:
 
@@ -44,9 +43,7 @@ Some tips:
 
 :::
 
-
 ## $\HH$ and $\DD$
-
 
 :::{.proposition title="Half-plane to Disc (Cayley Transform, very important)"}
 \[
@@ -147,7 +144,6 @@ w^{\pi \over \alpha} &\mapsfrom w
 
 ## Logs and Exponentials
 
-
 :::{.remark}
 The exponential generally sends boxes to sectors, so
 \[
@@ -220,8 +216,7 @@ z &\mapsto e^{iz} \\
 This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (-\pi/2, \pi/2)$ and $y\in (0, \infty)$ so this fills out a half-disc as $x,y$ vary.
 :::
 
-## Misc
-
+## Hyperbolic Maps
 
 :::{.proposition title="Disc complement to doubly slit plane"}
 \[
@@ -232,7 +227,6 @@ z &\mapsto z+ z\inv
 ![](figures/2021-12-10_17-47-48.png)
 
 :::
-
 
 :::{.proposition title="Upper half-disc to upper half-plane"}
 \[
@@ -271,6 +265,7 @@ which is the composition
 
 :::
 
+## Lunar Domains
 
 :::{.proposition title="Lunar domains"}
 
@@ -280,6 +275,7 @@ Idea: send $z_0\to 0$ and $z_1\to \infty$ to get a sector.
 
 :::
 
+## Exercises
 
 :::{.exercise title="?"}
 Map $\DD^c \intersect \HH$ to $\HH$, sending 
@@ -288,8 +284,9 @@ Map $\DD^c \intersect \HH$ to $\HH$, sending
 - $i\to 0$
 - $1\to 1$
 
-:::
+#completed/exercise
 
+:::
 
 :::{.solution}
 
@@ -301,6 +298,5 @@ Compose to get:
 .\]
 
 :::
-
 
 
