@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
       "basename": "011_General",
       "path": "40_Topology/600_UGA_Qual_Questions/011_General.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "0022_Fubini Tonelli",
       "path": "20_Real Analysis/600_Qual_Questions_UGA/0022_Fubini Tonelli.md"
-    },
-    {
-      "basename": "005 Function Convergence",
-      "path": "30_Complex Analysis/999_Quals/005 Function Convergence.md"
     }
   ],
   "omittedPaths": [],
