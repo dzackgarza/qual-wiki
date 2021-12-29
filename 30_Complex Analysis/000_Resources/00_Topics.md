@@ -28,22 +28,19 @@ Preliminary Review
 	    - Implicit function theorem, inverse function theorem
     - [[130_The Cauchy-Riemann equations||Cauchy-Riemann]], the Laplace equation, [[125_Harmonic Functions|Harmonic functions]]
     - [[012 Cauchy Integral Formula|Cauchy's integral formula]], [[012_Cauchy Inequality|Cauchy's inequality]]
-- Week 3 (June 2):
-Analytic Functions
+- Week 3 (June 2): Analytic Functions
     - Power series, convergence, Laurent expansions
     - Singularities, poles, [[Riemann's removable singularity theorem]], meromorphic functions, isolated singularities
-- Week 4 (June 9):
-Integration I
+- Week 4 (June 9): Integration I
     - Contours, parameterization, primitives
 		- [[010_Cauchy_Theorem|Cauchy's theorem]] and [[050_Morera_Theorem|Morera's theorem]]
 		- [[012 Cauchy Integral Formula|Cauchy's Integral Formula]]
 		- [[30_Complex Analysis/030_Zeros_and_Poles/040_MMP|Maximum Modulus Principle]]]
 		- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|Schwarz reflection principle]]
-- Week 5 (June 16):
-Integration II
+- Week 5 (June 16): **Integration II**
     - [[020_Residues|Residues]]
     - [[30_Complex Analysis/040_Residues/030_Exercises_Integrals|Techniques in contour integration]]
-- Week 6 (June 23):
+- Week 6 (June 23): **Entire functions**
 	- [[020 Liouville|Liouville's theorem]]
 	- [[30_Complex Analysis/900 Unsorted/090_Appendix FTA Proofs|The fundamental theorem of algebra]]
 - Week 7 (June 30): **Roots**
