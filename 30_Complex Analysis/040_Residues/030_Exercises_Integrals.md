@@ -1,6 +1,6 @@
 ---
 sort: 025
-title: Integral Exercises 
+title: "Exercises: Contour integration" 
 ---
 
 # Exercises: Contour Integration
