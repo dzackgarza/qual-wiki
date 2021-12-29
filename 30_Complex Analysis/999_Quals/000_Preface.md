@@ -75,7 +75,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^b9b6b4]]
 - [ ] [[30_Complex Analysis/999_Quals/006 Series Convergence#^c47851]]
 - [ ] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^590fc7]]
-- [ ] [[30_Complex Analysis/999_Quals/2021-12-11#^0f90ac]]
+- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz#^0f90ac]]
 - [ ] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^931c0a]]
 - [ ] [[30_Complex Analysis/999_Quals/040_Maximum_Modulus#^189826]]
 - [ ] [[30_Complex Analysis/999_Quals/005 Function Convergence#^4c605e]]
