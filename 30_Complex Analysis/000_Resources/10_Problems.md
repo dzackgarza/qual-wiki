@@ -1,12 +1,17 @@
 # Problems (Complex)
 
+## Qual Problems
+
+```query
+tag:complex/qual path:"999_Quals"
+```
+
 ## Exercises
   
 ```query
-tag:complex/exercise path:"999_Quals"
+tag:complex/exercise path:"30_Complex"
 ```
 
-- 
 ## UGA Courses
 	
 - [ ]  [Problem Session Problems](attachments/8155-starter-problems.pdf) #resources/problem_collections

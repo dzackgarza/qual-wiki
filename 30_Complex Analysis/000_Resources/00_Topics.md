@@ -1,16 +1,7 @@
 
 # Topics
 
-[List of topics](attachments/Complex_Analysis_Prelim_Review.pdf)
-
-- Holomorphic and meromorphic functions
-- Conformal maps, linear fractional transformations, [[Shwarz Lemma]]
-- Complex integrals: [[010_Cauchy_Theorem]], [[012 Cauchy Integral Formula]], [[021_Integrals|residues]]
-- Harmonic functions: [[015 Mean Value Theorem]], [[060 Schwarz Reflection]], Dirichlet’s problem
-- Series and product developments: Laurent series, partial fractions expansions, and [[canonical products]]
-- [[30_Complex Analysis/900 Unsorted/Special Functions|Special functions]]: the [[30_Complex Analysis/900 Unsorted/Special Functions#The Gamma Function|Gamma function]], [[30_Complex Analysis/900 Unsorted/Special Functions#Riemann Zeta|zeta functions]] and [[30_Complex Analysis/900 Unsorted/Special Functions#Elliptic Functions|elliptic functions]]
-- Basics of Riemann surfaces
-- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem]]. [[30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass|Casorati-Weierstrass]], [[30_Complex Analysis/070_Omitted Values/070_Picard|Picard theorem]]
+[UGA List of topics](attachments/Complex_Analysis_Prelim_Review.pdf)
 
 # Scheduling
 
@@ -34,7 +25,7 @@
     - [[130_The Cauchy-Riemann equations||Cauchy-Riemann]], 
     - [[125_Harmonic Functions|Harmonic functions]]
     - Contours, parameterization, primitives
-    - [[012 Cauchy Integral Formula|Cauchy's integral formula]], 
+    - [[012 Cauchy Integral Formula|Cauchy's integral formula]]
     - [[012_Cauchy Inequality|Cauchy's inequality]]
 
 - Week 3 (June 2): **Analytic Functions and singularities**
@@ -49,6 +40,7 @@
 		- [[012 Cauchy Integral Formula|Cauchy's Integral Formula]]
 		- [[30_Complex Analysis/030_Zeros_and_Poles/040_MMP|Maximum Modulus Principle]]]
 		- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|Schwarz reflection principle]]
+		- [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|Mean value theorem]]
 
 - Week 5 (June 16): **Integration II**
     - [[020_Residues|Residues]]
@@ -82,4 +74,13 @@
 	- [[30_Complex Analysis/070_Omitted Values/050_Montel#Normal Families|Normal families]]
 	- [[30_Complex Analysis/070_Omitted Values/050_Montel|Montel's theorem]]
 	- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem and unformization]]
-	- SL(2, R), the hyperbolic metric
+
+- **Other misc topics:**
+	- $\SL_2(\RR)$, modularity and elliptic curves
+	- The hyperbolic metric
+	- Riemann surfaces
+	- [[30_Complex Analysis/900 Unsorted/Special Functions|Special functions]]: 
+		- The [[30_Complex Analysis/900 Unsorted/Special Functions#The Gamma Function|Gamma function]], [[30_Complex Analysis/900 Unsorted/Special Functions#Riemann Zeta|zeta functions]] and [[30_Complex Analysis/900 Unsorted/Special Functions#Elliptic Functions|elliptic functions]]
+	- Canonical products
+	- Dirichlet's problem
+	- Hurwitz's theorem
