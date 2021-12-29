@@ -1,4 +1,4 @@
-## Meromorphic Functions
+# Meromorphic Functions
 
 :::{.definition title="Meromorphic"}
 A function $f:\Omega\to\CC$ is *meromorphic* iff there exists a sequence $\theset{z_n}$ such that
@@ -27,4 +27,3 @@ R_{n}(z)\left(z-z_{0}\right)^{n}
 ,\]
 where $R_n$ is analytic.
 :::
-

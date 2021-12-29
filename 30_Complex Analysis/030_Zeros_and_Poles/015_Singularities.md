@@ -91,7 +91,7 @@ f(z) \da \int_\gamma { f(\xi) \over \xi - z} \dx
 This is valid for $z\neq z_0$, but the right-hand side is analytic. (?)
 :::
 
-#work 
+#work/proof
 
 ![](figures/2021-10-29_01-30-50.png)
 
@@ -200,16 +200,6 @@ f(z) = (z-z_0)^{-n} h(z) && \quad h(z) \da {1\over g(z)}
 .\]
 :::
 
-:::{.exercise title="Poles of $1/\sin$"}
-Show that all singularities of $1/\sin(z)$ are poles of order 1.
-:::
-
-:::{.solution}
-
-#work
-
-:::
-
 :::{.example title="Of using this characterization"}
 Claim: if $f$ has a pole of order $m$ at $z_0$, then $g(z) \da f(z^2)$ has a pole of order $2m$ at $z_0$.
 WLOG assume $z_0=0$.
@@ -233,24 +223,24 @@ The term $P(z)$ is referred to as the *principal part of $f$ at $z_0$* consists 
 
 ## Exercises
 
-:::{.exercise title="Removable singularities for derivatives"}
-Suppose $f$ is meromorphic. Show that if $z_0$ is a removable singularity of $f$, then it is also a removable singularity of $f'$.
+:::{.exercise title="Poles of $1/\sin$"}
+Show that all singularities of $1/\sin(z)$ are poles of order 1.
+
+#work/exercise
 
 :::
 
-:::{.solution}
+:::{.exercise title="Removable singularities for derivatives"}
+Suppose $f$ is meromorphic. Show that if $z_0$ is a removable singularity of $f$, then it is also a removable singularity of $f'$.
 
-#work
+#work/exercise
 
 :::
 
 :::{.exercise title="Poles of derivatives"}
 Show that if $z_0$ is a pole of order $n$ of $f$, then it is a pole of order $n+k$ for $f^{(k)}$.
-:::
 
-:::{.solution}
-
-#work
+#work/exercise
 
 :::
 
@@ -258,7 +248,7 @@ Show that if $z_0$ is a pole of order $n$ of $f$, then it is a pole of order $n+
 Let $f$ be an elliptic function and $P$ be its fundamental parallelogram.
 Supposing that $f$ is nonconstant, show that $f$ has at least two poles in $P$ (counted with multiplicity).
 
-#completed
+#completed/exercise
 
 :::
 
@@ -296,7 +286,7 @@ Suppose $f$ is holomorphic on $\DD\smz$ and there exist $M, k$ such that
 
 Show that if $f$ has a singularity at $z=0$, then it must be removable.
 
-#completed
+#completed/exercise
 
 :::
 
@@ -335,7 +325,6 @@ $\contradiction$
 
 :::
 
-
 :::{.exercise title="When bounds imply removability"}
 Suppose $f$ is holomorphic with $z_0 = 0$ an isolated singularity, and suppose there is some neighborhood of $0$ on which
 \[
@@ -345,8 +334,9 @@ Show that $z_0$ is removable.
 
 > Warning: Riemann's removable singularity theorem won't apply to $z^{1\over 2}f(z)$ since $z^{1\over 2}$ is highly singular at $z=0$.
 
-:::
+#completed/exercise
 
+:::
 
 :::{.solution}
 Using the inequality,
@@ -356,5 +346,4 @@ Using the inequality,
 so $z=0$ is removable by Riemann's removable singularity theorem.
 
 :::
-
 

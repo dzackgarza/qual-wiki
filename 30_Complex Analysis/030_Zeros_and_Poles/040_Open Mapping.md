@@ -16,7 +16,6 @@ Any holomorphic non-constant map is an open map.
 
 :::
 
-
 :::{.proof title="Alternative"}
 
 ![](figures/2021-12-14_17-24-45.png)
@@ -25,3 +24,6 @@ Any holomorphic non-constant map is an open map.
 
 :::
 
+## Exercises
+
+#todo

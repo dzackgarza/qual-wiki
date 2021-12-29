@@ -22,20 +22,6 @@ Then if $g$ is holomorphic and nonzero away from $z_0$, so is $g'/g$.
 So the only contribution to $\Res_{z=z_0} \logd f$ is $m$.
 :::
 
-:::{.exercise title="?"}
-Show that $\logd(fg) = \logd f + \logd g$, i.e. 
-\[
-{ (fg)' \over fg} = {f'\over f} + {g' \over g}
-.\]
-:::
-
-:::{.solution}
-\[
-{(fg)' \over fg} = { f'g + fg' \over fg} = {f'g \over fg} + {fg' \over fg} = {f'\over f} + {g' \over g}
-.\]
-
-:::
-
 :::{.remark}
 Note that the logarithmic derivative picks up the $p\dash$adic valuation for $\gens{x-p} \in \CC[x]$ a point:
 \[
@@ -119,13 +105,29 @@ Let $f(z) = z^2 + z = z(z+1)$.
 
 :::
 
-
 :::{.remark}
 You can track the change in argument by just breaking a curve up into sub-curves and evaluating a branch of the $\arg$ function at the endpoints.
 For example, in this picture, the change in argument is $\pi$ no matter what the curve does in $\HH$:
-
 
 ![](figures/2021-12-10_18-06-04.png)
 
 :::
 
+## Exercises
+
+:::{.exercise title="?"}
+Show that $\logd(fg) = \logd f + \logd g$, i.e. 
+\[
+{ (fg)' \over fg} = {f'\over f} + {g' \over g}
+.\]
+
+#completed/exercise
+
+:::
+
+:::{.solution}
+\[
+{(fg)' \over fg} = { f'g + fg' \over fg} = {f'g \over fg} + {fg' \over fg} = {f'\over f} + {g' \over g}
+.\]
+
+:::
