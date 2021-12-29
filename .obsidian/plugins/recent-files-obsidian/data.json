@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
+    },
+    {
+      "basename": "030_Conformal Map Theory and Background",
+      "path": "30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background.md"
+    },
+    {
+      "basename": "031_Conformal_Standard",
+      "path": "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md"
+    },
+    {
+      "basename": "105_Conformal Maps",
+      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+    },
+    {
+      "basename": "050_Montel",
+      "path": "30_Complex Analysis/070_Omitted Values/050_Montel.md"
+    },
+    {
+      "basename": "Special Functions",
+      "path": "30_Complex Analysis/900 Unsorted/Special Functions.md"
+    },
+    {
       "basename": "00_Books_Notes",
       "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "ist_ca_2015",
+      "path": "attachments/ist_ca_2015.pdf"
     },
     {
       "basename": "Won_-_Complex_Analysis_Qual_Sheet",
@@ -121,10 +149,6 @@
       "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
     },
     {
-      "basename": "00_Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
-    },
-    {
       "basename": "240_Fixed_Points_and_Degree",
       "path": "40_Topology/080_Degree/240_Fixed_Points_and_Degree.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "010_Cauchy_Theorem",
       "path": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
-    },
-    {
-      "basename": "05_Advice and Essentials",
-      "path": "20_Real Analysis/005_Basics/05_Advice and Essentials.md"
-    },
-    {
-      "basename": "0020_Integrals Convergence",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0020_Integrals Convergence.md"
-    },
-    {
-      "basename": "0000_Preface",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
-    },
-    {
-      "basename": "Fall_2019_Assignment_Solutions",
-      "path": "attachments/Fall_2019_Assignment_Solutions.pdf"
-    },
-    {
-      "basename": "Spring 2019 with Solutions",
-      "path": "attachments/Spring 2019 with Solutions.pdf"
-    },
-    {
-      "basename": "Neil_Spring_2019_Solutions",
-      "path": "attachments/Neil_Spring_2019_Solutions.pdf"
     }
   ],
   "omittedPaths": [],

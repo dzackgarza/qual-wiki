@@ -8,9 +8,9 @@
 - Complex integrals: [[010_Cauchy_Theorem]], [[012 Cauchy Integral Formula]], [[021_Integrals|residues]]
 - Harmonic functions: [[015 Mean Value Theorem]], [[060 Schwarz Reflection]], Dirichlet’s problem
 - Series and product developments: Laurent series, partial fractions expansions, and [[canonical products]]
-- Special functions: the [[Gamma function]], the [[zeta functions]] and [[elliptic functions]]
+- [[30_Complex Analysis/900 Unsorted/Special Functions|Special functions]]: the [[30_Complex Analysis/900 Unsorted/Special Functions#The Gamma Function|Gamma function]], [[30_Complex Analysis/900 Unsorted/Special Functions#Riemann Zeta|zeta functions]] and [[30_Complex Analysis/900 Unsorted/Special Functions#Elliptic Functions|elliptic functions]]
 - Basics of Riemann surfaces
-- [[Riemann mapping theorem]]. [[30_Complex Analysis/045_Casorati/Picard theorem]]
+- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem]]. [[30_Complex Analysis/070_Omitted Values/020_Casorati-Weierstrass|Casorati-Weierstrass]], [[30_Complex Analysis/070_Omitted Values/070_Picard|Picard theorem]]
 
 # Scheduling
 
@@ -49,8 +49,8 @@ Integration II
     -  [[Rouche]]
 		- [[Argument Principle]]
 - Week 8 (July 7): **Conformal Maps**
-	- [[105_Conformal Maps]]
-	- The big 9 transformations
+	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
+	- [[30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background]]
 	- Mobius transformations, [[100_Linear Fractional Transformations]]
 	- SL(2, R), conformal [[Maps of the disc]], the hyperbolic metric
 	- Uniformization
@@ -63,6 +63,6 @@ Integration II
 		- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass|Casorati-Weierstrass]], 
 		- [[30_Complex Analysis/045_Casorati/Picard theorem|Picard]]
 - Week 11 (July 28):
-	- [[030 Identity Principle]]
-	- [[Montel's theorem]]
-	- [[Normal families]]
+	- [[030 Identity Principle|The identity principle]]
+	- [[30_Complex Analysis/070_Omitted Values/050_Montel#Normal Families|Normal families]]
+	- [[30_Complex Analysis/070_Omitted Values/050_Montel|Montel's theorem]]

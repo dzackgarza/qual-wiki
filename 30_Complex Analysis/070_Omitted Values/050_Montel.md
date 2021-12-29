@@ -24,6 +24,8 @@ As a consequence, if $A$ is a sequence, it contains a subsequence converging uni
 The proof is an $\eps/3$ argument.
 :::
 
+## Normal Families
+
 :::{.definition title="Normal Family"}
 A family of functions $\mcf \da \ts{f_j}_{j\in J}$ is **normal** iff every sequence $\ts{f_k}$ has a subsequence that converges locally uniformly, i.e. $\ts{f_{k_i}}$ converges uniformly on every compact subset.
 

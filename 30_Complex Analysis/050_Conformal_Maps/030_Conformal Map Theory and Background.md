@@ -1,4 +1,4 @@
-# Linear Fractional Transformations
+# Conformal Maps: Theory and Background
 
 :::{.remark title="Resources"}
 Conformal Mapping Dictionary:
