@@ -123,6 +123,4 @@ Included years:
 
 [Spring 2017](https://www.math.uga.edu/sites/default/files/ComplexAnalysis_Spring2017.pdf)
 
-```query
-tag:complex/qual path:"999_Quals"
-```
+
