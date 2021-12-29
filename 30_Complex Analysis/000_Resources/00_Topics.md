@@ -52,6 +52,7 @@ Integration II
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 	- [[30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background#Linear Fractional Mobius Transformations|Mobius transformations and linear fractional transformations]]
 	- [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard#The Big 9 Conformal Maps|The big 9 standard maps]]
+		- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem]], 
 	- [[30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]], 
 	- Uniformization
 	- SL(2, R), the hyperbolic metric
@@ -60,7 +61,6 @@ Integration II
 	- [[060 Schwarz Reflection|Schwarz Reflection]]
 	- [[30_Complex Analysis/040_Zeros_and_Poles/040_Open Mapping|Open Mapping Theorem]]
 - Week 10  (July 21): 
-		- [[30_Complex Analysis/Riemann Mapping Principle|Riemann Mapping Principle]], 
 		- [[30_Complex Analysis/045_Casorati/Casorati-Weierstrass|Casorati-Weierstrass]], 
 		- [[30_Complex Analysis/045_Casorati/Picard theorem|Picard]]
 - Week 11 (July 28):
