@@ -14,7 +14,7 @@ b.
 Prove that any two bases of $M$ have the same number of elements.
 You may assume that the result is true when $R$ is a field.
 
-## Spring 2020 #5 #algebra/completed/qual
+## Spring 2020 #5 #algebra/qual/completed
 Let $R$ be a ring and $f: M\to N$ and $g: N\to M$ be $R\dash$module homomorphisms such that $g\circ f = \id_M$.
 Show that $N \cong \im f \oplus \ker g$.
 
@@ -58,7 +58,7 @@ Show that $N \cong \im f \oplus \ker g$.
 
 
 
-### Fall 2018 #6 #algebra/completed/qual
+### Fall 2018 #6 #algebra/qual/completed
 Let $R$ be a commutative ring, and let $M$ be an $R\dash$module. 
 An $R\dash$submodule $N$ of $M$ is maximal if there is no $R\dash$module $P$ with $N \subsetneq P \subsetneq M$.
 
@@ -230,7 +230,7 @@ Prove that if the induced morphism \( \bar{f}: M/IM \to N/IN \) is surjective, t
 
 ## Torsion and the Structure Theorem
 
-### $\star$ Fall 2019 #5 #algebra/completed/qual
+### $\star$ Fall 2019 #5 #algebra/qual/completed
 Let $R$ be a ring and $M$ an $R\dash$module.
 
 > Recall that the set of torsion elements in M is defined by
@@ -301,7 +301,7 @@ so $m$ is a torsion element for any $m$.
 
 :::
 
-### $\star$ Spring 2019 #5 #algebra/completed/qual
+### $\star$ Spring 2019 #5 #algebra/qual/completed
 Let $R$ be an integral domain. Recall that if $M$ is an $R\dash$module, the *rank* of $M$ is
 defined to be the maximum number of $R\dash$linearly independent elements of $M$ .
 
@@ -457,7 +457,7 @@ Note that the proof follows immediately.
 :::
 
 
-### $\star$ Spring 2020 #6 #algebra/completed/qual
+### $\star$ Spring 2020 #6 #algebra/qual/completed
 Let $R$ be a ring with unity.
 
 a.

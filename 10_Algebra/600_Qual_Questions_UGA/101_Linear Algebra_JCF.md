@@ -85,7 +85,7 @@ Write down the minimal polynomial of $A$.
 
 > You should not need to compute $P\inv$.
 
-## Spring 2019 #7 #algebra/completed/qual 
+## Spring 2019 #7 #algebra/qual/completed 
 Let $p$ be a prime number.
 Let $A$ be a $p \times p$ matrix over a field $F$ with 1 in all
 entries except 0 on the main diagonal.
@@ -345,7 +345,7 @@ Show that there does not exist any vector $v\in V$ such that $Tv = v$, but there
 b.
 Give all of the possible Jordan canonical forms of $T$.
 
-## Spring 2021 #1 #algebra/completed/qual
+## Spring 2021 #1 #algebra/qual/completed
 
 Let m
 \[

@@ -30,7 +30,7 @@ Let $A, B$ be two $n\times n$ matrices with the property that $AB = BA$.
 Suppose that $A$ and $B$ are diagonalizable.
 Prove that $A$ and $B$ are *simultaneously* diagonalizable.
 
-## Spring 2019 #1 #algebra/completed/qual
+## Spring 2019 #1 #algebra/qual/completed
 
 Let $A$ be a square matrix over the complex numbers.
 Suppose that $A$ is nonsingular
@@ -196,7 +196,7 @@ Define an injective linear map
 \]
 which is an isomorphism if $V$ is finite dimensional.
 
-##  Fall 2018 #4 #algebra/completed/qual 
+##  Fall 2018 #4 #algebra/qual/completed 
 Let $V$ be a finite dimensional vector space over a field (the field is not necessarily algebraically closed).
 
 Let $\phi : V \to V$ be a linear transformation. Prove that there exists a decomposition of $V$ as $V = U \oplus W$ , where $U$ and $W$ are $\phi\dash$invariant subspaces of $V$ , $\restrictionof{\phi}{U}$ is nilpotent, and $\restrictionof{\phi}{W}$ is nonsingular.
@@ -221,7 +221,7 @@ We can now note that $\restrictionof{\phi}{U}$ is nilpotent because it has chara
 
 :::
 
-## Fall 2018 #5 #algebra/completed/qual
+## Fall 2018 #5 #algebra/qual/completed
 Let $A$ be an $n \times n$ matrix.
 
 a.
@@ -435,7 +435,7 @@ B^t A = (A^{-t})^t A = A\inv A = I \\
 
 :::
 
-## Spring 2013 #6 #algebra/completed/qual
+## Spring 2013 #6 #algebra/qual/completed
 Let $V$ be a finite dimensional vector space over a field $F$ and let $T: V\to V$ be a linear operator with characteristic polynomial $f(x) \in F[x]$.
 
 a.

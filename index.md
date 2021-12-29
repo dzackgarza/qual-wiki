@@ -7,11 +7,11 @@
 
 ## Problems
 
-Try some #problems (see also #work) and read #solutions (see also #completed), or help me  unsolved exercises:
+Try some #problems (see also #work) and read #solutions, or help me  unsolved exercises:
 
 Try some problems! See the following tags:
 
-- #algebra/completed/qual 
+- #algebra/qual/completed 
 - #topology/completed/qual 
 - #real_analysis/qual/completed 
 - #complex/completed/qual 

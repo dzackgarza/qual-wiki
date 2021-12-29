@@ -2,7 +2,7 @@
 
 ## General Galois Extensions
 
-### Fall 2020 #4 #algebra/completed/qual
+### Fall 2020 #4 #algebra/qual/completed
 Let $K$ be a Galois extension of $F$, and let $F \subset E \subset K$ be inclusions of fields.
 Let $G \da \Gal(K/F)$ and $H \da \Gal(K/E)$, and suppose $H$ contains $N_G(P)$, where $P$ is a Sylow $p$-subgroup of $G$ for $p$ a prime.
 Prove that \( [E: F] \equiv 1 \mod p \).
@@ -81,7 +81,7 @@ N_G(P) = \ts{g\in G \st gPg\inv = P}
 
 :::
 
-### Fall 2019 Midterm #9  #algebra/completed/qual
+### Fall 2019 Midterm #9  #algebra/qual/completed
 Let $n\geq 3$ and $\zeta_n$ be a primitive $n$th root of unity. Show that $[\QQ(\zeta_n + \zeta_n\inv): \QQ] = \phi(n)/2$ for $\phi$ the totient function.
 
 :::{.solution}
@@ -110,7 +110,7 @@ Let $n\geq 3$ and $\zeta_n$ be a primitive $n$th root of unity. Show that $[\QQ(
 :::
 
 
-### Fall 2019 Midterm #10 #algebra/completed/qual
+### Fall 2019 Midterm #10 #algebra/qual/completed
 Let $L/K$ be a finite normal extension.
 
 a.
@@ -173,7 +173,7 @@ Show that $E$ contains a primitive 7th root of unity.
 b.
 Show that $E\neq \QQ(\alpha)$.
 
-### Fall 2013 #5 #algebra/completed/qual
+### Fall 2013 #5 #algebra/qual/completed
 Let $L/K$ be a finite extension of fields.
 
 a.
@@ -522,7 +522,7 @@ C_2^2 \cong G = \gens{\tau_1, \tau_2} = \ts{\id, \tau_1, \tau_2, \tau_1 \tau_2} 
 ### Fall 2019 Midterm #6  #work
 Compute the Galois group of $f(x) = x^3-3x -3\in \QQ[x]/\QQ$.
 
-### Spring 2018 #2 #algebra/completed/qual
+### Spring 2018 #2 #algebra/qual/completed
 Let $f(x) = x^4 - 4x^2 + 2 \in \QQ[x]$.
 
 a.
@@ -750,7 +750,7 @@ Find $\gal(K/F)$ and express each intermediate field between $F$ and $K$ as $F(\
 
 ## Galois Groups: Indirect Computations / Facts
 
-### Fall 2019 #7 #algebra/completed/qual
+### Fall 2019 #7 #algebra/qual/completed
 Let $\zeta_n$ denote a primitive $n$th root of 1 $\in \QQ$.
 You may assume the roots of the minimal polynomial $p_n(x)$ of $\zeta_n$ are exactly the primitive $n$th roots of 1.
 
@@ -839,7 +839,7 @@ For some elements $\omega_i$ which exist by the primitive element theorem.
 
 :::
 
-### Fall 2018 #3 #algebra/completed/qual
+### Fall 2018 #3 #algebra/qual/completed
 Let $F \subset K \subset L$ be finite degree field extensions.
 For each of the following assertions, give a proof or a counterexample.
 
@@ -893,7 +893,7 @@ Then each successive extension is quadratic (thus Galois) but $\QQ(\sqrt[4] 2)$ 
 :::
 
 
-### Spring 2018 #3 #algebra/completed/qual
+### Spring 2018 #3 #algebra/qual/completed
 Let $K$ be a Galois extension of $\QQ$ with Galois group $G$, and let $E_1 , E_2$ be intermediate fields of $K$ which are the splitting fields of irreducible $f_i (x) \in \QQ[x]$. 
 
 Let $E = E_1 E_2 \subset K$. 
@@ -1067,7 +1067,7 @@ Compute the Galois group of $f(x)$ over $\QQ$ and justify your answer.
 
 ## $p$th Roots and $x^{p^k}-x$
 
-### Spring 2021 #7 #algebra/completed/qual
+### Spring 2021 #7 #algebra/qual/completed
 
 Let $p$ be a prime number and let $F$ be a field of characteristic $p$.
 Show that if $a\in F$ is not a $p$th power in $F$, then $x^p-a \in F[x]$ is irreducible.
@@ -1161,7 +1161,7 @@ a &= a^1\\
 
 
 
-### Fall 2019 #4 #algebra/completed/qual
+### Fall 2019 #4 #algebra/qual/completed
 Let $F$ be a finite field with $q$ elements.
 Let $n$ be a positive integer relatively prime to $q$ and let $\omega$ be a primitive $n$th root of unity in an extension field of $F$.
 Let $E = F [\omega]$ and let $k = [E : F]$.
@@ -1237,7 +1237,7 @@ E \leq M \leq F \quad k = [F:E] = [F:M] [M:E] = \ell m
 :::
 
 
-### Spring 2019 #2 #algebra/completed/qual
+### Spring 2019 #2 #algebra/qual/completed
 Let $F = \FF_p$ , where $p$ is a prime number.
 
 a.
@@ -1351,7 +1351,7 @@ b.
 Assume that there are at least two distinct intermediate subfields $F \subset L_1, L_2 \subset E$ with $[L_i: F]= 7$.
 Prove that $\gal(E/F)$ is nonabelian.
 
-### Spring 2019 #8 #algebra/completed/qual
+### Spring 2019 #8 #algebra/qual/completed
 Let $\zeta = e^{2\pi i/8}$.
 
 a.
