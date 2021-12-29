@@ -9,8 +9,11 @@
 
 Try some #problems (see also #work) and read #solutions (see also #completed), or help me  unsolved exercises:
 
+Try some problems! See the following tags:
 
-Some indices into more 
+- 
+
+Some indices into more content:
 
 - Algebra
 	- [[50_Solutions_Algebra]]
