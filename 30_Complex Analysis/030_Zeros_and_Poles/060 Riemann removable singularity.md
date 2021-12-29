@@ -19,13 +19,15 @@ Showing a singularity $z_0$ of $f$ is removable: it suffices to show
 - Show $\lim_{z\to z_0}f(z) \neq \infty$
 :::
 
+## Exercises
+
 :::{.exercise title="?"}
 Show that there is an entire function $h$ such that
 \[
 {\pi^2\over \sin^2(\pi z)} = \sum_{k\in \ZZ} {1\over (z-k)^2} + h(z)
 .\]
 
-#completed 
+#completed/exercise
 
 :::
 
@@ -65,3 +67,4 @@ Since $f-g$ subtracts off this part, $z=0$ becomes a removable singularity for $
 Now note that $f$ is periodic, and since the period is 1, a similar argument shows that the remaining singularities on $\ZZ\smz$ are all removable for $f-g$.
 By Riemann's removable singularity theorem, $f-g$ extends over these singularities, yielding an entire function $h$ that restricts to $f-g$ on $\CC\sm\ZZ$.
 :::
+
