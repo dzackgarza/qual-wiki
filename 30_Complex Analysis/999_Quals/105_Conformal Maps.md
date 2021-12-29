@@ -19,17 +19,23 @@ to $\mathbb{H}$.
 
 ^043381
 
-Find a conformal map from $D=\{z:|z|<1,|z-1 / 2|>1 / 2\}$ to the unit disk $\Delta=\{z:|z|<1\} .$
+:::{.problem title="?"}
+Find a conformal map from $D=\{z:|z|<1,|z-1 / 2|>1 / 2\}$ to the unit disk $\Delta=\{z:|z|<1\} .$.
+:::
+
 
 ## Spring 2020.5 #complex/qual/work
 
 ^0df993
 
+:::{.problem title="?"}
 Find a conformal map that maps the region 
 \[
 \ts{z \st \Re(z) > 0,\, \abs{z - {1\over 2} }> {1\over 2} }
 \]
 to the upper half plane.
+:::
+
 
 ## Spring 2021.7 #complex/qual/work
 
@@ -71,7 +77,10 @@ Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \m
 
 ^efdbde
 
+:::{.problem title="?"}
 Find a conformal map from the intersection of $|z-1|<2$ and $|z+1|<2$ to the upper half plane.
+:::
+
 
 
 ## 1 #complex/exercise/work
