@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "017 Fixed Points",
+      "path": "40_Topology/600_UGA_Qual_Questions/017 Fixed Points.md"
+    },
+    {
       "basename": "016 Surfaces",
       "path": "40_Topology/600_UGA_Qual_Questions/016 Surfaces.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Neil_Fall_2019_Solutions",
       "path": "attachments/Neil_Fall_2019_Solutions.pdf"
-    },
-    {
-      "basename": "0050_Functional Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0050_Functional Analysis.md"
     }
   ],
   "omittedPaths": [],
