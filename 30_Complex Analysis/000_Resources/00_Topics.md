@@ -37,7 +37,8 @@ Integration I
     - Contours, parameterization, primitives
 		- [[010_Cauchy_Theorem]], [[012 Cauchy Integral Formula]]
 		- [[050_Morera_Theorem]]
-		- [[Maximum modulus principle]]
+		- [[30_Complex Analysis/030_Zeros_and_Poles/040_MMP]]]
+		- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle]]
 - Week 5 (June 16):
 Integration II
     - [[020_Residues]]
