@@ -14,7 +14,7 @@ title: Integral Exercises
 \int_\RR {1 \over x^4 + 1} = {\pi \sqrt{2} \over 2} = {\pi \over \sqrt 2}
 .\]
 
-#completed
+#completed/exercise
 
 :::
 

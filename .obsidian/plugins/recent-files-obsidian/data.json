@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
     {
+      "basename": "030_Exercises_Integrals",
+      "path": "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md"
+    },
+    {
       "basename": "000_My Active Problems",
       "path": "000_My Active Problems.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "025 Residues for integrals",
       "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
-    },
-    {
-      "basename": "030_Exercises_Integrals",
-      "path": "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md"
     },
     {
       "basename": "00_Books_Notes",

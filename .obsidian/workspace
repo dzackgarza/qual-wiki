@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "query",
+                "query": "path:30_Complex .exercise",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -257,6 +257,7 @@
   "active": "6812191371727805",
   "lastOpenFiles": [
     "30_Complex Analysis/000_Resources/10_Problems.md",
+    "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md",
     "000_My Active Problems.md",
     "30_Complex Analysis/010_Basics/050 Series Reference.md",
     "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md",
@@ -264,7 +265,6 @@
     "30_Complex Analysis/010_Basics/001_Precalculus.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex Analysis/010_Basics/999_Basics_Exercises.md",
-    "30_Complex Analysis/000_Resources/20_Solutions.md",
-    "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
+    "30_Complex Analysis/000_Resources/20_Solutions.md"
   ]
 }

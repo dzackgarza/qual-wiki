@@ -8,7 +8,7 @@
 - [[30_Complex Analysis/040_Residues/030_Exercises_Integrals]]
 
 ```query
-path:30_Complex .exercise
+tag:completed/exercise
 ```
 
 - 
