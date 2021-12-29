@@ -33,11 +33,15 @@ so the contour contributions sum to $(1-\zeta_n)I$.
 
 Solving:
 \[
-I = -{2\pi i \omega_n\over n(1-\zeta_n)} = -2\pi i {1\over \omega_n\inv - \omega_n\} = -2\pi i {1\over \sin\qty{\pi \over n}} = {\pi \over n}\csc\qty{\pi \over n}
+I 
+= -{2\pi i \omega_n\over n(1-\zeta_n)} 
+= -2\pi i {1\over \omega_n\inv - \omega_n} 
+= -2\pi i {1\over 2i \sin\qty{\pi \over n}} 
+= {\pi \over n} \csc\qty{\pi \over n}
 .\]
 :::
 
-:::{.solution title="Older, more detailed"}
+:::{.solution title="Older, detailed"}
 Write $\omega_{n, k} = \exp\qty{(2k+1)i\pi \over n}$ and factor $z^n+1$ as 
 \[
 z^n+1  = \prod_{1\leq k \leq n}(z-\omega_{n, k}) = 

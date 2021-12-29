@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "105_Conformal Maps",
+      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+    },
+    {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "030_Conformal Map Theory and Background",
       "path": "30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background.md"
-    },
-    {
-      "basename": "105_Conformal Maps",
-      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
     },
     {
       "basename": "050_Montel",
