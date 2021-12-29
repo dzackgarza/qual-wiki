@@ -127,6 +127,6 @@ Included years:
 See subdirectory and #work tag.
   
 ```query
-tag:work path:"999_Quals"
+tag:compl path:"999_Quals"
 ```
 
