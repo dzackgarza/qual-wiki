@@ -30,6 +30,12 @@ First note that by the maximum modulus principal, it suffices to consider sups o
 M_R = \sup_{\abs{z} = R}\abs{f(z)}, \qquad N_R = \sup_{\abs{z} = R} \abs{f'(z)}
 .\]
 
+The first estimate: since $f$ is holomorphic in $\abs{z} < 3R$, in the region $\abs{z} < R$. $f$ is a primitive for $f'$.
+So for any $z_0, z\in \DD_R(0)$ and any path $\gamma$ from $z_0$ to $z$,
+\[
+\int_{\gamma} f'(\xi)\dxi = f(z) - f(z_0),\qquad \gamma(0) = z_0,\, \gamma(1) = z
+.\]
+
 
 The second estimate:
 suppose $z_0 \in \DD_R(0)$, then any $D_R(z_0)$ is contained in $D_{2R}(0)$, 
