@@ -51,11 +51,15 @@ f(\gamma_1(t))
 \sim 1-i\cot(t/2)
 .\]
 
-Some analysis on cotangent:
+Some analysis on $\cot(t/2)$:
 
-- $-\pi\increasesto 0 \leadsto 0\decreasesto -\infty$
-- $0\increasesto \pi \leadsto \infty\decreasesto 0$.
+- $-\pi\increasesto 0 \leadsto 0\decreasesto -\infty$ 
+- $0\increasesto \pi \leadsto \infty\decreasesto 0$ 
 
+Thus for $-\cot(t/2)$,
+
+- $-\pi\increasesto 0 \leadsto 0\increasesto -\infty$ 
+- $0\increasesto \pi \leadsto \infty\increasesto 0$ 
 
 In steps:
 :::
