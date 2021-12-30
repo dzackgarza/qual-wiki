@@ -117,7 +117,7 @@ f(ic)
 so
 \[
 \Arg(f(ic)) 
-&= \arctan(2c\over -1 + c^2) \\
+&= \arctan\qty{ 2c\over -1 + c^2} \\
 &= \arctan\qty{2(1+\sqrt 2) \over 1 - (3 + \sqrt 2)} \\
 &= \arctan(-1) \\
 &= {\pi\over 4} \text{ or } {3\pi \over 4}
@@ -133,7 +133,12 @@ f(-ic) = {c^2-1\over c^2+1} + i{2\over c^2+1} \in Q_1
 ,\]
 and $(-1, -ic, 1)\mapsto (0, f(-ic), \infty)$, so $f(C_2)$ is oriented from $Q_3$ to $Q_1$.
 
-Since the origin region was to the left of the curves, it remains to the left, so the resulting region is $\ts{z\st 3\pi/4 < \Arg(z) < 5\pi/4}$.
+Since the origin region was to the left of the curves, it remains to the left, so the resulting region is $\ts{z\st 3\pi/4 < \Arg(z) < 5\pi/4}$:
+
+
+![](figures/2021-12-29_23-12-17.png)
+
+
 
 :::
 
