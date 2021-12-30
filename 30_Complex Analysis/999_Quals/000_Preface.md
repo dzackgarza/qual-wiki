@@ -58,7 +58,7 @@ Included years:
 
 ## Spring 2021
 
-[Spring 2021](https://www.math.uga.edu/sites/default/files/inline-files/ComplexQual_Spring2020.pdf)
+- [x] [Spring 2021](https://www.math.uga.edu/sites/default/files/inline-files/ComplexQual_Spring2020.pdf)
 
 - [x] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^7d0c77]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^0a6802]]
