@@ -222,16 +222,21 @@ Show that
 .\]
 using complex analysis, $0< a < n$. Here $n$ is a positive integer.
 
-### Fall 2020.3, Spring 2019.2 #complex/qual/work
+### Fall 2020.3, Spring 2019.2 #complex/qual/completed
 
 ^590fc7
 
 ^5fa654
 
+
+:::{.problem title="?"}
 Let $a \in \mathbb{R}$ with $0<a<3$. Evaluate 
 \[
 \int_{0}^{\infty} \frac{x^{a-1}}{1+x^{3}} d x
 .\]
+
+:::
+
 
 
 ## Rational Functions of $\sin$ or $\cos$
