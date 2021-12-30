@@ -80,6 +80,16 @@ By the same argument as above, this traces out a vertical line at $\Re(z) = -1$.
 
 By handedness, since the original region is on the left with respect to $C_1$ and the right with respect to $C_2$, the new region is to the left of $\Re(z) = -{1\over 2}$ and the right of $\Re(z) = -1$ (since both are oriented from $-\infty$ to $\infty$).
 
+From here, it's a standard exercise.
+In steps:
+
+- Map $R$ to the vertical strip $-1< \Re(z) < -{1\over 2}$ using $z\mapsto {1\over z-1}$.
+- Shift using $z\mapsto z+{1\over 2}$ to send this to $-{1\over 2}< \Re(z) < 0$.
+- Rotate using $z\mapsto -iz$ to get $0<\Im(z) < {i\over 2}$, a horizontal strip.
+- Dilate using $z\mapsto 2\pi z$, which sends ${i\over 2}\to \pi i$, so the resulting region is $0 < \Im(z) < \pi$.
+- Apply $z\mapsto e^z$ to map the horizontal strip to $\HH$.
+- Apply the Cayley map $z\mapsto {z-i\over z+i}$ to map $\HH\to\DD$.
+
 :::
 
 
