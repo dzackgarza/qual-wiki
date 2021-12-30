@@ -63,6 +63,16 @@ Thus for $-\cot(t/2)$,
 
 So the image is a vertical line through $\Re(z) = 1$ oriented from $-\infty\to\infty$.
 
+For the image of $C_2$: parameterize as $\gamma_2(t) = {1\over 2}\qty{1 + e^{it}}$, then
+\[
+f(\gamma_2(t))
+&= {1\over {1\over 2}\qty{1+e^{it}} } \\
+&= {1\over -{1\over 2}\qty{1-e^{it} } } \\
+&= {-2e^{-it/2} \over e^{-it/2} \qty{1-e^{it}}} \\
+&= {-2e^{-it/2} \over -2i\sin(t/2)} \\
+&= -i \csc(t/2) e^{-it/2}
+.\]
+
 In steps:
 :::
 
