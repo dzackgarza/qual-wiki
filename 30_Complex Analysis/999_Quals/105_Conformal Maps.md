@@ -18,6 +18,7 @@ to $\mathbb{H}$.
 
 :::
 
+
 ## Fall 2019.5 #complex/qual/work
 
 ^043381
@@ -33,10 +34,22 @@ Find a conformal map from $D=\{z:|z|<1,|z-1 / 2|>1 / 2\}$ to the unit disk $\Del
 :::{.problem title="?"}
 Find a conformal map that maps the region 
 \[
-\ts{z \st \Re(z) > 0,\, \abs{z - {1\over 2} }> {1\over 2} }
+R = \ts{z \st \Re(z) > 0,\, \abs{z - {1\over 2} }> {1\over 2} }
 \]
 to the upper half plane.
 :::
+
+
+:::{.solution}
+In steps:
+
+- Send $0\to \infty$ by $z\mapsto {1\over z}$ to map $R\to 0<\Re(z)<1$
+- Rotate with $z\mapsto iz$ to map this to $0< \Im(z) < 1$
+- Dilate by $z\mapsto \pi z$ to get $0 < \Im(z) < \pi$
+- Apply $z\mapsto e^z$ to map to $\HH$.
+
+:::
+
 
 ## Spring 2021.7 #complex/qual/work
 
@@ -150,7 +163,6 @@ From here, it's a standard exercise, so to sum up:
 - Use the Cayley map $z\mapsto {z-i\over z+i}$ to send $\HH\to \DD$.
 
 :::
-
 
 ## Lune #complex/exercise/completed
 
