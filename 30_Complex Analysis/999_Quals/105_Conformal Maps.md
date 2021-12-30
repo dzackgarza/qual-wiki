@@ -48,7 +48,7 @@ f(\gamma_1(t))
 &= -{i\over 2}\csc(t/2)\qty{\cos(t/2) - i\sin(t/2)} \\
 &= -{i\over 2}\qty{\cot(t/2) - i } \\
 &= {1\over 2}\qty{1-i\cot(t/2)} \\
-\sim 1-i\cot(t/2)
+&\simeq 1-i\cot(t/2)
 .\]
 
 Some analysis on $\cot(t/2)$:
@@ -58,8 +58,10 @@ Some analysis on $\cot(t/2)$:
 
 Thus for $-\cot(t/2)$,
 
-- $-\pi\increasesto 0 \leadsto 0\increasesto -\infty$ 
-- $0\increasesto \pi \leadsto \infty\increasesto 0$ 
+- $-\pi\increasesto 0 \leadsto 0\increasesto \infty$ 
+- $0\increasesto \pi \leadsto -\infty\increasesto 0$ 
+
+So the image is a vertical line through $\Re(z) = 1$ oriented from $-\infty\to\infty$.
 
 In steps:
 :::
