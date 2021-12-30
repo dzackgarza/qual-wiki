@@ -99,6 +99,33 @@ First rotate this by $-\pi/2$:
 
 ![](figures/2021-12-29_22-18-07.png)
 
+Now this is a standard exercise: send $-1\to 0, 1\to \infty$ by taking
+\[
+f(z) \da {z+1\over z-1}
+.\]
+This sends the circles to lines through zero, and the lune now spans a triangular sector.
+Finding the angles of the lines: write $c\da 1 + \sqrt{2}$.
+Note that $f$ fixes $\RR$, so the image regions are symmetric about $\RR$, and it suffices to find the angle of the line $f(C_1)$.
+Note that $C_1 \intersect i\RR = ic$, so we compute $\Arg(f(ic))$:
+\[
+f(ic) 
+&= {ic+1\over ic-1} \\
+&= {(1+ic)^2 \over c^2 + 1} \\
+&= {-1 + c^2 - 2ic \over c^2 + 1} \\
+&= {-1+c^2 \over 1+c^2} -i {2c\over 1+c^2}
+,\]
+so
+\[
+\Arg(f(ic)) 
+&= \arctan(2c\over -1 + c^2) \\
+&= \arctan\qty{2(1+\sqrt 2) \over 1 - (3 + \sqrt 2)} \\
+&= \arctan(-1) \\
+&= {\pi\over 4} \text{ or } {3\pi \over 4}
+.\]
+
+Thus $f(C_1) = \ts{te^{-i\pi\over 4} \st t\in (-\infty, \infty)}$.
+
+
 
 :::
 
