@@ -1,7 +1,8 @@
 # Maximum modulus principle
 
-:::{.theorem title="Minimum modulus principle"}
-If $f$ is a non-constant analytic function on a bounded open set $G$ and is continuous on $\bar{G}$, then either $f$ has a zero in $G$ or $|f|$ assumes its minimum value on $\partial G$.
+:::{.theorem title="Maximum modulus principle"}
+If $f$ has a relative maximum at $z_0$, then $f$ is constant in a neighborhood of $z_0$.
+If $\Omega$ is a bounded connected domain with $f$ continuous on $\Omega$ and $\bd \Omega$, then either $f$ is constant or $M \da \max_{z\in \Omega}\abs{f(z)}$ is only attained by some $z\in \bd\Omega$.
 :::
 
 :::{.proof title="?"}
