@@ -41,14 +41,20 @@ f(z) \da {1\over z-1}
 Write $C_1$ for $S^1$ and $C_2$ for the smaller circle.
 Computing the image of $C_1$: parameterize as $\gamma_1(t) = e^{it}$ for $t\in [-\pi, \pi]$, then
 \[
-f(\gmmaa(t)) 
+f(\gamma_1(t)) 
 &= {1\over e^{it} - 1} \\
 &= {e^{-it/2} \over e^{it/2} - e^{-it/2}} \\
 &= {e^{-it/2} \over 2i\sin(t/2) } \\
-&= -{i\over 2}\csc(t/2)\qty{\cos(t/2) + i\sin(t/2)} \\
-&= -{i\over 2}\qty{\cot(t/2) + i } \\
-&= {1\over 2}\qty{1-i\cot(t/2)}
+&= -{i\over 2}\csc(t/2)\qty{\cos(t/2) - i\sin(t/2)} \\
+&= -{i\over 2}\qty{\cot(t/2) - i } \\
+&= {1\over 2}\qty{1-i\cot(t/2)} \\
+\sim 1-i\cot(t/2)
 .\]
+
+Some analysis on cotangent:
+
+- $-\pi\increasesto 0 \leadsto 0\decreasesto -\infty$
+- $0\increasesto \pi \leadsto \infty\decreasesto 0$.
 
 
 In steps:
