@@ -192,7 +192,26 @@ Use $n$th roots of unity to show that
 - $\prod_k \exp(c_k) = \exp\qty{\sum_k c_k}$.
 :::
 
-:::{.solution}
+:::{.solution title="Newer"}
+\[
+\prod_{1\leq k \leq n-1} \sin\qty{k\pi\over n}
+&= \prod_{1\leq k \leq n-1} {\omega_n^k - \omega_n^{-k} \over 2i} \\
+&= \qty{1\over 2i}^{n-1} \prod_{1\leq k \leq n-1} \omega_n^{k} \qty{1 - \zeta_n^{-k}} \\
+&= \qty{1\over 2i}^{n-1} \prod_{1\leq k \leq n-1} \exp\qty{i\pi k\over n} \prod_{1\leq k \leq n-1} \qty{1 - \zeta_n^{-k}} \\
+&= \qty{1\over 2i}^{n-1} \exp\qty{ {i\pi\over n} \displaystyle\sum_{1\leq k \leq n-1} k } \prod_{1\leq k \leq n-1} \qty{1 - \zeta_n^{-k}} \\
+&= \qty{1\over 2i}^{n-1} e^{i\pi n(n-1)\over 2n} \prod_{1\leq k \leq n-1} \qty{1 - \zeta_n^{-k}} \\
+&= \qty{1\over 2}^{n-1}\qty{1\over i}^{n-1} \qty{ e^{i\pi \over 2} }^{n-1} \prod_{1\leq k \leq n-1} \qty{1 - \zeta_n^{-k}} \\
+&= 2^{1-n} \prod_{1\leq k \leq n-1} \qty{1 - \zeta_n^{-k}} \\
+&= 2^{1-n} \prod_{1\leq k \leq n-1} \qty{1 - \zeta_n^{k}} \\
+&= 2^{1-n}  { \Phi_n(z) \over z-1}\evalfrom_{z=1} \\
+&= 2^{1-n} \qty{ \sum_{0\leq k \leq n-1} z^k}\evalfrom_{z=1} \\
+&= n2^{1-n}
+.\]
+
+
+:::
+
+:::{.solution title="Older"}
 \[
 \prod_{1\leq j\leq n-1} 
 \sin \left(\frac{j \pi}{n}\right)
@@ -211,4 +230,3 @@ Use $n$th roots of unity to show that
 .\]
 
 :::
-
