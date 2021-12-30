@@ -29,6 +29,28 @@ Find a conformal map from $D=\{z:|z|<1,|z-1 / 2|>1 / 2\}$ to the unit disk $\Del
 
 
 :::{.solution}
+This is a lune-type region:
+
+![](figures/2021-12-30_02-25-54.png)
+
+The usual strategy is to blow up the tangency, so send $1\to\infty$ with
+\[
+f(z) \da {1\over z-1}
+.\]
+
+Write $C_1$ for $S^1$ and $C_2$ for the smaller circle.
+Computing the image of $C_1$: parameterize as $\gamma_1(t) = e^{it}$ for $t\in [-\pi, \pi]$, then
+\[
+f(\gmmaa(t)) 
+&= {1\over e^{it} - 1} \\
+&= {e^{-it/2} \over e^{it/2} - e^{-it/2}} \\
+&= {e^{-it/2} \over 2i\sin(t/2) } \\
+&= -{i\over 2}\csc(t/2)\qty{\cos(t/2) + i\sin(t/2)} \\
+&= -{i\over 2}\qty{\cot(t/2) + i } \\
+&= {1\over 2}\qty{1-i\cot(t/2)}
+.\]
+
+
 In steps:
 :::
 
