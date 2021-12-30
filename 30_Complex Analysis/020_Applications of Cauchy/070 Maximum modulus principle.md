@@ -9,8 +9,8 @@ If $\Omega$ is a bounded connected domain with $f$ continuous on $\Omega$ and $\
 
 :::{.theorem title="Minimum modulus principle"}
 Suppose  $f$ is holomorphic and nonvanishing on $\Omega$.
-If any interior point $z_0\in \Omega^\circ$ is a relative minimum for $f$, then $f$ is constant
-
+If any interior point $z_0\in \Omega^\circ$ is a relative minimum for $f$, then $f$ is constant.
+If $f$ is nonconstant, then the minimum must occur on $\bd\Omega$.
 :::
 
 :::{.proof title="?"}
