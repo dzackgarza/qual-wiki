@@ -7,6 +7,8 @@ order: 105
 
 ## Fall 2019.5 #complex/qual/completed
 
+> Also in Tie's extra questions: Fall 2009, Fall 2011, Spring 2014, Spring 2015
+
 ^043381
 
 :::{.problem title="?"}
@@ -402,22 +404,6 @@ d. There exist $\alpha\in \RR, \beta \in \CC\setminus \RR$ such that $T(\alpha) 
 ## 13 #complex/exercise/work
 Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$ to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
-## Tie's Extra Questions: Fall 2009 #complex/exercise/work
-
-Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
-to the unit disk $\Delta=\{z: \ |z|<1\}$.
-
-## Tie's Extra Questions: Fall 2011 #complex/exercise/work
-
-
-Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
-to the unit disk $\Delta=\{z: \ |z|<1\}$.
-
-## Tie's Extra Questions: Spring 2014 #complex/exercise/work
-
-
-Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$
-to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
@@ -439,25 +425,12 @@ Find a conformal map
     $\mathbb H$.
 		
 		
-## Tie's Extra Questions: Spring 2015
+## Tie's Extra Questions: Spring 2015 #complex/exercise/work
+
 
 Prove that
 $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
 conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
-half plane ${\mathbb H}=\{z=x+iy:\ y>0\}$.
-
-## Tie's Extra Questions: Spring 2015 #complex/exercise/work
-
-
-Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
-with $|\alpha|<1$ and ${\mathbb D}=\{z:\ |z|<1\}$. 
-Prove that
-
-- $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}$.
-- $\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2} \log \frac{1}{1-|\alpha|^2}}$.
-
-Prove that $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$
-is a conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
 half plane $\mathbb H=\{z=x+iy:\ y>0\}$.
 
 ## Tie's Extra Questions: Fall 2016 #complex/exercise/work
@@ -485,5 +458,19 @@ $ad-bc \neq 0$, $c \neq 0$ such that
 $\displaystyle f(z) = \frac{az + b}{cz + d}$.
 
 
+## Tie's Extra Questions: Spring 2015 #complex/exercise/work
+Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+with $|\alpha|<1$ and $\mathbb D = \{z:\ |z|<1\}$. 
+Prove that
+
+- a,
+\[
+\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}
+.\]
+
+- b,
+\[
+\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2} \log \frac{1}{1-|\alpha|^2}}
+.\]
 
 
