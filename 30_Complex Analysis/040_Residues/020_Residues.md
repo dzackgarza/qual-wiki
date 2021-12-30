@@ -87,6 +87,11 @@ Note that if $f(z) = 1/h(z)$ and $z_0$ is a simple pole, this reduces to
 
 :::
 
+:::{.warnings}
+Note that only the denominator gets differentiated, not the numerator!
+To remember this, just rederive the equation from L'Hopital's rule and use the product rule on $(z-z_0)g(z)$.
+:::
+
 :::{.proof title="Of derivative formula for simple poles"}
 Apply L'Hopital:
 \[
