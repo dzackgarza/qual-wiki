@@ -19,7 +19,7 @@ to $\mathbb{H}$.
 :::
 
 
-## Fall 2019.5 #complex/qual/work
+## Fall 2019.5 #complex/qual/completed
 
 ^043381
 
@@ -100,7 +100,6 @@ In steps:
 - Apply the Cayley map $z\mapsto {z-i\over z+i}$ to map $\HH\to\DD$.
 
 :::
-
 
 ## Spring 2020.5 #complex/qual/completed
 
