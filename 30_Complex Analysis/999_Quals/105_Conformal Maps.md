@@ -47,8 +47,8 @@ f(\gamma_1(t))
 &= {e^{-it/2} \over 2i\sin(t/2) } \\
 &= -{i\over 2}\csc(t/2)\qty{\cos(t/2) - i\sin(t/2)} \\
 &= -{i\over 2}\qty{\cot(t/2) - i } \\
-&= {1\over 2}\qty{1-i\cot(t/2)} \\
-&= {1\over 2} - i\cdot {1\over 2}\cot(t/2)
+&= {1\over 2}\qty{-1-i\cot(t/2)} \\
+&= -{1\over 2} - i\cdot {1\over 2}\cot(t/2)
 .\]
 
 Some analysis on $\cot(t/2)$:
@@ -61,7 +61,7 @@ Thus for $-\cot(t/2)$,
 - $-\pi\increasesto 0 \leadsto 0\increasesto \infty$ 
 - $0\increasesto \pi \leadsto -\infty\increasesto 0$ 
 
-So the image is a vertical line through $\Re(z) = 1$ oriented from $-\infty\to\infty$.
+So the image is a vertical line through $\Re(z) = -{1\over 2}$ oriented from $-\infty\to\infty$.
 
 For the image of $C_2$: parameterize as $\gamma_2(t) = {1\over 2}\qty{1 + e^{it}}$, then
 \[
@@ -74,10 +74,12 @@ f(\gamma_2(t))
 &= -i\csc(t/2) \qty{\cos(-t/2) + i\sin(-t/2) } \\
 &= -i\csc(t/2) \qty{\cos(t/2) - i\sin(t/2) } \\
 &= -i \qty{\cot(t/2) - i } \\
-&= 1 - i\cot(t/2)
+&= -1 - i\cot(t/2)
 .\]
+By the same argument as above, this traces out a vertical line at $\Re(z) = -1$.
 
-In steps:
+By handedness, since the original region is on the left with respect to $C_1$ and the right with respect to $C_2$, the new region is to the left of $\Re(z) = -{1\over 2}$ and the right of $\Re(z) = -1$ (since both are oriented from $-\infty$ to $\infty$).
+
 :::
 
 
