@@ -1,8 +1,16 @@
 # Maximum modulus principle
 
 :::{.theorem title="Maximum modulus principle"}
-If $f$ has a relative maximum at $z_0$, then $f$ is constant in a neighborhood of $z_0$.
+Suppose $f$ is holomorphic on $\Omega$.
+If $f$ has a relative maximum at $z_0\in\Omega$, then $f$ is constant in a neighborhood of $z_0$.
 If $\Omega$ is a bounded connected domain with $f$ continuous on $\Omega$ and $\bd \Omega$, then either $f$ is constant or $M \da \max_{z\in \Omega}\abs{f(z)}$ is only attained by some $z\in \bd\Omega$.
+:::
+
+
+:::{.theorem title="Minimum modulus principle"}
+Suppose  $f$ is holomorphic and nonvanishing on $\Omega$.
+If any interior point $z_0\in \Omega^\circ$ is a relative minimum for $f$, then $f$ is constant
+
 :::
 
 :::{.proof title="?"}
@@ -11,7 +19,7 @@ If $f(z) = 0$ for some $z\in \bd G$, we're done, so suppose $f\neq 0$ on $\bar G
 Then $1/f$ is holomorphic on $G$ and continuous on $\bar G$, so $\max_{z\in \bar G}\abs{1/f(z)} = \max_{z\in \bd G} \abs{1/f(z)}$.
 :::
 
-## Exercises
+# Exercises
 
 :::{.exercise title="SS 3.2.15"}
 Suppose $f$ is continuous and nonzero on $\bar\DD$ and holomorphic on $\DD$.
