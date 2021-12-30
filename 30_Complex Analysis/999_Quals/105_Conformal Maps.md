@@ -48,7 +48,7 @@ f(\gamma_1(t))
 &= -{i\over 2}\csc(t/2)\qty{\cos(t/2) - i\sin(t/2)} \\
 &= -{i\over 2}\qty{\cot(t/2) - i } \\
 &= {1\over 2}\qty{1-i\cot(t/2)} \\
-&= {1\over 2} - {1\over 2}\cot(t/2)
+&= {1\over 2} - i\cdot {1\over 2}\cot(t/2)
 .\]
 
 Some analysis on $\cot(t/2)$:
@@ -68,7 +68,13 @@ For the image of $C_2$: parameterize as $\gamma_2(t) = {1\over 2}\qty{1 + e^{it}
 f(\gamma_2(t))
 &= {1\over {1\over 2}\qty{1+e^{it}} - 1 } \\
 &= {1\over -{1\over 2} + {1\over 2}e^{it} } \\
-&= {1\over {1\over 2}\qty{e^{it} - 1}}
+&= {1\over {1\over 2}\qty{e^{it} - 1}} \\
+&= {2e^{-it/2} \over e^{it/2} - e^{-it/2} } \\
+&= {2e^{-it/2} \over 2i\sin(t/2) } \\
+&= -i\csc(t/2) \qty{\cos(-t/2) + i\sin(-t/2) } \\
+&= -i\csc(t/2) \qty{\cos(t/2) - i\sin(t/2) } \\
+&= -i \qty{\cot(t/2) - i } \\
+&= 1 - i\cot(t/2)
 .\]
 
 In steps:
