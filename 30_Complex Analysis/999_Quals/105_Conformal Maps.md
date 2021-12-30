@@ -427,7 +427,6 @@ Find a conformal map
 		
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
-
 Prove that
 $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
 conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
