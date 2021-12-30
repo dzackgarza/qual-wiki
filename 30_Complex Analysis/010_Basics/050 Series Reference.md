@@ -4,7 +4,6 @@ order: 50
 
 # Reference Info for Series 
 
-
 :::{.fact title="Convenient notation"}
 Define $\rising{n}{k}$ to be the **rising factorial**
 \[
@@ -76,7 +75,9 @@ e^z &= \sum_{k\geq 0} {z^k \over k!} \\
   &= 1 + (1/2)z + {(1/2)(-1/2) \over 2!}z^2 + {(1/2)(-1/2)(-3/2) \over 3!}z^3 + \cdots \\
   &= 1 + {1\over 2}z - {1\over 8}z^2 + {1\over 16}z^3 - \cdots \\
 (1+z)^{\alpha} 
-  &= \sum_{k\geq 0} {\alpha \choose k}z^k,\qquad \abs{z} < 1
+  &= \sum_{k\geq 0} {\alpha \choose k}z^k,\qquad \abs{z} < 1 \\
+{1\over 1+z^n} 
+  &= \sum_{k\geq 0} {n+k-1 \choose k} (-z)^k, \qquad \abs{z} < 1
 \]
 
 Some other classes of series to remember:
