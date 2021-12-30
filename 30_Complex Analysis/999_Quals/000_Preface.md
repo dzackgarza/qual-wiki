@@ -46,7 +46,7 @@ Included years:
 
 ## Fall 2021
 
-[Fall 2021](https://www.math.uga.edu/sites/default/files/inline-files/Complex_Qual_Fall2021.pdf)
+- [x] [Fall 2021](https://www.math.uga.edu/sites/default/files/inline-files/Complex_Qual_Fall2021.pdf)
 
 - [x] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^b9b6b4]]
 - [x] [[30_Complex Analysis/999_Quals/070_Morera#^a550c1]]
@@ -54,7 +54,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/005 Function Convergence#^b0c999]]
 - [x] [[30_Complex Analysis/999_Quals/200_Schwarz#^ee1748]]
 - [x] [[30_Complex Analysis/999_Quals/200_Schwarz#^33ab95]]
-- [ ] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^efdbde]]
+- [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^efdbde]]
 
 ## Spring 2021
 
@@ -66,7 +66,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/051_Polynomials#^c3336f]]
 - [x] [[30_Complex Analysis/999_Quals/200_Schwarz#^14ad86]]
 - [x] [[30_Complex Analysis/999_Quals/005 Function Convergence#^c94b57]]
-- [ ] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^644ace]]
+- [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^644ace]]
 
 ## Fall 2020
 
