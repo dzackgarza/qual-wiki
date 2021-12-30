@@ -84,7 +84,7 @@ One can also conclude this by handedness: the original region is on the right wi
 :::
 
 
-## Spring 2021.7 #complex/qual/work
+## Spring 2021.7 #complex/qual/completed
 
 ^644ace
 
@@ -107,6 +107,19 @@ E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
 - So $z\to 1/z$ maps the region into a half-strip.
 
 :::
+
+:::{.solution}
+Similar to a previous problem, just keeping track of the slit:
+
+![](figures/2021-12-30_01-50-56.png)
+
+In steps:
+
+- Send $0\to\infty$ with $z\mapsto 1/z$ to map $R$ to $0 < \Re(z) < 1$.
+- Rotate by $z\mapsto iz$ to get $0<\Im(z) < 1$
+- Dilate by $\pi$ and exponentiate using $z\mapsto e^{\pi z}$ to map this to $0 < \Im(z) < \pi$ and then to $\HH$.
+:::
+
 
 ## Fall 2020.5 #complex/qual/work
 
