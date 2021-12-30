@@ -30,6 +30,23 @@ First note that by the maximum modulus principal, it suffices to consider sups o
 M_R = \sup_{\abs{z} = R}\abs{f(z)}, \qquad N_R = \sup_{\abs{z} = R} \abs{f'(z)}
 .\]
 
+
+The second estimate: note that $M_R \leq M_{R'}$ whenever $R'>R$, since $\ts{\abs{z} \leq R} \subseteq \ts{\abs{z} \leq R'}$.
+So apply Cauchy's formula to $\gamma\da \ts{ \abs{z}=R}$ for the first derivative.
+Suppose 
+Suppose $z_0 \in \DD_R(0)$, then any $D_R(z_0)$ is contained in $D_{2R}(0)$.
+So for any such $z_0$, apply Cauchy's integral formula centered at $z_0$:
+\[
+f^{(1)}(z_0) &= {1\over 2\pi i }\oint_{\bd\DD_{R}(z_0)} {f(\xi)\over (\xi-z_0)^2 }\dxi \\
+\implies 
+\abs{ f^{(1)}(z_0)} 
+&\leq {1\over 2\pi} \oint_{\bd\DD_{R}(z_0)} \abs{f(\xi)\over (\xi-z_0)^2 }\dxi \\
+&= {1\over 2\pi} \oint_{\bd\DD_R(z_0)} { \abs{f(\xi)} \over \abs{\xi-z_0}^2 } \dxi \\
+&= {1\over 2\pi} \oint_{\bd\DD_R(z_0)} { \abs{f(\xi)} \over R^2 } \dxi \\
+&\leq {1\over 2\pi} \oint_{\bd\DD_R(z_0)} { \sup_{z\in \bd\DD_{R}(z_0) } \abs{f(z)} \over R^2 } \dxi \\
+&= {1\over 2\pi} R^{-2} \sup_{} \abs{f(z)} \cdot 2\pi R
+.\]
+
 :::
 
 
