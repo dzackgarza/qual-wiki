@@ -2,7 +2,7 @@
 order: 50
 ---
 
-# Reference Info for Series 
+# Series: Reference
 
 :::{.fact title="Convenient notation"}
 Define $\rising{n}{k}$ to be the **rising factorial**

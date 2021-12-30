@@ -2,7 +2,7 @@
 order: 51
 ---
 
-# Series Exercises
+# Series: Exercises
 
 ## Analytic Properties of Series
 
