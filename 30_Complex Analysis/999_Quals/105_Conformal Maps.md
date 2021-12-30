@@ -56,7 +56,7 @@ Find a conformal map from $R$ to $\HH$ the upper half-plane.
 - Blow up the point of tangency: inverting through a circle sends inner circles to lines, fixes the real line, and preserves regions between curves. 
 E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
 
-![[attachments/Circle Inversion.gif]]
+![attachments/Circle Inversion.gif](attachments/Circle%20Inversion.gif)
 
 - So $z\to 1/z$ maps the region into a half-strip.
 
@@ -97,7 +97,7 @@ The region:
 
 Note that you can find that $i, -i$ are the intersection points by noting that $i\RR$ is the perpendicular bisector through the line segment connecting the centers of the circles, then expanding $\abs{z-1}^2 = (x-1)^2 + y^2 = 2$ and setting $x=0$ to get $y=\pm i$.
 
-First rotate this by $-\pi/2$:
+First rotate this by $\pi/2$:
 
 ![](figures/2021-12-29_22-18-07.png)
 
