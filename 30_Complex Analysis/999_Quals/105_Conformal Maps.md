@@ -112,7 +112,7 @@ f(ic)
 &= {ic+1\over ic-1} \\
 &= {(1+ic)^2 \over c^2 + 1} \\
 &= {-1 + c^2 - 2ic \over c^2 + 1} \\
-&= {-1+c^2 \over 1+c^2} -i {2c\over 1+c^2}
+&= {c^2-1 \over c^2+1} -i {2c\over c^2+1}
 ,\]
 so
 \[
@@ -134,8 +134,6 @@ f(-ic) = {c^2-1\over c^2+1} + i{2\over c^2+1} \in Q_1
 and $(-1, -ic, 1)\mapsto (0, f(-ic), \infty)$, so $f(C_2)$ is oriented from $Q_3$ to $Q_1$.
 
 Since the origin region was to the left of the curves, it remains to the left, so the resulting region is $\ts{z\st 3\pi/4 < \Arg(z) < 5\pi/4}$.
-
-
 
 :::
 
