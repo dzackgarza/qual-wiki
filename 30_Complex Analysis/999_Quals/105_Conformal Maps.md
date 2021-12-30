@@ -9,11 +9,14 @@ order: 105
 
 ^5c3979
 
+:::{.problem title="?"}
 Find a conformal map from 
 \[
 \ts{ z\st  \abs{z -1 / 2} >1 / 2, \Re(z)>0 }
 \]
 to $\mathbb{H}$.
+
+:::
 
 ## Fall 2019.5 #complex/qual/work
 
@@ -22,7 +25,6 @@ to $\mathbb{H}$.
 :::{.problem title="?"}
 Find a conformal map from $D=\{z:|z|<1,|z-1 / 2|>1 / 2\}$ to the unit disk $\Delta=\{z:|z|<1\} .$.
 :::
-
 
 ## Spring 2020.5 #complex/qual/work
 
@@ -35,7 +37,6 @@ Find a conformal map that maps the region
 \]
 to the upper half plane.
 :::
-
 
 ## Spring 2021.7 #complex/qual/work
 
@@ -65,6 +66,7 @@ E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
 
 ^931c0a
 
+:::{.problem title="?"}
 Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \mathbb{C} \backslash\{0\}$. Let $\mathbb{D}$ denote the open unit disc.
 
 - Show that $f$ is one-to-one on the punctured disc $\mathbb{D} \backslash\{0\}$. What is the image of the circle $|z|=r$ under this map when $0<r<1$ ?
@@ -73,7 +75,9 @@ Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \m
 
 - Show that there exists a map $g: \mathbb{C} \backslash[-1,1] \rightarrow \mathbb{D} \backslash\{0\}$ such that $(g \circ f)(z)=z$ for all $z \in \mathbb{D} \backslash\{0\}$. Describe the map $g$ by an explicit formula.
 
-## Fall 2021.7 #complex/qual/work
+:::
+
+## Fall 2021.7 #complex/qual/completed
 
 ^efdbde
 
@@ -81,12 +85,10 @@ Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \m
 Find a conformal map from the intersection of $|z-1|<2$ and $|z+1|<2$ to the upper half plane.
 :::
 
-
 :::{.warnings}
 DZG: I'm 90% sure this is meant to be $\abs{z-1}, \abs{z+1} < \sqrt{2}$ or $\abs{z-1}^2,\abs{z+1}^2 < 2$.
 Otherwise computing the argument of the resulting lines is tricky...
 :::
-
 
 :::{.solution}
 The region:
@@ -99,7 +101,8 @@ First rotate this by $-\pi/2$:
 
 ![](figures/2021-12-29_22-18-07.png)
 
-Now this is a standard exercise: send $-1\to 0, 1\to \infty$ by taking
+Call the upper circle $C_1$ and the lower $C_2$.
+Send $-1\to 0, 1\to \infty$ by taking
 \[
 f(z) \da {z+1\over z-1}
 .\]
@@ -135,10 +138,16 @@ and $(-1, -ic, 1)\mapsto (0, f(-ic), \infty)$, so $f(C_2)$ is oriented from $Q_3
 
 Since the origin region was to the left of the curves, it remains to the left, so the resulting region is $\ts{z\st 3\pi/4 < \Arg(z) < 5\pi/4}$:
 
-
 ![](figures/2021-12-29_23-12-17.png)
 
+From here, it's a standard exercise, so to sum up:
 
+- Rotate $R\to \tilde R$ by $z\mapsto iz$ to get a horizontal lune with intersection points $\pm 1$.
+- Send $-1\to \infty, 1\to 0$ by $z\mapsto {z+1\over z-1}$ to send $\tilde R \to 3\pi/4 < \Arg(z) < 5\pi/4$.
+- Reflect by $z\mapsto -z$ to get $-\pi/4 < \Arg(z) < \pi/4$.
+- "Open" by $z\mapsto z^{\pi \over 2 \theta_0}$ to map to $-\pi/2<\Arg(z) < \pi/2$, where here $\theta_0 \da {\pi \over 4}$.
+- Rotate by $z\mapsto iz$ to get $0 < \Arg(z) < {\pi \over 2}$, i.e. $\HH$.
+- Use the Cayley map $z\mapsto {z-i\over z+i}$ to send $\HH\to \DD$.
 
 :::
 
@@ -302,7 +311,7 @@ Find a conformal map
     $\mathbb H$.
 		
 		
-		## Tie's Extra Questions: Spring 2015
+## Tie's Extra Questions: Spring 2015
 
 Prove that
 $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
