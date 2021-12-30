@@ -81,6 +81,28 @@ Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \m
 Find a conformal map from the intersection of $|z-1|<2$ and $|z+1|<2$ to the upper half plane.
 :::
 
+
+:::{.warnings}
+DZG: I'm 90% sure this is meant to be $\abs{z-1}, \abs{z+1} < \sqrt{2}$ or $\abs{z-1}^2,\abs{z+1}^2 < 2$.
+Otherwise computing the argument of the resulting lines is tricky...
+:::
+
+
+:::{.solution}
+The region:
+
+![](figures/2021-12-29_22-11-00.png)
+
+Note that you can find that $i, -i$ are the intersection points by noting that $i\RR$ is the perpendicular bisector through the line segment connecting the centers of the circles, then expanding $\abs{z-1}^2 = (x-1)^2 + y^2 = 2$ and setting $x=0$ to get $y=\pm i$.
+
+First rotate this by $-\pi/2$:
+
+![](figures/2021-12-29_22-18-07.png)
+
+
+:::
+
+
 ## Lune #complex/exercise/completed
 
 :::{.problem title="?"}
