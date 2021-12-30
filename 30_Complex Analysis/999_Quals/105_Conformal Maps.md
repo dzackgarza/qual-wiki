@@ -5,9 +5,7 @@ order: 105
 
 # Conformal Maps 
 
-## Fall 2019.5 #complex/qual/completed
-
-> Also in Tie's extra questions: Fall 2009, Fall 2011, Spring 2014, Spring 2015
+## Fall 2019.5, Tie's extra questions: Fall 2009, Fall 2011, Spring 2014, Spring 2015 #complex/qual/completed
 
 ^043381
 

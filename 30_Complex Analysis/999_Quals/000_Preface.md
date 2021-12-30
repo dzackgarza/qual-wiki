@@ -74,7 +74,7 @@ Included years:
 
 - [x] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^b9b6b4]]
 - [ ] [[30_Complex Analysis/999_Quals/006 Series Convergence#^c47851]]
-- [ ] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^590fc7]]
+- [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
 - [ ] [[30_Complex Analysis/999_Quals/200_Schwarz#^0f90ac]]
 - [ ] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^931c0a]]
 - [ ] [[30_Complex Analysis/999_Quals/040_Maximum_Modulus#^189826]]
@@ -109,7 +109,7 @@ Included years:
 [Spring 2019](https://www.math.uga.edu/sites/default/files/ComplexQual_Sp19.pdf)
 
 - [ ] [[30_Complex Analysis/999_Quals/001_Real_Review#^0a8ca5]]
-- [ ] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
+- [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
 - [ ] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^c8872d]]
 - [ ] [[30_Complex Analysis/999_Quals/051_Polynomials#^047423]]
 - [ ] [[30_Complex Analysis/999_Quals/200_Schwarz#^5d5430]]

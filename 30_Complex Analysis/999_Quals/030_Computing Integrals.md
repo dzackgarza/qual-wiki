@@ -224,8 +224,6 @@ using complex analysis, $0< a < n$. Here $n$ is a positive integer.
 
 ### Fall 2020.3, Spring 2019.2 #complex/qual/completed
 
-^590fc7
-
 ^5fa654
 
 :::{.problem title="?"}
