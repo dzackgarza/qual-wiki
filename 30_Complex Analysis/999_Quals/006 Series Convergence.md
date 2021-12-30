@@ -8,11 +8,42 @@ order: 6
 
 ^c47851
 
+
+:::{.problem title="?"}
 Expand $\frac{1}{1-z^{2}}+\frac{1}{z-3}$ in a series of the form $\sum_{-\infty}^{\infty} a_{n} z^{n}$ so it converges for
 
 - $|z|<1$,
+
 - $1<|z|<3$,
+
 - $|z|>3$.
+
+:::
+
+
+:::{.solution}
+General strategy: each has two expansions, so just compute them all and pick appropriate ones for regions afterwards.
+
+For $1\over z-3$:
+\[
+{1\over z-3} &= -{1\over 3}{1\over {z\over 3}} = -{1\over 3}\sum_{k\geq 0}3^{-k}z^k 
+&& \abs{z} < 3 \\
+&= {1\over z} {1\over 1 - {3\over z}} = z\inv \sum_{k\geq 0} 3^k z^{-k}
+&& \abs{z} > 3
+.\]
+
+For $1\over 1-z^2$:
+\[
+{1\over 1-z^2}
+&= \sum_{k\geq 0} z^{2k} && \abs{z} < 1 \\
+&= {1\over z^2} {-1\over 1- z^{-2}} = z^{-2}\sum_{k\geq 0}z^{-k} && \abs{z} > 1
+.\]
+
+
+
+
+:::
+
 
 ## Spring 2020 HW 2.2 #complex/qual/completed
 
@@ -48,8 +79,7 @@ where we've integrated over a curve contained in $D$ the disc of convergence, an
 :::
 
 
-
-## Fall 2015, Spring 2020 HW2: Ratio Test #complex/qual/work 
+## Fall 2015, Spring 2020 HW 2, Ratio Test #complex/qual/work 
 
 :::{.problem title="?"}
 Let $a_n\neq 0$ and show that
