@@ -5,20 +5,6 @@ order: 105
 
 # Conformal Maps 
 
-## Spring 2019.6 #complex/qual/work
-
-^5c3979
-
-:::{.problem title="?"}
-Find a conformal map from 
-\[
-\ts{ z\st  \abs{z -1 / 2} >1 / 2, \Re(z)>0 }
-\]
-to $\mathbb{H}$.
-
-:::
-
-
 ## Fall 2019.5 #complex/qual/completed
 
 ^043381
@@ -105,12 +91,23 @@ In steps:
 
 ^0df993
 
-:::{.problem title="?"}
+:::{.problem title="Spring 2020.5"}
 Find a conformal map that maps the region 
 \[
 R = \ts{z \st \Re(z) > 0,\, \abs{z - {1\over 2} }> {1\over 2} }
 \]
 to the upper half plane.
+:::
+
+^5c3979
+
+:::{.problem title="Spring 2019.6"}
+Find a conformal map from 
+\[
+\ts{ z\st  \abs{z -1 / 2} >1 / 2, \Re(z)>0 }
+\]
+to $\mathbb{H}$.
+
 :::
 
 :::{.solution}
@@ -157,7 +154,6 @@ That the region outside the disc is mapped to the strip shown: points $x\in \RR$
 One can also conclude this by handedness: the original region is on the right with respect to $C_1$ and also on the right with respect to $i\RR$, so the new region should be on the right with respect to both $f(i\RR)$ and $f(C_1)$ with their induced orientations.
 :::
 
-
 ## Spring 2021.7 #complex/qual/completed
 
 ^644ace
@@ -194,21 +190,6 @@ In steps:
 - Dilate by $\pi$ and exponentiate using $z\mapsto e^{\pi z}$ to map this to $0 < \Im(z) < \pi$ and then to $\HH$.
 :::
 
-
-## Fall 2020.5 #complex/qual/work
-
-^931c0a
-
-:::{.problem title="?"}
-Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \mathbb{C} \backslash\{0\}$. Let $\mathbb{D}$ denote the open unit disc.
-
-- Show that $f$ is one-to-one on the punctured disc $\mathbb{D} \backslash\{0\}$. What is the image of the circle $|z|=r$ under this map when $0<r<1$ ?
-
-- Show that $f$ is one-to-one on the domain $\mathbb{C} \backslash \mathbb{D}$. What is the image of this domain under this map?
-
-- Show that there exists a map $g: \mathbb{C} \backslash[-1,1] \rightarrow \mathbb{D} \backslash\{0\}$ such that $(g \circ f)(z)=z$ for all $z \in \mathbb{D} \backslash\{0\}$. Describe the map $g$ by an explicit formula.
-
-:::
 
 ## Fall 2021.7 #complex/qual/completed
 
@@ -354,6 +335,21 @@ The orientation is found from $1,0,z_0 \mapsto \infty, 0, f(z_0)$, which is $Q_3
 
 Intersecting the regions that are to the left of each image curve yields $5\pi/6 < \Arg(z) < 7\pi/6$, and composing with $z\mapsto -z$ yields $-\pi/6 < \Arg(z) < \pi/6$.
 :::
+
+:::
+
+## Fall 2020.5, Spring 2019.6 #complex/qual/work
+
+^931c0a
+
+:::{.problem title="?"}
+Consider the function $f(z)=\frac{1}{2}\left(z+\frac{1}{z}\right)$ for $z \in \mathbb{C} \backslash\{0\}$. Let $\mathbb{D}$ denote the open unit disc.
+
+- Show that $f$ is one-to-one on the punctured disc $\mathbb{D} \backslash\{0\}$. What is the image of the circle $|z|=r$ under this map when $0<r<1$ ?
+
+- Show that $f$ is one-to-one on the domain $\mathbb{C} \backslash \mathbb{D}$. What is the image of this domain under this map?
+
+- Show that there exists a map $g: \mathbb{C} \backslash[-1,1] \rightarrow \mathbb{D} \backslash\{0\}$ such that $(g \circ f)(z)=z$ for all $z \in \mathbb{D} \backslash\{0\}$. Describe the map $g$ by an explicit formula.
 
 :::
 
