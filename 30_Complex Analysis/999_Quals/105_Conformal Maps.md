@@ -27,7 +27,6 @@ to $\mathbb{H}$.
 Find a conformal map from $D=\{z:|z|<1,|z-1 / 2|>1 / 2\}$ to the unit disk $\Delta=\{z:|z|<1\}$.
 :::
 
-
 :::{.solution}
 This is a lune-type region:
 
@@ -38,6 +37,14 @@ The usual strategy is to blow up the tangency, so send $1\to\infty$ with
 f(z) \da {1\over z-1}
 .\]
 
+:::{.claim}
+$f$ has the following effect:
+
+![](figures/2021-12-30_03-27-22.png)
+
+:::
+
+:::{.proof title="of claim"}
 Write $C_1$ for $S^1$ and $C_2$ for the smaller circle.
 Computing the image of $C_1$: parameterize as $\gamma_1(t) = e^{it}$ for $t\in [-\pi, \pi]$, then
 \[
@@ -79,6 +86,8 @@ f(\gamma_2(t))
 By the same argument as above, this traces out a vertical line at $\Re(z) = -1$.
 
 By handedness, since the original region is on the left with respect to $C_1$ and the right with respect to $C_2$, the new region is to the left of $\Re(z) = -{1\over 2}$ and the right of $\Re(z) = -1$ (since both are oriented from $-\infty$ to $\infty$).
+
+:::
 
 From here, it's a standard exercise.
 In steps:
