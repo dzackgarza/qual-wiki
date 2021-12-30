@@ -218,10 +218,11 @@ This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (
 
 ## Joukowski-type Maps
 
-
 :::{.remark}
 
 ![](figures/2021-12-29_03-07-40.png)
+
+![](figures/2021-12-29_23-56-30.png)
 
 :::
 
