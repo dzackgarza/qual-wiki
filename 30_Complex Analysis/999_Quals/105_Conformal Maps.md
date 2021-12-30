@@ -93,6 +93,45 @@ R \da \ts{\abs{z - \lambda} < 1} \intersect \ts{\abs{z-\bar{\lambda}} < 1 } \too
 :::
 
 
+:::{.solution}
+The region looks like the following:
+
+![](figures/2021-12-29_19-19-01.png)
+
+Following the general strategy for lunar regions, send the intersection points to $0$ and $\infty$ to get triangular sector.
+So choose to send $0\to 0$ and $1\to \infty$ by taking
+\[
+f(z) \da {z\over z-1}
+.\]
+
+
+:::{.claim}
+\[
+f(R) = \ts{z\st -\theta_0 < \Arg(z) < \theta_0 },\qquad \theta_0 \da {\pi \over 6}
+.\]
+
+![](figures/2021-12-29_19-35-44.png)
+
+:::
+
+From here it is easy to map to the disc:
+
+- $z\mapsto {z\over z-1}$ sends $R$ to $\abs{\Arg(z)} < \theta_0$
+- $z\mapsto z^{\pi \over 2\theta_0}$ maps $\abs{\Arg(z)}<\theta_0 \to \abs{\Arg(z)} < {\pi \over 2}$, the right half-plane.
+- $z\mapsto iz$ rotates the right half-plane into $\HH$.
+- $z\mapsto {z-i\over z+i}$ maps $\HH\to \DD$.
+
+
+:::{.proof title="of claim"}
+
+:::
+
+
+
+:::
+
+
+
 
 ## 1 #complex/exercise/work
 Find a conformal map from $\DD$ to $\HH$.
