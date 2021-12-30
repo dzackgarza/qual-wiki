@@ -35,6 +35,21 @@ So for any $z_0, z\in \DD_R(0)$ and any path $\gamma$ from $z_0$ to $z$,
 \[
 \int_{\gamma} f'(\xi)\dxi = f(z) - f(z_0),\qquad \gamma(0) = z_0,\, \gamma(1) = z
 .\]
+So take a path $\gamma$ from $z_0=0$ to $z$, we can then estimate
+\[
+\abs{f(z)} 
+&= \abs{\int_\gamma f'(\xi) \dxi - f(0)} \\
+&\leq \int_{\gamma}\abs{f'(\xi)}\dxi + \abs{f(0)} \\
+&\leq \sup_{\xi\in \gamma}\abs{f'(\xi)} \length(\gamma) + \abs{f(0)} \\
+&\leq N_R\cdot\abs{z} + M_R \\
+&\leq N_R\cdot R + M_R \\
+,\]
+thus
+\[
+M_R \leq R N_R + M_R
+.\]
+
+
 
 
 The second estimate:
