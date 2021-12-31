@@ -80,6 +80,12 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 Find a fractional linear transformation $T$ which maps $\HH$ to $\DD$, and explicitly describe the image of the first quadrant under $T$.
 :::
 
+
+:::{.solution}
+
+:::
+
+
 ### $\DD\to\HH$ #complex/exercise/completed
 
 :::{.exercise title="Disc to upper half-plane"}
