@@ -358,6 +358,7 @@ Show that there exists a map $g: \mathbb{C} \backslash[-1,1] \rightarrow \mathbb
 
 
 :::{.solution}
+**Part a**:
 That $f: \CC\smz\to \DD\smz$ is injective: compute the derivative as
 \[
 f'(z) = {1\over 2}\qty{1 - {1\over z^2}}
@@ -377,8 +378,10 @@ f(\gamma(t))
 &\da H_R \cos(t) + iV_R\sin(t)
 ,\]
 which is generally the equation of an ellipse of horizontal radius $H_R$ and vertical radius $V_R$.
-For $R=1$, $V_R = 0$, so the image is $[-1, 1]$
+For $R=1$, $V_R = 0$, so the image is $[-1, 1]$.
+For $0<R<1$, these are ellipses that sweep out vertical radii from 0 to $\infty$.
 
+**Part b**:
 
 :::
 
