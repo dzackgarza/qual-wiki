@@ -255,6 +255,31 @@ In steps:
 
 :::
 
+## Joukowski-Type Regions
+
+
+:::{.exercise title="Complement of a segment"}
+Map $\CC\sm[-1, 1]$ to $\DD$.
+
+#complex/exercise/completed
+
+:::
+
+
+:::{.solution}
+\envlist
+
+- Send $-1\to 0$ and $1\to \infty$ with $z\mapsto {z+1\over z-1}$.
+  Checking that $f(0) = -1$, this yields $\CC\sm\RR_{\leq 0}$.
+
+- Unwrap with $z\mapsto \sqrt{z}$ to obtain the right half-plane $-\pi/2<\Arg(z) < \pi/2$.
+- Apply the rotated Cayley map $z\mapsto {z-1\over z+1}$ to map this to $\DD$.
+
+Note that the composition is $z\mapsto {1\over 2}\qty{z+{1\over z}}$.
+:::
+
+
+
 ## Misc
 
 :::{.exercise title="?"}
@@ -320,3 +345,27 @@ Conclusion:
 - $i\RR \to \ts{\abs{z-{1\over 2}} = {1\over 2} }$ by $z\to {1\over 1+z}$.
 - The reverse map: $w\mapsto {1-w\over w}$.
 :::
+
+:::{.exercise title="?"}
+Map $\DD^c \intersect \HH$ to $\HH$, sending 
+
+- $-1\to -1$
+- $i\to 0$
+- $1\to 1$
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+
+![](figures/2021-12-10_17-13-43.png)
+
+Compose to get:
+\[
+ {1\over z}{z + z\inv}
+.\]
+
+:::
+
+
