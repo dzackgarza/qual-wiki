@@ -91,8 +91,44 @@ Note that
 so $\RR$ oriented from $-\infty\to\infty$ is sent to $S^1$ oriented counterclockwise.
 Since this is conformal, it preserves handedness -- noting that $\HH$ is on the left with respect to $\RR$, it gets mapped to the left of $S^1$ with its induced orientation, i.e. the interior of $\DD$.
 How to remember: $\abs{z-i}<\abs{z+i}$ in $\HH$, since points are closer to $i$ than $-i$.
+
+The image of the first quadrant: the claim is that this is $\DD \intersect Q_{34}$.
+Note that parameterizing seems hard!
+The naive idea would be to check the image of horizontal lines $t + ci$ for $c$ fixed heights and $t\in (0, \infty)$ the parameterization.
+Instead consider handedness and where sub-regions go:
+
+
+![](figures/2021-12-31_03-15-00.png)
+
 :::
 
+
+### $\DD\to\HH$, cross-ratio #complex/exercise/completed
+
+:::{.exercise title="Disc to upper half-plane, cross-ratio"}
+Find a conformal map $\DD \to \HH$ using cross-ratios.
+:::
+
+:::{.solution}
+Idea: rotate the upper hemisphere $(\HH)$ of $\CP^1$ to make the equator $\bd \DD$, "zoom" by placing $i$ at the center so $0\to i\mapsto -1\to 0$ and $i\to \infty\mapsto 0\to 1$.
+Accomplish this by sending
+
+- $\infty\to 1$
+- $i\to 0$
+- $-i\to \infty$
+
+Use the cross-ratio
+\[
+R(z) \da (z, \infty, i, -i) = {z-i \over z-(-i)} {\infty - (-i) \over \infty - i} = {z-i\over z+i}
+.\]
+
+Checking that this works:
+
+- If $z\in \RR$ then $\abs{z-i} = \abs{z+i}$ so $\abs(F(z)) = 1$.
+- If $z\in \HH$ then $\abs{z-i}\leq \abs{z+i}$ so $\abs{F(z)}< 1$.
+
+
+:::
 
 ### $\DD\to\HH$ #complex/exercise/completed
 
@@ -121,33 +157,6 @@ Write $z = x+iy$ and note that $\Im(iz) = \Re(z)$, then
 &> 0
 ,\]
 since $x^2+y^2<1$ for $x+iy \in \DD$.
-
-:::
-
-### $\DD\to\HH$, cross-ratio #complex/exercise/completed
-
-:::{.exercise title="Disc to upper half-plane, cross-ratio"}
-Find a conformal map $\DD \to \HH$ using cross-ratios.
-:::
-
-:::{.solution}
-Idea: rotate the upper hemisphere $(\HH)$ of $\CP^1$ to make the equator $\bd \DD$, "zoom" by placing $i$ at the center so $0\to i\mapsto -1\to 0$ and $i\to \infty\mapsto 0\to 1$.
-Accomplish this by sending
-
-- $\infty\to 1$
-- $i\to 0$
-- $-i\to \infty$
-
-Use the cross-ratio
-\[
-R(z) \da (z, \infty, i, -i) = {z-i \over z-(-i)} {\infty - (-i) \over \infty - i} = {z-i\over z+i}
-.\]
-
-Checking that this works:
-
-- If $z\in \RR$ then $\abs{z-i} = \abs{z+i}$ so $\abs(F(z)) = 1$.
-- If $z\in \HH$ then $\abs{z-i}\leq \abs{z+i}$ so $\abs{F(z)}< 1$.
-
 
 :::
 
