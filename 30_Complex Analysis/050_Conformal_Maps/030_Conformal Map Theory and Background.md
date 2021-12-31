@@ -55,8 +55,8 @@ R(z) \da (z, a,b,c) &\da {z - b\over z-c}{a - c\over a - c} \\
 Given any three points, $R(z)$ sends
 \[
 a &\to 1 \\
- &\to 0 \\
-z_4 &\to \infty
+b &\to 0 \\
+c &\to \infty
 .\]
 
 
