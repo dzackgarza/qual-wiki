@@ -97,11 +97,11 @@ Note that parameterizing seems hard!
 The naive idea would be to check the image of horizontal lines $t + ci$ for $c$ fixed heights and $t\in (0, \infty)$ the parameterization.
 Instead consider handedness and where sub-regions go:
 
-
 ![](figures/2021-12-31_03-15-00.png)
 
+Noting that $Q_1$ is the bigon enclosed by $0, \infty$, this maps to a bigon spanned by $-1, 1$.
+By handedness, since $Q_1$ is to the left of $\RR$, it gets mapped to the left of the image of $\RR_{>0}$, which is the lower half of the circle.
 :::
-
 
 ### $\DD\to\HH$, cross-ratio #complex/exercise/completed
 
