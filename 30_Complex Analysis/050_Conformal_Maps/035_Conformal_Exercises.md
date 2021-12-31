@@ -74,7 +74,26 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 
 ## Discs and Planes
 
-:::{.exercise title="Disc to half-plane"}
+:::{.exercise title="Disc to upper half-plane"}
+Find a conformal map from $\DD$ to $\HH$.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Note that the standard Cayley map $f(z)\da {z-i\over z+i}$ sends $\HH\to \DD$.
+Why this is true: $\abs{f(z)} < 1$, since $\abs{z-i} < \abs{z+i}$ for $z\in \HH$.
+Finding an explicit inverse:
+\[
+w &= {z-i\over z+i} \\
+\implies w(z+i) - (z-i) &= 0 \\
+\implies z &= -i {w+1\over w-1}
+,\]
+which is the desired map.
+:::
+
+:::{.exercise title="Disc to upper half-plane, cross-ratio"}
 Find a conformal map $\DD \to \HH$ using cross-ratios.
 
 #complex/exercise/completed
@@ -177,6 +196,27 @@ In steps:
 - $f_5$: fold it back. Branch cut log along $[0, \infty)$ to define $f_5(z) = z^{1\over 2}$, so the new domain is $\HH$.
 
 - $f_6$: apply the standard Cayley transform $f_6(z) = {i-z\over i+z}$
+:::
+
+## Strips
+
+### Horizontal strip to $\HH$ #complex/exercise/completed
+
+:::{.problem title="Horizontal strip to upper half-plane"}
+Find a conformal map from the strip $\theset{z\in \CC \suchthat 0 < \Im(z) < 1}$ to $\HH$.
+:::
+
+:::{.solution}
+In steps:
+
+- Dilate by $z\mapsto \pi z$ to get $0<\Im(z) < \pi$.
+- Exponentiate by $z\mapsto e^z$ to get $\HH$.
+
+Why $e^z$ works: apply $\Log$ to $\HH$, use polar coordinates to write $w=re^{i\theta}$ with $0<\theta<\pi$ and note
+\[
+\Log(w) = \ln\abs{w} +i\Arg(w) = \ln(r) + i\theta
+,\]
+and noting that the image of $\ln(\wait)$ is all of $\RR$.
 :::
 
 ## Lunes
