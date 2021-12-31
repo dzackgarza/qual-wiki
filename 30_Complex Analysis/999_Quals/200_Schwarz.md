@@ -5,7 +5,7 @@ title: "Schwarz Lemma"
 
 # Schwarz Lemma
 
-## Fall 2020.4 #complex/qual/completed
+## Fall 2020.4 #complex/qual/stuck
 
 ^0f90ac
 

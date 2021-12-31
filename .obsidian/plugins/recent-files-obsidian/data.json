@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "105_Conformal Maps",
+      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+    },
+    {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
     {
-      "basename": "105_Conformal Maps",
-      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+      "basename": "200_Schwarz",
+      "path": "30_Complex Analysis/999_Quals/200_Schwarz.md"
     },
     {
       "basename": "006 Series Convergence",
@@ -195,10 +199,6 @@
     {
       "basename": "40_Problems",
       "path": "10_Algebra/000_Resources/40_Problems.md"
-    },
-    {
-      "basename": "20_Books_Notes",
-      "path": "10_Algebra/000_Resources/20_Books_Notes.md"
     }
   ],
   "omittedPaths": [],

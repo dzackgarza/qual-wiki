@@ -4,10 +4,9 @@ order: 10
 
 # Complex Arithmetic
 
-## Spring 2019.3 #complex/qual/work
+## Spring 2019.3 #complex/qual/stuck
 
 ^c8872d
-
 
 :::{.problem title="?"}
 Let $R>0$. Suppose $f$ is holomorphic on $\ts{z\st \abs{z} < 3R}$. Let
@@ -23,33 +22,13 @@ Estimate $N_{R}$ in terms of $M_{2 R}$ from above.
 
 :::
 
-
 :::{.solution}
 First note that by the maximum modulus principal, it suffices to consider sups on the boundary, i.e.
 \[
 M_R = \sup_{\abs{z} = R}\abs{f(z)}, \qquad N_R = \sup_{\abs{z} = R} \abs{f'(z)}
 .\]
 
-The first estimate: since $f$ is holomorphic in $\abs{z} < 3R$, in the region $\abs{z} < R$. $f$ is a primitive for $f'$.
-So for any $z_0, z\in \DD_R(0)$ and any path $\gamma$ from $z_0$ to $z$,
-\[
-\int_{\gamma} f'(\xi)\dxi = f(z) - f(z_0),\qquad \gamma(0) = z_0,\, \gamma(1) = z
-.\]
-So take a path $\gamma$ from $z_0=0$ to $z$, we can then estimate
-\[
-\abs{f(z)} 
-&= \abs{\int_\gamma f'(\xi) \dxi - f(0)} \\
-&\leq \int_{\gamma}\abs{f'(\xi)}\dxi + \abs{f(0)} \\
-&\leq \sup_{\xi\in \gamma}\abs{f'(\xi)} \length(\gamma) + \abs{f(0)} \\
-&\leq N_R\cdot\abs{z} + M_R \\
-&\leq N_R\cdot R + M_R \\
-,\]
-thus
-\[
-M_R \leq R N_R + M_R
-.\]
-
-
+The first estimate: **stuck!**
 
 
 The second estimate:
@@ -80,8 +59,6 @@ N_R\da \sup_{\abs{z} \leq R}\abs{f'(z)}
 .\]
 
 :::
-
-
 
 ## Spring 2021.1 #complex/qual/completed
 
