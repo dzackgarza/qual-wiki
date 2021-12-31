@@ -365,6 +365,21 @@ f'(z) = {1\over 2}\qty{1 - {1\over z^2}}
 which only vanishes at $z=0$.
 Away from 0, $f'$ is nonzero and continuous, so by the inverse function theorem $f$ is a local homeomorphism onto its image, and in particular is injective.
 
+The images of circles: parameterize one as $\gamma(t) = Re^{it}$ for $t\in [-\pi, \pi]$.
+Then
+\[
+f(\gamma(t)) 
+&= {1\over 2}\qty{ Re^{it} + {1\over Re^{it}}} \\
+&= {1\over 2}\qty{Re^{it} + R\inv e^{-it} } \\
+&= {1\over 2}\qty{R\cos(t) + iR\sin(t) + R\inv\cos(-t) + iR\inv\sin(-t) } \\
+&= {1\over 2}\qty{R\cos(t) + iR\sin(t) + R\inv\cos(t) i iR\inv\sin(-t) } \\
+&= {1\over 2}\qty{R+R\inv}\cos(t) + i{1\over 2}\qty{R-R\inv}\sin(t)
+&\da H_R \cos(t) + iV_R\sin(t)
+,\]
+which is generally the equation of an ellipse of horizontal radius $H_R$ and vertical radius $V_R$.
+For $R=1$, $V_R = 0$, so the image is $[-1, 1]$
+
+
 :::
 
 
