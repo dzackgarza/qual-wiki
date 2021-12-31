@@ -358,6 +358,12 @@ Show that there exists a map $g: \mathbb{C} \backslash[-1,1] \rightarrow \mathbb
 
 
 :::{.solution}
+That $f: \CC\smz\to \DD\smz$ is injective: compute the derivative as
+\[
+f'(z) = {1\over 2}\qty{1 - {1\over z^2}}
+,\]
+which only vanishes at $z=0$.
+Away from 0, $f'$ is nonzero and continuous, so by the inverse function theorem $f$ is a local homeomorphism onto its image, and in particular is injective.
 
 :::
 
