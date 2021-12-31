@@ -10,7 +10,11 @@ order: 105
 ^043381
 
 :::{.problem title="?"}
-Find a conformal map from $D=\{z:|z|<1,|z-1 / 2|>1 / 2\}$ to the unit disk $\Delta=\{z:|z|<1\}$.
+Find a conformal map from 
+\[
+D=\{z:|z|<1,|z-1 / 2|>1 / 2\}
+\]
+to the unit disk $\Delta=\{z:|z|<1\}$.
 :::
 
 :::{.solution}
@@ -435,10 +439,6 @@ w &= z-\sqrt{z^2-1} \\
 
 
 :::
-
-
-## 1 #complex/exercise/work
-Find a conformal map from $\DD$ to $\HH$.
 
 ## 2 #complex/exercise/work
 Find a conformal map from the strip $\theset{z\in \CC \suchthat 0 < \Im(z) < 1}$ to $\HH$.
