@@ -96,6 +96,18 @@ w &= {z-i\over z+i} \\
 \implies z &= -i {w+1\over w-1}
 ,\]
 which is the desired map.
+Why the image is in $\HH$: it suffices to show that $\Im(f(z)) > 0$ for all $z\in \DD$.
+Write $z = x+iy$ and note that $\Im(iz) = \Re(z)$, then
+\[
+\Im(f(z)) 
+&= \Re\qty{1-z\over 1+z} \\
+&= \Re\qty{1-x-iy \over 1+x+iy} \\
+&= \Re\qty{1-x^2-y^2 - i2y \over 1+x^2 + y^2} \\
+&= {1-(x^2+y^2) \over 1+(x^2+y^2) } \\
+&> 0
+,\]
+since $x^2+y^2<1$ for $x+iy \in \DD$.
+
 :::
 
 ### $\DD\to\HH$, cross-ratio #complex/exercise/completed
@@ -153,15 +165,36 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 
 :::
 
-### $\DD^c\to\HH$ #complex/exercise/work
+### $\DD^c \intersect \HH \to\HH$ #complex/exercise/completed
 
-:::{.exercise title="Complement of the disc to the half-plane"}
-Show that $z\mapsto z + z\inv$ maps $\HH \intersect \DD^c \to \HH$.
+:::{.exercise title="Complement of the disc to $\HH$"}
+Find a conformal map $\HH \intersect \DD^c\to \HH$.
 :::
 
-
 :::{.solution}
-Take the map $f(z) \da 
+Claim: the map $f(z) \da z+z\inv$ works.
+Consider the images of circles $\gamma_r(t) \da rei^{t}$ where $t\in [-\pi, \pi]$.
+For $r=1$, 
+\[
+f(\gamma_1(t)) = e^{it} + e^{-it} = 2\cos(t)
+,\]
+which sweeps out $[-2, 2]$ twice.
+For arbitrary $r$,
+\[
+f(\gamma_r(t)) = re^{it} + r\inv e^{-it} = (r+r\inv)\cos(t) +i(r-r\inv)\sin(t)
+,\]
+which sweeps out an ellipse with horizontal radius $r+r\inv$ and vertical radius $r-r\inv$.
+For $1<r<\infty$, these sweep out all of $\CC\sm \DD$.
+Restricting $t\in [0, \pi]$, the $\gamma_r(t)$ are top halves of circles which cover all of $\HH\sm\DD$, and the images $f(\gamma_r(t))$ are top halves of ellipses which sweep out all of $\HH$.
+This includes points inside of $\DD \intersect \HH$ -- this is because for any $t\in (0, \infty)$, there is always a solution $r$ to $t=r-r\inv$:
+\[
+t = r-r\inv \implies r^2-tr-1 \implies r = {t \pm \sqrt{t^2+4}\over 2}
+.\]
+So there is an image ellipse at that vertical height.
+Since every point $z_0\in \HH$ is on an ellipse of *some* vertical height $t$, $\HH$ is in the image.
+
+That this map is conformal: a computation shows $f'(z) = 1 + {1\over r^2}$, which vanishes only at $z=\pm 1$.
+Since these are not in the domain, the derivative is nonvanishing, making $f$ conformal.
 :::
 
 
