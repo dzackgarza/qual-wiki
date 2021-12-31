@@ -338,7 +338,7 @@ Intersecting the regions that are to the left of each image curve yields $5\pi/6
 
 :::
 
-## Fall 2020.5, Spring 2019.6 #complex/qual/work
+## Fall 2020.5, Spring 2019.6 #complex/qual/completed
 
 ^931c0a
 
@@ -355,7 +355,6 @@ c.
 Show that there exists a map $g: \mathbb{C} \backslash[-1,1] \rightarrow \mathbb{D} \backslash\{0\}$ such that $(g \circ f)(z)=z$ for all $z \in \mathbb{D} \backslash\{0\}$. Describe the map $g$ by an explicit formula.
 
 :::
-
 
 :::{.solution}
 **Part a**:
@@ -412,7 +411,7 @@ w &= {1\over 2}\qty{z + {1\over z}} \\
 where in order to define $\sqrt{w^2-1}$, one needs a branch cut for $\Log$ along $[-1, 1]$, which is precisely what we're deleting from the image.
 
 **Part c**:
-as in a usual conformal map problem,
+as in a usual conformal map problem, find a map to $\CC\sm[-1,1]\to \DD$.
 
 - Send $-1\to 0$ and $1\to \infty$ with $z\mapsto {z+1\over z-1}$.
   Checking that $f(0) = -1$, this yields $\CC\sm\RR_{\leq 0}$.
@@ -426,8 +425,13 @@ g(z) &= {\sqrt{z+1\over z-1}  -1 \over \sqrt{z+1\over z-1} +1} \\
 &= { \qty{ \sqrt{z+1} - \sqrt{z-1}}^2 \over (z+1)-(z-1) } \\
 &= z - \sqrt{z^2-1}
 ,\]
-which has inverse $z\mapsto {1\over 2}\qty{z+{1\over z}}$.
-
+and checking that it has the right inverse: 
+\[
+w &= z-\sqrt{z^2-1} \\
+\implies (z-w)^2 &= z^2-1 \\
+\implies w^2+1 &= 2wz \\
+\implies z = {1\over 2}\qty{w + {1\over w}}
+.\]
 
 
 :::
