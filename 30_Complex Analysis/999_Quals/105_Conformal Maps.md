@@ -492,9 +492,19 @@ Send $1\to \infty$ with $f(z) \da {1\over z-1}$, and check that
 - $i\mapsto -{1\over 2}(1+i)$
 - $-1\mapsto -{1\over 2}$
 
-By tracking tangent/normal vectors, this results in the region $-1<\Im(z) < -{1\over 2}$:
+By tracking tangent/normal vectors, this results in the region $-1<\Re(z) < -{1\over 2}$:
 
 ![](figures/2021-12-31_18-32-10.png)
+
+The rest is standard:
+
+- Translate to the right by $z\mapsto z+{1\over 2}$ to get $-{1\over 2}<\Re(z) < 0$.
+- Rotate and dilate by $z\mapsto -2i\pi z$ to get $0<\Im(z) < \pi$
+- Exponentiate by $z\mapsto e^z$ to get $\HH$,
+- Cayley map $z\mapsto {z-i\over z+i}$ to get $\DD$.
+
+**Part 3**:
+
 
 :::
 
