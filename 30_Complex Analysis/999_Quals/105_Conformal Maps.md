@@ -12,7 +12,7 @@ order: 105
 :::{.problem title="?"}
 Find a conformal map from 
 \[
-D=\{z:|z|<1,|z-1 / 2|>1 / 2\}
+D=\ts{ z\in \CC\st |z|<1 \text{ and } \abs{ z-{1\over 2}}>{1\over 2}}
 \]
 to the unit disk $\Delta=\{z:|z|<1\}$.
 :::
@@ -440,8 +440,22 @@ w &= z-\sqrt{z^2-1} \\
 
 :::
 
-## 2 #complex/exercise/work
+## 2 Horizontal strip to $\HH$ #complex/exercise/work
+
+:::{.problem title="?"}
 Find a conformal map from the strip $\theset{z\in \CC \suchthat 0 < \Im(z) < 1}$ to $\HH$.
+:::
+
+
+:::{.solution}
+In steps:
+
+- Dilate by $z\mapsto \pi z$ to get $0<\Im(z) < \pi$.
+- Exponentiate by $z\mapsto e^z$ to get $\HH$.
+
+:::
+
+
 
 ## 3 #complex/exercise/work
 Find a fractional linear transformation $T$ which maps $\HH$ to $\DD$, and explicitly describe the image of the first quadrant under $T$.
