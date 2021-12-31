@@ -373,7 +373,7 @@ f(\gamma(t))
 &= {1\over 2}\qty{ Re^{it} + {1\over Re^{it}}} \\
 &= {1\over 2}\qty{Re^{it} + R\inv e^{-it} } \\
 &= {1\over 2}\qty{R\cos(t) + iR\sin(t) + R\inv\cos(-t) + iR\inv\sin(-t) } \\
-&= {1\over 2}\qty{R\cos(t) + iR\sin(t) + R\inv\cos(t) i iR\inv\sin(-t) } \\
+&= {1\over 2}\qty{R\cos(t) + iR\sin(t) + R\inv\cos(t) - iR\inv\sin(-t) } \\
 &= {1\over 2}\qty{R+R\inv}\cos(t) + i{1\over 2}\qty{R-R\inv}\sin(t) \\
 &\da H_R \cos(t) + iV_R\sin(t)
 ,\]
