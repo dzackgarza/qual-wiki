@@ -483,7 +483,18 @@ The rest is standard:
 - Apply the Cayley map $z\mapsto {z-i\over z+i}$ to get $\DD$.
 
 **Part 2**:
-a bigon with vertices
+a bigon with vertex $1$, i.e. a lune.
+Send $1\to \infty$ with $f(z) \da {1\over z-1}$, and check that
+
+- $1\mapsto \infty$
+- ${1\over 2}(1+i) \mapsto -(1+i)$
+- $0\mapsto -1$
+- $i\mapsto -{1\over 2}(1+i)$
+- $-1\mapsto -{1\over 2}$
+
+By tracking tangent/normal vectors, this results in the region $-1<\Im(z) < -{1\over 2}$:
+
+![](figures/2021-12-31_18-32-10.png)
 
 :::
 
