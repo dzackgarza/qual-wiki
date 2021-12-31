@@ -49,13 +49,13 @@ The bijectivity condition can be weakened: an *injective* holomorphic map satisf
 Define generalized cross-ratios as
 \[
 (z_1, z_2, z_3, z_4) &\da {z_1 - z_3\over z_1-z_4}{z_2 - z_4 \over z_2 - z_3} \\
-R(z) \da (z, a,b,c) &\da {z - b\over z-z_4}{z_2 - z_4 \over z_2 - z_3} \\
+R(z) \da (z, a,b,c) &\da {z - b\over z-c}{a - c\over a - c} \\
 .\]
 
 Given any three points, $R(z)$ sends
 \[
-z_2 &\to 1 \\
-z_3 &\to 0 \\
+a &\to 1 \\
+ &\to 0 \\
 z_4 &\to \infty
 .\]
 
