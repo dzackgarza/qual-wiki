@@ -74,11 +74,16 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 
 ## Discs and Planes
 
+### $\HH\to\DD$ #complex/exercise/work
+
+:::{.problem title="?"}
+Find a fractional linear transformation $T$ which maps $\HH$ to $\DD$, and explicitly describe the image of the first quadrant under $T$.
+:::
+
+### $\DD\to\HH$ #complex/exercise/completed
+
 :::{.exercise title="Disc to upper half-plane"}
 Find a conformal map from $\DD$ to $\HH$.
-
-#complex/exercise/completed
-
 :::
 
 :::{.solution}
@@ -93,11 +98,10 @@ w &= {z-i\over z+i} \\
 which is the desired map.
 :::
 
+### $\DD\to\HH$, cross-ratio #complex/exercise/completed
+
 :::{.exercise title="Disc to upper half-plane, cross-ratio"}
 Find a conformal map $\DD \to \HH$ using cross-ratios.
-
-#complex/exercise/completed
-
 :::
 
 :::{.solution}
@@ -121,11 +125,10 @@ Checking that this works:
 
 :::
 
+### Upper half-disc to $\DD$ #complex/exercise/completed
+
 :::{.exercise title="Half disc to full disc"}
 Find a conformal map from $\ts{z\in \CC \st \abs{z} < 1, \Im(z) > 0} = \DD \intersect \HH$ to $\DD$.
-
-#complex/exercise/completed
-
 :::
 
 :::{.solution}
@@ -137,11 +140,10 @@ Instead compose:
 - $z\mapsto {z-i\over z+i}$ which maps $\HH\to \DD$.
 :::
 
+### Upper half-disc to $\HH$ #complex/exercise/completed
+
 :::{.exercise title="Upper half-disc to upper half-plane"}
 Find a conformal map from the upper half-disc to the upper half-plane.
-
-#complex/exercise/completed
-
 :::
 
 :::{.solution}
@@ -151,11 +153,11 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 
 :::
 
+
+### $\DD^c\to\HH$ #complex/exercise/work
+
 :::{.exercise title="Complement of the disc to the half-plane"}
 Show that $z\mapsto z + z\inv$ maps $\HH \intersect \DD^c \to \HH$.
-
-#complex/exercise/work
-
 :::
 
 ## Slits
