@@ -1,4 +1,9 @@
-# Conformal Maps: Theory and Background
+---
+title: "Theory and Background: Conformal Maps"
+sort: 0
+---
+
+# Theory and Background: Conformal Maps
 
 :::{.remark title="Resources"}
 Conformal Mapping Dictionary:

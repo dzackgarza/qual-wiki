@@ -1,4 +1,9 @@
-# Conformal Maps
+---
+title: "Standard Examples: Conformal Maps"
+sort: 10
+---
+
+# Standard Examples: Conformal Maps
 
 :::{.remark}
 A summary:
