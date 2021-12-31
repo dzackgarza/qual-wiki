@@ -463,6 +463,31 @@ Find a conformal map
 
 :::
 
+
+:::{.solution}
+**Part 1**:
+this is a bigon with vertices $0, \infty$, so send $0\to\infty$ with $1/z$.
+Orient $i\RR$ and the circle $S$ positively, note that both will be mapped to generalized circles.
+To find the resulting region, use handedness -- it's on the right of $i\RR$ and the right of $S$.
+The map preserves $i\RR$ and as $t$ traces out $(-\infty, 0^-, 0^+, \infty)$, $f(it)$ traces out $(0^+, \infty, -\infty, 0^-)$, so this preserves the orientation of $i\RR$.
+For $S$, let $z_0\da {1\over 2}(1+i)\in S$, then $f(z_0) = 1-i$.
+So the arc $(1,z_0, 0)$ maps to $(1, 1-i,\infty)$, so this is a vertical line through $\Re(z) = 1$ oriented downward.
+The region is to the right of $S$, so we have
+
+![](figures/2021-12-31_18-14-29.png)
+
+The rest is standard:
+
+- Dilate and rotate to $0<\Im(z) < \pi$ using $z\mapsto i\pi z$.
+- Exponentiate using $z\mapsto e^z$ \to get $\HH$.
+- Apply the Cayley map $z\mapsto {z-i\over z+i}$ to get $\DD$.
+
+**Part 2**:
+a bigon with vertices
+
+:::
+
+
 		
 		
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
