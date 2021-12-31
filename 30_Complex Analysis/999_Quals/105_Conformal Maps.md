@@ -391,15 +391,12 @@ so the foci are all at $\pm 1\in \RR$.
 
 **Part b**:
 The claim is that $f(\CC\sm\DD) = \CC\sm[-1, 1]$.
-Setting $w=f(z)$ and solving for $z$ yields
-\[
-w &= {1\over 2}\qty{z + {1\over z}} \\
-\implies 2wz &= z^2 + 1 \\
-\implies z^2 - 2wz + 1 &= 0 \\
-\implies z &= {2w \pm \sqrt{4w^2 -4} \over 2} \\
-\implies z &= w\pm \sqrt{w^2-1}
-.\]
-This shows that every point has at most 2 preimages, so it suffices to show that one preimage is in $\DD$ and one is in $\DD^c$.
+Note that $f(z) = f(1/z)$, so for $z\neq 1/z$ there are exactly two preimages.
+These points are exactly $z=\pm 1$, so we need to take the domain $\Omega \da \CC\sm(\DD\union\ts{\pm 1})$ to get injectivity.
+Otherwise, for every $z\in \Omega$, exactly one of $z$ or $1/z$ is in $\DD$, so $f(z)$ takes on unique values in $\Omega$.
+By part 1, the images of circles of radius $R$ are ellipses, and these sweep out the entire plane outside of $[-1, 1]$:
+
+![attachments/JoukowskiMap.gif](attachments/JoukowskiMap.gif)
 
 
 :::
