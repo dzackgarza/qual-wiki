@@ -443,6 +443,7 @@ w &= z-\sqrt{z^2-1} \\
 
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
+:::{.problem title="?"}
 Find a conformal map
 
 1.  from $\{ z: |z - 1/2| > 1/2, \text{Re}(z)>0 \}$ to $\mathbb H$
@@ -459,6 +460,9 @@ Find a conformal map
 
 5.  from $\{ z: |z| < 1, \text{Re}(z) > 0 \} \backslash (0, 1/2]$ to
     $\mathbb H$.
+
+:::
+
 		
 		
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work

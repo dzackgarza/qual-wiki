@@ -9,11 +9,11 @@ title: "Exercises: Conformal Maps"
 Notation:
 
 - Almost everything is an *open* set, so don't include boundaries in definitions.
-- $Q_i$ is the $i$th quadrant, e.g. $Q_1 \da \ts{z \st \Re(z), \Im(z) > 0}$.
 - $\DD \da \ts{z \st \abs{z} < 1}$ is the open unit disc.
 - $\HH \da \ts{z \st \Im(z) > 0}$ is the open upper half-plane.
+- $Q_i$ is the $i$th quadrant, e.g. $Q_1 \da \ts{z \st \Re(z), \Im(z) > 0}$.
 - $Q_{ij} \da Q_i \union Q_j$ is the union of two quadrants.
-  E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
+    E.g. $\HH = Q_{23}$, or $Q_{14}$ is the right half-plane.
 
 Tips:
 
@@ -28,12 +28,12 @@ Tips:
 
 - For circles with tangencies: send the tangent point to $\infty$ to get parallel lines.
 
-- Remembering the cross ratio: the order $1,0,\infty$ is very important (as images of $z_2, z_3, z_4$).
-  - Send $z_3\to 0$ by including $z-z_3$ in the numerator.
-  - Send $z_4\to \infty$ by including $z-z_4$ in the denominator.
-  - Send $z_1\to 1$ by canceling the terms just added: 
-    - Cancel $z-z_4$ in the denominator with $z_2 - z_4$ in the numerator.
-    - Cancel $z-z_3$ in the numerator with a $z_2 - z_3$ in the denominator.
+- Remembering the cross ratio: the order $1,0,\infty$ is very important (as images of $a, b, c$).
+  - Send $b\to 0$ by including $z-b$ in the numerator.
+  - Send $c\to \infty$ by including $z-c$ in the denominator.
+  - Send $a\to 1$ by canceling the terms just added: 
+    - Cancel $z-c$ in the denominator with $a - c$ in the numerator.
+    - Cancel $z-b$ in the numerator with a $a - b$ in the denominator.
 - Inverting conformal maps: just set $f(z) = w$ and solve for $w$.
 - Conformal maps preserve generalized spheres, i.e. circles get mapped to circles (which could be lines on $\CP^1$). 
 - Orthogonal circles must go to orthogonal circles.
@@ -41,6 +41,8 @@ Tips:
 
 - $\RR =\ts{\tan(t) \st t\in (-\pi/2, \pi/ 2)}$.
 :::
+
+## Cross-Ratios
 
 :::{.exercise title="Conformal maps to arbitrary points"}
 Find a Mobius transformation sending 
@@ -103,10 +105,10 @@ Noting that $Q_1$ is the bigon enclosed by $0, \infty$, this maps to a bigon spa
 By handedness, since $Q_1$ is to the left of $\RR$, it gets mapped to the left of the image of $\RR_{>0}$, which is the lower half of the circle.
 :::
 
-### $\DD\to\HH$, cross-ratio #complex/exercise/completed
+### $\HH\to\DD$, cross-ratio #complex/exercise/completed
 
 :::{.exercise title="Disc to upper half-plane, cross-ratio"}
-Find a conformal map $\DD \to \HH$ using cross-ratios.
+Find a conformal map $\HH \to \DD$ using cross-ratios.
 :::
 
 :::{.solution}
@@ -124,7 +126,7 @@ R(z) \da (z, \infty, i, -i) = {z-i \over z-(-i)} {\infty - (-i) \over \infty - i
 
 Checking that this works:
 
-- If $z\in \RR$ then $\abs{z-i} = \abs{z+i}$ so $\abs(F(z)) = 1$.
+- If $z\in \RR$ then $\abs{z-i} = \abs{z+i}$ so $\abs{F(z)} = 1$.
 - If $z\in \HH$ then $\abs{z-i}\leq \abs{z+i}$ so $\abs{F(z)}< 1$.
 
 
@@ -226,7 +228,7 @@ Since these are not in the domain, the derivative is nonvanishing, making $f$ co
 :::{.exercise title="Disc minus a slit"}
 Find a conformal map
 \[
-\DD\sm [1/2, 1) \to \DD
+\DD\sm \left[ {1\over 2}, 1\right) \to \DD
 .\]
 
 #complex/exercise/completed
@@ -472,5 +474,45 @@ Compose to get:
 .\]
 
 :::
+
+## 4 #complex/exercise/work
+Find a conformal map from $\theset{z\in \CC\suchthat \abs{z-i} > 1,\, \Re(z) > 0}$ to $\HH$.
+
+## 5 #complex/exercise/work
+Find a conformal map from $\theset{z\in \CC \suchthat \abs{z} < 1,\, \abs{z - {1\over 2}} > {1\over 2} }$ to $\DD$.
+
+## 6 #complex/exercise/work
+Find a conformal  map from $\theset{\abs{z-1} < 2} \intersect \theset{\abs{z+1} < 2}$ to $\HH$.
+
+## 7 #complex/exercise/work
+Let $\Omega$ be the region inside the unit circle $\abs{z} = 1$ and outside the circle $\abs{z-{1\over 4}} = {1\over 4}$.
+
+Find an injective conformal map from $\Omega$ onto some annulus $\theset{r < \abs{z} < 1}$ for constant $r$.
+
+## 8 #complex/exercise/work
+Let $D$ be the region obtained by deleting the real interval $[0, 1)$ from $\DD$; find a conformal map from $D$ to $\DD$.
+
+## 9 #complex/exercise/work
+Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\leq 0}$ to $\DD$.
+
+## 10 #complex/exercise/work
+Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\geq 1}$ to $\DD$.
+
+## 11 #complex/exercise/work
+Find a bijective conformal map from $G$ to $\HH$, where
+\[  
+G \definedas \theset{z\in \CC \suchthat \abs{z-1} < \sqrt 2,\, \abs{z+1} < \sqrt 2} \setminus [0, i)
+.\]
+
+## 12 #complex/exercise/work
+Prove that TFAE for a Möbius transformation $T$ given by $T(z) = {az + b \over cz + d}$:
+
+a. $T$ maps $\RR\union \theset{\infty}$ to itself.
+b. It is possible to choose $a,b,c,d$ to be real numbers.
+c. $\bar{T(z)} = T(\bar z)$ for every $z\in \CP^1$.
+d. There exist $\alpha\in \RR, \beta \in \CC\setminus \RR$ such that $T(\alpha) = \alpha$ and $T(\bar \beta) = \bar{T(\beta)}$.
+
+## 13 #complex/exercise/work
+Find a conformal map from $D = \{z :\  |z| < 1,\ |z - 1/2| > 1/2\}$ to the unit disk $\Delta=\{z: \ |z|<1\}$.
 
 
