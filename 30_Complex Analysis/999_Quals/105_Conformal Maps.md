@@ -363,8 +363,8 @@ That $f: \CC\smz\to \DD\smz$ is injective: compute the derivative as
 \[
 f'(z) = {1\over 2}\qty{1 - {1\over z^2}}
 ,\]
-which only vanishes at $z=0$.
-Away from 0, $f'$ is nonzero and continuous, so by the inverse function theorem $f$ is a local homeomorphism onto its image, and in particular is injective.
+which only vanishes at $z=\pm 1$.
+Away from 0 in $\DD$, $f'$ is nonzero and continuous, so by the inverse function theorem $f$ is a local homeomorphism onto its image, and in particular is injective.
 
 The images of circles: parameterize one as $\gamma(t) = Re^{it}$ for $t\in [-\pi, \pi]$.
 Then
@@ -374,7 +374,7 @@ f(\gamma(t))
 &= {1\over 2}\qty{Re^{it} + R\inv e^{-it} } \\
 &= {1\over 2}\qty{R\cos(t) + iR\sin(t) + R\inv\cos(-t) + iR\inv\sin(-t) } \\
 &= {1\over 2}\qty{R\cos(t) + iR\sin(t) + R\inv\cos(t) i iR\inv\sin(-t) } \\
-&= {1\over 2}\qty{R+R\inv}\cos(t) + i{1\over 2}\qty{R-R\inv}\sin(t)
+&= {1\over 2}\qty{R+R\inv}\cos(t) + i{1\over 2}\qty{R-R\inv}\sin(t) \\
 &\da H_R \cos(t) + iV_R\sin(t)
 ,\]
 which is generally the equation of an ellipse of horizontal radius $H_R$ and vertical radius $V_R$.
@@ -382,6 +382,15 @@ For $R=1$, $V_R = 0$, so the image is $[-1, 1]$.
 For $0<R<1$, these are ellipses that sweep out vertical radii from 0 to $\infty$.
 
 **Part b**:
+Setting $w=f(z)$ and solving for $z$ yields
+\[
+w &= {1\over 2}\qty{z + {1\over z}} \\
+\implies 2wz &= z^2 + 1 \\
+\implies z^2 - 2wz + 1 &= 0 \\
+\implies z &= {2w \pm \sqrt{4w^2 -4} \over 2} \\
+\implies z &= w\pm \sqrt{w^2-1}
+.\]
+
 
 :::
 
