@@ -74,15 +74,23 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 
 ## Discs and Planes
 
-### $\HH\to\DD$ #complex/exercise/work
+### $\HH\to\DD$ #complex/exercise/completed
 
 :::{.problem title="?"}
 Find a fractional linear transformation $T$ which maps $\HH$ to $\DD$, and explicitly describe the image of the first quadrant under $T$.
 :::
 
-
 :::{.solution}
+Unclear to me how to *motivate* this formula, but choose $f(z) = {z-i\over z+i}$.
+Note that
 
+- $f(-1) = i$
+- $f(0) = -1$
+- $f(1) = -i$,
+
+so $\RR$ oriented from $-\infty\to\infty$ is sent to $S^1$ oriented counterclockwise.
+Since this is conformal, it preserves handedness -- noting that $\HH$ is on the left with respect to $\RR$, it gets mapped to the left of $S^1$ with its induced orientation, i.e. the interior of $\DD$.
+How to remember: $\abs{z-i}<\abs{z+i}$ in $\HH$, since points are closer to $i$ than $-i$.
 :::
 
 
