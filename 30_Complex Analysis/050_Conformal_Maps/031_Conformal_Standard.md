@@ -224,6 +224,8 @@ This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (
 
 ![](figures/2021-12-29_23-56-30.png)
 
+A nice resource: <https://complex-analysis.com/content/joukowsky_airfoil.html>
+
 :::
 
 :::{.proposition title="Disc complement to doubly slit plane"}
