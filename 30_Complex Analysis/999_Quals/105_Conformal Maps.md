@@ -391,6 +391,7 @@ so the foci are all at $\pm 1\in \RR$.
 
 **Part b**:
 The claim is that $f(\CC\sm\DD) = \CC\sm[-1, 1]$.
+
 Note that $f(z) = f(1/z)$, so for $z\neq 1/z$ there are exactly two preimages.
 These points are exactly $z=\pm 1$, so we need to take the domain $\Omega \da \CC\sm(\DD\union\ts{\pm 1})$ to get injectivity.
 Otherwise, for every $z\in \Omega$, exactly one of $z$ or $1/z$ is in $\DD$, so $f(z)$ takes on unique values in $\Omega$.
