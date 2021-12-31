@@ -367,7 +367,8 @@ which only vanishes at $z=\pm 1$.
 Away from 0 in $\DD$, $f'$ is nonzero and continuous, so by the inverse function theorem $f$ is a local homeomorphism onto its image, and in particular is injective.
 
 The images of circles: parameterize one as $\gamma(t) = Re^{it}$ for $t\in [-\pi, \pi]$.
-Then
+Note that if $R=1$, $f(\gamma(t)) = {1\over 2}\qty{e^{it} + e^{-it}} = \cos(t)$, so as $t$ increases from $-\pi\to \pi$, the interval $[-1, 1]$ is covered twice.
+For $0<R<1$,
 \[
 f(\gamma(t)) 
 &= {1\over 2}\qty{ Re^{it} + {1\over Re^{it}}} \\
@@ -378,8 +379,15 @@ f(\gamma(t))
 &\da H_R \cos(t) + iV_R\sin(t)
 ,\]
 which is generally the equation of an ellipse of horizontal radius $H_R$ and vertical radius $V_R$.
-For $R=1$, $V_R = 0$, so the image is $[-1, 1]$.
-For $0<R<1$, these are ellipses that sweep out vertical radii from 0 to $\infty$.
+As $R$ varies, these sweep out ellipses of vertical radii from 0 to $\infty$.
+One can compute the foci: their distance from $z=0$ is given by $c$, where
+\[
+c^2 = H_R^2 - V_R^2 = {1\over 4}(R+R\inv)^2 - {1\over 4}(R-R\inv)^2 = 1
+,\]
+so the foci are all at $\pm 1\in \RR$.
+
+> In general, you take the coefficient for the major axis squared minus that of the minor axis squared. The foci are along the major axis.
+
 
 **Part b**:
 Setting $w=f(z)$ and solving for $z$ yields
