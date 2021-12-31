@@ -51,6 +51,12 @@ Some useful parametric equations:
 
 ![](figures/2021-12-30_19-31-42.png)
 
+  - In complex form: $\gamma(t) = ae^{it} + be^{-it}$.
+
+- For off-center circles $(x-h)^2 + (y-k)^2 = r^2$, use $\tv{r\cos(t) + h, r\sin(t) + k}$.
+
+  - In complex form: $\gamma(t) = z_0 + re^{it}$ where $z_0\da h + ik$.
+
 :::
 
 

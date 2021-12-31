@@ -385,6 +385,7 @@ One can compute the foci: their distance from $z=0$ is given by $c$, where
 c^2 = H_R^2 - V_R^2 = {1\over 4}(R+R\inv)^2 - {1\over 4}(R-R\inv)^2 = 1
 ,\]
 so the foci are all at $\pm 1\in \RR$.
+One can check that these are clockwise when $0<R<1$ and counterclockwise when $R>1$.
 
 > In general, you take the coefficient for the major axis squared minus that of the minor axis squared. The foci are along the major axis.
 
