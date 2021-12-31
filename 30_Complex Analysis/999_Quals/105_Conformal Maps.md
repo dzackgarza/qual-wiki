@@ -399,6 +399,7 @@ w &= {1\over 2}\qty{z + {1\over z}} \\
 \implies z &= {2w \pm \sqrt{4w^2 -4} \over 2} \\
 \implies z &= w\pm \sqrt{w^2-1}
 .\]
+This shows that every point has at most 2 preimages, so it suffices to show that one preimage is in $\DD$ and one is in $\DD^c$.
 
 
 :::
