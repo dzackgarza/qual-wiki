@@ -47,6 +47,8 @@ Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then c
 :::{.remark}
 Some useful parametric equations:
 
+- For ellipses $\qty{x\over a}^2 + \qty{y\over b}^2 = 1$, take $\tv{a\cos(t), b\sin(t)}$:
+
 ![](figures/2021-12-30_19-31-42.png)
 
 :::

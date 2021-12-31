@@ -399,6 +399,20 @@ By part 1, the images of circles of radius $R$ are ellipses, and these sweep out
 
 ![attachments/JoukowskiMap.gif](attachments/JoukowskiMap.gif)
 
+To be explicit, one can just solve for the two preimages.
+Setting $w=f(z)$ and solving for $z$ yields
+\[
+w &= {1\over 2}\qty{z + {1\over z}} \\
+\implies 2wz &= z^2 + 1 \\
+\implies z^2 - 2wz + 1 &= 0 \\
+\implies z &= {2w \pm \sqrt{4w^2 -4} \over 2} \\
+\implies z &= w\pm \sqrt{w^2-1}
+,\]
+where in order to define $\sqrt{w^2-1}$, one needs a branch cut for $\Log$ along $[-1, 1]$, which is precisely what we're deleting from the image.
+
+**Part c**
+
+
 
 :::
 
