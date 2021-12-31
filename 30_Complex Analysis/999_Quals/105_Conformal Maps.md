@@ -390,6 +390,7 @@ so the foci are all at $\pm 1\in \RR$.
 
 
 **Part b**:
+The claim is that $f(\CC\sm\DD) = \CC\sm[-1, 1]$.
 Setting $w=f(z)$ and solving for $z$ yields
 \[
 w &= {1\over 2}\qty{z + {1\over z}} \\
