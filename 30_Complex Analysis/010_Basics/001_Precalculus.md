@@ -32,6 +32,7 @@ The sum of the interior angles of an $n\dash$gon is $(n-2)\pi$, where each angle
 
 :::
 
+
 :::{.remark}
 Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then consider the discriminant $\Delta = B^2 - 4AC$:
 
@@ -41,6 +42,15 @@ Another way to distinguish: write $f(x, y) = Ax^2 + Bxy + Cy^2 + \cdots$, then c
 - $\Delta > 0 \iff$ hyperbola
 
 :::
+
+
+:::{.remark}
+Some useful parametric equations:
+
+![](figures/2021-12-30_19-31-42.png)
+
+:::
+
 
 ## Algebra
 
