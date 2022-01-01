@@ -19,6 +19,8 @@ has a limit point in $\Omega$. Show that $f_{n}$ converges to $f$ uniformly on c
 
 ^4c605e
 
+
+:::{.problem title="?"}
 Suppose that $f: \mathbb{D} \rightarrow \mathbb{D}$ is holomorphic and $f(0)=0$. Let $n \geq 1$, and define the function $f_{n}(z)$ to be the $n$-th composition of $f$ with itself; more precisely, let
 
 $$
@@ -26,6 +28,32 @@ f_{1}(z):=f(z), f_{2}(z):=f(f(z)), \text { in general } f_{n}(z):=f\left(f_{n-1}
 $$
 
 Suppose that for each $z \in \mathbb{D}, \lim _{n \rightarrow \infty} f_{n}(z)$ exists and equals to $g(z)$. Prove that either $g(z) \equiv 0$ or $g(z)=z$ for all $z \in D$.
+
+:::
+
+:::{.solution}
+Note that there is a unique fixed point.
+We have $f(0) = 0$, so there is at least one, so suppose $a$ is another fixed point with $f(a) = a$.
+By Schwarz, $\abs{f(z)}\leq \abs{z}$ with equality at any nonzero point implying $f$ is a rotation, and $f(a) = a\implies \abs{f(a)} = \abs{a}$, so write $f(z) = e^{i\theta}z$.
+Now $f(a) = a = e^{i\theta }a$ forces $\theta = 0$, so $f(z) = z$ is the identity.
+
+
+
+:::{.claim}
+$g(0) = 0$ and the Schwarz lemma applies to $g$.
+:::
+
+Thus either
+
+- $g(z) = e^{i\theta} z$ is a rotation, or
+- $\abs{g'(0)} < 1$ and $\abs{g(z)} < z$ for all $z\in \DD$.
+
+
+Given this, suppose $g(z)$ is not the constant zero function.
+
+
+:::
+
 
 
 ## Fall 2021.4 #complex/qual/completed
