@@ -87,6 +87,27 @@ f(z)
 ,\]
 making $f$ a polynomial of degree at most $k$.
 
+**Part 2**:
+Write $S_\phi \da \ts{0<\Arg(z) < \phi}$ and choose $n$ large enough so that 
+\[
+\DD \subseteq S \union \zeta_n S \union \zeta_n^2 S \union\cdots\union \zeta_{n}^{n-1}S
+.\]
+By uniform convergence of $f$ to $0$ on $S$, choose $r<1$ small enough so that $\abs{f(z)} < \eps$ for $\abs{z} < r$ in $S$.
+Note that $\DD_r \subseteq \Union_{k=0}^{n-1} \zeta_n^k S_r$, where $S_r \da \ts{z\in S \st \abs{z} \leq R}$.
+By the MMP, let $M$ be the maximum of $f$ on $\DD$, which is attained at some point on $S^1$.
+Then $\abs{f} < M$ on every $\zeta_n^k S_r$.
+Now define
+\[
+g(z) \da \prod_{k=0}^{n-1} f(\zeta_n^k z)
+.\]
+Then
+\[
+\abs{g(z)} = \abs{f(z)} \prod_{k=1}^{n-1} \abs{f(\zeta_n^k z) } \leq \eps\cdot M^{n-1}
+.\]
+
+
+
+
 :::
 
 
