@@ -272,7 +272,7 @@ The mapping $z\mapsto \sin(z)$:
 
 - As $z$ travels from $i\infty \to i0$, $\sin(iz) = i\sinh(z)$ also traverses $i\infty\to i0$ 
 - For $z\in[-\pi/2, \pi/2]$, $\sin(z)$ is real and in $[-1, 1]$.
-- As $z$ travels along $\pi/2 + it$ for $t\in [0, \infty)$, $\sin(z) = 
+- As $z$ travels along $\pi/2 + it$ for $t\in [0, \infty)$, $\sin(\pi/2 + it) =
 
 Note that this isn't new: set $w \da e^{iz}$, then
 \[
