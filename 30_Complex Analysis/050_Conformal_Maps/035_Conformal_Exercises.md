@@ -205,8 +205,8 @@ Find a conformal map from the upper half-disc to the upper half-plane.
 
 ### $\DD^c \intersect \HH \to\HH$ #complex/exercise/completed
 
-:::{.exercise title="Complement of the disc to $\HH$"}
-Find a conformal map $\HH \intersect \DD^c\to \HH$.
+:::{.exercise title="Complement of the disc to $\mathbb{H}$"}
+Find a conformal map $\DD^c \intersect \HH \to \HH$.
 :::
 
 :::{.solution}
@@ -276,11 +276,20 @@ In steps:
 - $f_6$: apply the standard Cayley transform $f_6(z) = {i-z\over i+z}$
 :::
 
+### 8 #complex/exercise/work
+Let $D$ be the region obtained by deleting the real interval $[0, 1)$ from $\DD$; find a conformal map from $D$ to $\DD$.
+
+### 9 #complex/exercise/work
+Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\leq 0}$ to $\DD$.
+
+### 10 #complex/exercise/work
+Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\geq 1}$ to $\DD$.
+
 ## Strips
 
 ### Horizontal strip to $\HH$ #complex/exercise/completed
 
-:::{.problem title="Horizontal strip to upper half-plane"}
+:::{.problem title="Horizontal strip to $\mathbb{H}$"}
 Find a conformal map from the strip $\theset{z\in \CC \suchthat 0 < \Im(z) < 1}$ to $\HH$.
 :::
 
@@ -298,6 +307,8 @@ and noting that the image of $\ln(\wait)$ is all of $\RR$.
 :::
 
 ## Lunes
+
+### Intersection of circles
 
 :::{.exercise title="Lune between circles"}
 
@@ -326,7 +337,9 @@ In steps:
 
 :::
 
-:::{.exercise title="Lune with a point at infinity"}
+### Lune with one intersection point
+
+:::{.exercise title="Lune with only one intersection point"}
 Find a conformal map:
 \[
 \DD \sm \ts{\abs{z - {1\over 2}} = {1\over 2} } \to \DD
@@ -351,6 +364,15 @@ The picture:
 - Standard Cayley $z\mapsto {z-i \over z+i}$ sends this to $\DD$.
 
 :::
+
+### 4 #complex/exercise/work
+Find a conformal map from $\theset{z\in \CC\suchthat \abs{z-i} > 1,\, \Re(z) > 0}$ to $\HH$.
+
+### 5 #complex/exercise/work
+Find a conformal map from $\theset{z\in \CC \suchthat \abs{z} < 1,\, \abs{z - {1\over 2}} > {1\over 2} }$ to $\DD$.
+
+### 6 #complex/exercise/work
+Find a conformal  map from $\theset{\abs{z-1} < 2} \intersect \theset{\abs{z+1} < 2}$ to $\HH$.
 
 ## Sectors
 
@@ -402,7 +424,7 @@ which has inverse $z\mapsto {1\over 2}\qty{z+{1\over z}}$.
 
 ## Misc
 
-:::{.exercise title="?"}
+:::{.exercise title="Line to circle"}
 Find a conformal map that sends $i\RR$ to $\abs{z-{1\over 2}} = {1\over 2}$.
 
 #complex/exercise/completed
@@ -488,28 +510,14 @@ Compose to get:
 
 :::
 
-## 4 #complex/exercise/work
-Find a conformal map from $\theset{z\in \CC\suchthat \abs{z-i} > 1,\, \Re(z) > 0}$ to $\HH$.
 
-## 5 #complex/exercise/work
-Find a conformal map from $\theset{z\in \CC \suchthat \abs{z} < 1,\, \abs{z - {1\over 2}} > {1\over 2} }$ to $\DD$.
-
-## 6 #complex/exercise/work
-Find a conformal  map from $\theset{\abs{z-1} < 2} \intersect \theset{\abs{z+1} < 2}$ to $\HH$.
 
 ## 7 #complex/exercise/work
 Let $\Omega$ be the region inside the unit circle $\abs{z} = 1$ and outside the circle $\abs{z-{1\over 4}} = {1\over 4}$.
 
 Find an injective conformal map from $\Omega$ onto some annulus $\theset{r < \abs{z} < 1}$ for constant $r$.
 
-## 8 #complex/exercise/work
-Let $D$ be the region obtained by deleting the real interval $[0, 1)$ from $\DD$; find a conformal map from $D$ to $\DD$.
 
-## 9 #complex/exercise/work
-Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\leq 0}$ to $\DD$.
-
-## 10 #complex/exercise/work
-Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\geq 1}$ to $\DD$.
 
 ## 11 #complex/exercise/work
 Find a bijective conformal map from $G$ to $\HH$, where
