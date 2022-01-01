@@ -548,6 +548,16 @@ Now
 - Rotate with $z\mapsto iz$ to get $\HH$.
 - Cayley map, $z\mapsto {z-i\over z+i}$.
 
+**Part 5**:
+
+- Use a Blaschke factor to send $a\da -1/2\to 0$, so $z\mapsto {a-z\over 1-\bar{a} z}$.
+  Checking that $(-1/2, 0, 1)\to (0, -1/2, -1)$, the image is $\DD\sm(-1, 0]$.
+- Rotate with $z\mapsto e^{-i\pi}z$ to get $\DD\sm[0, 1)$.
+- Unfold with $z\mapsto z^{1\over 2}$ to get $\DD \intersect \HH$, noting that the slit becomes $[-1, 1]$ and is erased here.
+- Use $z\mapsto -1/z$ to get $\DD^c \intersect \HH$.
+- Use the Joukowski map $z\mapsto z+z\inv$ to map to $Q_{34}$
+- Use $z\mapsto -z$ to get $\HH$.
+
 :::
 
 
