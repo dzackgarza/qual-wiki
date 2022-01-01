@@ -40,7 +40,7 @@ Since $\abs{f(z)}$ is constant on the boundary, we must have $\max \abs{f(z)} = 
 By the identity principle, $f$ is constant on $U$, a contradiction.
 :::
 
-## Spring 2020 HW 3, SS 3.8.15 #complex/exercise/work
+## Spring 2020 HW 3, SS 3.8.15 #complex/exercise/completed
 
 :::{.problem title="?"}
 Use the Cauchy inequalities or the maximum modulus principle to solve the following problems:
@@ -64,7 +64,6 @@ d.
 Show that if the real part of an entire function is bounded, then $f$ is constant.
 
 :::
-
 
 :::{.solution title="Part 1"}
 \[
@@ -126,14 +125,19 @@ Now note that $f(w_k) = 0$ and $f$ is continuous in $\DD$.
 So $\abs{f(z)} \in [0, M] \subseteq \RR$ where $M>1$, so by the intermediate value theorem, $\abs{f(z)} = 1$ for some $z$.
 :::
 
-
-:::{.solution title="Part 4"}
-
+:::{.solution title="Part 4, using MMP"}
+Write $f=u+iv$ where by assumption $u$ is bounded.
+Both $u$ and $v$ are harmonic, so if $\abs{u} \leq M$ on $\CC$, then there is some disc where $\abs{u} = M$ for some point in the interior.
+By the MMP for harmonic functions, $u$ is constant on $\CC$.
+So $u_x, u_y = 0$, and by Cauchy-Riemann, $v_x, v_y = 0$, so $v'=0$ and $v$ is constant, making $f$ constant.
 :::
 
+:::{.solution title="Part 4, using Liouville"}
 
+Consider $g(z) \da e^{f(z)}$, then $\abs{g(z)} = e^{\Re(z)}$ is entire and bounded and thus constant by Liouville's theorem.
+So $g'(z) = 0$, but on the other hand $g'(z) = f'(z) e^{f(z)} = 0$, so $f'(z) = 0$ and $f$ must be constant since $e^f$ is nonvanishing.
 
-
+:::
 
 ## Spring 2020 HW 3, 3.8.17 #complex/exercise/work
 
