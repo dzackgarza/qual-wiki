@@ -25,10 +25,12 @@ A summary:
 		  $$z\mapsto z^{\pi \over 2\theta_0}: \ts{\Arg(z) \in (-\theta_0, \theta_0)}\to \ts{\Arg(z) \in (-\pi/2, \pi/ 2)}.$$
 
 - Half-discs to planes: the Joukowski maps $z\mapsto z+z\inv$
-- Bigons: map the intersection points $z_0\to 0, z_1\to\infty$ to get strips
+- Bigons/lunar domains: map the intersection points $z_0\to 0, z_1\to\infty$ to get strips.
+	![](figures/2021-12-10_17-12-12.png)
 
+Some tips:
 
-- A quick computational fact: $z\inv = {\bar{z}\over \abs{z}^2}$. 
+- A computational shortcut: $z\inv = {\bar{z}\over \abs{z}^2}$. 
   Use this to quickly compute images, e.g. for $\abs{z-1} = 1$ under $f(z) = 1/z$, write $f(1+i)={1\over 1+i} = {1-i \over 2}$.
 - The locus of points equidistant to two fixed points is the perpendicular bisector.
 - Seems obvious, but *use* that conformal maps preserve angles.
@@ -287,14 +289,5 @@ which is the composition
 
 :::
 
-## Lunar Domains
-
-:::{.proposition title="Lunar domains"}
-
-Idea: send $z_0\to 0$ and $z_1\to \infty$ to get a sector.
-
-![](figures/2021-12-10_17-12-12.png)
-
-:::
 
 
