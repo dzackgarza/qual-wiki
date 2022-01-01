@@ -1,5 +1,7 @@
 # Schwarz
 
+## Hyperbolic Translations
+
 :::{.theorem title="Characterization of conformal maps"}
 Every map $g\in \BiHol(\DD)$ is of the form 
 \[
@@ -75,6 +77,8 @@ There are such maps that are *not* rotations, e.g. the Blaschke factors:
 Setting $B_w(z) \da {z-w\over 1-\bar{w} z}$, this is not a rotation when $w\neq 0$ and is an involution.
 :::
 
+## The Schwarz Lemma
+
 :::{.theorem title="Schwarz Lemma" ref="SchwarzzLemma"}
 If $f: \DD \to \DD$ is holomorphic with $f(0) = 0$, then
 
@@ -89,7 +93,14 @@ Moreover, if
 then $f$ is a rotation, i.e. $f(z) = \lambda z$ for some $\abs{\lambda} = 1$.
 :::
 
-![figures/2021-10-29_02-32-14.png](figures/2021-10-29_02-32-14.png)
+:::{.theorem title="Schwarz lemma, a useful alternative statement"}
+Let $f:\DD\to \DD$ be holomorphic with $f(0) = 0$. 
+Then either
+
+- $f(z) = e^{i\theta}z$ is a rotation, or
+- $\abs{f'(0)} < 1$ and $\abs{f(z)} < \abs{z}$ for all $z\in \DD$, noting the strict inequalities.
+
+:::
 
 :::{.proof title="of Schwarz lemma"}
 \envlist
