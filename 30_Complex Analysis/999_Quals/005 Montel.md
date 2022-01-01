@@ -3,7 +3,15 @@ order: 5
 title: "Montel and Function Convergence"
 ---
 
-# Montel and Function Convergence 
+# Montel
+
+## Tie's Extra Questions: Spring 2015 #complex/qual/work
+
+:::{.problem title="?"}
+Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region $\Omega$ that are uniformly bounded on compact subsets and $f \in H(\Omega)$ is such that the set
+$\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
+has a limit point in $\Omega$. Show that $f_n$ converges to $f$ uniformly on compact subsets of $\Omega$.
+:::
 
 ## Spring 2019.7 #complex/qual/completed
 
@@ -34,6 +42,7 @@ However, since $\mcf$ was normal, *every* subsequence has a locally uniformly co
 
 :::
 
+# Function Convergence
 
 ## Fall 2021.4 #complex/qual/completed
 
@@ -124,6 +133,9 @@ Show that the following are equivalent:
 \[
 \int_{\abs z = r} \abs{f_n(z) - f(z)} \abs{dz} \convergesto{n\to\infty}0
 .\]
+
+> Note: $\abs{\dz} = \abs{\gamma'(t)}\dt$ for $\gamma$ a parameterization of the curve.
+
 :::
 
 :::{.solution}
@@ -167,7 +179,6 @@ Can every continuous function on $\bar \DD$ be uniformly approximated by polynom
 
 > Hint: compare to Weierstrass for the real interval.
 
-> Note: $\abs{\dz} = \abs{\gamma'(t)}\dt$ for $\gamma$ a parameterization of the curve.
 
 :::
 
@@ -254,13 +265,5 @@ Now estimate the difference:
 
 
 
-:::
-
-## Tie's Extra Questions: Spring 2015 #complex/qual/work
-
-:::{.problem title="?"}
-Assume $f_n \in H(\Omega)$ is a sequence of holomorphic functions on the region $\Omega$ that are uniformly bounded on compact subsets and $f \in H(\Omega)$ is such that the set
-$\displaystyle \{z \in \Omega: \lim_{n \rightarrow \infty} f_n(z) = f(z) \}$
-has a limit point in $\Omega$. Show that $f_n$ converges to $f$ uniformly on compact subsets of $\Omega$.
 :::
 
