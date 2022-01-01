@@ -66,8 +66,7 @@ Show that if the real part of an entire function is bounded, then $f$ is constan
 :::
 
 
-:::{.solution}
-**Part 1**:
+:::{.solution title="Part 1"}
 \[
 \abs{ f(z_0) }
 &= \abs{ {1\over 2\pi i} \oint_{\abs{z-z_0} = R } {f(z) \over (z-z_0)^{n+1} }  \dz } \\
@@ -86,29 +85,34 @@ f(z)
 = \sum_{0\leq n\leq k} f^{(n)}(0) {z^n\over n!}
 ,\]
 making $f$ a polynomial of degree at most $k$.
+:::
 
-**Part 2**:
+:::{.solution title="Part 2"}
 Write $S_\phi \da \ts{0<\Arg(z) < \phi}$ and choose $n$ large enough so that 
 \[
 \DD \subseteq S \union \zeta_n S \union \zeta_n^2 S \union\cdots\union \zeta_{n}^{n-1}S
-.\]
+,\]
+i.e. so that the rotated sectors cover the disc.
 By uniform convergence of $f$ to $0$ on $S$, choose $r<1$ small enough so that $\abs{f(z)} < \eps$ for $\abs{z} < r$ in $S$.
-Note that $\DD_r \subseteq \Union_{k=0}^{n-1} \zeta_n^k S_r$, where $S_r \da \ts{z\in S \st \abs{z} \leq R}$.
+Note that $\DD_r \subseteq \Union_{k=0}^{n-1} \zeta_n^k S_r$, where $S_r \da \ts{z\in S \st \abs{z} \leq r}$ is a subsector of radius $r$.
+
 By the MMP, let $M$ be the maximum of $f$ on $\DD$, which is attained at some point on $S^1$.
 Then $\abs{f} < M$ on every $\zeta_n^k S_r$.
 Now define
 \[
-g(z) \da \prod_{k=0}^{n-1} f(\zeta_n^k z)
+g(z) \da f(z) \prod_{k=1}^{n-1} f(\zeta_n^k z) \da f(z) \prod_{k=1}^{n-1}f_k(z)
 .\]
-Then
+Note that $\abs{f(z)}\leq \eps$ and $\abs{f_k(z)} \leq M$, so
 \[
-\abs{g(z)} = \abs{f(z)} \prod_{k=1}^{n-1} \abs{f(\zeta_n^k z) } \leq \eps\cdot M^{n-1}
+\abs{g(z)}\leq \eps \cdot M^{n-1} \convergesto{\eps\to 0} 0
 .\]
-
-
-
+since $M$ is a constant.
+So $g(z) \equiv 0$ on $\DD_r$, and by the identity principle, on $\DD$.
+Thus some factor $f_k(z)$ is identically zero. 
+But if $f(\zeta_n^k z)\equiv 0$ on $\DD$, then $f(z) \equiv 0$ on $\DD$, since every $z\in \DD$ can be written as $\zeta_n^k w$ for some $w\in \DD$.
 
 :::
+
 
 
 
