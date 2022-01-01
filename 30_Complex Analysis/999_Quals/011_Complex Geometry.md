@@ -9,13 +9,25 @@ order: 11
 
 ^ea471a
 
+
+:::{.problem title="?"}
+\envlist
+
 - Prove that if $\left|w_{1}\right|=c\left|w_{2}\right|$ where $c>0$, then 
 \[
 \left|w_{1}-c^{2} w_{2}\right|=c\left|w_{1}-w_{2}\right|
 .\]
 
 - Prove that if $c>0, c \neq 1$ and $z_{1} \neq z_{2}$, then $\left|\frac{z-z_{1}}{z-z_{2}}\right|=c$ represents a circle. Find its center and radius.
-- 
+
+
+:::
+
+
+:::{.solution}
+
+:::
+
 ## Spring 2020 HW 1.1  #complex/qual/completed
 
 :::{.problem title="?"}
