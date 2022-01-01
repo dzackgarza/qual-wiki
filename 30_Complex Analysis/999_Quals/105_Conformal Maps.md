@@ -221,7 +221,6 @@ In steps:
 
 :::
 
-## Spring 2021.7 #complex/qual/completed
 
 ^644ace
 
@@ -415,6 +414,8 @@ One can also conclude this by handedness: the original region is on the right wi
 
 
 # Intermediate: Joukowski Maps, Blaschke Factors, Slits
+
+## Spring 2021.7 (Slit) #complex/qual/completed
 
 ## Lune #complex/exercise/completed
 
