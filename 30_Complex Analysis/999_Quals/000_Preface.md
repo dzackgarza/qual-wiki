@@ -85,7 +85,7 @@ Included years:
 
 [Spring 2020](https://www.math.uga.edu/sites/default/files/inline-files/ComplexQual_Spring2020.pdf)
 
-- [ ] [[30_Complex Analysis/999_Quals/011_Complex Geometry#^ea471a]]
+- [x] [[30_Complex Analysis/999_Quals/011_Complex Geometry#^ea471a]]
 - [ ] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^c765ed]]
 - [ ] [[30_Complex Analysis/999_Quals/050 Liouville#^c6e205]]
 - [ ] [[30_Complex Analysis/999_Quals/022 Singularities#^4bd9ee]]

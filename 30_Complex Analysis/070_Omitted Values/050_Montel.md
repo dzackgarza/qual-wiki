@@ -111,7 +111,6 @@ Produce a sequence that is uniformly bounded but not equicontinuous.
 $f_k(x) = (\sin k x)$ is uniformly bounded but not equicontinuous on $(0, 1)$ since it has no convergent subsequence on any compact subset.
 :::
 
-
 ## Montel's Theorem
 
 :::{.theorem title="Montel's theorem"}

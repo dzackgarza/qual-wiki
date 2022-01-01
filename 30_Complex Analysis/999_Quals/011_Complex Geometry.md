@@ -2,33 +2,56 @@
 order: 11
 ---
 
-# Complex Geometry
+# Geometry
 
-
-## Spring 2020.1 #complex/qual/work
+## Spring 2020.1, Spring 2020 HW 1.4 #complex/qual/completed 
 
 ^ea471a
-
 
 :::{.problem title="?"}
 \envlist
 
-- Prove that if $\left|w_{1}\right|=c\left|w_{2}\right|$ where $c>0$, then 
+a. Prove that if $c>0$,
 \[
-\left|w_{1}-c^{2} w_{2}\right|=c\left|w_{1}-w_{2}\right|
+\abs{w_1} = c\abs{w_2} \implies \abs{w_1 - c^2 w_2} = c\abs{w_1 - w_2}
 .\]
 
-- Prove that if $c>0, c \neq 1$ and $z_{1} \neq z_{2}$, then $\left|\frac{z-z_{1}}{z-z_{2}}\right|=c$ represents a circle. Find its center and radius.
+b. Prove that if $c>0$ and $c\neq 1$, with $z_1\neq z_2$, then the following equation represents a circle:
+\[
+\abs{z-z_1 \over z-z_2} = c
+.\]
+Find its center and radius.
 
+> Hint: use part (a)
 
 :::
 
-
-:::{.solution}
-
+:::{.solution title="part 1"}
+\[
+\abs{w_1 - c^2 w_2}^2 
+&= (w_1 - c^2 w_2) ( \bar{w_1} - c^2 \bar{w_2} ) \\
+&= \abs{w_1}^2 + c^4 \abs{w_2}^2 - 2c^2 \Re(w_1 \bar{w_2}) \\
+&= {\color{green} c^2 \abs{w_2}^2 } + c^4 \abs{w_2}^2 - 2c^2 \Re(w_1 \bar{w_2}) \\
+&= c^2 \abs{w_2}^2 + {\color{green} c^2 \abs{w_1}^2 } - 2c^2 \Re(w_1 \bar{w_2}) \\
+&= c^2 \abs{w_1 - w_2}
+,\]
+where we've applied the assumption $\abs{w_1} = c\abs{w_2}$ twice.
 :::
 
-## Spring 2020 HW 1.1  #complex/qual/completed
+:::{.solution title="part 2"}
+Using part 1:
+\[
+w_1\da z-z_1, w_2 \da z-z_2 \implies \abs{w_1} &= c\abs{w_2} \\
+\implies \abs{w_1 - c^2 w_2} &= c \abs{w_1 - w_2} \\
+\implies \abs{ z-z_1 - c^2 (z-z_2) } &= \abs{(z-z_1) - (z-z_2)} \\
+\implies \abs{(1-c^2) z - z_3} &= \abs{ z_2 - z_1 } \\
+\implies \abs{z-z_4} &= r
+,\]
+where the $z_i$ and $r$ are all constant, so this is the equation of a circle.
+:::
+
+
+## Spring 2020 HW 1.1  #complex/exercise/completed
 
 :::{.problem title="?"}
 Geometrically describe the following subsets of $\CC$:
@@ -74,50 +97,33 @@ g. Exterior of a circle: same calculation is (2), replacing $=0$ with $<0$.
 Note that the line marked $\star$ involves dividing by a negative, so this flips the sign, and we get $\cdots > \qty{2\over 3}^2$ at the end.
 :::
 
-## Spring 2020 HW 1.4 #complex/qual/completed 
+## Fixed argument exercise #complex/qual/completed
 
-:::{.problem title="?"}
-\envlist
-
-a. Prove that if $c>0$,
+:::{.exercise title="?"}
+Fix $a,b\in \CC$ and $\theta$, and describe the locus
 \[
-\abs{w_1} = c\abs{w_2} \implies \abs{w_1 - c^2 w_2} = c\abs{w_1 - w_2}
+\ts{z\st \Arg\qty{z-a\over z-b} = \theta}
 .\]
 
-b. Prove that if $c>0$ and $c\neq 1$, with $z_1\neq z_2$, then the following equation represents a circle:
-\[
-\abs{z-z_1 \over z-z_2} = c
-.\]
-Find its center and radius.
+:::
 
-> Hint: use part (a)
+
+:::{.solution}
+The geometry at hand:
+
+
+![](figures/2021-12-16_00-02-51.png)
+
+By the inscribed angle theorem, this locus is an arc of a circle whose center $O$ is the point for which the angle $aOb$ is $2\theta$:
+
+
+![](figures/2021-12-16_00-06-08.png)
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ArcCapable.gif/440px-ArcCapable.gif)
 
 :::
 
-:::{.solution title="part 1"}
-\[
-\abs{w_1 - c^2 w_2}^2 
-&= (w_1 - c^2 w_2) ( \bar{w_1} - c^2 \bar{w_2} ) \\
-&= \abs{w_1}^2 + c^4 \abs{w_2}^2 - 2c^2 \Re(w_1 \bar{w_2}) \\
-&= {\color{green} c^2 \abs{w_2}^2 } + c^4 \abs{w_2}^2 - 2c^2 \Re(w_1 \bar{w_2}) \\
-&= c^2 \abs{w_2}^2 + {\color{green} c^2 \abs{w_1}^2 } - 2c^2 \Re(w_1 \bar{w_2}) \\
-&= c^2 \abs{w_1 - w_2}
-,\]
-where we've applied the assumption $\abs{w_1} = c\abs{w_2}$ twice.
-:::
 
-:::{.solution title="part 2"}
-Using part 1:
-\[
-w_1\da z-z_1, w_2 \da z-z_2 \implies \abs{w_1} &= c\abs{w_2} \\
-\implies \abs{w_1 - c^2 w_2} &= c \abs{w_1 - w_2} \\
-\implies \abs{ z-z_1 - c^2 (z-z_2) } &= \abs{(z-z_1) - (z-z_2)} \\
-\implies \abs{(1-c^2) z - z_3} &= \abs{ z_2 - z_1 } \\
-\implies \abs{z-z_4} &= r
-,\]
-where the $z_i$ and $r$ are all constant, so thus is the equation of a circle.
-
-:::
 
 ## Fall 2019.2, Spring 2020 HW 1.11 #complex/qual/completed
 
@@ -164,6 +170,8 @@ Running the above calculation backward yields $s_2/s_3 = s_1/s_2$, and by the 2n
 Similar arguments show $\theta_1=\theta_2 = \theta_3$ which forces $s_1=s_2 = s_3$.
 
 :::
+
+# Arithmetic
 
 ## Spring 2020 HW 1.5 #complex/qual/completed
 
@@ -214,33 +222,6 @@ F(F(z))
 &= z
 .\]
 
-
-:::
-
-
-## Fixed argument exercise #complex/qual/completed
-
-:::{.exercise title="?"}
-Fix $a,b\in \CC$ and $\theta$, and describe the locus
-\[
-\ts{z\st \Arg\qty{z-a\over z-b} = \theta}
-.\]
-
-:::
-
-
-:::{.solution}
-The geometry at hand:
-
-
-![](figures/2021-12-16_00-02-51.png)
-
-By the inscribed angle theorem, this locus is an arc of a circle whose center $O$ is the point for which the angle $aOb$ is $2\theta$:
-
-
-![](figures/2021-12-16_00-06-08.png)
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ArcCapable.gif/440px-ArcCapable.gif)
 
 :::
 
