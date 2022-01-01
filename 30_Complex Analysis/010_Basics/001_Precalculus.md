@@ -52,6 +52,9 @@ Some useful parametric equations:
 ![](figures/2021-12-30_19-31-42.png)
 
   - In complex form: $\gamma(t) = ae^{it} + be^{-it}$.
+  - What the parameters mean:
+
+  ![](figures/2022-01-01_00-11-24.png)
 
 - For off-center circles $(x-h)^2 + (y-k)^2 = r^2$, use $\tv{r\cos(t) + h, r\sin(t) + k}$.
 
@@ -64,9 +67,9 @@ Some useful parametric equations:
 
   - Rational parameterization of an ellipse:
   \[
-  \tv{A {1-u^2\over 1+u^2} , B {2u\over 1+u^2}} = A {1-u^2\over 1+u^2} +iB{2u\over 1+u^2}
+  \tv{a {1-u^2\over 1+u^2} , b {2u\over 1+u^2}} = a {1-u^2\over 1+u^2} +ib{2u\over 1+u^2}
   .\]
-  - Rational parameterization of a circle: just take $A=B=R$,
+  - Rational parameterization of a circle: just take $a=b=R$,
   \[
   \tv{R {1-u^2\over 1+u^2} , R {2u\over 1+u^2}} = R {1-u^2\over 1+u^2} +iR{2u\over 1+u^2}
   .\]
