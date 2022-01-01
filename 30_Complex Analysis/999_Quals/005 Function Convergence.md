@@ -38,19 +38,15 @@ By Schwarz, $\abs{f(z)}\leq \abs{z}$ with equality at any nonzero point implying
 Now $f(a) = a = e^{i\theta }a$ forces $\theta = 0$, so $f(z) = z$ is the identity.
 
 
+Since $f(0) = 0$, the Schwarz lemma applies and either
 
-:::{.claim}
-$g(0) = 0$ and the Schwarz lemma applies to $g$.
-:::
+- $f(z) = e^{i\theta} z$ is a rotation, or
+- $\abs{f'(0)} < 1$ and $\abs{f(z)} < z$ for all $z\in \DD$.
 
-Thus either
+Supposing the latter, $f$ is a contraction, and $\abs{f_n(z)} < \abs{f_{n+1}(z)}$ for all $n$ and all $z$, so $\abs{f_n(z)} \convergesto{n\to\infty} 0$ for all $z$.
+Since $f_n\to g$ pointwise, this means $g(z) = 0$ for all $z$, making $g\equiv 0$.
 
-- $g(z) = e^{i\theta} z$ is a rotation, or
-- $\abs{g'(0)} < 1$ and $\abs{g(z)} < z$ for all $z\in \DD$.
-
-
-Given this, suppose $g(z)$ is not the constant zero function.
-
+Otherwise, suppose $f$ is a rotation.
 
 :::
 
