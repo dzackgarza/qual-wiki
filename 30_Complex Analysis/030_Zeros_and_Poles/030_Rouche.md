@@ -203,3 +203,23 @@ Show that $\alpha z e^z = 1$ where $\abs{\alpha} > e$ has exactly one solution i
 - Estimate at $\abs{z} =1$ we have $\abs{g} =\abs{e^{-z}} = e^{-\Re(z)} \leq e^1 < \abs{\alpha} = \abs{f(z)}$
 - $f$ has one zero at $z_0 = 0$, thus so does $f+g$.
 :::
+
+
+:::{.exercise title="Unique fixed points"}
+Show that if $f$ is holomorphic on $\DD$ and continuous on $\bar\DD$ with $f(\bar \DD) \subseteq \DD$, then $f$ has a unique fixed point in $\DD$.
+
+> Note: this is subtle because $\DD$ is not compact!
+
+:::
+
+:::{.solution}
+Continuous images of compact sets are compact, so $f(\bar\DD)$ is a compact subset of $\DD$ and thus contained in some $\DD_r(0)$ with $0<r<1$.
+On this disc,
+\[
+\abs{f(z)} = \abs{f(z) - z + z} < \abs{z}
+.\]
+By Rouché, $f(z)-z$ and $z$ have the same number of zeros, which is one.
+This holds for any $r'$ with $r<r'<1$, and thus holds on $\DD$.
+:::
+
+
