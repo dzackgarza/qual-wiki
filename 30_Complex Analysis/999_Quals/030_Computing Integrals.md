@@ -486,11 +486,16 @@ Show that if $a>0$, then
 
 ^c765ed
 
+
+:::{.problem title="?"}
 Compute the following integral carefully justifying each step:
 
-$$
+\[
 \int_{0}^{\infty} \frac{\log x}{1+x^{3}} \text {. }
-$$
+\]
+
+:::
+
 
 
 ### Square root in numerator #complex/exercise/work

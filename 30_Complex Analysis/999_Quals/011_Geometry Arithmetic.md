@@ -1,5 +1,6 @@
 ---
 order: 11
+title: "Geometry and Arithmetic"
 ---
 
 # Geometry
@@ -97,7 +98,7 @@ g. Exterior of a circle: same calculation is (2), replacing $=0$ with $<0$.
 Note that the line marked $\star$ involves dividing by a negative, so this flips the sign, and we get $\cdots > \qty{2\over 3}^2$ at the end.
 :::
 
-## Fixed argument exercise #complex/qual/completed
+## Fixed argument exercise #complex/exercise/completed
 
 :::{.exercise title="?"}
 Fix $a,b\in \CC$ and $\theta$, and describe the locus
