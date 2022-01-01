@@ -156,38 +156,6 @@ In this case, $a = f'(z_0)$.
 
 #todo proof
 
-:::{.proposition title="Holomorphic functions have isolated zeros"}
-If $f:\CC\to \CC$ is holomorphic and not identically zero, then $f$ has isolated zeros.
-:::
-
-:::{.proof title="?"}
-Suppose not, then pick a limit point $z_0$ with $f(z_0)=0$ with a sequence $\ts{z_k}\to z_0$ where $f(z_k) = 0$ for all $k$.
-Expand $f$ in a Laurent series; since $f\not\equiv 0$ there is a smallest nonzero coefficient $c_m$:
-\[
-f(z) = \sum_{k\geq m}c_k (z-z_0)^k = c_m(z-z_0)^m \cdot\qty{1 + \sum_{k\geq 1}c_k' (z-z_0)^k } \da c_m(z-z_0)^m \cdot(1 + g(z-z_0))
-.\]
-Note $g(z-z_0)\convergesto{z\to z_0} 0$, and since $z_k\to z_0$ we can find $k\gg 1$ such that $g(z_k - z_0) < \eps$.
-In particular, for $k$ large enough, $1 < 1+g(z_k - z_0) 1 + \eps$, but this contradicts $f(z_k) = 0$:
-\[
-0 = f(z_k) = c_m(z_k - z_0)^m (1 + g(z_k - z_0)) \neq 0
-.\]
-
-$\contradiction$
-
-:::
-
-:::{.corollary title="Identity principle"}
-If $f,g$ are holomorphic and $f=g$ on any set with a limit point, then $f\equiv g$.
-
-The proof follows from the fact that $f-g$ is holomorphic and has nonisolated zeros.
-:::
-
-:::{.proposition title="Factorization of zeros out of holomorphic functions"}
-
-![](figures/2021-12-14_17-02-18.png)
-
-:::
-
 
 # Wirtinger Calculus
 
