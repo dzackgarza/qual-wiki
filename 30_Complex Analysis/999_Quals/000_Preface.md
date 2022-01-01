@@ -51,7 +51,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^b9b6b4]]
 - [x] [[30_Complex Analysis/999_Quals/070_Morera#^a550c1]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^1eefcc]]
-- [x] [[30_Complex Analysis/999_Quals/005 Function Convergence#^b0c999]]
+- [x] [[30_Complex Analysis/999_Quals/005 Montel#^b0c999]] (unsure)
 - [x] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^ee1748]]
 - [x] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^33ab95]]
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^efdbde]]
