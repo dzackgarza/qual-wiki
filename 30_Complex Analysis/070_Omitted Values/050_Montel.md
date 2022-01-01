@@ -113,11 +113,14 @@ Equivalently: a family $\mcf$ of meromorphic functions on a domain $\Omega$ that
 
 :::{.slogan}
 Locally uniformly bounded families are normal.
+For bounded sequences of holomorphic functions, pointwise convergence is the same as uniform convergence on bounded sets.
 :::
 
 :::{.remark}
 This says that a sequence of holomorphic functions avoiding the exterior of a disc contains a locally uniformly convergent subsequence.
 In particular, the limit is holomorphic.
+
+Moreover, if $f_n\to f$ pointwise where $f$ fails continuity or differentiability at a single point, then $\ts{f_n}$ can not be uniformly bounded on all compact subsets.
 :::
 
 ## Exercise
