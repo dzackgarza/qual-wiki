@@ -8,11 +8,14 @@ sort: 10
 :::{.remark}
 A summary:
 
+- $\DD\to \DD$:  $\lambda {z-a\over 1-\bar{a}z}$ for rotations $\lambda \in S^1$ 
+- $\HH\to \DD$: the Cayley map $z\mapsto {z-i\over z+i}$
+- Horizontal strips to $\HH$: use $z\mapsto e^z$ for $0<\Im(z) < \pi \to 0<
+
 | Region | Map |
 |--------|-----|
-| $\DD\to \DD$ | $\lambda {z-a\over 1-\bar{a}z}, \lambda \in S^1$ |
+| $\DD\to \DD$ ||
 | $\HH\to \DD$ | ${z-i\over z+i}$ | 
-| Horizontal strip to sector | $e^{\alpha z}$ |
 | Horizontal strip to $\HH$| $e^{z}$ |
 | Sector to $\HH$ | $z^\alpha$ |
 | $\HH$ to vertical half-strip | $\sin(z)$ |
@@ -34,7 +37,7 @@ A summary:
 
 Some tips:
 
-- A quick computational fact: $1/z = \bar{z}\over \abs{z}^2$. 
+- A quick computational fact: $1/z = {\bar{z}\over \abs{z}^2}$. 
   Use this to quickly compute images, e.g. for $\abs{z-1} = 1$ under $f(z) = 1/z$, write $f(1+i)={1\over 1+i} = {1-i \over 2}$.
 - The locus of points equidistant to two fixed points is the perpendicular bisector.
 - Seems obvious, but *use* that conformal maps preserve angles.
