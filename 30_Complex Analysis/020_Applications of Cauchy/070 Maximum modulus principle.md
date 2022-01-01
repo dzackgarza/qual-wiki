@@ -6,6 +6,12 @@ If $f$ has a relative maximum at $z_0\in\Omega$, then $f$ is constant in a neigh
 If $\Omega$ is a bounded connected domain with $f$ continuous on $\Omega$ and $\bd \Omega$, then either $f$ is constant or $M \da \max_{z\in \Omega}\abs{f(z)}$ is only attained by some $z\in \bd\Omega$.
 :::
 
+:::{.proof title="by the open mapping theorem"}
+Use that $z\mapsto \abs{z}$ is an open map away from $z=0$.
+If $f$ is holomorphic, by the open mapping theorem it is an open map.
+If $f$ attains a maximum at an interior point $z_0$, then there is some neighborhood $U\ni z_0$ where $\abs{f(U)}$ is open in $\RR$ -- but such an interval contains values larger than $\abs{f(z_0)}$, contradicting maximality at $z_0$.
+:::
+
 :::{.theorem title="Minimum modulus principle"}
 Suppose  $f$ is holomorphic and nonvanishing on $\Omega$.
 If any interior point $z_0\in \Omega^\circ$ is a relative minimum for $f$, then $f$ is constant.
