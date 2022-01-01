@@ -510,7 +510,30 @@ Take $z\mapsto {z+1\over z-1}$ to obtain
 - $-1\mapsto 0$
 - $1\mapsto \infty$
 - $0\mapsto -1$
-- $z_3\mapsto -{\sqrt 2 \over 2}(1+i) = \omega_4^3$
+
+
+:::{.claim}
+$z_3\mapsto w_0$ where $\arg(w_0) = -3\pi/4$
+:::
+
+
+:::{.proof title="?"}
+Let $z_3 = ic$ where $c\da \sqrt{2} -1$, then
+\[
+f(z_3) 
+&= -{1+z_3\over 1-z_3} \\
+&= -{1+ic \over 1-ic} \\
+&= -{(1+ic)^2 \over 1+c^2} \\
+&= -\qty{ {1-c^2 \over 1+c^2} + i{2c\over 1+c^2} }
+.\]
+Now check that $c^2 = 3-2\sqrt 2$ and $1-c^2 = -2+2\sqrt{2}$, so
+\[
+{ 2c\over 1-c^2} = {2(\sqrt 2 - 1) \over -2 + 2\sqrt 2 } = 1
+,\]
+so the argument is $\arctan(1) = { \pi \over 4}$ or $-{3\pi \over 4}$.
+Since $1-c^2>0, 2c>0$, noting the negative sign above, $f(z_3)$ is in $Q_3$, so take $-3\pi \over 4$.
+:::
+
 
 Orienting the bigon positively, we have $(-1, 0, 1)\mapsto (0, -1, \infty)$, i.e. the real axis oriented from $+\infty\to-\infty$.
 Similarly $(1, z_3, -1)\mapsto (\infty, \omega_4^3, 0)$, which is a line passing through $\omega_4^3$, oriented from $Q_3\to Q_1$.
