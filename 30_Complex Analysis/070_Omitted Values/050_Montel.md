@@ -75,17 +75,9 @@ A family $\mcf$ of holomorphic functions is **equicontinuous** on $K$ if
 .\]
 :::
 
-:::{.example title="?"}
-If $f_k:[0,1]\to \RR$ is a family of differentiable functions with a uniform constant $M$ with $\abs{f_k'} \leq M$ for all $f\in \mcf$, then $\ts{f_k}$ is equicontinuous.
-To prove this, apply the MVT.
-:::
-
-:::{.example title="?"}
-The family $f_k(x) = x^k$ is not equicontinuous, since fixing $x_0 \in (0, 1)$ we have $\abs{f_k(x_0) - f_k(1)} \convergesto{k\to \infty} 1 > \eps$.
-:::
-
-:::{.example title="?"}
-$f_k(x) = (\sin k x)$ is uniformly bounded but not equicontinuous on $(0, 1)$ since it has no convergent subsequence on any compact subset.
+:::{.remark}
+Equicontinuity is uniform continuity, where the uniformity extends across all $f\in \mcf$.
+The following is a stark difference between holomorphic and smooth functions, and is used in the Riemann mapping theorem:
 :::
 
 :::{.example title="Negating equicontinuity"}
@@ -93,14 +85,32 @@ To negate equicontinuity, show that there exists $\eps>0$ and a bad tuple $(x, y
 This produces sequences $x_k, y_k, f_k$ with $\abs{x_k-y_k}\to 0$ but $\abs{f_k(x_k) - f_k(y_k)} > \eps$.
 :::
 
-:::{.theorem title="Arzela-Ascoli"}
-A subset $\mcf \subset C[a, b]$ is a compact subset of continuous functions $\iff \mcf$ is bounded and equicontinuous.
+:::{.exercise title="Uniformly bounded derivatives implies equicontinuous"}
+Show that if $\ts{f_k}$ is a differentiable sequence with $\abs{f_k'(x)} \leq M$ uniformly bounded, then $\ts{f_k}$ is equicontinuous.
+
+> Hint: MVT.
+
 :::
 
-:::{.remark}
-Equicontinuity is uniform continuity, where the uniformity extends across all $f\in \mcf$.
-The following is a stark difference between holomorphic and smooth functions, and is used in the Riemann mapping theorem:
+:::{.exercise title="A non-equicontinuous sequence"}
+Exhibit a sequence of functions that is not equicontinuous.
 :::
+
+:::{.solution}
+The family $f_k(x) = x^k$ is not equicontinuous, since fixing $x_0 \in (0, 1)$ we have 
+\[
+\abs{f_k(x_0) - f_k(1)} \convergesto{k\to \infty} 1 > \eps
+.\]
+:::
+
+:::{.exercise title="Uniformly bounded but not equicontinuous"}
+Produce a sequence that is uniformly bounded but not equicontinuous.
+:::
+
+:::{.solution}
+$f_k(x) = (\sin k x)$ is uniformly bounded but not equicontinuous on $(0, 1)$ since it has no convergent subsequence on any compact subset.
+:::
+
 
 ## Montel's Theorem
 
