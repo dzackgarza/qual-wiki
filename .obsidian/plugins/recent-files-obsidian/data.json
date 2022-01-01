@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "011_Complex Geometry",
+      "path": "30_Complex Analysis/999_Quals/011_Complex Geometry.md"
+    },
+    {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "015_Singularities",
       "path": "30_Complex Analysis/030_Zeros_and_Poles/015_Singularities.md"
-    },
-    {
-      "basename": "011_Complex Geometry",
-      "path": "30_Complex Analysis/999_Quals/011_Complex Geometry.md"
     },
     {
       "basename": "999_Exercises",

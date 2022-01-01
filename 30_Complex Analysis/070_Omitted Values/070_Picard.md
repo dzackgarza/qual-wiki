@@ -9,6 +9,14 @@ If $f$ is nonconstant and entire, it takes on every value in $\CC$ with at most 
 Equivalently, if $f$ omits 2 finite values, $f$ is constant.
 :::
 
+:::{.proof title="Liouville and uniformization"}
+Wlog, suppose the three omitted points are $1,0\infty$ and suppose $f: \CC\to X\da \CP^1\sm\ts{1,0\infty}$ is holomorphic.
+The universal cover of $X$ is $\HH$, so $f$ lifts to a holomorphic map to $\HH$.
+Under the Cayley map, we can obtain a holomorphic map $f:\CC\to \DD$.
+This makes $f$ a bounded entire function, and thus constant by Liouville.
+:::
+
+
 ## Exercise
 
 :::{.exercise title="?"}
