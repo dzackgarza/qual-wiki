@@ -8,6 +8,8 @@ order: 40
 
 ^189826
 
+
+:::{.problem title="?"}
 Suppose that $U$ is a bounded, open and simply connected domain in $\mathbb{C}$ and that $f(z)$ is a complex-valued non-constant continuous function on $\bar{U}$ whose restriction to $U$ is holomorphic.
 
 - Prove the maximum modulus principle by showing that if $z_{0} \in U$, then
@@ -17,6 +19,15 @@ $$
 $$
 
 - Show furthermore that if $|f(z)|$ is constant on $\partial U$, then $f(z)$ has a zero in $U$ (i.e., there exists $z_{0} \in U$ for which $f\left(z_{0}\right)=0$ ).
+
+:::
+
+
+:::{.solution}
+Suppose toward a contradiction that there exists a $z_0 \in U$ with $\abs{f(z_0)} = M \da \sup_{z\in \bd U} \abs{f(z)}$.
+:::
+
+
 
 ## Spring 2020 HW 3, SS 3.8.15 #complex/exercise/work
 Use the Cauchy inequalities or the maximum modulus principle to solve the following problems:
