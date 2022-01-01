@@ -5,17 +5,36 @@ Recall that a point $x$ is a limit point of a set $S$ if every punctured neighbo
 :::
 
 :::{.theorem title="Continuation Principle / Identity Theorem"}
-Suppose $f$ is holomorphic on a bounded connected domain $\Omega$.
+Suppose $f$ is holomorphic on a bounded connected domain $\Omega \neq \emptyset$.
 TFAE:
 
 - $f(z) \equiv 0$
-- There is an accumulation point $z_0$ and a sequence $\ts{z_k}\to z_0$ with $f(z_k) = 0$ for all $k$.
+- There is an accumulation point $z_0$ and a sequence $\ts{z_k}\to z_0$ with $f(z_k) = 0$ for all $k$, with the $z_k$ distinct.
 - There is a point $z_0$ with $f^{(n)}(z_0) = 0$ for all $n$.
 :::
 
 :::{.slogan}
 Two functions agreeing on a set with a limit point are equal on a domain.
 :::
+
+
+:::{.proof title="?"}
+$1\implies 2$:
+Take $z_k \da z_0 + C{1\over k}$ for any $z_0\in \Omega$, since $f(z_0) = 0$ for any such $z_k$.
+Choose the constant $C$ such that $z_k \in \Omega$ for all $k$.
+
+$2\implies 3$:
+Given such a $z_0$, take a Laurent expansion centered there.
+Then for some minimal $m$ with $c_m \neq 0$,
+\[
+f(z) = \sum_{k\geq m}c_k (z-z_0)^k = (z-z_0)^m \sum_{k\geq m}c_k (z-z_0)^{k-m} \da (z-z_0)^m g(z)
+,\]
+where $g$ is holomorphic on some neighborhood of $z_0$ and nonvanishing at $z_0$, since $g(z_0) = c_m \neq 0$.
+By continuity, $g$ is nonzero on some (potentially smaller) neighborhood $U \ni z_0$.
+Since $0 = f(z_k) = = (z_k - z_0)^m g(z_k)$ for all $k$ with $z_k\neq z_0$ and $z_k$ distinct, this forces infinitely many $z_k$ to equal $z_0$, a contradiction.
+
+:::
+
 
 :::{.proof title="?"}
 ![[attachments/Pasted image 20211215021255.png]]
