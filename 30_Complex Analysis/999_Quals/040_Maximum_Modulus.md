@@ -24,7 +24,14 @@ $$
 
 
 :::{.solution}
-Suppose toward a contradiction that there exists a $z_0 \in U$ with $\abs{f(z_0)} = M \da \sup_{z\in \bd U} \abs{f(z)}$.
+Let $M\da \sup_{z\in \bd U}\abs{f(z)}$.
+If $M=0$, then $f$ must be the constant zero function, so assume $M>0$.
+
+Suppose toward a contradiction that there exists a $z_0 \in U$ with $\abs{f(z_0)} = M$.
+Note that the map $z\mapsto \abs{z}$ is an open in discs that don't intersect $z=0$.
+Since $f$ is holomorphic, by the open mapping theorem $f$ is an open map, so consider $D_\eps(z_0)$ a small disk not containing $0$.
+Then $f(D_\eps(z_0))$ is open, and the composition $z\mapsto f(z) \mapsto \abs{f(z)}$ is an open map $D_\eps(z_0)\to \RR$.
+But then $\abs{f(D_\eps(z_0))} \contains (M-\eps, M+\eps)$ contains some open interval about $M$, which contradicts maximality of $f$ at $z_0$.
 :::
 
 
