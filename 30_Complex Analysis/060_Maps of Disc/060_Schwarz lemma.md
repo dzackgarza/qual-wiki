@@ -61,8 +61,8 @@ Setting $B_w(z) \da {z-w\over 1-\bar{w} z}$, this is not a rotation when $w\neq 
 Every map $g\in \BiHol(\DD)$ is of the form 
 \[
 g(z) = \lambda {a-z \over 1 - \bar a z}, \quad a\in \Delta, \lambda \in S^1
-\]
-
+,\]
+i.e a Blaschke product.
 :::
 
 :::{.proof title="of theorem, sketch"}
