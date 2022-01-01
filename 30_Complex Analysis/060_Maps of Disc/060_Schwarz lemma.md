@@ -45,8 +45,6 @@ Scaling: use a fun trick, insert $1=\bar\lambda \lambda$ like so
 .\]
 
 Being an involution: check $\psi_a(\psi_a(z))$ satisfies the Schwarz lemma and has two fixed points, forcing it to be the identity.
-
-
 :::
 
 :::{.remark}
