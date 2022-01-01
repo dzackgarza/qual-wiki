@@ -8,30 +8,26 @@ sort: 10
 :::{.remark}
 A summary:
 
+- $z\mapsto -z$ is a reflection about $y=x$, so for example sends $\HH \to Q_{34}$ and $\DD
 - $\DD\to \DD$:  $\lambda {z-a\over 1-\bar{a}z}$ for rotations $\lambda \in S^1$ 
 - $\HH\to \DD$: the Cayley map $z\mapsto {z-i\over z+i}$
 - Horizontal strips to $\HH$: use $z\mapsto e^z$ for $0<\Im(z) < \pi \to \HH$
 	-   These send $\ts{\Im(z) \in (-\pi, \pi) }\too \CC\sm\RR_{\leq 0}$.
 - Sectors to $\HH$: for $0<\Arg(z) < {\pi \over n}$, use $z\mapsto z^{n}$ to get $\HH$.
 	- Some variants:
-	![Squaring](figures/2021-12-10_20-25-14.png)
-![Symmetric sector to right half-plane](figures/2021-12-10_20-24-49.png)
+		- Unfolding a half-plane: 
+		![Squaring](figures/2021-12-10_20-25-14.png)
+		Generally, $$\ts{\Arg(z) \in (-\theta_0, \theta_0) } \mapsvia{z^a} \ts{\Arg(z) \in (-a\theta_0, a\theta_0) }$$
+		- Unfolding a symmetric sector:
+		![Symmetric sector to right half-plane](figures/2021-12-10_20-24-49.png)
+
+		  $$z\mapsto z^{\pi \over 2\theta_0}: \ts{\Arg(z) \in (-\theta_0, \theta_0)}\to \ts{\Arg(z) \in (-\pi/2, \pi/ 2)}.$$
+
 - Half-discs to planes: the Joukowski maps $z\mapsto z+z\inv$
 - Bigons: map the intersection points $z_0\to 0, z_1\to\infty$ to get strips
 
 
-
-  
-
-  - For fixed $\theta_0\in (0, \pi)$ and $a\in [0, \pi/\theta_0]$, $z\mapsto z^a: \ts{\abs{\Arg(z)} \in (-\theta_0, \theta_0) } \to \ts{\Arg(z) \in (-a\theta_0, a\theta_0) }$.
-  - $z\mapsto z^{\pi \over 2\theta_0}: \ts{\Arg(z) \in (-\theta_0, \theta_0)}\to \ts{\Arg(z) \in (-\pi/2, \pi/ 2)}$.
-
-  
-
-
-Some tips:
-
-- A quick computational fact: $1/z = {\bar{z}\over \abs{z}^2}$. 
+- A quick computational fact: $z\inv = {\bar{z}\over \abs{z}^2}$. 
   Use this to quickly compute images, e.g. for $\abs{z-1} = 1$ under $f(z) = 1/z$, write $f(1+i)={1\over 1+i} = {1-i \over 2}$.
 - The locus of points equidistant to two fixed points is the perpendicular bisector.
 - Seems obvious, but *use* that conformal maps preserve angles.
