@@ -113,6 +113,25 @@ But if $f(\zeta_n^k z)\equiv 0$ on $\DD$, then $f(z) \equiv 0$ on $\DD$, since e
 
 :::
 
+:::{.solution title="Part 3"}
+Consider
+\[
+f(z) \da \prod_{1\leq k \leq n} (w_k - z)
+.\]
+Then $f$ is holomorphic and nonconstant on $\DD$, so attains a maximum $M$ on $S^1$.
+Moreover, $\abs{f(z)} = \prod \abs{w_k-z}$ is exactly the product of distances from $z$ to the $w_k$.
+Moreover, since $\abs{f(0)} = \prod\abs{w_k} = 1$, we must have $M>1$.
+
+Now note that $f(w_k) = 0$ and $f$ is continuous in $\DD$.
+So $\abs{f(z)} \in [0, M] \subseteq \RR$ where $M>1$, so by the intermediate value theorem, $\abs{f(z)} = 1$ for some $z$.
+:::
+
+
+:::{.solution title="Part 4"}
+
+:::
+
+
 
 
 
