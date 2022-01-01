@@ -339,7 +339,16 @@ From here, it's a standard exercise, so to sum up:
 
 ## Tie's Extra Questions: Fall 2016 #complex/exercise/work
 
-Find the conformal map that takes the upper half-plane conformally onto the half-strip $\{w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
+
+:::{.problem title="?"}
+Find the conformal map that takes the upper half-plane conformally onto the half-strip 
+\[
+\ts{w=x+iy \st -\pi/2 < x < \pi/2,\, y>0}
+.\]
+
+
+:::
+
 
 # Fundamentals: Lunes, Bigons
 
