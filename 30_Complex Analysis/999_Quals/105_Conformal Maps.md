@@ -534,12 +534,19 @@ so the argument is $\arctan(1) = { \pi \over 4}$ or $-{3\pi \over 4}$.
 Since $1-c^2>0, 2c>0$, noting the negative sign above, $f(z_3)$ is in $Q_3$, so take $-3\pi \over 4$.
 :::
 
-
 Orienting the bigon positively, we have $(-1, 0, 1)\mapsto (0, -1, \infty)$, i.e. the real axis oriented from $+\infty\to-\infty$.
 Similarly $(1, z_3, -1)\mapsto (\infty, \omega_4^3, 0)$, which is a line passing through $\omega_4^3$, oriented from $Q_3\to Q_1$.
 Since the original region was on the left of both curves, we get
 
 ![](figures/2021-12-31_20-01-07.png)
+
+Now
+
+- Flip this to $Q_1$ with $z\mapsto -z$ to get $0<\Arg(z) < \pi/4$.
+- Rotate clockwise with $z\mapsto e^{-i\pi\over 8}$ to get $-\pi/8<\Arg(z) < \pi/8$.
+- Dilate the argument to a half-plane with $z\mapsto z^{\pi\over 2\theta_0}$ where $\theta_0 = \pi/8$ to get $-\pi/2<\Arg(z) < \pi/2$.
+- Rotate with $z\mapsto iz$ to get $\HH$.
+- Cayley map, $z\mapsto {z-i\over z+i}$.
 
 :::
 
