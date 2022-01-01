@@ -246,15 +246,21 @@ E.g. the image of $\abs{z-i/2} =2$ is $\ts{ \Im(z) = 2}$
 :::
 
 :::{.solution}
-Similar to a previous problem, just keeping track of the slit:
-
-![](figures/2021-12-30_01-50-56.png)
+Note: this seems unusually difficult for a UGA question!
+This is a bigon with one vertex $z_2 = 0$, so send it to infinity and keep track of the slit.
 
 In steps:
 
-- Send $0\to\infty$ with $z\mapsto 1/z$ to map $R$ to $0 < \Re(z) < 1$.
-- Rotate by $z\mapsto iz$ to get $0<\Im(z) < 1$
-- Dilate by $\pi$ and exponentiate using $z\mapsto e^{\pi z}$ to map this to $0 < \Im(z) < \pi$ and then to $\HH$.
+- Use $z\mapsto 1/z$ to get a vertical strip $0<\Re(z) < 1$, where the slit maps to $[1/2, 1]$.
+
+![](figures/2021-12-31_23-13-16.png)
+
+- Shift and dilate with $z\mapsto \pi(z-1/2)$ to get $-\pi/2<\Re(z) < \pi/2$, where the slit is now at $[0, \pi/2]$.
+- Apply $z\mapsto \sin(z)$ to get $\CC\sm[0, 1]$.
+- Move the slit with $z\mapsto 4(z-1/2)$ to get $\CC\sm[-2, 2]$.
+- Apply $z\mapsto z+z\inv$ to get $\CC\sm\DD$, where the slit is now eliminated.
+- Use $z\mapsto 1/z$ to get $\DD$
+- Use the inverse Cayley map $z\mapsto i{1-z\over 1+z}$ to get $\HH$.
 :::
 
 
