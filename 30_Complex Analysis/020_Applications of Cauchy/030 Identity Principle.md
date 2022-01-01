@@ -5,7 +5,12 @@ Recall that a point $x$ is a limit point of a set $S$ if every punctured neighbo
 :::
 
 :::{.theorem title="Continuation Principle / Identity Theorem"}
-If $f$ is holomorphic on a bounded connected domain $\Omega$ and there exists a sequence $\theset{z_i}$ with a **limit point** in $\Omega$ such that $f(z_i) = 0$, then $f\equiv 0$ on $\Omega$.
+Suppose $f$ is holomorphic on a bounded connected domain $\Omega$.
+TFAE:
+
+- $f(z) \equiv 0$
+- There is an accumulation point $z_0$ and a sequence $\ts{z_k}\to z_0$ with $f(z_k) = 0$ for all $k$.
+- There is a point $z_0$ with $f^{(n)}(z_0) = 0$ for all $n$.
 :::
 
 :::{.slogan}
