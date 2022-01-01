@@ -1,6 +1,10 @@
 # Montel
 
-#todo Clean up!
+
+:::{.remark}
+"Locally" means "on all compact subsets".
+:::
+
 
 ## Equicontinuity
 
@@ -16,11 +20,17 @@ A family of functions $f_n$ is **equicontinuous** iff for every $\eps$ there exi
 Equicontinuity is uniform continuity which is also uniform across the family.
 :::
 
-:::{.remark}
-Recall Arzelà-Ascoli, an analog of Heine-Borel: for $X$ compact Hausdorff, consider the Banach space $C(X; \RR)$ equipped with the *uniform norm* $\norm{f}_{\infty, X} \da \sup_{x\in X} \abs{f(x)}$.
+:::{.theorem title="Arzelà-Ascoli (analog of Heine-Borel)"}
+For $X$ compact Hausdorff, consider the Banach space $C(X; \RR)$ equipped with the *uniform norm* 
+\[
+\norm{f}_{\infty, X} \da \sup_{x\in X} \abs{f(x)}
+.\]
 
-Then a subset $A \subseteq X$ is compact iff $A$ is closed, uniformly bounded, and equicontinuous.
-As a consequence, if $A$ is a sequence, it contains a subsequence converging uniformly to a continuous function.
+A subset $A \subseteq C(X; \RR)$ is compact iff $A$ is closed, uniformly bounded, and equicontinuous.
+:::
+
+:::{.remark}
+If $A$ is a sequence of continuous functions, it contains a subsequence converging uniformly and the limit is continuous.
 The proof is an $\eps/3$ argument.
 :::
 
