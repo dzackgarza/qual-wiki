@@ -266,7 +266,13 @@ F: \HH &\to \qty{-{\pi \over 2}, {\pi \over 2}} \cross i\RR \\
 z &\mapsto \sin(z)
 .\]
 
-![](figures/2021-11-28_18-51-38.png)
+The mapping $z\mapsto \sin(z)$:
+![](figures/2021-12-31_23-01-11.png)
+
+
+- As $z$ travels from $i\infty \to i0$, $\sin(iz) = i\sinh(z)$ also traverses $i\infty\to i0$ 
+- For $z\in[-\pi/2, \pi/2]$, $\sin(z)$ is real and in $[-1, 1]$.
+- As $z$ travels along $\pi/2 + it$ for $t\in [0, \infty)$, $\sin(z) = 
 
 Note that this isn't new: set $w \da e^{iz}$, then
 \[
