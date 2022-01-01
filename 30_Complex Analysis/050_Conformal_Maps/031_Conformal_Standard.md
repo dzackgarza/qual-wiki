@@ -10,29 +10,23 @@ A summary:
 
 - $\DD\to \DD$:  $\lambda {z-a\over 1-\bar{a}z}$ for rotations $\lambda \in S^1$ 
 - $\HH\to \DD$: the Cayley map $z\mapsto {z-i\over z+i}$
-- Horizontal strips to $\HH$: use $z\mapsto e^z$ for $0<\Im(z) < \pi \to 0<
+- Horizontal strips to $\HH$: use $z\mapsto e^z$ for $0<\Im(z) < \pi \to \HH$
+	-   These send $\ts{\Im(z) \in (-\pi, \pi) }\too \CC\sm\RR_{\leq 0}$.
+- Sectors to $\HH$: for $0<\Arg(z) < {\pi \over n}$, use $z\mapsto z^{n}$ to get $\HH$.
+	- Some variants:
+	![Squaring](figures/2021-12-10_20-25-14.png)
+![Symmetric sector to right half-plane](figures/2021-12-10_20-24-49.png)
+- Half-discs to planes: the Joukowski maps $z\mapsto z+z\inv$
+- Bigons: map the intersection points $z_0\to 0, z_1\to\infty$ to get strips
 
-| Region | Map |
-|--------|-----|
-| $\DD\to \DD$ ||
-| $\HH\to \DD$ | ${z-i\over z+i}$ | 
-| Horizontal strip to $\HH$| $e^{z}$ |
-| Sector to $\HH$ | $z^\alpha$ |
-| $\HH$ to vertical half-strip | $\sin(z)$ |
-| Half-discs to half-planes | Joukowski maps|
 
-- Exponentials and logs:
-  - $z\mapsto e^z$: $\ts{\Im(z) \in (-\pi, \pi) }\to \CC\sm\RR_{\leq 0}$, horizontal strips to slit planes.
 
-- Power functions:
-  - $z\mapsto z^2$: $\ts{\Re(z) > 0} \to \CC\sm\RR_{\leq 0}$
-
-  ![Squaring](figures/2021-12-10_20-25-14.png)
+  
 
   - For fixed $\theta_0\in (0, \pi)$ and $a\in [0, \pi/\theta_0]$, $z\mapsto z^a: \ts{\abs{\Arg(z)} \in (-\theta_0, \theta_0) } \to \ts{\Arg(z) \in (-a\theta_0, a\theta_0) }$.
   - $z\mapsto z^{\pi \over 2\theta_0}: \ts{\Arg(z) \in (-\theta_0, \theta_0)}\to \ts{\Arg(z) \in (-\pi/2, \pi/ 2)}$.
 
-  ![Symmetric sector to right half-plane](figures/2021-12-10_20-24-49.png)
+  
 
 
 Some tips:
