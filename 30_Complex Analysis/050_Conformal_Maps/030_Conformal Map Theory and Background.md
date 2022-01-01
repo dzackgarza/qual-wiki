@@ -109,7 +109,7 @@ This yields a quick way of finding $f\inv$: invert the matrix and ignore the det
 :::{.remark}
 A very useful variant that shows up in applications of the Schwarz' lemma:
 \[
-\psi_a \da {z-a \over 1-\bar{a} z}
+\psi_a \da {a-z \over 1-\bar{a} z}
 .\]
 Some nice properties:
 
