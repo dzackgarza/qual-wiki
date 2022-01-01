@@ -204,7 +204,6 @@ Show that $\alpha z e^z = 1$ where $\abs{\alpha} > e$ has exactly one solution i
 - $f$ has one zero at $z_0 = 0$, thus so does $f+g$.
 :::
 
-
 :::{.exercise title="Unique fixed points"}
 Show that if $f$ is holomorphic on $\DD$ and continuous on $\bar\DD$ with $f(\bar \DD) \subseteq \DD$, then $f$ has a unique fixed point in $\DD$.
 
