@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "005 Function Convergence",
-      "path": "30_Complex Analysis/999_Quals/005 Function Convergence.md"
-    },
-    {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
+    },
+    {
+      "basename": "200_Schwarz_Lemma",
+      "path": "30_Complex Analysis/999_Quals/200_Schwarz_Lemma.md"
+    },
+    {
+      "basename": "005 Function Convergence",
+      "path": "30_Complex Analysis/999_Quals/005 Function Convergence.md"
     },
     {
       "basename": "031_Conformal_Standard",
@@ -23,10 +27,6 @@
     {
       "basename": "105_Conformal Maps",
       "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
-    },
-    {
-      "basename": "200_Schwarz",
-      "path": "30_Complex Analysis/999_Quals/200_Schwarz.md"
     },
     {
       "basename": "006 Series Convergence",

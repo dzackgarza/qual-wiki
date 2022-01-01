@@ -52,8 +52,8 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/070_Morera#^a550c1]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^1eefcc]]
 - [x] [[30_Complex Analysis/999_Quals/005 Function Convergence#^b0c999]]
-- [x] [[30_Complex Analysis/999_Quals/200_Schwarz#^ee1748]]
-- [x] [[30_Complex Analysis/999_Quals/200_Schwarz#^33ab95]]
+- [x] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^ee1748]]
+- [x] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^33ab95]]
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^efdbde]]
 
 ## Spring 2021
@@ -64,7 +64,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^0a6802]]
 - [x] [[30_Complex Analysis/999_Quals/051_Polynomials#^409461]]
 - [x] [[30_Complex Analysis/999_Quals/051_Polynomials#^c3336f]]
-- [x] [[30_Complex Analysis/999_Quals/200_Schwarz#^14ad86]]
+- [x] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^14ad86]]
 - [x] [[30_Complex Analysis/999_Quals/005 Function Convergence#^c94b57]]
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^644ace]]
 
@@ -75,10 +75,10 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^b9b6b4]]
 - [x] [[30_Complex Analysis/999_Quals/006 Series Convergence#^c47851]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
-- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz#^0f90ac]] (stuck)
+- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^0f90ac]] (stuck)
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^931c0a]]
 - [x] [[30_Complex Analysis/999_Quals/040_Maximum_Modulus#^189826]]
-- [ ] [[30_Complex Analysis/999_Quals/005 Function Convergence#^4c605e]]
+- [x] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^4c605e]]
 
 
 ## Spring 2020
@@ -91,7 +91,7 @@ Included years:
 - [ ] [[30_Complex Analysis/999_Quals/022 Singularities#^4bd9ee]]
 - [ ] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^0df993]]
 - [ ] [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati#^128e58]]
-- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz#^aff739]]
+- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^aff739]]
 
 ## Fall 2019
 
@@ -112,7 +112,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
 - [ ] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^c8872d]]
 - [ ] [[30_Complex Analysis/999_Quals/051_Polynomials#^047423]]
-- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz#^5d5430]]
+- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^5d5430]]
 - [ ] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^5c3979]]
 - [ ] [[30_Complex Analysis/999_Quals/005 Function Convergence#^d94130]]
 
