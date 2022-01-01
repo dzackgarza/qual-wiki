@@ -1,9 +1,10 @@
 
 ---
 order: 105
+title: "Conformal Maps"
 ---
 
-# Conformal Maps 
+# Fundamentals: Standard Maps
 
 ## Tie's Extra Questions: Spring 2015 (Good Practice) #complex/exercise/completed
 
@@ -471,6 +472,15 @@ Intersecting the regions that are to the left of each image curve yields $5\pi/6
 
 :::
 
+## Tie's Extra Questions: Fall 2016 #complex/exercise/work
+
+Find the conformal map that takes the upper half-plane conformally onto the half-strip $\{w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
+
+
+
+
+# Intermediate: Joukowski Maps, Blaschke Factors
+
 ## Fall 2020.5, Spring 2019.6 #complex/qual/completed
 
 ^931c0a
@@ -569,15 +579,6 @@ w &= z-\sqrt{z^2-1} \\
 
 :::
 
-
-## Tie's Extra Questions: Fall 2016 #complex/exercise/work
-
-Find the conformal map that takes the upper half-plane conformally onto the half-strip $\{w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
-
-
-
-
-# Joukowski Maps
 
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
