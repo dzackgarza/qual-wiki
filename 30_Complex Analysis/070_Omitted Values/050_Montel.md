@@ -27,6 +27,8 @@ For $X$ compact Hausdorff, consider the Banach space $C(X; \RR)$ equipped with t
 .\]
 
 A subset $A \subseteq C(X; \RR)$ is compact iff $A$ is closed, uniformly bounded, and equicontinuous.
+
+For $X = [a,b]\subseteq \RR$, if a sequence is uniformly bounded and uniformly equicontinuous, then there exists a uniformly convergent subsequence.
 :::
 
 :::{.remark}
