@@ -57,6 +57,22 @@ Some useful parametric equations:
 
   - In complex form: $\gamma(t) = z_0 + re^{it}$ where $z_0\da h + ik$.
 
+- Setting $u\da \tan(t/2)$,
+\[
+\cos(t) = {1-u^2\over 1+u^2} && \sin(t) = {2u\over 1+u^2}
+.\]
+
+  - Rational parameterization of an ellipse:
+  \[
+  \tv{A {1-u^2\over 1+u^2} , B {2u\over 1+u^2}} = A {1-u^2\over 1+u^2} +iB{2u\over 1+u^2}
+  .\]
+  - Rational parameterization of a circle: just take $A=B=R$,
+  \[
+  \tv{R {1-u^2\over 1+u^2} , R {2u\over 1+u^2}} = R {1-u^2\over 1+u^2} +iR{2u\over 1+u^2}
+  .\]
+
+
+
 :::
 
 
