@@ -274,7 +274,7 @@ Note that this isn't new: set $w \da e^{iz}$, then
 ,\]
 which is the composition
 \[
-\qty{z \mapsto e^{iz} } \circ \qty{z\mapsto iz} \circ \qty{z\mapsto {1\over 2}(z+z\inv)}
+\qty{z \mapsto e^{z} } \circ \qty{z\mapsto iz} \circ \qty{z\mapsto {1\over 2}(z+z\inv)}
 .\]
 
 
