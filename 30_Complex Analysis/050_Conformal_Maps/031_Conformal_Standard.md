@@ -13,10 +13,10 @@ A summary:
 | $\DD\to \DD$ | $\lambda {z-a\over 1-\bar{a}z}, \lambda \in S^1$ |
 | $\HH\to \DD$ | ${z-i\over z+i}$ | 
 | Horizontal strip to sector | $e^{\alpha z}$ |
-| Horizontal strip to half-plane| $e^{z}$ |
+| Horizontal strip to $\HH$| $e^{z}$ |
 | Sector to $\HH$ | $z^\alpha$ |
-| Lunes to sectors | FLTs |
 | $\HH$ to vertical half-strip | $\sin(z)$ |
+| Half-discs to half-planes | Joukowski maps|
 
 - Exponentials and logs:
   - $z\mapsto e^z$: $\ts{\Im(z) \in (-\pi, \pi) }\to \CC\sm\RR_{\leq 0}$, horizontal strips to slit planes.
@@ -221,15 +221,22 @@ z &\mapsto e^{iz} \\
 This is essentially polar coordinates: write $e^z = e^{-y} e^{ix}$, then $x\in (-\pi/2, \pi/2)$ and $y\in (0, \infty)$ so this fills out a half-disc as $x,y$ vary.
 :::
 
-## Joukowski-type Maps
+## Joukowski Maps
 
 :::{.remark}
+A nice resource: <https://complex-analysis.com/content/joukowsky_airfoil.html>
 
 ![](figures/2021-12-29_03-07-40.png)
 
 ![](figures/2021-12-29_23-56-30.png)
 
-A nice resource: <https://complex-analysis.com/content/joukowsky_airfoil.html>
+In general, $z\mapsto z+z\inv$ has the following effects:
+
+- $\abs{z} = 1$ is mapped onto $[-2, 2]$
+- $\DD \intersect \HH$ is mapped to $Q_{34}$
+- $\DD^c \intersect \HH$ is mapped to $\HH$
+- $\DD^c$ is mapped to $\CC\sm[-2, 2]$
+
 
 :::
 
