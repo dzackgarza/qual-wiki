@@ -40,9 +40,9 @@ Since $\abs{f(z)}$ is constant on the boundary, we must have $\max \abs{f(z)} = 
 By the identity principle, $f$ is constant on $U$, a contradiction.
 :::
 
-
-
 ## Spring 2020 HW 3, SS 3.8.15 #complex/exercise/work
+
+:::{.problem title="?"}
 Use the Cauchy inequalities or the maximum modulus principle to solve the following problems:
 
 a. 
@@ -58,11 +58,13 @@ Show that if $f$ is holomorphic in the unit disc, is bounded, and converges unif
 c. 
 Let $w_1, \cdots w_n$ be points on $S^1 \subset \CC$.
 Prove that there exists a point $z\in S^1$ such that the product of the distances from $z$ to the points $w_j$ is at least 1.
-
-Conclude that there exists a point $w\in S^1$ such that the product of the above distances is *exactly* 1.
+  Conclude that there exists a point $w\in S^1$ such that the product of the above distances is *exactly* 1.
 
 d. 
 Show that if the real part of an entire function is bounded, then $f$ is constant.
+
+:::
+
 
 ## Spring 2020 HW 3, 3.8.17 #complex/exercise/work
 
