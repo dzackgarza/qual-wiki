@@ -66,6 +66,31 @@ Show that if the real part of an entire function is bounded, then $f$ is constan
 :::
 
 
+:::{.solution}
+**Part 1**:
+\[
+\abs{ f(z_0) }
+&= \abs{ {1\over 2\pi i} \oint_{\abs{z-z_0} = R } {f(z) \over (z-z_0)^{n+1} }  \dz } \\
+&\leq {1\over 2\pi } \oint_{\abs{z-z_0} = R } \abs{f(z)} R^{-(n+1)}   \dz \\
+&\leq {1\over 2\pi }\sup_{\abs{z-z_0} = R} \abs{f(z)} R^{-(n+1)} \cdot 2\pi R \\
+&= \sup_{\abs{z-z_0} = R} \abs{f(z)} R^{-n} \\
+&\leq (AR^k + B)R^{-n} \qquad z_0 = 0 \\
+&= AR^{k-n} + BR^{-n} \\
+&\to 0 
+,\]
+provided $k-n< 0$, so $n>k$.
+Since $f$ is entire, write
+\[
+f(z) 
+= \sum_{n\geq 0} f^{(n)}(0) {z^n\over n!}
+= \sum_{n\geq k} f^{(n)}(0) {z^n\over n!}
+,\]
+making $f$ a polynomial of degree at most $k$.
+
+:::
+
+
+
 ## Spring 2020 HW 3, 3.8.17 #complex/exercise/work
 
 Let $f$ be non-constant and holomorphic in an open set containing the closed unit disc.
