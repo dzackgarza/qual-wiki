@@ -570,6 +570,15 @@ w &= z-\sqrt{z^2-1} \\
 :::
 
 
+## Tie's Extra Questions: Fall 2016 #complex/exercise/work
+
+Find the conformal map that takes the upper half-plane conformally onto the half-strip $\{w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
+
+
+
+
+# Joukowski Maps
+
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 Prove that
@@ -577,9 +586,6 @@ $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
 conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
 half plane $\mathbb H=\{z=x+iy:\ y>0\}$.
 
-## Tie's Extra Questions: Fall 2016 #complex/exercise/work
-
-Find the conformal map that takes the upper half-plane conformally onto the half-strip $\{w=x+iy:\ -\pi/2<x<\pi/2\ y>0\}$.
 
 
 # Linear Fractional Transformations
