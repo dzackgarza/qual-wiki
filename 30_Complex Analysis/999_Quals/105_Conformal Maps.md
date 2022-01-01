@@ -135,6 +135,28 @@ Dealing with the slit:
 		
 		
 
+## Tie's Extra Questions: Fall 2016 (Half-strip) #complex/exercise/completed
+
+:::{.problem title="?"}
+Find the conformal map that takes the upper half-plane conformally onto the half-strip 
+\[
+\ts{w=x+iy \st -\pi/2 < x < \pi/2,\, y>0}
+.\]
+:::
+
+:::{.solution}
+It's well known that $z\mapsto \sin(z)$ sends $-\pi/2<\Re(z) < \pi/2$ with $\Im(z) > 0$ to $\HH$:
+
+![](figures/2021-12-31_23-37-00.png)
+
+So take $z\mapsto \arcsin(z)$.
+
+:::
+
+
+
+# Fundamentals: Lunes, Bigons
+
 ## Fall 2019.5, Tie's extra questions: Fall 2009, Fall 2011, Spring 2014, Spring 2015 #complex/qual/completed
 
 ^043381
@@ -263,6 +285,7 @@ In steps:
 :::
 
 
+
 ## Fall 2021.7 #complex/qual/completed
 
 ^efdbde
@@ -337,20 +360,6 @@ From here, it's a standard exercise, so to sum up:
 
 :::
 
-## Tie's Extra Questions: Fall 2016 #complex/exercise/work
-
-
-:::{.problem title="?"}
-Find the conformal map that takes the upper half-plane conformally onto the half-strip 
-\[
-\ts{w=x+iy \st -\pi/2 < x < \pi/2,\, y>0}
-.\]
-
-
-:::
-
-
-# Fundamentals: Lunes, Bigons
 
 ## Spring 2020.5 #complex/qual/completed
 
@@ -601,10 +610,18 @@ w &= z-\sqrt{z^2-1} \\
 
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
+:::{.problem title="?"}
 Prove that
 $\displaystyle{f(z)=-\frac{1}{2}\left(z+\frac{1}{z}\right)}$ is a
 conformal map from half disc $\{z=x+iy:\ |z|<1,\ y>0\}$ to upper
 half plane $\mathbb H=\{z=x+iy:\ y>0\}$.
+:::
+
+
+:::{.solution}
+
+:::
+
 
 
 
