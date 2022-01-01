@@ -226,6 +226,10 @@ f(z) = \sum_{k\geq -n} c_k (z-z_0)^k, && c_{-n}\neq 0
 
 :::
 
+:::{.remark}
+Any pole admits a neighborhood where $f$ is nonvanishing, and in fact bounded below.
+:::
+
 :::{.proposition title="Well-definedness of pole order"}
 In this case there exists a minimal $n$ and a holomorphic $h$ such that
 \[  
