@@ -504,7 +504,19 @@ The rest is standard:
 - Cayley map $z\mapsto {z-i\over z+i}$ to get $\DD$.
 
 **Part 3**:
+a bigon in $\HH$ with vertices $\pm 1$, with an arc passing through $z_3 \da i(\sqrt{2} - 1)$.
+Take $z\mapsto {z+1\over z-1}$ to obtain
 
+- $-1\mapsto 0$
+- $1\mapsto \infty$
+- $0\mapsto -1$
+- $z_3\mapsto -{\sqrt 2 \over 2}(1+i) = \omega_4^3$
+
+Orienting the bigon positively, we have $(-1, 0, 1)\mapsto (0, -1, \infty)$, i.e. the real axis oriented from $+\infty\to-\infty$.
+Similarly $(1, z_3, -1)\mapsto (\infty, \omega_4^3, 0)$, which is a line passing through $\omega_4^3$, oriented from $Q_3\to Q_1$.
+Since the original region was on the left of both curves, we get
+
+![](figures/2021-12-31_20-01-07.png)
 
 :::
 
