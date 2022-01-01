@@ -53,7 +53,7 @@ Prove that if $f$ is an entire function that satisfies
 for all $R>0$, some integer $k\geq 0$, and some constants $A, B > 0$, then $f$ is a polynomial of degree $\leq k$.
 
 b. 
-Show that if $f$ is holomorphic in the unit disc, is bounded, and converges uniformly to zero in the sector $\theta < \arg(z) < \phi$ as $\abs{z} \to 0$, then $f \equiv 0$.
+Show that if $f$ is holomorphic in the unit disc, is bounded, and converges uniformly to zero in the sector $\theta < \arg(z) < \phi$ as $\abs{z} \to 1$, then $f \equiv 0$.
 
 c. 
 Let $w_1, \cdots w_n$ be points on $S^1 \subset \CC$.
@@ -74,7 +74,7 @@ Show that if the real part of an entire function is bounded, then $f$ is constan
 &\leq {1\over 2\pi } \oint_{\abs{z-z_0} = R } \abs{f(z)} R^{-(n+1)}   \dz \\
 &\leq {1\over 2\pi }\sup_{\abs{z-z_0} = R} \abs{f(z)} R^{-(n+1)} \cdot 2\pi R \\
 &= \sup_{\abs{z-z_0} = R} \abs{f(z)} R^{-n} \\
-&\leq (AR^k + B)R^{-n} \qquad z_0 = 0 \\
+&\leq (AR^k + B)R^{-n} \qquad \text{ if } z_0 = 0 \\
 &= AR^{k-n} + BR^{-n} \\
 &\to 0 
 ,\]
@@ -83,7 +83,7 @@ Since $f$ is entire, write
 \[
 f(z) 
 = \sum_{n\geq 0} f^{(n)}(0) {z^n\over n!}
-= \sum_{n\geq k} f^{(n)}(0) {z^n\over n!}
+= \sum_{0\leq n\leq k} f^{(n)}(0) {z^n\over n!}
 ,\]
 making $f$ a polynomial of degree at most $k$.
 
