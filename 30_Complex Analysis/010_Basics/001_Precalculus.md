@@ -56,6 +56,9 @@ Some useful parametric equations:
 
   ![](figures/2022-01-01_00-11-24.png)
 
+    - The foci are at $(\pm c, 0)$ where $c\da \sqrt{a^2-b^2}$ assuming $a\geq b$.
+    - The vertices are $(\pm a, 0)$ and $(0, \pm b)$.
+
 - For off-center circles $(x-h)^2 + (y-k)^2 = r^2$, use $\tv{r\cos(t) + h, r\sin(t) + k}$.
 
   - In complex form: $\gamma(t) = z_0 + re^{it}$ where $z_0\da h + ik$.
