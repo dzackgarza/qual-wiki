@@ -8,7 +8,8 @@ sort: 10
 :::{.remark}
 A summary:
 
-- $z\mapsto -z$ is a reflection about $y=x$, so for example sends $\HH \to Q_{34}$ and $\DD
+- $z\mapsto -z$ is a reflection about $y=x$, so for example sends $\HH \to Q_{34}$ and $\DD \intersect \HH \to \DD \intersect Q_{34}$ and vice-versa.
+- $z\mapsto 1/z$: write as $Re^{it} \mapsto R\inv e^{-it}$, which is reflection about $\RR$ and inversion through $S^1$.
 - $\DD\to \DD$:  $\lambda {z-a\over 1-\bar{a}z}$ for rotations $\lambda \in S^1$ 
 - $\HH\to \DD$: the Cayley map $z\mapsto {z-i\over z+i}$
 - Horizontal strips to $\HH$: use $z\mapsto e^z$ for $0<\Im(z) < \pi \to \HH$
