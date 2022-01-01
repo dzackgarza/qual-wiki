@@ -5,6 +5,8 @@ title: "Exercises: Conformal Maps"
 
 # Exercises: Conformal Maps 
 
+See also [[30_Complex Analysis/999_Quals/105_Conformal Maps|Qual conformal map questions]].
+
 :::{.remark title="Tips and tricks"}
 Notation:
 
