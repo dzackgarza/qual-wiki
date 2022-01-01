@@ -83,10 +83,10 @@ If $f: \DD \to \DD$ is holomorphic with $f(0) = 0$, then
 
 Moreover, if 
 
-- $\abs{f(z_0)} = \abs{z_0}$ for any $z_0\in \DD$, or 
+- $\abs{f(z_0)} = \abs{z_0}$ for any $z_0\in \DD\smz$, or 
 - $\abs{f'(0)} = 1$, 
 
-then $f$ is a rotation.
+then $f$ is a rotation, i.e. $f(z) = \lambda z$ for some $\abs{\lambda} = 1$.
 :::
 
 ![figures/2021-10-29_02-32-14.png](figures/2021-10-29_02-32-14.png)
