@@ -76,7 +76,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/006 Series Convergence#^c47851]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
 - [ ] [[30_Complex Analysis/999_Quals/200_Schwarz#^0f90ac]] (stuck)
-- [ ] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^931c0a]]
+- [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^931c0a]]
 - [ ] [[30_Complex Analysis/999_Quals/040_Maximum_Modulus#^189826]]
 - [ ] [[30_Complex Analysis/999_Quals/005 Function Convergence#^4c605e]]
 
