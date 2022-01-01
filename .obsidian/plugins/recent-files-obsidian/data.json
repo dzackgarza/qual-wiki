@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "005 Function Convergence",
+      "path": "30_Complex Analysis/999_Quals/005 Function Convergence.md"
+    },
+    {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "50_Solutions_Algebra",
       "path": "10_Algebra/000_Resources/50_Solutions_Algebra.md"
-    },
-    {
-      "basename": "40_Problems",
-      "path": "10_Algebra/000_Resources/40_Problems.md"
     }
   ],
   "omittedPaths": [],
