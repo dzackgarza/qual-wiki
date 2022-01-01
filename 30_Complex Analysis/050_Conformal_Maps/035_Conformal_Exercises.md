@@ -285,6 +285,12 @@ Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\leq 0}$ to $\
 ### 10 #complex/exercise/work
 Find a conformal map from $\CC\setminus\theset{x\in \RR\suchthat x\geq 1}$ to $\DD$.
 
+## 11 #complex/exercise/work
+Find a bijective conformal map from $G$ to $\HH$, where
+\[  
+G \definedas \theset{z\in \CC \suchthat \abs{z-1} < \sqrt 2,\, \abs{z+1} < \sqrt 2} \setminus [0, i)
+.\]
+
 ## Strips
 
 ### Horizontal strip to $\HH$ #complex/exercise/completed
@@ -519,11 +525,7 @@ Find an injective conformal map from $\Omega$ onto some annulus $\theset{r < \ab
 
 
 
-## 11 #complex/exercise/work
-Find a bijective conformal map from $G$ to $\HH$, where
-\[  
-G \definedas \theset{z\in \CC \suchthat \abs{z-1} < \sqrt 2,\, \abs{z+1} < \sqrt 2} \setminus [0, i)
-.\]
+
 
 ## 12 #complex/exercise/work
 Prove that TFAE for a Möbius transformation $T$ given by $T(z) = {az + b \over cz + d}$:
