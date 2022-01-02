@@ -101,6 +101,16 @@ Then either
 
 :::
 
+
+:::{.remark}
+A common variant: if $f:\DD\to \DD_M(0)$, i.e. $\abs{f} \leq M$ is bounded on $\DD$, dilate by $g(z) \da f(z)/M$ to get $g:\DD\to \DD$ and apply Schwarz to get
+\[
+\abs{f(z)} \leq M\abs{z}
+.\]
+
+:::
+
+
 :::{.proof title="of Schwarz lemma"}
 \envlist
 
@@ -227,12 +237,10 @@ Noting that $g(z) \da {z-i\over z+i}: \HH\to \DD$ is the Cayley map, the inverse
 Then $F(0) = f(g\inv(0)) = f(i) = 0$ by assumption, so Schwarz yield $\abs{F(z)} \leq \abs{z}$.
 :::
 
-
 :::{.exercise title="Using the estimates"}
 Suppose $f: \DD\to \DD$ with $f(0) = 0$ and $\abs{f(z)} \leq \abs{e^z}$ when $\abs{z} = 1$.
 Find an upper bound for $f\qty{1+i\over 2}$.
 :::
-
 
 :::{.solution}
 Consider $g(z) \da f(z)/e^z$ -- since $g(0) = 0$ and $g: \DD\to \DD$, Schwarz applies and 
