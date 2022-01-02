@@ -1,9 +1,9 @@
-# Exercises
+---
+sort: 999
+title: "Exercises: Singularities"
+---
 
-## Unsorted
-
-
-
+# Exercises: Singularities
 
 ## General
 
@@ -138,45 +138,6 @@ Calculate the residue of $1/\sin(\pi x)$ at $z=n\in \ZZ$.
 
 :::
 
-## Poles 
-
-
-:::{.exercise title="Singularities of of $\sin(z)/z$"}
-Show that $\sin(z)/z$ has no poles.
-
-#complex/exercise/completed
-
-:::
-
-:::{.solution}
-Heuristic: $\sin(z)$ has a zero of order 1, so the $z$ in the denominator exactly cancels it.
-Explicitly, this is evident from the Laurent expansion about zero:
-\[
-z\inv \sin(z) = z\inv\qty{ z - {z^3 \over 3!} + {z^5\over 5!} - \cdots} = 1 - {z^2\over 3!} + {z^4 \over 5!} - \cdots
-,\]
-which has no factors of $z^{-k}$.
-So $z=0$ is a removable singularity.
-:::
-
-:::{.exercise title="Singularities of $1\over e^z - 1$"}
-Classify the singularities and compute the residues at any poles of the following function:
-\[
-f(z) \da {1\over e^z - 1}
-.\]
-
-#complex/exercise/completed
-
-:::
-
-:::{.solution}
-Note $e^z = 1$ when $z=z_k\da 2\pi k$ for $k\in \ZZ$, and the claim is that these are all poles of order 1 of $f(z)$.
-These are clearly poles of some order, since they are zeros of $1/f$, and the order will be the smallest $n$ for which $\lim_{z\to z_k}(z-z_k)^n f(z)$ exists.
-Start by computing the first:
-\[
-\lim_{z\to z_k}(z-z_k)f(z) = \lim_{z\to z_k} {z-z_k\over e^z - 1} \equalsbecause{\text{LH}} \lim_{z\to z_k} {1\over e^z} = e^{-z_k} = 1
-.\]
-:::
-
 ## Orders of poles/zeros
 
 :::{.exercise title="Orders of zeros"}
@@ -277,6 +238,44 @@ This argument in fact shows that the residues *can not* cancel, i.e. $\sum_{k} \
 
 :::
 
+
+## Poles 
+
+:::{.exercise title="Singularities of of $\sin(z)/z$"}
+Show that $\sin(z)/z$ has no poles.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Heuristic: $\sin(z)$ has a zero of order 1, so the $z$ in the denominator exactly cancels it.
+Explicitly, this is evident from the Laurent expansion about zero:
+\[
+z\inv \sin(z) = z\inv\qty{ z - {z^3 \over 3!} + {z^5\over 5!} - \cdots} = 1 - {z^2\over 3!} + {z^4 \over 5!} - \cdots
+,\]
+which has no factors of $z^{-k}$.
+So $z=0$ is a removable singularity.
+:::
+
+:::{.exercise title="Singularities of $1\over e^z - 1$"}
+Classify the singularities and compute the residues at any poles of the following function:
+\[
+f(z) \da {1\over e^z - 1}
+.\]
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Note $e^z = 1$ when $z=z_k\da 2\pi k$ for $k\in \ZZ$, and the claim is that these are all poles of order 1 of $f(z)$.
+These are clearly poles of some order, since they are zeros of $1/f$, and the order will be the smallest $n$ for which $\lim_{z\to z_k}(z-z_k)^n f(z)$ exists.
+Start by computing the first:
+\[
+\lim_{z\to z_k}(z-z_k)f(z) = \lim_{z\to z_k} {z-z_k\over e^z - 1} \equalsbecause{\text{LH}} \lim_{z\to z_k} {1\over e^z} = e^{-z_k} = 1
+.\]
+:::
 
 ## Singularities at Infinity 
 
@@ -557,22 +556,5 @@ Using the inequality,
 \abs{(z-0)f(z)} \leq \abs{z}^{1\over 2}\convergesto{\abs{z}\to 0}0
 ,\]
 so $z=0$ is removable by Riemann's removable singularity theorem.
-
 :::
 
-
-## Misc
-
-:::{.exercise title="?"}
-By computing
-\[
-{1\over 2\pi i}\oint {\cot(\pi z)\over z^2}\dz
-,\]
-say using a large rectangle, show that
-\[
-\zeta(2) = \sum_{k\geq 0} {1\over k^2} = {\pi^2\over 6}
-.\]
-
-#complex/exercise/work
-
-:::
