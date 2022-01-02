@@ -236,9 +236,6 @@ Set $a=0$:
 \[
 \left|f^{\prime}(0)\right| \leq \frac{1-|f(0)|^{2}}{1-|0|^{2}} \implies \abs{f'(0)}^2 \leq 1 - \abs{f(0)}^2
 .\]
-
-#complex/exercise/work
-
 :::
 
 :::{.exercise title="Using the estimates"}
