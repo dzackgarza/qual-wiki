@@ -120,10 +120,12 @@ So $z^2f(z)$ has a removable singularity at $z=0$, and can be expanded:
 z^2f(z) 
 &= \qty{\pi z\over \sin(\pi z)}^2 \\
 &= (\pi z)^2 \qty{ (\pi z) \inv + {1\over 3!}(\pi z) + {7\over 360} (\pi z^3) +  \cdots}^2 \\
-& (\pi z)^2 \qty{ (\pi z)^{-2} + \cdots  } \\
-&= 1 + \cdots \\
-\implies f(z) = z^{-2} + \cdots
-.\]
+&= (\pi z)^2 \qty{ (\pi z)^{-2} + \bigo(1)  } \\
+&= 1 + \bigo(z^2) \\
+\implies f(z) &= z^{-2} + \bigo(1)
+,\]
+so the singular part of $f$ at $z=0$ is $z^{-2}$.
+This coincides with the ${1\over z^2}$ term in $g$.
 
 
 **Part 3**:
