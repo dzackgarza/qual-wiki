@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "060_Schwarz lemma",
+      "path": "30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma.md"
+    },
+    {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "000_Resources",
       "path": "10_Algebra/000_Resources/000_Resources.md"
-    },
-    {
-      "basename": "50_Solutions_Algebra",
-      "path": "10_Algebra/000_Resources/50_Solutions_Algebra.md"
     }
   ],
   "omittedPaths": [],

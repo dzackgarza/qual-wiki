@@ -194,7 +194,7 @@ Set $a=0$:
 
 :::
 
-![[attachments/Pasted image 20211215022943.png]]
+![attachments/Pasted image 20211215022943.png](attachments/Pasted%20image%2020211215022943.png)
 
 
 :::{.exercise title="The standard function juggling trick"}
