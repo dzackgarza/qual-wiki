@@ -1,24 +1,36 @@
 # Schwarz
 
-## Hyperbolic Translations
+## Hyperbolic Translations / Blaschke Factors
 
-:::{.proposition title="Properties of hyperbolic translations"}
-The maps 
+
+:::{.definition title="Hyperbolic translations/Blaschke factors"}
+For $a\in \DD$, the maps
 \[
 \psi_a \da {a-z\over 1-\bar{a}z}
 \]
-are sometimes called *hyperbolic translations* because they preserve the hyperbolic metric on the Poincaré disc.
-Some useful properties:
-
-- $\psi_a(0) = a$ and $\psi(a) = 0$
-- $\psi_{a} \inv = \psi_{a}$, so $\psi_a^2 = \id$.
-- $\psi_a'(z) = {\abs{a}^2 - 1 \over \qty{1-\bar{a} z}^2 }$
-- $\psi_a(\lambda z) = \lambda\psi_{\bar\lambda a}(z)$
-
-
+are *hyperbolic translations* because they preserve the hyperbolic metric on the Poincaré disc.
+They're also commonly called **Blaschke factors**, and also sometimes taken to be
+\[
+\phi_a \da {z-a \over 1-\bar{a} z} = - \psi_a
+.\]
+A rational map of the form
+\[
+\Psi_{\vector a}(z) = \lambda \prod_{1\leq k\leq n} \psi_a(z) = \lambda \prod_{1\leq k \leq n} {a_i - z\over 1 - \bar{a_i} z},\qquad \vector a\da\tv{a_1,\cdots, a_n}
+\]
+with zeros $a_i \in \DD$ is called a **Blaschke product** and is a map $\DD\to \DD$ that preserves $S^1$.
 :::
 
-:::{.proof title="of proposition"}
+:::{.proposition title="Properties of hyperbolic translations / Blaschke factors"}
+Some useful properties:
+
+- $\psi_a \in \Aut(\DD)$
+- $\psi_a(0) = a$ and $\psi(a) = 0$
+- With this choice of sign, $\psi_{a} \inv = \psi_{a}$, so $\psi_a^2 = \id$.
+- $\psi_a'(z) = {\abs{a}^2 - 1 \over \qty{1-\bar{a} z}^2 }$
+- $\psi_a(\lambda z) = \lambda\psi_{\bar\lambda a}(z)$
+:::
+
+:::{.proof title="of properties"}
 Inverting: set $f(z) = w$ and solve for $z$:
 \[
 {a-z \over 1 - \bar{a}z} &= w \\
@@ -47,20 +59,8 @@ Scaling: use a fun trick, insert $1=\bar\lambda \lambda$ like so
 Being an involution: check $\psi_a(\psi_a(z))$ satisfies the Schwarz lemma and has two fixed points, forcing it to be the identity.
 :::
 
-:::{.remark}
-There are such maps that are *not* rotations, e.g. the Blaschke factors:
-
-![figures/2021-10-29_02-33-08.png](figures/2021-10-29_02-33-08.png)
-
-Setting $B_w(z) \da {z-w\over 1-\bar{w} z}$, this is not a rotation when $w\neq 0$ and is an involution.
-:::
-
 :::{.theorem title="Characterization of conformal maps"}
-Every map $g\in \BiHol(\DD)$ is of the form 
-\[
-g(z) = \lambda {a-z \over 1 - \bar a z}, \quad a\in \Delta, \lambda \in S^1
-,\]
-i.e a Blaschke product.
+Every map $g\in \Aut(\DD)$ is of the form $\Psi_{\vector a}(z)$, i.e. a Blaschke product.
 :::
 
 :::{.proof title="of theorem, sketch"}
@@ -74,7 +74,6 @@ i.e a Blaschke product.
 - Claim: this representation is unique.
   Consider $f'(z)$, this determines $\Arg(\lambda)$.
 :::
-
 
 ## The Schwarz Lemma
 
@@ -119,7 +118,7 @@ Set $g(z) \da {f(Rz + a) \over M}$, then $g: \DD\to \DD$ with $g(0) = f(a)/M = 0
 .\]
 :::
 
-:::{.proof title="of Schwarz lemma"}
+:::{.proof title="of Schwarz"}
 \envlist
 
 - Idea: apply the maximum modulus principle to $g(z) \da f(z)/z$.
