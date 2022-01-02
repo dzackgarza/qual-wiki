@@ -1,5 +1,148 @@
 # Exercises
 
+## Unsorted
+
+:::{.exercise title="Poles of $1/\sin$"}
+Show that all singularities of $1/\sin(z)$ are poles of order 1.
+
+#complex/exercise/work
+
+:::
+
+:::{.exercise title="Removable singularities for derivatives"}
+Suppose $f$ is meromorphic. Show that if $z_0$ is a removable singularity of $f$, then it is also a removable singularity of $f'$.
+
+#complex/exercise/work
+
+:::
+
+:::{.exercise title="Poles of derivatives"}
+Show that if $z_0$ is a pole of order $n$ of $f$, then it is a pole of order $n+k$ for $f^{(k)}$.
+
+#complex/exercise/work
+
+:::
+
+:::{.exercise title="Poles of elliptic functions"}
+Let $f$ be an elliptic function and $P$ be its fundamental parallelogram.
+Supposing that $f$ is nonconstant, show that $f$ has at least two poles in $P$ (counted with multiplicity).
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Write the period lattice of $f$ as $\Lambda = \omega_1\ZZ + \omega_2 \ZZ$, and without loss of generality (by translating $P$ if necessary), assume that $f$ has no poles on $\bd P$.
+Since $P$ is bounded and $f$ is periodic, if $f$ has no poles then its only singularities will be removable.
+In this case $f$, extends to a holomorphic function on $P$, and thus an entire function, making $f$ constant by Liouville.
+So $f$ has at least one pole.
+Toward a contradiction, suppose $f$ has exactly one pole $z_0\in P$, in which case $\int_{\bd P} f \neq 0$ since the residue at $z_0$ will be nonzero.
+We'll show that $\int_{\bd P} f$ is forced to be zero to derive the contradiction.
+
+Write $\bd P = \sum_{1\leq k \leq 4} \gamma_k$ where the $\gamma_k$ are the edges traversed counterclockwise.
+By periodicity, 
+
+- $I_1 \da \int_{\gamma_1} f = - \int_{\gamma_3}f$
+- $I_2 \da \int_{\gamma_2} f = - \int_{\gamma_4}f$
+
+Thus
+\[
+\int_{\bd P} f = \sum_{1\leq k \leq 4} \int_{\gamma_k} f = I_1 + I_2 - I_1 - I_2 = 0
+.\]
+$\contradiction$
+
+
+> Note that if there are at least two poles, the residues may cancel and $\int_{\bd P} f$ may be zero or nonzero.
+This argument in fact shows that the residues *can not* cancel, i.e. $\sum_{k} \Res_{z=z_k} f(z)\neq 0$.
+
+:::
+
+:::{.exercise title="Bounded derivatives imply removable singularities"}
+Suppose $f$ is holomorphic on $\DD\smz$ and there exist $M, k$ such that
+\[
+\abs{f^{(k)}(z)} \leq {M\over \abs{z}^k} && \forall 0 < \abs z < 1
+.\]
+
+Show that if $f$ has a singularity at $z=0$, then it must be removable.
+
+#complex/exercise/completed
+
+:::
+
+:::{.concept}
+\envlist
+
+- $\dd{}{z}$ is a left-shift on power series, $z^m$ is a right-shift.
+- $f'$ has the same poles as $f$, possibly with worse order due to the left-shift.
+  - In general, if $z_0$ is an order $\ell$ pole of $f$, then it is at least an order $\ell + m$ pole of $f^{(m)}$.
+
+:::
+
+:::{.solution}
+Define $F(z) \da z^k f^{(k)}(z)$ and note that $\abs{F(z)} \leq M$ on $\DD\smz$.
+
+If $f$ has an essential singularity at $z=0$, then so does $F$ by considering power series expansions:
+\[
+f(z) = \sum_{k\in \ZZ} c_k z^k 
+\implies z^m f^{(m)}(z) = \sum_{k\leq 1} \tilde c_k z^{-k} + \sum_{k\geq m}\tilde c_{k}z^{k}
+,\]
+which will still have infinitely many terms in its principal part at $0$.
+However, if $F$ had an essential singularity, the image of $F$ in a neighborhood of $0$ would be dense in $\CC$ by Casorati-Weierstrass, contradicting that its image is bounded (by $M$). 
+
+Suppose instead $z=0$ is a pole of order $\ell$ of $f$, so $\abs{f(z)}\to \infty$ as $z\to 0$.
+Then again by considering power series expansions, $z=0$ remains a pole of $F$, now of order at worst $\ell$:
+\[
+f(z) = \bigo(z^{\ell}) 
+\implies z^m f^{(m)}(z) \approx z^m \cdot \bigo(z^{\ell - m}) = \bigo(z^\ell)
+.\]
+But if this is an order $\ell$ pole of $F$, then $\lim_{z\to 0} \abs{F(z)} = \infty$ and $\lim_{z\to 0} z^\ell F(z))$ is finite and nonzero.
+Apply the assumed bound yields the last contradiction:
+\[
+z^{\ell}F(z) = z^{\ell + m}f(z) \leq z^{\ell + m} \cdot Mz^{-m} = z^{\ell} \convergesto{z\to 0} 0
+.\]
+$\contradiction$
+
+:::
+
+:::{.exercise title="When bounds imply removability"}
+Suppose $f$ is holomorphic with $z_0 = 0$ an isolated singularity, and suppose there is some neighborhood of $0$ on which
+\[
+\abs{f(z)} \leq \abs{z}^{-{ 1\over 2}}
+.\]
+Show that $z_0$ is removable.
+
+> Warning: Riemann's removable singularity theorem won't apply to $z^{1\over 2}f(z)$ since $z^{1\over 2}$ is highly singular at $z=0$.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Using the inequality,
+\[
+\abs{(z-0)f(z)} \leq \abs{z}^{1\over 2}\convergesto{\abs{z}\to 0}0
+,\]
+so $z=0$ is removable by Riemann's removable singularity theorem.
+
+:::
+
+:::{.exercise title="Sequences"}
+Let $f$ be holomorphic in $0 < \abs{z-z_0} < r$, minus a sequence of poles $\ts{z_k} \to z_0$.
+Show that for any $w\in \CC$, there is a sequence $\ts{w_k}\to z_0$ with $f(w_k)\to w$.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Toward a contradiction, fix $w$ and suppose no such sequence exists.
+Then for every sequence $w_k\to z_0$, there is an $\eps$ such that $\abs{f(w_k) - w} \geq \eps$ for all $k$.
+So the function $g(z) \da {1\over f(z) - w}$ has no poles in $D_r(z_0)\smts{z_0}$, and since each $z_k$ is a pole of $f$, each is a zero of $g$.
+If $z_0$ is a singularity, since $\abs{g(z)} \leq \eps$, it is removable and thus $g$ can be extended holomorphically over $z_0$.
+By continuity, since $z_k\to z_0$ with $g(z_k) = 0$, we have $g(z_0) = 0$.
+By the identity principle, $g\equiv 0$, which means that every $z\in D_r(z_0)\smts{z_0}$ is a zero of $g$ and thus a pole of $f$.
+But this contradicts that $f$ is holomorphic on $D_r(z_0)\smts{z_k}$. $\contradiction$
+:::
 ## Orders of poles/zeros
 
 :::{.exercise title="Orders of zeros"}

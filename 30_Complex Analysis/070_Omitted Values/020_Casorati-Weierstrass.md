@@ -10,7 +10,6 @@ Equivalently, suppose $z_{0}$ is an essential isolated singularity of $f(z)$. Th
 The image of a punctured disc at an essential singularity is dense in $\CC$.
 :::
 
-
 :::{.proof title="of Casorati-Weierstrass"}
 Let $f$ have an essential singularity.
 Suppose toward a contradiction that there exists a $z_0\in \CC$, a punctured neighborhood $\Omega$ of $z_0$, and $\eps > 0$ with $f(\Omega) \intersect \DD_\eps(z_0)$ empty.
@@ -30,7 +29,6 @@ Otherwise, if $g(z_0) = w_0\neq 0$, then
 making $z_0$ removable and again yielding a contradiction.
 :::
 
-
 :::{.proof title="of Casorati-Weierstrass, Gamelin"}
 Pick $w\in \CC$ and suppose toward a contradiction that $D_R(w) \intersect f(V)$ is empty.
 Consider
@@ -49,7 +47,7 @@ In detail, from Gamelin:
 
 # Exercises
 
-:::{.exercise title="?"}
+:::{.exercise title="Entire functions satisfying a bound"}
 Find all entire functions $f$ that satisfy
 \[
 \abs{f(z)} \geq e^{\abs{z}} && \forall z\in \CC
@@ -71,7 +69,7 @@ However, $f(z) = c$ contradicts the inequality, since $e^{\abs{z}}\to \infty$ as
 Alternatively, note that $e^{\abs{z}} \geq 1$ for all $z$, so $\im(f) \intersect \DD$ is empty, again contradicting Casorati-Weierstrass.
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Showing a function is constant"}
 Let $f$ be entire and define a function
 \[
 m: [0, \infty) &\to \RR \\
