@@ -282,6 +282,14 @@ where dividing by $z$ is not an issue since $z=0$ is a zero of $g$ of at least o
 This forces $g(z) = g(0) = 0$ for all $z$, so $f(z) = f(z_0)$ is constant.
 :::
 
+
+:::{.exercise title="Using derivatives"}
+Let $f:\DD\to \DD$ with $f(0) = f'(0) = 0$.
+Show that $\abs{f''(0)} \leq 2$ and describe all $f$ for which this is an equality.
+
+:::
+
+
 ## Estimating
 
 :::{.exercise title="Using the estimates"}
@@ -382,6 +390,9 @@ Now
 \abs{m(z)} \da \abs{f(z)} \leq \abs{z} = {1\over 2} < \abs{m(z)} = \abs{2z}^m = 1 \qquad \text{on } \abs{z} = {1\over 2}
 ,\]
 so Rouché applies: $\size Z_m = \size Z_M$ on $\abs{z} < {1\over 2}$, where $m(z) = f(z)$ and $M(z) = -(2z)^m$ which has exactly $m$ zeros.
+
+> Note that this works with $g(z) \da (cz)^m$ and $R = {1\over c}$.
+
 :::
 
 :::{.exercise title="Estimating and conformal maps"}
@@ -391,7 +402,6 @@ Find an upper bound for $f(2)$.
 #complex/exercise/completed
 
 :::
-
 
 :::{.solution}
 Use the conformal map $g: z\mapsto -1{z+1\over z-1}$ to map $\Re(z)>0$ to $\DD$.
