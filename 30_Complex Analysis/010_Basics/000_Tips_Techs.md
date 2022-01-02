@@ -97,7 +97,7 @@ Some silly arithmetic tricks:
 	- $\abs{f}$
 	- $\Arg(f)$
 - Show that $f$ preserves $\bd \DD$, so $\abs{f(z)} = 1$ when $\abs{z} = 1$, and has no zeros in $\DD$.
-
+- To show $f(z) = g(z)$ infinitely often, show $f(z)/g(z)$ (or $f(1/z)/g(1/z)$) has an essential singularity and apply Picard or Casorati.
 
 ## Singularities 
 
