@@ -90,7 +90,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/050 Liouville#^c6e205]]
 - [x] [[30_Complex Analysis/999_Quals/022 Singularities#^4bd9ee]]
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^0df993]]
-- [ ] [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati#^128e58]]
+- [x] [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati#^128e58]]
 - [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^aff739]]
 
 ## Fall 2019

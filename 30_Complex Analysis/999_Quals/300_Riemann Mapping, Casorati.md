@@ -2,7 +2,7 @@
 order: 300
 ---
 
-# Riemann Mapping and Casorati-Weierstrass
+# Open Mapping, Riemann Mapping, and Casorati-Weierstrass
 
 ## Spring 2020.6 #complex/qual/completed
 
