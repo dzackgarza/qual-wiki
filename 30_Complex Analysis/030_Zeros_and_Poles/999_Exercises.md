@@ -241,6 +241,20 @@ This argument in fact shows that the residues *can not* cancel, i.e. $\sum_{k} \
 
 ## Poles 
 
+
+:::{.exercise title="Finitely many poles"}
+Show that a meromorphic function can have only finitely many poles.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Since poles are isolated by definition, the set $P_f$ of poles of $f$ is a discrete subset of $\CP^1$, which is compact.
+Note $P_f$ is closed because being holomorphic is an open condition.
+Any discrete closed subset of a compact space is discrete and compact, thus necessarily finite.
+:::
+
 :::{.exercise title="Singularities of of $\sin(z)/z$"}
 Show that $\sin(z)/z$ has no poles.
 
@@ -275,39 +289,6 @@ Start by computing the first:
 \[
 \lim_{z\to z_k}(z-z_k)f(z) = \lim_{z\to z_k} {z-z_k\over e^z - 1} \equalsbecause{\text{LH}} \lim_{z\to z_k} {1\over e^z} = e^{-z_k} = 1
 .\]
-:::
-
-## Singularities at Infinity 
-
-:::{.exercise title="Removable singularity at infinity iff constant"}
-Let $f$ be entire. 
-Show that $f$ has a removable singularity at $z_0 = \infty$ iff $f$ is constant.
-
-
-#complex/exercise/completed
-
-:::
-
-:::{.solution}
-Suppose $f$ is not constant.
-If $z=\infty$ is removable, $f$ is bounded in a neighborhood of $\infty$, say by $M_1$ on $\abs{z} > R$.
-Now $\abs{z} \leq R$ is a closed and bounded set, thus compact, and since $f$ is continuous here it is bounded by the extreme value theorem, say by $M_2$.
-Then $\abs{f(z)} \leq \max(M_1, M_2)$ on $\CC$ is entire and bounded, thus constant by Liouville, a contradiction. $\contradiction$
-
-Conversely, if $f$ is constant, $f$ is trivially bounded in every neighborhood of $\infty$, making it a removable singularity.
-:::
-
-:::{.exercise title="Entire functions with poles at infinity"}
-Characterize all entire functions with a pole of order $m$ at $\infty$.
-
-#complex/exercise/completed
-
-:::
-
-:::{.solution}
-Since $f$ is entire, $f(z) = \sum_{k\geq 0 } c_k z^k$.
-Expanding about $z_0=\infty$, we have $f(1/z) = \sum_{k\geq 0} c_k z^{-k} = c_0 + {c_1\over z} + \cdots$.
-If $z_0=\infty$ is a pole of order $m$, then $c_m\neq 0$ but $c_{>m} = 0$, which forces $f(z) = \sum_{0\leq k \leq m} c_k z^k$ to be a polynomial of degree $m$.
 :::
 
 ## Essential Singularities
@@ -384,7 +365,6 @@ It can not be a pole: otherwise $\abs{f(z)}\to \infty$ as $z\to z_0$, but $f(z) 
 It can not be removable: otherwise $f$ extends holomorphically over $z_0$, and continuity forces $f(z_k) \to 0$ as $z_k\to z_0$.
 But then $f = 0$ on a set with an accumulation point, making $f \equiv 0$ by the identity principle.
 :::
-
 
 ## Removable Singularities
 
@@ -556,5 +536,38 @@ Using the inequality,
 \abs{(z-0)f(z)} \leq \abs{z}^{1\over 2}\convergesto{\abs{z}\to 0}0
 ,\]
 so $z=0$ is removable by Riemann's removable singularity theorem.
+:::
+
+## Singularities at Infinity 
+
+:::{.exercise title="Removable singularity at infinity iff constant"}
+Let $f$ be entire. 
+Show that $f$ has a removable singularity at $z_0 = \infty$ iff $f$ is constant.
+
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Suppose $f$ is not constant.
+If $z=\infty$ is removable, $f$ is bounded in a neighborhood of $\infty$, say by $M_1$ on $\abs{z} > R$.
+Now $\abs{z} \leq R$ is a closed and bounded set, thus compact, and since $f$ is continuous here it is bounded by the extreme value theorem, say by $M_2$.
+Then $\abs{f(z)} \leq \max(M_1, M_2)$ on $\CC$ is entire and bounded, thus constant by Liouville, a contradiction. $\contradiction$
+
+Conversely, if $f$ is constant, $f$ is trivially bounded in every neighborhood of $\infty$, making it a removable singularity.
+:::
+
+:::{.exercise title="Entire functions with poles at infinity"}
+Characterize all entire functions with a pole of order $m$ at $\infty$.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Since $f$ is entire, $f(z) = \sum_{k\geq 0 } c_k z^k$.
+Expanding about $z_0=\infty$, we have $f(1/z) = \sum_{k\geq 0} c_k z^{-k} = c_0 + {c_1\over z} + \cdots$.
+If $z_0=\infty$ is a pole of order $m$, then $c_m\neq 0$ but $c_{>m} = 0$, which forces $f(z) = \sum_{0\leq k \leq m} c_k z^k$ to be a polynomial of degree $m$.
 :::
 
