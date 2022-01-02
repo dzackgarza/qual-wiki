@@ -162,15 +162,7 @@ Write $h\da f-g$, then $h$ is entire since $f,g$ have the same singular parts, a
 By Liouville, $h$ is constant with $\lim_{t\to\infty} h(it) = 0$, so $h\equiv 0$ and $f\equiv g$.
 :::
 
-## Spring 2020 HW 3.4 #complex/exercise/work
-
-Let $f$ be non-constant, analytic in $\abs{z} > 0$, where $f(z_n) = 0$
-for infinitely many points $z_n$ with $\lim_{n\to\infty} z_n = 0$.
-
-Show that $z=0$ is an essential singularity for $f$.
-
-> Example: $f(z) = \sin(1/z)$.
-## Tie's Extra Questions: Fall 2015 #complex/qual/completed
+## Spring 2020 HW 3.4, Tie's Extra Questions: Fall 2015 #complex/qual/completed
 
 :::{.problem title="?"}
 Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that $f(z_n) = 0$ for infinite many points $z_n$ with $\lim_{n \rightarrow \infty} z_n =0$. 
