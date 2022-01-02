@@ -88,9 +88,13 @@ using that $a\neq 0$, so $f$ is a contraction.
 
 ^aff739
 
+
+:::{.problem title="?"}
 Let $f$ be analytic on a bounded domain $D$, and assume also that $f$ that is continuous and nowhere zero on the closure $\bar{D}$. 
 
 Show that if $|f(z)|=M$ (a constant) for $z$ on the boundary of $D$, then $f(z)=e^{i \theta} M$ for $z$ in $D$, where $\theta$ is a real constant.
+:::
+
 
 ## Spring 2019.5 #complex/qual/work
 
