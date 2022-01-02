@@ -16,7 +16,6 @@ Suppose that $f$ is holomorphic in an open set containing the closed unit disc, 
 .\]
 :::
 
-
 :::{.solution}
 Compute the series expansion of the RHS:
 \[
@@ -29,8 +28,6 @@ Compute the series expansion of the RHS:
 ,\]
 where we've used that the sum is telescoping.
 :::
-
-
 
 ## 5 #complex/qual/work
 
@@ -47,7 +44,9 @@ Let $f$ be entire, and discuss (with proofs and examples) the types of singulari
 1. $f$ has at most finitely many zeros in $\CC$.
 2. $f$ has infinitely many zeros in $\CC$.
 
-## 8 #complex/qual/work
+## Sum formula for $\sin^s$ #complex/qual/work
+
+:::{.problem title="?"}
 Define
 \[
 f(z) &= {\pi^2 \over \sin^2 \qty{\pi z} } \\
@@ -59,21 +58,25 @@ b. Show that $f$ and $g$ have the same singular parts at each of their singulari
 c. Show that $f, g$ each have period one and approach zero uniformly on $0\leq x \leq 1$ as $\abs{y}\to \infty$.
 d. Conclude that $f = g$.
 
-\todo[inline]{Not finished.}
-
-:::{.solution}
-\hfill
-:::{.concept}
-\hfill
-Idea: show their $f-g$ is analytic by taking away all of the negative powers, and bounded by (c).
-:::
 
 :::
 
-## Tie's Extra Questions: Fall 2015 #complex/qual/work
+## Tie's Extra Questions: Fall 2015 #complex/qual/completed
 
+:::{.problem title="?"}
 Let $f(z)$ be a non-constant analytic function in $|z|>0$ such that $f(z_n) = 0$ for infinite many points $z_n$ with $\lim_{n \rightarrow \infty} z_n =0$. 
 
 Show that $z=0$ is an essential singularity for $f(z)$.
 
 > Hint: an example of such a function is $f(z) = \sin (1/z)$.
+
+:::
+
+:::{.solution}
+Note that $z=0$ can not be a removable singularity, since then $f$ would extend to a holomorphic function over $z=0$, and by continuity $0 = \lim f(z_n) = f(\lim z_n) = f(0)$.
+By the identity principle, this would force $f\equiv 0$, contradicting that $f$ is nonconstant.
+
+It can not be a pole, because then $f(z_n)\to \infty$, but $\abs{f(z_n)} = 0 < \eps$ for any $\eps$ infinitely many times.
+:::
+
+
