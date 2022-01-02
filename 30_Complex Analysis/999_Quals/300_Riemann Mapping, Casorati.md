@@ -24,8 +24,8 @@ g_0(z) \da f(z) - w_0
 ,\]
 so $g_0$ is holomorphic and has a zero at $z_0$.
 Since zeros of holomorphic functions are isolated, there is some $U' \da \DD_r(z_0)$ where $g_0$ is nonvanishing.
-The claim is that if we choose $\eps$ small enough, we can arrange so that $W'\da \DD_\eps(w_0) \subseteq f(U)$.
-This will follow if for every $w\in W'$, the equation $f(z) = w$ has a solution in $U$, i.e. 
+The claim is that if we choose $\eps$ small enough, we can arrange so that $W_\eps \da \DD_\eps(w_0) \subseteq f(U)$.
+This will follow if for every $w\in W_\eps$, the equation $f(z) = w$ has a solution in $U$, i.e. 
 Define a function that counts the number of zeros:
 \[
 F(w)
@@ -33,7 +33,13 @@ F(w)
 &= {1\over 2\pi i}\int_{\bd U' } {\dd{}{z}\qty{f(z) - w} \over f(z) - w }\dz\\
 &= \size Z(f(z) - w, U' ) 
 ,\]
-where the last equality follows from the argument principle
+which is the number of zeros of $f(z) - w$ in $U'$ by the argument principle.
+Now $F$ is a $\ZZ\dash$valued function, and the only obstruction to continuity is if $f(z) - w = 0$ in the integrand for some $z$.
+The claim is that $\eps$ can be chosen such 
+\[
+z\in \bd U' \implies \abs{f(z) - w} > 0 \qquad \forall w\in W_\eps
+.\]
+
 
 
 :::
