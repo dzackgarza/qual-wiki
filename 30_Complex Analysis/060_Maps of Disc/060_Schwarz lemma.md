@@ -320,3 +320,14 @@ This forces $g(z) = g(0) = 0$ for all $z$, so $f(z) = f(z_0)$ is constant.
 :::
 
 
+
+:::{.exercise title="More juggling"}
+Suppose $f:\DD\to \DD$ with $f(0) = 0$ and that there exists an $r\in (0, 1)$ with $f(r) = f(-r) = 0$.
+Show that 
+\[
+\abs{f(z)} \leq \abs{z^2-r^2 \over 1-r^2 z^2}
+.\]
+
+
+:::
+
