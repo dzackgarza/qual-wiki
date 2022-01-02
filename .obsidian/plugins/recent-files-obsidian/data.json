@@ -5,6 +5,10 @@
       "path": "30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma.md"
     },
     {
+      "basename": "000_Tips_Techs",
+      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
@@ -175,10 +179,6 @@
     {
       "basename": "050 Series Reference",
       "path": "30_Complex Analysis/010_Basics/050 Series Reference.md"
-    },
-    {
-      "basename": "000_Tips_Techs",
-      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
     {
       "basename": "240_Fixed_Points_and_Degree",
