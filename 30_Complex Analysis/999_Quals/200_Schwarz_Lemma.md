@@ -5,6 +5,8 @@ title: "Schwarz Lemma"
 
 # Schwarz Lemma
 
+
+
 ## Fall 2020.7 #complex/qual/completed
 
 ^4c605e
@@ -102,7 +104,18 @@ Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fr
 
 :::{.concept}
 
+The Schwarz conjugation trick:
+
 ![](figures/2021-11-27_01-09-06.png)
+
+Write the RHS as $a$, we then want something in the form $\abs{F(a)}\leq \abs{a}$.
+The choice $a=\psi_w(z)$ is forced, so $z= \psi_w\inv(a)$.
+This makes forces the choice for the LHS
+\[
+{ f(w) - (f\circ \psi_w\inv)(a) \over 1 - \bar{f(w)} (f\circ \psi_w\inv)(a) } 
+= (\psi_{f(w)} \circ f \circ \psi_w\inv)(a) \da F(a)
+.\]
+
 
 :::
 
