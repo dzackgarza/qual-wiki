@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
+    },
+    {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "20_Solutions",
+      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
+    },
+    {
+      "basename": "10_Problems",
+      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
+    },
+    {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
@@ -41,14 +57,6 @@
       "path": "30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities.md"
     },
     {
-      "basename": "10_Problems",
-      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
-    },
-    {
       "basename": "Complex_Analysis_Prelim_Review",
       "path": "attachments/Complex_Analysis_Prelim_Review.pdf"
     },
@@ -79,10 +87,6 @@
     {
       "basename": "Special Functions",
       "path": "30_Complex Analysis/900 Unsorted/Special Functions.md"
-    },
-    {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
     {
       "basename": "ist_ca_2015",
@@ -163,10 +167,6 @@
     {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
     },
     {
       "basename": "240_Fixed_Points_and_Degree",
