@@ -241,7 +241,6 @@ This argument in fact shows that the residues *can not* cancel, i.e. $\sum_{k} \
 
 ## Poles 
 
-
 :::{.exercise title="Finitely many poles"}
 Show that a meromorphic function on $\CP^1$ can have only finitely many poles.
 Show that moreover if $f$ is meromorphic on $\CC$ with infinitely many poles, then the poles must accumulate on an essential singularity at $z=\infty$.
@@ -258,6 +257,25 @@ Any discrete closed subset of a compact space is discrete and compact, thus nece
 Applying this to any bounded $\Omega \subseteq \CC$, there can only be finitely many poles in any disc of radius $R$.
 If there are infinitely many poles, this forces them to accumulate on $z=0\infty$.
 A limit point of a sequence of poles of $f$ is a limit point of a sequence of zeros of $g\da 1/f$, making it an essential singularity for both.
+:::
+
+:::{.exercise title="Meromorphic functions on $\mathbb{CP}^1$ "}
+Show that the only meromorphic functions on $\CP^1$ are rational functions.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Any such $f$ can only have finitely many poles, so enumerate them as $\ts{z_k}_{k\leq n}$.
+Write $P_k$ for the principal part of $f$ at $z_k$, so there is a decomposition
+\[
+f(z) = \sum_{k \leq n} P_k(z) + Q(z)
+,\]
+where $Q(z)$ is now entire. 
+Note that $f(z)-Q(z)$ is evidently a rational function, and the claim is that $Q$ is constant.
+Indeed, $\CP^1$ is compact and $g$ is continuous, thus bounded, so Liouville applies.
+Thus $f(z) = \sum_{k\leq n}P_k(z) + c$ is rational.
 :::
 
 :::{.exercise title="Singularities of of $\sin(z)/z$"}
