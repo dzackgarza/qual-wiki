@@ -23,19 +23,15 @@ Write
 g_0(z) \da f(z) - w_0
 ,\]
 so $g_0$ is holomorphic and has a zero at $z_0$.
-Since zeros of holomorphic functions are isolated, there is some $\DD_r(z_0)$ where $g_0$ is nonvanishing.
-The claim is that if we choose $\eps$ small enough, we can arrange so that $\DD_\eps(w_0) \subseteq f(U)$.
-This will follow if for every $w_1\in D_\eps(w_0)$, the equation $f(z) = w_1$ has a solution $z_1\in U$, i.e. if 
-\[
-g_1(z) \da f(z) - w_1
-\]
-has a zero in $U$.
+Since zeros of holomorphic functions are isolated, there is some $U' \da \DD_r(z_0)$ where $g_0$ is nonvanishing.
+The claim is that if we choose $\eps$ small enough, we can arrange so that $W'\da \DD_\eps(w_0) \subseteq f(U)$.
+This will follow if for every $w\in W'$, the equation $f(z) = w$ has a solution in $U$, i.e. 
 Define a function that counts the number of zeros:
 \[
 F(w)
-&\da {1\over 2\pi i}\int_{\bd\DD_r(z_0) } {f(z) \over f(z) - w_1 }\dz\\
-&= {1\over 2\pi i}\int_{\bd\DD_r(z_0) } {\dd{}{z}\qty{f(z) - w} \over f(z) - w }\dz\\
-&= \size Z(f(z) - w, \DD_{r}(z_0) ) 
+&\da {1\over 2\pi i}\int_{\bd U' } {f(z) \over f(z) - w_1 }\dz\\
+&= {1\over 2\pi i}\int_{\bd U' } {\dd{}{z}\qty{f(z) - w} \over f(z) - w }\dz\\
+&= \size Z(f(z) - w, U' ) 
 ,\]
 where the last equality follows from the argument principle
 
