@@ -106,6 +106,7 @@ Some silly arithmetic tricks:
 	- **A pole of some order:** show $\lim_{z\to z_o}f(z) = \infty$.
 	- **A pole of order $m$**: write $f(z) = (z-z_0)^mg(z)$ where $g(z_0)\neq 0$ (or check the Laurent expansion directly).
 	- **Essential**: show that $\lim_{z\to z_0} f(z)$ doesn't exist (e.g. if it's oscillatory).
+    - Alternatively, show $z_0$ is neither removable nor a pole, or that $f$ has a Laurent expansion about $z_0$ with infinitely many negative terms.
   - It can be useful to take a specific sequence $\ts{z_k}\to z_0$.
 
 - $f$ and $f'$ have the same poles.
@@ -121,6 +122,7 @@ Some silly arithmetic tricks:
 	- Conversely, if $f$ is holomorphic at $z_0$ *is* a zero, there is punctured neighborhood of $z_0$ where $f$ is nonzero.
 
 ## Estimating
+
 - To prove $a\leq b$, try showing ${a\over b} \leq 1$ and reason about $\DD$, or show $b-a\geq 0$, 
 - To bound a rational function, use the reverse triangle inequality:
 \[

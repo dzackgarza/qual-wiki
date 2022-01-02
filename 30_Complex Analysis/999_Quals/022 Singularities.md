@@ -38,11 +38,16 @@ Find all entire functions with have poles at $\infty$.
 Find all functions on the Riemann sphere that have a simple pole at $z=2$ and a double pole at $z=\infty$, but are analytic elsewhere.
 
 
-## 7 #complex/qual/work
+## Entire functions with singularities at $\infty$ #complex/qual/work
+
+:::{.problem title="?"}
 Let $f$ be entire, and discuss (with proofs and examples) the types of singularities $f$ might have (removable, pole, or essential) at $z=\infty$ in the following cases:
 
 1. $f$ has at most finitely many zeros in $\CC$.
 2. $f$ has infinitely many zeros in $\CC$.
+
+:::
+
 
 ## Sum formula for $\sin^s$ #complex/qual/work
 
