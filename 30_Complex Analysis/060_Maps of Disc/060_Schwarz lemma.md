@@ -236,6 +236,27 @@ Noting that $g(z) \da {z-i\over z+i}: \HH\to \DD$ is the Cayley map, the inverse
 Then $F(0) = f(g\inv(0)) = f(i) = 0$ by assumption, so Schwarz yield $\abs{F(z)} \leq \abs{z}$.
 :::
 
+:::{.exercise title="More juggling"}
+Suppose $f:\DD\to \DD$ with $f(0) = 0$ and that there exists an $r\in (0, 1)$ with $f(r) = f(-r) = 0$.
+Show that 
+\[
+\abs{f(z)} \leq \abs{z^2-r^2 \over 1-r^2 z^2}
+.\]
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+The key observation is that this factors:
+\[
+{z^2 - r^2 \over 1-r^2 z^2} = {r-z\over 1+rz}{-r-z\over 1-rz} = \psi_{r}(z) \psi_{-r}(z)
+,\]
+so this inequality will follow from Schwarz on $g(z) \da f(z)/\psi_a(z)\psi_{-a}(z)$.
+Schwarz does apply since $\abs{f}\leq 1$ in $\DD$ and $\abs{\psi_a(z)} = 1$ on $S^1$, so $\abs{g(z)} \leq 1$ on $S^1$ and by the MMP this inequality holds in all of $\DD$.
+So $\abs{g(z)}\leq \abs{z}$ and unwinding gives the desired inequality.
+:::
+
 :::{.exercise title="Liouville"}
 Use a version of the Schwarz lemma to prove Liouville's theorem.
 
@@ -259,27 +280,6 @@ Using that $g(0) = 0$,
 ,\]
 where dividing by $z$ is not an issue since $z=0$ is a zero of $g$ of at least order one.
 This forces $g(z) = g(0) = 0$ for all $z$, so $f(z) = f(z_0)$ is constant.
-:::
-
-:::{.exercise title="More juggling"}
-Suppose $f:\DD\to \DD$ with $f(0) = 0$ and that there exists an $r\in (0, 1)$ with $f(r) = f(-r) = 0$.
-Show that 
-\[
-\abs{f(z)} \leq \abs{z^2-r^2 \over 1-r^2 z^2}
-.\]
-
-#complex/exercise/completed
-
-:::
-
-:::{.solution}
-The key observation is that this factors:
-\[
-{z^2 - r^2 \over 1-r^2 z^2} = {r-z\over 1+rz}{-r-z\over 1-rz} = \psi_{r}(z) \psi_{-r}(z)
-,\]
-so this inequality will follow from Schwarz on $g(z) \da f(z)/\psi_a(z)\psi_{-a}(z)$.
-Schwarz does apply since $\abs{f}\leq 1$ in $\DD$ and $\abs{\psi_a(z)} = 1$ on $S^1$, so $\abs{g(z)} \leq 1$ on $S^1$ and by the MMP this inequality holds in all of $\DD$.
-So $\abs{g(z)}\leq \abs{z}$ and unwinding gives the desired inequality.
 :::
 
 ## Estimating
@@ -344,7 +344,7 @@ So
 .\]
 :::
 
-:::{.exercise title="Using the estimates"}
+:::{.exercise title="Estimating and conformal maps"}
 Suppose $f:\HH\to \CC$ with $\abs{f(z)}< 1$ and $f(i) = 0$.
 Find an upper bound for $f(2i)$.
 
@@ -384,6 +384,24 @@ Now
 so Rouché applies: $\size Z_m = \size Z_M$ on $\abs{z} < {1\over 2}$, where $m(z) = f(z)$ and $M(z) = -(2z)^m$ which has exactly $m$ zeros.
 :::
 
+:::{.exercise title="Estimating and conformal maps"}
+Suppose $f$ is holomorphic and $\abs{f(z)}\leq 1$ for $\Re(z) > 0$ with $f(1) = 0$.
+Find an upper bound for $f(2)$.
+
+#complex/exercise/completed
+
+:::
+
+
+:::{.solution}
+Use the conformal map $g: z\mapsto -1{z+1\over z-1}$ to map $\Re(z)>0$ to $\DD$.
+Composing $F: \DD \mapsvia{g} -i\HH \mapsvia{f} \DD$ yields a map $F = f\circ g:\DD\to \DD$.
+Since $F(0) = f(g(0)) = f(1) = 0$, Schwarz applies and $\abs{F(z)} \leq \abs{z}$.
+Using the standard trick,
+\[
+\abs{f(2)} = \abs{(f\circ \circ g\inv )(2)} = \abs{F(g\inv(2))} = \abs{F\qty{z-1\over z+1}\evalfrom_{z=2}} = \abs{F\qty{1\over 3}} \leq \abs{1\over 3}
+.\]
+:::
 
 
 
