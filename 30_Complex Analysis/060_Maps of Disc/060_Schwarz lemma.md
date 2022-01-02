@@ -187,6 +187,8 @@ suppose $\abs{f(z)}\leq 1$, then for all $z, w\in \DD$,
 .\]
 If equality holds for some $z\neq w$ in either expression, then $f= \lambda F$ where $F$ is a linear fractional transformation and $\abs{\lambda} = 1$, so $f\in \Aut(\DD)$.
 
+> Note that this does not require $f(0) = 0$.
+
 #complex/exercise/completed
 
 :::
