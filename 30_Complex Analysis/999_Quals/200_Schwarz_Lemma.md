@@ -304,6 +304,7 @@ The strategy:
 \abs{M\qty{ f(aR) - f(0)}  \over M^2 - \bar{f(0)} f(aR) } \leq \abs{a} \\
 \abs{ f(aR)/M - f(0)/M  \over 1 - \bar{f(0)} f(aR)/M^2 } \leq \abs{a} 
 .\]
+  - Recognize the LHS as $\psi_w(g(a))$ for $w\da f(0)/M$ and $g(a) \da f(aR)/M$.
 
 :::
 
