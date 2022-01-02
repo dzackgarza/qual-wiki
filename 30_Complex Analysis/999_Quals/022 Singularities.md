@@ -162,7 +162,10 @@ g(it)
 &\convergesto{N\to\infty\implies t\to\infty} 0
 ,\]
 where given $N$ we can pick $t$ large enough so that $t^2 + k^2 \geq tk^2$ for all $k\leq N$.
-These 
+These converge to zero as $N\to\infty$ since $\sum k^{-2} < \infty$, making the last term the tail of a convergent sum.
+So $g \equiv 0$.
+
+This $h$ is constant with $\lim_{t\to\infty} h(it) = 0$, so $h\equiv 0$ and $f\equiv g$.
 
 
 
