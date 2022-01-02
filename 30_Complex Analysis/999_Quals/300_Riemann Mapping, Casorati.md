@@ -48,8 +48,7 @@ Choose
 \[
 \eps \da \min_{z\in \bd U'}\abs{f(z) - w_0}
 .\]
-Now if $
-
+Now if $\abs{w-w_0} < \eps$ and $\abs{z-z_0} = r$, we have $\abs{f(z) - w} > \eps > 0$.
 :::
 
 
