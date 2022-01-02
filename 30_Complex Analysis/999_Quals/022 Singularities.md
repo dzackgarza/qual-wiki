@@ -142,6 +142,17 @@ Since this is a fundamental domain for their periods, they are bounded on $\CC$.
 Write $h\da f-g$, then $h$ is entire since $f,g$ have the same singular parts, and bounded since $\abs{h}\leq \abs{f} + \abs{g}$.
 By Liouville, $h$ is constant, and the claim is that $h\equiv 0$.
 
+Take $z=it$, then 
+\[
+f(it) \sim \csc^2(i\pi t) &\sim \qty{ e^{i\pi (it) } - e^{-i\pi (it)}}^{-2} \\
+&= \qty{e^{-\pi t} - e^{\pi t}}^{-2} \\ 
+&\leq {1\over e^{-\pi t} + e^{\pi t} } \\
+&\sim e^{-\pi t} \\
+&\to 0
+,\]
+using the reverse triangle inequality and that the $e^{-\pi t}$ term in the denominator is negligible for large $t$.
+
+
 :::
 
 ## Tie's Extra Questions: Fall 2015 #complex/qual/completed
