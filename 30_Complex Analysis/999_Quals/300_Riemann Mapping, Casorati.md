@@ -8,7 +8,31 @@ order: 300
 
 ^128e58
 
+
+:::{.problem title="?"}
 Prove the open mapping theorem for holomorphic functions: If $f$ is a non-constant holomorphic function on an open set $U$ in $\mathbb{C}$, then $f(U)$ is also an open set.
+:::
+
+
+:::{.solution title="using the argument principle"}
+Let $f: U\to \CC$.
+Pick $w_0\in W$ with $f(z_0) = w_0$ for some $z_0\in U$; we want to show that $w_0$ is an interior point of $f(U)$, so we're looking for a disc containing $w_0$ and contained in $f(U)$.
+
+Write 
+\[
+g_0(z) \da f(z) - w_0
+,\]
+so $g_0$ is holomorphic and has a zero at $z_0$.
+Since zeros of holomorphic functions are isolated, there is some $\DD_r(z_0)$ where $g_0$ is nonvanishing.
+The claim is that if we choose $\eps$ small enough, we can arrange so that $D_\eps(w_0) \subseteq f(U)$.
+This will follow if $f(z) = w_1$ has a solution $z_1\in U$, i.e. if 
+\[
+g_1(z) \da f(z) - w_1
+\]
+has at least one zero in $U$.
+
+:::
+
 
 ## Spring 2020 HW 3.4 #complex/exercise/work
 
