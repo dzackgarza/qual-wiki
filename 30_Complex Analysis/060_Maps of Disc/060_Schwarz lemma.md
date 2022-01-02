@@ -154,7 +154,7 @@ If equality holds for some $z\neq w$ in either expression, then $f= \lambda F$ w
 
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Special case of bijections"}
 Show that if $f: \Delta\to\Delta$ is a biholomorphism with $f(0) = 0$ then $f$ is a rotation.
 
 
@@ -171,7 +171,7 @@ Write $f(z) = w$, we'll then show that in fact $\abs{f(z)} = \abs{z}$ for all $z
 .\]
 :::
 
-:::{.exercise title="?"}
+:::{.exercise title="Using the estimates"}
 Let $f\in \Hol(\DD)$.
 Show that if $f$ has a fixed point $a$ then $\abs{f'(a)} \leq 1$, and that 
 \[
@@ -194,8 +194,21 @@ Set $a=0$:
 
 :::
 
-![attachments/Pasted image 20211215022943.png](attachments/Pasted%20image%2020211215022943.png)
+:::{.problem title="Using the estimates"}
+Does there exist a map $f: \DD\to \DD$ with
 
+- $f\qty{1\over 2} = {3\over 4}$
+- $f'\qty{1\over 2} = {2\over 3}$
+
+:::
+
+:::{.solution}
+Apply Schwarz-Pick:
+\[
+\abs{f'\qty{1\over 2} } \leq {1 - \abs{f\qty{1\over 2}}^2 \over 1 - \abs{1\over 2}^2 } = {7\over 2}< {2\over 3}
+,\]
+so this is not possible.
+:::
 
 :::{.exercise title="The standard function juggling trick"}
 Show that if $f:\HH\to \DD$ is holomorphic and $f(i) = 0$ then $\abs{f(z)} \leq \abs{z-i\over z+i}$.
