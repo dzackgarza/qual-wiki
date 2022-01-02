@@ -135,6 +135,7 @@ Some silly arithmetic tricks:
 	- Why $f\neq 0$ is necessary: take $f(z) = z$.
 - To show that a sequence of harmonic functions converge on e.g. a disc or rectangle, find good estimates on the boundary and apply the MMP.
 - For real analysis: if $f' < M$, apply the mean value theorem to show $f$ is Lipschitz: $\abs{f(x) - f(y)} = \abs{f'(\xi)} \abs{x-y} < M\abs{x-y}$.
+- To show $\abs{f} \leq \abs{g}$: if you have a factor of $z$ to play with, try to apply Schwarz to $f/g$ to get $\abs{f/g}\leq \abs{z}$.
 
   
 ## Polynomials
