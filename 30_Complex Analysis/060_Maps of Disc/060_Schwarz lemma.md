@@ -24,6 +24,7 @@ with zeros $a_i \in \DD$ is called a **Blaschke product** and is a map $\DD\to \
 Some useful properties:
 
 - $\psi_a \in \Aut(\DD)$
+- $\psi_a(S^1) = S^1$
 - $\psi_a(0) = a$ and $\psi(a) = 0$
 - With this choice of sign, $\psi_{a} \inv = \psi_{a}$, so $\psi_a^2 = \id$.
 - $\psi_a'(z) = {\abs{a}^2 - 1 \over \qty{1-\bar{a} z}^2 }$
@@ -201,7 +202,6 @@ If equality holds for some $z\neq w$ in either expression, then $f= \lambda F$ w
 :::{.exercise title="Special case of bijections"}
 Show that if $f: \Delta\to\Delta$ is a biholomorphism with $f(0) = 0$ then $f$ is a rotation.
 
-
 #complex/exercise/completed
 
 :::
@@ -221,6 +221,9 @@ Show that if $f$ has a fixed point $a$ then $\abs{f'(a)} \leq 1$, and that
 \[
 \abs{f(0)}^2 + \abs{f'(0)}^2 \leq 1
 .\]
+
+#complex/exercise/completed
+
 :::
 
 :::{.solution}
@@ -238,11 +241,13 @@ Set $a=0$:
 
 :::
 
-:::{.problem title="Using the estimates"}
+:::{.exercise title="Using the estimates"}
 Does there exist a map $f: \DD\to \DD$ with
 
 - $f\qty{1\over 2} = {3\over 4}$
 - $f'\qty{1\over 2} = {2\over 3}$
+
+#complex/exercise/completed
 
 :::
 
@@ -274,6 +279,9 @@ Then $F(0) = f(g\inv(0)) = f(i) = 0$ by assumption, so Schwarz yield $\abs{F(z)}
 :::{.exercise title="Using the estimates"}
 Suppose $f: \DD\to \DD$ with $f(0) = 0$ and $\abs{f(z)} \leq \abs{e^z}$ when $\abs{z} = 1$.
 Find an upper bound for $f\qty{1+i\over 2}$.
+
+#complex/exercise/completed
+
 :::
 
 :::{.solution}
