@@ -101,15 +101,12 @@ Then either
 
 :::
 
-
 :::{.remark}
 A common variant: if $f:\DD\to \DD_M(0)$, i.e. $\abs{f} \leq M$ is bounded on $\DD$, dilate by $g(z) \da f(z)/M$ to get $g:\DD\to \DD$ and apply Schwarz to get
 \[
 \abs{f(z)} \leq M\abs{z}
 .\]
-
 :::
-
 
 :::{.proof title="of Schwarz lemma"}
 \envlist
@@ -253,5 +250,26 @@ So
 .\]
 :::
 
+
+:::{.exercise title="Forcing a map to be the identity"}
+Let $\psi_a$ be a Blaschke factor and use the Schwarz lemma to prove that $\psi_a \circ \psi_a = \id_\DD$.
+:::
+
+
+:::{.solution}
+First, $\psi_a$ maps $\DD\to \DD$:
+\[
+\abs{\psi_a(z)} \da 
+\abs{a-z\over 1-\bar{a} z}
+&= \abs{a-z\over 1-\bar{a} z} \cdot \abs{\bar z}\inv \\
+&= \abs{a-z\over \bar{a} - \bar{z}} \\
+&= \abs{a-z \over \bar{a-z} } \\
+&\da \abs{w \over \bar w } \\
+&= \abs{w \over \abs{w}^2/w }\\
+&= \abs{w^2 \over \abs{w}^2} \\
+&= 1
+.\]
+
+:::
 
 
