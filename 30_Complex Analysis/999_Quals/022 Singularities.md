@@ -106,6 +106,32 @@ d. Conclude that $f = g$.
 
 :::
 
+
+:::{.solution}
+**Part 1**:
+This is clear: $\sin^2(\pi z) = 0 \iff z = k$ for $k\in \ZZ$, and this is a pole of order 2 for $f$.
+Every $k\in \ZZ$ is visibly an order 2 pole of $g$.
+
+**Part 2**:
+By periodicity, it suffices to consider the singularity at $z_0 = 0$.
+Expanding $\sin(\pi z) = \pi z - {1\over 3!}(\pi z)^3 + {1\over 5!} (\pi z)^5 + \cdots$ and considering $\sin(\pi z)^2$ shows that $z=0$ is a pole of order 2.
+So $z^2f(z)$ has a removable singularity at $z=0$, and can be expanded:
+\[
+z^2f(z) 
+&= \qty{\pi z\over \sin(\pi z)}^2 \\
+&= (\pi z)^2 \qty{ (\pi z) \inv + {1\over 3!}(\pi z) + {7\over 360} (\pi z^3) +  \cdots}^2 \\
+& (\pi z)^2 \qty{ (\pi z)^{-2} + \cdots  } \\
+&= 1 + \cdots \\
+\implies f(z) = z^{-2} + \cdots
+.\]
+
+
+**Part 3**:
+
+**Part 4**:
+
+:::
+
 ## Tie's Extra Questions: Fall 2015 #complex/qual/completed
 
 :::{.problem title="?"}
