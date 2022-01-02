@@ -150,6 +150,8 @@ Set $g(z) \da {f(Rz + a) \over M}$, then $g: \DD\to \DD$ with $g(0) = f(a)/M = 0
 
 # Exercises
 
+## General
+
 :::{.exercise title="Forcing a map to be the identity"}
 Let $\psi_a$ be a Blaschke factor and use the Schwarz lemma to prove that $\psi_a \circ \psi_a = \id_\DD$.
 
@@ -217,47 +219,6 @@ Write $f(z) = w$, we'll then show that in fact $\abs{f(z)} = \abs{z}$ for all $z
 .\]
 :::
 
-:::{.exercise title="Using the estimates"}
-Let $f\in \Hol(\DD)$.
-Show that if $f$ has a fixed point $a$ then $\abs{f'(a)} \leq 1$, and that 
-\[
-\abs{f(0)}^2 + \abs{f'(0)}^2 \leq 1
-.\]
-
-#complex/exercise/completed
-
-:::
-
-:::{.solution}
-Set $f(a) = a$ in Schwarz-Pick:
-\[
-\left|f^{\prime}(a)\right| \leq \frac{1-|f(a)|^{2}}{1-|a|^{2}} \implies 
-\abs{f'(a)} \leq {1 - \abs{a}^2 \over 1 - \abs{a}^2} \leq 1
-.\]
-Set $a=0$:
-\[
-\left|f^{\prime}(0)\right| \leq \frac{1-|f(0)|^{2}}{1-|0|^{2}} \implies \abs{f'(0)}^2 \leq 1 - \abs{f(0)}^2
-.\]
-:::
-
-:::{.exercise title="Using the estimates"}
-Does there exist a map $f: \DD\to \DD$ with
-
-- $f\qty{1\over 2} = {3\over 4}$
-- $f'\qty{1\over 2} = {2\over 3}$
-
-#complex/exercise/completed
-
-:::
-
-:::{.solution}
-Apply Schwarz-Pick:
-\[
-\abs{f'\qty{1\over 2} } \leq {1 - \abs{f\qty{1\over 2}}^2 \over 1 - \abs{1\over 2}^2 } = {7\over 2}< {2\over 3}
-,\]
-so this is not possible.
-:::
-
 :::{.exercise title="The standard function juggling trick"}
 Show that if $f:\HH\to \DD$ is holomorphic and $f(i) = 0$ then $\abs{f(z)} \leq \abs{z-i\over z+i}$.
 
@@ -273,25 +234,6 @@ Note that
 so one can use the Schwarz lemma on $F \da f\circ g\inv$.
 Noting that $g(z) \da {z-i\over z+i}: \HH\to \DD$ is the Cayley map, the inverse is $g\inv(z) = i{1-z\over 1+z}: \DD\to \HH$. 
 Then $F(0) = f(g\inv(0)) = f(i) = 0$ by assumption, so Schwarz yield $\abs{F(z)} \leq \abs{z}$.
-:::
-
-:::{.exercise title="Using the estimates"}
-Suppose $f: \DD\to \DD$ with $f(0) = 0$ and $\abs{f(z)} \leq \abs{e^z}$ when $\abs{z} = 1$.
-Find an upper bound for $f\qty{1+i\over 2}$.
-
-#complex/exercise/completed
-
-:::
-
-:::{.solution}
-Consider $g(z) \da f(z)/e^z$ -- since $g(0) = 0$ and $g: \DD\to \DD$, Schwarz applies and 
-\[
-\abs{g(z)}\leq \abs{z} \implies \abs{f(z)} \leq \abs{ze^z} \leq e\abs{z}
-.\]
-So
-\[
-\abs{f\qty{1+i\over 2}} \leq e\abs{1+i\over 2}= {e\sqrt{2} \over 2}
-.\]
 :::
 
 :::{.exercise title="Liouville"}
@@ -338,6 +280,68 @@ The key observation is that this factors:
 so this inequality will follow from Schwarz on $g(z) \da f(z)/\psi_a(z)\psi_{-a}(z)$.
 Schwarz does apply since $\abs{f}\leq 1$ in $\DD$ and $\abs{\psi_a(z)} = 1$ on $S^1$, so $\abs{g(z)} \leq 1$ on $S^1$ and by the MMP this inequality holds in all of $\DD$.
 So $\abs{g(z)}\leq \abs{z}$ and unwinding gives the desired inequality.
+:::
+
+## Estimating
+
+:::{.exercise title="Using the estimates"}
+Let $f\in \Hol(\DD)$.
+Show that if $f$ has a fixed point $a$ then $\abs{f'(a)} \leq 1$, and that 
+\[
+\abs{f(0)}^2 + \abs{f'(0)}^2 \leq 1
+.\]
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Set $f(a) = a$ in Schwarz-Pick:
+\[
+\left|f^{\prime}(a)\right| \leq \frac{1-|f(a)|^{2}}{1-|a|^{2}} \implies 
+\abs{f'(a)} \leq {1 - \abs{a}^2 \over 1 - \abs{a}^2} \leq 1
+.\]
+Set $a=0$:
+\[
+\left|f^{\prime}(0)\right| \leq \frac{1-|f(0)|^{2}}{1-|0|^{2}} \implies \abs{f'(0)}^2 \leq 1 - \abs{f(0)}^2
+.\]
+:::
+
+:::{.exercise title="Using the estimates"}
+Does there exist a map $f: \DD\to \DD$ with
+
+- $f\qty{1\over 2} = {3\over 4}$
+- $f'\qty{1\over 2} = {2\over 3}$
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Apply Schwarz-Pick:
+\[
+\abs{f'\qty{1\over 2} } \leq {1 - \abs{f\qty{1\over 2}}^2 \over 1 - \abs{1\over 2}^2 } = {7\over 2}< {2\over 3}
+,\]
+so this is not possible.
+:::
+
+:::{.exercise title="Using the estimates"}
+Suppose $f: \DD\to \DD$ with $f(0) = 0$ and $\abs{f(z)} \leq \abs{e^z}$ when $\abs{z} = 1$.
+Find an upper bound for $f\qty{1+i\over 2}$.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Consider $g(z) \da f(z)/e^z$ -- since $g(0) = 0$ and $g: \DD\to \DD$, Schwarz applies and 
+\[
+\abs{g(z)}\leq \abs{z} \implies \abs{f(z)} \leq \abs{ze^z} \leq e\abs{z}
+.\]
+So
+\[
+\abs{f\qty{1+i\over 2}} \leq e\abs{1+i\over 2}= {e\sqrt{2} \over 2}
+.\]
 :::
 
 :::{.exercise title="Using the estimates"}
