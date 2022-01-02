@@ -126,7 +126,7 @@ z^2f(z)
 ,\]
 so the singular part of $f$ at $z=0$ is $z^{-2}$.
 This coincides with the ${1\over z^2}$ term in $g$.
-
+The remaining principal parts at $z=k$ are ${1\over (z-k)^2},$ using the fact that $f(z+1) = f(z)$, so $f(k) = f(0)$ and the Laurent expansions are gotten by substituting $z-k$ in for $z$ everywhere.
 
 **Part 3**:
 
