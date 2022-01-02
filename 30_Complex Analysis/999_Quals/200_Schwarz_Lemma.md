@@ -291,6 +291,23 @@ Show that if $f: D(0, R) \rightarrow \mathbb{C}$ is holomorphic, with $|f(z)| \l
 \]
 :::
 
+
+:::{.concept}
+The strategy:
+
+- Write the RHS as $a$.
+  Note that we need to get rid of the $M^2$ on the LHS, so keep the $M$ around and write $a \da z/R$ so $z = aR$.
+- Make the substitution to get
+\[
+\abs{f(aR) - f(0) \over M^2 - \bar{f(0)} f(aR) } \leq M\inv \abs{a} \\
+\implies
+\abs{M\qty{ f(aR) - f(0)}  \over M^2 - \bar{f(0)} f(aR) } \leq \abs{a} \\
+\abs{ f(aR)/M - f(0)/M  \over 1 - \bar{f(0)} f(aR)/M^2 } \leq \abs{a} 
+.\]
+
+:::
+
+
 :::{.solution}
 
 > Proof due to Swaroop Hegde!
