@@ -30,7 +30,16 @@ This will follow if for every $w_1\in D_\eps(w_0)$, the equation $f(z) = w_1$ ha
 g_1(z) \da f(z) - w_1
 \]
 has a zero in $U$.
-Let $Z(g_1)$ denote the zero set of $g_1$, it thus suffices to show $\size Z(g_1) \geq 1$.
+Let $Z(g_1, \DD_r(z_0))$ denote set of zeros of $g_1$ in $\DD_r(z_0)$, it thus suffices to show this set has size at least 1.
+By the argument principle,
+\[
+F(w)
+&\da {1\over 2\pi i}\int_{\bd\DD_r(z_0) } {f(z) \over f(z) - w_1 }\dz\\
+&= {1\over 2\pi i}\int_{\bd\DD_r(z_0) } {\dd{}{z}\qty{f(z) - w} \over f(z) - w }\dz\\
+&= \size Z(f(z) - w, \DD_{r}(z_0) ) 
+,\]
+where the last equality follows from the argument principle
+
 
 :::
 
