@@ -142,7 +142,7 @@ Since this is a fundamental domain for their periods, they are bounded on $\CC$.
 Write $h\da f-g$, then $h$ is entire since $f,g$ have the same singular parts, and bounded since $\abs{h}\leq \abs{f} + \abs{g}$.
 By Liouville, $h$ is constant, and the claim is that $h\equiv 0$.
 
-Take $z=it$, then 
+Take $z=it$, then for $f$
 \[
 f(it) \sim \csc^2(i\pi t) &\sim \qty{ e^{i\pi (it) } - e^{-i\pi (it)}}^{-2} \\
 &= \qty{e^{-\pi t} - e^{\pi t}}^{-2} \\ 
@@ -151,6 +151,19 @@ f(it) \sim \csc^2(i\pi t) &\sim \qty{ e^{i\pi (it) } - e^{-i\pi (it)}}^{-2} \\
 &\to 0
 ,\]
 using the reverse triangle inequality and that the $e^{-\pi t}$ term in the denominator is negligible for large $t$.
+
+For $g$, 
+\[
+g(it) 
+&\sim t^{-2} + \sum_{k\geq 1} (t^2 + k^2)\inv \\
+&\leq t^{-2} + \sum_{1\leq k \leq N}(t^2 + k^2)\inv + \sum_{k\geq N}(t^2 + k^2)\inv \\
+&\leq t^{-2} + \sum_{1\leq k \leq N}(t\cdot k^2)\inv + \sum_{k\geq N}(k^2)\inv \\
+&\leq t^{-2} + t\inv \sum_{1\leq k \leq N}(k^2)\inv + \sum_{k\geq N}(k^2)\inv \\
+&\convergesto{N\to\infty\implies t\to\infty} 0
+,\]
+where given $N$ we can pick $t$ large enough so that $t^2 + k^2 \geq tk^2$ for all $k\leq N$.
+These 
+
 
 
 :::
