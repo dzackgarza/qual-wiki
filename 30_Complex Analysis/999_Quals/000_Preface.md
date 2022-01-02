@@ -91,7 +91,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/022 Singularities#^4bd9ee]]
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^0df993]]
 - [x] [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati#^128e58]]
-- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^aff739]]
+- [x] [[30_Complex Analysis/999_Quals/040_Maximum_Modulus#^aff739]]
 
 ## Fall 2019
 
@@ -101,7 +101,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/011_Complex Geometry#^a35657]]
 - [ ] [[30_Complex Analysis/999_Quals/035_Cauchy Theorem#^f2a684]]
 - [ ] [[30_Complex Analysis/999_Quals/051_Polynomials#^398dec]]
-- [ ] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^043381]]
+- [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^043381]]
 - [x] [[30_Complex Analysis/999_Quals/007 CR and Holomorphy#^430a0a]]
 
 ## Spring 2019
@@ -110,11 +110,11 @@ Included years:
 
 - [ ] [[30_Complex Analysis/999_Quals/001_Real_Review#^0a8ca5]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
-- [ ] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^c8872d]]
+- [ ] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^c8872d]] (stuck)
 - [ ] [[30_Complex Analysis/999_Quals/051_Polynomials#^047423]]
 - [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^5d5430]]
-- [ ] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^5c3979]]
-- [ ] [[30_Complex Analysis/999_Quals/005 Function Convergence#^d94130]]
+- [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^0df993]]
+- [x] [[30_Complex Analysis/999_Quals/005 Montel#^d94130]]
 
 ## Fall 2018
 

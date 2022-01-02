@@ -323,7 +323,7 @@ From here, it's a standard exercise, so to sum up:
 :::
 
 
-## Spring 2020.5 #complex/qual/completed
+## Spring 2020.5, Spring 2019.6 #complex/qual/completed
 
 ^0df993
 
@@ -334,8 +334,6 @@ R = \ts{z \st \Re(z) > 0,\, \abs{z - {1\over 2} }> {1\over 2} }
 \]
 to the upper half plane.
 :::
-
-^5c3979
 
 :::{.problem title="Spring 2019.6"}
 Find a conformal map from 
