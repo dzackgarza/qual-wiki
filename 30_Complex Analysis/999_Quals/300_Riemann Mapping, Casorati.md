@@ -1,8 +1,9 @@
 ---
 order: 300
+title: "Open Mapping, Riemann Mapping, Casorati-Weierstrass"
 ---
 
-# Open Mapping, Riemann Mapping, and Casorati-Weierstrass
+# Open Mapping, Riemann Mapping, Casorati-Weierstrass
 
 ## Spring 2020.6 #complex/qual/completed
 
