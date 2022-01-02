@@ -43,7 +43,7 @@ g(z) = \sum_{0\leq k \leq m}c_k z^{-k} \implies f(z) = \sum_{0\leq k \leq m}c_k 
 making $f$ a polynomial of degree at most $m$.
 :::
 
-## 6 #complex/exercise/completed
+## Functions with specified poles (including at $\infty$) #complex/exercise/completed
 
 :::{.problem title="?"}
 Find all functions on the Riemann sphere that have a simple pole at $z=2$ and a double pole at $z=\infty$, but are analytic elsewhere.
@@ -62,8 +62,6 @@ However, if $d_k\neq 0$ for any $k\geq 3$, this results in a higher order pole a
 f(z) = d_{-1}(z-2)\inv + \sum_{0\leq k\leq 3} (d_k + c_k)(z-2)^k 
 .\]
 :::
-
-
 
 ## Entire functions with singularities at $\infty$ #complex/exercise/completed
 
@@ -88,8 +86,7 @@ Write $f(z) = \sum_{k\geq 0} c_k z^k$ since it is entire.
   Then $g(z) \da f(1/z) = \sum_{k\geq 0}{c_k\over z^k}$ has infinitely many nonzero terms, making $z=0$ an essential singularity for $g$ and $z=\infty$ essential for $f$.
 :::
 
-
-## Sum formula for $\sin^2$ #complex/exercise/work
+## Sum formula for $\sin^2$ #complex/exercise/completed
 
 :::{.problem title="?"}
 Define
@@ -105,7 +102,6 @@ d. Conclude that $f = g$.
 
 
 :::
-
 
 :::{.solution}
 **Part 1**:
@@ -136,13 +132,7 @@ g(z+1) = \sum_{k\in \ZZ} ((z-1)-k)^{-2} = \sum_{k'\in \ZZ} (z-k)^{-2}
 ,\]
 where $k' \da k+1$, and the equality is true since both sums run over all of $\ZZ$.
 
-**Part 4**:
-Since $f,g$ uniformly converge to zero on the strip $0<\Re(x) < 1$, they are bounded on this strip.
-Since this is a fundamental domain for their periods, they are bounded on $\CC$.
-Write $h\da f-g$, then $h$ is entire since $f,g$ have the same singular parts, and bounded since $\abs{h}\leq \abs{f} + \abs{g}$.
-By Liouville, $h$ is constant, and the claim is that $h\equiv 0$.
-
-Take $z=it$, then for $f$
+For convergence: take $z=it$, then for $f$
 \[
 f(it) \sim \csc^2(i\pi t) &\sim \qty{ e^{i\pi (it) } - e^{-i\pi (it)}}^{-2} \\
 &= \qty{e^{-\pi t} - e^{\pi t}}^{-2} \\ 
@@ -163,12 +153,13 @@ g(it)
 ,\]
 where given $N$ we can pick $t$ large enough so that $t^2 + k^2 \geq tk^2$ for all $k\leq N$.
 These converge to zero as $N\to\infty$ since $\sum k^{-2} < \infty$, making the last term the tail of a convergent sum.
-So $g \equiv 0$.
-
-This $h$ is constant with $\lim_{t\to\infty} h(it) = 0$, so $h\equiv 0$ and $f\equiv g$.
 
 
-
+**Part 4**:
+Since $f,g$ uniformly converge to zero on the strip $0<\Re(x) < 1$, they are bounded on this strip.
+Since this is a fundamental domain for their periods, they are bounded on $\CC$.
+Write $h\da f-g$, then $h$ is entire since $f,g$ have the same singular parts, and bounded since $\abs{h}\leq \abs{f} + \abs{g}$.
+By Liouville, $h$ is constant with $\lim_{t\to\infty} h(it) = 0$, so $h\equiv 0$ and $f\equiv g$.
 :::
 
 ## Tie's Extra Questions: Fall 2015 #complex/qual/completed
@@ -188,5 +179,4 @@ By the identity principle, this would force $f\equiv 0$, contradicting that $f$ 
 
 It can not be a pole, because then $f(z_n)\to \infty$, but $\abs{f(z_n)} = 0 < \eps$ for any $\eps$ infinitely many times.
 :::
-
 
