@@ -129,8 +129,18 @@ This coincides with the ${1\over z^2}$ term in $g$.
 The remaining principal parts at $z=k$ are ${1\over (z-k)^2},$ using the fact that $f(z+1) = f(z)$, so $f(k) = f(0)$ and the Laurent expansions are gotten by substituting $z-k$ in for $z$ everywhere.
 
 **Part 3**:
+Periodicity is clear for $f$.
+For $g$,
+\[
+g(z+1) = \sum_{k\in \ZZ} ((z-1)-k)^{-2} = \sum_{k'\in \ZZ} (z-k)^{-2}
+,\]
+where $k' \da k+1$, and the equality is true since both sums run over all of $\ZZ$.
 
 **Part 4**:
+Since $f,g$ uniformly converge to zero on the strip $0<\Re(x) < 1$, they are bounded on this strip.
+Since this is a fundamental domain for their periods, they are bounded on $\CC$.
+Write $h\da f-g$, then $h$ is entire since $f,g$ have the same singular parts, and bounded since $\abs{h}\leq \abs{f} + \abs{g}$.
+By Liouville, $h$ is constant, and the claim is that $h\equiv 0$.
 
 :::
 
