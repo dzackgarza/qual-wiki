@@ -243,7 +243,8 @@ This argument in fact shows that the residues *can not* cancel, i.e. $\sum_{k} \
 
 
 :::{.exercise title="Finitely many poles"}
-Show that a meromorphic function can have only finitely many poles.
+Show that a meromorphic function on $\CP^1$ can have only finitely many poles.
+Show that moreover if $f$ is meromorphic on $\CC$ with infinitely many poles, then the poles must accumulate on an essential singularity at $z=\infty$.
 
 #complex/exercise/completed
 
@@ -253,6 +254,10 @@ Show that a meromorphic function can have only finitely many poles.
 Since poles are isolated by definition, the set $P_f$ of poles of $f$ is a discrete subset of $\CP^1$, which is compact.
 Note $P_f$ is closed because being holomorphic is an open condition.
 Any discrete closed subset of a compact space is discrete and compact, thus necessarily finite.
+
+Applying this to any bounded $\Omega \subseteq \CC$, there can only be finitely many poles in any disc of radius $R$.
+If there are infinitely many poles, this forces them to accumulate on $z=0\infty$.
+A limit point of a sequence of poles of $f$ is a limit point of a sequence of zeros of $g\da 1/f$, making it an essential singularity for both.
 :::
 
 :::{.exercise title="Singularities of of $\sin(z)/z$"}
