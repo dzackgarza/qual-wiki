@@ -112,7 +112,7 @@ Included years:
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
 - [ ] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^c8872d]] (stuck)
 - [ ] [[30_Complex Analysis/999_Quals/051_Polynomials#^047423]]
-- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^5d5430]]
+- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^14ad86]]
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^0df993]]
 - [x] [[30_Complex Analysis/999_Quals/005 Montel#^d94130]]
 

@@ -86,20 +86,8 @@ using that $a\neq 0$, so $f$ is a contraction.
 
 
 
-## Spring 2019.5 #complex/qual/work
 
-^5d5430
-
-Suppose that $f(z)$ is holomorphic on $\mathbb{D}$ and that $|f(z)|<1$. Show that
-
-$$
-\left|\frac{f(z)-f\left(z_{0}\right)}
-{1-{ \bar{ f\left(z_{0}\right) } f(z)}}\right| \leq\left|\frac{z-z_{0}}{1-\bar{z}_{0} z}\right|
-$$
-
-> Hint: Schwarz lemma.
-
-## Spring 2021.5 #complex/qual/completed
+## Spring 2019.5, Spring 2021.5 #complex/qual/completed
 
 ^14ad86
 
@@ -118,9 +106,8 @@ Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fr
 
 :::
 
-
-:::{.solution .foldopen}
-This is the **Schwarz–Pick theorem**.
+:::{.solution}
+This is the **Schwarz–Pick lemma**.
 
 - Fix $z_1$ and let $w_1 = f(z_1)$.
   Define
