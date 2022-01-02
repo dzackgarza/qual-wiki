@@ -340,7 +340,6 @@ Schwarz does apply since $\abs{f}\leq 1$ in $\DD$ and $\abs{\psi_a(z)} = 1$ on $
 So $\abs{g(z)}\leq \abs{z}$ and unwinding gives the desired inequality.
 :::
 
-
 :::{.exercise title="Using the estimates"}
 Suppose $f:\HH\to \CC$ with $\abs{f(z)}< 1$ and $f(i) = 0$.
 Find an upper bound for $f(2i)$.
@@ -349,14 +348,38 @@ Find an upper bound for $f(2i)$.
 
 :::
 
-
 :::{.solution}
 Compose with the inverse Cayley map $g(z) \da i{1+z\over 1-z}$ so $g: \DD\to \HH$ to get $F\da f\circ g:\DD\to \DD$, where $F(0) =f(g(0))=f(i) = 0$.
-So Schwarz applies and $\abs{F(z)}\leq \abs{z}$, so now a small trick:
+So Schwarz applies and $\abs{F(z)}\leq \abs{z}$.
+Now a small trick:
 \[
 \abs{f(2i)} = \abs{(f\circ g\circ g\inv)(2i)} = \abs{ F \qty{z+i\over z-i}\evalfrom_{z=2i} } = \abs{F \qty{1\over 3} } \leq {1\over 3}
 .\]
 :::
+
+:::{.exercise title="Combining with Rouche"}
+Use Rouché's theorem and the Schwarz lemma to prove the following: if $f:\DD\to \bar{ \DD}$ is holomorphic with $f(0) = 0$, then there are exactly $m$ solutions (counted with multiplicity) to $f(z) = (2z)^m$ in the disc $\abs{z} < 1/2$.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+First note that the image of $f$ is in fact $\DD$ rather than $\bar{\DD}$, using the open mapping theorem and that the domain $\DD$ is open.
+So Schwarz applies to $f$.
+Write $g(z) \da f(z) - (2z)^m$, the claim is that $g$ has $m$ zeros.
+Toward applying Rouché, identify 
+
+- The big part of $g$: $M(z) \da -(2z)^m$ 
+- The small part of $g$: $m(z) \da g(z) - M(z) = f(z)$.
+
+Now
+\[
+\abs{m(z)} \da \abs{f(z)} \leq \abs{z} = {1\over 2} < \abs{m(z)} = \abs{2z}^m = 1 \qquad \text{on } \abs{z} = {1\over 2}
+,\]
+so Rouché applies: $\size Z_m = \size Z_M$ on $\abs{z} < {1\over 2}$, where $m(z) = f(z)$ and $M(z) = -(2z)^m$ which has exactly $m$ zeros.
+:::
+
 
 
 
