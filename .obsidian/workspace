@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/000_Resources/00_Topics.md",
+            "file": "30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping.md",
             "mode": "source",
             "source": false
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Topics.md",
+                "file": "30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Topics.md"
+                "file": "30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping.md"
               }
             }
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Topics.md",
+                "file": "30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/000_Resources/00_Topics.md",
+                "file": "30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -256,6 +256,7 @@
   },
   "active": "caa5da98ca3bd313",
   "lastOpenFiles": [
+    "30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping.md",
     "30_Complex Analysis/000_Resources/00_Topics.md",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
@@ -264,7 +265,6 @@
     "30_Complex Analysis/999_Quals/011_Complex Geometry.md",
     "30_Complex Analysis/999_Quals/200_Schwarz_Lemma.md",
     "30_Complex Analysis/999_Quals/005 Function Convergence.md",
-    "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md",
-    "30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background.md"
+    "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md"
   ]
 }

@@ -4,17 +4,19 @@ order: 300
 
 # Riemann Mapping and Casorati-Weierstrass
 
-## Spring 2020.6 #complex/qual/work
+## Spring 2020.6 #complex/qual/completed
 
 ^128e58
-
 
 :::{.problem title="?"}
 Prove the open mapping theorem for holomorphic functions: If $f$ is a non-constant holomorphic function on an open set $U$ in $\mathbb{C}$, then $f(U)$ is also an open set.
 :::
 
-
 :::{.solution title="using the argument principle"}
+Idea:
+
+![](figures/2022-01-02_02-14-17.png)
+
 Let $f: U\to \CC$.
 Pick $w_0\in W$ with $f(z_0) = w_0$ for some $z_0\in U$; we want to show that $w_0$ is an interior point of $f(U)$, so we're looking for a disc containing $w_0$ and contained in $f(U)$.
 
@@ -56,15 +58,6 @@ Now if $\abs{w-w_0} < \eps$ and $\abs{z-z_0} = r$, we have $\abs{f(z) - w} > \ep
 
 :::
 
-
-## Spring 2020 HW 3.4 #complex/exercise/work
-
-Let $f$ be non-constant, analytic in $\abs{z} > 0$, where $f(z_n) = 0$
-for infinitely many points $z_n$ with $\lim_{n\to\infty} z_n = 0$.
-
-Show that $z=0$ is an essential singularity for $f$.
-
-> Example: $f(z) = \sin(1/z)$.
 
 
 ## 10 #complex/exercise/work
