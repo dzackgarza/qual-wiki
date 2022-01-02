@@ -8,7 +8,6 @@ order: 22
 
 ^4bd9ee
 
-
 :::{.problem title="?"}
 Suppose that $f$ is holomorphic in an open set containing the closed unit disc, except for a simple pole at $z=1$. Let $f(z)=\sum_{n=1}^{\infty} c_{n} z^{n}$ denote the power series in the open unit disc. Show that 
 \[
@@ -29,13 +28,26 @@ Compute the series expansion of the RHS:
 where we've used that the sum is telescoping.
 :::
 
-## 5 #complex/qual/work
+## Entire functions with poles at $\infty$ #complex/exercise/completed
 
+:::{.problem title="?"}
 Find all entire functions with have poles at $\infty$.
+:::
 
-## 6 #complex/qual/work
+:::{.solution}
+If $f$ is entire, write $f(z) = \sum_{k\geq 0}c_k z^k$ and $g(z) \da \f(1/z) = sum_{k\geq 0}c_k z^{-k}$.
+If $z=\infty$ is a pole of order $m$ of $f$, $z=0$ is a pole of order $m$ of $g$, so 
+\[
+g(z) = \sum_{0\leq k \leq m}c_k z^{-k} \implies f(z) = \sum_{0\leq k \leq m}c_k z^k
+,\]
+making $f$ a polynomial of degree at most $m$.
+:::
 
+## 6 #complex/exercise/work
+
+:::{.problem title="?"}
 Find all functions on the Riemann sphere that have a simple pole at $z=2$ and a double pole at $z=\infty$, but are analytic elsewhere.
+:::
 
 
 ## Entire functions with singularities at $\infty$ #complex/exercise/completed
@@ -62,8 +74,7 @@ Write $f(z) = \sum_{k\geq 0} c_k z^k$ since it is entire.
 :::
 
 
-
-## Sum formula for $\sin^2$ #complex/qual/work
+## Sum formula for $\sin^2$ #complex/exercise/work
 
 :::{.problem title="?"}
 Define
