@@ -282,12 +282,13 @@ where dividing by $z$ is not an issue since $z=0$ is a zero of $g$ of at least o
 This forces $g(z) = g(0) = 0$ for all $z$, so $f(z) = f(z_0)$ is constant.
 :::
 
-
 :::{.exercise title="Using derivatives"}
 Let $f:\DD\to \DD$ with $f(0) = f'(0) = 0$.
 Show that $\abs{f''(0)} \leq 2$ and describe all $f$ for which this is an equality.
-:::
 
+#complex/exercise/completed
+
+:::
 
 :::{.solution}
 By Schwarz, $\abs{f(z)}\leq z$.
@@ -308,9 +309,9 @@ Suppose this is an equality -- then Schwarz on $g$ shows $g$ is a rotation, so
 {f(z)\over z} = g(z) = \lambda z \implies f(z) = \lambda z^2 \qquad \lambda \in S^1
 .\]
 
+> Note: if $\abs{z}\leq 1$, we have $g(\DD) \subseteq \bar{\DD}$, but the open mapping theorem always guarantees $g(\DD) = \DD$.
+
 :::
-
-
 
 ## Estimating
 
@@ -434,6 +435,5 @@ Using the standard trick,
 \abs{f(2)} = \abs{(f\circ \circ g\inv )(2)} = \abs{F(g\inv(2))} = \abs{F\qty{z-1\over z+1}\evalfrom_{z=2}} = \abs{F\qty{1\over 3}} \leq \abs{1\over 3}
 .\]
 :::
-
 
 
