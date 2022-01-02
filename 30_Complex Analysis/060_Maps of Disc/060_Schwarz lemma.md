@@ -313,6 +313,35 @@ Suppose this is an equality -- then Schwarz on $g$ shows $g$ is a rotation, so
 
 :::
 
+
+:::{.exercise title="Fixed points"}
+Suppose $f:\DD\to \DD$ with $f(a) = a$ a fixed point where $\abs{f'(a)} < 1$.
+Show that for any initial point $z_0$, the sequence $z_k \da f(z_{k-1})$ converges to $a$.
+:::
+
+
+:::{.solution}
+First suppose $c=0$ -- then Schwarz applies, and since $\abs{f'(a)} < 1$ is strict, $f$ is *not* a rotation.
+
+:::{.claim}
+For any choice of $z_0\in \DD$, there is an $r$ with $0< \abs{z_0} < r < 1$ and a constant $C<1$ such that $\abs{f(z)} \leq C\abs{z}$ for $\abs{z} < r$.
+:::
+
+Given this, $z_k\to 0$: given such an $r$ and $C$,
+
+\[
+\abs{z_k} = \abs{f(z_{k-1})} \leq C\abs{z_{k-1}} = C\abs{f(z_{k-2})} \leq C^2 \abs{z_{k-2}} \cdots \implies \abs{z_k} \leq C^k\abs{z_0} \convergesto{k\to\infty}0
+.\]
+
+:::{.proof title="?"}
+
+:::
+
+
+:::
+
+
+
 ## Estimating
 
 :::{.exercise title="Using the estimates"}
