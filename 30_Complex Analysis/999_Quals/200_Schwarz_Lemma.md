@@ -514,6 +514,14 @@ so
 \abs{f'(z)} = {\abs{F'(z)} \over \abs{\psi_w'(C(f(z))) \cdot C'(f(z)) } }
 .\]
 
+It remains to compute a few things:
+
+- $C(f(0)) = C(2) = w\da {2+i\over 2-i} = {1\over 5}(3+4i)$
+- $\psi_w'(z) = \dd{}{z}{w-z\over 1-\bar w z} = {\abs{w}^2 - 1\over (1-\bar w z)^2}$
+- $C'(z) = - {2z\over (z-i)^2}$
+- $C'(f(0)) = C'(2)$
+
+
 
 
 :::
