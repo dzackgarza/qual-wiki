@@ -246,6 +246,13 @@ Write $f(z) = w$, we'll then show that in fact $\abs{f(z)} = \abs{z}$ for all $z
 .\]
 :::
 
+:::{.solution title="Shorter version"}
+By Schwarz, $\abs{f'(0)} \leq 1$ -- the claim is that we have equality, so that by Schwarz $f(z) = \lambda z$ for some $\abs{\lambda} = 1$.
+Use that $f'(0) \neq 0$ since $f$ is a bijection near zero and if $g\da f\inv$ then $g'(0) = 1/f'(0)$.
+Moreover Schwarz applies to $g$, so $1 \geq \abs{g'(0)} \geq {1\over \abs{f'(0)} }$, forcing $\abs{ f'(0) } = 1$.
+By the equality clause in the Schwarz lemma for $f$, $f$ is rotation.
+:::
+
 :::{.exercise title="The standard function juggling trick"}
 Show that if $f:\HH\to \DD$ is holomorphic and $f(i) = 0$ then $\abs{f(z)} \leq \abs{z-i\over z+i}$.
 
