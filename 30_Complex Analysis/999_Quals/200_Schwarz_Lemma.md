@@ -505,13 +505,15 @@ By the chain rule,
 \[
 F'(z) = f'( (g\circ C) (z))\cdot g'(C(z)) \cdot C'(z)
 .\]
-Setting $g(C(z)) = 0$ yields $z=C\inv(g\inv(0)) = C\inv(0) = i$ and
+Setting $g(C(z)) = 0$ yields $z=C\inv(g\inv(0)) = C\inv(0) = i$.
+Noting that $C()
 \[
-F'(C\inv g\inv (0)) 
-&= f'(0)\cdot g'(CC\inv g\inv(0)) \cdot C'(C\inv g\inv(0)) \\
-\implies F'(i) &= f'(0) \cdot g'(0) \cdot C'(i) \\
+F'(i) &= f'(0) \cdot g'(0) \cdot C'(i) \\
 \implies \abs{f'(0)} 
-&\leq \abs{F'(i) \over g'(0) C'(i)}
+&\leq \abs{F'(i) \over g'(0) C'(i)} \\
+&\leq {1\over \abs{g'(0)} \cdot \abs{C'(i)} } \\
+&= {1\over \abs{i\over 2} \cdot \abs{-{i\over 2} } } \\
+&= 4
 .\]
 
 
