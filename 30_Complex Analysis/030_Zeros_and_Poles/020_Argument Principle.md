@@ -148,7 +148,12 @@ By dividing coefficients through, we may assume $c_n = 1$, so
 \[
 f(z) = z^n + \qty{ c_{n+1} z^{n+1} + c_{n+2}z^{n+2} + \cdots} = z^n + z^{n+1} \sum_{k\geq 0} c_{k+n+1}z^k \da z^n + g(z)
 .\]
-Now apply Rouché to show that $f(z)$ and $z^n$ have the same number of zeros in a small disc about $0$.
+
+:::{.claim}
+By Rouché, $f(z)$ and $z^n$ have the same number of zeros in a small disc about $0$.
+:::
+
+:::{.proof title="of claim"}
 Write $m(z) = \sum_{k\geq 0}c_{k+n}z^k$ and $M(z) = z^n$; then if $\abs{m(z)} < \abs{M(z)}$ for any circle $\abs{z} = \rho$ with $\rho< 1$ then $M$ and $m+M = f$ will have the same number of zeros ($n$ with multiplicity).
 
 Bounding $m$, the tail of the Laurent series of $f$: by Cauchy's integral formula, on a disc of radius $R$,
@@ -162,8 +167,25 @@ so
 
 We can now estimate $g$:
 \[
-\abs{g(z)} =
+\abs{g(z)} 
+&= \abs{z^n \sum_{k\geq 0} c_{k+n+1} z^k} \\
+&\leq \abs{z}^n \sum_{k\geq 0} \abs{ c_{k+n+1}} \abs{z}^k \\
+&\leq \sum_{k\geq 0} {M_R \over R^{k+n+1}} \rho^k \\
+&= \abs{z}^n {M_R \over R^{n+1}} \sum_{k\geq 0} \qty{\rho\over R}^k \\
+&= \abs{z}^n {M_R \over R^{n+1}} \qty{1\over 1- {\rho \over R}} \\
+&= \abs{z}^n {M_R \over R^{n+1}} {R\over R-\rho} \\
+&= \abs{z}^n \qty{ {M_R\over R^n( R-\rho)} } \\
+&\da \abs{z}^n C_{R, \rho}
+,\]
+and $R, \rho$ can be chosen such that $C_{R, \rho} < 1$.
+
+Thus on $\abs{z} = \rho$,
+\[
+\abs{m(z)} = \abs{g(z) } \leq C_{R, \rho} \abs{z} < \abs{z} = \abs{M(z)}
 .\]
+
+:::
+
 
 
 
