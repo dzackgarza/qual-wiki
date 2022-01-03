@@ -78,8 +78,10 @@ Use cross ratios: set $T(z) \da (z;,1,i,2)$ and $S(w) = (w;,3,0,-1)$ and solve $
 
 :::{.exercise title="$\mathbb{D}^c \intersect \mathbb{H}$ to $\mathbb{H}$"}
 Find a conformal map from $\DD^c \intersect \HH$ to $\HH$ using cross-ratios.
-:::
 
+#complex/exercise/completed
+
+:::
 
 :::{.solution}
 Idea: all cross-ratios send the complement of a positively oriented region $(a,b,c)$ to the half-hemisphere $(1,0,\infty)$ on $\CP^1$.
@@ -95,8 +97,6 @@ f(z) = {z+1\over z-1} {i-1\over i+1}
 The image of $\DD^c \intersect \HH$ is the 1st quadrant $\HH \intersect \Re(z) > 0$.
 Send this to $\HH$ with $z\mapsto z^2$.
 :::
-
-
 
 ## Discs and Planes
 
