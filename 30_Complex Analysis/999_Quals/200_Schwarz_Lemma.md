@@ -5,8 +5,6 @@ title: "Schwarz Lemma"
 
 # Schwarz Lemma
 
-
-
 ## Fall 2020.7 #complex/qual/completed
 
 ^4c605e
@@ -42,7 +40,6 @@ Then if $f(z) = e^{i\theta}z$, $f_n(z) = e^{in\theta}z$.
 The pointwise limit $\lim_{n\to\infty}e^{in\theta}z$ can only exist if $\theta = 0$, otherwise this is periodic when $\theta$ is rational or the points $e^{i\theta}z, e^{2i\theta }z,\cdots$ form form a countably infinite set of distinct points.
 So $f(z) = z$, making $\lim_{n\to \infty}f_n(z) = z$ as well.
 :::
-
 
 ## Fall 2020.4 #complex/qual/stuck
 
@@ -102,9 +99,6 @@ using that $a\neq 0$, so $f$ is a contraction.
   Compose with some $\psi_a$ to get $0\to 0$ and apply Schwarz -- unclear how to unwind what happens in the case of equality though.
 
 :::
-
-
-
 
 ## Spring 2019.5, Spring 2021.5 #complex/qual/completed
 
@@ -449,7 +443,7 @@ so that $g(0) = 0$ and $g:\DD\to \DD$ so Schwarz applies,
 
 :::
 
-## 3 #complex/exercise/work
+## Classifying conformal maps #complex/exercise/completed
 
 :::{.problem title="?"}
 Define
@@ -460,7 +454,6 @@ G \definedas \theset{z\in \CC\suchthat \Re(z) > 0, \, \abs{z-1} > 1}
 Find all of the injective conformal maps $G\to \DD$.
 These may be expressed as compositions of maps, but explain why this list is complete.
 :::
-
 
 :::{.solution}
 Use that every element of $\Aut(\DD)$ is of the form $f(z) = \lambda\psi_a(z)$, and the region $G$ is conformally equivalent to $\DD$.
@@ -473,17 +466,12 @@ f\in \Aut(G) \implies f = F\inv \circ \psi_{a} \circ F \text{ for some } \psi_a 
 
 :::
 
-
-
-
-
-## 5 #complex/exercise/work
+## Bounding derivatives #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f: \DD\to \HH$ is analytic and satisfies $f(0) = 2$.
 Find a sharp upper bound for $\abs{f'(0)}$, and prove it is sharp by example.
 :::
-
 
 :::{.concept}
 Some useful facts about the Cayley map:
@@ -496,8 +484,6 @@ Some useful facts about the Cayley map:
 
 :::
 
-
-
 :::{.solution}
 Define $g:\HH\to \HH$ by $g(z) = {1\over 2}iz$, so $g(2) = i$.
 Then set $F \da C\circ g \circ f: \DD\to \DD$ where $C(z) \da {z-i\over z+i}$ is the Cayley map.Since $F(0) = C(g(f(0))) = C(g(2)) = C(i) = 0$, Schwarz applies to $F$ and $\abs{F'(z)}\leq 1$ for $z\in \DD$.
@@ -506,7 +492,6 @@ By the chain rule,
 F'(z) = f'( (g\circ C) (z))\cdot g'(C(z)) \cdot C'(z)
 .\]
 Setting $g(C(z)) = 0$ yields $z=C\inv(g\inv(0)) = C\inv(0) = i$.
-Noting that $C()
 \[
 F'(i) &= f'(0) \cdot g'(0) \cdot C'(i) \\
 \implies \abs{f'(0)} 
@@ -516,6 +501,19 @@ F'(i) &= f'(0) \cdot g'(0) \cdot C'(i) \\
 &= 4
 .\]
 
+By Schwarz, if $\abs{F'(z)} = 1$ for any $z\in \DD$, we'll have $F(z) = \lambda z$ for some $\abs{ \lambda} = 1$.
+Unwinding this:
+\[
+F(z) &= \lambda z \implies (C\circ g\circ f)(z) = \lambda z \\
+\implies f(z) &= g\inv(C\inv(\lambda z)) = g\inv\qty{-i {\lambda z + 1 \over \lambda z - 1}} \\
+\implies f(z) &= -2 {\lambda z + 1\over \lambda z - 1}
+.\]
+Moreover $f'(z) = -2\qty{-2\lambda \over (\lambda z - 1)^2}$, so
+\[
+\abs{f'(0)} = 4\abs{\lambda} = 4
+.\]
+
+
 
 
 
@@ -523,15 +521,16 @@ F'(i) &= f'(0) \cdot g'(0) \cdot C'(i) \\
 
 :::
 
-
-
 ## 6 #complex/exercise/work
+
+:::{.problem title="?"}
 Suppose $f:\DD\to\DD$ is analytic, has a single zero of order $k$ at $z=0$, and satisfies $\lim_{\abs z \to 1} \abs{f(z)} = 1$.
 Give with proof a formula for $f(z)$.
-
-
+:::
 
 ## 8 #complex/exercise/work
+
+:::{.problem title="?"}
 Suppose $f, g: \DD\to \Omega$ are holomorphic with $f$ injective and $f(0) = g(0)$.
 
 Show that 
@@ -541,18 +540,29 @@ Show that
 
 > The first part of this problem asks for a statement of the Schwarz lemma.
 
+:::
+
 ## 9 #complex/exercise/work
+
+:::{.problem title="?"}
 Let $S\definedas \theset{z\in \DD\suchthat \Im(z) \geq 0}$.
 Suppose $f:S\to \CC$ is continuous on $S$, real on $S\intersect \RR$, and holomorphic on $S^\circ$.
 
 Prove that $f$ is the restriction of a holomorphic function on $\DD$.
 
+:::
+
 ## 10 #complex/exercise/work
+
+:::{.problem title="?"}
 Suppose $f:\DD\to \DD$ is analytic.
 Prove that 
 \[  
 \forall a\in \DD, \qquad {\abs{f'(a)} \over 1 - \abs{f(a)}^2 } \leq {1 \over 1 - \abs{a}^2}
 .\]
+
+:::
+
 
 ### Tie's Extra Questions: Fall 2009
 Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
