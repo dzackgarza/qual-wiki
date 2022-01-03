@@ -26,7 +26,9 @@ A summary:
 
 - Half-discs to planes: the Joukowski maps $z\mapsto z+z\inv$
 - Bigons/lunar domains: map the intersection points $z_0\to 0, z_1\to\infty$ to get strips.
-	![](figures/2021-12-10_17-12-12.png)
+  ![](figures/2021-12-10_17-12-12.png)
+  - In general, take the line through the centers and intersection points. 
+    Call the intersection of the two circles $a$, the line with the small circle $b$, and the last $c$, and take $(z; c,b,a)$ to get $0<\Re(z) < 1$.
 
 Some tips:
 

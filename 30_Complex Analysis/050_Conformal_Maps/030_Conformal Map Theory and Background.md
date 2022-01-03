@@ -104,9 +104,9 @@ This yields a quick way of finding $f\inv$: invert the matrix and ignore the det
 
 :::
 
-
 :::{.remark}
 An LFT that fixes three points is the identity.
+
 :::
 
 
