@@ -534,3 +534,22 @@ Using the standard trick,
 .\]
 :::
 
+:::{.exercise title="?"}
+Suppose $f:\DD\to \DD$ and $f(0) = 0$.
+Show that
+\[
+\abs{f(z) + f(-z)} \leq 2\abs{z}^2
+,\]
+with equality only if $f(z) = \lambda z^2$ for some $\abs{\lambda} = 1$.
+
+#complex/exercise/completed
+
+:::
+
+
+:::{.solution}
+Define $F(z) \da { f(z) + f(-z) \over 2 z^2}$, then $F(0) = 0$ and thus Schwarz applies.
+
+:::
+
+
