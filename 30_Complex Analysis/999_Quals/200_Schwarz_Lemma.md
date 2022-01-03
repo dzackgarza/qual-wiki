@@ -374,11 +374,31 @@ Show that
 \exists n\in \NN, \lambda \in S^1 \qtext{ such that }f(z) = \lambda z^n
 .\]
 
-c
+c.
 Suppose that $a_1, \cdots, a_n \in \DD$ are the zeros of $f$ and prove that
 \[  
 \exists \lambda \in S^1 \qtext{such that} f(z) = \lambda \prod_{j=1}^n {z - a_j \over 1 - \bar{a_j} z}
 .\]
+
+:::
+
+
+:::{.solution}
+**Part 1**:
+use the reflection principle to define
+\[
+F(z) \da 
+\begin{cases}
+f(z) & \abs{z \leq 1} 
+\\
+{1\over \bar{f\qty{1/\bar{z}}} } & .\abs{z\geq 1}
+\end{cases}
+.\]
+
+
+**Part 2**:
+
+**Part 3**:
 
 :::
 
