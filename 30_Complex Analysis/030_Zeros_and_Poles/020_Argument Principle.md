@@ -135,10 +135,9 @@ Show that $\logd(fg) = \logd f + \logd g$, i.e.
 :::{.exercise title="Detecting injectivity using derivatives"}
 Show that if $z_0$ is a zero of $f'$ of order $n-1$, then $f$ is $n$-to-one in a neighborhood of $z_0$.
 
-#complex/exercise/work
+#complex/exercise/completed
 
 :::
-
 
 :::{.solution}
 Wlog, assume $z_0 = 0$.
@@ -150,7 +149,7 @@ f(z) = z^n + \qty{ c_{n+1} z^{n+1} + c_{n+2}z^{n+2} + \cdots} = z^n + z^{n+1} \s
 .\]
 
 :::{.claim}
-By Rouché, $f(z)$ and $z^n$ have the same number of zeros in a small disc about $0$.
+By Rouché, $f(z)$ and $z^n$ have the same number of zeros in a small disc $\DD_\rho(0)$.
 :::
 
 :::{.proof title="of claim"}
@@ -186,8 +185,18 @@ Thus on $\abs{z} = \rho$,
 
 :::
 
-
-
-
+So the fiber above $z=0$ is of size $n$, the claim is that this is also true in a neighborhood of zero.
+The above estimate also shows that for $0 < \abs{z}\leq \rho$, $\abs{g(z)} \leq \abs{z^n}$, and so
+\[
+\abs{g(z)} = \abs{g(z) - z^n + z^n} \geq \abs{ \abs{g(z) - z^n} - \abs{z^n} } > 0
+,\]
+so $g$ is nonzero on $\DD_\rho(0)\smz$.
+For the zero-counting function
+\[
+F(w) \da {1\over 2\pi i} \oint_{\abs{\xi} = \rho'} {f'(\xi) \over f(\xi) - w }\dxi
+.\]
+Taking $\rho ' < \min_{\abs{\xi} = \rho} \abs{f(z)}$ makes this a holomorphic function of $w$ on $\DD_{\rho'}(0)$, and as a continuous $\ZZ\dash$valued function it is constant.
+Since $F(0) = n$, this forces $F(w) = n$ for all $\abs{w} < \rho'$, so there are $n$ solutions to $f(z) = w$ in these discs.
+After shrinking these discs if necessary, $f'\neq 0$ is nonvanishing on a punctured disc, so $f$ is injective there and these solutions are distinct.
 :::
 
