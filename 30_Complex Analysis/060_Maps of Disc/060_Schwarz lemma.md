@@ -321,21 +321,35 @@ Show that for any initial point $z_0$, the sequence $z_k \da f(z_{k-1})$ converg
 
 
 :::{.solution}
-First suppose $c=0$ -- then Schwarz applies, and since $\abs{f'(a)} < 1$ is strict, $f$ is *not* a rotation.
+First suppose $a=0$ -- then Schwarz applies, and since $\abs{f'(a)} < 1$ is strict, $f$ is *not* a rotation.
 
 :::{.claim}
 For any choice of $z_0\in \DD$, there is an $r$ with $0< \abs{z_0} < r < 1$ and a constant $C<1$ such that $\abs{f(z)} \leq C\abs{z}$ for $\abs{z} < r$.
 :::
 
-Given this, $z_k\to 0$: given such an $r$ and $C$,
+With such an $r$ and $C<1$ in hand,
 
 \[
 \abs{z_k} = \abs{f(z_{k-1})} \leq C\abs{z_{k-1}} = C\abs{f(z_{k-2})} \leq C^2 \abs{z_{k-2}} \cdots \implies \abs{z_k} \leq C^k\abs{z_0} \convergesto{k\to\infty}0
-.\]
+,\]
+which proves the $a=0$ case.
 
-:::{.proof title="?"}
-
+:::{.proof title="That $f$ is a contraction"}
+The claim is that for any given $r$, the constant $C\da M/r$ works, where $M\da \max_{\abs{z} = r} \abs{f(z)}>0$.
+The scaled Schwarz lemma gives $\abs{f(z)}\leq {M\over r}\abs{z} = C\abs{z}$, and $\abs{C} \leq 1$ since $\abs{M} \leq r$, which follows because $\abs{f(z)}\leq \abs{z}$ on $\DD$ itself.
 :::
+
+For $a\neq 0$, take a Blaschke factor $\psi_a(z)$ and consider $F \da \psi_a\inv \circ F\circ \psi_a$.
+The claim is that this reduces to the case $a=0$.
+
+Note $F(0) = 0$, so $0$ is a fixed point of $F$.
+Moreover 
+\[
+F'(0) 
+&= (\psi_a\inv)'(F(\psi_a(0))) \cdot F'(\psi_a(0)) \cdot \psi_a'(0) \\
+&= (\psi_a\inv)'(F( a )) \cdot F'(a ) \cdot \psi_a'(0) \\
+&= ?
+.\]
 
 
 :::
