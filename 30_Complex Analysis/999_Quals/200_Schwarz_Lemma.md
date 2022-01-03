@@ -486,7 +486,23 @@ Find a sharp upper bound for $\abs{f'(0)}$, and prove it is sharp by example.
 
 
 :::{.solution}
-Write $H(z) \da {z-i \over z+i}$ and $G(z) \da -i{z+1\over z-1}$, so $H:\HH\to \DD$ and $G:\DD\to \HH$.
+Toward applying the Schwarz lemma, take the following composition:
+
+\begin{tikzcd}
+	\DD && \HH && \DD && \DD \\
+	0 && {f(0) = 2} && {C(2) = {2+i\over 2-i} = {1\over 5}(3+4i) \da w} && 0
+	\arrow["f", from=1-1, to=1-3]
+	\arrow["C", from=1-3, to=1-5]
+	\arrow["{\psi_w}", from=1-5, to=1-7]
+	\arrow[maps to, from=2-1, to=2-3]
+	\arrow[maps to, from=2-3, to=2-5]
+	\arrow[maps to, from=2-5, to=2-7]
+\end{tikzcd}
+
+> [Link to Diagram](https://q.uiver.app/?q=WzAsOCxbMCwwLCJcXEREIl0sWzIsMCwiXFxISCJdLFs0LDAsIlxcREQiXSxbNiwwLCJcXEREIl0sWzAsMSwiMCJdLFsyLDEsImYoMCkgPSAyIl0sWzQsMSwiQygyKSA9IHsyK2lcXG92ZXIgMi1pfSA9IHsxXFxvdmVyIDV9KDMrNGkpIFxcZGEgdyJdLFs2LDEsIjAiXSxbMCwxLCJmIl0sWzEsMiwiQyJdLFsyLDMsIlxccHNpX3ciXSxbNCw1LCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzUsNiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFs2LDcsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XV0=)
+
+Here $C:\HH\to \DD$ is the standard Cayley map ${z+i\over z-i}.$
+
 :::
 
 
