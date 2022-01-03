@@ -359,7 +359,7 @@ which holds for all $w\in \DD$ by replacing $Rz$ with $w$ (i.e. to show this equ
 
 :::
 
-## 1 #complex/exercise/work
+## Schwarz and Blaschke products #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f:\DD\to\DD$ is analytic and admits a continuous extension $\tilde f: \bar \DD \to \bar \DD$ such that $\abs{z} = 1 \implies \abs{f(z)} = 1$.
@@ -381,7 +381,6 @@ Suppose that $a_1, \cdots, a_n \in \DD$ are the zeros of $f$ and prove that
 .\]
 
 :::
-
 
 :::{.solution}
 **Part 1**:
@@ -407,11 +406,15 @@ On $\abs{z} = r<1$,
 ,\]
 using that $\abs{f} \leq 1$ on $\DD$.
 By the MMP, $\abs{g} \leq 1$ on all of $\DD$.
+Note that $\abs{g} = 1$ when $\abs{z}=1$, so $\abs{1/g}\leq 1$ in $\DD$ by the MMP, forcing $\abs{g} = 1$.
 Unwinding this, $\abs{f} = \abs{z}^n$, go $f(z) = \lambda z^n$ for some $\abs{\lambda} = 1$.
 
-
 **Part 3**:
-
+Define $\Psi(z) \da \prod_{k\leq n} \psi_{a_k}(z)$ where $\psi_a(z) \da {a-z\over 1-\bar a z}$.
+Set $g(z) \da {f(z) \over \Psi(z)}$, then by the same argument as above, $\abs{g} \leq 1$ and $\abs{g} = 1$ on $\abs{z} = 1$.
+Then $g$ has no zeros, since they've all been divided out, and no poles since $f$ is holomorphic on $\DD$, so $1/g$ is holomorphic on $\DD$.
+Since $\abs{1/g} = 1$ on $S^1$, this forces $g$ to be constant.
+Equality in the Schwarz lemma implies $g(z) = \lambda z$ is a rotation, and unwinding this yields $f(z) = \lambda \Psi(z)$.
 :::
 
 
