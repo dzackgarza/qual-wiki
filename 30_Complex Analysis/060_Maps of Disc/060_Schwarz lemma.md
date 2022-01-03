@@ -548,7 +548,9 @@ with equality only if $f(z) = \lambda z^2$ for some $\abs{\lambda} = 1$.
 
 
 :::{.solution}
-Define $F(z) \da { f(z) + f(-z) \over 2 z^2}$, then $F(0) = 0$ and thus Schwarz applies.
+Define $F(z) \da { f(z) + f(-z) \over 2 z^2}$, then $F(0) = 0$ and thus Schwarz applies and yields the desired inequality.
+If $\abs{F(z)} = \abs{z}$ for any $z$, then $F(z) = \lambda z$ is a rotation and $f(z) + f(-z) = \lambda z$.
+Thus $f(z) = \lambda z + f_o(z)$ for $f_0$ some odd function.
 
 :::
 
