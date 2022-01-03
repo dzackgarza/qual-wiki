@@ -77,6 +77,7 @@ Some useful parametric equations:
   \tv{R {1-u^2\over 1+u^2} , R {2u\over 1+u^2}} = R {1-u^2\over 1+u^2} +iR{2u\over 1+u^2}
   .\]
 
+- Lines: $\bar{a}z + a\bar{z} + c = 0$.
 
 
 :::
