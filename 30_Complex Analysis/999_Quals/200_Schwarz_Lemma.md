@@ -389,14 +389,17 @@ use the reflection principle to define
 \[
 F(z) \da 
 \begin{cases}
-f(z) & \abs{z \leq 1} 
+f(z) & \abs{z} \leq 1 
 \\
-{1\over \bar{f\qty{1/\bar{z}}} } & .\abs{z\geq 1}
+{1\over \bar{f\qty{1/\bar{z}}} } & \abs{z} \geq 1
 \end{cases}
 .\]
 
+Now $F:\CP^1\to \CP^1$ is holomorphic and all such functions are rational.
+As a consequence, $f$ is rational.
 
 **Part 2**:
+As in the proof of Schwarz, define $g(z) \da {f(z)\over z^n}$ where $n = \ord_{f}(0)$.
 
 **Part 3**:
 
