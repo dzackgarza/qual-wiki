@@ -478,8 +478,18 @@ f\in \Aut(G) \implies f = F\inv \circ \psi_{a} \circ F \text{ for some } \psi_a 
 
 
 ## 5 #complex/exercise/work
+
+:::{.problem title="?"}
 Suppose $f: \DD\to \HH$ is analytic and satisfies $f(0) = 2$.
 Find a sharp upper bound for $\abs{f'(0)}$, and prove it is sharp by example.
+:::
+
+
+:::{.solution}
+Write $H(z) \da {z-i \over z+i}$ and $G(z) \da -i{z+1\over z-1}$, so $H:\HH\to \DD$ and $G:\DD\to \HH$.
+:::
+
+
 
 ## 6 #complex/exercise/work
 Suppose $f:\DD\to\DD$ is analytic, has a single zero of order $k$ at $z=0$, and satisfies $\lim_{\abs z \to 1} \abs{f(z)} = 1$.
