@@ -499,6 +499,22 @@ Some useful facts about the Cayley map:
 
 
 :::{.solution}
+Define $g:\HH\to \HH$ by $g(z) = {1\over 2}iz$, so $g(2) = i$.
+Then set $F \da C\circ g \circ f: \DD\to \DD$ where $C(z) \da {z-i\over z+i}$ is the Cayley map.Since $F(0) = C(g(f(0))) = C(g(2)) = C(i) = 0$, Schwarz applies to $F$ and $\abs{F'(z)}\leq 1$ for $z\in \DD$.
+By the chain rule,
+\[
+F'(z) = f'( (g\circ C) (z))\cdot g'(C(z)) \cdot C'(z)
+.\]
+Setting $g(C(z)) = 0$ yields $z=C\inv(g\inv(0)) = C\inv(0) = i$ and
+\[
+F'(C\inv g\inv (0)) 
+&= f'(0)\cdot g'(CC\inv g\inv(0)) \cdot C'(C\inv g\inv(0)) \\
+\implies F'(i) &= f'(0) \cdot g'(0) \cdot C'(i) \\
+\implies \abs{f'(0)} 
+&\leq \abs{F'(i) \over g'(0) C'(i)}
+.\]
+
+
 
 
 
