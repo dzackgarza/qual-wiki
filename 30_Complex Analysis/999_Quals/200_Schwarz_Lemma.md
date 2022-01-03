@@ -417,7 +417,7 @@ Since $\abs{1/g} = 1$ on $S^1$, this forces $g$ to be constant.
 Equality in the Schwarz lemma implies $g(z) = \lambda z$ is a rotation, and unwinding this yields $f(z) = \lambda \Psi(z)$.
 :::
 
-## 2 #complex/exercise/work
+## Scaling Schwarz #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $\bar B(a, r)$ denote the closed disc of radius $r$ about $a\in \CC$.
@@ -432,7 +432,6 @@ z\in \bar B\qty{a, {r\over 2}},\,z\neq a, \qquad {\abs{ f(z) - f(a)} \over \abs{
 .\]
 
 :::
-
 
 :::{.solution}
 Set 
