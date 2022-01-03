@@ -339,17 +339,17 @@ The claim is that for any given $r$, the constant $C\da M/r$ works, where $M\da 
 The scaled Schwarz lemma gives $\abs{f(z)}\leq {M\over r}\abs{z} = C\abs{z}$, and $\abs{C} \leq 1$ since $\abs{M} \leq r$, which follows because $\abs{f(z)}\leq \abs{z}$ on $\DD$ itself.
 :::
 
-For $a\neq 0$, take a Blaschke factor $\psi_a(z)$ and consider $F \da \psi_a\inv \circ F\circ \psi_a$.
+For $a\neq 0$, take a Blaschke factor $\psi_a(z)$ and consider $F \da \psi_a\inv \circ f\circ \psi_a$.
 The claim is that this reduces to the case $a=0$.
 
 Note $F(0) = 0$, so $0$ is a fixed point of $F$.
-Moreover 
+Moreover, a clever calculation shows
 \[
 F'(0) 
-&= (\psi_a\inv)'(F(\psi_a(0))) \cdot F'(\psi_a(0)) \cdot \psi_a'(0) \\
-&= (\psi_a\inv)'(F( a )) \cdot F'(a ) \cdot \psi_a'(0) \\
-&= \qty{a-z\over 1-\bar a z}' \evalfrom_{z=F(a) } \cdot F'(a ) \cdot {\abs{a}^2-1 \over (1-\bar a z)^2 }\evalfrom_{z=0} \\
-&= {\abs{a}^2 - 1 \over ( 1-\bar{a} F(z) )^2 } F'(a) \qty{\abs{a}^2-1 } \\
+&= (\psi_a\inv)'(f(\psi_a(0))) \cdot f'(\psi_a(0)) \cdot \psi_a'(0) \\ \\
+&= (\psi_a\inv)'(f( a )) \cdot f'(a ) \cdot \psi_a'(0) \\ \\
+&= (\psi_a\inv)'(a) \cdot f'(a ) \cdot \psi_a'(0) \qquad \text{since } f(a) = a \\ \\
+&= (\psi_a)'(a) \cdot \psi_a'(0) \cdot f'(a) \qquad \text{since } \psi_a\inv = \psi_a \\ \\
 .\]
 
 
