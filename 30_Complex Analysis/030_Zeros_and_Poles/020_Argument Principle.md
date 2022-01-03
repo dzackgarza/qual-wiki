@@ -146,7 +146,7 @@ We want to show that there exists discs $U = \DD_r(0)$ and $W = \DD_R(0)$ such t
 Since $0$ is a zero of order $n$, expand $f$ as $\sum_{k\geq n} c_k z^k = z^n\sum_{k\geq 0} c_{k+n}z^k$.
 By dividing coefficients through, we may assume $c_n = 1$, so 
 \[
-f(z) = z^n + \qty{ c_{n+1} z + c_{n+2}z^2 + \cdots} = z^n + \sum_{k\geq 1} c_{k+n}z^k \da z^n + g(z)
+f(z) = z^n + \qty{ c_{n+1} z^{n+1} + c_{n+2}z^{n+2} + \cdots} = z^n + z^{n+1} \sum_{k\geq 0} c_{k+n+1}z^k \da z^n + g(z)
 .\]
 Now apply Rouché to show that $f(z)$ and $z^n$ have the same number of zeros in a small disc about $0$.
 Write $m(z) = \sum_{k\geq 0}c_{k+n}z^k$ and $M(z) = z^n$; then if $\abs{m(z)} < \abs{M(z)}$ for any circle $\abs{z} = \rho$ with $\rho< 1$ then $M$ and $m+M = f$ will have the same number of zeros ($n$ with multiplicity).
