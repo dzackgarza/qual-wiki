@@ -486,7 +486,7 @@ Find a sharp upper bound for $\abs{f'(0)}$, and prove it is sharp by example.
 
 
 :::{.solution}
-Toward applying the Schwarz lemma, take the following composition:
+Toward applying the Schwarz lemma, and let $F$ be the following composition:
 
 \begin{tikzcd}
 	\DD && \HH && \DD && \DD \\
@@ -501,7 +501,8 @@ Toward applying the Schwarz lemma, take the following composition:
 
 > [Link to Diagram](https://q.uiver.app/?q=WzAsOCxbMCwwLCJcXEREIl0sWzIsMCwiXFxISCJdLFs0LDAsIlxcREQiXSxbNiwwLCJcXEREIl0sWzAsMSwiMCJdLFsyLDEsImYoMCkgPSAyIl0sWzQsMSwiQygyKSA9IHsyK2lcXG92ZXIgMi1pfSA9IHsxXFxvdmVyIDV9KDMrNGkpIFxcZGEgdyJdLFs2LDEsIjAiXSxbMCwxLCJmIl0sWzEsMiwiQyJdLFsyLDMsIlxccHNpX3ciXSxbNCw1LCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzUsNiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFs2LDcsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XV0=)
 
-Here $C:\HH\to \DD$ is the standard Cayley map ${z+i\over z-i}.$
+Here $C:\HH\to \DD$ is the standard Cayley map ${z+i\over z-i},$ and $\psi_w$ is the Blashke factor ${w-z\over 1-\bar w z}.$
+
 
 :::
 
