@@ -348,6 +348,7 @@ Moreover
 F'(0) 
 &= (\psi_a\inv)'(F(\psi_a(0))) \cdot F'(\psi_a(0)) \cdot \psi_a'(0) \\
 &= (\psi_a\inv)'(F( a )) \cdot F'(a ) \cdot \psi_a'(0) \\
+&= (\psi_a\inv)'(F( a )) \cdot F'(a ) \cdot {\abs{a}^2-1 \over (1-\bar a z)^2 }\evalfrom_{z=0} \\
 &= ?
 .\]
 
