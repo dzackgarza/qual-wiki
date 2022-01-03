@@ -2,7 +2,6 @@
 
 ## Hyperbolic Translations / Blaschke Factors
 
-
 :::{.definition title="Hyperbolic translations/Blaschke factors"}
 For $a\in \DD$, the maps
 \[
@@ -101,24 +100,6 @@ Then either
 
 :::
 
-:::{.exercise title="Schwarz with domain/codomain scaled"}
-If $f: \DD_R(a)\to\DD_M(0)$ with $f(a) = 0$, then 
-\[
-\abs{f(z)}\leq {M\over R}\abs{z-a}
-.\]
-:::
-
-:::{.solution}
-Set $g(z) \da {f(Rz + a) \over M}$, then $g: \DD\to \DD$ with $g(0) = f(a)/M = 0$, so unwinding Schwarz yields
-\[
-\abs{g(z)} \leq \abs{z} 
-\implies \abs{f(Rz+a)\over M}
-&\leq \abs{z} \\
-\implies \abs{f(Rz+a)} &\leq M\abs{z} \\
-\implies \abs{f(w)} &\leq M\abs{w-a\over R} \qquad w = Rz+a\implies z={w-a\over R}
-.\]
-:::
-
 :::{.proof title="of Schwarz"}
 \envlist
 
@@ -150,7 +131,28 @@ Set $g(z) \da {f(Rz + a) \over M}$, then $g: \DD\to \DD$ with $g(0) = f(a)/M = 0
 
 # Exercises
 
-## General
+## Schwarz-Fu
+
+:::{.exercise title="Schwarz with domain/codomain scaled"}
+If $f: \DD_R(a)\to\DD_M(0)$ with $f(a) = 0$, then 
+\[
+\abs{f(z)}\leq {M\over R}\abs{z-a}
+.\]
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Set $g(z) \da {f(Rz + a) \over M}$, then $g: \DD\to \DD$ with $g(0) = f(a)/M = 0$, so unwinding Schwarz yields
+\[
+\abs{g(z)} \leq \abs{z} 
+\implies \abs{f(Rz+a)\over M}
+&\leq \abs{z} \\
+\implies \abs{f(Rz+a)} &\leq M\abs{z} \\
+\implies \abs{f(w)} &\leq M\abs{w-a\over R} \qquad w = Rz+a\implies z={w-a\over R}
+.\]
+:::
 
 :::{.exercise title="Forcing a map to be the identity"}
 Let $\psi_a$ be a Blaschke factor and use the Schwarz lemma to prove that $\psi_a \circ \psi_a = \id_\DD$.
@@ -313,12 +315,13 @@ Suppose this is an equality -- then Schwarz on $g$ shows $g$ is a rotation, so
 
 :::
 
-
-:::{.exercise title="Fixed points"}
+:::{.exercise title="Fixed point convergence"}
 Suppose $f:\DD\to \DD$ with $f(a) = a$ a fixed point where $\abs{f'(a)} < 1$.
 Show that for any initial point $z_0$, the sequence $z_k \da f(z_{k-1})$ converges to $a$.
-:::
 
+#complex/exercise/completed
+
+:::
 
 :::{.solution}
 First suppose $a=0$ -- then Schwarz applies, and since $\abs{f'(a)} < 1$ is strict, $f$ is *not* a rotation.
@@ -361,7 +364,20 @@ f(z_k) = \psi_a(F(w_k)) \convergesto{k\to\infty} \psi_a(0) = a
 .\]
 :::
 
+:::{.exercise title="Fixed points: multiple"}
+Show that the only holomorphic map $f:\DD\to \DD$ two distinct fixed points $a\neq b$ is the identity.
 
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Note that without loss of generality we can assume $a=0$ so $f(0) = 0$ and $b\neq 0$.
+If not, if $a,b\neq 0$ then let $F\da \psi_a \circ f \circ \psi_a$, then $F(0) = 0$ and $F(b') = b'$ for $b\da \psi_a(b)$.
+
+Since $f(0) = 0$, Schwarz applies, so $\abs{f(z)} = \abs{z}$ with equality attained because $\abs{f(b)} = \abs{b}$, and $f(z) = \lambda z$ must be a rotation.
+Since $b = f(b) = \lambda b$, we have $\lambda = 1$.
+:::
 
 ## Estimating
 
@@ -485,5 +501,4 @@ Using the standard trick,
 \abs{f(2)} = \abs{(f\circ \circ g\inv )(2)} = \abs{F(g\inv(2))} = \abs{F\qty{z-1\over z+1}\evalfrom_{z=2}} = \abs{F\qty{1\over 3}} \leq \abs{1\over 3}
 .\]
 :::
-
 
