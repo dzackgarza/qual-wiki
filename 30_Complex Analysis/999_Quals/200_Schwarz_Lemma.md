@@ -528,6 +528,18 @@ Suppose $f:\DD\to\DD$ is analytic, has a single zero of order $k$ at $z=0$, and 
 Give with proof a formula for $f(z)$.
 :::
 
+
+:::{.solution}
+Note $\abs{f(z)}\leq 1$, and $g\da f(z)/z^k$ has a removable singularity at zero since $g$ is bounded on $\DD$: fixing $\abs{z} = r < 1$,
+\[
+\abs{g(z)} = \abs{f(z)\over z^k} = \abs{f(z)}r^{-k}\leq r^{-k}\convergesto{r\to 1} 1
+.\]
+So $g:\DD\to \DD$ since $\abs{g(z)}\leq 1$ on $\DD$ by the MMP.
+By Schwarz, $g$ is constant and thus $f(z) = \lambda z^k$ for some $\abs{\lambda} = 1$.
+
+:::
+
+
 ## 8 #complex/exercise/work
 
 :::{.problem title="?"}
