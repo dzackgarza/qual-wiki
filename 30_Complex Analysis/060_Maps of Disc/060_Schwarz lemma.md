@@ -59,8 +59,13 @@ Scaling: use a fun trick, insert $1=\bar\lambda \lambda$ like so
 Being an involution: check $\psi_a(\psi_a(z))$ satisfies the Schwarz lemma and has two fixed points, forcing it to be the identity.
 :::
 
-:::{.theorem title="Characterization of conformal maps"}
-Every map $g\in \Aut(\DD)$ is of the form $\Psi_{\vector a}(z)$, i.e. a Blaschke product.
+:::{.theorem title="Structure theorem: automorphisms of the disc"}
+Every map $g\in \Aut(\DD)$ is of the form 
+
+\[
+\Aut(\DD) = \ts{ \lambda \psi_a(z) \st a\in \DD, \lambda \in S^1 }
+,\]
+i.e. they are all Blaschke factors and rotations.
 :::
 
 :::{.proof title="of theorem, sketch"}
