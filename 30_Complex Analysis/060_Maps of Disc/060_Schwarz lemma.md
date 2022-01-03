@@ -355,8 +355,10 @@ F'(0)
 &= 1 \cdot f'(a)
 ,\]
 so $\abs{F'(0)} = \abs{f'(a)} < 1$.
-
-
+Now setting $w_k \da \psi_a(z_n)$ and writing $f = \psi_a \circ F \circ \psi_a\inv$, by continuity we have 
+\[
+f(z_k) = \psi_a(F(w_k)) \convergesto{k\to\infty} \psi_a(0) = a
+.\]
 :::
 
 
