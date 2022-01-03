@@ -95,11 +95,13 @@ Applying Schwarz-Pick:
 ,\]
 using that $a\neq 0$, so $f$ is a contraction.
 
+
 #todo Is there more..?
 
+> Can write $f_e(z) \da {f(a) + f(-a) \over 2}$ to write $f_e(z) = g(z^2)$.
+  Compose with some $\psi_a$ to get $0\to 0$ and apply Schwarz -- unclear how to unwind what happens in the case of equality though.
 
 :::
-
 
 
 
@@ -306,7 +308,6 @@ Show that if $f: D(0, R) \rightarrow \mathbb{C}$ is holomorphic, with $|f(z)| \l
 \]
 :::
 
-
 :::{.concept}
 The strategy:
 
@@ -322,7 +323,6 @@ The strategy:
   - Recognize the LHS as $\psi_w(g(a))$ for $w\da f(0)/M$ and $g(a) \da f(aR)/M$.
 
 :::
-
 
 :::{.solution}
 
@@ -360,6 +360,8 @@ which holds for all $w\in \DD$ by replacing $Rz$ with $w$ (i.e. to show this equ
 :::
 
 ## 1 #complex/exercise/work
+
+:::{.problem title="?"}
 Suppose $f:\DD\to\DD$ is analytic and admits a continuous extension $\tilde f: \bar \DD \to \bar \DD$ such that $\abs{z} = 1 \implies \abs{f(z)} = 1$.
 
 a.
@@ -377,6 +379,9 @@ Suppose that $a_1, \cdots, a_n \in \DD$ are the zeros of $f$ and prove that
 \[  
 \exists \lambda \in S^1 \qtext{such that} f(z) = \lambda \prod_{j=1}^n {z - a_j \over 1 - \bar{a_j} z}
 .\]
+
+:::
+
 
 ## 2 #complex/exercise/work
 Let $\bar B(a, r)$ denote the closed disc of radius $r$ about $a\in \CC$.
