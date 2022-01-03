@@ -349,7 +349,7 @@ F'(0)
 &= (\psi_a\inv)'(F(\psi_a(0))) \cdot F'(\psi_a(0)) \cdot \psi_a'(0) \\
 &= (\psi_a\inv)'(F( a )) \cdot F'(a ) \cdot \psi_a'(0) \\
 &= \qty{a-z\over 1-\bar a z}' \evalfrom_{z=F(a) } \cdot F'(a ) \cdot {\abs{a}^2-1 \over (1-\bar a z)^2 }\evalfrom_{z=0} \\
-&= {\abs{a}^2 - 1 \over ( 1-\bar{a} F(z) )^2 } F'(a) {\abs{a}^2-1 } \\
+&= {\abs{a}^2 - 1 \over ( 1-\bar{a} F(z) )^2 } F'(a) \qty{\abs{a}^2-1 } \\
 .\]
 
 
