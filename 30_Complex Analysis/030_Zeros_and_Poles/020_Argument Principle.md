@@ -131,3 +131,22 @@ Show that $\logd(fg) = \logd f + \logd g$, i.e.
 .\]
 
 :::
+
+:::{.exercise title="Detecting injectivity using derivatives"}
+Show that if $z_0$ is a zero of $f'$ of order $n-1$, then $f$ is $n$-to-one in a neighborhood of $z_0$.
+
+#complex/exercise/work
+
+:::
+
+
+:::{.solution}
+Wlog, assume $z_0 = 0$.
+We want to show that there exists discs $U = \DD_r(0)$ and $W = \DD_R(0)$ such that the fiber of $f:U\to W$ has exactly $n$ distinct points.
+Since $0$ is a zero of order $n$, expand $f$ as $\sum_{k\geq n} c_k z^k = z^n\sum_{k\geq 0} c_{k+n}z^k$.
+By dividing coefficients through, we may assume $c_n = 1$, so $f(z) = z^n + c_1 z + \cdots \da z^n + g(z)$.
+Now apply Rouché to show that $f(z)$ and $z^n$ have the same number of zeros in a small disc about $0$.
+Write $m(z) = \sum_{k\geq 0}c_{k+n}z^k$ and $M(z) = z^n$.
+
+:::
+
