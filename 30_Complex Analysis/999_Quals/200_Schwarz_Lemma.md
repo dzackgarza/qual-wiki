@@ -400,6 +400,15 @@ As a consequence, $f$ is rational.
 
 **Part 2**:
 As in the proof of Schwarz, define $g(z) \da {f(z)\over z^n}$ where $n = \ord_{f}(0)$.
+Then $g$ is holomorphic on $\DD$ since the singularity at $z=0$ is removable.
+On $\abs{z} = r<1$,
+\[
+\abs{g(z)} = { \abs{f(z)} \over \abs{z} } = {\abs{f(z)} \over r} \leq {1\over r} \convergesto{r\to 1^-} 1
+,\]
+using that $\abs{f} \leq 1$ on $\DD$.
+By the MMP, $\abs{g} \leq 1$ on all of $\DD$.
+Unwinding this, $\abs{f} = \abs{z}^n$, go $f(z) = \lambda z^n$ for some $\abs{\lambda} = 1$.
+
 
 **Part 3**:
 
