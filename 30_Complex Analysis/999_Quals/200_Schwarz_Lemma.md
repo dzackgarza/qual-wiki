@@ -485,42 +485,20 @@ Find a sharp upper bound for $\abs{f'(0)}$, and prove it is sharp by example.
 :::
 
 
+:::{.concept}
+Some useful facts about the Cayley map:
+
+- $C(z) \da {z-i\over z+i}$ maps $\HH\to \DD$ sending $i\to 0$.
+- $C\inv(z) \da -i {z+1\over z-1}$ maps $\DD\to\HH$ sending $0\to i$.
+- $C'(z) = {2i\over (z+i)^2}$ and $C'(i) = -{1\over 2}i$.
+- $(C\inv)'(z) = {2i\over (z-1)^2}$ and $C'(0) = 2i$.
+- A mistake that's useful to know: $\psi_w'(z) = {1-\abs{w}^2 \over (1-\bar{w}z )^2}$ and $\psi_w'(w) \to \infty$.
+
+:::
+
+
+
 :::{.solution}
-Toward applying the Schwarz lemma, and let $F$ be the following composition:
-
-\begin{tikzcd}
-	\DD && \HH && \DD && \DD \\
-	0 && {f(0) = 2} && {C(2) = {2+i\over 2-i} = {1\over 5}(3+4i) \da w} && 0
-	\arrow["f", from=1-1, to=1-3]
-	\arrow["C", from=1-3, to=1-5]
-	\arrow["{\psi_w}", from=1-5, to=1-7]
-	\arrow[maps to, from=2-1, to=2-3]
-	\arrow[maps to, from=2-3, to=2-5]
-	\arrow[maps to, from=2-5, to=2-7]
-\end{tikzcd}
-
-> [Link to Diagram](https://q.uiver.app/?q=WzAsOCxbMCwwLCJcXEREIl0sWzIsMCwiXFxISCJdLFs0LDAsIlxcREQiXSxbNiwwLCJcXEREIl0sWzAsMSwiMCJdLFsyLDEsImYoMCkgPSAyIl0sWzQsMSwiQygyKSA9IHsyK2lcXG92ZXIgMi1pfSA9IHsxXFxvdmVyIDV9KDMrNGkpIFxcZGEgdyJdLFs2LDEsIjAiXSxbMCwxLCJmIl0sWzEsMiwiQyJdLFsyLDMsIlxccHNpX3ciXSxbNCw1LCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzUsNiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFs2LDcsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XV0=)
-
-Here $C:\HH\to \DD$ is the standard Cayley map ${z+i\over z-i},$ and $\psi_w$ is the Blaschke factor ${w-z\over 1-\bar w z}.$
-Since $F(0) = 0$ by construction, Schwarz applies and $\abs{F'(0)} \leq 1$.
-By the chain rule,
-\[
-F'(z) 
-&\da (\psi_w \circ C\circ f)'(z) \\
-&= \psi_w'(C(f(z))) \cdot C'(f(z)) \cdot f'(z) 
-,\]
-so
-\[
-\abs{f'(z)} = {\abs{F'(z)} \over \abs{\psi_w'(C(f(z))) \cdot C'(f(z)) } }
-.\]
-
-It remains to compute a few things:
-
-- $C(f(0)) = C(2) = w\da {2+i\over 2-i} = {1\over 5}(3+4i)$
-- $\psi_w'(z) = \dd{}{z}{w-z\over 1-\bar w z} = {\abs{w}^2 - 1\over (1-\bar w z)^2}$
-- $\psi_w'(C(f(z))) = \psi_w'(w) = {\abs{w}^2 - 1\over (1-\abs{w}^2)^2 } = {1\over 1-\abs{w}^2}$
-- $C'(z) = - {2z\over (z-i)^2}$
-- $C'(f(0)) = C'(2)$
 
 
 
