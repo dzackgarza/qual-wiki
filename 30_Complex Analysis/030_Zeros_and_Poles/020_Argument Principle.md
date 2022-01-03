@@ -146,7 +146,17 @@ We want to show that there exists discs $U = \DD_r(0)$ and $W = \DD_R(0)$ such t
 Since $0$ is a zero of order $n$, expand $f$ as $\sum_{k\geq n} c_k z^k = z^n\sum_{k\geq 0} c_{k+n}z^k$.
 By dividing coefficients through, we may assume $c_n = 1$, so $f(z) = z^n + c_1 z + \cdots \da z^n + g(z)$.
 Now apply Rouché to show that $f(z)$ and $z^n$ have the same number of zeros in a small disc about $0$.
-Write $m(z) = \sum_{k\geq 0}c_{k+n}z^k$ and $M(z) = z^n$.
+Write $m(z) = \sum_{k\geq 0}c_{k+n}z^k$ and $M(z) = z^n$; then if $\abs{m(z)} < \abs{M(z)}$ for any circle $\abs{z} = R$ with $R< 1$ then $M$ and $m+M = f$ will have the same number of zeros ($n$ with multiplicity).
+
+Bounding $m$, the tail of the Laurent series of $f$: by Cauchy's integral formula,
+\[
+c_k = {f^{(n)}(z_0) \over n!} = {1\over 2\pi i} \oint_{\abs{\xi} = R} { f(\xi) \over (\xi - z_0)^{n+1} } \dxi
+,\]
+so
+\[
+\abs{c_k} \leq \max_{\abs{\xi} = R}\abs{f(\xi)} R^{-k}
+.\]
+
 
 :::
 

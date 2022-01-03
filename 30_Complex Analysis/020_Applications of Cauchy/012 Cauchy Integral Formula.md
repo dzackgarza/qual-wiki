@@ -9,7 +9,11 @@ f(z_0) = {1 \over 2\pi i} \int_{\gamma} {f(\xi) \over \xi-z_0}\ \dxi
 \]
 and
 \[
-\dd{^nf }{z^n}(z_0) = {n! \over 2\pi i} \int_{\gamma} {f(\xi) \over (\xi - z_0)^{n+1}} \dxi
+f^{(n)}(z_0) = {n! \over 2\pi i} \int_{\gamma} {f(\xi) \over (\xi - z_0)^{n+1}} \dxi
+.\]
+As a consequence, if $f(z) \sum_{k\geq 0} c_k (z-z_0)^k$,
+\[
+c_k = {f^{(n)}(z_0) \over n!} = {1\over 2\pi i} \int_\gamma { f(\xi) \over (\xi - z_0)^{n+1} } \dxi
 .\]
 :::
 
