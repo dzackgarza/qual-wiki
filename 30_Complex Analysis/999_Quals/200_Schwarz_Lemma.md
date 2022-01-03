@@ -417,8 +417,9 @@ Since $\abs{1/g} = 1$ on $S^1$, this forces $g$ to be constant.
 Equality in the Schwarz lemma implies $g(z) = \lambda z$ is a rotation, and unwinding this yields $f(z) = \lambda \Psi(z)$.
 :::
 
-
 ## 2 #complex/exercise/work
+
+:::{.problem title="?"}
 Let $\bar B(a, r)$ denote the closed disc of radius $r$ about $a\in \CC$.
 Let $f$ be holomorphic on an open set containing $\bar B(a, r)$ and let 
 \[  
@@ -429,6 +430,26 @@ Prove that
 \[  
 z\in \bar B\qty{a, {r\over 2}},\,z\neq a, \qquad {\abs{ f(z) - f(a)} \over \abs{z-a}} \leq {2M \over r}
 .\]
+
+:::
+
+
+:::{.solution}
+Set 
+\[
+g(z) \da {f(Rz+a) - f(a) \over 2M}
+,\]
+so that $g(0) = 0$ and $g:\DD\to \DD$ so Schwarz applies,
+\[
+\abs{g(z)} \leq \abs{z} 
+\implies \abs{ f(Rz+a) - f(a) \over 2M } &\leq \abs{z} \\
+\implies \abs{ f(Rz+a) - f(a) } &\leq 2M \abs{z} \\
+\implies \abs{ f(w) - f(a) } &\leq 2M\abs{ w-a\over R} \\
+\implies \abs{f(w) - f(a) \over w-a} &\leq {2M \over R}
+.\]
+
+:::
+
 
 ## 3 #complex/exercise/work
 Define
