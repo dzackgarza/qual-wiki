@@ -48,7 +48,6 @@ So $f(z) = z$, making $\lim_{n\to \infty}f_n(z) = z$ as well.
 
 ^0f90ac
 
-
 :::{.problem title="?"}
 Let $\mathbb{D}:=\{z:|z|<1\}$ denote the open unit disk. Suppose that $f(z): \mathbb{D} \rightarrow \mathbb{D}$ is holomorphic, and that there exists $a \in \mathbb{D} \backslash\{0\}$ such that $f(a)=f(-a)=0$.
 
@@ -61,13 +60,29 @@ Let $\mathbb{D}:=\{z:|z|<1\}$ denote the open unit disk. Suppose that $f(z): \ma
 :::{.solution}
 **Part 1**:
 
-Write $B_{z_0}(z) \da {z-z_0\over 1-\bar{z_0}z}$ for the Blaschke factor associated to $z_0$, which swaps $z_0$ and $0$.
-Define
+Write $\psi_a(z) \da {a-z\over 1-\bar a z}$ for the Blaschke factor of $a$, and define
 \[
-g(z) \da {f(z) \over B_a(z) B_{-a}(z)}
+g(z) \da {f(z) \over \psi_a(z) \psi_{-a}(z)}
 .\]
-Then $\abs{g(z)}\leq 1$ on $\DD$, and in particular, $\abs{g(0)} \leq 1$. 
-Rewriting this yields
+
+:::{.claim}
+$\abs{g(z)}\leq 1$ on $\DD$.
+:::
+
+:::{.proof title="of claim"}
+$\abs{\psi_a(z)} = 1$ on $\bd \DD$, so $\lim_{r\to 1}\psi_a(re^{it}) = 1$ for any fixed $t$.
+Then for any $f$ with $\abs{f} \leq 1$ in $\DD$,
+\[
+\abs{f(re^{it} ) \over \psi_a(re^{it} ) } 
+\leq {1\over \psi_a(re^{it})} 
+\leq {1\over \sup_{t} \psi_a(re^{it}) }
+\convergesto{r\to 1} 1
+.\]
+So apply this to $f=g$ and $f={g\over \psi_a}$ to get it for ${f\over \psi_a \psi_{-a}}.$
+
+:::
+
+In particular, $\abs{g(0)} \leq 1$, so
 \[
 1\geq \abs{g(0)} = {\abs{f(0)} \over \abs{B_a(0)} \cdot \abs{B_{-a}(0)}}
 = {\abs{f(0)} \over \abs{a}^2} \implies \abs{a}^2 \geq \abs{f(0)}
