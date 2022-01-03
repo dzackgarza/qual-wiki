@@ -350,7 +350,11 @@ F'(0)
 &= (\psi_a\inv)'(f( a )) \cdot f'(a ) \cdot \psi_a'(0) \\ \\
 &= (\psi_a\inv)'(a) \cdot f'(a ) \cdot \psi_a'(0) \qquad \text{since } f(a) = a \\ \\
 &= (\psi_a)'(a) \cdot \psi_a'(0) \cdot f'(a) \qquad \text{since } \psi_a\inv = \psi_a \\ \\
-.\]
+&= (\psi_a)'( \psi_a(0) ) \cdot \psi_a'(0) \cdot f'(a) \\ \\
+&= (\psi_a \circ \psi_a)'(0) \cdot f'(a) \\
+&= 1 \cdot f'(a)
+,\]
+so $\abs{F'(0)} = \abs{f'(a)} < 1$.
 
 
 :::
