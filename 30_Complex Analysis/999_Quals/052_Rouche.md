@@ -4,7 +4,7 @@ order: 52
 
 # Rouché's Theorem
 
-## 1 #complex/exercise/completed
+## Zeros of $e^z$ #complex/exercise/completed
 
 :::{.problem title="?"}
 Prove that for every $n\in \ZZ^{\geq 0}$ the following polynomial has no roots in the open unit disc:
@@ -49,37 +49,29 @@ then Rouché applies directly and
 noting that $M(z) = 0 \iff z= -1$, which isn't contained in the open disc $\DD$.
 :::
 
-## 2 #complex/exercise/completed
+## Standard Rouché #complex/exercise/completed
 Assume that $\abs b < 1$ and show that the following polynomial has exactly two roots (counting multiplicity) in $\abs{z} < 1$:
 \[
 f(z) \definedas z^3 + 3z^2 + bz + b^2
 .\]
 
 :::{.solution}
-\envlist
-:::{.concept}
-\envlist
-Multiple versions of Rouches theorem!
-:::
-
-- Set $h(z) = 3z^2$ and $g(z) = z^3 + bz + b^2$.
-- Then on $\abs{z} = 1$,
-
+Big: $M(z) = 3z^2$.
+Small: $m(z) = z^3+bz + b^2$.
+Then on $\abs{z} = 1$:
 \[
-\abs{g(z)} \leq 1 + b + b^2 < 3 = 3\abs{z}^2 = \abs{3z^2} = \abs{h}
+\abs{m(z)} \leq \abs{z}^3 + b\abs{z} + b^2 = 1 + b + b^2 < 3 = \abs{M(z)}
 ,\]
-
-  so $g, h$ have the same number of roots in $\abs{z} \leq_? 1$.
-
-- But $h$ evidently has two roots in this region.
-
-
+and $M(z)$ has exact two roots in $\DD$.
 :::
 
 
 ## 3 #complex/exercise/work
+
+:::{.problem title="?"}
 Let $c\in \CC$ with $\abs{c} < {1\over 3}$.
 Show that on the open set $\theset{z\in \CC \suchthat \Re(z) < 1}$, the function $f(z) \definedas ce^z$ has exactly one fixed point.
+:::
 
 
 ## 4 #complex/exercise/completed
