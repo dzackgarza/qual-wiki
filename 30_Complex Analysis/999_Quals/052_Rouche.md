@@ -295,6 +295,17 @@ Use Rouche's theorem to prove the Fundamental Theorem of Algebra.
 
 
 :::{.solution}
+Write $f(z) = \sum_{k\leq n} c_k z^k$.
+Big: $M(z) = c_nz^n$.
+Small: $m(z) = f(z) - M(z) = \sum_{k\leq n-1} c_k z^k$.
+
+Now use that
+\[
+\abs{M(z) \over m(z)} \da \abs{c_n\inv \sum_{k\leq n-1} c_k z^{k-n}} 
+= \abs{c_n\inv\qty{ {c_1\over z^n} + {c_2\over z^{n-1} } + \cdots + {c_{n-1}\over z}  }}
+\convergesto{\abs{z}\to\infty}\infty
+.\]
+
 
 :::
 
