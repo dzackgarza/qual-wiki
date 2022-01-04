@@ -175,3 +175,7 @@ The inequality forces $f\neq 0$ anywhere, so $1/f$ is entire and bounded by 1.
 By Liouville, $1/f$ is constant, and thus so is $f$.
 :::
 
+:::{.exercise title="Extended Liouville theorem"}
+Let $f$ be an entire function. Assume that for some $k \in \mathbb{N}$, and sufficiently large $|z|$, we have that $|f(z)| \leq A+B|z|^{k}$. Prove that $f$ is a polynomal of degree at most $k$.
+:::
+
