@@ -242,6 +242,18 @@ since $h$ has no zeros at all.
 Take $R=10$ to get the stated result.
 
 For $P_n(z) - 1$, note that $e^z-1=0$ has three solutions in $\abs{z} < 10$, namely $z=0, \pm 2\pi i$.
+We similarly have $P_n(z)-1\to e^z-1$ uniformly, so on a disc of radius $R$ choose $n$ large enough so that
+\[
+\abs{{P_n(z) -1 \over e^z - 1} - 1} &< 1 \\
+\implies \abs{ (P_n(z) - 1) - (e^z-1) \over e^z-1} &< 1 \\
+\implies \abs{ (P_n(z) - 1) - (e^z-1)} &< \abs{e^z-1} \\
+\da \abs{m(z)} &< \abs{M(z)}
+,\]
+so 
+\[
+3 = \size Z_M = \size Z_{M+m} = \size Z_{P_n - 1}
+.\]
+
 
 
 
