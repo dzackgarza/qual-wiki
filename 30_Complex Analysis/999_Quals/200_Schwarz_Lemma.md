@@ -5,43 +5,7 @@ title: "Schwarz Lemma"
 
 # Schwarz Lemma
 
-## Fall 2020.7 #complex/qual/completed
-
-^4c605e
-
-:::{.problem title="?"}
-Suppose that $f: \mathbb{D} \rightarrow \mathbb{D}$ is holomorphic and $f(0)=0$. Let $n \geq 1$, and define the function $f_{n}(z)$ to be the $n$-th composition of $f$ with itself; more precisely, let
-
-$$
-f_{1}(z):=f(z), f_{2}(z):=f(f(z)), \text { in general } f_{n}(z):=f\left(f_{n-1}(z)\right) .
-$$
-
-Suppose that for each $z \in \mathbb{D}, \lim _{n \rightarrow \infty} f_{n}(z)$ exists and equals to $g(z)$. Prove that either $g(z) \equiv 0$ or $g(z)=z$ for all $z \in D$.
-
-:::
-
-:::{.solution}
-Note that there is a unique fixed point.
-We have $f(0) = 0$, so there is at least one, so suppose $a$ is another fixed point with $f(a) = a$.
-By Schwarz, $\abs{f(z)}\leq \abs{z}$ with equality at any nonzero point implying $f$ is a rotation, and $f(a) = a\implies \abs{f(a)} = \abs{a}$, so write $f(z) = e^{i\theta}z$.
-Now $f(a) = a = e^{i\theta }a$ forces $\theta = 0$, so $f(z) = z$ is the identity.
-
-
-Since $f(0) = 0$, the Schwarz lemma applies and either
-
-- $f(z) = e^{i\theta} z$ is a rotation, or
-- $\abs{f'(0)} < 1$ and $\abs{f(z)} < z$ for all $z\in \DD$.
-
-Supposing the latter, $f$ is a contraction, and $\abs{f_{n+1}(z)} < \abs{f_{n}(z)}$ for all $n$ and all $z$, so $\abs{f_n(z)} \convergesto{n\to\infty} 0$ for all $z$.
-Since $f_n\to g$ pointwise, this means $g(z) = 0$ for all $z$, making $g\equiv 0$.
-
-Otherwise, suppose $f$ is a rotation.
-Then if $f(z) = e^{i\theta}z$, $f_n(z) = e^{in\theta}z$.
-The pointwise limit $\lim_{n\to\infty}e^{in\theta}z$ can only exist if $\theta = 0$, otherwise this is periodic when $\theta$ is rational or the points $e^{i\theta}z, e^{2i\theta }z,\cdots$ form form a countably infinite set of distinct points.
-So $f(z) = z$, making $\lim_{n\to \infty}f_n(z) = z$ as well.
-:::
-
-## Fall 2020.4 #complex/qual/stuck
+## Fall 2020.4 (Schwarz double root)#complex/qual/stuck
 
 ^0f90ac
 
@@ -99,98 +63,6 @@ using that $a\neq 0$, so $f$ is a contraction.
   Compose with some $\psi_a$ to get $0\to 0$ and apply Schwarz -- unclear how to unwind what happens in the case of equality though.
 
 :::
-
-## Spring 2019.5, Spring 2021.5 #complex/qual/completed
-
-^14ad86
-
-:::{.problem title="?"}
-Let $f$ be a holomorphic map of the open unit disc $\DD$ to itself.
-Show that for any $z, w\in \DD$,
-\[
-\left|\frac{f(w)-f(z)}{1-\overline{f(w)} f(z)}\right| \leq\left|\frac{w-z}{1-\bar{w} z}\right|
-.\]
-Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fractional transformation from $\DD$ to itself.
-:::
-
-:::{.concept}
-
-The Schwarz conjugation trick:
-
-![](figures/2021-11-27_01-09-06.png)
-
-Write the RHS as $a$, we then want something in the form $\abs{F(a)}\leq \abs{a}$.
-The choice $a=\psi_w(z)$ is forced, so $z= \psi_w\inv(a)$.
-This forces the choice for the LHS
-\[
-{ f(w) - (f\circ \psi_w\inv)(a) \over 1 - \bar{f(w)} (f\circ \psi_w\inv)(a) } 
-= (\psi_{f(w)} \circ f \circ \psi_w\inv)(a) \da F(a)
-.\]
-
-
-:::
-
-:::{.solution}
-This is the **Schwarz–Pick lemma**.
-
-- Fix $z_1$ and let $w_1 = f(z_1)$.
-  Define
-  \[
-  \psi_{a}(z) \da {a-z \over 1-\bar{a}z} \in \Aut(\DD)
-  .\]
-
-  - Note that inequality now reads
-  \[
-  \abs{\psi_{f(w)}(f(z)) } \leq \abs{\psi_w(z)}
-  .\]
-  Moreover $\psi_a$ is an involution that swaps $a$ and $0$.
-
-- Now set up a situation where Schwarz's lemma will apply: 
-\[
-0 \mapsvia{\psi_{z_1}} z_1 \mapsvia{f} f(z) \mapsvia{\psi_{f(z_1)}} 0 
-,\]
-  so $F\da \psi_{f(z_1)} \circ f \circ \psi_{z_1} \in \Aut(\DD)$ and $F(0) = 0$.
-
-- Apply Schwarz we get $\abs{F(z)} \leq \abs{z}$ for all $z$, so
-\[
-\abs{F(z)} &\leq \abs{z} \\
-\implies \abs{
-f(z_1) - (f\circ \psi_{z_1})(z) 
-\over 
-1 - \bar{f(z_1)} \cdot (f\circ \psi_{z_1}) (z)
-} &\leq \abs{ z} \\
-\implies \abs{f(z_1) - f(w) \over 1 - \bar{f(z_1)}\cdot f(w) }
-&\leq \abs{\psi_{z_1}(z)}
-&& w\da \psi_{z_1}(z) \\
-\implies \abs{f(z_1) - f(w) \over 1 - \bar{f(z_1)}\cdot f(w) }
-&\leq \abs{z_1 - z \over 1 - \bar{z_1} z }
-.\]
-
-- Since $z_1$ was arbitrary and fixed and $w$ was a free variable, this holds for all $z,w\in \DD$.
-
-- Strictness: suppose equality holds, we'll show that $f(z) = {az+b\over cz+d}$
-- By Schwarz, $F(z) = \lambda z$ for $\lambda \in S^1$.
-  Thus
-  \[
-  (\psi_{f(z_1)} \circ f \circ \psi_{z_1}) (z) &= \lambda z \\
-  \implies
-  (f \circ \psi_{z_1}) (z) &= \psi_{f(z_1)}\inv(\lambda z ) \\
-  \implies
-  f(w) &= \psi_{f(z_1)}\inv(\lambda \psi_{z_1}\inv(w) ) 
-  && w\da \psi_{z_1}(z) \\
-  &= \psi_{f(z_1)} \qty{\lambda \psi_{z_1}(w)} \\
-  &= \lambda \psi_{\bar \lambda f(z_1)} \qty{\psi_{z_1}(w)} \\
-  &\da \lambda \psi_a(\psi_b(w)) \\
-  &=\lambda\qty{ a- \psi_b(w) \over 1 - \bar a \psi_b(w) } \\
-  &= \quad \vdots \\
-  &= -\lambda \qty{ \frac{{\left(a \overline{b} - 1\right)} z - a + b}{{\left(\overline{a} - \overline{b}\right)}z - b \overline{a} + 1} } \\
-  &= \qty{ \frac{-\lambda {\left(a \overline{b} - 1\right)} z + \lambda( a - b)}{{\left(\overline{a} - \overline{b}\right)}z + (- b \overline{a} + 1)} }
-  ,\]
-  which is evidently a linear fractional transformation.
-
-:::
-
-
 
 ## Fall 2021.5  #complex/qual/completed
 
@@ -628,6 +500,99 @@ By the symmetry principle, $F$ is holomorphic, and $\ro{F}{S} = f$.
 
 # Blaschke Factors
 
+## Spring 2019.5, Spring 2021.5 (Blaschke contraction) #complex/qual/completed
+
+^14ad86
+
+:::{.problem title="?"}
+Let $f$ be a holomorphic map of the open unit disc $\DD$ to itself.
+Show that for any $z, w\in \DD$,
+\[
+\left|\frac{f(w)-f(z)}{1-\overline{f(w)} f(z)}\right| \leq\left|\frac{w-z}{1-\bar{w} z}\right|
+.\]
+Show that this inequality is strict for $z\neq w$ except when $f$ is a linear fractional transformation from $\DD$ to itself.
+:::
+
+:::{.concept}
+
+The Schwarz conjugation trick:
+
+![](figures/2021-11-27_01-09-06.png)
+
+Write the RHS as $a$, we then want something in the form $\abs{F(a)}\leq \abs{a}$.
+The choice $a=\psi_w(z)$ is forced, so $z= \psi_w\inv(a)$.
+This forces the choice for the LHS
+\[
+{ f(w) - (f\circ \psi_w\inv)(a) \over 1 - \bar{f(w)} (f\circ \psi_w\inv)(a) } 
+= (\psi_{f(w)} \circ f \circ \psi_w\inv)(a) \da F(a)
+.\]
+
+
+:::
+
+:::{.solution}
+This is the **Schwarz–Pick lemma**.
+
+- Fix $z_1$ and let $w_1 = f(z_1)$.
+  Define
+  \[
+  \psi_{a}(z) \da {a-z \over 1-\bar{a}z} \in \Aut(\DD)
+  .\]
+
+  - Note that inequality now reads
+  \[
+  \abs{\psi_{f(w)}(f(z)) } \leq \abs{\psi_w(z)}
+  .\]
+  Moreover $\psi_a$ is an involution that swaps $a$ and $0$.
+
+- Now set up a situation where Schwarz's lemma will apply: 
+\[
+0 \mapsvia{\psi_{z_1}} z_1 \mapsvia{f} f(z) \mapsvia{\psi_{f(z_1)}} 0 
+,\]
+  so $F\da \psi_{f(z_1)} \circ f \circ \psi_{z_1} \in \Aut(\DD)$ and $F(0) = 0$.
+
+- Apply Schwarz we get $\abs{F(z)} \leq \abs{z}$ for all $z$, so
+\[
+\abs{F(z)} &\leq \abs{z} \\
+\implies \abs{
+f(z_1) - (f\circ \psi_{z_1})(z) 
+\over 
+1 - \bar{f(z_1)} \cdot (f\circ \psi_{z_1}) (z)
+} &\leq \abs{ z} \\
+\implies \abs{f(z_1) - f(w) \over 1 - \bar{f(z_1)}\cdot f(w) }
+&\leq \abs{\psi_{z_1}(z)}
+&& w\da \psi_{z_1}(z) \\
+\implies \abs{f(z_1) - f(w) \over 1 - \bar{f(z_1)}\cdot f(w) }
+&\leq \abs{z_1 - z \over 1 - \bar{z_1} z }
+.\]
+
+- Since $z_1$ was arbitrary and fixed and $w$ was a free variable, this holds for all $z,w\in \DD$.
+
+- Strictness: suppose equality holds, we'll show that $f(z) = {az+b\over cz+d}$
+- By Schwarz, $F(z) = \lambda z$ for $\lambda \in S^1$.
+  Thus
+  \[
+  (\psi_{f(z_1)} \circ f \circ \psi_{z_1}) (z) &= \lambda z \\
+  \implies
+  (f \circ \psi_{z_1}) (z) &= \psi_{f(z_1)}\inv(\lambda z ) \\
+  \implies
+  f(w) &= \psi_{f(z_1)}\inv(\lambda \psi_{z_1}\inv(w) ) 
+  && w\da \psi_{z_1}(z) \\
+  &= \psi_{f(z_1)} \qty{\lambda \psi_{z_1}(w)} \\
+  &= \lambda \psi_{\bar \lambda f(z_1)} \qty{\psi_{z_1}(w)} \\
+  &\da \lambda \psi_a(\psi_b(w)) \\
+  &=\lambda\qty{ a- \psi_b(w) \over 1 - \bar a \psi_b(w) } \\
+  &= \quad \vdots \\
+  &= -\lambda \qty{ \frac{{\left(a \overline{b} - 1\right)} z - a + b}{{\left(\overline{a} - \overline{b}\right)}z - b \overline{a} + 1} } \\
+  &= \qty{ \frac{-\lambda {\left(a \overline{b} - 1\right)} z + \lambda( a - b)}{{\left(\overline{a} - \overline{b}\right)}z + (- b \overline{a} + 1)} }
+  ,\]
+  which is evidently a linear fractional transformation.
+
+:::
+
+
+
+
 ### Tie's Extra Questions: Fall 2009 #complex/exercise/completed
 
 :::{.problem title="?"}
@@ -725,4 +690,42 @@ Assume $|f(z)| = |g(z)|$ for all $z$ in $\Omega$. Show that
 $f(z) = e^{i \theta} g(z)$ in $\Omega$ for some
 $0 \leq \theta < 2 \pi$.
 
+
+# Fixed Points
+
+## Fall 2020.7 #complex/qual/completed
+
+^4c605e
+
+:::{.problem title="?"}
+Suppose that $f: \mathbb{D} \rightarrow \mathbb{D}$ is holomorphic and $f(0)=0$. Let $n \geq 1$, and define the function $f_{n}(z)$ to be the $n$-th composition of $f$ with itself; more precisely, let
+
+$$
+f_{1}(z):=f(z), f_{2}(z):=f(f(z)), \text { in general } f_{n}(z):=f\left(f_{n-1}(z)\right) .
+$$
+
+Suppose that for each $z \in \mathbb{D}, \lim _{n \rightarrow \infty} f_{n}(z)$ exists and equals to $g(z)$. Prove that either $g(z) \equiv 0$ or $g(z)=z$ for all $z \in D$.
+
+:::
+
+:::{.solution}
+Note that there is a unique fixed point.
+We have $f(0) = 0$, so there is at least one, so suppose $a$ is another fixed point with $f(a) = a$.
+By Schwarz, $\abs{f(z)}\leq \abs{z}$ with equality at any nonzero point implying $f$ is a rotation, and $f(a) = a\implies \abs{f(a)} = \abs{a}$, so write $f(z) = e^{i\theta}z$.
+Now $f(a) = a = e^{i\theta }a$ forces $\theta = 0$, so $f(z) = z$ is the identity.
+
+
+Since $f(0) = 0$, the Schwarz lemma applies and either
+
+- $f(z) = e^{i\theta} z$ is a rotation, or
+- $\abs{f'(0)} < 1$ and $\abs{f(z)} < z$ for all $z\in \DD$.
+
+Supposing the latter, $f$ is a contraction, and $\abs{f_{n+1}(z)} < \abs{f_{n}(z)}$ for all $n$ and all $z$, so $\abs{f_n(z)} \convergesto{n\to\infty} 0$ for all $z$.
+Since $f_n\to g$ pointwise, this means $g(z) = 0$ for all $z$, making $g\equiv 0$.
+
+Otherwise, suppose $f$ is a rotation.
+Then if $f(z) = e^{i\theta}z$, $f_n(z) = e^{in\theta}z$.
+The pointwise limit $\lim_{n\to\infty}e^{in\theta}z$ can only exist if $\theta = 0$, otherwise this is periodic when $\theta$ is rational or the points $e^{i\theta}z, e^{2i\theta }z,\cdots$ form form a countably infinite set of distinct points.
+So $f(z) = z$, making $\lim_{n\to \infty}f_n(z) = z$ as well.
+:::
 
