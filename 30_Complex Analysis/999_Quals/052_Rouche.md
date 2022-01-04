@@ -360,8 +360,21 @@ Increase $R$ if necessary to ensure that
 Now define
 \[
 G(z) \da {p(z) z^N \over f(z)} \implies \abs{G(z)} = \abs{p(z) z^N\over f(z)} 
-= \abs{z^N\over f(z)}\cdot \abs{p(z)} \leq M\inv \abs{z}^m 
+= \abs{z^N\over f(z)}\cdot \abs{p(z)} \leq A\inv \abs{z}^m 
 .\]
+By the previous result, $G$ is a polynomial of degree at most $m$.
+Now consider leading terms: on one hand,
+\[
+f(z) G(z) = p(z) z^N \sim \qty{z^m + \bigo(z^{m-1})}\cdot z^N = z^{N+m} + \bigo(z^{N+m-1})
+,\]
+and on the other hand,
+\[
+f(z) G(z) \sim \qty{ \sum_{k\geq 0} c_k z^k} \qty{z^m + \bigo(z^{m-1})} 
+\sim \sum_{k\geq 0} c_k z^{k+m} + \cdots
+.\]
+This 
+
+
 
 
 
