@@ -133,7 +133,7 @@ f(z) = e^{i\theta}\prod_{1\leq k \leq m}{z- 0 \over 1 - 0\cdot z} = e^{i\theta}z
 
 :::
 
-## Fall 2021.6 #complex/qual/completed
+## Fall 2021.6 (Schwarz manipulation) #complex/qual/completed
 
 ^33ab95
 
@@ -195,119 +195,6 @@ which holds for all $w\in \DD$ by replacing $Rz$ with $w$ (i.e. to show this equ
 
 :::
 
-## Schwarz-Pick derivative #complex/exercise/completed
-
-:::{.problem title="?"}
-Suppose $f:\DD\to \DD$ is analytic.
-Prove that 
-\[  
-\forall a\in \DD, \qquad {\abs{f'(a)} \over 1 - \abs{f(a)}^2 } \leq {1 \over 1 - \abs{a}^2}
-.\]
-
-:::
-
-:::{.solution}
-
-
-:::{.claim}
-Holomorphic maps on $\DD$ contract Blaschke factors:
-\[
-\abs{ \psi_w(z) } \geq \abs{\psi_{f(w)}(f(z)) } 
-,\]
-i.e. 
-\[
-\abs{f(w) - f(z) \over 1 - \bar{f(w)}f(z)} \leq \abs{w-z \over 1-\bar{w} z}
-.\]
-:::
-
-:::{.proof title="?"}
-Make a change of variables $a\da \psi_w(z)$ so $z=\psi_w\inv(a) = \psi_w(a)$, then the desired inequality follows if we can show
-\[
-\abs{ \psi_{f(w)}(f(\psi_w(a))) } \leq \abs{a}
-.\]
-
-So define $F \da \psi_{f(w)} \circ f \circ \psi_w$, then since $\psi_w(0) = w$,
-\[
-F(0) = \psi_{f(w)}(f(w)) = 0
-.\]
-Moreover $\abs{F(z)}\leq 1$ since each constituent is a map $\DD\to \DD$.
-So $F$ satisfies Schwarz and the claim follows.
-:::
-
-Given this, there's just a clever rearrangement to obtain the stated result:
-\[
-\abs{f(w) - f(z) \over 1 - \bar{f(w)}f(z)} 
-&\leq \abs{w-z \over 1-\bar{w} z} \\
-\implies 
-\abs{ 1\over 1-\bar{f(w)}f(z) } \cdot \abs{f(z) - f(w) \over z-w} 
-&\leq \abs{1\over 1-\bar{w}z} \\
-,\]
-and taking $z\to w$ on both sides yields
-\[
-\abs{1\over 1 - \abs{f(w)}^2 } \abs{f'(w)} \leq {1\over \abs{w}^2}
-\implies
-\abs{f'(w)} \leq {1-\abs{f(w)}^2\over 1-\abs{w}^2 }
-.\]
-
-:::
-
-## Schwarz and Blaschke products #complex/exercise/completed
-
-:::{.problem title="?"}
-Suppose $f:\DD\to\DD$ is analytic and admits a continuous extension $\tilde f: \bar \DD \to \bar \DD$ such that $\abs{z} = 1 \implies \abs{f(z)} = 1$.
-
-a.
-Prove that $f$ is a rational function.
-
-b.
-Suppose that $z=0$ is the unique zero of $f$.
-Show that
-\[  
-\exists n\in \NN, \lambda \in S^1 \qtext{ such that }f(z) = \lambda z^n
-.\]
-
-c.
-Suppose that $a_1, \cdots, a_n \in \DD$ are the zeros of $f$ and prove that
-\[  
-\exists \lambda \in S^1 \qtext{such that} f(z) = \lambda \prod_{j=1}^n {z - a_j \over 1 - \bar{a_j} z}
-.\]
-
-:::
-
-:::{.solution}
-**Part 1**:
-use the reflection principle to define
-\[
-F(z) \da 
-\begin{cases}
-f(z) & \abs{z} \leq 1 
-\\
-{1\over \bar{f\qty{1/\bar{z}}} } & \abs{z} \geq 1
-\end{cases}
-.\]
-
-Now $F:\CP^1\to \CP^1$ is holomorphic and all such functions are rational.
-As a consequence, $f$ is rational.
-
-**Part 2**:
-As in the proof of Schwarz, define $g(z) \da {f(z)\over z^n}$ where $n = \ord_{f}(0)$.
-Then $g$ is holomorphic on $\DD$ since the singularity at $z=0$ is removable.
-On $\abs{z} = r<1$,
-\[
-\abs{g(z)} = { \abs{f(z)} \over \abs{z} } = {\abs{f(z)} \over r} \leq {1\over r} \convergesto{r\to 1^-} 1
-,\]
-using that $\abs{f} \leq 1$ on $\DD$.
-By the MMP, $\abs{g} \leq 1$ on all of $\DD$.
-Note that $\abs{g} = 1$ when $\abs{z}=1$, so $\abs{1/g}\leq 1$ in $\DD$ by the MMP, forcing $\abs{g} = 1$.
-Unwinding this, $\abs{f} = \abs{z}^n$, go $f(z) = \lambda z^n$ for some $\abs{\lambda} = 1$.
-
-**Part 3**:
-Define $\Psi(z) \da \prod_{k\leq n} \psi_{a_k}(z)$ where $\psi_a(z) \da {a-z\over 1-\bar a z}$.
-Set $g(z) \da {f(z) \over \Psi(z)}$, then by the same argument as above, $\abs{g} \leq 1$ and $\abs{g} = 1$ on $\abs{z} = 1$.
-Then $g$ has no zeros, since they've all been divided out, and no poles since $f$ is holomorphic on $\DD$, so $1/g$ is holomorphic on $\DD$.
-Since $\abs{1/g} = 1$ on $S^1$, this forces $g$ to be constant.
-Equality in the Schwarz lemma implies $g(z) = \lambda z$ is a rotation, and unwinding this yields $f(z) = \lambda \Psi(z)$.
-:::
 
 ## Scaling Schwarz #complex/exercise/completed
 
@@ -590,6 +477,119 @@ f(z_1) - (f\circ \psi_{z_1})(z)
 
 :::
 
+## Schwarz-Pick derivative #complex/exercise/completed
+
+:::{.problem title="?"}
+Suppose $f:\DD\to \DD$ is analytic.
+Prove that 
+\[  
+\forall a\in \DD, \qquad {\abs{f'(a)} \over 1 - \abs{f(a)}^2 } \leq {1 \over 1 - \abs{a}^2}
+.\]
+
+:::
+
+:::{.solution}
+
+
+:::{.claim}
+Holomorphic maps on $\DD$ contract Blaschke factors:
+\[
+\abs{ \psi_w(z) } \geq \abs{\psi_{f(w)}(f(z)) } 
+,\]
+i.e. 
+\[
+\abs{f(w) - f(z) \over 1 - \bar{f(w)}f(z)} \leq \abs{w-z \over 1-\bar{w} z}
+.\]
+:::
+
+:::{.proof title="?"}
+Make a change of variables $a\da \psi_w(z)$ so $z=\psi_w\inv(a) = \psi_w(a)$, then the desired inequality follows if we can show
+\[
+\abs{ \psi_{f(w)}(f(\psi_w(a))) } \leq \abs{a}
+.\]
+
+So define $F \da \psi_{f(w)} \circ f \circ \psi_w$, then since $\psi_w(0) = w$,
+\[
+F(0) = \psi_{f(w)}(f(w)) = 0
+.\]
+Moreover $\abs{F(z)}\leq 1$ since each constituent is a map $\DD\to \DD$.
+So $F$ satisfies Schwarz and the claim follows.
+:::
+
+Given this, there's just a clever rearrangement to obtain the stated result:
+\[
+\abs{f(w) - f(z) \over 1 - \bar{f(w)}f(z)} 
+&\leq \abs{w-z \over 1-\bar{w} z} \\
+\implies 
+\abs{ 1\over 1-\bar{f(w)}f(z) } \cdot \abs{f(z) - f(w) \over z-w} 
+&\leq \abs{1\over 1-\bar{w}z} \\
+,\]
+and taking $z\to w$ on both sides yields
+\[
+\abs{1\over 1 - \abs{f(w)}^2 } \abs{f'(w)} \leq {1\over \abs{w}^2}
+\implies
+\abs{f'(w)} \leq {1-\abs{f(w)}^2\over 1-\abs{w}^2 }
+.\]
+
+:::
+
+## Schwarz and Blaschke products #complex/exercise/completed
+
+:::{.problem title="?"}
+Suppose $f:\DD\to\DD$ is analytic and admits a continuous extension $\tilde f: \bar \DD \to \bar \DD$ such that $\abs{z} = 1 \implies \abs{f(z)} = 1$.
+
+a.
+Prove that $f$ is a rational function.
+
+b.
+Suppose that $z=0$ is the unique zero of $f$.
+Show that
+\[  
+\exists n\in \NN, \lambda \in S^1 \qtext{ such that }f(z) = \lambda z^n
+.\]
+
+c.
+Suppose that $a_1, \cdots, a_n \in \DD$ are the zeros of $f$ and prove that
+\[  
+\exists \lambda \in S^1 \qtext{such that} f(z) = \lambda \prod_{j=1}^n {z - a_j \over 1 - \bar{a_j} z}
+.\]
+
+:::
+
+:::{.solution}
+**Part 1**:
+use the reflection principle to define
+\[
+F(z) \da 
+\begin{cases}
+f(z) & \abs{z} \leq 1 
+\\
+{1\over \bar{f\qty{1/\bar{z}}} } & \abs{z} \geq 1
+\end{cases}
+.\]
+
+Now $F:\CP^1\to \CP^1$ is holomorphic and all such functions are rational.
+As a consequence, $f$ is rational.
+
+**Part 2**:
+As in the proof of Schwarz, define $g(z) \da {f(z)\over z^n}$ where $n = \ord_{f}(0)$.
+Then $g$ is holomorphic on $\DD$ since the singularity at $z=0$ is removable.
+On $\abs{z} = r<1$,
+\[
+\abs{g(z)} = { \abs{f(z)} \over \abs{z} } = {\abs{f(z)} \over r} \leq {1\over r} \convergesto{r\to 1^-} 1
+,\]
+using that $\abs{f} \leq 1$ on $\DD$.
+By the MMP, $\abs{g} \leq 1$ on all of $\DD$.
+Note that $\abs{g} = 1$ when $\abs{z}=1$, so $\abs{1/g}\leq 1$ in $\DD$ by the MMP, forcing $\abs{g} = 1$.
+Unwinding this, $\abs{f} = \abs{z}^n$, go $f(z) = \lambda z^n$ for some $\abs{\lambda} = 1$.
+
+**Part 3**:
+Define $\Psi(z) \da \prod_{k\leq n} \psi_{a_k}(z)$ where $\psi_a(z) \da {a-z\over 1-\bar a z}$.
+Set $g(z) \da {f(z) \over \Psi(z)}$, then by the same argument as above, $\abs{g} \leq 1$ and $\abs{g} = 1$ on $\abs{z} = 1$.
+Then $g$ has no zeros, since they've all been divided out, and no poles since $f$ is holomorphic on $\DD$, so $1/g$ is holomorphic on $\DD$.
+Since $\abs{1/g} = 1$ on $S^1$, this forces $g$ to be constant.
+Equality in the Schwarz lemma implies $g(z) = \lambda z$ is a rotation, and unwinding this yields $f(z) = \lambda \Psi(z)$.
+:::
 
 
 
@@ -670,7 +670,7 @@ mapping $$F: z \mapsto \frac{w - z}{1 - \bar{w} z}$$ satisfies the following con
 :::
 
 
-### Tie's Extra Questions: Spring 2015
+## Tie's Extra Questions: Spring 2015
 
 
 Suppose $f$ is analytic in an open set containing the unit disc $\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either $f(z) = e^{i \theta}$ for some $\theta \in \mathbb R$ or there are
@@ -682,7 +682,7 @@ $\displaystyle f(z) = e^{i\theta} \prod_{k=1}^n \frac{z-z_k}{1 - \bar{z}_k z } \
 
 
 
-### Tie's Extra Questions: Spring 2015
+## Tie's Extra Questions: Spring 2015
 
 
 Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
