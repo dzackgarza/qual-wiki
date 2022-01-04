@@ -600,7 +600,7 @@ Since $\bar{f(\bar z)} = f(z)$ for $z, f(z)\in \RR$, $F$ is a continuous extensi
 By the symmetry principle, $F$ is holomorphic, and $\ro{F}{S} = f$.
 :::
 
-## Schwarz-Pick derivative #complex/exercise/work
+## Schwarz-Pick derivative #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f:\DD\to \DD$ is analytic.
@@ -610,7 +610,6 @@ Prove that
 .\]
 
 :::
-
 
 :::{.solution}
 
@@ -627,9 +626,18 @@ i.e.
 :::
 
 :::{.proof title="?"}
+Make a change of variables $a\da \psi_w(z)$ so $z=\psi_w\inv(a) = \psi_w(a)$, then the desired inequality follows if we can show
+\[
+\abs{ \psi_{f(w)}(f(\psi_w(a))) } \leq \abs{a}
+.\]
 
+So define $F \da \psi_{f(w)} \circ f \circ \psi_w$, then since $\psi_w(0) = w$,
+\[
+F(0) = \psi_{f(w)}(f(w)) = 0
+.\]
+Moreover $\abs{F(z)}\leq 1$ since each constituent is a map $\DD\to \DD$.
+So $F$ satisfies Schwarz and the claim follows.
 :::
-
 
 Given this, there's just a clever rearrangement to obtain the stated result:
 \[
@@ -645,7 +653,6 @@ and taking $z\to w$ on both sides yields
 \implies
 \abs{f'(w)} \leq {1-\abs{f(w)}^2\over 1-\abs{w}^2 }
 .\]
-
 
 :::
 
