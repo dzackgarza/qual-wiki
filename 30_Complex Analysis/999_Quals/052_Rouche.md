@@ -194,15 +194,12 @@ F(w) \da {1\over 2\pi i}\oint_{S^1} \logd g(z) \dz
 = {1\over 2\pi i} {f'(z) \over f(z)-w}\dz
 .\]
 Start by computing $F(0)$.
-We first need $f'(z)$:
 \[
-f'(z) 
-&= \dd{}{z}\prod_{1\leq k\leq n} \psi_{a_k}(z) \\
-&= \sum_{1\leq k\leq n} \psi_{a_k}'(z) \prod_{i\neq k} \psi_{a_i}(z)
-.\]
-
-\[
-F(0) = {1\over 2\pi i }\oint_{S^1} {f'(z) \over f(z)} \dz
+F(0) 
+&= {1\over 2\pi i }\oint_{S^1} \logd \prod_{1\leq k\leq n} \psi_{a_k}(z) \dz \\
+&= {1\over 2\pi i }\oint_{S^1} \sum_{1\leq k\leq n} \logd \psi_{a_k}(z) \dz \\
+&= {1\over 2\pi i }\oint_{S^1} \sum_{1\leq k\leq n} \qty{1-\abs{a_k}^2 \over (1-\bar{a_k} z)^2} \qty{z-a_k \over 1-\bar{a_k} z}\inv \dz \\
+&= {1\over 2\pi i }\oint_{S^1} \sum_{1\leq k\leq n} {1-\abs{a_k}^2 \over (z-a_k)( 1-\bar{a_k}z) } \dz \\
 .\]
 
 
