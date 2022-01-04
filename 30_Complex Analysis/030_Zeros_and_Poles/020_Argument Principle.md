@@ -121,6 +121,10 @@ F(w) \da {1\over 2\pi i} \oint_{\bd \Omega} {f'(z) \over f(z) - w} \dw
 \]
 counts the number of solutions to $f(z) = w$ in $\Omega$, since it's of the form $\int_\gamma \logd g_w(z)\dz$ for $g_w(z) \da f(z) - w$.
 This is continuous provided $f(z) \neq w$ on $\bd \Omega$ and is $\ZZ\dash$valued, thus constant on connected components.
+
+> Also useful: zeros of $f$ with multiplicity $m\geq 2$ are zeros of $f'$.
+  This also holds for $f(z) -a$.
+
 :::
 
 
