@@ -535,6 +535,7 @@ Note $\abs{f(z)}\leq 1$, and $g\da f(z)/z^k$ has a removable singularity at zero
 \abs{g(z)} = \abs{f(z)\over z^k} = \abs{f(z)}r^{-k}\leq r^{-k}\convergesto{r\to 1} 1
 .\]
 So $g:\DD\to \DD$ since $\abs{g(z)}\leq 1$ on $\DD$ by the MMP.
+This implies that $\abs{f(z)}\leq \abs{z}^k$.
 
 :::
 
