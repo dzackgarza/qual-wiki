@@ -4,7 +4,7 @@ order: 70
 
 # Morera
 
-## Tie's Extra Questions: Fall 2009, Fall 2011 #complex/exercise/work
+## Tie's Extra Questions: Fall 2009, Fall 2011 #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $f(z)$ be analytic in an open set $\Omega$ except possibly at a
@@ -12,7 +12,6 @@ point $z_0$ inside $\Omega$. Show that if $f(z)$ is bounded in near
 $z_0$, then $\displaystyle \int_\Delta f(z) dz = 0$ for all triangles
 $\Delta$ in $\Omega$.
 :::
-
 
 :::{.solution}
 Write $\DD_\eps(z_0)$ for a disc in which $f$ is bounded, say by $\abs{f}\leq M$ here.
@@ -27,7 +26,8 @@ So
 &\leq \oint_{\bd \DD_\eps(z_0)} M \\
 &= M\cdot 2\pi \eps \\
 &\convergesto{\eps\to 0} 0
-.\]
+,\]
+noting that the bound $M$ is constant and remains an upper bound on smaller discs by the maximum modulus principle.
 :::
 
 
