@@ -2,35 +2,25 @@
 
 
 :::{.theorem title="Rouché's Theorem" ref="Rouche"}
-Let $f, g$ be meromorphic on $\Omega$ and write $Z_f, Z_g, P_f, P_g$ for the numbers of zeros and poles of $f$ and $g$ respectively.
+Let $M, m$ be meromorphic on $\Omega$ and write $Z_M, Z_m, P_M, P_m$ for the numbers of zeros and poles of $M$ and $m$ respectively.
 Suppose $\gamma \subseteq \Omega$ is a toy contour winding about each zero and pole of $f$ and $g$ precisely once.
 Then
 \[
-\abs{g} \leq \abs{f} \text{ on } \gamma \implies \Index_{z=0}(f\circ \gamma)(z) 
-&= \Index_{z=0}((f+g)\circ \gamma)(z) \\
-\implies Z_f - P_f 
-&= Z_{f+g} - P_{f+g}
+\abs{m} \leq \abs{M} \text{ on } \gamma \implies \Index_{z=0}(M\circ \gamma)(z) 
+&= \Index_{z=0}((M+m)\circ \gamma)(z) \\
+\implies Z_M - P_M 
+&= Z_{M+m} - P_{M+m}
 .\]
-In particular, if $f, g$ are *holomorphic* on $\Omega$, then $f$ and $f+g$ have the same number of zeros in $\Omega$, i.e. $Z_f = Z_{f+g}$.
+In particular, if $M, m$ are *holomorphic* on $\Omega$, then $M$ and $M+m$ have the same number of zeros in $\Omega$, i.e. $Z_M = Z_{M+m}$.
 
-Some alternative formulations:
-
-- Bounding a difference: given $f$, find a big part $F$ and call the small part $g\da f-F$. 
-Then
-\[
-\abs{g} \da \abs{f-F} \leq \abs{F}
-\text{ on }\bd\Omega \implies Z_f = Z_F
-.\]
-
-
+How to use this: given $f$ and a region, find a big part $M$ and a small part $m \da f-M$.
+Then show $\abs{m} < \abs{M}$ to get $\size Z_M = \size Z_f$.
+Alternatively, just find a large part $M$, and show $\abs{f-M} < M$.
 :::
 
 :::{.slogan}
-You can add a small perturbation $g$ to $f$ and preserve the number of zeros, where "small" means $\abs{g} < \abs{f}$ on the boundary.
-:::
-
-:::{.slogan}
-The number of zeros/poles are determined by a dominating function on the boundary.
+The number of zeros/poles in a region is determined by a dominating function on the boundary.
+You can add a small perturbation $m$ to $M$ and preserve the number of zeros, where "small" means $\abs{m} < \abs{M}$ on the boundary.
 :::
 
 :::{.remark}
