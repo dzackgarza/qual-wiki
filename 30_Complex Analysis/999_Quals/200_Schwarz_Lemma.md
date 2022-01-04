@@ -656,6 +656,13 @@ If $g$ is nonconstant, then the fixed point is unique by Schwarz: without loss o
 Apply Schwarz to $f$, then if $f(a) = a$ we have the equality clause and $f(z) = \lambda z$. 
 Since $a = f(a) = \lambda a$, $\lambda = 1$ and $f$ is the identity.
 If $g$ is constant, then $\abs{g(z)} < 1$ on $\abs{z} = 1$ forces $g\equiv 0$.
+
+Alternatively, use Rouché: if $\abs{f(z)} < 1$ is strict when $\abs{z} = 1$, then consider $F(z) \da f(z) - z$.
+Write the big part as $M(z) = z$ and the small as $m(z) = f(z)$, then on $\abs{z} = 1$
+\[
+\abs{m(z)} = \abs{f(z)} < 1 = \abs{z} = \abs{M(z)}
+,\]
+so $M(z)$ and $m(z) + M(z) = f(z) - z$ have the same number of zeros in $\DD$ -- precisely one.
 :::
 
 :::{.solution title="Part 2"}
