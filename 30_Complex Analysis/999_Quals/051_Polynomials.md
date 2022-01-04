@@ -90,7 +90,7 @@ But the LHS is evidently a polynomial of degree $(N-m)+m = m$.
 :::
 
 
-## Spring 2019.4 #complex/qual/work
+## Spring 2019.4 #complex/qual/completed
 
 ^047423
 
@@ -99,7 +99,6 @@ Let $f$ be a meromorphic function on the complex plane with the property that $|
 
 Prove that $f(z)$ is a rational function, i.e., there exist polynomials $p, q$ so that $f=\frac{p}{q}$.
 :::
-
 
 :::{.solution}
 Note that $f$ must have finitely many poles -- either $z=\infty$ is a pole or a removable singularity, and since poles are isolated, there is some $R\gg 0$ such that all other poles of $f$ are in $\abs{z} \leq R$.
@@ -111,12 +110,12 @@ Proving the bound: take $\abs{z} > R$, then
 \[
 \abs{G(z)} 
 &= \abs{f(z)} \abs{g(z)} \\
-&\leq M \abs{\prod_{k\leq N} z-p_k } \\
-&\leq M C \abs{z}^k 
+&\leq M C \abs{z}^N 
 ,\]
-using that $\lim_{\abs{z}\to\infty}g(z) = \infty$, so that for $\abs{z}$ large enough, $\abs{g(z)} < C\abs{z^k}$.
-
-
+using that $g$ is a polynomial of degree $N$, so $\abs{g(z)\over z^N}\to 1$ as $\abs{z}\to \infty$ since $g$ is monic.
+So after possibly increasing $R$, we can choose $\abs{z}$ large enough so that $\abs{g(z)\over z^N} < C$ for, say, some constant $C<2$.
+In any case, by a common qual question, if $\abs{G} \in \bigo(\abs{z}^N)$ for $\abs{z}$ large enough then $G$ is a polynomial of degree at most $N$.
+Then $f(z) \da G(z)/g(z)$ is a rational function.
 :::
 
 
@@ -125,7 +124,10 @@ using that $\lim_{\abs{z}\to\infty}g(z) = \infty$, so that for $\abs{z}$ large e
 
 ^398dec
 
+:::{.problem title="?"}
 Let $f: \mathbb{C} \rightarrow \mathbb{C}$ be an injective analytic (also called univalent) function. Show that there exist complex numbers $a \neq 0$ and $b$ such that $f(z)=a z+b$.
+:::
+
 
 ## Tie's Extra Questions: Fall 2011 #complex/exercise/work
 
