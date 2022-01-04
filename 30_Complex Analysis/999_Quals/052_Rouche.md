@@ -330,6 +330,17 @@ Show that
 
 
 :::{.solution}
+The easier version of this question: when $\abs{f} \leq A\abs{z}^N$, $f$ is a polynomial of degree *at most* $N$ by Cauchy's integral formula:
+\[
+\abs{f^{(n)}(z)} 
+&= \abs{ {1\over 2\pi i} \oint_\gamma {f(\xi) \over (\xi - z)^{n+1}} \dxi } \\
+&\leq  {1\over 2\pi i} \oint_\gamma { \abs{ f(\xi) } \over \abs{\xi - z}^{n+1}} \dxi \\
+&\leq {1\over 2\pi i } \oint_\gamma {AR^N \over R^{n+1} } \dxi \\
+&= {A\over 2\pi i} R^{N-(n+1)} \cdot 2\pi R \\
+&= AR^{N-n} \\
+&\convergesto{R\to\infty} 0 \qquad \iff N-n<0 \iff n>N
+.\]
+
 
 :::
 
