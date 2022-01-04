@@ -287,7 +287,7 @@ since $f(z) - z^n$ is degree at most $n-1$, a contradiction.
 :::
 
 
-### Tie's Extra Questions: Fall 2009, Fall 2011 (FTA) #complex/exercise/completed
+### Tie's Extra Questions: Fall 2009, Fall 2011, Spring 2014 (FTA) #complex/exercise/completed
 
 :::{.problem title="?"}
 Use Rouche's theorem to prove the Fundamental Theorem of Algebra.
@@ -396,27 +396,49 @@ Prove that for $a> 0$, $z\tan z - a$ has only real roots.
 #stuck
 
 
-### Tie's Extra Questions: Fall 2016 #complex/exercise/work
-
+### Tie's Extra Questions: Fall 2016 #complex/exercise/completed
 
 :::{.problem title="?"}
 Prove that all the roots of the complex polynomial
-$$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
+$$f(z) = z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
+:::
+
+:::{.solution}
+On $\abs{z} \leq 1$:
+
+- Big: $M(z) = 12$
+- Small: $m(z) = z^6 - 5z^3$
+
+For $\abs{z} = 1$,
+\[
+\abs{m(z)} \da \abs{z^7-5z^3}\leq \abs{z}^7 + 5\abs{z}^3 = 6 < 12 \da \abs{M(z)}
+,\]
+so $0 = Z_M = Z_{f}$.
+
+On $\abs{z} \leq 2$,
+
+- Big: $M(z) = z^7$
+- Small: $m(z) = -5z^3 + 12$
+
+On $\abs{z} = 2$,
+\[
+\abs{m(z)} \da \abs{-5z^3 + 12} \leq 5\abs{z}^2 + 12 = 32 < 128 = 2^7 \da \abs{M(z)}
+,\]
+so $7 = Z_M = Z_{f}$.
+
+So $f$ has 7 zeros in $1 \leq \abs{z} \leq 2$.
 :::
 
 
-### Tie's Extra Questions: Spring 2014 #complex/exercise/work
-
-
-Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
-$$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
-is a polynomial of degree n, then it has n zeros in $\mathbf C$.
-
 ### Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
+:::{.problem title="?"}
 Let $0<r<1$. Show that polynomials
 $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in $|z|<r$
 for all sufficiently large $n$'s.
+:::
+
+
 
 ### Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
