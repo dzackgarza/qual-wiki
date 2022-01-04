@@ -196,7 +196,9 @@ F(w) \da {1\over 2\pi i}\oint_{S^1} \logd g(z) \dz
 Start by computing $F(0)$.
 We first need $f'(z)$:
 \[
-f'(z) = \dd{}{z}\prod_{1\leq k\leq n} \psi_{a_k}(z)
+f'(z) 
+&= \dd{}{z}\prod_{1\leq k\leq n} \psi_{a_k}(z) \\
+&= \sum_{1\leq k\leq n} \psi_{a_k}'(z) \prod_{i\neq k} \psi_{a_i}(z)
 .\]
 
 \[
