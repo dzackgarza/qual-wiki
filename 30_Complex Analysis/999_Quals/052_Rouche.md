@@ -259,7 +259,7 @@ So $F(w) = n$ for any $w$, meaning $f(z) = w$ has $n$ solutions in $\DD$ for eve
 
 :::
 
-### 9 #complex/exercise/work
+### Max of a polynomial on $S^1$ #complex/exercise/completed
 
 :::{.problem}
 Prove that
@@ -270,7 +270,6 @@ Prove that
 > Hint: the first part of the problem asks for a statement of Rouche's theorem.
 
 :::
-
 
 :::{.solution}
 Write $p(z) \da a_0 + \cdots + z^n$.
@@ -283,14 +282,23 @@ Taking $m(z) \da f(z)$ and $M(z) \da -z^n$, we have
 \[
 n = \size Z_M = \size Z_{M+m} = \size Z_{f(z) - z^n} \leq n-1
 ,\]
-a contradiction.
+since $f(z) - z^n$ is degree at most $n-1$, a contradiction.
 
 :::
 
 
+### FTA #complex/exercise/work
 
-### 10 #complex/exercise/work
+:::{.problem title="?"}
 Use Rouche's theorem to prove the Fundamental Theorem of Algebra.
+:::
+
+
+:::{.solution}
+
+:::
+
+
 
 
 
