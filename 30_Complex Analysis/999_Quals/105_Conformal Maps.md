@@ -6,6 +6,29 @@ title: "Conformal Maps"
 
 See also [[30_Complex Analysis/050_Conformal_Maps/035_Conformal_Exercises|Conformal map exercises]].
 
+## Classifying conformal maps #complex/exercise/completed
+
+:::{.problem title="?"}
+Define
+\[  
+G \definedas \theset{z\in \CC\suchthat \Re(z) > 0, \, \abs{z-1} > 1}
+.\]
+
+Find all of the injective conformal maps $G\to \DD$.
+These may be expressed as compositions of maps, but explain why this list is complete.
+:::
+
+:::{.solution}
+Use that every element of $\Aut(\DD)$ is of the form $f(z) = \lambda\psi_a(z)$, and the region $G$ is conformally equivalent to $\DD$.
+Thus every element of $\Aut(G)$ can be conjugated to an element of $\Aut(\DD)$ by a conformal map $F: G\to \DD$.
+One such map is gotten by rotating $z\mapsto iz$ to get $\HH \intersect \abs{z}>1$, then applying a Joukowski map $z\mapsto z+z\inv$ to get $\HH$.
+So
+\[
+f\in \Aut(G) \implies f = F\inv \circ \psi_{a} \circ F \text{ for some } \psi_a \in \Aut(\DD)
+.\]
+
+:::
+
 # Fundamentals: half-planes, discs, strips
 
 ## Tie's Extra Questions: Spring 2015 (Good Practice) #complex/exercise/completed
@@ -666,8 +689,7 @@ Take the final map to be $f\da G\circ h \circ F\inv$.
 
 
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
-
-
+:::{.problem title="?"}
 Let $f(z)$ be an analytic function on
 ${\mathbb C} \backslash \{ z_0 \}$, where $z_0$ is a fixed point.
 Assume that $f(z)$ is bijective from
@@ -678,7 +700,12 @@ $ad-bc \neq 0$, $c \neq 0$ such that
 $\displaystyle f(z) = \frac{az + b}{cz + d}$.
 
 
+:::
+
+
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
+
+:::{.problem title="?"}
 Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
 with $|\alpha|<1$ and $\mathbb D = \{z:\ |z|<1\}$. 
 Prove that
@@ -692,5 +719,8 @@ Prove that
 \[
 \displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2} \log \frac{1}{1-|\alpha|^2}}
 .\]
+
+
+:::
 
 

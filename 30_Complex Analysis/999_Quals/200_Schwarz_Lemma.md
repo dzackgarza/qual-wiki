@@ -5,7 +5,7 @@ title: "Schwarz Lemma"
 
 # Schwarz Lemma
 
-## Fall 2020.4 (Schwarz double root)#complex/qual/stuck
+## Fall 2020.4 (Schwarz double root) #stuck #complex/qual/completed
 
 ^0f90ac
 
@@ -55,9 +55,6 @@ Applying Schwarz-Pick:
 \abs{f'(0)} \leq {1 - \abs{f(0)}^2 \over 1 - \abs{0}^2 } = 1-\abs{a}^2 < 1
 ,\]
 using that $a\neq 0$, so $f$ is a contraction.
-
-
-#todo Is there more..?
 
 > Can write $f_e(z) \da {f(a) + f(-a) \over 2}$ to write $f_e(z) = g(z^2)$.
   Compose with some $\psi_a$ to get $0\to 0$ and apply Schwarz -- unclear how to unwind what happens in the case of equality though.
@@ -228,28 +225,6 @@ so that $g(0) = 0$ and $g:\DD\to \DD$ so Schwarz applies,
 
 :::
 
-## Classifying conformal maps #complex/exercise/completed
-
-:::{.problem title="?"}
-Define
-\[  
-G \definedas \theset{z\in \CC\suchthat \Re(z) > 0, \, \abs{z-1} > 1}
-.\]
-
-Find all of the injective conformal maps $G\to \DD$.
-These may be expressed as compositions of maps, but explain why this list is complete.
-:::
-
-:::{.solution}
-Use that every element of $\Aut(\DD)$ is of the form $f(z) = \lambda\psi_a(z)$, and the region $G$ is conformally equivalent to $\DD$.
-Thus every element of $\Aut(G)$ can be conjugated to an element of $\Aut(\DD)$ by a conformal map $F: G\to \DD$.
-One such map is gotten by rotating $z\mapsto iz$ to get $\HH \intersect \abs{z}>1$, then applying a Joukowski map $z\mapsto z+z\inv$ to get $\HH$.
-So
-\[
-f\in \Aut(G) \implies f = F\inv \circ \psi_{a} \circ F \text{ for some } \psi_a \in \Aut(\DD)
-.\]
-
-:::
 
 ## Bounding derivatives #complex/exercise/completed
 
@@ -670,8 +645,7 @@ mapping $$F: z \mapsto \frac{w - z}{1 - \bar{w} z}$$ satisfies the following con
 :::
 
 
-## Tie's Extra Questions: Spring 2015
-
+## Tie's Extra Questions: Spring 2015 #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f$ is analytic in an open set containing the unit disc $\mathbb D$ and $|f(z)| =1$ when $|z|$=1. Show that either $f(z) = e^{i \theta}$ for some $\theta \in \mathbb R$ or there are
@@ -685,8 +659,7 @@ $\theta \in \mathbb R$ such that
 
 :::
 
-
-## Tie's Extra Questions: Spring 2015
+## Tie's Extra Questions: Spring 2015 (Equality of modulus) #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $f$ and $g$ be non-zero analytic functions on a region $\Omega$.
@@ -696,7 +669,6 @@ $0 \leq \theta < 2 \pi$.
 
 :::
 
-
 :::{.solution}
 Define $F(z) \da {f(z) \over g(z)}$.
 
@@ -704,12 +676,17 @@ Define $F(z) \da {f(z) \over g(z)}$.
 $F$ is holomorphic on $\Omega$.
 :::
 
+:::{.proof title="of claim"}
+Note that $g(a) = 0$ iff $f(a) = 0$, so $F$ has no poles.
+If $F$ has a singularity at $z_0$, noting that $\abs{F(z_0)} = 1$, $F$ is bounded in a neighborhood of $z_0$ and thus the singularity must be removable.
+By Riemann's removable singularity theorem, $F$ extends to a holomorphic function.
+:::
+
+
 Given this, note that $\abs{F(z)} = 1$ for all $z$, so $F(\Omega) \subseteq S^1$, which is codimension 1 in $\CC$ and not open.
 By the open mapping theorem, $F$ must be constant, so $F(z) = \lambda$, and in particular since $\abs{F(z)} = 1$, $\lambda = e^{it}\in S^1$ for some $t$.
 Then $f(z) = \lambda g(z)$.
 :::
-
-
 
 # Fixed Points
 
