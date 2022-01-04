@@ -4,6 +4,14 @@ order: 40
 
 # Maximum Modulus
 
+## Spring 2020 HW 3.8 #complex/exercise/work
+
+:::{.problem title="?"}
+Prove the fundamental theorem of Algebra using
+the maximum modulus principle.
+:::
+
+
 ## Spring 2020.7 #complex/qual/completed
 
 ^aff739

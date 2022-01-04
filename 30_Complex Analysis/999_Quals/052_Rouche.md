@@ -287,7 +287,7 @@ since $f(z) - z^n$ is degree at most $n-1$, a contradiction.
 :::
 
 
-### FTA #complex/exercise/completed
+### Tie's Extra Questions: Fall 2009 (FTA) #complex/exercise/completed
 
 :::{.problem title="?"}
 Use Rouche's theorem to prove the Fundamental Theorem of Algebra.
@@ -314,27 +314,20 @@ Then on $\abs{z} = R$,
 since $c_n z^n$ has $z=0$ as a root with multiplicity $n$.
 :::
 
-
-### Tie's Extra Questions: Fall 2009 #complex/exercise/work
-
-Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
-$$P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)$$
-is a polynomial of degree n, then it has n zeros in $\mathbb C$.
-
-### Spring 2020 HW 3.8 #complex/exercise/work
-
-Prove the fundamental theorem of Algebra using
-
-a.  
-Rouche's Theorem.
-
-b. 
-The maximum modulus principle.
-
 ### Spring 2020 HW 3.11 #complex/exercise/work
 
+
+:::{.problem title="?"}
 Find the number of roots of $p(z) = 4z^4 - 6z + 3$ in $\abs{z} < 1$ and
 $1 < \abs{z} < 2$ respectively.
+:::
+
+
+:::{.solution}
+
+:::
+
+
 
 ### Spring 2020 HW 3.12 #complex/exercise/work
 
