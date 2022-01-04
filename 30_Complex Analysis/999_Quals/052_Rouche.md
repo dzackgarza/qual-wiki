@@ -6,6 +6,7 @@ order: 52
 
 ## 1 #complex/exercise/completed
 
+:::{.problem title="?"}
 Prove that for every $n\in \ZZ^{\geq 0}$ the following polynomial has no roots in the open unit disc:
 \[
 f_n(x) \definedas \sum_{k=0}^n {z^k \over k!}
@@ -13,12 +14,9 @@ f_n(x) \definedas \sum_{k=0}^n {z^k \over k!}
 
 > Hint: check $n=1,2$ directly.
 
-:::{.solution}
-\envlist
-:::{.concept}
-\envlist
-
 :::
+
+:::{.solution}
 Note
 
 - $f_1(z) = 1+z$, which has the single root $z=-1$ which is not inside $\abs{z} < 1$.
@@ -31,7 +29,6 @@ Note
 - So take $h(z) = 1$, then on $\bd N$,?
 
 :::
-
 
 ## 2 #complex/exercise/completed
 Assume that $\abs b < 1$ and show that the following polynomial has exactly two roots (counting multiplicity) in $\abs{z} < 1$:

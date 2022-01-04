@@ -71,7 +71,18 @@ The quick justification:
 &= \int_\gamma \dd{}{z} {F(w) \over w-z} \dw \\
 &= \int_\gamma {F(w) \over (w-z)^2} \dw
 ,\]
-where differentiating through the integral is justified since the integrand is a continuous function of $z$ on $\gamma$ since $w\neq z$ on $\gamma$, and $\gamma$ is a compact set, making the integrand uniformly continuous.
+where differentiating through the integral is justified since the integrand is a continuous function of $z$ on $\gamma$ since $w\neq z$ on $\gamma$, and $\gamma$ is a compact set.
+
+Slightly more rigorously, one can equivalently pass a limit through the integral to show that the defining limit exists:
+\[
+f(z+h) - f(z)
+&= \int_\gamma {F(w) \over w+h-z} \dw - \int_\gamma {F(w) \over w-z}\dw \\
+&= \int_\gamma {(w-z)F(w) - (w+h-z)F(w) \over (w+h-z)(w-z) } \dw \\
+&= \int_\gamma F(w) {h \over (w+h-z)(w-z)} \dw \\
+&\convergesto{h\to 0} \int_\gamma {F(w) \over (w-z)^2}\dw
+,\]
+since the term involving $h$ goes to 1.
+
 
 :::
 
