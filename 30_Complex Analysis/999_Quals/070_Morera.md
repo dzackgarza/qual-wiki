@@ -30,7 +30,6 @@ So
 noting that the bound $M$ is constant and remains an upper bound on smaller discs by the maximum modulus principle.
 :::
 
-
 ## Fall 2021.2  #complex/qual/completed
 
 ^a550c1
@@ -44,7 +43,7 @@ is analytic on the complement of the curve $\gamma$.
 
 :::
 
-:::{.solution}
+:::{.solution title="Using Morera"}
 By Morera's theorem, it suffices to show $\int_\Delta f(z) \dz = 0$ for all triangles $\Delta \subseteq \gamma^c$.
 Claim:
 \[
@@ -59,6 +58,20 @@ Claim:
 That the inner integral is zero follows from the fact that the function $z\mapsto {1\over w-z}$ is holomorphic on $\gamma^c$, since it has only a simple pole at $w$ where $w\in \gamma$ is fixed.
 
 That the interchange of integrals is justified follows from Fubini's theorem: these are continuous functions on compact sets, which are uniformly bounded and thus Lebesgue measurable and integrable.
+
+:::
+
+
+:::{.solution title="Using limit definition"}
+The claim is that $f$ is complex differentiable, thus smooth, thus holomorphic and equal to its Taylor series expansion.
+The quick justification:
+\[
+\dd{}{z} f(z)
+&= \dd{}{z} \int_\gamma {F(w) \over w-z}\dw \\
+&= \int_\gamma \dd{}{z} {F(w) \over w-z} \dw \\
+&= \int_\gamma {F(w) \over (w-z)^2} \dw
+,\]
+where differentiating through the integral is justified since the integrand is a continuous function of $z$ on $\gamma$ since $w\neq z$ on $\gamma$, and $\gamma$ is a compact set, making the integrand uniformly continuous.
 
 :::
 
