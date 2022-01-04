@@ -341,6 +341,29 @@ The easier version of this question: when $\abs{f} \leq A\abs{z}^N$, $f$ is a po
 &\convergesto{R\to\infty} 0 \qquad \iff N-n<0 \iff n>N
 .\]
 
+Now rearrange the given equality 
+\[
+\abs{f(z) \over z^N} \geq A \qquad \abs{z} \implies \abs{z^N\over f(z)} \leq A\inv
+.\]
+A priori, $f$ is equal to its power series at $z=0$, so $f(z) = \sum_{k\geq 0} c_k z^k$.
+Since $\DD_R$ is compact, $f$ has finitely many zeros in this region, say $\ts{z_k}_{k\leq m}$.
+Define 
+\[
+p(z) \da \prod_{1\leq k\leq m} (z-z_k) = z^m + \bigo(z^{m-1})
+,\]
+the product of these roots.
+Increase $R$ if necessary to ensure that
+\[
+\abs{p(z)\over z^m} < 1 \implies
+\abs{p(z)} < \abs{z}^m
+.\]
+Now define
+\[
+G(z) \da {p(z) z^N \over f(z)} \implies \abs{G(z)} = \abs{p(z) z^N\over f(z)} 
+= \abs{z^N\over f(z)}\cdot \abs{p(z)} \leq M\inv \abs{z}^m 
+.\]
+
+
 
 :::
 
