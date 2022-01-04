@@ -450,8 +450,15 @@ Similarly $P_n(z)$ converges uniformly to $\dd{}{z}{1\over 1-z} = {1\over (1-z)^
 
 Strategy:
 
-- Small: $m(z) = P(z) - P_n(z)$, look for an upper bound $U$
-- Big: $P(z)$, look for a lower bound $L>U$.
+- Small: $m(z) = P(z) - P_n(z)$, look for an upper bound $\abs{m(z)} < U$
+- Big: $P(z)$, look for a lower bound $L$ with $\abs{P(z)} > L > U$.
+
+Just by considering the geometry of circles of radius $R < 1$ and $1$ and measuring distances to the point $1$, we can estimate
+\[
+0 < 1-R \leq \abs{1-z} < 1+R < 2 \implies \abs{P(z)} = {1\over \abs{1-z}^2} \geq {1\over 2^2} = {1\over 4}
+.\]
+
+
 
 :::
 
