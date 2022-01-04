@@ -365,19 +365,15 @@ G(z) \da {p(z) z^N \over f(z)} \implies \abs{G(z)} = \abs{p(z) z^N\over f(z)}
 By the previous result, $G$ is a polynomial of degree at most $m$.
 Now consider leading terms: on one hand,
 \[
-f(z) G(z) = p(z) z^N \sim \qty{z^m + \bigo(z^{m-1})}\cdot z^N = z^{N+m} + \bigo(z^{N+m-1})
-,\]
-and on the other hand,
-\[
-f(z) G(z) \sim \qty{ \sum_{k\geq 0} c_k z^k} \qty{z^m + \bigo(z^{m-1})} 
-\sim \sum_{k\geq 0} c_k z^{k+m} + \cdots
+f(z) G(z) = p(z) z^N \sim \qty{z^m + \cdots }\cdot z^N = z^{N+m} + \cdots
 .\]
-This 
-
-
-
-
-
+On the other hand,
+\[
+f(z) G(z) \sim \qty{ \sum_{k\geq 0} c_k z^k} \qty{z^m + \cdots} 
+\sim \sum_{k\geq 0} c_k z^{k+m} + \cdots
+,\]
+and by the previous expression, this must be a polynomial of degree at most $N+m$.
+This forces $c_k = 0$ for all $k> N$, otherwise these would contribute higher order terms.
 :::
 
 
