@@ -13,9 +13,12 @@ Then
 .\]
 In particular, if $M, m$ are *holomorphic* on $\Omega$, then $M$ and $M+m$ have the same number of zeros in $\Omega$, i.e. $Z_M = Z_{M+m}$.
 
-How to use this: given $f$ and a region, find a big part $M$ and a small part $m \da f-M$.
-Then show $\abs{m} < \abs{M}$ to get $\size Z_M = \size Z_f$.
-Alternatively, just find a large part $M$, and show $\abs{f-M} < M$.
+Ways to use this: 
+
+- Given $f$ and a region, find a big part $M$ and a small part $m \da f-M$.
+  Then show $\abs{m} < \abs{M}$ to get $\size Z_M = \size Z_f$.
+- Given $f$, just find a large part $M$, and show $\abs{f-M} < M$.
+- Given $\abs{m} < \abs{M}$ with no ambient $f$, you can freely choose $f$ to be any of $\pm (M \pm m)$ to obtain $Z_M = Z_f$
 :::
 
 :::{.slogan}

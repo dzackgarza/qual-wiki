@@ -272,6 +272,23 @@ Prove that
 :::
 
 
+:::{.solution}
+Write $p(z) \da a_0 + \cdots + z^n$.
+Toward a contradiction, suppose not so that $\abs{p(z)} < 1$ on $\abs{z} = 1$.
+Then
+\[
+\abs{f(z)} < 1 = \abs{z}^n \qquad \text{ on } \abs{z} = 1
+.\]
+Taking $m(z) \da f(z)$ and $M(z) \da -z^n$, we have 
+\[
+n = \size Z_M = \size Z_{M+m} = \size Z_{f(z) - z^n} \leq n-1
+,\]
+a contradiction.
+
+:::
+
+
+
 ### 10 #complex/exercise/work
 Use Rouche's theorem to prove the Fundamental Theorem of Algebra.
 
