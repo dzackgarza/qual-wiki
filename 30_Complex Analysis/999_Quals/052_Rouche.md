@@ -241,6 +241,7 @@ so by Rouché,
 since $h$ has no zeros at all.
 Take $R=10$ to get the stated result.
 
+For $P_n(z) - 1$, note that $e^z-1=0$ has three solutions in $\abs{z} < 10$, namely $z=0, \pm 2\pi i$.
 
 
 
