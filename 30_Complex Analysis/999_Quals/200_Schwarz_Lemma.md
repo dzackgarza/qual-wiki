@@ -121,7 +121,7 @@ The Schwarz conjugation trick:
 
 Write the RHS as $a$, we then want something in the form $\abs{F(a)}\leq \abs{a}$.
 The choice $a=\psi_w(z)$ is forced, so $z= \psi_w\inv(a)$.
-This makes forces the choice for the LHS
+This forces the choice for the LHS
 \[
 { f(w) - (f\circ \psi_w\inv)(a) \over 1 - \bar{f(w)} (f\circ \psi_w\inv)(a) } 
 = (\psi_{f(w)} \circ f \circ \psi_w\inv)(a) \da F(a)
@@ -190,36 +190,6 @@ f(z_1) - (f\circ \psi_{z_1})(z)
 
 :::
 
-:::{.remark}
-Note that Schwarz also provides an actual bound for $F'$ here -- applying the chain rule yields
-\[
-F' = \qty{ \psi_{f(z_1)} \circ f \circ \psi_{z_1}}'
-= \qty{\psi'_{f(z_1)} \circ f \circ \psi_{z_1}} \cdot (f' \circ \psi_{z_1}) \cdot \psi'_{z_1}
-.\]
-
-Now use that (up to absolute values)
-
-- $\psi_{z_1}(0) = z_1$
-- $\psi'_{z_1}(0) = 1-\abs{z_1}^2$
-- $\psi_a' = {1-\abs{a}^2 \over (1-\bar{a}z)^2 }$
-
-and evaluate:
-\[
-F'(0) 
-&= \psi'_{f(z_1)}(f(z_1)) \cdot f'(z_1) \cdot \qty{1 - \abs{z_1}^2} \\
-&= \qty{ 1 - \abs{ f(z_1)}^2 \over \qty{1 - \bar{f(z_1)} f(z_1) }^2 } \cdot f'(z_1) \cdot \qty{1 - \abs{z_1}^2} \\
-&= \qty{ 1 - \abs{ f(z_1)}^2 \over \qty{1 - \abs{f(z_1)}^2}^2 } \cdot f'(z_1) \cdot \qty{1 - \abs{z_1}^2} \\
-&= f'(z_1) \qty{ 1 - \abs{z_1}^2 \over 1 - \abs{f(z_1)}^2 } \\
-&\leq 1 &&\text{by Schwarz}
-,\]
-so
-\[
-f'(z_1) \leq {1- \abs{f(z_1)}^2 \over 1 - \abs{z_1}^2}
-.\]
-
-> Note: I've sloppily left absolute values off of everything and freely swapped orders of terms!
-
-:::
 
 
 ## Fall 2021.5  #complex/qual/completed
@@ -577,7 +547,7 @@ Moreover $f'(z) = -2\qty{-2\lambda \over (\lambda z - 1)^2}$, so
 
 :::
 
-## 6 #complex/exercise/completed
+## Schwarz for higher order zeros #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f:\DD\to\DD$ is analytic, has a single zero of order $k$ at $z=0$, and satisfies $\lim_{\abs z \to 1} \abs{f(z)} = 1$.
@@ -597,7 +567,7 @@ Then $f(z) = \lambda z^n$.
 
 :::
 
-## 8 #complex/exercise/completed
+## Schwarz with an injective function #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f, g: \DD\to \Omega$ are holomorphic with $f$ injective and $f(0) = g(0)$.
@@ -621,7 +591,7 @@ Unwinding:
 This says that $g(\DD) \subseteq f(\DD)$, and in particular this holds on all $\DD_r(0)$, so $g(\DD_r(0)) \subseteq f(\DD_r(0))$.
 :::
 
-## 9 #complex/exercise/completed
+## Reflection principle #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $S\definedas \theset{z\in \DD\suchthat \Im(z) \geq 0}$.
@@ -659,6 +629,8 @@ By the symmetry principle, $F$ is holomorphic, and $\ro{F}{S} = f$.
 
 
 ### Tie's Extra Questions: Fall 2009
+
+:::{.problem title="?"}
 Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
 
 1.  Show that $g$ has a unique fixed point in $|z| < 1$.
@@ -673,6 +645,25 @@ Let $g$ be analytic for $|z|\leq 1$ and $|g(z)| < 1$ for $|z| = 1$.
     $|z| < 1$?
 
 > Hint: The map $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$ may be useful.
+
+:::
+
+
+:::{.solution title="Part 1"}
+Since $g$ is holomorphic on $\bar{\DD}$, it is in particular continuous.
+By the Brouwer fixed point theorem, every continuous map $\bar{\DD} \to \bar{\DD}$ has a fixed point.
+If $g$ is nonconstant, then the fixed point is unique by Schwarz: without loss of generality one can assume $f(0) = 0$ by composing with a Blaschke factor.
+Apply Schwarz to $f$, then if $f(a) = a$ we have the equality clause and $f(z) = \lambda z$. 
+Since $a = f(a) = \lambda a$, $\lambda = 1$ and $f$ is the identity.
+If $g$ is constant, then $\abs{g(z)} < 1$ on $\abs{z} = 1$ forces $g\equiv 0$.
+:::
+
+:::{.solution title="Part 2"}
+
+:::
+
+
+
 
 ### Tie's Extra Questions: Fall 2015
 
