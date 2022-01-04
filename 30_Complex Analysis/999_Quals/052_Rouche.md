@@ -50,10 +50,14 @@ noting that $M(z) = 0 \iff z= -1$, which isn't contained in the open disc $\DD$.
 :::
 
 ## Standard Rouché #complex/exercise/completed
+
+:::{.problem title="?"}
 Assume that $\abs b < 1$ and show that the following polynomial has exactly two roots (counting multiplicity) in $\abs{z} < 1$:
 \[
 f(z) \definedas z^3 + 3z^2 + bz + b^2
 .\]
+
+:::
 
 :::{.solution}
 Big: $M(z) = 3z^2$.
@@ -65,42 +69,56 @@ Then on $\abs{z} = 1$:
 and $M(z)$ has exact two roots in $\DD$.
 :::
 
-
-## 3 #complex/exercise/work
+## Fixed points #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $c\in \CC$ with $\abs{c} < {1\over 3}$.
 Show that on the open set $\theset{z\in \CC \suchthat \Re(z) < 1}$, the function $f(z) \definedas ce^z$ has exactly one fixed point.
 :::
 
+:::{.solution}
+The boundary region is $\ts{1+it\st t\in \RR}$, write $g(z) = ce^z-z$ so that fixed points of $f$ are zeros of $g$.
 
-## 4 #complex/exercise/completed
+Big: $M(z) = z$.
+Small: $m(z) = ce^z$.
+Then for $z=1+it$,
+\[
+\abs{m(z)} = \abs{c}e^{\Re(z)} < ce < 1 \leq \sqrt{1^2+t^2} = \abs{1+it} = \abs{z}
+,\]
+so $M$ and $g$ have the same number of zeros, and $M$ has a unique zero. 
+:::
+
+## Standard Rouché #complex/exercise/completed
+
+:::{.problem title="?"}
 How many roots does the following polynomial have in the open disc $\abs{z} < 1$?
 \[
 f(z) = z^7 - 4z^3 - 1
 .\]
 
+:::
+
 :::{.solution}
-\envlist
-:::{.concept}
-\envlist
-
-:::
-- Set $h(z) = -4z^3$ and $g(z) = z^7 - 1$, then on $\abs{z} = 1$,
+Big: $M(z) = -4z^3$.
+Small: $m(z) = z^7 - 1$.
+Then on $\abs{z} = 1$,
 \[
-\abs{g(z)} = \abs{z^7 - 1} \leq 1 + 1 = 2 < 4 = \abs{-4z^3} = \abs{h(z)}
-.\]
-
-- So $h$ and $h+g$ have the same number of roots, but $h$ has three roots here.
+\abs{m(z)} = \abs{z^7-1} \leq \abs{z}^7 + 1 = 2 < 4 = \abs{-4z^4}
+,\]
+so $f$ and $M$ have the same number of zeros: three.
 :::
 
+## 5 #complex/exercise/completed
 
-## 5 #complex/exercise/work
+:::{.problem title="?"}
 Let $n\in \ZZ^{\geq 0}$ and show that the equation
 \[
 e^z = az^n
 \]
 has $n$ solutions in the open unit disc if $\abs{a} > e$, and no solutions if $\abs{a} < {1\over e}$.
+
+:::
+
 
 ## 6 #complex/exercise/work
 Let $f$ be analytic in a domain $D$ and fix $z_0 \in D$ with $w_0 \definedas f(z_0)$.
