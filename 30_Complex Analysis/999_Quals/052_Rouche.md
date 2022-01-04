@@ -166,9 +166,9 @@ and
 define the solution counting function:
 \[
 F(w) 
-\da \oint_{\gamma'} \logd(g(z)) \dz 
-= \oint_{\gamma'} {g'(z)\over g(z) }\dz
-= \oint_{\gamma'} {f'(z)\over f(z) - w} \dz
+\da {1\over 2\pi i} \oint_{\gamma'} \logd(g(z)) \dz 
+= {1\over 2\pi i } \oint_{\gamma'} {g'(z)\over g(z) }\dz
+= {1\over 2\pi i} \oint_{\gamma'} {f'(z)\over f(z) - w} \dz
 ,\]
 which counts the zeros of $g$ (since it has no poles) and consequently the number of solutions to $f(z) = w$ in $\DD_\eps(w_0)$.
 This is now a continuous integer valued function on $\DD_\eps(w_0)$, and is thus constant.
@@ -180,7 +180,7 @@ Since $f(z_0) = w_0$ with $z_0$ enclosed by $\gamma$ and $w_0$ enclosed by $\gam
 :::{.problem title="?"}
 For $k=1,2,\cdots, n$, suppose $\abs{a_k} < 1$ and
 \[
-f(z) \definedas \qty{z - a_1 \over 1 - \bar a_1 z} \qty{z-a_2 \over 1 - \bar a_2 z} \cdots \qty{z - a_n \over 1 - \bar a_n z}
+f(z) \da \qty{z - a_1 \over 1 - \bar a_1 z} \qty{z-a_2 \over 1 - \bar a_2 z} \cdots \qty{z - a_n \over 1 - \bar a_n z}
 .\]
 Show that $f(z) = b$ has $n$ solutions in $\abs{z} < 1$.
 :::
