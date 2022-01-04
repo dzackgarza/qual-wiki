@@ -521,7 +521,7 @@ Moreover $f'(z) = -2\qty{-2\lambda \over (\lambda z - 1)^2}$, so
 
 :::
 
-## 6 #complex/exercise/work
+## 6 #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f:\DD\to\DD$ is analytic, has a single zero of order $k$ at $z=0$, and satisfies $\lim_{\abs z \to 1} \abs{f(z)} = 1$.
@@ -541,7 +541,7 @@ Then $f(z) = \lambda z^n$.
 
 :::
 
-## 8 #complex/exercise/work
+## 8 #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f, g: \DD\to \Omega$ are holomorphic with $f$ injective and $f(0) = g(0)$.
@@ -565,7 +565,7 @@ Unwinding:
 This says that $g(\DD) \subseteq f(\DD)$, and in particular this holds on all $\DD_r(0)$, so $g(\DD_r(0)) \subseteq f(\DD_r(0))$.
 :::
 
-## 9 #complex/exercise/work
+## 9 #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $S\definedas \theset{z\in \DD\suchthat \Im(z) \geq 0}$.
@@ -574,7 +574,6 @@ Suppose $f:S\to \CC$ is continuous on $S$, real on $S\intersect \RR$, and holomo
 Prove that $f$ is the restriction of a holomorphic function on $\DD$.
 
 :::
-
 
 :::{.solution}
 Define a function
@@ -595,11 +594,10 @@ f(z)
 &= \sum_{k\geq 0}\bar{c_k} \qty{z - \bar{z_0}}^k \\
 &= \sum_{k\geq 0}\bar{c_k} \qty{z - w_0}^k
 ,\]
-which yields a power series expansion of $f$ about $w_0$.
+which yields a power series expansion of $F$ about $w_0$.
 So $f$ is analytic at every point in $\tilde S$ and thus holomorphic.
 Since $\bar{f(\bar z)} = f(z)$ for $z, f(z)\in \RR$, $F$ is a continuous extension of $f$ to $\DD$.
-
-
+By the symmetry principle, $F$ is holomorphic, and $\ro{F}{S} = f$.
 :::
 
 
