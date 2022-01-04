@@ -16,6 +16,20 @@ f_n(x) \definedas \sum_{k=0}^n {z^k \over k!}
 
 :::
 
+
+:::{.solution}
+Toward applying Rouche's theorem, let $M(z) = 1 + z$ and $m(z) = {1\over 2}z^2 + \cdots + {1\over n!}z^n$.
+Note that on $\abs{z} = 1$, $\abs{m(z)} = 2$, and 
+\[
+\abs{m(z)} 
+&= \abs{\sum_{k\geq n+1} {z^k\over k!} } \\
+&\leq \abs{\sum_{k\geq 2} {z^k\over k!} } \\
+&\abs{e^z - (1+z)}
+.\]
+
+:::
+
+
 :::{.solution}
 Note
 
