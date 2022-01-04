@@ -151,6 +151,14 @@ Show that there exists $\delta >0$ and $\eps > 0$ such that for each $w$ such th
 :::
 
 
+:::{.solution}
+Write $g(z) \da f(z) - w_0$, then $g$ is holomorphic on $D$ and thus $w_0$ is an isolated zero.
+Choose $\delta$ small enough so that $g$ is nonvanishing on $\DD_\delta(z_0)\smts{z_0}$.
+Choose $\eps < \inf_{\abs{\xi} = \delta}\abs{f(\xi)}$, i.e. a disc about $w_0$
+:::
+
+
+
 ## 7 #complex/exercise/work
 For $k=1,2,\cdots, n$, suppose $\abs{a_k} < 1$ and
 \[
