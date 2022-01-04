@@ -16,8 +16,7 @@ f_n(x) \definedas \sum_{k=0}^n {z^k \over k!}
 
 :::
 
-
-:::{.solution}
+:::{.solution title="Using Rouché"}
 Toward applying Rouche's theorem, let $M(z) = 1 + z$ and $m(z) = {1\over 2}z^2 + \cdots + {1\over n!}z^n$.
 Note that on $\abs{z} = 1$, $\abs{m(z)} = 2$, and 
 \[
@@ -27,21 +26,16 @@ Note that on $\abs{z} = 1$, $\abs{m(z)} = 2$, and
 &\leq \sum_{k\geq n+1} { 1 \over k!} \\
 &= e^1 - \sum_{k\leq n} {1\over k!}
 .\]
+Suppose $n\geq 3$, 
+\[
+\abs{m(z)} < e - (1 + 1 + \cdots) \approx 0.718 < 2
+,\]
+then Rouché applies directly and 
+\[
+0 = \size Z_M(\DD) =\size Z_{M+m}(\DD) \da \size Z_f(\DD)
+,\]
+noting that $M(z) = 0 \iff z= -1$, which isn't contained in the open disc $\DD$.
 
-:::
-
-
-:::{.solution}
-Note
-
-- $f_1(z) = 1+z$, which has the single root $z=-1$ which is not inside $\abs{z} < 1$.
-- $f_2(z) = 1 + z + {1\over 2}z^2 = (z - (1+i))(z- (1-i))$, and $\abs{1\pm i} = \sqrt 2 >1$.
-
-- Note that $p_n(z) \converges{n\to\infty}\to e^z$ uniformly on any compact set.
-- Let $r$ be arbitrary and fix $N \definedas \DD_r(0)$, then $p_n(z) \to e^z$ uniformly on $\bar{N}$.
-- Set $g_n(z) \definedas p_n(z) / e^z$, then $g_n \to 1$ uniformly on $\bar N$.
-- Choose $n\gg 0$ so that $\abs{f(z) - 1} < \eps < 1$ for all $z\in \bar{N}$.
-- So take $h(z) = 1$, then on $\bd N$,?
 
 :::
 
