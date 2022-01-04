@@ -575,6 +575,21 @@ Prove that $f$ is the restriction of a holomorphic function on $\DD$.
 
 :::
 
+
+:::{.solution}
+Define a function
+\[
+F(z) \da 
+\begin{cases}
+f(z) & \Im(z)\geq 0 
+\\
+\bar{f(\bar z)} & \Im(z) < 0
+\end{cases}
+.\]
+
+:::
+
+
 ## 10 #complex/exercise/work
 
 :::{.problem title="?"}
