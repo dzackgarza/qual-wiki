@@ -1,6 +1,6 @@
 # Argument Principle
 
-### Spring 2020 HW 3.12 (Root counting with argument principle) #complex/exercise/completed
+## Spring 2020 HW 3.12 (Root counting with argument principle) #complex/exercise/completed
 
 :::{.problem title="?"}
 Prove that $f(z) = z^4 + 2z^3 -2z + 10$ has exactly one root in each open
@@ -33,3 +33,11 @@ f(it) = t^4 - it^3 -2it + 10 = t^4\qty{1 - it\inv -2it^{-2} +10t^{-4}} \\
 So $\Delta_\gamma \Arg(f) = 1$, meaning there is one zero enclosed by $\gamma$ for $R$ large enough.
 As $R\to \infty$, this covers $Q_1$.
 :::
+
+## Tie's Extra Questions: Fall 2015 #complex/exercise/work
+
+:::{.problem title="?"}
+Prove that $z^4 + 2 z^3 - 2z + 10 =0$ has exactly one root in each open quadrant.
+:::
+
+
