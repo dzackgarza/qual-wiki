@@ -528,7 +528,6 @@ Suppose $f:\DD\to\DD$ is analytic, has a single zero of order $k$ at $z=0$, and 
 Give with proof a formula for $f(z)$.
 :::
 
-
 :::{.solution}
 Note $\abs{f(z)}\leq 1$, and $g\da f(z)/z^k$ has a removable singularity at zero since $g$ is bounded on $\DD$: fixing $\abs{z} = r < 1$,
 \[
@@ -542,7 +541,6 @@ Then $f(z) = \lambda z^n$.
 
 :::
 
-
 ## 8 #complex/exercise/work
 
 :::{.problem title="?"}
@@ -555,6 +553,16 @@ Show that
 
 > The first part of this problem asks for a statement of the Schwarz lemma.
 
+:::
+
+:::{.solution}
+Since $f$ is injective, it has a left-inverse $f\inv$, and $F\da f\inv g$ is well-defined.
+Since $F:\DD\to \DD$ and $F(0) = 0$, Schwarz applies and $\abs{F(z)} \leq z$ on $\DD$.
+Unwinding:
+\[
+\abs{(f\inv \circ g)(z)} \leq \abs{z} \implies \abs{g(z)} \leq \abs{f(z)} \qquad \forall \DD\in \ZZ
+.\]
+This says that $g(\DD) \subseteq f(\DD)$, and in particular this holds on all $\DD_r(0)$, so $g(\DD_r(0)) \subseteq f(\DD_r(0))$.
 :::
 
 ## 9 #complex/exercise/work
