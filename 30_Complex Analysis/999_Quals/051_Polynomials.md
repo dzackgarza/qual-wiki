@@ -94,13 +94,31 @@ But the LHS is evidently a polynomial of degree $(N-m)+m = m$.
 
 ^047423
 
-
 :::{.problem title="?"}
 Let $f$ be a meromorphic function on the complex plane with the property that $|f(z)| \leq$ $M$ for all $|z|>R$, for some constants $M>0, R>0$.
 
 Prove that $f(z)$ is a rational function, i.e., there exist polynomials $p, q$ so that $f=\frac{p}{q}$.
+:::
+
+
+:::{.solution}
+Note that $f$ must have finitely many poles -- either $z=\infty$ is a pole or a removable singularity, and since poles are isolated, there is some $R\gg 0$ such that all other poles of $f$ are in $\abs{z} \leq R$.
+The set $P_f$ of poles is a closed set and $\bar{\DD_R}$ is compact, so if $P_f$ is infinite it has an accumulation point, contradicting that poles are isolated.
+
+So enumerate $P_f$ as $\ts{p_k}_{k\leq N}$, define $g(z) \da \prod_{k\leq N}(z-p_k)$, and set $F(z) \da g(z) f(z)$.
+Then $F$ is an entire function, and the claim is that $F$ is bounded and thus constant by Liouville.
+Proving the bound: take $\abs{z} > R$, then
+\[
+\abs{G(z)} 
+&= \abs{f(z)} \abs{g(z)} \\
+&\leq M \abs{\prod_{k\leq N} z-p_k } \\
+&\leq M C \abs{z}^k 
+,\]
+using that $\lim_{\abs{z}\to\infty}g(z) = \infty$, so that for $\abs{z}$ large enough, $\abs{g(z)} < C\abs{z^k}$.
+
 
 :::
+
 
 
 ## Fall 2019.4 #complex/qual/work
