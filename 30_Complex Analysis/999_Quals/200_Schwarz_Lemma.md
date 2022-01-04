@@ -697,6 +697,19 @@ $0 \leq \theta < 2 \pi$.
 :::
 
 
+:::{.solution}
+Define $F(z) \da {f(z) \over g(z)}$.
+
+:::{.claim}
+$F$ is holomorphic on $\Omega$.
+:::
+
+Given this, note that $\abs{F(z)} = 1$ for all $z$, so $F(\Omega) \subseteq S^1$, which is codimension 1 in $\CC$ and not open.
+By the open mapping theorem, $F$ must be constant, so $F(z) = \lambda$, and in particular since $\abs{F(z)} = 1$, $\lambda = e^{it}\in S^1$ for some $t$.
+Then $f(z) = \lambda g(z)$.
+:::
+
+
 
 # Fixed Points
 
