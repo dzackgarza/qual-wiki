@@ -261,7 +261,7 @@ So $F(w) = n$ for any $w$, meaning $f(z) = w$ has $n$ solutions in $\DD$ for eve
 
 ### 9 #complex/exercise/work
 
-:::{.solution}
+:::{.problem}
 Prove that
 \[
 \max_{\abs z = 1} \abs{a_0 + a_1 z + \cdots + a_{n-1}z^{n-1} + z^n} \geq 1
