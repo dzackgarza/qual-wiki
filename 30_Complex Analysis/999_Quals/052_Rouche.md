@@ -225,6 +225,28 @@ Show that for sufficiently large $n$, the polynomial $P_n$ has no zeros in $\abs
 :::
 
 
+:::{.solution}
+Let $M(z) \da 1 + {1\over n!}z^n$, then the claim is that $n$ can be chosen large enough such that all of the zeros of $M$ satisfy $\abs{a_k} > 10$.
+The roots are solutions to $z^n = n!$, and are thus of the form $(n!)^{1\over n} \zeta_n^k$ for $0\leq k\leq n-1$.
+Then $\lim_{n\to\infty}(n!)^{1\over n} = \infty$, which can be seen from Stirling's approximation: using that 
+\[
+\log(n!) = n\log(n) - n + \bigo(\log(n))
+,\]
+so if $L\da \lim_{n\to\infty} (n!)^{1\over n}$ then 
+\[
+\log(L) = {1\over n} \log(n!) = {1\over n}\qty{n\log(n) - n + \bigo(\log(n))} = \log(n) -1 + \bigo\qty{\log(n) \over n}
+,\]
+so 
+\[
+L\sim n e^{\log(n) \over n} = n\cdot n^{1\over n} \convergesto{n\to\infty} \infty
+.\]
+
+
+
+:::
+
+
+
 ## 9 #complex/exercise/work
 Prove that
 \[
