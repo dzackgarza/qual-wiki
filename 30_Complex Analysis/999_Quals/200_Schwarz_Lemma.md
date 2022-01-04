@@ -600,8 +600,7 @@ Since $\bar{f(\bar z)} = f(z)$ for $z, f(z)\in \RR$, $F$ is a continuous extensi
 By the symmetry principle, $F$ is holomorphic, and $\ro{F}{S} = f$.
 :::
 
-
-## 10 #complex/exercise/work
+## Schwarz-Pick derivative #complex/exercise/work
 
 :::{.problem title="?"}
 Suppose $f:\DD\to \DD$ is analytic.
@@ -611,6 +610,45 @@ Prove that
 .\]
 
 :::
+
+
+:::{.solution}
+
+
+:::{.claim}
+Holomorphic maps on $\DD$ contract Blaschke factors:
+\[
+\abs{ \psi_w(z) } \geq \abs{\psi_{f(w)}(f(z)) } 
+,\]
+i.e. 
+\[
+\abs{f(w) - f(z) \over 1 - \bar{f(w)}f(z)} \leq \abs{w-z \over 1-\bar{w} z}
+.\]
+:::
+
+:::{.proof title="?"}
+
+:::
+
+
+Given this, there's just a clever rearrangement to obtain the stated result:
+\[
+\abs{f(w) - f(z) \over 1 - \bar{f(w)}f(z)} 
+&\leq \abs{w-z \over 1-\bar{w} z} \\
+\implies 
+\abs{ 1\over 1-\bar{f(w)}f(z) } \cdot \abs{f(z) - f(w) \over z-w} 
+&\leq \abs{1\over 1-\bar{w}z} \\
+,\]
+and taking $z\to w$ on both sides yields
+\[
+\abs{1\over 1 - \abs{f(w)}^2 } \abs{f'(w)} \leq {1\over \abs{w}^2}
+\implies
+\abs{f'(w)} \leq {1-\abs{f(w)}^2\over 1-\abs{w}^2 }
+.\]
+
+
+:::
+
 
 
 ### Tie's Extra Questions: Fall 2009
