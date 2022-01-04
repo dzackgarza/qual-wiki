@@ -347,6 +347,8 @@ Now rearrange the given equality
 .\]
 A priori, $f$ is equal to its power series at $z=0$, so $f(z) = \sum_{k\geq 0} c_k z^k$.
 Since $\DD_R$ is compact, $f$ has finitely many zeros in this region, say $\ts{z_k}_{k\leq m}$.
+This set must be finite, since an infinite subset of a compact set has a limit point, and being zero on a set with a limit point implies being identically zero by the identity principle.
+
 Define 
 \[
 p(z) \da \prod_{1\leq k\leq m} (z-z_k) = z^m + \bigo(z^{m-1})
@@ -369,8 +371,10 @@ f(z) G(z) = p(z) z^N \sim \qty{z^m + \cdots }\cdot z^N = z^{N+m} + \cdots
 .\]
 On the other hand,
 \[
-f(z) G(z) \sim \qty{ \sum_{k\geq 0} c_k z^k} \qty{z^m + \cdots} 
-\sim \sum_{k\geq 0} c_k z^{k+m} + \cdots
+f(z) G(z) 
+&\sim \qty{ \sum_{k\geq 0} c_k z^k} \qty{z^m + \cdots} \\
+&\sim \sum_{k\geq 0} c_k z^{k+m} + z^{m-1}f(z) + \cdots \\
+&= (z^m + \cdots + c_{N}z^{N+m} + \cdots) + z^{m-1}f(z) + \cdots
 ,\]
 and by the previous expression, this must be a polynomial of degree at most $N+m$.
 This forces $c_k = 0$ for all $k> N$, otherwise these would contribute higher order terms.
