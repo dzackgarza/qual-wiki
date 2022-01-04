@@ -191,8 +191,18 @@ Note that $f$ is holomorphic on $\DD$ and $S^1$, since the poles are at $1/\bar{
 Fix $b$, then define $g(z) \da f(z) - b$ and form the solution counting function
 \[
 F(w) \da {1\over 2\pi i}\oint_{S^1} \logd g(z) \dz
-= {1\over 2\pi i} {f'(z) \over z-w}\dz
+= {1\over 2\pi i} {f'(z) \over f(z)-w}\dz
 .\]
+Start by computing $F(0)$.
+We first need $f'(z)$:
+\[
+f'(z) = \dd{}{z}\prod_{1\leq k\leq n} \psi_{a_k}(z)
+.\]
+
+\[
+F(0) = {1\over 2\pi i }\oint_{S^1} {f'(z) \over f(z)} \dz
+.\]
+
 
 
 :::
