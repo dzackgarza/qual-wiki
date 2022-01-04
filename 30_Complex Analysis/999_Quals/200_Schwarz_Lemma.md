@@ -535,7 +535,8 @@ Note $\abs{f(z)}\leq 1$, and $g\da f(z)/z^k$ has a removable singularity at zero
 \abs{g(z)} = \abs{f(z)\over z^k} = \abs{f(z)}r^{-k}\leq r^{-k}\convergesto{r\to 1} 1
 .\]
 So $g:\DD\to \DD$ since $\abs{g(z)}\leq 1$ on $\DD$ by the MMP.
-This implies that $\abs{f(z)}\leq \abs{z}^k$.
+Since $g$ has no zeros on $\DD$, by the MMP $\abs{g} \geq 1$ on $\DD$, so $\abs{g} = 1$ is constant, making $g(z) = \lambda z$ a rotation.
+Then $f(z) = \lambda z^n$.
 
 :::
 
