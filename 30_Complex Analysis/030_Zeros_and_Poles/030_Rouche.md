@@ -19,6 +19,7 @@ Ways to use this:
   Then show $\abs{m} < \abs{M}$ to get $\size Z_M = \size Z_f$.
 - Given $f$, just find a large part $M$, and show $\abs{f-M} < M$.
 - Given $\abs{m} < \abs{M}$ with no ambient $f$, you can freely choose $f$ to be any of $\pm (M \pm m)$ to obtain $Z_M = Z_f$
+- Given $f$ and $g$, show $\abs{f-g} < \abs{f} + \abs{g}$ to get $Z_f = Z_g$.
 :::
 
 :::{.slogan}
