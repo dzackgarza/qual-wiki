@@ -108,7 +108,7 @@ Then on $\abs{z} = 1$,
 so $f$ and $M$ have the same number of zeros: three.
 :::
 
-## 5 #complex/exercise/completed
+## More $e^z$ #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $n\in \ZZ^{\geq 0}$ and show that the equation
@@ -119,11 +119,36 @@ has $n$ solutions in the open unit disc if $\abs{a} > e$, and no solutions if $\
 
 :::
 
+:::{.solution}
+Note that $\abs{e^z} = e^{\Re(z)}$, which is maximizes on $S^1$ at $z=1 \in \RR$ and minimized at $z=-1$.
+Write $f(z) = e^z-az^n$, so solution correspond to zeros of $f$.
+
+Case 1: suppose $\abs{a} > e$.
+Big: $M(z) = az^n$.
+Small: $m(z) = e^z$.
+On $\abs{z} = 1$,
+\[
+\abs{m(z)} = \abs{e^z} = e^\Re(z) \leq e^1 < \abs{a} = \abs{az^n} = \abs{M(z)}
+,\]
+so $f$ has $\size Z_M = n$ zeros.
+
+Case 2: suppose $\abs{a} < 1/e$.
+Big: $M(z) = e^z$.
+Small: $m(z) = az^n$.
+On $\abs{z} = 1$,
+\[
+\abs{m(z)} = \abs{az^n} = \abs{a} < e\inv \leq e^{\Re(z)} = \abs{e^z} = \abs{M(z)}
+,\]
+and $M$ has no zeros in $\DD$ (and in fact none in $\CC$), so neither does $f$.
+:::
 
 ## 6 #complex/exercise/work
+
+:::{.problem title="?"}
 Let $f$ be analytic in a domain $D$ and fix $z_0 \in D$ with $w_0 \definedas f(z_0)$.
 Suppose $z_0$ is a zero of $f(z) - w_0$ with finite multiplicity $m$.
 Show that there exists $\delta >0$ and $\eps > 0$ such that for each $w$ such that $0 < \abs{w-w_0} < \eps$, the equation $f(z) - w = 0$ has exactly $m$ *distinct* solutions inside the disc $\abs{z-z_0} < \delta$.
+:::
 
 
 ## 7 #complex/exercise/work
