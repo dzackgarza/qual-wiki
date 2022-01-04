@@ -538,6 +538,8 @@ So $g:\DD\to \DD$ since $\abs{g(z)}\leq 1$ on $\DD$ by the MMP.
 Since $g$ has no zeros on $\DD$, by the MMP $\abs{g} \geq 1$ on $\DD$, so $\abs{g} = 1$ is constant, making $g(z) = \lambda z$ a rotation.
 Then $f(z) = \lambda z^n$.
 
+> Alternative to MMP: if $g$ has no zeros in $\DD$, $g$ admits a conjugate reflection through $\DD$ by $z\mapsto 1/\bar{f(1/\bar z)}$. This is bounded and entire, thus constant, making $g$ constant.
+
 :::
 
 
