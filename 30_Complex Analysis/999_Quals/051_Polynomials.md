@@ -94,9 +94,14 @@ But the LHS is evidently a polynomial of degree $(N-m)+m = m$.
 
 ^047423
 
+
+:::{.problem title="?"}
 Let $f$ be a meromorphic function on the complex plane with the property that $|f(z)| \leq$ $M$ for all $|z|>R$, for some constants $M>0, R>0$.
 
 Prove that $f(z)$ is a rational function, i.e., there exist polynomials $p, q$ so that $f=\frac{p}{q}$.
+
+:::
+
 
 ## Fall 2019.4 #complex/qual/work
 
