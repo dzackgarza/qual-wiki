@@ -350,10 +350,25 @@ so $Z_f = Z_M = 4$.
 Thus there are $4-1=3$ zeros in $1 \leq \abs{z} \leq 2$.
 :::
 
-### Spring 2020 HW 3.12 #complex/exercise/work
+### Spring 2020 HW 3.12 (Root counting with argument principle) #complex/exercise/work
 
-Prove that $z^4 + 2z^3 -2z + 10$ has exactly one root in each open
+:::{.problem title="?"}
+Prove that $f(z) = z^4 + 2z^3 -2z + 10$ has exactly one root in each open
 quadrant.
+:::
+
+
+:::{.solution}
+It suffices to show there's only one root in the open quadrant $Q_1$, since they come in conjugate pairs.
+Assume that there are no roots on $\RR$ or $i\RR$.
+Since polynomials are entire, the argument principle can be used to count zeros:
+\[
+Z_f = {1\over 2\pi i}\int_\gamma \logd f(z)\dz = \Delta_\gamma \Arg(f)
+.\]
+
+:::
+
+
 
 ### Spring 2020 HW 3.13 #complex/exercise/work
 
