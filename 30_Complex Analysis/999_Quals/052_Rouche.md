@@ -188,9 +188,9 @@ Show that $f(z) = b$ has $n$ solutions in $\abs{z} < 1$.
 
 :::{.solution}
 Note that $f$ is holomorphic on $\DD$ and $S^1$, since the poles are at $1/\bar{a_k}$ and if $\abs{a_l} < 1$ then $\abs{\bar{a_k}} > 1$.
-Fix $b$, then define $g(z) \da f(z) - b$ and form the solution counting function
+Fix $b$, then define $g_w(z) \da f(z) - w$ and form the solution counting function
 \[
-F(w) \da {1\over 2\pi i}\oint_{S^1} \logd g(z) \dz
+F(w) \da {1\over 2\pi i}\oint_{S^1} \logd g_w(z) \dz
 = {1\over 2\pi i} {f'(z) \over f(z)-w}\dz
 .\]
 Start by computing $F(0)$.
@@ -200,7 +200,11 @@ F(0)
 &= {1\over 2\pi i }\oint_{S^1} \sum_{1\leq k\leq n} \logd \psi_{a_k}(z) \dz \\
 &= {1\over 2\pi i }\oint_{S^1} \sum_{1\leq k\leq n} \qty{1-\abs{a_k}^2 \over (1-\bar{a_k} z)^2} \qty{z-a_k \over 1-\bar{a_k} z}\inv \dz \\
 &= {1\over 2\pi i }\oint_{S^1} \sum_{1\leq k\leq n} {1-\abs{a_k}^2 \over (z-a_k)( 1-\bar{a_k}z) } \dz \\
-.\]
+&= {1\over 2\pi i } \sum_{1\leq k\leq n} \oint_{S^1} {1-\abs{a_k}^2 \over (z-a_k)( 1-\bar{a_k}z) } \dz \\
+&= {1\over 2\pi i } \sum_{1\leq k\leq n} 2\pi i \\
+&= n
+,\]
+where we've used that the integrand has a simple pole at $a_k$ since $1/\bar{a_k}\in \DD^c$.
 
 
 
