@@ -227,7 +227,19 @@ Show that for sufficiently large $n$, the polynomial $P_n$ has no zeros in $\abs
 
 :::{.solution}
 More is true: this will hold for any disc of arbitrary radius $R$, with $n$ depending on $R$.
-Fix $R$, then use that $P_n(z) \convergesto{n\to\infty} e^z$ uniformly on the compact disc $\abs{z} \leq R$ to produce an $n\gg 1$ such that $\abs{ {P_n(z) \over e^z} - 1 } < \eps$.
+Fix $R$, then use that $P_n(z) \convergesto{n\to\infty} e^z$ uniformly on the compact disc $\abs{z} \leq R$.
+Consequently, setting $g_n(z) \da {P_n(z)\over e^z}$, we have $g_n(z) \to 1$ uniformly on this disc, for any $\eps> 0$ this can be used to produce an $n\gg 1$ such that $\abs{ g_n(z) - 1 } < \eps$ for all $\abs{z} \leq R$.
+
+So take $\eps \da 1$ and define $h(z) \da 1$, then for $\abs{z} = R$
+\[
+\abs{g_n(z) - 1} < 1 = \abs{h(z)}
+,\]
+so by Rouché,
+\[
+0 = \size Z_{h} = \size Z_{h + (g_n - 1)} = \size Z_{g_n}
+,\]
+since $h$ has no zeros at all.
+Take $R=10$ to get the stated result.
 
 
 
