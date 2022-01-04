@@ -30,6 +30,7 @@ You can add a small perturbation $m$ to $M$ and preserve the number of zeros, wh
 
 :::{.remark}
 On strategy: write your function as big + small, where big $>$ small on the boundary and it's clear how many zeros big has inside. 
+A common trick: show $\abs{f-g} < 1$ and either $\abs{f} > 1$ or $\abs{g} > 1$.
 :::
 
 :::{.proof title="of Rouché"}
