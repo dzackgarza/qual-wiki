@@ -20,6 +20,7 @@ Ways to use this:
 - Given $f$, just find a large part $M$, and show $\abs{f-M} < M$.
 - Given $\abs{m} < \abs{M}$ with no ambient $f$, you can freely choose $f$ to be any of $\pm (M \pm m)$ to obtain $Z_M = Z_f$
 - Given $f$ and $g$, show $\abs{f-g} < \abs{f}$ to get $Z_f = Z_g$.
+  - This can be improved to $\abs{f-g} < \abs{f} + \abs{g}$ using the symmetric/extended version of the theorem.
 :::
 
 :::{.slogan}
