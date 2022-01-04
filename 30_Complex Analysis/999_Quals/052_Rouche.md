@@ -23,8 +23,9 @@ Note that on $\abs{z} = 1$, $\abs{m(z)} = 2$, and
 \[
 \abs{m(z)} 
 &= \abs{\sum_{k\geq n+1} {z^k\over k!} } \\
-&\leq \abs{\sum_{k\geq 2} {z^k\over k!} } \\
-&\abs{e^z - (1+z)}
+&\leq \sum_{k\geq n+1} { \abs{z}^k \over k!} \\
+&\leq \sum_{k\geq n+1} { 1 \over k!} \\
+&= e^1 - \sum_{k\leq n} {1\over k!}
 .\]
 
 :::
