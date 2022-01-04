@@ -365,6 +365,17 @@ Since polynomials are entire, the argument principle can be used to count zeros:
 \[
 Z_f = {1\over 2\pi i}\int_\gamma \logd f(z)\dz = \Delta_\gamma \Arg(f)
 .\]
+To take the curve $\gamma$ comprised of
+
+- $\gamma_1 = [0, R]$,
+- $\gamma_2 = Re^{it}$ for $t\in [0, \pi/2]$
+- $\gamma_3 = i[0, R]$.
+
+Then
+
+- $\Delta_{\gamma_1}\Arg(f) = 0$, since $f(\RR) \subseteq \RR$.
+- $\Delta_{\gamma_2}\Arg(f) = 4\cdot {\pi\over 2} = 2\pi$ since $f\sim z^4$ for large $R$.
+- $\Delta_{\gamma_3}\Arg(f)$: consider $f(it) = t^4 - it^3 -2it + 10$
 
 :::
 
