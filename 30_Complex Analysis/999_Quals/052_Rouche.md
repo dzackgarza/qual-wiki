@@ -66,9 +66,6 @@ so $4 = Z_M = Z_f$ here.
 Thus there are $4-1 = 3$ zeros in $1 \leq \abs{z} \leq 2$.
 :::
 
-
-
-
 ### Tie's Extra Questions: Fall 2016 (Standard polynomial) #complex/exercise/completed
 
 :::{.problem title="?"}
@@ -101,7 +98,6 @@ so $7 = Z_M = Z_{f}$.
 
 So $f$ has 7 zeros in $1 \leq \abs{z} \leq 2$.
 :::
-
 
 ### Spring 2020 HW 3.11 (Standard polynomial) #complex/exercise/completed
 
@@ -215,7 +211,129 @@ Then on $\abs{z} = R$, for $n\geq N$,
 so $0 = Z_P = Z_{P_n}$ by Rouché.
 :::
 
+## Exponential
+
+### Zeros of $e^z$ #complex/exercise/completed
+
+:::{.problem title="?"}
+Prove that for every $n\in \ZZ^{\geq 0}$ the following polynomial has no roots in the open unit disc:
+\[
+f_n(z) \definedas \sum_{k=0}^n {z^k \over k!}
+.\]
+
+> Hint: check $n=1,2$ directly.
+
+:::
+
+:::{.solution title="Using Rouché"}
+For the $n=1$ case, $f_1(z) = 0 \iff 1+z = 0 \iff z=-1$, so this has no roots in $\DD$.
+For $n=2$, factor
+\[
+f_2(z) = 1 + z + z^2 = (z-\zeta_3^2)(z-\zeta_3^{-2})
+,\]
+using that
+\[
+\zeta_3^2\cdot \zeta_3^{-2} = 1,\qquad 
+-(\zeta_3^2 + \zeta_3^{-2}) = -2\Re(\zeta_3^2) = -2\cos\qty{2\pi \over 3} = 1
+.\]
+Now use that $\abs{\zeta_3^{k}} = 1$, which is not in $\DD$.
+
+For $n\geq 3$: toward applying Rouche's theorem, let $M(z) = 1 + z$ and $m(z) = {1\over 2}z^2 + \cdots + {1\over n!}z^n$.
+Note that on $\abs{z} = 1$, $\abs{m(z)} = 2$, and 
+\[
+\abs{m(z)} 
+&= \abs{\sum_{k\geq n+1} {z^k\over k!} } \\
+&\leq \sum_{k\geq n+1} { \abs{z}^k \over k!} \\
+&\leq \sum_{k\geq n+1} { 1 \over k!} \\
+&= e^1 - \sum_{k\leq n} {1\over k!}
+.\]
+Suppose $n\geq 3$, 
+\[
+\abs{m(z)} < e - (1 + 1 + \cdots) \approx 0.718 < 2
+,\]
+then Rouché applies directly and 
+\[
+0 = \size Z_M(\DD) =\size Z_{M+m}(\DD) \da \size Z_f(\DD)
+,\]
+noting that $M(z) = 0 \iff z= -1$, which isn't contained in the open disc $\DD$.
+:::
+
+### More $e^z$ #complex/exercise/completed
+
+:::{.problem title="?"}
+Let $n\in \ZZ^{\geq 0}$ and show that the equation
+\[
+e^z = az^n
+\]
+has $n$ solutions in the open unit disc if $\abs{a} > e$, and no solutions if $\abs{a} < {1\over e}$.
+
+:::
+
+:::{.solution}
+Note that $\abs{e^z} = e^{\Re(z)}$, which is maximizes on $S^1$ at $z=1 \in \RR$ and minimized at $z=-1$.
+Write $f(z) = e^z-az^n$, so solution correspond to zeros of $f$.
+
+Case 1: suppose $\abs{a} > e$.
+Big: $M(z) = az^n$.
+Small: $m(z) = e^z$.
+On $\abs{z} = 1$,
+\[
+\abs{m(z)} = \abs{e^z} = e^\Re(z) \leq e^1 < \abs{a} = \abs{az^n} = \abs{M(z)}
+,\]
+so $f$ has $\size Z_M = n$ zeros.
+
+Case 2: suppose $\abs{a} < 1/e$.
+Big: $M(z) = e^z$.
+Small: $m(z) = az^n$.
+On $\abs{z} = 1$,
+\[
+\abs{m(z)} = \abs{az^n} = \abs{a} < e\inv \leq e^{\Re(z)} = \abs{e^z} = \abs{M(z)}
+,\]
+and $M$ has no zeros in $\DD$ (and in fact none in $\CC$), so neither does $f$.
+:::
+
+### Zeros of partial sums of exponential #complex/exercise/completed
+
+:::{.problem title="?"}
+For each $n\in \ZZ^{\geq 1}$, let
+\[
+P_n(z) = 1 + z + {1\over 2!} z^2 + \cdots + {1\over n!}z^n
+.\]
+Show that for sufficiently large $n$, the polynomial $P_n$ has no zeros in $\abs{z} < 10$, while the polynomial $P_n(z) - 1$ has precisely 3 zeros there.
+:::
+
+:::{.solution}
+More is true: this will hold for any disc of arbitrary radius $R$, with $n$ depending on $R$.
+Fix $R$, then use that $P_n(z) \convergesto{n\to\infty} e^z$ uniformly on the compact disc $\abs{z} \leq R$.
+Consequently, setting $g_n(z) \da {P_n(z)\over e^z}$, we have $g_n(z) \to 1$ uniformly on this disc, for any $\eps> 0$ this can be used to produce an $n\gg 1$ such that $\abs{ g_n(z) - 1 } < \eps$ for all $\abs{z} \leq R$.
+
+So take $\eps \da 1$ and define $h(z) \da 1$, then for $\abs{z} = R$
+\[
+\abs{g_n(z) - 1} < 1 = \abs{h(z)}
+,\]
+so by Rouché,
+\[
+0 = \size Z_{h} = \size Z_{h + (g_n - 1)} = \size Z_{g_n}
+,\]
+since $h$ has no zeros at all.
+Take $R=10$ to get the stated result.
+
+For $P_n(z) - 1$, note that $e^z-1=0$ has three solutions in $\abs{z} < 10$, namely $z=0, \pm 2\pi i$.
+We similarly have $P_n(z)-1\to e^z-1$ uniformly, so on a disc of radius $R$ choose $n$ large enough so that
+\[
+\abs{{P_n(z) -1 \over e^z - 1} - 1} &< 1 \\
+\implies \abs{ (P_n(z) - 1) - (e^z-1) \over e^z-1} &< 1 \\
+\implies \abs{ (P_n(z) - 1) - (e^z-1)} &< \abs{e^z-1} \\
+\da \abs{m(z)} &< \abs{M(z)}
+,\]
+so 
+\[
+3 = \size Z_M = \size Z_{M+m} = \size Z_{P_n - 1}
+.\]
+:::
+
 ## Working for the estimate
+
 ### Max of a polynomial on $S^1$ #complex/exercise/completed
 
 :::{.problem}
@@ -242,7 +360,6 @@ n = \size Z_M = \size Z_{M+m} = \size Z_{f(z) - z^n} \leq n-1
 since $f(z) - z^n$ is degree at most $n-1$, a contradiction.
 
 :::
-
 
 ### Fixed points #complex/exercise/completed
 
@@ -299,7 +416,6 @@ Now using that $z\sin(z) - a$ has exactly $2n+2$ *real* roots (??), this must be
 
 #stuck
 
-
 ### Spring 2020 HW 3.13 #complex/exercise/work
 
 :::{.problem title="?"}
@@ -307,130 +423,4 @@ Prove that for $a> 0$, $z\tan z - a$ has only real roots.
 :::
 
 #stuck
-
-
-## Exponential
-
-### Zeros of $e^z$ #complex/exercise/completed
-
-:::{.problem title="?"}
-Prove that for every $n\in \ZZ^{\geq 0}$ the following polynomial has no roots in the open unit disc:
-\[
-f_n(z) \definedas \sum_{k=0}^n {z^k \over k!}
-.\]
-
-> Hint: check $n=1,2$ directly.
-
-:::
-
-:::{.solution title="Using Rouché"}
-For the $n=1$ case, $f_1(z) = 0 \iff 1+z = 0 \iff z=-1$, so this has no roots in $\DD$.
-For $n=2$, factor
-\[
-f_2(z) = 1 + z + z^2 = (z-\zeta_3^2)(z-\zeta_3^{-2})
-,\]
-using that
-\[
-\zeta_3^2\cdot \zeta_3^{-2} = 1,\qquad 
--(\zeta_3^2 + \zeta_3^{-2}) = -2\Re(\zeta_3^2) = -2\cos\qty{2\pi \over 3} = 1
-.\]
-Now use that $\abs{\zeta_3^{k}} = 1$, which is not in $\DD$.
-
-For $n\geq 3$: toward applying Rouche's theorem, let $M(z) = 1 + z$ and $m(z) = {1\over 2}z^2 + \cdots + {1\over n!}z^n$.
-Note that on $\abs{z} = 1$, $\abs{m(z)} = 2$, and 
-\[
-\abs{m(z)} 
-&= \abs{\sum_{k\geq n+1} {z^k\over k!} } \\
-&\leq \sum_{k\geq n+1} { \abs{z}^k \over k!} \\
-&\leq \sum_{k\geq n+1} { 1 \over k!} \\
-&= e^1 - \sum_{k\leq n} {1\over k!}
-.\]
-Suppose $n\geq 3$, 
-\[
-\abs{m(z)} < e - (1 + 1 + \cdots) \approx 0.718 < 2
-,\]
-then Rouché applies directly and 
-\[
-0 = \size Z_M(\DD) =\size Z_{M+m}(\DD) \da \size Z_f(\DD)
-,\]
-noting that $M(z) = 0 \iff z= -1$, which isn't contained in the open disc $\DD$.
-:::
-
-
-### More $e^z$ #complex/exercise/completed
-
-:::{.problem title="?"}
-Let $n\in \ZZ^{\geq 0}$ and show that the equation
-\[
-e^z = az^n
-\]
-has $n$ solutions in the open unit disc if $\abs{a} > e$, and no solutions if $\abs{a} < {1\over e}$.
-
-:::
-
-:::{.solution}
-Note that $\abs{e^z} = e^{\Re(z)}$, which is maximizes on $S^1$ at $z=1 \in \RR$ and minimized at $z=-1$.
-Write $f(z) = e^z-az^n$, so solution correspond to zeros of $f$.
-
-Case 1: suppose $\abs{a} > e$.
-Big: $M(z) = az^n$.
-Small: $m(z) = e^z$.
-On $\abs{z} = 1$,
-\[
-\abs{m(z)} = \abs{e^z} = e^\Re(z) \leq e^1 < \abs{a} = \abs{az^n} = \abs{M(z)}
-,\]
-so $f$ has $\size Z_M = n$ zeros.
-
-Case 2: suppose $\abs{a} < 1/e$.
-Big: $M(z) = e^z$.
-Small: $m(z) = az^n$.
-On $\abs{z} = 1$,
-\[
-\abs{m(z)} = \abs{az^n} = \abs{a} < e\inv \leq e^{\Re(z)} = \abs{e^z} = \abs{M(z)}
-,\]
-and $M$ has no zeros in $\DD$ (and in fact none in $\CC$), so neither does $f$.
-:::
-
-
-### Zeros of partial sums of exponential #complex/exercise/completed
-
-:::{.problem title="?"}
-For each $n\in \ZZ^{\geq 1}$, let
-\[
-P_n(z) = 1 + z + {1\over 2!} z^2 + \cdots + {1\over n!}z^n
-.\]
-Show that for sufficiently large $n$, the polynomial $P_n$ has no zeros in $\abs{z} < 10$, while the polynomial $P_n(z) - 1$ has precisely 3 zeros there.
-:::
-
-:::{.solution}
-More is true: this will hold for any disc of arbitrary radius $R$, with $n$ depending on $R$.
-Fix $R$, then use that $P_n(z) \convergesto{n\to\infty} e^z$ uniformly on the compact disc $\abs{z} \leq R$.
-Consequently, setting $g_n(z) \da {P_n(z)\over e^z}$, we have $g_n(z) \to 1$ uniformly on this disc, for any $\eps> 0$ this can be used to produce an $n\gg 1$ such that $\abs{ g_n(z) - 1 } < \eps$ for all $\abs{z} \leq R$.
-
-So take $\eps \da 1$ and define $h(z) \da 1$, then for $\abs{z} = R$
-\[
-\abs{g_n(z) - 1} < 1 = \abs{h(z)}
-,\]
-so by Rouché,
-\[
-0 = \size Z_{h} = \size Z_{h + (g_n - 1)} = \size Z_{g_n}
-,\]
-since $h$ has no zeros at all.
-Take $R=10$ to get the stated result.
-
-For $P_n(z) - 1$, note that $e^z-1=0$ has three solutions in $\abs{z} < 10$, namely $z=0, \pm 2\pi i$.
-We similarly have $P_n(z)-1\to e^z-1$ uniformly, so on a disc of radius $R$ choose $n$ large enough so that
-\[
-\abs{{P_n(z) -1 \over e^z - 1} - 1} &< 1 \\
-\implies \abs{ (P_n(z) - 1) - (e^z-1) \over e^z-1} &< 1 \\
-\implies \abs{ (P_n(z) - 1) - (e^z-1)} &< \abs{e^z-1} \\
-\da \abs{m(z)} &< \abs{M(z)}
-,\]
-so 
-\[
-3 = \size Z_M = \size Z_{M+m} = \size Z_{P_n - 1}
-.\]
-:::
-
-
 
