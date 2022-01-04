@@ -158,3 +158,22 @@ g(z) \da \prod_{1\leq k\leq n} \psi_{a_k}(z) f(z)
 Then $g$ has no poles, and since $\abs{ \psi_{a_k} } = 1$ on $\bd \DD$, this works.
 :::
 
+:::{.exercise title="?"}
+Show that if $f$ is injective, then $f'$ is nowhere vanishing and thus $f$ is conformal.
+
+#complex/exercise/completed
+
+:::
+
+
+:::{.solution}
+Contrapositive: if $f'(z_0)=0$ at some point, then $f$ fails injectivity in a neighborhood of $z_0$.
+Without loss of generality, we can assume $f(0) = 0$ after changes of coordinates in the domain/codomain, since this won't affect injectivity or vanishing of derivatives.
+If $z_0$ is a zero of $f$ of some order $n$, we can write $f(z) = z^n g(z)$ with $g(0) \neq 0$ and $g$ nonvanishing in some neighborhood of zero.
+Choosing a branch of $z\mapsto z^{1\over n}$, write $g(z) = (h(z))^n$ for some $h$, then
+\[
+f(z) = z^n h(z)^n = (zh(z))^n
+.\]
+:::
+
+
