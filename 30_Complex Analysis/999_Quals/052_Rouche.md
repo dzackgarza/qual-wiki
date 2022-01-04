@@ -287,7 +287,7 @@ since $f(z) - z^n$ is degree at most $n-1$, a contradiction.
 :::
 
 
-### Tie's Extra Questions: Fall 2009 (FTA) #complex/exercise/completed
+### Tie's Extra Questions: Fall 2009, Fall 2011 (FTA) #complex/exercise/completed
 
 :::{.problem title="?"}
 Use Rouche's theorem to prove the Fundamental Theorem of Algebra.
@@ -350,26 +350,60 @@ so $Z_f = Z_M = 4$.
 Thus there are $4-1=3$ zeros in $1 \leq \abs{z} \leq 2$.
 :::
 
-### Spring 2020 HW 3.13 #complex/exercise/work
+### $z\sin(z)=1$ #complex/exercise/completed
 
+:::{.problem title="?"}
+Show that $z\sin(z) = a$ has only real solutions.
+:::
+
+:::{.solution}
+Consider $f(z) \da z\sin(z) - a$.
+
+Big: $M(z) \da z\sin(z)$.
+Small: $m(z) \da -a$.
+Use the following estimate:
+\[
+\abs{z\sin(z)}^2
+&= \abs{z\over 2}^2 \abs{e^{iz} - e^{-iz}}^2 \\
+&\geq \abs{z\over 2}^2 \abs{ \abs e^{iz} } - \abs{ e^{-iz} } }^2 \\
+&= \abs{z\over 2}^2 \abs{e^{-\Im(z)} - e^{\Im(z)} } \\
+&\convergesto{\Im(z)\to\infty} \infty
+,\]
+and so in particular a radius $R$ can be chosen large enough so that $\abs{z\sin(z)} > a$ for any $a$.
+Thus for $\abs{z} = R$,
+\[
+\abs{m(z)} = \abs{a} \leq \abs{z\sin(z)} < \abs{M(z)}
+\implies \size Z_{M} = \size Z_{M+m} = \size Z_f
+.\]
+To count the number of zeros of $z\sin(z)$, note that this equals zero at $z=0$ with multiplicity two and $z= k\pi$ for $k\in \ZZ$.
+Choosing $R = {\pi \over 2} + n\pi$ for $n$ large enough, there are exactly $2n+2$ such zeros (with multiplicity) to $z\sin(z)$, and thus $2n+2$ zeros to $z\sin(z) - a$.
+Now using that $z\sin(z) - a$ has exactly $2n+2$ *real* roots (??), this must be all of them.
+
+
+> Unsure how to find any roots of this thing, real or not!
+
+:::
+
+#stuck
+
+
+### Spring 2020 HW 3.13 #complex/exercise/work
 
 :::{.problem title="?"}
 Prove that for $a> 0$, $z\tan z - a$ has only real roots.
 :::
 
+#stuck
 
-### Tie's Extra Questions: Fall 2011 #complex/exercise/work
-
-Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: If
-$$
-P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)
-$$
-is a polynomial of degree n, then it has n zeros in $\mathbb C$.
 
 ### Tie's Extra Questions: Fall 2016 #complex/exercise/work
 
+
+:::{.problem title="?"}
 Prove that all the roots of the complex polynomial
 $$z^7 - 5 z^3 +12 =0$$ lie between the circles $|z|=1$ and $|z|=2$.
+:::
+
 
 ### Tie's Extra Questions: Spring 2014 #complex/exercise/work
 
