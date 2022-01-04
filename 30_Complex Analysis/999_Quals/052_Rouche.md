@@ -154,7 +154,19 @@ Show that there exists $\delta >0$ and $\eps > 0$ such that for each $w$ such th
 :::{.solution}
 Write $g(z) \da f(z) - w_0$, then $g$ is holomorphic on $D$ and thus $w_0$ is an isolated zero.
 Choose $\delta$ small enough so that $g$ is nonvanishing on $\DD_\delta(z_0)\smts{z_0}$.
-Choose $\eps < \inf_{\abs{\xi} = \delta}\abs{f(\xi)}$, i.e. a disc about $w_0$
+Let $\gamma \da \ts{\abs{\xi - z_0} = \delta }= \bd\DD_{\delta}(z_0)$.
+Choose $\eps < \inf\ts{w\in f(\delta)}$ so that $\abs{f(z) - w_0} > \eps$ in $\DD_\eps(w_0)\smts{w_0}$ for every $z\in \gamma$.
+Let $\gamma' \da \bd \DD_{\eps}(w_0) = \ts{\abs{z-w_0} = \eps}$, and
+define the solution counting function:
+\[
+F(w) 
+\da \oint_{\gamma'} \logd(g(z)) \dz 
+= \oint_{\gamma'} {g'(z)\over g(z) }\dz
+= \oint_{\gamma'} {f'(z)\over f(z) - w} \dz
+,\]
+which counts the zeros of $g$ (since it has no poles) and consequently the number of solutions to $f(z) = w$ in $\DD_\eps(w_0)$.
+This is now a continuous integer valued function on $\DD_\eps(w_0)$, and is thus constant.
+Since $f(z_0) = w_0$ with $z_0$ enclosed by $\gamma$ and $w_0$ enclosed by $\gamma'$, the constant is exactly the multiplicity of the zero of $f(z) - w_0$ at $z_0$, which is $m$.
 :::
 
 
