@@ -287,12 +287,11 @@ since $f(z) - z^n$ is degree at most $n-1$, a contradiction.
 :::
 
 
-### FTA #complex/exercise/work
+### FTA #complex/exercise/completed
 
 :::{.problem title="?"}
 Use Rouche's theorem to prove the Fundamental Theorem of Algebra.
 :::
-
 
 :::{.solution}
 Write $f(z) = \sum_{k\leq n} c_k z^k$.
@@ -301,35 +300,39 @@ Small: $m(z) = f(z) - M(z) = \sum_{k\leq n-1} c_k z^k$.
 
 Now use that
 \[
-\abs{M(z) \over m(z)} \da \abs{c_n\inv \sum_{k\leq n-1} c_k z^{k-n}} 
-= \abs{c_n\inv\qty{ {c_1\over z^n} + {c_2\over z^{n-1} } + \cdots + {c_{n-1}\over z}  }}
-\convergesto{\abs{z}\to\infty}\infty
+\abs{m(z) \over M(z)} 
+&\da \abs{c_n\inv \sum_{k\leq n-1} c_k z^{k-n}} \\
+&= \abs{c_n\inv\qty{ {c_1\over z^n} + {c_2\over z^{n-1} } + \cdots + {c_{n-1}\over z}  }} \\
+&\convergesto{\abs{z}\to\infty}0
+,\]
+so choose $R$ large enough such that for $\abs{z} \geq R$, $\abs{M(z)\over m(z)} < 1$.
+Then on $\abs{z} = R$,
+\[
+\abs{m(z) \over M(z)} < 1 \implies \abs{m(z)} < \abs{M(z)}
+\implies \size n = \size Z_{M} = \size Z_{M+m} = \size Z_{f}
+,\]
+since $c_n z^n$ has $z=0$ as a root with multiplicity $n$.
+:::
+
+### #complex/exercise/work
+
+:::{.problem title="?"}
+Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that 
+\[
+|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R
 .\]
 
+Show that 
 
+- $f$ is a polynomial and 
+- the degree of $f$ is at least $N$.
 :::
 
 
+:::{.solution}
 
+:::
 
-
-### #complex/exercise/work
-Apply Rouché's Theorem to prove the Fundamental Theorem of Algebra: 
-
-If
-$$
-P_n(z) = a_0 + a_1z + \cdots + a_{n-1}z^{n-1} + a_nz^n\quad  (a_n \neq 0)
-$$
-is a polynomial of degree $n$, then it has $n$ zeros in $\mathbb{C}$.
-
-
-### #complex/exercise/work
-Suppose $f$ is entire and there exist $A, R >0$ and natural number
-$N$ such that 
-$$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ 
-
-Show that (i) $f$ is a polynomial and (ii) the degree of $f$ is at least
-$N$.
 
 ### Tie's Extra Questions: Fall 2009 #complex/exercise/work
 
