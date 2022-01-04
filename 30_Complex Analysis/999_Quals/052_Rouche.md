@@ -446,7 +446,13 @@ P_n(z) = \sum_{1\leq k\leq n-1} kz^{k-1} = \dd{}{z}Q_n(z)
 \qquad Q(z) \da \sum_{0\leq k \leq n} z^k
 .\]
 Note that $Q(z) \to \sum_{k\geq 0} z^k = {1\over 1-z}$ uniformly on $\abs{z} \leq R < 1$ since this power series has radius of convergence 1.
-Similarly $P_n(z)$ converges uniformly to $\dd{}{z}{1\over 1-z} = {1\over (1-z)^2}$.
+Similarly $P_n(z)$ converges uniformly to $\dd{}{z}{1\over 1-z} = {1\over (1-z)^2}$, so let $P(z) \da {1\over (1-z)^2}$.
+
+Strategy:
+
+- Small: $m(z) = P(z) - P_n(z)$, look for an upper bound $U$
+- Big: $P(z)$, look for a lower bound $L>U$.
+
 :::
 
 
