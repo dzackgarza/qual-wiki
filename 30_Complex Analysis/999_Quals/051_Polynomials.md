@@ -29,6 +29,43 @@ The usual estimate:
 provided $-k+2<0 \iff k>2$.
 :::
 
+### Tie's Extra Questions: Spring 2015, Fall 2016 (Polynomial upper bound, $d$ arbitrary) #complex/exercise/completed
+
+:::{.problem title="?"}
+a.
+Let Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire function. Assume the existence of a non-negative integer $m$, and of positive constants $L$ and $R$, such that for all $z$ with $|z|>R$ the inequality $$|f(z)| \leq L |z|^m$$ holds. 
+Prove that $f$ is a polynomial of degree $\leq m$.
+
+b.
+Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire function. Suppose that there exists a real number $M$ such that for all $z\in {\mathbb C}, \Re(f) \leq M$.
+Prove that $f$ must be a constant.
+:::
+
+:::{.solution}
+\[
+\abs{f^{(n)}(z)} 
+&= \abs{ {1\over 2\pi i} \oint_\gamma {f(\xi) \over (\xi - z)^{n+1}} \dxi } \\
+&\leq  {1\over 2\pi i} \oint_\gamma { \abs{ f(\xi) } \over \abs{\xi - z}^{n+1}} \dxi \\
+&\leq {1\over 2\pi i } \oint_\gamma {LR^m \over R^{n+1} } \dxi \\
+&= {L\over 2\pi i} R^{m-(n+1)} \cdot 2\pi R \\
+&= LR^{m-n} \\
+&\convergesto{R\to\infty} 0 \qquad \iff m-n<0 \iff n>m
+,\]
+so $f$ is a polynomial of degree at most $m$.
+
+Now if $f$ is entire, $g(z) \da e^{f(z)}$ is entire and
+\[
+\abs{g(z)} = \abs{e^{f(z)}} = e^{\Re(f)} \leq e^M
+,\]
+so $g$ is an entire bounded function and thus constant by Liouville, making $f$ constant.
+Why this is true:
+\[
+e^{f} = C \implies e^f \cdor f' = 0 \implies f'\equiv 0
+,\]
+since $e^f$ is nonvanishing, and $f'\equiv 0$ implies $f$ is constant.
+:::
+
+
 ### Asymptotic to $z^n$ #complex/exercise/work
 
 :::{.problem title="?"}
@@ -214,40 +251,54 @@ since every term has a factor of $z$ in the denominator.
 This contradicts $A>0$. $\contradiction$
 :::
 
-### Tie's Extra Questions: Spring 2015, Fall 2016 (Polynomial upper bound, $d$ arbitrary) #complex/exercise/work
+## Misc
+
+### Spring 2021.4 #complex/qual/completed
+
+^c3336f
 
 :::{.problem title="?"}
-a.
-Let Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire function. Assume the existence of a non-negative integer $m$, and of positive constants $L$ and $R$, such that for all $z$ with $|z|>R$ the inequality $$|f(z)| \leq L |z|^m$$ holds. 
-Prove that $f$ is a polynomial of degree $\leq m$.
-
-b.
-Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire function. Suppose that there exists a real number $M$ such that for all $z\in {\mathbb C}, \Re(f) \leq M$.
-Prove that $f$ must be a constant.
+Let $f = u + iv$ be an entire function such that $\Re(f(x+iy))$ is polynomial in $x$ and $y$.
+Show that $f(z)$ is polynomial in $z$.
 :::
-
 
 :::{.solution}
-\[
-\abs{f^{(n)}(z)} 
-&= \abs{ {1\over 2\pi i} \oint_\gamma {f(\xi) \over (\xi - z)^{n+1}} \dxi } \\
-&\leq  {1\over 2\pi i} \oint_\gamma { \abs{ f(\xi) } \over \abs{\xi - z}^{n+1}} \dxi \\
-&\leq {1\over 2\pi i } \oint_\gamma {LR^m \over R^{n+1} } \dxi \\
-&= {L\over 2\pi i} R^{m-(n+1)} \cdot 2\pi R \\
-&= LR^{m-n} \\
-&\convergesto{R\to\infty} 0 \qquad \iff m-n<0 \iff n>m
-,\]
-so $f$ is a polynomial of degree at most $m$.
+To clear up notation: write $f(z) = u(x, y) + iv(x, y)$, here we're assuming that $u$ is polynomial in $x$ and $y$.
 
-Now if $f$ is entire, $g(z) \da e^{f(z)}$ is entire and
-\[
-\abs{g(z)} = \abs{e^{f(z)}} = e^{\Re(f)} \leq e^M
-,\]
-so $g$ is an entire bounded function and thus constant by Liouville, making $f$ constant.
+:::{.claim}
+If $u$ is polynomial in $x,y$, then so is $v$.
 :::
 
+:::{.proof title="?"}
+This follows from the fact that $u$ is a harmonic conjugate of $v$, and the explicit process computing the conjugate will result in a polynomial.
+Gamelin describes this process in detail, see Ch.2 Section 5 on Harmonic functions where he proves the formula
+\[
+v(x, y)
+= \int_{y_{0}}^{y} \frac{\partial u}{\partial x}(x, t) \dt 
+-\int_{x_{0}}^{x} \frac{\partial u}{\partial y}\left(s, y_{0}\right) \ds + C 
+.\]
 
-## Misc
+:::
+
+:::{.claim}
+Since $f(x, y)$ is a polynomial in $x, y$, $f(z)$ must be a polynomial in $z$.
+:::
+
+:::{.proof title="?"}
+Since $f$ is entire, it's equal to its Laurent series everywhere, so
+\[
+f(z) = \sum_{k\geq 0} c_k z^k, \qquad c_k = {f^{(k) }(0) \over k!} = {1\over 2\pi i} \int_{S^1} {f(\xi) \over \xi^{k+1} } \dxi
+.\]
+Thus $f$ will be a polynomial if $c_{N} = 0$ for all $N$ large enough, which will be true if $f^{(N)}(z) = 0$ for large enough $N$.
+But we can write
+\[
+\dd{}{z} f(z) = \dd{}{x} f(x, y)
+\implies
+0 = \qty{\dd{^N}{x^N}} f(x, y) = \qty{\dd{^N}{z^N}} f(z) \da f^{(N)}(z)
+,\]
+:::
+
+:::
 
 ### Spring 2019.4 (Eventually bounded implies rational) #complex/qual/completed
 
@@ -398,51 +449,4 @@ This implies that $f^{(k)}(z_0) \equiv 0$ on $\DD_\eps(z_0)$ for every $k\geq n$
 
 
 
-
-### Spring 2021.4 #complex/qual/completed
-
-^c3336f
-
-:::{.problem title="?"}
-Let $f = u + iv$ be an entire function such that $\Re(f(x+iy))$ is polynomial in $x$ and $y$.
-Show that $f(z)$ is polynomial in $z$.
-:::
-
-:::{.solution}
-To clear up notation: write $f(z) = u(x, y) + iv(x, y)$, here we're assuming that $u$ is polynomial in $x$ and $y$.
-
-:::{.claim}
-If $u$ is polynomial in $x,y$, then so is $v$.
-:::
-
-:::{.proof title="?"}
-This follows from the fact that $u$ is a harmonic conjugate of $v$, and the explicit process computing the conjugate will result in a polynomial.
-Gamelin describes this process in detail, see Ch.2 Section 5 on Harmonic functions where he proves the formula
-\[
-v(x, y)
-= \int_{y_{0}}^{y} \frac{\partial u}{\partial x}(x, t) \dt 
--\int_{x_{0}}^{x} \frac{\partial u}{\partial y}\left(s, y_{0}\right) \ds + C 
-.\]
-
-:::
-
-:::{.claim}
-Since $f(x, y)$ is a polynomial in $x, y$, $f(z)$ must be a polynomial in $z$.
-:::
-
-:::{.proof title="?"}
-Since $f$ is entire, it's equal to its Laurent series everywhere, so
-\[
-f(z) = \sum_{k\geq 0} c_k z^k, \qquad c_k = {f^{(k) }(0) \over k!} = {1\over 2\pi i} \int_{S^1} {f(\xi) \over \xi^{k+1} } \dxi
-.\]
-Thus $f$ will be a polynomial if $c_{N} = 0$ for all $N$ large enough, which will be true if $f^{(N)}(z) = 0$ for large enough $N$.
-But we can write
-\[
-\dd{}{z} f(z) = \dd{}{x} f(x, y)
-\implies
-0 = \qty{\dd{^N}{x^N}} f(x, y) = \qty{\dd{^N}{z^N}} f(z) \da f^{(N)}(z)
-,\]
-:::
-
-:::
 
