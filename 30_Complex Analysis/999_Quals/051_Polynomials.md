@@ -303,7 +303,8 @@ so
 \[
 d_0 &= \lim_{z\to b_\ell} { (z-b_\ell)^2 P(z) \over Q(z) } \\
 d_1 &= \lim_{z\to b_\ell} \dd{}{z} {(z-b_\ell)^2 P(z) \over Q(z) } \\
-P_{b_\ell}
+P_{b_\ell} 
+&= {d_0 \over (z-b_\ell)^2} + {d_1\over z-b_\ell}
 .\]
 
 
