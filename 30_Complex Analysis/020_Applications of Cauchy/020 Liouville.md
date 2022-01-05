@@ -177,6 +177,9 @@ By Liouville, $1/f$ is constant, and thus so is $f$.
 
 :::{.exercise title="Extended Liouville theorem"}
 Let $f$ be an entire function. Assume that for some $k \in \mathbb{N}$, and sufficiently large $|z|$, we have that $|f(z)| \leq A+B|z|^{k}$. Prove that $f$ is a polynomal of degree at most $k$.
+
+#complex/exercise/completed
+
 :::
 
 :::{.solution}
@@ -196,6 +199,19 @@ Then outside of a large enough disc,
 ,\]
 and moreover by the MMP $g$ is bounded inside such a disc.
 So $g$ is a polynomial of degree at most $k-1$ by hypothesis, making $f$ degree at most $k$.
+:::
+
+:::{.exercise title="Nonconstant entire functions have dense image"}
+Show that if $f:\CC\to \CC$ is nonconstant and entire then $f(\CC)$ is dense in $\CC$.
+
+#complex/exercise/completed
+
+:::
+
+:::{.solution}
+Supposing not, then there is some $\DD_R(w) \intersect f(\CC)$ empty.
+Then $g(z) \da {1\over f(z) - w}$ is bounded in this disc and reflects to an entire bounded function, thus constant.
+Then if $g$ is constant, $f$ is constant.
 :::
 
 
