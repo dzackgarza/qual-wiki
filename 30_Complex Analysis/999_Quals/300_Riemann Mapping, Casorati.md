@@ -166,8 +166,9 @@ The conclusion is nearly the same though: this says that every $w\in \CC$ is a l
 
 :::
 
-## Tie's Extra Questions: Fall 2015 #complex/exercise/work
+## Tie's Extra Questions: Fall 2015 #complex/exercise/completed
 
+:::{.problem title="?"}
 Let $f(z) = \sum_{n=0}^\infty c_n z^n$ be analytic and one-to-one in $|z| < 1$. 
 For $0<r<1$, let $D_r$ be the disk $|z|<r$. 
 Show that the area of $f(D_r)$ is finite and is given by
@@ -177,6 +178,25 @@ S = \pi \sum_{n=1}^\infty n |c_n|^2 r^{2n}
 
 > Note that in
 general the area of $f(D_1)$ is infinite.
+
+:::
+
+
+:::{.solution}
+Since $f$ is injective, $f'$ is nonvanishing in $\Omega \da \abs{z} \leq r$.
+A computation:
+\[
+\mu(f(\DD_r))
+&= \int_{\DD_r} \abs{f'(z)}\dz \\
+&= \int_{\DD_r} f'(z) \bar{f'(z)} \dz \\
+&= \int_{\DD_r} \qty{\sum_{j\geq 1} jc_j z^{j-1} } \bar{ \qty{\sum_{k\geq 1} kc_k z^{k-1}}} \dz \\
+&= \int_{\DD_r} \qty{\sum_{j\geq 1} j c_j z^{j-1} } { \qty{\sum_{k\geq 1} k \bar{c_k} \bar{z}^{k-1} }} \dz \\
+&= \int_{\DD_r} \sum_{j, k\geq 1} jk c_j \bar{c_k} z^{j-1}\bar{z}^{k-1}\dz
+.\]
+
+:::
+
+
 
 
 ## Tie's Extra Questions: Fall 2015 (Variant) #complex/exercise/work
