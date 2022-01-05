@@ -265,20 +265,6 @@ Then write $f(z) = \sum_{k\geq 0} c_k z^k$ and estimate
 provided $n-k \leq 0 \iff k\geq n$, since $\eps \to 0$ forces $R\to \infty$.
 :::
 
-### Tie's Extra Questions: Spring 2015 #complex/exercise/work
-
-
-Let $0<r<1$. Show that polynomials
-$P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
-$|z|<r$ for all sufficiently large $n$'s.
-
-### Spring 2020 HW 1.3 #complex/exercise/work
-Prove that the following polynomial has its roots outside of the unit circle:
-\[
-p(z) = z^3 + 2z + 4
-.\]
-
-> Hint: What is the maximum value of the modulus of the first two terms if $\abs{z} \leq 1$?
 
 ### Spring 2020 HW 2, SS 2.6.13 #complex/exercise/work
 
