@@ -36,6 +36,42 @@ Since $h\equiv 0$ on $\DD_\eps \subseteq O$, $g\equiv 0$ on this disc.
 By the identity principle for holomorphic functions, $g\equiv 0$ on $O$.
 So $h_x, h_y \equiv 0$, making $h$ constant, and since $h\equiv 0$ on $U$ this forces $h\equiv 0$ on $O$.
 
+**Part 3**:
+Let $u$ be harmonic on $S^+$, a region symmetric about $\RR$, and that $u\equiv 0$ on $\RR \intersect S^+$.
+Define $S^- = \ts{\bar{z} \st z\in S^+}$, and
+\[
+U(z) \da 
+\begin{cases}
+ U(z) &  z\in S^+
+\\
+ -U(\bar z) & z\in S^-.
+\end{cases}
+.\]
+Then $U$ is a harmonic extension of $u$ to $S \da S^+ \union (S^+ \intersect \RR) \union S^-$.
+To see that $U$ is harmonic on $S$, it suffices to check that $U$ satisfies the mean value property on $S$.
+Clearly this holds in $S^+$, so for $z_0\in S^+$ we have
+\[
+U(z_0) 
+&= u(z_0) \\
+&= {1\over 2\pi} \int_{-\pi}^\pi u(z_0 + re^{it} )\dt \\
+&= {1\over 2\pi} \int_{-\pi}^\pi U(z_0 + re^{it} )\dt \\
+.\]
+So for $w_0\in S^-$, write it as $w_0 = \bar{z_0}$, then
+\[
+U(w_0) 
+&= u(\bar{z_0}) \\
+&= {1\over 2\pi}\int_{-\pi}^\pi u(\bar{z_0} + re^{it})\dt \\
+&= {1\over 2\pi}\int_{-\pi}^\pi u(\bar{z_0} + re^{-it})\dt \\
+&= {1\over 2\pi}\int_{-\pi}^\pi u(\bar{z_0 + re^{it}} )\dt \\
+&= {1\over 2\pi}\int_{-\pi}^\pi U(\bar{z_0 + re^{it}})
+.\]
+
+
+\[
+
+.\]
+
+
 :::
 
 
