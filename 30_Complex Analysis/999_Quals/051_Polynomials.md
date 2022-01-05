@@ -173,9 +173,31 @@ However, a polynomial of degree $N$ is generically $N$-to-one locally, so inject
 
 ## Tie's Extra Questions: Fall 2015 #complex/exercise/work
 
-
+:::{.problem title="?"}
 Let $f$ be entire and suppose that
 $\lim_{z \rightarrow \infty} f(z) = \infty$. Show that $f$ is a polynomial.
+:::
+
+
+:::{.solution}
+Note that $f$ has finitely many zeros: since $f$ is unbounded, there is some $R$ such that $f(\DD_R^c) \subseteq \DD^c$, so in particular $f$ is nonvanishing on $\DD_R^c$.
+So $Z_f$ is a closed subset of a compact set, so is either finite or has an accumulation point.
+In the latter case, $f\equiv 0$ by the identity principle, so suppose not.
+
+Write $Z_f = \ts{z_k}_{k\leq n}$ for the $n$ many zeros of $f$, included with multiplicity, and set $\Phi(z) \da \prod_{k\leq n} (z-z_k)$ and $F(z) \da {f(z) \over \Phi(z)}$. 
+Now $F$ is a nonvanishing entire function.
+
+:::{.claim}
+$F$ is bounded on $\CC$.
+:::
+
+Given this, $F$ is entire and bounded and thus constant by Liouville.
+So $F(z) = c$, and as a result $f(z) = c\Phi(z)$ which is a polynomial of degree $n$.
+
+:::
+
+
+
 
 ## Spring 2020 HW 3.5 #complex/exercise/work
 
