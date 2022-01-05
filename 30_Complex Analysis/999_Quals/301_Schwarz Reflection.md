@@ -86,6 +86,19 @@ Show that $f$ must be constant.
 
 :::
 
+
+:::{.solution}
+**Part 1**:
+Let $\Omega = \Omega^+ \union I \union \Omega^-$ be a region symmetric about $\RR$.
+If $f$ is holomorphic on $\Omega^+$ extending continuously to $I$ and real valued on $I$, then $f$ extends to a holomorphic function $F$ on all of $\Omega$ defined on $\Omega^-$ by $F(z) = \bar{f(\bar{z})}$.
+
+**Part 2**:
+
+**Part 3**:
+
+
+:::
+
 ## Spring 2020 HW 2 #  2.6.15
 
 :::{.problem title="?"}
