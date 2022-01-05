@@ -26,6 +26,19 @@ Schwarz reflection principle.
 :::
 
 
+:::{.solution}
+**Part 1**:
+This is not true: take the holomorphic function $f(z) = z$, then $u(z) \da \Re(f(z)) = \Re(z)$ is harmonic on nonzero on $\RR$ but zero on $i\RR$.
+
+**Part 2**:
+Set $f \da u_x + i u_y$, then $f$ is holomorphic on $O$.
+Since $h\equiv 0$ on $\DD_\eps \subseteq O$, $g\equiv 0$ on this disc.
+By the identity principle for holomorphic functions, $g\equiv 0$ on $O$.
+So $h_x, h_y \equiv 0$, making $h$ constant, and since $h\equiv 0$ on $U$ this forces $h\equiv 0$ on $O$.
+
+:::
+
+
 ## 7 #complex/exercise/work
 
 :::{.problem title="?"}
