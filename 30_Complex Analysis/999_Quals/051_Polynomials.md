@@ -6,8 +6,7 @@ order: 51
 
 ## Big O Estimates
 
-
-## Tie's Extra Questions: Fall 2011, Fall 2009 (Polynomial upper bound, $d=2$) #complex/exercise/completed
+### Tie's Extra Questions: Fall 2011, Fall 2009 (Polynomial upper bound, $d=2$) #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
@@ -30,7 +29,7 @@ The usual estimate:
 provided $-k+2<0 \iff k>2$.
 :::
 
-## Tie's Extra Questions: Spring 2014, Fall 2009 (Polynomial lower bound, $d$ arbitrary) #complex/exercise/completed
+### Tie's Extra Questions: Spring 2014, Fall 2009 (Polynomial lower bound, $d$ arbitrary) #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that 
@@ -115,7 +114,7 @@ so the LHS is an entire bounded function and thus constant, so $z^{N-m}p(z) = \l
 But the LHS is evidently a polynomial of degree $(N-m)+m = m$.
 :::
 
-## Tie's Extra Questions: Spring 2015 (Polynomial upper bound, $d$ arbitrary) #complex/exercise/work
+### Tie's Extra Questions: Spring 2015 (Polynomial upper bound, $d$ arbitrary) #complex/exercise/work
 
 :::{.problem title="?"}
 Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. 
@@ -125,6 +124,28 @@ Show that
 (ii) the degree of $f$ is at most $N$.
 
 :::
+
+### Tie's Extra Questions: Fall 2016 #complex/exercise/work
+
+:::{.problem title="?"}
+a.
+Let Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire function. Assume the existence of a non-negative integer $m$, and of positive constants $L$ and $R$, such that for all $z$ with $|z|>R$ the inequality $$|f(z)| \leq L |z|^m$$ holds. 
+Prove that $f$ is a polynomial of degree $\leq m$.
+
+b.
+Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire function. Suppose that there exists a real number $M$ such that for all $z\in {\mathbb C}, \Re(f) \leq M$.
+Prove that $f$ must be a constant.
+:::
+
+
+:::{.solution}
+?
+:::
+
+
+
+
+
 
 # Misc
 
@@ -158,7 +179,7 @@ Then $f(z) \da G(z)/g(z)$ is a rational function.
 
 
 
-## Fall 2019.4 (Entire univalent functions are linear) #complex/qual/completed
+### Fall 2019.4 (Entire univalent functions are linear) #complex/qual/completed
 
 ^398dec
 
@@ -182,7 +203,7 @@ However, a polynomial of degree $N$ is generically $N$-to-one locally, so inject
 
 
 
-## Spring 2020 HW 3.5, Tie's Extra Questions: Fall 2015 #complex/exercise/completed
+### Spring 2020 HW 3.5, Tie's Extra Questions: Fall 2015 #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $f$ be entire and suppose that
@@ -224,7 +245,7 @@ Given this, $F$ is entire and bounded and thus constant by Liouville.
 So $F(z) = c$, and as a result $f(z) = c\Phi(z)$ which is a polynomial of degree $n$.
 :::
 
-## Asymptotic to $z^n$ #complex/exercise/work
+### Asymptotic to $z^n$ #complex/exercise/work
 
 :::{.problem title="?"}
 Suppose $f$ is entire and suppose that for some integer $n\geq 1$,
@@ -250,42 +271,20 @@ Then write $f(z) = \sum_{k\geq 0} c_k z^k$ and estimate
 provided $n-k \leq 0 \iff k\geq n$, since $\eps \to 0$ forces $R\to \infty$.
 :::
 
-## Tie's Extra Questions: Fall 2016 #complex/exercise/work
-
-
-:::{.problem title="?"}
-a.
-Let Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire function. Assume the existence of a non-negative integer $m$, and of positive constants $L$ and $R$, such that for all $z$ with $|z|>R$ the inequality $$|f(z)| \leq L |z|^m$$ holds. 
-Prove that $f$ is a polynomial of degree $\leq m$.
-
-b.
-Let $f:{\mathbb C}\rightarrow {\mathbb C}$ be an entire function. Suppose that there exists a real number $M$ such that for all $z\in {\mathbb C}, \Re(f) \leq M$.
-Prove that $f$ must be a constant.
-:::
-
-
-:::{.solution}
-?
-:::
-
-
-
-
-
-## Tie's Extra Questions: Spring 2015 #complex/exercise/work
+### Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 Suppose $f$ is entire and there exist $A, R >0$ and natural number
 $N$ such that $|f(z)| \geq A |z|^N$ for $|z| \geq R$. Show that (i)
 $f$ is a polynomial and (ii) the degree of $f$ is at least $N$.
 
-## Tie's Extra Questions: Spring 2015 #complex/exercise/work
+### Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 
 Let $0<r<1$. Show that polynomials
 $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
 $|z|<r$ for all sufficiently large $n$'s.
 
-## Spring 2020 HW 1.3 #complex/exercise/work
+### Spring 2020 HW 1.3 #complex/exercise/work
 Prove that the following polynomial has its roots outside of the unit circle:
 \[
 p(z) = z^3 + 2z + 4
@@ -293,7 +292,7 @@ p(z) = z^3 + 2z + 4
 
 > Hint: What is the maximum value of the modulus of the first two terms if $\abs{z} \leq 1$?
 
-## Spring 2020 HW 2, SS 2.6.13 #complex/exercise/work
+### Spring 2020 HW 2, SS 2.6.13 #complex/exercise/work
 
 Suppose $f$ is analytic, defined on all of $\CC$, and for each $z_0 \in \CC$ there is at least one coefficient in the expansion $f(z) = \sum_{n=0}^\infty c_n(z-z_0)^n$ is zero.
 Prove that $f$ is a polynomial.
