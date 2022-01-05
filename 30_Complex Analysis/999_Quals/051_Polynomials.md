@@ -236,6 +236,19 @@ Prove that $f$ is a polynomial of degree at most $n-1$.
 
 :::
 
+
+:::{.solution}
+Choose $\abs{z}$ large enough so that $\abs{f(z)}/\abs{z}^n < 1$.
+Then write $f(z) = \sum_{k\geq 0} c_k z^k$ and estimate
+\[
+2\pi \abs{c_k} 
+&\leq \oint_{\abs{z} = R} {f(\xi) \over \xi^{k+1}}\dxi \\
+&\leq \oint_{\abs{z} = R} {\abs{\xi}^n \over \abs{\xi}^{k+1} } \dxi \\
+&= R^{n-(k+1)} \cdot 2\pi R
+.\]
+
+:::
+
 ## Spring 2020 HW 3.3 #complex/exercise/work
 
 Let $P, Q$ be polynomials with no common zeros. Assume $a$ is a root of
