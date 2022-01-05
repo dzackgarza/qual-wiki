@@ -143,13 +143,9 @@ Prove that $f$ must be a constant.
 :::
 
 
+## Misc
 
-
-
-
-# Misc
-
-## Spring 2019.4 (Eventually bounded implies rational) #complex/qual/completed
+### Spring 2019.4 (Eventually bounded implies rational) #complex/qual/completed
 
 ^047423
 
@@ -176,8 +172,6 @@ So after possibly increasing $R$, we can choose $\abs{z}$ large enough so that $
 In any case, by a common qual question, if $\abs{G} \in \bigo(\abs{z}^N)$ for $\abs{z}$ large enough then $G$ is a polynomial of degree at most $N$.
 Then $f(z) \da G(z)/g(z)$ is a rational function.
 :::
-
-
 
 ### Fall 2019.4 (Entire univalent functions are linear) #complex/qual/completed
 
@@ -273,12 +267,6 @@ provided $n-k \leq 0 \iff k\geq n$, since $\eps \to 0$ forces $R\to \infty$.
 
 ### Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
-Suppose $f$ is entire and there exist $A, R >0$ and natural number
-$N$ such that $|f(z)| \geq A |z|^N$ for $|z| \geq R$. Show that (i)
-$f$ is a polynomial and (ii) the degree of $f$ is at least $N$.
-
-### Tie's Extra Questions: Spring 2015 #complex/exercise/work
-
 
 Let $0<r<1$. Show that polynomials
 $P_n(z)  = 1 + 2z + 3 z^2 + \cdots + n z^{n-1}$ have no zeros in
@@ -310,7 +298,7 @@ This is because each derivative is analytic and the zeros of an analytic functio
 But by hypothesis this set is uncountable.
 :::
 
-## Spring 2021.3 #complex/qual/completed
+### Spring 2021.3 #complex/qual/completed
 
 ^409461
 
@@ -397,7 +385,7 @@ This contradicts $A>0$. $\contradiction$
 
 
 
-## Spring 2021.4 #complex/qual/completed
+### Spring 2021.4 #complex/qual/completed
 
 ^c3336f
 
@@ -444,7 +432,7 @@ But we can write
 
 :::
 
-## Entire injective functions are linear #complex/exercise/completed
+### Entire injective functions are linear #complex/exercise/completed
 
 :::{.exercise title="Entire injective functions"}
 Show that if $f$ is entire and injective then $f$ is necessarily linear, i.e. $f(z) = az+b$ for some constants $a,b\in \CC$ with $a\neq 0$.
