@@ -287,7 +287,15 @@ For $b_\ell$ a double pole,
 \[
 {P(z) \over Q(z) } 
 &= {1\over (z-b_\ell)^2 } {(z-z_\ell)^2P(z) \over Q(z) } \\
-&= {1\over (z-b_\ell)^2}\qty{ d_0 + d_1(z-b_\ell) + d_2(z-b_\ell)^2 }
+&= {1\over (z-b_\ell)^2}\qty{ d_0 + d_1(z-b_\ell) + d_2(z-b_\ell)^2 } \\
+&= {d_0 \over (z-b_\ell)^2} + {d_1\over z-z_\ell} + d_2 + \bigo(z-z_\ell) \\
+&\da P_{b_\ell}(z) + d_2 + \bigo(z-z_\ell)
+.\]
+So 
+
+\[
+d_0 &= \lim_{z\to z_\ell} { (z-z_\ell)^2 P(z) \over Q(z) } \\
+d_1 &= ?
 .\]
 
 
