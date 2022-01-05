@@ -29,6 +29,34 @@ The usual estimate:
 provided $-k+2<0 \iff k>2$.
 :::
 
+### Asymptotic to $z^n$ #complex/exercise/work
+
+:::{.problem title="?"}
+Suppose $f$ is entire and suppose that for some integer $n\geq 1$,
+\[
+\lim_{z\to \infty} {f(z) \over z^n} = 0
+.\]
+
+Prove that $f$ is a polynomial of degree at most $n-1$.
+
+:::
+
+:::{.solution}
+Choose $\abs{z}$ large enough so that $\abs{f(z)}/\abs{z}^n < \eps$.
+Then write $f(z) = \sum_{k\geq 0} c_k z^k$ and estimate
+\[
+2\pi \abs{c_k} 
+&\leq \oint_{\abs{z} = R} {f(\xi) \over \xi^{k+1}}\dxi \\
+&\leq \oint_{\abs{z} = R} {\eps \abs{\xi}^n \over \abs{\xi}^{k+1} } \dxi \\
+&= \eps R^{n-(k+1)} \cdot 2\pi R \\
+&= \eps C R^{n-k} \\
+&\convergesto{\eps \to 0} 0
+\]
+provided $n-k \leq 0 \iff k\geq n$, since $\eps \to 0$ forces $R\to \infty$.
+:::
+
+
+
 ### Spring 2021.3, Tie's Extra Questions: Spring 2014, Fall 2009 (Polynomial lower bound, $d$ arbitrary) #complex/exercise/completed
 
 ^409461
@@ -200,34 +228,17 @@ Prove that $f$ must be a constant.
 
 
 :::{.solution}
-?
-:::
-
-
-### Asymptotic to $z^n$ #complex/exercise/work
-
-:::{.problem title="?"}
-Suppose $f$ is entire and suppose that for some integer $n\geq 1$,
 \[
-\lim_{z\to \infty} {f(z) \over z^n} = 0
-.\]
+\abs{f^{(n)}(z)} 
+&= \abs{ {1\over 2\pi i} \oint_\gamma {f(\xi) \over (\xi - z)^{n+1}} \dxi } \\
+&\leq  {1\over 2\pi i} \oint_\gamma { \abs{ f(\xi) } \over \abs{\xi - z}^{n+1}} \dxi \\
+&\leq {1\over 2\pi i } \oint_\gamma {LR^m \over R^{n+1} } \dxi \\
+&= {L\over 2\pi i} R^{m-(n+1)} \cdot 2\pi R \\
+&= LR^{m-n} \\
+&\convergesto{R\to\infty} 0 \qquad \iff m-n<0 \iff n>m
+,\]
+so $f$ is a polynomial of degree at most $m$.
 
-Prove that $f$ is a polynomial of degree at most $n-1$.
-
-:::
-
-:::{.solution}
-Choose $\abs{z}$ large enough so that $\abs{f(z)}/\abs{z}^n < \eps$.
-Then write $f(z) = \sum_{k\geq 0} c_k z^k$ and estimate
-\[
-2\pi \abs{c_k} 
-&\leq \oint_{\abs{z} = R} {f(\xi) \over \xi^{k+1}}\dxi \\
-&\leq \oint_{\abs{z} = R} {\eps \abs{\xi}^n \over \abs{\xi}^{k+1} } \dxi \\
-&= \eps R^{n-(k+1)} \cdot 2\pi R \\
-&= \eps C R^{n-k} \\
-&\convergesto{\eps \to 0} 0
-\]
-provided $n-k \leq 0 \iff k\geq n$, since $\eps \to 0$ forces $R\to \infty$.
 :::
 
 
