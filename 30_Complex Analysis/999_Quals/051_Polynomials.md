@@ -252,12 +252,33 @@ provided $n-k \leq 0 \iff k\geq n$, since $\eps \to 0$ forces $R\to \infty$.
 
 ## Spring 2020 HW 3.3 #complex/exercise/work
 
+:::{.problem title="?"}
 Let $P, Q$ be polynomials with no common zeros. Assume $a$ is a root of
 $Q$.
 Find the principal part of $P/Q$ at $z=a$ in terms of $P$ and $Q$ if $a$ is 
 
 (1) a simple root, and 
 (2) a double root.
+
+:::
+
+
+:::{.solution}
+Write $P(z) = \prod_{k\leq n} (z-a_k)$,
+$Q(z) = \prod_{k\leq m}(z-b_k)$, and $Q_j(z) = \prod_{k\neq j}(z-b_k)$.
+For $b_\ell$ a simple pole,
+\[
+{P(z) \over Q(z) } = {1\over z-b_\ell} {P(z) \over Q_\ell(z)} = {1\over z-b_\ell}\qty{c_0 + c_1(z-b_k) + c_2(z-b_k)^2 + \cdots}
+,\]
+so the principal part at $z=z_\ell$ is given by
+\[
+P_{z_\ell}(z) = {P(z) \over Q_\ell(z)}\evalfrom_{z=z_\ell}
+.\]
+
+
+:::
+
+
 
 
 ## Tie's Extra Questions: Fall 2016 #complex/exercise/work
