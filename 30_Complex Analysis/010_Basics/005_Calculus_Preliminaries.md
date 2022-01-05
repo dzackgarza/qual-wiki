@@ -91,6 +91,8 @@ As a consequence, areas can be computed as
 \mu(\Omega) = {1\over 2}\oint_{\bd\Omega} \qty{y\dx - x\dy}
 .\]
 
+> In general, $\mu(\Omega) = \int_{\Omega} \abs{f'(z)} \dz$.
+
 :::
 
 :::{.remark}

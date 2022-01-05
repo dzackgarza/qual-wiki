@@ -181,7 +181,6 @@ general the area of $f(D_1)$ is infinite.
 
 :::
 
-
 :::{.solution}
 Since $f$ is injective, $f'$ is nonvanishing in $\Omega \da \abs{z} \leq r$.
 A computation:
@@ -196,10 +195,10 @@ A computation:
 jk c_j \bar{c_k} (re^{it})^{j-1} (re^{-it})^{k-1} r\dr \dt \\
 &= \int_0^R\int_0^{2\pi} \sum_{j, k\geq 1} 
 jk c_j \bar{c_k} r^{j+k-1} e^{i(j-k)t} \dr\dt \\
-&= \int_0^R \sum_{k\geq 1} k^2 \abs{c_k}^2 r^{2k-1} \cdot 2\pi \dt
-&= \sum_{k\geq 1} k^2 \abs{c_k}^2 r^{2k-1} {r^{2k} \over 2k}\evalfrom_{r=0}^R 
+&= \int_0^R \sum_{k\geq 1} k^2 \abs{c_k}^2 r^{2k-1} \cdot 2\pi \dt \\
+&= \sum_{k\geq 1} k^2 \abs{c_k}^2 {r^{2k} \over 2k}\evalfrom_{r=0}^R \\
+&= \pi \sum_{k\geq 1} k \abs{c_k}^2 R^{2k}
 .\]
-
 :::
 
 
