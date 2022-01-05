@@ -236,7 +236,6 @@ Prove that $f$ is a polynomial of degree at most $n-1$.
 
 :::
 
-
 :::{.solution}
 Choose $\abs{z}$ large enough so that $\abs{f(z)}/\abs{z}^n < \eps$.
 Then write $f(z) = \sum_{k\geq 0} c_k z^k$ and estimate
@@ -249,7 +248,6 @@ Then write $f(z) = \sum_{k\geq 0} c_k z^k$ and estimate
 &\convergesto{\eps \to 0} 0
 \]
 provided $n-k \leq 0 \iff k\geq n$, since $\eps \to 0$ forces $R\to \infty$.
-
 :::
 
 ## Spring 2020 HW 3.3 #complex/exercise/work
