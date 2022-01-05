@@ -62,4 +62,6 @@
     -   [Homework 4 solutions.](https://personal.math.ubc.ca/~malabika/teaching/ubc/fall17/math440-508/Homework_4_Solutions.pdf)
     -   [Homework 5 solutions.](https://personal.math.ubc.ca/~malabika/teaching/ubc/fall17/math440-508/Homework_5_Solutions.pdf)
     -   [Homework 6 solutions.](https://personal.math.ubc.ca/~malabika/teaching/ubc/fall17/math440-508/Homework_6_Solutions.pdf)
-- [ ]  [https://www.math.ubc.ca/~malabika/teaching/ubc/fall17/math440-508/Homework_4_Solutions.pdf](https://www.math.ubc.ca/~malabika/teaching/ubc/fall17/math440-508/Homework_4_Solutions.pdf) #resources/solutions
+- [ ]  [https://www.math.ubc.ca/~malabika/teaching/ubc/fall17/math440-508/Homework_4_Solutions.pdf](https://www.math.ubc.ca/~malabika/teaching/ubc/fall17/math440-508/Homework_4_Solutions.pdf) 
+	#resources/solutions 
+- [ ] [Some Conway solutions](https://mathweb.ucsd.edu/~jagler/courses/220A-F17/pdf/Homework%25206%2520Solutions.pdf)
