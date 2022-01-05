@@ -120,13 +120,28 @@ Then $f(z) \da G(z)/g(z)$ is a rational function.
 
 
 
-## Fall 2019.4 #complex/qual/work
+## Fall 2019.4 (Entire univalent functions are linear) #complex/qual/completed
 
 ^398dec
 
-:::{.problem title="?"}
+:::{.problem title="Entire univalent functions are affine/linear"}
 Let $f: \mathbb{C} \rightarrow \mathbb{C}$ be an injective analytic (also called univalent) function. Show that there exist complex numbers $a \neq 0$ and $b$ such that $f(z)=a z+b$.
 :::
+
+
+:::{.solution}
+Note that $f$ is non-constant, since a constant function is extremely non-injective.
+Consider the singularity at $\infty$:
+
+- If it is removable, then $f$ is bounded outside of a large disc, and bounded inside of it as a continuous function on a compact set, making $f$ entire and bounded and thus constant by Liouville.
+
+- If it is essential, then by Casorati-Weierstrass there is a large disc of radius $R$ such that $f(\bar{\DD_R}^c) \subseteq \CC$ is dense.
+  By the open mapping theorem, $f(\DD_R) \subseteq \CC$ is open, so by density it intersects $f(\bar{\DD_R}^c)$, but $\DD_R \intersect \bar{\DD_R}^c$ is empty so this contradicts injectivity.
+
+So we can conclude $\infty$ is a pole of some order $N$, so $f\qty{1\over z} = \sum_{0\leq k\leq N} c_k z^{-k}$ and thus $f(z) = \sum_{0\leq k\leq N} c_k z^k$ is a polynomial of degree $N$.
+However, a polynomial of degree $N$ is generically $N$-to-one locally, so injectivity forces $N=1$ and $f(z) = c_0 + c_1 z$, where $c_1\neq 0$ since $f$ is nonconstant.
+:::
+
 
 
 ## Tie's Extra Questions: Fall 2011 #complex/exercise/work
