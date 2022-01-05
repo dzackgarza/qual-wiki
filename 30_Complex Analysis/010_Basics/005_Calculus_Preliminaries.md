@@ -86,6 +86,11 @@ In vector form,
 \[
 \int_\gamma F\cdot \dr = \iint_R \curl F \dA
 .\]
+As a consequence, areas can be computed as
+\[
+\mu(\Omega) = {1\over 2}\oint_{\bd\Omega} \qty{y\dx - x\dy}
+.\]
+
 :::
 
 :::{.remark}
