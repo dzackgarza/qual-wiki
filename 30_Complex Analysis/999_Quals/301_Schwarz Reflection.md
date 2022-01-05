@@ -4,7 +4,7 @@ order: 301
 
 # Schwarz Reflection
 
-## Tie's Extra Questions: Spring 2015 #complex/exercise/completed
+## Tie's Extra Questions: Spring 2015 (Reflection for harmonic functions) #complex/exercise/completed
 
 :::{.problem title="?"}
 (1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
@@ -67,7 +67,7 @@ U(z_0)
 
 :::
 
-## Reflection principle for the circle #complex/exercise/work
+## Reflection for the disc #complex/exercise/completed
 
 :::{.problem title="?"}
 a. 
@@ -124,7 +124,7 @@ f(z) = f_i(z) & z\in S^1
 In particular, $H$ is an entire bounded function and thus constant, making $F$ constant as well and consequently $f$ is constant.
 :::
 
-## Spring 2020 HW 2 #  2.6.15
+## Spring 2020 HW 2, SS 2.6.15 (Constant on boundary and nonvanishing implies constant, using Schwarz) #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f$ is continuous and nonvanishing on $\bar \DD$, and holomorphic in $\DD$.
@@ -133,4 +133,14 @@ Prove that if $\abs{z} = 1 \implies \abs{f(z)} = 1$, then $f$ is constant.
 > Hint: Extend $f$ to all of $\CC$ by $f(z) = 1/ \bar{f(1/\bar z)}$ for any $\abs{z} > 1$, and argue as in the Schwarz reflection principle.
 :::
 
+:::{.solution}
+First, note that the Schwarz reflection principle can be applied here: let $T: \DD\to \HH$ be the Cayley map, and consider $\tilde f \da T\circ f \circ T\inv: \HH\to \HH$.
+Now $T(S^1) = \RR$, and since $f(z)\in S^1$ when $z\in S^1$, we have $\tilde f(\RR) = \RR$, i.e. this is a real-valued function on $\RR$.
+So $\tilde f$ extends holomorphically to $\tilde F:\CC\to CC$, and we can pull this back to a holomorphic extension of $f$.
+
+Extend $f$ to $F:\CC\to \CC$ by $f(z) = 1/\bar{f(1/\bar{z})}$ for $z\in \DD^c$, which generally has poles at the points $1/\bar{z_k}$ for $z_k\in \DD$ zeros of $f$.
+Since $f$ is nonvanishing, $F$ has no poles and thus defines an entire function.
+By definition of $F$, we have $F(\CC) \subseteq f\qty{\ts{\abs{z} \leq 1}} \union \bar{ f\qty{\ts{\abs{z} \geq 1}}}$, which are both the continuous images of compact sets and thus compact and bounded.
+So $F$ is a bounded entire function and thus constant.
+:::
 
