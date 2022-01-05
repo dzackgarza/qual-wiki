@@ -191,7 +191,8 @@ A computation:
 &= \int_{\DD_r} f'(z) \bar{f'(z)} \dz \\
 &= \int_{\DD_r} \qty{\sum_{j\geq 1} jc_j z^{j-1} } \bar{ \qty{\sum_{k\geq 1} kc_k z^{k-1}}} \dz \\
 &= \int_{\DD_r} \qty{\sum_{j\geq 1} j c_j z^{j-1} } { \qty{\sum_{k\geq 1} k \bar{c_k} \bar{z}^{k-1} }} \dz \\
-&= \int_{\DD_r} \sum_{j, k\geq 1} jk c_j \bar{c_k} z^{j-1}\bar{z}^{k-1}\dz
+&= \int_{\DD_r} \sum_{j, k\geq 1} jk c_j \bar{c_k} z^{j-1}\bar{z}^{k-1}\dz \\
+&= \int_0^R\int_0^{2\pi} \sum_{j, k\geq 1} jk c_j \bar{c_k} (re^{it})^{j-1}\bar{re^{it}}^{k-1} r\dr \dtheta
 .\]
 
 :::
