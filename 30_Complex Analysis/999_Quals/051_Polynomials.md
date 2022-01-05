@@ -7,7 +7,7 @@ order: 51
 ## Big O Estimates
 
 
-## Tie's Extra Questions: Fall 2011 (Polynomial upper bound) #complex/exercise/completed
+## Tie's Extra Questions: Fall 2011 (Polynomial upper bound, $d=2$) #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
@@ -30,7 +30,7 @@ The usual estimate:
 provided $-k+2<0 \iff k>2$.
 :::
 
-## Polynomial lower bound #complex/exercise/completed
+## Tie's Extra Questions: Spring 2014 (Polynomial upper bound, $d$ arbitrary) #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that 
@@ -167,22 +167,6 @@ Consider the singularity at $\infty$:
 
 So we can conclude $\infty$ is a pole of some order $N$, so $f\qty{1\over z} = \sum_{0\leq k\leq N} c_k z^{-k}$ and thus $f(z) = \sum_{0\leq k\leq N} c_k z^k$ is a polynomial of degree $N$.
 However, a polynomial of degree $N$ is generically $N$-to-one locally, so injectivity forces $N=1$ and $f(z) = c_0 + c_1 z$, where $c_1\neq 0$ since $f$ is nonconstant.
-:::
-
-
-
-## Tie's Extra Questions: Spring 2014 (Polynomial upper bound) #complex/exercise/work
-
-:::{.problem title="?"}
-Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
-that 
-
-(i) 
-$f$ is a polynomial and 
-
-(ii) 
-the degree of $f$ is at least $N$.
-
 :::
 
 
