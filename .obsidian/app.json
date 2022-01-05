@@ -4,7 +4,7 @@
   "showFrontmatter": true,
   "foldHeading": true,
   "foldIndent": true,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "vimMode": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",

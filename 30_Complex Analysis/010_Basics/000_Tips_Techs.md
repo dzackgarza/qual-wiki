@@ -6,6 +6,16 @@ order: 0
 
 > A great deal of content borrowed from <https://web.stanford.edu/~chriseur/notes_pdf/Eur_ComplexAnalysis_Notes.pdf>
 
+Some useful notation:
+
+- $\DD_r(a) \da \ts{z\in \CC \st 0\leq \abs{z-a}< a}$ an open disc about $a$
+- $\bar{\DD}_r(a) \da \ts{z\in \CC \st 0\leq \abs{z-a} \leq a}$ a closed disc about $a$.
+- $\DD^*(a) \da \ts{z\in \CC \st 0 < \abs{z-a} < r}$ a punctured disc about $a$.
+- $\Delta \da \DD_1(0)$ the standard unit disc
+- $\bar\Delta \da \bar{\DD}_1(0)$ the closed unit disc
+- $\Delta^* \da \DD_1^*(0)$ the punctured unit disc.
+- $\Omega$ an open simply-connected subset of $\CC$.
+
 ## Greatest Hits
 
 Things to know well:

@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
+      "basename": "000_Tips_Techs",
+      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
+    },
+    {
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
     {
       "basename": "qual_progress",
       "path": "qual_progress.md"
+    },
+    {
+      "basename": "20_Solutions",
+      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
     },
     {
       "basename": "00_Topics",
@@ -19,14 +27,6 @@
     {
       "basename": "060_Schwarz lemma",
       "path": "30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma.md"
-    },
-    {
-      "basename": "000_Tips_Techs",
-      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
     },
     {
       "basename": "030_Computing Integrals",
