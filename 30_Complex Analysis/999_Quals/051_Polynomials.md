@@ -7,13 +7,12 @@ order: 51
 ## Big O Estimates
 
 
-## Tie's Extra Questions: Fall 2011 #complex/exercise/work
+## Tie's Extra Questions: Fall 2011 (Polynomial upper bound) #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
 disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
 :::
-
 
 :::{.solution}
 Take a Laurent expansion at zero:
@@ -23,14 +22,15 @@ f(z) = \sum_{k\geq 0} c_k z^k,\qquad c_k = {1\over k!} f^{(k)}(0) = {1\over 2\pi
 The usual estimate:
 \[
 2\pi i\abs{c_k} \leq \oint_{\abs{\xi} = R} R^{-(k+1)}\abs{f(\xi)} \dxi
-\leq \oint_{\abs{\xi} = R}R^{-(k+1)} M R^2 \dxi
-.\]
-
-
+&\leq \oint_{\abs{\xi} = R}R^{-(k+1)} M R^2 \dxi \\
+&= M R^{-(k-1)} \cdot 2\pi R \\
+&= 2\pi M R^{-k+2} \\
+&\convergesto{R\to\infty}0
+,\]
+provided $-k+2<0 \iff k>2$.
 :::
 
-
-## The reverse polynomial bound #complex/exercise/completed
+## Polynomial lower bound #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that 
@@ -115,10 +115,9 @@ so the LHS is an entire bounded function and thus constant, so $z^{N-m}p(z) = \l
 But the LHS is evidently a polynomial of degree $(N-m)+m = m$.
 :::
 
-
 # Misc
 
-## Spring 2019.4 #complex/qual/completed
+## Spring 2019.4 (Eventually bounded implies rational) #complex/qual/completed
 
 ^047423
 
@@ -172,8 +171,9 @@ However, a polynomial of degree $N$ is generically $N$-to-one locally, so inject
 
 
 
-## Tie's Extra Questions: Spring 2014 #complex/exercise/work
+## Tie's Extra Questions: Spring 2014 (Polynomial upper bound) #complex/exercise/work
 
+:::{.problem title="?"}
 Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
 that 
 
@@ -182,6 +182,9 @@ $f$ is a polynomial and
 
 (ii) 
 the degree of $f$ is at least $N$.
+
+:::
+
 
 
 ## Tie's Extra Questions: Fall 2015 #complex/exercise/work
