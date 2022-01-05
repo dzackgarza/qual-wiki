@@ -115,6 +115,17 @@ so the LHS is an entire bounded function and thus constant, so $z^{N-m}p(z) = \l
 But the LHS is evidently a polynomial of degree $(N-m)+m = m$.
 :::
 
+## Tie's Extra Questions: Spring 2015 (Polynomial upper bound, $d$ arbitrary) #complex/exercise/work
+
+:::{.problem title="?"}
+Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. 
+Show that 
+
+(i) $f$ is a polynomial and 
+(ii) the degree of $f$ is at most $N$.
+
+:::
+
 # Misc
 
 ## Spring 2019.4 (Eventually bounded implies rational) #complex/qual/completed
@@ -213,14 +224,17 @@ Given this, $F$ is entire and bounded and thus constant by Liouville.
 So $F(z) = c$, and as a result $f(z) = c\Phi(z)$ which is a polynomial of degree $n$.
 :::
 
-## #complex/exercise/work
+## Asymptotic to $z^n$ #complex/exercise/work
 
+:::{.problem title="?"}
 Suppose $f$ is entire and suppose that for some integer $n\geq 1$,
 \[
 \lim_{z\to \infty} {f(z) \over z^n} = 0
 .\]
 
 Prove that $f$ is a polynomial of degree at most $n-1$.
+
+:::
 
 ## Spring 2020 HW 3.3 #complex/exercise/work
 
@@ -231,17 +245,6 @@ Find the principal part of $P/Q$ at $z=a$ in terms of $P$ and $Q$ if $a$ is
 (1) a simple root, and 
 (2) a double root.
 
-
-## Tie's Extra Questions: Spring 2015 (Polynomial upper bound, $d$ arbitrary) #complex/exercise/work
-
-:::{.problem title="?"}
-Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. 
-Show that 
-
-(i) $f$ is a polynomial and 
-(ii) the degree of $f$ is at most $N$.
-
-:::
 
 ## Tie's Extra Questions: Fall 2016 #complex/exercise/work
 
