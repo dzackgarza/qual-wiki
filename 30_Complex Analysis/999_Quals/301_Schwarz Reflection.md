@@ -6,7 +6,7 @@ order: 301
 
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
-
+:::{.problem title="?"}
 (1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
 in $O$ such that $u(z_n) = 0$ and $\lim z_n \in O$. Prove or
 disprove that $u$ is identically zero. What if $O$ is a region?
@@ -23,8 +23,12 @@ harmonic functions
 > Hint: Verify the mean value property for your new function obtained by
 Schwarz reflection principle.
 
+:::
+
+
 ## 7 #complex/exercise/work
 
+:::{.problem title="?"}
 a. 
 State the standard Schwarz reflection principle involving reflection across the real axis.
 
@@ -39,7 +43,10 @@ c.
 Suppose that $f$ is holomorphic on $\DD$, continuous on $\bar \DD$, and real on $S^1$.
 Show that $f$ must be constant.
 
-### Spring 2020 HW 2 #  2.6.15
+:::
+
+
+## Spring 2020 HW 2 #  2.6.15
 
 Suppose $f$ is continuous and nonvanishing on $\bar \DD$, and holomorphic in $\DD$.
 Prove that if $\abs{z} = 1 \implies \abs{f(z)} = 1$, then $f$ is constant.
