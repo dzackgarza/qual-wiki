@@ -138,7 +138,28 @@ that $\lim_{n \rightarrow \infty} f(z_n) = w$.
 2.
 Explain the similarity and difference between the above assertion and the Weierstrass-Casorati theorem.
 
+> DZG: I think it's also necessary to state that $z_n \to a$.
+
 :::
+
+
+:::{.solution}
+Without loss of generality, by translating $f$ we can take $a=0$ so that $a_n\to 0$.
+Toward a contradiction, pick a $w$ with no such sequence.
+Then there exists an $\eps$ and $R$ such that $f(\DD_\eps(a) ) \subseteq \DD_R(w)^c$, so in particular $\abs{f(z) - w} > R$ for $\abs{z-a} < \eps$.
+So define
+\[
+G(z) \da {1\over f(z) - w} \implies \abs{G(z)} \leq R\inv < \infty \qquad \text{in } \DD_\eps(a)
+,\]
+If any of the $a_k$ are singularities, there is an $N \gg 1$ such that $\abs{z-z_k} < \eps$ for $k\geq N$, and since the bound holds here, the $a_k$ are all removable for $k\geq N$
+So $a$ is an isolated singularity, and the bound implies it is removable.
+By Riemann's removable singularity theorem, $G$ extends holomorphically over $a$.
+
+Since the $a_k$ were poles of $f(z)$, they are poles of $f(z) - w$ since $\abs{f(z) - w} \geq \abs{\abs{f(z)} - \abs{w} } \to \infty$ as $a_k\to a$, and thus these are zeros of $G$ for $k\geq N$.
+Since $G$ is holomorphic on $\DD_\eps(a)$ and $G(a_k) = 0$, choosing $N$ large enough so that $\abs{a_k - a} < \eps$, we have $\abs{G(z)} = 0 < R$ infinitely often, contradicting that
+
+:::
+
 
 
 ## Tie's Extra Questions: Fall 2015 #complex/exercise/work
