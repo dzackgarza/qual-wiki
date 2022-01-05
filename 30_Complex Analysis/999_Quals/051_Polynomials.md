@@ -7,7 +7,7 @@ order: 51
 ## Big O Estimates
 
 
-## Tie's Extra Questions: Fall 2011 (Polynomial upper bound, $d=2$) #complex/exercise/completed
+## Tie's Extra Questions: Fall 2011, Fall 2009 (Polynomial upper bound, $d=2$) #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
@@ -30,7 +30,7 @@ The usual estimate:
 provided $-k+2<0 \iff k>2$.
 :::
 
-## Tie's Extra Questions: Spring 2014 (Polynomial upper bound, $d$ arbitrary) #complex/exercise/completed
+## Tie's Extra Questions: Spring 2014, Fall 2009 (Polynomial lower bound, $d$ arbitrary) #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that 
@@ -171,13 +171,12 @@ However, a polynomial of degree $N$ is generically $N$-to-one locally, so inject
 
 
 
-## Tie's Extra Questions: Fall 2015 #complex/exercise/work
+## Spring 2020 HW 3.5, Tie's Extra Questions: Fall 2015 #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $f$ be entire and suppose that
 $\lim_{z \rightarrow \infty} f(z) = \infty$. Show that $f$ is a polynomial.
 :::
-
 
 :::{.solution}
 Note that $f$ has finitely many zeros: since $f$ is unbounded, there is some $R$ such that $f(\DD_R^c) \subseteq \DD^c$, so in particular $f$ is nonvanishing on $\DD_R^c$.
@@ -194,7 +193,6 @@ Now $F$ is a nonvanishing entire function.
 $F$ is bounded on $\CC$.
 :::
 
-
 :::{.proof title="of claim"}
 Choose $R\gg 1$ so that all of $z_k$ are in $\DD_R$, so $\abs{\xi - z_k} < R$ for all $\xi \in \DD_R$ and all $k$.
 By Cauchy's integral formula,
@@ -207,35 +205,13 @@ By Cauchy's integral formula,
 &= R^m
 ,\]
 where $R$ is increased if necessary to ensure $\abs{1\over f(z)} < 1$, which can be done since $\abs{f(z)}\to \infty$ as $R\to \infty$.
-
+So $\abs{F(z)} \leq C\abs{z}^m$ in $\bar{\DD_R}^c$ for $R$ large enough, making $F$ a polynomial of degree at most $m$.
+Since $F$ is continuous in $\bar{\DD_R}$ which is compact, $F$ is bounded in here as well, making $F$ bounded on all of $\CC$.
 :::
-
 
 Given this, $F$ is entire and bounded and thus constant by Liouville.
 So $F(z) = c$, and as a result $f(z) = c\Phi(z)$ which is a polynomial of degree $n$.
-
 :::
-
-
-
-
-## Spring 2020 HW 3.5 #complex/exercise/work
-
-Show that if $f$ is entire and $\lim_{z\to\infty}f(z) = \infty$, then
-$f$ is a polynomial.
-
-## Tie's Extra Questions: Fall 2009 #complex/exercise/work
-Suppose $f$ is entire and there exist $A, R >0$ and natural number
-$N$ such that $$|f(z)| \geq A |z|^N\ \text{for}\ |z| \geq R.$$ Show
-that
-
-1. $f$ is a polynomial and
-2. the degree of $f$ is at least $N$.
-
-## Tie's Extra Questions: Fall 2009 #complex/exercise/work
-
-Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of
-degree $\leq 2$.
 
 ## #complex/exercise/work
 
