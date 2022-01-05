@@ -273,12 +273,23 @@ Q_j(z) &= \prod_{k\neq j}(z-b_k) = {Q(z) \over z-z_j}
 
 For $b_\ell$ a simple pole,
 \[
-{P(z) \over Q(z) } = {1\over z-b_\ell} {P(z) \over Q_\ell(z)} = {1\over z-b_\ell}\qty{c_0 + c_1(z-b_k) + c_2(z-b_k)^2 + \cdots}
+{P(z) \over Q(z) } = {1\over z-b_\ell} {P(z) \over Q_\ell(z)} 
+&= {1\over z-b_\ell}\qty{c_0 + c_1(z-b_\ell) + c_2(z-b_\ell)^2 + \cdots} \\
+&= {c_0 \over z-b_\ell} + c_1 + \bigo(z-b_\ell) \\
+& \da {P_{z_\ell}(z)} + c_1 + \bigo(z-b_\ell) 
 ,\]
 so the principal part at $z=z_\ell$ is given by
 \[
-P_{z_\ell}(z) = {P(z) \over Q_\ell(z)}\evalfrom_{z=z_\ell} = \lim_{z\to z_\ell} {(z-z_\ell) P(z) \over Q(z)}
+P_{z_\ell}(z) = {c_0 \over z-b_\ell} = {P(z) \over Q_\ell(z)}\evalfrom_{z=z_\ell} = \lim_{z\to z_\ell} {(z-z_\ell) P(z) \over Q(z)}
 .\]
+
+For $b_\ell$ a double pole,
+\[
+{P(z) \over Q(z) } 
+&= {1\over (z-b_\ell)^2 } {(z-z_\ell)^2P(z) \over Q(z) } \\
+&= {1\over (z-b_\ell)^2}\qty{ d_0 + d_1(z-b_\ell) + d_2(z-b_\ell)^2 }
+.\]
+
 
 
 :::
