@@ -4,6 +4,32 @@ order: 51
 
 # Polynomials
 
+## Big O Estimates
+
+
+## Tie's Extra Questions: Fall 2011 #complex/exercise/work
+
+:::{.problem title="?"}
+Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
+disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
+:::
+
+
+:::{.solution}
+Take a Laurent expansion at zero:
+\[
+f(z) = \sum_{k\geq 0} c_k z^k,\qquad c_k = {1\over k!} f^{(k)}(0) = {1\over 2\pi i}\oint_{\abs{\xi} = R} {f(\xi) \over \xi^{k+1}}\dxi
+.\]
+The usual estimate:
+\[
+2\pi i\abs{c_k} \leq \oint_{\abs{\xi} = R} R^{-(k+1)}\abs{f(\xi)} \dxi
+\leq \oint_{\abs{\xi} = R}R^{-(k+1)} M R^2 \dxi
+.\]
+
+
+:::
+
+
 ## The reverse polynomial bound #complex/exercise/completed
 
 :::{.problem title="?"}
@@ -90,6 +116,8 @@ But the LHS is evidently a polynomial of degree $(N-m)+m = m$.
 :::
 
 
+# Misc
+
 ## Spring 2019.4 #complex/qual/completed
 
 ^047423
@@ -143,11 +171,6 @@ However, a polynomial of degree $N$ is generically $N$-to-one locally, so inject
 :::
 
 
-
-## Tie's Extra Questions: Fall 2011 #complex/exercise/work
-
-Let $f(z)$ be entire and assume that $f(z) \leq M |z|^2$ outside some
-disk for some constant $M$. Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
 
 ## Tie's Extra Questions: Spring 2014 #complex/exercise/work
 
