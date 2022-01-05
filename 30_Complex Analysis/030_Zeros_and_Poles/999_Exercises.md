@@ -137,26 +137,43 @@ If $f$ is holomorphic on $\Omega$ and not identically zero, then $f\inv(0) \inte
 
 :::
 
-
 :::{.solution}
 It suffices to show that if $f(a) = 0$ then $f$ is nonzero on some $\DD_\eps^*(a)$.
 Without loss of generality, suppose $a=0$ and expand $f(z) = \sum_{k\geq 0}c_k z^k = \sum_{k\geq m}c_k z^k$ where $m\geq 0$ is minimal such that $c_m\neq 0$.
 This exists since $f$ is not identically zero, by uniqueness of power series.
 Then write
 \[
-f(z) = \sum_{k\geq m} c_k z^k = z^m \sum_{k\geq m} c_k z^{k-m} = z^m (c_m + c_{m+1}z + \cdots)
-.\]
-
+f(z) = \sum_{k\geq m} c_k z^k = z^m \sum_{k\geq m} c_k z^{k-m} = z^m (c_m + c_{m+1}z + \cdots) \da z^m g(z)
+,\]
+where $g(a) = c_m \neq 0$.
+Being nonzero is an open condition, so $g$ is nonzero in some punctured neighborhood of $a$, making $f$ nonzero there.
 :::
-
 
 :::{.exercise title="Zeros of $\sin(\pi z)$"}
 Show that the complex zeros of $f(z) \da \sin(\pi z)$ are exactly $\ZZ$, and each is order 1.
 Calculate the residue of $1/\sin(\pi x)$ at $z=n\in \ZZ$.
 
-#complex/exercise/work 
+#complex/exercise/completed
 
 :::
+
+
+:::{.solution}
+Write
+\[
+f(z) = \sin(\pi z) = (2i)\inv (e^{i\pi z} - e^{-i\pi z}) = 0 \iff e^{i 2\pi z} = 1 = e^{i 2k\pi} \iff 2\pi z = 2k\pi \iff z=k\in \ZZ
+.\]
+To see that these zeros are order one, write
+\[
+\sin(\pi z) 
+&= \sin(\pi(z-k) + k\pi) \\
+&= \pm \sin(\pi(z-k)) \\
+&= \pm\qty{ \pi(z-k) - {\pi^3\over 3!}(z-k)^3 + \cdots } \\
+&= (z-k)^1 \cdot \pm \qty{ \pi - {\pi^3\over 3!}(z-k)^2 + \cdots } \da (z-k)g(z) \\
+\]
+where $g(k) = \pm \pi \neq 0$, making $z=k$ an order 1 zero.
+:::
+
 
 ## Orders of poles/zeros
 
