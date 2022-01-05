@@ -264,15 +264,20 @@ Find the principal part of $P/Q$ at $z=a$ in terms of $P$ and $Q$ if $a$ is
 
 
 :::{.solution}
-Write $P(z) = \prod_{k\leq n} (z-a_k)$,
-$Q(z) = \prod_{k\leq m}(z-b_k)$, and $Q_j(z) = \prod_{k\neq j}(z-b_k)$.
+Write 
+\[
+P(z) &= \prod_{k\leq n} (z-a_k) \\
+Q(z) &= \prod_{k\leq m}(z-b_k) \\
+Q_j(z) &= \prod_{k\neq j}(z-b_k) = {Q(z) \over z-z_j}
+.\]
+
 For $b_\ell$ a simple pole,
 \[
 {P(z) \over Q(z) } = {1\over z-b_\ell} {P(z) \over Q_\ell(z)} = {1\over z-b_\ell}\qty{c_0 + c_1(z-b_k) + c_2(z-b_k)^2 + \cdots}
 ,\]
 so the principal part at $z=z_\ell$ is given by
 \[
-P_{z_\ell}(z) = {P(z) \over Q_\ell(z)}\evalfrom_{z=z_\ell}
+P_{z_\ell}(z) = {P(z) \over Q_\ell(z)}\evalfrom_{z=z_\ell} = \lim_{z\to z_\ell} {(z-z_\ell) P(z) \over Q(z)}
 .\]
 
 
