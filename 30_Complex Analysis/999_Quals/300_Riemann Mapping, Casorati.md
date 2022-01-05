@@ -124,8 +124,7 @@ So $f$ must be degree exactly 1, i.e. $f(z) = az+b$.
 :::
 
 
-## Tie's Extra Questions: Spring 2015 #complex/exercise/work
-
+## Tie's Extra Questions: Spring 2015 #complex/exercise/completed
 
 :::{.problem title="?"}
 1.
@@ -141,7 +140,6 @@ Explain the similarity and difference between the above assertion and the Weiers
 > DZG: I think it's also necessary to state that $z_n \to a$.
 
 :::
-
 
 :::{.solution}
 
@@ -163,11 +161,10 @@ So $G(a_k) = 0$ for all $k$ and $G$ extends holomorphically over the removable s
 But now $G$ is zero on a set with a limit point, hence $G\equiv 0$ by the identity principle.
 This is a contradiction since if $G\equiv 0$ on an open set, $f$ has poles on an open set, contradicting that $f$ is holomorphic on $\Omega$.
 
-The difference to Casorati-Weierstrass: ?
+The difference to Casorati-Weierstrass: the singularity at $a$ is not essential, since in particular it is not isolated. 
+The conclusion is nearly the same though: this says that every $w\in \CC$ is a limit point for $f(\Omega)$, so $w$ is in the closure of $f(\Omega)$, making the image dense in $\CC$.
 
 :::
-
-
 
 ## Tie's Extra Questions: Fall 2015 #complex/exercise/work
 
