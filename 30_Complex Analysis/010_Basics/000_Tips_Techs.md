@@ -15,7 +15,7 @@ Some useful notation:
 - $\bar\Delta \da \bar{\DD}_1(0)$ the closed unit disc
 - $\Delta^* \da \DD_1^*(0)$ the punctured unit disc.
 - $\Omega$ an open simply-connected subset of $\CC$.
-- $\OO(\Omega), \Hol(\Omega), \Hol(\Omega, \CC)$ the holomorphic functions $f:\Omega \to \CC$.
+- $\OO(\Omega), \Hol(\Omega), \Hol(\Omega, \CC)$ the holomorphic functions $f:\Omega \to \CC$ equipped with the structure of a $\CC\dash$algebra..
 
 ## Greatest Hits
 
