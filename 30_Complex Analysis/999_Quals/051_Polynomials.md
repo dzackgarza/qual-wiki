@@ -232,14 +232,16 @@ Find the principal part of $P/Q$ at $z=a$ in terms of $P$ and $Q$ if $a$ is
 (2) a double root.
 
 
-## Tie's Extra Questions: Spring 2015 #complex/exercise/work
+## Tie's Extra Questions: Spring 2015 (Polynomial upper bound, $d$ arbitrary) #complex/exercise/work
 
-
+:::{.problem title="?"}
 Suppose $f$ is entire and there exist $A, R >0$ and natural number $N$ such that $|f(z)| \leq A |z|^N$ for $|z| \geq R$. 
 Show that 
 
 (i) $f$ is a polynomial and 
 (ii) the degree of $f$ is at most $N$.
+
+:::
 
 ## Tie's Extra Questions: Fall 2016 #complex/exercise/work
 
