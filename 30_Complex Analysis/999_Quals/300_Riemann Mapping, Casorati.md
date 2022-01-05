@@ -166,51 +166,17 @@ The conclusion is nearly the same though: this says that every $w\in \CC$ is a l
 
 :::
 
-## Tie's Extra Questions: Fall 2015 #complex/exercise/completed
-
-:::{.problem title="?"}
-Let $f(z) = \sum_{n=0}^\infty c_n z^n$ be analytic and one-to-one in $|z| < 1$. 
-For $0<r<1$, let $D_r$ be the disk $|z|<r$. 
-Show that the area of $f(D_r)$ is finite and is given by
-$$
-S = \pi \sum_{n=1}^\infty n |c_n|^2 r^{2n}
-.$$ 
-
-> Note that in
-general the area of $f(D_1)$ is infinite.
-
-:::
-
-:::{.solution}
-Since $f$ is injective, $f'$ is nonvanishing in $\Omega \da \abs{z} \leq r$.
-A computation:
-\[
-\mu(f(\DD_r))
-&= \int_{\DD_r} \abs{f'(z)}\dz \\
-&= \int_{\DD_r} f'(z) \bar{f'(z)} \dz \\
-&= \int_{\DD_r} \qty{\sum_{j\geq 1} jc_j z^{j-1} } \bar{ \qty{\sum_{k\geq 1} kc_k z^{k-1}}} \dz \\
-&= \int_{\DD_r} \qty{\sum_{j\geq 1} j c_j z^{j-1} } { \qty{\sum_{k\geq 1} k \bar{c_k} \bar{z}^{k-1} }} \dz \\
-&= \int_{\DD_r} \sum_{j, k\geq 1} jk c_j \bar{c_k} z^{j-1}\bar{z}^{k-1}\dz \\
-&= \int_0^R\int_0^{2\pi} \sum_{j, k\geq 1} 
-jk c_j \bar{c_k} (re^{it})^{j-1} (re^{-it})^{k-1} r\dr \dt \\
-&= \int_0^R\int_0^{2\pi} \sum_{j, k\geq 1} 
-jk c_j \bar{c_k} r^{j+k-1} e^{i(j-k)t} \dr\dt \\
-&= \int_0^R \sum_{k\geq 1} k^2 \abs{c_k}^2 r^{2k-1} \cdot 2\pi \dt \\
-&= \sum_{k\geq 1} k^2 \abs{c_k}^2 {r^{2k} \over 2k}\evalfrom_{r=0}^R \\
-&= \pi \sum_{k\geq 1} k \abs{c_k}^2 R^{2k}
-.\]
-:::
-
-
-
-
 ## Tie's Extra Questions: Fall 2015 (Variant) #complex/exercise/work
 
-
+:::{.problem title="?"}
 Let $f(z) = \sum_{n= -\infty}^\infty c_n z^n$ be analytic and one-to-one in $r_0< |z| < R_0$. For $r_0<r<R<R_0$, let $D(r,R)$ be the annulus $r<|z|<R$. Show that the area of $f(D(r,R))$ is finite and is given by
 $$S = \pi \sum_{n=- \infty}^\infty n |c_n|^2 (R^{2n} - r^{2n}).$$
 
+:::
+
 ## 4 #complex/exercise/work
+
+:::{.problem title="?"}
 Suppose $f: \HH\union \RR\to \CC$ satisfies the following:
 
 - $f(i) = i$
@@ -219,3 +185,6 @@ Suppose $f: \HH\union \RR\to \CC$ satisfies the following:
 - $f(z) \in \RR \iff z\in \RR$.
 
 Show that $f(\HH)$ is a dense subset of $\HH$.
+:::
+
+
