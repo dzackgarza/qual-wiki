@@ -93,6 +93,16 @@ Let $\Omega = \Omega^+ \union I \union \Omega^-$ be a region symmetric about $\R
 If $f$ is holomorphic on $\Omega^+$ extending continuously to $I$ and real valued on $I$, then $f$ extends to a holomorphic function $F$ on all of $\Omega$ defined on $\Omega^-$ by $F(z) = \bar{f(\bar{z})}$.
 
 **Part 2**:
+The map is $T(z) = -i\qty{z+1\over z-1}$ with $T\inv(z) = {z-i\over z+i}$, so
+\[
+(T\inv \circ g \circ T)(z)
+&= T\inv\bar{\qty{-i {z+1\over z-1} }} \\
+&= T\inv\qty{i{\bar z + 1 \over \bar z - 1}} \\
+&= {i\qty{\bar z + 1 \over \bar z - 1} - i \over i\qty{\bar z + 1 \over \bar z - 1} + i } \\
+&= {(\bar z + 1) - (\bar z - 1) \over (\bar z + 1) + (\bar z - 1)} \\
+&= {1\over \bar{z}}
+.\]
+
 
 **Part 3**:
 
