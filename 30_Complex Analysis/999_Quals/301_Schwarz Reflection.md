@@ -4,7 +4,7 @@ order: 301
 
 # Schwarz Reflection
 
-## Tie's Extra Questions: Spring 2015 #complex/exercise/work
+## Tie's Extra Questions: Spring 2015 #complex/exercise/completed
 
 :::{.problem title="?"}
 (1) Assume $u$ is harmonic on open set $O$ and $z_n$ is a sequence
@@ -24,7 +24,6 @@ harmonic functions
 Schwarz reflection principle.
 
 :::
-
 
 :::{.solution}
 **Part 1**:
@@ -58,22 +57,15 @@ U(z_0)
 .\]
 So for $w_0\in S^-$, write it as $w_0 = \bar{z_0}$, then
 \[
-U(w_0) 
-&= u(\bar{z_0}) \\
-&= {1\over 2\pi}\int_{-\pi}^\pi u(\bar{z_0} + re^{it})\dt \\
-&= {1\over 2\pi}\int_{-\pi}^\pi u(\bar{z_0} + re^{-it})\dt \\
-&= {1\over 2\pi}\int_{-\pi}^\pi u(\bar{z_0 + re^{it}} )\dt \\
-&= {1\over 2\pi}\int_{-\pi}^\pi U(\bar{z_0 + re^{it}})
+U(z_0)
+&\da -u(\bar{z_0}) \\
+&= {1\over 2\pi }\int_{-\pi}^\pi - u\qty{\bar{z_0 + re^{it} }} \dt \\
+&= {1\over 2\pi }\int_{-\pi}^\pi - u\qty{\bar{z_0} + re^{-it} } \dt \\
+&= {1\over 2\pi }\int_{-\pi}^\pi - u\qty{\bar{z_0 + re^{-it} }} \dt \\
+&= {1\over 2\pi }\int_{-\pi}^\pi U(z_0 + re^{it} ) \dt
 .\]
-
-
-\[
-
-.\]
-
 
 :::
-
 
 ## 7 #complex/exercise/work
 
@@ -94,10 +86,13 @@ Show that $f$ must be constant.
 
 :::
 
-
 ## Spring 2020 HW 2 #  2.6.15
 
+:::{.problem title="?"}
 Suppose $f$ is continuous and nonvanishing on $\bar \DD$, and holomorphic in $\DD$.
 Prove that if $\abs{z} = 1 \implies \abs{f(z)} = 1$, then $f$ is constant.
 
 > Hint: Extend $f$ to all of $\CC$ by $f(z) = 1/ \bar{f(1/\bar z)}$ for any $\abs{z} > 1$, and argue as in the Schwarz reflection principle.
+:::
+
+
