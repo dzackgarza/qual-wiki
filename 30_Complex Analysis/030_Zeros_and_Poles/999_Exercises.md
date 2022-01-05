@@ -149,14 +149,13 @@ where $g(a) = c_m \neq 0$.
 Being nonzero is an open condition, so $g$ is nonzero in some punctured neighborhood of $a$, making $f$ nonzero there.
 :::
 
-:::{.exercise title="Zeros of $\sin(\pi z)$"}
+:::{.exercise title="Zeros of $\sin(\pi z)$ and singularities of $\csc(\pi z)$"}
 Show that the complex zeros of $f(z) \da \sin(\pi z)$ are exactly $\ZZ$, and each is order 1.
 Calculate the residue of $1/\sin(\pi x)$ at $z=n\in \ZZ$.
 
 #complex/exercise/completed
 
 :::
-
 
 :::{.solution}
 Write
@@ -172,8 +171,12 @@ To see that these zeros are order one, write
 &= (z-k)^1 \cdot \pm \qty{ \pi - {\pi^3\over 3!}(z-k)^2 + \cdots } \da (z-k)g(z) \\
 \]
 where $g(k) = \pm \pi \neq 0$, making $z=k$ an order 1 zero.
-:::
 
+For the residues:
+\[
+\Res_{z=k} \csc(\pi z) = \lim_{z\to k} (z-k)\csc(\pi z) \eqLH \sec(k\pi) = (-1)^{k+1}
+.\]
+:::
 
 ## Orders of poles/zeros
 
@@ -224,13 +227,6 @@ using that $z/\sin(z) \convergesto{z\to 0} 1$.
   &= z^{-4}(1 + z^2 + {1\over 2!} (z^2)^2 + {1\over 3!} (z^2)^3 + \bigo(z^4) - 1) \\
   &= z^{-2} + {1\over 2!} + {1\over 3!} z^2 + \bigo(z^4)
   .\]
-
-:::
-
-:::{.exercise title="Poles of $1/\sin$"}
-Show that all singularities of $1/\sin(z)$ are poles of order 1.
-
-#complex/exercise/work
 
 :::
 
@@ -353,6 +349,9 @@ Start by computing the first:
 
 :::{.exercise title="?"}
 Show that if $f$ is entire and $f(1/z)$ has a pole at $z=0$, then $f$ is a polynomial.
+
+#complex/exercise/completed
+
 :::
 
 
