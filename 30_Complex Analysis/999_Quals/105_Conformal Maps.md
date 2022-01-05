@@ -687,8 +687,8 @@ Now $F(z_1), G(z_1')\in S^1$, so there is a rotation $h: z\mapsto \lambda z$ tha
 Take the final map to be $f\da G\circ h \circ F\inv$.
 :::
 
-
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
+
 :::{.problem title="?"}
 Let $f(z)$ be an analytic function on
 ${\mathbb C} \backslash \{ z_0 \}$, where $z_0$ is a fixed point.
@@ -698,10 +698,7 @@ is bounded outside $D_r(z_0)$, where $r$ is some fixed positive
 number. Show that there exist $a, b, c, d \in \mathbb C$ with
 $ad-bc \neq 0$, $c \neq 0$ such that
 $\displaystyle f(z) = \frac{az + b}{cz + d}$.
-
-
 :::
-
 
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
@@ -722,5 +719,4 @@ Prove that
 
 
 :::
-
 
