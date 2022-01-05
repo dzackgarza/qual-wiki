@@ -144,6 +144,9 @@ Explain the similarity and difference between the above assertion and the Weiers
 
 
 :::{.solution}
+
+![](figures/2022-01-05_05-27-45.png)
+
 As in the proof of Casorati-Weierstrass, fix $w$ and suppose toward a contradiction that no sequence sequence exists.
 Then there is some $\eps, R$ such that 
 \[
@@ -161,7 +164,6 @@ But now $G$ is zero on a set with a limit point, hence $G\equiv 0$ by the identi
 This is a contradiction since if $G\equiv 0$ on an open set, $f$ has poles on an open set, contradicting that $f$ is holomorphic on $\Omega$.
 
 The difference to Casorati-Weierstrass: ?
-
 
 :::
 
