@@ -15,6 +15,7 @@ Some useful notation:
 - $\bar\Delta \da \bar{\DD}_1(0)$ the closed unit disc
 - $\Delta^* \da \DD_1^*(0)$ the punctured unit disc.
 - $\Omega$ an open simply-connected subset of $\CC$.
+- $\OO(\Sigma), \Hol(\Sigma)$ the holomorphic functions $f:
 
 ## Greatest Hits
 
