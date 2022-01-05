@@ -144,19 +144,24 @@ Explain the similarity and difference between the above assertion and the Weiers
 
 
 :::{.solution}
-Without loss of generality, by translating $f$ we can take $a=0$ so that $a_n\to 0$.
-Toward a contradiction, pick a $w$ with no such sequence.
-Then there exists an $\eps$ and $R$ such that $f(\DD_\eps(a) ) \subseteq \DD_R(w)^c$, so in particular $\abs{f(z) - w} > R$ for $\abs{z-a} < \eps$.
-So define
+As in the proof of Casorati-Weierstrass, fix $w$ and suppose toward a contradiction that no sequence sequence exists.
+Then there is some $\eps, R$ such that 
 \[
-G(z) \da {1\over f(z) - w} \implies \abs{G(z)} \leq R\inv < \infty \qquad \text{in } \DD_\eps(a)
+f(\DD_\eps(a)) \subseteq \DD_R(w)^c
 ,\]
-If any of the $a_k$ are singularities, there is an $N \gg 1$ such that $\abs{z-z_k} < \eps$ for $k\geq N$, and since the bound holds here, the $a_k$ are all removable for $k\geq N$
-So $a$ is an isolated singularity, and the bound implies it is removable.
-By Riemann's removable singularity theorem, $G$ extends holomorphically over $a$.
+for otherwise one could construct the desired sequence.
+In particular, $\abs{f(z) - w} > R$ for $\abs{z-a} < \eps$, so define
+\[
+G(z) \da {1\over f(z) - w} \implies \abs{G(z)} \leq R\inv < \infty \qquad \text{in }\DD_\eps(a)
+.\]
+Since $G$ is bounded in this disc, any singularities here must be removable.
+Since the $a_k$ are poles of $f$, they are zeros of $G$ -- this is because if $\abs{f(z)}\to\infty$ as $z\to a_k$ then $\abs{G(z)}\to 0$.
+So $G(a_k) = 0$ for all $k$ and $G$ extends holomorphically over the removable singularity $a$, and by continuity must satisfies $G(a) = 0$.
+But now $G$ is zero on a set with a limit point, hence $G\equiv 0$ by the identity principle.
+This is a contradiction since if $G\equiv 0$ on an open set, $f$ has poles on an open set, contradicting that $f$ is holomorphic on $\Omega$.
 
-Since the $a_k$ were poles of $f(z)$, they are poles of $f(z) - w$ since $\abs{f(z) - w} \geq \abs{\abs{f(z)} - \abs{w} } \to \infty$ as $a_k\to a$, and thus these are zeros of $G$ for $k\geq N$.
-Since $G$ is holomorphic on $\DD_\eps(a)$ and $G(a_k) = 0$, choosing $N$ large enough so that $\abs{a_k - a} < \eps$, we have $\abs{G(z)} = 0 < R$ infinitely often, contradicting that
+The difference to Casorati-Weierstrass: ?
+
 
 :::
 
