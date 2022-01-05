@@ -2,7 +2,9 @@
 order: 125
 ---
 
-# Delbar and the Laplacian
+# Harmonic Functions
+
+## Delbar and the Laplacian
 
 :::{.definition title="Laplacian and Harmonic Functions"}
 A real function of two variables $u(x, y)$ is **harmonic** iff it is in the kernel of the Laplacian operator:
@@ -34,6 +36,19 @@ Written slightly more explicitly:
 
 :::
 
+
+:::{.proposition title="Mean Value Property"}
+If $u$ is harmonic on $\Omega$ then
+\[
+u(z_0) = u(x_0 + i y_0) = {1\over 2\pi r} \oint_{\bd \DD_r(z_0)} u \ds = {1\over \pi r^2} \iint_{\DD_r(z_0)} u(x, y) \dx \dy
+.\]
+
+
+:::
+
+
+## Exercises: Harmonic Functions
+
 :::{.exercise title="Holomorphic iff delbar vanishes"}
 Show that $f$ is holomorphic iff $\delbar f = 0$.
 :::
@@ -47,8 +62,6 @@ Show that $f$ is holomorphic iff $\delbar f = 0$.
 &= 0 && \text{by Cauchy-Riemann}
 .\]
 :::
-
-### Exercises: Harmonic Functions
 
 :::{.exercise title="Holomorphic functions have harmonic components"}
 Show that if $f = u+iv$ is holomorphic then $u, v$ are harmonic.
