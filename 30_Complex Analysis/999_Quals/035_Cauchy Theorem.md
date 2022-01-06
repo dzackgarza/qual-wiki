@@ -93,55 +93,10 @@ Now integrating $f$:
 .\]
 :::
 
-## 4 #complex/exercise/work
+## No polynomials converging uniformly to $1/z$ #complex/exercise/completed
 
 :::{.problem title="?"}
-Suppose $\theset{f_n}_{n\in \NN}$ is a sequence of entire functions where
-
-- $f_n \to g$ pointwise for some $g:\CC\to\CC$.
-- On every line segment in $\CC$, $f_n \to g$ uniformly.
-
-Show that 
-
-- $g$ is entire, and
-- $f_n\to g$ uniformly on every compact subset of $\CC$.
-:::
-
-
-:::{.solution}
-Note that $g$ is entire by Morera's theorem, since $0 = \int_T f_n \to \int_T g$ by uniform convergence and the $f_n$ are holomorphic.
-By Cauchy's theorem, up to a constant we have
-\[
-f_n(z) = \oint_T {f_n(\xi) \over \xi - z}\dxi
-g(z) = \oint_T {g(\xi) \over \xi - z}\dxi
-,\]
-and thus
-\[
-\abs{f_n(z) - g(z)}
-&= \abs{ 
-\oint_T {f_n(\xi) \over \xi - z}\dxi
-- \oint_T {g(\xi) \over \xi - z}\dxi
-} \\
-&\leq \oint_T {\abs{f_n(\xi) - g(\xi)} \over \xi - z }\dxi \\
-&\leq \oint_T { \sup_{\xi\in T}\abs{f_n(\xi) - g(\xi)} \over \xi - z }\dxi \\
-&\leq \oint_T { \eps \over \xi - z }\dxi \\
-&= \eps C \to 0
-.\]
-
-
-:::
-
-
-
-## 5 #complex/exercise/completed
-
 Prove that there is no sequence of polynomials that uniformly converge to $f(z) = {1\over z}$ on $S^1$.
-
-
-:::{.concept}
-\envlist
-
-- Uniform limit of holomorphic function is holomorphic
 
 :::
 
@@ -151,7 +106,12 @@ Prove that there is no sequence of polynomials that uniformly converge to $f(z) 
 - If $p_j$ is any polynomial, then $p_j$ is holomorphic in $\DD$, so $\int_{S^1} p_j = 0$.
 - Contradiction: compact sets in $\CC$ are bounded, so 
   \[
-  \abs{\int f - \int p_j} \leq \int \abs{p_j - f} \leq \int \norm{p_j - f}_\infty  = \norm{p_j - f}_\infty \int_{S^1} 1 \,dz = \norm{p_j-f}_\infty \cdot 2\pi \to 0
+  \abs{\int f - \int p_j} 
+  &\leq \int \abs{p_j - f} \\
+  &\leq \int \norm{p_j - f}_\infty  \\
+  &= \norm{p_j - f}_\infty \int_{S^1} 1 \,dz \\
+  &= \norm{p_j-f}_\infty \cdot 2\pi \\
+  &\to 0
   \]
   which forces $\int f = \int p_j = 0$.
 :::
