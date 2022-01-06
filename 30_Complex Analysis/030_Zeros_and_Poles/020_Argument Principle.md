@@ -134,7 +134,6 @@ This is continuous provided $f(z) \neq w$ on $\bd \Omega$ and is $\ZZ\dash$value
 
 :::
 
-
 ## Exercises
 
 :::{.exercise title="?"}
