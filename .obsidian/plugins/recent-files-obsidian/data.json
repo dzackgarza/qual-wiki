@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
       "basename": "10_Problems",
       "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "300_Riemann Mapping, Casorati",
       "path": "30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati.md"
-    },
-    {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
     {
       "basename": "040_Open Mapping",

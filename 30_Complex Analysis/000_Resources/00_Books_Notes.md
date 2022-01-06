@@ -48,7 +48,7 @@ In the Spirit of Lipman Bers*
 
 # Summaries
 
-- [Very condensed summary](https://www.math.uci.edu/~timmym/Complex%20Analysis.pdf)
+- [Very condensed summary with lots of explicit computations](https://www.math.uci.edu/~timmym/Complex%20Analysis.pdf)
 	#resources/summaries
 
 -  [[attachments/Eur_ComplexAnalysis_Notes (1).pdf|Chris Eur, Stein and Shakarchi speedrun]]
