@@ -219,7 +219,7 @@ So $f'\equiv 0$.
 :::{.problem title="?"}
 Assume $f$ is continuous in the region:
 \[
-0 < \abs{z-a} < \leq R,\quad 0 \leq \Arg(z-a) \leq \beta_0 \qquad \beta_0\in (0, 2\pi]
+0 < \abs{z-a} \leq R,\quad 0 \leq \Arg(z-a) \leq \beta_0 \qquad \beta_0\in (0, 2\pi]
 .\]
 
 and the following limit exists:
