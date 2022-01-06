@@ -438,11 +438,40 @@ Now using that $z\sin(z) - a$ has exactly $2n+2$ *real* roots (??), this must be
 
 #stuck
 
-### Spring 2020 HW 3.13 #complex/exercise/work
+### Spring 2020 HW 3.13 #complex/exercise/work #stuck
 
 :::{.problem title="?"}
 Prove that for $a> 0$, $z\tan z - a$ has only real roots.
 :::
 
-#stuck
+
+### UMN Spring 2011 #complex/exercise/completed
+
+:::{.problem title="?"}
+Let $a\in \CC$ and $n\geq 2$.
+Show that the following polynomial has one root in $\abs{z} \leq 2$:
+\[
+f(z) = az^n + z + 1
+.\]
+:::
+
+
+:::{.solution}
+The key step: getting the following inequality to work
+\[
+\abs{az^n} = \abs{a}\abs{z}^n < c \leq 1 = \abs{ \abs{z} - \abs{1} } \leq \abs{z+1} 
+.\]
+If this is true, then $1 = \size Z_{z+1} = \size Z_f$.
+If $\abs{a} < 2^n$, this holds because $\abs{a}\abs{z}^n < {1\over 2^n} 2^n = 1$, so taking $c\da 1$ works.
+Otherwise, suppose $\abs{a} \leq 2^n$.
+Letting $z_k$ be the roots of $f$ and considering the constant coefficient, we have
+\[
+a\prod z_k = 1 \implies {1\over a} = \prod z_k
+,\]
+so it suffices to show $\abs{\prod z_k} \geq 2^n$ since this yields $\abs{1\over a} \geq 2^n$.
+
+
+:::
+
+
 
