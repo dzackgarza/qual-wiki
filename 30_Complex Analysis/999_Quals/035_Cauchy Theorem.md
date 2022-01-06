@@ -64,11 +64,24 @@ F(z) = -\qty{f(z) - A} = -f(z) + A
 .\]
 :::
 
-## Proving Cauchy using Green's #complex/exercise/completed
+## Tie's Extra Questions: Fall 2009 (Proving Cauchy using Green's) #complex/exercise/completed
 
 :::{.problem title="?"}
 State and prove Green's Theorem for rectangles.
 Use this to prove Cauchy's Theorem for functions that are analytic in a rectangle.
+:::
+
+:::{.problem title="Variant"}
+Suppose $f\in C_\CC^1(\Omega)$ and $T\subset \Omega$ is a triangle with $T^\circ \subset \Omega$.
+
+- Apply Green's theorem to show that $\int_T f(z) ~dz = 0$.
+- Assume that $f'$ is continuous and prove Goursat's theorem.
+
+> Hint: Green's theorem states
+\[
+\int_{T} F d x+G d y=\int_{T^\circ}\left(\frac{\partial G}{\partial x}-\frac{\partial F}{\partial y}\right) d x d y
+.\]
+
 :::
 
 :::{.solution}
@@ -214,7 +227,7 @@ The main idea:
 So $f'\equiv 0$.
 :::
 
-## Tie's Extra Questions Fall 2009 (Fractional residue formula) #complex/exercise/work
+## Tie's Extra Questions Fall 2009 (Fractional residue formula) #complex/exercise/completed
 
 :::{.problem title="?"}
 Assume $f$ is continuous in the region:
@@ -259,9 +272,14 @@ Then
 &= \sum_{k\geq -1} c_k \int_{\gamma_r} z^k \dz \\
 &= c_{-1}\int_{\gamma_r}{1\over z}\dz \\
 &= c_{-1}\int_{0}^{\beta_0} {1\over re^{i t}} ire^{it} \dt \qquad z= re^{it}, \dz = ire^{it} \dt \\
-&= c_{-1}\int_{0}^{\beta_0} 
+&= i c_{-1}\int_{0}^{\beta_0} \dt \\
+&= i c_{-1}\beta_0
 .\]
-
+Now use that
+\[
+zf(z) = c_{-1} + c_0z + \cdots \convergesto{z\to 0} c_{-1} = A
+,\]
+so the integral is $iA\beta_0$.
 :::
 
 
@@ -270,15 +288,6 @@ Then
 
 ## Spring 2020 HW 2 #  2.6.5 #complex/exercise/work
 
-Suppose $f\in C_\CC^1(\Omega)$ and $T\subset \Omega$ is a triangle with $T^\circ \subset \Omega$.
-
-- Apply Green's theorem to show that $\int_T f(z) ~dz = 0$.
-- Assume that $f'$ is continuous and prove Goursat's theorem.
-
-> Hint: Green's theorem states
-\[
-\int_{T} F d x+G d y=\int_{T^\circ}\left(\frac{\partial G}{\partial x}-\frac{\partial F}{\partial y}\right) d x d y
-.\]
 
 ## Spring 2020 HW 2 #  2.6.6 #complex/exercise/work
 
