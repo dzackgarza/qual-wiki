@@ -8,15 +8,39 @@ order: 35
 
 ^f2a684
 
+:::{.problem title="?"}
 Let $\gamma$ be a piecewise smooth simple closed curve with interior $\Omega_1$ and exterior $\Omega_2$.
 Assume $f'$ exists in an open set containing $\gamma$ and $\Omega_2$ with $\lim_{z\to \infty} f(z) = A$.
 Show that
 $$
-\frac{1}{2 \pi i} \int_{\gamma} \frac{f(\xi)}{\xi-z} d \xi=\left\{\begin{array}{ll}
+F(Z) \da \frac{1}{2 \pi i} \int_{\gamma} \frac{f(\xi)}{\xi-z} d \xi=\left\{\begin{array}{ll}
 A, & \text { if } z \in \Omega_{1} \\
 -f(z)+A, & \text { if } z \in \Omega_{2}
 \end{array}\right.
 .$$
+
+> NOTE (DZG): I think there is a typo in this question....probably this should equal $f(z)$ for $z\in \Omega_1$, which is Cauchy's formula...
+
+:::
+
+:::{.solution}
+Note that $G_z(\xi) \da {f(\xi) \over \xi - z}$ has a pole of order one at $\xi = z$ and also a pole at $\xi = \infty$.
+If $z\in \Omega_1$, then $\gamma$ encloses just the pole $\xi = z$, so apply the residue theorem:
+\[
+F(z) 
+&\da {1\over 2\pi i}\oint_\gamma {f(\xi) \over \xi - z}\dxi \\
+&= {1\over 2\pi i}\oint_\gamma G_z(\xi) \dxi \\
+&= \Res_{\xi = z} G_z(\xi) \\
+&= \lim_{\xi\to z} (\xi - z) G_z(\xi) \\ 
+&= \lim_{\xi\to z} (\xi - z) {f(\xi) \over \xi-z} \\ 
+&= \lim_{\xi\to z} f(\xi) \\
+&= f(z)
+.\]
+
+Now if $z\in \Omega_2$, then $\gamma$ encloses both $\xi=z, \infty$, and is oriented negatively.
+
+:::
+
 
 ## 2 #complex/exercise/work
 
