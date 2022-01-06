@@ -214,7 +214,7 @@ The main idea:
 So $f'\equiv 0$.
 :::
 
-## Limit of a line integral, Tie's Extra Questions Fall 2009 #complex/exercise/work
+## Tie's Extra Questions Fall 2009 (Fractional residue formula) #complex/exercise/work
 
 :::{.problem title="?"}
 Assume $f$ is continuous in the region:
