@@ -11,7 +11,6 @@ Let $f(z)$ be entire and assume that $\abs{f(z)} \leq M |z|^2$ outside of some d
 Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
 :::
 
-
 :::{.solution}
 \envlist
 
@@ -26,7 +25,6 @@ Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
 - But then $f$ is a power series annihilated by taking $n+1$ derivatives, so it is a polynomial of degree at most $n$.
 :::
 
-
 ## Uniform sequence implies uniform derivatives #complex/exercise/work
 
 :::{.problem title="?"}
@@ -36,21 +34,10 @@ bounded and closed sub-regions of $D$.
 Show that $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on bounded and closed sub-regions of $D$.
 :::
 
-:::{.solution}
-\envlist
-
-- Show a stronger statement: if $f_n\to f$ uniformly with each $f_n$ holomorphic on every compact subset of $D$ then $f_n'\to f'$ on every compact subset of $D$.
-
-- We have $\norm{f_n-f}_{\infty, D}\to 0$, the sup norm on $D$.
-- Pick a $\gamma$ in $\interior{D}$
-- ????
-
-:::
-
-
 ## Tie's Extra Questions: Spring 2014 #complex/exercise/work
 
 
+:::{.problem title="?"}
 The question provides some insight into Cauchy's theorem. Solve the
 problem without using the Cauchy theorem.
 
@@ -65,6 +52,9 @@ problem without using the Cauchy theorem.
     $\displaystyle{\int_{\gamma}\frac{dz}{(z-a)(z-b)} dz=\frac{2\pi i}{a-b}}$.
     Here $\gamma$ denotes the circle centered at the origin, of
     radius $r$, with the positive orientation.
+
+:::
+
 ## Fall 2019.3, Spring 2020 HW 2.9 (Cauchy's Formula for Exterior Regions) #complex/qual/completed
 
 ^f2a684
