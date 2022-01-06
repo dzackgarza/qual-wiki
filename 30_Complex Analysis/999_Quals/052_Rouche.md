@@ -444,8 +444,7 @@ Now using that $z\sin(z) - a$ has exactly $2n+2$ *real* roots (??), this must be
 Prove that for $a> 0$, $z\tan z - a$ has only real roots.
 :::
 
-
-### UMN Spring 2011 #complex/exercise/completed
+### UMN Spring 2011 (Constant coefficient trick) #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $a\in \CC$ and $n\geq 2$.
@@ -455,7 +454,6 @@ f(z) = az^n + z + 1
 .\]
 :::
 
-
 :::{.solution}
 The key step: getting the following inequality to work
 \[
@@ -463,14 +461,13 @@ The key step: getting the following inequality to work
 .\]
 If this is true, then $1 = \size Z_{z+1} = \size Z_f$.
 If $\abs{a} < 2^n$, this holds because $\abs{a}\abs{z}^n < {1\over 2^n} 2^n = 1$, so taking $c\da 1$ works.
-Otherwise, suppose $\abs{a} \leq 2^n$.
+
+Otherwise, suppose $\abs{a} \geq 2^n$.
 Letting $z_k$ be the roots of $f$ and considering the constant coefficient, we have
 \[
-a\prod z_k = 1 \implies {1\over a} = \prod z_k
+a\prod_{k\leq n} z_k = 1 \implies \abs{ \prod_{k\leq n} z_k } = \abs{1\over a} \leq 2^n
 ,\]
-so it suffices to show $\abs{\prod z_k} \geq 2^n$ since this yields $\abs{1\over a} \geq 2^n$.
-
-
+so not every $z_k$ can satisfy $\abs{z_k} > 2$ and at least one is in $\abs{z} \leq 2$.
 :::
 
 
