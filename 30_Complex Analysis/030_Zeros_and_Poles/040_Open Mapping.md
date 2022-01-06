@@ -25,7 +25,6 @@ Any holomorphic non-constant map is an open map.
 
 :::
 
-
 :::{.proof title="using local degrees"}
 
 ![attachments/Pasted image 20211215022640.png](attachments/Pasted%20image%2020211215022640.png)
@@ -35,4 +34,9 @@ Any holomorphic non-constant map is an open map.
 
 ## Exercises
 
-#todo
+
+:::{.exercise title="?"}
+Show that there is no injective conformal map from $\ts{0< \abs{z} < 1}$ to $\ts{1<\abs{z} < 2}$.
+
+:::
+
