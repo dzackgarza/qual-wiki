@@ -302,7 +302,39 @@ But equality occurs iff $\Re(z) = -1$ on $S^1$, so $z=-1$, in which case $\abs{m
 So $2 = Z_M = Z_f$.
 :::
 
+### Right half-plane estimate #complex/exercise/completed
 
+:::{.problem title="?"}
+Find the number of zeros $z$ with $\Re(z) > 0$ for the following function:
+\[
+f(z) \da z^3-z+1
+.\]
+:::
+
+:::{.solution}
+Take a contour $\gamma_1 \da \ts{it \st t\in \RR}$ and $\gamma_2\da \ts{Re^{it} \st t\in [-\pi, \pi]}$.
+
+- Big: $M(z) = z^3 + 1$
+- Small: $m(z) = -z$
+
+On $\gamma_2$, we have $\abs{z} = R$, so take $R$ large enough that the following estimate holds:
+\[
+\abs{M(z)} = \abs{z^3 + 1} \geq \abs{ \abs{z}^3 - 1} = R^3 - 1 > R
+= \abs{m(z)} = R
+.\]
+In particular, this works for $R> 1$.
+
+On $\gamma_1$, note
+
+- $\abs{M(z)} = \abs{ (it)^3 + 1 } = \abs{1-it^3}$
+- $\abs{m(z)} = \abs{it}$
+
+These can be interpreted geometrically: the former is the hypotenuse of a triangle and the latter is a leg, so $\abs{M(z)} \geq \abs{m(z)}$ will hold:
+
+
+![](figures/2022-01-06_05-02-12.png)
+
+:::
 
 ### Zeros of $e^z$ #complex/exercise/completed
 
