@@ -250,6 +250,17 @@ where $L$ is the part of the circle $|z|=R'$ which lies in the region $D$.
 :::
 
 :::{.solution}
+Without loss of generality take $a=0$.
+Since $zf(z) \to A$ as $z\to 0$, $z=0$ is a simple pole of $f$ and we can write $f(z) = c_{-1}z\inv + c_0 + c_1z + \cdots$.
+Then
+\[
+\int_{\gamma_r} f(z)\dz 
+&= \int_{\gamma_r} \sum_{k\geq -1} c_k z^k \dz \\
+&= \sum_{k\geq -1} c_k \int_{\gamma_r} z^k \dz \\
+&= c_{-1}\int_{\gamma_r}{1\over z}\dz \\
+&= c_{-1}\int_{0}^{\beta_0} {1\over re^{i\beta_0 t}} re^{it} \dt \\
+&= c_{-1}\int_{0}^{\beta_0} e^{i(1-\beta_0) t} \dt \\
+.\]
 
 :::
 
