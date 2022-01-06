@@ -233,8 +233,19 @@ using that $z/\sin(z) \convergesto{z\to 0} 1$.
 :::{.exercise title="Poles of derivatives"}
 Show that if $z_0$ is a pole of order $n$ of $f$, then it is a pole of order $n+k$ for $f^{(k)}$.
 
-#complex/exercise/work
+#complex/exercise/completed
 
+:::
+
+:::{.solution}
+Without loss of generality suppose $z_0=0$ is the pole.
+Write $f(z) = \sum_{k\geq -N} c_k z^k$, then
+\[
+f(z) = \sum_{1\leq j \leq N} c_j z^{-j} + \sum_{k\geq 0} c_k z^k \\
+\implies
+f'(z) = \sum_{2 \leq j \leq N+1} -j c_j z^{-j-1} + \sum_{k\geq 1}k c_k z^{k-1}
+,\]
+making $0$ a pole of order $N+1$.
 :::
 
 :::{.exercise title="Poles of elliptic functions"}
@@ -538,7 +549,6 @@ Conversely, if $z_0$ is removable for $f'$, then it is also removable for $f$.
 
 :::
 
-
 :::{.solution}
 It suffices to show that $f'$ is bounded in a neighborhood of $z_0$.
 Since $z_0$ is a removable singularity of $f$, there is a neighborhood $\DD_R(a)$ on which $\abs{f(z)} \leq M$ is bounded.
@@ -561,7 +571,6 @@ In particular,
 so $a$ is removable for $f$.
 
 :::
-
 
 :::{.exercise title="Bounded derivatives imply removable singularities"}
 Suppose $f$ is holomorphic on $\DD\smz$ and there exist $M, k$ such that
@@ -663,4 +672,3 @@ Since $f$ is entire, $f(z) = \sum_{k\geq 0 } c_k z^k$.
 Expanding about $z_0=\infty$, we have $f(1/z) = \sum_{k\geq 0} c_k z^{-k} = c_0 + {c_1\over z} + \cdots$.
 If $z_0=\infty$ is a pole of order $m$, then $c_m\neq 0$ but $c_{>m} = 0$, which forces $f(z) = \sum_{0\leq k \leq m} c_k z^k$ to be a polynomial of degree $m$.
 :::
-
