@@ -36,3 +36,4 @@ tag:complex/exercise path:"30_Complex"
 
 - [ ]  [Utah Math 6220 Assignments.](http://www.math.utah.edu/~astephan/134.pdf) #resources/problem_collections
 - [ ]  [Lots of problems from JHU](https://math.jhu.edu/gradexam/analysisexams.pdf)
+- [ ] [Sample prelim questions](https://faculty.tcu.edu/richardson/Prelims/PrelimSampleQsCpx_2.pdf)
