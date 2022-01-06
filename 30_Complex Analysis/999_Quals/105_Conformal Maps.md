@@ -29,7 +29,7 @@ f\in \Aut(G) \implies f = F\inv \circ \psi_{a} \circ F \text{ for some } \psi_a 
 
 :::
 
-# Fundamentals: half-planes, discs, strips
+# Half-planes, discs, strips
 
 ## Tie's Extra Questions: Spring 2015 (Good Practice) #complex/exercise/completed
 
@@ -180,7 +180,7 @@ So take $z\mapsto \arcsin(z)$.
 
 
 
-# Fundamentals: Lunes, Bigons
+# Lunes, Bigons
 
 ## Fall 2019.5, Tie's extra questions: Fall 2009, Fall 2011, Spring 2014, Spring 2015 #complex/qual/completed
 
@@ -412,9 +412,44 @@ One can also conclude this by handedness: the original region is on the right wi
 :::
 
 
+## UMN Spring 2009 #complex/exercise/completed
+
+:::{.problem title="Lune, one intersection"}
+Find a conformal map from the region bounded by $\abs{z - {i\over 2}} = {1\over 2}$ and $\abs{z-i} = 1$ to $\DD$.
+:::
+
+:::{.solution}
+This is a lune with a single intersection vertex at $z=i$.
+Orient the circles positively.
+
+- Take $f(z) = {z+i\over z-i}$ to send
+
+  - $i\to \infty$
+  - $-i\to 0$
+  - $1\to {1+i\over 1-i} = i$
+  - $0\to -1$
+
+  So $\abs{z} = 1$ is sent to the imaginary axis $\ts{it}$ for $t\in (-\infty, \infty)$ oriented positively and $\abs{z- {i\over 2}} = {1\over 2}$ is sent to $\ts{-1 + it}$ also oriented positively.
+  The region then maps to $-1 < \Re(z) < 0$.
+
+- Rotate by $z\mapsto -i\pi z$ to get $0 < \Im(z) < \pi$.
+
+- Take $z\mapsto e^z$ to get $\HH$.
+
+- Take $z\mapsto {z-i\over z+i}$ to get $\DD$.
+
+:::
 
 
-# Intermediate: Joukowski Maps, Blaschke Factors, Slits
+
+
+
+
+
+
+
+
+# Joukowski Maps, Blaschke Factors, Slits
 
 ## Spring 2021.7 (Slit) #complex/qual/completed
 
@@ -712,10 +747,4 @@ Show that $f$ must be constant.
 Write $T:\CC \to \DD$ for the Cayley map, then $F\da f\circ T$ satisfies $F(\CC) = T(f(\CC)) \subseteq  T(\HH) = \DD$, so $F$ is a bounded entire function and thus constant.
 So $c = F(z) = T(f(z)) \implies f(z) = T\inv(c)$, making $f$ constant.
 :::
-
-
-
-
-
-
 
