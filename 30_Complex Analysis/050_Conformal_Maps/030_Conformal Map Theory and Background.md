@@ -122,8 +122,9 @@ Some nice properties:
 - $\psi_a(a) = 0$ and $\psi_a(0) = a$
 - $\psi_a$ has a simple pole at $1/\bar{a}$ and a simple zero at $z=a$.
 - $\psi_a(\bd \DD) = \bd \DD$, i.e. $\abs{\psi_a(z)} = \abs{z}$ when $\abs{z} = 1$.
-- $\Aut(\DD) = \ts{ e^{i\theta} \prod_{k\leq N} \psi_{a_k} \st N\in \ZZ_{\geq 0}, a_k\in \DD}$, i.e. these form the factors of automorphisms of the disc after including rotations.
-- Fun fact: these yield continuous dynamical systems on $\bd \DD$!
+- $\Aut(\DD) = \ts{ e^{i\theta} \psi_{a_k} \st a_k\in \DD}$, i.e. these form the factors of automorphisms of the disc after including rotations.
+- $\psi_a'(z) = {\abs{a}^2 - 1\over (1-\bar{a} z)^2}$
+
 :::
 
 ## Exercise
