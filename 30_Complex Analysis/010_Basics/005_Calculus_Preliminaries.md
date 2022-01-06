@@ -98,6 +98,7 @@ As a consequence, areas can be computed as
 :::{.remark}
 Some basic facts needed for line integrals in the plane:
 
+- Green's theorem requires $C^1$ partial derivatives.
 - $\grad f = \tv{ \dd{f}{x}, \dd{f}{y} }$.
   - If $F = \grad f$ for some $f$, $F$ is a vector field.
 - Given $f(x, y)$ and $\gamma(t)$, the chain rule yields $\dd{}{t} (f\circ \gamma)(t) = \inner{ \grad f\circ \gamma)(t)} {\gamma'(t)}$.

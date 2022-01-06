@@ -71,24 +71,38 @@ State and prove Green's Theorem for rectangles.
 Use this to prove Cauchy's Theorem for functions that are analytic in a rectangle.
 :::
 
-
 :::{.solution}
 Green's theorem:
+if $\Omega$ is a domain with positively oriented boundary with $u, v$ continuously differentiable in $\bar\Omega$, then
 \[
 \int_{\bd \Omega} u\dx + v\dy = \iint_{\Omega}\qty{v_x - u_y}\dx\dy
 .\]
+Now use that if $f = u+iv$ is analytic in a region, it satisfies Cauchy-Riemann:
+\[
+u_x = v_y \qquad u_y = -v_x
+.\]
 
-
-
+Now integrating $f$:
+\[
+\oint_{\bd\Omega} f(z) \dz 
+&= \oint_{\bd\Omega} (u+iv)(\dx + i\dy )\\
+&= \oint_{\bd\Omega} \qty{u\dx - v\dy} + i\oint_{\bd\Omega} \qty{v\dx + u\dy} \\
+&= \iint_\Omega\qty{v_x + u_y}\dx\dy + \iint_\Omega\qty{u_x - v_y}\dx\dy \\
+&= \iint_\Omega\qty{v_x -v_x }\dx\dy + \iint_\Omega\qty{u_x - u_x}\dx\dy \\
+&= 0
+.\]
 :::
-
 
 
 ## 3 #complex/exercise/work
 
+:::{.problem title="?"}
 Suppose $\theset{f_n}_{n\in \NN}$ is a sequence of analytic functions on $\DD \definedas \theset{z\in \CC \suchthat \abs{z} < 1}$.
 
 Show that if $f_n\to g$ for some $g: \DD \to \CC$ uniformly on every compact $K\subset \DD$, then $g$ is analytic on $\DD$.
+
+
+:::
 
 
 ## 4 #complex/exercise/work
