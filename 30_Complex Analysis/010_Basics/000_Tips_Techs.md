@@ -65,10 +65,11 @@ For just the statements of most of these theorems: [[attachments/ComplexAnalysis
 
 ## Holomorphic
 
--To show a function is holomorphic,
+- To show a function is holomorphic,
 	- Use Morera's theorem
 	- Find a primitive (sufficient but not necessary)
 	- Express $f$ as a convergent power series
+
 - Holomorphic functions have isolated zeros.
 
 
