@@ -573,5 +573,3 @@ a\prod_{k\leq n} z_k = 1 \implies \abs{ \prod_{k\leq n} z_k } = \abs{1\over a} \
 so not every $z_k$ can satisfy $\abs{z_k} > 2$ and at least one is in $\abs{z} \leq 2$.
 :::
 
-
-
