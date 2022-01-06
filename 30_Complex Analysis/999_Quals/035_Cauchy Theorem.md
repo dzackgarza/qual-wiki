@@ -57,8 +57,9 @@ problem without using the Cauchy theorem.
 
 :::{.solution}
 \[
-\int_\gamma z^n\dz = \int_0^{2\pi} R^n e^{itn} \cdot Re^{it} \dt
-= R^{n+1} \int_0^{2\pi} e^{i(t+1)n}\dt = 2\pi R^{n+1}\delta_{n+1 = 0}
+\int_\gamma z^n\dz = \int_0^{2\pi} R^n e^{itn} \cdot iRe^{it} \dt
+= R^{n+1} \int_0^{2\pi} e^{i(t+1)n}\dt 
+= { i R^{n+1} \over i(n+1) } \delta_{n+1 = 0}
 .\]
 
 :::
