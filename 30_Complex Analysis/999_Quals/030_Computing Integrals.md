@@ -772,3 +772,44 @@ $\displaystyle{\frac{1}{F(z)}}$ can be represented as a convergent
 series with respect to $q$: $\displaystyle{
 \frac{1}{F(z)}=\sum_{n=0}^{\infty} \frac{(qf(z))^n}{(z-a)^{n+1}}.}$
 
+### Tie's Extra Questions: Spring 2015 #complex/exercise/completed
+
+:::{.problem title="?"}
+Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
+with $|\alpha|<1$ and $\mathbb D = \{z:\ |z|<1\}$. 
+Prove that
+
+a.
+\[
+\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}
+.\]
+
+b.
+\[
+\displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2} \log \frac{1}{1-|\alpha|^2}}
+.\]
+
+:::
+
+:::{.solution}
+**Part 1**:
+S&S claim this can be done without a calculation -- maybe $\abs{\psi_a'(z)}^2$ is constant on a circle of radius $r$...?
+
+**Part 2**:
+\[
+{1\over \pi} \iint_\DD \abs{\psi_a'(z)} \dz 
+&= {1\over \pi} \iint_\DD \abs{1- \abs{a}^2 \over (1-\bar{a} z)^2 } \dz \\
+&= {1- \abs{a}^2 \over \pi} \int_0^1 \int_0^{2\pi} {1 \over \abs{ 1-\bar{a} re^{it} }^2 } r\dt\dr \\
+&= {1- \abs{a}^2 \over \pi} \int_0^1 \int_0^{2\pi} {1 \over (1-\bar a re^{it} )(1 - a re^{-it}) } r\dt\dr \\
+&= {1- \abs{a}^2 \over \pi} \int_0^1 \oint_{\bd \DD} {1 \over (1-\bar a rz )(1 - a r \bar z) } {r\over iz} \dz\dr \\
+&= {1- \abs{a}^2 \over \pi} \int_0^1 \oint_{\bd \DD} {1 \over (1-\bar a rz )(1 - a r z\inv) } {r\over iz} \dz\dr \\
+&= {1- \abs{a}^2 \over \pi} \int_0^1 {r\over i} \cdot \oint_{\bd \DD} {1 \over (1-\bar a rz )(z - a r) } \dz\dr \\
+&= {1- \abs{a}^2 \over \pi} \int_0^1 {r\over i} \cdot 2\pi i \Res_{z=ar} {1 \over (1-\bar a rz )(z - a r) } \dr \\
+&= {1- \abs{a}^2 \over \pi} \int_0^1 {r\over i} \cdot 2\pi i {1 \over (1-\bar a rz ) }\evalfrom_{z=ar} \dr \\
+&= {2\pi \qty{ 1- \abs{a}^2} \over \pi} \int_0^1 {r \over 1- \abs{a}^2r^2  } \dr \\
+&= {1-\abs{a}^2 \over \abs{a}^2} \log\qty{1 \over 1 - \abs{a}^2 }
+.\]
+
+:::
+
+

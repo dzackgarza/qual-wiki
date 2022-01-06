@@ -1,3 +1,9 @@
+---
+order: 55
+title: "Argument Principle"
+status: completed
+---
+
 # Argument Principle
 
 ## Spring 2020 HW 3.12 (Root counting with argument principle) #complex/exercise/completed
