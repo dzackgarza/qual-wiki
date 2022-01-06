@@ -411,7 +411,6 @@ That the region outside the disc is mapped to the strip shown: points $x\in \RR$
 One can also conclude this by handedness: the original region is on the right with respect to $C_1$ and also on the right with respect to $i\RR$, so the new region should be on the right with respect to both $f(i\RR)$ and $f(C_1)$ with their induced orientations.
 :::
 
-
 ## UMN Spring 2009 #complex/exercise/completed
 
 :::{.problem title="Lune, one intersection"}
@@ -693,6 +692,23 @@ So these trace out all of $\HH$.
 
 
 
+
+
+## UMN Spring 2008 #complex/exercise/completed
+
+:::{.problem title="?"}
+Define $A \da \ts{\Re(z) > 0, \Im(z) > 0}$.
+Find a conformal equivalence $\Delta \intersect A \to A$.
+:::
+
+:::{.solution}
+In steps:
+
+- Unfold with $z\mapsto z^2$ to get $\DD \intersect \HH$.
+- Joukowski it with $z\mapsto -{1\over 2}(z+z\inv)$ to get $\HH$.
+- Fold with $z\mapsto z^{1\over 2}$ to get $Q_1 = A$.
+
+:::
 
 # Linear Fractional Transformations
 
