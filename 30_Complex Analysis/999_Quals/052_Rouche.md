@@ -334,6 +334,8 @@ These can be interpreted geometrically: the former is the hypotenuse of a triang
 
 ![](figures/2022-01-06_05-02-12.png)
 
+Now note that $z^3 + 1$ has roots $\omega_3, \omega_3^2, \omega_3^3=-1$ for $\omega_k \da e^{i\pi\over k}$, and the first two are in the right half-plane.
+So $2 = \size Z_M = \size Z_f$ by Rouché.
 :::
 
 ### Zeros of $e^z$ #complex/exercise/completed
