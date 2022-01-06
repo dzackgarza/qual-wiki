@@ -33,6 +33,22 @@ Then on $\abs{z} = R$,
 since $c_n z^n$ has $z=0$ as a root with multiplicity $n$.
 :::
 
+:::{.solution title="Explicit bound"}
+An estimate: write $f(z) = \sum_{k\leq n} c_k z^k$ with $c_n = 1$, then for $R> 1$, on $\abs{z} = R$ we have
+\[
+\abs{f(z) - z^n} 
+&\leq \sum_{k\leq n-1} \abs{ c_k z^k} \\
+&\leq \sum_{k\leq n-1} \abs{ c_k} R^k \\
+&\leq \sum_{k\leq n-1} \abs{ c_k} R^{n-1} \\
+&= R^{n-1} \sum_{k\leq n-1} \abs{ c_k}  \\
+&\da R^{n-1} C \\
+&\leq R^n \\
+&= \abs{z^n}
+,\]
+provided we can choose $C<R$, but this is possible since $\sum_{k\leq n-1}\abs{c_k}$ is a constant.
+So $n = \size Z_{z^n} = \size Z_f$.
+:::
+
 ### Tie's Extra Questions: Fall 2015 (Standard polynomial) #complex/exercise/completed
 
 :::{.problem title="?"}
