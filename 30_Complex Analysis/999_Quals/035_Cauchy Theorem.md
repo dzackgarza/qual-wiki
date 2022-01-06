@@ -4,6 +4,68 @@ order: 35
 
 # Cauchy's Theorem
 
+## Entire and $O$ of polynomial implies polynomial #complex/exercise/completed
+
+:::{.problem title="?"}
+Let $f(z)$ be entire and assume that $\abs{f(z)} \leq M |z|^2$ outside of some disk for some constant $M$. 
+Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
+:::
+
+
+:::{.solution}
+\envlist
+
+- Prove a more general statement: if $\abs{f(z)} \leq M\abs{z}^n$, then $f$ is a polynomial of degree at most $n$.
+- Since $f$ is entire, it is analytic everywhere, so $f(z) = \sum_{k\geq 0}c_k z^k$ where $c_k = f^{(k)}(0)/n!$ is given by the coefficient of its Taylor expansion about $z=0$.
+- Applying Cauchy's estimate, on a circle of radius $R$, 
+\[
+\abs{f^{(k)}(0)} \leq { \sup_{\gamma}\abs{f(z)} n! \over R^k} \leq {M\abs{z}^n n! \over R^k} = {M R^n n! \over R^k} 
+.\]
+
+- So for $k \geq n+1$, this goes to zero as $R\to \infty$, so $\abs{f^{k}(0)} = 0$ for all such $k$.
+- But then $f$ is a power series annihilated by taking $n+1$ derivatives, so it is a polynomial of degree at most $n$.
+:::
+
+
+## Uniform sequence implies uniform derivatives #complex/exercise/work
+
+:::{.problem title="?"}
+#complex/exercise/work
+Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
+$\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
+bounded and closed sub-regions of $D$. 
+Show that $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on bounded and closed sub-regions of $D$.
+:::
+
+:::{.solution}
+\envlist
+
+- Show a stronger statement: if $f_n\to f$ uniformly with each $f_n$ holomorphic on every compact subset of $D$ then $f_n'\to f'$ on every compact subset of $D$.
+
+- We have $\norm{f_n-f}_{\infty, D}\to 0$, the sup norm on $D$.
+- Pick a $\gamma$ in $\interior{D}$
+- ????
+
+:::
+
+
+## Tie's Extra Questions: Spring 2014 #complex/exercise/work
+
+
+The question provides some insight into Cauchy's theorem. Solve the
+problem without using the Cauchy theorem.
+
+1.  Evaluate the integral $\displaystyle{\int_{\gamma} z^n dz}$ for
+    all integers $n$. Here $\gamma$ is any circle centered at the
+    origin with the positive (counterclockwise) orientation.
+
+2.  Same question as (a), but with $\gamma$ any circle not
+    containing the origin.
+
+3.  Show that if $|a|<r<|b|$, then
+    $\displaystyle{\int_{\gamma}\frac{dz}{(z-a)(z-b)} dz=\frac{2\pi i}{a-b}}$.
+    Here $\gamma$ denotes the circle centered at the origin, of
+    radius $r$, with the positive orientation.
 ## Fall 2019.3, Spring 2020 HW 2.9 (Cauchy's Formula for Exterior Regions) #complex/qual/completed
 
 ^f2a684
@@ -282,20 +344,7 @@ zf(z) = c_{-1} + c_0z + \cdots \convergesto{z\to 0} c_{-1} = A
 so the integral is $iA\beta_0$.
 :::
 
-
-## Tie's Extra Questions: Fall 2009 #complex/exercise/work
-
-
-## Spring 2020 HW 2 #  2.6.5 #complex/exercise/work
-
-
-## Spring 2020 HW 2 #  2.6.6 #complex/exercise/work
-
-Suppose that $f$ is holomorphic on a punctured open set $\Omega\setminus\theset{w_0}$ and let $T\subset \Omega$ be a triangle containing $w_0$.
-Prove that if $f$ is bounded near $w_0$, then $\int_T f(z) ~dz = 0$.
-
-
-## Spring 2020 HW 2 #  2.6.7 #complex/exercise/work
+## Spring 2020 HW 2, 2.6.7 #complex/exercise/work
 
 Suppose $f: \DD \to \CC$ is holomorphic and let $d \definedas \sup_{z, w\in \DD}\abs{f(z) - f(w)}$ be the diameter of the image of $f$.
 Show that $2 \abs{f'(0)} \leq d$, and that equality holds iff $f$ is linear, so $f(z) = a_1 z + a_2$.
@@ -307,14 +356,14 @@ Show that $2 \abs{f'(0)} \leq d$, and that equality holds iff $f$ is linear, so 
 whenever $0<r<1$.
 
 
-## Spring 2020 HW 2 #  2.6.8 #complex/exercise/work
+## Spring 2020 HW 2, 2.6.8 #complex/exercise/work
 
 Suppose that $f$ is holomorphic on the strip $S = \theset{x+iy \suchthat x\in \RR,~ -1<y<1}$ with $\abs{f(z)} \leq A \qty{1 + \abs z}^\nu$ for $\nu$ some fixed real number.
 Show that for all $z\in S$, for each integer $n\geq 0$ there exists an $A_n \geq 0$ such that $\abs{f^{(n)}(x)} \leq A_n (1 + \abs x)^\nu$ for all $x\in \RR$.
 
 > Hint: Use the Cauchy inequalities.
 
-## Spring 2020 HW 2 #  2.6.9 #complex/exercise/work
+## Spring 2020 HW 2, 2.6.9 #complex/exercise/work
 
 Let $\Omega \subset \CC$ be open and bounded and $\phi: \Omega \to \Omega$ holomorphic.
 Prove that if there exists a point $z_0 \in \Omega$ such that $\phi(z_0) = z_0$ and $\phi'(z_0) = 1$, then $\phi$ is linear.
@@ -323,14 +372,14 @@ Prove that if there exists a point $z_0 \in \Omega$ such that $\phi(z_0) = z_0$ 
   Let $\phi_k = \phi \circ \phi \circ \cdots \circ \phi$ and prove that $\phi_k(z) = z + ka_nz^n  + O(z^{n+1})$.
   Apply Cauchy's inequalities and let $k\to \infty$ to conclude.
 
-## Spring 2020 HW 2 #  6 #complex/exercise/work
+## Spring 2020 HW 2, 6 #complex/exercise/work
 Show by example that there exists a function $f(z)$ that is holomorphic on $\theset{z\in \CC \suchthat 0 < \abs{z} < 1}$ and for all $r<1$,
 \[
 \int_{\abs z = r} f(z) \, dz = 0
 ,\]
 but $f$ is not holomorphic at $z=0$.
 
-## Spring 2020 HW 2 #  7 #complex/exercise/work
+## Spring 2020 HW 2, 7 #complex/exercise/work
 Let $f$ be analytic on a region $R$ and suppose $f'(z_0) \neq 0$ for some $z_0 \in R$.
 Show that if $C$ is a circle of sufficiently small radius centered at $z_0$, then 
 \[
@@ -340,7 +389,7 @@ Show that if $C$ is a circle of sufficiently small radius centered at $z_0$, the
 > Hint: use the inverse function theorem.
 
 
-## Spring 2020 HW 2 #  8 #complex/exercise/work
+## Spring 2020 HW 2, 8 #complex/exercise/work
 
 Assume two functions $u, b: \RR^2 \to \RR$ have continuous partial derivatives at $(x_0 ,y_0)$.
 Show that $f \definedas u + iv$ has derivative $f'(z_0)$ at $z_0 = x_0 + iy_0$ if and only if
@@ -352,7 +401,7 @@ Show that $f \definedas u + iv$ has derivative $f'(z_0)$ at $z_0 = x_0 + iy_0$ i
 
 
 
-## Spring 2020 HW 2 #  10 #complex/exercise/work
+## Spring 2020 HW 2, 10 #complex/exercise/work
 Let $f(z)$ be bounded and analytic in $\CC$.
 Let $a\neq b$ be any fixed complex numbers.
 Show that the following limit exists:
@@ -363,7 +412,7 @@ Show that the following limit exists:
 Use this to show that $f(z)$ must be constant.
 
 
-## Spring 2020 HW 2 #  11 #complex/exercise/work
+## Spring 2020 HW 2, 11 #complex/exercise/work
 Suppose $f(z)$ is entire and 
 \[
 \lim_{z\to\infty} {f(z) \over z} = 0
@@ -371,7 +420,7 @@ Suppose $f(z)$ is entire and
 
 Show that $f(z)$ is a constant.
 
-## Spring 2020 HW 2 #  12 #complex/exercise/work
+## Spring 2020 HW 2, 12 #complex/exercise/work
 Let $f$ be analytic in a domain $D$ and $\gamma$ be a closed curve in $D$.
 For any $z_0\in D$ not on $\gamma$, show that
 \[
@@ -380,7 +429,7 @@ For any $z_0\in D$ not on $\gamma$, show that
 Give a generalization of this result.
 
 
-## Spring 2020 HW 2 #  13 #complex/exercise/work
+## Spring 2020 HW 2, 13 #complex/exercise/work
 
 Compute
 \[
@@ -391,65 +440,4 @@ and use it to show that
 \int_0^{2\pi} \cos^{2n}(\theta) \, d\theta = 2\pi \qty{1\cdot 3 \cdot 5 \cdots (2n-1) \over 2 \cdot 4 \cdot 6 \cdots (2n)}
 .\]
 
-## Entire and $O$ of polynomial implies polynomial #complex/exercise/completed
 
-:::{.problem title="?"}
-Let $f(z)$ be entire and assume that $\abs{f(z)} \leq M |z|^2$ outside of some disk for some constant $M$. 
-Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
-:::
-
-
-:::{.solution}
-\envlist
-
-- Prove a more general statement: if $\abs{f(z)} \leq M\abs{z}^n$, then $f$ is a polynomial of degree at most $n$.
-- Since $f$ is entire, it is analytic everywhere, so $f(z) = \sum_{k\geq 0}c_k z^k$ where $c_k = f^{(k)}(0)/n!$ is given by the coefficient of its Taylor expansion about $z=0$.
-- Applying Cauchy's estimate, on a circle of radius $R$, 
-\[
-\abs{f^{(k)}(0)} \leq { \sup_{\gamma}\abs{f(z)} n! \over R^k} \leq {M\abs{z}^n n! \over R^k} = {M R^n n! \over R^k} 
-.\]
-
-- So for $k \geq n+1$, this goes to zero as $R\to \infty$, so $\abs{f^{k}(0)} = 0$ for all such $k$.
-- But then $f$ is a power series annihilated by taking $n+1$ derivatives, so it is a polynomial of degree at most $n$.
-:::
-
-
-## Uniform sequence implies uniform derivatives #complex/exercise/work
-
-:::{.problem title="?"}
-#complex/exercise/work
-Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
-$\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
-bounded and closed sub-regions of $D$. 
-Show that $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on bounded and closed sub-regions of $D$.
-:::
-
-:::{.solution}
-\envlist
-
-- Show a stronger statement: if $f_n\to f$ uniformly with each $f_n$ holomorphic on every compact subset of $D$ then $f_n'\to f'$ on every compact subset of $D$.
-
-- We have $\norm{f_n-f}_{\infty, D}\to 0$, the sup norm on $D$.
-- Pick a $\gamma$ in $\interior{D}$
-- ????
-
-:::
-
-
-## Tie's Extra Questions: Spring 2014 #complex/exercise/work
-
-
-The question provides some insight into Cauchy's theorem. Solve the
-problem without using the Cauchy theorem.
-
-1.  Evaluate the integral $\displaystyle{\int_{\gamma} z^n dz}$ for
-    all integers $n$. Here $\gamma$ is any circle centered at the
-    origin with the positive (counterclockwise) orientation.
-
-2.  Same question as (a), but with $\gamma$ any circle not
-    containing the origin.
-
-3.  Show that if $|a|<r<|b|$, then
-    $\displaystyle{\int_{\gamma}\frac{dz}{(z-a)(z-b)} dz=\frac{2\pi i}{a-b}}$.
-    Here $\gamma$ denotes the circle centered at the origin, of
-    radius $r$, with the positive orientation.
