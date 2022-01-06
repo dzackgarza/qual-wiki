@@ -116,7 +116,7 @@ Prove that there is no sequence of polynomials that uniformly converge to $f(z) 
   which forces $\int f = \int p_j = 0$.
 :::
 
-## Eventually sublinear implies constant #complex/exercise/work
+## Eventually sublinear implies constant #complex/exercise/completed
 
 :::{.problem title="?"}
 Suppose $f: \CC\to \CC$ is entire and
@@ -139,8 +139,7 @@ Let $R> 10$, then by Cauchy:
 .\]
 :::
 
-## 8 #complex/exercise/work
-
+## The Cauchy pole function is holomorphic #complex/exercise/completed
 
 :::{.problem title="?"}
 Let $\gamma$ be a smooth curve joining two distinct points $a, b\in \CC$.
@@ -152,17 +151,29 @@ f(z) \definedas \int_\gamma {g(w) \over w-z} \,dw
 is analytic in $\CC\setminus\gamma$.
 :::
 
-
-## 9 #complex/exercise/completed
-Suppose that $f: \CC\to\CC$ is continuous everywhere and analytic on $\CC\setminus \RR$ and prove that $f$ is entire.
-
-\todo[inline]{Something missing?}
 :::{.solution}
-\hfill
-:::{.concept}
-\hfill
-
+Toward applying Morera, let $T \subseteq \CC\sm \gamma$ be a triangle, so that $z\in T$ and $w\in \gamma$ implies $z-w\neq 0$.
+Then
+\[
+\oint_T f(z) \dz 
+&= \oint_T \int_\gamma {g(w)\over w-z}\dw\dz \\
+&= \int_\gamma \oint_T {g(w)\over w-z}\dz\dw \\
+&= \int_\gamma g(w) \qty{ \oint_T {1 \over w-z}\dz} \dw \\
+&= \int_\gamma g(w) \cdot 0 \dw \\
+&= 0
+,\]
+where the exchange of integrals is justified by compactness of $\gamma, T$, and the inner integral vanishes because for a fixed $w\in \gamma$, the function $z\mapsto {1\over w-z}$ has a simple pole at $w$, and so is holomorphic in $\gamma^c$ and vanishes by Goursat.
 :::
+
+## Schwarz reflection proof #complex/exercise/completed
+
+:::{.problem title="?"}
+Suppose that $f: \CC\to\CC$ is continuous everywhere and analytic on $\CC\setminus \RR$ and prove that $f$ is entire.
+:::
+
+:::{.solution}
+Just reproducing the proof of holomorphicity in the Schwarz reflection theorem.
+
 - Note $f$ is continuous on $\CC$ since analytic implies continuous ($f$ equals its power series, where the partials sums uniformly converge to it, and uniform limit of continuous is continuous).
 - Strategy: take $D$ a disc centered at a point $x\in \RR$, show $f$ is holomorphic in $D$ by Morera's theorem.
 - Let $\Delta \subset D$ be a triangle in $D$.
@@ -182,17 +193,18 @@ Suppose that $f: \CC\to\CC$ is continuous everywhere and analytic on $\CC\setmin
 
 :::
 
+## Prove Liouville #complex/exercise/completed
 
-## 10 #complex/exercise/completed
+:::{.problem title="?"}
 Prove Liouville's theorem: suppose $f:\CC\to\CC$ is entire and bounded. 
 Use Cauchy's formula to prove that $f'\equiv 0$ and hence $f$ is constant.
 
-:::{.solution}
-\hfill
-:::{.concept}
-\hfill
-
 :::
+
+
+:::{.solution}
+\envlist
+
 - Suffices to prove $f' = 0$ because $\CC$ is connected (see Stein Ch 1, 3.4)
   - Idea: Fix $w_0$, show $f(w) = f(w_0)$ for any $w\neq w_0$
   - Connected = Path connected in $\CC$, so take $\gamma$ joining $w$ to $w_0$.
