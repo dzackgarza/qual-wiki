@@ -96,26 +96,9 @@ r &\mapsto \min_{\abs{z} = r} \abs{f(z)}
 .\]
 Suppose $\tilde m \da \lim_{r\to \infty}m(r)$ exists and is a finite positive real number, and show that $f$ is constant.
 
-#complex/exercise/work
+#complex/exercise/work #stuck
 
 > Hint: consider $g(z) \da f(1/z)$.
 
 :::
-
-
-:::{.solution}
-Define 
-\[
-\ell(r) 
-&\da {1\over m(r)} \\
-&= {1\over \min_{\abs{z} = r} \abs{f(z)} } \\
-&\leq \max_{\abs{z} = r} \abs{1\over f(z)} \\
-&\leq \max_{\abs{z} \leq r} \abs{1\over f(z)} 
-,\]
-where the last equality follows from the MMP.
-Now if $m(r) \to \tilde m$ then $\ell(r) \to \tilde m\inv$, which is again a finite positive real number.
-
-
-:::
-
 
