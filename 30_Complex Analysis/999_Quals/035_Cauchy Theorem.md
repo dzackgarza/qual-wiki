@@ -4,7 +4,7 @@ order: 35
 
 # Cauchy's Theorem
 
-## Fall 2019.3, Spring 2020 HW 2.9 (Cauchy's Formula for Exterior Regions) #complex/qual/work
+## Fall 2019.3, Spring 2020 HW 2.9 (Cauchy's Formula for Exterior Regions) #complex/qual/completed
 
 ^f2a684
 
@@ -13,7 +13,7 @@ Let $\gamma$ be a piecewise smooth simple closed curve with interior $\Omega_1$ 
 Assume $f'$ exists in an open set containing $\gamma$ and $\Omega_2$ with $\lim_{z\to \infty} f(z) = A$.
 Show that
 $$
-F(Z) \da \frac{1}{2 \pi i} \int_{\gamma} \frac{f(\xi)}{\xi-z} d \xi=\left\{\begin{array}{ll}
+F(z) \da \frac{1}{2 \pi i} \int_{\gamma} \frac{f(\xi)}{\xi-z} d \xi=\left\{\begin{array}{ll}
 A, & \text { if } z \in \Omega_{1} \\
 -f(z)+A, & \text { if } z \in \Omega_{2}
 \end{array}\right.
@@ -37,15 +37,51 @@ F(z)
 &= f(z)
 .\]
 
-Now if $z\in \Omega_2$, then $\gamma$ encloses both $\xi=z, \infty$, and is oriented negatively.
+Now if $z\in \Omega_2$, then $\gamma$ encloses both $\xi=z, \infty$, and is oriented negatively,so
+\[
+F(z) 
+&= {1\over 2\pi i} \oint_\gamma G_z(\xi) \dxi \\
+&= -\qty{\Res_{\xi = z} G_z(\xi) + \Res_{\xi = \infty} G_z(\xi)}\\
+&= -\qty{f(z) + \Res_{\xi = \infty} G_z(\xi)}\\
+,\]
+where the last line proceeds by the same calculation as above.
+It remains to compute the unknown residue.
+Residues at $\xi = \infty$ are computed as residues at $\xi =0$, and the change of variables $G_z(\xi)\dxi \mapsto G_z(w) \dw$ for $w\da 1/\xi$ yields $G_z(\xi)\dxi \to G_z\qty{1\over \xi}(-1/\xi^2)\dxi$.
+Thus
+\[
+\Res_{\xi=\infty} G_z(\xi) 
+&= -\Rez_{\xi=0} G_z\qty{\xi\inv}\xi^{-2} \\
+&= - \Rez_{\xi=0} {f(\xi\inv) \over \xi^2(\xi\inv - z) } \\
+&= - \Rez_{\xi=0} {f(\xi\inv) \over \xi(1 - z\xi) } \\
+&= -\lim_{\xi \to 0} {f(\xi\inv) \over 1-z\xi} \\
+&= -\lim_{\xi \to 0}f(\xi \inv) \\
+&= -\lim_{\xi\to\infty} f(\xi) \\
+&= -A
+.\]
+So combining this yields
+\[
+F(z) = -\qty{f(z) - A} = -f(z) + A
+.\]
+:::
 
+## Proving Cauchy using Green's #complex/exercise/completed
+
+:::{.problem title="?"}
+State and prove Green's Theorem for rectangles.
+Use this to prove Cauchy's Theorem for functions that are analytic in a rectangle.
 :::
 
 
-## 2 #complex/exercise/work
+:::{.solution}
+Green's theorem:
+\[
+\int_{\bd \Omega} u\dx + v\dy = \iint_{\Omega}\qty{v_x - u_y}\dx\dy
+.\]
 
-State and prove Green's Theorem for rectangles.
-Use this to prove Cauchy's Theorem for functions that are analytic in a rectangle.
+
+
+:::
+
 
 
 ## 3 #complex/exercise/work
