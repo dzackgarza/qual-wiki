@@ -346,7 +346,6 @@ Start by computing the first:
 .\]
 :::
 
-
 :::{.exercise title="?"}
 Show that if $f$ is entire and $f(1/z)$ has a pole at $z=0$, then $f$ is a polynomial.
 
@@ -354,13 +353,10 @@ Show that if $f$ is entire and $f(1/z)$ has a pole at $z=0$, then $f$ is a polyn
 
 :::
 
-
 :::{.solution}
 Write $f(z) = \sum_{k\geq 0}c_k z^k$, so $g(z) \da f(1/z) = \sum_{k\geq 0} c_k z^{-k}$.
 Since $z=0$ is a pole of $g$, $c_k = 0$ for all $k\geq m$ for $m$ the order of the pole, so $f(z) = \sum_{0\leq k\leq m}c_k z^k$ is a polynomial of degree at most $m$.
 :::
-
-
 
 ## Essential Singularities
 
@@ -537,9 +533,25 @@ A similar argument works at $z=\pm \pi$.
 :::{.exercise title="Removable singularities for derivatives"}
 Suppose $f$ is meromorphic. Show that if $z_0$ is a removable singularity of $f$, then it is also a removable singularity of $f'$.
 
-#complex/exercise/work
+#complex/exercise/completed
 
 :::
+
+
+:::{.solution}
+It suffices to show that $f'$ is bounded in a neighborhood of $z_0$.
+Since $z_0$ is a removable singularity of $f$, there is a neighborhood $\DD_R(a)$ on which $\abs{f(z)} \leq M$ is bounded.
+Using the Cauchy estimates,
+\[
+\abs{f'(z_0)} 
+&\leq {1\over 2\pi } \oint_{\abs{z-a} = R } {\abs{f(z)} \over \abs{z-z_0}^2 } \dz \\
+&\leq {1\over 2\pi } \oint_{\abs{z-a} = R } MR^{-2} \dz \\
+&= {1\over 2\pi } MR^{-2} \cdot 2\pi R \\
+&= MR\inv < \infty
+.\]
+
+:::
+
 
 :::{.exercise title="Bounded derivatives imply removable singularities"}
 Suppose $f$ is holomorphic on $\DD\smz$ and there exist $M, k$ such that
