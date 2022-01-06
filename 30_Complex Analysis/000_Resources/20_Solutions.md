@@ -12,7 +12,7 @@
 - [ ]  [http://www.jchateley.com/project/complex_qual.pdf](http://www.jchateley.com/project/complex_qual.pdf) 
 	#resources/solutions
 			Really well organized!
-- [ ]  [http://www-users.math.umn.edu/~bahra004/complex_prelim.pdf](http://www-users.math.umn.edu/~bahra004/complex_prelim.pdf) 
+- [x]  [http://www-users.math.umn.edu/~bahra004/complex_prelim.pdf](http://www-users.math.umn.edu/~bahra004/complex_prelim.pdf) 
 	#resources/solutions
 - [ ]  [http://www-users.math.umn.edu/~stras087/Complex_Analysis_Prelim_Solutions.pdf](http://www-users.math.umn.edu/~stras087/Complex_Analysis_Prelim_Solutions.pdf) 
 	#resources/solutions
