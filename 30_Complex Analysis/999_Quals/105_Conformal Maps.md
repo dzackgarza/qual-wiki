@@ -439,15 +439,6 @@ Orient the circles positively.
 
 :::
 
-
-
-
-
-
-
-
-
-
 # Joukowski Maps, Blaschke Factors, Slits
 
 ## Spring 2021.7 (Slit) #complex/qual/completed
