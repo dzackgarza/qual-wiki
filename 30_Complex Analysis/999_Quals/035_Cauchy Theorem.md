@@ -105,8 +105,32 @@ Show that
 
 - $g$ is entire, and
 - $f_n\to g$ uniformly on every compact subset of $\CC$.
+:::
+
+
+:::{.solution}
+Note that $g$ is entire by Morera's theorem, since $0 = \int_T f_n \to \int_T g$ by uniform convergence and the $f_n$ are holomorphic.
+By Cauchy's theorem, up to a constant we have
+\[
+f_n(z) = \oint_T {f_n(\xi) \over \xi - z}\dxi
+g(z) = \oint_T {g(\xi) \over \xi - z}\dxi
+,\]
+and thus
+\[
+\abs{f_n(z) - g(z)}
+&= \abs{ 
+\oint_T {f_n(\xi) \over \xi - z}\dxi
+- \oint_T {g(\xi) \over \xi - z}\dxi
+} \\
+&\leq \oint_T {\abs{f_n(\xi) - g(\xi)} \over \xi - z }\dxi \\
+&\leq \oint_T { \sup_{\xi\in T}\abs{f_n(\xi) - g(\xi)} \over \xi - z }\dxi \\
+&\leq \oint_T { \eps \over \xi - z }\dxi \\
+&= \eps C \to 0
+.\]
+
 
 :::
+
 
 
 ## 5 #complex/exercise/completed
