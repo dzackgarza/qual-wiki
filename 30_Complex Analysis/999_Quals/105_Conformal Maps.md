@@ -699,6 +699,7 @@ $ad-bc \neq 0$, $c \neq 0$ such that
 $\displaystyle f(z) = \frac{az + b}{cz + d}$.
 :::
 
+
 ## Tie's Extra Questions: Spring 2015 #complex/exercise/work
 
 :::{.problem title="?"}
@@ -706,12 +707,12 @@ Let $\displaystyle{\psi_{\alpha}(z)=\frac{\alpha-z}{1-\bar{\alpha}z}}$
 with $|\alpha|<1$ and $\mathbb D = \{z:\ |z|<1\}$. 
 Prove that
 
-- a,
+a.
 \[
 \displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}|^2 dx dy =1}
 .\]
 
-- b,
+b.
 \[
 \displaystyle{\frac{1}{\pi}\iint_{{\mathbb D}} |\psi'_{\alpha}| dx dy =\frac{1-|\alpha|^2}{|\alpha|^2} \log \frac{1}{1-|\alpha|^2}}
 .\]
