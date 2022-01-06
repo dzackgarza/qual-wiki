@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "001_Precalculus",
+      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "005_Calculus_Preliminaries",
       "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
-    },
-    {
-      "basename": "001_Precalculus",
-      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
     },
     {
       "basename": "030_Exercises_Integrals",
