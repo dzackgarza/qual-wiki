@@ -127,7 +127,6 @@ Suppose $f: \CC\to \CC$ is entire and
 Prove that $f$ is constant.
 :::
 
-
 :::{.solution}
 Let $R> 10$, then by Cauchy:
 \[
@@ -136,16 +135,14 @@ Let $R> 10$, then by Cauchy:
 &\leq \oint_{\abs{\xi} = R} R^{-2} \abs{\xi}^{1\over 2} \dxi \\
 &= R^{-{3\over 2}} \cdot 2\pi R \\
 &\sim R^{-{1\over 2}} \\
-&\to 0
+&\convergesto{R\to\infty} 0
 .\]
-
 :::
-
-
-
 
 ## 8 #complex/exercise/work
 
+
+:::{.problem title="?"}
 Let $\gamma$ be a smooth curve joining two distinct points $a, b\in \CC$.
 
 Prove that the function
@@ -153,6 +150,8 @@ Prove that the function
 f(z) \definedas \int_\gamma {g(w) \over w-z} \,dw
 \]
 is analytic in $\CC\setminus\gamma$.
+:::
+
 
 ## 9 #complex/exercise/completed
 Suppose that $f: \CC\to\CC$ is continuous everywhere and analytic on $\CC\setminus \RR$ and prove that $f$ is entire.
