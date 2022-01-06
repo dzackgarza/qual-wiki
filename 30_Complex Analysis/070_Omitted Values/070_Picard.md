@@ -39,3 +39,20 @@ so we can produce infinitely many points in the fiber over $w_0$, contradicting 
 So no exception $z_0$ exists, and in particular, $z_0=0$ is not an exception so $f(z) = 0$ has infinitely many solutions.
 :::
 
+:::{.exercise title="?"}
+Suppose that $g$ is entire and satisfies the functional equation $g(1-z) = 1-g(z)$.
+Show that $g(\CC) = \CC$.
+
+#complex/exercise/completed
+
+:::
+
+
+:::{.solution}
+By Picard, $g$ omits at most one value $a$.
+Note that $a\neq 1/2$, since $g(a) = g(1/2) = g(1-1/2) = 1-g(1/2) = 1-g(a)$, so $2g(a) = 1$ and $g(a) = 1/2$.
+Noting that $1-a\neq a$ for any $a$ other than $1/2$, we have that $w\da 1-a\in g(\CC)$.
+Then $g(w) \da g(1-a) = 1-g(a) = 1 - w = 1-(1-a) = a$, so $a\in g(\CC)$ and $g$ omits no values.
+:::
+
+
