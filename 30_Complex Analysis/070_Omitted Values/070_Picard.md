@@ -47,7 +47,6 @@ Show that $g(\CC) = \CC$.
 
 :::
 
-
 :::{.solution}
 By Picard, $g$ omits at most one value $a$.
 Note that $a\neq 1/2$, since $g(a) = g(1/2) = g(1-1/2) = 1-g(1/2) = 1-g(a)$, so $2g(a) = 1$ and $g(a) = 1/2$.
