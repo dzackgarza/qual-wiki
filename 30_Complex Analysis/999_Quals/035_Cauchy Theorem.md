@@ -34,8 +34,7 @@ bounded and closed sub-regions of $D$.
 Show that $\displaystyle \sum_{n=0}^\infty |a'_n(z)|$ converges uniformly on bounded and closed sub-regions of $D$.
 :::
 
-## Tie's Extra Questions: Spring 2014 #complex/exercise/work
-
+## Tie's Extra Questions: Spring 2014 #complex/exercise/completed
 
 :::{.problem title="?"}
 The question provides some insight into Cauchy's theorem. Solve the
@@ -54,7 +53,6 @@ problem without using the Cauchy theorem.
     radius $r$, with the positive orientation.
 :::
 
-
 :::{.solution}
 \[
 \int_\gamma z^n\dz = \int_0^{2\pi} R^n e^{itn} \cdot iRe^{it} \dt
@@ -62,8 +60,20 @@ problem without using the Cauchy theorem.
 = { i R^{n+1} \over i(n+1) } \delta_{n+1 = 0}
 .\]
 
-:::
+About a point $a$ and $R<\abs{a}$,
+\[
+\int_{\abs{z-a} = R} z^n\dz 
+&= \int_0^{2\pi} (a + re^{it})^n \cdot ire^{it}\dt \\
+&= \int_0^{2\pi} \sum_{1\leq k\leq n} {n \choose k} a_k R^{n-k+1} e^{it(n-k)} \cdot ire^{it}\dt \\
+&= i \int_0^{2\pi} \sum_{1\leq k\leq n} {n \choose k} a_k R^{n-k+1} e^{it(n-k+1)} \dt \\
+&= i \sum_{1\leq k\leq n} {n \choose k} a_k R^{n-k+1} \int_0^{2\pi} e^{it(n-k+1)} \dt \\
+&= i \sum_{1\leq k\leq n} {n \choose k} a_k R^{n-k+1} \cdot 0 \\
+&= 0
+,\]
+provided $n\neq 0$, in which case $\int_\gamma \dz = 2\pi$.
 
+For the third computation, this follows from partial fraction decomposition.
+:::
 
 ## Fall 2019.3, Spring 2020 HW 2.9 (Cauchy's Formula for Exterior Regions) #complex/qual/completed
 
