@@ -218,12 +218,20 @@ So $f'\equiv 0$.
 
 :::{.problem title="?"}
 Assume $f$ is continuous in the region:
-$0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
-($0 < \beta_0 \leq 2 \pi$) and the limit
-$\displaystyle \lim_{z \rightarrow a} (z-a) f(z) = A$ exists. Show that
+\[
+0 < \abs{z-a} < \leq R,\quad 0 \leq \Arg(z-a) \leq \beta_0 \qquad \beta_0\in (0, 2\pi]
+.\]
+
+and the following limit exists:
+\[
+\lim_{z\to a}(z-a)f(z) = A
+.\]
+Show that
 $$\lim_{r \rightarrow 0} \int_{\gamma_r} f(z) dz  = i A \beta_0 \; , \; \;$$
 where
-$\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$
+\[
+\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.
+.\]
 :::
 
 :::{.problem title="Alternative version"}
