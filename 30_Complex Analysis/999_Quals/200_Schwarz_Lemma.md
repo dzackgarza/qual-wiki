@@ -1,6 +1,7 @@
 ---
 order: 200
 title: "Schwarz Lemma"
+status: completed
 ---
 
 # Schwarz Lemma

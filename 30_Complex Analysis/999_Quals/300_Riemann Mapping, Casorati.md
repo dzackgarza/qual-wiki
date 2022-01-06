@@ -189,6 +189,3 @@ Ideas:
 - Schwarz reflection applies to $\tilde f$ to define an entire function -- if $f$ isn't dense, then the extension of $\tilde f$ isn't dense...?
 - No clue how to use $f(i) = i$, although it implies $\tilde f(0) = 0$ and Schwarz applies.
 :::
-
-
-
