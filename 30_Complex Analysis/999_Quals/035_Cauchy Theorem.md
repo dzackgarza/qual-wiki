@@ -258,8 +258,8 @@ Then
 &= \int_{\gamma_r} \sum_{k\geq -1} c_k z^k \dz \\
 &= \sum_{k\geq -1} c_k \int_{\gamma_r} z^k \dz \\
 &= c_{-1}\int_{\gamma_r}{1\over z}\dz \\
-&= c_{-1}\int_{0}^{\beta_0} {1\over re^{i\beta_0 t}} re^{it} \dt \\
-&= c_{-1}\int_{0}^{\beta_0} e^{i(1-\beta_0) t} \dt \\
+&= c_{-1}\int_{0}^{\beta_0} {1\over re^{i t}} re^{it} \dt \qquad z= re^{it}, \dz = ire^{it} \dt \\
+&= c_{-1}\int_{0}^{\beta_0} 
 .\]
 
 :::
