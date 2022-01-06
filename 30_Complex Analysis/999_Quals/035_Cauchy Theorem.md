@@ -198,30 +198,25 @@ Just reproducing the proof of holomorphicity in the Schwarz reflection theorem.
 :::{.problem title="?"}
 Prove Liouville's theorem: suppose $f:\CC\to\CC$ is entire and bounded. 
 Use Cauchy's formula to prove that $f'\equiv 0$ and hence $f$ is constant.
-
 :::
-
 
 :::{.solution}
-\envlist
-
-- Suffices to prove $f' = 0$ because $\CC$ is connected (see Stein Ch 1, 3.4)
-  - Idea: Fix $w_0$, show $f(w) = f(w_0)$ for any $w\neq w_0$
-  - Connected = Path connected in $\CC$, so take $\gamma$ joining $w$ to $w_0$.
-  - $f$ is a primitive for $f'$, and $\int_\gamma f' = f(w) - f(w_0)$, but $f'=0$.
-- Fix $z_0\in \CC$, let $B$ be the bound for $f$, so $\abs{f(z)} \leq B$ for all $z$.
-- Apply Cauchy inequalities: if $f$ is holomorphic on $U\supset \bar D_R(z_0)$ then setting $\norm{f}_C \definedas \sup_{z\in C} \abs{f(z)}$,
-  \begin{align*}
-  \abs{f^{(n)} (z_0)} \leq {n! \norm{f}_C \over R^n}
-  .\end{align*}
-  - Yields $\abs{ f'(z_0) } \leq B/R$
-- Take $R\to \infty$, QED.
+The main idea:
+\[
+\abs{f'(z)} 
+&\leq {1\over 2\pi }\oint_R {\abs{f(\xi)} \over \abs{\xi}^2 } \dxi\\
+&= {1\over 2\pi }\oint_R {\abs{f(\xi)}  } R^{-2} \dxi\\
+&\leq {1\over 2\pi }\oint_R M R^{-2} \dxi\\
+&= {1\over 2\pi} MR^{-2}\cdot 2\pi R \\
+&= MR^{-1} \\
+&\convergesto{R\to\infty}0
+.\]
+So $f'\equiv 0$.
 :::
 
+## Limit of a line integral, Tie's Extra Questions Fall 2009 #complex/exercise/work
 
-
-## ? #complex/exercise/work
-
+:::{.problem title="?"}
 Assume $f$ is continuous in the region:
 $0< |z-a| \leq R, \; 0 \leq \arg(z-a) \leq \beta_0$
 ($0 < \beta_0 \leq 2 \pi$) and the limit
@@ -229,9 +224,9 @@ $\displaystyle \lim_{z \rightarrow a} (z-a) f(z) = A$ exists. Show that
 $$\lim_{r \rightarrow 0} \int_{\gamma_r} f(z) dz  = i A \beta_0 \; , \; \;$$
 where
 $\gamma_r : = \{ z \; | \; z = a + r e^{it}, \; 0 \leq  t \leq \beta_0 \}.$
+:::
 
-## Tie's Extra Questions: Fall 2009 #complex/exercise/work
-
+:::{.problem title="Alternative version"}
 Let $f$ be a continuous function in the region
 $$
 D=\{z \suchthat  \abs{z}>R, 0\leq \arg z\leq \theta\}\quad\text{where}\quad 1\leq \theta \leq 2\pi
@@ -243,6 +238,16 @@ $$
 \lim_{R'\to\infty} \int_{L} f(z) dz=i\theta k
 ,$$ 
 where $L$ is the part of the circle $|z|=R'$ which lies in the region $D$.
+
+:::
+
+:::{.solution}
+
+:::
+
+
+## Tie's Extra Questions: Fall 2009 #complex/exercise/work
+
 
 ## Spring 2020 HW 2 #  2.6.5 #complex/exercise/work
 
