@@ -27,3 +27,10 @@ Show that $\Aut_\CC(\CC) = \ts{ z \mapsto az+b\st a\in \CC\units, b\in \CC }$.
 
 :::
 
+:::{.exercise title="?"}
+Show that $\Aut(\CP^1) = \ts{{az+b\over cz+d} \st ad-bc\neq 0}$.
+
+#complex/exercise/work
+
+:::
+
