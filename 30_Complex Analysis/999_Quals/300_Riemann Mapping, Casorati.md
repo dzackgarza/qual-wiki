@@ -189,3 +189,18 @@ Ideas:
 - Schwarz reflection applies to $\tilde f$ to define an entire function -- if $f$ isn't dense, then the extension of $\tilde f$ isn't dense...?
 - No clue how to use $f(i) = i$, although it implies $\tilde f(0) = 0$ and Schwarz applies.
 :::
+
+## Tie's Extra Questions: Spring 2015 #complex/exercise/work
+
+:::{.problem title="?"}
+Let $f(z)$ be an analytic function on
+${\mathbb C} \backslash \{ z_0 \}$, where $z_0$ is a fixed point.
+Assume that $f(z)$ is bijective from
+${\mathbb C} \backslash \{ z_0 \}$ onto its image, and that $f(z)$
+is bounded outside $D_r(z_0)$, where $r$ is some fixed positive
+number. Show that there exist $a, b, c, d \in \mathbb C$ with
+$ad-bc \neq 0$, $c \neq 0$ such that
+$\displaystyle f(z) = \frac{az + b}{cz + d}$.
+:::
+
+
