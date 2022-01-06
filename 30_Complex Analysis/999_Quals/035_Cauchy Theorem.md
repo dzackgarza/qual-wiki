@@ -30,7 +30,6 @@ Show that $f(z)$ is a polynomial in $z$ of degree $\leq 2$.
 ## Uniform sequence implies uniform derivatives #complex/exercise/work
 
 :::{.problem title="?"}
-#complex/exercise/work
 Let $a_n(z)$ be an analytic sequence in a domain $D$ such that
 $\displaystyle \sum_{n=0}^\infty |a_n(z)|$ converges uniformly on
 bounded and closed sub-regions of $D$. 
