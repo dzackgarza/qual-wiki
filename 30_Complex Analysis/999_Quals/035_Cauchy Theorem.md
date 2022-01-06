@@ -116,17 +116,6 @@ Prove that there is no sequence of polynomials that uniformly converge to $f(z) 
   which forces $\int f = \int p_j = 0$.
 :::
 
-## 6 #complex/exercise/work
-
-Suppose that $f: \RR\to\RR$ is a continuous function that vanishes outside of some finite interval.
-For each $z\in \CC$, define
-\[
-g(z) = \int_{-\infty}^\infty f(t) e^{-izt} \,dt
-.\]
-
-Show that $g$ is entire.
-
-
 ## 7 #complex/exercise/work
 
 Suppose $f: \CC\to \CC$ is entire and
