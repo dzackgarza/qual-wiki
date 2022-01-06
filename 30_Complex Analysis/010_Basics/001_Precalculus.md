@@ -55,7 +55,6 @@ Some useful parametric equations:
   - What the parameters mean:
 
   ![](figures/2022-01-01_00-11-24.png)
-
     - The foci are at $(\pm c, 0)$ where $c\da \sqrt{a^2-b^2}$ assuming $a\geq b$.
     - The vertices are $(\pm a, 0)$ and $(0, \pm b)$.
 
