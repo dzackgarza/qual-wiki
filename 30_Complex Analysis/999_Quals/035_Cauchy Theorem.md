@@ -52,8 +52,17 @@ problem without using the Cauchy theorem.
     $\displaystyle{\int_{\gamma}\frac{dz}{(z-a)(z-b)} dz=\frac{2\pi i}{a-b}}$.
     Here $\gamma$ denotes the circle centered at the origin, of
     radius $r$, with the positive orientation.
+:::
+
+
+:::{.solution}
+\[
+\int_\gamma z^n\dz = \int_0^{2\pi} R^n e^{itn} \cdot Re^{it} \dt
+= R^{n+1} \int_0^{2\pi} e^{i(t+1)n}\dt = 2\pi R^{n+1}\delta_{n+1 = 0}
+.\]
 
 :::
+
 
 ## Fall 2019.3, Spring 2020 HW 2.9 (Cauchy's Formula for Exterior Regions) #complex/qual/completed
 
