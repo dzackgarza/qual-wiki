@@ -153,7 +153,7 @@ Show that $\prod_{n\in \ZZ} (1 + a_n) < \infty$ if $\ts{a_n} \in \ell_1(\ZZ)$.
 Use summation by parts to show that $\sin(n)/n$ converges.
 :::
 
-:::{.problem title="?"}
+:::{.exercise title="?"}
 Show that ${1\over z} \sum_{k=1}^\infty {z^k \over k}$ converges on $S^1 \setminus\theset{1}$ using summation by parts. 
 
 #complex/exercise/work
