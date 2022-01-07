@@ -86,3 +86,7 @@ Thus
 .\]
 
 :::
+
+# Exercises
+
+#todo
