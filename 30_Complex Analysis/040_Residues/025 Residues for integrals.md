@@ -176,7 +176,7 @@ This is because the main estimate involves
 \[
 \cdots & \leq \lim _{R \rightarrow \infty} \int_{H_{R}} e^{-\alpha R \sin \theta}|F(z)| R d \theta
 ,\]
-which goes to zero if $-\alphan\sin(\theta)<0$, i.e. 
+which goes to zero if $-\alpha n\sin(\theta)<0$, i.e. 
 
 - $\alpha>0$ and $\sin(\theta)>0$, so $C_R$ is in the upper half-plane, or
 - $\alpha < 0$ and $\sin(\theta)<0$, so $C_R$ is in the lower half-plane.
