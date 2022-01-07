@@ -1,4 +1,4 @@
-# Cauchy's Theorem
+# Cauchy-Goursat
 
 :::{.definition title="Complex Integral"}
 \[

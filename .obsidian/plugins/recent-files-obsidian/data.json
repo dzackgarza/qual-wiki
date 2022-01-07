@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "010_Cauchy_Theorem",
+      "path": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
+    },
+    {
+      "basename": "035_Cauchy Theorem",
+      "path": "30_Complex Analysis/999_Quals/035_Cauchy Theorem.md"
+    },
+    {
       "basename": "130_The Cauchy-Riemann equations",
       "path": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "240_Fixed_Points_and_Degree",
       "path": "40_Topology/080_Degree/240_Fixed_Points_and_Degree.md"
-    },
-    {
-      "basename": "020 Liouville",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/020 Liouville.md"
-    },
-    {
-      "basename": "scratch",
-      "path": "scratch.md"
     }
   ],
   "omittedPaths": [],

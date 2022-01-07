@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
+            "file": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md",
             "mode": "source",
             "source": false
           }
@@ -80,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
+                "file": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md"
+                "file": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
               }
             }
           }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
+                "file": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
+                "file": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -257,6 +257,8 @@
   },
   "active": "4466b3bcd52aed14",
   "lastOpenFiles": [
+    "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md",
+    "30_Complex Analysis/999_Quals/035_Cauchy Theorem.md",
     "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
     "30_Complex Analysis/010_Basics/125_Harmonic Functions.md",
     "30_Complex Analysis/010_Basics/001_Precalculus.md",
@@ -264,8 +266,6 @@
     "30_Complex Analysis/000_Resources/20_Solutions.md",
     "attachments/hmwk3x.pdf",
     "30_Complex Analysis/000_Resources/10_Problems.md",
-    "30_Complex Analysis/000_Resources/00_Study Schedule and Topics.md",
-    "unresolved links output.md",
-    "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    "30_Complex Analysis/000_Resources/00_Study Schedule and Topics.md"
   ]
 }
