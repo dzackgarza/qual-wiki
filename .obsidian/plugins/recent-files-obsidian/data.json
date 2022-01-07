@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "130_The Cauchy-Riemann equations",
+      "path": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md"
+    },
+    {
+      "basename": "125_Harmonic Functions",
+      "path": "30_Complex Analysis/010_Basics/125_Harmonic Functions.md"
+    },
+    {
       "basename": "001_Precalculus",
       "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "scratch",
       "path": "scratch.md"
-    },
-    {
-      "basename": "010_Algebra",
-      "path": "010_Algebra.md"
     }
   ],
   "omittedPaths": [],
