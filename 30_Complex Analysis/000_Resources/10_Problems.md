@@ -29,9 +29,7 @@ tag:complex/exercise path:"30_Complex"
 - [ ]  [Azoff's Problems by Topic](attachments/Azoff%20Problems%20by%20Topic.pdf)
 
 - [ ]  [[30_Complex Analysis/999_Quals/000_Preface|UGA Qual Problems]]
-
-- [ ]  [Problem sheet from Cambridge Part 1B](https://dec41.user.srcf.net/notes/IB_L/complex_methods_eg.pdf)
-    
+- [ ] [Problem sheet from Cambridge Part 1B](attachments/Cambridge%20Examples%20Sheets.pdf)
 ## Misc
 
 - [ ]  [Utah Math 6220 Assignments.](http://www.math.utah.edu/~astephan/134.pdf) #resources/problem_collections
