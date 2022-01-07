@@ -1,3 +1,6 @@
+---
+title: "Study Schedule and Topics"
+---
 
 # Topics
 
@@ -36,11 +39,11 @@
 	- [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity|Riemann's removable singularity theorem]]
 
 - Week 4 (June 9): **Integration I**
-		- [[010_Cauchy_Theorem|Cauchy's theorem]] and [[050_Morera_Theorem|Morera's theorem]]
-		- [[012 Cauchy Integral Formula|Cauchy's Integral Formula]]
-		- [[30_Complex Analysis/030_Zeros_and_Poles/040_MMP|Maximum Modulus Principle]]]
-		- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|Schwarz reflection principle]]
-		- [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|Mean value theorem]]
+	- [[010_Cauchy_Theorem|Cauchy's theorem]] and [[050_Morera_Theorem|Morera's theorem]]
+	- [[012 Cauchy Integral Formula|Cauchy's Integral Formula]]
+	- [[30_Complex Analysis/030_Zeros_and_Poles/040_MMP|Maximum Modulus Principle]]]
+	- [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|Schwarz reflection principle]]
+	- [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|Mean value theorem]]
 
 - Week 5 (June 16): **Integration II**
     - [[020_Residues|Residues]]

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Study Schedule and Topics",
+      "path": "30_Complex Analysis/000_Resources/00_Study Schedule and Topics.md"
+    },
+    {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "Won_-_Complex_Analysis_Qual_Sheet",
+      "path": "attachments/Won_-_Complex_Analysis_Qual_Sheet.pdf"
+    },
+    {
       "basename": "025 Residues for integrals",
       "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
     },
@@ -13,20 +25,12 @@
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
     {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
-    },
-    {
       "basename": "10_Problems",
       "path": "30_Complex Analysis/000_Resources/10_Problems.md"
     },
     {
       "basename": "20_Solutions",
       "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "00_Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Topics.md"
     },
     {
       "basename": "qual_progress",
@@ -107,10 +111,6 @@
     {
       "basename": "ist_ca_2015",
       "path": "attachments/ist_ca_2015.pdf"
-    },
-    {
-      "basename": "Won_-_Complex_Analysis_Qual_Sheet",
-      "path": "attachments/Won_-_Complex_Analysis_Qual_Sheet.pdf"
     },
     {
       "basename": "index",
@@ -195,10 +195,6 @@
     {
       "basename": "010_Algebra",
       "path": "010_Algebra.md"
-    },
-    {
-      "basename": "000_Resources",
-      "path": "10_Algebra/000_Resources/000_Resources.md"
     }
   ],
   "omittedPaths": [],

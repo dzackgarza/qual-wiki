@@ -66,7 +66,7 @@ In the Spirit of Lipman Bers*
 - [Math Camp review](http://web.stanford.edu/~yuvalwig/math/teaching/ComplexAnalysisNotes.pdf)
 	#resources/summaries
 
-- [Won's UCSD Review Sheet](Won_-_Complex_Analysis_Qual_Sheet.pdf)
+- [Won UCSD Review Sheet](Won_-_Complex_Analysis_Qual_Sheet.pdf)
 	#resources/summaries 
 
 - [[attachments/Complex_Qual_Notes.pdf|Josh Swanson Complex Prelim Notes]]
