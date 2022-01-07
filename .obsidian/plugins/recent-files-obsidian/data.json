@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "001_Precalculus",
+      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "025 Residues for integrals",
       "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
-    },
-    {
-      "basename": "001_Precalculus",
-      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
     },
     {
       "basename": "qual_progress",

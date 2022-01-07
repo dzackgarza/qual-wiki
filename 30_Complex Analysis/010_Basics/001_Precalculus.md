@@ -52,11 +52,10 @@ Some useful parametric equations:
 ![](figures/2021-12-30_19-31-42.png)
 
   - In complex form: $\gamma(t) = ae^{it} + be^{-it}$.
-  - What the parameters mean:
-
-  ![](figures/2022-01-01_00-11-24.png)
-    - The foci are at $(\pm c, 0)$ where $c\da \sqrt{a^2-b^2}$ assuming $a\geq b$.
-    - The vertices are $(\pm a, 0)$ and $(0, \pm b)$.
+  - What the parameters mean: 
+	![](figures/2022-01-01_00-11-24.png)
+	- The foci are at $(\pm c, 0)$ where $c\da \sqrt{a^2-b^2}$ assuming $a\geq b$.
+	- The vertices are $(\pm a, 0)$ and $(0, \pm b)$.
 
 - For off-center circles $(x-h)^2 + (y-k)^2 = r^2$, use $\tv{r\cos(t) + h, r\sin(t) + k}$.
 
@@ -100,7 +99,7 @@ Some useful numerology that comes up when trying to estimate when poles fall wit
 :::{.fact title="Completing the square"}
 \[
 x^2 + bx + c = 0 
-\iff x^2 + bx {\color{red} + \qty{b\over 2}^2 - \qty{b\over 2}^2 } + c = 0 \\
+\iff x^2 + bx {\color{red\, + \qty{b\over 2}^2 - \qty{b\over 2}^2 } + c = 0 \\
 \iff \qty{x+ \qty{b\over 2}^2}^2 + \qty{c - \qty{b\over 2}^2} = 0
 .\]
 More generally:
