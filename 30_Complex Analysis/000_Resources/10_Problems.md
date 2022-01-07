@@ -26,7 +26,7 @@ tag:complex/exercise path:"30_Complex"
     
 - [ ]  [Extra Questions from Tie](attachments/Questions_from_Tie.pdf) #resources/problem_collections
 
-- [ ]  [[attachments/Azoff Problems by Topic.pdf]]
+- [ ]  [Azoff's Problems by Topic](attachments/Azoff%20Problems%20by%20Topic.pdf)
 
 - [ ]  [[30_Complex Analysis/999_Quals/000_Preface|UGA Qual Problems]]
 

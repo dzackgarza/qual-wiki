@@ -7,8 +7,12 @@
         "id": "4466b3bcd52aed14",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "30_Complex Analysis/000_Resources/10_Problems.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -75,6 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -108,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md"
+              }
             }
           }
         ],
@@ -132,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "30_Complex Analysis/000_Resources/10_Problems.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -247,14 +256,14 @@
   },
   "active": "4466b3bcd52aed14",
   "lastOpenFiles": [
-    "unresolved links output.md",
+    "30_Complex Analysis/000_Resources/10_Problems.md",
     "30_Complex Analysis/000_Resources/00_Study Schedule and Topics.md",
+    "unresolved links output.md",
     "30_Complex Analysis/000_Resources/00_Books_Notes.md",
     "attachments/Won_-_Complex_Analysis_Qual_Sheet.pdf",
     "30_Complex Analysis/040_Residues/025 Residues for integrals.md",
     "30_Complex Analysis/010_Basics/001_Precalculus.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
-    "30_Complex Analysis/000_Resources/10_Problems.md",
     "30_Complex Analysis/000_Resources/20_Solutions.md",
     "qual_progress.md"
   ]
