@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "000_My Active Problems",
+      "path": "000_My Active Problems.md"
+    },
+    {
       "basename": "010_Cauchy_Theorem",
       "path": "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md"
     },
@@ -189,16 +193,8 @@
       "path": "30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality.md"
     },
     {
-      "basename": "000_My Active Problems",
-      "path": "000_My Active Problems.md"
-    },
-    {
       "basename": "050 Series Reference",
       "path": "30_Complex Analysis/010_Basics/050 Series Reference.md"
-    },
-    {
-      "basename": "240_Fixed_Points_and_Degree",
-      "path": "40_Topology/080_Degree/240_Fixed_Points_and_Degree.md"
     }
   ],
   "omittedPaths": [],
