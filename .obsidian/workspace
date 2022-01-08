@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "000_My Active Problems.md",
+            "file": "Calendar Delete.md",
             "mode": "source",
             "source": false
           }
@@ -80,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000_My Active Problems.md",
+                "file": "Calendar Delete.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_My Active Problems.md"
+                "file": "Calendar Delete.md"
               }
             }
           }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_My Active Problems.md",
+                "file": "Calendar Delete.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "000_My Active Problems.md",
+                "file": "Calendar Delete.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -257,6 +257,7 @@
   },
   "active": "441061687005c13e",
   "lastOpenFiles": [
+    "Calendar Delete.md",
     "000_My Active Problems.md",
     "scratch.md",
     "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md",
@@ -265,7 +266,6 @@
     "30_Complex Analysis/010_Basics/125_Harmonic Functions.md",
     "30_Complex Analysis/010_Basics/001_Precalculus.md",
     "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
-    "30_Complex Analysis/000_Resources/20_Solutions.md",
-    "attachments/hmwk3x.pdf"
+    "30_Complex Analysis/000_Resources/20_Solutions.md"
   ]
 }
