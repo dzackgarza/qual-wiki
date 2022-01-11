@@ -46,7 +46,7 @@ Find a conformal map
 4.  from ${\mathbb D}  \backslash [a, 1)$ to
     ${\mathbb D} \backslash [0, 1)$ ($0<a<1)$. 
 
-    > Short solution possible using Blaschke factor.
+    > Short solution possible using Blaschke factors.
 
 5.  from $\{ z: |z| < 1, \text{Re}(z) > 0 \} \backslash (0, 1/2]$ to
     $\mathbb H$.

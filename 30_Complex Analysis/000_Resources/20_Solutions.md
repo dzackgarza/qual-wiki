@@ -2,8 +2,6 @@
 
 #resources/solutions 
 
-- [ ] [[Some Pset solutions]]
-	#resources/solutions
 - [ ]  [UCSD Solutions](http://www.math.ucsd.edu/~jagler/courses/220-S14/pdf/Qual%20(version%202)%20Solutions.pdf)
 	#resources/solutions
 - [ ]  [UCSD 2014 Qual with Solutions](http://www.math.ucsd.edu/~jagler/courses/220-S14/pdf/Qual%20(version%202)%20Solutions.pdf) #resources/solutions

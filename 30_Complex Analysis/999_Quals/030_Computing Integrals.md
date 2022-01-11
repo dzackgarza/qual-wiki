@@ -1,5 +1,7 @@
 ---
 order: 30
+title: "Computing Integrals"
+status: in_progress
 ---
 
 # Computing Integrals
@@ -138,9 +140,9 @@ Parameterize $\gamma_2 = \ts{Re^{it} \st t\in [0, 2\pi/n]}$ and apply the ML est
 ### Spring 2020 HW 3, SS 3.8.2 #complex/exercise/work
 
 Evaluate the integral
-\[
-\int_\RR {dx \over 1 + x^4}
-.\]
+$$
+\int_\mathbb{R} {dx \over 1 + x^4}
+.$$
 
 What are the poles of ${1\over 1 + z^4}$ ?
 

@@ -2,10 +2,7 @@
 
 ## Schedule
 
-**Thursdays 12-2 PM EST**
-
-- Week 1 (May 20): 
-Preliminary Review
+- Week 1 (May 20): Preliminary Review
     - Uniform convergence, M-Test
     - Nowhere density, Baire category, Heine Borel
     - Normed spaces
@@ -14,15 +11,13 @@ Preliminary Review
     - Tools from Calculus: MVT, Taylor's theorem & remainder
     - Weierstrass approximation
     - Pathological functions and continuity
-- Week 2 (May 27):
-Measure Theory (Sets)
+- Week 2 (May 27): Measure Theory (Sets)
     - $F_\sigma$ and $G_\delta$ sets
     - Sigma algebras
     - Outer measure, Lebesgue measure
     - Continuity of measure
     - Borel-Cantelli
-- Week 3 (June 3):
-Integration 1:
+- Week 3 (June 3): Integration 1:
     - Measurable Functions
     - Lebesgue integration, change of variables
     - Chebyshev's inequality
@@ -30,27 +25,24 @@ Integration 1:
     - Types of convergence: uniform, pointwise, a.e., in measure, in norm
 - Week 4 (June 10):
 Integration 2:
-    - [[Convergence Theorems]] (Fatou, Monotone, Dominated)
-    - [[Fubini-Tonelli]] and repeated integration
-- Week 5 (June 17):
-Fourier Analysis
+    - Convergence Theorems (Fatou, Monotone, Dominated)
+    - Fubini-Tonelli and repeated integration
+- Week 5 (June 17): Fourier Analysis
     - The Fourier transform
     - Fourier series
     - Convolutions, approximations to the identity
     - Trigonometric series, density of trig polynomials
-- Week 6 (June 24):
-Functional Analysis 1
+- Week 6 (June 24): Functional Analysis 1
     - Banach and Hilbert Spaces, completeness
     - l^p and L^p
     - Holder
     - Duals, linear functionals, operator norm
-- Week 7 (July 1):
-Functional Analysis 2:
+- Week 7 (July 1): Functional Analysis 2:
     - $L^1$, $L^2$, $L^\infty$, Cauchy-Schwarz, Pythagoras for orthogonality
     - Function spaces
-    - [[Plancherel]], [[Parseval]], [[Bessel]], [[Riesz Representation]]
-- Week 8 (July 8):
-    - [[Radon-Nikodym]]
+    - Plancherel, Parseval, Bessel, Riesz Representation
+- Week 8 (July 8): Abstract Measures
+    - Radon-Nikodym
 
 # References
 

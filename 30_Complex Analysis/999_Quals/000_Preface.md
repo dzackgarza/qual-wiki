@@ -48,7 +48,7 @@ Included years:
 
 - [x] [Fall 2021](https://www.math.uga.edu/sites/default/files/inline-files/Complex_Qual_Fall2021.pdf)
 
-- [x] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^b9b6b4]]
+- [x] [[30_Complex Analysis/999_Quals/010_Geometry Arithmetic#^b9b6b4]]
 - [x] [[30_Complex Analysis/999_Quals/070_Morera#^a550c1]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^1eefcc]]
 - [x] [[30_Complex Analysis/999_Quals/005 Montel#^b0c999]] (unsure)
@@ -60,19 +60,19 @@ Included years:
 
 - [x] [Spring 2021](https://www.math.uga.edu/sites/default/files/inline-files/ComplexQual_Spring2020.pdf)
 
-- [x] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^7d0c77]]
+- [x] [[30_Complex Analysis/999_Quals/010_Geometry Arithmetic#^7d0c77]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^0a6802]]
 - [x] [[30_Complex Analysis/999_Quals/051_Polynomials#^409461]]
 - [x] [[30_Complex Analysis/999_Quals/051_Polynomials#^c3336f]]
 - [x] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^14ad86]]
-- [x] [[30_Complex Analysis/999_Quals/005 Function Convergence#^c94b57]]
+- [x] [[30_Complex Analysis/999_Quals/005 Montel#^c94b57]]
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^644ace]]
 
 ## Fall 2020
 
 [Fall 2020](https://www.math.uga.edu/sites/default/files/inline-files/Complex_Qual_Fall2020.pdf)
 
-- [x] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^b9b6b4]]
+- [x] [[30_Complex Analysis/999_Quals/010_Geometry Arithmetic#^b9b6b4]]
 - [x] [[30_Complex Analysis/999_Quals/006 Series Convergence#^c47851]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
 - [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^0f90ac]] (stuck)
@@ -85,7 +85,7 @@ Included years:
 
 [Spring 2020](https://www.math.uga.edu/sites/default/files/inline-files/ComplexQual_Spring2020.pdf)
 
-- [x] [[30_Complex Analysis/999_Quals/011_Complex Geometry#^ea471a]]
+- [x] [[30_Complex Analysis/999_Quals/010_Geometry Arithmetic#^ea471a]]
 - [ ] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^c765ed]] (stuck)
 - [x] [[30_Complex Analysis/999_Quals/050 Liouville#^c6e205]]
 - [x] [[30_Complex Analysis/999_Quals/022 Singularities#^4bd9ee]]
@@ -98,9 +98,9 @@ Included years:
 [Fall 2019](https://www.math.uga.edu/sites/default/files/ComplexQual_Fall2019.pdf)
 
 - [ ] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^d9cb99]]
-- [x] [[30_Complex Analysis/999_Quals/011_Complex Geometry#^a35657]]
-- [ ] [[30_Complex Analysis/999_Quals/035_Cauchy Theorem#^f2a684]]
-- [ ] [[30_Complex Analysis/999_Quals/051_Polynomials#^398dec]]
+- [x] [[30_Complex Analysis/999_Quals/010_Geometry Arithmetic#^a35657]]
+- [x] [[30_Complex Analysis/999_Quals/035_Cauchy Theorem#^f2a684]]
+- [x] [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati#^398dec]]
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^043381]]
 - [x] [[30_Complex Analysis/999_Quals/007 CR and Holomorphy#^430a0a]]
 
@@ -110,9 +110,9 @@ Included years:
 
 - [ ] [[30_Complex Analysis/999_Quals/001_Real_Review#^0a8ca5]]
 - [x] [[30_Complex Analysis/999_Quals/030_Computing Integrals#^5fa654]]
-- [ ] [[30_Complex Analysis/999_Quals/010_Arithmetic and Inequalities#^c8872d]] (stuck)
-- [ ] [[30_Complex Analysis/999_Quals/051_Polynomials#^047423]]
-- [ ] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^14ad86]]
+- [ ] [[30_Complex Analysis/999_Quals/010_Geometry Arithmetic#^c8872d]] (stuck)
+- [x] [[30_Complex Analysis/999_Quals/051_Polynomials#^047423]]
+- [x] [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma#^14ad86]]
 - [x] [[30_Complex Analysis/999_Quals/105_Conformal Maps#^0df993]]
 - [x] [[30_Complex Analysis/999_Quals/005 Montel#^d94130]]
 

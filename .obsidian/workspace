@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "441061687005c13e",
+        "id": "3afae7f358e4bda3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Calendar Delete.md",
+            "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
             "mode": "source",
             "source": false
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#complex/exercise/work",
+                "query": "Spring 2020.1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3ce32054145f32a1",
@@ -80,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Calendar Delete.md",
+                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar Delete.md"
+                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
               }
             }
           }
@@ -124,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.0074996948242
+    "width": 295
   },
   "right": {
     "id": "a1502ca3cb933e96",
@@ -140,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar Delete.md",
+                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,12 +162,35 @@
             }
           },
           {
+            "id": "27da86852faa4316",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "fe5142aeefaf35d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ed7072f1c1fa88b",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
+          },
+          {
             "id": "ddedd1d5d99275ee",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Calendar Delete.md",
+                "file": "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -220,33 +242,10 @@
                   "repelStrength": 20,
                   "linkStrength": 0.852941176470588,
                   "linkDistance": 500,
-                  "scale": 0.30459856858070417,
+                  "scale": 0.21264751104488164,
                   "close": true
                 }
               }
-            }
-          },
-          {
-            "id": "27da86852faa4316",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "fe5142aeefaf35d2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5ed7072f1c1fa88b",
-            "type": "leaf",
-            "state": {
-              "type": "dangling-links",
-              "state": {}
             }
           }
         ]
@@ -255,17 +254,17 @@
     "direction": "horizontal",
     "width": 589.007568359375
   },
-  "active": "441061687005c13e",
+  "active": "3afae7f358e4bda3",
   "lastOpenFiles": [
-    "Calendar Delete.md",
-    "000_My Active Problems.md",
-    "scratch.md",
-    "30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem.md",
-    "30_Complex Analysis/999_Quals/035_Cauchy Theorem.md",
-    "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md",
-    "30_Complex Analysis/010_Basics/125_Harmonic Functions.md",
-    "30_Complex Analysis/010_Basics/001_Precalculus.md",
-    "30_Complex Analysis/010_Basics/000_Tips_Techs.md",
-    "30_Complex Analysis/000_Resources/20_Solutions.md"
+    "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
+    "30_Complex Analysis/000_Resources/00_Books_Notes.md",
+    "30_Complex Analysis/999_Quals/000_Preface.md",
+    "30_Complex Analysis/000_Resources/20_Solutions.md",
+    "20_Real Analysis/000_Resources/10_Topics.md",
+    "30_Complex Analysis/999_Quals/010_Geometry Arithmetic.md",
+    "30_Complex Analysis/999_Quals/200_Schwarz_Lemma.md",
+    "30_Complex Analysis/999_Quals/011_Geometry Arithmetic.md",
+    "qual_progress.md",
+    "30_Complex Analysis/999_Quals/070_Morera.md"
   ]
 }

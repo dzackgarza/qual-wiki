@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "030_Computing Integrals",
+      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
+    },
+    {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+    },
+    {
+      "basename": "000_Preface",
+      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
+    },
+    {
+      "basename": "20_Solutions",
+      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
+    },
+    {
+      "basename": "10_Topics",
+      "path": "20_Real Analysis/000_Resources/10_Topics.md"
+    },
+    {
+      "basename": "010_Geometry Arithmetic",
+      "path": "30_Complex Analysis/999_Quals/010_Geometry Arithmetic.md"
+    },
+    {
+      "basename": "200_Schwarz_Lemma",
+      "path": "30_Complex Analysis/999_Quals/200_Schwarz_Lemma.md"
+    },
+    {
+      "basename": "qual_progress",
+      "path": "qual_progress.md"
+    },
+    {
+      "basename": "070_Morera",
+      "path": "30_Complex Analysis/999_Quals/070_Morera.md"
+    },
+    {
+      "basename": "105_Conformal Maps",
+      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+    },
+    {
+      "basename": "052_Rouche",
+      "path": "30_Complex Analysis/999_Quals/052_Rouche.md"
+    },
+    {
+      "basename": "999_Typsetting_Progress",
+      "path": "999_Typsetting_Progress.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
       "basename": "000_My Active Problems",
       "path": "000_My Active Problems.md"
     },
@@ -29,10 +81,6 @@
       "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
     },
     {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
-    },
-    {
       "basename": "hmwk3x",
       "path": "attachments/hmwk3x.pdf"
     },
@@ -45,10 +93,6 @@
       "path": "30_Complex Analysis/000_Resources/00_Study Schedule and Topics.md"
     },
     {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
-    },
-    {
       "basename": "Won_-_Complex_Analysis_Qual_Sheet",
       "path": "attachments/Won_-_Complex_Analysis_Qual_Sheet.pdf"
     },
@@ -57,28 +101,8 @@
       "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
     },
     {
-      "basename": "qual_progress",
-      "path": "qual_progress.md"
-    },
-    {
-      "basename": "000_Preface",
-      "path": "30_Complex Analysis/999_Quals/000_Preface.md"
-    },
-    {
       "basename": "060_Schwarz lemma",
       "path": "30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma.md"
-    },
-    {
-      "basename": "030_Computing Integrals",
-      "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
-    },
-    {
-      "basename": "105_Conformal Maps",
-      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
-    },
-    {
-      "basename": "200_Schwarz_Lemma",
-      "path": "30_Complex Analysis/999_Quals/200_Schwarz_Lemma.md"
     },
     {
       "basename": "300_Riemann Mapping, Casorati",
@@ -133,10 +157,6 @@
       "path": "attachments/ist_ca_2015.pdf"
     },
     {
-      "basename": "index",
-      "path": "index.md"
-    },
-    {
       "basename": "017 Fixed Points",
       "path": "40_Topology/600_UGA_Qual_Questions/017 Fixed Points.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "061_Analytic_NT",
       "path": "30_Complex Analysis/010_Basics/061_Analytic_NT.md"
-    },
-    {
-      "basename": "051 Series Exercises",
-      "path": "30_Complex Analysis/010_Basics/051 Series Exercises.md"
-    },
-    {
-      "basename": "001_Real_Review",
-      "path": "30_Complex Analysis/999_Quals/001_Real_Review.md"
-    },
-    {
-      "basename": "012_Cauchy Inequality",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality.md"
-    },
-    {
-      "basename": "050 Series Reference",
-      "path": "30_Complex Analysis/010_Basics/050 Series Reference.md"
     }
   ],
   "omittedPaths": [],

@@ -6,7 +6,7 @@
 - [[100_Extra Questions]]
 - [[30_Complex Analysis/999_Quals/000_Preface]]
 
-## Oh Boy
+## Problems marked "to work"
 
 ```query
 section:(\work)
