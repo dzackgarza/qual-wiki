@@ -9,7 +9,6 @@ In any case, I'd love to hear if you do find it useful!
 Readers are welcome to email me with any questions, comments, errors/typos, suggestions for improvement, or just to say hello! 😄
 :::
 
-
 :::{.remark}
 Adapted from remark written by Roy Smith, August 2006:
 
@@ -89,7 +88,7 @@ Chapters 1-9 of Dummit and Foote
 - Fratini's argument
  - The Jordan Holder theorem
 
-  > The proof of Jordan-Holder is seldom tested on the qual**, but proofs are always of interest.
+  > The proof of Jordan-Holder is seldom tested on the qual, but proofs are always of interest.
 
 ## Linear Algebra
 
@@ -101,6 +100,8 @@ Chapters 1-9 of Dummit and Foote
 - Eigenvalues and eigenvectors
 - Cayley-Hamilton Theorem
 - Canonical forms for matrices
+  - **Jordan canonical form**
+  - **Rational canonical form**
 - Linear groups ($\GL_n , \SL_n, \mathrm{O}_n, \mathrm{U}_n$)
 - Duality
   - Dual spaces,
