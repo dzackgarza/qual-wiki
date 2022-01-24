@@ -1,5 +1,12 @@
 # Fubini and Tonelli
 
+:::{.remark}
+
+![](figures/2022-01-23_00-42-39.png)
+
+:::
+
+
 :::{.theorem title="Tonelli (Non-Negative, Measurable)"}
 For $f(x, y)$ **non-negative and measurable**, for almost every $x\in \RR^n$, 
 
@@ -36,4 +43,6 @@ F(x):=\int_{0}^{x} f(y) d y \quad \text { and } \quad G(x):=\int_{0}^{x} g(y) d 
 Fubini-Tonelli, and sketch region to change integration bounds.
 #todo
 :::
+
+
 
