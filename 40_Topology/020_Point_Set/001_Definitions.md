@@ -48,7 +48,8 @@ The set of all topologies on a given set $X$ forms a complete lattice bounded un
 
 If $f:X\to Y$, then
 
-- Increasing $\tau(X)$ or decreasing $\tau(Y)$ makes it *easier* for $f$ to be continuous, so
+- Increasing $\tau(X)$ or decreasing $\tau(Y)$ makes it *easier* for $f$ to be continuous, i.e. every map continuous with respect to $\tau_1(X)$ will remain continuous with respect to $\tau_2(X)$.
+  Writing $\tau_1(X) \to \tau_2(X) \iff \tau_1(X) \leq \tau_2(X)$,
 
 \begin{tikzcd}
 	{\tau_2(X)} && {\Hom_\Top(\tau_2(X), \tau(Y))} \\
@@ -72,11 +73,10 @@ If $f:X\to Y$, then
 
 > [Link to Diagram](https://q.uiver.app/?q=WzAsNCxbMCwyLCJcXHRhdV8xKFkpIl0sWzAsMCwiXFx0YXVfMihZKSJdLFsyLDAsIlxcSG9tX1xcVG9wKFxcdGF1KFgpLCBcXHRhdV8yKFkpKSJdLFsyLDIsIlxcSG9tX1xcVG9wKFxcdGF1KFgpLCBcXHRhdV8yKFkpKSJdLFswLDFdLFsyLDNdLFs0LDUsIlxcSG9tX1xcVG9wKFgsIFxcd2FpdCkiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d)
 
-  i.e. every map continuous with respect to $\tau_1(X)$ will remain continuous with respect to $\tau_2(X)$.
 
 - Decreasing $\tau(X)$ or increasing $\tau(Y)$ makes it *easier* for $f$ to be an open map.
 
-For a fixed $X$, increasing $\tau(X)$ makes it *easier* for maps out of $X$ to be continuous, but makes it *harder* for sequences to converge in $X$.
+- For a fixed $X$, decreasing $\tau(X)$ makes it *easier* for sequences to converge in $X$.
 :::
 
 :::{.example title="?"}
