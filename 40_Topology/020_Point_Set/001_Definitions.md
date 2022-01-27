@@ -39,15 +39,25 @@ Given two topologies $\tau_1, \tau_2$,
   - The coarsest topology is the indiscrete topology $\tau_{\initial} \da \ts{\emptyset, X}$.
 
 Two topologies are **comparable** if either $\tau_1 < \tau_2$ or $\tau_2 < \tau_1$.
-The set of all topologies on a given set $X$ forms a poset under inclusion.
 
+:::{.remark}
+The set of all topologies on a given set $X$ forms a poset under inclusion.
 Adding more open sets to a topology is like increasing to a "finer" resolution, and
 
-- makes it *easier* for maps to be continuous and 
-- makes it *harder* for sequences to converge.
+- Makes it *easier* for maps to be continuous and 
+- Makes it *harder* for sequences to converge.
+
+:::
+
+:::{.example title="?"}
+Write $\tau_Z(X)$ for the Zariski topology on a space and $\tau_{\RR}(X)$ for the classical/Euclidean topology.
+Then $\tau_Z(\CC^n) < \tau_{\RR}(\CC^n)$, i.e. the Zariski topology is strictly weaker than the Euclidean topology and has fewer open sets.
+:::
+
 :::
 
 :::{.definition title="Connected"}
+A space $X$ is **disconnected** iff there exists a disconnection: a decomposition $X = U\Disjoint V$
 A space $X$ is **connected** iff there does not exist a disconnection $X = A\disjoint B$ with $A, B$ nonempty open sets.
 I.e. $X$ can not be written as the disjoint union of two proper nonempty open sets.
 Equivalently, $X$ contains no proper nonempty clopen sets.
@@ -56,6 +66,9 @@ Note that there is an additional condition for a subspace $Y\subset X$ to be con
 \[
 \cl_{Y}(A) \intersect B = A \intersect \cl_{Y}(B) = \emptyset
 .\]
+
+
+
 :::
 
 :::{.definition title="Connected Components"}
