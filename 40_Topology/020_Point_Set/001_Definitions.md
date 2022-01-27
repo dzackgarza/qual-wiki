@@ -87,17 +87,18 @@ Then $\tau_\zar(\CC^n) < \tau_{\an}(\CC^n)$, i.e. the Zariski topology is strict
 :::
 
 :::{.definition title="Connected"}
-A space $X$ is **disconnected** iff there exists a disconnection: a decomposition $X = U\Disjoint V$
-A space $X$ is **connected** iff there does not exist a disconnection $X = A\disjoint B$ with $A, B$ nonempty open sets.
-I.e. $X$ can not be written as the disjoint union of two proper nonempty open sets.
-Equivalently, $X$ contains no proper nonempty clopen sets.
+A space $X$ is **disconnected** iff 
 
-Note that there is an additional condition for a subspace $Y\subset X$ to be connected: 
+- There exists a *separation of $X$*: a decomposition $X = U\Disjoint V$ with $U, V$ disjoint, open, and nonempty.
+  - I.e. $X$ can not be decomposed as the disjoint union of two proper nonempty sets.
+- The only clopen sets of $X$ are $\emptyset, X$
+  -I.e. $X$ contains no proper nonempty clopen sets.
+- For $Y \subseteq X$ a subspace, a *separation of $Y$ in $X$* is a decomposition $Y = U \Disjoint V$ such that 
 \[
-\cl_{Y}(A) \intersect B = A \intersect \cl_{Y}(B) = \emptyset
+\cl_{Y}(U) \intersect V \emptyset,\qquad U \intersect \cl_{Y}(V) = \emptyset
 .\]
-
-
+  - Equivalently, neither set contains a limit point of the other
+- $\Hom_\Top(X, \ts{0, 1}) \cong \ts{0, 1}$, i.e. all such continuous functions are constant. 
 
 :::
 
