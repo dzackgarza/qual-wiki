@@ -167,11 +167,21 @@ If $A\subseteq X$ is a subspace, then this collection **covers** $A$ iff $A\subs
 
 :::{.definition title="Dense"}
 A subspace $Q\subset X$ is **dense** iff every neighborhood of every point in $x$ intersects $Q$.
-Equivalently, $\cl_X(Q) = Q$.
+Equivalently, $\cl_X(Q) = X$.
 :::
 
 :::{.definition title="Diameter"}
-For a subset $A$ of a metric space $(X, d)$, the **diameter** of $A$ is defined as $\sup_{p, q\in A}d(p, q)$.
+For a subset $A$ of a metric space $(X, d)$, the **diameter** of $A$ is defined as 
+\[
+\diam(A) \da \sup_{p, q\in A}d(p, q)
+.\]
+:::
+
+:::{.definition title="Distance to a subspace"}
+For $(X, d)$ a metric space, $S \subset X$, and $f\in X$, the **distance from $f$ to $S$** is
+\[
+\dist(f, S) \da \inf_{s\in S} d(f, s)
+.\]
 :::
 
 :::{.definition title="First Countable"}
@@ -179,7 +189,7 @@ A space is **first-countable** iff every point admits a countable neighborhood b
 :::
 
 :::{.definition title="Hausdorff"}
-A topological space $X$ is *Hausdorff* iff points can be separated by disjoint neighborhoods: for every $p\neq q \in X$ there exist disjoint open sets $U\ni p$ and $V\ni q$. 
+A topological space $X$ is **Hausdorff** or $T_2$ iff points can be separated by disjoint neighborhoods: for every $p\neq q \in X$ there exist disjoint open sets $U\ni p$ and $V\ni q$. 
 :::
 
 :::{.definition title="Injection"}
