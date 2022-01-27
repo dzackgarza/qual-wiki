@@ -152,7 +152,7 @@ Munkres 17.5
 :::
 
 :::{.definition title="Compact"}
-A topological space $(X, \tau)$ is **compact** iff every open cover has a *finite* subcover.
+A topological space $(X, \tau)$ is **compact** iff $X$ is Hausdorff and *quasicompact*: every open cover has a *finite* subcover.
 That is, if $\theset{U_{j}}_{j\in J} \subseteq \tau$ is a collection of open sets such that $X = \Union_{j\in J} U_{j}$, then there exists a *finite* subset $J' \subset J$ such that $X \subseteq \Union_{j\in J'} U_{j}$.
 :::
 
@@ -193,8 +193,11 @@ A topological space $X$ is **Hausdorff** or $T_2$ iff points can be separated by
 :::
 
 :::{.definition title="Injection"}
-A map $\iota:A\to B$ with a **left** inverse $f:B\to A$ satisfying $f\circ \iota = \id_A$.
-Note that this is equivalent to $f(x) = f(y) \implies x = y$.
+A map $\iota:A\to B$ is **injective** if it admits a *left* inverse $p:B\to A$ satisfying $p\circ \iota = \id_A$.
+Equivalently,
+\[
+\iota(x) = \iota(y) \in B \implies x = y \in A
+.\]
 :::
 
 :::{.definition title="Interior Point"}
@@ -226,14 +229,13 @@ I.e. for all $x\in X$, for all $N_x \ni x$, there exists a connected set $U \sub
 :::
 
 :::{.definition title="Locally Compact"}
-A space $X$ is *locally compact* iff every $x\in X$ has a neighborhood contained in a compact subset of $X$.
+A space $X$ is **locally compact** iff every $x\in X$ has a neighborhood contained in a compact subset of $X$.
 
-> Note: authors such as Hartshorne often *also* require that $X$ is Hausdorff, and refer to the above definition as **quasicompactness**.
 
 :::
 
 :::{.definition title="Locally Finite"}
-A collection of subsets $\mcs$ of $X$ is *locally finite* iff each point of $M$ has a neighborhood that intersects at most finitely many elements of $\mcs$.
+A collection of subsets $\mcs$ of $X$ is **locally finite** iff each point of $M$ has a neighborhood that intersects at most finitely many elements of $\mcs$.
 :::
 
 :::{.definition title="Locally Path-Connected"}
