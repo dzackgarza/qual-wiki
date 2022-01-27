@@ -33,7 +33,7 @@ A set $S$ in a metric space $(X, d)$ is **bounded** iff there exists an $m\in \R
 :::{.definition title="Comparability of topologies"}
 Given two topologies $\tau_1, \tau_2$,
 
-- $\tau_1$ is **finer/stronger/larger** than $\tau_2$ iff $\tau_1 \contains \tau_2$.
+- $\tau_1$ is **finer/stronger/larger** than $\tau_2$ iff $\tau_1 \contains \tau_2$ (idea: finer resolutions).
 - $\tau_1$ is **coarser/weaker/smaller** than $\tau_2$ iff $\tau_1 \iscontainedin \tau_2$.
 
 Two topologies are **comparable** if either $\tau_1 \subseteq \tau_2$ or $\tau_2 \subseteq \tau_1$.
@@ -46,11 +46,15 @@ The set of all topologies on a given set $X$ forms a complete lattice bounded un
 - $\inf(\tau_1, \tau_2) = \gens{\tau_1 \intersect \tau_2}$, the topology *generated* by the intersection.
   - The coarsest topology is the indiscrete topology $\tau_{\initial} \da \ts{\emptyset, X}$.
 
-Adding more open sets to a topology is like increasing to a "finer" resolution, and
+If $f:X\to Y$, then
 
-- Makes it *easier* for maps to be continuous and 
-- Makes it *harder* for sequences to converge.
+- Increasing $\tau(X)$ or decreasing $\tau(Y)$ makes it *easier* for $f$ to be continuous, so
+\[
+\tau_1(X) \leq \tau_2(X) \implies \Hom_\Top(\tau_1(X), Y) \injects \Hom_\Top(\tau_2(X), Y)
+.\]
+- Decreasing $\tau(X)$ or increasing $\tau(Y)$ makes it *easier* for $f$ to be an open map.
 
+For a fixed $X$, increasing $\tau(X)$ makes it *easier* for maps out of $X$ to be continuous, but makes it *harder* for sequences to converge in $X$.
 :::
 
 :::{.example title="?"}
