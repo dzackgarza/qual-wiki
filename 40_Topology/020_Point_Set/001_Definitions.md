@@ -49,9 +49,31 @@ The set of all topologies on a given set $X$ forms a complete lattice bounded un
 If $f:X\to Y$, then
 
 - Increasing $\tau(X)$ or decreasing $\tau(Y)$ makes it *easier* for $f$ to be continuous, so
-\[
-\tau_1(X) \leq \tau_2(X) \implies \Hom_\Top(\tau_1(X), Y) \injects \Hom_\Top(\tau_2(X), Y)
-.\]
+
+\begin{tikzcd}
+	{\tau_2(X)} && {\Hom_\Top(\tau_2(X), \tau(Y))} \\
+	\\
+	{\tau_1(X)} && {\Hom_\Top(\tau_1(X), \tau(Y))}
+	\arrow[""{name=0, anchor=center, inner sep=0}, from=3-1, to=1-1]
+	\arrow[""{name=1, anchor=center, inner sep=0}, from=3-3, to=1-3]
+	\arrow["{\Hom_\Top(\wait, Y)}", shorten <=19pt, shorten >=19pt, Rightarrow, from=0, to=1]
+\end{tikzcd}
+
+> [Link to Diagram](https://q.uiver.app/?q=WzAsNCxbMCwyLCJcXHRhdV8xKFgpIl0sWzAsMCwiXFx0YXVfMihYKSJdLFsyLDAsIlxcSG9tX1xcVG9wKFxcdGF1XzIoWCksIFxcdGF1KFkpKSJdLFsyLDIsIlxcSG9tX1xcVG9wKFxcdGF1XzEoWCksIFxcdGF1KFkpKSJdLFswLDFdLFszLDJdLFs0LDUsIlxcSG9tX1xcVG9wKFxcd2FpdCwgWSkiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d)
+
+\begin{tikzcd}
+	{\tau_2(Y)} && {\Hom_\Top(\tau(X), \tau_2(Y))} \\
+	\\
+	{\tau_1(Y)} && {\Hom_\Top(\tau(X), \tau_2(Y))}
+	\arrow[""{name=0, anchor=center, inner sep=0}, from=3-1, to=1-1]
+	\arrow[""{name=1, anchor=center, inner sep=0}, from=1-3, to=3-3]
+	\arrow["{\Hom_\Top(X, \wait)}", shorten <=19pt, shorten >=19pt, Rightarrow, from=0, to=1]
+\end{tikzcd}
+
+> [Link to Diagram](https://q.uiver.app/?q=WzAsNCxbMCwyLCJcXHRhdV8xKFkpIl0sWzAsMCwiXFx0YXVfMihZKSJdLFsyLDAsIlxcSG9tX1xcVG9wKFxcdGF1KFgpLCBcXHRhdV8yKFkpKSJdLFsyLDIsIlxcSG9tX1xcVG9wKFxcdGF1KFgpLCBcXHRhdV8yKFkpKSJdLFswLDFdLFsyLDNdLFs0LDUsIlxcSG9tX1xcVG9wKFgsIFxcd2FpdCkiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d)
+
+  i.e. every map continuous with respect to $\tau_1(X)$ will remain continuous with respect to $\tau_2(X)$.
+
 - Decreasing $\tau(X)$ or increasing $\tau(Y)$ makes it *easier* for $f$ to be an open map.
 
 For a fixed $X$, increasing $\tau(X)$ makes it *easier* for maps out of $X$ to be continuous, but makes it *harder* for sequences to converge in $X$.
