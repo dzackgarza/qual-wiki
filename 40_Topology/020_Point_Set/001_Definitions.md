@@ -93,12 +93,20 @@ A space $X$ is **disconnected** iff
   - I.e. $X$ can not be decomposed as the disjoint union of two proper nonempty sets.
 - The only clopen sets of $X$ are $\emptyset, X$
   -I.e. $X$ contains no proper nonempty clopen sets.
-- For $Y \subseteq X$ a subspace, a *separation of $Y$ in $X$* is a decomposition $Y = U \Disjoint V$ such that 
+- For $Y \subseteq X$ a subspace, $Y$ is disconnected iff $Y$ is disconnected in the subspace topology.
+  Equivalently, a *separation of $Y$ in $X$* is a decomposition $Y = U \Disjoint V$ with $U, V$ open in $Y$ and 
 \[
-\cl_{Y}(U) \intersect V \emptyset,\qquad U \intersect \cl_{Y}(V) = \emptyset
-.\]
-  - Equivalently, neither set contains a limit point of the other
+\cl_{Y}(U) \intersect V = \emptyset,\qquad U \intersect \cl_{Y}(V) = \emptyset
+,\]
+  so neither set contains a limit point of the other.
 - $\Hom_\Top(X, \ts{0, 1}) \cong \ts{0, 1}$, i.e. all such continuous functions are constant. 
+
+:::{.example title="?"}
+Some examples:
+
+- $\QQ$ is disconnected, and $\pi_0(\QQ) \cong \QQ$: the only connected components are singletons.
+
+:::
 
 :::
 
@@ -118,11 +126,11 @@ These classes are the **connected components** of $X$.
 :::
 
 :::{.definition title="Closed Maps"}
-See \cref{def:open_closed_maps}.
+A map $f:X\to Y$ is **closed** if whenever $U \subseteq X$ is closed in $X$, $f(U) \subseteq Y$ is again closed in $Y$. 
 :::
 
 :::{.definition title="Closure of a set"}
-For $U \subseteq X$, the closure of $U$ in $X$ is given by 
+For $U \subseteq X$, the **closure of $U$ in $X$** is given by 
 \[
 \cl_X(U) = \Intersect_{\substack{ B\supseteq U \\ \text{ closed} }} B
 ,\]
