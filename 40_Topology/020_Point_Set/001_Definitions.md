@@ -27,22 +27,22 @@ Equivalently, every point $p\in A$ intersects both $A$ and $X\sm A$.
 :::
 
 :::{.definition title="Bounded"}
-A set $S$ in a metric space $(X, d)$ is *bounded* iff there exists an $m\in \RR$ such that $d(x, y) < m$ for every $x, y\in S$.
+A set $S$ in a metric space $(X, d)$ is **bounded** iff there exists an $m\in \RR$ such that $d(x, y) < m$ for every $x, y\in S$.
 :::
 
 :::{.definition title="Comparability of topologies"}
 Given two topologies $\tau_1, \tau_2$,
 
-- $\tau_1$ is **finer** than $\tau_2$ iff $\tau_1 \contains \tau_2$.
-- $\tau_1$ is **coarser** than $\tau_2$ iff $\tau_1 \iscontainedin \tau_2$.
+- $\tau_1$ is **finer/stronger/larger** than $\tau_2$ iff $\tau_1 \contains \tau_2$.
+- $\tau_1$ is **coarser/weaker/smaller** than $\tau_2$ iff $\tau_1 \iscontainedin \tau_2$.
 
 Two topologies are **comparable** if either $\tau_1 < \tau_2$ or $\tau_2 < \tau_1$.
+The set of all topologies on a given set $X$ forms a poset under inclusion.
 
 > Note: more open sets is like having a "finer" resolution.
 
 :::
 
-\todo[inline]{Is this actually a poset relation? Fails reflexivity.}
 
 :::{.definition title="Connected"}
 A space $X$ is **connected** iff there does not exist a disconnection $X = A\disjoint B$ with $A, B$ nonempty open sets.
