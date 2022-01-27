@@ -80,10 +80,10 @@ See \cref{def:open_closed_maps}.
 :::{.definition title="Closure of a set"}
 For $U \subseteq X$, the closure of $U$ in $X$ is given by 
 \[
-\Cl_X(U) = \Intersect_{\substack{ B\supseteq U \\ \text{ closed} }} B
+\cl_X(U) = \Intersect_{\substack{ B\supseteq U \\ \text{ closed} }} B
 ,\]
 the intersection of all closed sets in $X$ containing $U$. 
-For $Y\subseteq X$ a subspace containing $U$, the closure of $U$ in $Y$ is $\Cl_Y(U) = \Cl_X(U) \intersect Y$.[^closure_relative_theorem]
+For $Y\subseteq X$ a subspace containing $U$, the closure of $U$ in $Y$ is $\cl_Y(U) = \cl_X(U) \intersect Y$.[^closure_relative_theorem]
 In general, we write $\bar{U} \da \cl_X(U)$.
 
 An equivalent condition: $x\in \bar{U} \iff$ every neighborhood of $x$ intersects $U$.[^munkres_pt_in_closure]
