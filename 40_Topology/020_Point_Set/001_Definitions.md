@@ -34,7 +34,9 @@ A set $S$ in a metric space $(X, d)$ is **bounded** iff there exists an $m\in \R
 Given two topologies $\tau_1, \tau_2$,
 
 - $\tau_1$ is **finer/stronger/larger** than $\tau_2$ iff $\tau_1 \contains \tau_2$.
+  - The finest topology is the discrete topology $\tau_{\terminal} \da 2^X$, where every set is open.
 - $\tau_1$ is **coarser/weaker/smaller** than $\tau_2$ iff $\tau_1 \iscontainedin \tau_2$.
+  - The coarsest topology is the indiscrete topology $\tau_{\initial} \da \ts{\emptyset, X}$.
 
 Two topologies are **comparable** if either $\tau_1 < \tau_2$ or $\tau_2 < \tau_1$.
 The set of all topologies on a given set $X$ forms a poset under inclusion.
