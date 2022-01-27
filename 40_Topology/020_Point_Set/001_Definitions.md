@@ -41,8 +41,10 @@ Given two topologies $\tau_1, \tau_2$,
 Two topologies are **comparable** if either $\tau_1 < \tau_2$ or $\tau_2 < \tau_1$.
 The set of all topologies on a given set $X$ forms a poset under inclusion.
 
-> Note: more open sets is like having a "finer" resolution.
+Adding more open sets to a topology is like increasing to a "finer" resolution, and
 
+- makes it *easier* for maps to be continuous and 
+- makes it *harder* for sequences to converge.
 :::
 
 
