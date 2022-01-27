@@ -22,7 +22,7 @@ Equivalently, every open set is a union of basic open sets.
 :::
 
 :::{.definition title="Boundary"}
-The **boundary** of a subset $A\subseteq X$ is defined as $\bd A \da \cl_X(A) \sm \interior{A}$.
+The **boundary** of a subset $A\subseteq X$ is defined as $\bd A \da \cl_X(A) \sm A\interior$.
 Equivalently, every point $p\in A$ intersects both $A$ and $X\sm A$.
 :::
 
