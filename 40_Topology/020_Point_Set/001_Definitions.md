@@ -47,7 +47,6 @@ Adding more open sets to a topology is like increasing to a "finer" resolution, 
 - makes it *harder* for sequences to converge.
 :::
 
-
 :::{.definition title="Connected"}
 A space $X$ is **connected** iff there does not exist a disconnection $X = A\disjoint B$ with $A, B$ nonempty open sets.
 I.e. $X$ can not be written as the disjoint union of two proper nonempty open sets.
@@ -67,9 +66,10 @@ These classes are the **connected components** of $X$.
 :::{.definition title="Closed Sets"}
 \envlist
 
-- A set is closed if and only if its complement is open.
-- A set is closed iff it contains all of its limit points.
-- A closed set in a subspace: $Y\subset X \implies \cl_{Y}(A) \da \cl_{X}(A)\intersect Y$.
+- A set is **closed** if and only if its complement is open.
+- A set is **closed** iff it contains all of its limit points.
+- What it means for a set to be closed in a *subspace*: if $A \subseteq X$ is a subspace and $U \subseteq A$, then $U$ is closed in $A$ iff $U = A \intersect \tilde U$ where $\tilde U$ is closed in $X$.
+  
 
 :::
 
@@ -78,7 +78,11 @@ See \cref{def:open_closed_maps}.
 :::
 
 :::{.definition title="Closure of a set"}
-For $U \subseteq X$, the closure of $U$ in $X$ is given by $\Cl_X(U) = \intersect_{\substack{ B\supseteq U \\ \text{ closed} }} B$, the intersection of all closed sets in $X$ containing $U$. 
+For $U \subseteq X$, the closure of $U$ in $X$ is given by 
+\[
+\Cl_X(U) = \Intersect_{\substack{ B\supseteq U \\ \text{ closed} }} B
+,\]
+the intersection of all closed sets in $X$ containing $U$. 
 For $Y\subseteq X$ a subspace containing $U$, the closure of $U$ in $Y$ is $\Cl_Y(U) = \Cl_X(U) \intersect Y$.[^closure_relative_theorem]
 In general, we write $\bar{U} \da \cl_X(U)$.
 
