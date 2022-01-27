@@ -34,14 +34,18 @@ A set $S$ in a metric space $(X, d)$ is **bounded** iff there exists an $m\in \R
 Given two topologies $\tau_1, \tau_2$,
 
 - $\tau_1$ is **finer/stronger/larger** than $\tau_2$ iff $\tau_1 \contains \tau_2$.
-  - The finest topology is the discrete topology $\tau_{\terminal} \da 2^X$, where every set is open.
 - $\tau_1$ is **coarser/weaker/smaller** than $\tau_2$ iff $\tau_1 \iscontainedin \tau_2$.
-  - The coarsest topology is the indiscrete topology $\tau_{\initial} \da \ts{\emptyset, X}$.
 
-Two topologies are **comparable** if either $\tau_1 < \tau_2$ or $\tau_2 < \tau_1$.
+Two topologies are **comparable** if either $\tau_1 \subseteq \tau_2$ or $\tau_2 \subseteq \tau_1$.
 
 :::{.remark}
-The set of all topologies on a given set $X$ forms a poset under inclusion.
+The set of all topologies on a given set $X$ forms a complete lattice bounded under inclusion:
+
+- $\sup(\tau_1, \tau_2) = \tau_1 \union \tau_2$
+  - The finest topology is the discrete topology $\tau_{\terminal} \da 2^X$, where every set is open.
+- $\inf(\tau_1, \tau_2) = \gens{\tau_1 \intersect \tau_2}$, the topology *generated* by the intersection.
+  - The coarsest topology is the indiscrete topology $\tau_{\initial} \da \ts{\emptyset, X}$.
+
 Adding more open sets to a topology is like increasing to a "finer" resolution, and
 
 - Makes it *easier* for maps to be continuous and 
@@ -50,8 +54,8 @@ Adding more open sets to a topology is like increasing to a "finer" resolution, 
 :::
 
 :::{.example title="?"}
-Write $\tau_Z(X)$ for the Zariski topology on a space and $\tau_{\RR}(X)$ for the classical/Euclidean topology.
-Then $\tau_Z(\CC^n) < \tau_{\RR}(\CC^n)$, i.e. the Zariski topology is strictly weaker than the Euclidean topology and has fewer open sets.
+Write $\tau_\zar(X)$ for the Zariski topology on a space and $\tau_{\an}(X)$ for the classical/Euclidean topology.
+Then $\tau_\zar(\CC^n) < \tau_{\an}(\CC^n)$, i.e. the Zariski topology is strictly weaker than the Euclidean topology and has fewer open sets.
 :::
 
 :::
