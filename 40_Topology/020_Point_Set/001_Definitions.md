@@ -66,10 +66,10 @@ These classes are the **connected components** of $X$.
 :::{.definition title="Closed Sets"}
 \envlist
 
-- A set is **closed** if and only if its complement is open.
-- A set is **closed** iff it contains all of its limit points.
-- What it means for a set to be closed in a *subspace*: if $A \subseteq X$ is a subspace and $U \subseteq A$, then $U$ is closed in $A$ iff $U = A \intersect \tilde U$ where $\tilde U$ is closed in $X$.
-  
+- A set $U \subseteq X$ is **closed** in $X$ if and only if its complement $X\sm U$ is open.
+- A set $U$ is **closed** in $X$ iff every limit point of $U$ in $X$ is contained in $U$. 
+- A set $U$ in $X$ is **closed** in $X$ iff $\cl_X(U) = U$.
+- If $Y \subseteq X$ is a subspace and $U \subseteq Y$, then $U$ is **closed in the subspace** $Y$ iff $U = Y \intersect V$ where $V$ is closed in $X$.
 
 :::
 
@@ -83,10 +83,13 @@ For $U \subseteq X$, the closure of $U$ in $X$ is given by
 \cl_X(U) = \Intersect_{\substack{ B\supseteq U \\ \text{ closed} }} B
 ,\]
 the intersection of all closed sets in $X$ containing $U$. 
-For $Y\subseteq X$ a subspace containing $U$, the closure of $U$ in $Y$ is $\cl_Y(U) = \cl_X(U) \intersect Y$.[^closure_relative_theorem]
+For $Y\subseteq X$ a subspace containing $U$, the closure of $U$ in $Y$ is 
+\[
+\cl_Y(U) = \cl_X(U) \intersect Y
+.\].[^closure_relative_theorem]
 In general, we write $\bar{U} \da \cl_X(U)$.
 
-An equivalent condition: $x\in \bar{U} \iff$ every neighborhood of $x$ intersects $U$.[^munkres_pt_in_closure]
+An equivalent condition: $x\in \cl_X(U) \iff$ every neighborhood of $x$ in $X$ intersects $U$.[^munkres_pt_in_closure]
 
 [^closure_relative_theorem]: 
 This is theorem 17.4 in Munkres
