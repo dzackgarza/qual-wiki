@@ -260,9 +260,9 @@ A map $f:X\to Y$ is an **open map** (respectively a **closed map**) if and only 
 :::
 
 :::{.definition title="Paracompact"}
-A **refinement** of an open cover $\mcu \covers X$ is an open cover $\mcv\covers X$ such that for every $V_\beta \in \mcv$, there exists a $U_\alpha \in \mcu$ containing $V_\beta$, so $\mcu \leq \mcv$ in the corresponding poset of open covers ordered by refinment.
+A **refinement** of an open cover $\mcu \covers X$ is an open cover $\mcv\covers X$ such that for every $V_\beta \in \mcv$, there exists a $U_\alpha \in \mcu$ such that $U_\alpha \contains V_\beta$, so $\mcv \leq \mcu$ in the corresponding poset of open covers ordered by refinement.
 
-A topological space $X$ is **paracompact** iff every open cover of $X$ admits an locally finite *refinement*.
+A topological space $X$ is **paracompact** iff every open cover $\mcu\covers X$ admits an locally finite *refinement* -- a division into (potentially more) open subsets $\mcv \covers X$ such that each $x\in X$ is contained in only finitely many $V_\beta$.
 :::
 
 :::{.definition title="Quotient Map"}
