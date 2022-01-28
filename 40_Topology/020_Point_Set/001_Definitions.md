@@ -304,6 +304,21 @@ The **product topology** is defined by
 \tau^{\prod}\qty{ \prod_{i\in I} X_i } &\da \ts{\prod_{i\in I} U_i \st U_i \in \tau(X_i),\, U_i \neq X_i \text{ for finitely many }i }
 ,\]
 whose open sets are products of open sets in the $X_i$ where all but finitely many components are not the entire space $X_i$.
+Equivalently,
+\[
+\tau^\prod(\prod X_i) = \inf\ts{\tau(X) \st p_j: \prod_{i\in I} X_i \to X \text{ are continuous for all } j}
+,\]
+the smallest/coarsest/initial topology such that the projections $p_j: \prod_i X_i \to X_j$ are continuous.
+
+
+:::{.remark}
+Note that
+\[
+\tau^{\Box}(X) \geq \tau^{\prod}(X)
+,\]
+i.e. the box topology is **finer** and has more open sets, making convergence harder in the box topology.
+The product topology is preferred since continuous maps $f: Y\to \prod X_i$ *into* the product can be given by continuous component maps $f_i: Y\to X_i$.
+:::
 
 
 :::
