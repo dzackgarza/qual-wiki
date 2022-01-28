@@ -26,10 +26,6 @@ The **boundary** of a subset $A\subseteq X$ is defined as $\bd A \da \cl_X(A) \s
 Equivalently, every point $p\in A$ intersects both $A$ and $X\sm A$.
 :::
 
-:::{.definition title="Bounded"}
-A set $S$ in a metric space $(X, d)$ is **bounded** iff there exists an $m\in \RR$ such that $d(x, y) < m$ for every $x, y\in S$.
-:::
-
 :::{.definition title="Comparability of topologies"}
 Given two topologies $\tau_1, \tau_2$,
 
@@ -170,20 +166,6 @@ A subspace $Q\subset X$ is **dense** iff every neighborhood of every point in $x
 Equivalently, $\cl_X(Q) = X$.
 :::
 
-:::{.definition title="Diameter"}
-For a subset $A$ of a metric space $(X, d)$, the **diameter** of $A$ is defined as 
-\[
-\diam(A) \da \sup_{p, q\in A}d(p, q)
-.\]
-:::
-
-:::{.definition title="Distance to a subspace"}
-For $(X, d)$ a metric space, $S \subset X$, and $f\in X$, the **distance from $f$ to $S$** is
-\[
-\dist(f, S) \da \inf_{s\in S} d(f, s)
-.\]
-:::
-
 :::{.definition title="First Countable"}
 A space is **first-countable** iff every point admits a countable neighborhood basis.
 :::
@@ -208,13 +190,6 @@ A point $p\in A$ is **interior** to $A$ if there exists a neighborhood $U\ni p$ 
 A point $p\in A$ is **isolated** if $p$ is not a limit point of $A$.
 Equivalently, there exists a punctured neighborhood of $p$ that does not intersect $A$.
 
-:::
-
-:::{.definition title="Lebesgue Number"}
-For $(X, d)$ a compact metric space and $\theset{U_\alpha}\covers X$, there exists a **Lebesgue number** $\delta_{L} > 0$ which satisfies
-\[
-A\subset X, ~ \diam(A) < \delta_{L} \implies A\subseteq U_\alpha \text{ for some } \alpha
-.\]
 :::
 
 :::{.definition title="Limit Point"}
@@ -391,11 +366,12 @@ Note that $r$ is necessarily a surjection.
 
 Alt:
 Let $X$ be a topological space and $A \subset X$ be a subspace, then a **retraction** of $X$ onto $A$ is a map $r: X\into X$ such that the image of $X$ is $A$ and $r$ restricted to $A$ is the identity.
-:::
 
 :::{.remark}
 If $X$ retracts onto $A$ with $\iota:A\injects X$, then $i_*$ is injective.
 Any nonempty space retracts to a point via a constant map.
+:::
+
 :::
 
 :::{.definition title="Saturated"}
@@ -444,7 +420,6 @@ A map $\pi$ with a **right** inverse $f$ satisfying $$\pi \circ f = \id$$
 - $T_4$: $T_1$ & normal.
   Any two disjoint closed subsets can be separated by neighborhoods.
 
-:::
 
 :::{.example title="Counterexamples for separation axioms"}
 \envlist
@@ -453,6 +428,9 @@ A map $\pi$ with a **right** inverse $f$ satisfying $$\pi \circ f = \id$$
 - $T_1$ but not $T_0$: $\spec R$ for $R\in \CRing$ with the Zariski topology.
   There are points that aren't closed: $\spec R \sm \mspec R$.
 :::
+
+:::
+
 
 :::{.definition title="Topology"}
 \envlist
@@ -469,6 +447,26 @@ A mnemonic: in $\RR$, $\intersect_{n\in \NN} (-1/n, 1/n) = \ts{0}$ which is clos
 A topological **embedding** is a continuous map $f:X\to Y$ which is a homeomorphism onto its image, i.e. $X\cong_{\Top} f(X)$.
 :::
 
+### Analysis and Metric Spaces
+
+:::{.definition title="Diameter"}
+For a subset $A$ of a metric space $(X, d)$, the **diameter** of $A$ is defined as 
+\[
+\diam(A) \da \sup_{p, q\in A}d(p, q)
+.\]
+:::
+
+:::{.definition title="Distance to a subspace"}
+For $(X, d)$ a metric space, $S \subset X$, and $f\in X$, the **distance from $f$ to $S$** is
+\[
+\dist(f, S) \da \inf_{s\in S} d(f, s)
+.\]
+:::
+
+:::{.definition title="Bounded"}
+A set $S$ in a metric space $(X, d)$ is **bounded** iff there exists an $m\in \RR$ such that $d(x, y) < m$ for every $x, y\in S$.
+:::
+
 :::{.definition title="Uniform Continuity"}
 For $f: (X, d_{x}) \to (Y, d_{Y})$ metric spaces, $f$ is **uniformly continuous** iff
 \[
@@ -476,6 +474,12 @@ For $f: (X, d_{x}) \to (Y, d_{Y})$ metric spaces, $f$ is **uniformly continuous*
 .\] 
 :::
 
+:::{.definition title="Lebesgue Number"}
+For $(X, d)$ a compact metric space and $\theset{U_\alpha}\covers X$, there exists a **Lebesgue number** $\delta_{L} > 0$ which satisfies
+\[
+A\subset X, ~ \diam(A) < \delta_{L} \implies A\subseteq U_\alpha \text{ for some } \alpha
+.\]
+:::
 
 ## Algebraic Topology
 
