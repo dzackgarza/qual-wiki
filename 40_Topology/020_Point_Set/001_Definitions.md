@@ -408,7 +408,7 @@ A space $X$ is **separable** iff $X$ contains a countable dense subset.
 :::
 
 :::{.definition title="Second Countable"}
-A space is *second-countable* iff it admits a countable basis.
+A space is **second-countable** iff it admits a countable basis.
 :::
 
 :::{.definition title="The subspace topology"}
