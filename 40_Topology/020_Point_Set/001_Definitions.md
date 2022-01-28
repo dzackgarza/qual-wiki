@@ -327,11 +327,17 @@ The product topology is preferred since continuous maps $f: Y\to \prod X_i$ *int
 :::
 
 :::{.definition title="Proper"}
-A continuous map $f:X\to Y$ is **proper** if pullbacks of compact sets are compact: if $K \subseteq Y$ is compact, then $f\inv(K) \subseteq X$ is compact.
 
-Equivalently, for $Y$ Hausdorff and locally compact, $f$ is a closed map with compact fibers: $f\inv(\ts{y})$ is compact for every $y\in Y$.
+Several equivalent definitions. Let $f: X\to Y$ be continuous, then $f$ is **proper** iff
 
-Equivalently, for $X$ Hausdorff and $Y$ locally compact, $f$ is universally closed: the map $f\times \id_Z: X\times Z\to Y\times Z$ is a closed map for every space $Z$.
+- Most general: preimages of compact sets are compact: if $K \subseteq Y$ is compact, then $f\inv(K) \subseteq X$ is compact.
+
+- For $Y$ Hausdorff and locally compact, $f$ is a closed map with compact fibers: $f\inv(\ts{y})$ is compact for every $y\in Y$.
+
+- For $X$ Hausdorff and $Y$ locally compact, $f$ is universally closed: the map $f\times \id_Z: X\times Z\to Y\times Z$ is a closed map for every space $Z$.
+
+- For $X, Y$ metric spaces, if $\ts{x_i}$ is a sequence that eventually escapes every compact set in $X$, $\ts{f(x_i)}$ eventually escapes every compact set in $Y$.
+
 :::
 
 :::{.definition title="Quasicompact"}
