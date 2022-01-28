@@ -269,13 +269,13 @@ A topological space $X$ is **paracompact** iff every open cover $\mcu\covers X$ 
 A map $q:X\to Y$ is a **quotient map** if and only if 
 
 1. $q$ is surjective, and
-2. $U$ is open in $Y\iff q ^{-1} (U)$ is open in X$
+2. $U$ is open in $Y\iff q ^{-1} (U)$ is open in $X$
 
 > Note that $\implies$ comes from the definition of continuity of $q$, but $\impliedby$ is a stronger condition.
 
 Equivalently:
 
-- $p$ maps saturated subsets of $X$ to open subsets of $Y$, or
+- $p$ maps *saturated* subsets of $X$ to open subsets of $Y$, or
 - If $U$ is open in $X$, then $(q\inv \circ q)(U)$ is again open in $X$.
 
 :::
@@ -293,7 +293,12 @@ A subset $A\subseteq X$ is **precompact** iff $\cl_{X}(A)$ is compact.
 :::
 
 :::{.definition title="Product and box topology"}
-Given a collection of spaces $\ts{ (X_i, \tau_{X_i}) }_{i\in I}$, the **product topology** on $X \da \prod_{i\in I} X_i$ is given by
+Given a collection of spaces $\ts{ (X_i, \tau(X_i) ) }_{i\in I}$, the **product topology** on $X \da \prod_{i\in I} X_i$ is given by
+\[
+\tau^{\prod}\qty{ \prod_{i\in I} X_i } = \gens{\ts{\prod U_i} \st U_i \in \tau(X_i) }
+.\]
+
+
 :::
 
 :::{.definition title="Proper"}
