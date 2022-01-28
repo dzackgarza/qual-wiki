@@ -425,8 +425,8 @@ A map $\pi$ with a **right** inverse $f$ satisfying $$\pi \circ f = \id$$
 :::{.definition title="$T_n$ Spaces (Separation Axioms)"}
 \envlist
 
-- $T_0$: Points are distinguishable.
-  For any 2 points $x_1\neq x_2$, at least one $x_i$ (say $x_1$) admits a neighborhood not containing $x_2$.
+- $T_0$: points are topologically distinguishable, i.e.
+  for any 2 points $x_1\neq x_2$, at least one $x_i$ (say $x_1$) admits a neighborhood not containing $x_2$.
 
 - $T_1$: For any 2 points, *both* admit neighborhoods not containing the other.
   Equivalently, points are closed.
