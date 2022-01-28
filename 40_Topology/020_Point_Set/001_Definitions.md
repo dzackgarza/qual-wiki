@@ -260,7 +260,7 @@ A map $f:X\to Y$ is an **open map** (respectively a **closed map**) if and only 
 :::
 
 :::{.definition title="Paracompact"}
-A **refinement** of an open cover $\mcu \covers X$ is an open cover $\mcv\covers X$ such that for every $V_\beta \in \mcv$, there exists a $U_\alpha \in \mcu$ such that $V_\beta \subseteq U_\alpha$, so $\mcv \leq \mcu$ in the corresponding poset of open covers ordered by inclusion.
+A **refinement** of an open cover $\mcu \covers X$ is an open cover $\mcv\covers X$ such that for every $V_\beta \in \mcv$, there exists a $U_\alpha \in \mcu$ such that $V_\beta \subseteq U_\alpha$ -- setting $\mcv \leq \mcu$ iff $\mcv$ refines $\mcu$ yields a preorder on all open covers of $X$.
 
 A topological space $X$ is **paracompact** iff every open cover $\mcu\covers X$ admits an locally finite *refinement* -- a division into (potentially more) open subsets $\mcv \covers X$ such that each $x\in X$ is contained in only finitely many $V_\beta$.
 :::
@@ -269,9 +269,9 @@ A topological space $X$ is **paracompact** iff every open cover $\mcu\covers X$ 
 A map $q:X\to Y$ is a **quotient map** if and only if 
 
 1. $q$ is surjective, and
-2. $U \subseteq Y$ is open if and only if $q ^{-1} (U)$ is open.
+2. $U \subseteq Y \iff q ^{-1} (U)$ is open.
 
-> Note that $\implies$ comes from the definition of continuity of $p$, but $\impliedby$ is a stronger condition.
+> Note that $\implies$ comes from the definition of continuity of $q$, but $\impliedby$ is a stronger condition.
 
 Equivalently, $p$ maps saturated subsets of $X$ to open subsets of $Y$.
 
