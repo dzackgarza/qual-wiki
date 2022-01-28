@@ -470,7 +470,7 @@ A topological **embedding** is a continuous map $f:X\to Y$ which is a homeomorph
 :::
 
 :::{.definition title="Uniform Continuity"}
-For $f: (X, d_{x}) \to (Y, d_{Y})$ metric spaces,
+For $f: (X, d_{x}) \to (Y, d_{Y})$ metric spaces, $f$ is **uniformly continuous** iff
 \[
 \forall \eps > 0, ~\exists \delta > 0 \text{ such that } \quad d_{X}(x_{1}, x_{2}) < \delta \implies d_{Y}(f(x_{1}), f(x_{2})) < \eps
 .\] 
@@ -490,7 +490,8 @@ For $f: (X, d_{x}) \to (Y, d_{Y})$ metric spaces,
 \todo[inline]{Definitions}
 
 :::{.definition title="Basis of a module"}
-For an $R\dash$module $M$, a basis $B$ is a linearly independent generating set.
+For an $R\dash$module $M$, a **basis** $B$ is a linearly independent generating set.
+An \(R\dash\)module is **free** iff it admits a basis.
 :::
 
 
@@ -568,7 +569,7 @@ A *constant map* $f: X\to Y$ iff $f(X) = y_{0}$ for some $y_{0}\in Y$, i.e. for 
 :::
 
 :::{.definition title="Colimit"}
-For a directed system $(X_{i}, f_{ij}$, the **colimit** is an object $X$ with a sequence of projections $\pi_{i}:X\to X_{i}$ such that for any $Y$ mapping into the system, the following diagram commutes:
+For a directed system $(X_{i}, f_{ij})$, the **colimit** is an object $X$ with a sequence of projections $\pi_{i}:X\to X_{i}$ such that for any $Y$ mapping into the system, the following diagram commutes:
 
 \begin{tikzcd}
                  &                            &  & Y \arrow[lldddd, "\psi_{j}"] \arrow[rrdddd, "\psi_{i}"] \arrow[dd, "\exists!", dashed] &  &               &        \\
