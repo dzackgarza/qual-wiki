@@ -362,11 +362,8 @@ Several equivalent definitions. Let $f: X\to Y$ be continuous, then $f$ is **pro
 :::
 
 :::{.definition title="Quasicompact"}
-A topological space $X$ (possible non-Hausdorff) is **quasi-compact** iff every open cover admits a finite subcover.
+A topological space $X$ (possible non-Hausdorff) is **quasicompact** iff every open cover admits a finite subcover.
 If $X$ is additionally Hausdorff, $X$ is said to be **compact**.
-
-> Note: this is a distinction coming from algebraic geometry, and Hartshorne in particular.
-
 :::
 
 :::{.definition title="Refinement"}
@@ -378,9 +375,7 @@ A space $X$ is **regular** if whenever $x\in X$ and $F\not\ni x$ is closed, $F$ 
 :::
 
 :::{.definition title="Retract"}
-A map $r$ in $A\mathrel{\textstyle\substack{\injects^{\iota}\\\textstyle\dashleftarrow_{r}}} B$ satisfying $$r\circ\iota = \id_{A}.$$
-A **retract** of $B$ onto a subspace $A$ is a map $r:B\to A$ that is a left-inverse for the inclusion $f:A\injects B$, so $r \circ f = \id_A$:
-
+A **retract** $r$ of $B$ onto a subspace $A$ is a map $r:B\to A$ that is a left-inverse for the inclusion $f:A\injects B$, so $r \circ f = \id_A$:
 
 \begin{tikzcd}
 	A && B
