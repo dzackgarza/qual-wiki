@@ -329,7 +329,9 @@ The product topology is preferred since continuous maps $f: Y\to \prod X_i$ *int
 :::{.definition title="Proper"}
 A continuous map $f:X\to Y$ is **proper** if pullbacks of compact sets are compact: if $K \subseteq Y$ is compact, then $f\inv(K) \subseteq X$ is compact.
 
-Equivalently, for $X$ Hausdorff and locally compact, $f$ is a closed map with compact fibers: $f\inv(\ts{y})$ is compact for every $y\in Y$.
+Equivalently, for $Y$ Hausdorff and locally compact, $f$ is a closed map with compact fibers: $f\inv(\ts{y})$ is compact for every $y\in Y$.
+
+Equivalently, for $X$ Hausdorff and $Y$ locally compact, $f$ is universally closed: the map $f\times \id_Z: X\times Z\to Y\times Z$ is a closed map for every space $Z$.
 :::
 
 :::{.definition title="Quasicompact"}
