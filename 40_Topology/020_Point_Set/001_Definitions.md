@@ -292,10 +292,14 @@ Set $x\sim y$ iff there exists a path-connected set $U\ni x, y$, then the equiva
 A subset $A\subseteq X$ is **precompact** iff $\cl_{X}(A)$ is compact.
 :::
 
-:::{.definition title="Product and box topology"}
-Given a collection of spaces $\ts{ (X_i, \tau(X_i) ) }_{i\in I}$, the **product topology** on $X \da \prod_{i\in I} X_i$ is given by
+:::{.definition title="Product and box topologies"}
+Given a collection of spaces $\ts{ (X_i, \tau(X_i) ) }_{i\in I}$, the **box topology** is defined by 
 \[
-\tau^{\prod}\qty{ \prod_{i\in I} X_i } = \gens{\ts{\prod U_i} \st U_i \in \tau(X_i) }
+\tau^{\box}\qty{ \prod_{i\in I} X_i } &\da \gens{\ts{\prod U_i} \st U_i \in \tau(X_i) }
+.\]
+The **product topology** is defined by
+\[
+\tau^{\box}\qty{ \prod_{i\in I} X_i } &\da \gens{\ts{\prod U_i} \st U_i \in \tau(X_i),\, U_i \neq X_i \text{ for only finitely many }i\in I }
 .\]
 
 
