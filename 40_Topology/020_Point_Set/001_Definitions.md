@@ -666,7 +666,11 @@ An $n\dash$cell of $X$, say $e^n$, is the image of a map $\Phi: B^n \to X$. That
 \todo[inline]{Definitions}
 
 :::{.definition title="Deck transformation"}
-For a covering space $\tilde X \mapsvia{p} X$, self-isomorphisms $f:\tilde X \to \tilde X$ of covering spaces are referred to as **deck transformations**.
+Letting $\cat C \da \mathsf{Cov}(X) \leq \Top\slice X$ be the subcategory of the slice category over $X$ of covering maps $\tilde X\to X$, the group of **deck transformations** is given by
+\[
+\mathrm{Deck}(\tilde X\to X) \da \Aut_{\cat C}(\tilde X\to X)
+,\]
+i.e topological automorphisms of $\tilde X$ which fix $X$ pointwise.
 :::
 
 :::{.definition title="Deformation"}
@@ -1265,3 +1269,5 @@ Explicitly given by
 
 :::
 \todo[inline]{Definitions}
+
+## Homological Algebra
