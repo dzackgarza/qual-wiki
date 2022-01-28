@@ -276,7 +276,7 @@ A map $q:X\to Y$ is a **quotient map** if and only if
 Equivalently:
 
 - $p$ maps saturated subsets of $X$ to open subsets of $Y$, or
-- If $U$ is open in $X$, then $(q\inv q)(U)$ is again open in $X$.
+- If $U$ is open in $X$, then $(q\inv \circ q)(U)$ is again open in $X$.
 
 :::
 
@@ -285,19 +285,15 @@ A space $X$ is **path connected** if and only if for every pair of points $x\neq
 :::
 
 :::{.definition title="Path Components"}
-Set $x\sim y$ iff there exists a path-connected set $U\ni x, y$ and take equivalence classes.
+Set $x\sim y$ iff there exists a path-connected set $U\ni x, y$, then the equivalence classes are the **path components** of $X$.
 :::
 
 :::{.definition title="Precompact"}
 A subset $A\subseteq X$ is **precompact** iff $\cl_{X}(A)$ is compact.
 :::
 
-:::{.definition title="Product topology"}
-For $(X, \tau_X)$ and $(Y, \tau_Y)$ topological spaces, defining 
-\[
-\tau_{X \cross Y} \da \ts{U \cross V \st U\in \tau_X,\, V\in \tau_Y}
-\]
-yields the **product topology** on $X \cross Y$.
+:::{.definition title="Product and box topology"}
+Given a collection of spaces $\ts{ (X_i, \tau_{X_i}) }_{i\in I}$, the **product topology** on $X \da \prod_{i\in I} X_i$ is given by
 :::
 
 :::{.definition title="Proper"}
