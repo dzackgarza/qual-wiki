@@ -269,7 +269,7 @@ A topological space $X$ is **paracompact** iff every open cover $\mcu\covers X$ 
 A map $q:X\to Y$ is a **quotient map** if and only if 
 
 1. $q$ is surjective, and
-2. $U \subseteq Y \iff q ^{-1} (U)$ is open.
+2. $U$ is open in $Y\iff q ^{-1} (U)$ is open in $X$.
 
 > Note that $\implies$ comes from the definition of continuity of $q$, but $\impliedby$ is a stronger condition.
 
