@@ -431,23 +431,23 @@ A map $\pi$ with a **right** inverse $f$ satisfying $$\pi \circ f = \id$$
 
 :::
 
-
 :::{.definition title="Topology"}
 \envlist
 
 - Using open sets: closed under arbitrary unions and finite intersections.
 - Using closed sets: closed under arbitrary intersections and finite unions.
-:::
 
 :::{.remark}
 A mnemonic: in $\RR$, $\intersect_{n\in \NN} (-1/n, 1/n) = \ts{0}$ which is closed in $\RR$.
+:::
+
 :::
 
 :::{.definition title="Topological Embedding"}
 A topological **embedding** is a continuous map $f:X\to Y$ which is a homeomorphism onto its image, i.e. $X\cong_{\Top} f(X)$.
 :::
 
-### Analysis and Metric Spaces
+## Analysis and Metric Spaces
 
 :::{.definition title="Diameter"}
 For a subset $A$ of a metric space $(X, d)$, the **diameter** of $A$ is defined as 
@@ -483,21 +483,10 @@ A\subset X, ~ \diam(A) < \delta_{L} \implies A\subseteq U_\alpha \text{ for some
 
 ## Algebraic Topology
 
-:::{.definition title="Acyclic"}
-
-:::
-\todo[inline]{Definitions}
-
 :::{.definition title="Alexander duality"}
 
 :::
 \todo[inline]{Definitions}
-
-:::{.definition title="Basis of a module"}
-For an $R\dash$module $M$, a **basis** $B$ is a linearly independent generating set.
-An \(R\dash\)module is **free** iff it admits a basis.
-:::
-
 
 :::{.definition title="Boundary of a manifold"}
 Points $x\in M^n$ defined by 
@@ -527,46 +516,9 @@ where $F_{i}^j$ is the face operator, which acts on a simplicial map $\sigma$ by
 A map $X \mapsvia{f} Y$ is said to be cellular if $f(X^{(n)}) \subseteq Y^{(n)}$ where $X^{(n)}$ denotes the $n\dash$ skeleton.
 :::
 
-:::{.definition title="Chain"}
-An element $c \in C_{p}(X; R)$ can be represented as the singular $p$ simplex $\Delta^p \to X$.
-:::
-
-:::{.definition title="Chain Homotopy"}
-Given two maps between chain complexes $(C_*, \del_{C}) \mapsvia{f, ~g} (D_*, \del_{D})$, a chain homotopy is a family $h_{i}: C_{i} \to B_{i+1}$ satisfying $$f_{i}-g_{i} = \del_{B, i-1}\circ h_{n} + h_{i+1}\circ \del_{A, i}$$. 
-
-<!--![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Chain_{homotopy_{between_chain_complexes}}.svg/650px-Chain_{homotopy_{between_chain_complexes}}.svg.png)-->
-
-:::
-
-:::{.definition title="Chain Map"}
-A map between chain complexes $(C_*, \del_{C}) \mapsvia{f} (D_*, \del_{D})$ is a chain map iff each component $C_{i} \mapsvia{f_{i}} D_{i}$ satisfies 
-$$
-f_{i-1}\circ\del_{C, i} = \del_{D,i} \circ f_{i}
-$$ 
-(i.e this forms a commuting ladder) 
-
-<!--![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Chain_{map}.svg/650px-Chain_{map}.svg.png)-->
-
-
-:::
-
 :::{.definition title="Closed manifold"}
 A manifold that is compact, with or without boundary.
 :::
-
-:::{.definition title="Coboundary"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Cochain"}
-An cochain $c \in C^p(X; R)$ is a map $c \in \hom(C_{p}(X; R), R)$ on chains.
-:::
-
-:::{.definition title="Cocycle"}
-
-:::
-\todo[inline]{Definitions}
 
 :::{.definition title="Constant Map"}
 A *constant map* $f: X\to Y$ iff $f(X) = y_{0}$ for some $y_{0}\in Y$, i.e. for every $x\in X$ the output value $f(x) = y_{0}$ is the same.
@@ -582,7 +534,6 @@ For a directed system $(X_{i}, f_{ij})$, the **colimit** is an object $X$ with a
                  &                            &  &                                                                                    &  &               &        \\
 \cdots \arrow[r] & X_{j} \arrow[rrrr, "f_{ij}"] &  &                                                                                    &  & X_{i} \arrow[r] & \cdots
 \end{tikzcd}
-:::
 
 :::{.example title="of colimits"}
 \envlist
@@ -591,6 +542,8 @@ For a directed system $(X_{i}, f_{ij})$, the **colimit** is an object $X$ with a
 - Pullbacks
 - Inverse / projective limits
 - The \( p\dash \)adic integers \( \ZZ_{p} \).
+:::
+
 :::
 
 :::{.definition title="Contractible"}
@@ -664,11 +617,6 @@ An $n\dash$cell of $X$, say $e^n$, is the image of a map $\Phi: B^n \to X$. That
 
 :::
 
-:::{.definition title="Cycle"}
-
-:::
-\todo[inline]{Definitions}
-
 :::{.definition title="Deck transformation"}
 Letting $\cat C \da \mathsf{Cov}(X) \leq \Top\slice X$ be the subcategory of the slice category over $X$ of covering maps $\tilde X\to X$, the group of **deck transformations** is given by
 \[
@@ -703,11 +651,12 @@ H(x, 0) = \id_X \\
 H(x, 1) = \id_A \\
 x\in A \implies H(x, t) \in A \quad \forall t
 $$
-:::
 
 :::{.remark}
 A deformation retract between a space and a subspace is a homotopy equivalence, and further $X\homotopic Y$ iff there is a $Z$ such that both $X$ and $Y$ are deformation retracts of $Z$. Moreover, if $A$ and $B$ both have deformation retracts onto a common space $X$, then $A \homotopic B$.
 
+
+:::
 
 :::
 
@@ -718,59 +667,11 @@ But homomorphisms of free groups are entirely determined by their action on gene
 So if $f^*(1) = n$, define $n$ to be the **degree** of $f$, which only depends on the homotopy class $f\in [S^n, S^n]$.
 :::
 
-:::{.definition title="Derived Functor"}
-For a functor $T$ and an $R\dash$module $A$, a *left derived functor* $(L_{nT})$ is defined as $h_{n}(TP_{A})$, where $P_{A}$ is a projective resolution of $A$.
-:::
-
 :::{.definition title="Dimension of a manifold"}
 For $x\in M$, the only nonvanishing homology group $H_{i}(M, M - \theset{x}; \ZZ)$
 :::
 
-:::{.definition title="Direct Limit"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Direct Product"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Direct Sum"}
-
-:::
-\todo[inline]{Definitions}
-
 :::{.definition title="Euler Characteristic"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Exact Functor"}
-A functor $T$ is *right exact* if a short exact sequence 
-
-\[0 \to A \to B \to C \to 0
-\]
-yields an exact sequence 
-
-\[\ldots TA \to TB \to TC \to 0
-\]
-and is *left exact* if it yields 
-
-\[0 \to TA \to TB \to TC \to \ldots
-\]
-Thus a functor is exact iff it is both left and right exact, yielding
-
-\[0 \to TA \to TB \to TC \to 0
-.\]
-
-:::
-
-:::{.example title="of an exact functor"}
-$\wait \tensor_{R} \wait$ is a right exact bifunctor.
-:::
-
-:::{.definition title="Exact Sequence"}
 
 :::
 \todo[inline]{Definitions}
@@ -780,15 +681,6 @@ $\wait \tensor_{R} \wait$ is a right exact bifunctor.
 :::
 \todo[inline]{Definitions}
 
-:::{.definition title="Ext Group"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Flat"}
-An $R\dash$module is flat if $A\tensor_{R} \wait$ is an exact functor.
-:::
-
 :::{.definition title="Free and Properly Discontinuous"}
 An action $G\actson X$ is **properly discontinuous** if each $x\in X$ has a neighborhood $U$ such that all of the images $g(U)$ for $g\in G$ are disjoint, i.e. $g_1(U) \intersect g_2(U) \neq \emptyset \implies g_1 = g_2$.
 The action is **free** if there are no fixed points.
@@ -796,10 +688,6 @@ The action is **free** if there are no fixed points.
 Sometimes a slightly weaker condition is used: every point $x\in X$ has a neighborhood $U$ such that $U \intersect G(U) \neq \emptyset$ for only finitely many $G$.
 :::
 \todo[inline]{Definitions}
-
-:::{.definition title="Free module"}
-A $\dash$module $M$ with a basis $S = \theset{s_{i}}$ of generating elements. Every such module is the image of a unique map $\mathcal{F}(S) = R^S \surjects M$, and if $M = \left< S \mid \mathcal{R} \right>$  for some set of relations $\mathcal{R}$, then $M \cong R^S / \mathcal{R}$.
-:::
 
 :::{.definition title="Free Product"}
 
@@ -820,21 +708,7 @@ For a connected, closed, orientable manifold, $[M]$ is a generator of $H_{n}(M; 
 :::
 \todo[inline]{Definitions}
 
-:::{.definition title="Generating Set"}
-$S = \theset{s_{i}}$ is a generating set for an $R\dash$ module $M$ iff $$x\in M \implies x = \sum r_{i} s_{i}$$ for some coefficients $r_{i} \in R$ (where this sum may be infinite).
-:::
-
 :::{.definition title="Gluing Along a Map"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Group Ring"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Homologous"}
 
 :::
 \todo[inline]{Definitions}
@@ -912,11 +786,6 @@ Computed as an oriented intersection number between two homology classes (pertur
 
 :::
 
-:::{.definition title="Inverse Limit"}
-
-:::
-\todo[inline]{Definitions}
-
 :::{.definition title="Intersection Form"}
 The nondegenerate bilinear form cohomology induced by the Kronecker Pairing: $$I: H^k(M_{n}) \cross H^{n-k}(M^n) \to \ZZ$$
 where $n=2k$.
@@ -963,15 +832,6 @@ At a point $x \in V \subset M$, a generator of $H_{n}(V, V-\theset{x})$. The deg
 :::
 \todo[inline]{Definitions}
 
-:::{.definition title="Limit"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Linear Independence"}
-A generating $S$ for a module $M$ is linearly independent if $\sum r_{i} s_{i} = 0_M \implies \forall i,~r_{i} = 0$ where $s_{i}\in S, r_{i} \in R$.
-:::
-
 :::{.definition title="Local homology"}
 $H_{n}(X, X-A; \ZZ)$ is the local homology at $A$, also denoted $H_{n}(X \mid A)$
 :::
@@ -979,12 +839,6 @@ $H_{n}(X, X-A; \ZZ)$ is the local homology at $A$, also denoted $H_{n}(X \mid A)
 :::{.definition title="Local orientation of a manifold"}
 At a point $x\in M^n$, a choice of a generator $\mu_{x}$ of $H_{n}(M, M - \theset{x}) = \ZZ$.
 :::
-
-:::{.definition title="Long exact sequence"}
-
-:::
-\todo[inline]{Definitions}
-
 
 :::{.definition title="Manifold"}
 An $n\dash$manifold is a Hausdorff space in which each neighborhood has an open neighborhood homeomorphic to $\RR^n$.
@@ -1080,34 +934,9 @@ TFAE:
 :::
 \todo[inline]{Definitions}
 
-:::{.definition title="Perfect Pairing"}
-A pairing alone is an $R\dash$bilinear module map, or equivalently a map out of a tensor product since $p: M\tensor_{R} N \to L$ can be partially applied to yield $\phi: M \to L^N = \hom_{R}(N, L)$. A pairing is **perfect** when $\phi$ is an isomorphism.
-:::
-
 :::{.definition title="Poincaré Duality"}
 For a closed, orientable $n\dash$manifold, following map $[M] \frown \wait$ is an isomorphism: $$ D: H^k(M; R) \to H_{n-k}(M; R) \\ D(\alpha) = [M] \frown \alpha$$
 :::
-
-:::{.definition title="Projective Resolution"}
-
-:::
-\todo[inline]{Definitions}
-
-
-:::{.definition title="Pullback"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Pushout"}
-
-:::
-\todo[inline]{Definitions}
-
-:::{.definition title="Quasi-isomorphism"}
-
-:::
-\todo[inline]{Definitions}
 
 :::{.definition title="R-orientability"}
 
@@ -1188,14 +1017,6 @@ Equivalently, \( \pi _1 X = 1 \) is trivial.
 :::
 \todo[inline]{Definitions}
 
-:::{.definition title="Tor Group"}
-For an $R\dash$module
-\[
-\tor_{R}^n(\wait, B) = L_{n}(\wait \tensor_{R} B)
-,\]
-where $L_{n}$ denotes the $n$th left derived functor.
-:::
-
 :::{.definition title="Universal Cover"}
 
 :::
@@ -1263,7 +1084,6 @@ Explicitly given by
 :::
 \todo[inline]{Definitions}
 
-
 :::{.definition title="Loop Space"}
 
 :::
@@ -1275,3 +1095,183 @@ Explicitly given by
 \todo[inline]{Definitions}
 
 ## Homological Algebra
+
+:::{.definition title="Tor Group"}
+For an $R\dash$module
+\[
+\tor_{R}^n(\wait, B) = L_{n}(\wait \tensor_{R} B)
+,\]
+where $L_{n}$ denotes the $n$th left derived functor.
+:::
+
+:::{.definition title="Inverse Limit"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Generating Set"}
+$S = \theset{s_{i}}$ is a generating set for an $R\dash$ module $M$ iff $$x\in M \implies x = \sum r_{i} s_{i}$$ for some coefficients $r_{i} \in R$ (where this sum may be infinite).
+:::
+
+:::{.definition title="Acyclic"}
+
+:::
+
+:::{.definition title="Basis of a module"}
+For an $R\dash$module $M$, a **basis** $B$ is a linearly independent generating set.
+An \(R\dash\)module is **free** iff it admits a basis.
+:::
+:::{.definition title="Chain"}
+An element $c \in C_{p}(X; R)$ can be represented as the singular $p$ simplex $\Delta^p \to X$.
+:::
+
+:::{.definition title="Chain Homotopy"}
+Given two maps between chain complexes $(C_*, \del_{C}) \mapsvia{f, ~g} (D_*, \del_{D})$, a chain homotopy is a family $h_{i}: C_{i} \to B_{i+1}$ satisfying $$f_{i}-g_{i} = \del_{B, i-1}\circ h_{n} + h_{i+1}\circ \del_{A, i}$$. 
+
+<!--![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Chain_{homotopy_{between_chain_complexes}}.svg/650px-Chain_{homotopy_{between_chain_complexes}}.svg.png)-->
+
+:::
+
+:::{.definition title="Chain Map"}
+A map between chain complexes $(C_*, \del_{C}) \mapsvia{f} (D_*, \del_{D})$ is a chain map iff each component $C_{i} \mapsvia{f_{i}} D_{i}$ satisfies 
+$$
+f_{i-1}\circ\del_{C, i} = \del_{D,i} \circ f_{i}
+$$ 
+(i.e this forms a commuting ladder) 
+
+<!--![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Chain_{map}.svg/650px-Chain_{map}.svg.png)-->
+
+
+:::
+
+:::{.definition title="Coboundary"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Cochain"}
+An cochain $c \in C^p(X; R)$ is a map $c \in \hom(C_{p}(X; R), R)$ on chains.
+:::
+
+:::{.definition title="Cocycle"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Cycle"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Derived Functor"}
+For a functor $T$ and an $R\dash$module $A$, a *left derived functor* $(L_{nT})$ is defined as $h_{n}(TP_{A})$, where $P_{A}$ is a projective resolution of $A$.
+:::
+
+:::{.definition title="Direct Limit"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Direct Product"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Direct Sum"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Exact Functor"}
+A functor $T$ is *right exact* if a short exact sequence 
+
+\[0 \to A \to B \to C \to 0
+\]
+yields an exact sequence 
+
+\[\ldots TA \to TB \to TC \to 0
+\]
+and is *left exact* if it yields 
+
+\[0 \to TA \to TB \to TC \to \ldots
+\]
+Thus a functor is exact iff it is both left and right exact, yielding
+
+\[0 \to TA \to TB \to TC \to 0
+.\]
+
+
+:::{.example title="of an exact functor"}
+$\wait \tensor_{R} \wait$ is a right exact bifunctor.
+:::
+
+:::
+
+:::{.definition title="Exact Sequence"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Ext Group"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Flat"}
+An $R\dash$module is flat if $A\tensor_{R} \wait$ is an exact functor.
+:::
+
+:::{.definition title="Free module"}
+A $\dash$module $M$ with a basis $S = \theset{s_{i}}$ of generating elements. Every such module is the image of a unique map $\mathcal{F}(S) = R^S \surjects M$, and if $M = \left< S \mid \mathcal{R} \right>$  for some set of relations $\mathcal{R}$, then $M \cong R^S / \mathcal{R}$.
+:::
+
+:::{.definition title="Group Ring"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Homologous"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Limit"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Linear Independence"}
+A generating $S$ for a module $M$ is linearly independent if $\sum r_{i} s_{i} = 0_M \implies \forall i,~r_{i} = 0$ where $s_{i}\in S, r_{i} \in R$.
+:::
+
+:::{.definition title="Long exact sequence"}
+
+:::
+\todo[inline]{Definitions}
+
+
+
+:::{.definition title="Perfect Pairing"}
+A pairing alone is an $R\dash$bilinear module map, or equivalently a map out of a tensor product since $p: M\tensor_{R} N \to L$ can be partially applied to yield $\phi: M \to L^N = \hom_{R}(N, L)$. A pairing is **perfect** when $\phi$ is an isomorphism.
+:::
+
+:::{.definition title="Pullback"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Pushout"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Quasi-isomorphism"}
+
+:::
+\todo[inline]{Definitions}
+
+:::{.definition title="Projective Resolution"}
+
+:::
+\todo[inline]{Definitions}
+
