@@ -306,7 +306,7 @@ The **product topology** is defined by
 whose open sets are products of open sets in the $X_i$ where all but finitely many components are not the entire space $X_i$.
 Equivalently,
 \[
-\tau^\prod(\prod X_i) = \inf\ts{\tau(X) \st p_j: \prod_{i\in I} X_i \to X \text{ are $\tau\dash$continuous for all } j}
+\tau^\prod(\prod X_i) = \inf\ts{\tau(\prod X_i) \st p_j: \prod_{i\in I} X_i \to X \text{ are $\tau\dash$continuous for all } j}
 ,\]
 the smallest/coarsest/initial topology such that the projections $p_j: \prod_i X_i \to X_j$ are continuous.
 
