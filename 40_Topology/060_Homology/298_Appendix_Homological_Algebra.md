@@ -106,8 +106,8 @@ Every abelian groups has a resolution of this form and length 2.
 
 - $\tor_R^0(A, B) = A \tensor_R B$
 - $\tor(\bigoplus_i A_i, \bigoplus_j B) = \bigoplus_i \bigoplus_j \tor(\mathbf{T}A_i, \mathbf{T}B_j)$  where $\mathbf{T}G$ is the torsion component of $G$.
-- $\tor(\ZZ_n, G) = \ker (g \mapsto ng) = \theset{g\in G\mid ng = 0}$
 - $\tor(A, B) = \tor(B, A)$
+- $\tor(\ZZ_n, G) = \ker (g \mapsto ng) = \theset{g\in G\mid ng = 0}$
 
 ## Properties of Ext
 
