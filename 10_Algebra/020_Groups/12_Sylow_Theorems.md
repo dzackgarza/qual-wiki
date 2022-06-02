@@ -93,7 +93,7 @@ xH \in \Fix_H(G/H)
 - We have $[G:H] = \size(N_G(H) / H)$, and if $i<k$ then $p$ divides $[G: H]$.
 - So $N_G(H)/H$ is a $p\dash$group and has a subgroup $L$ of order $p$ by Cauchy.
 - Use the subgroup correspondence: $L\leq N_G(H)/H$ corresponds to some $L' \leq G$ with $H \subseteq L' \subseteq N_G(H)$ and $L = L'/H$.
-  Now use that $\size L = p$ implies $\size(L' / H) = [L':H] = p$, so $\size L' = [L':H]\sizeH = p\sizeH = p^{i+1}$ as desired.
+  Now use that $\size L = p$ implies $\size(L' / H) = [L':H] = p$, so $\size L' = [L':H]\size H = p\size H = p^{i+1}$ as desired.
 
 
 :::

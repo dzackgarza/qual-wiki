@@ -185,6 +185,27 @@ Prove that $\ZZ[2\sqrt{2}]$ is not a UFD.
 
 ## Ideals (Prime, Maximal, Proper, Principal, etc)
 
+
+### Fall 2021 #5 #algebra/qual/work 
+
+Let $R$ be an algebra over $\mathbb{C}$ which is finite-dimensional as a $\CC\dash$vector space. Recall that an ideal $I$ of $R$ can be considered as a $\CC\dash$subvector space of $R$. We define the codimension of $I$ in $R$ to be 
+\[
+\codim_R I \da 
+\dim_{\CC} R - \dim_{\CC} I
+,\] 
+the difference between the dimension of $R$ as a $\mathbb{C}\dash$vector space, $\dim_{\CC} R$, and the dimension of $I$ as a $\CC\dash$vector space, $\dim_\CC I$.
+
+a.
+Show that any maximal ideal $m \subset R$ has codimension 1 .
+
+b.
+Suppose that $\operatorname{dim}_{C} R=2$. Show that there exists a surjective homomorphism of $\CC\dash$algebras from the polynomial ring $\CC[t]$ to $R$.
+
+c.
+Classify such algebras $R$ for which $\dim_{\CC} R=2$, and list their maximal ideals.
+
+> (DZG): my impression is that this is an unusually difficult problem, or was something specifically covered in this year's qual class.
+
 ### Fall 2013 #3 #algebra/qual/completed
 
 a.
@@ -516,7 +537,7 @@ We say that $r$ is a **zero-divisor** if $r\bullet$ is not injective.
 Show that if $r$ is a zero-divisor and $r \neq 0$, then the kernel and image of $R$ each consist of zero-divisors.
 
 c.
-Let $n \geq 2$ be an integer. Show: if $R$ has exactly $n$ zero-divisors, then $\sizeR \leq n^2$ .
+Let $n \geq 2$ be an integer. Show: if $R$ has exactly $n$ zero-divisors, then $\size R \leq n^2$ .
 
 d.
 Show that up to isomorphism there are exactly two commutative rings $R$ with precisely 2 zero-divisors.

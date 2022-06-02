@@ -1,5 +1,30 @@
 # Group Theory: General
 
+## Permutations
+
+
+### Fall 2021 #1 #algebra/qual/work 
+
+Let $G$ be a group. An automorphism $\phi: G \rightarrow G$ is called *inner* if the automorphism is given by conjugation by a fixed group element $g$, i.e.,
+\[
+\phi=\phi_{g}: h \mapsto g h g^{-1} .
+\]
+
+a.
+Prove that the set of inner automorphisms forms a normal subgroup of the group of all automorphisms of $G$.
+
+b.
+Give an example of a finite group with an automorphism which is not inner.
+
+c.
+Denote by $S_{n}$ the group of permutations of the set $\{1, \ldots, n\}$. Suppose that $g \in S_{n}$ sends $i$ to $g_{i}$ for $i=1, \ldots, n .$ Let $(a, b)$ denote as usual the cycle notation for the transposition which permutes $a$ and $b$. For $i \in\{1, \ldots, n-1\}$, compute $\phi_{g}((i, i+1))$.
+
+d.
+Suppose that an automorphism $\phi \in \operatorname{Aut}\left(S_{n}\right)$ preserves cycle type, i.e., that for every element $s$ of $S_{n}, s$ and $\phi(s)$ have the same cycle type. Show that $\phi$ is inner. 
+
+> Hint: Consider the images of generators $\phi((1,2)), \phi((2,3)), \cdots, \phi((n-1, n))$.
+
+
 ## Cosets
 
 ### Spring 2020 #2 #algebra/qual/completed
@@ -23,7 +48,7 @@ Descend to quotient so you can leverage both the order of $h$ *and* the order of
 \envlist
 
 - For ease of notation, replace $H$ in the problem with $N$ so we remember which one is normal.
-- Write $n\da \size N$ and $m \da [G:N] = \sizeG/N$, where the quotient makes sense since $N$ is normal.
+- Write $n\da \size N$ and $m \da [G:N] = \size G/N$, where the quotient makes sense since $N$ is normal.
 - Let $H \leq G$ with $\size H = n$, we'll show $H=N$.
   - Since $\size H = \size N$ it suffices to show $H \subseteq N$.
   - It further suffices to show $hN = N$ for all $h\in H$.
@@ -75,7 +100,7 @@ Count in towers, show that distinct coset reps stay distinct.
 - Then $h_i J\neq h_j J \iff h_i h_j\inv \not\in J = H \intersect K$.
 - $H$ is a subgroup, so $h_i h_j\inv \in H$ forces this not to be in $K$.
 - But then $h_i K \neq h_j K$, so these are distinct cosets in $G/K$.
-- So $\sizeG/K \geq m$.
+- So $\size G/K \geq m$.
 :::
 
 ### Spring 2013 #3 #algebra/qual/completed
@@ -145,7 +170,7 @@ Just note that the techniques used in this problem perhaps don't show up in othe
 Fixed points of the conjugation action are precisely commuting elements.
 Apply Burnside.
 Context clue: $1/[G:Z(G)]$ is weird, right? 
-Use that $[G:Z(G)] = \size G/\size Z(G)$, so try to look for $\sizeZ(G)/\size(G)$ somewhere.
+Use that $[G:Z(G)] = \size G/\size Z(G)$, so try to look for $\size Z(G)/\size(G)$ somewhere.
 Count sizes of centralizers.
 :::
 
@@ -251,9 +276,9 @@ P(A)
 &= {1\over (\size G)^2 } \qty{ \size Z(G) \cdot \size G + \qty{ \sum_{g\not\in Z(g)} {1\over 2} } \cdot \size G } \\
 &= {1\over (\size G) } \qty{ \size Z(G) + \sum_{g\not\in Z(g)} {1\over 2} } \\
 &= {1\over (\size G) } \qty{ \size Z(G) + {1\over 2} \sum_{g\not\in Z(g)} 1 } \\
-&= {1\over (\size G) } \qty{ \size Z(G) + {1\over 2} \size(G \sm Z(G) ) } \\
-&= {1\over (\size G) } \qty{ \size Z(G) + {1\over 2} \sizeG - {1\over 2} \size Z(G) } \\
-&= {1\over (\size G) } \qty{ {1\over 2} \size Z(G) + {1\over 2} \sizeG  } \\
+&= {1\over (\size G) } \qty{ \size Z(G) + {1\over 2} \size (G \sm Z(G) ) } \\
+&= {1\over (\size G) } \qty{ \size Z(G) + {1\over 2} \size G - {1\over 2} \size Z(G) } \\
+&= {1\over (\size G) } \qty{ {1\over 2} \size Z(G) + {1\over 2} \size G  } \\
 &= {1\over 2} \qty{1 + { \size Z(G) \over \size G }} \\
 &= {1\over 2} \qty{1 + { 1 \over [G : Z(G)]  }}
 .\]
@@ -400,7 +425,7 @@ Prove that $H$ is contained in the center of $G$.
   - Why: if $H\normal G$ then $ghg\inv \in H$ for all $g$, so $C_h \subseteq H$ and $\Union_h C_h = H$.
   Conversely, if $H = \Union_{h\in H} C_h$, then $ghg\inv \in C_h \subseteq H$ and thus $gHg\inv = H$.
 - Orbit stabilizer theorem: $\size C_g = \size G/ \size K_g$ where $C_g$ is the centralizer and $K_g$ is the conjugacy class of $g$.
-  - In particular, $\size C_g$ divides $\sizeG$.
+  - In particular, $\size C_g$ divides $\size G$.
 :::
 
 
@@ -412,7 +437,7 @@ Show an element $x$ is central by showing $\size C_x = 1$.
 :::{.proof title="?"}
 \envlist
 
-- Let $p \da \sizeH$.
+- Let $p \da \size H$.
 - Let \( \ts{ C_i }_{i\leq n} \) be the conjugacy classes in $G$, then $G = \disjoint_{i\leq n} C_i$
 - By the first fact, there is a sub-collection \( \ts{ C_{i_j}}_{j\leq k } \)  such that 
 \[
@@ -471,6 +496,44 @@ p = \size N = \sum_{i=1}^m \size [n_i] = 1 + \sum_{i=2}^m [n_i]
 :::
 
 ## Unsorted / Counting Arguments
+
+
+### Fall 2021 #2 #algebra/qual/completed 
+
+Give generators and relations for the non-commutative group $G$ of order 63 containing an element of order $9 .$
+
+
+:::{.solution}
+\envlist
+
+- Idea: take a semidirect product involving $C_9$ and $C_7$.
+  We'll need some facts: $\Hom(C_m, C_n) \cong C_d$ where $d = \gcd(m, n)$, and $\Aut(C_m)\cong C_m\units$ which has order $\phi(m)$ (since one needs to send generators to generators), which can be explicitly calculated based on the prime factorization of $m$.
+
+- Some calculations we'll need:
+  - $\Aut(C_9) \cong C_9\units \cong C_{\phi(9)} \cong C_6$, using that $\phi(p^k) = p^{k-1}(p-1)$.
+  - $\Aut(C_7) \cong C_7\units \cong C_{\phi(7)}\cong C_6$ using that $\phi(p) = p-1$.
+- To get a nonabelian group, we need a nontrivial semidirect product, so look at $\Hom(G, \Aut(H))$ in the two possible combinations.
+  - $\Hom(C_7, \Aut(C_9)) \cong \Hom(C_7, C_6) \cong C_1 \da \ts{e}$ using that $\Hom(C_m, C_n) \cong C_{d}$ for $d = \gcd(m, n)$.
+    So there are no nontrivial homs here, so only the direct product is possible.
+  - $\Hom(C_9, \Aut(C_7)) \cong \Hom(C_9, C_6) \cong C_3$, so use this!
+  - Note that we don't have to consider possibilities for $C_3\cross C_3$, since including this as a factor would yield no elements of order 9.
+
+- So take $G\da C_7 \semidirect_\psi C_9$ for some $\psi: C_9 \to \Aut(C_7)$, and we can take the presentation
+\[
+G = \gens{x, y\st x^7, y^9, yxy\inv = \psi(x)}
+.\]
+
+- It now suffices to find a nontrivial $\psi: C_7\to C_7$.
+  Writing it multiplicatively as $C_7 = \gens{x\st x^7}$, any map that sends $x$ to a generator will do.
+  It suffices to choose any $k$ coprime to $7$, and then take $\psi(x) \da x^k$, which will be another generator.
+
+- So take 
+
+\[
+G = \gens{x, y\st x^7, y^9, yxy\inv = x^2}
+.\]
+:::
+
 
 
 ### Fall 2019 Midterm #5 #algebra/qual/completed
@@ -570,7 +633,7 @@ Use transitivity of characteristic.
 :::{.proof title="of a"}
 \envlist
 
-- By definition, $S\in \Syl_p(G) \iff S$ is a *maximal* $p\dash$subgroup: $S<G$ is a $p\dash$group, so $\sizeS = p^k$ for some $k$, $S$ is a proper subgroup, and $S$ is maximal in the sense that there are no proper $p\dash$subgroups $S'$ with $S \subseteq S' \subseteq G$.
+- By definition, $S\in \Syl_p(G) \iff S$ is a *maximal* $p\dash$subgroup: $S<G$ is a $p\dash$group, so $\size S = p^k$ for some $k$, $S$ is a proper subgroup, and $S$ is maximal in the sense that there are no proper $p\dash$subgroups $S'$ with $S \subseteq S' \subseteq G$.
 - Since $\size H = p^i$, $H$ is a $p\dash$subgroup of $G$.
 - If $H$ is maximal, then by definition $H\in \Syl_p(G)$
 - Otherwise, if $H$ is not maximal, there exists an $H' \supseteq H$ with $H'\leq G$ a $p\dash$subgroup properly containing $H$.
@@ -589,7 +652,7 @@ Use transitivity of characteristic.
 - Claim: $Z(H) \leq H$ works.
   - It is nontrivial since $H$ is a $p\dash$group and $p\dash$groups have nontrivial centers
   - It is abelian since $Z(Z(H)) = Z(H)$.
-  - $\sizeZ(H) = p^\ell$ for some $\ell \leq i$ by Lagrange
+  - $\size Z(H) = p^\ell$ for some $\ell \leq i$ by Lagrange
 - It thus remains to show that $Z(H) \normal G$.
 - Use that $Z(H) \ch H$ and use transitivity of characteristic to conclude $Z(H) \normal H$.
 - That $Z(H) \ch H$: let $\psi \in \Aut(H)$ and $x=\psi(y)\in \psi(Z(H))$ so $y\in Z(H)$, then for arbitrary $h\in H$,

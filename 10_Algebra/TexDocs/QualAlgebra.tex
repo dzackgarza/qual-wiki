@@ -1,0 +1,6175 @@
+\input{"preamble.tex"}
+
+\addbibresource{QualAlgebra.bib}
+
+\let\Begin\begin
+\let\End\end
+\newcommand\wrapenv[1]{#1}
+
+\makeatletter
+\def\ScaleWidthIfNeeded{%
+ \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\def\ScaleHeightIfNeeded{%
+  \ifdim\Gin@nat@height>0.9\textheight
+    0.9\textheight
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\setkeys{Gin}{width=\ScaleWidthIfNeeded,height=\ScaleHeightIfNeeded,keepaspectratio}%
+
+\title{
+\textbf{
+    Qual Algebra
+  }
+  }
+
+
+
+
+
+
+
+\begin{document}
+
+\date{}
+\maketitle
+
+
+\newpage
+
+% Note: addsec only in KomaScript
+\addsec{Table of Contents}
+\tableofcontents
+\newpage
+
+\hypertarget{preface}{%
+\section{Preface}\label{preface}}
+
+I'd like to extend my gratitude to the following people for helping
+supply solutions and proofs:
+
+\begin{itemize}
+\tightlist
+\item
+  Paco Adajar
+\item
+  Swaroop Hegde
+\end{itemize}
+
+Many other solutions contain input and ideas from other graduate
+students and faculty members at UGA, along with questions and answers
+posted on Math Stack Exchange or Math Overflow.
+
+\hypertarget{group-theory-general}{%
+\section{Group Theory: General}\label{group-theory-general}}
+
+\hypertarget{permutations}{%
+\subsection{Permutations}\label{permutations}}
+
+\hypertarget{fall-2021-1}{%
+\subsubsection{Fall 2021 \#1}\label{fall-2021-1}}
+
+Let \(G\) be a group. An automorphism \(\phi: G \rightarrow G\) is
+called \emph{inner} if the automorphism is given by conjugation by a
+fixed group element \(g\), i.e.,
+\begin{align*}
+\phi=\phi_{g}: h \mapsto g h g^{-1} .
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that the set of inner automorphisms forms a normal subgroup of
+  the group of all automorphisms of \(G\).
+\item
+  Give an example of a finite group with an automorphism which is not
+  inner.
+\item
+  Denote by \(S_{n}\) the group of permutations of the set
+  \(\{1, \ldots, n\}\). Suppose that \(g \in S_{n}\) sends \(i\) to
+  \(g_{i}\) for \(i=1, \ldots, n .\) Let \((a, b)\) denote as usual the
+  cycle notation for the transposition which permutes \(a\) and \(b\).
+  For \(i \in\{1, \ldots, n-1\}\), compute \(\phi_{g}((i, i+1))\).
+\item
+  Suppose that an automorphism
+  \(\phi \in \operatorname{Aut}\left(S_{n}\right)\) preserves cycle
+  type, i.e., that for every element \(s\) of \(S_{n}, s\) and
+  \(\phi(s)\) have the same cycle type. Show that \(\phi\) is inner.
+\end{enumerate}
+
+\begin{quote}
+Hint: Consider the images of generators
+\(\phi((1,2)), \phi((2,3)), \cdots, \phi((n-1, n))\).
+\end{quote}
+
+\hypertarget{cosets}{%
+\subsection{Cosets}\label{cosets}}
+
+\hypertarget{spring-2020-2}{%
+\subsubsection{Spring 2020 \#2}\label{spring-2020-2}}
+
+Let \(H\) be a normal subgroup of a finite group \(G\) where the order
+of \(H\) and the index of \(H\) in \(G\) are relatively prime. Prove
+that no other subgroup of \(G\) has the same order as \(H\).
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2014-6}{%
+\subsubsection{Fall 2014 \#6}\label{fall-2014-6}}
+
+Let \(G\) be a group and \(H, K < G\) be subgroups of finite index. Show
+that
+\begin{align*}
+[G: H\cap K] \leq [G: H] ~ [G:K]
+.\end{align*}
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2013-3}{%
+\subsubsection{Spring 2013 \#3}\label{spring-2013-3}}
+
+Let \(P\) be a finite \(p{\hbox{-}}\)group. Prove that every nontrivial
+normal subgroup of \(P\) intersects the center of \(P\) nontrivially.
+
+\todo[inline]{Clean up, sketchy argument.}
+
+\emph{Solution omitted.}
+
+\hypertarget{burnside-class-equation}{%
+\subsection{Burnside / Class Equation}\label{burnside-class-equation}}
+
+\hypertarget{spring-2019-4}{%
+\subsubsection{Spring 2019 \#4}\label{spring-2019-4}}
+
+For a finite group \(G\), let \(c(G)\) denote the number of conjugacy
+classes of \(G\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if two elements of \(G\) are chosen uniformly at
+  random,then the probability they commute is precisely
+  \begin{align*}
+  \frac{c(G)}{{\left\lvert {G} \right\rvert}}
+  .\end{align*}
+\item
+  State the class equation for a finite group.
+\item
+  Using the class equation (or otherwise) show that the probability in
+  part (a) is at most
+  \begin{align*}
+  \frac 1 2 + \frac 1 {2[G : Z(G)]}
+  .\end{align*}
+\end{enumerate}
+
+\begin{quote}
+Here, as usual, \(Z(G)\) denotes the center of \(G\).
+\end{quote}
+
+\begin{warnings}
+
+(DZG) This is a slightly anomalous problem! It's fun and worth doing,
+because it uses the major counting formulas. Just note that the
+techniques used in this problem perhaps don't show up in other group
+theory problems.
+
+\end{warnings}
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{group-actions-representations}{%
+\subsection{Group Actions /
+Representations}\label{group-actions-representations}}
+
+\hypertarget{spring-2017-1}{%
+\subsubsection{Spring 2017 \#1}\label{spring-2017-1}}
+
+Let \(G\) be a finite group and \(\pi: G\to \operatorname{Sym}(G)\) the
+Cayley representation.
+
+\begin{quote}
+(Recall that this means that for an element \(x\in G\), \(\pi(x)\) acts
+by left translation on \(G\).)
+\end{quote}
+
+Prove that \(\pi(x)\) is an odd permutation \(\iff\) the order
+\({\left\lvert {\pi(x)} \right\rvert}\) of \(\pi(x)\) is even and
+\({\left\lvert {G} \right\rvert} / {\left\lvert {\pi(x)} \right\rvert}\)
+is odd.
+
+\begin{warnings}
+
+(DZG): This seems like an unusually hard group theory problem. My guess
+is this year's qual class spent more time than usual on the proof of
+Cayley's theorem.
+
+\end{warnings}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2015-1}{%
+\subsubsection{Fall 2015 \#1}\label{fall-2015-1}}
+
+Let \(G\) be a group containing a subgroup \(H\) not equal to \(G\) of
+finite index. Prove that \(G\) has a normal subgroup which is contained
+in every conjugate of \(H\) which is of finite index.
+
+\begin{quote}
+(DZG) A remark: it's not the conjugates that should be finite index
+here, but rather the normal subgroup.
+\end{quote}
+
+\emph{Solution omitted.}
+
+\hypertarget{conjugacy-classes}{%
+\subsection{Conjugacy Classes}\label{conjugacy-classes}}
+
+\hypertarget{spring-2021-2}{%
+\subsubsection{Spring 2021 \#2}\label{spring-2021-2}}
+
+Let \(H {~\trianglelefteq~}G\) be a normal subgroup of a finite group
+\(G\), where the order of \(H\) is the smallest prime \(p\) dividing
+\({\left\lvert {G} \right\rvert}\). Prove that \(H\) is contained in the
+center of \(G\).
+
+\begin{quote}
+Solution due to Swaroop Hegde, typed up + modifications added by DZG.
+\end{quote}
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Proof omitted.}
+
+\hypertarget{spring-2015-1}{%
+\subsubsection{Spring 2015 \#1}\label{spring-2015-1}}
+
+For a prime \(p\), let \(G\) be a finite \(p{\hbox{-}}\)group and let
+\(N\) be a normal subgroup of \(G\) of order \(p\). Prove that \(N\) is
+contained in the center of \(G\).
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{unsorted-counting-arguments}{%
+\subsection{Unsorted / Counting
+Arguments}\label{unsorted-counting-arguments}}
+
+\hypertarget{fall-2021-2}{%
+\subsubsection{Fall 2021 \#2}\label{fall-2021-2}}
+
+Give generators and relations for the non-commutative group \(G\) of
+order 63 containing an element of order \(9 .\)
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-midterm-5}{%
+\subsubsection{Fall 2019 Midterm \#5}\label{fall-2019-midterm-5}}
+
+Let \(G\) be a nonabelian group of order \(p^3\) for \(p\) prime. Show
+that \(Z(G) = [G, G]\).
+
+\begin{quote}
+Note: this is a good problem, it tests several common theorems at once.
+Proof due to Paco Adajar.
+\end{quote}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2012-2}{%
+\subsubsection{Spring 2012 \#2}\label{spring-2012-2}}
+
+Let \(G\) be a finite group and \(p\) a prime number such that there is
+a normal subgroup \(H{~\trianglelefteq~}G\) with
+\({\left\lvert {H} \right\rvert} = p^i > 1\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(H\) is a subgroup of any Sylow \(p{\hbox{-}}\)subgroup of
+  \(G\).
+\item
+  Show that \(G\) contains a nonzero abelian normal subgroup of order
+  divisible by \(p\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2016-1}{%
+\subsubsection{Fall 2016 \#1}\label{fall-2016-1}}
+
+Let \(G\) be a finite group and \(s, t\in G\) be two distinct elements
+of order 2. Show that subgroup of \(G\) generated by \(s\) and \(t\) is
+a dihedral group.
+
+\begin{quote}
+Recall that the dihedral groups of order \(2m\) for \(m\geq 2\) are of
+the form
+\begin{align*}
+D_{2m} = \left\langle{\sigma, \tau {~\mathrel{\Big\vert}~}\sigma^m = 1 = \tau^2, \tau \sigma = \sigma^{-1}\tau}\right\rangle
+.\end{align*}
+\end{quote}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-midterm-1}{%
+\subsubsection{Fall 2019 Midterm \#1}\label{fall-2019-midterm-1}}
+
+Let \(G\) be a group of order \(p^2q\) for \(p, q\) prime. Show that
+\(G\) has a nontrivial normal subgroup. :::
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-midterm-4}{%
+\subsubsection{Fall 2019 Midterm \#4}\label{fall-2019-midterm-4}}
+
+Let \(p\) be a prime. Show that
+\(S_p = \left\langle{\tau, \sigma}\right\rangle\) where \(\tau\) is a
+transposition and \(\sigma\) is a \(p{\hbox{-}}\)cycle.
+
+\hypertarget{groups-group-actions}{%
+\section{Groups: Group Actions}\label{groups-group-actions}}
+
+\hypertarget{fall-2012-1}{%
+\subsection{Fall 2012 \#1}\label{fall-2012-1}}
+
+Let \(G\) be a finite group and \(X\) a set on which \(G\) acts.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(x\in X\) and
+  \(G_x \coloneqq\left\{{g\in G {~\mathrel{\Big\vert}~}g\cdot x = x}\right\}\).
+  Show that \(G_x\) is a subgroup of \(G\).
+\item
+  Let \(x\in X\) and
+  \(G\cdot x \coloneqq\left\{{g\cdot x {~\mathrel{\Big\vert}~}g\in G}\right\}\).
+  Prove that there is a bijection between elements in \(G\cdot x\) and
+  the left cosets of \(G_x\) in \(G\).
+\end{enumerate}
+
+\hypertarget{fall-2015-2}{%
+\subsection{Fall 2015 \#2}\label{fall-2015-2}}
+
+Let \(G\) be a finite group, \(H\) a \(p{\hbox{-}}\)subgroup, and \(P\)
+a sylow \(p{\hbox{-}}\)subgroup for \(p\) a prime. Let \(H\) act on the
+left cosets of \(P\) in \(G\) by left translation.
+
+Prove that this is an orbit under this action of length 1.
+
+Prove that \(xP\) is an orbit of length 1 \(\iff H\) is contained in
+\(xPx^{-1}\).
+
+\hypertarget{spring-2016-5}{%
+\subsection{Spring 2016 \#5}\label{spring-2016-5}}
+
+Let \(G\) be a finite group acting on a set \(X\). For \(x\in X\), let
+\(G_x\) be the stabilizer of \(x\) and \(G\cdot x\) be the orbit of
+\(x\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that there is a bijection between the left cosets \(G/G_x\) and
+  \(G\cdot x\).
+\item
+  Prove that the center of every finite \(p{\hbox{-}}\)group \(G\) is
+  nontrivial by considering that action of \(G\) on \(X=G\) by
+  conjugation.
+\end{enumerate}
+
+\hypertarget{fall-2017-1}{%
+\subsection{Fall 2017 \#1}\label{fall-2017-1}}
+
+Suppose the group \(G\) acts on the set \(A\). Assume this action is
+faithful (recall that this means that the kernel of the homomorphism
+from \(G\) to \(\operatorname{Sym}(A)\) which gives the action is
+trivial) and transitive (for all \(a, b\) in \(A\), there exists \(g\)
+in \(G\) such that \(g \cdot a = b\).)
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  For \(a \in A\), let \(G_a\) denote the stabilizer of \(a\) in \(G\).
+  Prove that for any \(a \in A\),
+  \begin{align*}
+  \displaystyle\bigcap_{\sigma\in G} \sigma G_a \sigma^{-1}= \left\{{1}\right\}
+  .\end{align*}
+\item
+  Suppose that \(G\) is abelian. Prove that \(|G| = |A|\). Deduce that
+  every abelian transitive subgroup of \(S_n\) has order \(n\).
+\end{enumerate}
+
+\hypertarget{fall-2018-2}{%
+\subsection{Fall 2018 \#2}\label{fall-2018-2}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Suppose the group \(G\) acts on the set \(X\) . Show that the
+  stabilizers of elements in the same orbit are conjugate.
+\item
+  Let \(G\) be a finite group and let \(H\) be a proper subgroup. Show
+  that the union of the conjugates of \(H\) is strictly smaller than
+  \(G\), i.e.
+  \begin{align*}
+  \displaystyle\bigcup_{g\in G} gHg^{-1}\subsetneq G
+  \end{align*}
+\item
+  Suppose \(G\) is a finite group acting transitively on a set \(S\)
+  with at least 2 elements. Show that there is an element of \(G\) with
+  no fixed points in \(S\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{groups-sylow-theory}{%
+\section{Groups: Sylow Theory}\label{groups-sylow-theory}}
+
+\hypertarget{fall-2019-1}{%
+\subsection{Fall 2019 \#1}\label{fall-2019-1}}
+
+Let \(G\) be a finite group with \(n\) distinct conjugacy classes. Let
+\(g_1 \cdots g_n\) be representatives of the conjugacy classes of \(G\).
+Prove that if \(g_i g_j = g_j g_i\) for all \(i, j\) then \(G\) is
+abelian.
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-midterm-2}{%
+\subsection{Fall 2019 Midterm \#2}\label{fall-2019-midterm-2}}
+
+Let \(G\) be a finite group and let \(P\) be a sylow
+\(p{\hbox{-}}\)subgroup for \(p\) prime. Show that \(N(N(P)) = N(P)\)
+where \(N\) is the normalizer in \(G\).
+
+\hypertarget{fall-2013-2}{%
+\subsection{Fall 2013 \#2}\label{fall-2013-2}}
+
+Let \(G\) be a group of order 30.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(G\) has a subgroup of order 15.
+\item
+  Show that every group of order 15 is cyclic.
+\item
+  Show that \(G\) is isomorphic to some semidirect product
+  \({\mathbb{Z}}_{15} \rtimes{\mathbb{Z}}_2\).
+\item
+  Exhibit three nonisomorphic groups of order 30 and prove that they are
+  not isomorphic. You are not required to use your answer to (c).
+\end{enumerate}
+
+\hypertarget{spring-2014-2}{%
+\subsection{Spring 2014 \#2}\label{spring-2014-2}}
+
+Let \(G\subset S_9\) be a Sylow-3 subgroup of the symmetric group on 9
+letters.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(G\) contains a subgroup \(H\) isomorphic to
+  \({\mathbb{Z}}_3 \times{\mathbb{Z}}_3 \times{\mathbb{Z}}_3\) by
+  exhibiting an appropriate set of cycles.
+\item
+  Show that \(H\) is normal in \(G\).
+\item
+  Give generators and relations for \(G\) as an abstract group, such
+  that all generators have order 3. Also exhibit elements of \(S_9\) in
+  cycle notation corresponding to these generators.
+\item
+  Without appealing to the previous parts of the problem, show that
+  \(G\) contains an element of order 9.
+\end{enumerate}
+
+\hypertarget{fall-2014-2}{%
+\subsection{Fall 2014 \#2}\label{fall-2014-2}}
+
+Let \(G\) be a group of order 96.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(G\) has either one or three 2-Sylow subgroups.
+\item
+  Show that either \(G\) has a normal subgroup of order 32, or a normal
+  subgroup of order 16.
+\end{enumerate}
+
+\hypertarget{spring-2016-3}{%
+\subsection{Spring 2016 \#3}\label{spring-2016-3}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  State the three Sylow theorems.
+\item
+  Prove that any group of order 1225 is abelian.
+\item
+  Write down exactly one representative in each isomorphism class of
+  abelian groups of order 1225.
+\end{enumerate}
+
+\hypertarget{spring-2017-2}{%
+\subsection{Spring 2017 \#2}\label{spring-2017-2}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  How many isomorphism classes of abelian groups of order 56 are there?
+  Give a representative for one of each class.
+\item
+  Prove that if \(G\) is a group of order 56, then either the Sylow-2
+  subgroup or the Sylow-7 subgroup is normal.
+\item
+  Give two non-isomorphic groups of order 56 where the Sylow-7 subgroup
+  is normal and the Sylow-2 subgroup is \emph{not} normal. Justify that
+  these two groups are not isomorphic.
+\end{enumerate}
+
+\hypertarget{fall-2017-2}{%
+\subsection{Fall 2017 \#2}\label{fall-2017-2}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Classify the abelian groups of order 36.
+
+  \begin{quote}
+  For the rest of the problem, assume that \(G\) is a non-abelian group
+  of order 36. You may assume that the only subgroup of order 12 in
+  \(S_4\) is \(A_4\) and that \(A_4\) has no subgroup of order 6.
+  \end{quote}
+\item
+  Prove that if the 2-Sylow subgroup of \(G\) is normal, \(G\) has a
+  normal subgroup \(N\) such that \(G/N\) is isomorphic to \(A_4\).
+\item
+  Show that if \(G\) has a normal subgroup \(N\) such that \(G/N\) is
+  isomorphic to \(A_4\) and a subgroup \(H\) isomorphic to \(A_4\) it
+  must be the direct product of \(N\) and \(H\).
+\item
+  Show that the dihedral group of order 36 is a non-abelian group of
+  order 36 whose Sylow-2 subgroup is not normal.
+\end{enumerate}
+
+\hypertarget{fall-2012-2}{%
+\subsection{Fall 2012 \#2}\label{fall-2012-2}}
+
+Let \(G\) be a group of order 30.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(G\) contains normal subgroups of orders 3, 5, and 15.
+\item
+  Give all possible presentations and relations for \(G\).
+\item
+  Determine how many groups of order 30 there are up to isomorphism.
+\end{enumerate}
+
+\hypertarget{fall-2018-1}{%
+\subsection{Fall 2018 \#1}\label{fall-2018-1}}
+
+Let \(G\) be a finite group whose order is divisible by a prime number
+\(p\). Let \(P\) be a normal \(p{\hbox{-}}\)subgroup of \(G\) (so
+\({\left\lvert {P} \right\rvert} = p^c\) for some \(c\)).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(P\) is contained in every Sylow \(p{\hbox{-}}\)subgroup of
+  \(G\).
+\item
+  Let \(M\) be a maximal proper subgroup of \(G\). Show that either
+  \(P \subseteq M\) or \(|G/M | = p^b\) for some \(b \leq c\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-2}{%
+\subsection{Fall 2019 \#2}\label{fall-2019-2}}
+
+Let \(G\) be a group of order 105 and let \(P, Q, R\) be Sylow 3, 5, 7
+subgroups respectively.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that at least one of \(Q\) and \(R\) is normal in \(G\).
+\item
+  Prove that \(G\) has a cyclic subgroup of order 35.
+\item
+  Prove that both \(Q\) and \(R\) are normal in \(G\).
+\item
+  Prove that if \(P\) is normal in \(G\) then \(G\) is cyclic.
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2021-3}{%
+\subsection{Spring 2021 \#3}\label{spring-2021-3}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that every group of order \(p^2\) with \(p\) prime is abelian.
+\item
+  State the 3 Sylow theorems.
+\item
+  Show that any group of order \(4225 = 5^2 13^2\) is abelian.
+\item
+  Write down one representative from each isomorphism class of abelian
+  groups of order 4225.
+\end{enumerate}
+
+\hypertarget{fall-2020-1}{%
+\subsection{Fall 2020 \#1}\label{fall-2020-1}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Using Sylow theory, show that every group of order \(2p\) where \(p\)
+  is prime is not simple.
+\item
+  Classify all groups of order \(2p\) and justify your answer. For the
+  nonabelian group(s), give a presentation by generators and relations.
+\end{enumerate}
+
+\hypertarget{fall-2020-2}{%
+\subsection{Fall 2020 \#2}\label{fall-2020-2}}
+
+Let \(G\) be a group of order 60 whose Sylow 3-subgroup is normal.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that \(G\) is solvable.
+\item
+  Prove that the Sylow 5-subgroup is also normal.
+\end{enumerate}
+
+\hypertarget{groups-classification}{%
+\section{Groups: Classification}\label{groups-classification}}
+
+\hypertarget{spring-2020-1}{%
+\subsection{Spring 2020 \#1}\label{spring-2020-1}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that any group of order 2020 is solvable.
+\item
+  Give (without proof) a classification of all abelian groups of order
+  2020.
+\item
+  Describe one nonabelian group of order 2020.
+\end{enumerate}
+
+\todo[inline]{Work this problem.}
+
+\hypertarget{spring-2019-3}{%
+\subsection{Spring 2019 \#3}\label{spring-2019-3}}
+
+How many isomorphism classes are there of groups of order 45?
+
+Describe a representative from each class.
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\todo[inline]{Revisit, seems short.}
+
+\hypertarget{spring-2012-3}{%
+\subsection{Spring 2012 \#3}\label{spring-2012-3}}
+
+Let \(G\) be a group of order 70.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(G\) is not simple.
+\item
+  Exhibit 3 nonisomorphic groups of order 70 and prove that they are not
+  isomorphic.
+\end{enumerate}
+
+\hypertarget{fall-2016-3}{%
+\subsection{Fall 2016 \#3}\label{fall-2016-3}}
+
+How many groups are there up to isomorphism of order \(pq\) where
+\(p<q\) are prime integers?
+
+\hypertarget{spring-2018-1}{%
+\subsection{Spring 2018 \#1}\label{spring-2018-1}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Use the Class Equation (equivalently, the conjugation action of a
+  group on itself) to prove that any \(p{\hbox{-}}\)group (a group whose
+  order is a positive power of a prime integer \(p\)) has a nontrivial
+  center.
+\item
+  Prove that any group of order \(p^2\) (where \(p\) is prime) is
+  abelian.
+\item
+  Prove that any group of order \(5^2 \cdot 7^2\) is abelian.
+\item
+  Write down exactly one representative in each isomorphism class of
+  groups of order \(5^2 \cdot 7^2\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{groups-simple-and-solvable}{%
+\section{Groups: Simple and Solvable}\label{groups-simple-and-solvable}}
+
+\hypertarget{star-fall-2016-7}{%
+\subsection{\texorpdfstring{\(\star\) Fall 2016
+\#7}{\textbackslash star Fall 2016 \#7}}\label{star-fall-2016-7}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Define what it means for a group \(G\) to be \emph{solvable}.
+\item
+  Show that every group \(G\) of order 36 is solvable.
+\end{enumerate}
+
+\begin{quote}
+Hint: you can use that \(S_4\) is solvable.
+\end{quote}
+
+\hypertarget{spring-2015-4}{%
+\subsection{Spring 2015 \#4}\label{spring-2015-4}}
+
+Let \(N\) be a positive integer, and let \(G\) be a finite group of
+order \(N\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(\operatorname{Sym}G\) be the set of all bijections from
+  \(G\to G\) viewed as a group under composition. Note that
+  \(\operatorname{Sym}G \cong S_N\). Prove that the Cayley map
+  \begin{align*}
+  C: G&\to \operatorname{Sym}G\\
+  g &\mapsto (x\mapsto gx)
+  \end{align*}
+  is an injective homomorphism.
+\item
+  Let \(\Phi: \operatorname{Sym}G\to S_N\) be an isomorphism. For
+  \(a\in G\) define \({\varepsilon}(a) \in \left\{{\pm 1}\right\}\) to
+  be the sign of the permutation \(\Phi(C(a))\). Suppose that \(a\) has
+  order \(d\). Prove that \({\varepsilon}(a) = -1 \iff d\) is even and
+  \(N/d\) is odd.
+\item
+  Suppose \(N> 2\) and \(n\equiv 2 \operatorname{mod}4\). Prove that
+  \(G\) is not simple.
+\end{enumerate}
+
+\begin{quote}
+Hint: use part (b).
+\end{quote}
+
+\hypertarget{spring-2014-1}{%
+\subsection{Spring 2014 \#1}\label{spring-2014-1}}
+
+Let \(p, n\) be integers such that \(p\) is prime and \(p\) does not
+divide \(n\). Find a real number \(k = k (p, n)\) such that for every
+integer \(m\geq k\), every group of order \(p^m n\) is not simple.
+
+\hypertarget{fall-2013-1}{%
+\subsection{Fall 2013 \#1}\label{fall-2013-1}}
+
+Let \(p, q\) be distinct primes.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let
+  \(\mkern 1.5mu\overline{\mkern-1.5muq\mkern-1.5mu}\mkern 1.5mu \in {\mathbb{Z}}_p\)
+  be the class of \(q\operatorname{mod}p\) and let \(k\) denote the
+  order of
+  \(\mkern 1.5mu\overline{\mkern-1.5muq\mkern-1.5mu}\mkern 1.5mu\) as an
+  element of \({\mathbb{Z}}_p^{\times}\). Prove that no group of order
+  \(pq^k\) is simple.
+\item
+  Let \(G\) be a group of order \(pq\), and prove that \(G\) is not
+  simple.
+\end{enumerate}
+
+\hypertarget{spring-2013-4}{%
+\subsection{Spring 2013 \#4}\label{spring-2013-4}}
+
+Define a \emph{simple group}. Prove that a group of order 56 can not be
+simple.
+
+\hypertarget{fall-2019-midterm-3}{%
+\subsection{Fall 2019 Midterm \#3}\label{fall-2019-midterm-3}}
+
+Show that there exist no simple groups of order 148.
+
+\hypertarget{commutative-algebra}{%
+\section{Commutative Algebra}\label{commutative-algebra}}
+
+\hypertarget{ufds-pids-etc}{%
+\subsection{UFDs, PIDs, etc}\label{ufds-pids-etc}}
+
+\hypertarget{spring-2013-2}{%
+\subsubsection{Spring 2013 \#2}\label{spring-2013-2}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Define a \emph{Euclidean domain}.
+\item
+  Define a \emph{unique factorization domain}.
+\item
+  Is a Euclidean domain an UFD? Give either a proof or a counterexample
+  with justification.
+\item
+  Is a UFD a Euclidean domain? Give either a proof or a counterexample
+  with justification.
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2017-6}{%
+\subsubsection{Fall 2017 \#6}\label{fall-2017-6}}
+
+For a ring \(R\), let \(U(R)\) denote the multiplicative group of units
+in \(R\). Recall that in an integral domain \(R\), \(r \in R\) is called
+\emph{irreducible} if \(r\) is not a unit in R, and the only divisors of
+\(r\) have the form \(ru\) with \(u\) a unit in \(R\).
+
+We call a non-zero, non-unit \(r \in R\) \emph{prime} in \(R\) if
+\(r \divides ab \implies r \divides a\) or \(r \divides b\). Consider
+the ring \(R = \{a + b \sqrt{-5}{~\mathrel{\Big\vert}~}a, b \in Z\}\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove \(R\) is an integral domain.
+\item
+  Show \(U(R) = \{\pm1\}\).
+\item
+  Show \(3, 2 + \sqrt{-5}\), and \(2 - \sqrt{-5}\) are irreducible in
+  \(R\).
+\item
+  Show 3 is not prime in \(R\).
+\item
+  Conclude \(R\) is not a PID.
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2017-4}{%
+\subsubsection{Spring 2017 \#4}\label{spring-2017-4}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(R\) be an integral domain with quotient field \(F\). Suppose
+  that \(p(x), a(x), b(x)\) are monic polynomials in \(F[x]\) with
+  \(p(x) = a(x) b(x)\) and with \(p(x) \in R[x]\), \(a(x)\) not in
+  \(R[x]\), and both \(a(x), b(x)\) not constant.
+
+  Prove that \(R\) is not a UFD.
+
+  \begin{quote}
+  (You may assume Gauss' lemma)
+  \end{quote}
+\item
+  Prove that \({\mathbb{Z}}[2\sqrt{2}]\) is not a UFD.
+
+  \begin{quote}
+  Hint: let \(p(x) = x^2-2\).
+  \end{quote}
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{ideals-prime-maximal-proper-principal-etc}{%
+\subsection{Ideals (Prime, Maximal, Proper, Principal,
+etc)}\label{ideals-prime-maximal-proper-principal-etc}}
+
+\hypertarget{fall-2021-5}{%
+\subsubsection{Fall 2021 \#5}\label{fall-2021-5}}
+
+Let \(R\) be an algebra over \(\mathbb{C}\) which is finite-dimensional
+as a \({\mathbb{C}}{\hbox{-}}\)vector space. Recall that an ideal \(I\)
+of \(R\) can be considered as a \({\mathbb{C}}{\hbox{-}}\)subvector
+space of \(R\). We define the codimension of \(I\) in \(R\) to be
+\begin{align*}
+\operatorname{codim}_R I \coloneqq
+\dim_{{\mathbb{C}}} R - \dim_{{\mathbb{C}}} I
+,\end{align*}
+the difference between the dimension of \(R\) as a
+\(\mathbb{C}{\hbox{-}}\)vector space, \(\dim_{{\mathbb{C}}} R\), and the
+dimension of \(I\) as a \({\mathbb{C}}{\hbox{-}}\)vector space,
+\(\dim_{\mathbb{C}}I\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that any maximal ideal \(m \subset R\) has codimension 1 .
+\item
+  Suppose that \(\operatorname{dim}_{C} R=2\). Show that there exists a
+  surjective homomorphism of \({\mathbb{C}}{\hbox{-}}\)algebras from the
+  polynomial ring \({\mathbb{C}}[t]\) to \(R\).
+\item
+  Classify such algebras \(R\) for which \(\dim_{{\mathbb{C}}} R=2\),
+  and list their maximal ideals.
+\end{enumerate}
+
+\begin{quote}
+(DZG): my impression is that this is an unusually difficult problem, or
+was something specifically covered in this year's qual class.
+\end{quote}
+
+\hypertarget{fall-2013-3}{%
+\subsubsection{Fall 2013 \#3}\label{fall-2013-3}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Define \emph{prime ideal}, give an example of a nontrivial ideal in
+  the ring \({\mathbb{Z}}\) that is not prime, and prove that it is not
+  prime.
+\item
+  Define \emph{maximal ideal}, give an example of a nontrivial maximal
+  ideal in \({\mathbb{Z}}\) and prove that it is maximal.
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2014-8}{%
+\subsubsection{Fall 2014 \#8}\label{fall-2014-8}}
+
+Let \(R\) be a nonzero commutative ring without unit such that \(R\)
+does not contain a proper maximal ideal. Prove that for all \(x\in R\),
+the ideal \(xR\) is proper.
+
+\begin{quote}
+You may assume the axiom of choice.
+\end{quote}
+
+\hypertarget{fall-2014-7}{%
+\subsubsection{Fall 2014 \#7}\label{fall-2014-7}}
+
+Give a careful proof that \({\mathbb{C}}[x, y]\) is not a PID.
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2019-6}{%
+\subsubsection{Spring 2019 \#6}\label{spring-2019-6}}
+
+Let \(R\) be a commutative ring with 1.
+
+\begin{quote}
+Recall that \(x \in R\) is nilpotent iff \(xn = 0\) for some positive
+integer \(n\).
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that every proper ideal of \(R\) is contained within a maximal
+  ideal.
+\item
+  Let \(J(R)\) denote the intersection of all maximal ideals of \(R\).
+  Show that \(x \in J(R) \iff 1 + rx\) is a unit for all \(r \in R\).
+\item
+  Suppose now that \(R\) is finite. Show that in this case \(J(R)\)
+  consists precisely of the nilpotent elements in R.
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2018-8}{%
+\subsubsection{Spring 2018 \#8}\label{spring-2018-8}}
+
+Let \(R = C[0, 1]\) be the ring of continuous real-valued functions on
+the interval \([0, 1]\). Let I be an ideal of \(R\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that if \(f \in I, a \in [0, 1]\) are such that \(f (a) \neq 0\),
+  then there exists \(g \in I\) such that \(g(x) \geq 0\) for all
+  \(x \in [0, 1]\), and \(g(x) > 0\) for all \(x\) in some open
+  neighborhood of \(a\).
+\item
+  If \(I \neq R\), show that the set
+  \(Z(I) = \{x \in [0, 1] {~\mathrel{\Big\vert}~}f(x) = 0 \text{ for all } f \in I\}\)
+  is nonempty.
+\item
+  Show that if \(I\) is maximal, then there exists \(x_0 \in [0, 1]\)
+  such that \(I = \{ f \in R {~\mathrel{\Big\vert}~}f (x_0 ) = 0\}\).
+\end{enumerate}
+
+\begin{remark}
+
+Cool problem, but pretty specific topological tricks needed.
+
+\end{remark}
+
+\emph{Solution omitted.}
+
+\hypertarget{zero-divisors-and-nilpotents}{%
+\subsection{Zero Divisors and
+Nilpotents}\label{zero-divisors-and-nilpotents}}
+
+\hypertarget{spring-2014-5}{%
+\subsubsection{Spring 2014 \#5}\label{spring-2014-5}}
+
+Let \(R\) be a commutative ring and \(a\in R\). Prove that \(a\) is not
+nilpotent \(\iff\) there exists a commutative ring \(S\) and a ring
+homomorphism \(\phi: R\to S\) such that \(\phi(a)\) is a unit.
+
+\begin{quote}
+Note: by definition, \(a\) is nilpotent \(\iff\) there is a natural
+number \(n\) such that \(a^n = 0\).
+\end{quote}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2021-5}{%
+\subsubsection{Spring 2021 \#5}\label{spring-2021-5}}
+
+\begin{problem}[Spring 2021]
+
+Suppose that \(f(x) \in ({\mathbb{Z}}/n{\mathbb{Z}})[x]\) is a zero
+divisor. Show that there is a nonzero
+\(a\in {\mathbb{Z}}/n{\mathbb{Z}}\) with \(af(x) = 0\).
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018-7}{%
+\subsubsection{Fall 2018 \#7}\label{fall-2018-7}}
+
+Let \(R\) be a commutative ring.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(r \in R\). Show that the map
+  \begin{align*}
+  r\bullet : R &\to R \\
+  x &\mapsto r x
+  .\end{align*}
+  is an \(R{\hbox{-}}\)module endomorphism of \(R\).
+\item
+  We say that \(r\) is a \textbf{zero-divisor} if \(r\bullet\) is not
+  injective. Show that if \(r\) is a zero-divisor and \(r \neq 0\), then
+  the kernel and image of \(R\) each consist of zero-divisors.
+\item
+  Let \(n \geq 2\) be an integer. Show: if \(R\) has exactly \(n\)
+  zero-divisors, then \({\sharp}R \leq n^2\) .
+\item
+  Show that up to isomorphism there are exactly two commutative rings
+  \(R\) with precisely 2 zero-divisors.
+\end{enumerate}
+
+\begin{quote}
+You may use without proof the following fact: every ring of order 4 is
+isomorphic to exactly one of the following:
+\begin{align*}
+\frac{ {\mathbb{Z}}}{ 4{\mathbb{Z}}}, \quad
+\frac{ \frac{  {\mathbb{Z}}}{ 2{\mathbb{Z}}} [t]}{(t^2 + t + 1)}, \quad
+\frac{ \frac{ {\mathbb{Z}}}{ 2{\mathbb{Z}}} [t]}{ (t^2 - t)}, \quad
+\frac{ \frac{ {\mathbb{Z}}}{2{\mathbb{Z}}}[t]}{(t^2 )}
+.\end{align*}
+\end{quote}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{zorns-lemma}{%
+\subsection{Zorn's Lemma}\label{zorns-lemma}}
+
+\hypertarget{fall-2013-4}{%
+\subsubsection{Fall 2013 \#4}\label{fall-2013-4}}
+
+Let \(R\) be a commutative ring with \(1\neq 0\). Recall that \(x\in R\)
+is \emph{nilpotent} iff \(x^n = 0\) for some positive integer \(n\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that the collection of nilpotent elements in \(R\) forms an
+  ideal.
+\item
+  Show that if \(x\) is nilpotent, then \(x\) is contained in every
+  prime ideal of \(R\).
+\item
+  Suppose \(x\in R\) is not nilpotent and let
+  \(S = \left\{{x^n {~\mathrel{\Big\vert}~}n\in {\mathbb{N}}}\right\}\).
+  There is at least on ideal of \(R\) disjoint from \(S\), namely
+  \((0)\).
+
+  By Zorn's lemma the set of ideals disjoint from \(S\) has a maximal
+  element with respect to inclusion, say \(I\). In other words, \(I\) is
+  disjoint from \(S\) and if \(J\) is any ideal disjoint from \(S\) with
+  \(I\subseteq J \subseteq R\) then \(J=I\) or \(J=R\).
+
+  Show that \(I\) is a prime ideal.
+\item
+  Deduce from (a) and (b) that the set of nilpotent elements of \(R\) is
+  the intersection of all prime ideals of \(R\).
+\end{enumerate}
+
+\hypertarget{fall-2015-3}{%
+\subsubsection{Fall 2015 \#3}\label{fall-2015-3}}
+
+Let \(R\) be a rng (a ring without 1) which contains an element \(u\)
+such that for all \(y\in R\), there exists an \(x\in R\) such that
+\(xu=y\).
+
+Prove that \(R\) contains a maximal left ideal.
+
+\begin{quote}
+Hint: imitate the proof (using Zorn's lemma) in the case where \(R\)
+does have a 1.
+\end{quote}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2015-7}{%
+\subsubsection{Spring 2015 \#7}\label{spring-2015-7}}
+
+Let \(R\) be a commutative ring, and \(S\subset R\) be a nonempty subset
+that does not contain 0 such that for all \(x, y\in S\) we have
+\(xy\in S\). Let \({\mathcal{I}}\) be the set of all ideals
+\(I{~\trianglelefteq~}R\) such that \(I\cap S = \emptyset\).
+
+Show that for every ideal \(I\in {\mathcal{I}}\), there is an ideal
+\(J\in {\mathcal{I}}\) such that \(I\subset J\) and \(J\) is not
+properly contained in any other ideal in \({\mathcal{I}}\).
+
+Prove that every such ideal \(J\) is prime.
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2013-1}{%
+\subsubsection{Spring 2013 \#1}\label{spring-2013-1}}
+
+Let \(R\) be a commutative ring.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Define a \emph{maximal ideal} and prove that \(R\) has a maximal
+  ideal.
+\item
+  Show than an element \(r\in R\) is not invertible \(\iff r\) is
+  contained in a maximal ideal.
+\item
+  Let \(M\) be an \(R{\hbox{-}}\)module, and recall that for
+  \(0\neq \mu \in M\), the \emph{annihilator} of \(\mu\) is the set
+  \begin{align*}
+  \operatorname{Ann}(\mu) = \left\{{r\in R {~\mathrel{\Big\vert}~}r\mu = 0}\right\}
+  .\end{align*}
+  Suppose that \(I\) is an ideal in \(R\) which is maximal with respect
+  to the property that there exists an element \(\mu \in M\) such that
+  \(I = \operatorname{Ann}(\mu)\) for some \(\mu \in M\). In other
+  words, \(I = \operatorname{Ann}(\mu)\) but there does not exist
+  \(\nu\in M\) with \(J = \operatorname{Ann}(\nu) \subsetneq R\) such
+  that \(I\subsetneq J\).
+
+  Prove that \(I\) is a prime ideal.
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-6}{%
+\subsubsection{Fall 2019 \#6}\label{fall-2019-6}}
+
+Let \(R\) be a commutative ring with multiplicative identity. Assume
+Zorn's Lemma.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that
+  \begin{align*}
+  N = \{r \in R \mathrel{\Big|}r^n = 0 \text{ for some } n > 0\}
+  \end{align*}
+  is an ideal which is contained in any prime ideal.
+\item
+  Let \(r\) be an element of \(R\) not in \(N\). Let \(S\) be the
+  collection of all proper ideals of \(R\) not containing any positive
+  power of \(r\). Use Zorn's Lemma to prove that there is a prime ideal
+  in \(S\).
+\item
+  Suppose that \(R\) has exactly one prime ideal \(P\) . Prove that
+  every element \(r\) of \(R\) is either nilpotent or a unit.
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{noetherian-rings}{%
+\subsection{Noetherian Rings}\label{noetherian-rings}}
+
+\hypertarget{fall-2015-4}{%
+\subsubsection{Fall 2015 \#4}\label{fall-2015-4}}
+
+Let \(R\) be a PID and \((a_1) < (a_2) < \cdots\) be an ascending chain
+of ideals in \(R\). Prove that for some \(n\), we have \((a_j) = (a_n)\)
+for all \(j\geq n\).
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2021-6}{%
+\subsubsection{Spring 2021 \#6}\label{spring-2021-6}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Carefully state the definition of \textbf{Noetherian} for a
+  commutative ring \(R\).
+\item
+  Let \(R\) be a subset of \({\mathbb{Z}}[x]\) consisting of all
+  polynomials
+  \begin{align*}
+  f(x) = a_ 0 + a_1 x + a_2 x^2 + \cdots + a_nx^n
+  \end{align*}
+  such that \(a_k\) is even for \(1\leq k \leq n\). Show that \(R\) is a
+  subring of \({\mathbb{Z}}[x]\).
+\item
+  Show that \(R\) is not Noetherian.
+\end{enumerate}
+
+\begin{quote}
+\emph{Hint: consider the ideal generated by
+\(\left\{{ 2x^k {~\mathrel{\Big\vert}~}1\leq k \in {\mathbb{Z}}}\right\}\).}
+\end{quote}
+
+\emph{Solution omitted.}
+
+\hypertarget{simple-rings}{%
+\subsection{Simple Rings}\label{simple-rings}}
+
+\hypertarget{fall-2017-5}{%
+\subsubsection{Fall 2017 \#5}\label{fall-2017-5}}
+
+A ring \(R\) is called \emph{simple} if its only two-sided ideals are
+\(0\) and \(R\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Suppose \(R\) is a commutative ring with 1. Prove \(R\) is simple if
+  and only if \(R\) is a field.
+\item
+  Let \(k\) be a field. Show the ring \(M_n (k)\), \(n \times n\)
+  matrices with entries in \(k\), is a simple ring.
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2016-8}{%
+\subsubsection{Spring 2016 \#8}\label{spring-2016-8}}
+
+Let \(R\) be a simple rng (a nonzero ring which is not assume to have a
+1, whose only two-sided ideals are \((0)\) and \(R\)) satisfying the
+following two conditions:
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\tightlist
+\item
+  \(R\) has no zero divisors, and
+\item
+  If \(x\in R\) with \(x\neq 0\) then \(2x\neq 0\), where
+  \(2x\coloneqq x+x\).
+\end{enumerate}
+
+Prove the following:
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  For each \(x\in R\) there is one and only one element \(y\in R\) such
+  that \(x = 2y\).
+\item
+  Suppose \(x,y\in R\) such that \(x\neq 0\) and \(2(xy) = x\), then
+  \(yz = zy\) for all \(z\in R\).
+\end{enumerate}
+
+\begin{quote}
+You can get partial credit for (b) by showing it in the case \(R\) has a
+1.
+\end{quote}
+
+\begin{remark}
+
+A general opinion is that this is not a great qual problem! Possibly
+worth skipping.
+
+\end{remark}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{unsorted}{%
+\subsection{Unsorted}\label{unsorted}}
+
+\hypertarget{fall-2019-3}{%
+\subsubsection{Fall 2019 \#3}\label{fall-2019-3}}
+
+Let \(R\) be a ring with the property that for every
+\(a \in R, a^2 = a\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that \(R\) has characteristic 2.
+\item
+  Prove that \(R\) is commutative.
+\end{enumerate}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2018-5}{%
+\subsubsection{Spring 2018 \#5}\label{spring-2018-5}}
+
+Let
+\begin{align*}
+M=\left(\begin{array}{ll}{a} & {b} \\ {c} & {d}\end{array}\right)
+\quad \text{and} \quad 
+N=\left(\begin{array}{cc}{x} & {u} \\ {-y} & {-v}\end{array}\right)
+\end{align*}
+
+over a commutative ring \(R\), where \(b\) and \(x\) are units of \(R\).
+Prove that
+\begin{align*}
+M N=\left(\begin{array}{ll}{0} & {0} \\ {0} & {*}\end{array}\right)
+\implies MN = 0
+.\end{align*}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2014-6}{%
+\subsubsection{Spring 2014 \#6}\label{spring-2014-6}}
+
+\(R\) be a commutative ring with identity and let \(n\) be a positive
+integer.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that every surjective \(R{\hbox{-}}\)linear endomorphism
+  \(T: R^n \to R^n\) is injective.
+\item
+  Show that an injective \(R{\hbox{-}}\)linear endomorphism of \(R^n\)
+  need not be surjective.
+\end{enumerate}
+
+\hypertarget{galois-theory}{%
+\section{Galois Theory}\label{galois-theory}}
+
+\hypertarget{general-galois-extensions}{%
+\subsection{General Galois Extensions}\label{general-galois-extensions}}
+
+\hypertarget{fall-2021-4}{%
+\subsubsection{Fall 2021 \#4}\label{fall-2021-4}}
+
+Recall that for a given positive integer \(n\), the cyclotomic field
+\(\mathbb{Q}\left(\zeta_{n}\right)\) is generated by a primitive
+\(n\)-th root of unity \(\zeta_{n}\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  What is the degree of \(Q\left(\zeta_{n}\right)\) over \(Q\) ?
+\item
+  Define what it means for a finite field extension \(L / K\) to be
+  Galois, and prove that the cyclotomic field
+  \(Q\left(\zeta_{n}\right)\) is Galois over \(\mathbb{Q}\).
+\item
+  What is the Galois group of \(\mathbb{Q}\left(\zeta_{n}\right)\) over
+  \(\mathbb{Q}\) ?
+\item
+  How many subfields of \(\mathbb{Q}\left(\zeta_{2021}\right)\) have
+  degree 2 over Q? Note that \(2021=43 \cdot 47\)
+\end{enumerate}
+
+\hypertarget{fall-2020-4}{%
+\subsubsection{Fall 2020 \#4}\label{fall-2020-4}}
+
+Let \(K\) be a Galois extension of \(F\), and let
+\(F \subset E \subset K\) be inclusions of fields. Let
+\(G \coloneqq{ \mathsf{Gal}} (K/F)\) and
+\(H \coloneqq{ \mathsf{Gal}} (K/E)\), and suppose \(H\) contains
+\(N_G(P)\), where \(P\) is a Sylow \(p\)-subgroup of \(G\) for \(p\) a
+prime. Prove that \([E: F] \equiv 1 \operatorname{mod}p\).
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-midterm-9}{%
+\subsubsection{Fall 2019 Midterm \#9}\label{fall-2019-midterm-9}}
+
+Let \(n\geq 3\) and \(\zeta_n\) be a primitive \(n\)th root of unity.
+Show that
+\([{\mathbb{Q}}(\zeta_n + \zeta_n^{-1}): {\mathbb{Q}}] = \phi(n)/2\) for
+\(\phi\) the totient function.
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-midterm-10}{%
+\subsubsection{Fall 2019 Midterm \#10}\label{fall-2019-midterm-10}}
+
+Let \(L/K\) be a finite normal extension.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that if \(L/K\) is cyclic and \(E/K\) is normal with \(L/E/K\)
+  then \(L/E\) and \(E/K\) are cyclic.
+\item
+  Show that if \(L/K\) is cyclic then there exists exactly one extension
+  \(E/K\) of degree \(n\) with \(L/E/K\) for each divisor \(n\) of
+  \([L:K]\).
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-midterm-8}{%
+\subsubsection{Fall 2019 Midterm \#8}\label{fall-2019-midterm-8}}
+
+Let \(k\) be a field of characteristic \(p\neq 0\) and \(f\in k[x]\)
+irreducible. Show that \(f(x) = g(x^{p^d})\) where \(g(x) \in k[x]\) is
+irreducible and separable.
+
+Conclude that every root of \(f\) has the same multiplicity \(p^d\) in
+the splitting field of \(f\) over \(k\).
+
+\hypertarget{fall-2019-midterm-7}{%
+\subsubsection{Fall 2019 Midterm \#7}\label{fall-2019-midterm-7}}
+
+Show that a field \(k\) of characteristic \(p\neq 0\) is perfect
+\(\iff\) for every \(x\in k\) there exists a \(y\in k\) such that
+\(y^p=x\).
+
+\hypertarget{spring-2012-4}{%
+\subsubsection{Spring 2012 \#4}\label{spring-2012-4}}
+
+Let \(f(x) = x^7 - 3\in {\mathbb{Q}}[x]\) and \(E/{\mathbb{Q}}\) be a
+splitting field of \(f\) with \(\alpha \in E\) a root of \(f\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(E\) contains a primitive 7th root of unity.
+\item
+  Show that \(E\neq {\mathbb{Q}}(\alpha)\).
+\end{enumerate}
+
+\hypertarget{fall-2013-5}{%
+\subsubsection{Fall 2013 \#5}\label{fall-2013-5}}
+
+Let \(L/K\) be a finite extension of fields.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Define what it means for \(L/K\) to be \emph{separable}.
+\item
+  Show that if \(K\) is a finite field, then \(L/K\) is always
+  separable.
+\item
+  Give an example of a finite extension \(L/K\) that is not separable.
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2012-4}{%
+\subsubsection{Fall 2012 \#4}\label{fall-2012-4}}
+
+Let \(f(x) \in {\mathbb{Q}}[x]\) be a polynomial and \(K\) be a
+splitting field of \(f\) over \({\mathbb{Q}}\). Assume that
+\([K:{\mathbb{Q}}] = 1225\) and show that \(f(x)\) is solvable by
+radicals.
+
+\hypertarget{galois-groups-concrete-computations}{%
+\subsection{Galois Groups: Concrete
+Computations}\label{galois-groups-concrete-computations}}
+
+\hypertarget{exercise-gx2-2}{%
+\subsubsection{\texorpdfstring{Exercise:
+\(G(x^2-2)\)}{Exercise: G(x\^{}2-2)}}\label{exercise-gx2-2}}
+
+\begin{exercise}[?]
+
+Compute the Galois group of \(x^2-2\).
+
+\end{exercise}
+
+\emph{Solution omitted.}
+
+\hypertarget{exercise-gxp-2}{%
+\subsubsection{\texorpdfstring{Exercise:
+\(G(x^p-2)\)}{Exercise: G(x\^{}p-2)}}\label{exercise-gxp-2}}
+
+\begin{exercise}[?]
+
+Let \(p \in \mathbb{Z}\) be a prime number. Then describe the elements
+of the Galois group of the polynomial \(x^{p}-2\).
+
+\end{exercise}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2020-3}{%
+\subsubsection{Fall 2020 \#3}\label{fall-2020-3}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Define what it means for a finite extension of fields \(E\) over \(F\)
+  to be a \emph{Galois} extension.
+\item
+  Determine the Galois group of \(f(x) = x^3 - 7\) over
+  \({\mathbb{Q}}\), and justify your answer carefully.
+\item
+  Find all subfields of the splitting field of \(f(x)\) over
+  \({\mathbb{Q}}\).
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2021-4}{%
+\subsubsection{Spring 2021 \#4}\label{spring-2021-4}}
+
+Define
+\begin{align*}
+f(x) \coloneqq x^4 + 4x^2 + 64 \in {\mathbb{Q}}[x]
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find the splitting field \(K\) of \(f\) over \({\mathbb{Q}}\).
+\item
+  Find the Galois group \(G\) of \(f\).
+\item
+  Exhibit explicitly the correspondence between subgroups of \(G\) and
+  intermediate fields between \({\mathbb{Q}}\) and \(K\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-midterm-6}{%
+\subsubsection{Fall 2019 Midterm \#6}\label{fall-2019-midterm-6}}
+
+Compute the Galois group of
+\(f(x) = x^3-3x -3\in {\mathbb{Q}}[x]/{\mathbb{Q}}\).
+
+\hypertarget{spring-2018-2}{%
+\subsubsection{Spring 2018 \#2}\label{spring-2018-2}}
+
+Let \(f(x) = x^4 - 4x^2 + 2 \in {\mathbb{Q}}[x]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find the splitting field \(K\) of \(f\), and compute
+  \([K: {\mathbb{Q}}]\).
+\item
+  Find the Galois group \(G\) of \(f\), both as an explicit group of
+  automorphisms, and as a familiar abstract group to which it is
+  isomorphic.
+\item
+  Exhibit explicitly the correspondence between subgroups of \(G\) and
+  intermediate fields between \({\mathbb{Q}}\) and \(k\).
+\end{enumerate}
+
+\todo[inline]{Not the nicest proof! Would be better to replace the ad-hoc computations at the end.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2020-4}{%
+\subsubsection{Spring 2020 \#4}\label{spring-2020-4}}
+
+Let \(f(x) = x^4-2 \in {\mathbb{Q}}[x]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Define what it means for a finite extension field \(E\) of a field
+  \(F\) to be a Galois extension.
+\item
+  Determine the Galois group \({ \operatorname{Gal}} (E/{\mathbb{Q}})\)
+  for the polynomial \(f(x)\), and justify your answer carefully.
+\item
+  Exhibit a subfield \(K\) in \((b)\) such that
+  \({\mathbb{Q}}\leq K \leq E\) with \(K\) not a Galois extension over
+  \({\mathbb{Q}}\). Explain.
+\end{enumerate}
+
+\hypertarget{spring-2017-8}{%
+\subsubsection{Spring 2017 \#8}\label{spring-2017-8}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(K\) denote the splitting field of \(x^5 - 2\) over
+  \({\mathbb{Q}}\). Show that the Galois group of \(K/{\mathbb{Q}}\) is
+  isomorphic to the group of invertible matrices
+  \begin{align*}
+  \left(\begin{array}{ll}
+  a & b \\
+  0 & 1
+  \end{array}\right) 
+  {\quad \operatorname{where} \quad} a\in {\mathbb{F}}_5^{\times}\text{ and } b\in {\mathbb{F}}_5
+  .\end{align*}
+\item
+  Determine all intermediate fields between \(K\) and \({\mathbb{Q}}\)
+  which are Galois over \({\mathbb{Q}}\).
+\end{enumerate}
+
+\hypertarget{fall-2016-4}{%
+\subsubsection{Fall 2016 \#4}\label{fall-2016-4}}
+
+Set \(f(x) = x^3 - 5 \in {\mathbb{Q}}[x]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find the splitting field \(K\) of \(f(x)\) over \({\mathbb{Q}}\).
+\item
+  Find the Galois group \(G\) of \(K\) over \({\mathbb{Q}}\).
+\item
+  Exhibit explicitly the correspondence between subgroups of \(G\) and
+  intermediate fields between \({\mathbb{Q}}\) and \(K\).
+\end{enumerate}
+
+\hypertarget{spring-2016-2}{%
+\subsubsection{Spring 2016 \#2}\label{spring-2016-2}}
+
+Let \(K = {\mathbb{Q}}[\sqrt 2 + \sqrt 5]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find \([K: {\mathbb{Q}}]\).
+\item
+  Show that \(K/{\mathbb{Q}}\) is Galois, and find the Galois group
+  \(G\) of \(K/{\mathbb{Q}}\).
+\item
+  Exhibit explicitly the correspondence between subgroups of \(G\) and
+  intermediate fields between \({\mathbb{Q}}\) and \(K\).
+\end{enumerate}
+
+\hypertarget{fall-2015-5}{%
+\subsubsection{Fall 2015 \#5}\label{fall-2015-5}}
+
+Let \(u = \sqrt{2 + \sqrt{2}}\), \(v = \sqrt{2 - \sqrt{2}}\), and
+\(E = {\mathbb{Q}}(u)\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find (with justification) the minimal polynomial \(f(x)\) of \(u\)
+  over \({\mathbb{Q}}\).
+\item
+  Show \(v\in E\), and show that \(E\) is a splitting field of \(f(x)\)
+  over \({\mathbb{Q}}\).
+\item
+  Determine the Galois group of \(E\) over \({\mathbb{Q}}\) and
+  determine all of the intermediate fields \(F\) such that
+  \({\mathbb{Q}}\subset F \subset E\).
+\end{enumerate}
+
+\hypertarget{spring-2015-5}{%
+\subsubsection{Spring 2015 \#5}\label{spring-2015-5}}
+
+Let \(f(x) = x^4 - 5 \in {\mathbb{Q}}[x]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Compute the Galois group of \(f\) over \({\mathbb{Q}}\).
+\item
+  Compute the Galois group of \(f\) over \({\mathbb{Q}}(\sqrt{5})\).
+\end{enumerate}
+
+\hypertarget{fall-2014-3}{%
+\subsubsection{Fall 2014 \#3}\label{fall-2014-3}}
+
+Consider the polynomial \(f(x) = x^4 - 7 \in {\mathbb{Q}}[x]\) and let
+\(E/{\mathbb{Q}}\) be the splitting field of \(f\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  What is the structure of the Galois group of \(E/{\mathbb{Q}}\)?
+\item
+  Give an explicit description of all of the intermediate subfields
+  \({\mathbb{Q}}\subset K \subset E\) in the form
+  \(K = {\mathbb{Q}}(\alpha), {\mathbb{Q}}(\alpha, \beta), \cdots\)
+  where \(\alpha, \beta\), etc are complex numbers. Describe the
+  corresponding subgroups of the Galois group.
+\end{enumerate}
+
+\hypertarget{fall-2013-6}{%
+\subsubsection{Fall 2013 \#6}\label{fall-2013-6}}
+
+Let \(K\) be the splitting field of \(x^4-2\) over \({\mathbb{Q}}\) and
+set \(G = { \operatorname{Gal}} (K/{\mathbb{Q}})\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(K/{\mathbb{Q}}\) contains both \({\mathbb{Q}}(i)\) and
+  \({\mathbb{Q}}(\sqrt[4]{2})\) and has degree 8 over \({\mathbb{Q}}\)/
+\item
+  Let \(N = { \operatorname{Gal}} (K/{\mathbb{Q}}(i))\) and
+  \(H = { \operatorname{Gal}} (K/{\mathbb{Q}}(\sqrt[4]{2}))\). Show that
+  \(N\) is normal in \(G\) and \(NH = G\).
+
+  \begin{quote}
+  Hint: what field is fixed by \(NH\)?
+  \end{quote}
+\item
+  Show that \({ \operatorname{Gal}} (K/{\mathbb{Q}})\) is generated by
+  elements \(\sigma, \tau\), of orders 4 and 2 respectively, with
+  \(\tau \sigma\tau^{-1}= \sigma^{-1}\).
+
+  \begin{quote}
+  Equivalently, show it is the dihedral group of order 8.
+  \end{quote}
+\item
+  How many distinct quartic subfields of \(K\) are there? Justify your
+  answer.
+\end{enumerate}
+
+\hypertarget{spring-2014-4}{%
+\subsubsection{Spring 2014 \#4}\label{spring-2014-4}}
+
+Let \(E\subset {\mathbb{C}}\) denote the splitting field over
+\({\mathbb{Q}}\) of the polynomial \(x^3 - 11\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(n\) is a squarefree positive integer, then
+  \(\sqrt{n}\not\in E\).
+
+  \begin{quote}
+  Hint: you can describe all quadratic extensions of \({\mathbb{Q}}\)
+  contained in \(E\).
+  \end{quote}
+\item
+  Find the Galois group of \((x^3 - 11)(x^2 - 2)\) over
+  \({\mathbb{Q}}\).
+\item
+  Prove that the minimal polynomial of \(11^{1/3} + 2^{1/2}\) over
+  \({\mathbb{Q}}\) has degree 6.
+\end{enumerate}
+
+\hypertarget{spring-2013-8}{%
+\subsubsection{Spring 2013 \#8}\label{spring-2013-8}}
+
+Let \(F\) be the field with 2 elements and \(K\) a splitting field of
+\(f(x) = x^6 + x^3 + 1\) over \(F\). You may assume that \(f\) is
+irreducible over \(F\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that if \(r\) is a root of \(f\) in \(K\), then \(r^9 = 1\) but
+  \(r^3\neq 1\).
+\item
+  Find \({ \operatorname{Gal}} (K/F)\) and express each intermediate
+  field between \(F\) and \(K\) as \(F(\beta)\) for an appropriate
+  \(\beta \in K\).
+\end{enumerate}
+
+\hypertarget{galois-groups-indirect-computations-facts}{%
+\subsection{Galois Groups: Indirect Computations /
+Facts}\label{galois-groups-indirect-computations-facts}}
+
+\hypertarget{fall-2019-7}{%
+\subsubsection{Fall 2019 \#7}\label{fall-2019-7}}
+
+Let \(\zeta_n\) denote a primitive \(n\)th root of 1
+\(\in {\mathbb{Q}}\). You may assume the roots of the minimal polynomial
+\(p_n(x)\) of \(\zeta_n\) are exactly the primitive \(n\)th roots of 1.
+
+Show that the field extension \({\mathbb{Q}}(\zeta_n )\) over
+\({\mathbb{Q}}\) is Galois and prove its Galois group is
+\(({\mathbb{Z}}/n{\mathbb{Z}})^{\times}\).
+
+How many subfields are there of \({\mathbb{Q}}(\zeta_{20} )\)?
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018-3}{%
+\subsubsection{Fall 2018 \#3}\label{fall-2018-3}}
+
+Let \(F \subset K \subset L\) be finite degree field extensions. For
+each of the following assertions, give a proof or a counterexample.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  If \(L/F\) is Galois, then so is \(K/F\).
+\item
+  If \(L/F\) is Galois, then so is \(L/K\).
+\item
+  If \(K/F\) and \(L/K\) are both Galois, then so is \(L/F\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2018-3}{%
+\subsubsection{Spring 2018 \#3}\label{spring-2018-3}}
+
+Let \(K\) be a Galois extension of \({\mathbb{Q}}\) with Galois group
+\(G\), and let \(E_1 , E_2\) be intermediate fields of \(K\) which are
+the splitting fields of irreducible \(f_i (x) \in {\mathbb{Q}}[x]\).
+
+Let \(E = E_1 E_2 \subset K\).
+
+Let \(H_i = { \mathsf{Gal}} (K/E_i)\) and \(H = { \mathsf{Gal}} (K/E)\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(H = H_1 \cap H_2\).
+\item
+  Show that \(H_1 H_2\) is a subgroup of \(G\).
+\item
+  Show that
+  \begin{align*}
+  { \mathsf{Gal}} (K/(E_1 \cap E_2 )) = H_1 H_2
+  .\end{align*}
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2017-4}{%
+\subsubsection{Fall 2017 \#4}\label{fall-2017-4}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(f (x)\) be an irreducible polynomial of degree 4 in
+  \({\mathbb{Q}}[x]\) whose splitting field \(K\) over \({\mathbb{Q}}\)
+  has Galois group \(G = S_4\).
+
+  Let \(\theta\) be a root of \(f(x)\). Prove that
+  \({\mathbb{Q}}[\theta]\) is an extension of \({\mathbb{Q}}\) of degree
+  4 and that there are no intermediate fields between \({\mathbb{Q}}\)
+  and \({\mathbb{Q}}[\theta]\).
+\item
+  Prove that if \(K\) is a Galois extension of \({\mathbb{Q}}\) of
+  degree 4, then there is an intermediate subfield between \(K\) and
+  \({\mathbb{Q}}\).
+\end{enumerate}
+
+\hypertarget{spring-2017-7}{%
+\subsubsection{Spring 2017 \#7}\label{spring-2017-7}}
+
+Let \(F\) be a field and let \(f(x) \in F[x]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Define what a splitting field of \(f(x)\) over \(F\) is.
+\item
+  Let \(F\) now be a finite field with \(q\) elements. Let \(E/F\) be a
+  finite extension of degree \(n>0\). Exhibit an explicit polynomial
+  \(g(x) \in F[x]\) such that \(E/F\) is a splitting field of \(g(x)\)
+  over \(F\). Fully justify your answer.
+\item
+  Show that the extension \(E/F\) in (b) is a Galois extension.
+\end{enumerate}
+
+\hypertarget{spring-2016-6}{%
+\subsubsection{Spring 2016 \#6}\label{spring-2016-6}}
+
+Let \(K\) be a Galois extension of a field \(F\) with \([K: F] = 2015\).
+Prove that \(K\) is an extension by radicals of the field \(F\).
+
+\hypertarget{fall-2015-6}{%
+\subsubsection{Fall 2015 \#6}\label{fall-2015-6}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(G\) be a finite group. Show that there exists a field extension
+  \(K/F\) with \({ \operatorname{Gal}} (K/F) = G\).
+
+  \begin{quote}
+  You may assume that for any natural number \(n\) there is a field
+  extension with Galois group \(S_n\).
+  \end{quote}
+\item
+  Let \(K\) be a Galois extension of \(F\) with
+  \({\left\lvert {{ \operatorname{Gal}} (K/F)} \right\rvert} = 12\).
+  Prove that there exists an intermediate field \(E\) of \(K/F\) with
+  \([E: F] = 3\).
+\item
+  With \(K/F\) as in (b), does an intermediate field \(L\) necessarily
+  exist satisfying \([L: F] = 2\)? Give a proof or counterexample.
+\end{enumerate}
+
+\hypertarget{fall-2014-1}{%
+\subsubsection{Fall 2014 \#1}\label{fall-2014-1}}
+
+Let \(f\in {\mathbb{Q}}[x]\) be an irreducible polynomial and \(L\) a
+finite Galois extension of \({\mathbb{Q}}\). Let
+\(f(x) = g_1(x)g_2(x)\cdots g_r(x)\) be a factorization of \(f\) into
+irreducibles in \(L[x]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that each of the factors \(g_i(x)\) has the same degree.
+\item
+  Give an example showing that if \(L\) is not Galois over
+  \({\mathbb{Q}}\), the conclusion of part (a) need not hold.
+\end{enumerate}
+
+\hypertarget{spring-2013-7}{%
+\subsubsection{Spring 2013 \#7}\label{spring-2013-7}}
+
+Let \(f(x) = g(x) h(x) \in {\mathbb{Q}}[x]\) and \(E,B,C/{\mathbb{Q}}\)
+be the splitting fields of \(f,g,h\) respectively.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that \({ \operatorname{Gal}} (E/B)\) and
+  \({ \operatorname{Gal}} (E/C)\) are normal subgroups of
+  \({ \operatorname{Gal}} (E/{\mathbb{Q}})\).
+\item
+  Prove that
+  \({ \operatorname{Gal}} (E/B) \cap{ \operatorname{Gal}} (E/C) = \left\{{1}\right\}\).
+\item
+  If \(B\cap C = {\mathbb{Q}}\), show that
+  \({ \operatorname{Gal}} (E/B) { \operatorname{Gal}} (E/C) = { \operatorname{Gal}} (E/{\mathbb{Q}})\).
+\item
+  Under the hypothesis of (c), show that
+  \({ \operatorname{Gal}} (E/{\mathbb{Q}}) \cong { \operatorname{Gal}} (E/B) \times { \operatorname{Gal}} (E/C)\).
+\item
+  Use (d) to describe
+  \({ \operatorname{Gal}} ({\mathbb{Q}}[\alpha]/{\mathbb{Q}})\) where
+  \(\alpha = \sqrt 2 + \sqrt 3\).
+\end{enumerate}
+
+\hypertarget{fall-2012-3}{%
+\subsubsection{Fall 2012 \#3}\label{fall-2012-3}}
+
+Let \(f(x) \in {\mathbb{Q}}[x]\) be an irreducible polynomial of degree
+5. Assume that \(f\) has all but two roots in \({\mathbb{R}}\). Compute
+the Galois group of \(f(x)\) over \({\mathbb{Q}}\) and justify your
+answer.
+
+\hypertarget{pth-roots-and-xpk-x}{%
+\subsection{\texorpdfstring{\(p\)th Roots and
+\(x^{p^k}-x\)}{pth Roots and x\^{}\{p\^{}k\}-x}}\label{pth-roots-and-xpk-x}}
+
+\hypertarget{spring-2021-7}{%
+\subsubsection{Spring 2021 \#7}\label{spring-2021-7}}
+
+Let \(p\) be a prime number and let \(F\) be a field of characteristic
+\(p\). Show that if \(a\in F\) is not a \(p\)th power in \(F\), then
+\(x^p-a \in F[x]\) is irreducible.
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-4}{%
+\subsubsection{Fall 2019 \#4}\label{fall-2019-4}}
+
+Let \(F\) be a finite field with \(q\) elements. Let \(n\) be a positive
+integer relatively prime to \(q\) and let \(\omega\) be a primitive
+\(n\)th root of unity in an extension field of \(F\). Let
+\(E = F [\omega]\) and let \(k = [E : F]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that \(n\) divides \(q^{k}-1\).
+\item
+  Let \(m\) be the order of \(q\) in
+  \({\mathbb{Z}}/n{\mathbb{Z}}^{\times}\). Prove that \(m\) divides
+  \(k\).
+\item
+  Prove that \(m = k\).
+\end{enumerate}
+
+\todo[inline]{Revisit, tricky!}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2019-2}{%
+\subsubsection{Spring 2019 \#2}\label{spring-2019-2}}
+
+Let \(F = {\mathbb{F}}_p\) , where \(p\) is a prime number.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that if \(\pi(x) \in F[x]\) is irreducible of degree \(d\), then
+  \(\pi(x)\) divides \(x^{p^d} - x\).
+\item
+  Show that if \(\pi(x) \in F[x]\) is an irreducible polynomial that
+  divides \(x^{p^n} - x\), then \(\deg \pi(x)\) divides \(n\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{star-fall-2016-5}{%
+\subsubsection{\texorpdfstring{\(\star\) Fall 2016
+\#5}{\textbackslash star Fall 2016 \#5}}\label{star-fall-2016-5}}
+
+How many monic irreducible polynomials over \({\mathbb{F}}_p\) of prime
+degree \(\ell\) are there? Justify your answer.
+
+\hypertarget{star-fall-2013-7}{%
+\subsubsection{\texorpdfstring{\(\star\) Fall 2013
+\#7}{\textbackslash star Fall 2013 \#7}}\label{star-fall-2013-7}}
+
+Let \(F = {\mathbb{F}}_2\) and let
+\(\mkern 1.5mu\overline{\mkern-1.5muF\mkern-1.5mu}\mkern 1.5mu\) denote
+its algebraic closure.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that
+  \(\mkern 1.5mu\overline{\mkern-1.5muF\mkern-1.5mu}\mkern 1.5mu\) is
+  not a finite extension of \(F\).
+\item
+  Suppose that
+  \(\alpha \in \mkern 1.5mu\overline{\mkern-1.5muF\mkern-1.5mu}\mkern 1.5mu\)
+  satisfies \(\alpha^{17} = 1\) and \(\alpha\neq 1\). Show that
+  \(F(\alpha)/F\) has degree 8.
+\end{enumerate}
+
+\hypertarget{general-field-extensions}{%
+\subsection{General Field Extensions}\label{general-field-extensions}}
+
+\hypertarget{spring-2020-3}{%
+\subsubsection{Spring 2020 \#3}\label{spring-2020-3}}
+
+Let \(E\) be an extension field of \(F\) and \(\alpha\in E\) be
+algebraic of odd degree over \(F\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(F(\alpha) = F(\alpha^2)\).
+\item
+  Prove that \(\alpha^{2020}\) is algebraic of odd degree over \(F\).
+\end{enumerate}
+
+\hypertarget{spring-2012-1}{%
+\subsubsection{Spring 2012 \#1}\label{spring-2012-1}}
+
+Suppose that \(F\subset E\) are fields such that \(E/F\) is Galois and
+\({\left\lvert {{ \operatorname{Gal}} (E/F)} \right\rvert} = 14\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that there exists a unique intermediate field \(K\) with
+  \(F\subset K \subset E\) such that \([K: F] = 2\).
+\item
+  Assume that there are at least two distinct intermediate subfields
+  \(F \subset L_1, L_2 \subset E\) with \([L_i: F]= 7\). Prove that
+  \({ \operatorname{Gal}} (E/F)\) is nonabelian.
+\end{enumerate}
+
+\hypertarget{spring-2019-8}{%
+\subsubsection{Spring 2019 \#8}\label{spring-2019-8}}
+
+Let \(\zeta = e^{2\pi i/8}\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  What is the degree of \({\mathbb{Q}}(\zeta)/{\mathbb{Q}}\)?
+\item
+  How many quadratic subfields of \({\mathbb{Q}}(\zeta)\) are there?
+\item
+  What is the degree of \({\mathbb{Q}}(\zeta, \sqrt[4] 2)\) over
+  \({\mathbb{Q}}\)?
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2017-3}{%
+\subsubsection{Fall 2017 \#3}\label{fall-2017-3}}
+
+Let \(F\) be a field. Let \(f(x)\) be an irreducible polynomial in
+\(F[x]\) of degree \(n\) and let \(g(x)\) be any polynomial in \(F[x]\).
+Let \(p(x)\) be an irreducible factor (of degree \(m\)) of the
+polynomial \(f(g(x))\).
+
+Prove that \(n\) divides \(m\). Use this to prove that if \(r\) is an
+integer which is not a perfect square, and \(n\) is a positive integer
+then every irreducible factor of \(x^{2n} - r\) over \({\mathbb{Q}}[x]\)
+has even degree.
+
+\hypertarget{spring-2015-2}{%
+\subsubsection{Spring 2015 \#2}\label{spring-2015-2}}
+
+Let \({\mathbb{F}}\) be a finite field.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Give (with proof) the decomposition of the additive group
+  \(({\mathbb{F}}, +)\) into a direct sum of cyclic groups.
+\item
+  The \emph{exponent} of a finite group is the least common multiple of
+  the orders of its elements. Prove that a finite abelian group has an
+  element of order equal to its exponent.
+\item
+  Prove that the multiplicative group \(({\mathbb{F}}^{\times}, \cdot)\)
+  is cyclic.
+\end{enumerate}
+
+\hypertarget{spring-2014-3}{%
+\subsubsection{Spring 2014 \#3}\label{spring-2014-3}}
+
+Let \(F\subset C\) be a field extension with \(C\) algebraically closed.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that the intermediate field \(C_{\text{alg}} \subset C\)
+  consisting of elements algebraic over \(F\) is algebraically closed.
+\item
+  Prove that if \(F\to E\) is an algebraic extension, there exists a
+  homomorphism \(E\to C\) that is the identity on \(F\).
+\end{enumerate}
+
+\hypertarget{modules}{%
+\section{Modules}\label{modules}}
+
+\hypertarget{annihilators}{%
+\subsection{Annihilators}\label{annihilators}}
+
+\hypertarget{fall-2021-6}{%
+\subsubsection{Fall 2021 \#6}\label{fall-2021-6}}
+
+Let \(R\) be a commutative ring with unit and let \(M\) be an
+\(R\)-module. Define the annihilator of \(M\) to be
+\begin{align*}
+\operatorname{Ann}(M):=\{r \in R \mathrel{\Big|}r \cdot m=0 \text { for all } m \in M\}
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that \(\operatorname{Ann}(M)\) is an ideal in \(R\).
+\item
+  Conversely, prove that every ideal in \(R\) is the annihilator of some
+  \(R\)-module.
+\item
+  Give an example of a module \(M\) over a ring \(R\) such that each
+  element \(m \in M\) has a nontrivial annihilator
+  \(\operatorname{Ann}(m):=\{r \in R \mathrel{\Big|}r \cdot m=0\}\), but
+  \(\operatorname{Ann}(M)=\{0\}\)
+\end{enumerate}
+
+\hypertarget{spring-2017-5}{%
+\subsubsection{Spring 2017 \#5}\label{spring-2017-5}}
+
+Let \(R\) be an integral domain and let \(M\) be a nonzero torsion
+\(R{\hbox{-}}\)module.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(M\) is finitely generated then the annihilator in
+  \(R\) of \(M\) is nonzero.
+\item
+  Give an example of a non-finitely generated torsion
+  \(R{\hbox{-}}\)module whose annihilator is \((0)\), and justify your
+  answer.
+\end{enumerate}
+
+\hypertarget{torsion-and-the-structure-theorem}{%
+\subsection{Torsion and the Structure
+Theorem}\label{torsion-and-the-structure-theorem}}
+
+\hypertarget{star-fall-2019-5}{%
+\subsubsection{\texorpdfstring{\(\star\) Fall 2019
+\#5}{\textbackslash star Fall 2019 \#5}}\label{star-fall-2019-5}}
+
+Let \(R\) be a ring and \(M\) an \(R{\hbox{-}}\)module.
+
+\begin{quote}
+Recall that the set of torsion elements in M is defined by
+\begin{align*}
+\operatorname{Tor}(M) = \{m \in M {~\mathrel{\Big\vert}~}\exists r \in R, ~r \neq 0, ~rm = 0\}
+.\end{align*}
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(R\) is an integral domain, then
+  \(\operatorname{Tor}(M )\) is a submodule of \(M\) .
+\item
+  Give an example where \(\operatorname{Tor}(M )\) is not a submodule of
+  \(M\).
+\item
+  If \(R\) has zero-divisors, prove that every non-zero
+  \(R{\hbox{-}}\)module has non-zero torsion elements.
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{star-spring-2019-5}{%
+\subsubsection{\texorpdfstring{\(\star\) Spring 2019
+\#5}{\textbackslash star Spring 2019 \#5}}\label{star-spring-2019-5}}
+
+Let \(R\) be an integral domain. Recall that if \(M\) is an
+\(R{\hbox{-}}\)module, the \emph{rank} of \(M\) is defined to be the
+maximum number of \(R{\hbox{-}}\)linearly independent elements of \(M\)
+.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that for any \(R{\hbox{-}}\)module \(M\), the rank of
+  \(\operatorname{Tor}(M )\) is 0.
+\item
+  Prove that the rank of \(M\) is equal to the rank of of
+  \(M/\operatorname{Tor}(M )\).
+\item
+  Suppose that M is a non-principal ideal of \(R\).
+\end{enumerate}
+
+Prove that \(M\) is torsion-free of rank 1 but not free.
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{star-spring-2020-6}{%
+\subsubsection{\texorpdfstring{\(\star\) Spring 2020
+\#6}{\textbackslash star Spring 2020 \#6}}\label{star-spring-2020-6}}
+
+Let \(R\) be a ring with unity.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Give a definition for a free module over \(R\).
+\item
+  Define what it means for an \(R{\hbox{-}}\)module to be torsion free.
+\item
+  Prove that if \(F\) is a free module, then any short exact sequence of
+  \(R{\hbox{-}}\)modules of the following form splits:
+  \begin{align*}
+  0 \to N \to M \to F \to 0
+  .\end{align*}
+\item
+  Let \(R\) be a PID. Show that any finitely generated
+  \(R{\hbox{-}}\)module \(M\) can be expressed as a direct sum of a
+  torsion module and a free module.
+\end{enumerate}
+
+\begin{quote}
+You may assume that a finitely generated torsionfree module over a PID
+is free.
+\end{quote}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2012-5}{%
+\subsubsection{Spring 2012 \#5}\label{spring-2012-5}}
+
+Let \(M\) be a finitely generated module over a PID \(R\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  \(M_t\) be the set of torsion elements of \(M\), and show that \(M_t\)
+  is a submodule of \(M\).
+\item
+  Show that \(M/M_t\) is torsion free.
+\item
+  Prove that \(M \cong M_t \oplus F\) where \(F\) is a free module.
+\end{enumerate}
+
+\hypertarget{fall-2019-final-3}{%
+\subsubsection{Fall 2019 Final \#3}\label{fall-2019-final-3}}
+
+Let \(R = k[x]\) for \(k\) a field and let \(M\) be the
+\(R{\hbox{-}}\)module given by
+\begin{align*}
+M=\frac{k[x]}{(x-1)^{3}} \oplus \frac{k[x]}{\left(x^{2}+1\right)^{2}} \oplus \frac{k[x]}{(x-1)\left(x^{2}+1\right)^{4}} \oplus \frac{k[x]}{(x+2)\left(x^{2}+1\right)^{2}}
+.\end{align*}
+Describe the elementary divisors and invariant factors of \(M\).
+
+\hypertarget{fall-2019-final-4}{%
+\subsubsection{Fall 2019 Final \#4}\label{fall-2019-final-4}}
+
+Let \(I = (2, x)\) be an ideal in \(R = {\mathbb{Z}}[x]\), and show that
+\(I\) is not a direct sum of nontrivial cyclic \(R{\hbox{-}}\)modules.
+
+\hypertarget{fall-2019-final-5}{%
+\subsubsection{Fall 2019 Final \#5}\label{fall-2019-final-5}}
+
+Let \(R\) be a PID.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Classify irreducible \(R{\hbox{-}}\)modules up to isomorphism.
+\item
+  Classify indecomposable \(R{\hbox{-}}\)modules up to isomorphism.
+\end{enumerate}
+
+\hypertarget{fall-2019-final-6}{%
+\subsubsection{Fall 2019 Final \#6}\label{fall-2019-final-6}}
+
+Let \(V\) be a finite-dimensional \(k{\hbox{-}}\)vector space and
+\(T:V\to V\) a non-invertible \(k{\hbox{-}}\)linear map. Show that there
+exists a \(k{\hbox{-}}\)linear map \(S:V\to V\) with \(T\circ S = 0\)
+but \(S\circ T\neq 0\).
+
+\hypertarget{fall-2019-final-7}{%
+\subsubsection{Fall 2019 Final \#7}\label{fall-2019-final-7}}
+
+Let \(A\in M_n({\mathbb{C}})\) with \(A^2 = A\). Show that \(A\) is
+similar to a diagonal matrix, and exhibit an explicit diagonal matrix
+similar to \(A\).
+
+\hypertarget{fall-2019-final-10}{%
+\subsubsection{Fall 2019 Final \#10}\label{fall-2019-final-10}}
+
+Show that the eigenvalues of a Hermitian matrix \(A\) are real and that
+\(A = PDP^{-1}\) where \(P\) is an invertible matrix with orthogonal
+columns.
+
+\hypertarget{fall-2020-7}{%
+\subsubsection{Fall 2020 \#7}\label{fall-2020-7}}
+
+Let \(A \in \operatorname{Mat}(n\times n, {\mathbb{R}})\) be arbitrary.
+Make \({\mathbb{R}}^n\) into an \({\mathbb{R}}[x]{\hbox{-}}\)module by
+letting \(f(x).\mathbf{v} \coloneqq f(A)(\mathbf{v})\) for
+\(f(\mathbf{v})\in {\mathbb{R}}[x]\) and
+\(\mathbf{v} \in {\mathbb{R}}^n\). Suppose that this induces the
+following direct sum decomposition:
+\begin{align*}
+{\mathbb{R}}^n \cong
+{ {\mathbb{R}}[x] \over \left\langle{ (x-1)^3 }\right\rangle }
+\oplus
+{ {\mathbb{R}}[x] \over \left\langle{ (x^2+1)^2 }\right\rangle }
+\oplus
+{ {\mathbb{R}}[x] \over \left\langle{ (x-1)(x^2-1)(x^2+1)^4 }\right\rangle }
+\oplus
+{ {\mathbb{R}}[x] \over \left\langle{ (x+2)(x^2+1)^2 }\right\rangle }
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Determine the elementary divisors and invariant factors of \(A\).
+\item
+  Determine the minimal polynomial of \(A\).
+\item
+  Determine the characteristic polynomial of \(A\).
+\end{enumerate}
+
+\hypertarget{miscunsorted}{%
+\subsection{Misc/Unsorted}\label{miscunsorted}}
+
+\hypertarget{spring-2017-3}{%
+\subsubsection{Spring 2017 \#3}\label{spring-2017-3}}
+
+Let \(R\) be a commutative ring with 1. Suppose that \(M\) is a free
+\(R{\hbox{-}}\)module with a finite basis \(X\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(I {~\trianglelefteq~}R\) be a proper ideal. Prove that \(M/IM\)
+  is a free \(R/I{\hbox{-}}\)module with basis \(X'\), where \(X'\) is
+  the image of \(X\) under the canonical map \(M\to M/IM\).
+\item
+  Prove that any two bases of \(M\) have the same number of elements.
+  You may assume that the result is true when \(R\) is a field.
+\end{enumerate}
+
+\hypertarget{spring-2020-5}{%
+\subsubsection{Spring 2020 \#5}\label{spring-2020-5}}
+
+Let \(R\) be a ring and \(f: M\to N\) and \(g: N\to M\) be
+\(R{\hbox{-}}\)module homomorphisms such that
+\(g\circ f = \operatorname{id}_M\). Show that
+\(N \cong \operatorname{im}f \oplus \ker g\).
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018-6}{%
+\subsubsection{Fall 2018 \#6}\label{fall-2018-6}}
+
+Let \(R\) be a commutative ring, and let \(M\) be an
+\(R{\hbox{-}}\)module. An \(R{\hbox{-}}\)submodule \(N\) of \(M\) is
+maximal if there is no \(R{\hbox{-}}\)module \(P\) with
+\(N \subsetneq P \subsetneq M\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that an \(R{\hbox{-}}\)submodule \(N\) of \(M\) is maximal
+  \(\iff M /N\) is a simple \(R{\hbox{-}}\)module: i.e., \(M /N\) is
+  nonzero and has no proper, nonzero \(R{\hbox{-}}\)submodules.
+\item
+  Let \(M\) be a \({\mathbb{Z}}{\hbox{-}}\)module. Show that a
+  \({\mathbb{Z}}{\hbox{-}}\)submodule \(N\) of \(M\) is maximal
+  \(\iff {\sharp}M /N\) is a prime number.
+\item
+  Let \(M\) be the \({\mathbb{Z}}{\hbox{-}}\)module of all roots of
+  unity in \({\mathbb{C}}\) under multiplication. Show that there is no
+  maximal \({\mathbb{Z}}{\hbox{-}}\)submodule of \(M\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-final-2}{%
+\subsubsection{Fall 2019 Final \#2}\label{fall-2019-final-2}}
+
+Consider the \({\mathbb{Z}}{\hbox{-}}\)submodule \(N\) of
+\({\mathbb{Z}}^3\) spanned by
+\begin{align*}
+f_1 &= [-1, 0, 1], \\
+f_2 &= [2,-3,1], \\
+f_3 &= [0, 3, 1], \\
+f_4 &= [3,1,5]
+.\end{align*}
+Find a basis for \(N\) and describe \({\mathbb{Z}}^3/N\).
+
+\hypertarget{spring-2018-6}{%
+\subsubsection{Spring 2018 \#6}\label{spring-2018-6}}
+
+Let
+\begin{align*}
+M &= \{(w, x, y, z) \in {\mathbb{Z}}^4 {~\mathrel{\Big\vert}~}w + x + y + z \in 2{\mathbb{Z}}\} \\
+N &= \left\{{
+(w, x, y, z) \in {\mathbb{Z}}^4 {~\mathrel{\Big\vert}~}4\divides (w - x),~ 4\divides (x - y),~ 4\divides ( y - z)
+}\right\}
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(N\) is a \({\mathbb{Z}}{\hbox{-}}\)submodule of \(M\) .
+\item
+  Find vectors \(u_1 , u_2 , u_3 , u_4 \in {\mathbb{Z}}^4\) and integers
+  \(d_1 , d_2 , d_3 , d_4\) such that
+  \begin{align*}
+  \{
+  u_1 , u_2 , u_3 , u_4 
+  \} 
+  && \text{is a free basis for }M
+  \\
+  \{
+  d_1 u_1,~ d_2 u_2,~ d_3 u_3,~ d_4 u_4 
+  \}
+  && \text{is a free basis for }N
+  \end{align*}
+\item
+  Use the previous part to describe \(M/N\) as a direct sum of cyclic
+  \({\mathbb{Z}}{\hbox{-}}\)modules.
+\end{enumerate}
+
+\hypertarget{spring-2018-7}{%
+\subsubsection{Spring 2018 \#7}\label{spring-2018-7}}
+
+Let \(R\) be a PID and \(M\) be an \(R{\hbox{-}}\)module. Let \(p\) be a
+prime element of \(R\). The module \(M\) is called
+\emph{\(\left\langle{p}\right\rangle{\hbox{-}}\)primary} if for every
+\(m \in M\) there exists \(k > 0\) such that \(p^k m = 0\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Suppose M is \(\left\langle{p}\right\rangle{\hbox{-}}\)primary. Show
+  that if \(m \in M\) and
+  \(t \in R, ~t \not\in \left\langle{p}\right\rangle\), then there
+  exists \(a \in R\) such that \(atm = m\).
+\item
+  A submodule \(S\) of \(M\) is said to be \emph{pure} if
+  \(S \cap r M = rS\) for all \(r \in R\). Show that if \(M\) is
+  \(\left\langle{p}\right\rangle{\hbox{-}}\)primary, then \(S\) is pure
+  if and only if \(S \cap p^k M = p^k S\) for all \(k \geq 0\).
+\end{enumerate}
+
+\hypertarget{fall-2016-6}{%
+\subsubsection{Fall 2016 \#6}\label{fall-2016-6}}
+
+Let \(R\) be a ring and \(f: M\to N\) and \(g: N\to M\) be
+\(R{\hbox{-}}\)module homomorphisms such that
+\(g\circ f = \operatorname{id}_M\). Show that
+\(N\cong \operatorname{im}f \oplus \ker g\).
+
+\hypertarget{spring-2016-4}{%
+\subsubsection{Spring 2016 \#4}\label{spring-2016-4}}
+
+Let \(R\) be a ring with the following commutative diagram of
+\(R{\hbox{-}}\)modules, where each row represents a short exact sequence
+of \(R{\hbox{-}}\)modules:
+
+\begin{center}
+\begin{tikzcd}
+0 \ar[r] & A \ar[d, "\alpha"] \ar[r, "f"] & B \ar[d, "\beta"] \ar[r, "g"] & C \ar[r] \ar[d, "\gamma"] & 0 \\
+0 \ar[r] & A' \ar[r, "f'"] & B'\ar[r, "g'"] & C' \ar[r] & 0 
+\end{tikzcd}
+\end{center}
+
+Prove that if \(\alpha\) and \(\gamma\) are isomorphisms then \(\beta\)
+is an isomorphism.
+
+\hypertarget{spring-2015-8}{%
+\subsubsection{Spring 2015 \#8}\label{spring-2015-8}}
+
+Let \(R\) be a PID and \(M\) a finitely generated \(R{\hbox{-}}\)module.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that there are \(R{\hbox{-}}\)submodules
+  \begin{align*}
+  0 = M_0 \subset M_1 \subset \cdots \subset M_n = M
+  \end{align*}
+  such that for all \(0\leq i \leq n-1\), the module \(M_{i+1}/M_i\) is
+  cyclic.
+\item
+  Is the integer \(n\) in part (a) uniquely determined by \(M\)? Prove
+  your answer.
+\end{enumerate}
+
+\hypertarget{fall-2012-6}{%
+\subsubsection{Fall 2012 \#6}\label{fall-2012-6}}
+
+Let \(R\) be a ring and \(M\) an \(R{\hbox{-}}\)module. Recall that
+\(M\) is \emph{Noetherian} iff any strictly increasing chain of
+submodule \(M_1 \subsetneq M_2 \subsetneq \cdots\) is finite. Call a
+proper submodule \(M' \subsetneq M\) \emph{intersection-decomposable} if
+it can not be written as the intersection of two proper submodules
+\(M' = M_1\cap M_2\) with \(M_i \subsetneq M\).
+
+Prove that for every Noetherian module \(M\), any proper submodule
+\(N\subsetneq M\) can be written as a finite intersection
+\(N = N_1 \cap\cdots \cap N_k\) of intersection-indecomposable modules.
+
+\hypertarget{fall-2019-final-1}{%
+\subsubsection{Fall 2019 Final \#1}\label{fall-2019-final-1}}
+
+Let \(A\) be an abelian group, and show \(A\) is a
+\({\mathbb{Z}}{\hbox{-}}\)module in a unique way.
+
+\hypertarget{fall-2020-6}{%
+\subsubsection{Fall 2020 \#6}\label{fall-2020-6}}
+
+Let \(R\) be a ring with \(1\) and let \(M\) be a left
+\(R{\hbox{-}}\)module. If \(I\) is a left ideal of \(R\), define
+\begin{align*}
+IM \coloneqq\left\{{ \sum_{i=1}^{N < \infty} a_i m_i {~\mathrel{\Big\vert}~}a_i \in I, m_i \in M, n\in {\mathbb{N}}}\right\}
+,\end{align*}
+i.e.~the set of finite sums of of elements of the form \(am\) where
+\(a\in I, m\in M\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that \(IM \leq M\) is a submodule.
+\item
+  Let \(M, N\) be left \(R{\hbox{-}}\)modules, \(I\) a nilpotent left
+  ideal of \(R\), and \(f: M\to N\) an \(R{\hbox{-}}\)module morphism.
+  Prove that if the induced morphism
+  \(\mkern 1.5mu\overline{\mkern-1.5muf\mkern-1.5mu}\mkern 1.5mu: M/IM \to N/IN\)
+  is surjective, then \(f\) is surjective.
+\end{enumerate}
+
+\hypertarget{linear-algebra-diagonalizability}{%
+\section{Linear Algebra:
+Diagonalizability}\label{linear-algebra-diagonalizability}}
+
+\hypertarget{fall-2017-7}{%
+\subsection{Fall 2017 \#7}\label{fall-2017-7}}
+
+Let \(F\) be a field and let \(V\) and \(W\) be vector spaces over \(F\)
+.
+
+Make \(V\) and \(W\) into \(F[x]{\hbox{-}}\)modules via linear operators
+\(T\) on \(V\) and \(S\) on \(W\) by defining \(X \cdot v = T (v)\) for
+all \(v \in V\) and \(X \cdot w = S(w)\) for all w \(\in\) W .
+
+Denote the resulting \(F[x]{\hbox{-}}\)modules by \(V_T\) and \(W_S\)
+respectively.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that an \(F[x]{\hbox{-}}\)module homomorphism from \(V_T\) to
+  \(W_S\) consists of an \(F{\hbox{-}}\)linear transformation
+  \(R : V \to W\) such that \(RT = SR\).
+\item
+  Show that \(VT \cong WS\) as \(F[x]{\hbox{-}}\)modules \(\iff\) there
+  is an \(F{\hbox{-}}\)linear isomorphism \(P : V \to W\) such that
+  \(T = P^{-1}SP\).
+\item
+  Recall that a module \(M\) is \emph{simple} if \(M \neq 0\) and any
+  proper submodule of \(M\) must be zero. Suppose that \(V\) has
+  dimension 2. Give an example of \(F\), \(T\) with \(V_T\) simple.
+\item
+  Assume \(F\) is algebraically closed. Prove that if \(V\) has
+  dimension 2, then any \(V_T\) is not simple.
+\end{enumerate}
+
+\hypertarget{spring-2015-3}{%
+\subsection{Spring 2015 \#3}\label{spring-2015-3}}
+
+Let \(F\) be a field and \(V\) a finite dimensional
+\(F{\hbox{-}}\)vector space, and let \(A, B: V\to V\) be commuting
+\(F{\hbox{-}}\)linear maps. Suppose there is a basis \({\mathcal{B}}_1\)
+with respect to which \(A\) is diagonalizable and a basis
+\({\mathcal{B}}_2\) with respect to which \(B\) is diagonalizable.
+
+Prove that there is a basis \({\mathcal{B}}_3\) with respect to which
+\(A\) and \(B\) are both diagonalizable.
+
+\hypertarget{fall-2016-2}{%
+\subsection{Fall 2016 \#2}\label{fall-2016-2}}
+
+Let \(A, B\) be two \(n\times n\) matrices with the property that
+\(AB = BA\). Suppose that \(A\) and \(B\) are diagonalizable. Prove that
+\(A\) and \(B\) are \emph{simultaneously} diagonalizable.
+
+\hypertarget{spring-2019-1}{%
+\subsection{Spring 2019 \#1}\label{spring-2019-1}}
+
+Let \(A\) be a square matrix over the complex numbers. Suppose that
+\(A\) is nonsingular and that \(A^{2019}\) is diagonalizable over
+\({\mathbb{C}}\).
+
+Show that \(A\) is also diagonalizable over \({\mathbb{C}}\).
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{linear-algebra-misc}{%
+\section{Linear Algebra: Misc}\label{linear-algebra-misc}}
+
+\hypertarget{star-spring-2012-6}{%
+\subsection{\texorpdfstring{\(\star\) Spring 2012
+\#6}{\textbackslash star Spring 2012 \#6}}\label{star-spring-2012-6}}
+
+Let \(k\) be a field and let the group
+\(G = \operatorname{GL}(m, k) \times\operatorname{GL}(n, k)\) acts on
+the set of \(m\times n\) matrices \(M_{m, n}(k)\) as follows:
+\begin{align*}
+(A, B) \cdot X = AXB^{-1}
+\end{align*}
+where \((A, B) \in G\) and \(X\in M_{m, n}(k)\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  State what it means for a group to act on a set. Prove that the above
+  definition yields a group action.
+\item
+  Exhibit with justification a subset \(S\) of \(M_{m, n}(k)\) which
+  contains precisely one element of each orbit under this action.
+\end{enumerate}
+
+\hypertarget{star-spring-2014-7}{%
+\subsection{\texorpdfstring{\(\star\) Spring 2014
+\#7}{\textbackslash star Spring 2014 \#7}}\label{star-spring-2014-7}}
+
+Let \(G = \operatorname{GL}(3, {\mathbb{Q}}[x])\) be the group of
+invertible \(3\times 3\) matrices over \({\mathbb{Q}}[x]\). For each
+\(f\in {\mathbb{Q}}[x]\), let \(S_f\) be the set of \(3\times 3\)
+matrices \(A\) over \({\mathbb{Q}}[x]\) such that
+\(\operatorname{det}(A) = c f(x)\) for some nonzero constant
+\(c\in {\mathbb{Q}}\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that for \((P, Q) \in G\times G\) and \(A\in S_f\), the formula
+  \begin{align*}
+  (P, Q)\cdot A \coloneqq PAQ^{-1}
+  \end{align*}
+  gives a well defined map \(G\times G \times S_f \to S_f\) and show
+  that this map gives a group action of \(G\times G\) on \(S_f\).
+\item
+  For \(f(x) = x^3(x^2+1)^2\), give one representative from each orbit
+  of the group action in (a), and justify your assertion.
+\end{enumerate}
+
+\hypertarget{fall-2012-7}{%
+\subsection{Fall 2012 \#7}\label{fall-2012-7}}
+
+Let \(k\) be a field of characteristic zero and \(A, B \in M_n(k)\) be
+two square \(n\times n\) matrices over \(k\) such that \(AB - BA = A\).
+Prove that \(\operatorname{det}A = 0\).
+
+Moreover, when the characteristic of \(k\) is 2, find a counterexample
+to this statement.
+
+\hypertarget{fall-2012-8}{%
+\subsection{Fall 2012 \#8}\label{fall-2012-8}}
+
+Prove that any nondegenerate matrix \(X\in M_n({\mathbb{R}})\) can be
+written as \(X = UT\) where \(U\) is orthogonal and \(T\) is upper
+triangular.
+
+\hypertarget{fall-2012-5}{%
+\subsection{Fall 2012 \#5}\label{fall-2012-5}}
+
+Let \(U\) be an infinite-dimensional vector space over a field \(k\),
+\(f: U\to U\) a linear map, and
+\(\left\{{u_1, \cdots, u_m}\right\} \subset U\) vectors such that \(U\)
+is generated by
+\(\left\{{u_1, \cdots, u_m, f^d(u_1), \cdots, f^d(u_m)}\right\}\) for
+some \(d\in {\mathbb{N}}\).
+
+Prove that \(U\) can be written as a direct sum \(U \cong V\oplus W\)
+such that
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \(V\) has a basis consisting of some vector
+  \(v_1, \cdots v_n, f^d(v_1), \cdots, f^d(v_n)\) for some
+  \(d\in {\mathbb{N}}\), and
+\item
+  \(W\) is finite-dimensional.
+\end{enumerate}
+
+Moreover, prove that for any other decomposition
+\(U \cong V' \oplus W'\), one has \(W' \cong W\).
+
+\hypertarget{fall-2015-7}{%
+\subsection{Fall 2015 \#7}\label{fall-2015-7}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that two \(3\times 3\) matrices over \({\mathbb{C}}\) are similar
+  \(\iff\) their characteristic polynomials are equal and their minimal
+  polynomials are equal.
+\item
+  Does the conclusion in (a) hold for \(4\times 4\) matrices? Justify
+  your answer with a proof or counterexample.
+\end{enumerate}
+
+\hypertarget{fall-2014-4}{%
+\subsection{Fall 2014 \#4}\label{fall-2014-4}}
+
+Let \(F\) be a field and \(T\) an \(n\times n\) matrix with entries in
+\(F\). Let \(I\) be the ideal consisting of all polynomials
+\(f\in F[x]\) such that \(f(T) =0\).
+
+Show that the following statements are equivalent about a polynomial
+\(g\in I\):
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  \(g\) is irreducible.
+\item
+  If \(k\in F[x]\) is nonzero and of degree strictly less than \(g\),
+  then \(k[T]\) is an invertible matrix.
+\end{enumerate}
+
+\hypertarget{fall-2015-8}{%
+\subsection{Fall 2015 \#8}\label{fall-2015-8}}
+
+Let \(V\) be a vector space over a field \(F\) and \(V {}^{ \vee }\) its
+dual. A \emph{symmetric bilinear form} \(({-}, {-})\) on \(V\) is a map
+\(V\times V\to F\) satisfying
+\begin{align*}
+(av_1 + b v_2, w) = a(v_1, w) + b(v_2, w) {\quad \operatorname{and} \quad} (v_1, v_2) = (v_2, v_1)
+\end{align*}
+for all \(a, b\in F\) and \(v_1, v_2 \in V\). The form is
+\emph{nondegenerate} if the only element \(w\in V\) satisfying
+\((v, w) = 0\) for all \(v\in V\) is \(w=0\).
+
+Suppose \(({-}, {-})\) is a nondegenerate symmetric bilinear form on
+\(V\). If \(W\) is a subspace of \(V\), define
+\begin{align*}
+W^{\perp} \coloneqq\left\{{v\in V {~\mathrel{\Big\vert}~}(v, w) = 0 \text{ for all } w\in W}\right\}
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that if \(X, Y\) are subspaces of \(V\) with \(Y\subset X\), then
+  \(X^{\perp} \subseteq Y^{\perp}\).
+\item
+  Define an injective linear map
+  \begin{align*}
+  \psi: Y^{\perp}/X^{\perp} \hookrightarrow(X/Y) {}^{ \vee }
+  \end{align*}
+  which is an isomorphism if \(V\) is finite dimensional.
+\end{enumerate}
+
+\hypertarget{fall-2018-4}{%
+\subsection{Fall 2018 \#4}\label{fall-2018-4}}
+
+Let \(V\) be a finite dimensional vector space over a field (the field
+is not necessarily algebraically closed).
+
+Let \(\phi : V \to V\) be a linear transformation. Prove that there
+exists a decomposition of \(V\) as \(V = U \oplus W\) , where \(U\) and
+\(W\) are \(\phi{\hbox{-}}\)invariant subspaces of \(V\) ,
+\({\left.{{\phi}} \right|_{{U}} }\) is nilpotent, and
+\({\left.{{\phi}} \right|_{{W}} }\) is nonsingular.
+
+\todo[inline]{Revisit.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018-5}{%
+\subsection{Fall 2018 \#5}\label{fall-2018-5}}
+
+Let \(A\) be an \(n \times n\) matrix.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Suppose that \(v\) is a column vector such that the set
+  \(\{v, Av, . . . , A^{n-1} v\}\) is linearly independent. Show that
+  any matrix \(B\) that commutes with \(A\) is a polynomial in \(A\).
+\item
+  Show that there exists a column vector \(v\) such that the set
+  \(\{v, Av, . . . , A^{n-1} v\}\) is linearly independent \(\iff\) the
+  characteristic polynomial of \(A\) equals the minimal polynomial of A.
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019-8}{%
+\subsection{Fall 2019 \#8}\label{fall-2019-8}}
+
+Let \(\{e_1, \cdots, e_n \}\) be a basis of a real vector space \(V\)
+and let
+\begin{align*}
+\Lambda \coloneqq\left\{{ \sum r_i e_i \mathrel{\Big|}r_i \in {\mathbb{Z}}}\right\}
+\end{align*}
+
+Let \(\cdot\) be a non-degenerate (\(v \cdot w = 0\) for all
+\(w \in V \iff v = 0\)) symmetric bilinear form on \(V\) such that the
+Gram matrix \(M = (e_i \cdot e_j )\) has integer entries.
+
+Define the dual of \(\Lambda\) to be
+\begin{align*}
+\Lambda  {}^{ \vee }\coloneqq\{v \in V {~\mathrel{\Big\vert}~}v \cdot x \in {\mathbb{Z}}\text{ for all } x \in \Lambda
+\}
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(\Lambda \subset \Lambda {}^{ \vee }\).
+\item
+  Prove that \(\operatorname{det}M \neq 0\) and that the rows of
+  \(M^{-1}\) span \(\Lambda {}^{ \vee }\).
+\item
+  Prove that \(\operatorname{det}M = |\Lambda {}^{ \vee }/\Lambda|\).
+\end{enumerate}
+
+\todo[inline]{Todo, missing part (c).}
+
+\emph{Solution omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2013-6}{%
+\subsection{Spring 2013 \#6}\label{spring-2013-6}}
+
+Let \(V\) be a finite dimensional vector space over a field \(F\) and
+let \(T: V\to V\) be a linear operator with characteristic polynomial
+\(f(x) \in F[x]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(f(x)\) is irreducible in \(F[x] \iff\) there are no proper
+  nonzero subspaces \(W< V\) with \(T(W) \subseteq W\).
+\item
+  If \(f(x)\) is irreducible in \(F[x]\) and the characteristic of \(F\)
+  is 0, show that \(T\) is diagonalizable when we extend the field to
+  its algebraic closure.
+\end{enumerate}
+
+\todo[inline]{Is there a proof without matrices? What if $V$ is infinite dimensional?}
+\todo[inline]{How to extend basis?}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2020-8}{%
+\subsection{Fall 2020 \#8}\label{fall-2020-8}}
+
+Let \(A\in \operatorname{Mat}(n\times n, {\mathbb{C}})\) such that the
+group generated by \(A\) under multiplication is finite. Show that
+\begin{align*}
+\operatorname{Tr}(A^{-1}) ={\overline{{\operatorname{Tr}(A) }}}
+,\end{align*}
+where \({\overline{{({-})}}}\) denotes taking the complex conjugate and
+\(\operatorname{Tr}({-})\) is the trace.
+
+\hypertarget{linear-algebra-canonical-forms}{%
+\section{Linear Algebra: Canonical
+Forms}\label{linear-algebra-canonical-forms}}
+
+\hypertarget{fall-2021-3}{%
+\subsection{Fall 2021 \#3}\label{fall-2021-3}}
+
+What is the Jordan normal form over \(\mathbb{C}\) of a \(7 \times 7\)
+matrix \(A\) which satisfies all of the following conditions:
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  \(A\) has real coefficients,
+\item
+  \(\mathrm{rk} A=5\),
+\item
+  \(\mathrm{rk} A^{2}=4\),
+\item
+  \(\mathrm{rk} A-I=6\),
+\item
+  \(\mathrm{rk} A^{3}-I=4\),
+\item
+  \(\operatorname{tr} A=1 ?\)
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{star-spring-2012-8}{%
+\subsection{\texorpdfstring{\(\star\) Spring 2012
+\#8}{\textbackslash star Spring 2012 \#8}}\label{star-spring-2012-8}}
+
+Let \(V\) be a finite-dimensional vector space over a field \(k\) and
+\(T:V\to V\) a linear transformation.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Provide a definition for the \emph{minimal polynomial} in \(k[x]\) for
+  \(T\).
+\item
+  Define the \emph{characteristic polynomial} for \(T\).
+\item
+  Prove the Cayley-Hamilton theorem: the linear transformation \(T\)
+  satisfies its characteristic polynomial.
+\end{enumerate}
+
+\hypertarget{star-spring-2020-8}{%
+\subsection{\texorpdfstring{\(\star\) Spring 2020
+\#8}{\textbackslash star Spring 2020 \#8}}\label{star-spring-2020-8}}
+
+Let \(T:V\to V\) be a linear transformation where \(V\) is a
+finite-dimensional vector space over \({\mathbb{C}}\). Prove the
+Cayley-Hamilton theorem: if \(p(x)\) is the characteristic polynomial of
+\(T\), then \(p(T) = 0\). You may use canonical forms.
+
+\hypertarget{star-spring-2012-7}{%
+\subsection{\texorpdfstring{\(\star\) Spring 2012
+\#7}{\textbackslash star Spring 2012 \#7}}\label{star-spring-2012-7}}
+
+Consider the following matrix as a linear transformation from
+\(V\coloneqq{\mathbb{C}}^5\) to itself:
+\begin{align*}
+A=\left(\begin{array}{ccccc}
+-1 & 1 & 0 & 0 & 0 \\
+-4 & 3 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 & 1 \\
+0 & 0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 0 & 2
+\end{array}\right)
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find the invariant factors of \(A\).
+\item
+  Express \(V\) in terms of a direct sum of indecomposable
+  \({\mathbb{C}}[x]{\hbox{-}}\)modules.
+\item
+  Find the Jordan canonical form of \(A\).
+\end{enumerate}
+
+\hypertarget{fall-2019-final-8}{%
+\subsection{Fall 2019 Final \#8}\label{fall-2019-final-8}}
+
+Exhibit the rational canonical form for
+
+\begin{itemize}
+\tightlist
+\item
+  \(A\in M_6({\mathbb{Q}})\) with minimal polynomial
+  \((x-1)(x^2 + 1)^2\).
+\item
+  \(A\in M_{10}({\mathbb{Q}})\) with minimal polynomial
+  \((x^2+1)^2(x^3 + 1)\).
+\end{itemize}
+
+\hypertarget{fall-2019-final-9}{%
+\subsection{Fall 2019 Final \#9}\label{fall-2019-final-9}}
+
+Exhibit the rational and Jordan canonical forms for the following matrix
+\(A\in M_4({\mathbb{C}})\):
+\begin{align*}
+  A=\left(\begin{array}{cccc}
+  2 & 0 & 0 & 0 \\
+  1 & 1 & 0 & 0 \\
+  -2 & -2 & 0 & 1 \\
+  -2 & 0 & -1 & -2
+  \end{array}\right)
+  .\end{align*}
+
+\hypertarget{spring-2016-7}{%
+\subsection{Spring 2016 \#7}\label{spring-2016-7}}
+
+Let \(D = {\mathbb{Q}}[x]\) and let \(M\) be a
+\({\mathbb{Q}}[x]{\hbox{-}}\)module such that
+\begin{align*}
+M \cong \frac{\mathbb{Q}[x]}{(x-1)^{3}} \oplus \frac{\mathbb{Q}[x]}{\left(x^{2}+1\right)^{3}} \oplus \frac{\mathbb{Q}[x]}{(x-1)\left(x^{2}+1\right)^{5}} \oplus \frac{\mathbb{Q}[x]}{(x+2)\left(x^{2}+1\right)^{2}}
+.\end{align*}
+
+Determine the elementary divisors and invariant factors of \(M\).
+
+\hypertarget{spring-2020-7}{%
+\subsection{Spring 2020 \#7}\label{spring-2020-7}}
+
+Let
+\begin{align*}
+A=\left[\begin{array}{ccc}
+2 & 0 & 0 \\
+4 & 6 & 1 \\
+-16 & -16 & -2
+\end{array}\right] \in M_{3}(\mathrm{C})
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find the Jordan canonical form \(J\) of \(A\).
+\item
+  Find an invertible matrix \(P\) such that \(P^{-1}A P = J\).
+\item
+  Write down the minimal polynomial of \(A\).
+\end{enumerate}
+
+\begin{quote}
+You should not need to compute \(P^{-1}\).
+\end{quote}
+
+\hypertarget{spring-2019-7}{%
+\subsection{Spring 2019 \#7}\label{spring-2019-7}}
+
+Let \(p\) be a prime number. Let \(A\) be a \(p \times p\) matrix over a
+field \(F\) with 1 in all entries except 0 on the main diagonal.
+
+Determine the Jordan canonical form (JCF) of \(A\)
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  When \(F = {\mathbb{Q}}\),
+\item
+  When \(F = {\mathbb{F}}_p\).
+\end{enumerate}
+
+\begin{quote}
+Hint: In both cases, all eigenvalues lie in the ground field. In each
+case find a matrix \(P\) such that \(P^{-1}AP\) is in JCF.
+\end{quote}
+
+\emph{Strategy omitted.}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2018-4}{%
+\subsection{Spring 2018 \#4}\label{spring-2018-4}}
+
+Let
+\begin{align*}
+A=\left[\begin{array}{lll}{0} & {1} & {-2} \\ {1} & {1} & {-3} \\ {1} & {2} & {-4}\end{array}\right] \in M_{3}(\mathbb{C})
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find the Jordan canonical form \(J\) of \(A\).
+\item
+  Find an invertible matrix \(P\) such that \(P^{-1}AP = J\).
+\end{enumerate}
+
+\begin{quote}
+You should not need to compute \(P^{-1}\).
+\end{quote}
+
+\hypertarget{spring-2017-6}{%
+\subsection{Spring 2017 \#6}\label{spring-2017-6}}
+
+Let \(A\) be an \(n\times n\) matrix with all entries equal to \(0\)
+except for the \(n-1\) entries just above the diagonal being equal to 2.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  What is the Jordan canonical form of \(A\), viewed as a matrix in
+  \(M_n({\mathbb{C}})\)?
+\item
+  Find a nonzero matrix \(P\in M_n({\mathbb{C}})\) such that
+  \(P^{-1}A P\) is in Jordan canonical form.
+\end{enumerate}
+
+\hypertarget{spring-2016-1}{%
+\subsection{Spring 2016 \#1}\label{spring-2016-1}}
+
+Let
+\begin{align*}
+A=\left(\begin{array}{ccc}
+-3 & 3 & -2 \\
+-7 & 6 & -3 \\
+1 & -1 & 2
+\end{array}\right) \in M_{3}(\mathrm{C})
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find the Jordan canonical form \(J\) of \(A\).
+\item
+  Find an invertible matrix \(P\) such that \(P^{-1}A P = J\). You do
+  not need to compute \(P^{-1}\).
+\end{enumerate}
+
+\hypertarget{spring-2015-6}{%
+\subsection{Spring 2015 \#6}\label{spring-2015-6}}
+
+Let \(F\) be a field and \(n\) a positive integer, and consider
+\begin{align*}
+A=\left[\begin{array}{ccc}
+1 & \dots & 1 \\
+& \ddots & \\
+1 & \dots & 1
+\end{array}\right] \in M_{n}(F)
+.\end{align*}
+
+Show that \(A\) has a Jordan normal form over \(F\) and find it.
+
+\begin{quote}
+Hint: treat the cases \(n\cdot 1 \neq 0\) in \(F\) and \(n\cdot 1 = 0\)
+in \(F\) separately.
+\end{quote}
+
+\hypertarget{fall-2014-5}{%
+\subsection{Fall 2014 \#5}\label{fall-2014-5}}
+
+Let \(T\) be a \(5\times 5\) complex matrix with characteristic
+polynomial \(\chi(x) = (x-3)^5\) and minimal polynomial
+\(m(x) = (x-3)^2\). Determine all possible Jordan forms of \(T\).
+
+\hypertarget{spring-2013-5}{%
+\subsection{Spring 2013 \#5}\label{spring-2013-5}}
+
+Let \(T: V\to V\) be a linear map from a 5-dimensional
+\({\mathbb{C}}{\hbox{-}}\)vector space to itself and suppose
+\(f(T) = 0\) where \(f(x) = x^2 + 2x + 1\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that there does not exist any vector \(v\in V\) such that
+  \(Tv = v\), but there \emph{does} exist a vector \(w\in V\) such that
+  \(T^2 w= w\).
+\item
+  Give all of the possible Jordan canonical forms of \(T\).
+\end{enumerate}
+
+\hypertarget{spring-2021-1}{%
+\subsection{Spring 2021 \#1}\label{spring-2021-1}}
+
+Let m
+\begin{align*}
+A \coloneqq
+\begin{bmatrix}
+4 & 1 & -1 \\
+-6 & -1 & 2 \\
+2 & 1 & 1
+\end{bmatrix}
+\in \operatorname{Mat}(3\times 3, {\mathbb{C}})
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find the Jordan canonical form \(J\) of \(A\).
+\item
+  Find an invertible matrix \(P\) such that \(J = P ^{-1}A P\).
+\item
+  Write down the minimal polynomial of \(A\).
+\end{enumerate}
+
+\begin{quote}
+You should not need to compute \(P^{-1}\)
+\end{quote}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2020-5}{%
+\subsection{Fall 2020 \#5}\label{fall-2020-5}}
+
+Consider the following matrix:
+\begin{align*}
+B \coloneqq
+\begin{bmatrix}
+1 & 3 & 3
+\\
+2 & 2 & 3
+\\
+-1 & -2 & -2
+\end{bmatrix}
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Find the minimal polynomial of \(B\).
+\item
+  Find a \(3\times 3\) matrix \(J\) in Jordan canonical form such that
+  \(B = JPJ^{-1}\) where \(P\) is an invertible matrix.
+\end{enumerate}
+
+\hypertarget{extra-problems}{%
+\section{Extra Problems}\label{extra-problems}}
+
+\begin{quote}
+Tons of extra fundamental problems here:
+\url{https://math.ucr.edu/~mpierce/teaching/qual-algebra/fun/groups/}
+\end{quote}
+
+\begin{quote}
+(DZG): these are just random extra problems that I found and dropped in.
+There is likely a ton of overlap/redundancy!
+\end{quote}
+
+\hypertarget{linear-algebra}{%
+\subsection{Linear Algebra}\label{linear-algebra}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  For a division ring \(D\), let \(V_{i}\) be a finite dimensional
+  vector space over \(D\) for \(i \in\{1, \ldots, k\}\). Suppose the
+  sequence
+  \begin{align*}
+  0 \longrightarrow V_{1} \longrightarrow V_{2} \longrightarrow \cdots V_{k} \longrightarrow 0
+  \end{align*}
+  is exact. Prove that
+  \(\sum_{i=1}^{k}(-1)^{i} \operatorname{dim}_{D} V_{i}=0\).
+\item
+  Prove that if \(A\) and \(B\) are invertible matrices over a field
+  \(\boldsymbol{k}\), then \(A+\lambda B\) is invertible for all but
+  finitely many \(\lambda \in \boldsymbol{k}\).
+\item
+  For the ring of \(n \times n\) matrices over a commutative unital ring
+  \(R\), which we'll denote \(\operatorname{Mat}_{n}(R)\), recall the
+  definition of the determinant map det:
+  \(\operatorname{Mat}_{n}(R) \rightarrow R\). For
+  \(A \in \operatorname{Mat}_{n}(R)\) also recall the definition of the
+  classical adjoint \(A^{a}\) of \(A\). Prove that:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \(\operatorname{det}\left(A^{a}\right)=\operatorname{det}(A)^{n-1}\)
+\item
+  \(\left(A^{a}\right)^{a}=\operatorname{det}(A)^{n-2} A\)
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  If \(R\) is an integral domain and \(A\) is an \(n \times n\) matrix
+  over \(R\), prove that if a system of linear equations \(A x=0\) has a
+  nonzero solution then \(\operatorname{det} A=0\). Is the converse
+  true? What if we drop the assumption that \(R\) is an integral domain?
+\item
+  What is the companion matrix \(M\) of the polynomial \(f=x^{2}-x+2\)
+  over \(C\) ? Prove that \(f\) is the minimal polynomial of \(M\).
+\item
+  Suppose that \(\phi\) and \(\psi\) are commuting endomorphisms of a
+  finite dimensional vector space \(E\) over a field \(\boldsymbol{k}\),
+  so \(\phi \psi=\psi \phi\).
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Prove that if \(k\) is algebraically closed, then \(\phi\) and
+  \(\psi\) have a common eigenvector.
+\item
+  Prove that if \(E\) has a basis consisting of eigenvectors of \(\phi\)
+  and \(E\) has a basis consisting of eigenvectors of \(\psi\), then
+  \(E\) has a basis consisting of vectors that are eigenvectors for both
+  \(\phi\) and \(\psi\) simultaneously.
+\end{itemize}
+
+\hypertarget{galois-theory-1}{%
+\subsection{Galois Theory}\label{galois-theory-1}}
+
+\begin{quote}
+Taken from here:
+\url{https://math.ucr.edu/~mpierce/teaching/qual-algebra/fun/galois/}
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Suppose that for an extension field \(F\) over \(K\) and for
+  \(a \in F\), we have that \(b \in F\) is algebraic over \(K(a)\) but
+  transcendental over \(K\). Prove that \(a\) is algebraic over
+  \(K(b)\).
+\item
+  Suppose that for a field \(F / K\) that \(a \in F\) is algebraic and
+  has odd degree over \(K\). Prove that \(a^{2}\) is also algebraic and
+  has odd degree over \(K\), and furthermore that
+  \(K(a)=K\left(a^{2}\right)\)
+\item
+  For a polynomial \(f \in K[x]\), prove that if \(r \in F\) is a root
+  of \(f\) then for any \(\sigma \in \mathbf{A u t}_{K} F, \sigma(r)\)
+  is also a root of \(f\)
+\item
+  Prove that as extensions of \(\boldsymbol{Q}, \boldsymbol{Q}(x)\) is
+  Galois over \(\boldsymbol{Q}\left(x^{2}\right)\) but not over
+  \(\boldsymbol{Q}\left(x^{3}\right)\).
+\item
+  If \(F\) is over \(E\), and \(E\) is \(\quad\) over \(K\) is \(F\)
+  necessarily over \(K\) ? Answer this question for each of the words
+  ``algebraic,'' ``normal,'' and ``separable'' in the blanks.
+\item
+  If \(F\) is over \(K\), and \(E\) is an intermediate extension of
+  \(F\) over \(K\), is \(F\) necessarily over \(E ?\) Answer this
+  question for each of the words ``algebraic,'' ``normal,'' and
+  ``separable'' in the blanks.
+\item
+  If \(F\) is some (not necessarily Galois) field extension over \(K\)
+  such that \([F: K]=6\) and Aut \(_{K} F \simeq S_{3}\), then \(F\) is
+  the splitting field of an irreducible cubic over \(K[x]\).
+\item
+  Recall the definition of the join of two subgroups \(H \vee G\) (or
+  \(H+G\) ). For \(F\) a finite dimensional Galois extension over \(K\)
+  and let \(A\) and \(B\) be intermediate extensions. Prove that
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \(\operatorname{Aut}_{A B} F=\mathrm{Aut}_{A} F \cap \mathrm{Aut}_{B} F\)
+\item
+  Aut \(_{A \cap B} F=\mathrm{Aut}_{A} F \vee \mathrm{Aut}_{B} F\)
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{8}
+\tightlist
+\item
+  For a field \(K\) take \(f \in K[x]\) and let
+  \(n=\operatorname{deg} f\). Prove that for a splitting field \(F\) of
+  \(f\) over \(K\) that \([F: K] \leq n !\). Furthermore prove that
+  \([F: K]\) divides \(n !\).
+\item
+  Let \(F\) be the splitting field of \(f \in K[x]\) over \(K\). Prove
+  that if \(g \in K[x]\) is irreducible and has a root in \(F\), then
+  \(g\) splits into linear factors over \(F\).
+\item
+  Prove that a finite field cannot be algebraically closed.
+\item
+  For \(u=\sqrt{2+\sqrt{2}}\), What is the Galois group of
+  \(\boldsymbol{Q}(u)\) over \(\boldsymbol{Q} ?\) What are the
+  intermediate fields of the extension \(\boldsymbol{Q}(u)\) over
+  \(\boldsymbol{Q}\) ?
+\item
+  Characterize the splitting field and all intermediate fields of the
+  polynomial
+  \(\left(x^{2}-2\right)\left(x^{2}-3\right)\left(x^{2}-5\right)\) over
+  \(Q\). Using this characterization, find a primitive element of the
+  splitting field.
+\item
+  Characterize the splitting field and all intermediate fields of the
+  polynomial \(x^{4}-3\) over \(Q\)
+\item
+  Consider the polynomial \(f=x^{3}-x+1\) in \(\boldsymbol{F}_{3}[x]\).
+  Prove that \(f\) is irreducible. Calculate the degree of the splitting
+  field of \(f\) over \(\boldsymbol{F}_{3}\) and the cardinality of the
+  splitting field of \(f\).
+\item
+  Given an example of a finite extension of fields that has infinitely
+  many intermediate fields.
+\item
+  Let \(u=\sqrt{3+\sqrt{2}}\). Is \(\boldsymbol{Q}(u)\) a splitting
+  field of \(u\) over \(\boldsymbol{Q}\) ? (MathSE)
+\item
+  Prove that the multiplicative group of units of a finite field must be
+  cyclic, and so is generated by a single element.
+\item
+  Prove that \(\boldsymbol{F}_{p^{n}}\) is the splitting field of
+  \(x^{p^{n}}-x\) over \(\boldsymbol{F}_{p}\).
+\item
+  Prove that for any positive integer \(n\) there is an irreducible
+  polynomial of degree \(n\) over \(\boldsymbol{F}_{p}\)
+\item
+  Recall the definition of a perfect field. Give an example of an
+  imperfect field, and the prove that every finite field is perfect.
+\item
+  For \(n>2\) let \(\zeta_{n}\) denote a primitive \(n\) th root of
+  unity over \(Q\). Prove that
+  \begin{align*}
+  \left[\boldsymbol{Q}\left(\zeta_{n}+\zeta_{n}^{-1}: \boldsymbol{Q}\right)\right]=\frac{1}{2} \varphi(n)
+  \end{align*}
+  where \(\varphi\) is Euler's totient function.
+\item
+  Suppose that a field \(K\) with characteristic not equal to 2 contains
+  an primitive \(n\) th root of unity for some odd integer \(n\). Prove
+  that \(K\) must also contain a primitive \(2 n\) th root of unity.
+\item
+  Prove that the Galois group of the polynomial \(x^{n}-1\) over \(Q\)
+  is abelian.
+\end{enumerate}
+
+\hypertarget{commutative-algebra-1}{%
+\subsection{Commutative Algebra}\label{commutative-algebra-1}}
+
+\begin{itemize}
+\item
+  Show that a finitely generated module over a Noetherian local ring is
+  flat iff it is free using Nakayama and Tor.
+\item
+  Show that
+  \(\left\langle{ 2, x }\right\rangle{~\trianglelefteq~}{\mathbb{Z}}[x]\)
+  is not a principal ideal.
+\item
+  Let \(R\) be a Noetherian ring and \(A,B\) algebras over \(R\).
+  Suppose \(A\) is finite type over \(R\) and finite over B. Then \(B\)
+  is finite type over \(R\).
+\end{itemize}
+
+\hypertarget{group-theory}{%
+\subsection{Group Theory}\label{group-theory}}
+
+\hypertarget{centralizing-and-normalizing}{%
+\subsubsection{Centralizing and
+Normalizing}\label{centralizing-and-normalizing}}
+
+\begin{itemize}
+\item
+  Show that \(C_G(H) \subseteq N_G(H) \leq G\).
+\item
+  Show that \(Z(G) \subseteq C_G(H) \subseteq N_G(H)\).
+\item
+  Given \(H\subseteq G\), let \(S(H)= \bigcup_{g\in G} gHg^{-1}\), so
+  \({\left\lvert {S(H)} \right\rvert}\) is the number of conjugates to
+  \(H\). Show that \({\left\lvert {S(H)} \right\rvert} = [G : N_G(H)]\).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    That is, the number of subgroups conjugate to \(H\) equals the index
+    of the normalizer of \(H\).
+  \end{itemize}
+\item
+  Show that \(Z(G) = \bigcap_{a\in G} C_G(a)\).
+\item
+  Show that the centralizer \(G_G(H)\) of a subgroup is again a
+  subgroup.
+\item
+  Show that \(C_G(H) {~\trianglelefteq~}N_G(H)\) is a normal subgroup.
+\item
+  Show that \(C_G(G) = Z(G)\).
+\item
+  Show that for \(H\leq G\), \(C_H(x) = H \cap C_G(x)\).
+\item
+  Let \(H, K \leq G\) a finite group, and without using the normalizers
+  of \(H\) or \(K\), show that
+  \({\left\lvert {HK} \right\rvert} = {\left\lvert {H} \right\rvert} {\left\lvert {K} \right\rvert}/{\left\lvert {H\cap K} \right\rvert}\).
+\item
+  Show that if \(H \leq N_G(K)\) then \(HK \leq H\), and give a
+  counterexample showing that this condition is necessary.
+\item
+  Show that \(HK\) is a subgroup of \(G\) iff \(HK = KH\).
+\item
+  Prove that the kernel of a homomorphism is a normal subgroup.
+\end{itemize}
+
+\hypertarget{primes-in-group-theory}{%
+\subsubsection{Primes in Group Theory}\label{primes-in-group-theory}}
+
+\begin{itemize}
+\item
+  Show that any group of prime order is cyclic and simple.
+\item
+  Analyze groups of order \(pq\) with \(q<p\).
+
+  \begin{quote}
+  Hint: consider the cases when \(p\) does or does not divide \(q-1\).
+  \end{quote}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Show that if \(q\) does not divide \(p-1\), then \(G\) is cyclic.
+  \item
+    Show that \(G\) is never simple.
+  \end{itemize}
+\item
+  Analyze groups of order \(p^2 q\).
+
+  \begin{quote}
+  Hint: Consider the cases when \(q\) does or does not divide
+  \(p^2 - 1\).
+  \end{quote}
+\item
+  Show that no group of order \(p^2 q^2\) is simple for \(p<q\) primes.
+\item
+  Show that a group of order \(p^2 q^2\) has a normal Sylow subgroup.
+\item
+  Show that a group of order \(p^2 q^2\) where \(q\) does not divide
+  \(p^2-1\) and \(p\) does not divide \(q^2-1\) is abelian.
+\item
+  Show that every group of order \(pqr\) with \(p<q<r\) primes contains
+  a normal Sylow subgroup.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Show that \(G\) is never simple.
+  \end{itemize}
+\item
+  Let \(p\) be a prime and \({\left\lvert {G} \right\rvert} = p^3\).
+  Prove that \(G\) has a normal subgroup \(N\) of order \(p^2\).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Suppose \(N = \left\langle{h}\right\rangle\) is cyclic and classify
+    all possibilities for \(G\) if:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \({\left\lvert {h} \right\rvert} = p^3\)
+    \item
+      \({\left\lvert {h} \right\rvert} = p\).
+    \end{itemize}
+
+    \begin{quote}
+    Hint: Sylow and semidirect products.
+    \end{quote}
+  \end{itemize}
+\item
+  Show that any normal \(p{\hbox{-}}\) subgroup is contained in every
+  Sylow \(p{\hbox{-}}\)subgroup of \(G\).
+\item
+  Show that the order of \(1+p\) in
+  \(\qty{{\mathbb{Z}}/p^2{\mathbb{Z}}}^{\times}\) is equal to \(p\). Use
+  this to construct a non-abelian group of order \(p^3\).
+\end{itemize}
+
+\hypertarget{p-groups}{%
+\subsubsection{p-Groups}\label{p-groups}}
+
+\begin{itemize}
+\item
+  Show that every \(p{\hbox{-}}\)group has a nontrivial center.
+\item
+  Show that every \(p{\hbox{-}}\)group is nilpotent.
+\item
+  Show that every \(p{\hbox{-}}\)group is solvable.
+\item
+  Show that every maximal subgroup of a \(p{\hbox{-}}\)group has index
+  \(p\).
+\item
+  Show that every maximal subgroup of a \(p{\hbox{-}}\)group is normal.
+\item
+  Show that every group of order \(p\) is cyclic.
+\item
+  Show that every group of order \(p^2\) is abelian and classify them.
+\item
+  Show that every normal subgroup of a \(p{\hbox{-}}\)group is contained
+  in the center.
+
+  \begin{quote}
+  Hint: Consider \(G/Z(G)\).
+  \end{quote}
+\item
+  Let \(O_P(G)\) be the intersection of all Sylow
+  \(p{\hbox{-}}\)subgroups of \(G\). Show that
+  \(O_p(G) {~\trianglelefteq~}G\), is maximal among all normal
+  \(p{\hbox{-}}\)subgroups of \(G\)
+\item
+  Let \(P\in {\operatorname{Syl}}_p(H)\) where \(H{~\trianglelefteq~}G\)
+  and show that \(P\cap H \in {\operatorname{Syl}}_p(H)\).
+\item
+  Show that Sylow \(p_i{\hbox{-}}\)subgroups \(S_{p_1}, S_{p_2}\) for
+  distinct primes \(p_1\neq p_2\) intersect trivially.
+\item
+  Show that in a \(p\) group, every normal subgroup intersects the
+  center nontrivially.
+\end{itemize}
+
+\hypertarget{symmetric-groups}{%
+\subsubsection{Symmetric Groups}\label{symmetric-groups}}
+
+Specific Groups
+
+\begin{itemize}
+\tightlist
+\item
+  Show that the center of \(S_3\) is trivial.
+\item
+  Show that \(Z(S_n) = 1\) for \(n\geq 3\)
+\item
+  Show that
+  \(\mathop{\mathrm{Aut}}(S_3) = \mathop{\mathrm{Inn}}(S_3) \cong S_3\).
+\item
+  Show that the transitive subgroups of \(S_3\) are \(S_3, A_3\)
+\item
+  Show that the transitive subgroups of \(S_4\) are
+  \(S_4, A_4, D_4, {\mathbb{Z}}_2^2, {\mathbb{Z}}_4\).
+\item
+  Show that \(S_4\) has two normal subgroups: \(A_4, {\mathbb{Z}}_2^2\).
+\item
+  Show that \(S_{n\geq 5}\) has one normal subgroup: \(A_n\).
+\item
+  \(Z(A_n) = 1\) for \(n\geq 4\)
+\item
+  Show that \([S_n, S_n] = A_n\)
+\item
+  Show that \([A_4, A_4] \cong {\mathbb{Z}}_2^2\)
+\item
+  Show that \([A_n, A_n] = A_n\) for \(n\geq 5\), so \(A_{n\geq 5}\) is
+  nonabelian.
+\end{itemize}
+
+General Structure
+
+\begin{itemize}
+\tightlist
+\item
+  Show that an \(m{\hbox{-}}\)cycle is an odd permutation iff \(m\) is
+  an even number.
+\item
+  Show that a permutation is odd iff it has an odd number of even
+  cycles.
+\item
+  Show that the center of \(S_n\) for \(n\geq 4\) is nontrivial.
+\item
+  Show that disjoint cycles commute.
+\item
+  Show directly that any \(k{\hbox{-}}\)cycle is a product of
+  transpositions, and determine how many transpositions are needed.
+\end{itemize}
+
+Generating Sets
+
+\begin{itemize}
+\item
+  Show that \(S_n\) is generated by any of the following types of
+  cycles:
+
+  \includegraphics{figures/image_2020-06-12-20-22-43.png}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Show that \(S_n\) is generated by transpositions.
+  \item
+    Show that \(S_n\) is generated by \emph{adjacent} transpositions.
+  \item
+    Show that \(S_n\) is generated by
+    \(\left\{{(12), (12\cdots n)}\right\}\) for \(n\geq 2\)
+  \item
+    Show that \(S_n\) is generated by
+    \(\left\{{(12), (23\cdots n)}\right\}\) for \(n\geq 3\)
+  \item
+    Show that \(S_n\) is generated by
+    \(\left\{{(ab), (12\cdots n)}\right\}\) where \(1\leq a<b\leq n\)
+    iff \(\gcd(b-a, n) = 1\).
+  \item
+    Show that \(S_p\) is generated by any arbitrary transposition and
+    any arbitrary \(p{\hbox{-}}\)cycle.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{alternating-groups}{%
+\subsubsection{Alternating Groups}\label{alternating-groups}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that \(A_n\) is generated \(3{\hbox{-}}\)cycles.
+\item
+  Prove that \(A_n\) is normal in \(S_n\).
+\item
+  Argue that \(A_n\) is simple for \(n \geq 5\).
+\item
+  Show that \(\mathop{\mathrm{Out}}(A_4)\) is nontrivial.
+\end{itemize}
+
+\hypertarget{dihedral-groups}{%
+\subsubsection{Dihedral Groups}\label{dihedral-groups}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that if \(N{~\trianglelefteq~}D_n\) is a normal subgroup of a
+  dihedral group, then \(D_n/N\) is again a dihedral group.
+\end{itemize}
+
+\hypertarget{other-groups}{%
+\subsubsection{Other Groups}\label{other-groups}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that \({\mathbb{Q}}\) is not finitely generated as a group.
+\item
+  Show that the Quaternion group has only one element of order 2, namely
+  \(-1\).
+\end{itemize}
+
+\hypertarget{classification}{%
+\subsubsection{Classification}\label{classification}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that no group of order 36 is simple.
+\item
+  Show that no group of order 90 is simple.
+\item
+  Classifying all groups of order 99.
+\item
+  Show that all groups of order 45 are abelian.
+\item
+  Classify all groups of order 10.
+\item
+  Classify the five groups of order 12.
+\item
+  Classify the four groups of order 28.
+\item
+  Show that if \({\left\lvert {G} \right\rvert} = 12\) and has a normal
+  subgroup of order 4, then \(G \cong A_4\).
+\item
+  Suppose
+  \({\left\lvert {G} \right\rvert} = 240 = s^4 \cdot 3 \cdot 5\).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    How many Sylow-\(p\) subgroups does \(G\) have for
+    \(p\in \left\{{2, 3, 5}\right\}\)?
+  \item
+    Show that if \(G\) has a subgroup of order 15, it has an element of
+    order 15.
+  \item
+    Show that if \(G\) does not have such a subgroup, the number of
+    Sylow-\(3\) subgroups is either 10 or 40.
+  \end{itemize}
+
+  \begin{quote}
+  Hint: Sylow on the subgroup of order 15 and semidirect products.
+  \end{quote}
+\end{itemize}
+
+\hypertarget{group-actions}{%
+\subsubsection{Group Actions}\label{group-actions}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that the stabilizer of an element \(G_x\) is a subgroup of \(G\).
+\item
+  Show that if \(x, y\) are in the same orbit, then their stabilizers
+  are conjugate.
+\item
+  Show that the stabilizer of an element need not be a normal subgroup?
+\item
+  Show that if \(G \curvearrowright X\) is a group action, then the
+  stabilizer \(G_x\) of a point is a subgroup.
+\end{itemize}
+
+\hypertarget{series-of-groups}{%
+\subsubsection{Series of Groups}\label{series-of-groups}}
+
+\begin{itemize}
+\item
+  Show that \(A_n\) is simple for \(n\geq 5\)
+\item
+  Give a necessary and sufficient condition for a cyclic group to be
+  solvable.
+\item
+  Prove that every simple abelian group is cyclic.
+\item
+  Show that \(S_n\) is generated by disjoint cycles.
+\item
+  Show that \(S_n\) is generated by transpositions.
+\item
+  Show if \(G\) is finite, then \(G\) is solvable \(\iff\) all of its
+  composition factors are of prime order.
+\item
+  Show that if \(N\) and \(G/N\) are solvable, then \(G\) is solvable.
+\item
+  Show that if \(G\) is finite and solvable then every composition
+  factor has prime order.
+\item
+  Show that \(G\) is solvable iff its derived series terminates.
+\item
+  Show that \(S_3\) is not nilpotent.
+\item
+  Show that \(G\) nilpotent \(\implies G\) solvable
+\item
+  Show that nilpotent groups have nontrivial centers.
+\item
+  Show that Abelian \(\implies\) nilpotent
+\item
+  Show that p-groups \(\implies\) nilpotent
+\end{itemize}
+
+\hypertarget{misc}{%
+\subsubsection{Misc}\label{misc}}
+
+\begin{itemize}
+\item
+  Prove Burnside's theorem.
+\item
+  Show that \(\mathop{\mathrm{Inn}}(G) {~\trianglelefteq~}Aut(G)\)
+\item
+  Show that \(\mathop{\mathrm{Inn}}(G) \cong G / Z(G)\)
+\item
+  Show that the kernel of the map \(G\to \mathop{\mathrm{Aut}}(G)\)
+  given by \(g\mapsto (h\mapsto ghg^{-1})\) is \(Z(G)\).
+\item
+  Show that \(N_G(H) / C_G(H) \cong A \leq Aut(H)\)
+\item
+  Give an example showing that normality is not transitive:
+  i.e.~\(H{~\trianglelefteq~}K {~\trianglelefteq~}G\) with \(H\)
+  \emph{not} normal in \(G\).
+\end{itemize}
+
+\hypertarget{nonstandard-topics}{%
+\subsubsection{Nonstandard Topics}\label{nonstandard-topics}}
+
+\begin{itemize}
+\item
+  Show that \(H~\text{char}~G \Rightarrow H \unlhd G\)
+
+  \begin{quote}
+  Thus ``characteristic'' is a strictly stronger condition than
+  normality
+  \end{quote}
+\item
+  Show that
+  \(H ~\text{char}~ K ~\text{char}~G \Rightarrow H ~\text{char}~ G\)
+
+  \begin{quote}
+  So ``characteristic'' is a transitive relation for subgroups.
+  \end{quote}
+\item
+  Show that if \(H \leq G\), \(K{~\trianglelefteq~}G\) is a normal
+  subgroup, and \(H~\text{char}~K\) then \(H\) is normal in \(G\).
+
+  \begin{quote}
+  So normality is not transitive, but strengthening one to
+  ``characteristic'' gives a weak form of transitivity.
+  \end{quote}
+\end{itemize}
+
+\hypertarget{ring-theory}{%
+\subsection{Ring Theory}\label{ring-theory}}
+
+\hypertarget{basic-structure}{%
+\subsubsection{Basic Structure}\label{basic-structure}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that if an ideal \(I{~\trianglelefteq~}R\) contains a unit then
+  \(I = R\).
+\item
+  Show that \(R^{\times}\) need not be closed under addition.
+\end{itemize}
+
+\hypertarget{ideals}{%
+\subsubsection{Ideals}\label{ideals}}
+
+\begin{itemize}
+\tightlist
+\item
+  \(\star\) Show that if \(x\) is not a unit, then \(x\) is contained in
+  some maximal ideal.
+\end{itemize}
+
+\begin{problem}[Units or Zero Divisors]
+
+Every \(a\in R\) for a finite ring is either a unit or a zero divisor.
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\begin{problem}[Maximal implies prime]
+
+Maximal \(\implies\) prime, but generally not the converse.
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that every proper ideal is contained in a maximal ideal
+\item
+  Show that if \(x\in R\) a PID, then \(x\) is irreducible
+  \(\iff \left\langle{x}\right\rangle{~\trianglelefteq~}R\) is maximal.
+\item
+  Show that intersections, products, and sums of ideals are ideals.
+\item
+  Show that the union of two ideals need not be an ideal.
+\item
+  Show that every ring has a proper maximal ideal.
+\item
+  Show that \(I{~\trianglelefteq~}R\) is maximal iff \(R/I\) is a field.
+\item
+  Show that \(I {~\trianglelefteq~}R\) is prime iff \(R/I\) is an
+  integral domain.
+\item
+  Show that
+  \(\cup_{{\mathfrak{m}}\in {\operatorname{maxSpec}}(R)} = R\setminus R^{\times}\).
+\item
+  Show that
+  \({\operatorname{maxSpec}}(R) \subsetneq \operatorname{Spec}(R)\) but
+  the containment is strict.
+\item
+  Show that every prime ideal is radical.
+\item
+  Show that the nilradical is given by \({\sqrt{0_{R}} } = \sqrt{(}0)\).
+\item
+  Show that \(\text{rad}(IJ) = \text{rad}(I) \cap\text{rad}(J)\)
+\item
+  Show that if
+  \(\operatorname{Spec}(R) \subseteq {\operatorname{maxSpec}}(R)\) then
+  \(R\) is a UFD.
+\item
+  Show that if \(R\) is Noetherian then every ideal is finitely
+  generated.
+\end{itemize}
+
+\hypertarget{characterizing-certain-ideals}{%
+\subsubsection{Characterizing Certain
+Ideals}\label{characterizing-certain-ideals}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that for an ideal \(I{~\trianglelefteq~}R\), its radical is the
+  intersection of all prime ideals containing \(I\).
+\item
+  Show that \(\sqrt{I}\) is the intersection of all prime ideals
+  containing \(I\).
+\end{itemize}
+
+\begin{problem}[Jacobson radical is bigger than the nilradical]
+
+The nilradical is contained in the Jacobson radical, i.e.
+\begin{align*}
+{\sqrt{0_{R}} } \subseteq J(R)
+.\end{align*}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\begin{problem}[Mod by nilradical to kill nilpotents]
+
+\(R/ {\sqrt{0_{R}} }\) has no nonzero nilpotent elements.
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\begin{problem}[Nilradical is intersection of primes]
+
+The nilradical is the intersection of all prime ideals, i.e.
+\begin{align*}
+{\sqrt{0_{R}} } = \displaystyle\bigcap_{\mathfrak{p} \in \operatorname{Spec}(R)} \mathfrak{p}
+\end{align*}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{misc-1}{%
+\subsubsection{Misc}\label{misc-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that localizing a ring at a prime ideal produces a local ring.
+\item
+  Show that \(R\) is a local ring iff for every \(x\in R\), either \(x\)
+  or \(1-x\) is a unit.
+\item
+  Show that if \(R\) is a local ring then \(R\setminus R^{\times}\) is a
+  proper ideal that is contained in the Jacobson radical \(J(R)\).
+\item
+  Show that if \(R\neq 0\) is a ring in which every non-unit is
+  nilpotent then \(R\) is local.
+\item
+  Show that every prime ideal is primary.
+\item
+  Show that every prime ideal is irreducible.
+\end{itemize}
+
+\hypertarget{field-theory}{%
+\subsection{Field Theory}\label{field-theory}}
+
+General Algebra
+
+\begin{itemize}
+\tightlist
+\item
+  Show that any finite integral domain is a field.
+\item
+  Show that every field is simple.
+\item
+  Show that any field morphism is either 0 or injective.
+\item
+  Show that if \(L/F\) and \(\alpha\) is algebraic over both \(F\) and
+  \(L\), then the minimal polynomial of \(\alpha\) over \(L\) divides
+  the minimal polynomial over \(F\).
+\item
+  Prove that if \(R\) is an integral domain, then \(R[t]\) is again an
+  integral domain.
+\item
+  Show that \(ff(R[t]) = ff(R)(t)\).
+\item
+  Show that \([{\mathbb{Q}}(\sqrt 2 + \sqrt 3) : {\mathbb{Q}}] = 4\).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Show that
+    \({\mathbb{Q}}(\sqrt 2 + \sqrt 3) = {\mathbb{Q}}(\sqrt 2 - \sqrt 3) = {\mathbb{Q}}(\sqrt 2, \sqrt 3)\).
+  \end{itemize}
+\item
+  Show that the splitting field of \(f(x) = x^3-2\) is
+  \({\mathbb{Q}}(\sqrt[3]{2}, \zeta_2)\).
+\end{itemize}
+
+Extensions?
+
+\begin{itemize}
+\tightlist
+\item
+  What is \([{\mathbb{Q}}(\sqrt 2 + \sqrt 3): {\mathbb{Q}}]\)?
+\item
+  What is \([{\mathbb{Q}}(2^{3\over 2}) : {\mathbb{Q}}]\)?
+\item
+  Show that if \(p\in {\mathbb{Q}}[x]\) and \(r\in {\mathbb{Q}}\) is a
+  rational root, then in fact \(r\in {\mathbb{Z}}\).
+\item
+  If \(\left\{{\alpha_i}\right\}_{i=1}^n \subset F\) are algebraic over
+  \(K\), show that
+  \(K[\alpha_1, \cdots, \alpha_n] = K(\alpha_1, \cdots, \alpha_n)\).
+\item
+  Show that \(\alpha/F\) is algebraic \(\iff F(\alpha)/F\) is a finite
+  extension.
+\item
+  Show that every finite field extension is algebraic.
+\item
+  Show that if \(\alpha, \beta\) are algebraic over \(F\), then
+  \(\alpha\pm \beta, \alpha\beta^{\pm 1}\) are all algebraic over \(F\).
+\item
+  Show that if \(L/K/F\) with \(K/F\) algebraic and \(L/K\) algebraic
+  then \(L\) is algebraic.
+\end{itemize}
+
+Special Polynomials
+
+\begin{itemize}
+\tightlist
+\item
+  Show that a field with \(p^n\) elements has exactly one subfield of
+  size \(p^d\) for every \(d\) dividing \(n\).
+\item
+  Show that \(x^{p^n} - x = \prod f_i(x)\) over all irreducible monic
+  \(f_i\) of degree \(d\) dividing \(n\).
+\item
+  Show that \(x^{p^d} - x \divides x^{p^n} - x \iff d \divides n\)
+\item
+  Prove that \(x^{p^n}-x\) is the product of all monic irreducible
+  polynomials in \({\mathbb{F}}_p[x]\) with degree dividing \(n\).
+\item
+  Prove that an irreducible \(\pi(x)\in {\mathbb{F}}_p[x]\) divides
+  \(x^{p^n}-x \iff \deg \pi(x)\) divides \(n\).
+\end{itemize}
+
+\hypertarget{galois-theory-2}{%
+\subsection{Galois Theory}\label{galois-theory-2}}
+
+\hypertarget{theory}{%
+\subsubsection{Theory}\label{theory}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that if \(K/F\) is the splitting field of a separable polynomial
+  then it is Galois.
+\item
+  Show that any quadratic extension of a field \(F\) with
+  \(\operatorname{ch}(F)\neq 2\) is Galois.
+\item
+  Show that if \(K/E/F\) with \(K/F\) Galois then \(K/E\) is always
+  Galois with \(g(K/E) \leq g(K/F)\).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Show additionally \(E/F\) is Galois
+    \(\iff g(K/E) {~\trianglelefteq~}g(K/F)\).
+  \item
+    Show that in this case, \(g(E/F) = g(K/F) / g(K/E)\).
+  \end{itemize}
+\item
+  Show that if \(E/k, F/k\) are Galois with \(E\cap F = k\), then
+  \(EF/k\) is Galois and \(G(EF/k) \cong G(E/k)\times G(F/k)\).
+\end{itemize}
+
+\hypertarget{computations}{%
+\subsubsection{Computations}\label{computations}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that the Galois group of \(x^n - 2\) is \(D_n\), the dihedral
+  group on \(n\) vertices.
+\item
+  Compute all intermediate field extensions of
+  \({\mathbb{Q}}(\sqrt 2, \sqrt 3)\), show it is equal to
+  \({\mathbb{Q}}(\sqrt 2 + \sqrt 3)\), and find a corresponding minimal
+  polynomial.
+\end{itemize}
+
+\includegraphics{figures/image_2020-06-01-20-56-35.png}
+
+\begin{itemize}
+\tightlist
+\item
+  Compute all intermediate field extensions of
+  \({\mathbb{Q}}(2^{1\over 4}, \zeta_8)\).
+\item
+  Show that \({\mathbb{Q}}(2^{1\over 3})\) and
+  \({\mathbb{Q}}(\zeta_3 2^{1\over 3})\)
+\item
+  Show that if \(L/K\) is separable, then \(L\) is normal \(\iff\) there
+  exists a polynomial \(p(x) = \prod_{i=1}^n x- \alpha_i\in K[x]\) such
+  that \(L = K(\alpha_1, \cdots, \alpha_n)\) (so \(L\) is the splitting
+  field of \(p\)).
+\item
+  Is \({\mathbb{Q}}(2^{1\over 3})/{\mathbb{Q}}\) normal?
+\item
+  Show that \({\mathbb{GF}}(p^n)\) is the splitting field of
+  \(x^{p^n} - x \in {\mathbb{F}}_p[x]\).
+\item
+  Show that
+  \({\mathbb{GF}}(p^d) \leq {\mathbb{GF}}(p^n) \iff d\divides n\)
+\item
+  Compute the Galois group of \(x^n - 1 \in {\mathbb{Q}}[x]\) as a
+  function of \(n\).
+\item
+  Identify all of the elements of the Galois group of \(x^p-2\) for
+  \(p\) an odd prime (note: this has a complicated presentation).
+\item
+  Show that
+  \({ \operatorname{Gal}} (x^{15}+2)/{\mathbb{Q}}\cong S_2 \rtimes{\mathbb{Z}}/15{\mathbb{Z}}\)
+  for \(S_2\) a Sylow \(2{\hbox{-}}\)subgroup.
+\item
+  Show that \({ \operatorname{Gal}} (x^3+4x+2)/{\mathbb{Q}}\cong S_3\),
+  a symmetric group.
+\end{itemize}
+
+\hypertarget{modules-and-linear-algebra}{%
+\subsection{Modules and Linear
+Algebra}\label{modules-and-linear-algebra}}
+
+\begin{itemize}
+\tightlist
+\item
+  Prove the Cayley-Hamilton theorem.
+\item
+  Prove that the minimal polynomial divides the characteristic
+  polynomial.
+\item
+  Prove that the cokernel of
+  \(A\in \operatorname{Mat}(n\times n, {\mathbb{Z}})\) is finite
+  \(\iff \operatorname{det}A \neq 0\), and show that in this case
+  \({\left\lvert {\operatorname{coker}(A)} \right\rvert} = {\left\lvert {\operatorname{det}(A)} \right\rvert}\).
+\item
+  Show that a nilpotent operator is diagonalizable.
+\item
+  Show that if \(A,B\) are diagonalizable and \([A, B] = 0\) then
+  \(A,B\) are simultaneously diagonalizable.
+\item
+  Does diagonalizable imply invertible? The converse?
+\item
+  Does diagonalizable imply distinct eigenvalues?
+\item
+  Show that if a matrix is diagonalizable, its minimal polynomial is
+  squarefree.
+\item
+  Show that a matrix representing a linear map \(T:V\to V\) is
+  diagonalizable iff \(V\) is a direct sum of eigenspaces
+  \(V = \bigoplus_i \ker(T -\lambda_i I)\).
+\item
+  Show that if \(\left\{{\mathbf{v}_i}\right\}\) is a basis for \(V\)
+  where \(\dim(V) = n\) and
+  \(T(\mathbf{v}_i) = \mathbf{v}_{i+1 \operatorname{mod}n}\) then \(T\)
+  is diagonalizable with minimal polynomial \(x^n-1\).
+\item
+  Show that if the minimal polynomial of a linear map \(T\) is
+  irreducible, then every \(T{\hbox{-}}\)invariant subspace has a
+  \(T{\hbox{-}}\)invariant complement.
+\end{itemize}
+
+\hypertarget{linear-algebra-1}{%
+\subsection{Linear Algebra}\label{linear-algebra-1}}
+
+\todo[inline]{Sort out from module section.}
+
+\hypertarget{even-more-algebra-questions}{%
+\section{Even More Algebra
+Questions}\label{even-more-algebra-questions}}
+
+\begin{remark}
+
+(DZG): These all come from a random PDF I found, but I couldn't find the
+original author/source!
+
+\end{remark}
+
+\hypertarget{groups}{%
+\subsection{Groups}\label{groups}}
+
+\hypertarget{question-1.1}{%
+\subsubsection{Question 1.1}\label{question-1.1}}
+
+What is a normal subgroup? Can you get some natural map from a normal
+subgroup? What topological objects can the original group, normal
+subgroup, and quotient group relate to?
+
+\hypertarget{question-1.2}{%
+\subsubsection{Question 1.2}\label{question-1.2}}
+
+Prove that a subgroup of index two is normal.
+
+\hypertarget{question-1.3}{%
+\subsubsection{Question 1.3}\label{question-1.3}}
+
+Find all normal subgroups of \(A_4\).
+
+\hypertarget{question-1.4}{%
+\subsubsection{Question 1.4}\label{question-1.4}}
+
+Give an interesting example of a non-normal subgroup. Is
+\({\operatorname{SO}}(2)\) normal inside \(SL_2(R)\)?
+
+\hypertarget{question-1.5}{%
+\subsubsection{Question 1.5}\label{question-1.5}}
+
+Is normality transitive? That is, is a normal subgroup of a normal
+subgroup normal in the biggest group?
+
+\hypertarget{question-1.6.}{%
+\subsubsection{Question 1.6.}\label{question-1.6.}}
+
+Define a solvable group. Give an example of a solvable nonabelian group.
+
+Show \(A_4\) is solvable. Do the Sylow theorems tell you anything about
+whether this index 3 subgroup of \(A_4\) is normal?
+
+\hypertarget{question-1.7}{%
+\subsubsection{Question 1.7}\label{question-1.7}}
+
+Define lower central series, upper central series, nilpotent and
+solvable groups.
+
+\hypertarget{question-1.8}{%
+\subsubsection{Question 1.8}\label{question-1.8}}
+
+Define the derived series. Define the commutator. State and prove two
+nontrivial theorems about derived series.
+
+\hypertarget{question-1.9}{%
+\subsubsection{Question 1.9}\label{question-1.9}}
+
+Prove that \(SL_2(Z)\) is not solvable.
+
+\hypertarget{question-1.10}{%
+\subsubsection{Question 1.10}\label{question-1.10}}
+
+What are all possible orders of elements of
+\({\operatorname{SL}}_2(Z)\)?
+
+\hypertarget{question-1.11}{%
+\subsubsection{Question 1.11}\label{question-1.11}}
+
+Can you show that all groups of order \(p^n\) for \(p\) prime are
+solvable? Do you know how to do this for groups of order \(p^r q^s\)?
+
+\hypertarget{question-1.12}{%
+\subsubsection{Question 1.12}\label{question-1.12}}
+
+Suppose a \(p{\hbox{-}}\)group acts on a set whose cardinality is not
+divisible by \(p\) (\(p\) prime). Prove that there is a fixed point for
+the action.
+
+\hypertarget{question-1.13}{%
+\subsubsection{Question 1.13}\label{question-1.13}}
+
+Prove that the centre of a group of order \(pr\) (\(p\) prime) is not
+trivial.
+
+\hypertarget{question-1.14}{%
+\subsubsection{Question 1.14}\label{question-1.14}}
+
+Give examples of simple groups. Are there infinitely many?
+
+\hypertarget{question-1.15}{%
+\subsubsection{Question 1.15}\label{question-1.15}}
+
+State and prove the Jordan-Holder theorem for finite groups.
+
+\hypertarget{question-1.16}{%
+\subsubsection{Question 1.16}\label{question-1.16}}
+
+What's Cayley's theorem? Give an example of a group of order \(n\) that
+embeds in \(S_m\) for some \(m\) smaller than \(n\).
+
+Give an example of a group where you have to use \(S_n\).
+
+\hypertarget{question-1.17}{%
+\subsubsection{Question 1.17}\label{question-1.17}}
+
+Is \(A_4\) a simple group? What are the conjugacy classes in \(S_4\)?
+What about in \(A_4\)?
+
+\hypertarget{question-1.18}{%
+\subsubsection{Question 1.18}\label{question-1.18}}
+
+Talk about conjugacy classes in the symmetric group \(S_n\).
+
+\hypertarget{question-1.19}{%
+\subsubsection{Question 1.19}\label{question-1.19}}
+
+When do conjugacy classes in \(S_n\) split in \(A_n\)?
+
+\hypertarget{question-1.20}{%
+\subsubsection{Question 1.20}\label{question-1.20}}
+
+What is the centre of \(S_n\)? Prove it.
+
+\hypertarget{question-1.21}{%
+\subsubsection{Question 1.21}\label{question-1.21}}
+
+Prove that the alternating group \(A_n\) is simple for \(n \geq 5\).
+
+\hypertarget{question-1.22}{%
+\subsubsection{Question 1.22}\label{question-1.22}}
+
+Prove the alternating group on \(n\) letters is generated by the
+3-cycles for \(n \geq 3\).
+
+\hypertarget{question-1.23}{%
+\subsubsection{Question 1.23}\label{question-1.23}}
+
+Prove that for \(p\) prime, Sp is generated by a \(p{\hbox{-}}\)cycle
+and a transposition.
+
+\hypertarget{question-1.24}{%
+\subsubsection{Question 1.24}\label{question-1.24}}
+
+What is the symmetry group of a tetrahedron? Cube? Icosahedron?
+
+\hypertarget{question-1.25}{%
+\subsubsection{Question 1.25}\label{question-1.25}}
+
+How many ways can you color the tetrahedron with C colors if we identify
+symmetric colorings?
+
+\hypertarget{question-1.26.}{%
+\subsubsection{Question 1.26.}\label{question-1.26.}}
+
+What is the symmetry group of an icosahedron? What's the stabiliser of
+an edge?
+
+How many edges are there? How do you know the symmetry group of the
+icosahedron is the same as the symmetry group of the dodecahedron?
+
+Do you know the classification of higher-dimensional polyhedra?
+
+\hypertarget{question-1.27}{%
+\subsubsection{Question 1.27}\label{question-1.27}}
+
+Do you know what the quaternion group is? How many elements are there of
+each order?
+
+\hypertarget{question-1.28}{%
+\subsubsection{Question 1.28}\label{question-1.28}}
+
+What is the group of unit quaternions topologically? What does it have
+to do with \({\operatorname{SO}}(3)\)?
+
+\hypertarget{question-1.29}{%
+\subsubsection{Question 1.29}\label{question-1.29}}
+
+What's the stabiliser of a point in the unit disk under the group of
+conformal automorphisms?
+
+\hypertarget{question-1.30}{%
+\subsubsection{Question 1.30}\label{question-1.30}}
+
+What group-theoretic construct relates the stabiliser of two points?
+
+\hypertarget{question-1.31}{%
+\subsubsection{Question 1.31}\label{question-1.31}}
+
+Consider \({\operatorname{SL}}_2(R)\) acting on \({\mathbb{R}}^2\) by
+matrix multiplication. What is the stabiliser of a point? Does it depend
+which point? Do you know what sort of subgroup this is? What if
+\({\operatorname{SL}}_2(R)\) acts by Möbius transformations instead?
+
+\hypertarget{question-1.32}{%
+\subsubsection{Question 1.32}\label{question-1.32}}
+
+What are the polynomials in two real variables that are invariant under
+the action of \(D_4\), the symmetry group of a square, by rotations and
+reflections on the plane that the two variables form?
+
+\hypertarget{question-1.33}{%
+\subsubsection{Question 1.33}\label{question-1.33}}
+
+Give an interesting example of a subgroup of the additive group of the
+rationals.
+
+\hypertarget{question-1.34}{%
+\subsubsection{Question 1.34}\label{question-1.34}}
+
+Talk about the isomorphism classes of subgroups of \({\mathbb{Q}}\). How
+many are there? Are the ones you've given involving denominators
+divisible only by certain primes distinct? So that gives you the
+cardinality. Are these all of them?
+
+\hypertarget{question-1.35}{%
+\subsubsection{Question 1.35}\label{question-1.35}}
+
+Is the additive group of the reals isomorphic to the multiplicative
+group of the positive reals? Is the same result true with reals replaced
+by rationals?
+
+\hypertarget{question-1.36}{%
+\subsubsection{Question 1.36}\label{question-1.36}}
+
+What groups have nontrivial automorphisms?
+
+\hypertarget{question-1.37}{%
+\subsubsection{Question 1.37}\label{question-1.37}}
+
+A subgroup \(H\) of a group \(G\) that meets every conjugacy class is in
+fact \(G\). Why is that true?
+
+\hypertarget{question-1.38}{%
+\subsubsection{Question 1.38}\label{question-1.38}}
+
+Let \(G\) be the group of invertible \(3\times 3\) matrices over
+\({\mathbb{F}}_p\), for \(p\) prime. What does basic group theory tell
+us about \(G\)?
+
+How many conjugates does a Sylow \(p{\hbox{-}}\)subgroup have? Give a
+matrix form for the elements in this subgroup.
+
+Explain the conjugacy in terms of eigenvalues and eigenvectors. give a
+matrix form for the normaliser of the Sylow \(p{\hbox{-}}\)subgroup.
+
+\hypertarget{question-1.39}{%
+\subsubsection{Question 1.39}\label{question-1.39}}
+
+Let's look at \({\operatorname{SL}}_2({\mathbb{F}}_3)\). How many
+elements are in that group? What is its centre? Identify
+\({\operatorname{PSL}}_2({\mathbb{F}}_3)\) as a permutation group.
+
+\hypertarget{question-1.40}{%
+\subsubsection{Question 1.40}\label{question-1.40}}
+
+How many elements does \({\mathfrak{gl}}_2({\mathbb{F}}_q)\) have? How
+would you construct representations?
+
+What can you say about the 1-dimensional representations? What can you
+say about simplicity of some related groups?
+
+\hypertarget{question-1.41.}{%
+\subsubsection{Question 1.41.}\label{question-1.41.}}
+
+A subgroup of a finitely-generated free abelian group is?
+
+A subgroup of a finitely-generated free group is..? Prove your answers.
+
+\hypertarget{question-1.42}{%
+\subsubsection{Question 1.42}\label{question-1.42}}
+
+What are the subgroups of \({\mathbb{Z}}^2\)?
+
+\hypertarget{question-1.43}{%
+\subsubsection{Question 1.43}\label{question-1.43}}
+
+What are the subgroups of the free group \(F_2\)? How many generators
+can you have?
+
+Can you find one with 3 generators? 4 generators? Countably many
+generators?
+
+Is the subgroup with 4 generators you found normal? Why? Can you find a
+normal one?
+
+\hypertarget{question-1.44}{%
+\subsubsection{Question 1.44}\label{question-1.44}}
+
+Talk about the possible subgroups of \({\mathbb{Z}}^3\). Now suppose
+that you have a subgroup of \({\mathbb{Z}}^3\). What theorem tells you
+something about the structure of the quotient group?
+
+\hypertarget{classification-of-finite-groups}{%
+\subsection{Classification of Finite
+groups}\label{classification-of-finite-groups}}
+
+\hypertarget{question-2.1}{%
+\subsubsection{Question 2.1}\label{question-2.1}}
+
+Given a finite abelian group with at most n elements of order divisible
+by n, prove it's cyclic.
+
+\hypertarget{question-2.2}{%
+\subsubsection{Question 2.2}\label{question-2.2}}
+
+Suppose I asked you to classify groups of order 4. Why isn't there
+anything else? Which of those could be realised as a Galois group over
+\({\mathbb{Q}}\)?
+
+\hypertarget{question-2.3}{%
+\subsubsection{Question 2.3}\label{question-2.3}}
+
+State/prove the Sylow theorems.
+
+\hypertarget{question-2.4}{%
+\subsubsection{Question 2.4}\label{question-2.4}}
+
+Classify groups of order 35.
+
+\hypertarget{question-2.5}{%
+\subsubsection{Question 2.5}\label{question-2.5}}
+
+Classify groups of order 21.
+
+\hypertarget{question-2.6}{%
+\subsubsection{Question 2.6}\label{question-2.6}}
+
+Discuss groups of order 55.
+
+\hypertarget{question-2.7}{%
+\subsubsection{Question 2.7}\label{question-2.7}}
+
+Classify groups of order 14. Why is there a group of order 7? Are all
+index-2 subgroups normal?
+
+\hypertarget{question-2.8}{%
+\subsubsection{Question 2.8}\label{question-2.8}}
+
+How many groups are there of order 15? Prove it.
+
+\hypertarget{question-2.9}{%
+\subsubsection{Question 2.9}\label{question-2.9}}
+
+Classify all groups of order 8.
+
+\hypertarget{question-2.10}{%
+\subsubsection{Question 2.10}\label{question-2.10}}
+
+Classify all groups of order \(p^3\) for \(p\) prime.
+
+\hypertarget{question-2.11}{%
+\subsubsection{Question 2.11}\label{question-2.11}}
+
+What are the groups of order \(p^2\)? What about \(pq\)? What if \(q\)
+is congruent to \(1\operatorname{mod}p\)?
+
+\hypertarget{question-2.12}{%
+\subsubsection{Question 2.12}\label{question-2.12}}
+
+What are the groups of order 12? Can there be a group of order 12 with 2
+nonisomorphic subgroups of the same order?
+
+\hypertarget{question-2.13}{%
+\subsubsection{Question 2.13}\label{question-2.13}}
+
+How would you start finding the groups of order 56? Is there in fact a
+way for \({\mathbb{Z}}/7{\mathbb{Z}}\) to act on a group of order 8
+nontrivially?
+
+\hypertarget{question-2.14}{%
+\subsubsection{Question 2.14}\label{question-2.14}}
+
+How many abelian groups are there of order 36?
+
+\hypertarget{question-2.15}{%
+\subsubsection{Question 2.15}\label{question-2.15}}
+
+What are the abelian groups of order 16?
+
+\hypertarget{question-2.16.}{%
+\subsubsection{Question 2.16.}\label{question-2.16.}}
+
+What are the abelian groups of order 9? Prove that they are not
+isomorphic. groups of order 27?
+
+\hypertarget{question-2.17}{%
+\subsubsection{Question 2.17}\label{question-2.17}}
+
+How many abelian groups of order 200 are there?
+
+\hypertarget{question-2.18}{%
+\subsubsection{Question 2.18}\label{question-2.18}}
+
+Prove there is no simple group of order 132.
+
+\hypertarget{question-2.19}{%
+\subsubsection{Question 2.19}\label{question-2.19}}
+
+Prove that there is no simple group of order 160. What can you say about
+the structure of groups of that order?
+
+\hypertarget{question-2.20}{%
+\subsubsection{Question 2.20}\label{question-2.20}}
+
+Prove that there is no simple group of order 40.
+
+\hypertarget{fields-and-galois-theory}{%
+\subsection{Fields and Galois Theory}\label{fields-and-galois-theory}}
+
+\hypertarget{question-3.1}{%
+\subsubsection{Question 3.1}\label{question-3.1}}
+
+What is the Galois group of a finite field? What is a generator? How
+many elements does a finite field have? What can you say about the
+multiplicative group? Prove it.
+
+\hypertarget{question-3.2}{%
+\subsubsection{Question 3.2}\label{question-3.2}}
+
+Classify finite fields, their subfields, and their field extensions.
+What are the automorphisms of a finite field?
+
+\hypertarget{question-3.3}{%
+\subsubsection{Question 3.3}\label{question-3.3}}
+
+Take a finite field extension \({\mathbb{F}}_p^n\) over
+\({\mathbb{F}}_p\). What is Frobenius? What is its characteristic
+polynomial?
+
+\hypertarget{question-3.4}{%
+\subsubsection{Question 3.4}\label{question-3.4}}
+
+What are the characteristic and minimal polynomial of the Frobenius
+automorphism?
+
+\hypertarget{question-3.5}{%
+\subsubsection{Question 3.5}\label{question-3.5}}
+
+What's the field with 25 elements?
+
+\hypertarget{question-3.6}{%
+\subsubsection{Question 3.6}\label{question-3.6}}
+
+What is the multiplicative group of \({\mathbb{F}}_9\)?
+
+\hypertarget{question-3.7}{%
+\subsubsection{Question 3.7}\label{question-3.7}}
+
+What is a separable extension? Can \({\mathbb{Q}}\) have a non-separable
+extension? How about \({\mathbb{Z}}/p{\mathbb{Z}}\)? Why not? Are all
+extensions of characteristic 0 fields separable? Of finite fields? Prove
+it.
+
+Give an example of a field extension that's not separable.
+
+\hypertarget{question-3.8}{%
+\subsubsection{Question 3.8}\label{question-3.8}}
+
+Are there separable polynomials of any degree over any field?
+
+\hypertarget{question-3.9}{%
+\subsubsection{Question 3.9}\label{question-3.9}}
+
+What is a perfect field and why is this important? Give an example of a
+non-perfect field.
+
+\hypertarget{question-3.10}{%
+\subsubsection{Question 3.10}\label{question-3.10}}
+
+What is Galois theory? State the main theorem. What is the splitting
+field of \(x^5 - 2\) over \({\mathbb{Q}}\)? What are the intermediate
+extensions? Which extensions are normal, which are not, and why? What
+are the Galois groups (over Q) of all intermediate extensions?
+
+\hypertarget{question-3.11}{%
+\subsubsection{Question 3.11}\label{question-3.11}}
+
+What is a Galois extension?
+
+\hypertarget{question-3.12}{%
+\subsubsection{Question 3.12}\label{question-3.12}}
+
+Take a quadratic extension of a field of characteristic 0. Is it Galois?
+Take a degree 2 extension on top of that. Does it have to be Galois over
+the base field? What statement in group theory can you think of that
+reﬂects this?
+
+\hypertarget{question-3.13.}{%
+\subsubsection{Question 3.13.}\label{question-3.13.}}
+
+Is Abelian Galois extension transitive? That is, if \(K\) has abelian
+Galois group over \(E\), \(E\) has abelian Galois group over \(F\) , and
+\(K\) is a Galois extension of \(F\), is it necessarily true that
+\({ \mathsf{Gal}} (K/F)\) is also abelian? Give a counterexample
+involving number fields as well as one involving function fields.
+
+\hypertarget{question-3.14}{%
+\subsubsection{Question 3.14}\label{question-3.14}}
+
+What is a Kummer extension?
+
+\hypertarget{question-3.15}{%
+\subsubsection{Question 3.15}\label{question-3.15}}
+
+Say you have a field extension with only finitely many intermediate
+fields. Show that it is a simple extension.
+
+\hypertarget{question-3.16}{%
+\subsubsection{Question 3.16}\label{question-3.16}}
+
+Tell me a condition on the Galois group which is implied by
+irreducibility of the polynomial. What happens when the polynomial has a
+root in the base field?
+
+\hypertarget{question-3.17}{%
+\subsubsection{Question 3.17}\label{question-3.17}}
+
+What is the discriminant of a polynomial?
+
+\hypertarget{question-3.18}{%
+\subsubsection{Question 3.18}\label{question-3.18}}
+
+If we think of the Galois group of a polynomial as contained in \(S_n\),
+when is it contained in \(A_n\)?
+
+\hypertarget{question-3.19}{%
+\subsubsection{Question 3.19}\label{question-3.19}}
+
+Is \({\mathbb{Q}}(\sqrt[3]{21})\) normal? What is its splitting field?
+What is its Galois group? Draw the lattice of subfields.
+
+\hypertarget{question-3.20}{%
+\subsubsection{Question 3.20}\label{question-3.20}}
+
+What's the Galois group of \(x^2 + 1\) over Q? What's the integral
+closure of \({\mathbb{Z}}\) in \({\mathbb{Q}}(i)\)?
+
+\hypertarget{question-3.21}{%
+\subsubsection{Question 3.21}\label{question-3.21}}
+
+What's the Galois group of \(x^2 + 9\)?
+
+\hypertarget{question-3.22}{%
+\subsubsection{Question 3.22}\label{question-3.22}}
+
+What is the Galois group of \(x^2 - 2\)? Why is \(x^2 - 2\) irreducible?
+
+\hypertarget{question-3.23}{%
+\subsubsection{Question 3.23}\label{question-3.23}}
+
+What is the Galois group of
+\begin{align*}
+{\mathbb{Q}}(\sqrt 2, \sqrt 3)\, / \, {\mathbb{Q}}
+?\end{align*}
+
+\hypertarget{question-3.24}{%
+\subsubsection{Question 3.24}\label{question-3.24}}
+
+What is the Galois group of
+\begin{align*}
+{\mathbb{Q}}\qty{ \sqrt{n_1}, \cdots, \sqrt{n_m} } \, / \, {\mathbb{Q}}(\sqrt{n_1} + \cdots + \sqrt{n_m})
+?\end{align*}
+
+\hypertarget{question-3.25}{%
+\subsubsection{Question 3.25}\label{question-3.25}}
+
+What are the Galois groups of irreducible cubics?
+
+\hypertarget{question-3.26}{%
+\subsubsection{Question 3.26}\label{question-3.26}}
+
+If an irreducible cubic polynomial has Galois group NOT contained in A3,
+does it necessarily have to be all of \(S_3\)?
+
+\hypertarget{question-3.27}{%
+\subsubsection{Question 3.27}\label{question-3.27}}
+
+Compute the Galois group of \(x^3 - 2\) over the rationals.
+
+\hypertarget{question-3.28}{%
+\subsubsection{Question 3.28}\label{question-3.28}}
+
+How would you find the Galois group of \(x^3 + 2x + 1\)? Adjoin a root
+to \({\mathbb{Q}}\). Can you say something about the roots of
+\(x^3 + 3x + 1\) in this extension?
+
+\hypertarget{question-3.29}{%
+\subsubsection{Question 3.29}\label{question-3.29}}
+
+Compute the Galois group of \(x^3 + 6x + 3\).
+
+\hypertarget{question-3.30}{%
+\subsubsection{Question 3.30}\label{question-3.30}}
+
+Find the Galois group of \(x^4 - 2\) over Q.
+
+\hypertarget{question-3.31}{%
+\subsubsection{Question 3.31}\label{question-3.31}}
+
+What's the Galois group of \(x^4 - 3\)?
+
+\hypertarget{question-3.32}{%
+\subsubsection{Question 3.32}\label{question-3.32}}
+
+What is the Galois group of \(x^4 - 2x^2 + 9\)?
+
+\hypertarget{question-3.33}{%
+\subsubsection{Question 3.33}\label{question-3.33}}
+
+Calculate the Galois group of \(x^5 - 2\).
+
+\hypertarget{question-3.34.}{%
+\subsubsection{Question 3.34.}\label{question-3.34.}}
+
+Discuss sufficient conditions on a polynomial of degree 5 to have Galois
+group \(S_5\) over \({\mathbb{Q}}\) and prove your statements.
+
+\hypertarget{question-3.35}{%
+\subsubsection{Question 3.35}\label{question-3.35}}
+
+Show that if \(f\) is an irreducible quintic with precisely two non-real
+roots, then its Galois group is \(S_5\).
+
+\hypertarget{question-3.36}{%
+\subsubsection{Question 3.36}\label{question-3.36}}
+
+Suppose you have a degree 5 polynomial over a field. What are necessary
+and suﬃcient conditions for its Galois group to be of order divisible by
+3? Can you give an example of an irreducible polynomial in which this is
+not the case?
+
+\hypertarget{question-3.37}{%
+\subsubsection{Question 3.37}\label{question-3.37}}
+
+What is the Galois group of \(x^7 - 1\) over the rationals?
+
+\hypertarget{question-3.38}{%
+\subsubsection{Question 3.38}\label{question-3.38}}
+
+What is the Galois group of the polynomial \(x^n - 1\) over
+\({\mathbb{Q}}\)?
+
+\hypertarget{question-3.39}{%
+\subsubsection{Question 3.39}\label{question-3.39}}
+
+Describe the Galois theory of cyclotomic extensions.
+
+\hypertarget{question-3.40}{%
+\subsubsection{Question 3.40}\label{question-3.40}}
+
+What is the maximal real field in a cyclotomic extension
+\({\mathbb{Q}}(\zeta_n)/{\mathbb{Q}}\)?
+
+\hypertarget{question-3.41}{%
+\subsubsection{Question 3.41}\label{question-3.41}}
+
+Compute the Galois group of \(p(x) = x^7 - 3\).
+
+\hypertarget{question-3.42}{%
+\subsubsection{Question 3.42}\label{question-3.42}}
+
+What Galois stuff can you say about \(x^{2n} - 2\)?
+
+\hypertarget{question-3.43}{%
+\subsubsection{Question 3.43}\label{question-3.43}}
+
+What are the cyclic extensions of (prime) order \(p\)?
+
+\hypertarget{question-3.44}{%
+\subsubsection{Question 3.44}\label{question-3.44}}
+
+Can you give me a polynomial whose Galois group is
+\({\mathbb{Z}}/3{\mathbb{Z}}\)?
+
+\hypertarget{question-3.45}{%
+\subsubsection{Question 3.45}\label{question-3.45}}
+
+Which groups of order 4 can be realised as a Galois group over
+\({\mathbb{Q}}\)?
+
+\hypertarget{question-3.46}{%
+\subsubsection{Question 3.46}\label{question-3.46}}
+
+Give a polynomial with \(S_3\) as its Galois group.
+
+\hypertarget{question-3.47}{%
+\subsubsection{Question 3.47}\label{question-3.47}}
+
+Give an example of a cubic with Galois group \(S_3\).
+
+\hypertarget{question-3.48}{%
+\subsubsection{Question 3.48}\label{question-3.48}}
+
+How do you construct a polynomial over \({\mathbb{Q}}\) whose Galois
+group is \(S_n\)? Do it for \(n = 7\) in particular.
+
+\hypertarget{question-3.49}{%
+\subsubsection{Question 3.49}\label{question-3.49}}
+
+What's a Galois group that's not \(S_n\) or \(A_n\)?
+
+\hypertarget{question-3.50}{%
+\subsubsection{Question 3.50}\label{question-3.50}}
+
+Which finite groups are Galois groups for some field extension?
+
+\hypertarget{question-3.51}{%
+\subsubsection{Question 3.51}\label{question-3.51}}
+
+What Galois group would you expect a cubic to have?
+
+\hypertarget{question-3.52}{%
+\subsubsection{Question 3.52}\label{question-3.52}}
+
+Draw the subgroup lattice for \(S_3\).
+
+\hypertarget{question-3.53}{%
+\subsubsection{Question 3.53}\label{question-3.53}}
+
+Do you know what the quaternion group is? How many elements are there of
+each order? Suppose I have a field extension of the rationals with
+Galois group the quaternion group. How many quadratic extensions does it
+contain? Can any of them be imaginary?
+
+\hypertarget{question-3.54}{%
+\subsubsection{Question 3.54}\label{question-3.54}}
+
+Suppose you are given a finite Galois extension \(K/{\mathbb{Q}}\) by
+\(f(x) \in {\mathbb{Z}}[x]\) such that \(\deg(f ) = n\) and
+\({ \mathsf{Gal}} (K/Q) = S_n\). What can you say about the roots?
+
+\hypertarget{question-3.55}{%
+\subsubsection{Question 3.55}\label{question-3.55}}
+
+How many automorphisms does the complex field have? How can you extend a
+simple automorphism \(\sqrt{2} \mapsto -\sqrt{2}\) of an algebraic field
+into \({\mathbb{C}}\)? How can you extend a subfield automorphism? What
+feature of \({\mathbb{C}}\) allows you to?
+
+\hypertarget{question-3.56.}{%
+\subsubsection{Question 3.56.}\label{question-3.56.}}
+
+Can it happen that a proper subfield of C is isomorphic to C? How?
+
+\hypertarget{question-3.57}{%
+\subsubsection{Question 3.57}\label{question-3.57}}
+
+Consider the minimal polynomial \(f(x)\) for a primitive \(m\)th root of
+unity. Prove that if \(p\) divides \(f(a)\) for some integer \(a\) and
+\(\gcd(p, m) = 1\) then \(m\) divides \(p - 1\). Use this fact to show
+that there are infinitely many primes congruent to
+\(1 \operatorname{mod}m\).
+
+\hypertarget{question-3.58}{%
+\subsubsection{Question 3.58}\label{question-3.58}}
+
+What is Dirichlet's theorem about primes in arithmetic progression? What
+can you say about the density of such primes?
+
+\hypertarget{question-3.59}{%
+\subsubsection{Question 3.59}\label{question-3.59}}
+
+How many irreducible polynomials of degree six are there over
+\({\mathbb{F}}_2\)?
+
+\hypertarget{question-3.60}{%
+\subsubsection{Question 3.60}\label{question-3.60}}
+
+Can you have a degree 7 irreducible polynomial over \({\mathbb{F}}_p\)?
+How about a degree 14 irreducible polynomial?
+
+\hypertarget{question-3.61}{%
+\subsubsection{Question 3.61}\label{question-3.61}}
+
+How many irreducible polynomials are there of degree 4 over
+\({\mathbb{F}}_2\)?
+
+\hypertarget{question-3.62}{%
+\subsubsection{Question 3.62}\label{question-3.62}}
+
+For each prime p, give a polynomial of degree p that is irreducible over
+\({\mathbb{F}}_p\). You can do it in a ``uniform'' way.
+
+\hypertarget{question-3.63}{%
+\subsubsection{Question 3.63}\label{question-3.63}}
+
+Can we solve general quadratic equations by radicals? And what about
+cubics and so on? Why can't you solve 5th degree equations by radicals?
+
+\hypertarget{question-3.64}{%
+\subsubsection{Question 3.64}\label{question-3.64}}
+
+Talk about solvability by radicals. Why is \(S_5\) not solvable? Why is
+\(A_5\) simple?
+
+\hypertarget{question-3.65}{%
+\subsubsection{Question 3.65}\label{question-3.65}}
+
+For which \(n\) can a regular \(n{\hbox{-}}\)gon be constructed by ruler
+and compass?
+
+\hypertarget{question-3.66}{%
+\subsubsection{Question 3.66}\label{question-3.66}}
+
+How do you use Galois theory (or just field theory) to prove the
+impossibility of trisecting an angle? Doubling a cube? Squaring a
+circle?
+
+\hypertarget{question-3.67}{%
+\subsubsection{Question 3.67}\label{question-3.67}}
+
+Which numbers are constructible? Give an example of a non-constructible
+number whose degree is nevertheless a power of 2.
+
+\hypertarget{question-3.68}{%
+\subsubsection{Question 3.68}\label{question-3.68}}
+
+State and prove Eisenstein's Criterion.
+
+\hypertarget{question-3.69}{%
+\subsubsection{Question 3.69}\label{question-3.69}}
+
+Why is \((x^p - 1)/(x - 1)\) irreducible over \({\mathbb{Q}}\)?
+
+\hypertarget{question-3.70}{%
+\subsubsection{Question 3.70}\label{question-3.70}}
+
+Can you prove the fundamental theorem of algebra using Galois theory?
+What do you need from analysis to do so?
+
+\hypertarget{question-3.71}{%
+\subsubsection{Question 3.71}\label{question-3.71}}
+
+What are the symmetric polynomials?
+
+\hypertarget{question-3.72}{%
+\subsubsection{Question 3.72}\label{question-3.72}}
+
+State the fundamental theorem of symmetric polynomials.
+
+\hypertarget{question-3.73}{%
+\subsubsection{Question 3.73}\label{question-3.73}}
+
+Is the discriminant of a polynomial always a polynomial in the
+coefficients? What does this have to do with symmetric polynomials?
+
+\hypertarget{question-3.74}{%
+\subsubsection{Question 3.74}\label{question-3.74}}
+
+Find a non-symmetric polynomial whose square is symmetric.
+
+\hypertarget{question-3.75}{%
+\subsubsection{Question 3.75}\label{question-3.75}}
+
+Let \(f\) be a degree 4 polynomial with integer coefficients. What's the
+smallest finite field in which \(f\) necessarily has four roots?
+
+\hypertarget{question-3.76}{%
+\subsubsection{Question 3.76}\label{question-3.76}}
+
+Define p-adic numbers. What is a valuation?
+
+\hypertarget{question-3.77}{%
+\subsubsection{Question 3.77}\label{question-3.77}}
+
+What's Hilbert's theorem 90?
+
+\hypertarget{question-3.78}{%
+\subsubsection{Question 3.78}\label{question-3.78}}
+
+Consider a nonconstant function between two compact Riemann Surfaces.
+How is it related to Galois theory?
+
+\hypertarget{normal-forms}{%
+\subsection{Normal Forms}\label{normal-forms}}
+
+\hypertarget{question-4.1}{%
+\subsubsection{Question 4.1}\label{question-4.1}}
+
+What is the connection between the structure theorem for modules over a
+PID and conjugacy classes in the general linear group over a field?
+
+\hypertarget{question-4.2}{%
+\subsubsection{Question 4.2}\label{question-4.2}}
+
+Explain how the structure theorem for finitely-generated modules over a
+PID applies to a linear operator on a finite dimensional vector space.
+
+\hypertarget{question-4.3}{%
+\subsubsection{Question 4.3}\label{question-4.3}}
+
+I give you two matrices over a field. How would you tell if they are
+conjugate or not? What theorem are you using? State it. How does it
+apply to this situation? Why is \(k[x]\) a PID? If two matrices are
+conjugate over the algebraic closure of a field, does that mean that
+they are conjugate over the base field too?
+
+\hypertarget{question-4.4}{%
+\subsubsection{Question 4.4}\label{question-4.4}}
+
+If two real matrices are conjugate in
+\(\operatorname{Mat}(n\times n, {\mathbb{C}})\), are they necessarily
+conjugate in \(\operatorname{Mat}(n \times N, R)\) as well?
+
+\hypertarget{question-4.5}{%
+\subsubsection{Question 4.5}\label{question-4.5}}
+
+Give the \(4 \times 4\) Jordan forms with minimal polynomial
+\((x - 1)(x - 2)^2\).
+
+\hypertarget{question-4.6}{%
+\subsubsection{Question 4.6}\label{question-4.6}}
+
+Talk about Jordan canonical form. What happens when the field is not
+algebraically closed?
+
+\hypertarget{question-4.7}{%
+\subsubsection{Question 4.7}\label{question-4.7}}
+
+What are all the matrices that commute with a given Jordan block?
+
+\hypertarget{question-4.8}{%
+\subsubsection{Question 4.8}\label{question-4.8}}
+
+How do you determine the number and sizes of the blocks for Jordan
+canonical form?
+
+\hypertarget{question-4.9}{%
+\subsubsection{Question 4.9}\label{question-4.9}}
+
+For any matrix A over the complex numbers, can you solve \(B^2 = A\)?
+
+\hypertarget{question-4.10}{%
+\subsubsection{Question 4.10}\label{question-4.10}}
+
+What is rational canonical form?
+
+\hypertarget{question-4.11}{%
+\subsubsection{Question 4.11}\label{question-4.11}}
+
+Describe all the conjugacy classes of \(3 \times 3\) matrices with
+rational entries which satisfy the equation \(A^4 - A^3 - A + 1 = 0\).
+Give a representative in each class.
+
+\hypertarget{question-4.12}{%
+\subsubsection{Question 4.12}\label{question-4.12}}
+
+What \(3 \times 3\) matrices over the rationals (up to similarity)
+satisfy \(f (A) = 0\), where \(f (x) = (x^2 + 2)(x - 1)^3\)? List all
+possible rational forms.
+
+\hypertarget{question-4.13}{%
+\subsubsection{Question 4.13}\label{question-4.13}}
+
+What can you say about matrices that satisfy a given polynomial (over an
+algebraically closed field)? How many of them are there? What about over
+a finite field? How many such matrices are there then?
+
+\hypertarget{question-4.14}{%
+\subsubsection{Question 4.14}\label{question-4.14}}
+
+What is a nilpotent matrix?
+
+\hypertarget{question-4.15}{%
+\subsubsection{Question 4.15}\label{question-4.15}}
+
+When do the powers of a matrix tend to zero?
+
+\hypertarget{question-4.16}{%
+\subsubsection{Question 4.16}\label{question-4.16}}
+
+If the traces of all powers of a matrix A are 0, what can you say about
+A?
+
+\hypertarget{question-4.17}{%
+\subsubsection{Question 4.17}\label{question-4.17}}
+
+When and how can we solve the matrix equation \(\exp(A) = B\)? Do it
+over the complex numbers and over the real numbers. give a
+counterexample with real entries.
+
+\hypertarget{question-4.18}{%
+\subsubsection{Question 4.18}\label{question-4.18}}
+
+Say we can find a matrix \(A\) such that \(\exp(A) = B\) for \(B\) in
+\(SL_n({\mathbb{R}})\). Does \(A\) also have to be in
+\({\operatorname{SL}}_n(R)\)? Does \(A\) \emph{need} to be in
+\(SL_n(R)\)?
+
+\hypertarget{question-4.19}{%
+\subsubsection{Question 4.19}\label{question-4.19}}
+
+Is a square matrix always similar to its transpose?
+
+\hypertarget{question-4.20}{%
+\subsubsection{Question 4.20}\label{question-4.20}}
+
+What are the conjugacy classes of
+\({\operatorname{SL}}_2({\mathbb{R}})\)?
+
+\hypertarget{question-4.21}{%
+\subsubsection{Question 4.21}\label{question-4.21}}
+
+What are the conjugacy classes in \(\operatorname{GL}_2({\mathbb{C}})\)?
+
+\hypertarget{matrices-and-linear-algebra}{%
+\subsection{Matrices and Linear
+Algebra}\label{matrices-and-linear-algebra}}
+
+\hypertarget{question-5.1}{%
+\subsubsection{Question 5.1}\label{question-5.1}}
+
+What is a bilinear form on a vector space? When are two forms
+equivalent? What is an orthogonal matrix? What's special about them?
+
+\hypertarget{question-5.2}{%
+\subsubsection{Question 5.2}\label{question-5.2}}
+
+What are the possible images of the unit circle under a linear
+transformation of \({\mathbb{R}}^2\)?
+
+\hypertarget{question-5.3}{%
+\subsubsection{Question 5.3}\label{question-5.3}}
+
+Explain geometrically how you diagonalise a quadratic form.
+
+\hypertarget{question-5.4}{%
+\subsubsection{Question 5.4}\label{question-5.4}}
+
+Do you know Witt's theorem on real quadratic forms?
+
+\hypertarget{question-5.5}{%
+\subsubsection{Question 5.5}\label{question-5.5}}
+
+Classify real division algebras.
+
+\hypertarget{question-5.6}{%
+\subsubsection{Question 5.6}\label{question-5.6}}
+
+Consider the simple operator on C given by multiplication by a complex
+number. It decomposes into a stretch and a rotation. What is the
+generalisation of this to operators on a Hilbert space?
+
+\hypertarget{question-5.7}{%
+\subsubsection{Question 5.7}\label{question-5.7}}
+
+Do you know about singular value decomposition?
+
+\hypertarget{question-5.8}{%
+\subsubsection{Question 5.8}\label{question-5.8}}
+
+What are the eigenvalues of a symmetric matrix?
+
+\hypertarget{question-5.9}{%
+\subsubsection{Question 5.9}\label{question-5.9}}
+
+What can you say about the eigenvalues of a skew-symmetric matrix?
+
+\hypertarget{question-5.10}{%
+\subsubsection{Question 5.10}\label{question-5.10}}
+
+Prove that the eigenvalues of a Hermitian matrix are real and those of a
+unitary matrix are unitary.
+
+\hypertarget{question-5.11}{%
+\subsubsection{Question 5.11}\label{question-5.11}}
+
+Prove that symmetric matrices have real eigenvalues and can be
+diagonalised by orthogonal matrices.
+
+\hypertarget{question-5.12}{%
+\subsubsection{Question 5.12}\label{question-5.12}}
+
+To which operators does the spectral theorem for symmetric matrices
+generalise?
+
+\hypertarget{question-5.13}{%
+\subsubsection{Question 5.13}\label{question-5.13}}
+
+Given a skew-symmetric/skew-Hermitian matrix S, show that
+\(U = (S + I)(S - I)-1\) is orthogonal/unitary. Then find an expression
+for \(S\) in terms of \(U\).
+
+\hypertarget{question-5.14}{%
+\subsubsection{Question 5.14}\label{question-5.14}}
+
+If a linear transformation preserves a nondegenerate alternating form
+and has \(k\) as an eigenvalue, prove that \(1/k\) is also an
+eigenvalue.
+
+\hypertarget{question-5.15}{%
+\subsubsection{Question 5.15}\label{question-5.15}}
+
+State/prove the Cayley--Hamilton theorem.
+
+\hypertarget{question-5.16}{%
+\subsubsection{Question 5.16}\label{question-5.16}}
+
+Are diagonalisable \(N \times N\) matrices over the complex numbers
+dense in the space of all \(N \times N\) matrices over the complex
+numbers? How about over another algebraically closed field if we use the
+Zariski topology?
+
+\hypertarget{question-5.17}{%
+\subsubsection{Question 5.17}\label{question-5.17}}
+
+For a linear ODE with constant coefficients, how would you solve it
+using linear algebra?
+
+\hypertarget{question-5.18}{%
+\subsubsection{Question 5.18}\label{question-5.18}}
+
+What can you say about the eigenspaces of two matrices that commute with
+each other?
+
+\hypertarget{question-5.19}{%
+\subsubsection{Question 5.19}\label{question-5.19}}
+
+What is a Toeplitz operator?
+
+\hypertarget{question-5.20}{%
+\subsubsection{Question 5.20}\label{question-5.20}}
+
+What is the number of invertible matrices over
+\({\mathbb{Z}}/p{\mathbb{Z}}\)?
+
+\hypertarget{rings}{%
+\subsection{Rings}\label{rings}}
+
+\hypertarget{question-6.1}{%
+\subsubsection{Question 6.1}\label{question-6.1}}
+
+State the Chinese remainder theorem in any form you like. Prove it.
+
+\hypertarget{question-6.2}{%
+\subsubsection{Question 6.2}\label{question-6.2}}
+
+What is a PID? What's an example of a UFD that is not a PID? Why? Is
+\(k[x]\) a PID? Why?
+
+\hypertarget{question-6.3}{%
+\subsubsection{Question 6.3}\label{question-6.3}}
+
+Is \({\mathbb{C}}[x, y]\) a PID? Is
+\(\left\langle{ x, y }\right\rangle\) a prime ideals in it?
+
+\hypertarget{question-6.4}{%
+\subsubsection{Question 6.4}\label{question-6.4}}
+
+Do polynomials in several variables form a PID?
+
+\hypertarget{question-6.5}{%
+\subsubsection{Question 6.5}\label{question-6.5}}
+
+Prove that the integers form a PID.
+
+\hypertarget{question-6.6}{%
+\subsubsection{Question 6.6}\label{question-6.6}}
+
+Give an example of a PID with a unique prime ideal.
+
+\hypertarget{question-6.7}{%
+\subsubsection{Question 6.7}\label{question-6.7}}
+
+What is the relation between Euclidean domains and PIDs?
+
+\hypertarget{question-6.8}{%
+\subsubsection{Question 6.8}\label{question-6.8}}
+
+Do you know a PID that's not Euclidean?
+
+\hypertarget{question-6.9}{%
+\subsubsection{Question 6.9}\label{question-6.9}}
+
+Give an example of a UFD which is not a Euclidean domain.
+
+\hypertarget{question-6.10}{%
+\subsubsection{Question 6.10}\label{question-6.10}}
+
+Is a ring of formal power series a UFD?
+
+\hypertarget{question-6.11}{%
+\subsubsection{Question 6.11}\label{question-6.11}}
+
+Is a polynomial ring over a UFD again a UFD?
+
+\hypertarget{question-6.12}{%
+\subsubsection{Question 6.12}\label{question-6.12}}
+
+What does factorisation over \({\mathbb{Q}}[x]\) say about factorisation
+over \({\mathbb{Z}}[x]\)?
+
+\hypertarget{question-6.13}{%
+\subsubsection{Question 6.13}\label{question-6.13}}
+
+Give an example of a ring where unique factorisation fails.
+
+\hypertarget{question-6.14}{%
+\subsubsection{Question 6.14}\label{question-6.14}}
+
+Factor 6 in two different ways in \({\mathbb{Z}}[\sqrt{-5}]\) Is there
+any way to explain the two factorisations? Factor the ideal generated by
+6 into prime ideals.
+
+\hypertarget{question-6.15}{%
+\subsubsection{Question 6.15}\label{question-6.15}}
+
+What's the integral closure of \({\mathbb{Z}}\) in \({\mathbb{Q}}(i)\)?
+
+\hypertarget{question-6.16}{%
+\subsubsection{Question 6.16}\label{question-6.16}}
+
+Find all primes in the ring of Gaussian integers.
+
+\hypertarget{question-6.17}{%
+\subsubsection{Question 6.17}\label{question-6.17}}
+
+What is a ring of integers? What does ``integral over \({\mathbb{Z}}\)''
+mean?
+
+\hypertarget{question-6.18}{%
+\subsubsection{Question 6.18}\label{question-6.18}}
+
+Let \({\mathcal{O}}\) be the ring of integers of \({\mathbb{Q}}(d)\),
+where \(d > 0\). What can you say about the quotient of O by one of its
+prime ideals?
+
+\hypertarget{question-6.19}{%
+\subsubsection{Question 6.19}\label{question-6.19}}
+
+Do you know about Dedekind domains and class numbers?
+
+\hypertarget{question-6.20}{%
+\subsubsection{Question 6.20}\label{question-6.20}}
+
+Talk about factorisation and primes in a polynomial ring. What is
+irreducibility? For what rings R is it true that
+\(R[x_1, \cdots , x_n]\) is a unique factorisation domain? What is wrong
+with unique factorisation if we don't have a domain? Now, PIDs are
+Noetherian, but are there UFDs which are not?
+
+\hypertarget{question-6.21}{%
+\subsubsection{Question 6.21}\label{question-6.21}}
+
+What is the radical of an ideal? What is special about elements in the
+nilradical?
+
+\hypertarget{question-6.22}{%
+\subsubsection{Question 6.22}\label{question-6.22}}
+
+Define the ``radical'' of an ideal. Prove it is an ideal. Prove that the
+ideal of all polynomials vanishing on the zero set of \(I\) is
+\(\sqrt{I}\).
+
+\hypertarget{question-6.23.}{%
+\subsubsection{Question 6.23.}\label{question-6.23.}}
+
+Do you know what the radical is? Use the fact that the intersection of
+all prime ideals is the set of all nilpotent elements to prove that
+\(F [x]\) has an infinite number of prime ideals, where \(F\) is a
+field.
+
+\hypertarget{question-6.24}{%
+\subsubsection{Question 6.24}\label{question-6.24}}
+
+What are the radical ideals in \({\mathbb{Z}}\)?
+
+\hypertarget{question-6.25}{%
+\subsubsection{Question 6.25}\label{question-6.25}}
+
+Give a prime ideal in \({\mathbb{k}}[x, y]\). Why is it prime? What is
+the variety it defines? What is the Nullstellensatz? Can you make some
+maximal ideals?
+
+\hypertarget{question-6.26}{%
+\subsubsection{Question 6.26}\label{question-6.26}}
+
+State/describe Hilbert's Nullstellensatz. Sketch a proof.
+
+\hypertarget{question-6.27}{%
+\subsubsection{Question 6.27}\label{question-6.27}}
+
+What is an irreducible variety? Give an example of a non-irreducible
+one.
+
+\hypertarget{question-6.28}{%
+\subsubsection{Question 6.28}\label{question-6.28}}
+
+What are the prime ideals and maximal ideals of \({\mathbb{Z}}[x]\)?
+
+\hypertarget{question-6.29}{%
+\subsubsection{Question 6.29}\label{question-6.29}}
+
+Is the following map an isomorphism?
+\begin{align*}
+{\mathbb{Z}}[t] / \left\langle{ t^p - 1 }\right\rangle  &\to {\mathbb{Z}}[w] \\
+t &\mapsto w \text{ where } w^p = 1
+.\end{align*}
+
+\hypertarget{question-6.30}{%
+\subsubsection{Question 6.30}\label{question-6.30}}
+
+Describe the left, right, and two-sided ideals in the ring of square
+matrices of a fixed size. Now identify the matrix algebra
+\(\operatorname{Mat}(n \times n, K)\) with
+\(\mathop{\mathrm{End}}_K(V )\) where \(V\) is an
+\(n{\hbox{-}}\)dimensional K-vector space. Try to geometrically describe
+the simple left ideals and also the simple right ideals via that
+identification.
+
+\hypertarget{question-6.31}{%
+\subsubsection{Question 6.31}\label{question-6.31}}
+
+Give examples of maximal ideals in
+\(K = R \times R \times R \times \cdots\), the product of countably many
+copies of R. What about for a product of countably many copies of an
+arbitrary commutative ring \(R\)?
+
+\hypertarget{question-6.32}{%
+\subsubsection{Question 6.32}\label{question-6.32}}
+
+Consider a commutative ring, \(R\), and a maximal ideal \(I\), what can
+you say about the structure of \(R/I\)? What if \(I\) were prime?
+
+\hypertarget{question-6.33}{%
+\subsubsection{Question 6.33}\label{question-6.33}}
+
+Define ``Noetherian ring''. give an example.
+
+\hypertarget{question-6.34}{%
+\subsubsection{Question 6.34}\label{question-6.34}}
+
+Prove the Hilbert basis theorem.
+
+\hypertarget{question-6.35}{%
+\subsubsection{Question 6.35}\label{question-6.35}}
+
+What is a Noetherian ring? If I is an ideal in a Noetherian ring with a
+unit, what is the intersection of \(I^n\) over all positive integers
+\(n\)?
+
+\hypertarget{question-6.36}{%
+\subsubsection{Question 6.36}\label{question-6.36}}
+
+What is the Jacobson radical? If R is a finitely-generated algebra over
+a field what can you say about it?
+
+\hypertarget{question-6.37}{%
+\subsubsection{Question 6.37}\label{question-6.37}}
+
+Give an example of an Artinian ring.
+
+\hypertarget{question-6.38}{%
+\subsubsection{Question 6.38}\label{question-6.38}}
+
+State the structure theorem for semisimple Artinian rings.
+
+\hypertarget{question-6.39}{%
+\subsubsection{Question 6.39}\label{question-6.39}}
+
+What is a semisimple algebra? State the structure theorem for semisimple
+algebras.
+
+\hypertarget{question-6.40}{%
+\subsubsection{Question 6.40}\label{question-6.40}}
+
+What is a matrix algebra?
+
+\hypertarget{question-6.41}{%
+\subsubsection{Question 6.41}\label{question-6.41}}
+
+Does \(L_1\) have a natural multiplication with which it becomes an
+algebra?
+
+\hypertarget{question-6.42.}{%
+\subsubsection{Question 6.42.}\label{question-6.42.}}
+
+Consider a translation-invariant subspace of \(L_1\). What can you say
+about its relation to \(L_2\) as a convolution algebra?
+
+\hypertarget{question-6.43}{%
+\subsubsection{Question 6.43}\label{question-6.43}}
+
+State the structure theorem for simple rings.
+
+\hypertarget{question-6.44}{%
+\subsubsection{Question 6.44}\label{question-6.44}}
+
+Do you know an example of a local ring? Another one? What about
+completions?
+
+\hypertarget{question-6.45}{%
+\subsubsection{Question 6.45}\label{question-6.45}}
+
+Consider the space of functions from the natural numbers to
+\({\mathbb{C}}\) endowed with the usual law of addition and the
+following analogue of the convolution product:
+
+\begin{align*}
+(f\ast g)(n) = \sum_{d\divides n}^{}f(d) g\qty{n\over d}
+.\end{align*}
+
+Show that this is a ring. What does this ring remind you of and what can
+you say about it?
+
+\hypertarget{question-6.46}{%
+\subsubsection{Question 6.46}\label{question-6.46}}
+
+Prove that any finite division ring is a field (that is, prove
+commutativity). Give an example of a (necessarily infinite) division
+ring which is NOT a field.
+
+\hypertarget{question-6.47}{%
+\subsubsection{Question 6.47}\label{question-6.47}}
+
+Prove that all finite integral domains are fields.
+
+\hypertarget{question-6.48}{%
+\subsubsection{Question 6.48}\label{question-6.48}}
+
+Can a polynomial over a division ring have more roots than its degree?
+
+\hypertarget{question-6.49}{%
+\subsubsection{Question 6.49}\label{question-6.49}}
+
+Classify (finite-dimensional) division algebras over \({\mathbb{R}}\).
+
+\hypertarget{question-6.50}{%
+\subsubsection{Question 6.50}\label{question-6.50}}
+
+Give an example of a \({\mathbb{C}}{\hbox{-}}\)algebra which is not
+semisimple.
+
+\hypertarget{question-6.51}{%
+\subsubsection{Question 6.51}\label{question-6.51}}
+
+What is Wedderburn's theorem? What does the group ring generated by
+\({\mathbb{Z}}/5{\mathbb{Z}}\) over \({\mathbb{Q}}\) look like?
+
+What if we take the noncyclic group of order 4 instead of
+\({\mathbb{Z}}/5{\mathbb{Z}}\)? The quaternion group instead of
+\({\mathbb{Z}}/5{\mathbb{Z}}\)?
+
+\hypertarget{question-6.52}{%
+\subsubsection{Question 6.52}\label{question-6.52}}
+
+Tell me about group rings. What do you know about them?
+
+\hypertarget{modules-1}{%
+\subsection{Modules}\label{modules-1}}
+
+\hypertarget{question-7.1}{%
+\subsubsection{Question 7.1}\label{question-7.1}}
+
+How does one prove the structure theorem for modules over PID? What is
+the module and what is the PID in the case of abelian groups?
+
+\hypertarget{question-7.2}{%
+\subsubsection{Question 7.2}\label{question-7.2}}
+
+If \(M\) is free abelian, how can I put quotients of M in some standard
+form? What was crucial about the integers here (abelian groups being
+modules over \({\mathbb{Z}}\))? How does the procedure simplify if the
+ring is a Euclidean domain, not just a PID?
+
+\hypertarget{question-7.3}{%
+\subsubsection{Question 7.3}\label{question-7.3}}
+
+Suppose \(D\) is an integral domain and the fundamental theorem holds
+for finitely-generated modules over \(D\) (i.e.~they are all direct sums
+of finitely many cyclic modules).
+
+Does \(D\) have to be a PID?
+
+\hypertarget{question-7.4}{%
+\subsubsection{Question 7.4}\label{question-7.4}}
+
+Classify finitely-generated modules over \({\mathbb{Z}}\), over PIDs,
+and over Dedekind rings.
+
+\hypertarget{question-7.5}{%
+\subsubsection{Question 7.5}\label{question-7.5}}
+
+Prove a finitely-generated torsion-free abelian group is free abelian.
+
+\hypertarget{question-7.6.}{%
+\subsubsection{Question 7.6.}\label{question-7.6.}}
+
+What is a tensor product? What is the universal property? What do the
+tensors look like in the case of vector spaces?
+
+\hypertarget{question-7.7}{%
+\subsubsection{Question 7.7}\label{question-7.7}}
+
+Now we'll take the tensor product of two abelian groups, that is,
+\({\mathbb{Z}}{\hbox{-}}\)modules. Take \({\mathbb{Z}}/p{\mathbb{Z}}\)
+and \({\mathbb{Z}}/q{\mathbb{Z}}\), where \(p\) and \(q\) are distinct
+primes. What is their tensor product?
+
+\hypertarget{question-7.8}{%
+\subsubsection{Question 7.8}\label{question-7.8}}
+
+What is a projective module?
+
+\hypertarget{question-7.9}{%
+\subsubsection{Question 7.9}\label{question-7.9}}
+
+What is an injective module?
+
+\hypertarget{question-7.10}{%
+\subsubsection{Question 7.10}\label{question-7.10}}
+
+Do you know an example of a flat module?
+
+\hypertarget{representation-theory}{%
+\subsection{Representation Theory}\label{representation-theory}}
+
+\hypertarget{question-8.1}{%
+\subsubsection{Question 8.1}\label{question-8.1}}
+
+Define ``representation'' of a group. Define ``irreducible
+representation''. Why can you decompose representations of finite groups
+into irreducible ones? Construct an in- variant inner product.
+
+\hypertarget{question-8.2}{%
+\subsubsection{Question 8.2}\label{question-8.2}}
+
+State and prove Maschke's theorem. What can go wrong if you work over
+the real field? What can go wrong in characteristic p?
+
+\hypertarget{question-8.3}{%
+\subsubsection{Question 8.3}\label{question-8.3}}
+
+Do you know what a group representation is? Do you know what the trace
+of a group representation is?
+
+\hypertarget{question-8.4}{%
+\subsubsection{Question 8.4}\label{question-8.4}}
+
+State/prove/explain Schur's lemma.
+
+\hypertarget{question-8.5}{%
+\subsubsection{Question 8.5}\label{question-8.5}}
+
+What can you say about characters? What are the orthogonality relations?
+How do you use characters to determine if a given irreducible
+representation is a subspace of another given representation?
+
+\hypertarget{question-8.6}{%
+\subsubsection{Question 8.6}\label{question-8.6}}
+
+What's the relation between the number of conjugacy classes in a finite
+group and the number of irreducible representations?
+
+\hypertarget{question-8.7}{%
+\subsubsection{Question 8.7}\label{question-8.7}}
+
+What is the character table? What field do its entries lie in?
+
+\hypertarget{question-8.8}{%
+\subsubsection{Question 8.8}\label{question-8.8}}
+
+Why is the character table a square?
+
+\hypertarget{question-8.9}{%
+\subsubsection{Question 8.9}\label{question-8.9}}
+
+If \(\chi(g)\) is real for every character \(\chi\), what can you say
+about \(g\)?
+
+\hypertarget{question-8.10}{%
+\subsubsection{Question 8.10}\label{question-8.10}}
+
+What's the regular representation?
+
+\hypertarget{question-8.11}{%
+\subsubsection{Question 8.11}\label{question-8.11}}
+
+Give two definitions of ``induced representation''. Why are they
+equivalent?
+
+\hypertarget{question-8.12}{%
+\subsubsection{Question 8.12}\label{question-8.12}}
+
+If you have a representation of \(H\), a subgroup of a group \(G\), how
+can you induce a representation of \(G\)?
+
+\hypertarget{question-8.13}{%
+\subsubsection{Question 8.13}\label{question-8.13}}
+
+If you have an irreducible representation of a subgroup, is the induced
+representation of the whole group still irreducible?
+
+\hypertarget{question-8.14.}{%
+\subsubsection{Question 8.14.}\label{question-8.14.}}
+
+What can you say about the kernel of an irreducible representation? How
+about kernels of direct sums of irreducibles? What kind of functor is
+induction? Left or right exact?
+
+\hypertarget{question-8.15}{%
+\subsubsection{Question 8.15}\label{question-8.15}}
+
+What is Frobenius reciprocity?
+
+\hypertarget{question-8.16}{%
+\subsubsection{Question 8.16}\label{question-8.16}}
+
+Given a normal subgroup \(H\) of a finite group \(G\), we lift all the
+representations of \(G/H\) to representations of \(G\).
+
+Show that the intersection of the kernels of all these representations
+is precisely \(H\). What can you say when \(H\) is the commutator
+subgroup of \(G\)?
+
+\hypertarget{question-8.17}{%
+\subsubsection{Question 8.17}\label{question-8.17}}
+
+If you have two linear representations \(\pi_1\) and \(\pi_2\) of a
+finite group \(G\) such that \(\pi_1(g)\) is conjugate to \(\pi_2(g)\)
+for every g in \(G\), is it true that the two representations are
+isomorphic?
+
+\hypertarget{question-8.18}{%
+\subsubsection{Question 8.18}\label{question-8.18}}
+
+Group representations: What's special about using \({\mathbb{C}}\) in
+the definition of group algebra?
+
+Is it possible to work over other fields?
+
+What goes wrong if the characteristic of the field divides the order of
+the group?
+
+\hypertarget{question-8.19}{%
+\subsubsection{Question 8.19}\label{question-8.19}}
+
+Suppose you have a finite p-group, and you have a representation of this
+group on a finite-dimensional vector space over a finite field of
+characteristic p.~What can you say about it?
+
+\hypertarget{question-8.20}{%
+\subsubsection{Question 8.20}\label{question-8.20}}
+
+Let \((\pi, V)\) be a faithful finite-dimensional representation of
+\(G\). Show that, given any irreducible representation of \(G\), the nth
+tensor power of \(\operatorname{GL}(V)\) will contain it for some large
+enough \(n\).
+
+\hypertarget{question-8.21}{%
+\subsubsection{Question 8.21}\label{question-8.21}}
+
+What are the irreducible representations of finite abelian groups?
+
+\hypertarget{question-8.22}{%
+\subsubsection{Question 8.22}\label{question-8.22}}
+
+What are the group characters of the multiplicative group of a finite
+field?
+
+\hypertarget{question-8.23}{%
+\subsubsection{Question 8.23}\label{question-8.23}}
+
+Are there two nonisomorphic groups with the same representations?
+
+\hypertarget{question-8.24}{%
+\subsubsection{Question 8.24}\label{question-8.24}}
+
+If you have a \({\mathbb{Z}}/5{\mathbb{Z}}\) action on a complex vector
+space, what does this action look like? What about an \(S_3\) action? A
+dihedral group of any order?
+
+\hypertarget{question-8.25}{%
+\subsubsection{Question 8.25}\label{question-8.25}}
+
+What are the representations of \(S_3\)? How do they restrict to
+\(S_2\)?
+
+\hypertarget{question-8.26}{%
+\subsubsection{Question 8.26}\label{question-8.26}}
+
+Tell me about the representations of \(D_4\). Write down the character
+table. What is the 2-dimensional representation? How can it be
+interpreted geometrically?
+
+\hypertarget{question-8.27}{%
+\subsubsection{Question 8.27}\label{question-8.27}}
+
+How would you work out the orders of the irreducible representations of
+the dihedral group \(D_n\)?
+
+Why is the sum of squares of dimensions equal to the order of the group?
+
+\hypertarget{question-8.28}{%
+\subsubsection{Question 8.28}\label{question-8.28}}
+
+Do you know any representation theory? What about representations of
+\(A_4\)?
+
+Give a nontrivial one. What else is there? How many irreducible
+representations do we have? What are their degrees? Write the character
+table of \(A_4\).
+
+\hypertarget{question-8.29}{%
+\subsubsection{Question 8.29}\label{question-8.29}}
+
+Write the character table for \(S_4\).
+
+\hypertarget{question-8.30}{%
+\subsubsection{Question 8.30}\label{question-8.30}}
+
+Start constructing the character table for \(S_5\).
+
+\hypertarget{question-8.31.}{%
+\subsubsection{Question 8.31.}\label{question-8.31.}}
+
+How many irreducible representations does \(S_n\) have?
+
+What classical function in mathematics does this number relate to?
+
+\hypertarget{question-8.32}{%
+\subsubsection{Question 8.32}\label{question-8.32}}
+
+Discuss representations of \({\mathbb{Z}}\), the infinite cyclic group.
+What is the group algebra of \({\mathbb{Z}}\)?
+
+\hypertarget{question-8.33}{%
+\subsubsection{Question 8.33}\label{question-8.33}}
+
+What is a Lie group? Define a unitary representation. What is the
+Peter--Weyl theorem? What is the Lie algebra? The Jacobi identity? What
+is the adjoint representation of a Lie algebra? What is the commutator
+of two vector fields on a manifold?
+
+When is a representation of \({\mathbb{Z}}\) completely reducible? Why?
+
+Which are the indecomposable modules?
+
+\hypertarget{question-8.34}{%
+\subsubsection{Question 8.34}\label{question-8.34}}
+
+Talk about the representation theory of compact Lie groups. How do you
+know you have a finite-dimensional representation?
+
+\hypertarget{question-8.35}{%
+\subsubsection{Question 8.35}\label{question-8.35}}
+
+How do you prove that any finite-dimensional representation of a compact
+Lie group is equivalent to a unitary one?
+
+\hypertarget{question-8.36}{%
+\subsubsection{Question 8.36}\label{question-8.36}}
+
+Do you know a Lie group that has no faithful finite-dimensional
+representations?
+
+\hypertarget{question-8.37}{%
+\subsubsection{Question 8.37}\label{question-8.37}}
+
+What do you know about representations of \({\operatorname{SO}}(2)\)?
+\({\operatorname{SO}}(3)\)?
+
+\hypertarget{categories-and-functors}{%
+\subsection{Categories and Functors}\label{categories-and-functors}}
+
+\hypertarget{question-9.1}{%
+\subsubsection{Question 9.1}\label{question-9.1}}
+
+Which is the connection between Hom and tensor product? What is this
+called in representation theory?
+
+\hypertarget{question-9.2}{%
+\subsubsection{Question 9.2}\label{question-9.2}}
+
+Can you get a long exact sequence from a short exact sequence of abelian
+groups together with another abelian group?
+
+\hypertarget{question-9.3}{%
+\subsubsection{Question 9.3}\label{question-9.3}}
+
+Do you know what the Ext functor of an abelian group is? Do you know
+where it appears? What is
+\(\operatorname{Ext} ({\mathbb{Z}}/m{\mathbb{Z}}, {\mathbb{Z}}/n{\mathbb{Z}})\)?
+What is
+\(\operatorname{Ext} ({\mathbb{Z}}/m{\mathbb{Z}}, {\mathbb{Z}})\)?
+
+
+
+\newpage
+\printbibliography[title=Bibliography]
+
+
+\end{document}

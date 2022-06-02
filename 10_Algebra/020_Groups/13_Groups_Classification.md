@@ -541,7 +541,7 @@ Every group $G$ of prime order $p\geq 2$ is cyclic and thus isomorphic to $\ZZ/p
 
 :::{.proof title="?"}
 Supposing that $g\neq e$, it generates a cyclic subgroup $H \da \gens{g} \leq G$ of order dividing $p$ by Lagrange.
-Since $g\neq e$, $\sizeH = p = \size G$.
+Since $g\neq e$, $\size H = p = \size G$.
 :::
 
 :::{.proposition title="Classification of groups of order $p^2$"}
@@ -549,7 +549,7 @@ Every group $G$ of order $p^2$ is abelian, and thus isomorphic to either $C_{p^2
 :::
 
 :::{.proof title="?"}
-Quotient by the center to get $m\da \sizeG/Z(G) \in \ts{ 1, p, p^2 }$.
+Quotient by the center to get $m\da \size G/Z(G) \in \ts{ 1, p, p^2 }$.
 By cases:
 
 - Since $G$ is a $p\dash$group, $G$ has nontrivial center, so $m\neq 1$
@@ -591,7 +591,7 @@ G\cong \gens{a, b \st a^p, b^q, bab\inv = a^\ell} \\ \\
   \[
   \size S_pS_q = {\size S_p \size S_q \over \size \qty{S_p \intersect S_q}} = {pq \over 1} = \size G
   .\]
-  If $G$ is finite, then $AB\leq G$ with $\sizeAB = \sizeG$ implies $AB = G$.
+  If $G$ is finite, then $AB\leq G$ with $\size AB = \size G$ implies $AB = G$.
 :::
 
 :::{.proof title="of $pq$ theorem, case 2"}

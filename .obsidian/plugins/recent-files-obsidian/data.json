@@ -1,16 +1,144 @@
 {
   "recentFiles": [
     {
+      "basename": "Real Analysis Qual Progress",
+      "path": "20_Real Analysis/Real Analysis Qual Progress.md"
+    },
+    {
+      "basename": "0000_Preface",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
+    },
+    {
+      "basename": "0010_Measure Theory",
+      "path": "20_Real Analysis/600_Qual_Questions_UGA/0010_Measure Theory.md"
+    },
+    {
+      "basename": "105_Conformal Maps",
+      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
+    },
+    {
       "basename": "030_Computing Integrals",
       "path": "30_Complex Analysis/999_Quals/030_Computing Integrals.md"
     },
     {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
+      "basename": "image_2020-06-17-21-53-19",
+      "path": "30_Complex Analysis/999_Quals/figures/image_2020-06-17-21-53-19.png"
+    },
+    {
+      "basename": "image_2020-06-17-21-52-40",
+      "path": "30_Complex Analysis/999_Quals/figures/image_2020-06-17-21-52-40.png"
     },
     {
       "basename": "000_Preface",
       "path": "30_Complex Analysis/999_Quals/000_Preface.md"
+    },
+    {
+      "basename": "Complex Qual Progress",
+      "path": "30_Complex Analysis/Complex Qual Progress.md"
+    },
+    {
+      "basename": "002_Continuity",
+      "path": "30_Complex Analysis/999_Quals/002_Continuity.md"
+    },
+    {
+      "basename": "011_General",
+      "path": "40_Topology/600_UGA_Qual_Questions/011_General.md"
+    },
+    {
+      "basename": "000_Preface",
+      "path": "40_Topology/600_UGA_Qual_Questions/000_Preface.md"
+    },
+    {
+      "basename": "072_Fields and Galois Theory",
+      "path": "10_Algebra/600_Qual_Questions_UGA/072_Fields and Galois Theory.md"
+    },
+    {
+      "basename": "060_Commutative Algebra",
+      "path": "10_Algebra/600_Qual_Questions_UGA/060_Commutative Algebra.md"
+    },
+    {
+      "basename": "910 Extra Problems Group Theory",
+      "path": "10_Algebra/600_Qual_Questions_UGA/910 Extra Problems Group Theory.md"
+    },
+    {
+      "basename": "940 Extra Problems Galois Theory",
+      "path": "10_Algebra/600_Qual_Questions_UGA/940 Extra Problems Galois Theory.md"
+    },
+    {
+      "basename": "001_Examples",
+      "path": "40_Topology/020_Point_Set/001_Examples.md"
+    },
+    {
+      "basename": "Algebra Week 1 Groups Warmup",
+      "path": "Workshops/Algebra/Algebra Week 1 Groups Warmup.md"
+    },
+    {
+      "basename": "050 Group Theory General",
+      "path": "10_Algebra/600_Qual_Questions_UGA/050 Group Theory General.md"
+    },
+    {
+      "basename": "13_Groups_Classification",
+      "path": "10_Algebra/020_Groups/13_Groups_Classification.md"
+    },
+    {
+      "basename": "12_Sylow_Theorems",
+      "path": "10_Algebra/020_Groups/12_Sylow_Theorems.md"
+    },
+    {
+      "basename": "QualAlgebra",
+      "path": "10_Algebra/TexDocs/QualAlgebra.md"
+    },
+    {
+      "basename": "Midterm",
+      "path": "10_Algebra/500_Exercises/PSets/Midterm/Midterm.md"
+    },
+    {
+      "basename": "080_Modules",
+      "path": "10_Algebra/600_Qual_Questions_UGA/080_Modules.md"
+    },
+    {
+      "basename": "007 CR and Holomorphy",
+      "path": "30_Complex Analysis/999_Quals/007 CR and Holomorphy.md"
+    },
+    {
+      "basename": "01_Groups_Basics",
+      "path": "10_Algebra/020_Groups/01_Groups_Basics.md"
+    },
+    {
+      "basename": "200_Extra",
+      "path": "10_Algebra/600_Qual_Questions_UGA/200_Extra.md"
+    },
+    {
+      "basename": "909 Extra Problems Commutative Algebra",
+      "path": "10_Algebra/600_Qual_Questions_UGA/909 Extra Problems Commutative Algebra.md"
+    },
+    {
+      "basename": "930 Extra Problems Field Theory",
+      "path": "10_Algebra/600_Qual_Questions_UGA/930 Extra Problems Field Theory.md"
+    },
+    {
+      "basename": "950 Extra Problems Modules",
+      "path": "10_Algebra/600_Qual_Questions_UGA/950 Extra Problems Modules.md"
+    },
+    {
+      "basename": "960 Extra Problems Linear Algebra",
+      "path": "10_Algebra/600_Qual_Questions_UGA/960 Extra Problems Linear Algebra.md"
+    },
+    {
+      "basename": "992 Extra_Questions",
+      "path": "10_Algebra/600_Qual_Questions_UGA/992 Extra_Questions.md"
+    },
+    {
+      "basename": "101_Linear Algebra_JCF",
+      "path": "10_Algebra/600_Qual_Questions_UGA/101_Linear Algebra_JCF.md"
+    },
+    {
+      "basename": "9960 UGA Problems",
+      "path": "10_Algebra/500_Exercises/9960 UGA Problems.md"
+    },
+    {
+      "basename": "00_Books_Notes",
+      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     },
     {
       "basename": "20_Solutions",
@@ -35,10 +163,6 @@
     {
       "basename": "070_Morera",
       "path": "30_Complex Analysis/999_Quals/070_Morera.md"
-    },
-    {
-      "basename": "105_Conformal Maps",
-      "path": "30_Complex Analysis/999_Quals/105_Conformal Maps.md"
     },
     {
       "basename": "052_Rouche",
@@ -75,130 +199,6 @@
     {
       "basename": "001_Precalculus",
       "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
-    },
-    {
-      "basename": "000_Tips_Techs",
-      "path": "30_Complex Analysis/010_Basics/000_Tips_Techs.md"
-    },
-    {
-      "basename": "hmwk3x",
-      "path": "attachments/hmwk3x.pdf"
-    },
-    {
-      "basename": "10_Problems",
-      "path": "30_Complex Analysis/000_Resources/10_Problems.md"
-    },
-    {
-      "basename": "00_Study Schedule and Topics",
-      "path": "30_Complex Analysis/000_Resources/00_Study Schedule and Topics.md"
-    },
-    {
-      "basename": "Won_-_Complex_Analysis_Qual_Sheet",
-      "path": "attachments/Won_-_Complex_Analysis_Qual_Sheet.pdf"
-    },
-    {
-      "basename": "025 Residues for integrals",
-      "path": "30_Complex Analysis/040_Residues/025 Residues for integrals.md"
-    },
-    {
-      "basename": "060_Schwarz lemma",
-      "path": "30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma.md"
-    },
-    {
-      "basename": "300_Riemann Mapping, Casorati",
-      "path": "30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati.md"
-    },
-    {
-      "basename": "040_Open Mapping",
-      "path": "30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping.md"
-    },
-    {
-      "basename": "031_Conformal_Standard",
-      "path": "30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard.md"
-    },
-    {
-      "basename": "030_Conformal Map Theory and Background",
-      "path": "30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background.md"
-    },
-    {
-      "basename": "035_Conformal_Exercises",
-      "path": "30_Complex Analysis/050_Conformal_Maps/035_Conformal_Exercises.md"
-    },
-    {
-      "basename": "006 Series Convergence",
-      "path": "30_Complex Analysis/999_Quals/006 Series Convergence.md"
-    },
-    {
-      "basename": "Complex_Analysis_Prelim_Review",
-      "path": "attachments/Complex_Analysis_Prelim_Review.pdf"
-    },
-    {
-      "basename": "005_Calculus_Preliminaries",
-      "path": "30_Complex Analysis/010_Basics/005_Calculus_Preliminaries.md"
-    },
-    {
-      "basename": "030_Exercises_Integrals",
-      "path": "30_Complex Analysis/040_Residues/030_Exercises_Integrals.md"
-    },
-    {
-      "basename": "040_MMP",
-      "path": "30_Complex Analysis/030_Zeros_and_Poles/040_MMP.md"
-    },
-    {
-      "basename": "050_Montel",
-      "path": "30_Complex Analysis/070_Omitted Values/050_Montel.md"
-    },
-    {
-      "basename": "Special Functions",
-      "path": "30_Complex Analysis/900 Unsorted/Special Functions.md"
-    },
-    {
-      "basename": "ist_ca_2015",
-      "path": "attachments/ist_ca_2015.pdf"
-    },
-    {
-      "basename": "017 Fixed Points",
-      "path": "40_Topology/600_UGA_Qual_Questions/017 Fixed Points.md"
-    },
-    {
-      "basename": "016 Surfaces",
-      "path": "40_Topology/600_UGA_Qual_Questions/016 Surfaces.md"
-    },
-    {
-      "basename": "011_General",
-      "path": "40_Topology/600_UGA_Qual_Questions/011_General.md"
-    },
-    {
-      "basename": "0000_Undergraduate Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0000_Undergraduate Analysis.md"
-    },
-    {
-      "basename": "015_Singularities",
-      "path": "30_Complex Analysis/030_Zeros_and_Poles/015_Singularities.md"
-    },
-    {
-      "basename": "999_Exercises",
-      "path": "30_Complex Analysis/030_Zeros_and_Poles/999_Exercises.md"
-    },
-    {
-      "basename": "030 Identity Principle",
-      "path": "30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle.md"
-    },
-    {
-      "basename": "0030_Convolution and Fourier Analysis",
-      "path": "20_Real Analysis/600_Qual_Questions_UGA/0030_Convolution and Fourier Analysis.md"
-    },
-    {
-      "basename": "999_Basics_Exercises",
-      "path": "30_Complex Analysis/010_Basics/999_Basics_Exercises.md"
-    },
-    {
-      "basename": "115_Complex Log",
-      "path": "30_Complex Analysis/010_Basics/115_Complex Log.md"
-    },
-    {
-      "basename": "061_Analytic_NT",
-      "path": "30_Complex Analysis/010_Basics/061_Analytic_NT.md"
     }
   ],
   "omittedPaths": [],

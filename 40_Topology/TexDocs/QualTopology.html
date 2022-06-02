@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Qual Topology" />
+<meta property="og:type" content="book" />
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://dzackgarza.com/assets/dist.js" data-external="1">
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config( window.mjconfig );
+</script>
+
+<script type="text/javascript" src="data:application/javascript;base64,KGZ1bmN0aW9uICgpIHsKICB2YXIgbmV3TWF0aEpheCA9ICdodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9tYXRoamF4LzIuNy4xL01hdGhKYXguanMnOwogIHZhciBvbGRNYXRoSmF4ID0gJ2Nkbi5tYXRoamF4Lm9yZy9tYXRoamF4L2xhdGVzdC9NYXRoSmF4LmpzJzsKCiAgdmFyIHJlcGxhY2VTY3JpcHQgPSBmdW5jdGlvbiAoc2NyaXB0LCBzcmMpIHsKICAgIC8vCiAgICAvLyAgTWFrZSByZWRpcmVjdGVkIHNjcmlwdAogICAgLy8KICAgIHZhciBuZXdTY3JpcHQgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKICAgIG5ld1NjcmlwdC5zcmMgPSBuZXdNYXRoSmF4ICsgc3JjLnJlcGxhY2UoLy4qPyhcP3wkKS8sICckMScpOwogICAgLy8KICAgIC8vICBNb3ZlIG9ubG9hZCBhbmQgb25lcnJvciBoYW5kbGVycyB0byBuZXcgc2NyaXB0CiAgICAvLwogICAgbmV3U2NyaXB0Lm9ubG9hZCA9IHNjcmlwdC5vbmxvYWQ7IAogICAgbmV3U2NyaXB0Lm9uZXJyb3IgPSBzY3JpcHQub25lcnJvcjsKICAgIHNjcmlwdC5vbmxvYWQgPSBzY3JpcHQub25lcnJvciA9IG51bGw7CiAgICAvLwogICAgLy8gIE1vdmUgYW55IGNvbnRlbnQgKG9sZC1zdHlsZSBjb25maWd1cmF0aW9uIHNjcmlwdHMpCiAgICAvLwogICAgd2hpbGUgKHNjcmlwdC5maXJzdENoaWxkKSBuZXdTY3JpcHQuYXBwZW5kQ2hpbGQoc2NyaXB0LmZpcnN0Q2hpbGQpOwogICAgLy8KICAgIC8vICBDb3B5IHNjcmlwdCBpZAogICAgLy8KICAgIGlmIChzY3JpcHQuaWQgIT0gbnVsbCkgbmV3U2NyaXB0LmlkID0gc2NyaXB0LmlkOwogICAgLy8KICAgIC8vICBSZXBsYWNlIG9yaWdpbmFsIHNjcmlwdCB3aXRoIG5ldyBvbmUKICAgIC8vCiAgICBzY3JpcHQucGFyZW50Tm9kZS5yZXBsYWNlQ2hpbGQobmV3U2NyaXB0LCBzY3JpcHQpOwogICAgLy8KICAgIC8vICBJc3N1ZSBhIGNvbnNvbGUgd2FybmluZwogICAgLy8KICAgIGNvbnNvbGUud2FybignV0FSTklORzogY2RuLm1hdGhqYXgub3JnIGhhcyBiZWVuIHJldGlyZWQuIENoZWNrIGh0dHBzOi8vd3d3Lm1hdGhqYXgub3JnL2Nkbi1zaHV0dGluZy1kb3duLyBmb3IgbWlncmF0aW9uIHRpcHMuJykKICB9CgogIGlmIChkb2N1bWVudC5jdXJyZW50U2NyaXB0KSB7CiAgICB2YXIgc2NyaXB0ID0gZG9jdW1lbnQuY3VycmVudFNjcmlwdDsKICAgIHJlcGxhY2VTY3JpcHQoc2NyaXB0LCBzY3JpcHQuc3JjKTsKICB9IGVsc2UgewogICAgLy8KICAgIC8vIExvb2sgZm9yIGN1cnJlbnQgc2NyaXB0IGJ5IHNlYXJjaGluZyBmb3Igb25lIHdpdGggdGhlIHJpZ2h0IHNvdXJjZQogICAgLy8KICAgIHZhciBuID0gb2xkTWF0aEpheC5sZW5ndGg7CiAgICB2YXIgc2NyaXB0cyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzY3JpcHQnKTsKICAgIGZvciAodmFyIGkgPSAwOyBpIDwgc2NyaXB0cy5sZW5ndGg7IGkrKykgewogICAgICB2YXIgc2NyaXB0ID0gc2NyaXB0c1tpXTsKICAgICAgdmFyIHNyYyA9IChzY3JpcHQuc3JjIHx8ICcnKS5yZXBsYWNlKC8uKj86XC9cLy8sJycpOwogICAgICBpZiAoc3JjLnN1YnN0cigwLCBuKSA9PT0gb2xkTWF0aEpheCkgewogICAgICAgIHJlcGxhY2VTY3JpcHQoc2NyaXB0LCBzcmMpOwogICAgICAgIGJyZWFrOwogICAgICB9CiAgICB9CiAgfQp9KSgpOw==">
+</script>
+
+<meta name="description" content="Qual Topology">
+
+<title>Qual Topology</title>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous" data-external="1"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pushy/1.3.0/js/pushy.min.js" integrity="sha512-+YLFvWFpPgQOV1/PoGgIinfvZEsUpfO5YEoxH4MlBAW5lf2WAVK5F4HtWA1BvZEYqK+AWW0fb/C797ttp1fL7g==" crossorigin="anonymous" data-external="1"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pushy/1.3.0/css/pushy.min.css" integrity="sha512-qGokfFEnfziCnGfs9Dpy65qVsouyHwLFx2YUq/UScF4ojoI7P2sV1ETuV6HSqdOp5I9zIGi2S7YOJglhWE3chg==" crossorigin="anonymous" data-external="1" />
+
+
+<link rel="stylesheet" href="data:text/css,%0Adiv%2Esticky%20%7B%0Aposition%3A%20%2Dwebkit%2Dsticky%3B%20%0Aposition%3A%20sticky%3B%0Atop%3A%200%3B%0Az%2Dindex%3A%2099%3B%0A%7D%0Ahtml%20%7B%0Afont%2Dsize%3A%20100%25%3B%0A%7D%0Ahtml%2C%20button%2C%20input%2C%20select%2C%20textarea%20%7B%0Afont%2Dfamily%3A%20sans%2Dserif%3B%0A%7D%0Ahtml%2C%20body%2C%20button%2C%20input%2C%20select%2C%20textarea%20%7B%0Acolor%3A%20%2357534A%3B%0Afont%2Dfamily%3A%20%22PT%20Serif%22%2C%22Calluna%22%2C%22Arno%20Pro%22%2Cserif%3B%0Afont%2Dsize%3A%2018px%3B%0Afont%2Dweight%3A%20300%3B%0A%7D%0Abody%7B%0Amargin%3A%200%20auto%3B%0Abackground%2Dcolor%3A%20%23%23fffff8%3B%0Afont%2Dfamily%3A%20et%2Dbook%2C%20Palatino%2C%20%22Palatino%20Linotype%22%2C%20%22Palatino%20LT%20STD%22%2C%20%22Book%20Antiqua%22%2C%20Georgia%2C%20serif%3B%0A%7D%0Abody%2C%20textarea%20%7B%0Aline%2Dheight%3A%201%2E4%3B%0A%7D%0Abody%3Aafter%20%7B%0Aclear%3A%20both%3B%0Acontent%3A%20%22%22%3B%0Adisplay%3A%20table%3B%0A%7D%0Abody%20%7B%0Apadding%2Dleft%3A%204rem%3B%0Apadding%2Dright%3A%204rem%3B%0Amargin%2Dleft%3A%20auto%3B%0Amargin%2Dright%3A%20auto%3B%0Amax%2Dwidth%3A%2044rem%3B%0Adisplay%3A%20block%3B%0A%7D%0A%40media%20screen%20and%20%28max%2Dwidth%3A1024px%29%20%7B%0Abody%20%7B%0Apadding%2Dleft%3A%200%2E5rem%3B%0Apadding%2Dright%3A%200%2E5rem%3B%0Amargin%2Dleft%3A%200%3B%0Amargin%2Dright%3A%200%3B%0Amax%2Dwidth%3A%2044rem%3B%0Adisplay%3A%20block%3B%0A%7D%0A%7D%0Ah1%2C%20h2%2C%20h3%2C%20dt%20%7B%0Acolor%3A%20%23423F37%3B%0Afont%2Dweight%3A%20700%3B%0Atext%2Dalign%3A%20center%3B%0A%7D%0Ah1%20%7B%0Afont%2Dsize%3A%202em%3B%0Amargin%3A%200%2E67em%200%3B%0A%7D%0Ah1%3A%3Abefore%2C%0Ah1%3A%3Aafter%20%7B%0Adisplay%3A%20inline%2Dblock%3B%0Acontent%3A%20%22%22%3B%0Aborder%2Dtop%3A%20%2E3rem%20solid%20black%3B%0Awidth%3A%204rem%3B%0Amargin%3A%200%201rem%3B%0Atransform%3A%20translateY%280rem%29%3B%0A%7D%0Ah2%2C%20%2Earticle%2Dlist%20%2Earticle%2Dtitle%20%7B%0Apadding%2Dtop%3A%201em%3B%0Apadding%2Dbottom%3A%200em%3B%0Aborder%2Dbottom%3A%20none%3B%0Afont%2Dsize%3A%201%2E5em%3B%0Amargin%3A%200%2E83em%200%3B%0A%7D%0Ah3%2C%20dt%20%7B%0Apadding%2Dtop%3A%201em%3B%0Afont%2Dsize%3A%201%2E17em%3B%0Afont%2Dstyle%3A%20italic%3B%0Amargin%3A%201em%200%3B%0A%7D%0Ah4%20%7B%0Afont%2Dsize%3A%201em%3B%0Amargin%3A%201%2E33em%200%3B%0A%7D%0Ah5%20%7B%0Afont%2Dsize%3A%200%2E83em%3B%0Amargin%3A%201%2E67em%200%3B%0A%7D%0Ah6%20%7B%0Afont%2Dsize%3A%200%2E75em%3B%0Amargin%3A%202%2E33em%200%3B%0A%7D%0Aa%20%7B%0Acolor%3A%20%238DB359%3B%0Acursor%3A%20pointer%3B%0Aoutline%3A%200%20none%3B%0Atext%2Ddecoration%3A%20underline%3B%0A%7D%0Aa%3Ahover%20%7B%0Aoutline%3A%200%20none%3B%0Acolor%3A%20%23739544%3B%0A%7D%0Ap%2C%20pre%20%7B%0Amargin%3A%201em%200%3B%0A%7D%0Acode%2C%20kbd%2C%20pre%2C%20samp%20%7B%0Afont%2Dfamily%3A%20monospace%2Cserif%3B%0Afont%2Dsize%3A%201em%3B%0Amargin%3A%200%3B%0Apadding%3A%200%3B%0A%7D%0Apre%20%7B%0Awhite%2Dspace%3A%20pre%2Dwrap%3B%0Aword%2Dwrap%3A%20break%2Dword%3B%0A%7D%0Apre%20%7B%0Abackground%2Dcolor%3A%20%23F8F5F0%3B%0Afont%2Dsize%3A%200%2E7rem%3B%0Aoverflow%2Dx%3A%20auto%3B%0Apadding%3A%201%2E3rem%3B%0Aposition%3A%20relative%3B%0Awhite%2Dspace%3A%20pre%3B%0Aword%2Dwrap%3A%20normal%3B%0A%7D%0Apre%2C%20code%2C%20kbd%2C%20samp%20%7B%0Amargin%3A%200%3B%0A%7D%0Acode%2C%20kbd%2C%20pre%2C%20samp%20%7B%0Afont%2Dfamily%3A%20monospace%2Cserif%3B%0A%7D%0Acode%20%7B%0Acolor%3A%20%23423F37%3B%0A%7D%0Aaside%20%7B%0Adisplay%3A%20block%3B%0Afloat%3A%20right%3B%0Awidth%3A%20390px%3B%0A%7D%0Ab%2C%20strong%20%7B%0Afont%2Dweight%3A%20bold%3B%0Acolor%3A%20%23423F37%3B%0Afont%2Dweight%3A%20700%3B%0A%7D%0Ablockquote%20%7B%0Acolor%3A%20%23423F37%3B%0Amargin%3A%201em%2040px%3B%0Amargin%2Dbottom%3A%202em%3B%0Amargin%2Dtop%3A%202em%3B%0Abackground%2Dcolor%3A%20whitesmoke%3B%0Amargin%2Dleft%3A%200%3B%0Amargin%2Dright%3A%200%3B%0A%7D%0Afigure%20%7B%0Amargin%2Dbottom%3A%202em%3B%0Amargin%2Dtop%3A%202em%3B%0A%7D%0Ahr%20%7B%0A%2Dmoz%2Dborder%2Dbottom%2Dcolors%3A%20none%3B%0A%2Dmoz%2Dborder%2Dleft%2Dcolors%3A%20none%3B%0A%2Dmoz%2Dborder%2Dright%2Dcolors%3A%20none%3B%0A%2Dmoz%2Dborder%2Dtop%2Dcolors%3A%20none%3B%0Aborder%2Dcolor%3A%20%2Dmoz%2Duse%2Dtext%2Dcolor%20%2Dmoz%2Duse%2Dtext%2Dcolor%20%23ECE6DA%3B%0Aborder%2Dimage%3A%20none%3B%0Aborder%2Dstyle%3A%20none%20none%20solid%3B%0Aborder%2Dwidth%3A%20medium%20medium%201px%3B%0Amargin%3A%203em%206em%3B%0A%7D%0Aimg%20%7B%0Amax%2Dwidth%3A%20100%25%3B%0Adisplay%3A%20block%3B%0Aborder%3A%200%20none%3B%0Amargin%2Dleft%3A%20auto%3B%0Amargin%2Dright%3A%20auto%3B%0Awidth%3A%2080%25%3B%0A%7D%0Aol%20%3E%20li%3Abefore%20%7B%0Acolor%3A%20%23423F37%3B%0Acontent%3A%20counter%28ol%2C%20decimal%29%20%22%2E%22%3B%0Acounter%2Dincrement%3A%20ol%3B%0Afont%2Dweight%3A%20700%3B%0Amargin%2Dright%3A%200%2E333em%3B%0Aposition%3A%20absolute%3B%0Aright%3A%20100%25%3B%0A%7D%0Aul%20%3E%20li%3Abefore%20%7B%0Abackground%2Dcolor%3A%20%23423F37%3B%0Aborder%2Dradius%3A%2014px%2014px%2014px%2014px%3B%0Acontent%3A%20%22%22%3B%0Aheight%3A%206px%3B%0Amargin%2Dright%3A%200%2E333em%3B%0Amargin%2Dtop%3A%200%2E55em%3B%0Aposition%3A%20absolute%3B%0Aright%3A%20100%25%3B%0Awidth%3A%206px%3B%0A%7D%0Aol%2C%20ul%2C%20dl%20%7B%0Amargin%2Dleft%3A%202rem%3B%0Apadding%3A%200%3B%0A%7D%0Aol%20%7B%0Acounter%2Dreset%3A%20ol%3B%0A%7D%0Ali%20%2B%20li%2C%20dd%20%2B%20dt%20%7B%0Amargin%2Dtop%3A%200%2E5em%3B%0A%7D%0Aul%20%3E%20li%20%7B%0Aposition%3A%20relative%3B%0A%7D%0Aol%20%3E%20li%20%7B%0Aposition%3A%20relative%3B%0A%7D%0Ali%20%7B%0Alist%2Dstyle%3A%20none%20outside%20none%3B%0A%7D%0Afigure%20%3E%20figcaption%20%7B%0Amargin%2Dtop%3A%200%2E5em%3B%0A%7D%0Asmall%2C%20dd%2C%20figcaption%20%7B%0Acolor%3A%20%23A19C91%3B%0Adisplay%3A%20block%3B%0Afont%2Dsize%3A%200%2E8rem%3B%0Afont%2Dstyle%3A%20italic%3B%0Aline%2Dheight%3A%201%2E2%3B%0A%7D%0Atbody%7Bdisplay%3Atable%2Drow%2Dgroup%7D%0Atfoot%7Bdisplay%3Atable%2Dfooter%2Dgroup%7D%0Atable%7Bmargin%2Dbottom%3A2em%3Bfont%2Dsize%3A%200%2E8em%3Bpadding%3A0%3Bborder%2Dcollapse%3Acollapse%3B%2Dwebkit%2Dbox%2Dshadow%3A1px%201px%202px%20rgba%280%2C0%2C0%2C%2E35%29%3Bwidth%3A80%25%3Bmargin%3A0%20auto%202em%20auto%7D%0Atable%20th%2Ctable%20td%7Bpadding%3A10px%2010px%209px%3Bline%2Dheight%3A18px%3Btext%2Dalign%3Aleft%7D%0Atable%20th%7B%0Apadding%2Dtop%3A9px%3B%21important%3Btext%2Dtransform%3Auppercase%3Bvertical%2Dalign%3Amiddle%7D%0Atable%20td%7Bvertical%2Dalign%3Atop%3Bborder%2Dtop%3A1px%20solid%20%23ddd%3B%7D%0Atable%20tbody%20th%7Bborder%2Dtop%3A1px%20solid%20%23ddd%3Bvertical%2Dalign%3Atop%7D%0Atable%7Bborder%3A1px%20solid%20%23ddd%3Bborder%2Dcollapse%3Aseparate%3B%2Aborder%2Dcollapse%3Acollapse%3B%2Dwebkit%2Dborder%2Dradius%3A4px%3B%2Dmoz%2Dborder%2Dradius%3A4px%3Bborder%2Dradius%3A4px%7D%0Atable%20th%2Bth%2Ctable%20td%2Btd%2Ctable%20th%2Btd%7Bborder%2Dleft%3A1px%20solid%20%23ddd%7D%0Atable%20thead%20tr%3Afirst%2Dchild%20th%3Afirst%2Dchild%2Ctable%20tbody%20tr%3Afirst%2Dchild%20td%3Afirst%2Dchild%7B%2Dwebkit%2Dborder%2Dradius%3A4px%200%200%200%3B%2Dmoz%2Dborder%2Dradius%3A4px%200%200%200%3Bborder%2Dradius%3A4px%200%200%200%7D%0Atable%20thead%20tr%3Afirst%2Dchild%20th%3Alast%2Dchild%2Ctable%20tbody%20tr%3Afirst%2Dchild%20td%3Alast%2Dchild%7B%2Dwebkit%2Dborder%2Dradius%3A0%204px%200%200%3B%2Dmoz%2Dborder%2Dradius%3A0%204px%200%200%3Bborder%2Dradius%3A0%204px%200%200%7D%0Atable%20tbody%20tr%3Alast%2Dchild%20td%3Afirst%2Dchild%7B%2Dwebkit%2Dborder%2Dradius%3A0%200%200%204px%3B%2Dmoz%2Dborder%2Dradius%3A0%200%200%204px%3Bborder%2Dradius%3A0%200%200%204px%7D%0Atable%20tbody%20tr%3Alast%2Dchild%20td%3Alast%2Dchild%7B%2Dwebkit%2Dborder%2Dradius%3A0%200%204px%200%3B%2Dmoz%2Dborder%2Dradius%3A0%200%204px%200%3Bborder%2Dradius%3A0%200%204px%200%7D%0Atbody%20tr%3Anth%2Dchild%28odd%29%7Bbackground%2Dcolor%3Argba%280%2C0%2C0%2C0%2E03%29%7D%0Acaption%7Bdisplay%3Atable%2Dcaption%3Bfont%2Dweight%3A300%3Bfont%2Dsize%3A1%2E3em%3Btext%2Dtransform%3Auppercase%3Bletter%2Dspacing%3A2px%3Bword%2Dspacing%3A%2E2em%3Bbackground%3Argba%280%2C0%2C0%2C%2E75%29%3Bcolor%3A%23EEE%3Bpadding%3A4px%3B%2Dwebkit%2Dborder%2Dradius%3A4px%3Bmargin%3A4px%200%3B%2Dwebkit%2Dbox%2Dshadow%3A2px%202px%202px%20rgba%280%2C0%2C0%2C%2E35%29%7D%0A%0A%3A%2Dmoz%2Dplaceholder%20%7B%0Acolor%3A%20%23bfbfbf%3B%0A%7D%0A%3A%3A%2Dwebkit%2Dinput%2Dplaceholder%20%7B%0Acolor%3A%20%23bfbfbf%3B%0A%7D%0A%2Earticle%2Ddate%20%7B%0Acolor%3A%20%23C7C2B8%3B%0Adisplay%3A%20block%3B%0Afont%2Dsize%3A%200%2E8rem%3B%0A%7D%0A%2Etitle%7B%0Apadding%2Dbottom%3A%201em%3B%0A%7D%0A%2Eauthor%7B%0Apadding%2Dtop%3A%200%2E5em%3B%0Afont%2Dsize%3A1%2E24em%3B%0Aline%2Dheight%3A0%2E5em%3B%0Atext%2Dalign%3A%20left%3B%0A%7D%0A%2Edate%20%7B%0Acolor%3A%20%23C7C2B8%3B%0Adisplay%3A%20block%3B%0Afont%2Dsize%3A%200%2E8rem%3B%0A%7D%0A%2Ecaption%20%7B%0Adisplay%3A%20block%3B%0Afont%2Dsize%3A%200%2E8rem%3B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0A%2Esmall%7B%0Afont%2Dsize%3A0%2E8em%3B%0A%7D%0A%2Eaffiliation%7B%0Amargin%2Dtop%3A%200%3B%0Apadding%2Dtop%3A%200%3B%0Afont%2Dsize%3A0%2E9em%3B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0A%2Etheorem%2C%20%2Elemma%2C%20%2Eproposition%2C%20%2Ecorollary%20%7B%0Aborder%3A%201px%20solid%20black%3B%0Aborder%2Dleft%3A%205px%20solid%20%23%23955670%20%21important%3B%0Abackground%2Dcolor%3A%20%23%2395567075%3B%0Apadding%2Dleft%3A%205px%3B%0Amargin%2Dleft%3A%201%25%3B%0Apadding%2Dleft%3A%201%25%3B%0A%7D%0A%2Etheorem%20%3E%20%2Eproofenv%2Dheader%2C%0A%2Elemma%20%3E%20%2Eproofenv%2Dheader%2C%0A%2Eproposition%20%3E%20%2Eproofenv%2Dheader%2C%0A%2Edefinition%20%3E%20%2Eproofenv%2Dheader%2C%0A%2Ecorollary%20%3E%20%2Eproofenv%2Dheader%20%7B%0Afont%2Dstyle%3A%20normal%20%21important%3B%0Afont%2Dweight%3A%20bold%3B%0Aborder%2Dbottom%3A%202px%20solid%20black%3B%0Adisplay%3A%20block%3B%0A%7D%0A%2Etheorem%20%7B%0Aborder%3A%202px%20solid%20%2395567050%20%21important%3B%0Abackground%2Dcolor%3A%20%2395567050%3B%0Aborder%2Dleft%3A%205px%20solid%20%23955670%20%21important%3B%0Amargin%2Dleft%3A%201%25%3B%0Apadding%2Dleft%3A%201%25%3B%0A%7D%0A%2Estrategy%2C%20%2Econcept%20%7B%0Aborder%3A%202px%20solid%20black%20%21important%3B%0Abackground%2Dcolor%3A%20aliceblue%3B%0Amargin%2Dleft%3A%201%25%3B%0Apadding%2Dleft%3A%201%25%3B%0A%7D%0A%2Eslogan%20%7B%0Abackground%2Dcolor%3A%20wheat%3B%0A%7D%0A%2Eproof%20%7B%0Aborder%3A%201px%20dotted%3B%0Aborder%2Dcolor%3A%20%23000%3B%0Abackground%2Dcolor%3A%20%23F3E1C075%3B%0Amargin%2Dleft%3A%201%25%3B%0A%7D%0A%2Eproof%3Aafter%20%7B%0Acontent%3A%20%22%5C25FC%22%3B%0Afloat%3Aright%3B%0Amargin%2Dtop%3A%20%2D25px%3B%0Amargin%2Dright%3A%205px%3B%0A%7D%0A%2Ewarnings%20%7B%0Abackground%2Dcolor%3A%20%23f8d7da%3B%0Aborder%2Dcolor%3A%20%23f5c6cb%3B%0A%7D%0A%2Ewarnings%20%3E%20%2Eproofenv%2Dheader%20%7B%0Acolor%3A%20%23721c24%3B%0Afont%2Dweight%3A%20bold%20%21important%3B%0A%7D%0A%2Ewarnings%3Abefore%7B%0Acontent%3A%20%22%E2%9A%A0%EF%B8%8F%22%3B%0Amargin%2Dtop%3A%20%2D25px%3B%0Amargin%2Dright%3A%205px%3B%0A%7D%0A%2Edefinition%20%7B%0Aborder%3A%201px%20solid%3B%0Aborder%2Dcolor%3A%20%23000%3B%0Abackground%2Dcolor%3A%20%2327507054%3B%0Aborder%2Dleft%3A%205px%20solid%20%23275070%20%21important%3B%0Amargin%2Dleft%3A%201%25%3B%0Apadding%2Dleft%3A%201%25%3B%0A%7D%0A%2Eexercise%20%7B%0Aborder%3A%202px%20solid%20%23A0C4FF%20%21important%3B%0Abackground%2Dcolor%3A%20%23A0C4FF30%3B%0Aborder%2Dleft%3A%205px%20solid%20%23A0C4FF%20%21important%3B%0Amargin%2Dleft%3A%201%25%3B%0Apadding%2Dleft%3A%201%25%3B%0A%7D%0A%2Eproblem%20%7B%0Aborder%202px%20solid%20black%3B%0Abackground%3A%20aliceblue%3B%0Apadding%2Dleft%3A%201%25%3B%0A%7D%0A%2Esolution%20%7B%0Aborder%3A%20outset%3B%0Apadding%2Dleft%3A%201%25%3B%0Apadding%2Dright%3A%202%25%3B%0Abackground%2Dimage%3A%20linear%2Dgradient%28%23b75ea82e%2C%20%23b75ea82e%29%0A%7D%0A%2Eproofenv%20%7B%0Adisplay%3A%20block%3B%0Amargin%3A%2012px%200%3B%0Afont%2Dstyle%3A%20normal%3B%0Aborder%2Dright%3A%201px%20dotted%20black%3B%0A%0Amargin%2Dright%3A%201%25%3B%0A%7D%0Adetails%20%7B%0Aborder%3A%201px%20solid%20black%3B%0A%7D%0A%2Eproofenv%2Dheader%20%7B%0Atext%2Dtransform%3A%20capitalize%3B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0A%2Eremark%20%3E%20p%2C%20%2Efact%20%3E%20p%20%7B%0Amargin%2Dtop%3A%200em%3B%0A%7D%0Ablockquote%20%7B%0Atext%2Dalign%3A%20right%3B%0Afont%2Dstyle%3A%20italic%3B%0Abackground%2Dcolor%3A%20%23a2929554%3B%0Afont%2Dsize%3A%20small%3B%0A%7D%0A%2Epushy%7B%0Awidth%3A%20400px%3B%20%0A%7D%0A%2Epushy%2Dleft%7B%0Atransform%3A%20translate3d%28%2D400px%2C0%2C0%29%3B%20%0A%0A%7D%0A%2Epushy%2Dopen%2Dleft%20%23container%2C%0A%2Epushy%2Dopen%2Dleft%20%2Epush%20%7B%0Atransform%3A%20translate3d%28400px%2C%200%2C%200%29%3B%20%0A%7D%0A%2Epushy%2Dright%20%7B%0Atransform%3A%20translate3d%28400px%2C%200%2C%200%29%3B%20%0A%0A%7D%0A%2Epushy%2Dopen%2Dright%20%23container%2C%0A%2Epushy%2Dopen%2Dright%20%2Epush%20%7B%0Atransform%3A%20translate3d%28%2D400px%2C%200%2C%200%29%3B%20%0A%0A%7D%0Abutton%2Emenu%2Dbtn%20%7B%0Awidth%3A%20250px%3B%0Apadding%3A%2010px%3B%0Amargin%2Dbottom%3A%2030px%3B%0Abackground%3A%20%23000%3B%0Acolor%3A%20%23FFF%3B%0Atext%2Dalign%3A%20center%3B%0Aborder%3A%200%3B%0A%7D%0A%2Eintroquote%20%7B%0Awidth%3A%2030%25%3B%0A%7D%0Aimg%2Etikzcd%20%7B%0Amax%2Dwidth%3A%2070%25%3B%0Amax%2Dheight%3A%20600px%3B%0A%7D%0Aimg%2Etikzpic%20%7B%0Amin%2Dwidth%3A%2080%25%3B%0Amax%2Dwidth%3A%2090%25%3B%0Amax%2Dheight%3A%20800px%3B%0A%7D%0A" />
+
+
+</head>
+
+<body>
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+
+<!-- Your Content -->
+<div id="container" class="sticky">
+    <!-- Menu Button -->
+    <button class="menu-btn">☰ Table of Contents</button>
+</div>
+
+
+
+
+<!--bookdown:title:start-->
+<div id="header">
+    
+  
+    <h1 class="title">Qual Topology</h1>
+    </div>
+
+
+<hr>
+
+<nav class="pushy pushy-left" id="TOC">
+<ul>
+<li><a href="#preface"><span class="toc-section-number">1</span> Preface</a></li>
+<li><a href="#general-topology"><span class="toc-section-number">2</span> General Topology</a>
+<ul>
+<li><a href="#topologies-subspaces-closures-and-maps"><span class="toc-section-number">2.1</span> Topologies, Subspaces, Closures, and Maps</a>
+<ul>
+<li><a href="#fall-11-topologyqualcompleted"><span class="toc-section-number">2.1.1</span> Fall ’11 #topology/qual/completed</a></li>
+<li><a href="#fall-05-topologyqualcompleted"><span class="toc-section-number">2.1.2</span> 6 (Fall ’05) #topology/qual/completed</a></li>
+<li><a href="#fall-06.-topologyqualwork"><span class="toc-section-number">2.1.3</span> 7 (Fall ’06). #topology/qual/work</a></li>
+<li><a href="#fall-10.-topologyqualcompleted"><span class="toc-section-number">2.1.4</span> 8 (Fall ’10). #topology/qual/completed</a></li>
+<li><a href="#spring-06.-topologyqualwork"><span class="toc-section-number">2.1.5</span> 12 (Spring ’06). #topology/qual/work</a></li>
+<li><a href="#fall-06.-topologyqualwork-1"><span class="toc-section-number">2.1.6</span> 13 (Fall ’06). #topology/qual/work</a></li>
+<li><a href="#fall-07-topologyqualwork"><span class="toc-section-number">2.1.7</span> 14 (Fall ’07) #topology/qual/work</a></li>
+<li><a href="#fall-04.-topologyqualwork"><span class="toc-section-number">2.1.8</span> 5 (Fall ’04). #topology/qual/work</a></li>
+<li><a href="#spring-10-topologyqualcompleted"><span class="toc-section-number">2.1.9</span> ? (Spring ’10) #topology/qual/completed</a></li>
+<li><a href="#spring-11-topologyqualwork"><span class="toc-section-number">2.1.10</span> ? (Spring ’11) #topology/qual/work</a></li>
+<li><a href="#fall-14-topologyqualwork"><span class="toc-section-number">2.1.11</span> 21 (Fall ’14) #topology/qual/work</a></li>
+<li><a href="#spring-15-topologyqualcompleted"><span class="toc-section-number">2.1.12</span> 23 (Spring ’15) #topology/qual/completed</a></li>
+<li><a href="#fall-16-topologyqualwork"><span class="toc-section-number">2.1.13</span> 25 (Fall ’16) #topology/qual/work</a></li>
+<li><a href="#spring-10-topologyqualcompleted-1"><span class="toc-section-number">2.1.14</span> 42 (Spring ’10) #topology/qual/completed</a></li>
+<li><a href="#fall-12-topologyqualwork"><span class="toc-section-number">2.1.15</span> 43 (Fall ’12) #topology/qual/work</a></li>
+</ul></li>
+<li><a href="#compactness-and-metric-spaces"><span class="toc-section-number">2.2</span> Compactness and Metric Spaces</a>
+<ul>
+<li><a href="#spring-06-topologyqualwork"><span class="toc-section-number">2.2.1</span> 1 (Spring ’06) #topology/qual/work</a></li>
+<li><a href="#fall-17-topologyqualwork"><span class="toc-section-number">2.2.2</span> 26 (Fall ’17) #topology/qual/work</a></li>
+<li><a href="#spring-12-topologyqualwork"><span class="toc-section-number">2.2.3</span> 2 (Spring ’12) #topology/qual/work</a></li>
+<li><a href="#spring-09-topologyqualwork"><span class="toc-section-number">2.2.4</span> 3 (Spring ’09) #topology/qual/work</a></li>
+<li><a href="#spring-05-topologyqualcompleted"><span class="toc-section-number">2.2.5</span> 4 (Spring ’05) #topology/qual/completed</a></li>
+<li><a href="#spring-15-topologyqualwork"><span class="toc-section-number">2.2.6</span> 44 (Spring ’15) #topology/qual/work</a></li>
+<li><a href="#fall-07-topologyqualcompleted"><span class="toc-section-number">2.2.7</span> 18 (Fall ’07) #topology/qual/completed</a></li>
+<li><a href="#spring-15-topologyqualcompleted-1"><span class="toc-section-number">2.2.8</span> 19 (Spring ’15) #topology/qual/completed</a></li>
+<li><a href="#fall-14-topologyqualcompleted"><span class="toc-section-number">2.2.9</span> 20 (Fall ’14) #topology/qual/completed</a></li>
+<li><a href="#fall-18-topologyqualwork"><span class="toc-section-number">2.2.10</span> 22 (Fall ’18) #topology/qual/work</a></li>
+<li><a href="#spring-16-topologyqualwork"><span class="toc-section-number">2.2.11</span> 24 (Spring ’16) #topology/qual/work</a></li>
+<li><a href="#fall-17-topologyqualwork-1"><span class="toc-section-number">2.2.12</span> 27 (Fall ’17) #topology/qual/work</a></li>
+<li><a href="#spring-19-1-topologyqualcompleted"><span class="toc-section-number">2.2.13</span> Spring ’19 #1 #topology/qual/completed</a></li>
+<li><a href="#spring-2019-2-topologyqualcompleted"><span class="toc-section-number">2.2.14</span> Spring 2019 #2 #topology/qual/completed</a></li>
+<li><a href="#spring-2021-3-topologyqualwork"><span class="toc-section-number">2.2.15</span> Spring 2021 #3 #topology/qual/work</a></li>
+</ul></li>
+<li><a href="#connectedness"><span class="toc-section-number">2.3</span> Connectedness</a>
+<ul>
+<li><a href="#spring-13-topologyqualwork"><span class="toc-section-number">2.3.1</span> 9 (Spring ’13) #topology/qual/work</a></li>
+<li><a href="#fall-05-topologyqualcompleted-1"><span class="toc-section-number">2.3.2</span> 10 (Fall ’05) #topology/qual/completed</a></li>
+<li><a href="#fall-18-topologyqualwork-1"><span class="toc-section-number">2.3.3</span> 11 (Fall ’18) #topology/qual/work</a></li>
+<li><a href="#spring-2021-2"><span class="toc-section-number">2.3.4</span> Spring 2021 #2</a></li>
+</ul></li>
+<li><a href="#hausdorff-spaces-and-separation"><span class="toc-section-number">2.4</span> Hausdorff Spaces and Separation</a>
+<ul>
+<li><a href="#fall-14-topologyqualwork-1"><span class="toc-section-number">2.4.1</span> 29 (Fall ’14) #topology/qual/work</a></li>
+<li><a href="#spring-18-topologyqualcompleted"><span class="toc-section-number">2.4.2</span> 30 (Spring ’18) #topology/qual/completed</a></li>
+<li><a href="#spring-09-topologyqualcompleted"><span class="toc-section-number">2.4.3</span> 31 (Spring ’09) #topology/qual/completed</a></li>
+<li><a href="#fall-14-topologyqualcompleted-1"><span class="toc-section-number">2.4.4</span> 32 (Fall ’14) #topology/qual/completed</a></li>
+<li><a href="#fall-06-topologyqualwork"><span class="toc-section-number">2.4.5</span> 33 (Fall ’06) #topology/qual/work</a></li>
+<li><a href="#fall-04-topologyqualwork"><span class="toc-section-number">2.4.6</span> 34 (Fall ’04) #topology/qual/work</a></li>
+<li><a href="#fall-16-topologyqualwork-1"><span class="toc-section-number">2.4.7</span> 35 (Fall ’16) #topology/qual/work</a></li>
+<li><a href="#spring-06-topologyqualwork-1"><span class="toc-section-number">2.4.8</span> 36 (Spring ’06) #topology/qual/work</a></li>
+<li><a href="#spring-09-topologyqualwork-1"><span class="toc-section-number">2.4.9</span> 37 (Spring ’09) #topology/qual/work</a></li>
+<li><a href="#spring-08-topologyqualcompleted"><span class="toc-section-number">2.4.10</span> 38 (Spring ’08) #topology/qual/completed</a></li>
+<li><a href="#fall-04-topologyqualwork-1"><span class="toc-section-number">2.4.11</span> 39 (Fall ’04) #topology/qual/work</a></li>
+<li><a href="#spring-18-topologyqualwork"><span class="toc-section-number">2.4.12</span> 40 (Spring ’18) #topology/qual/work</a></li>
+<li><a href="#fall-09-topologyqualwork"><span class="toc-section-number">2.4.13</span> 41 (Fall ’09) #topology/qual/work</a></li>
+<li><a href="#spring-11-topologyqualwork-1"><span class="toc-section-number">2.4.14</span> 45 (Spring ’11) #topology/qual/work</a></li>
+</ul></li>
+<li><a href="#exercises"><span class="toc-section-number">2.5</span> Exercises</a>
+<ul>
+<li><a href="#basics"><span class="toc-section-number">2.5.1</span> Basics</a></li>
+<li><a href="#connectedness-1"><span class="toc-section-number">2.5.2</span> Connectedness</a></li>
+<li><a href="#compactness"><span class="toc-section-number">2.5.3</span> Compactness</a></li>
+<li><a href="#separation"><span class="toc-section-number">2.5.4</span> Separation</a></li>
+<li><a href="#hausdorff-spaces"><span class="toc-section-number">2.5.5</span> Hausdorff Spaces</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#the-fundamental-group"><span class="toc-section-number">3</span> The Fundamental Group</a>
+<ul>
+<li><a href="#spring-15-topologyqualcompleted-2"><span class="toc-section-number">3.1</span> 1 (Spring ’15) #topology/qual/completed</a></li>
+<li><a href="#spring-09spring-07fall-07fall-06-topologyqualwork"><span class="toc-section-number">3.2</span> 2 (Spring ’09/Spring ’07/Fall ’07/Fall ’06) #topology/qual/work</a></li>
+<li><a href="#fall-18-topologyqualwork-2"><span class="toc-section-number">3.3</span> 3 (Fall ’18) #topology/qual/work</a></li>
+<li><a href="#spring-15-topologyqualwork-1"><span class="toc-section-number">3.4</span> 4 (Spring ’15) #topology/qual/work</a></li>
+<li><a href="#spring-06-topologyqualwork-2"><span class="toc-section-number">3.5</span> 5 (Spring ’06) #topology/qual/work</a></li>
+<li><a href="#spring-08-topologyqualwork"><span class="toc-section-number">3.6</span> 6 (Spring ’08) #topology/qual/work</a></li>
+<li><a href="#fall-16-topologyqualwork-2"><span class="toc-section-number">3.7</span> 7 (Fall ’16) #topology/qual/work</a></li>
+<li><a href="#spring-13-topologyqualwork-1"><span class="toc-section-number">3.8</span> 8 (Spring ’13) #topology/qual/work</a></li>
+<li><a href="#fall-15-topologyqualwork"><span class="toc-section-number">3.9</span> 9 (Fall ’15) #topology/qual/work</a></li>
+<li><a href="#fall-11-topologyqualwork"><span class="toc-section-number">3.10</span> 10 (Fall ’11) #topology/qual/work</a></li>
+<li><a href="#fall-16-topologyqualwork-3"><span class="toc-section-number">3.11</span> 11 (Fall ’16) #topology/qual/work</a></li>
+<li><a href="#spring-13-topologyqualwork-2"><span class="toc-section-number">3.12</span> 12 (Spring ’13) #topology/qual/work</a></li>
+<li><a href="#spring-2021-4"><span class="toc-section-number">3.13</span> Spring 2021 #4</a></li>
+</ul></li>
+<li><a href="#covering-spaces"><span class="toc-section-number">4</span> Covering Spaces</a>
+<ul>
+<li><a href="#spring-11spring-14-topologyqualcompleted"><span class="toc-section-number">4.1</span> 1 (Spring 11/Spring ’14) #topology/qual/completed</a></li>
+<li><a href="#fall-06fall-09fall-15-topologyqualwork"><span class="toc-section-number">4.2</span> 2 (Fall ’06/Fall ’09/Fall ’15) #topology/qual/work</a></li>
+<li><a href="#spring-2021-5"><span class="toc-section-number">4.3</span> Spring 2021 #5</a></li>
+<li><a href="#spring-06spring-07spring-12-topologyqualwork"><span class="toc-section-number">4.4</span> 3 (Spring ’06/Spring ’07/Spring ’12) #topology/qual/work</a></li>
+<li><a href="#spring-08-topologyqualwork-1"><span class="toc-section-number">4.5</span> 4 (Spring ’08) #topology/qual/work</a></li>
+<li><a href="#fall-04-topologyqualwork-2"><span class="toc-section-number">4.6</span> 5 (Fall ’04) #topology/qual/work</a></li>
+<li><a href="#spring-17-topologyqualcompleted"><span class="toc-section-number">4.7</span> 6 (Spring ’17) #topology/qual/completed</a></li>
+<li><a href="#fall-17-topologyqualcompleted"><span class="toc-section-number">4.8</span> 7 (Fall ’17) #topology/qual/completed</a></li>
+<li><a href="#spring-19-topologyqualcompleted"><span class="toc-section-number">4.9</span> 8 (Spring ’19) #topology/qual/completed</a></li>
+<li><a href="#spring-05-topologyqualwork"><span class="toc-section-number">4.10</span> 9 (Spring ’05) #topology/qual/work</a></li>
+<li><a href="#spring-07-topologyqualwork"><span class="toc-section-number">4.11</span> 10 (Spring ’07) #topology/qual/work</a></li>
+<li><a href="#fall-10-topologyqualwork"><span class="toc-section-number">4.12</span> 11 (Fall ’10) #topology/qual/work</a></li>
+<li><a href="#fall-14-topologyqualwork-2"><span class="toc-section-number">4.13</span> 12 (Fall ’14) #topology/qual/work</a></li>
+<li><a href="#spring-16-topologyqualwork-1"><span class="toc-section-number">4.14</span> 13 (Spring ’16) #topology/qual/work</a></li>
+<li><a href="#fall-12-topologyqualwork-1"><span class="toc-section-number">4.15</span> 14 (Fall ’12) #topology/qual/work</a></li>
+<li><a href="#spring-17-topologyqualwork"><span class="toc-section-number">4.16</span> 15 (Spring ’17) #topology/qual/work</a></li>
+<li><a href="#spring-19-topologyqualwork"><span class="toc-section-number">4.17</span> 16 (Spring ’19) #topology/qual/work</a></li>
+</ul></li>
+<li><a href="#cell-complexes-and-adjunction-spaces"><span class="toc-section-number">5</span> Cell Complexes and Adjunction Spaces</a>
+<ul>
+<li><a href="#fall-07-topologyqualwork-1"><span class="toc-section-number">5.1</span> 1 (Fall ’07) #topology/qual/work</a></li>
+<li><a href="#fall-04-topologyqualwork-3"><span class="toc-section-number">5.2</span> 2 (Fall ’04) #topology/qual/work</a></li>
+<li><a href="#spring-06-topologyqualwork-3"><span class="toc-section-number">5.3</span> 3 (Spring ’06) #topology/qual/work</a></li>
+<li><a href="#spring-14-topologyqualwork"><span class="toc-section-number">5.4</span> 4 (Spring ’14) #topology/qual/work</a>
+<ul>
+<li><a href="#a"><span class="toc-section-number">5.4.1</span> a</a></li>
+<li><a href="#b"><span class="toc-section-number">5.4.2</span> b</a></li>
+</ul></li>
+<li><a href="#fall-07-topologyqualwork-2"><span class="toc-section-number">5.5</span> 5 (Fall ’07) #topology/qual/work</a></li>
+<li><a href="#spring-06-topologyqualwork-4"><span class="toc-section-number">5.6</span> 6 (Spring ’06) #topology/qual/work</a></li>
+<li><a href="#fall-16-topologyqualwork-4"><span class="toc-section-number">5.7</span> 7 (Fall ’16) #topology/qual/work</a></li>
+<li><a href="#fall-17-topologyqualwork-2"><span class="toc-section-number">5.8</span> 8 (Fall ’17) #topology/qual/work</a></li>
+<li><a href="#spring-14-topologyqualwork-1"><span class="toc-section-number">5.9</span> 9 (Spring ’14) #topology/qual/work</a></li>
+<li><a href="#fall-09fall-12-topologyqualwork"><span class="toc-section-number">5.10</span> 10 (Fall ’09/Fall ’12) #topology/qual/work</a></li>
+<li><a href="#spring-15-topologyqualwork-2"><span class="toc-section-number">5.11</span> 11 (Spring ’15) #topology/qual/work</a></li>
+<li><a href="#spring-06-topologyqualwork-5"><span class="toc-section-number">5.12</span> 12 (Spring ’06) #topology/qual/work</a></li>
+<li><a href="#spring-07-topologyqualwork-1"><span class="toc-section-number">5.13</span> 13 (Spring ’07) #topology/qual/work</a></li>
+<li><a href="#spring-15-topologyqualwork-3"><span class="toc-section-number">5.14</span> 14 (Spring ’15) #topology/qual/work</a></li>
+<li><a href="#spring-11-topologyqualwork-2"><span class="toc-section-number">5.15</span> 15 (Spring ’11) #topology/qual/work</a></li>
+<li><a href="#spring-12-topologyqualwork-1"><span class="toc-section-number">5.16</span> 16 (Spring ’12) #topology/qual/work</a>
+<ul>
+<li><a href="#a-1"><span class="toc-section-number">5.16.1</span> a</a></li>
+<li><a href="#b-1"><span class="toc-section-number">5.16.2</span> b</a></li>
+</ul></li>
+<li><a href="#spring-09-topologyqualwork-2"><span class="toc-section-number">5.17</span> 17 (Spring ’09) #topology/qual/work</a>
+<ul>
+<li><a href="#a-2"><span class="toc-section-number">5.17.1</span> a</a></li>
+<li><a href="#b-2"><span class="toc-section-number">5.17.2</span> b</a></li>
+<li><a href="#c"><span class="toc-section-number">5.17.3</span> c</a></li>
+</ul></li>
+<li><a href="#spring-18-topologyqualwork-1"><span class="toc-section-number">5.18</span> 18 (Spring ’18) #topology/qual/work</a></li>
+<li><a href="#spring-2019-7-topologyqualcompleted"><span class="toc-section-number">5.19</span> Spring 2019 #7 #topology/qual/completed</a></li>
+<li><a href="#fall-18-topologyqualwork-3"><span class="toc-section-number">5.20</span> 19 (Fall ’18) #topology/qual/work</a></li>
+</ul></li>
+<li><a href="#homology-and-degree-theory"><span class="toc-section-number">6</span> Homology and Degree Theory</a>
+<ul>
+<li><a href="#spring-09-topologyqualwork-3"><span class="toc-section-number">6.1</span> 1 (Spring ’09) #topology/qual/work</a></li>
+<li><a href="#fall-06-topologyqualwork-1"><span class="toc-section-number">6.2</span> 2 (Fall ’06) #topology/qual/work</a></li>
+<li><a href="#fall-12-topologyqualwork-2"><span class="toc-section-number">6.3</span> 3 (Fall ’12) #topology/qual/work</a></li>
+<li><a href="#fall-14-topologyqualwork-3"><span class="toc-section-number">6.4</span> 4 (Fall ’14) #topology/qual/work</a></li>
+<li><a href="#spring-08-topologyqualwork-2"><span class="toc-section-number">6.5</span> 5 (Spring ’08) #topology/qual/work</a></li>
+<li><a href="#spring-17-topologyqualwork-1"><span class="toc-section-number">6.6</span> 6 (Spring ’17) #topology/qual/work</a></li>
+<li><a href="#fall-15-topologyqualwork-1"><span class="toc-section-number">6.7</span> 7 (Fall ’15) #topology/qual/work</a></li>
+<li><a href="#spring-09-topologyqualwork-4"><span class="toc-section-number">6.8</span> 8 (Spring ’09) #topology/qual/work</a></li>
+<li><a href="#fall-05-topologyqualwork"><span class="toc-section-number">6.9</span> 9 (Fall ’05) #topology/qual/work</a></li>
+<li><a href="#fall-18-topologyqualwork-4"><span class="toc-section-number">6.10</span> 10 (Fall ’18) #topology/qual/work</a></li>
+<li><a href="#spring-05fall-13-topologyqualwork"><span class="toc-section-number">6.11</span> 11 (Spring ’05/Fall ’13) #topology/qual/work</a></li>
+<li><a href="#spring-19-topologyqualwork-1"><span class="toc-section-number">6.12</span> 12 (Spring ’19) #topology/qual/work</a></li>
+<li><a href="#spring-12-topologyqualwork-2"><span class="toc-section-number">6.13</span> 13 (Spring ’12) #topology/qual/work</a></li>
+<li><a href="#fall-18-topologyqualwork-5"><span class="toc-section-number">6.14</span> 14 (Fall ’18) #topology/qual/work</a></li>
+<li><a href="#fall-10-topologyqualwork-1"><span class="toc-section-number">6.15</span> 15 (Fall ’10) #topology/qual/work</a></li>
+<li><a href="#fall-16-topologyqualwork-5"><span class="toc-section-number">6.16</span> 16 (Fall ’16) #topology/qual/work</a></li>
+<li><a href="#spring-07-topologyqualwork-2"><span class="toc-section-number">6.17</span> 17 (Spring ’07) #topology/qual/work</a></li>
+<li><a href="#spring-13-topologyqualwork-3"><span class="toc-section-number">6.18</span> 18 (Spring ’13) #topology/qual/work</a></li>
+<li><a href="#fall-18-topologyqualwork-6"><span class="toc-section-number">6.19</span> 19 (Fall ’18) #topology/qual/work</a></li>
+<li><a href="#spring-09-topologyqualwork-5"><span class="toc-section-number">6.20</span> 20 (Spring ’09) #topology/qual/work</a></li>
+<li><a href="#fall-17-topologyqualwork-3"><span class="toc-section-number">6.21</span> 21 (Fall ’17) #topology/qual/work</a></li>
+<li><a href="#fall-18-topologyqualwork-7"><span class="toc-section-number">6.22</span> 22 (Fall ’18) #topology/qual/work</a></li>
+<li><a href="#fall-11-topologyqualwork-1"><span class="toc-section-number">6.23</span> 23 (Fall ’11) #topology/qual/work</a></li>
+<li><a href="#spring-12spring-15-topologyqualwork"><span class="toc-section-number">6.24</span> 24 (Spring ’12/Spring ’15) #topology/qual/work</a></li>
+<li><a href="#spring-2021-6"><span class="toc-section-number">6.25</span> Spring 2021 #6</a></li>
+<li><a href="#spring-2021-7"><span class="toc-section-number">6.26</span> Spring 2021 #7</a></li>
+<li><a href="#spring-2021-9"><span class="toc-section-number">6.27</span> Spring 2021 #9</a></li>
+</ul></li>
+<li><a href="#surfaces"><span class="toc-section-number">7</span> Surfaces</a>
+<ul>
+<li><a href="#fall-05-topologyqualwork-1"><span class="toc-section-number">7.1</span> 1 (Fall ’05) #topology/qual/work</a></li>
+<li><a href="#spring-16-topologyqualwork-2"><span class="toc-section-number">7.2</span> 2 (Spring ’16) #topology/qual/work</a></li>
+<li><a href="#spring-07-topologyqualwork-3"><span class="toc-section-number">7.3</span> 3 (Spring ’07) #topology/qual/work</a></li>
+<li><a href="#spring-09-topologyqualwork-6"><span class="toc-section-number">7.4</span> 4 (Spring ’09) #topology/qual/work</a></li>
+<li><a href="#fall-13-topologyqualwork"><span class="toc-section-number">7.5</span> 5 (Fall ’13) #topology/qual/work</a></li>
+<li><a href="#spring-13-topologyqualwork-4"><span class="toc-section-number">7.6</span> 6 (Spring ’13) #topology/qual/work</a></li>
+<li><a href="#spring-15-topologyqualwork-4"><span class="toc-section-number">7.7</span> 7 (Spring ’15) #topology/qual/work</a></li>
+<li><a href="#fall-10-topologyqualwork-2"><span class="toc-section-number">7.8</span> 8 (Fall ’10) #topology/qual/work</a>
+<ul>
+<li><a href="#a-3"><span class="toc-section-number">7.8.1</span> a</a></li>
+<li><a href="#b-3"><span class="toc-section-number">7.8.2</span> b</a></li>
+</ul></li>
+<li><a href="#fall-04-topologyqualwork-4"><span class="toc-section-number">7.9</span> 9 (Fall ’04) #topology/qual/work</a></li>
+<li><a href="#spring-11-topologyqualwork-3"><span class="toc-section-number">7.10</span> 10 (Spring ’11) #topology/qual/work</a></li>
+<li><a href="#fall-14-topologyqualwork-4"><span class="toc-section-number">7.11</span> 11 (Fall ’14) #topology/qual/work</a></li>
+<li><a href="#fall-11-topologyqualwork-2"><span class="toc-section-number">7.12</span> 12 (Fall ’11) #topology/qual/work</a></li>
+<li><a href="#spring-14-topologyqualwork-2"><span class="toc-section-number">7.13</span> 13 (Spring ’14) #topology/qual/work</a></li>
+<li><a href="#spring-18-topologyqualwork-2"><span class="toc-section-number">7.14</span> 14 (Spring ’18) #topology/qual/work</a>
+<ul>
+<li><a href="#a-4"><span class="toc-section-number">7.14.1</span> a</a></li>
+<li><a href="#b-4"><span class="toc-section-number">7.14.2</span> b</a></li>
+<li><a href="#c-1"><span class="toc-section-number">7.14.3</span> c</a></li>
+</ul></li>
+<li><a href="#fall-16-topologyqualwork-6"><span class="toc-section-number">7.15</span> 15 (Fall ’16) #topology/qual/work</a></li>
+<li><a href="#fall-17-topologyqualwork-4"><span class="toc-section-number">7.16</span> 16 (Fall ’17) #topology/qual/work</a></li>
+<li><a href="#fall-18-topologyqualwork-8"><span class="toc-section-number">7.17</span> 17 (Fall ’18) #topology/qual/work</a></li>
+<li><a href="#spring-19-topologyqualwork-2"><span class="toc-section-number">7.18</span> 18 (Spring ’19) #topology/qual/work</a></li>
+<li><a href="#spring-2021-topologyqualwork"><span class="toc-section-number">7.19</span> Spring 2021 #topology/qual/work</a></li>
+</ul></li>
+<li><a href="#fixed-points"><span class="toc-section-number">8</span> Fixed Points</a>
+<ul>
+<li><a href="#fall-14-topologyqualwork-5"><span class="toc-section-number">8.1</span> 1 (Fall ’14) #topology/qual/work</a></li>
+<li><a href="#spring-18-topologyqualwork-3"><span class="toc-section-number">8.2</span> 2 (Spring ’18) #topology/qual/work</a></li>
+<li><a href="#spring-11-topologyqualwork-4"><span class="toc-section-number">8.3</span> 3 (Spring ’11) #topology/qual/work</a></li>
+<li><a href="#spring-12-topologyqualwork-3"><span class="toc-section-number">8.4</span> 4 (Spring ’12) #topology/qual/work</a>
+<ul>
+<li><a href="#a-5"><span class="toc-section-number">8.4.1</span> a</a></li>
+<li><a href="#b-5"><span class="toc-section-number">8.4.2</span> b</a></li>
+</ul></li>
+<li><a href="#spring-14-topologyqualwork-3"><span class="toc-section-number">8.5</span> 5 (Spring ’14) #topology/qual/work</a></li>
+<li><a href="#spring-08-topologyqualwork-3"><span class="toc-section-number">8.6</span> 6 (Spring ’08) #topology/qual/work</a></li>
+<li><a href="#spring-17-topologyqualwork-2"><span class="toc-section-number">8.7</span> 7 (Spring ’17) #topology/qual/work</a></li>
+<li><a href="#fall-09-topologyqualwork-1"><span class="toc-section-number">8.8</span> 8 (Fall ’09) #topology/qual/work</a></li>
+<li><a href="#spring-10-topologyqualwork"><span class="toc-section-number">8.9</span> 9 (Spring ’10) #topology/qual/work</a></li>
+<li><a href="#fall-12-topologyqualwork-3"><span class="toc-section-number">8.10</span> 10 (Fall ’12) #topology/qual/work</a></li>
+<li><a href="#spring-09-topologyqualwork-7"><span class="toc-section-number">8.11</span> 11 (Spring ’09) #topology/qual/work</a>
+<ul>
+<li><a href="#a-6"><span class="toc-section-number">8.11.1</span> a</a></li>
+<li><a href="#b-6"><span class="toc-section-number">8.11.2</span> b</a></li>
+<li><a href="#c-2"><span class="toc-section-number">8.11.3</span> c</a></li>
+<li><a href="#d"><span class="toc-section-number">8.11.4</span> d</a></li>
+</ul></li>
+<li><a href="#spring-19-topologyqualwork-3"><span class="toc-section-number">8.12</span> 12 (Spring ’19) #topology/qual/work</a>
+<ul>
+<li><a href="#a-7"><span class="toc-section-number">8.12.1</span> a</a></li>
+<li><a href="#b-7"><span class="toc-section-number">8.12.2</span> b</a></li>
+<li><a href="#c-3"><span class="toc-section-number">8.12.3</span> c</a></li>
+</ul></li>
+<li><a href="#fall-10-topologyqualwork-3"><span class="toc-section-number">8.13</span> 13 (Fall ’10) #topology/qual/work</a></li>
+<li><a href="#spring-16-topologyqualwork-3"><span class="toc-section-number">8.14</span> 14 (Spring ’16) #topology/qual/work</a></li>
+</ul></li>
+<li><a href="#miscellaneous-algebraic-topology"><span class="toc-section-number">9</span> Miscellaneous Algebraic Topology</a>
+<ul>
+<li><a href="#fall-14-topologyqualwork-6"><span class="toc-section-number">9.1</span> 1 (Fall ’14) #topology/qual/work</a></li>
+<li><a href="#spring-12-topologyqualwork-4"><span class="toc-section-number">9.2</span> 2 (Spring ’12) #topology/qual/work</a></li>
+<li><a href="#spring-13-topologyqualcompleted"><span class="toc-section-number">9.3</span> 3 (Spring ’13) #topology/qual/completed</a></li>
+<li><a href="#fall-11-topologyqualcompleted-1"><span class="toc-section-number">9.4</span> 4 (Fall ’11) #topology/qual/completed</a></li>
+<li><a href="#spring-06-topologyqualwork-6"><span class="toc-section-number">9.5</span> 5 (Spring ’06) #topology/qual/work</a></li>
+<li><a href="#spring-17-topologyqualcompleted-1"><span class="toc-section-number">9.6</span> 6 (Spring ’17) #topology/qual/completed</a></li>
+<li><a href="#fall-06-topologyqualwork-2"><span class="toc-section-number">9.7</span> 7 (Fall ’06) #topology/qual/work</a></li>
+<li><a href="#spring-08-topologyqualwork-4"><span class="toc-section-number">9.8</span> 8 (Spring ’08) #topology/qual/work</a></li>
+<li><a href="#spring-17-topologyqualwork-3"><span class="toc-section-number">9.9</span> 9 (Spring ’17) #topology/qual/work</a></li>
+<li><a href="#spring-14-topologyqualwork-4"><span class="toc-section-number">9.10</span> 10 (Spring ’14) #topology/qual/work</a></li>
+<li><a href="#spring-05-topologyqualwork-1"><span class="toc-section-number">9.11</span> 11 (Spring ’05) #topology/qual/work</a></li>
+<li><a href="#spring-16-topologyqualwork-4"><span class="toc-section-number">9.12</span> 12 (Spring ’16) #topology/qual/work</a></li>
+</ul></li>
+<li><a href="#extra-problems-algebraic-topology"><span class="toc-section-number">10</span> Extra Problems: Algebraic Topology</a>
+<ul>
+<li><a href="#algebraic-topology"><span class="toc-section-number">10.1</span> Algebraic Topology</a>
+<ul>
+<li><a href="#fundamental-group"><span class="toc-section-number">10.1.1</span> Fundamental Group</a></li>
+<li><a href="#covering-spaces-1"><span class="toc-section-number">10.1.2</span> Covering Spaces</a></li>
+<li><a href="#homology"><span class="toc-section-number">10.1.3</span> Homology</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#bibliography"><span class="toc-section-number">11</span> Bibliography</a></li>
+</ul>
+</nav>
+
+
+
+
+<h1 data-number="1" id="preface"><span class="header-section-number">1</span> Preface</h1>
+<p>A great deal of credit for this document goes to Mike Usher, who created an initial PDF of past UGA qual questions organized by topic. Here is a list of problems that Mike recommended reviewing during our problem sessions in Spring 2020:</p>
+<ul>
+<li>Section 1, Point-Set: 8, 10, 11, 14, 16, 19, 22, 23, 27 (Bolzano Weierstrass), 30 (Standard, see counterexamples), 31, 32, 38, 42, 44</li>
+<li>Section 2, Fundamental Group: 1</li>
+<li>Section 3, Covering Spaces: 1b and c, 2, 3, 6, 7, 8, 10 (not really about surfaces per se), 11, 12, 13, 14, 16</li>
+<li>Section 4, Homology/Degree Theory: 2, 4, 5, 8, 13, 19, 21, 22</li>
+<li>Section 5, Cell Complexes/Attaching: 1, 5, 10, 16</li>
+<li>Section 6, Surfaces: 3, 6, 7, 11, 14</li>
+<li>Section 7, Fixed Points: 4, 6, 12, 13, 14</li>
+<li>Section 8, Misc Algebraic Topology: 1, 3, 6, 8</li>
+</ul>
+<div class="warnings proofenv">
+<p>Usually 30% of the problems on any given qual are related to point-set/general Topology. Note that this material is not covered in the course!</p>
+</div>
+<h1 data-number="2" id="general-topology"><span class="header-section-number">2</span> General Topology</h1>
+<h2 data-number="2.1" id="topologies-subspaces-closures-and-maps"><span class="header-section-number">2.1</span> Topologies, Subspaces, Closures, and Maps</h2>
+<h3 data-number="2.1.1" id="fall-11-topologyqualcompleted"><span class="header-section-number">2.1.1</span> Fall ’11 #topology/qual/completed</h3>
+<div class="problem proofenv" title="Fall 2011">
+<p>Let <span class="math inline">\(X\)</span> be a topological space, and <span class="math inline">\(B \subset A \subset X\)</span>. Equip <span class="math inline">\(A\)</span> with the subspace topology, and write <span class="math inline">\({ \operatorname{cl}} _X (B)\)</span> or <span class="math inline">\({ \operatorname{cl}} _A (B)\)</span> for the closure of <span class="math inline">\(B\)</span> as a subset of, respectively, <span class="math inline">\(X\)</span> or <span class="math inline">\(A\)</span>.</p>
+<p>Determine, with proof, the general relationship between <span class="math inline">\({ \operatorname{cl}} _X (B) \cap A\)</span> and <span class="math inline">\({ \operatorname{cl}} _A (B)\)</span></p>
+<blockquote>
+<p>I.e., are they always equal? Is one always contained in the other but not conversely? Neither?</p>
+</blockquote>
+</div>
+<div></div>
+<div></div>
+<div></div>
+<h3 data-number="2.1.2" id="fall-05-topologyqualcompleted"><span class="header-section-number">2.1.2</span> 6 (Fall ’05) #topology/qual/completed</h3>
+<div class="problem proofenv" title="Fall 2005">
+<p>Prove that the unit interval <span class="math inline">\(I\)</span> is compact. Be sure to explicitly state any properties of <span class="math inline">\({\mathbb{R}}\)</span> that you use.</p>
+</div>
+<div></div>
+<div></div>
+<div></div>
+<h3 data-number="2.1.3" id="fall-06.-topologyqualwork"><span class="header-section-number">2.1.3</span> 7 (Fall ’06). #topology/qual/work</h3>
+<div class="problem proofenv" title="Fall 2006, 7">
+<p>A topological space is <strong>sequentially compact</strong> if every infinite sequence in <span class="math inline">\(X\)</span> has a convergent subsequence.</p>
+<p>Prove that every compact metric space is sequentially compact.</p>
+</div>
+<h3 data-number="2.1.4" id="fall-10.-topologyqualcompleted"><span class="header-section-number">2.1.4</span> 8 (Fall ’10). #topology/qual/completed</h3>
+<div class="problem proofenv" title="Fall 2010, 8">
+<p>Show that for any two topological spaces <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> , <span class="math inline">\(X \times Y\)</span> is compact if and only if both <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> are compact.</p>
+</div>
+<div></div>
+<div></div>
+<div></div>
+<h3 data-number="2.1.5" id="spring-06.-topologyqualwork"><span class="header-section-number">2.1.5</span> 12 (Spring ’06). #topology/qual/work</h3>
+<div class="problem proofenv" title="Spring 2006, 12">
+<p>Write <span class="math inline">\(Y\)</span> for the interval <span class="math inline">\([0, \infty)\)</span>, equipped with the usual topology.</p>
+<p>Find, with proof, all subspaces <span class="math inline">\(Z\)</span> of <span class="math inline">\(Y\)</span> which are retracts of <span class="math inline">\(Y\)</span>.</p>
+</div>
+<div></div>
+<h3 data-number="2.1.6" id="fall-06.-topologyqualwork-1"><span class="header-section-number">2.1.6</span> 13 (Fall ’06). #topology/qual/work</h3>
+<div class="problem proofenv" title="Fall 2006, 13">
+<ol type="a">
+<li><p>Prove that if the space <span class="math inline">\(X\)</span> is connected and locally path connected then <span class="math inline">\(X\)</span> is path connected.</p></li>
+<li><p>Is the converse true? Prove or give a counterexample.</p></li>
+</ol>
+</div>
+<h3 data-number="2.1.7" id="fall-07-topologyqualwork"><span class="header-section-number">2.1.7</span> 14 (Fall ’07) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(\left\{{X_\alpha \mathrel{\Big|}\alpha \in A}\right\}\)</span> be a family of connected subspaces of a space <span class="math inline">\(X\)</span> such that there is a point <span class="math inline">\(p \in X\)</span> which is in each of the <span class="math inline">\(X_\alpha\)</span>.</p>
+<p>Show that the union of the <span class="math inline">\(X_\alpha\)</span> is connected.</p>
+</div>
+<div></div>
+<h3 data-number="2.1.8" id="fall-04.-topologyqualwork"><span class="header-section-number">2.1.8</span> 5 (Fall ’04). #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(X\)</span> be a topological space.</p>
+<ol type="a">
+<li><p>Prove that <span class="math inline">\(X\)</span> is connected if and only if there is no continuous nonconstant map to the discrete two-point space <span class="math inline">\(\left\{{0, 1}\right\}\)</span>.</p></li>
+<li><p>Suppose in addition that <span class="math inline">\(X\)</span> is compact and <span class="math inline">\(Y\)</span> is a connected Hausdorff space. Suppose further that there is a continuous map <span class="math inline">\(f : X \to Y\)</span> such that every preimage <span class="math inline">\(f^{-1}(y)\)</span> for <span class="math inline">\(y \in Y\)</span>, is a connected subset of <span class="math inline">\(X\)</span>.</p></li>
+</ol>
+<p>Show that <span class="math inline">\(X\)</span> is connected.</p>
+<ol start="3" type="a">
+<li>Give an example showing that the conclusion of (b) may be false if <span class="math inline">\(X\)</span> is not compact.</li>
+</ol>
+</div>
+<h3 data-number="2.1.9" id="spring-10-topologyqualcompleted"><span class="header-section-number">2.1.9</span> ? (Spring ’10) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>If <span class="math inline">\(X\)</span> is a topological space and <span class="math inline">\(S \subset X\)</span>, define in terms of open subsets of <span class="math inline">\(X\)</span> what it means for <span class="math inline">\(S\)</span> <strong>not</strong> to be connected.</p>
+<p>Show that if <span class="math inline">\(S\)</span> is not connected there are nonempty subsets <span class="math inline">\(A, B \subset X\)</span> such that 
+<span class="math display">
+\begin{align*}
+A \cup B = S {\quad \operatorname{and} \quad} A \cap \mkern 1.5mu\overline{\mkern-1.5muB\mkern-1.5mu}\mkern 1.5mu = \mkern 1.5mu\overline{\mkern-1.5muA\mkern-1.5mu}\mkern 1.5mu \cap B = \emptyset
+\end{align*}
+<span></p>
+<blockquote>
+<p>Here <span class="math inline">\(\mkern 1.5mu\overline{\mkern-1.5muA\mkern-1.5mu}\mkern 1.5mu\)</span> and <span class="math inline">\(\mkern 1.5mu\overline{\mkern-1.5muB\mkern-1.5mu}\mkern 1.5mu\)</span> denote closure with respect to the topology on the ambient space <span class="math inline">\(X\)</span>.</p>
+</blockquote>
+</div>
+<div></div>
+<div></div>
+<div></div>
+<h3 data-number="2.1.10" id="spring-11-topologyqualwork"><span class="header-section-number">2.1.10</span> ? (Spring ’11) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>A topological space is <strong>totally disconnected</strong> if its only connected subsets are one-point sets.</p>
+<p>Is it true that if <span class="math inline">\(X\)</span> has the discrete topology, it is totally disconnected?</p>
+<p>Is the converse true? Justify your answers.</p>
+</div>
+<h3 data-number="2.1.11" id="fall-14-topologyqualwork"><span class="header-section-number">2.1.11</span> 21 (Fall ’14) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be topological spaces and let <span class="math inline">\(f : X \to Y\)</span> be a function.</p>
+<p>Suppose that <span class="math inline">\(X = A \cup B\)</span> where <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are closed subsets, and that the restrictions <span class="math inline">\(f \mathrel{\Big|}_A\)</span> and <span class="math inline">\(f \mathrel{\Big|}_B\)</span> are continuous (where <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> have the subspace topology).</p>
+<p>Prove that <span class="math inline">\(f\)</span> is continuous.</p>
+</div>
+<h3 data-number="2.1.12" id="spring-15-topologyqualcompleted"><span class="header-section-number">2.1.12</span> 23 (Spring ’15) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Define a family <span class="math inline">\({\mathcal{T}}\)</span> of subsets of <span class="math inline">\({\mathbb{R}}\)</span> by saying that <span class="math inline">\(A \in T\)</span> is <span class="math inline">\(\iff A = \emptyset\)</span> or <span class="math inline">\({\mathbb{R}}\setminus A\)</span> is a finite set.</p>
+<p>Prove that <span class="math inline">\({\mathcal{T}}\)</span> is a topology on <span class="math inline">\({\mathbb{R}}\)</span>, and that <span class="math inline">\({\mathbb{R}}\)</span> is compact with respect to this topology.</p>
+</div>
+<div></div>
+<div></div>
+<h3 data-number="2.1.13" id="fall-16-topologyqualwork"><span class="header-section-number">2.1.13</span> 25 (Fall ’16) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\({\mathcal{S}}, {\mathcal{T}}\)</span> be topologies on a set <span class="math inline">\(X\)</span>. Show that <span class="math inline">\({\mathcal{S}}\cap {\mathcal{T}}\)</span> is a topology on <span class="math inline">\(X\)</span>.</p>
+<p>Give an example to show that <span class="math inline">\({\mathcal{S}}\cup {\mathcal{T}}\)</span> need not be a topology.</p>
+</div>
+<h3 data-number="2.1.14" id="spring-10-topologyqualcompleted-1"><span class="header-section-number">2.1.14</span> 42 (Spring ’10) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Define an equivalence relation <span class="math inline">\(\sim\)</span> on <span class="math inline">\({\mathbb{R}}\)</span> by <span class="math inline">\(x \sim y\)</span> if and only if <span class="math inline">\(x - y \in {\mathbb{Q}}\)</span>. Let <span class="math inline">\(X\)</span> be the set of equivalence classes, endowed with the quotient topology induced by the canonical projection <span class="math inline">\(\pi : {\mathbb{R}}\to X\)</span>.</p>
+<p>Describe, with proof, all open subsets of <span class="math inline">\(X\)</span> with respect to this topology.</p>
+</div>
+<h3 data-number="2.1.15" id="fall-12-topologyqualwork"><span class="header-section-number">2.1.15</span> 43 (Fall ’12) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(A\)</span> denote a subset of points of <span class="math inline">\(S^2\)</span> that looks exactly like the capital letter A. Let <span class="math inline">\(Q\)</span> be the quotient of <span class="math inline">\(S^2\)</span> given by identifying all points of <span class="math inline">\(A\)</span> to a single point.</p>
+<p>Show that <span class="math inline">\(Q\)</span> is homeomorphic to a familiar topological space and identify that space.</p>
+</div>
+<h2 data-number="2.2" id="compactness-and-metric-spaces"><span class="header-section-number">2.2</span> Compactness and Metric Spaces</h2>
+<h3 data-number="2.2.1" id="spring-06-topologyqualwork"><span class="header-section-number">2.2.1</span> 1 (Spring ’06) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Suppose <span class="math inline">\((X, d)\)</span> is a metric space. State criteria for continuity of a function <span class="math inline">\(f : X \to X\)</span> in terms of:</p>
+<ol type="i">
+<li><p>open sets;</p></li>
+<li><p><span class="math inline">\({\varepsilon}\)</span>’s and <span class="math inline">\(\delta\)</span>’s; and</p></li>
+<li><p>convergent sequences.</p></li>
+</ol>
+<p>Then prove that (iii) implies (i).</p>
+</div>
+<h3 data-number="2.2.2" id="fall-17-topologyqualwork"><span class="header-section-number">2.2.2</span> 26 (Fall ’17) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(f : X \to Y\)</span> be a continuous function between topological spaces.</p>
+<p>Let <span class="math inline">\(A\)</span> be a subset of <span class="math inline">\(X\)</span> and let <span class="math inline">\(f (A)\)</span> be its image in <span class="math inline">\(Y\)</span> .</p>
+<p>One of the following statements is true and one is false. Decide which is which, prove the true statement, and provide a counterexample to the false statement:</p>
+<ol type="1">
+<li><p>If <span class="math inline">\(A\)</span> is closed then <span class="math inline">\(f (A)\)</span> is closed.</p></li>
+<li><p>If <span class="math inline">\(A\)</span> is compact then <span class="math inline">\(f (A)\)</span> is compact.</p></li>
+</ol>
+</div>
+<h3 data-number="2.2.3" id="spring-12-topologyqualwork"><span class="header-section-number">2.2.3</span> 2 (Spring ’12) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(X\)</span> be a topological space.</p>
+<ol type="a">
+<li><p>State what it means for <span class="math inline">\(X\)</span> to be compact.</p></li>
+<li><p>Let <span class="math inline">\(X = \left\{{0}\right\} \cup \left\{{{1\over n} \mathrel{\Big|}n \in {\mathbb{Z}}^+ }\right\}\)</span>. Is <span class="math inline">\(X\)</span> compact?</p></li>
+<li><p>Let <span class="math inline">\(X = (0, 1]\)</span>. Is <span class="math inline">\(X\)</span> compact?</p></li>
+</ol>
+</div>
+<div></div>
+<div></div>
+<h3 data-number="2.2.4" id="spring-09-topologyqualwork"><span class="header-section-number">2.2.4</span> 3 (Spring ’09) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\((X, d)\)</span> be a compact metric space, and let <span class="math inline">\(f : X \to X\)</span> be an isometry: 
+<span class="math display">
+\begin{align*}
+\forall~ x, y \in X, \qquad d(f (x), f (y)) = d(x, y)
+.\end{align*}
+<span> Prove that <span class="math inline">\(f\)</span> is a bijection.</p>
+</div>
+<h3 data-number="2.2.5" id="spring-05-topologyqualcompleted"><span class="header-section-number">2.2.5</span> 4 (Spring ’05) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Suppose <span class="math inline">\((X, d)\)</span> is a compact metric space and <span class="math inline">\(U\)</span> is an open covering of <span class="math inline">\(X\)</span>.</p>
+<p>Prove that there is a number <span class="math inline">\(\delta &gt; 0\)</span> such that for every <span class="math inline">\(x \in X\)</span>, the ball of radius <span class="math inline">\(\delta\)</span> centered at <span class="math inline">\(x\)</span> is contained in some element of <span class="math inline">\(U\)</span>.</p>
+</div>
+<div></div>
+<h3 data-number="2.2.6" id="spring-15-topologyqualwork"><span class="header-section-number">2.2.6</span> 44 (Spring ’15) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<ol type="a">
+<li><p>Prove that a topological space that has a countable base for its topology also contains a countable dense subset.</p></li>
+<li><p>Prove that the converse to (a) holds if the space is a metric space.</p></li>
+</ol>
+</div>
+<h3 data-number="2.2.7" id="fall-07-topologyqualcompleted"><span class="header-section-number">2.2.7</span> 18 (Fall ’07) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Prove that if <span class="math inline">\((X, d)\)</span> is a compact metric space, <span class="math inline">\(f : X \to X\)</span> is a continuous map, and <span class="math inline">\(C\)</span> is a constant with <span class="math inline">\(0 &lt; C &lt; 1\)</span> such that 
+<span class="math display">
+\begin{align*}
+d(f (x), f (y)) \leq C \cdot d(x, y) \quad \forall x, y
+,\end{align*}
+<span> then <span class="math inline">\(f\)</span> has a fixed point.</p>
+</div>
+<div></div>
+<h3 data-number="2.2.8" id="spring-15-topologyqualcompleted-1"><span class="header-section-number">2.2.8</span> 19 (Spring ’15) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Prove that the product of two connected topological spaces is connected.</p>
+</div>
+<div></div>
+<h3 data-number="2.2.9" id="fall-14-topologyqualcompleted"><span class="header-section-number">2.2.9</span> 20 (Fall ’14) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<ol type="a">
+<li></li>
+</ol>
+<p>Define what it means for a topological space to be:</p>
+<ol type="i">
+<li><p><strong>Connected</strong></p></li>
+<li><p><strong>Locally connected</strong></p></li>
+</ol>
+<!-- -->
+<ol start="2" type="a">
+<li>Give, with proof, an example of a space that is connected but not locally connected.</li>
+</ol>
+</div>
+<div></div>
+<div></div>
+<h3 data-number="2.2.10" id="fall-18-topologyqualwork"><span class="header-section-number">2.2.10</span> 22 (Fall ’18) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(X\)</span> be a compact space and let <span class="math inline">\(f : X \times R \to R\)</span> be a continuous function such that <span class="math inline">\(f (x, 0) &gt; 0\)</span> for all <span class="math inline">\(x \in X\)</span>.</p>
+<p>Prove that there is <span class="math inline">\({\varepsilon}&gt; 0\)</span> such that <span class="math inline">\(f (x, t) &gt; 0\)</span> whenever <span class="math inline">\({\left\lvert {t} \right\rvert} &lt; {\varepsilon}\)</span>.</p>
+<p>Moreover give an example showing that this conclusion may not hold if <span class="math inline">\(X\)</span> is not assumed compact.</p>
+</div>
+<h3 data-number="2.2.11" id="spring-16-topologyqualwork"><span class="header-section-number">2.2.11</span> 24 (Spring ’16) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>In each part of this problem <span class="math inline">\(X\)</span> is a compact topological space. Give a proof or a counterexample for each statement.</p>
+<ol type="a">
+<li><p>If <span class="math inline">\(\left\{{F_n }\right\}_{n=1}^\infty\)</span> is a sequence of nonempty <em>closed</em> subsets of <span class="math inline">\(X\)</span> such that <span class="math inline">\(F_{n+1} \subset F_{n}\)</span> for all <span class="math inline">\(n\)</span> then 
+<span class="math display">
+\begin{align*}\cap^\infty_{n=1} F_n\neq \emptyset.\end{align*}
+<span></p></li>
+<li><p>If <span class="math inline">\(\left\{{O_n}\right\}_{n=1}^\infty\)</span> is a sequence of nonempty <em>open</em> subsets of <span class="math inline">\(X\)</span> such that <span class="math inline">\(O_{n+1} \subset O_n\)</span> for all <span class="math inline">\(n\)</span> then 
+<span class="math display">
+\begin{align*}\cap_{n=1}^\infty O_{n}\neq \emptyset.\end{align*}
+<span></p></li>
+</ol>
+</div>
+<h3 data-number="2.2.12" id="fall-17-topologyqualwork-1"><span class="header-section-number">2.2.12</span> 27 (Fall ’17) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>A metric space is said to be <strong>totally bounded</strong> if for every <span class="math inline">\({\varepsilon}&gt; 0\)</span> there exists a finite cover of <span class="math inline">\(X\)</span> by open balls of radius <span class="math inline">\({\varepsilon}\)</span>.</p>
+<ol type="a">
+<li><p>Show: a metric space <span class="math inline">\(X\)</span> is totally bounded iff every sequence in <span class="math inline">\(X\)</span> has a Cauchy subsequence.</p></li>
+<li><p>Exhibit a complete metric space <span class="math inline">\(X\)</span> and a closed subset <span class="math inline">\(A\)</span> of <span class="math inline">\(X\)</span> that is bounded but not totally bounded.</p></li>
+</ol>
+<blockquote>
+<p>You are not required to prove that your example has the stated properties.</p>
+</blockquote>
+</div>
+<div></div>
+<div></div>
+<h3 data-number="2.2.13" id="spring-19-1-topologyqualcompleted"><span class="header-section-number">2.2.13</span> Spring ’19 #1 #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Is every complete bounded metric space compact? If so, give a proof; if not, give a counterexample.</p>
+</div>
+<div></div>
+<div></div>
+<h3 data-number="2.2.14" id="spring-2019-2-topologyqualcompleted"><span class="header-section-number">2.2.14</span> Spring 2019 #2 #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(X\)</span> be Hausdorff, and recall that the <em>one-point compactification</em> <span class="math inline">\(\tilde X\)</span> is given by the following:</p>
+<ul>
+<li><p>As a set, <span class="math inline">\(\tilde X \mathrel{\vcenter{:}}= X{\textstyle\coprod}\left\{{\infty}\right\}\)</span>.</p></li>
+<li><p>A subset <span class="math inline">\(U\subseteq \tilde X\)</span> is open iff either <span class="math inline">\(U\)</span> is open in <span class="math inline">\(X\)</span> or is of the form <span class="math inline">\(U = V{\textstyle\coprod}\left\{{\infty}\right\}\)</span> where <span class="math inline">\(V\subset X\)</span> is arbitrary and <span class="math inline">\(X\setminus V\)</span> is compact.</p></li>
+</ul>
+<p>Prove that this description defines a topology on <span class="math inline">\(\tilde X\)</span> making <span class="math inline">\(\tilde X\)</span> compact.</p>
+</div>
+<div></div>
+<div></div>
+<h3 data-number="2.2.15" id="spring-2021-3-topologyqualwork"><span class="header-section-number">2.2.15</span> Spring 2021 #3 #topology/qual/work</h3>
+<div class="problem proofenv" title="Spring 2021, 3">
+<p>For nonempty subsets <span class="math inline">\(A, B\)</span> of a metric space <span class="math inline">\((X, d)\)</span>, define the <strong>setwise distance</strong> as 
+<span class="math display">
+\begin{align*}
+d(A, B) \mathrel{\vcenter{:}}=\inf \left\{{ d(a, b) {~\mathrel{\Big\vert}~}a\in A,\, b\in B }\right\} 
+.\end{align*}
+<span></p>
+<ol type="a">
+<li><p>Suppose that <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are compact. Show that there is an <span class="math inline">\(a\in A\)</span> and <span class="math inline">\(b\in B\)</span> such that <span class="math inline">\(d(A, B) = d(a, b)\)</span>.</p></li>
+<li><p>Suppose that <span class="math inline">\(A\)</span> is closed and <span class="math inline">\(B\)</span> is compact. Show that if <span class="math inline">\(d(A, B) = 0\)</span> then <span class="math inline">\(A \cap B = \emptyset\)</span>.</p></li>
+<li><p>Give an example in which <span class="math inline">\(A\)</span> is closed, <span class="math inline">\(B\)</span> is compact, and <span class="math inline">\(d(a, b) &gt; d(A, B)\)</span> for all <span class="math inline">\(a\in A\)</span> and <span class="math inline">\(b\in B\)</span>.</p></li>
+</ol>
+<blockquote>
+<p>Hint: take <span class="math inline">\(X = \left\{{ 0 }\right\} \cup(1, 2] \subset {\mathbb{R}}\)</span>. Throughout this problem, you may use without proof that the map <span class="math inline">\(d:X\times X\to {\mathbb{R}}\)</span> is continuous.</p>
+</blockquote>
+</div>
+<h2 data-number="2.3" id="connectedness"><span class="header-section-number">2.3</span> Connectedness</h2>
+<h3 data-number="2.3.1" id="spring-13-topologyqualwork"><span class="header-section-number">2.3.1</span> 9 (Spring ’13) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Recall that a topological space is said to be <strong>connected</strong> if there does not exist a pair <span class="math inline">\(U, V\)</span> of disjoint nonempty subsets whose union is <span class="math inline">\(X\)</span>.</p>
+<ol type="a">
+<li><p>Prove that <span class="math inline">\(X\)</span> is connected if and only if the only subsets of <span class="math inline">\(X\)</span> that are both open and closed are <span class="math inline">\(X\)</span> and the empty set.</p></li>
+<li><p>Suppose that <span class="math inline">\(X\)</span> is connected and let <span class="math inline">\(f : X \to {\mathbb{R}}\)</span> be a continuous map. If <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> are two points of <span class="math inline">\(X\)</span> and <span class="math inline">\(r\)</span> is a point of <span class="math inline">\({\mathbb{R}}\)</span> lying between <span class="math inline">\(f (a)\)</span> and <span class="math inline">\(f (b)\)</span> show that there exists a point <span class="math inline">\(c\)</span> of <span class="math inline">\(X\)</span> such that <span class="math inline">\(f (c) = r\)</span>.</p></li>
+</ol>
+</div>
+<h3 data-number="2.3.2" id="fall-05-topologyqualcompleted-1"><span class="header-section-number">2.3.2</span> 10 (Fall ’05) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Let 
+<span class="math display">
+\begin{align*}
+X = \left\{{(0, y) \mathrel{\Big|}- 1 \leq y \leq 1}\right\} \cup \left\{{\qty{x, s = \sin\qty{1 \over x}} \mathrel{\Big|}0 &lt; x \leq 1}\right\}
+.\end{align*}
+<span></p>
+<p>Prove that <span class="math inline">\(X\)</span> is connected but not path connected.</p>
+</div>
+<div></div>
+<h3 data-number="2.3.3" id="fall-18-topologyqualwork-1"><span class="header-section-number">2.3.3</span> 11 (Fall ’18) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math display">\[\begin{align*} X=\left\{(x, y) \in \mathbb{R}^{2} | x&gt;0, y \geq 0, \text { and } \frac{y}{x} \text { is rational }\right\} \end{align*}\]</span> and equip <span class="math inline">\(X\)</span> with the subspace topology induced by the usual topology on <span class="math inline">\({\mathbb{R}}^2\)</span>.</p>
+<p>Prove or disprove that <span class="math inline">\(X\)</span> is connected.</p>
+</div>
+<div></div>
+<h3 data-number="2.3.4" id="spring-2021-2"><span class="header-section-number">2.3.4</span> Spring 2021 #2</h3>
+<div class="problem proofenv" title="Spring 2021, 2">
+<p>Let <span class="math inline">\(X \mathrel{\vcenter{:}}=\prod_{==1}^{\infty} \left\{{ 0, 1 }\right\}\)</span> endowed with the product topology.</p>
+<ol type="a">
+<li><p>Show that for all points <span class="math inline">\(x,y\in X\)</span> with <span class="math inline">\(x\neq y\)</span>, there are open subsets <span class="math inline">\(U_x, U_y \subset X\)</span> such that <span class="math inline">\(x\in U_x, y\in U_y\)</span>, with <span class="math inline">\(U_x \cup U_y = X\)</span> and <span class="math inline">\(U_x \cap U_y = \emptyset\)</span>.</p></li>
+<li><p>Show that <span class="math inline">\(X\)</span> is totally disconnected, i.e. the only nonempty connected subsets of <span class="math inline">\(X\)</span> are singletons.</p></li>
+</ol>
+</div>
+<h2 data-number="2.4" id="hausdorff-spaces-and-separation"><span class="header-section-number">2.4</span> Hausdorff Spaces and Separation</h2>
+<h3 data-number="2.4.1" id="fall-14-topologyqualwork-1"><span class="header-section-number">2.4.1</span> 29 (Fall ’14) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Is every product (finite or infinite) of Hausdorff spaces Hausdorff? If yes, prove it. If no, give a counterexample.</p>
+</div>
+<h3 data-number="2.4.2" id="spring-18-topologyqualcompleted"><span class="header-section-number">2.4.2</span> 30 (Spring ’18) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Suppose that <span class="math inline">\(X\)</span> is a Hausdorff topological space and that <span class="math inline">\(A \subset X\)</span>. Prove that if <span class="math inline">\(A\)</span> is compact in the subspace topology then <span class="math inline">\(A\)</span> is closed as a subset of X.</p>
+</div>
+<div></div>
+<h3 data-number="2.4.3" id="spring-09-topologyqualcompleted"><span class="header-section-number">2.4.3</span> 31 (Spring ’09) #topology/qual/completed</h3>
+<div class="problem proofenv" title="Spring 2009, 31">
+<ol type="a">
+<li><p>Show that a continuous bijection from a compact space to a Hausdorff space is a homeomorphism.</p></li>
+<li><p>Give an example that shows that the “Hausdorff” hypothesis in part (a) is necessary.</p></li>
+</ol>
+</div>
+<div></div>
+<div></div>
+<h3 data-number="2.4.4" id="fall-14-topologyqualcompleted-1"><span class="header-section-number">2.4.4</span> 32 (Fall ’14) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(X\)</span> be a topological space and let 
+<span class="math display">
+\begin{align*}
+\Delta = \left\{{(x, y) \in X \times X \mathrel{\Big|}x = y}\right\}
+.\end{align*}
+<span></p>
+<p>Show that <span class="math inline">\(X\)</span> is a Hausdorff space if and only if <span class="math inline">\(\Delta\)</span> is closed in <span class="math inline">\(X \times X\)</span>.</p>
+</div>
+<div></div>
+<h3 data-number="2.4.5" id="fall-06-topologyqualwork"><span class="header-section-number">2.4.5</span> 33 (Fall ’06) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>If <span class="math inline">\(f\)</span> is a function from <span class="math inline">\(X\)</span> to <span class="math inline">\(Y\)</span> , consider the graph 
+<span class="math display">
+\begin{align*}
+G = \left\{{(x, y) \in X \times Y \mathrel{\Big|}f (x) = y}\right\}
+.\end{align*}
+<span></p>
+<ol type="a">
+<li><p>Prove that if <span class="math inline">\(f\)</span> is continuous and <span class="math inline">\(Y\)</span> is Hausdorff, then <span class="math inline">\(G\)</span> is a closed subset of <span class="math inline">\(X \times Y\)</span>.</p></li>
+<li><p>Prove that if <span class="math inline">\(G\)</span> is closed and <span class="math inline">\(Y\)</span> is compact, then <span class="math inline">\(f\)</span> is continuous.</p></li>
+</ol>
+</div>
+<h3 data-number="2.4.6" id="fall-04-topologyqualwork"><span class="header-section-number">2.4.6</span> 34 (Fall ’04) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let X be a noncompact locally compact Hausdorff space, with topology <span class="math inline">\({\mathcal{T}}\)</span>. Let <span class="math inline">\(\tilde X = X \cup \left\{{\infty}\right\}\)</span> (<span class="math inline">\(X\)</span> with one point adjoined), and consider the family <span class="math inline">\({\mathcal{B}}\)</span> of subsets of <span class="math inline">\(\tilde X\)</span> defined by 
+<span class="math display">
+\begin{align*}
+{\mathcal{B}}= T \cup \left\{{S \cup \left\{{\infty}\right\}\mathrel{\Big|}S \subset X,~~ X \backslash S \text{ is compact}}\right\}
+.\end{align*}
+<span></p>
+<ol type="a">
+<li><p>Prove that <span class="math inline">\({\mathcal{B}}\)</span> is a topology on <span class="math inline">\(\tilde X\)</span>, that the resulting space is compact, and that <span class="math inline">\(X\)</span> is dense in <span class="math inline">\(\tilde X\)</span>.</p></li>
+<li><p>Prove that if <span class="math inline">\(Y \supset X\)</span> is a compact space such that <span class="math inline">\(X\)</span> is dense in <span class="math inline">\(Y\)</span> and <span class="math inline">\(Y \backslash X\)</span> is a singleton, then Y is homeomorphic to <span class="math inline">\(\tilde X\)</span>.</p></li>
+</ol>
+<blockquote>
+<p>The space <span class="math inline">\(\tilde X\)</span> is called the <strong>one-point compactification</strong> of <span class="math inline">\(X\)</span>.</p>
+</blockquote>
+<ol start="3" type="a">
+<li><p>Find familiar spaces that are homeomorphic to the one point compactifications of</p></li>
+<li><p><span class="math inline">\(X = (0, 1)\)</span> and</p></li>
+</ol>
+<!-- -->
+<ol start="2" type="i">
+<li><span class="math inline">\(X = {\mathbb{R}}^2\)</span>.</li>
+</ol>
+</div>
+<h3 data-number="2.4.7" id="fall-16-topologyqualwork-1"><span class="header-section-number">2.4.7</span> 35 (Fall ’16) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Prove that a metric space <span class="math inline">\(X\)</span> is <strong>normal</strong>, i.e. if <span class="math inline">\(A, B \subset X\)</span> are closed and disjoint then there exist open sets <span class="math inline">\(A \subset U \subset X, ~B \subset V \subset X\)</span> such that <span class="math inline">\(U \cap V = \emptyset\)</span>.</p>
+</div>
+<h3 data-number="2.4.8" id="spring-06-topologyqualwork-1"><span class="header-section-number">2.4.8</span> 36 (Spring ’06) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Prove that every compact, Hausdorff topological space is normal.</p>
+</div>
+<h3 data-number="2.4.9" id="spring-09-topologyqualwork-1"><span class="header-section-number">2.4.9</span> 37 (Spring ’09) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Show that a connected, normal topological space with more than a single point is uncountable.</p>
+</div>
+<h3 data-number="2.4.10" id="spring-08-topologyqualcompleted"><span class="header-section-number">2.4.10</span> 38 (Spring ’08) #topology/qual/completed</h3>
+<div class="problem proofenv" title="?">
+<p>Give an example of a quotient map in which the domain is Hausdorff, but the quotient is not.</p>
+</div>
+<div></div>
+<h3 data-number="2.4.11" id="fall-04-topologyqualwork-1"><span class="header-section-number">2.4.11</span> 39 (Fall ’04) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(X\)</span> be a compact Hausdorff space and suppose <span class="math inline">\(R \subset X \times X\)</span> is a closed equivalence relation. Show that the quotient space <span class="math inline">\(X/R\)</span> is Hausdorff.</p>
+</div>
+<h3 data-number="2.4.12" id="spring-18-topologyqualwork"><span class="header-section-number">2.4.12</span> 40 (Spring ’18) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(U \subset {\mathbb{R}}^n\)</span> be an open set which is bounded in the standard Euclidean metric. Prove that the quotient space <span class="math inline">\({\mathbb{R}}^n / U\)</span> is not Hausdorff.</p>
+</div>
+<h3 data-number="2.4.13" id="fall-09-topologyqualwork"><span class="header-section-number">2.4.13</span> 41 (Fall ’09) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(A\)</span> be a closed subset of a normal topological space <span class="math inline">\(X\)</span>. Show that both <span class="math inline">\(A\)</span> and the quotient <span class="math inline">\(X/A\)</span> are normal.</p>
+</div>
+<h3 data-number="2.4.14" id="spring-11-topologyqualwork-1"><span class="header-section-number">2.4.14</span> 45 (Spring ’11) #topology/qual/work</h3>
+<div class="problem proofenv" title="?">
+<p>Recall that a topological space is <strong>regular</strong> if for every point <span class="math inline">\(p \in X\)</span> and for every closed subset <span class="math inline">\(F \subset X\)</span> not containing <span class="math inline">\(p\)</span>, there exist disjoint open sets <span class="math inline">\(U, V \subset X\)</span> with <span class="math inline">\(p \in U\)</span> and <span class="math inline">\(F \subset V\)</span>.</p>
+<p>Let <span class="math inline">\(X\)</span> be a regular space that has a countable basis for its topology, and let <span class="math inline">\(U\)</span> be an open subset of <span class="math inline">\(X\)</span>.</p>
+<ol type="a">
+<li><p>Show that <span class="math inline">\(U\)</span> is a countable union of closed subsets of <span class="math inline">\(X\)</span>.</p></li>
+<li><p>Show that there is a continuous function <span class="math inline">\(f : X \to [0,1]\)</span> such that <span class="math inline">\(f (x) &gt; 0\)</span> for <span class="math inline">\(x \in U\)</span> and <span class="math inline">\(f (x) = 0\)</span> for <span class="math inline">\(x \in U\)</span>.</p></li>
+</ol>
+</div>
+<h2 data-number="2.5" id="exercises"><span class="header-section-number">2.5</span> Exercises</h2>
+<h3 data-number="2.5.1" id="basics"><span class="header-section-number">2.5.1</span> Basics</h3>
+<h4 data-number="2.5.1.1" id="exercise-topologyqualwork"><span class="header-section-number">2.5.1.1</span> Exercise #topology/qual/work</h4>
+<p>Show that for <span class="math inline">\(A\subseteq X\)</span>, <span class="math inline">\({ \operatorname{cl}} _X(A)\)</span> is the smallest closed subset containing <span class="math inline">\(A\)</span>.</p>
+<h4 data-number="2.5.1.2" id="exercise-topologyqualcompleted"><span class="header-section-number">2.5.1.2</span> Exercise #topology/qual/completed</h4>
+<p>Give an example of spaces <span class="math inline">\(A\subseteq B \subseteq X\)</span> such that <span class="math inline">\(A\)</span> is open in <span class="math inline">\(B\)</span> but <span class="math inline">\(A\)</span> is <em>not</em> open in <span class="math inline">\(X\)</span>.</p>
+<div></div>
+<h4 data-number="2.5.1.3" id="exercise-topologyqualwork-1"><span class="header-section-number">2.5.1.3</span> Exercise #topology/qual/work</h4>
+<p>Show that the diagonal map <span class="math inline">\(\Delta(x) = (x, x)\)</span> is continuous.</p>
+<h4 data-number="2.5.1.4" id="exercise-topologyqualwork-2"><span class="header-section-number">2.5.1.4</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(A_i \subseteq X\)</span>, then <span class="math inline">\({ \operatorname{cl}} _X(\cup_i A_i) = \cup_i { \operatorname{cl}} _X(A_i)\)</span>.</p>
+<h4 data-number="2.5.1.5" id="exercise-topologyqualwork-3"><span class="header-section-number">2.5.1.5</span> Exercise #topology/qual/work</h4>
+<p>Show that <span class="math inline">\({\mathbb{R}}\)</span> is not homeomorphic to <span class="math inline">\([0, \infty)\)</span>.</p>
+<h4 data-number="2.5.1.6" id="exercise-topologyqualwork-4"><span class="header-section-number">2.5.1.6</span> Exercise #topology/qual/work</h4>
+<p>Show that the set <span class="math inline">\((x, y) \in {\mathbb{R}}^2\)</span> such that at least one of <span class="math inline">\(x, y\)</span> is rational with the subspace topology is a connected space.</p>
+<h4 data-number="2.5.1.7" id="exercise-mathbbrmathbbq-is-indiscrete"><span class="header-section-number">2.5.1.7</span> Exercise: <span class="math inline">\({\mathbb{R}}/{\mathbb{Q}}\)</span> is indiscrete</h4>
+<div class="problem proofenv" title="?">
+<p>Show that <span class="math inline">\({\mathbb{R}}/{\mathbb{Q}}\)</span> has the indiscrete topology.</p>
+</div>
+<div></div>
+<h3 data-number="2.5.2" id="connectedness-1"><span class="header-section-number">2.5.2</span> Connectedness</h3>
+<h4 data-number="2.5.2.1" id="exercise-topologyqualwork-5"><span class="header-section-number">2.5.2.1</span> Exercise #topology/qual/work</h4>
+<p>Prove that <span class="math inline">\(X\)</span> is connected iff the only clopen subsets are <span class="math inline">\(\emptyset, X\)</span>.</p>
+<h4 data-number="2.5.2.2" id="exercise-topologyqualwork-6"><span class="header-section-number">2.5.2.2</span> Exercise #topology/qual/work</h4>
+<p>Let <span class="math inline">\(A \subset X\)</span> be a connected subspace.</p>
+<p>Show that if <span class="math inline">\(B\subset X\)</span> satisfies <span class="math inline">\(A\subseteq B \subseteq \mkern 1.5mu\overline{\mkern-1.5muA\mkern-1.5mu}\mkern 1.5mu\)</span>, then <span class="math inline">\(B\)</span> is connected.</p>
+<h4 data-number="2.5.2.3" id="exercise-topologyqualwork-7"><span class="header-section-number">2.5.2.3</span> Exercise #topology/qual/work</h4>
+<p>Show that: - Connected does not imply path connected - Connected and locally path connected <em>does</em> imply path connected - Path connected implies connected</p>
+<h4 data-number="2.5.2.4" id="exercise-topologyqualwork-8"><span class="header-section-number">2.5.2.4</span> Exercise #topology/qual/work</h4>
+<p>Use the fact that intervals are connected to prove the intermediate value theorem.</p>
+<h4 data-number="2.5.2.5" id="exercise-topologyqualwork-9"><span class="header-section-number">2.5.2.5</span> Exercise #topology/qual/work</h4>
+<p>Prove that the continuous image of a connected set is connected.</p>
+<h4 data-number="2.5.2.6" id="exercise-topologyqualwork-10"><span class="header-section-number">2.5.2.6</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(X\)</span> is locally path connected, then</p>
+<ul>
+<li>Every open subset of <span class="math inline">\(X\)</span> is again locally path-connected.</li>
+<li><span class="math inline">\(X\)</span> is connected <span class="math inline">\(\iff X\)</span> is path-connected.</li>
+<li>Every path component of <span class="math inline">\(X\)</span> is a connected component of <span class="math inline">\(X\)</span>.</li>
+<li>Every connected component of <span class="math inline">\(X\)</span> is open in <span class="math inline">\(X\)</span>.</li>
+</ul>
+<h4 data-number="2.5.2.7" id="exercise-topologyqualcompleted-1"><span class="header-section-number">2.5.2.7</span> Exercise #topology/qual/completed</h4>
+<p>Show that <span class="math inline">\([0, 1]\)</span> is connected.</p>
+<div></div>
+<h3 data-number="2.5.3" id="compactness"><span class="header-section-number">2.5.3</span> Compactness</h3>
+<h4 data-number="2.5.3.1" id="star-exercise-topologyqualcompleted"><span class="header-section-number">2.5.3.1</span> <span class="math inline">\(\star\)</span> Exercise #topology/qual/completed</h4>
+<p>Let <span class="math inline">\(X\)</span> be a compact space and let <span class="math inline">\(A\)</span> be a closed subspace. Show that <span class="math inline">\(A\)</span> is compact.</p>
+<div></div>
+<h4 data-number="2.5.3.2" id="star-exercise-topologyqualcompleted-1"><span class="header-section-number">2.5.3.2</span> <span class="math inline">\(\star\)</span> Exercise #topology/qual/completed</h4>
+<p>Let <span class="math inline">\(f : X \to Y\)</span> be a continuous function, with <span class="math inline">\(X\)</span> compact. Show that <span class="math inline">\(f(X)\)</span> is compact.</p>
+<div></div>
+<p>Let <span class="math inline">\(A\)</span> be a compact subspace of a Hausdorff space <span class="math inline">\(X\)</span>. Show that <span class="math inline">\(A\)</span> is closed.</p>
+<h4 data-number="2.5.3.3" id="exercise-topologyqualwork-11"><span class="header-section-number">2.5.3.3</span> Exercise #topology/qual/work</h4>
+<p>Show that any infinite set with the cofinite topology is compact.</p>
+<h4 data-number="2.5.3.4" id="exercise-topologyqualwork-12"><span class="header-section-number">2.5.3.4</span> Exercise #topology/qual/work</h4>
+<p>Show that every compact metric space is complete.</p>
+<h4 data-number="2.5.3.5" id="exercise-topologyqualwork-13"><span class="header-section-number">2.5.3.5</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(X\)</span> is second countable and Hausdorff, or a metric space, then TFAE:</p>
+<ul>
+<li><span class="math inline">\(X\)</span> is compact</li>
+<li>Every infinite subset <span class="math inline">\(A\subseteq X\)</span> has a limit point in <span class="math inline">\(X\)</span>.</li>
+<li>Every sequence in <span class="math inline">\(X\)</span> has a convergent subsequence in <span class="math inline">\(X\)</span>.</li>
+</ul>
+<h4 data-number="2.5.3.6" id="exercise-topologyqualwork-14"><span class="header-section-number">2.5.3.6</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(f: A\to B\)</span> is a continuous map between metric spaces and <span class="math inline">\(K\subset A\)</span> is compact, then <span class="math inline">\({\left.{{f}} \right|_{{K}} }\)</span> is uniformly continuous.</p>
+<h4 data-number="2.5.3.7" id="exercise-topologyqualwork-15"><span class="header-section-number">2.5.3.7</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(f:X\to Y\)</span> is continuous and <span class="math inline">\(X\)</span> is compact then <span class="math inline">\(f(X)\)</span> is compact.</p>
+<h4 data-number="2.5.3.8" id="exercise-topologyqualwork-16"><span class="header-section-number">2.5.3.8</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(f:X\to {\mathbb{R}}\)</span> and <span class="math inline">\(X\)</span> is compact then <span class="math inline">\(f\)</span> is bounded and attains its min/max.</p>
+<h4 data-number="2.5.3.9" id="exercise-topologyqualwork-17"><span class="header-section-number">2.5.3.9</span> Exercise #topology/qual/work</h4>
+<p>Show that a finite product or union compact spaces is again compact.</p>
+<h4 data-number="2.5.3.10" id="exercise-topologyqualwork-18"><span class="header-section-number">2.5.3.10</span> Exercise #topology/qual/work</h4>
+<p>Show that a quotient of a compact space is again compact.</p>
+<h4 data-number="2.5.3.11" id="exercise-topologyqualwork-19"><span class="header-section-number">2.5.3.11</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(X\)</span> is compact and <span class="math inline">\(A\subseteq X\)</span> is closed then <span class="math inline">\(A\)</span> is compact.</p>
+<h4 data-number="2.5.3.12" id="exercise-topologyqualwork-20"><span class="header-section-number">2.5.3.12</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(X\)</span> is Hausdorff and <span class="math inline">\(A\subseteq X\)</span> is compact then <span class="math inline">\(A\)</span> is closed.</p>
+<h4 data-number="2.5.3.13" id="exercise-topologyqualwork-21"><span class="header-section-number">2.5.3.13</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(X\)</span> is a metric space and <span class="math inline">\(A\subseteq X\)</span> is compact then <span class="math inline">\(A\)</span> is bounded.</p>
+<h4 data-number="2.5.3.14" id="exercise-topologyqualwork-22"><span class="header-section-number">2.5.3.14</span> Exercise #topology/qual/work</h4>
+<p>Show that a continuous map from a compact space to a Hausdorff space is closed.</p>
+<h4 data-number="2.5.3.15" id="exercise-topologyqualwork-23"><span class="header-section-number">2.5.3.15</span> Exercise #topology/qual/work</h4>
+<p>Show that an injective continuous map from a compact space to a Hausdorff space is an embedding (a homeomorphism onto its image).</p>
+<h4 data-number="2.5.3.16" id="exercise-topologyqualwork-24"><span class="header-section-number">2.5.3.16</span> Exercise #topology/qual/work</h4>
+<p>Show that <span class="math inline">\([0, 1]\)</span> is compact.</p>
+<h4 data-number="2.5.3.17" id="exercise-topologyqualwork-25"><span class="header-section-number">2.5.3.17</span> Exercise #topology/qual/work</h4>
+<p>Show that a compact Hausdorff space is is metrizable iff it is second-countable.</p>
+<h4 data-number="2.5.3.18" id="exercise-topologyqualwork-26"><span class="header-section-number">2.5.3.18</span> Exercise #topology/qual/work</h4>
+<p>Show that if <span class="math inline">\(X\)</span> is metrizable, then <span class="math inline">\(X\)</span> is compact</p>
+<h4 data-number="2.5.3.19" id="exercise-topologyqualwork-27"><span class="header-section-number">2.5.3.19</span> Exercise #topology/qual/work</h4>
+<p>Give an example of a space that is compact but not sequentially compact, and vice versa.</p>
+<h4 data-number="2.5.3.20" id="exercise-topologyqualwork-28"><span class="header-section-number">2.5.3.20</span> Exercise #topology/qual/work</h4>
+<p>Show that a sequentially compact space is totally bounded.</p>
+<h4 data-number="2.5.3.21" id="exercise-topologyqualwork-29"><span class="header-section-number">2.5.3.21</span> Exercise #topology/qual/work</h4>
+<p>Show that <span class="math inline">\({\mathbb{R}}\)</span> with the cofinite topology is compact.</p>
+<h4 data-number="2.5.3.22" id="exercise-topologyqualwork-30"><span class="header-section-number">2.5.3.22</span> Exercise #topology/qual/work</h4>
+<p>Show that <span class="math inline">\([0, 1]\)</span> is compact without using the Heine-Borel theorem.</p>
+<h3 data-number="2.5.4" id="separation"><span class="header-section-number">2.5.4</span> Separation</h3>
+<h4 data-number="2.5.4.1" id="exercise-topologyqualwork-31"><span class="header-section-number">2.5.4.1</span> Exercise #topology/qual/work</h4>
+<p>Show that <span class="math inline">\(X\)</span> is Hausdorff iff <span class="math inline">\(\Delta(X)\)</span> is closed in <span class="math inline">\(X\times X\)</span>.</p>
+<h4 data-number="2.5.4.2" id="exercise-topologyqualwork-32"><span class="header-section-number">2.5.4.2</span> Exercise #topology/qual/work</h4>
+<p>Prove that <span class="math inline">\(X, Y\)</span> are Hausdorff iff <span class="math inline">\(X\times Y\)</span> is Hausdorff.</p>
+<h4 data-number="2.5.4.3" id="exercise-topologyqualwork-33"><span class="header-section-number">2.5.4.3</span> Exercise #topology/qual/work</h4>
+<p>Show that <span class="math inline">\({\mathbb{R}}\)</span> is separable.</p>
+<h4 data-number="2.5.4.4" id="exercise-topologyqualwork-34"><span class="header-section-number">2.5.4.4</span> Exercise #topology/qual/work</h4>
+<p>Show that any space with the indiscrete topology is separable.</p>
+<h4 data-number="2.5.4.5" id="exercise-topologyqualwork-35"><span class="header-section-number">2.5.4.5</span> Exercise #topology/qual/work</h4>
+<p>Show that any countable space with the discrete topology is separable.</p>
+<h4 data-number="2.5.4.6" id="exercise-topologyqualwork-36"><span class="header-section-number">2.5.4.6</span> Exercise #topology/qual/work</h4>
+<p>Show that the minimal uncountable order with the order topology is not separable.</p>
+<h4 data-number="2.5.4.7" id="exercise-topologyqualwork-37"><span class="header-section-number">2.5.4.7</span> Exercise #topology/qual/work</h4>
+<p>Show that every first countable space is second countable.</p>
+<h4 data-number="2.5.4.8" id="exercise-topologyqualwork-38"><span class="header-section-number">2.5.4.8</span> Exercise #topology/qual/work</h4>
+<p>Show that every metric space is Hausdorff in its metric topology.</p>
+<h3 data-number="2.5.5" id="hausdorff-spaces"><span class="header-section-number">2.5.5</span> Hausdorff Spaces</h3>
+<h4 data-number="2.5.5.1" id="exercise"><span class="header-section-number">2.5.5.1</span> Exercise</h4>
+<p>Show that a compact set in a Hausdorff space is closed.</p>
+<h4 data-number="2.5.5.2" id="exercise-topologyqualcompleted-2"><span class="header-section-number">2.5.5.2</span> Exercise #topology/qual/completed</h4>
+<p>Let <span class="math inline">\(A\subset X\)</span> with <span class="math inline">\(A\)</span> closed and <span class="math inline">\(X\)</span> compact, and show that <span class="math inline">\(A\)</span> is compact.</p>
+<div></div>
+<div></div>
+<h4 data-number="2.5.5.3" id="exercise-topologyqualcompleted-3"><span class="header-section-number">2.5.5.3</span> Exercise #topology/qual/completed</h4>
+<p>Show that a continuous bijection from a compact space to a Hausdorff space is a homeomorphism.</p>
+<div></div>
+<h4 data-number="2.5.5.4" id="exercise-topologyqualwork-39"><span class="header-section-number">2.5.5.4</span> Exercise #topology/qual/work</h4>
+<p>Show that a closed subset of a Hausdorff space need not be compact.</p>
+<h4 data-number="2.5.5.5" id="exercise-topologyqualwork-40"><span class="header-section-number">2.5.5.5</span> Exercise #topology/qual/work</h4>
+<p>Show that in a <em>compact</em> Hausdorff space, <span class="math inline">\(A\)</span> is closed iff <span class="math inline">\(A\)</span> is compact.</p>
+<h4 data-number="2.5.5.6" id="exercise-topologyqualwork-41"><span class="header-section-number">2.5.5.6</span> Exercise #topology/qual/work</h4>
+<p>Show that a local homeomorphism between compact Hausdorff spaces is a covering space.</p>
+<h1 data-number="3" id="the-fundamental-group"><span class="header-section-number">3</span> The Fundamental Group</h1>
+<h2 data-number="3.1" id="spring-15-topologyqualcompleted-2"><span class="header-section-number">3.1</span> 1 (Spring ’15) #topology/qual/completed</h2>
+<div class="problem proofenv" title="?">
+<p>Let <span class="math inline">\(S^1\)</span> denote the unit circle in <span class="math inline">\(C\)</span>, <span class="math inline">\(X\)</span> be any topological space, <span class="math inline">\(x_0 \in X\)</span>, and 
+<span class="math display">
+\begin{align*}\gamma_0, \gamma_1 : S^1 \to X\end{align*}
+<span> be two continuous maps such that <span class="math inline">\(\gamma_0 (1) = \gamma_1 (1) = x_0\)</span>.</p>
+<p>Prove that <span class="math inline">\(\gamma_0\)</span> is homotopic to <span class="math inline">\(\gamma_1\)</span> if and only if the elements represented by <span class="math inline">\(\gamma_0\)</span> and <span class="math inline">\(\gamma_1\)</span> in <span class="math inline">\(\pi_1 (X, x_0 )\)</span> are conjugate.</p>
+</div>
+<div></div>
+<div></div>
+<h2 data-number="3.2" id="spring-09spring-07fall-07fall-06-topologyqualwork"><span class="header-section-number">3.2</span> 2 (Spring ’09/Spring ’07/Fall ’07/Fall ’06) #topology/qual/work</h2>
+<ol type="a">
+<li><p>State van Kampen’s theorem.</p></li>
+<li><p>Calculate the fundamental group of the space obtained by taking two copies of the torus <span class="math inline">\(T = S^1 \times S^1\)</span> and gluing them along a circle <span class="math inline">\(S^1 \times {p}\)</span> where <span class="math inline">\(p\)</span> is a point in <span class="math inline">\(S^1\)</span>.</p></li>
+<li><p>Calculate the fundamental group of the Klein bottle.</p></li>
+<li><p>Calculate the fundamental group of the one-point union of <span class="math inline">\(S^1 \times S^1\)</span> and <span class="math inline">\(S^1\)</span>.</p></li>
+<li><p>Calculate the fundamental group of the one-point union of <span class="math inline">\(S^1 \times S^1\)</span> and <span class="math inline">\({\mathbb{RP}}^2\)</span>.</p></li>
+</ol>
+<blockquote>
+<p><strong>Note: multiple appearances!!</strong></p>
+</blockquote>
+<h2 data-number="3.3" id="fall-18-topologyqualwork-2"><span class="header-section-number">3.3</span> 3 (Fall ’18) #topology/qual/work</h2>
+<p>Prove the following portion of van Kampen’s theorem. If <span class="math inline">\(X = A\cup B\)</span> and <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span>, and <span class="math inline">\(A \cap B\)</span> are nonempty and path connected with <span class="math inline">\({\operatorname{pt}}\in A \cap B\)</span>, then there is a surjection 
+<span class="math display">
+\begin{align*}
+\pi_1 (A, {\operatorname{pt}}) \ast \pi_1 (B, {\operatorname{pt}}) \to \pi_1 (X, {\operatorname{pt}})
+.\end{align*}
+<span></p>
+<h2 data-number="3.4" id="spring-15-topologyqualwork-1"><span class="header-section-number">3.4</span> 4 (Spring ’15) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> denote the quotient space formed from the sphere <span class="math inline">\(S^2\)</span> by identifying two distinct points.</p>
+<p>Compute the fundamental group and the homology groups of <span class="math inline">\(X\)</span>.</p>
+<h2 data-number="3.5" id="spring-06-topologyqualwork-2"><span class="header-section-number">3.5</span> 5 (Spring ’06) #topology/qual/work</h2>
+<p>Start with the unit disk <span class="math inline">\({\mathbb{D}}^2\)</span> and identify points on the boundary if their angles, thought of in polar coordinates, differ a multiple of <span class="math inline">\(\pi/2\)</span>.</p>
+<p>Let <span class="math inline">\(X\)</span> be the resulting space. Use van Kampen’s theorem to compute <span class="math inline">\(\pi_1 (X, \ast)\)</span>.</p>
+<h2 data-number="3.6" id="spring-08-topologyqualwork"><span class="header-section-number">3.6</span> 6 (Spring ’08) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(L\)</span> be the union of the <span class="math inline">\(z\)</span>-axis and the unit circle in the <span class="math inline">\(xy{\hbox{-}}\)</span>plane. Compute <span class="math inline">\(\pi_1 ({\mathbb{R}}^3 \backslash L, \ast)\)</span>.</p>
+<h2 data-number="3.7" id="fall-16-topologyqualwork-2"><span class="header-section-number">3.7</span> 7 (Fall ’16) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(A\)</span> be the union of the unit sphere in <span class="math inline">\({\mathbb{R}}^3\)</span> and the interval <span class="math inline">\(\left\{{(t, 0, 0) : -1 \leq t \leq 1}\right\} \subset {\mathbb{R}}^3\)</span>.</p>
+<p>Compute <span class="math inline">\(\pi_1 (A)\)</span> and give an explicit description of the universal cover of <span class="math inline">\(X\)</span>.</p>
+<h2 data-number="3.8" id="spring-13-topologyqualwork-1"><span class="header-section-number">3.8</span> 8 (Spring ’13) #topology/qual/work</h2>
+<ol type="a">
+<li><p>Let <span class="math inline">\(S_1\)</span> and <span class="math inline">\(S_2\)</span> be disjoint surfaces. Give the definition of their connected sum <span class="math inline">\(S^1 \#S^2\)</span>.</p></li>
+<li><p>Compute the fundamental group of the connected sum of the projective plane and the two-torus.</p></li>
+</ol>
+<h2 data-number="3.9" id="fall-15-topologyqualwork"><span class="header-section-number">3.9</span> 9 (Fall ’15) #topology/qual/work</h2>
+<p>Compute the fundamental group, using any technique you like, of <span class="math inline">\({\mathbb{RP}}^2 \#{\mathbb{RP}}^2 \#{\mathbb{RP}}^2\)</span>.</p>
+<h2 data-number="3.10" id="fall-11-topologyqualwork"><span class="header-section-number">3.10</span> 10 (Fall ’11) #topology/qual/work</h2>
+<p>Let 
+<span class="math display">
+\begin{align*}
+V = {\mathbb{D}}^2 \times S^1 = \left\{{ (z, e^{it}) {~\mathrel{\Big\vert}~}{\left\lVert {z} \right\rVert} \leq 1,~~ 0 \leq t &lt; 2\pi}\right\}
+\end{align*}
+<span> be the “solid torus” with boundary given by the torus <span class="math inline">\(T = S^1 \times S^1\)</span> .</p>
+<p>For <span class="math inline">\(n \in {\mathbb{Z}}\)</span> define <span class="math display">\[\begin{align*} \phi_n : T &amp;\to T \\ (e^{is} , e^{it} ) &amp;\mapsto (e^{is} , e^{i(ns+t)}) .\end{align*}\]</span></p>
+<p>Find the fundamental group of the identification space 
+<span class="math display">
+\begin{align*}
+V_n = {V{\textstyle\coprod}V \over \sim n}
+\end{align*}
+<span> where the equivalence relation <span class="math inline">\(\sim_n\)</span> identifies a point <span class="math inline">\(x\)</span> on the boundary <span class="math inline">\(T\)</span> of the first copy of <span class="math inline">\(V\)</span> with the point <span class="math inline">\(\phi_n (x)\)</span> on the boundary of the second copy of <span class="math inline">\(V\)</span>.</p>
+<h2 data-number="3.11" id="fall-16-topologyqualwork-3"><span class="header-section-number">3.11</span> 11 (Fall ’16) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(S_k\)</span> be the space obtained by removing <span class="math inline">\(k\)</span> disjoint open disks from the sphere <span class="math inline">\(S^2\)</span>. Form <span class="math inline">\(X_k\)</span> by gluing <span class="math inline">\(k\)</span> Möbius bands onto <span class="math inline">\(S_k\)</span> , one for each circle boundary component of <span class="math inline">\(S_k\)</span> (by identifying the boundary circle of a Möbius band homeomorphically with a given boundary component circle).</p>
+<p>Use van Kampen’s theorem to calculate <span class="math inline">\(\pi_1 (X_k)\)</span> for each <span class="math inline">\(k &gt; 0\)</span> and identify <span class="math inline">\(X_k\)</span> in terms of the classification of surfaces.</p>
+<h2 data-number="3.12" id="spring-13-topologyqualwork-2"><span class="header-section-number">3.12</span> 12 (Spring ’13) #topology/qual/work</h2>
+<ol type="a">
+<li><p>Let <span class="math inline">\(A\)</span> be a subspace of a topological space <span class="math inline">\(X\)</span>. Define what it means for <span class="math inline">\(A\)</span> to be a <strong>deformation retract</strong> of <span class="math inline">\(X\)</span>.</p></li>
+<li><p>Consider <span class="math inline">\(X_1\)</span> the “planar figure eight” and 
+<span class="math display">
+\begin{align*}X_2 = S^1 \cup ({0} \times [-1, 1])\end{align*}
+<span> (the “theta space”). Show that <span class="math inline">\(X_1\)</span> and <span class="math inline">\(X_2\)</span> have isomorphic fundamental groups.</p></li>
+<li><p>Prove that the fundamental group of <span class="math inline">\(X_2\)</span> is a free group on two generators.</p></li>
+</ol>
+<h2 data-number="3.13" id="spring-2021-4"><span class="header-section-number">3.13</span> Spring 2021 #4</h2>
+<div class="problem proofenv" title="Spring 2021, 4">
+<p>Suppose that <span class="math inline">\(X\)</span> is a topological space and <span class="math inline">\(x_0\in X\)</span>, and suppose that every continuous map <span class="math inline">\(\gamma: S^1 \to X\)</span> is freely homotopic to the constant map to <span class="math inline">\(x_0\)</span>. Prove that <span class="math inline">\(\pi_1(X, x_0) = \left\{{ e }\right\}\)</span>.</p>
+<blockquote>
+<p>Note that “freely” means there are no conditions on basepoints.</p>
+</blockquote>
+</div>
+<h1 data-number="4" id="covering-spaces"><span class="header-section-number">4</span> Covering Spaces</h1>
+<h2 data-number="4.1" id="spring-11spring-14-topologyqualcompleted"><span class="header-section-number">4.1</span> 1 (Spring 11/Spring ’14) #topology/qual/completed</h2>
+<ol type="a">
+<li><p>Give the definition of a <strong>covering space</strong> <span class="math inline">\(\widehat{X}\)</span> (and <strong>covering map</strong> <span class="math inline">\(p : \widehat{X} \to X\)</span>) for a topological space <span class="math inline">\(X\)</span>.</p></li>
+<li><p>State the homotopy lifting property of covering spaces. Use it to show that a covering map <span class="math inline">\(p : \widehat{X} \to X\)</span> induces an injection 
+<span class="math display">
+\begin{align*}
+p^\ast : \pi_1 (\widehat{X}, \widehat{x}) \to \pi_1 (X, p(\widehat{x}))
+\end{align*}
+<span> on fundamental groups.</p></li>
+<li><p>Let <span class="math inline">\(p : \widehat{X} \to X\)</span> be a covering map with <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span> path-connected. Suppose that the induced map <span class="math inline">\(p^\ast\)</span> on <span class="math inline">\(\pi_1\)</span> is an isomorphism.</p></li>
+</ol>
+<p>Prove that <span class="math inline">\(p\)</span> is a homeomorphism.</p>
+<div></div>
+<h2 data-number="4.2" id="fall-06fall-09fall-15-topologyqualwork"><span class="header-section-number">4.2</span> 2 (Fall ’06/Fall ’09/Fall ’15) #topology/qual/work</h2>
+<ol type="a">
+<li><p>Give the definitions of <strong>covering space</strong> and <strong>deck transformation</strong> (or covering transformation).</p></li>
+<li><p>Describe the universal cover of the Klein bottle and its group of deck transformations.</p></li>
+<li><p>Explicitly give a collection of deck transformations on 
+<span class="math display">
+\begin{align*}\left\{{(x, y) \mathrel{\Big|}-1 \leq x \leq 1, -\infty &lt; y &lt; \infty}\right\}\end{align*}
+<span> such that the quotient is a Möbius band.</p></li>
+<li><p>Find the universal cover of <span class="math inline">\({\mathbb{RP}}^2 \times S^1\)</span> and explicitly describe its group of deck transformations.</p></li>
+</ol>
+<h2 data-number="4.3" id="spring-2021-5"><span class="header-section-number">4.3</span> Spring 2021 #5</h2>
+<div class="problem proofenv" title="Spring 2021, 5">
+<p>Identify five mutually non-homeomorphic connected spaces <span class="math inline">\(X\)</span> for which there is a covering map <span class="math inline">\(p:X\to K\)</span> where <span class="math inline">\(K\)</span> is the Klein bottle. Give an example of the covering in each case.</p>
+</div>
+<h2 data-number="4.4" id="spring-06spring-07spring-12-topologyqualwork"><span class="header-section-number">4.4</span> 3 (Spring ’06/Spring ’07/Spring ’12) #topology/qual/work</h2>
+<ol type="a">
+<li><p>What is the definition of a <strong>regular</strong> (or Galois) covering space?</p></li>
+<li><p>State, without proof, a criterion in terms of the fundamental group for a covering map <span class="math inline">\(p : \tilde X \to X\)</span> to be regular.</p></li>
+<li><p>Let <span class="math inline">\(\Theta\)</span> be the topological space formed as the union of a circle and its diameter (so this space looks exactly like the letter <span class="math inline">\(\Theta\)</span>). Give an example of a covering space of <span class="math inline">\(\Theta\)</span> that is not regular.</p></li>
+</ol>
+<h2 data-number="4.5" id="spring-08-topologyqualwork-1"><span class="header-section-number">4.5</span> 4 (Spring ’08) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(S\)</span> be the closed orientable surface of genus 2 and let <span class="math inline">\(C\)</span> be the commutator subgroup of <span class="math inline">\(\pi_1 (S, \ast)\)</span>. Let <span class="math inline">\(\tilde S\)</span> be the cover corresponding to <span class="math inline">\(C\)</span>. Is the covering map <span class="math inline">\(\tilde S \to S\)</span> regular?</p>
+<blockquote>
+<p>The term “normal” is sometimes used as a synonym for regular in this context.</p>
+</blockquote>
+<p>What is the group of deck transformations?</p>
+<p>Give an example of a nontrivial element of <span class="math inline">\(\pi_1 (S, \ast)\)</span> which lifts to a trivial deck transformation.</p>
+<h2 data-number="4.6" id="fall-04-topologyqualwork-2"><span class="header-section-number">4.6</span> 5 (Fall ’04) #topology/qual/work</h2>
+<p>Describe the 3-fold connected covering spaces of <span class="math inline">\(S^1 \lor S^1\)</span>.</p>
+<h2 data-number="4.7" id="spring-17-topologyqualcompleted"><span class="header-section-number">4.7</span> 6 (Spring ’17) #topology/qual/completed</h2>
+<p>Find all three-fold covers of the wedge of two copies of <span class="math inline">\({\mathbb{RP}}^2\)</span> . Justify your answer.</p>
+<div></div>
+<h2 data-number="4.8" id="fall-17-topologyqualcompleted"><span class="header-section-number">4.8</span> 7 (Fall ’17) #topology/qual/completed</h2>
+<p>Describe, as explicitly as you can, two different (non-homeomorphic) connected two-sheeted covering spaces of <span class="math inline">\({\mathbb{RP}}^2 \lor {\mathbb{RP}}^3\)</span>, and prove that they are not homeomorphic.</p>
+<div></div>
+<h2 data-number="4.9" id="spring-19-topologyqualcompleted"><span class="header-section-number">4.9</span> 8 (Spring ’19) #topology/qual/completed</h2>
+<p>Is there a covering map from 
+<span class="math display">
+\begin{align*}
+X_3 = \left\{{x^2 + y^2 = 1}\right\} \cup \left\{{(x - 2)^2 + y^2 = 1}\right\} \cup \left\{{(x + 2)^2 + y^2 = 1}\right\} \subset {\mathbb{R}}^2
+\end{align*}
+<span> to <span class="math inline">\(S^1 \vee S^1\)</span>? If there is, give an example; if not, give a proof.</p>
+<div></div>
+<h2 data-number="4.10" id="spring-05-topologyqualwork"><span class="header-section-number">4.10</span> 9 (Spring ’05) #topology/qual/work</h2>
+<ol type="a">
+<li><p>Suppose <span class="math inline">\(Y\)</span> is an <span class="math inline">\(n\)</span>-fold connected covering space of the torus <span class="math inline">\(S^1 \times S^1\)</span>. Up to homeomorphism, what is <span class="math inline">\(Y\)</span>? Justify your answer.</p></li>
+<li><p>Let <span class="math inline">\(X\)</span> be the topological space obtained by deleting a disk from a torus. Suppose <span class="math inline">\(Y\)</span> is a 3-fold covering space of <span class="math inline">\(X\)</span>.</p>
+<p>What surfaces could <span class="math inline">\(Y\)</span> be? Justify your answer, but you need not exhibit the covering maps explicitly.</p></li>
+</ol>
+<h2 data-number="4.11" id="spring-07-topologyqualwork"><span class="header-section-number">4.11</span> 10 (Spring ’07) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(S\)</span> be a connected surface, and let <span class="math inline">\(U\)</span> be a connected open subset of <span class="math inline">\(S\)</span>. Let <span class="math inline">\(p : \tilde S \to S\)</span> be the universal cover of <span class="math inline">\(S\)</span>. Show that <span class="math inline">\(p^{-1}(U )\)</span> is connected if and only if the homeomorphism <span class="math inline">\(i_\ast : \pi_1 (U ) \to \pi_1 (S)\)</span> induced by the inclusion <span class="math inline">\(i : U \to S\)</span> is onto.</p>
+<h2 data-number="4.12" id="fall-10-topologyqualwork"><span class="header-section-number">4.12</span> 11 (Fall ’10) #topology/qual/work</h2>
+<p>Suppose that X has universal cover <span class="math inline">\(p : \tilde X \to X\)</span> and let <span class="math inline">\(A \subset X\)</span> be a subspace with <span class="math inline">\(p(\tilde a) = a \in A\)</span>. Show that there is a group isomorphism 
+<span class="math display">
+\begin{align*}
+\ker(\pi_1 (A, a) \to \pi_1 (X, a)) \cong \pi_1 (p^{-1}A, \mkern 1.5mu\overline{\mkern-1.5mua\mkern-1.5mu}\mkern 1.5mu)
+.\end{align*}
+<span></p>
+<h2 data-number="4.13" id="fall-14-topologyqualwork-2"><span class="header-section-number">4.13</span> 12 (Fall ’14) #topology/qual/work</h2>
+<p>Prove that every continuous map <span class="math inline">\(f : {\mathbb{RP}}^2 \to S^1\)</span> is homotopic to a constant.</p>
+<blockquote>
+<p>Hint: think about covering spaces.</p>
+</blockquote>
+<h2 data-number="4.14" id="spring-16-topologyqualwork-1"><span class="header-section-number">4.14</span> 13 (Spring ’16) #topology/qual/work</h2>
+<p>Prove that the free group on two generators contains a subgroup isomorphic to the free group on five generators by constructing an appropriate covering space of <span class="math inline">\(S^1 \lor S^1\)</span>.</p>
+<h2 data-number="4.15" id="fall-12-topologyqualwork-1"><span class="header-section-number">4.15</span> 14 (Fall ’12) #topology/qual/work</h2>
+<p>Use covering space theory to show that <span class="math inline">\({\mathbb{Z}}_2 \ast {\mathbb{Z}}\)</span> (that is, the free product of <span class="math inline">\({\mathbb{Z}}_2\)</span> and <span class="math inline">\({\mathbb{Z}}\)</span>) has two subgroups of index 2 which are not isomorphic to each other.</p>
+<h2 data-number="4.16" id="spring-17-topologyqualwork"><span class="header-section-number">4.16</span> 15 (Spring ’17) #topology/qual/work</h2>
+<ol type="a">
+<li><p>Show that any finite index subgroup of a finitely generated free group is free. State clearly any facts you use about the fundamental groups of graphs.</p></li>
+<li><p>Prove that if <span class="math inline">\(N\)</span> is a nontrivial normal subgroup of infinite index in a finitely generated free group <span class="math inline">\(F\)</span> , then <span class="math inline">\(N\)</span> is not finitely generated.</p></li>
+</ol>
+<h2 data-number="4.17" id="spring-19-topologyqualwork"><span class="header-section-number">4.17</span> 16 (Spring ’19) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(p : X \to Y\)</span> be a covering space, where <span class="math inline">\(X\)</span> is compact, path-connected, and locally path-connected.</p>
+<p>Prove that for each <span class="math inline">\(x \in X\)</span> the set <span class="math inline">\(p^{-1}(\left\{{p(x)}\right\})\)</span> is finite, and has cardinality equal to the index of <span class="math inline">\(p_* (\pi_1 (X, x))\)</span> in <span class="math inline">\(\pi_1 (Y, p(x))\)</span>.</p>
+<h1 data-number="5" id="cell-complexes-and-adjunction-spaces"><span class="header-section-number">5</span> Cell Complexes and Adjunction Spaces</h1>
+<h2 data-number="5.1" id="fall-07-topologyqualwork-1"><span class="header-section-number">5.1</span> 1 (Fall ’07) #topology/qual/work</h2>
+<p>Describe a cell complex structure on the torus <span class="math inline">\(T = S^1 \times S^1\)</span> and use this to compute the homology groups of <span class="math inline">\(T\)</span>.</p>
+<blockquote>
+<p>To justify your answer you will need to consider the attaching maps in detail.</p>
+</blockquote>
+<h2 data-number="5.2" id="fall-04-topologyqualwork-3"><span class="header-section-number">5.2</span> 2 (Fall ’04) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be the space formed by identifying the boundary of a Möbius band with a meridian of the torus <span class="math inline">\(T^2\)</span>.</p>
+<p>Compute <span class="math inline">\(\pi_1 (X)\)</span> and <span class="math inline">\(H_* (X)\)</span>.</p>
+<h2 data-number="5.3" id="spring-06-topologyqualwork-3"><span class="header-section-number">5.3</span> 3 (Spring ’06) #topology/qual/work</h2>
+<p>Compute the homology of the space <span class="math inline">\(X\)</span> obtained by attaching a Möbius band to <span class="math inline">\({\mathbb{RP}}^2\)</span> via a homeomorphism of its boundary circle to the standard <span class="math inline">\({\mathbb{RP}}^1\)</span> in <span class="math inline">\({\mathbb{RP}}^2\)</span>.</p>
+<h2 data-number="5.4" id="spring-14-topologyqualwork"><span class="header-section-number">5.4</span> 4 (Spring ’14) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be a space obtained by attaching two 2-cells to the torus <span class="math inline">\(S^1 \times S^1\)</span>, one along a simple closed curve <span class="math inline">\(\left\{{x}\right\} \times S^1\)</span> and the other along <span class="math inline">\(\left\{{y}\right\} \times S^1\)</span> for two points <span class="math inline">\(x \neq y\)</span> in <span class="math inline">\(S^1\)</span> .</p>
+<h3 data-number="5.4.1" id="a"><span class="header-section-number">5.4.1</span> a</h3>
+<p>Draw an embedding of <span class="math inline">\(X\)</span> in <span class="math inline">\({\mathbb{R}}^3\)</span> and calculate its fundamental group.</p>
+<h3 data-number="5.4.2" id="b"><span class="header-section-number">5.4.2</span> b</h3>
+<p>Calculate the homology groups of <span class="math inline">\(X\)</span>.</p>
+<h2 data-number="5.5" id="fall-07-topologyqualwork-2"><span class="header-section-number">5.5</span> 5 (Fall ’07) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be the space obtained as the quotient of a disjoint union of a 2-sphere <span class="math inline">\(S^2\)</span> and a torus <span class="math inline">\(T = S^1 \times S^1\)</span> by identifying the equator in <span class="math inline">\(S^2\)</span> with a circle <span class="math inline">\(S^1 \times \left\{{p}\right\}\)</span> in <span class="math inline">\(T\)</span>.</p>
+<p>Compute the homology groups of <span class="math inline">\(X\)</span>.</p>
+<h2 data-number="5.6" id="spring-06-topologyqualwork-4"><span class="header-section-number">5.6</span> 6 (Spring ’06) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X = S^2 / \left\{{p_1 = \cdots = p_k }\right\}\)</span> be the topological space obtained from the 2-sphere by identifying <span class="math inline">\(k\)</span> distinct points on it (<span class="math inline">\(k \geq 2\)</span>).</p>
+<p>Find:</p>
+<ol type="a">
+<li><p>The fundamental group of <span class="math inline">\(X\)</span>.</p></li>
+<li><p>The Euler characteristic of <span class="math inline">\(X\)</span>.</p></li>
+<li><p>The homology groups of <span class="math inline">\(X\)</span>.</p></li>
+</ol>
+<h2 data-number="5.7" id="fall-16-topologyqualwork-4"><span class="header-section-number">5.7</span> 7 (Fall ’16) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be the topological space obtained as the quotient of the sphere <span class="math inline">\(S^2 = \left\{{\mathbf{x} \in {\mathbb{R}}^3 {~\mathrel{\Big\vert}~}{\left\lVert {\mathbf{x}} \right\rVert} = 1}\right\}\)</span> under the equivalence relation <span class="math inline">\(\mathbf{x} \sim -\mathbf{x}\)</span> for <span class="math inline">\(\mathbf{x}\)</span> in the equatorial circle, i.e. for <span class="math inline">\(\mathbf{x} = (x_1, x_2, 0)\)</span>.</p>
+<p>Calculate <span class="math inline">\(H_* (X; {\mathbb{Z}})\)</span> from a CW complex description of <span class="math inline">\(X\)</span>.</p>
+<h2 data-number="5.8" id="fall-17-topologyqualwork-2"><span class="header-section-number">5.8</span> 8 (Fall ’17) #topology/qual/work</h2>
+<p>Compute, by any means available, the fundamental group and all the homology groups of the space obtained by gluing one copy <span class="math inline">\(A\)</span> of <span class="math inline">\(S^2\)</span> to another copy <span class="math inline">\(B\)</span> of <span class="math inline">\(S^2\)</span> via a two-sheeted covering space map from the equator of <span class="math inline">\(A\)</span> onto the equator of <span class="math inline">\(B\)</span>.</p>
+<h2 data-number="5.9" id="spring-14-topologyqualwork-1"><span class="header-section-number">5.9</span> 9 (Spring ’14) #topology/qual/work</h2>
+<p>Use cellular homology to calculate the homology groups of <span class="math inline">\(S^n \times S^m\)</span>.</p>
+<h2 data-number="5.10" id="fall-09fall-12-topologyqualwork"><span class="header-section-number">5.10</span> 10 (Fall ’09/Fall ’12) #topology/qual/work</h2>
+<p>Denote the points of <span class="math inline">\(S^1 \times I\)</span> by <span class="math inline">\((z, t)\)</span> where <span class="math inline">\(z\)</span> is a unit complex number and <span class="math inline">\(0 \leq t \leq 1\)</span>. Let <span class="math inline">\(X\)</span> denote the quotient of <span class="math inline">\(S^1 \times I\)</span> given by identifying <span class="math inline">\((z, 1)\)</span> and <span class="math inline">\((z_2 , 0)\)</span> for all <span class="math inline">\(z \in S^1\)</span>.</p>
+<p>Give a cell structure, with attaching maps, for <span class="math inline">\(X\)</span>, and use it to compute <span class="math inline">\(\pi_1 (X, \ast)\)</span> and <span class="math inline">\(H_1 (X)\)</span>.</p>
+<h2 data-number="5.11" id="spring-15-topologyqualwork-2"><span class="header-section-number">5.11</span> 11 (Spring ’15) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X = S_1 \cup S_2 \subset {\mathbb{R}}^3\)</span> be the union of two spheres of radius 2, one about <span class="math inline">\((1, 0, 0)\)</span> and the other about <span class="math inline">\((-1, 0, 0)\)</span>, i.e.  
+<span class="math display">
+\begin{align*}  
+S_1 &amp;= \left\{{(x, y,z) \mathrel{\Big|}(x-1)^2 + y^2 +z^2 = 4}\right\} \\
+S_2 &amp;= \left\{{(x, y, z) \mathrel{\Big|}(x + 1)^2 + y^2 + z^2 = 4}\right\}
+.\end{align*}
+<span></p>
+<ol type="a">
+<li><p>Give a description of <span class="math inline">\(X\)</span> as a CW complex.</p></li>
+<li><p>Write out the cellular chain complex of <span class="math inline">\(X\)</span>.</p></li>
+<li><p>Calculate <span class="math inline">\(H_* (X; Z)\)</span>.</p></li>
+</ol>
+<h2 data-number="5.12" id="spring-06-topologyqualwork-5"><span class="header-section-number">5.12</span> 12 (Spring ’06) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(M\)</span> and <span class="math inline">\(N\)</span> be finite CW complexes.</p>
+<ol type="a">
+<li><p>Describe a cellular structure of <span class="math inline">\(M \times N\)</span> in terms of the cellular structures of <span class="math inline">\(M\)</span> and <span class="math inline">\(N\)</span>.</p></li>
+<li><p>Show that the Euler characteristic of <span class="math inline">\(M \times N\)</span> is the product of the Euler characteristics of <span class="math inline">\(M\)</span> and <span class="math inline">\(N\)</span>.</p></li>
+</ol>
+<h2 data-number="5.13" id="spring-07-topologyqualwork-1"><span class="header-section-number">5.13</span> 13 (Spring ’07) #topology/qual/work</h2>
+<p>Suppose the space <span class="math inline">\(X\)</span> is obtained by attaching a 2-cell to the torus <span class="math inline">\(S^1 \times S^1\)</span>.</p>
+<p>In other words, <span class="math inline">\(X\)</span> is the quotient space of the disjoint union of the closed disc <span class="math inline">\({\mathbb{D}}^2\)</span> and the torus <span class="math inline">\(S^1 \times S^1\)</span> by the identification <span class="math inline">\(x \sim f(x)\)</span> where <span class="math inline">\(S^1\)</span> is the boundary of the unit disc and <span class="math inline">\(f : S^1 \to S^1 \times S^1\)</span> is a continuous map.</p>
+<p>What are the possible homology groups of <span class="math inline">\(X\)</span>? Justify your answer.</p>
+<h2 data-number="5.14" id="spring-15-topologyqualwork-3"><span class="header-section-number">5.14</span> 14 (Spring ’15) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be the topological space constructed by attaching a closed 2-disk <span class="math inline">\({\mathbb{D}}^2\)</span> to the circle <span class="math inline">\(S^1\)</span> by a continuous map <span class="math inline">\(\partial{\mathbb{D}}^2 \to S^1\)</span> of degree <span class="math inline">\(d &gt; 0\)</span> on the boundary circle.</p>
+<ol type="a">
+<li><p>Show that every continuous map <span class="math inline">\(X \to X\)</span> has a fixed point.</p></li>
+<li><p>Explain how to obtain all the connected covering spaces of <span class="math inline">\(X\)</span>.</p></li>
+</ol>
+<h2 data-number="5.15" id="spring-11-topologyqualwork-2"><span class="header-section-number">5.15</span> 15 (Spring ’11) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be a topological space obtained by attaching a 2-cell to <span class="math inline">\({\mathbb{RP}}^2\)</span> via some map <span class="math inline">\(f: S^1 \to {\mathbb{RP}}^2\)</span> .</p>
+<p>What are the possibilities for the homology <span class="math inline">\(H_* (X; Z)\)</span>?</p>
+<h2 data-number="5.16" id="spring-12-topologyqualwork-1"><span class="header-section-number">5.16</span> 16 (Spring ’12) #topology/qual/work</h2>
+<p>For any integer <span class="math inline">\(n \geq 2\)</span> let <span class="math inline">\(X_n\)</span> denote the space formed by attaching a 2-cell to the circle <span class="math inline">\(S^1\)</span> via the attaching map 
+<span class="math display">
+\begin{align*}  
+a_n: S^1 &amp;\to S^1 \\
+e^{i\theta} &amp;\mapsto e^{in\theta}
+.\end{align*}
+<span></p>
+<h3 data-number="5.16.1" id="a-1"><span class="header-section-number">5.16.1</span> a</h3>
+<p>Compute the fundamental group and the homology of <span class="math inline">\(X_n\)</span>.</p>
+<h3 data-number="5.16.2" id="b-1"><span class="header-section-number">5.16.2</span> b</h3>
+<p>Exactly one of the <span class="math inline">\(X_n\)</span> (for <span class="math inline">\(n \geq 2\)</span>) is homeomorphic to a surface. Identify, with proof, both this value of <span class="math inline">\(n\)</span> and the surface that <span class="math inline">\(X_n\)</span> is homeomorphic to (including a description of the homeomorphism).</p>
+<h2 data-number="5.17" id="spring-09-topologyqualwork-2"><span class="header-section-number">5.17</span> 17 (Spring ’09) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be a CW complex and let <span class="math inline">\(\pi : Y \to X\)</span> be a covering space.</p>
+<h3 data-number="5.17.1" id="a-2"><span class="header-section-number">5.17.1</span> a</h3>
+<p>Show that <span class="math inline">\(Y\)</span> is compact iff <span class="math inline">\(X\)</span> is compact and <span class="math inline">\(\pi\)</span> has finite degree.</p>
+<h3 data-number="5.17.2" id="b-2"><span class="header-section-number">5.17.2</span> b</h3>
+<p>Assume that <span class="math inline">\(\pi\)</span> has finite degree <span class="math inline">\(d\)</span>. Show show that <span class="math inline">\(\chi (Y ) = d \chi (X)\)</span>.</p>
+<h3 data-number="5.17.3" id="c"><span class="header-section-number">5.17.3</span> c</h3>
+<p>Let <span class="math inline">\(\pi :{\mathbb{RP}}^N \to X\)</span> be a covering map. Show that if <span class="math inline">\(N\)</span> is even, <span class="math inline">\(\pi\)</span> is a homeomorphism.</p>
+<h2 data-number="5.18" id="spring-18-topologyqualwork-1"><span class="header-section-number">5.18</span> 18 (Spring ’18) #topology/qual/work</h2>
+<p>For topological spaces <span class="math inline">\(X, Y\)</span> the <strong>mapping cone</strong> <span class="math inline">\(C(f )\)</span> of a map <span class="math inline">\(f : X \to Y\)</span> is defined to be the quotient space 
+<span class="math display">
+\begin{align*}  
+(X \times [0, 1]){\textstyle\coprod}Y / \sim &amp;{\quad \operatorname{where} \quad}  \\ 
+(x, 0) &amp;\sim (x&#39;, 0) {\quad \operatorname{for all} \quad} x, x&#39; \in X \text{ and } \\ 
+(x, 1) &amp;\sim f (x) {\quad \operatorname{for all } \quad} x \in X
+.\end{align*}
+<span></p>
+<p>Let <span class="math inline">\(\phi_k : S^n \to S^n\)</span> be a degree <span class="math inline">\(k\)</span> map for some integer <span class="math inline">\(k\)</span>.</p>
+<p>Find <span class="math inline">\(H_i(C(\phi_k ))\)</span> for all <span class="math inline">\(i\)</span>.</p>
+<h2 data-number="5.19" id="spring-2019-7-topologyqualcompleted"><span class="header-section-number">5.19</span> Spring 2019 #7 #topology/qual/completed</h2>
+<p>For <span class="math inline">\(f:X\to Y\)</span>, the <em>mapping cone</em> of <span class="math inline">\(f\)</span> is defined as 
+<span class="math display">
+\begin{align*}  
+C_f \mathrel{\vcenter{:}}=\qty{X\times I} {\textstyle\coprod}Y/\sim \\
+(x, 0) \sim (x&#39;, 0) \quad \text{for all }x, x&#39;\in X\\
+(x, 1) \sim f(x)
+.\end{align*}
+<span></p>
+<p>Let <span class="math inline">\(\phi_k: S^1\to S^1\)</span> be a <span class="math inline">\(k{\hbox{-}}\)</span>fold covering and find <span class="math inline">\(\pi_1\qty{C_f}\)</span>.</p>
+<div></div>
+<h2 data-number="5.20" id="fall-18-topologyqualwork-3"><span class="header-section-number">5.20</span> 19 (Fall ’18) #topology/qual/work</h2>
+<p>Prove that a finite CW complex must be Hausdorff.</p>
+<h1 data-number="6" id="homology-and-degree-theory"><span class="header-section-number">6</span> Homology and Degree Theory</h1>
+<h2 data-number="6.1" id="spring-09-topologyqualwork-3"><span class="header-section-number">6.1</span> 1 (Spring ’09) #topology/qual/work</h2>
+<p>Compute the homology of the one-point union of <span class="math inline">\(S^1 \times S^1\)</span> and <span class="math inline">\(S^1\)</span>.</p>
+<h2 data-number="6.2" id="fall-06-topologyqualwork-1"><span class="header-section-number">6.2</span> 2 (Fall ’06) #topology/qual/work</h2>
+<ol type="a">
+<li><p>State the <strong>Mayer-Vietoris theorem</strong>.</p></li>
+<li><p>Use it to compute the homology of the space <span class="math inline">\(X\)</span> obtained by gluing two solid tori along their boundary as follows. Let <span class="math inline">\({\mathbb{D}}^2\)</span> be the unit disk and let <span class="math inline">\(S^1\)</span> be the unit circle in the complex plane <span class="math inline">\({\mathbb{C}}\)</span>. Let <span class="math inline">\(A = S^1 \times {\mathbb{D}}^2\)</span> and <span class="math inline">\(B = {\mathbb{D}}^2 \times S^1\)</span>.</p></li>
+</ol>
+<p>Then <span class="math inline">\(X\)</span> is the quotient space of the disjoint union <span class="math inline">\(A {\textstyle\coprod}B\)</span> obtained by identifying <span class="math inline">\((z, w) \in A\)</span> with <span class="math inline">\((zw^3 , w) \in B\)</span> for all <span class="math inline">\((z, w) \in S^1 \times S^1\)</span>.</p>
+<h2 data-number="6.3" id="fall-12-topologyqualwork-2"><span class="header-section-number">6.3</span> 3 (Fall ’12) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> be circles bounding disjoint disks in the plane <span class="math inline">\(z = 0\)</span> in <span class="math inline">\({\mathbb{R}}^3\)</span>. Let <span class="math inline">\(X\)</span> be the subset of the upper half-space of <span class="math inline">\({\mathbb{R}}^3\)</span> that is the union of the plane <span class="math inline">\(z = 0\)</span> and a (topological) cylinder that intersects the plane in <span class="math inline">\(\partial C = A \cup B\)</span>.</p>
+<p>Compute <span class="math inline">\(H_* (X)\)</span> using the Mayer–Vietoris sequence.</p>
+<h2 data-number="6.4" id="fall-14-topologyqualwork-3"><span class="header-section-number">6.4</span> 4 (Fall ’14) #topology/qual/work</h2>
+<p>Compute the integral homology groups of the space <span class="math inline">\(X = Y \cup Z\)</span> which is the union of the sphere 
+<span class="math display">
+\begin{align*}
+Y = \left\{{x^2 + y^2 + z^2 = 1}\right\}
+\end{align*}
+<span> and the ellipsoid 
+<span class="math display">
+\begin{align*}
+Z =  \left\{{x^2 + y^2 + {z^2 \over 4} = 1}\right\}
+.\end{align*}
+<span></p>
+<h2 data-number="6.5" id="spring-08-topologyqualwork-2"><span class="header-section-number">6.5</span> 5 (Spring ’08) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> consist of two copies of the solid torus <span class="math inline">\({\mathbb{D}}^2 \times S^1\)</span>, glued together by the identity map along the boundary torus <span class="math inline">\(S^1 \times S^1\)</span>. Compute the homology groups of <span class="math inline">\(X\)</span>.</p>
+<h2 data-number="6.6" id="spring-17-topologyqualwork-1"><span class="header-section-number">6.6</span> 6 (Spring ’17) #topology/qual/work</h2>
+<p>Use the circle along which the connected sum is performed and the Mayer-Vietoris long exact sequence to compute the homology of <span class="math inline">\({\mathbb{RP}}^2 \# {\mathbb{RP}}^2\)</span>.</p>
+<h2 data-number="6.7" id="fall-15-topologyqualwork-1"><span class="header-section-number">6.7</span> 7 (Fall ’15) #topology/qual/work</h2>
+<p>Express a Klein bottle as the union of two annuli.</p>
+<p>Use the Mayer Vietoris sequence and this decomposition to compute its homology.</p>
+<h2 data-number="6.8" id="spring-09-topologyqualwork-4"><span class="header-section-number">6.8</span> 8 (Spring ’09) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be the topological space obtained by identifying three distinct points on <span class="math inline">\(S^2\)</span>. Calculate <span class="math inline">\(H_* (X; Z)\)</span>.</p>
+<h2 data-number="6.9" id="fall-05-topologyqualwork"><span class="header-section-number">6.9</span> 9 (Fall ’05) #topology/qual/work</h2>
+<p>Compute <span class="math inline">\(H_0\)</span> and <span class="math inline">\(H_1\)</span> of the complete graph <span class="math inline">\(K_5\)</span> formed by taking five points and joining each pair with an edge.</p>
+<h2 data-number="6.10" id="fall-18-topologyqualwork-4"><span class="header-section-number">6.10</span> 10 (Fall ’18) #topology/qual/work</h2>
+<p>Compute the homology of the subset <span class="math inline">\(X \subset {\mathbb{R}}^3\)</span> formed as the union of the unit sphere, the <span class="math inline">\(z{\hbox{-}}\)</span>axis, and the <span class="math inline">\(xy{\hbox{-}}\)</span>plane.</p>
+<h2 data-number="6.11" id="spring-05fall-13-topologyqualwork"><span class="header-section-number">6.11</span> 11 (Spring ’05/Fall ’13) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be the topological space formed by filling in two circles <span class="math inline">\(S^1 \times \left\{{p_1 }\right\}\)</span> and <span class="math inline">\(S^1 \times \left\{{p_2 }\right\}\)</span> in the torus <span class="math inline">\(S^1 \times S^1\)</span> with disks.</p>
+<p>Calculate the fundamental group and the homology groups of <span class="math inline">\(X\)</span>.</p>
+<h2 data-number="6.12" id="spring-19-topologyqualwork-1"><span class="header-section-number">6.12</span> 12 (Spring ’19) #topology/qual/work</h2>
+<ol type="a">
+<li>Consider the quotient space 
+<span class="math display">
+\begin{align*}
+T^2 = {\mathbb{R}}^2 / \sim {\quad \operatorname{where} \quad} (x, y) \sim (x + m, y + n) \text{ for } m, n \in {\mathbb{Z}}
+,\end{align*}
+<span> and let <span class="math inline">\(A\)</span> be any <span class="math inline">\(2 \times 2\)</span> matrix whose entries are integers such that <span class="math inline">\(\operatorname{det}A = 1\)</span>.</li>
+</ol>
+<p>Prove that the action of <span class="math inline">\(A\)</span> on <span class="math inline">\({\mathbb{R}}^2\)</span> descends via the quotient <span class="math inline">\({\mathbb{R}}^2 \to T^2\)</span> to induce a homeomorphism <span class="math inline">\(T^2 \to T^2\)</span>.</p>
+<ol start="2" type="a">
+<li>Using this homeomorphism of <span class="math inline">\(T^2\)</span>, we define a new quotient space 
+<span class="math display">
+\begin{align*}
+T_A^3 \mathrel{\vcenter{:}}={T^2\times{\mathbb{R}}\over \sim} {\quad \operatorname{where} \quad} ((x, y), t) \sim (A(x, y), t + 1)
+\end{align*}
+<span></li>
+</ol>
+<p>Compute <span class="math inline">\(H_1 (T_A^3 )\)</span> if <span class="math inline">\(A=\left(\begin{array}{ll} 1 &amp; 1 \\ 0 &amp; 1 \end{array}\right).\)</span></p>
+<h2 data-number="6.13" id="spring-12-topologyqualwork-2"><span class="header-section-number">6.13</span> 13 (Spring ’12) #topology/qual/work</h2>
+<p>Give a self-contained proof that the zeroth homology <span class="math inline">\(H_0 (X)\)</span> is isomorphic to <span class="math inline">\({\mathbb{Z}}\)</span> for every path-connected space <span class="math inline">\(X\)</span>.</p>
+<h2 data-number="6.14" id="fall-18-topologyqualwork-5"><span class="header-section-number">6.14</span> 14 (Fall ’18) #topology/qual/work</h2>
+<p>It is a fact that if <span class="math inline">\(X\)</span> is a single point then <span class="math inline">\(H_1 (X) = \left\{{0}\right\}\)</span>.</p>
+<p>One of the following is the correct justification of this fact in terms of the singular chain complex.</p>
+<p>Which one is correct and why is it correct?</p>
+<ol type="a">
+<li><p><span class="math inline">\(C_1 (X) = \left\{{0}\right\}\)</span>.</p></li>
+<li><p><span class="math inline">\(C_1 (X) \neq \left\{{0}\right\}\)</span> but <span class="math inline">\(\ker \partial_1 = 0\)</span> with <span class="math inline">\(\partial_1 : C_1 (X) \to C_0 (X)\)</span>.</p></li>
+<li><p><span class="math inline">\(\ker \partial_1 \neq 0\)</span> but <span class="math inline">\(\ker \partial_1 = \operatorname{im}\partial_2\)</span> with <span class="math inline">\(\partial_2 : C_2 (X) \to C_1 (X)\)</span>.</p></li>
+</ol>
+<h2 data-number="6.15" id="fall-10-topologyqualwork-1"><span class="header-section-number">6.15</span> 15 (Fall ’10) #topology/qual/work</h2>
+<p>Compute the homology groups of <span class="math inline">\(S^2 \times S^2\)</span>.</p>
+<h2 data-number="6.16" id="fall-16-topologyqualwork-5"><span class="header-section-number">6.16</span> 16 (Fall ’16) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(\Sigma\)</span> be a closed orientable surface of genus <span class="math inline">\(g\)</span>. Compute <span class="math inline">\(H_i(S^1 \times \Sigma; Z)\)</span> for <span class="math inline">\(i = 0, 1, 2, 3\)</span>.</p>
+<h2 data-number="6.17" id="spring-07-topologyqualwork-2"><span class="header-section-number">6.17</span> 17 (Spring ’07) #topology/qual/work</h2>
+<p>Prove that if <span class="math inline">\(A\)</span> is a retract of the topological space <span class="math inline">\(X\)</span>, then for all nonnegative integers <span class="math inline">\(n\)</span> there is a group <span class="math inline">\(G_n\)</span> such that <span class="math inline">\(H_{n} (X) \cong H_{n} (A) \oplus G_n\)</span>.</p>
+<blockquote>
+<p>Here <span class="math inline">\(H_{n}\)</span> denotes the <span class="math inline">\(n\)</span>th singular homology group with integer coefficients.</p>
+</blockquote>
+<h2 data-number="6.18" id="spring-13-topologyqualwork-3"><span class="header-section-number">6.18</span> 18 (Spring ’13) #topology/qual/work</h2>
+<p>Does there exist a map of degree 2013 from <span class="math inline">\(S^2 \to S^2\)</span>.</p>
+<h2 data-number="6.19" id="fall-18-topologyqualwork-6"><span class="header-section-number">6.19</span> 19 (Fall ’18) #topology/qual/work</h2>
+<p>For each <span class="math inline">\(n \in {\mathbb{Z}}\)</span> give an example of a map <span class="math inline">\(f_n : S^2 \to S^2\)</span>.</p>
+<p>For which <span class="math inline">\(n\)</span> must any such map have a fixed point?</p>
+<h2 data-number="6.20" id="spring-09-topologyqualwork-5"><span class="header-section-number">6.20</span> 20 (Spring ’09) #topology/qual/work</h2>
+<ol type="a">
+<li>What is the degree of the antipodal map on the <span class="math inline">\(n\)</span>-sphere?</li>
+</ol>
+<p>(No justification required)</p>
+<ol start="2" type="a">
+<li><p>Define a CW complex homeomorphic to the real projective <span class="math inline">\(n{\hbox{-}}\)</span>space <span class="math inline">\({\mathbb{RP}}^n\)</span>.</p></li>
+<li><p>Let <span class="math inline">\(\pi : {\mathbb{RP}}^n \to X\)</span> be a covering map. Show that if <span class="math inline">\(n\)</span> is even, <span class="math inline">\(\pi\)</span> is a homeomorphism.</p></li>
+</ol>
+<h2 data-number="6.21" id="fall-17-topologyqualwork-3"><span class="header-section-number">6.21</span> 21 (Fall ’17) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(A \subset X\)</span>. Prove that the relative homology group <span class="math inline">\(H_0 (X, A)\)</span> is trivial if and only if <span class="math inline">\(A\)</span> intersects every path component of <span class="math inline">\(X\)</span>.</p>
+<h2 data-number="6.22" id="fall-18-topologyqualwork-7"><span class="header-section-number">6.22</span> 22 (Fall ’18) #topology/qual/work</h2>
+<p>Let <span class="math inline">\({\mathbb{D}}\)</span> be a closed disk embedded in the torus <span class="math inline">\(T = S^1 \times S^1\)</span> and let <span class="math inline">\(X\)</span> be the result of removing the interior of <span class="math inline">\({\mathbb{D}}\)</span> from <span class="math inline">\(T\)</span> . Let <span class="math inline">\(B\)</span> be the boundary of <span class="math inline">\(X\)</span>, i.e. the circle boundary of the original closed disk <span class="math inline">\({\mathbb{D}}\)</span>.</p>
+<p>Compute <span class="math inline">\(H_i (T, B)\)</span> for all <span class="math inline">\(i\)</span>.</p>
+<h2 data-number="6.23" id="fall-11-topologyqualwork-1"><span class="header-section-number">6.23</span> 23 (Fall ’11) #topology/qual/work</h2>
+<p>For any <span class="math inline">\(n \geq 1\)</span> let <span class="math inline">\(S^n = \left\{{(x_0 , \cdots , x_n )\mathrel{\Big|}\sum x_i^2 =1}\right\}\)</span> denote the <span class="math inline">\(n\)</span> dimensional unit sphere and let 
+<span class="math display">
+\begin{align*}E = \left\{{(x_0 , . . . , x_n )\mathrel{\Big|}x_n = 0}\right\}\end{align*}
+<span> denote the “equator.”</p>
+<p>Find, for all <span class="math inline">\(k\)</span>, the relative homology <span class="math inline">\(H_k (S^n , E)\)</span>.</p>
+<h2 data-number="6.24" id="spring-12spring-15-topologyqualwork"><span class="header-section-number">6.24</span> 24 (Spring ’12/Spring ’15) #topology/qual/work</h2>
+<p>Suppose that <span class="math inline">\(U\)</span> and <span class="math inline">\(V\)</span> are open subsets of a space <span class="math inline">\(X\)</span>, with <span class="math inline">\(X = U \cup V\)</span>. Find, with proof, a general formula relating the Euler characteristics of <span class="math inline">\(X, U, V\)</span>, and <span class="math inline">\(U \cap V\)</span>.</p>
+<blockquote>
+<p>You may assume that the homologies of <span class="math inline">\(U, V, U \cap V, X\)</span> are finite-dimensional so that their Euler characteristics are well defined.</p>
+</blockquote>
+<h2 data-number="6.25" id="spring-2021-6"><span class="header-section-number">6.25</span> Spring 2021 #6</h2>
+<div class="problem proofenv" title="Spring 2021, 6">
+<p>For each of the following spaces, compute the fundamental group and the homology groups.</p>
+<ol type="a">
+<li><p>The graph <span class="math inline">\(\Theta\)</span> consisting of two edges and three vertices connecting them.</p></li>
+<li><p>The 2-dimensional cell complex <span class="math inline">\(\Theta_2\)</span> consisting of a closed circle and three 2-dimensional disks each having boundary running once around that circle.</p></li>
+</ol>
+</div>
+<h2 data-number="6.26" id="spring-2021-7"><span class="header-section-number">6.26</span> Spring 2021 #7</h2>
+<div class="problem proofenv" title="Spring 2021, 7">
+<p>Prove directly from the definition that the 0th singular homology of a nonempty path-connected space is isomorphic to <span class="math inline">\({\mathbb{Z}}\)</span>.</p>
+</div>
+<h2 data-number="6.27" id="spring-2021-9"><span class="header-section-number">6.27</span> Spring 2021 #9</h2>
+<div class="problem proofenv" title="Spring 2021, 9">
+<p>Prove that for every continuous map <span class="math inline">\(f: S^{2n} \to S^{2n}\)</span> there is a point <span class="math inline">\(x\in S^{2n}\)</span> such that either <span class="math inline">\(f(x) = x\)</span> or <span class="math inline">\(f(x) = -x\)</span>.</p>
+<blockquote>
+<p>You may use standard facts about degrees of maps of spheres, including that the antipodal map on <span class="math inline">\(S^{2n}\)</span> has degree <span class="math inline">\(d=-1\)</span>.</p>
+</blockquote>
+</div>
+<h1 data-number="7" id="surfaces"><span class="header-section-number">7</span> Surfaces</h1>
+<h2 data-number="7.1" id="fall-05-topologyqualwork-1"><span class="header-section-number">7.1</span> 1 (Fall ’05) #topology/qual/work</h2>
+<p>State the classification theorem for surfaces (compact, without boundary, but not necessarily orientable). For each surface in the classification, indicate the structure of the first homology group and the value of the Euler characteristic.</p>
+<p>Also, explain briefly how the 2-holed torus and the connected sum <span class="math inline">\({\mathbb{RP}}^2 \# {\mathbb{RP}}^2\)</span> fit into the classification.</p>
+<h2 data-number="7.2" id="spring-16-topologyqualwork-2"><span class="header-section-number">7.2</span> 2 (Spring ’16) #topology/qual/work</h2>
+<p>Give a list without repetitions of all compact surfaces (orientable or non-orientable and with or without boundary) that have Euler characteristic negative one.</p>
+<p>Explain why there are no repetitions on your list.</p>
+<h2 data-number="7.3" id="spring-07-topologyqualwork-3"><span class="header-section-number">7.3</span> 3 (Spring ’07) #topology/qual/work</h2>
+<p>Describe the topological classification of all compact connected surfaces <span class="math inline">\(M\)</span> without boundary having Euler characteristic <span class="math inline">\(\chi(M )\geq -2\)</span>.</p>
+<p>No proof is required.</p>
+<h2 data-number="7.4" id="spring-09-topologyqualwork-6"><span class="header-section-number">7.4</span> 4 (Spring ’09) #topology/qual/work</h2>
+<p>How many surfaces are there, up to homeomorphism, which are:</p>
+<ul>
+<li>Connected,</li>
+<li>Compact,</li>
+<li>Possibly with boundary,</li>
+<li>Possibly nonorientable, and</li>
+<li>With Euler characteristic -3?</li>
+</ul>
+<p>Describe one representative from each class.</p>
+<h2 data-number="7.5" id="fall-13-topologyqualwork"><span class="header-section-number">7.5</span> 5 (Fall ’13) #topology/qual/work</h2>
+<p>Prove that the Euler characteristic of a compact surface with boundary which has <span class="math inline">\(k\)</span> boundary components is less than or equal to <span class="math inline">\(2 - k\)</span>.</p>
+<h2 data-number="7.6" id="spring-13-topologyqualwork-4"><span class="header-section-number">7.6</span> 6 (Spring ’13) #topology/qual/work</h2>
+<p>What surface is represented by the <span class="math inline">\(6{\hbox{-}}\)</span>gon with edges identified according to the symbol <span class="math inline">\(xyzxy^{-1}z^{-1}\)</span> ?</p>
+<h2 data-number="7.7" id="spring-15-topologyqualwork-4"><span class="header-section-number">7.7</span> 7 (Spring ’15) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> be the topological space obtained as the quotient space of a regular <span class="math inline">\(2n{\hbox{-}}\)</span>gon (<span class="math inline">\(n \geq 2\)</span>) in <span class="math inline">\({\mathbb{R}}^2\)</span> by identifying opposite edges via translations in the plane.</p>
+<p>First show that X is a compact, orientable surface without boundary, and then identify its genus as a function of <span class="math inline">\(n\)</span>.</p>
+<h2 data-number="7.8" id="fall-10-topologyqualwork-2"><span class="header-section-number">7.8</span> 8 (Fall ’10) #topology/qual/work</h2>
+<h3 data-number="7.8.1" id="a-3"><span class="header-section-number">7.8.1</span> a</h3>
+<p>Show that any compact connected surface with nonempty boundary is homotopy equivalent to a wedge of circles</p>
+<blockquote>
+<p>Hint: you may assume that any compact connected surface without boundary is given by identifying edges of a polygon in pairs.</p>
+</blockquote>
+<h3 data-number="7.8.2" id="b-3"><span class="header-section-number">7.8.2</span> b</h3>
+<p>For each surface appearing in the classification of compact surfaces with nonempty boundary, say how many circles are needed in the wedge from part (a).</p>
+<blockquote>
+<p>Hint: you should be able to do this even if you have not done part (a).</p>
+</blockquote>
+<h2 data-number="7.9" id="fall-04-topologyqualwork-4"><span class="header-section-number">7.9</span> 9 (Fall ’04) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(M_g^2\)</span> be the compact oriented surface of genus <span class="math inline">\(g\)</span>.</p>
+<p>Show that there exists a continuous map <span class="math inline">\(f : M_g^2 \to S^2\)</span> which is not homotopic to a constant map.</p>
+<h2 data-number="7.10" id="spring-11-topologyqualwork-3"><span class="header-section-number">7.10</span> 10 (Spring ’11) #topology/qual/work</h2>
+<p>Show that <span class="math inline">\({\mathbb{RP}}^2 \lor S^1\)</span> is <em>not</em> homotopy equivalent to a compact surface (possibly with boundary).</p>
+<h2 data-number="7.11" id="fall-14-topologyqualwork-4"><span class="header-section-number">7.11</span> 11 (Fall ’14) #topology/qual/work</h2>
+<p>Identify (with proof, but of course you can appeal to the classification of surfaces) all of the compact surfaces without boundary that have a cell decomposition having exactly one 0-cell and exactly two 1-cells (with no restriction on the number of cells of dimension larger than 1).</p>
+<h2 data-number="7.12" id="fall-11-topologyqualwork-2"><span class="header-section-number">7.12</span> 12 (Fall ’11) #topology/qual/work</h2>
+<p>For any natural number <span class="math inline">\(g\)</span> let <span class="math inline">\(\Sigma_g\)</span> denote the (compact, orientable) surface of genus <span class="math inline">\(g\)</span>.</p>
+<p>Determine, with proof, all valued of <span class="math inline">\(g\)</span> with the property that there exists a covering space <span class="math inline">\(\pi : \Sigma_5 \to \Sigma_g\)</span> .</p>
+<blockquote>
+<p>Hint: How does the Euler characteristic behave for covering spaces?</p>
+</blockquote>
+<h2 data-number="7.13" id="spring-14-topologyqualwork-2"><span class="header-section-number">7.13</span> 13 (Spring ’14) #topology/qual/work</h2>
+<p>Find <em>all</em> surfaces, orientable and non-orientable, which can be covered by a closed surface (i.e. compact with empty boundary) of genus 2. Prove that your answer is correct.</p>
+<h2 data-number="7.14" id="spring-18-topologyqualwork-2"><span class="header-section-number">7.14</span> 14 (Spring ’18) #topology/qual/work</h2>
+<h3 data-number="7.14.1" id="a-4"><span class="header-section-number">7.14.1</span> a</h3>
+<p>Write down (without proof) a presentation for <span class="math inline">\(\pi_1 (\Sigma_2 , p)\)</span> where <span class="math inline">\(\Sigma_2\)</span> is a closed, connected, orientable genus 2 surface and <span class="math inline">\(p\)</span> is any point on <span class="math inline">\(\Sigma_2\)</span> .</p>
+<h3 data-number="7.14.2" id="b-4"><span class="header-section-number">7.14.2</span> b</h3>
+<p>Show that <span class="math inline">\(\pi_1 (\Sigma_2 , p)\)</span> is not abelian by showing that it surjects onto a free group of rank 2.</p>
+<h3 data-number="7.14.3" id="c-1"><span class="header-section-number">7.14.3</span> c</h3>
+<p>Show that there is no covering space map from <span class="math inline">\(\Sigma_2\)</span> to <span class="math inline">\(S^1 \times S^1\)</span> . You may use the fact that <span class="math inline">\(\pi_1 (S^1 \times S^1 ) \cong {\mathbb{Z}}^2\)</span> together with the result in part (b) above.</p>
+<h2 data-number="7.15" id="fall-16-topologyqualwork-6"><span class="header-section-number">7.15</span> 15 (Fall ’16) #topology/qual/work</h2>
+<p>Give an example, with explanation, of a closed curve in a surfaces which is not nullhomotopic but is nullhomologous.</p>
+<h2 data-number="7.16" id="fall-17-topologyqualwork-4"><span class="header-section-number">7.16</span> 16 (Fall ’17) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(M\)</span> be a compact orientable surface of genus <span class="math inline">\(2\)</span> without boundary.</p>
+<p>Give an example of a pair of loops 
+<span class="math display">
+\begin{align*}\gamma_0 , \gamma_1 : S^1 \to M\end{align*}
+<span> with <span class="math inline">\(\gamma_0 (1) = \gamma_1 (1)\)</span> such that there is a continuous map <span class="math inline">\(\Gamma: [0, 1] \times S^1 \to M\)</span> such that 
+<span class="math display">
+\begin{align*}
+\Gamma(0, t) = \gamma_0 (t), \quad \Gamma(1, t) = \gamma_1 (t) {\quad \operatorname{for all} \quad} t \in S^1
+,\end{align*}
+<span> but such that there is no such map <span class="math inline">\(\Gamma\)</span> with the additional property that <span class="math inline">\(\Gamma_s (1) = \gamma_0 (1)\)</span> for all <span class="math inline">\(s \in [0, 1]\)</span>.</p>
+<p>(You are not required to prove that your example satisfies the stated property.)</p>
+<h2 data-number="7.17" id="fall-18-topologyqualwork-8"><span class="header-section-number">7.17</span> 17 (Fall ’18) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(C\)</span> be cylinder. Let <span class="math inline">\(I\)</span> and <span class="math inline">\(J\)</span> be disjoint closed intervals contained in <span class="math inline">\(\partial C\)</span>.</p>
+<p>What is the Euler characteristic of the surface <span class="math inline">\(S\)</span> obtained by identifying <span class="math inline">\(I\)</span> and <span class="math inline">\(J\)</span>?</p>
+<p>Can all surface with nonempty boundary and with this Euler characteristic be obtained from this construction?</p>
+<h2 data-number="7.18" id="spring-19-topologyqualwork-2"><span class="header-section-number">7.18</span> 18 (Spring ’19) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(\Sigma\)</span> be a compact connected surface and let <span class="math inline">\(p_1, \cdots , p_k \in \Sigma\)</span>.</p>
+<p>Prove that <span class="math inline">\(H_2 \qty{\Sigma \setminus \cup_{i=1}^k {p_i} } = 0\)</span>.</p>
+<h2 data-number="7.19" id="spring-2021-topologyqualwork"><span class="header-section-number">7.19</span> Spring 2021 #topology/qual/work</h2>
+<div class="problem proofenv" title="Spring 2021, 8">
+<p>Let <span class="math inline">\(\Sigma_{g, n}\)</span> denote the compact oriented surface of genus <span class="math inline">\(g\)</span> with <span class="math inline">\(n\)</span> boundary components.</p>
+<ol type="a">
+<li><p>Show that <span class="math inline">\(\Sigma_{0, 3}\)</span> and <span class="math inline">\(\Sigma_{1, 1}\)</span> are both homotopy equivalent to <span class="math inline">\(S_1 \vee S^1\)</span>.</p></li>
+<li><p>Give a complete classification of pairs <span class="math inline">\((g, n)\)</span> and <span class="math inline">\((g&#39;, n&#39;)\)</span> for which <span class="math inline">\(\Sigma_{g, n}\)</span> is homotopy equivalent to <span class="math inline">\(\Sigma_{g&#39;, n&#39;}\)</span>.</p></li>
+</ol>
+</div>
+<h1 data-number="8" id="fixed-points"><span class="header-section-number">8</span> Fixed Points</h1>
+<h2 data-number="8.1" id="fall-14-topologyqualwork-5"><span class="header-section-number">8.1</span> 1 (Fall ’14) #topology/qual/work</h2>
+<p>Prove that, for every continuous map <span class="math inline">\(f : B^2 \to B^2\)</span>, there is a point <span class="math inline">\(x\)</span> such that <span class="math inline">\(f (x) = x\)</span>.</p>
+<blockquote>
+<p>This is the <span class="math inline">\(n = 2\)</span> case of the Brouwer fixed point theorem; your proof shouldn’t appeal to either of the Brouwer or the Lefschetz fixed point theorems.</p>
+</blockquote>
+<h2 data-number="8.2" id="spring-18-topologyqualwork-3"><span class="header-section-number">8.2</span> 2 (Spring ’18) #topology/qual/work</h2>
+<p>Prove or disprove:</p>
+<p>Every continuous map from <span class="math inline">\(S^2\)</span> to <span class="math inline">\(S^2\)</span> has a fixed point.</p>
+<h2 data-number="8.3" id="spring-11-topologyqualwork-4"><span class="header-section-number">8.3</span> 3 (Spring ’11) #topology/qual/work</h2>
+<ol type="a">
+<li><p>State the <strong>Lefschetz Fixed Point Theorem</strong> for a finite simplicial complex <span class="math inline">\(X\)</span>.</p></li>
+<li><p>Use degree theory to prove this theorem in case <span class="math inline">\(X = S^n\)</span>.</p></li>
+</ol>
+<h2 data-number="8.4" id="spring-12-topologyqualwork-3"><span class="header-section-number">8.4</span> 4 (Spring ’12) #topology/qual/work</h2>
+<h3 data-number="8.4.1" id="a-5"><span class="header-section-number">8.4.1</span> a</h3>
+<p>Prove that for every continuous map <span class="math inline">\(f : S^2 \to S^2\)</span> there is some <span class="math inline">\(x\)</span> such that either <span class="math inline">\(f (x) = x\)</span> or <span class="math inline">\(f (x) = -x\)</span>.</p>
+<blockquote>
+<p>Hint: Where <span class="math inline">\(A : S^2 \to S^2\)</span> is the antipodal map, you are being asked to prove that either <span class="math inline">\(f\)</span> or <span class="math inline">\(A \circ f\)</span> has a fixed point.</p>
+</blockquote>
+<h3 data-number="8.4.2" id="b-5"><span class="header-section-number">8.4.2</span> b</h3>
+<p>Exhibit a continuous map <span class="math inline">\(f : S^3 \to S^3\)</span> such that for every <span class="math inline">\(x \in S^3\)</span>, <span class="math inline">\(f (x)\)</span> is equal to neither <span class="math inline">\(x\)</span> nor <span class="math inline">\(-x\)</span>.</p>
+<blockquote>
+<p>Hint: It might help to first think about how you could do this for a map from <span class="math inline">\(S^1\)</span> to <span class="math inline">\(S^1\)</span>.</p>
+</blockquote>
+<h2 data-number="8.5" id="spring-14-topologyqualwork-3"><span class="header-section-number">8.5</span> 5 (Spring ’14) #topology/qual/work</h2>
+<p>Show that a map <span class="math inline">\(S^n \to S^n\)</span> has a fixed point unless its degree is equal to the degree of the antipodal map <span class="math inline">\(a : x \to -x\)</span>.</p>
+<h2 data-number="8.6" id="spring-08-topologyqualwork-3"><span class="header-section-number">8.6</span> 6 (Spring ’08) #topology/qual/work</h2>
+<p>Give an example of a homotopy class of maps of <span class="math inline">\(S^1 \lor S^1\)</span> each member of which must have a fixed point, and also an example of a map of <span class="math inline">\(S^1 \lor S^1\)</span> which doesn’t have a fixed point.</p>
+<h2 data-number="8.7" id="spring-17-topologyqualwork-2"><span class="header-section-number">8.7</span> 7 (Spring ’17) #topology/qual/work</h2>
+<p>Prove or disprove:</p>
+<p>Every map from <span class="math inline">\({\mathbb{RP}}^2 \lor {\mathbb{RP}}^2\)</span> to itself has a fixed point.</p>
+<h2 data-number="8.8" id="fall-09-topologyqualwork-1"><span class="header-section-number">8.8</span> 8 (Fall ’09) #topology/qual/work</h2>
+<p>Find all homotopy classes of maps from <span class="math inline">\(S^1 \times {\mathbb{D}}^2\)</span> to itself such that every element of the homotopy class has a fixed point.</p>
+<h2 data-number="8.9" id="spring-10-topologyqualwork"><span class="header-section-number">8.9</span> 9 (Spring ’10) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be finite connected simplicial complexes and let <span class="math inline">\(f : X \to Y\)</span> and <span class="math inline">\(g : Y \to X\)</span> be basepoint-preserving maps.</p>
+<p>Show that no matter how you homotope <span class="math inline">\(f \lor g : X \lor Y \to X \lor Y\)</span>, there will always be a fixed point.</p>
+<h2 data-number="8.10" id="fall-12-topologyqualwork-3"><span class="header-section-number">8.10</span> 10 (Fall ’12) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(f = \operatorname{id}_{{\mathbb{RP}}^2} \lor \ast\)</span> and <span class="math inline">\(g = \ast \lor id_{S^1}\)</span> be two maps of <span class="math inline">\({\mathbb{RP}}^2 \lor S^1\)</span> to itself where <span class="math inline">\(\ast\)</span> denotes the constant map of a space to its basepoint.</p>
+<p>Show that one map is homotopic to a map with no fixed points, while the other is not.</p>
+<h2 data-number="8.11" id="spring-09-topologyqualwork-7"><span class="header-section-number">8.11</span> 11 (Spring ’09) #topology/qual/work</h2>
+<p>View the torus <span class="math inline">\(T\)</span> as the quotient space <span class="math inline">\({\mathbb{R}}^2 /{\mathbb{Z}}^2\)</span>.</p>
+<p>Let <span class="math inline">\(A\)</span> be a <span class="math inline">\(2 \times 2\)</span> matrix with <span class="math inline">\({\mathbb{Z}}\)</span> coefficients.</p>
+<h3 data-number="8.11.1" id="a-6"><span class="header-section-number">8.11.1</span> a</h3>
+<p>Show that the linear map <span class="math inline">\(A : {\mathbb{R}}^2 \to {\mathbb{R}}^2\)</span> descends to a continuous map <span class="math inline">\({\mathcal{A}}: T \to T\)</span>.</p>
+<h3 data-number="8.11.2" id="b-6"><span class="header-section-number">8.11.2</span> b</h3>
+<p>Show that, with respect to a suitable basis for <span class="math inline">\(H_1 (T ; {\mathbb{Z}})\)</span>, the matrix <span class="math inline">\(A\)</span> represents the map induced on <span class="math inline">\(H_1\)</span> by <span class="math inline">\({\mathcal{A}}\)</span>.</p>
+<h3 data-number="8.11.3" id="c-2"><span class="header-section-number">8.11.3</span> c</h3>
+<p>Find a necessary and sufficient condition on <span class="math inline">\(A\)</span> for <span class="math inline">\({\mathcal{A}}\)</span> to be homotopic to the identity.</p>
+<h3 data-number="8.11.4" id="d"><span class="header-section-number">8.11.4</span> d</h3>
+<p>Find a necessary and sufficient condition on <span class="math inline">\(A\)</span> for <span class="math inline">\({\mathcal{A}}\)</span> to be homotopic to a map with no fixed points.</p>
+<h2 data-number="8.12" id="spring-19-topologyqualwork-3"><span class="header-section-number">8.12</span> 12 (Spring ’19) #topology/qual/work</h2>
+<h3 data-number="8.12.1" id="a-7"><span class="header-section-number">8.12.1</span> a</h3>
+<p>Use the Lefschetz fixed point theorem to show that any degree-one map <span class="math inline">\(f : S^2 \to S^2\)</span> has at least one fixed point.</p>
+<h3 data-number="8.12.2" id="b-7"><span class="header-section-number">8.12.2</span> b</h3>
+<p>Give an example of a map <span class="math inline">\(f : {\mathbb{R}}^2 \to {\mathbb{R}}^2\)</span> having no fixed points.</p>
+<h3 data-number="8.12.3" id="c-3"><span class="header-section-number">8.12.3</span> c</h3>
+<p>Give an example of a degree-one map <span class="math inline">\(f : S^2 \to S^2\)</span> having exactly one fixed point.</p>
+<h2 data-number="8.13" id="fall-10-topologyqualwork-3"><span class="header-section-number">8.13</span> 13 (Fall ’10) #topology/qual/work</h2>
+<p>For which compact connected surfaces <span class="math inline">\(\Sigma\)</span> (with or without boundary) does there exist a continuous map <span class="math inline">\(f : \Sigma \to \Sigma\)</span> that is homotopic to the identity and has no fixed point?</p>
+<p>Explain your answer fully.</p>
+<h2 data-number="8.14" id="spring-16-topologyqualwork-3"><span class="header-section-number">8.14</span> 14 (Spring ’16) #topology/qual/work</h2>
+<p>Use the Brouwer fixed point theorem to show that an <span class="math inline">\(n \times n\)</span> matrix with nonnegative entries has a real eigenvalue.</p>
+<h1 data-number="9" id="miscellaneous-algebraic-topology"><span class="header-section-number">9</span> Miscellaneous Algebraic Topology</h1>
+<h2 data-number="9.1" id="fall-14-topologyqualwork-6"><span class="header-section-number">9.1</span> 1 (Fall ’14) #topology/qual/work</h2>
+<p>Prove that <span class="math inline">\({\mathbb{R}}^2\)</span> is not homeomorphic to <span class="math inline">\({\mathbb{R}}^n\)</span> for <span class="math inline">\(n &gt; 2\)</span>.</p>
+<h2 data-number="9.2" id="spring-12-topologyqualwork-4"><span class="header-section-number">9.2</span> 2 (Spring ’12) #topology/qual/work</h2>
+<p>Prove that any finite tree is contractible, where a <strong>tree</strong> is a connected graph that contains no closed edge paths.</p>
+<h2 data-number="9.3" id="spring-13-topologyqualcompleted"><span class="header-section-number">9.3</span> 3 (Spring ’13) #topology/qual/completed</h2>
+<p>Show that any continuous map <span class="math inline">\(f : {\mathbb{RP}}^2 \to S^1 \times S^1\)</span> is necessarily null-homotopic.</p>
+<div></div>
+<h2 data-number="9.4" id="fall-11-topologyqualcompleted-1"><span class="header-section-number">9.4</span> 4 (Fall ’11) #topology/qual/completed</h2>
+<p>Prove that, for <span class="math inline">\(n \geq 2\)</span>, every continuous map <span class="math inline">\(f: {\mathbb{RP}}^n \to S^1\)</span> is null-homotopic.</p>
+<div></div>
+<h2 data-number="9.5" id="spring-06-topologyqualwork-6"><span class="header-section-number">9.5</span> 5 (Spring ’06) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(S^2 \to {\mathbb{RP}}^2\)</span> be the universal covering map.</p>
+<p>Is this map null-homotopic? Give a proof of your answer.</p>
+<h2 data-number="9.6" id="spring-17-topologyqualcompleted-1"><span class="header-section-number">9.6</span> 6 (Spring ’17) #topology/qual/completed</h2>
+<p>Suppose that a map <span class="math inline">\(f : S^3 \times S^3 \to {\mathbb{RP}}^3\)</span> is not surjective.</p>
+<p>Prove that <span class="math inline">\(f\)</span> is homotopic to a constant function.</p>
+<h2 data-number="9.7" id="fall-06-topologyqualwork-2"><span class="header-section-number">9.7</span> 7 (Fall ’06) #topology/qual/work</h2>
+<p>Prove that there does not exist a continuous map <span class="math inline">\(f : S^2 \to S^2\)</span> from the unit sphere in <span class="math inline">\({\mathbb{R}}^3\)</span> to itself such that <span class="math inline">\(f (\mathbf{x}) \perp \mathbf{x}\)</span> (as vectors in <span class="math inline">\({\mathbb{R}}^3\)</span> for all <span class="math inline">\(\mathbf{x} \in S^2\)</span>).</p>
+<h2 data-number="9.8" id="spring-08-topologyqualwork-4"><span class="header-section-number">9.8</span> 8 (Spring ’08) #topology/qual/work</h2>
+<p>Let <span class="math inline">\(f\)</span> be the map of <span class="math inline">\(S^1 \times [0, 1]\)</span> to itself defined by 
+<span class="math display">
+\begin{align*}
+f (e^{i\theta} , s) = (e^{i(\theta+2\pi s)} , s)
+,\end{align*}
+<span> so that <span class="math inline">\(f\)</span> restricts to the identity on the two boundary circles of <span class="math inline">\(S^1 \times [0, 1]\)</span>.</p>
+<p>Show that <span class="math inline">\(f\)</span> is homotopic to the identity by a homotopy <span class="math inline">\(f_t\)</span> that is stationary on one of the boundary circles, but not by any homotopy that is stationary on both boundary circles.</p>
+<blockquote>
+<p>Hint: Consider what <span class="math inline">\(f\)</span> does to the path <span class="math inline">\(s \mapsto (e^{i\theta_0} , s)\)</span> for fixed <span class="math inline">\(e^{i\theta_0} \in S^1\)</span>.</p>
+</blockquote>
+<h2 data-number="9.9" id="spring-17-topologyqualwork-3"><span class="header-section-number">9.9</span> 9 (Spring ’17) #topology/qual/work</h2>
+<p>Show that <span class="math inline">\(S^1 \times S^1\)</span> is not the union of two disks (where there is no assumption that the disks intersect along their boundaries).</p>
+<h2 data-number="9.10" id="spring-14-topologyqualwork-4"><span class="header-section-number">9.10</span> 10 (Spring ’14) #topology/qual/work</h2>
+<p>Suppose that <span class="math inline">\(X \subset Y\)</span> and <span class="math inline">\(X\)</span> is a deformation retract of <span class="math inline">\(Y\)</span>.</p>
+<p>Show that if <span class="math inline">\(X\)</span> is a path connected space, then <span class="math inline">\(Y\)</span> is path connected.</p>
+<h2 data-number="9.11" id="spring-05-topologyqualwork-1"><span class="header-section-number">9.11</span> 11 (Spring ’05) #topology/qual/work</h2>
+<p>Do one of the following:</p>
+<ol type="a">
+<li><p>Give (with justification) a contractible subset <span class="math inline">\(X \subset {\mathbb{R}}^2\)</span> which is not a retract of <span class="math inline">\({\mathbb{R}}^2\)</span> .</p></li>
+<li><p>Give (with justification) two topological spaces that have the same homology groups but that are not homotopy equivalent.</p></li>
+</ol>
+<h2 data-number="9.12" id="spring-16-topologyqualwork-4"><span class="header-section-number">9.12</span> 12 (Spring ’16) #topology/qual/work</h2>
+<p>Recall that the <strong>suspension</strong> of a topological space, denoted <span class="math inline">\(SX\)</span>, is the quotient space formed from <span class="math inline">\(X \times [-1, 1]\)</span> by identifying <span class="math inline">\((x, 1)\)</span> with <span class="math inline">\((y, 1)\)</span> for all <span class="math inline">\(x, y \in X\)</span>, and also identifying <span class="math inline">\((x, -1)\)</span> with <span class="math inline">\((y, -1)\)</span> for all <span class="math inline">\(x, y \in X\)</span>.</p>
+<ol type="a">
+<li><p>Show that <span class="math inline">\(SX\)</span> is the union of two contractible subspaces.</p></li>
+<li><p>Prove that if <span class="math inline">\(X\)</span> is path-connected then <span class="math inline">\(\pi_1 (SX) = \left\{{0}\right\}\)</span>.</p></li>
+<li><p>For all <span class="math inline">\(n \geq 1\)</span>, prove that <span class="math inline">\(H_{n} (X) \cong H_{n+1} (SX)\)</span>.</p></li>
+</ol>
+<h1 data-number="10" id="extra-problems-algebraic-topology"><span class="header-section-number">10</span> Extra Problems: Algebraic Topology</h1>
+<h2 data-number="10.1" id="algebraic-topology"><span class="header-section-number">10.1</span> Algebraic Topology</h2>
+<h3 data-number="10.1.1" id="fundamental-group"><span class="header-section-number">10.1.1</span> Fundamental Group</h3>
+<ul>
+<li>Compute <span class="math inline">\(\pi_1(X)\)</span> where <span class="math inline">\(X \mathrel{\vcenter{:}}= S^2/\sim\)</span>, where <span class="math inline">\(x\sim -x\)</span> only for <span class="math inline">\(x\)</span> on the equator <span class="math inline">\(S^1 \hookrightarrow S^2\)</span>.
+<ul>
+<li>Hint: try cellular homology. Should yield <span class="math inline">\([{\mathbb{Z}}, {\mathbb{Z}}/2{\mathbb{Z}}, {\mathbb{Z}}, 0, \cdots]\)</span>.</li>
+</ul></li>
+<li>Show that if <span class="math inline">\(X = S^2 {\textstyle\coprod}_{\operatorname{id}} S^2\)</span> is a pushout along the equators, then <span class="math inline">\(H_n(X) = [{\mathbb{Z}}, 0, {\mathbb{Z}}^3, 0, \cdots]\)</span>.</li>
+</ul>
+<h3 data-number="10.1.2" id="covering-spaces-1"><span class="header-section-number">10.1.2</span> Covering Spaces</h3>
+<ul>
+<li>Describe all connected covering spaces of <span class="math inline">\({\mathbb{RP}}^2 \vee {\mathbb{RP}}^2\)</span>.</li>
+</ul>
+<h3 data-number="10.1.3" id="homology"><span class="header-section-number">10.1.3</span> Homology</h3>
+<ul>
+<li>Compute the homology of the Klein bottle using the Mayer-Vietoris sequence and a decomposition <span class="math inline">\(K = M {\textstyle\coprod}_f M\)</span></li>
+<li>Use the Kunneth formula to compute <span class="math inline">\(H^*(S^2\times S^2; {\mathbb{Z}})\)</span>.
+<ul>
+<li>Known to be <span class="math inline">\([{\mathbb{Z}}, 0, {\mathbb{Z}}^2, 0, {\mathbb{Z}}, 0, 0, \cdots]\)</span>.</li>
+</ul></li>
+<li>Compute <span class="math inline">\(H^*(S^2 \vee S^2 \vee S^4)\)</span>
+<ul>
+<li>Known to be <span class="math inline">\([{\mathbb{Z}}, 0, {\mathbb{Z}}^2, 0, {\mathbb{Z}}, 0, 0, \cdots]\)</span>.</li>
+</ul></li>
+<li>Show that <span class="math inline">\(\chi(\Sigma_g + \Sigma_h) = \chi(\Sigma_g) + \chi(\Sigma_h) - 2\)</span>.</li>
+</ul>
+<h1 data-number="11" id="bibliography"><span class="header-section-number">11</span> Bibliography</h1>
+<div id="refs" class="proofenv" role="doc-bibliography">
+
+</div>
+<!--bookdown:body:end-->
+
+
+
+
+<script src="data:application/javascript; charset=utf-8;base64,IWZ1bmN0aW9uKGEpe2Z1bmN0aW9uIGIoKXtnLmhhc0NsYXNzKGspP2gudG9nZ2xlQ2xhc3MobCk6aC50b2dnbGVDbGFzcyhtKSxvJiZnLm9uZSgidHJhbnNpdGlvbmVuZCIsZnVuY3Rpb24oKXtvLmZvY3VzKCl9KX1mdW5jdGlvbiBjKCl7Zy5oYXNDbGFzcyhrKT9oLnJlbW92ZUNsYXNzKGwpOmgucmVtb3ZlQ2xhc3MobSl9ZnVuY3Rpb24gZCgpe2cuaGFzQ2xhc3Moayk/KGguYWRkQ2xhc3MobCksZy5hbmltYXRlKHtsZWZ0OiIwcHgifSxwKSxpLmFuaW1hdGUoe2xlZnQ6cX0scCksai5hbmltYXRlKHtsZWZ0OnF9LHApKTooaC5hZGRDbGFzcyhtKSxnLmFuaW1hdGUoe3JpZ2h0OiIwcHgifSxwKSxpLmFuaW1hdGUoe3JpZ2h0OnF9LHApLGouYW5pbWF0ZSh7cmlnaHQ6cX0scCkpLG8mJm8uZm9jdXMoKX1mdW5jdGlvbiBlKCl7Zy5oYXNDbGFzcyhrKT8oaC5yZW1vdmVDbGFzcyhsKSxnLmFuaW1hdGUoe2xlZnQ6Ii0iK3F9LHApLGkuYW5pbWF0ZSh7bGVmdDoiMHB4In0scCksai5hbmltYXRlKHtsZWZ0OiIwcHgifSxwKSk6KGgucmVtb3ZlQ2xhc3MobSksZy5hbmltYXRlKHtyaWdodDoiLSIrcX0scCksaS5hbmltYXRlKHtyaWdodDoiMHB4In0scCksai5hbmltYXRlKHtyaWdodDoiMHB4In0scCkpfWZ1bmN0aW9uIGYoKXthKHIpLmFkZENsYXNzKHQpLGEocikub24oImNsaWNrIixmdW5jdGlvbihiKXt2YXIgYz1hKHRoaXMpO2MuaGFzQ2xhc3ModCk/KGMuc2libGluZ3MocikuYWRkQ2xhc3ModCkucmVtb3ZlQ2xhc3MocyksYy5yZW1vdmVDbGFzcyh0KS5hZGRDbGFzcyhzKSk6Yy5hZGRDbGFzcyh0KS5yZW1vdmVDbGFzcyhzKSxiLnN0b3BQcm9wYWdhdGlvbigpfSl9dmFyIGc9YSgiLnB1c2h5IiksaD1hKCJib2R5IiksaT1hKCIjY29udGFpbmVyIiksaj1hKCIucHVzaCIpLGs9InB1c2h5LWxlZnQiLGw9InB1c2h5LW9wZW4tbGVmdCIsbT0icHVzaHktb3Blbi1yaWdodCIsbj1hKCIuc2l0ZS1vdmVybGF5Iiksbz1hKGcuZGF0YSgiZm9jdXMiKSkscD0yMDAscT1nLndpZHRoKCkrInB4IixyPSIucHVzaHktc3VibWVudSIscz0icHVzaHktc3VibWVudS1vcGVuIix0PSJwdXNoeS1zdWJtZW51LWNsb3NlZCI7YShyKTtpZih2b2lkIDAhPT1nLmRhdGEoIm1lbnUtYnRuLWNsYXNzIikpdmFyIHU9Zy5kYXRhKCJtZW51LWJ0bi1jbGFzcyIpO2Vsc2UgdmFyIHU9Ii5tZW51LWJ0biI7dmFyIHY9YSh1KyIsIC5wdXNoeS1saW5rIiksdz1hKHUpO2EoZG9jdW1lbnQpLmtleXVwKGZ1bmN0aW9uKGEpezI3PT1hLmtleUNvZGUmJihoLmhhc0NsYXNzKGwpfHxoLmhhc0NsYXNzKG0pKSYmKHg/YygpOihlKCkseT0hMSksdyYmdy5mb2N1cygpKX0pO3ZhciB4PWZ1bmN0aW9uKCl7dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgicCIpLGI9ITEsYz17d2Via2l0VHJhbnNmb3JtOiItd2Via2l0LXRyYW5zZm9ybSIsT1RyYW5zZm9ybToiLW8tdHJhbnNmb3JtIixtc1RyYW5zZm9ybToiLW1zLXRyYW5zZm9ybSIsTW96VHJhbnNmb3JtOiItbW96LXRyYW5zZm9ybSIsdHJhbnNmb3JtOiJ0cmFuc2Zvcm0ifTtpZihudWxsIT09ZG9jdW1lbnQuYm9keSl7ZG9jdW1lbnQuYm9keS5pbnNlcnRCZWZvcmUoYSxudWxsKTtmb3IodmFyIGQgaW4gYyl2b2lkIDAhPT1hLnN0eWxlW2RdJiYoYS5zdHlsZVtkXT0idHJhbnNsYXRlM2QoMXB4LDFweCwxcHgpIixiPXdpbmRvdy5nZXRDb21wdXRlZFN0eWxlKGEpLmdldFByb3BlcnR5VmFsdWUoY1tkXSkpO3JldHVybiBkb2N1bWVudC5ib2R5LnJlbW92ZUNoaWxkKGEpLHZvaWQgMCE9PWImJmIubGVuZ3RoPjAmJiJub25lIiE9PWJ9cmV0dXJuITF9KCk7aWYoeClmKCksdi5vbigiY2xpY2siLGZ1bmN0aW9uKCl7YigpfSksbi5vbigiY2xpY2siLGZ1bmN0aW9uKCl7YigpfSk7ZWxzZXtoLmFkZENsYXNzKCJuby1jc3N0cmFuc2Zvcm1zM2QiKSxnLmhhc0NsYXNzKGspP2cuY3NzKHtsZWZ0OiItIitxfSk6Zy5jc3Moe3JpZ2h0OiItIitxfSksaS5jc3MoeyJvdmVyZmxvdy14IjoiaGlkZGVuIn0pO3ZhciB5PSExO2YoKSx2Lm9uKCJjbGljayIsZnVuY3Rpb24oKXt5PyhlKCkseT0hMSk6KGQoKSx5PSEwKX0pLG4ub24oImNsaWNrIixmdW5jdGlvbigpe3k/KGUoKSx5PSExKTooZCgpLHk9ITApfSl9fShqUXVlcnkpOw==" integrity="sha512-+YLFvWFpPgQOV1/PoGgIinfvZEsUpfO5YEoxH4MlBAW5lf2WAVK5F4HtWA1BvZEYqK+AWW0fb/C797ttp1fL7g==" crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function() {
+  $('.proofenv').each(function() {
+    t = $(this)[0];
+    if (t.classList[0] != "proofenv") {
+      tot_str = t.classList[0] + (t.title.length > 0 ? ` (${t.title})` : "") + ":";
+      sp = $('<span class="proofenv-header">').text(tot_str)
+      $(this).prepend( sp );
+    }
+  });
+  details = document.querySelectorAll(".foldopen > details");
+  details.forEach( (detail) => { detail.setAttribute("open", "" ); } )
+});
+</script>
+
+</body>
+</html>

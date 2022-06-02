@@ -1,0 +1,3869 @@
+\input{"preamble.tex"}
+
+\addbibresource{QualReal.bib}
+
+\let\Begin\begin
+\let\End\end
+\newcommand\wrapenv[1]{#1}
+
+\makeatletter
+\def\ScaleWidthIfNeeded{%
+ \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\def\ScaleHeightIfNeeded{%
+  \ifdim\Gin@nat@height>0.9\textheight
+    0.9\textheight
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\setkeys{Gin}{width=\ScaleWidthIfNeeded,height=\ScaleHeightIfNeeded,keepaspectratio}%
+
+\title{
+\textbf{
+    Qual Real Analysis
+  }
+  }
+
+
+
+
+
+
+
+\begin{document}
+
+\date{}
+\maketitle
+
+
+\newpage
+
+% Note: addsec only in KomaScript
+\addsec{Table of Contents}
+\tableofcontents
+\newpage
+
+\hypertarget{preface}{%
+\section{Preface}\label{preface}}
+
+\begin{quote}
+Note: linking directly to sections doesn't seem to work yet. Just ctrl-F
+and search the page for the relevant year.
+\end{quote}
+
+I'd like to extend my gratitude to Peter Woolfitt for supplying many
+solutions and checking many proofs of the rest in problem sessions. Many
+other solutions contain input and ideas from other graduate students and
+faculty members at UGA, along with questions and answers posted on Math
+Stack Exchange or Math Overflow.
+
+\hypertarget{undergraduate-analysis-uniform-convergence}{%
+\section{Undergraduate Analysis: Uniform
+Convergence}\label{undergraduate-analysis-uniform-convergence}}
+
+\hypertarget{fall-2018.1}{%
+\subsection{Fall 2018.1}\label{fall-2018.1}}
+
+Let \(f(x) = \frac 1 x\). Show that \(f\) is uniformly continuous on
+\((1, \infty)\) but not on \((0,\infty)\).
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2017.1}{%
+\subsection{Fall 2017.1}\label{fall-2017.1}}
+
+Let
+\begin{align*}
+f(x) = \sum _{n=0}^{\infty} \frac{x^{n}}{n !}.
+\end{align*}
+Describe the intervals on which \(f\) does and does not converge
+uniformly.
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2017.4}{%
+\subsection{Spring 2017.4}\label{spring-2017.4}}
+
+Let \(f(x, y)\) on \([-1, 1]^2\) be defined by
+\begin{align*}
+f(x, y) = \begin{cases}
+\frac{x y}{\left(x^{2}+y^{2}\right)^{2}} & (x, y) \neq (0, 0) \\
+0 & (x, y) = (0, 0)
+\end{cases}
+\end{align*}
+Determine if \(f\) is integrable.
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2014.1}{%
+\subsection{Fall 2014.1}\label{fall-2014.1}}
+
+Let \(\left\{{f_n}\right\}\) be a sequence of continuous functions such
+that \(\sum f_n\) converges uniformly.
+
+Prove that \(\sum f_n\) is also continuous.
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2015.1}{%
+\subsection{Spring 2015.1}\label{spring-2015.1}}
+
+Let \((X, d)\) and \((Y, \rho)\) be metric spaces, \(f: X\to Y\), and
+\(x_0 \in X\).
+
+Prove that the following statements are equivalent:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  For every \(\varepsilon > 0 \quad \exists \delta > 0\) such that
+  \(\rho( f(x), f(x_0) ) < \varepsilon\) whenever
+  \(d(x, x_0) < \delta\).
+\item
+  The sequence \(\left\{{f(x_n)}\right\}_{n=1}^\infty \to f(x_0)\) for
+  every sequence \(\left\{{x_n}\right\} \to x_0\) in \(X\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2014.2}{%
+\subsection{Fall 2014.2}\label{fall-2014.2}}
+
+Let \(I\) be an index set and \(\alpha: I \to (0, \infty)\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that
+  \begin{align*}
+  \sum_{i \in I} a(i):=\sup _{\substack{ J \subset I \\ J \text { finite }}} \sum_{i \in J} a(i)<\infty \implies I \text{ is countable.}
+  \end{align*}
+\item
+  Suppose \(I = {\mathbb{Q}}\) and
+  \(\sum_{q \in \mathbb{Q}} a(q)<\infty\). Define
+  \begin{align*}
+  f(x):=\sum_{\substack{q \in \mathbb{Q}\\ q \leq x}} a(q).
+  \end{align*}
+  Show that \(f\) is continuous at \(x \iff x\not\in {\mathbb{Q}}\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{general-analysis}{%
+\section{General Analysis}\label{general-analysis}}
+
+\hypertarget{fall-2021.1}{%
+\subsection{Fall 2021.1}\label{fall-2021.1}}
+
+\begin{problem}[?]
+
+Let \(\left\{x_{n}\right\}_{n-1}^{\infty}\) be a sequence of real
+numbers such that \(x_{1}>0\) and
+\begin{align*}
+x_{n+1}=1-\left(2+x_{n}\right)^{-1}=\frac{1+x_{n}}{2+x_{n}} \text {. }
+\end{align*}
+Prove that the sequence \(\left\{x_{n}\right\}\) converges, and find its
+limit.
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2020.1}{%
+\subsection{Fall 2020.1}\label{fall-2020.1}}
+
+\begin{problem}[?]
+
+Show that if \(x_n\) is a decreasing sequence of positive real numbers
+such that \(\sum_{n=1}^\infty x_n\) converges, then
+\begin{align*}
+\lim_{n\to\infty} n x_n = 0.
+\end{align*}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2020.1}{%
+\subsection{Spring 2020.1}\label{spring-2020.1}}
+
+Prove that if \(f: [0, 1] \to {\mathbb{R}}\) is continuous then
+\begin{align*}
+\lim_{k\to\infty} \int_0^1 kx^{k-1} f(x) \,dx = f(1)
+.\end{align*}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019.1}{%
+\subsection{Fall 2019.1}\label{fall-2019.1}}
+
+Let \(\{a_n\}_{n=1}^\infty\) be a sequence of real numbers.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(\displaystyle\lim_{n\to \infty } a_n = 0\), then
+  \begin{align*}
+  \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
+  \end{align*}
+\item
+  Prove that if \(\displaystyle\sum_{n=1}^{\infty} \frac{a_{n}}{n}\)
+  converges, then
+  \begin{align*}
+  \lim _{n \rightarrow \infty} \frac{a_{1}+\cdots+a_{n}}{n}=0
+  \end{align*}
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018.4}{%
+\subsection{Fall 2018.4}\label{fall-2018.4}}
+
+Let \(f\in L^1([0, 1])\). Prove that
+\begin{align*}
+\lim_{n \to \infty} \int_{0}^{1} f(x) {\left\lvert {\sin n x} \right\rvert} ~d x= \frac{2}{\pi} \int_{0}^{1} f(x) ~d x
+\end{align*}
+
+\begin{quote}
+Hint: Begin with the case that \(f\) is the characteristic function of
+an interval.
+\end{quote}
+
+\todo[inline]{Ask someone to check the last approximation part.}
+
+\#todo
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2017.4}{%
+\subsection{Fall 2017.4}\label{fall-2017.4}}
+
+Let
+\begin{align*}
+f_{n}(x) = n x(1-x)^{n}, \quad n \in {\mathbb{N}}.
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(f_n \to 0\) pointwise but not uniformly on \([0, 1]\).
+\item
+  Show that
+  \begin{align*}
+  \lim _{n \to \infty} \int _{0}^{1} n(1-x)^{n} \sin x \, dx = 0
+  \end{align*}
+\end{enumerate}
+
+\begin{quote}
+Hint for (a): Consider the maximum of \(f_n\).
+\end{quote}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2017.3}{%
+\subsection{Spring 2017.3}\label{spring-2017.3}}
+
+Let
+\begin{align*}
+f_{n}(x) = a e^{-n a x} - b e^{-n b x} \quad \text{ where } 0 < a < b.
+\end{align*}
+
+Show that
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \(\sum_{n=1}^{\infty} \left|f_{n}\right|\) is not in
+  \(L^{1}([0, \infty), m)\)
+\end{enumerate}
+
+\begin{quote}
+Hint: \(f_n(x)\) has a root \(x_n\).
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+
+  \begin{align*}
+  \sum_{n=1}^{\infty} f_{n} \text { is in } L^{1}([0, \infty), m) 
+  {\quad \operatorname{and} \quad}
+  \int _{0}^{\infty} \sum _{n=1}^{\infty} f_{n}(x) \,dm = \ln \frac{b}{a}
+  \end{align*}
+  \todo[inline]{Not complete.} \todo[inline]{Add concepts.}
+  \todo[inline]{Walk through.}
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2016.1}{%
+\subsection{Fall 2016.1}\label{fall-2016.1}}
+
+Define
+\begin{align*}
+f(x) = \sum_{n=1}^{\infty} \frac{1}{n^{x}}.
+\end{align*}
+Show that \(f\) converges to a differentiable function on
+\((1, \infty)\) and that
+\begin{align*}
+f'(x)  =\sum_{n=1}^{\infty}\left(\frac{1}{n^{x}}\right)^{\prime}.
+\end{align*}
+
+\begin{quote}
+Hint:
+\begin{align*}
+\left(\frac{1}{n^{x}}\right)' = -\frac{1}{n^{x}} \ln n
+\end{align*}
+\end{quote}
+
+\todo[inline]{Add concepts.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2016.5}{%
+\subsection{Fall 2016.5}\label{fall-2016.5}}
+
+Let \(\phi\in L^\infty({\mathbb{R}})\). Show that the following limit
+exists and satisfies the equality
+\begin{align*}
+\lim _{n \to \infty} \left(\int _{\mathbb{R}} \frac{|\phi(x)|^{n}}{1+x^{2}} \, dx \right) ^ {\frac{1}{n}} 
+= {\left\lVert {\phi} \right\rVert}_\infty.
+\end{align*}
+\todo[inline]{Add concepts.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2016.6}{%
+\subsection{Fall 2016.6}\label{fall-2016.6}}
+
+Let \(f, g \in L^2({\mathbb{R}})\). Show that
+\begin{align*}
+\lim _{n \to \infty} \int _{{\mathbb{R}}} f(x) g(x+n) \,dx = 0
+\end{align*}
+
+\todo[inline]{Rewrite solution.}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2016.1}{%
+\subsection{Spring 2016.1}\label{spring-2016.1}}
+
+For \(n\in {\mathbb{N}}\), define
+\begin{align*}
+e_{n} = \left (1+ {1\over n} \right)^{n} 
+{\quad \operatorname{and} \quad}
+E_{n} = \left( 1+ {1\over n} \right)^{n+1}
+\end{align*}
+
+Show that \(e_n < E_n\), and prove Bernoulli's inequality:
+\begin{align*}
+(1+x)^n \geq 1+nx && -1 < x < \infty  ,\,\, n\in {\mathbb{N}}
+.\end{align*}
+
+Use this to show the following:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The sequence \(e_n\) is increasing.
+\item
+  The sequence \(E_n\) is decreasing.
+\item
+  \(2 < e_n < E_n < 4\).
+\item
+  \(\lim _{n \to \infty} e_{n} = \lim _{n \to \infty} E_{n}\).
+\end{enumerate}
+
+\hypertarget{fall-2015.1}{%
+\subsection{Fall 2015.1}\label{fall-2015.1}}
+
+Define
+\begin{align*}
+f(x)=c_{0}+c_{1} x^{1}+c_{2} x^{2}+\ldots+c_{n} x^{n} \text { with } n \text { even and } c_{n}>0.
+\end{align*}
+
+Show that there is a number \(x_m\) such that \(f(x_m) \leq f(x)\) for
+all \(x\in {\mathbb{R}}\).
+
+\hypertarget{spring-2014.2}{%
+\subsection{Spring 2014.2}\label{spring-2014.2}}
+
+Let \(\left\{{a_n}\right\}\) be a sequence of real numbers such that
+\begin{align*}
+\left\{{b_n}\right\} \in \ell^2({\mathbb{N}}) \implies \sum a_n b_n < \infty.
+\end{align*}
+Show that \(\sum a_n^2 < \infty\).
+
+\begin{quote}
+Note: Assume \(a_n, b_n\) are all non-negative.
+\end{quote}
+
+\todo[inline]{Have someone check!}
+
+\emph{Solution omitted.}
+
+\hypertarget{measure-theory-sets}{%
+\section{Measure Theory: Sets}\label{measure-theory-sets}}
+
+\hypertarget{fall-2021.3}{%
+\subsection{Fall 2021.3}\label{fall-2021.3}}
+
+Recall that a set \(E \subset \mathbb{R}^{d}\) is measurable if for
+every \(c>0\) there is an open set \(U \subseteq {\mathbb{R}}^d\) such
+that \(m^{*}(U \setminus E)<\epsilon\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(E\) is measurable then for all \(\epsilon>0\) there
+  exists an elementary \(\operatorname{set} F\), such that
+  \(m(E \Delta F)<\epsilon\).
+
+  Here \(m(E)\) denotes the Lebesgue measure of \(E\), a set \(F\) is
+  called elementary if it is a finite union of rectangles and
+  \(E \Delta F\) denotes the symmetric difference of the sets \(E\) and
+  \(F\).
+\item
+  Let \(E \subset \mathbb{R}\) be a measurable set, such that
+  \(0<m(E)<\infty\). Use part (a) to show that
+  \begin{align*}
+  \lim _{n \rightarrow \infty} \int_{E} \sin (n t) d t=0
+  \end{align*}
+\end{enumerate}
+
+\hypertarget{spring-2020.2}{%
+\subsection{Spring 2020.2}\label{spring-2020.2}}
+
+Let \(m_*\) denote the Lebesgue outer measure on \({\mathbb{R}}\).
+
+a.. Prove that for every \(E\subseteq {\mathbb{R}}\) there exists a
+Borel set \(B\) containing \(E\) such that
+\begin{align*}
+m_*(B) = m_*(E)
+.\end{align*}
+
+b.. Prove that if \(E\subseteq {\mathbb{R}}\) has the property that
+\begin{align*}
+m_*(A) = m_*(A\displaystyle\bigcap E) + m_*(A\displaystyle\bigcap E^c)
+\end{align*}
+for every set \(A\subseteq {\mathbb{R}}\), then there exists a Borel set
+\(B\subseteq {\mathbb{R}}\) such that \(E = B\setminus N\) with
+\(m_*(N) = 0\).
+
+Be sure to address the case when \(m_*(E) = \infty\).
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019.3.}{%
+\subsection{Fall 2019.3.}\label{fall-2019.3.}}
+
+Let \((X, \mathcal B, \mu)\) be a measure space with \(\mu(X) = 1\) and
+\(\{B_n\}_{n=1}^\infty\) be a sequence of \(\mathcal B\)-measurable
+subsets of \(X\), and
+\begin{align*}
+B \coloneqq\left\{{x\in X {~\mathrel{\Big\vert}~}x\in B_n \text{ for infinitely many } n}\right\}.
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Argue that \(B\) is also a \(\mathcal{B} {\hbox{-}}\)measurable subset
+  of \(X\).
+\item
+  Prove that if \(\sum_{n=1}^\infty \mu(B_n) < \infty\) then
+  \(\mu(B)= 0\).
+\item
+  Prove that if \(\sum_{n=1}^\infty \mu(B_n) = \infty\) \textbf{and} the
+  sequence of set complements \(\left\{{B_n^c}\right\}_{n=1}^\infty\)
+  satisfies
+  \begin{align*}
+  \mu\left(\bigcap_{n=k}^{K} B_{n}^{c}\right)=\prod_{n=k}^{K}\left(1-\mu\left(B_{n}\right)\right)
+  \end{align*}
+  for all positive integers \(k\) and \(K\) with \(k < K\), then
+  \(\mu(B) = 1\).
+\end{enumerate}
+
+\begin{quote}
+Hint: Use the fact that \(1 - x ≤ e^{-x}\) for all \(x\).
+\end{quote}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2019.2}{%
+\subsection{Spring 2019.2}\label{spring-2019.2}}
+
+Let \(\mathcal B\) denote the set of all Borel subsets of
+\({\mathbb{R}}\) and \(\mu : \mathcal B \to [0, \infty)\) denote a
+finite Borel measure on \({\mathbb{R}}\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(\{F_k\}\) is a sequence of Borel sets for which
+  \(F_k \supseteq F_{k+1}\) for all \(k\), then
+  \begin{align*}
+  \lim _{k \rightarrow \infty} \mu\left(F_{k}\right)=\mu\left(\bigcap_{k=1}^{\infty} F_{k}\right)
+  \end{align*}
+\item
+  Suppose \(\mu\) has the property that \(\mu (E) = 0\) for every
+  \(E \in \mathcal B\) with Lebesgue measure \(m(E) = 0\). Prove that
+  for every \(\epsilon > 0\) there exists \(\delta > 0\) so that if
+  \(E \in \mathcal B\) with \(m(E) < δ\), then \(\mu(E) < ε\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018.2}{%
+\subsection{Fall 2018.2}\label{fall-2018.2}}
+
+Let \(E\subset {\mathbb{R}}\) be a Lebesgue measurable set. Show that
+there is a Borel set \(B \subset E\) such that \(m(E\setminus B) = 0\).
+
+\todo[inline]{Move this to review notes to clean things up.}
+
+\todo[inline]{What a mess, redo!!}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2018.1}{%
+\subsection{Spring 2018.1}\label{spring-2018.1}}
+
+Define
+\begin{align*}
+E:=\left\{x \in \mathbb{R}:\left|x-\frac{p}{q}\right|<q^{-3} \text { for infinitely many } p, q \in \mathbb{N}\right\}.
+\end{align*}
+
+Prove that \(m(E) = 0\).
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2017.2}{%
+\subsection{Fall 2017.2}\label{fall-2017.2}}
+
+Let \(f(x) = x^2\) and
+\(E \subset [0, \infty) \coloneqq{\mathbb{R}}^+\).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Show that
+  \begin{align*}
+  m^*(E) = 0 \iff m^*(f(E)) = 0.
+  \end{align*}
+\item
+  Deduce that the map
+\end{enumerate}
+
+\begin{align*}
+\phi: \mathcal{L}({\mathbb{R}}^+) &\to \mathcal{L}({\mathbb{R}}^+) \\
+E &\mapsto f(E)
+\end{align*}
+is a bijection from the class of Lebesgue measurable sets of
+\([0, \infty)\) to itself.
+
+\todo[inline]{Walk through.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2017.1}{%
+\subsection{Spring 2017.1}\label{spring-2017.1}}
+
+Let \(K\) be the set of numbers in \([0, 1]\) whose decimal expansions
+do not use the digit \(4\).
+
+\begin{quote}
+We use the convention that when a decimal number ends with 4 but all
+other digits are different from 4, we replace the digit \(4\) with
+\(399\cdots\). For example, \(0.8754 = 0.8753999\cdots\).
+\end{quote}
+
+Show that \(K\) is a compact, nowhere dense set without isolated points,
+and find the Lebesgue measure \(m(K)\).
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2017.2}{%
+\subsection{Spring 2017.2}\label{spring-2017.2}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Let \(\mu\) be a measure on a measurable space \((X, \mathcal M)\) and
+  \(f\) a positive measurable function.
+\end{enumerate}
+
+Define a measure \(\lambda\) by
+\begin{align*}
+\lambda(E):=\int_{E} f ~d \mu, \quad E \in \mathcal{M}
+\end{align*}
+
+Show that for \(g\) any positive measurable function,
+\begin{align*}
+\int_{X} g ~d \lambda=\int_{X} f g ~d \mu
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Let \(E \subset {\mathbb{R}}\) be a measurable set such that
+  \begin{align*}
+  \int_{E} x^{2} ~d m=0.
+  \end{align*}
+  Show that \(m(E) = 0\).
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2016.4}{%
+\subsection{Fall 2016.4}\label{fall-2016.4}}
+
+Let \((X, \mathcal M, \mu)\) be a measure space and suppose
+\(\left\{{E_n}\right\} \subset \mathcal M\) satisfies
+\begin{align*}
+\lim _{n \rightarrow \infty} \mu\left(X \backslash E_{n}\right)=0.
+\end{align*}
+
+Define
+\begin{align*}
+G \coloneqq\left\{{x\in X {~\mathrel{\Big\vert}~}x\in E_n \text{ for only finitely many  } n}\right\}.
+\end{align*}
+
+Show that \(G \in \mathcal M\) and \(\mu(G) = 0\).
+
+\todo[inline]{Add concepts.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2016.3}{%
+\subsection{Spring 2016.3}\label{spring-2016.3}}
+
+Let \(f\) be Lebesgue measurable on \({\mathbb{R}}\) and
+\(E \subset {\mathbb{R}}\) be measurable such that
+\begin{align*}
+0<A=\int_{E} f(x) d x<\infty.
+\end{align*}
+
+Show that for every \(0 < t < 1\), there exists a measurable set
+\(E_t \subset E\) such that
+\begin{align*}
+\int_{E_{t}} f(x) d x=t A.
+\end{align*}
+
+\hypertarget{spring-2016.5}{%
+\subsection{Spring 2016.5}\label{spring-2016.5}}
+
+Let \((X, \mathcal M, \mu)\) be a measure space. For \(f\in L^1(\mu)\)
+and \(\lambda > 0\), define
+\begin{align*}
+\phi(\lambda)=\mu(\{x \in X | f(x)>\lambda\}) 
+\quad \text { and } \quad 
+\psi(\lambda)=\mu(\{x \in X | f(x)<-\lambda\})
+\end{align*}
+
+Show that \(\phi, \psi\) are Borel measurable and
+\begin{align*}
+\int_{X}|f| ~d \mu=\int_{0}^{\infty}[\phi(\lambda)+\psi(\lambda)] ~d \lambda
+\end{align*}
+
+\hypertarget{spring-2016.2}{%
+\subsection{Spring 2016.2}\label{spring-2016.2}}
+
+Let \(0 < \lambda < 1\) and construct a Cantor set \(C_\lambda\) by
+successively removing middle intervals of length \(\lambda\).
+
+Prove that \(m(C_\lambda) = 0\).
+
+\hypertarget{fall-2015.2}{%
+\subsection{Fall 2015.2}\label{fall-2015.2}}
+
+Let \(f: {\mathbb{R}}\to {\mathbb{R}}\) be Lebesgue measurable.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Show that there is a sequence of simple functions \(s_n(x)\) such that
+  \(s_n(x) \to f(x)\) for all \(x\in {\mathbb{R}}\).
+\item
+  Show that there is a Borel measurable function \(g\) such that
+  \(g = f\) almost everywhere.
+\end{enumerate}
+
+\hypertarget{spring-2015.3}{%
+\subsection{Spring 2015.3}\label{spring-2015.3}}
+
+Let \(\mu\) be a finite Borel measure on \({\mathbb{R}}\) and
+\(E \subset {\mathbb{R}}\) Borel. Prove that the following statements
+are equivalent:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \(\forall \varepsilon > 0\) there exists \(G\) open and \(F\) closed
+  such that
+  \begin{align*}
+  F \subseteq E \subseteq G \quad \text{and} \quad \mu(G\setminus F) < \varepsilon.
+  \end{align*}
+\item
+  There exists a \(V \in G_\delta\) and \(H \in F_\sigma\) such that
+  \begin{align*}
+  H \subseteq E \subseteq V \quad \text{and}\quad \mu(V\setminus H) = 0
+  \end{align*}
+\end{enumerate}
+
+\hypertarget{spring-2014.3}{%
+\subsection{Spring 2014.3}\label{spring-2014.3}}
+
+Let \(f: {\mathbb{R}}\to {\mathbb{R}}\) and suppose
+\begin{align*}
+\forall x\in {\mathbb{R}},\quad f(x) \geq \limsup _{y \rightarrow x} f(y)
+\end{align*}
+Prove that \(f\) is Borel measurable.
+
+\hypertarget{spring-2014.4}{%
+\subsection{Spring 2014.4}\label{spring-2014.4}}
+
+Let \((X, \mathcal M, \mu)\) be a measure space and suppose \(f\) is a
+measurable function on \(X\). Show that
+\begin{align*}
+\lim _{n \rightarrow \infty} \int_{X} f^{n} ~d \mu =
+\begin{cases}
+\infty & \text{or} \\
+\mu(f^{-1}(1)),
+\end{cases}
+\end{align*}
+and characterize the collection of functions of each type.
+
+\hypertarget{measure-theory-functions}{%
+\section{Measure Theory: Functions}\label{measure-theory-functions}}
+
+\hypertarget{spring-2021.1}{%
+\subsection{Spring 2021.1}\label{spring-2021.1}}
+
+\begin{problem}[Spring 2021, 1]
+
+Let \((X, \mathcal{M},\mu)\) be a measure space and let
+\(E_n \in \mathcal{M}\) be a measurable set for \(n\geq 1\). Let
+\(f_n \coloneqq\chi_{E_n}\) be the indicator function of the set \(E\)
+and show that
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  \(f_n \overset{n\to\infty}\to 1\) uniformly \(\iff\) there exists
+  \(N\in {\mathbb{N}}\) such that \(E_n = X\) for all \(n\geq N\).
+\item
+  \(f_n(x) \overset{n\to\infty}\to 1\) for almost every \(x\) \(\iff\)
+  \begin{align*}
+  \mu \qty{ \displaystyle\bigcap_{n \geq 0} \displaystyle\bigcup_{k \geq n} (X \setminus E_k) } = 0
+  .\end{align*}
+\end{enumerate}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2021.3}{%
+\subsection{Spring 2021.3}\label{spring-2021.3}}
+
+Let \((X, \mathcal{M}, \mu)\) be a finite measure space and let
+\(\left\{{ f_n}\right\}_{n=1}^{\infty } \subseteq L^1(X, \mu)\). Suppose
+\(f\in L^1(X, \mu)\) such that \(f_n(x) \overset{n\to \infty }\to f(x)\)
+for almost every \(x \in X\). Prove that for every \({\varepsilon}> 0\)
+there exists \(M>0\) and a set \(E\subseteq X\) such that
+\(\mu(E) \leq {\varepsilon}\) and
+\({\left\lvert {f_n(x)} \right\rvert}\leq M\) for all
+\(x\in X\setminus E\) and all \(n\in {\mathbb{N}}\).
+
+\hypertarget{fall-2020.2}{%
+\subsection{Fall 2020.2}\label{fall-2020.2}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(f: {\mathbb{R}}\to {\mathbb{R}}\). Prove that
+  \begin{align*}
+  f(x) \leq \liminf_{y\to x} f(y)~ \text{for each}~ x\in {{\mathbb{R}}} \iff \{ x\in {{\mathbb{R}}} \mathrel{\Big|}f(x) > a \}~\text{is open for all}~ a\in {{\mathbb{R}}}
+  \end{align*}
+\item
+  Recall that a function \(f: {{\mathbb{R}}} \to {{\mathbb{R}}}\) is
+  called \emph{lower semi-continuous} iff it satisfies either condition
+  in part (a) above.
+\end{enumerate}
+
+Prove that if \(\mathcal{F}\) is any family of lower semi-continuous
+functions, then
+\begin{align*}
+g(x) = \sup\{ f(x) \mathrel{\Big|}f\in \mathcal{F}\}
+\end{align*}
+is Borel measurable.
+
+\begin{quote}
+Note that \(\mathcal{F}\) need not be a countable family.
+\end{quote}
+
+\hypertarget{fall-2016.2}{%
+\subsection{Fall 2016.2}\label{fall-2016.2}}
+
+Let \(f, g: [a, b] \to {\mathbb{R}}\) be measurable with
+\begin{align*}
+\int_{a}^{b} f(x) ~d x=\int_{a}^{b} g(x) ~d x.
+\end{align*}
+Show that either
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \(f(x) = g(x)\) almost everywhere, or
+\item
+  There exists a measurable set \(E \subset [a, b]\) such that
+  \begin{align*}
+  \int _{E} f(x) \, dx > \int _{E} g(x) \, dx
+  \end{align*}
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Strategy omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2016.4}{%
+\subsection{Spring 2016.4}\label{spring-2016.4}}
+
+Let \(E \subset {\mathbb{R}}\) be measurable with \(m(E) < \infty\).
+Define
+\begin{align*}
+f(x)=m(E \cap(E+x)).
+\end{align*}
+
+Show that
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \(f\in L^1({\mathbb{R}})\).
+\item
+  \(f\) is uniformly continuous.
+\item
+  \(\lim _{|x| \to \infty} f(x) = 0\).
+\end{enumerate}
+
+\begin{quote}
+Hint:
+\begin{align*}
+\chi_{E \cap(E+x)}(y)=\chi_{E}(y) \chi_{E}(y-x)
+\end{align*}
+\end{quote}
+
+\hypertarget{integrals-convergence}{%
+\section{Integrals: Convergence}\label{integrals-convergence}}
+
+\hypertarget{fall-2020.3}{%
+\subsection{Fall 2020.3}\label{fall-2020.3}}
+
+\begin{problem}[?]
+
+Let \(f\) be a non-negative Lebesgue measurable function on
+\([1, \infty)\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that
+  \begin{align*}  
+  1 \leq \qty{
+  {1 \over b-a} \int_a^b f(x) \,dx
+  }\qty{
+  {1\over b-a} \int_a^b {1 \over f(x)}\, dx
+  }
+  \end{align*}
+  for any \(1\leq a < b <\infty\).
+\item
+  Prove that if \(f\) satisfies
+  \begin{align*}  
+  \int_1^t f(x) \, dx \leq t^2 \log(t)
+  \end{align*}
+  for all \(t\in [1, \infty)\), then
+  \begin{align*}  
+  \int_1^\infty {1\over f(x)}\,dx= \infty
+  .\end{align*}
+\end{enumerate}
+
+\begin{quote}
+Hint: write
+\begin{align*}  
+\int_1^\infty {1\over f(x) }\,dx= \sum_{k=0}^\infty \int_{2^k}^{2^{k+1}} {1 \over f(x)}\,dx
+.\end{align*}
+\end{quote}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2021.2}{%
+\subsection{Spring 2021.2}\label{spring-2021.2}}
+
+\begin{problem}[?]
+
+Calculate the following limit, justifying each step of your calculation:
+\begin{align*}
+L \coloneqq\lim_{n\to \infty} \int_0^n { \cos\qty{x\over n} \over x^2 + \cos\qty{x\over n} }\,dx
+.\end{align*}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2021.5}{%
+\subsection{Spring 2021.5}\label{spring-2021.5}}
+
+\begin{problem}[?]
+
+Let \(f_n \in L^2([0, 1])\) for \(n\in {\mathbb{N}}\), and assume that
+
+\begin{itemize}
+\item
+  \({\left\lVert {f_n} \right\rVert}_2 \leq n^{-51 \over 100}\) for all
+  \(n\in {\mathbb{N}}\),
+\item
+  \(\widehat{f}_n\) is supported in the interval \([2^n, 2^{n+1}]\), so
+  \begin{align*}
+  \widehat{f}_n(\xi) \coloneqq\int_0^1 f_n(x) e^{2\pi i \xi \cdot x} \,dx= 0 && \text{for } \xi \not\in [2^n, 2^{n+1}]
+  .\end{align*}
+\end{itemize}
+
+Prove that \(\sum_{n\in {\mathbb{N}}} f_n\) converges in the Hilbert
+space \(L^2([0, 1])\).
+
+\begin{quote}
+Hint: Plancherel's identity may be helpful.
+\end{quote}
+
+\end{problem}
+
+\begin{warnings}
+
+Although this mentions Plancherel, probably what is needed is Parseval's
+identity:
+\begin{align*}
+\sum_{k\in {\mathbb{Z}}} {\left\lvert {\widehat{f}(k)} \right\rvert}^2 = \int_0^1 {\left\lvert {f(x)} \right\rvert}^2\,dx
+.\end{align*}
+
+\end{warnings}
+
+\hypertarget{fall-2019.2}{%
+\subsection{Fall 2019.2}\label{fall-2019.2}}
+
+Prove that
+\begin{align*}
+\left| \frac{d^{n}}{d x^{n}} \frac{\sin x}{x}\right| \leq \frac{1}{n}
+\end{align*}
+
+for all \(x \neq 0\) and positive integers \(n\).
+
+\begin{quote}
+Hint: Consider \(\displaystyle\int_0^1 \cos(tx) dt\)
+\end{quote}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2020.5}{%
+\subsection{Spring 2020.5}\label{spring-2020.5}}
+
+Compute the following limit and justify your calculations:
+\begin{align*}
+\lim_{n\to\infty} \int_0^n \qty{1 + {x^2 \over n}}^{-(n+1)} \,dx
+.\end{align*}
+
+\todo[inline]{Not finished, flesh out.}
+\todo[inline]{Walk through.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2019.3}{%
+\subsection{Spring 2019.3}\label{spring-2019.3}}
+
+Let \(\{f_k\}\) be any sequence of functions in \(L^2([0, 1])\)
+satisfying \({\left\lVert {f_k} \right\rVert}_2 ≤ M\) for all
+\(k ∈ {\mathbb{N}}\).
+
+Prove that if \(f_k \to f\) almost everywhere, then \(f ∈ L^2([0, 1])\)
+with \({\left\lVert {f} \right\rVert}_2 ≤ M\) and
+\begin{align*}
+\lim _{k \rightarrow \infty} \int_{0}^{1} f_{k}(x) dx = \int_{0}^{1} f(x) d x
+\end{align*}
+
+\begin{quote}
+Hint: Try using Fatou's Lemma to show that
+\({\left\lVert {f} \right\rVert}_2 ≤ M\) and then try applying Egorov's
+Theorem.
+\end{quote}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018.6}{%
+\subsection{Fall 2018.6}\label{fall-2018.6}}
+
+Compute the following limit and justify your calculations:
+\begin{align*}
+\lim_{n \rightarrow \infty} \int_{1}^{n} \frac{d x}{\left(1+\frac{x}{n}\right)^{n} \sqrt[n]{x}}
+\end{align*}
+
+\todo[inline]{Add concepts.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018.3}{%
+\subsection{Fall 2018.3}\label{fall-2018.3}}
+
+Suppose \(f(x)\) and \(xf(x)\) are integrable on \({\mathbb{R}}\).
+Define \(F\) by
+\begin{align*}
+F(t)\coloneqq\int _{-\infty}^{\infty} f(x) \cos (x t) dx
+\end{align*}
+Show that
+\begin{align*}
+F'(t)=-\int _{-\infty}^{\infty} x f(x) \sin (x t) dx
+.\end{align*}
+
+\todo[inline]{Walk through.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2018.5}{%
+\subsection{Spring 2018.5}\label{spring-2018.5}}
+
+Suppose that
+
+\begin{itemize}
+\tightlist
+\item
+  \(f_n, f \in L^1\),
+\item
+  \(f_n \to f\) almost everywhere, and
+\item
+  \(\int\left|f_{n}\right| \rightarrow \int|f|\).
+\end{itemize}
+
+Show that \(\int f_{n} \rightarrow \int f\).
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2018.2}{%
+\subsection{Spring 2018.2}\label{spring-2018.2}}
+
+Let
+\begin{align*}
+f_{n}(x):=\frac{x}{1+x^{n}}, \quad x \geq 0.
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that this sequence converges pointwise and find its limit. Is the
+  convergence uniform on \([0, \infty)\)?
+\item
+  Compute
+  \begin{align*}
+  \lim _{n \rightarrow \infty} \int_{0}^{\infty} f_{n}(x) d x
+  \end{align*}
+\end{enumerate}
+
+\todo[inline]{Add concepts.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2016.3}{%
+\subsection{Fall 2016.3}\label{fall-2016.3}}
+
+Let \(f\in L^1({\mathbb{R}})\). Show that
+\begin{align*}
+\lim _{x \to 0} \int _{{\mathbb{R}}} {\left\lvert {f(y-x)-f(y)} \right\rvert} \, dy = 0
+\end{align*}
+\todo[inline]{Missing some stuff.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2015.3}{%
+\subsection{Fall 2015.3}\label{fall-2015.3}}
+
+\begin{problem}[?]
+
+Compute the following limit:
+\begin{align*}
+\lim _{n \rightarrow \infty} \int_{1}^{n} \frac{n e^{-x}}{1+n x^{2}} \, \sin \left(\frac x n\right) \, dx
+\end{align*}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2015.4}{%
+\subsection{Fall 2015.4}\label{fall-2015.4}}
+
+Let \(f: [1, \infty) \to {\mathbb{R}}\) such that \(f(1) = 1\) and
+\begin{align*}
+f^{\prime}(x)= \frac{1} {x^{2}+f(x)^{2}}
+\end{align*}
+
+Show that the following limit exists and satisfies the equality
+\begin{align*}
+\lim _{x \rightarrow \infty} f(x) \leq 1 + \frac \pi 4
+\end{align*}
+
+\hypertarget{integrals-approximation}{%
+\section{Integrals: Approximation}\label{integrals-approximation}}
+
+\hypertarget{fall-2021.2}{%
+\subsection{Fall 2021.2}\label{fall-2021.2}}
+
+\begin{problem}[?]
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(F \subset \mathbb{R}\) be closed, and define
+  \begin{align*}
+  \delta_{F}(y):=\inf _{x \in F}|x-y| .
+  \end{align*}
+  For \(y \notin F\), show that
+  \begin{align*}
+  \int_{F}|x-y|^{-2} d x \leq \frac{2}{\delta_F(y)},
+  \end{align*}
+\item
+  Let \(F \subset \mathbb{R}\) be a closed set whose complement has
+  finite measure, i.e.~\(m({\mathbb{R}}\setminus F)< \infty\). Define
+  the function
+  \begin{align*}
+  I(x):=\int_{\mathbb{R}} \frac{\delta_{F}(y)}{|x-y|^{2}} d y
+  \end{align*}
+  Prove that \(I(x)=\infty\) if \(x \not\in F\), however \(I(x)<\infty\)
+  for almost every \(x \in F\).
+
+  \begin{quote}
+  Hint: investigate \(\int_{F} I(x) d x\).
+  \end{quote}
+\end{enumerate}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2018.3}{%
+\subsection{Spring 2018.3}\label{spring-2018.3}}
+
+Let \(f\) be a non-negative measurable function on \([0, 1]\).
+
+Show that
+\begin{align*}
+\lim _{p \rightarrow \infty}\left(\int_{[0,1]} f(x)^{p} d x\right)^{\frac{1}{p}}=\|f\|_{\infty}.
+\end{align*}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2018.4}{%
+\subsection{Spring 2018.4}\label{spring-2018.4}}
+
+Let \(f\in L^2([0, 1])\) and suppose
+\begin{align*}
+\int _{[0,1]} f(x) x^{n} d x=0 \text { for all integers } n \geq 0.
+\end{align*}
+Show that \(f = 0\) almost everywhere.
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2015.2}{%
+\subsection{Spring 2015.2}\label{spring-2015.2}}
+
+Let \(f: {\mathbb{R}}\to {\mathbb{C}}\) be continuous with period 1.
+Prove that
+\begin{align*}
+\lim _{N \rightarrow \infty} \frac{1}{N} \sum_{n=1}^{N} f(n \alpha)=\int_{0}^{1} f(t) d t \quad \forall \alpha \in {\mathbb{R}}\setminus{\mathbb{Q}}.
+\end{align*}
+
+\begin{quote}
+Hint: show this first for the functions \(f(t) = e^{2\pi i k t}\) for
+\(k\in {\mathbb{Z}}\).
+\end{quote}
+
+\hypertarget{fall-2014.4}{%
+\subsection{Fall 2014.4}\label{fall-2014.4}}
+
+\begin{problem}[?]
+
+Let \(g\in L^\infty([0, 1])\) Prove that
+\begin{align*}
+\int _{[0,1]} f(x) g(x)\, dx = 0 
+\quad\text{for all continuous } f:[0, 1] \to {\mathbb{R}}
+\implies g(x) = 0 \text{ almost everywhere. }
+\end{align*}
+
+\end{problem}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{l1}{%
+\section{\texorpdfstring{\(L^1\)}{L\^{}1}}\label{l1}}
+
+\hypertarget{spring-2021.4}{%
+\subsection{Spring 2021.4}\label{spring-2021.4}}
+
+Let \(f, g\) be Lebesgue integrable on \({\mathbb{R}}\) and let
+\(g_n(x) \coloneqq g(x- n)\). Prove that
+\begin{align*}
+\lim_{n\to \infty } {\left\lVert {f + g_n} \right\rVert}_1 = {\left\lVert {f} \right\rVert}_1 + {\left\lVert {g} \right\rVert}_1
+.\end{align*}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2020.4}{%
+\subsection{Fall 2020.4}\label{fall-2020.4}}
+
+\begin{problem}[?]
+
+Prove that if \(xf(x) \in L^1({\mathbb{R}})\), then
+\begin{align*}  
+F(y) \coloneqq\int f(x) \cos(yx)\,  dx
+\end{align*}
+defines a \(C^1\) function.
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2020.3}{%
+\subsection{Spring 2020.3}\label{spring-2020.3}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(g\in L^1({\mathbb{R}})\) then
+  \begin{align*}
+  \lim_{N\to \infty} \int _{{\left\lvert {x} \right\rvert} \geq N} {\left\lvert {f(x)} \right\rvert} \, dx = 0
+  ,\end{align*}
+  and demonstrate that it is not necessarily the case that
+  \(f(x) \to 0\) as \({\left\lvert {x} \right\rvert}\to \infty\).
+\item
+  Prove that if \(f\in L^1([1, \infty])\) and is decreasing, then
+  \(\lim_{x\to\infty}f(x) =0\) and in fact
+  \(\lim_{x\to \infty} xf(x) = 0\).
+\item
+  If \(f: [1, \infty) \to [0, \infty)\) is decreasing with
+  \(\lim_{x\to \infty} xf(x) = 0\), does this ensure that
+  \(f\in L^1([1, \infty))\)?
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\emph{Solution omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2019.5}{%
+\subsection{Fall 2019.5}\label{fall-2019.5}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that if \(f\) is continuous with compact support on
+  \({\mathbb{R}}\), then
+  \begin{align*}
+  \lim _{y \rightarrow 0} \int_{\mathbb{R}}|f(x-y)-f(x)| d x=0
+  \end{align*}
+\item
+  Let \(f\in L^1({\mathbb{R}})\) and for each \(h > 0\) let
+  \begin{align*}
+  \mathcal{A}_{h} f(x):=\frac{1}{2 h} \int_{|y| \leq h} f(x-y) d y
+  \end{align*}
+\end{enumerate}
+
+\begin{itemize}
+\item
+  Prove that \(\left\|\mathcal{A}_{h} f\right\|_{1} \leq\|f\|_{1}\) for
+  all \(h > 0\).
+\item
+  Prove that \(\mathcal{A}_h f \to f\) in \(L^1({\mathbb{R}})\) as
+  \(h \to 0^+\).
+\end{itemize}
+
+\todo[inline]{Walk through.}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\begin{remark}
+
+This works for arbitrary \(f\in L^1\), using approximation by continuous
+functions with compact support:
+
+\begin{itemize}
+\item
+  Choose \(g\in C_c^0\) such that
+  \({\left\lVert {f- g} \right\rVert}_1 \to 0\).
+\item
+  By translation invariance,
+  \({\left\lVert {\tau_h f - \tau_h g} \right\rVert}_1 \to 0\).
+\item
+  Write
+  \begin{align*}
+  {\left\lVert {\tau f - f} \right\rVert}_1 
+  &= {\left\lVert {\tau_h f - g + g - \tau_h g + \tau_h g - f} \right\rVert}_1 \\
+  &\leq {\left\lVert {\tau_h f - \tau_h g} \right\rVert} + {\left\lVert {g - f} \right\rVert} + {\left\lVert {\tau_h g - g} \right\rVert} \\
+  &\to {\left\lVert {\tau_h g - g} \right\rVert}
+  ,\end{align*}
+
+  so it suffices to show that
+  \({\left\lVert {\tau_h g - g} \right\rVert} \to 0\).
+\end{itemize}
+
+\end{remark}
+
+\hypertarget{fall-2017.3}{%
+\subsection{Fall 2017.3}\label{fall-2017.3}}
+
+Let
+\begin{align*}
+S = \mathop{\mathrm{span}}_{\mathbb{C}}\left\{{\chi_{(a, b)} {~\mathrel{\Big\vert}~}a, b \in {\mathbb{R}}}\right\},
+\end{align*}
+the complex linear span of characteristic functions of intervals of the
+form \((a, b)\).
+
+Show that for every \(f\in L^1({\mathbb{R}})\), there exists a sequence
+of functions \(\left\{{f_n}\right\} \subset S\) such that
+\begin{align*}
+\lim _{n \rightarrow \infty}\left\|f_{n}-f\right\|_{1}=0
+\end{align*}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2015.4}{%
+\subsection{Spring 2015.4}\label{spring-2015.4}}
+
+\begin{problem}[?]
+
+Define
+\begin{align*}
+f(x, y):=\left\{\begin{array}{ll}{\frac{x^{1 / 3}}{(1+x y)^{3 / 2}}} & {\text { if } 0 \leq x \leq y} \\ {0} & {\text { otherwise }}\end{array}\right.
+\end{align*}
+
+Carefully show that \(f \in L^1({\mathbb{R}}^2)\).
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2014.3}{%
+\subsection{Fall 2014.3}\label{fall-2014.3}}
+
+\begin{problem}[?]
+
+Let \(f\in L^1({\mathbb{R}})\). Show that
+\begin{align*}
+\forall\varepsilon > 0 \exists \delta > 0 \text{ such that } \qquad 
+m(E) < \delta 
+\implies 
+\int _{E} |f(x)| \, dx < \varepsilon
+\end{align*}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2014.1}{%
+\subsection{Spring 2014.1}\label{spring-2014.1}}
+
+\begin{problem}[?]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Give an example of a continuous \(f\in L^1({\mathbb{R}})\) such that
+  \(f(x) \not\to 0\) as\({\left\lvert {x} \right\rvert} \to \infty\).
+\item
+  Show that if \(f\) is \emph{uniformly} continuous, then
+  \begin{align*}
+  \lim_{{\left\lvert {x} \right\rvert} \to \infty} f(x) = 0.
+  \end{align*}
+\end{enumerate}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{fubini-tonelli}{%
+\section{Fubini-Tonelli}\label{fubini-tonelli}}
+
+\hypertarget{spring-2021.6}{%
+\subsection{Spring 2021.6}\label{spring-2021.6}}
+
+\begin{warnings}
+
+This problem may be much harder than expected. Recommended skip.
+
+\end{warnings}
+
+Let \(f: {\mathbb{R}}\times{\mathbb{R}}\to {\mathbb{R}}\) be a
+measurable function and for \(x\in {\mathbb{R}}\) define the set
+\begin{align*}
+E_x \coloneqq\left\{{ y\in {\mathbb{R}}{~\mathrel{\Big\vert}~}\mu\qty{ z\in {\mathbb{R}}{~\mathrel{\Big\vert}~}f(x,z) = f(x, y) } > 0 }\right\} 
+.\end{align*}
+Show that the following set is a measurable subset of
+\({\mathbb{R}}\times{\mathbb{R}}\):
+\begin{align*}
+E \coloneqq\displaystyle\bigcup_{x\in {\mathbb{R}}} \left\{{ x }\right\} \times E_x
+.\end{align*}
+
+\begin{quote}
+Hint: consider the measurable function
+\(h(x,y,z) \coloneqq f(x, y) - f(x, z)\).
+\end{quote}
+
+\hypertarget{fall-2021.4}{%
+\subsection{Fall 2021.4}\label{fall-2021.4}}
+
+\begin{problem}[?]
+
+Let \(f\) be a measurable function on \(\mathbb{R}\). Show that the
+graph of \(f\) has measure zero in \(\mathbb{R}^{2}\).
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2020.4}{%
+\subsection{Spring 2020.4}\label{spring-2020.4}}
+
+Let \(f, g\in L^1({\mathbb{R}})\). Argue that
+\(H(x, y) \coloneqq f(y) g(x-y)\) defines a function in
+\(L^1({\mathbb{R}}^2)\) and deduce from this fact that
+\begin{align*}
+(f\ast g)(x) \coloneqq\int_{\mathbb{R}}f(y) g(x-y) \,dy
+\end{align*}
+defines a function in \(L^1({\mathbb{R}})\) that satisfies
+\begin{align*}
+{\left\lVert {f\ast g} \right\rVert}_1 \leq {\left\lVert {f} \right\rVert}_1 {\left\lVert {g} \right\rVert}_1
+.\end{align*}
+
+\emph{Strategy omitted.}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2019.4}{%
+\subsection{Spring 2019.4}\label{spring-2019.4}}
+
+Let \(f\) be a non-negative function on \({\mathbb{R}}^n\) and
+\(\mathcal A = \{(x, t) ∈ {\mathbb{R}}^n \times {\mathbb{R}}: 0 ≤ t ≤ f (x)\}\).
+
+Prove the validity of the following two statements:
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  \(f\) is a Lebesgue measurable function on
+  \({\mathbb{R}}^n \iff \mathcal A\) is a Lebesgue measurable subset of
+  \({\mathbb{R}}^{n+1}\)
+\item
+  If \(f\) is a Lebesgue measurable function on \({\mathbb{R}}^n\), then
+  \begin{align*}
+  m(\mathcal{A})=\int _{{\mathbb{R}}^{n}} f(x) d x=\int_{0}^{\infty} m\left(\left\{x \in {\mathbb{R}}^{n}: f(x) \geq t\right\}\right) dt
+  \end{align*}
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018.5}{%
+\subsection{Fall 2018.5}\label{fall-2018.5}}
+
+Let \(f \geq 0\) be a measurable function on \({\mathbb{R}}\). Show that
+\begin{align*}
+\int _{{\mathbb{R}}} f = \int _{0}^{\infty} m(\{x: f(x)>t\}) dt
+\end{align*}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2015.5}{%
+\subsection{Fall 2015.5}\label{fall-2015.5}}
+
+\begin{problem}[?]
+
+Let \(f, g \in L^1({\mathbb{R}})\) be Borel measurable.
+
+\begin{itemize}
+\tightlist
+\item
+  Show that
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The function
+    \begin{align*}F(x, y) \coloneqq f(x-y) g(y)\end{align*}
+    is Borel measurable on \({\mathbb{R}}^2\), and
+  \item
+    For almost every \(x\in {\mathbb{R}}\), the function \(f(x-y)g(y)\)
+    is integrable with respect to \(y\) on \({\mathbb{R}}\).
+  \end{itemize}
+\item
+  Show that \(f\ast g \in L^1({\mathbb{R}})\) and
+  \begin{align*}
+  \|f * g\|_{1} \leq \|f\|_{1} \|g\|_{1}
+  \end{align*}
+\end{itemize}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2014.5}{%
+\subsection{Spring 2014.5}\label{spring-2014.5}}
+
+\begin{problem}[?]
+
+Let \(f, g \in L^1([0, 1])\) and for all \(x\in [0, 1]\) define
+\begin{align*}
+F(x) \coloneqq\int _{0}^{x} f(y) \, dy 
+{\quad \operatorname{and} \quad}
+G(x)\coloneqq\int _{0}^{x} g(y) \, dy.
+\end{align*}
+
+Prove that
+\begin{align*}
+\int _{0}^{1} F(x) g(x) \, dx = 
+F(1) G(1) - \int _{0}^{1} f(x) G(x) \, dx
+\end{align*}
+
+\end{problem}
+
+\hypertarget{l2-and-fourier-analysis}{%
+\section{\texorpdfstring{\(L^2\) and Fourier
+Analysis}{L\^{}2 and Fourier Analysis}}\label{l2-and-fourier-analysis}}
+
+\hypertarget{fall-2020.5}{%
+\subsection{Fall 2020.5}\label{fall-2020.5}}
+
+\begin{problem}[?]
+
+Suppose \(\varphi\in L^1({\mathbb{R}})\) with
+\begin{align*}  
+\int \varphi(x) \, dx = \alpha
+.\end{align*}
+For each \(\delta > 0\) and \(f\in L^1({\mathbb{R}})\), define
+\begin{align*}  
+A_\delta f(x) \coloneqq\int f(x-y) \delta^{-1} \varphi\qty{\delta^{-1} y}\, dy
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that for all \(\delta > 0\),
+  \begin{align*}  
+  {\left\lVert {A_\delta f} \right\rVert}_1 \leq {\left\lVert {\varphi} \right\rVert}_1 {\left\lVert {f} \right\rVert}_1
+  .\end{align*}
+\item
+  Prove that
+  \begin{align*}  
+  A_\delta f \to \alpha f \text{ in } L^1({\mathbb{R}}) {\quad \operatorname{as} \quad} \delta\to 0^+
+  .\end{align*}
+\end{enumerate}
+
+\begin{quote}
+Hint: you may use without proof the fact that for all
+\(f\in L^1({\mathbb{R}})\),
+\begin{align*}  
+\lim_{y\to 0} \int_{\mathbb{R}}{\left\lvert {f(x-y) - f(x)} \right\rvert}\, dx = 0
+.\end{align*}
+\end{quote}
+
+\end{problem}
+
+\begin{remark}
+
+See Folland 8.14.
+
+\end{remark}
+
+\emph{Solution omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2020.6}{%
+\subsection{Spring 2020.6}\label{spring-2020.6}}
+
+\begin{problem}[?]
+
+\envlist
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that
+  \begin{align*}
+  L^2([0, 1]) \subseteq L^1([0, 1]) {\quad \operatorname{and} \quad} \ell^1({\mathbb{Z}}) \subseteq \ell^2({\mathbb{Z}})
+  .\end{align*}
+\item
+  For \(f\in L^1([0, 1])\) define
+  \begin{align*}
+  \widehat{f}(n) \coloneqq\int _0^1 f(x) e^{-2\pi i n x} \, dx
+  .\end{align*}
+  Prove that if \(f\in L^1([0, 1])\) and
+  \(\left\{{\widehat{f}(n)}\right\} \in \ell^1({\mathbb{Z}})\) then
+  \begin{align*}
+  S_N f(x) \coloneqq\sum_{{\left\lvert {n} \right\rvert} \leq N} \widehat{f} (n) e^{2 \pi i n x}
+  .\end{align*}
+  converges uniformly on \([0, 1]\) to a continuous function \(g\) such
+  that \(g = f\) almost everywhere.
+\end{enumerate}
+
+\begin{quote}
+Hint: One approach is to argue that if \(f\in L^1([0, 1])\) with
+\(\left\{{\widehat{f} (n)}\right\} \in \ell^1({\mathbb{Z}})\) then
+\(f\in L^2([0, 1])\).
+\end{quote}
+
+\end{problem}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\emph{Solution omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2017.5}{%
+\subsection{Fall 2017.5}\label{fall-2017.5}}
+
+Let \(\varphi\) be a compactly supported smooth function that vanishes
+outside of an interval \([-N, N]\) such that
+\(\int _{{\mathbb{R}}} \varphi(x) \, dx = 1\).
+
+For \(f\in L^1({\mathbb{R}})\), define
+\begin{align*}
+K_{j}(x) \coloneqq j \varphi(j x), 
+\qquad 
+f \ast K_{j}(x) \coloneqq\int_{{\mathbb{R}}} f(x-y) K_{j}(y) \, dy
+\end{align*}
+and prove the following:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Each \(f\ast K_j\) is smooth and compactly supported.
+\item
+
+  \begin{align*}
+  \lim _{j \to \infty} {\left\lVert {f * K_{j}-f} \right\rVert}_{1} = 0
+  \end{align*}
+\end{enumerate}
+
+\begin{quote}
+Hint:
+\begin{align*}
+\lim _{y \to 0} \int _{{\mathbb{R}}} |f(x-y)-f(x)| dy = 0
+\end{align*}
+\end{quote}
+
+\todo[inline]{Add concepts.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2017.5}{%
+\subsection{Spring 2017.5}\label{spring-2017.5}}
+
+Let \(f, g \in L^2({\mathbb{R}})\). Prove that the formula
+\begin{align*}
+h(x) \coloneqq\int _{-\infty}^{\infty} f(t) g(x-t) \, dt
+\end{align*}
+defines a uniformly continuous function \(h\) on \({\mathbb{R}}\).
+
+\hypertarget{spring-2015.6}{%
+\subsection{Spring 2015.6}\label{spring-2015.6}}
+
+Let \(f \in L^1({\mathbb{R}})\) and \(g\) be a bounded measurable
+function on \({\mathbb{R}}\).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Show that the convolution \(f\ast g\) is well-defined, bounded, and
+  uniformly continuous on \({\mathbb{R}}\).
+\item
+  Prove that one further assumes that \(g \in C^1({\mathbb{R}})\) with
+  bounded derivative, then \(f\ast g \in C^1({\mathbb{R}})\) and
+  \begin{align*}
+  \frac{d}{d x}(f * g)=f *\left(\frac{d}{d x} g\right)
+  \end{align*}
+\end{enumerate}
+
+\hypertarget{fall-2014.5}{%
+\subsection{Fall 2014.5}\label{fall-2014.5}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Let \(f \in C_c^0({\mathbb{R}}^n)\), and show
+  \begin{align*}
+  \lim _{t \to 0} \int_{{\mathbb{R}}^n} |f(x+t) - f(x)| \, dx = 0
+  .\end{align*}
+\item
+  Extend the above result to \(f\in L^1({\mathbb{R}}^n)\) and show that
+  \begin{align*}
+  f\in L^1({\mathbb{R}}^n), \quad g\in L^\infty({\mathbb{R}}^n) \quad
+  \implies f \ast g \text{ is bounded and uniformly continuous. }
+  \end{align*}
+\end{enumerate}
+
+\hypertarget{functional-analysis-general}{%
+\section{Functional Analysis:
+General}\label{functional-analysis-general}}
+
+\hypertarget{fall-2019.4}{%
+\subsection{Fall 2019.4}\label{fall-2019.4}}
+
+Let \(\{u_n\}_{n=1}^∞\) be an orthonormal sequence in a Hilbert space
+\(\mathcal{H}\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that for every \(x ∈ \mathcal H\) one has
+  \begin{align*}
+  \displaystyle\sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2} \leq\|x\|^{2}
+  \end{align*}
+\item
+  Prove that for any sequence
+  \(\{a_n\}_{n=1}^\infty \in \ell^2({\mathbb{N}})\) there exists an
+  element \(x\in\mathcal H\) such that
+  \begin{align*}
+  a_n = {\left\langle {x},~{u_n} \right\rangle} \text{ for all } n\in {\mathbb{N}}
+  \end{align*}
+  and
+  \begin{align*}
+  {\left\lVert {x} \right\rVert}^2 = \sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2}
+  \end{align*}
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2019.5}{%
+\subsection{Spring 2019.5}\label{spring-2019.5}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(L^2([0, 1]) ⊆ L^1([0, 1])\) and argue that \(L^2([0, 1])\)
+  in fact forms a dense subset of \(L^1([0, 1])\).
+\item
+  Let \(Λ\) be a continuous linear functional on \(L^1([0, 1])\).
+\end{enumerate}
+
+Prove the Riesz Representation Theorem for \(L^1([0, 1])\) by following
+the steps below:
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\tightlist
+\item
+  Establish the existence of a function \(g ∈ L^2([0, 1])\) which
+  represents \(Λ\) in the sense that
+  \begin{align*}
+    Λ(f ) = f (x)g(x) dx \text{ for all } f ∈ L^2([0, 1]).
+    \end{align*}
+\end{enumerate}
+
+\begin{quote}
+Hint: You may use, without proof, the Riesz Representation Theorem for
+\(L^2([0, 1])\).
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Argue that the \(g\) obtained above must in fact belong to
+  \(L^∞([0, 1])\) and represent \(Λ\) in the sense that
+  \begin{align*}
+    \Lambda(f)=\int_{0}^{1} f(x) \overline{g(x)} d x \quad \text { for all } f \in L^{1}([0,1])
+    \end{align*}
+  with
+  \begin{align*}
+    \|g\|_{L^{\infty}([0,1])} = \|\Lambda\|_{L^{1}([0,1]) {}^{ \vee }}
+    \end{align*}
+\end{enumerate}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2016.6}{%
+\subsection{Spring 2016.6}\label{spring-2016.6}}
+
+Without using the Riesz Representation Theorem, compute
+\begin{align*}
+\sup \left\{\left|\int_{0}^{1} f(x) e^{x} d x\right| {~\mathrel{\Big\vert}~}f \in L^{2}([0,1], m),~~ \|f\|_{2} \leq 1\right\}
+\end{align*}
+
+\hypertarget{spring-2015.5}{%
+\subsection{Spring 2015.5}\label{spring-2015.5}}
+
+Let \(\mathcal H\) be a Hilbert space.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Let \(x\in \mathcal H\) and \(\left\{{u_n}\right\}_{n=1}^N\) be an
+  orthonormal set. Prove that the best approximation to \(x\) in
+  \(\mathcal H\) by an element in
+  \(\mathop{\mathrm{span}}_{\mathbb{C}}\left\{{u_n}\right\}\) is given
+  by
+  \begin{align*}
+    \widehat{x} \coloneqq\sum_{n=1}^N {\left\langle {x},~{u_n} \right\rangle}u_n.
+    \end{align*}
+\item
+  Conclude that finite dimensional subspaces of \(\mathcal H\) are
+  always closed.
+\end{enumerate}
+
+\hypertarget{fall-2015.6}{%
+\subsection{Fall 2015.6}\label{fall-2015.6}}
+
+Let \(f: [0, 1] \to {\mathbb{R}}\) be continuous. Show that
+\begin{align*}
+\sup \left\{\|f g\|_{1} {~\mathrel{\Big\vert}~}g \in L^{1}[0,1],~~ \|g\|_{1} \leq 1\right\}=\|f\|_{\infty}
+\end{align*}
+
+\hypertarget{fall-2014.6}{%
+\subsection{Fall 2014.6}\label{fall-2014.6}}
+
+Let \(1 \leq p,q \leq \infty\) be conjugate exponents, and show that
+\begin{align*}
+f \in L^p({\mathbb{R}}^n) \implies \|f\|_{p} = \sup _{\|g\|_{q}=1}\left|\int f(x) g(x) d x\right|
+\end{align*}
+
+\hypertarget{banach-and-hilbert-spaces}{%
+\section{Banach and Hilbert Spaces}\label{banach-and-hilbert-spaces}}
+
+\hypertarget{fall-2021.5}{%
+\subsection{Fall 2021.5}\label{fall-2021.5}}
+
+Consider the Hilbert space \(\mathcal{H}=L^{2}([0,1])\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that of \(E \subset \mathcal{H}\) is closed and convex then
+  \(E\) contains an element of smallest norm.
+
+  \begin{quote}
+  Hint: Show that if
+  \(\left\|f_{n}\right\|_{2} \rightarrow \min \left\{f \in E:\|f\|_{2}\right\}\)
+  then \(\left\{f_{n}\right\}\) is a Cauchy sequence.
+  \end{quote}
+\item
+  Construct a non-empty closed subset \(E \subset \mathcal{H}\) which
+  does not contain an element of smallest norm.
+\end{enumerate}
+
+\hypertarget{spring-2019.1}{%
+\subsection{Spring 2019.1}\label{spring-2019.1}}
+
+Let \(C([0, 1])\) denote the space of all continuous real-valued
+functions on \([0, 1]\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that \(C([0, 1])\) is complete under the uniform norm
+  \({\left\lVert {f} \right\rVert}_u := \displaystyle\sup_{x\in [0,1]} |f (x)|\).
+\item
+  Prove that \(C([0, 1])\) is not complete under the
+  \(L^1{\hbox{-}}\)norm
+  \({\left\lVert {f} \right\rVert}_1 = \displaystyle\int_0^1 |f (x)| ~dx\).
+\end{enumerate}
+
+\todo[inline]{Add concepts.}
+
+\emph{Solution omitted.}
+
+\hypertarget{spring-2017.6}{%
+\subsection{Spring 2017.6}\label{spring-2017.6}}
+
+Show that the space \(C^1([a, b])\) is a Banach space when equipped with
+the norm
+\begin{align*}
+\|f\|:=\sup _{x \in[a, b]}|f(x)|+\sup _{x \in[a, b]}\left|f^{\prime}(x)\right|.
+\end{align*}
+
+\todo[inline]{Add concepts.}
+
+\emph{Concept review omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2017.6}{%
+\subsection{Fall 2017.6}\label{fall-2017.6}}
+
+Let \(X\) be a complete metric space and define a norm
+\begin{align*}
+\|f\|:=\max \{|f(x)|: x \in X\}.
+\end{align*}
+
+Show that \((C^0({\mathbb{R}}), {\left\lVert {{-}} \right\rVert} )\)
+(the space of continuous functions \(f: X\to {\mathbb{R}}\)) is
+complete.
+
+\todo[inline]{Add concepts.}
+\todo[inline]{Shouldn't this be a supremum? The max may not exist?}
+\todo[inline]{Review and clean up.}
+
+\emph{Solution omitted.}
+
+\hypertarget{extras}{%
+\section{Extras}\label{extras}}
+
+\begin{exercise}[?]
+
+Compute the following limits:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\lim_{n\to\infty} \sum_{k\geq 1} {1\over k^2} \sin^n(k)\)
+\item
+  \(\lim_{n\to\infty} \sum_{k\geq 1} {1\over k} e^{-k/n}\)
+\end{itemize}
+
+\end{exercise}
+
+\emph{Solution omitted.}
+
+\begin{exercise}[?]
+
+Let \((\Omega,{\mathcal{B}})\) be a measurable space with a Borel
+\(\sigma{\hbox{-}}\)algebra and \(\mu_n: {\mathcal{B}}\to [0, \infty]\)
+be a \(\sigma{\hbox{-}}\)additive measure for each \(n\). Show that the
+following map is again a \(\sigma{\hbox{-}}\)additive measure on
+\({\mathcal{B}}\):
+\begin{align*}
+\mu(B) \coloneqq\sum_{n\geq 1} \mu_n(B)
+.\end{align*}
+
+\end{exercise}
+
+\emph{Solution omitted.}
+
+\hypertarget{extra-problems-measure-theory}{%
+\section{Extra Problems: Measure
+Theory}\label{extra-problems-measure-theory}}
+
+\hypertarget{greatest-hits}{%
+\subsection{Greatest Hits}\label{greatest-hits}}
+
+\begin{itemize}
+\item
+  \(\star\): Show that for \(E\subseteq {\mathbb{R}}^n\), TFAE:
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    \(E\) is measurable
+  \item
+    \(E = H\cup Z\) here \(H\) is \(F_\sigma\) and \(Z\) is null
+  \item
+    \(E = V\setminus Z'\) where \(V\in G_\delta\) and \(Z'\) is null.
+  \end{enumerate}
+\item
+  \(\star\): Show that if \(E\subseteq {\mathbb{R}}^n\) is measurable
+  then
+  \(m(E) = \sup \left\{{ m(K) {~\mathrel{\Big\vert}~}K\subset E\text{ compact}}\right\}\)
+  iff for all \({\varepsilon}> 0\) there exists a compact
+  \(K\subseteq E\) such that \(m(K) \geq m(E) - {\varepsilon}\).
+\item
+  \(\star\): Show that cylinder functions are measurable, i.e.~if \(f\)
+  is measurable on \({\mathbb{R}}^s\), then \(F(x, y) \coloneqq f(x)\)
+  is measurable on \({\mathbb{R}}^s\times{\mathbb{R}}^t\) for any \(t\).
+\item
+  \(\star\): Prove that the Lebesgue integral is translation invariant,
+  i.e.~if \(\tau_h(x) = x+h\) then \(\int \tau_h f = \int f\).
+\item
+  \(\star\): Prove that the Lebesgue integral is dilation invariant,
+  i.e.~if \(f_\delta(x) = {f({x\over \delta}) \over \delta^n}\) then
+  \(\int f_\delta = \int f\).
+\item
+  \(\star\): Prove continuity in \(L^1\), i.e.
+  \begin{align*}
+  f \in L^{1} \Longrightarrow \lim _{h \rightarrow 0} \int|f(x+h)-f(x)|=0
+  .\end{align*}
+\item
+  \(\star\): Show that
+  \begin{align*}f,g \in L^1 \implies f\ast g \in L^1 {\quad \operatorname{and} \quad} {\left\lVert {f\ast g} \right\rVert}_1 \leq {\left\lVert {f} \right\rVert}_1 {\left\lVert {g} \right\rVert}_1.\end{align*}
+\item
+  \(\star\): Show that if \(X\subseteq {\mathbb{R}}\) with
+  \(\mu(X) < \infty\) then
+  \begin{align*}  
+  {\left\lVert {f} \right\rVert}_p \overset{p\to\infty}\to {\left\lVert {f} \right\rVert}_\infty
+  .\end{align*}
+\end{itemize}
+
+\hypertarget{topology}{%
+\subsection{Topology}\label{topology}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that every compact set is closed and bounded.
+\item
+  Show that if a subset of a metric space is complete and totally
+  bounded, then it is compact.
+\item
+  Show that if \(K\) is compact and \(F\) is closed with \(K, F\)
+  disjoint then \(\operatorname{dist}(K, F) > 0\).
+\end{itemize}
+
+\hypertarget{continuity}{%
+\subsection{Continuity}\label{continuity}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that a continuous function on a compact set is uniformly
+  continuous.
+\end{itemize}
+
+\hypertarget{differentiation}{%
+\subsection{Differentiation}\label{differentiation}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that if \(f\in C^1({\mathbb{R}})\) and both
+  \(\lim_{x\to \infty} f(x)\) and \(\lim_{x\to \infty} f'(x)\) exist,
+  then \(\lim_{x\to\infty} f'(x)\) must be zero.
+\end{itemize}
+
+\hypertarget{advanced-limitology}{%
+\subsection{Advanced Limitology}\label{advanced-limitology}}
+
+\begin{itemize}
+\tightlist
+\item
+  If \(f\) is continuous, is it necessarily the case that \(f'\) is
+  continuous?
+\item
+  If \(f_n \to f\), is it necessarily the case that \(f_n'\) converges
+  to \(f'\) (or at all)?
+\item
+  Is it true that the sum of differentiable functions is differentiable?
+\item
+  Is it true that the limit of integrals equals the integral of the
+  limit?
+\item
+  Is it true that a limit of continuous functions is continuous?
+\item
+  Show that a subset of a metric space is closed iff it is complete.
+\item
+  Show that if \(m(E) < \infty\) and \(f_n\to f\) uniformly, then
+  \(\lim \int_E f_n = \int_E f\).
+\end{itemize}
+
+\hypertarget{uniform-convergence}{%
+\subsection{Uniform Convergence}\label{uniform-convergence}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that a uniform limit of bounded functions is bounded.
+\item
+  Show that a uniform limit of continuous function is continuous.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    I.e. if \(f_n\to f\) uniformly with each \(f_n\) continuous then
+    \(f\) is continuous.
+  \end{itemize}
+\item
+  Show that
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(f_n: [a, b]\to {\mathbb{R}}\) are continuously differentiable with
+    derivatives \(f_n'\)
+  \item
+    The sequence of derivatives \(f_n'\) converges uniformly to some
+    function \(g\)
+  \item
+    There exists \emph{at least one} point \(x_0\) such that
+    \(\lim_n f_n(x_0)\) exists,
+  \item
+    Then \(f_n \to f\) uniformly to some differentiable \(f\), and
+    \(f' = g\).
+  \end{itemize}
+\item
+  Prove that uniform convergence implies pointwise convergence implies
+  a.e. convergence, but none of the implications may be reversed.
+\item
+  Show that \(\sum {x^n \over n!}\) converges uniformly on any compact
+  subset of \({\mathbb{R}}\).
+\end{itemize}
+
+\hypertarget{measure-theory}{%
+\subsection{Measure Theory}\label{measure-theory}}
+
+\begin{itemize}
+\item
+  Show that continuity of measure from above/below holds for outer
+  measures.
+\item
+  Show that a countable union of null sets is null.
+\end{itemize}
+
+Measurability
+
+\begin{itemize}
+\tightlist
+\item
+  Show that \(f=0\) a.e. iff \(\int_E f = 0\) for every measurable set
+  \(E\).
+\end{itemize}
+
+Integrability
+
+\begin{itemize}
+\tightlist
+\item
+  Show that if \(f\) is a measurable function, then \(f=0\) a.e. iff
+  \(\int f = 0\).
+\item
+  Show that a bounded function is Lebesgue integrable iff it is
+  measurable.
+\item
+  Show that simple functions are dense in \(L^1\).
+\item
+  Show that step functions are dense in \(L^1\).
+\item
+  Show that smooth compactly supported functions are dense in \(L^1\).
+\end{itemize}
+
+\hypertarget{convergence}{%
+\subsection{Convergence}\label{convergence}}
+
+\begin{itemize}
+\tightlist
+\item
+  Prove Fatou's lemma using the Monotone Convergence Theorem.
+\item
+  Show that if \(\left\{{f_n}\right\}\) is in \(L^1\) and
+  \(\sum \int {\left\lvert {f_n} \right\rvert} < \infty\) then
+  \(\sum f_n\) converges to an \(L^1\) function and
+  \begin{align*}\int \sum f_n = \sum \int f_n.\end{align*}
+\end{itemize}
+
+\hypertarget{convolution}{%
+\subsection{Convolution}\label{convolution}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that if \(f, g\) are continuous and compactly supported, then so
+  is \(f\ast g\).
+\item
+  Show that if \(f\in L^1\) and \(g\) is bounded, then \(f\ast g\) is
+  bounded and uniformly continuous.
+\item
+  If \(f, g\) are compactly supported, is it necessarily the case that
+  \(f\ast g\) is compactly supported?
+\item
+  Show that under any of the following assumptions, \(f\ast g\) vanishes
+  at infinity:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(f, g\in L^1\) are both bounded.
+  \item
+    \(f, g\in L^1\) with just \(g\) bounded.
+  \item
+    \(f, g\) smooth and compactly supported (and in fact \(f\ast g\) is
+    smooth)
+  \item
+    \(f\in L^1\) and \(g\) smooth and compactly supported (and in fact
+    \(f\ast g\) is smooth)
+  \end{itemize}
+\item
+  Show that if \(f\in L^1\) and \(g'\) exists with
+  \({\frac{\partial g}{\partial x_i}\,}\) all bounded, then
+  \begin{align*}{\frac{\partial }{\partial x_i}\,}(f\ast g) = f \ast {\frac{\partial g}{\partial x_i}\,}\end{align*}
+\end{itemize}
+
+\hypertarget{fourier-analysis}{%
+\subsection{Fourier Analysis}\label{fourier-analysis}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that if \(f\in L^1\) then \(\widehat{f}\) is bounded and
+  uniformly continuous.
+\item
+  Is it the case that \(f\in L^1\) implies \(\widehat{f}\in L^1\)?
+\item
+  Show that if \(f, \widehat{f} \in L^1\) then \(f\) is bounded,
+  uniformly continuous, and vanishes at infinity.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Show that this is not true for arbitrary \(L^1\) functions.
+  \end{itemize}
+\item
+  Show that if \(f\in L^1\) and \(\widehat{f} = 0\) almost everywhere
+  then \(f = 0\) almost everywhere.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Prove that \(\widehat{f} = \widehat{g}\) implies that \(f=g\) a.e.
+  \end{itemize}
+\item
+  Show that if \(f, g \in L^1\) then
+  \begin{align*}\int \widehat{f} g = \int f\widehat{g}.\end{align*}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Give an example showing that this fails if \(g\) is not bounded.
+  \end{itemize}
+\item
+  Show that if \(f\in C^1\) then \(f\) is equal to its Fourier
+  \emph{series}.
+\end{itemize}
+
+\hypertarget{approximate-identities}{%
+\subsection{Approximate Identities}\label{approximate-identities}}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that if \(\phi\) is an approximate identity, then
+  \begin{align*}{\left\lVert {f\ast \phi_t - f} \right\rVert}_1 \overset{t\to 0}\to 0.\end{align*}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Show that if additionally
+    \({\left\lvert {\phi(x)} \right\rvert} \leq c(1 + {\left\lvert {x} \right\rvert})^{-n-{\varepsilon}}\)
+    for some \(c,{\varepsilon}>0\), then this converges is almost
+    everywhere.
+  \end{itemize}
+\item
+  Show that is \(f\) is bounded and uniformly continuous and \(\phi_t\)
+  is an approximation to the identity, then \(f\ast \phi_t\) uniformly
+  converges to \(f\).
+\end{itemize}
+
+\(L^p\) Spaces
+
+\begin{itemize}
+\tightlist
+\item
+  Show that if \(E\subseteq {\mathbb{R}}^n\) is measurable with
+  \(\mu(E) < \infty\) and \(f\in L^p(X)\) then
+  \begin{align*}{\left\lVert {f} \right\rVert}_{L^p(X)} \overset{p\to\infty}\to {\left\lVert {f} \right\rVert}_\infty.\end{align*}
+\item
+  Is it true that the converse to the DCT holds? I.e. if
+  \(\int f_n \to \int f\), is there a \(g\in L^p\) such that \(f_n < g\)
+  a.e. for every \(n\)?
+\item
+  Prove continuity in \(L^p\): If \(f\) is uniformly continuous then for
+  all \(p\),
+  \begin{align*}{\left\lVert {\tau_h f - f} \right\rVert}_p \overset{h\to 0}\to 0.\end{align*}
+\item
+  Prove the following inclusions of \(L^p\) spaces for
+  \(m(X) < \infty\):
+  \begin{align*}
+  L^\infty(X) &\subset L^2(X) \subset L^1(X) \\
+  \ell^2({\mathbb{Z}}) &\subset \ell^1({\mathbb{Z}}) \subset \ell^\infty({\mathbb{Z}})
+  .\end{align*}
+\end{itemize}
+
+\hypertarget{unsorted}{%
+\subsection{Unsorted}\label{unsorted}}
+
+\begin{proposition}[Volumes of Rectangles]
+
+If \(\left\{{R_j}\right\} \rightrightarrows R\) is a covering of \(R\)
+by rectangles,
+\begin{align*}
+R = \overset{\circ}{\displaystyle\coprod_{j}} R_j &\implies {\left\lvert {R} \right\rvert} = \sum {\left\lvert {R} \right\rvert}_j \\
+R \subseteq \displaystyle\bigcup_j R_j &\implies {\left\lvert {R} \right\rvert} \leq \sum {\left\lvert {R} \right\rvert}_j
+.\end{align*}
+
+\end{proposition}
+
+\begin{itemize}
+\tightlist
+\item
+  Show that any disjoint intervals is countable.
+\item
+  Show that every open \(U \subseteq {\mathbb{R}}\) is a countable union
+  of disjoint open intervals.
+\item
+  Show that every open \(U \subseteq {\mathbb{R}}^n\) is a countable
+  union of \emph{almost} disjoint closed cubes.
+\item
+  Show that that Cantor middle-thirds set is compact, totally
+  disconnected, and perfect, with outer measure zero.
+\item
+  Prove the Borel-Cantelli lemma.
+\end{itemize}
+
+\hypertarget{extra-problems-from-problem-sets}{%
+\section{Extra Problems from Problem
+Sets}\label{extra-problems-from-problem-sets}}
+
+\hypertarget{continuous-on-compact-implies-uniformly-continuous}{%
+\subsection{Continuous on compact implies uniformly
+continuous}\label{continuous-on-compact-implies-uniformly-continuous}}
+
+\begin{problem}[?]
+
+Show that a continuous function on a compact set is uniformly
+continuous.
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{section}{%
+\subsection{2010 6.1}\label{section}}
+
+\begin{problem}[?]
+
+Show that
+\begin{align*}
+\int_{{\mathbb{B}}^n} {1 \over {\left\lvert {x} \right\rvert}^p } \,dx&< \infty \iff p < n \\ \\ \\ 
+\int_{{\mathbb{R}}^n\setminus{\mathbb{B}}^n} {1 \over {\left\lvert {x} \right\rvert}^p } \,dx&< \infty \iff p > n 
+.\end{align*}
+
+\end{problem}
+
+\emph{Solution omitted.}
+
+\hypertarget{section-1}{%
+\subsection{2010 6.2}\label{section-1}}
+
+Show that
+\begin{align*}
+\int_{{\mathbb{R}}^n} {\left\lvert { f} \right\rvert} = \int_0^{\infty } m(A_t)\,dt&& A_t \coloneqq\left\{{x\in {\mathbb{R}}^n {~\mathrel{\Big\vert}~}{\left\lvert {f(x)} \right\rvert} > t}\right\}
+.\end{align*}
+
+\emph{Solution omitted.}
+
+\hypertarget{section-2}{%
+\subsection{2010 6.5}\label{section-2}}
+
+Suppose \(F \subseteq {\mathbb{R}}\) with \(m(F^c) < \infty\) and let
+\(\delta(x) \coloneqq d(x, F)\) and
+\begin{align*}
+I_F(x) \coloneqq\int_{\mathbb{R}}{ \delta(y) \over {\left\lvert {x-y} \right\rvert}^2 } \,dy
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(\delta\) is continuous.
+\item
+  Show that if \(x\in F^c\) then \(I_F(x) = \infty\).
+\item
+  Show that \(I_F(x) < \infty\) for almost every \(x\)
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{section-3}{%
+\subsection{2010 7.1}\label{section-3}}
+
+Let \((X, \mathcal{M}, \mu)\) be a measure space and prove the following
+properties of \(L^ \infty (X, \mathcal{M}, \mu)\):
+
+\begin{itemize}
+\item
+  If \(f, g\) are measurable on \(X\) then
+  \begin{align*}
+  {\left\lVert {fg} \right\rVert}_1 \leq {\left\lVert {f} \right\rVert}_1 {\left\lVert {g} \right\rVert}_{\infty }
+  .\end{align*}
+\item
+  \({\left\lVert {{-}} \right\rVert}_{\infty }\) is a norm on
+  \(L^{\infty }\) making it a Banach space.
+\item
+  \({\left\lVert {f_n - f} \right\rVert}_{\infty } \overset{n\to \infty }\to 0 \iff\)
+  there exists an \(E\in \mathcal{M}\) such that
+  \(\mu(X\setminus E) = 0\) and \(f_n \to f\) uniformly on \(E\).
+\item
+  Simple functions are dense in \(L^{\infty }\).
+\end{itemize}
+
+\hypertarget{section-4}{%
+\subsection{2010 7.2}\label{section-4}}
+
+Show that for \(0 < p < q \leq \infty\),
+\({\left\lVert {a} \right\rVert}_{\ell^q} \leq {\left\lVert {a} \right\rVert}_{\ell^p}\)
+over \({\mathbb{C}}\), where
+\({\left\lVert {a} \right\rVert}_{\infty } \coloneqq\sup_j {\left\lvert {a_j} \right\rvert}\).
+
+\hypertarget{section-5}{%
+\subsection{2010 7.3}\label{section-5}}
+
+Let \(f, g\) be non-negative measurable functions on \([0, \infty)\)
+with
+\begin{align*}
+A &\coloneqq\int_0^{\infty } f(y) y^{-1/2} \,dy< \infty \\
+B &\coloneqq\qty{ \int_0^{\infty } {\left\lvert { g(y) } \right\rvert} }^2 \,dy< \infty  
+.\end{align*}
+
+Show that
+\begin{align*}
+\int_0^{\infty } \qty{ \int_0^{\infty } f(y) \,dy} {g(x) \over x} \,dx\leq AB
+.\end{align*}
+
+\hypertarget{section-6}{%
+\subsection{2010 7.4}\label{section-6}}
+
+Let \((X, \mathcal{M}, \mu)\) be a measure space and
+\(0 < p < q< \infty\). Prove that if \(L^q(X) \subseteq L^p(X)\), then
+\(X\) does not contain sets of arbitrarily large finite measure.
+
+\hypertarget{section-7}{%
+\subsection{2010 7.5}\label{section-7}}
+
+Suppose \(0 < a < b \leq \infty\), and find examples of functions
+\(f \in L^p((0, \infty ))\) if and only if:
+
+\begin{itemize}
+\item
+  \(a < p < b\)
+\item
+  \(a \leq p \leq b\)
+\item
+  \(p = a\)
+\end{itemize}
+
+\emph{Hint: consider functions of the following form:}
+\begin{align*}
+f(x) \coloneqq x^{- \alpha} {\left\lvert { \log(x) } \right\rvert}^{ \beta}
+.\end{align*}
+
+\hypertarget{section-8}{%
+\subsection{2010 7.6}\label{section-8}}
+
+Define
+\begin{align*}
+F(x) &\coloneqq\qty{ \sin(\pi x) \over \pi x}^2 \\
+G(x) &\coloneqq
+\begin{cases}
+1 - {\left\lvert {x} \right\rvert} & {\left\lvert {x} \right\rvert} \leq 1
+\\
+0 & \text{else}.
+\end{cases}
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(\widehat{G}(\xi) = F(\xi)\)
+\item
+  Compute \(\widehat{F}\).
+\item
+  Give an example of a function \(g\not \in L^1({\mathbb{R}})\) which is
+  the Fourier transform of an \(L^1\) function.
+\end{enumerate}
+
+\emph{Hint: write \(\widehat{G}(\xi) = H(\xi) + H(-\xi)\) where}
+\begin{align*}
+H(\xi) \coloneqq e^{2\pi i \xi} \int_0^1 y e^{2\pi i y \xi }\,dy
+.\end{align*}
+
+\hypertarget{section-9}{%
+\subsection{2010 7.7}\label{section-9}}
+
+Show that for each \(\epsilon>0\) the following function is the Fourier
+transform of an \(L^1({\mathbb{R}}^n)\) function:
+\begin{align*}
+F(\xi) \coloneqq\qty{1 \over 1 + {\left\lvert {\xi} \right\rvert}^2}^{\epsilon}
+.\end{align*}
+
+\emph{Hint: show that}
+
+\begin{align*}
+K_\delta(x) &\coloneqq\delta^{-n/2} e^{-\pi {\left\lvert {x} \right\rvert}^2 \over \delta} \\
+f(x) &\coloneqq\int_0^{\infty } K_{\delta}(x) e^{-\pi \delta} \delta^{\epsilon - 1} \,d \delta \\
+\Gamma(s) &\coloneqq\int_0^{\infty } e^{-t} t^{s-1} \,dt\\
+\implies \widehat{f}(\xi) &= \int_0^{\infty } e^{- \pi \delta {\left\lvert {\xi} \right\rvert}^2} e^{ -\pi \delta} \delta^{\epsilon - 1}
+= \pi^{-s} \Gamma(\epsilon) F(\xi)
+.\end{align*}
+
+\hypertarget{challenge-1-generalized-holder}{%
+\subsection{2010 7 Challenge 1: Generalized
+Holder}\label{challenge-1-generalized-holder}}
+
+Suppose that
+\begin{align*}
+1\leq p_j \leq \infty, && \sum_{j=1}^n {1\over p_j} = {1\over r} \leq 1
+.\end{align*}
+
+Show that if \(f_j \in L^{p_j}\) for each \(1\leq j \leq n\), then
+\begin{align*}
+\prod f_j \in L^r, && {\left\lVert { \prod f_j } \right\rVert}_r \leq \prod {\left\lVert {f_j} \right\rVert}_{p_j}
+.\end{align*}
+
+\hypertarget{challenge-2-youngs-inequality}{%
+\subsection{2010 7 Challenge 2: Young's
+Inequality}\label{challenge-2-youngs-inequality}}
+
+Suppose \(1\leq p,q,r \leq \infty\) with
+\begin{align*}
+{1\over p } + {1 \over q} = 1 + {1 \over r}
+.\end{align*}
+
+Prove that
+\begin{align*}
+f \in L^p, g\in L^q \implies f \ast g \in L^r \text{ and } {\left\lVert {f \ast g} \right\rVert}_r \leq {\left\lVert {f} \right\rVert}_p {\left\lVert {g} \right\rVert}_q
+.\end{align*}
+
+\hypertarget{section-10}{%
+\subsection{2010 9.1}\label{section-10}}
+
+Show that the set
+\(\left\{{ u_k(j) \coloneqq\delta_{ij} }\right\} \subseteq \ell^2({\mathbb{Z}})\)
+and forms an orthonormal system.
+
+\hypertarget{section-11}{%
+\subsection{2010 9.2}\label{section-11}}
+
+Consider \(L^2([0, 1])\) and define
+\begin{align*}
+e_0(x) &= 1 \\
+e_1(x) &= \sqrt{3}(2x-1)
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(\left\{{e_0, e_1}\right\}\) is an orthonormal system.
+\item
+  Show that the polynomial \(p(x)\) where \(\deg(p) = 1\) which is
+  closest to \(f(x) = x^2\) in \(L^2([0, 1])\) is given by
+  \begin{align*}
+  h(x) = x - {1\over 6}
+  .\end{align*}
+\end{enumerate}
+
+Compute \({\left\lVert {f - g} \right\rVert}_2\).
+
+\hypertarget{section-12}{%
+\subsection{2010 9.3}\label{section-12}}
+
+Let \(E \subseteq H\) a Hilbert space.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(E\perp \subseteq H\) is a closed subspace.
+\item
+  Show that \((E^\perp)^\perp = { \operatorname{cl}} _H(E)\).
+\end{enumerate}
+
+\hypertarget{b}{%
+\subsection{2010 9.5b}\label{b}}
+
+Let \(f\in L^1((0, 2\pi))\).
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\tightlist
+\item
+  Show that for an \(\epsilon>0\) one can write \(f = g+h\) where
+  \(g\in L^2((0, 2\pi))\) and
+  \({\left\lVert {H} \right\rVert}_1 < \epsilon\).
+\end{enumerate}
+
+\hypertarget{section-13}{%
+\subsection{2010 9.6}\label{section-13}}
+
+Prove that every closed convex \(K \subset H\) a Hilbert space has a
+unique element of minimal norm.
+
+\hypertarget{challenge}{%
+\subsection{2010 9 Challenge}\label{challenge}}
+
+Let \(U\) be a unitary operator on \(H\) a Hilbert space, let
+\(M \coloneqq\left\{{x\in H {~\mathrel{\Big\vert}~}Ux = x}\right\}\),
+let \(P\) be the orthogonal projection onto \(M\), and define
+\begin{align*}
+S_N \coloneqq{1\over N} \sum_{n=0}^{N-1} U^n
+.\end{align*}
+Show that for all \(x\in H\),
+\begin{align*}
+{\left\lVert { S_N x - Px} \right\rVert}_H \overset{N\to \infty } \to 0
+.\end{align*}
+
+\hypertarget{section-14}{%
+\subsection{2010 10.1}\label{section-14}}
+
+Let \(\nu, \mu\) be signed measures, and show that
+\begin{align*}
+\nu \perp \mu \text{ and } \nu \ll {\left\lvert { \mu} \right\rvert} \implies \nu = 0
+.\end{align*}
+
+\hypertarget{section-15}{%
+\subsection{2010 10.2}\label{section-15}}
+
+Let \(f\in L^1({\mathbb{R}}^n)\) with \(f\neq 0\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Prove that there exists a \(c>0\) such that
+  \begin{align*}
+  Hf(x) \geq {c \over (1 + {\left\lvert {x} \right\rvert})^n }
+  .\end{align*}
+\end{enumerate}
+
+\hypertarget{section-16}{%
+\subsection{2010 10.3}\label{section-16}}
+
+Consider the function
+\begin{align*}
+f(x) \coloneqq
+\begin{cases}
+{1\over {\left\lvert {x} \right\rvert} \qty{ \log\qty{1\over x}}^2 } &  {\left\lvert {x} \right\rvert} \leq {1\over 2}
+\\
+0 & \text{else}.
+\end{cases}
+\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that \(f \in L^1({\mathbb{R}})\).
+\item
+  Show that there exists a \(c>0\) such that for all
+  \({\left\lvert {x} \right\rvert} \leq 1/2\),
+  \begin{align*}
+  Hf(x) \geq {c \over {\left\lvert {x} \right\rvert} \log\qty{1\over {\left\lvert {x} \right\rvert}} }
+  .\end{align*}
+  Conclude that \(Hf\) is not locally integrable.
+\end{enumerate}
+
+\hypertarget{section-17}{%
+\subsection{2010 10.4}\label{section-17}}
+
+Let \(f\in L^1({\mathbb{R}})\) and let
+\(\mathcal{U}\coloneqq\left\{{(x, y) \in {\mathbb{R}}^2 {~\mathrel{\Big\vert}~}y > 0}\right\}\)
+denote the upper half plane. For \((x, y) \in \mathcal{U}\) define
+\begin{align*}
+u(x, y) \coloneqq f \ast P_y(x) && \text{where } P_y(x) \coloneqq{1\over \pi}\qty{y \over t^2 + y^2}
+.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that there exists a constant \(C\) independent of \(f\) such
+  that for all \(x\in {\mathbb{R}}\),
+  \begin{align*}
+  \sup_{y > 0} {\left\lvert { u(x, y) } \right\rvert} \leq C\cdot Hf(x)
+  .\end{align*}
+
+  \emph{Hint: write the following and try to estimate each term:}
+  \begin{align*}
+  u(x, y) = \int_{{\left\lvert {t} \right\rvert} < y} f(x - t) P_y(t) \,dt+ \sum_{k=0}^{\infty } \int_{A_k} f(x-t) P_y(t)\,dt&& A_k \coloneqq\left\{{2^ky \leq {\left\lvert {t} \right\rvert} < 2^{k+1}y}\right\}
+  .\end{align*}
+\item
+  Following the proof of the Lebesgue differentiation theorem, show that
+  for \(f\in L^1({\mathbb{R}})\) and for almost every
+  \(x\in {\mathbb{R}}\),
+  \begin{align*}
+  u(x, y) \overset{y\to 0} \to f(x)
+  .\end{align*}
+\end{enumerate}
+
+\hypertarget{midterm-exam-2-december-2014}{%
+\section{Midterm Exam 2 (December
+2014)}\label{midterm-exam-2-december-2014}}
+
+\hypertarget{fall-2014-midterm-1.1}{%
+\subsection{Fall 2014 Midterm 1.1}\label{fall-2014-midterm-1.1}}
+
+\begin{quote}
+Note: (a) is a repeat.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Let \(\Lambda\in L^2(X) {}^{ \vee }\).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Show that
+    \(M\coloneqq\left\{{f\in L^2(X) {~\mathrel{\Big\vert}~}\Lambda(f) = 0}\right\} \subseteq L^2(X)\)
+    is a closed subspace, and \(L^2(X) = M \oplus M\perp\).
+  \item
+    Prove that there exists a unique \(g\in L^2(X)\) such that
+    \(\Lambda(f) = \int_X g \mkern 1.5mu\overline{\mkern-1.5muf\mkern-1.5mu}\mkern 1.5mu\).
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{fall-2014-midterm-1.2}{%
+\subsection{Fall 2014 Midterm 1.2}\label{fall-2014-midterm-1.2}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  In parts:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Given a definition of \(L^\infty({\mathbb{R}}^n)\).
+\item
+  Verify that \({\left\lVert {{-}} \right\rVert}_\infty\) defines a norm
+  on \(L^\infty({\mathbb{R}}^n)\).
+\item
+  Carefully proved that
+  \((L^\infty({\mathbb{R}}^n), {\left\lVert {{-}} \right\rVert}_\infty)\)
+  is a Banach space.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Prove that for any measurable \(f:{\mathbb{R}}^n \to {\mathbb{C}}\),
+  \begin{align*}
+  L^1({\mathbb{R}}^n) \cap L^\infty({\mathbb{R}}^n) \subset L^2({\mathbb{R}}^n) {\quad \operatorname{and} \quad} {\left\lVert {f} \right\rVert}_2 \leq {\left\lVert {f} \right\rVert}_1^{1\over 2} \cdot {\left\lVert {f} \right\rVert}_\infty^{1\over 2}
+  .\end{align*}
+\end{enumerate}
+
+\hypertarget{fall-2014-midterm-1.3}{%
+\subsection{Fall 2014 Midterm 1.3}\label{fall-2014-midterm-1.3}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(f, g: {\mathbb{R}}^n\to {\mathbb{C}}\) is both
+  measurable then \(F(x, y) \coloneqq f(x)\) and
+  \(h(x, y)\coloneqq f(x-y) g(y)\) is measurable on
+  \({\mathbb{R}}^n\times{\mathbb{R}}^n\).
+\item
+  Show that if
+  \(f\in L^1({\mathbb{R}}^n) \cap L^\infty({\mathbb{R}}^n)\) and
+  \(g\in L^1({\mathbb{R}}^n)\), then
+  \(f\ast g \in L^1({\mathbb{R}}^n) \cap L^\infty({\mathbb{R}}^n)\) is
+  well defined, and carefully show that it satisfies the following
+  properties:
+  \begin{align*}
+  {\left\lVert {f\ast g} \right\rVert}_\infty &\leq {\left\lVert {g} \right\rVert}_1 {\left\lVert {f} \right\rVert}_\infty
+  {\left\lVert {f\ast g} \right\rVert}_1      &\leq {\left\lVert {g} \right\rVert}_1 {\left\lVert {f} \right\rVert}_1
+  {\left\lVert {f\ast g} \right\rVert}_2      &\leq {\left\lVert {g} \right\rVert}_1 {\left\lVert {f} \right\rVert}_2
+  .\end{align*}
+\end{enumerate}
+
+\begin{quote}
+Hint: first show
+\({\left\lvert {f\ast g} \right\rvert}^2 \leq {\left\lVert {g} \right\rVert}_1 \qty{ {\left\lvert {f} \right\rvert}^2 \ast {\left\lvert {g} \right\rvert}}\).
+\end{quote}
+
+\hypertarget{fall-2014-midterm-1.4}{%
+\subsection{Fall 2014 Midterm 1.4}\label{fall-2014-midterm-1.4}}
+
+\begin{quote}
+Note: (a) is a repeat.
+\end{quote}
+
+Let \(f: [0, 1]\to {\mathbb{R}}\) be continuous, and prove the
+Weierstrass approximation theorem: for any \({\varepsilon}> 0\) there
+exists a polynomial \(P\) such that
+\({\left\lVert {f - P} \right\rVert}_{\infty} < {\varepsilon}\).
+
+\hypertarget{midterm-exam-1-october-2018}{%
+\section{Midterm Exam 1 (October
+2018)}\label{midterm-exam-1-october-2018}}
+
+\hypertarget{fall-2018-midterm-1.1}{%
+\subsection{Fall 2018 Midterm 1.1}\label{fall-2018-midterm-1.1}}
+
+\label{equivalence_of_approximating_measures} Let
+\(E \subseteq {\mathbb{R}}^n\) be bounded. Prove the following are
+equivalent:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  For any \(\epsilon>0\) there exists and open set \(G\) and a closed
+  set \(F\) such that
+  \begin{align*}
+  F \subseteq E \subseteq G && m(G\setminus F) < \epsilon
+  .\end{align*}
+\item
+  There exists a \(G_ \delta\) set \(V\) and an \(F_ \sigma\) set \(H\)
+  such that
+  \begin{align*}
+  m(V\setminus H) = 0
+  .\end{align*}
+\end{enumerate}
+
+\hypertarget{fall-2018-midterm-1.2}{%
+\subsection{Fall 2018 Midterm 1.2}\label{fall-2018-midterm-1.2}}
+
+Let \(\left\{{ f_k }\right\} _{k=1}^{\infty }\) be a sequence of
+extended real-valued Lebesgue measurable functions.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that \(\sup_k f_k\) is a Lebesgue measurable function.
+\item
+  Prove that if \(\lim_{k \to \infty } f_k(x)\) exists for every
+  \(x \in {\mathbb{R}}^n\) then \(\lim_{k\to \infty } f_k\) is also a
+  measurable function.
+\end{enumerate}
+
+\hypertarget{fall-2018-midterm-1.3}{%
+\subsection{Fall 2018 Midterm 1.3}\label{fall-2018-midterm-1.3}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(E \subseteq {\mathbb{R}}^n\) is a Lebesgue measurable
+  set, then for any \(h \in {\mathbb{R}}\) the set
+  \begin{align*}
+  E+h \coloneqq\left\{{x + h {~\mathrel{\Big\vert}~}x\in E }\right\}
+  \end{align*}
+  is also Lebesgue measurable and satisfies \(m(E + h) = m(E)\).
+\item
+  Prove that if \(f\) is a non-negative measurable function on
+  \({\mathbb{R}}^n\) and \(h\in {\mathbb{R}}^n\) then the function
+  \begin{align*}
+  \tau_h d(x) \coloneqq f(x-h)
+  \end{align*}
+  is a non-negative measurable function and
+  \begin{align*}
+  \int f(x) \,dx= \int f(x-h) \,dx
+  .\end{align*}
+\end{enumerate}
+
+\hypertarget{fall-2018-midterm-1.4}{%
+\subsection{Fall 2018 Midterm 1.4}\label{fall-2018-midterm-1.4}}
+
+Let \(f: {\mathbb{R}}^n\to {\mathbb{R}}\) be a Lebesgue measurable
+function.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that for all \(\alpha> 0\) ,
+  \begin{align*}
+  A_ \alpha  \coloneqq\left\{{x\in {\mathbb{R}}^n {~\mathrel{\Big\vert}~}{\left\lvert { f(x) } \right\rvert} > \alpha}\right\} \implies m(A_ \alpha) \leq {1\over \alpha} \int {\left\lvert {f (x)} \right\rvert} \,dx
+  .\end{align*}
+\item
+  Prove that
+  \begin{align*}
+  \int {\left\lvert { f(x) } \right\rvert} \,dx= 0 \iff f = 0 \text{ almost everywhere}
+  .\end{align*}
+\end{enumerate}
+
+\hypertarget{fall-2018-midterm-1.5}{%
+\subsection{Fall 2018 Midterm 1.5}\label{fall-2018-midterm-1.5}}
+
+Let \(\left\{{ f_k }\right\}_{k=1}^{\infty } \subseteq L^2([0, 1])\) be
+a sequence which \emph{converges in \(L^1\)} to a function \(f\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that \(f\in L^1([0, 1])\).
+\item
+  Give an example illustrating that \(f_k\) may not converge to \(f\)
+  almost everywhere.
+\item
+  Prove that \(\left\{{f_k}\right\}\) must contain a subsequence that
+  converges to \(f\) almost everywhere.
+\end{enumerate}
+
+\hypertarget{midterm-exam-2-november-2018}{%
+\section{Midterm Exam 2 (November
+2018)}\label{midterm-exam-2-november-2018}}
+
+\hypertarget{fall-2018-midterm-2.1}{%
+\subsection{Fall 2018 Midterm 2.1}\label{fall-2018-midterm-2.1}}
+
+Let \(f, g\in L^1([0, 1])\), define \(F(x) = \int_0^x f(y)\,dy\) and
+\(G(x) = \int_0^x g(y)\,dy\), and show
+\begin{align*}
+\int_0^1 F(x)g(x) \,dx = F(1)G(1) - \int_0^1 f(x) G(x) \, dx
+.\end{align*}
+
+\hypertarget{fall-2018-midterm-2.2}{%
+\subsection{Fall 2018 Midterm 2.2}\label{fall-2018-midterm-2.2}}
+
+Let \(\phi\in L^1({\mathbb{R}}^n)\) such that \(\int \phi = 1\) and
+define \(\phi_t(x) = t^{-n}\phi(t^{-1}x)\). Show that if \(f\) is
+bounded and uniformly continuous then
+\(f\ast \phi_t \overset{t\to 0}\to f\) uniformly.
+
+\hypertarget{fall-2018-midterm-2.3}{%
+\subsection{Fall 2018 Midterm 2.3}\label{fall-2018-midterm-2.3}}
+
+Let \(g\in L^\infty([0, 1])\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove
+  \begin{align*}
+  {\left\lVert {g} \right\rVert}_{L^p([0, 1])}  \overset{p\to\infty}\to {\left\lVert {g} \right\rVert}_{L^\infty([0, 1])}
+  .\end{align*}
+\item
+  Prove that the map
+  \begin{align*}
+  \Lambda_g: L^1([0, 1]) &\to {\mathbb{C}}\\
+  f &\mapsto \int_0^1 fg
+  \end{align*}
+  defines an element of \(L^1([0, 1]) {}^{ \vee }\) with
+  \({\left\lVert {\Lambda_g} \right\rVert}_{L^1([0, 1]) {}^{ \vee }}= {\left\lVert {g} \right\rVert}_{L^\infty([0, 1])}\).
+\end{enumerate}
+
+\hypertarget{fall-2018-midterm-2.4}{%
+\subsection{Fall 2018 Midterm 2.4}\label{fall-2018-midterm-2.4}}
+
+See \cref{hilbert_space_exam_question}
+
+\hypertarget{practice-exam-november-2014}{%
+\section{Practice Exam (November
+2014)}\label{practice-exam-november-2014}}
+
+\hypertarget{fall-2018-practice-midterm-1.1}{%
+\subsection{Fall 2018 Practice Midterm
+1.1}\label{fall-2018-practice-midterm-1.1}}
+
+Let \(m_*(E)\) denote the Lebesgue outer measure of a set
+\(E \subseteq {\mathbb{R}}^n\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove using the definition of Lebesgue outer measure that
+  \begin{align*}
+  m \qty{ \displaystyle\bigcup_{j=1}^{\infty } E_j  } \leq \sum_{j=1}^{\infty } m_*(E_j) 
+  .\end{align*}
+\item
+  Prove that for any \(E \subseteq {\mathbb{R}}^n\) and any
+  \(\epsilon> 0\) there exists an open set \(G\) with \(E \subseteq G\)
+  and
+  \begin{align*}
+  m_*(E) \leq m_*(G) \leq m_*(E) + \epsilon
+  .\end{align*}
+\end{enumerate}
+
+\hypertarget{fall-2018-practice-midterm-1.2}{%
+\subsection{Fall 2018 Practice Midterm
+1.2}\label{fall-2018-practice-midterm-1.2}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  See \cref{equivalence_of_approximating_measures}
+\item
+  Let \(f_k\) be a sequence of extended real-valued Lebesgue measurable
+  function.
+
+  \begin{enumerate}
+  \def\labelenumii{\roman{enumii}.}
+  \item
+    Prove that \(\inf_k f_k, \sup_k f_k\) are both Lebesgue measurable
+    function.
+
+    \emph{Hint: argue that}
+    \begin{align*}
+    \left\{{x {~\mathrel{\Big\vert}~}\inf_k f_k(x) < a}\right\} = \displaystyle\bigcup_k \left\{{x {~\mathrel{\Big\vert}~}f_k(x) < a}\right\}
+    .\end{align*}
+  \item
+    Carefully state Fatou's Lemma and deduce the Monotone Converge
+    Theorem from it.
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{fall-2018-practice-midterm-1.3}{%
+\subsection{Fall 2018 Practice Midterm
+1.3}\label{fall-2018-practice-midterm-1.3}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove that if \(f, g\in L^+({\mathbb{R}})\) then
+  \begin{align*}
+  \int(f +g) = \int f + \int g
+  .\end{align*}
+  Extend this to establish that if
+  \(\left\{{ f_k}\right\} \subseteq L^+({\mathbb{R}}^n)\) then
+  \begin{align*}
+    \int \sum_k f_k = \sum_k \int f_k
+    .\end{align*}
+\item
+  Let
+  \(\left\{{E_j}\right\}_{j\in {\mathbb{N}}} \subseteq \mathcal{M}({\mathbb{R}}^n)\)
+  with \(E_j \nearrow E\). Use the countable additivity of \(\mu_f\) on
+  \(\mathcal{M}({\mathbb{R}}^n)\) established above to show that
+  \begin{align*}
+    \mu_f(E) = \lim_{j\to \infty } \mu_f(E_j)
+    .\end{align*}
+\end{enumerate}
+
+\hypertarget{fall-2018-practice-midterm-1.4}{%
+\subsection{Fall 2018 Practice Midterm
+1.4}\label{fall-2018-practice-midterm-1.4}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Show that
+  \(f\in L^1({\mathbb{R}}^n) \implies {\left\lvert {f(x)} \right\rvert} < \infty\)
+  almost everywhere.
+\item
+  Show that if \(\left\{{f_k}\right\} \subseteq L^1({\mathbb{R}}^n)\)
+  with \(\sum {\left\lVert {f_k} \right\rVert}_1 < \infty\) then
+  \(\sum f_k\) converges almost everywhere and in \(L^1\).
+\item
+  Use the Dominated Convergence Theorem to evaluate
+  \begin{align*}
+  \lim_{t\to 0} \int_0^1 {e^{tx^2} - 1 \over t} \,dx
+  .\end{align*}
+\end{enumerate}
+
+\hypertarget{practice-exam-november-2014-1}{%
+\section{Practice Exam (November
+2014)}\label{practice-exam-november-2014-1}}
+
+\hypertarget{fall-2018-practice-midterm-2.1}{%
+\subsection{Fall 2018 Practice Midterm
+2.1}\label{fall-2018-practice-midterm-2.1}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Carefully state Tonelli's theorem for a nonnegative function
+  \(F(x, t)\) on \({\mathbb{R}}^n\times{\mathbb{R}}\).
+\item
+  Let \(f:{\mathbb{R}}^n\to [0, \infty]\) and define
+  \begin{align*}
+  {\mathcal{A}}\coloneqq\left\{{(x, t) \in {\mathbb{R}}^n\times{\mathbb{R}}{~\mathrel{\Big\vert}~}0\leq t \leq f(x)}\right\}
+  .\end{align*}
+
+  Prove the validity of the following two statements:
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    \(f\) is Lebesgue measurable on
+    \({\mathbb{R}}^{n} \iff {\mathcal{A}}\) is a Lebesgue measurable
+    subset of \({\mathbb{R}}^{n+1}\).
+  \item
+    If \(f\) is Lebesgue measurable on \({\mathbb{R}}^n\) then
+    \begin{align*}
+    m(\mathcal{A})=\int_{\mathbb{R}^{n}} f(x) d x=\int_{0}^{\infty} m\left(\left\{x \in \mathbb{R}^{n}{~\mathrel{\Big\vert}~}f(x) \geq t\right\}\right) d t
+    .\end{align*}
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{fall-2018-practice-midterm-2.2}{%
+\subsection{Fall 2018 Practice Midterm
+2.2}\label{fall-2018-practice-midterm-2.2}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(f, g\in L^1({\mathbb{R}}^n)\) and give a definition of
+  \(f\ast g\).
+\item
+  Prove that if \(f, g\) are integrable and bounded, then
+  \begin{align*}
+  (f\ast g)(x) \overset{{\left\lvert {x} \right\rvert}\to\infty}\to 0
+  .\end{align*}
+\item
+  In parts:
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Define the \emph{Fourier transform} of an integrable function \(f\)
+    on \({\mathbb{R}}^n\).
+  \item
+    Give an outline of the proof of the Fourier inversion formula.
+  \item
+    Give an example of a function \(f\in L^1({\mathbb{R}}^n)\) such that
+    \(\widehat{f}\) is not in \(L^1({\mathbb{R}}^n)\).
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{fall-2018-practice-midterm-2.3}{%
+\subsection{Fall 2018 Practice Midterm
+2.3}\label{fall-2018-practice-midterm-2.3}}
+
+\label{hilbert_space_exam_question}
+
+Let \(\left\{{u_n}\right\}_{n=1}^\infty\) be an orthonormal sequence in
+a Hilbert space \(H\).
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Let \(x\in H\) and verify that
+  \begin{align*}
+  \left\|x-\sum_{n=1}^{N}\left\langle x, u_{n}\right\rangle u_{n}\right\|_H^{2} =
+  \|x\|_H^{2}-\sum_{n=1}^{N}\left|\left\langle x, u_{n}\right\rangle\right|^{2}
+  .\end{align*}
+  for any \(N\in {\mathbb{N}}\) and deduce that
+  \begin{align*}
+  \sum_{n=1}^{\infty}\left|\left\langle x, u_{n}\right\rangle\right|^{2} \leq\|x\|_H^{2}
+  .\end{align*}
+\item
+  Let
+  \(\left\{{a_n}\right\}_{n\in {\mathbb{N}}} \in \ell^2({\mathbb{N}})\)
+  and prove that there exists an \(x\in H\) such that
+  \(a_n = {\left\langle {x},~{u_n} \right\rangle}\) for all
+  \(n\in {\mathbb{N}}\), and moreover \(x\) may be chosen such that
+  \begin{align*}
+  {\left\lVert {x} \right\rVert}_H = \qty{ \sum_{n\in {\mathbb{N}}} {\left\lvert {a_n} \right\rvert}^2}^{1\over 2}
+  .\end{align*}
+\item
+  Prove that if \(\left\{{u_n}\right\}\) is \emph{complete}, Bessel's
+  inequality becomes an equality.
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018-practice-midterm-2.4}{%
+\subsection{Fall 2018 Practice Midterm
+2.4}\label{fall-2018-practice-midterm-2.4}}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Prove Holder's inequality: let \(f\in L^p, g\in L^q\) with \(p, q\)
+  conjugate, and show that
+  \begin{align*}
+  {\left\lVert {fg} \right\rVert}_{p} \leq {\left\lVert {f} \right\rVert}_{p} \cdot {\left\lVert {g} \right\rVert}_{q}
+  .\end{align*}
+\item
+  Prove Minkowski's Inequality:
+  \begin{align*}
+  1\leq p < \infty \implies {\left\lVert {f+g} \right\rVert}_{p} \leq {\left\lVert {f} \right\rVert}_{p}+ {\left\lVert {g} \right\rVert}_{p}
+  .\end{align*}
+  Conclude that if \(f, g\in L^p({\mathbb{R}}^n)\) then so is \(f+g\).
+\item
+  Let \(X = [0, 1] \subset {\mathbb{R}}\).
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \item
+    Give a definition of the Banach space \(L^\infty(X)\) of essentially
+    bounded functions of \(X\).
+  \item
+    Let \(f\) be non-negative and measurable on \(X\), prove that
+    \begin{align*}
+     \int_X f(x)^p \,dx \overset{p\to\infty}\to
+     \begin{dcases}
+     \infty \quad\text{or} \\
+     m\qty{\left\{{f^{-1}(1)}\right\}}
+     \end{dcases}
+     ,\end{align*}
+    and characterize the functions of each type
+  \end{enumerate}
+\end{enumerate}
+
+\emph{Solution omitted.}
+
+\hypertarget{fall-2018-practice-midterm-2.5}{%
+\subsection{Fall 2018 Practice Midterm
+2.5}\label{fall-2018-practice-midterm-2.5}}
+
+Let \(X\) be a normed vector space.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Give the definition of what it means for a map \(L:X\to {\mathbb{C}}\)
+  to be a \emph{linear functional}.
+\item
+  Define what it means for \(L\) to be \emph{bounded} and show \(L\) is
+  bounded \(\iff L\) is continuous.
+\item
+  Prove that
+  \((X {}^{ \vee }, {\left\lVert {{-}} \right\rVert}_{^{\operatorname{op}}})\)
+  is a Banach space.
+\end{enumerate}
+
+\begin{quote}
+DZG: this comes from some tex file that I found when studying for quals,
+so is definitely not my own content! I've just copied it here for extra
+practice.
+\end{quote}
+
+\hypertarget{may-2016-qual}{%
+\section{May 2016 Qual}\label{may-2016-qual}}
+
+\hypertarget{may-2016-1}{%
+\subsection{May 2016, 1}\label{may-2016-1}}
+
+Consider the function \(f(x) = \frac{x}{1-x^2}\), \(x \in (0,1)\).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  By using the \(\epsilon-\delta\) definition of the limit only, prove
+  that \(f\) is continuous on \((0,1)\). (Note: You are not allowed to
+  trivialize the problem by using properties of limits).
+\item
+  Is \(f\) uniformly continuous on \((0,1)\)? Justify your answer.
+\end{enumerate}
+
+\emph{Proof omitted.}
+
+\emph{Proof omitted.}
+
+\hypertarget{may-2016-2}{%
+\subsection{(May 2016, 2)}\label{may-2016-2}}
+
+Let \(\{a_k\}_{k=1}^\infty\) be a bounded sequence of real numbers and
+\(E\) given by:
+\begin{align*}E:= \bigg\{s \in \mathbb{R}\, \colon \, \text{ the set } \{k \in \mathbb{N}\, \colon \, a_k \geq s\} \text{ has at most finitely many elements}\bigg\}.\end{align*}
+Prove that \(\limsup_{k \to \infty} a_k = \inf E\).
+
+\emph{Proof omitted.}
+
+\hypertarget{may-2016-3}{%
+\subsection{(May 2016, 3)}\label{may-2016-3}}
+
+Assume \((X,d)\) is a compact metric space.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Prove that \(X\) is both complete and separable.
+\item
+  Suppose \(\{x_k\}_{k=1}^\infty \subseteq X\) is a sequence such that
+  the series \(\sum_{k=1}^\infty d(x_k, x_{k+1})\) converges. Prove that
+  the sequence \(\{x_k\}_{k=1}^\infty\) converges in \(X\).
+\end{enumerate}
+
+\hypertarget{may-2016-4}{%
+\subsection{(May 2016, 4)}\label{may-2016-4}}
+
+Suppose that \(f \colon [0,2] \to \mathbb{R}\) is continuous on
+\([0,2]\) , differentiable on \((0,2)\), and such that
+\(f(0) = f(2) = 0\), \(f(c) = 1\) for some \(c \in (0,2)\). Prove that
+there exists \(x \in (0,2)\) such that \(|f'(x)| >1.\)
+
+\emph{Proof omitted.}
+
+\hypertarget{may-2016-5}{%
+\subsection{(May 2016, 5)}\label{may-2016-5}}
+
+Let \(f_n(x) = n^\beta x(1-x^2)^n\), \(x \in [0,1]\),
+\(n \in \mathbb{N}\).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Prove that \(\{f_n\}_{n=1}^\infty\) converges pointwise on \([0,1]\)
+  for every \(\beta \in \mathbb{R}\).
+\item
+  Show that the convergence in part (a) is uniform for all
+  \(\beta < \frac{1}{2}\), but not uniform for any
+  \(\beta \geq \frac{1}{2}\).
+\end{enumerate}
+
+\hypertarget{may-2016-6}{%
+\subsection{(May 2016, 6)}\label{may-2016-6}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Suppose \(f \colon [-1,1] \to \mathbb{R}\) is a bounded function that
+  is continuous at \(0\). Let \(\alpha(x) = -1\) for \(x \in [-1,0]\)
+  and \(\alpha(x)=1\) for \(x \in (0,1]\). Prove that
+  \(f \in \mathcal{R}(\alpha)[-1,1]\), i.e., \(f\) is Riemann integrable
+  with respect to \(\alpha\) on \([-1,1]\), and
+  \(\int_{-1}^1 f d\alpha = 2f(0)\).
+\item
+  Let \(g \colon [0,1] \to \mathbb{R}\) be a continuous function such
+  that \(\int_0^1 g(x)x^{3k+2} dx = 0\) for all \(k = 0, 1, 2, \ldots\).
+  Prove that \(g(x) =0\) for all \(x \in [0,1]\).
+\end{enumerate}
+
+\emph{Proof omitted.}
+
+\emph{Proof omitted.}
+
+\hypertarget{metric-spaces-and-topology}{%
+\section{Metric Spaces and Topology}\label{metric-spaces-and-topology}}
+
+\hypertarget{may-2019-1}{%
+\subsection{(May 2019, 1)}\label{may-2019-1}}
+
+Let \((M, d_M)\), \((N, d_N)\) be metric spaces. Define
+\(d_{M \times N} \colon (M \times N) \times (M \times N) \to \mathbb{R}\)
+by
+\begin{align*}d_{M \times N}((x_1, y_1), (x_2, y_2)) := d_M(x_1, x_2) + d_N(y_1, y_2).\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Prove that \((M \times N, d_{M \times N})\) is a metric space.
+\item
+  Let \(S \subseteq M\) and \(T \subseteq N\) be compact sets in
+  \((M, d_M)\) and \((N, d_N)\), respectively. Prove that \(S \times T\)
+  is a compact set in \((M \times N, d_{M \times N})\).
+\end{enumerate}
+
+\emph{Proof omitted.}
+
+\emph{Proof omitted.}
+
+\hypertarget{june-2003-1bc}{%
+\subsection{(June 2003, 1b,c)}\label{june-2003-1bc}}
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Show by example that the union of infinitely many compact subsets of a
+  metric space need not be compact. (c) If \((X,d)\) is a metric space
+  and \(K\subset X\) is compact, define
+  \(d(x_0,K)=\inf_{y\in K} d(x_0,y)\). Prove that there exists a point
+  \(y_0\in K\) such that \(d(x_0,K)=d(x_0,y_0)\).
+\end{enumerate}
+
+\hypertarget{january-2009-4a}{%
+\subsection{(January 2009, 4a)}\label{january-2009-4a}}
+
+Consider the metric space \((\mathbb{Q},d)\) where \(\mathbb{Q}\)
+denotes the rational numbers and \(d(x,y)=|x-y|\). Let
+\(E=\{x\in\mathbb{Q}:x>0,\,2<x^2<3\}\). Is \(E\) closed and bounded in
+\(\mathbb{Q}\)? Is \(E\) compact in \(\mathbb{Q}\)?
+
+\hypertarget{january-2011-3a}{%
+\subsection{(January 2011 3a)}\label{january-2011-3a}}
+
+Let \((X,d)\) be a metric space, \(K\subset X\) be compact, and
+\(F\subset X\) be closed. If \(K\cap F=\emptyset\), prove that there
+exists an \(\epsilon>0\) so that \(d(k,f)\geq \epsilon\) for all
+\(k\in K\) and \(f\in F\).
+
+\emph{Proof omitted.}
+
+\hypertarget{section-18}{%
+\subsection{5?}\label{section-18}}
+
+Let \((X,d)\) be an unbounded and connected metric space. Prove that for
+each \(x_0 \in X\), the set \(\{x \in X \, \colon \, d(x,x_0) = r\}\) is
+nonempty.
+
+\hypertarget{sequences-and-series}{%
+\section{Sequences and Series}\label{sequences-and-series}}
+
+\hypertarget{june-2013-1a}{%
+\subsection{(June 2013 1a)}\label{june-2013-1a}}
+
+Let \(a_n =\sqrt{n}\left(\sqrt{n+1}-\sqrt{n}\right)\). Prove that
+\(\lim_{n\to\infty}a_n=1/2\).
+
+\hypertarget{january-2014-2}{%
+\subsection{(January 2014 2)}\label{january-2014-2}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Produce sequences \(\{a_n\},\,\{b_n\}\) of positive real numbers such
+  that
+  \begin{align*}\liminf_{n\to\infty}(a_nb_n)>\left(\liminf_{n\to\infty} a_n\right) \left(\liminf_{n\to\infty} b_n\right).\end{align*}
+\item
+  If \(\{a_n\},\,\{b_n\}\) are sequences of positive real numbers and
+  \(\{a_n\}\) converges, prove that
+  \begin{align*}\liminf_{n\to\infty}(a_nb_n)=\left(\lim_{n\to\infty}a_n\right)\left(\liminf_{n\to\infty}b_n\right).\end{align*}
+\end{enumerate}
+
+\hypertarget{may-2011-4a}{%
+\subsection{(May 2011 4a)}\label{may-2011-4a}}
+
+Determine the values of \(x\in\mathbb{R}\) for which
+\(\displaystyle\sum_{n=1}^\infty \frac{x^n}{1+n|x|^n}\) converges,
+justifying your answer carefully.
+
+\hypertarget{june-2005-3b}{%
+\subsection{(June 2005 3b)}\label{june-2005-3b}}
+
+If the series \(\sum_{n=0}^\infty a_n\) converges conditionally, show
+that the radius of convergence of the power series
+\(\sum_{n=0}^\infty a_nx^n\) is 1.
+
+\hypertarget{january-2011-5}{%
+\subsection{(January 2011 5)}\label{january-2011-5}}
+
+Suppose \(\{a_n\}\) is a sequence of positive real numbers such that
+\(\lim_{n\to\infty}a_n=0\) and \(\sum a_n\) diverges. Prove that for all
+\(x>0\) there exist integers \(n(1)<n(2)<\ldots\) such that
+\(\sum_{k=1}^\infty a_{n(k)}=x\).\\
+
+\begin{quote}
+(Note: Many variations on this problem are possible including more
+general rearrangements. You may also wish to show that if \(\sum a_n\)
+converges conditionally then given any \(x\in\mathbb{R}\) there is a
+rearrangement of \(\{b_n\}\) of \(\{a_n\}\) such that \(\sum b_n=r\).
+See Rudin Thm. 3.54 for a further generalization.)
+\end{quote}
+
+\hypertarget{june-2008-4b}{%
+\subsection{(June 2008 \# 4b)}\label{june-2008-4b}}
+
+Assume \(\beta >0\), \(a_n>0\), \(n=1,2,\ldots\), and the series
+\(\sum a_n\) is divergent. Show that
+\(\displaystyle \sum \frac{a_n}{\beta + a_n}\) is also divergent.
+
+\hypertarget{continuity-of-functions}{%
+\section{Continuity of Functions}\label{continuity-of-functions}}
+
+\hypertarget{differential-calculus}{%
+\section{Differential Calculus}\label{differential-calculus}}
+
+\hypertarget{june-2005-1a}{%
+\subsection{(June 2005 1a)}\label{june-2005-1a}}
+
+Use the definition of the derivative to prove that if \(f\) and \(g\)
+are differentiable at \(x\), then \(fg\) is differentiable at \(x\).
+
+\hypertarget{january-2006-2b}{%
+\subsection{(January 2006 2b)}\label{january-2006-2b}}
+
+Assume that \(f\) is differentiable at \(a\). Evaluate
+\begin{align*}\lim_{x\to a}\frac{a^nf(x)-x^nf(a)}{x-a},\quad n\in\mathbb{N}.\end{align*}
+
+\hypertarget{june-2007-3a}{%
+\subsection{(June 2007 3a)}\label{june-2007-3a}}
+
+Suppose that \(f,g:\mathbb{R}\to\mathbb{R}\) are differentiable, that
+\(f(x)\leq g(x)\) for all \(x\in\mathbb{R}\), and that \(f(x_0)=g(x_0)\)
+for some \(x_0\). Prove that \(f'(x_0)=g'(x_0)\).
+
+\hypertarget{june-2008-3a}{%
+\subsection{(June 2008 3a)}\label{june-2008-3a}}
+
+Prove that if \(f'\) exists and is bounded on \((a,b]\), then
+\(\lim_{x\to a^+}f(x)\) exists.
+
+\hypertarget{january-2012-4b-extended}{%
+\subsection{(January 2012 4b,
+extended)}\label{january-2012-4b-extended}}
+
+Let \(f:\mathbb{R}\to\mathbb{R}\) be a differentiable function with
+\(f'\in C(\mathbb{R})\). Assume that there are \(a,b\in\mathbb{R}\) with
+\(\lim_{x\to\infty}f(x)=a\) and \(\lim_{x\to\infty}f'(x)=b\). Prove that
+\(b=0\). Then, find a counterexample to show that the assumption
+\(\lim_{x\to\infty}f'(x)\) exists is necessary.
+
+\hypertarget{june-2012-1a}{%
+\subsection{(June 2012 1a)}\label{june-2012-1a}}
+
+Suppose that \(f:\mathbb{R}\to\mathbb{R}\) satisfies \(f(0)=0\). Prove
+that \(f\) is differentiable at \(x=0\) if and only if there is a
+function \(g:\mathbb{R}\to\mathbb{R}\) which is continuous at \(x=0\)
+and satisfies \(f(x)=xg(x)\) for all \(x\in\mathbb{R}\).
+
+\hypertarget{integral-calculus}{%
+\section{Integral Calculus}\label{integral-calculus}}
+
+\hypertarget{january-2006-4b}{%
+\subsection{(January 2006 4b)}\label{january-2006-4b}}
+
+Suppose that \(f\) is continuous and \(f(x)\geq 0\) on \([0,1]\). If
+\(f(0)>0\), prove that \(\int_0^1 f(x)dx>0\).
+
+\hypertarget{june-2005-1b}{%
+\subsection{(June 2005 1b)}\label{june-2005-1b}}
+
+Use the definition of the Riemann integral to prove that if \(f\) is
+bounded on \([a,b]\) and is continuous everywhere except for finitely
+many points in \((a,b)\), then \(f\in\mathscr{R}\) on \([a,b]\).
+
+\hypertarget{january-2010-5}{%
+\subsection{(January 2010 5)}\label{january-2010-5}}
+
+Suppose that \(f:[a,b]\to\mathbb{R}\) is continuous, \(f\geq 0\) on
+\([a,b]\), and put \(M=\sup\{f(x):x\in[a,b]\}\). Prove that
+\begin{align*}\lim_{p\to\infty}\left(\int_a^b f(x)^p\,dx\right)^{1/p}=M.\end{align*}
+
+\hypertarget{january-2009-4b}{%
+\subsection{(January 2009 4b)}\label{january-2009-4b}}
+
+Let \(f\) be a continuous real-valued function on \([0,1]\). Prove that
+there exists at least one point \(\xi\in[0,1]\) such that
+\(\int_0^1 x^4 f(x)\,dx=\frac{1}{5}f(\xi)\).
+
+\emph{Proof omitted.}
+
+\hypertarget{june-2009-5b}{%
+\subsection{(June 2009 5b)}\label{june-2009-5b}}
+
+Let \(\phi\) be a real-valued function defined on \([0,1]\) such that
+\(\phi\), \(\phi'\), and \(\phi''\) are continuous on \([0,1]\). Prove
+that
+\begin{align*}\int_0^1 \cos x \frac{x\phi'(x)-\phi(x)+\phi(0)}{x^2}\,dx<\frac{3}{2}||\phi''||_\infty,\end{align*}
+where \(||\phi''||_\infty = \sup_{[0,1]}|\phi''(x)|.\) Note that \(3/2\)
+may not be the smallest possible constant.
+
+\hypertarget{sequences-and-series-of-functions}{%
+\section{Sequences and Series of
+Functions}\label{sequences-and-series-of-functions}}
+
+\hypertarget{june-2010-6a}{%
+\subsection{(June 2010 6a)}\label{june-2010-6a}}
+
+Let \(f:[0,1]\to\mathbb{R}\) be continuous with \(f(0)\neq f(1)\) and
+define \(f_n(x)=f(x^n)\). Prove that \(f_n\) does not converge uniformly
+on \([0,1]\).
+
+\hypertarget{january-2008-5a}{%
+\subsection{(January 2008 5a)}\label{january-2008-5a}}
+
+Let \(f_n(x) = \frac{x}{1+nx^2}\) for \(n \in \mathbb{N}\). Let
+\(\mathcal{F} := \{f_n \, \colon \, n = 1, 2, 3, \ldots\}\) and
+\([a,b]\) be any compact subset of \(\mathbb{R}\). Is \(\mathcal{F}\)
+equicontinuous? Justify your answer.
+
+\hypertarget{january-2005-4-june-2010-6b}{%
+\subsection{(January 2005 4, June 2010
+6b)}\label{january-2005-4-june-2010-6b}}
+
+If \(f:[0,1]\to\mathbb{R}\) is continuous, prove that
+\begin{align*}\displaystyle\lim_{n\to\infty}\int_0^1 f(x^n)\,dx=f(0).\end{align*}
+
+\hypertarget{january-2020-4a}{%
+\subsection{(January 2020 4a)}\label{january-2020-4a}}
+
+Let \(M<\infty\) and \(\mathcal{F} \subseteq C[a,b]\). Assume that each
+\(f \in \mathcal{F}\) is differentiable on \((a,b)\) and satisfies
+\(|f(a)| \leq M\) and \(|f'(x)| \leq M\) for all \(x \in (a,b)\). Prove
+that \(\mathcal{F}\) is equicontinuous on \([a,b]\).
+
+\hypertarget{june-2005-5}{%
+\subsection{(June 2005 5)}\label{june-2005-5}}
+
+Suppose that \(f\in C([0,1])\) and that
+\(\displaystyle \int_0^1 f(x)x^n\,dx=0\) for all
+\(n=99,100,101,\ldots\). Show that \(f\equiv 0\).\\
+
+\begin{quote}
+Note: Many variations on this problem exist. See June 2012 6b and
+others.
+\end{quote}
+
+\hypertarget{january-2005-3b}{%
+\subsection{(January 2005 3b)}\label{january-2005-3b}}
+
+Suppose \(f_n:[0,1]\to\mathbb{R}\) are continuous functions converging
+uniformly to \(f:[0,1]\to\mathbb{R}\). Either prove that
+\(\displaystyle\lim_{n\to\infty}\int_{1/n}^1 f_n(x)\,dx=\int_0^1 f(x)\,dx\)
+or give a counterexample.
+
+\hypertarget{miscellaneous-topics}{%
+\section{Miscellaneous Topics}\label{miscellaneous-topics}}
+
+\hypertarget{bounded-variation}{%
+\subsection*{Bounded Variation}\label{bounded-variation}}
+\addcontentsline{toc}{subsection}{Bounded Variation}
+
+\hypertarget{january-2018}{%
+\subsection{(January 2018)}\label{january-2018}}
+
+Let \(f \colon [a,b] \to \mathbb{R}\). Suppose \(f \in \text{BV}[a,b]\).
+Prove \(f\) is the difference of two increasing functions.
+
+\hypertarget{january-2007-6a}{%
+\subsection{(January 2007, 6a)}\label{january-2007-6a}}
+
+Let \(f\) be a function of bounded variation on \([a,b]\). Furthermore,
+assume that for some \(c>0\), \(|f(x)| \geq c\) on \([a,b]\). Show that
+\(g(x) = 1/f(x)\) is of bounded variation on \([a,b]\).
+
+\hypertarget{january-2017-2a}{%
+\subsection{(January 2017, 2a)}\label{january-2017-2a}}
+
+Define \(f \colon [0,1] \to [-1,1]\) by
+\begin{align*}f(x):= \begin{cases} x\sin\big({\frac{1}{x}}\big) & 0 < x \leq 1 \\ 0 & x = 0 \end{cases}\end{align*}
+Determine, with justification, whether \(f\) is if bounded variation on
+the interval \([0,1]\).
+
+\hypertarget{january-2020-6a}{%
+\subsection{(January 2020, 6a)}\label{january-2020-6a}}
+
+Let \(\{a_n\}_{n=1}^\infty \subseteq \mathbb{R}\) and a strictly
+increasing sequence \(\{x_n\}_{n=1}^\infty \subseteq (0,1)\) be given.
+Assume that \(\sum_{n=1}^\infty a_n\) is absolutely convergent, and
+define \(\alpha \colon [0,1] \to \mathbb{R}\) by
+\begin{align*}\alpha(x):= \begin{cases} a_n &  x=x_n \\ 0 & \text{otherwise} \end{cases}.\end{align*}
+Prove or disprove: \(\alpha\) has bounded variation on \([0,1]\).
+
+\hypertarget{metric-spaces-and-topology-1}{%
+\subsection*{Metric Spaces and
+Topology}\label{metric-spaces-and-topology-1}}
+\addcontentsline{toc}{subsection}{Metric Spaces and Topology}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Find an example of a metric space \(X\) and a subset \(E \subseteq X\)
+  such that \(E\) is closed and bounded but not compact.
+\end{enumerate}
+
+\hypertarget{may-2017-6}{%
+\subsection{(May 2017 6)}\label{may-2017-6}}
+
+Let \((X,d)\) be a metric space. A function
+\(f \colon X \to \mathbb{R}\) is said to be lower semi-continuous
+(l.s.c) if \(f^{-1}(a,\infty) = \{x \in X \, \colon \, f(x)> a\}\) is
+open in \(X\) for every \(a \in \mathbb{R}\). Analogously, \(f\) is
+upper semi-continuous (u.s.c) if
+\(f^{-1}(-\infty, b) = \{x \in X \, \colon \, f(x)<b\}\) is open in
+\(X\) for every \(b \in \mathbb{R}\).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Prove that a function \(f \colon X \to \mathbb{R}\) is continuous if
+  and only if \(f\) is both l.s.c. and u.s.c.
+\item
+  Prove that \(f\) is lower semi-continuous if and only if
+  \(\liminf_{n \to \infty} f(x_n) \geq f(x)\) whenever
+  \(\{x_n\}_{n=1}^\infty \subseteq X\) such that \(x_n \to x\) in \(X\).
+\end{enumerate}
+
+\hypertarget{january-2017-3}{%
+\subsection{(January 2017 3)}\label{january-2017-3}}
+
+Let \((X,d)\) be a compact metric space. Suppose that
+\(f_n \colon X \to [0,\infty)\) is a sequence of continuous functions
+with \(f_n(x) \geq f_{n+1}(x)\) for all \(n \in \mathbb{N}\) and
+\(x \in X\), and such that \(f_n \to 0\) pointwise on \(X\). Prove that
+\(\{f_n\}_{n=1}^\infty\) converges uniformly on \(X\).
+
+\hypertarget{integral-calculus-1}{%
+\section{Integral Calculus}\label{integral-calculus-1}}
+
+\hypertarget{section-19}{%
+\subsection{1.}\label{section-19}}
+
+(June 2014 1)Define \(\alpha \colon [-1,1] \to \mathbb{R}\) by
+\begin{align*}\alpha(x) := \begin{cases} -1 & x \in [-1,0] \\ 1 & x \in (0,1]. \end{cases}\end{align*}
+Let \(f \colon [-1,1] \to \mathbb{R}\) be a function that is uniformly
+bounded on \([-1,1]\) and continuous at \(x=0\), but not necessarily
+continuous for \(x \neq 0\). Prove that \(f\) is Riemann-Stieltjes
+integrable with respect to \(\alpha\) over \([-1,1]\) and that
+\begin{align*}\int_{-1}^1 f(x)d\alpha(x) = 2f(0).\end{align*}
+
+\hypertarget{june-2017-2}{%
+\subsection{(June 2017 2)}\label{june-2017-2}}
+
+Prove : \(f \in \mathcal{R}(\alpha)\) on \([a,b]\) if and only if for
+any \(a <c<b\), \(f \in \mathcal{R}(\alpha)\) on \([a,c]\) and on
+\([c,b]\). In addition, if either condition holds, then we have that
+\begin{align*}\int_a^c fd\alpha + \int_c^b fd\alpha = \int_a^b fd\alpha.\end{align*}
+
+\hypertarget{spring-2017-7}{%
+\subsection{(Spring 2017 7)}\label{spring-2017-7}}
+
+Prove that if \(f \in \mathcal{R}\) on \([a,b]\) and
+\(\alpha \in C^1[a,b]\), then the Riemann integral
+\(\int_a^b f(x)\alpha'(x)dx\) exists and
+\begin{align*}\int_a^b f(x) d\alpha(x)= \int_a^b f(x)\alpha'(x)dx.\end{align*}
+
+\hypertarget{sequences-and-series-and-of-functions}{%
+\section{Sequences and Series (and of
+Functions)}\label{sequences-and-series-and-of-functions}}
+
+\hypertarget{january-2006-1}{%
+\subsection{(January 2006 1)}\label{january-2006-1}}
+
+Let the power series series \(\sum_{n=0}^\infty a_nx^n\) and
+\(\sum_{n=0}^\infty b_nx^n\) have radii of convergence \(R_1\) and
+\(R_2\), respectively.
+
+\hypertarget{section-20}{%
+\subsection{?}\label{section-20}}
+
+If \(R_1 \neq R_2\), prove that the radius of convergence, \(R\), of the
+power series \(\sum_{n=0}^\infty (a_n+b_n)x^n\) is \(\min\{R_1, R_2\}\).
+What can be said about \(R\) when \(R_1 = R_2\)?
+
+\hypertarget{section-21}{%
+\subsection{?}\label{section-21}}
+
+Prove that the radius of convergence, \(R\), of
+\(\sum_{n=0}^\infty a_nb_nx^n\) satisfies \(R \geq R_1R_2\). Show by
+means of example that this inequality can be strict.
+
+\hypertarget{section-22}{%
+\subsection{?}\label{section-22}}
+
+Show that the infinite series \(\sum_{n=0}^\infty x^n2^{-nx}\) converges
+uniformly on \([0,B]\) for any \(B > 0\). Does this series converge
+uniformly on \([0,\infty)\)?
+
+\hypertarget{january-2006-4a}{%
+\subsection{(January 2006 4a)}\label{january-2006-4a}}
+
+Let
+\begin{align*}f_n(x) = \begin{cases} \frac{1}{n}  & x \in (\frac{1}{2^{n+1}}, \frac{1}{2^n}] \\ 0 & \text{ otherwise}.\end{cases}\end{align*}
+
+Show that \(\sum_{n=1}^\infty f_n\) does not satisfy the Weierstrass
+M-test but that it nevertheless converges uniformly on \(\mathbb{R}\).
+
+\hypertarget{section-23}{%
+\subsection{?}\label{section-23}}
+
+Let \(f_n \colon [0,1) \to \mathbb{R}\) be the function defined by
+\begin{align*}f_n(x):= \sum_{k=1}^n \frac{x^k}{1+x^k}.\end{align*}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Prove that \(f_n\) converges to a function
+  \(f \colon [0,1) \to \mathbb{R}\).
+\item
+  Prove that for every \(0 < a < 1\) the convergence is uniform on
+  \([0,a]\).
+\item
+  Prove that \(f\) is differentiable on \((0,1)\).
+\end{enumerate}
+
+\hypertarget{january-2019-qualifying-exam}{%
+\subsection*{January 2019 Qualifying
+Exam}\label{january-2019-qualifying-exam}}
+\addcontentsline{toc}{subsection}{January 2019 Qualifying Exam}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Suppose that \(f: [0,1] \to \mathbb{R}\) is differentiable and
+  \(f(0) = 0\). Assume that there is a \(k > 0\) such that
+  \begin{align*}|f'(x)| \leq k|f(x)|\end{align*}
+  for all \(x\in [0,1]\). Prove that \(f(x) = 0\) for all
+  \(x\in [0,1]\).
+\end{enumerate}
+
+\emph{Proof omitted.}
+
+
+
+\newpage
+\printbibliography[title=Bibliography]
+
+
+\end{document}

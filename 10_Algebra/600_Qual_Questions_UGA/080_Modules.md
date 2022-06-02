@@ -1,231 +1,34 @@
 # Modules
 
-## General Questions
+## Annihilators
 
-## Spring 2017 #3 #algebra/qual/work
-Let $R$ be a commutative ring with 1.
-Suppose that $M$ is a free $R\dash$module with a finite basis $X$.
+### Fall 2021 #6 #algebra/qual/work 
 
-a.
-Let $I \normal R$ be a proper ideal.
-Prove that $M/IM$ is a free $R/I\dash$module with basis $X'$, where $X'$ is the image of $X$ under the canonical map $M\to M/IM$.
-
-b.
-Prove that any two bases of $M$ have the same number of elements.
-You may assume that the result is true when $R$ is a field.
-
-## Spring 2020 #5 #algebra/qual/completed
-Let $R$ be a ring and $f: M\to N$ and $g: N\to M$ be $R\dash$module homomorphisms such that $g\circ f = \id_M$.
-Show that $N \cong \im f \oplus \ker g$.
-
-
-:::{.solution}
-\envlist
-
-- We have the following situation:
-
-\begin{tikzcd}
-	M &&& N
-	\arrow["f", from=1-1, to=1-4]
-	\arrow["g"', curve={height=24pt}, dashed, from=1-4, to=1-1]
-\end{tikzcd}
-
-> [Link to Diagram](https://q.uiver.app/?q=WzAsMixbMCwwLCJNIl0sWzMsMCwiTiJdLFswLDEsImYiXSxbMSwwLCJnIiwyLHsiY3VydmUiOjQsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==)
-
-- Claim: $\im f + \ker g \subseteq N$, and this is in fact an equality.
-  - For $n\in N$, write
-  \[
-  n = n + (f\circ g)(n) - (f\circ g)(n) = \qty{n - (f\circ g)(n) } + (f\circ g)(n)
-  .\]
-  - The first term is in $\ker g$:
-  \[
-  g \qty{ n - (f\circ g)(n) }
-  &= g(n) - (g\circ f \circ g)(n)\\
-  &= g(n) - (\id_N \circ g)(n)\\
-  &= g(n) - g(n) \\
-  &= 0
-  .\]
-  - The second term is clearly in $\im f$.
-- Claim: the sum is direct.
-  - Suppose $n\in \ker(g) \intersect \im(f)$, so $g(n) = 0$ and $n=f(m)$ for some $m\in M$.
-  Then
-  \[
-  0 = g(n) = g(f(m)) = (g\circ f)(m)
-  = \id_M(m) = m
-  ,\]
-  so $m=0$ and since $f$ is a morphism in \(R\dash\)modules, $n\da f(m) = 0$.
-:::
-
-
-
-### Fall 2018 #6 #algebra/qual/completed
-Let $R$ be a commutative ring, and let $M$ be an $R\dash$module. 
-An $R\dash$submodule $N$ of $M$ is maximal if there is no $R\dash$module $P$ with $N \subsetneq P \subsetneq M$.
-
-a.
-Show that an $R\dash$submodule $N$ of $M$ is maximal $\iff M /N$ is a simple $R\dash$module: i.e., $M /N$ is nonzero and has no proper, nonzero $R\dash$submodules.
-
-b.
-Let $M$ be a $\ZZ\dash$module. Show that a $\ZZ\dash$submodule $N$ of $M$ is maximal $\iff \sizeM /N$ is a prime number.
-
-c.
-Let $M$ be the $\ZZ\dash$module of all roots of unity in $\CC$ under multiplication.
-Show that there is no maximal $\ZZ\dash$submodule of $M$.
-
-:::{.concept}
-\envlist
-
-- Todo
-:::
-
-:::{.solution}
-\envlist
-
-:::{.proof title="of a"}
-By the correspondence theorem, submodules of $M/N$ biject with submodules $A$ of $M$ containing $N$.
-
-So 
-
-- $M$ is maximal:
-
-- $\iff$ no such (proper, nontrivial) submodule $A$ exists 
-
-- $\iff$ there are no (proper, nontrivial) submodules of $M/N$ 
-
-- $\iff M/N$ is simple.
-
-:::
-
-:::{.proof title="of b"}
-Identify $\ZZ\dash$modules with abelian groups, then by (a), $N$ is maximal $\iff$ $M/N$ is simple $\iff$ $M/N$ has no nontrivial proper subgroups.
-\
-
-By Cauchy's theorem, if $\abs{M/N} = ab$ is a composite number, then $a\divides ab \implies$ there is an element (and thus a subgroup) of order $a$.
-In this case, $M/N$ contains a nontrivial proper cyclic subgroup, so $M/N$ is not simple.
-So $\abs{M/N}$ can not be composite, and therefore must be prime.
-
-:::
-
-:::{.proof title="of c"}
-\envlist
-
-- Let $G = \theset{x \in \CC \suchthat x^n=1 \text{ for some }n\in \NN}$, and suppose $H < G$ is a proper submodule.
-
-- Since $H\neq G$, there is some $p$ and some $k$ such that $\zeta_{p^k}\not\in H$.
-  - Otherwise, if $H$ contains every $\zeta_{p^k}$ it contains every $\zeta_n$
-
-Then there must be a prime $p$ such that the $\zeta_{p^k} \not \in H$ for all $k$ greater than some constant $m$ -- otherwise, we can use the fact that if $\zeta_{p^k} \in H$ then $\zeta_{p^\ell} \in H$ for all $\ell \leq k$, and if $\zeta_{p^k} \in H$ for all $p$ and all $k$ then $H = G$.
-
-But this means there are infinitely many elements in $G\setminus H$, and so $\infty = [G: H] = \abs{G/H}$ is not a prime. 
-Thus by (b), $H$ can not be maximal, a contradiction.
-
-
-:::
-
-:::
-
-### Fall 2019 Final #2  #algebra/qual/work
-Consider the $\ZZ\dash$submodule $N$ of $\ZZ^3$ spanned by 
+Let $R$ be a commutative ring with unit and let $M$ be an $R$-module. Define the annihilator of $M$ to be
 \[
-f_1 &= [-1, 0, 1], \\
-f_2 &= [2,-3,1], \\
-f_3 &= [0, 3, 1], \\
-f_4 &= [3,1,5]
-.\] 
-Find a basis for $N$ and describe $\ZZ^3/N$.
-
-### Spring 2018 #6 #algebra/qual/work
-Let
-\[
-M &= \{(w, x, y, z) \in \ZZ^4 \suchthat w + x + y + z \in 2\ZZ\} \\
-N &= \ts{
-(w, x, y, z) \in \ZZ^4 \suchthat 4\divides (w - x),~ 4\divides (x - y),~ 4\divides ( y - z)
-}
-.\]
-
-a.
-Show that $N$ is a $\ZZ\dash$submodule of $M$ .
-
-b.
-Find vectors $u_1 , u_2 , u_3 , u_4 \in \ZZ^4$ and integers $d_1 , d_2 , d_3 , d_4$ such that
-\[
-\{
-u_1 , u_2 , u_3 , u_4 
-\} 
-&& \text{is a free basis for }M
-\\
-\{
-d_1 u_1,~ d_2 u_2,~ d_3 u_3,~ d_4 u_4 
-\}
-&& \text{is a free basis for }N
+\operatorname{Ann}(M):=\{r \in R \mid r \cdot m=0 \text { for all } m \in M\}
 \]
 
+a.
+Prove that $\operatorname{Ann}(M)$ is an ideal in $R$.
+
+b.
+Conversely, prove that every ideal in $R$ is the annihilator of some $R$-module.
+
 c.
-Use the previous part to describe $M/N$ as a direct sum of cyclic $\ZZ\dash$modules.
-
-### Spring 2018 #7 #algebra/qual/work
-Let $R$ be a PID and $M$ be an $R\dash$module. Let $p$ be a prime element of $R$. The module $M$ is called *$\generators{p}\dash$primary* if for every $m \in M$ there exists $k > 0$ such that $p^k m = 0$.
-
-a.
-Suppose M is $\generators{p}\dash$primary. Show that if $m \in M$ and $t \in R, ~t \not\in \generators{p}$, then there exists $a \in R$ such that
-$atm = m$.
-
-b.
-A submodule $S$ of $M$ is said to be *pure* if $S \cap r M = rS$ for all $r \in R$. Show that if $M$ is $\generators{p}\dash$primary, then $S$ is pure if and only if $S \cap p^k M = p^k S$ for all $k \geq 0$.
+Give an example of a module $M$ over a ring $R$ such that each element $m \in M$ has a nontrivial annihilator $\operatorname{Ann}(m):=\{r \in R \mid r \cdot m=0\}$, but $\operatorname{Ann}(M)=\{0\}$
 
 
-### Fall 2016 #6 #algebra/qual/work
-Let $R$ be a ring and $f: M\to N$ and $g: N\to M$ be $R\dash$module homomorphisms such that $g\circ f = \id_M$.
-Show that $N\cong \im f \oplus \ker g$.
-
-### Spring 2016 #4 #algebra/qual/work
-Let $R$ be a ring with the following commutative diagram of $R\dash$modules, where each row represents a short exact sequence of $R\dash$modules:
-
-\begin{tikzcd}
-0 \ar[r] & A \ar[d, "\alpha"] \ar[r, "f"] & B \ar[d, "\beta"] \ar[r, "g"] & C \ar[r] \ar[d, "\gamma"] & 0 \\
-0 \ar[r] & A' \ar[r, "f'"] & B'\ar[r, "g'"] & C' \ar[r] & 0 
-\end{tikzcd}
-
-Prove that if $\alpha$ and $\gamma$ are isomorphisms then $\beta$ is an isomorphism.
-
-### Spring 2015 #8 #algebra/qual/work
-Let $R$ be a PID and $M$ a finitely generated $R\dash$module.
+### Spring 2017 #5 #algebra/qual/work
+Let $R$ be an integral domain and let $M$ be a nonzero torsion $R\dash$module.
 
 a.
-Prove that there are $R\dash$submodules 
-\[
-0 = M_0 \subset M_1 \subset \cdots \subset M_n = M
-\]
-such that for all $0\leq i \leq n-1$, the module $M_{i+1}/M_i$ is cyclic.
+Prove that if $M$ is finitely generated then the annihilator in $R$ of $M$ is nonzero.
 
 b.
-Is the integer $n$ in part (a) uniquely determined by $M$? 
-Prove your answer.
+Give an example of a non-finitely generated torsion $R\dash$module whose annihilator is $(0)$, and justify your answer.
 
 
-### Fall 2012 #6 #algebra/qual/work
-Let $R$ be a ring and $M$ an $R\dash$module.
-Recall that $M$ is *Noetherian* iff any strictly increasing chain of submodule $M_1 \subsetneq M_2 \subsetneq \cdots$ is finite.
-Call a proper submodule $M' \subsetneq M$ *intersection-decomposable* if it can not be written as the intersection of two proper submodules $M' = M_1\intersect M_2$ with $M_i \subsetneq M$.
-
-Prove that for every Noetherian module $M$, any proper submodule $N\subsetneq M$ can be written as a finite intersection $N = N_1 \intersect \cdots \intersect N_k$ of intersection-indecomposable modules.
-
-
-### Fall 2019 Final #1  #algebra/qual/work
-Let $A$ be an abelian group, and show $A$ is a $\ZZ\dash$module in a unique way.
-
-### Fall 2020 #6 #algebra/qual/work
-Let $R$ be a ring with $1$ and let $M$ be a left \(R\dash\)module.
-If $I$ is a left ideal of $R$, define 
-\[
-IM \da \ts{ \sum_{i=1}^{N < \infty} a_i m_i \st a_i \in I, m_i \in M, n\in \NN}
-,\]
-i.e. the set of finite sums of of elements of the form $am$ where \( a\in I, m\in M \).
-
-a. Prove that $IM \leq M$ is a submodule.
-
-b. Let $M, N$ be left \(R\dash\)modules, $I$ a nilpotent left ideal of $R$, and $f: M\to N$ an \(R\dash\)module morphism.
-Prove that if the induced morphism \( \bar{f}: M/IM \to N/IN \) is surjective, then $f$ is surjective.
 
 
 ## Torsion and the Structure Theorem
@@ -645,14 +448,6 @@ Show that $M/M_t$ is torsion free.
 c.
 Prove that $M \cong M_t \oplus F$ where $F$ is a free module.
 
-### Spring 2017 #5 #algebra/qual/work
-Let $R$ be an integral domain and let $M$ be a nonzero torsion $R\dash$module.
-
-a.
-Prove that if $M$ is finitely generated then the annihilator in $R$ of $M$ is nonzero.
-
-b.
-Give an example of a non-finitely generated torsion $R\dash$module whose annihilator is $(0)$, and justify your answer.
 
 ### Fall 2019 Final #3 #algebra/qual/work
 Let $R = k[x]$ for $k$ a field and let $M$ be the $R\dash$module given by
@@ -707,3 +502,231 @@ b. Determine the minimal polynomial of $A$.
 
 c. Determine the characteristic polynomial of $A$.
 
+
+
+## Misc/Unsorted
+
+### Spring 2017 #3 #algebra/qual/work
+Let $R$ be a commutative ring with 1.
+Suppose that $M$ is a free $R\dash$module with a finite basis $X$.
+
+a.
+Let $I \normal R$ be a proper ideal.
+Prove that $M/IM$ is a free $R/I\dash$module with basis $X'$, where $X'$ is the image of $X$ under the canonical map $M\to M/IM$.
+
+b.
+Prove that any two bases of $M$ have the same number of elements.
+You may assume that the result is true when $R$ is a field.
+
+### Spring 2020 #5 #algebra/qual/completed
+Let $R$ be a ring and $f: M\to N$ and $g: N\to M$ be $R\dash$module homomorphisms such that $g\circ f = \id_M$.
+Show that $N \cong \im f \oplus \ker g$.
+
+
+:::{.solution}
+\envlist
+
+- We have the following situation:
+
+\begin{tikzcd}
+	M &&& N
+	\arrow["f", from=1-1, to=1-4]
+	\arrow["g"', curve={height=24pt}, dashed, from=1-4, to=1-1]
+\end{tikzcd}
+
+> [Link to Diagram](https://q.uiver.app/?q=WzAsMixbMCwwLCJNIl0sWzMsMCwiTiJdLFswLDEsImYiXSxbMSwwLCJnIiwyLHsiY3VydmUiOjQsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==)
+
+- Claim: $\im f + \ker g \subseteq N$, and this is in fact an equality.
+  - For $n\in N$, write
+  \[
+  n = n + (f\circ g)(n) - (f\circ g)(n) = \qty{n - (f\circ g)(n) } + (f\circ g)(n)
+  .\]
+  - The first term is in $\ker g$:
+  \[
+  g \qty{ n - (f\circ g)(n) }
+  &= g(n) - (g\circ f \circ g)(n)\\
+  &= g(n) - (\id_N \circ g)(n)\\
+  &= g(n) - g(n) \\
+  &= 0
+  .\]
+  - The second term is clearly in $\im f$.
+- Claim: the sum is direct.
+  - Suppose $n\in \ker(g) \intersect \im(f)$, so $g(n) = 0$ and $n=f(m)$ for some $m\in M$.
+  Then
+  \[
+  0 = g(n) = g(f(m)) = (g\circ f)(m)
+  = \id_M(m) = m
+  ,\]
+  so $m=0$ and since $f$ is a morphism in \(R\dash\)modules, $n\da f(m) = 0$.
+:::
+
+
+
+### Fall 2018 #6 #algebra/qual/completed
+Let $R$ be a commutative ring, and let $M$ be an $R\dash$module. 
+An $R\dash$submodule $N$ of $M$ is maximal if there is no $R\dash$module $P$ with $N \subsetneq P \subsetneq M$.
+
+a.
+Show that an $R\dash$submodule $N$ of $M$ is maximal $\iff M /N$ is a simple $R\dash$module: i.e., $M /N$ is nonzero and has no proper, nonzero $R\dash$submodules.
+
+b.
+Let $M$ be a $\ZZ\dash$module. Show that a $\ZZ\dash$submodule $N$ of $M$ is maximal $\iff \size M /N$ is a prime number.
+
+c.
+Let $M$ be the $\ZZ\dash$module of all roots of unity in $\CC$ under multiplication.
+Show that there is no maximal $\ZZ\dash$submodule of $M$.
+
+:::{.concept}
+\envlist
+
+- Todo
+:::
+
+:::{.solution}
+\envlist
+
+:::{.proof title="of a"}
+By the correspondence theorem, submodules of $M/N$ biject with submodules $A$ of $M$ containing $N$.
+
+So 
+
+- $M$ is maximal:
+
+- $\iff$ no such (proper, nontrivial) submodule $A$ exists 
+
+- $\iff$ there are no (proper, nontrivial) submodules of $M/N$ 
+
+- $\iff M/N$ is simple.
+
+:::
+
+:::{.proof title="of b"}
+Identify $\ZZ\dash$modules with abelian groups, then by (a), $N$ is maximal $\iff$ $M/N$ is simple $\iff$ $M/N$ has no nontrivial proper subgroups.
+\
+
+By Cauchy's theorem, if $\abs{M/N} = ab$ is a composite number, then $a\divides ab \implies$ there is an element (and thus a subgroup) of order $a$.
+In this case, $M/N$ contains a nontrivial proper cyclic subgroup, so $M/N$ is not simple.
+So $\abs{M/N}$ can not be composite, and therefore must be prime.
+
+:::
+
+:::{.proof title="of c"}
+\envlist
+
+- Let $G = \theset{x \in \CC \suchthat x^n=1 \text{ for some }n\in \NN}$, and suppose $H < G$ is a proper submodule.
+
+- Since $H\neq G$, there is some $p$ and some $k$ such that $\zeta_{p^k}\not\in H$.
+  - Otherwise, if $H$ contains every $\zeta_{p^k}$ it contains every $\zeta_n$
+
+Then there must be a prime $p$ such that the $\zeta_{p^k} \not \in H$ for all $k$ greater than some constant $m$ -- otherwise, we can use the fact that if $\zeta_{p^k} \in H$ then $\zeta_{p^\ell} \in H$ for all $\ell \leq k$, and if $\zeta_{p^k} \in H$ for all $p$ and all $k$ then $H = G$.
+
+But this means there are infinitely many elements in $G\setminus H$, and so $\infty = [G: H] = \abs{G/H}$ is not a prime. 
+Thus by (b), $H$ can not be maximal, a contradiction.
+
+
+:::
+
+:::
+
+### Fall 2019 Final #2  #algebra/qual/work
+Consider the $\ZZ\dash$submodule $N$ of $\ZZ^3$ spanned by 
+\[
+f_1 &= [-1, 0, 1], \\
+f_2 &= [2,-3,1], \\
+f_3 &= [0, 3, 1], \\
+f_4 &= [3,1,5]
+.\] 
+Find a basis for $N$ and describe $\ZZ^3/N$.
+
+### Spring 2018 #6 #algebra/qual/work
+Let
+\[
+M &= \{(w, x, y, z) \in \ZZ^4 \suchthat w + x + y + z \in 2\ZZ\} \\
+N &= \ts{
+(w, x, y, z) \in \ZZ^4 \suchthat 4\divides (w - x),~ 4\divides (x - y),~ 4\divides ( y - z)
+}
+.\]
+
+a.
+Show that $N$ is a $\ZZ\dash$submodule of $M$ .
+
+b.
+Find vectors $u_1 , u_2 , u_3 , u_4 \in \ZZ^4$ and integers $d_1 , d_2 , d_3 , d_4$ such that
+\[
+\{
+u_1 , u_2 , u_3 , u_4 
+\} 
+&& \text{is a free basis for }M
+\\
+\{
+d_1 u_1,~ d_2 u_2,~ d_3 u_3,~ d_4 u_4 
+\}
+&& \text{is a free basis for }N
+\]
+
+c.
+Use the previous part to describe $M/N$ as a direct sum of cyclic $\ZZ\dash$modules.
+
+### Spring 2018 #7 #algebra/qual/work
+Let $R$ be a PID and $M$ be an $R\dash$module. Let $p$ be a prime element of $R$. The module $M$ is called *$\generators{p}\dash$primary* if for every $m \in M$ there exists $k > 0$ such that $p^k m = 0$.
+
+a.
+Suppose M is $\generators{p}\dash$primary. Show that if $m \in M$ and $t \in R, ~t \not\in \generators{p}$, then there exists $a \in R$ such that
+$atm = m$.
+
+b.
+A submodule $S$ of $M$ is said to be *pure* if $S \cap r M = rS$ for all $r \in R$. Show that if $M$ is $\generators{p}\dash$primary, then $S$ is pure if and only if $S \cap p^k M = p^k S$ for all $k \geq 0$.
+
+
+### Fall 2016 #6 #algebra/qual/work
+Let $R$ be a ring and $f: M\to N$ and $g: N\to M$ be $R\dash$module homomorphisms such that $g\circ f = \id_M$.
+Show that $N\cong \im f \oplus \ker g$.
+
+### Spring 2016 #4 #algebra/qual/work
+Let $R$ be a ring with the following commutative diagram of $R\dash$modules, where each row represents a short exact sequence of $R\dash$modules:
+
+\begin{tikzcd}
+0 \ar[r] & A \ar[d, "\alpha"] \ar[r, "f"] & B \ar[d, "\beta"] \ar[r, "g"] & C \ar[r] \ar[d, "\gamma"] & 0 \\
+0 \ar[r] & A' \ar[r, "f'"] & B'\ar[r, "g'"] & C' \ar[r] & 0 
+\end{tikzcd}
+
+Prove that if $\alpha$ and $\gamma$ are isomorphisms then $\beta$ is an isomorphism.
+
+### Spring 2015 #8 #algebra/qual/work
+Let $R$ be a PID and $M$ a finitely generated $R\dash$module.
+
+a.
+Prove that there are $R\dash$submodules 
+\[
+0 = M_0 \subset M_1 \subset \cdots \subset M_n = M
+\]
+such that for all $0\leq i \leq n-1$, the module $M_{i+1}/M_i$ is cyclic.
+
+b.
+Is the integer $n$ in part (a) uniquely determined by $M$? 
+Prove your answer.
+
+
+### Fall 2012 #6 #algebra/qual/work
+Let $R$ be a ring and $M$ an $R\dash$module.
+Recall that $M$ is *Noetherian* iff any strictly increasing chain of submodule $M_1 \subsetneq M_2 \subsetneq \cdots$ is finite.
+Call a proper submodule $M' \subsetneq M$ *intersection-decomposable* if it can not be written as the intersection of two proper submodules $M' = M_1\intersect M_2$ with $M_i \subsetneq M$.
+
+Prove that for every Noetherian module $M$, any proper submodule $N\subsetneq M$ can be written as a finite intersection $N = N_1 \intersect \cdots \intersect N_k$ of intersection-indecomposable modules.
+
+
+### Fall 2019 Final #1  #algebra/qual/work
+Let $A$ be an abelian group, and show $A$ is a $\ZZ\dash$module in a unique way.
+
+### Fall 2020 #6 #algebra/qual/work
+Let $R$ be a ring with $1$ and let $M$ be a left \(R\dash\)module.
+If $I$ is a left ideal of $R$, define 
+\[
+IM \da \ts{ \sum_{i=1}^{N < \infty} a_i m_i \st a_i \in I, m_i \in M, n\in \NN}
+,\]
+i.e. the set of finite sums of of elements of the form $am$ where \( a\in I, m\in M \).
+
+a. Prove that $IM \leq M$ is a submodule.
+
+b. Let $M, N$ be left \(R\dash\)modules, $I$ a nilpotent left ideal of $R$, and $f: M\to N$ an \(R\dash\)module morphism.
+Prove that if the induced morphism \( \bar{f}: M/IM \to N/IN \) is surjective, then $f$ is surjective.

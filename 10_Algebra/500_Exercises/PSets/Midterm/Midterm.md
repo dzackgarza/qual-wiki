@@ -151,7 +151,7 @@ Since $p$ is prime and $Z(G)$ is a subgroup, this forces $\size Z(G) \in \theset
 Supposing that $\size Z(G) = p^2$,we would have $[G: Z(G)] = p$, and since $Z(G) \normal G$, we can take the quotient and $\size\left(G/Z(G)\right) = p$.
 But this means $G/Z(G)$ is cyclic, which implies that $G$ is abelian, a contradiction.
 
-So we must have $\sizeZ(G) = p$, and $\size\left(G/Z(G)\right) = p^2$.
+So we must have $\size Z(G) = p$, and $\size\left(G/Z(G)\right) = p^2$.
 
 But any group of $p^2$ is abelian, and we can characterize $G' \definedas [G, G]$ in the following way:
 

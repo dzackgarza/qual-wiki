@@ -461,8 +461,8 @@ Show that
 .\]
 
 > Hint: use the following contour.
->
-> ![Image](30_Complex%20Analysis/999_Quals/figures/image_2020-06-17-21-52-40.png)
+> ![](figures/image_2020-06-17-21-52-40.png)
+
 
 ## Branch Cuts
 
@@ -481,8 +481,8 @@ Show that if $a>0$, then
 .\]
 
 > Hint: use the following contour.
->
-> ![Image](30_Complex%20Analysis/999_Quals/figures/image_2020-06-17-21-53-19.png)
+> ![](figures/image_2020-06-17-21-53-19.png)
+
 
 ### Spring 2020.2 #complex/qual/work
 

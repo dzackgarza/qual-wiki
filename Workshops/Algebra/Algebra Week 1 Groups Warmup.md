@@ -92,7 +92,7 @@ $$
 
 > Induce on $\size G$. Assume $\size G > p$ and pick $g\neq 1$.
 > If $p\divides \size g$, use cyclic group theory, so assume otherwise.
-> Use that $\sizeG = \sizeG/N \sizeN$ so $p$ divides $\size G/N$, apply IH to get an element of order $p$ in the quotient.
+> Use that $\size G = \size G/N \size N$ so $p$ divides $\size G/N$, apply IH to get an element of order $p$ in the quotient.
 > Then $y\not\in N$ but $y^p\in N$, so $\gens{y}\neq \gens{y^p}$ since $y^p\in N \implies \gens{y^p} \subseteq N$.
 > Get $p\divides \size \gens{y}$, apply IH.
 - Prove that if $\size G$ is prime, then $G$ is cyclic
@@ -161,7 +161,7 @@ $$
 	> If there's an element of order $p^2$, cyclic, done.
 	> Else every element $a\neq 1$ must have order $p$.
 	> Then $\gens{a}\neq G$, so pick $b$ in its complement, it has order $p$. Call these two subgroups $H, K$
-	> Recognize direct products: abelian implies both are normal, $H \intersect K = \ts{1}$. and $\sizeHK = \size H \size K / \size(H \intersect K) = p\cdot p/1 = p^2$
+	> Recognize direct products: abelian implies both are normal, $H \intersect K = \ts{1}$. and $\size HK = \size H \size K / \size(H \intersect K) = p\cdot p/1 = p^2$
 
 - (**Important**)
 	Show that if $H\leq G$ and $[G: H] = 2$ then $H$ is normal.
