@@ -67,20 +67,17 @@ Write $\phi_\delta(y) \da \delta\inv\phi(\delta\inv y)$, then
 &= \int\abs{\phi_\delta(y)}\cdot \norm{\tau_yf - f}_1 \dy
 ,\]
 where the interchange of integration order is justified by Tonelli since the integrands are positive.
-The goal is to now make this small when $\delta$ is small
+The goal is to now make this small when $\delta$ is small.
 
 One way to do this immediately: make a change of variables $y=tz$ to get
 \[
-\norm{A_\delta f - \alpha f}_1 \leq 
-\int {\abs{\phi(z)}} \norm{\tau_{tz}f -f}_1 \dz
+\norm{A_\delta f - \alpha f}_1 \leq\int {\abs{\phi(z)}} \norm{\tau_{tz}f -f}_1 \dz
 ,\]
 use that $\norm{\tau_{tz} f- f}_1 \leq 2\norm{f}_1 < \infty$ by the triangle inequality and apply the DCT:
 \[
 \lim_{t\to 0}
-\int {\abs{\phi(z)}} \cdot \norm{\tau_{tz}f -f}_1 \dz
-=
-\int {\abs{\phi(z)}} \lim_{t\to 0} \norm{\tau_{tz}f -f}_1 \dz
-= 0
+\int {\abs{\phi(z)}} \cdot \norm{\tau_{tz}f -f}_1 \dz =
+\int {\abs{\phi(z)}} \lim_{t\to 0} \norm{\tau_{tz}f -f}_1 \dz = 0
 .\]
 
 More directly, use continuity in $L^1$ (as per the hint) to pick a $h>0$ such that \[
@@ -94,11 +91,9 @@ Now
 \[
 \int_\RR \abs{\phi_\delta(y)}\cdot \norm{\tau_yf - f}_1 \dy
 &=
-\int_A \abs{\phi_\delta(y)}\cdot \norm{\tau_yf - f}_1 \dy
-+ \int_{A^c} \abs{\phi_\delta(y)}\cdot \norm{\tau_yf - f}_1 \dy \\
+\int_A \abs{\phi_\delta(y)}\cdot \norm{\tau_yf - f}_1 \dy + \int_{A^c} \abs{\phi_\delta(y)}\cdot \norm{\tau_yf - f}_1 \dy \\
 &\leq 
-\int_A \abs{\phi_\delta(y)}\cdot \eps \dy
-+ \int_{A^c} \abs{\phi_\delta(y)} \cdot 2\norm{f}_1 \dy \\
+\int_A \abs{\phi_\delta(y)}\cdot \eps \dy + \int_{A^c} \abs{\phi_\delta(y)} \cdot 2\norm{f}_1 \dy \\
 &\leq \eps\norm{\phi_\delta}_1 + 2\eps\norm{f}_1 \\
 &\too 0
 .\]
@@ -406,8 +401,7 @@ Then
 \norm{f\ast K_j - f}_1 
 &\leq 
 \int \abs{K_j(y)} \cdot \norm{f - \tau_y f}_1 ~dy \\
-&= \int_{\abs y < \delta} \abs{K_j(y)} \cdot \norm{f - \tau_y f}_1 ~dy 
-+ \int_{\abs y \geq  \delta} \abs{K_j(y)} \cdot \norm{f - \tau_y f}_1 ~dy \\
+&= \int_{\abs y < \delta} \abs{K_j(y)} \cdot \norm{f - \tau_y f}_1 ~dy+ \int_{\abs y \geq  \delta} \abs{K_j(y)} \cdot \norm{f - \tau_y f}_1 ~dy \\
 &= \varepsilon \int_{\abs y \geq  \delta} \abs{K_j(y)} + 0 \\
 &\leq \varepsilon(1) \to 0
 .\]

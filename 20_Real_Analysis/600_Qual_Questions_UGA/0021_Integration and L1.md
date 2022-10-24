@@ -47,10 +47,8 @@ Estimate:
 \int_F I(x) \dx 
 &\da \int_F \int_\RR {\delta_F(y) \over (x-y)^2 } \dy \dx \\
 &= \int_\RR \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy \\
-&= \int_F \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy 
-+ \int_{F^c} \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy \\
-&= 0
-+ \int_{F^c} \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy \\
+&= \int_F \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy + \int_{F^c} \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy \\
+&= 0 + \int_{F^c} \delta_F(y) \int_F {1\over (x-y)^2} \dx \dy \\
 &\leq
 \int_{F^c} 2 \dy \\
 &= 2\mu(F^c) \\
@@ -360,8 +358,7 @@ a-\eps \leq b \leq a+\eps \implies b=a
 \[
 \norm{f + g_N}_1 
 = \int_\RR \abs{f+g_N} 
-= \int_{-\infty}^{R_1} \abs{f+ g_N}
-+ \int_{R_1}^{\infty} \abs{f+ g_N}
+= \int_{-\infty}^{R_1} \abs{f+ g_N} + \int_{R_1}^{\infty} \abs{f+ g_N}
 \da I_1 + I_2
 .\]
 
@@ -920,11 +917,9 @@ Note that
 &= \int_0^\infty \int_x^\infty x^{1\over 3}(1+xy)^{-3\over 2} \dy \dx \\
 &= \int_0^\infty -2x^{-{ 2\over 3} }(1+xy)^{-{ 1\over 2} }\evalfrom_{y=x}^{y=\infty} \dx \\
 &= \int_0^\infty {2\over x^{2\over 3} (1+x^2)^{1\over 2}}\\
-&= \int_0^1 {2\over x^{2\over 3} (1+x^2)^{1\over 2}}
-+ \int_1^\infty {2\over x^{2\over 3} (1+x^2)^{1\over 2}} \\
+&= \int_0^1 {2\over x^{2\over 3} (1+x^2)^{1\over 2}} + \int_1^\infty {2\over x^{2\over 3} (1+x^2)^{1\over 2}} \\
 &=
-\int_0^1 {2\over x^{2\over 3} }
-+ \int_1^\infty {2\over x^{5\over 3} } \\
+\int_0^1 {2\over x^{2\over 3} } + \int_1^\infty {2\over x^{5\over 3} } \\
 &<\infty
 ,\]
 where 

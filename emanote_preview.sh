@@ -12,11 +12,12 @@ while getopts i: flag; do
   esac
 done
 
-echo "Image directory: $IMAGE_DIR"
+echo "Image directory: $IMAGE_DIR";
+echo "Temp directory: $TMP_DIR";
 
 clean_to_temp()
 {
-  awk 'NF {p=1} p' "$@" | emanote_stripmacro.sh  | sed 's/\:\:\:\s*\(.*\)/\n:::\1\n/g' > /tmp/temp.md;
+  awk 'NF {p=1} p' "$@" | ./emanote_stripmacro.sh  | sed 's/\:\:\:\s*\(.*\)/\n:::\1\n/g' > /tmp/temp.md;
   #awk 'FNR==1{print ""}1' "$f" | sed '/\\envlist/d' | emanote_stripmacro.sh |sed '/file:\/\//d' | sed '/^$/d' > /tmp/temp.md && cp /tmp/temp.md "$destname" && echo "Copied pandoc page: $destname";
 }
 
@@ -31,7 +32,7 @@ mkdir -p "$TMP_DIR"/figures;
 cp /home/zack/notes_site_skel/* "$TMP_DIR" -r;
 
 cp "$BASE_DIR"/*.md "$TMP_DIR";
-rsync -a --exclude='.*' --exclude="*.css" --exclude="*.sty" --exclude="*.tex" --exclude="*.txt" --exclude="*.sh" --exclude="*.html" --exclude="*.log" --exclude="*.add.spl" --exclude="*.add" --exclude="*.bib" --exclude="100_Homological Algebra" --exclude="10_Algebra" "$BASE_DIR"/ "$TMP_DIR"/;
+rsync -a --exclude='.*' --exclude="*.css" --exclude="*.sty" --exclude="*.tex" --exclude="*.txt" --exclude="*.sh" --exclude="*.html" --exclude="*.log" --exclude="*.add.spl" --exclude="*.add" --exclude="*.bib" --exclude="100_Homological Algebra" "$BASE_DIR"/ "$TMP_DIR"/;
 
 find "$TMP_DIR" -type f \( -iname 'data.yaml' \) -exec rm {} \;
 update_images

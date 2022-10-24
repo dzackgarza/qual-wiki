@@ -8,6 +8,12 @@ order: 999
 
 | Exam                        | Typeset   | Imported to MakeMeAQual   | Solutions   |
 | -------------               | --------- | ------------------------- | ----------- |
+| 2023 Fall                   |           |                           |             |
+| 2023 Spring                 |           |                           |             |
+| 2022 Fall                   |           |                           |             |
+| 2022 Spring                 |           |                           |             |
+| 2021 Fall                   |           |                           |             |
+| 2021 Spring                 |           |                           |             |
 | 2020 Fall                   |           |                           |             |
 | 2020 Spring                 | ✓         |                           |             |
 | 2019 Fall Midterm and Final | ✓         |                           |             |
@@ -32,6 +38,11 @@ order: 999
 
 | Exam        | Typeset | Imported to MakeMeAQual | Solutions |
 |-------------|---------|-------------------------|-----------|
+| Fall 2023   |         |                         |           |
+| Spring 2023 |         |                         |           |
+| Fall 2022   |         |                         |           |
+| Spring 2022 |         |                         |           |
+| Fall 2021   |         |                         |           |
 | Spring 2021 | ✓       |                         |           |
 | Fall 2020   | ✓       |                         |           |
 | Spring 2020 | ✓       |                         |           |
@@ -55,6 +66,14 @@ order: 999
 | -----------------------       | --------- | ------------------------- | ----------- |
 | Edward Azoff's Collection (?) |           |                           | IP          |
 | Jingzhi Tie's Collection      | ✓         | ✓                         | IP          |
+| Fall 2023                     |           |                           |             |
+| Spring 2023                   |           |                           |             |
+| Fall 2022                     |           |                           |             |
+| Spring 2022                   |           |                           |             |
+| Fall 2021                     |           |                           |             |
+| Spring 2021                   |           |                           |             |
+| Fall 2020                     |           |                           |             |
+| Spring 2020                   |           |                           |             |
 | Fall 2019                     |           |                           |             |
 | Spring 2019                   |           |                           |             |
 | Fall 2018                     |           |                           |             |
@@ -76,6 +95,14 @@ order: 999
 | Exam                    | Typeset   | Imported to MakeMeAQual   | Solutions   |
 | ----------------------- | --------- | ------------------------- | ----------- |
 | Mike Usher's Collection | ✓         | ✓                         | IP          |
+| Fall 2023               |           |                           |             |
+| Spring 2023             |           |                           |             |
+| Fall 2022               |           |                           |             |
+| Spring 2022             |           |                           |             |
+| Fall 2021               |           |                           |             |
+| Spring 2021             |           |                           |             |
+| Fall 2020               |           |                           |             |
+| Spring 2020             |           |                           |             |
 | Fall 2019               |           |                           |             |
 | Spring 2019             |           |                           |             |
 | Fall 2018               |           |                           |             |
