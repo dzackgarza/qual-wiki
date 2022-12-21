@@ -11,7 +11,7 @@ title: "Study Schedule and Topics"
 - Week 1 (May 19):  **Preliminary Review**
 	- $\CC, \DD, \HH, \CP^1$
 	- [[30_Complex_Analysis/010_Basics/100_Complex Arithmetic|Complex arithmetic]]
-	- [[30_Complex Analysis/010_Basics/115_Complex Log|Arguments, branch cuts, complex log]]
+	- [[30_Complex_Analysis/010_Basics/115_Complex Log|Arguments, branch cuts, complex log]]
 	- [[30_Complex Analysis/010_Basics/001_Precalculus|Elementary geometry, conic sections]]
 	- Analysis Review 
 		- Uniform (continuity,  differentiability, convergence)
