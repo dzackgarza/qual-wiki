@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "120_Holomorphy and Calculus",
+      "path": "30_Complex_Analysis/010_Basics/120_Holomorphy and Calculus.md"
+    },
+    {
       "basename": "051 Series Exercises",
       "path": "30_Complex_Analysis/010_Basics/051 Series Exercises.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "200_Schwarz_Lemma",
       "path": "30_Complex Analysis/999_Quals/200_Schwarz_Lemma.md"
-    },
-    {
-      "basename": "qual_progress",
-      "path": "qual_progress.md"
     }
   ],
   "omittedPaths": [],
