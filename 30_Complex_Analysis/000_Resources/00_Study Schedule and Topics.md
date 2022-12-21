@@ -65,7 +65,7 @@ title: "Study Schedule and Topics"
 
 - Week 9 (July 14): **Schwarz lemma**
 	- [[030_Conformal Map Theory and Background#Blaschke Factors|Blaschke Factors]]
-	- [[30_Complex Analysis/999_Quals/200_Schwarz_Lemma|Schwarz lemma]] 
+	- [[30_Complex_Analysis/999_Quals/200_Schwarz_Lemma|Schwarz lemma]] 
 	- [[30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping|Open Mapping Theorem]]
 
 - Week 10  (July 21): **Omitted values**
