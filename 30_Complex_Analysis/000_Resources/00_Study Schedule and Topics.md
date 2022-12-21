@@ -74,7 +74,7 @@ title: "Study Schedule and Topics"
 
 - Week 11 (July 28): **Montel**
 	- [[030 Identity Principle|The identity principle]]
-	- [[30_Complex Analysis/070_Omitted Values/050_Montel#Normal Families|Normal families]]
+	- [[050_Montel#Normal Families|Normal families]]
 	- [[30_Complex Analysis/070_Omitted Values/050_Montel|Montel's theorem]]
 	- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem and unformization]]
 
