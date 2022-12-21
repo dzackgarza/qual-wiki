@@ -47,7 +47,7 @@ title: "Study Schedule and Topics"
 
 - Week 5 (June 16): **Integration II**
     - [[020_Residues|Residues]]
-    - [[30_Complex Analysis/040_Residues/030_Exercises_Integrals|Techniques in contour integration]]
+    - [[30_Complex_Analysis/040_Residues/030_Exercises_Integrals|Techniques in contour integration]]
 
 - Week 6 (June 23): **Entire functions**
 	- [[020 Liouville|Liouville's theorem]]
