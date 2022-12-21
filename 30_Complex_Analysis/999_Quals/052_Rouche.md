@@ -520,6 +520,7 @@ Small: $m(z) \da -a$.
 Use the following estimate:
 
 $$
+\begin{align*}
 \abs{z\sin(z)}^2
 &= \abs{z\over 2}^2 \abs{e^{iz} - e^{-iz}}^2 \\
 &\geq \abs{z\over 2}^2 \abs{ \abs e^{iz} } - \abs{ e^{-iz} } ^2 \\
