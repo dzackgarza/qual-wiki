@@ -43,7 +43,7 @@ title: "Study Schedule and Topics"
 	- [[012 Cauchy Integral Formula|Cauchy's Integral Formula]]
 	- [[30_Complex_Analysis/030_Zeros_and_Poles/040_MMP|Maximum Modulus Principle]]
 	- [[30_Complex_Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|Schwarz reflection principle]]
-	- [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|Mean value theorem]]
+	- [[30_Complex_Analysis/020_Applications of Cauchy/015 Mean Value Theorem|Mean value theorem]]
 
 - Week 5 (June 16): **Integration II**
     - [[020_Residues|Residues]]
