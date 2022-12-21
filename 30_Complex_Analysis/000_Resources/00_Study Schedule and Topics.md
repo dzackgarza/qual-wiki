@@ -61,7 +61,7 @@ title: "Study Schedule and Topics"
 	- [[30_Complex_Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 	- [[030_Conformal Map Theory and Background#Linear Fractional/Mobius Transformations|Mobius transformations and linear fractional transformations]]
 	- [[031_Conformal_Standard#The Big 9 Conformal Maps|The big 9 standard maps]]
-	- [[000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]], 
+	- [[30_Complex_Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]], 
 
 - Week 9 (July 14): **Schwarz lemma**
 	- [[30_Complex Analysis/050_Conformal_Maps/030_Conformal Map Theory and Background#Blaschke Factors|Blaschke Factors]]
