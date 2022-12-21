@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/00_Books_Notes.md",
+                "file": "30_Complex_Analysis/000_Resources/00_Study Schedule and Topics.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/00_Books_Notes.md",
+                "file": "30_Complex_Analysis/000_Resources/00_Study Schedule and Topics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/00_Books_Notes.md"
+                "file": "30_Complex_Analysis/000_Resources/00_Study Schedule and Topics.md"
               }
             }
           }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/00_Books_Notes.md",
+                "file": "30_Complex_Analysis/000_Resources/00_Study Schedule and Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/00_Books_Notes.md",
+                "file": "30_Complex_Analysis/000_Resources/00_Study Schedule and Topics.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -264,6 +264,7 @@
   },
   "active": "d98e9e143bbdd6a1",
   "lastOpenFiles": [
+    "30_Complex_Analysis/000_Resources/00_Books_Notes.md",
     "000_Solution Compendia.md",
     "000_My Active Problems.md",
     "20_Real Analysis/Real Analysis Qual Progress.md",
@@ -272,7 +273,6 @@
     "30_Complex Analysis/999_Quals/105_Conformal Maps.md",
     "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
     "30_Complex Analysis/999_Quals/figures/image_2020-06-17-21-53-19.png",
-    "30_Complex Analysis/999_Quals/figures/image_2020-06-17-21-52-40.png",
-    "30_Complex Analysis/999_Quals/000_Preface.md"
+    "30_Complex Analysis/999_Quals/figures/image_2020-06-17-21-52-40.png"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Study Schedule and Topics",
+      "path": "30_Complex_Analysis/000_Resources/00_Study Schedule and Topics.md"
+    },
+    {
       "basename": "00_Books_Notes",
       "path": "30_Complex_Analysis/000_Resources/00_Books_Notes.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "035_Cauchy Theorem",
       "path": "30_Complex Analysis/999_Quals/035_Cauchy Theorem.md"
-    },
-    {
-      "basename": "130_The Cauchy-Riemann equations",
-      "path": "30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations.md"
     }
   ],
   "omittedPaths": [],
