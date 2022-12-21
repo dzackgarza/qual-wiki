@@ -64,7 +64,7 @@ Prove the Fundamental Theorem of Algebra (using complex analysis).
 - Claim: $1/p(z)$ is a bounded holomorphic function on $\CC$.
   - Holomorphic: clear? Since $p$ has no roots.
   - Bounded: for $z\neq 0$, write
-    \begin{align*}
+    $$
     \frac{P(z)}{z^{n}}=a_{n}+\left(\frac{a_{n-1}}{z}+\cdots+\frac{a_{0}}{z^{n}}\right)
     .\end{align*}
 
