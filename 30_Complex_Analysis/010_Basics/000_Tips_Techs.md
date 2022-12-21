@@ -22,6 +22,7 @@ Some useful notation:
 Things to know well:
 
 - Estimates for derivatives
+- [[Cauchy'
 - [[30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem|Cauchy's theorem]]
 - [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|MVT for harmonic/holomorphic functions]]
 - [[30_Complex Analysis/020_Applications of Cauchy/012 Cauchy Integral Formula|Cauchy's integral formula]]
