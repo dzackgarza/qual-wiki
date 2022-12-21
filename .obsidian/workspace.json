@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Complex_Analysis/010_Basics/050 Series Reference.md",
+                "file": "30_Complex_Analysis/010_Basics/051 Series Exercises.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex_Analysis/010_Basics/050 Series Reference.md",
+                "file": "30_Complex_Analysis/010_Basics/051 Series Exercises.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex_Analysis/010_Basics/050 Series Reference.md"
+                "file": "30_Complex_Analysis/010_Basics/051 Series Exercises.md"
               }
             }
           }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex_Analysis/010_Basics/050 Series Reference.md",
+                "file": "30_Complex_Analysis/010_Basics/051 Series Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex_Analysis/010_Basics/050 Series Reference.md",
+                "file": "30_Complex_Analysis/010_Basics/051 Series Exercises.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -264,6 +264,7 @@
   },
   "active": "d98e9e143bbdd6a1",
   "lastOpenFiles": [
+    "30_Complex_Analysis/010_Basics/050 Series Reference.md",
     "30_Complex_Analysis/010_Basics/001_Precalculus.md",
     "30_Complex_Analysis/010_Basics/000_Tips_Techs.md",
     "30_Complex_Analysis/000_Resources/20_Solutions.md",
@@ -272,7 +273,6 @@
     "30_Complex_Analysis/000_Resources/00_Books_Notes.md",
     "000_Solution Compendia.md",
     "000_My Active Problems.md",
-    "20_Real Analysis/Real Analysis Qual Progress.md",
-    "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md"
+    "20_Real Analysis/Real Analysis Qual Progress.md"
   ]
 }

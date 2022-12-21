@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "051 Series Exercises",
+      "path": "30_Complex_Analysis/010_Basics/051 Series Exercises.md"
+    },
+    {
       "basename": "050 Series Reference",
       "path": "30_Complex_Analysis/010_Basics/050 Series Reference.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "qual_progress",
       "path": "qual_progress.md"
-    },
-    {
-      "basename": "070_Morera",
-      "path": "30_Complex Analysis/999_Quals/070_Morera.md"
     }
   ],
   "omittedPaths": [],
