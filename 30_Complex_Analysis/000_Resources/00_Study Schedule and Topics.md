@@ -70,7 +70,7 @@ title: "Study Schedule and Topics"
 
 - Week 10  (July 21): **Omitted values**
 	- [[30_Complex_Analysis/070_Omitted Values/020_Casorati-Weierstrass|Casorati-Weierstrass]]
-	- [[30_Complex Analysis/070_Omitted Values/070_Picard|Picard's theorem]]
+	- [[30_Complex_Analysis/070_Omitted Values/070_Picard|Picard's theorem]]
 
 - Week 11 (July 28): **Montel**
 	- [[030 Identity Principle|The identity principle]]
