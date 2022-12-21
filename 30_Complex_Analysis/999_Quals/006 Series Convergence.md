@@ -185,8 +185,7 @@ Applying the formula:
 \abs{\sum_{n=M}^N n\inv z^n }
 &\leq
 \abs{
-N\inv B_N 
-- M\inv B_{M-1} 
+N\inv B_N - M\inv B_{M-1} 
 - \sum_{n=M}^{N-1} \left[
 -(n(n+1))\inv B_n 
 \right]
