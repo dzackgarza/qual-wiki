@@ -34,7 +34,7 @@ title: "Study Schedule and Topics"
 - Week 3 (June 2): **Analytic Functions and singularities**
 	- [[30_Complex_Analysis/010_Basics/050 Series Reference|Power series and convergence]]
 	- [[30_Complex_Analysis/010_Basics/051 Series Exercises|Laurent expansions]]
-	- [[30_Complex Analysis/030_Zeros_and_Poles/015_Singularities|Isolated singularities]]
+	- [[30_Complex_Analysis/030_Zeros_and_Poles/015_Singularities|Isolated singularities]]
 		- Poles, meromorphic functions, essential singularities
 	- [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity|Riemann's removable singularity theorem]]
 
