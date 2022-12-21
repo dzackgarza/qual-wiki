@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "001_Precalculus",
+      "path": "30_Complex_Analysis/010_Basics/001_Precalculus.md"
+    },
+    {
       "basename": "000_Tips_Techs",
       "path": "30_Complex_Analysis/010_Basics/000_Tips_Techs.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "052_Rouche",
       "path": "30_Complex Analysis/999_Quals/052_Rouche.md"
-    },
-    {
-      "basename": "999_Typsetting_Progress",
-      "path": "999_Typsetting_Progress.md"
     }
   ],
   "omittedPaths": [],
