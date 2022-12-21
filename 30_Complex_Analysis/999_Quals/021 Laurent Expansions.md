@@ -23,7 +23,7 @@ Let $f(z) = {z+1\over z(z-1)}$.
 
 About $z=0$:
 
-\begin{align*}
+\[
 f(z) 
 &= (z+1) \qty{- {1 \over z} + {1\over z-1} } \\
 &=  -(z+1) \qty{{1\over z} + \sum_{n=0}^\infty z^n } \\
