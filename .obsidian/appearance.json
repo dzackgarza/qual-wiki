@@ -2,5 +2,6 @@
   "theme": "moonstone",
   "translucency": false,
   "cssTheme": "Deep Work",
-  "baseFontSize": 20
+  "baseFontSize": 20,
+  "accentColor": ""
 }

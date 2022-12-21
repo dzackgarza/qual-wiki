@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "000_My Active Problems",
+      "path": "000_My Active Problems.md"
+    },
+    {
       "basename": "Real Analysis Qual Progress",
       "path": "20_Real Analysis/Real Analysis Qual Progress.md"
     },
@@ -175,10 +179,6 @@
     {
       "basename": "index",
       "path": "index.md"
-    },
-    {
-      "basename": "000_My Active Problems",
-      "path": "000_My Active Problems.md"
     },
     {
       "basename": "010_Cauchy_Theorem",

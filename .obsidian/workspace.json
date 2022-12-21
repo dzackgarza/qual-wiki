@@ -1,0 +1,278 @@
+{
+  "main": {
+    "id": "fa7907bfb54ec000",
+    "type": "split",
+    "children": [
+      {
+        "id": "354d58826aa18bbb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d98e9e143bbdd6a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000_My Active Problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8babe446ca605bc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d4b3f5d279d9110",
+        "type": "tabs",
+        "dimension": 57.88402848423194,
+        "children": [
+          {
+            "id": "9abb984b6bba57b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "82f7209fdb743cf8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\"conformal map exercises\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "19bba4e49231ac35",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f5b75c0a048b1546",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "3ce32054145f32a1",
+        "type": "tabs",
+        "dimension": 42.11597151576806,
+        "children": [
+          {
+            "id": "f02f888b50db72fe",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "000_My Active Problems.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 5,
+                  "localBacklinks": false,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 0.7125,
+                  "lineSizeMultiplier": 1.24333333333333,
+                  "collapse-forces": false,
+                  "centerStrength": 0,
+                  "repelStrength": 18.2905982905983,
+                  "linkStrength": 0.854700854700855,
+                  "linkDistance": 367,
+                  "scale": 0.21957349035445242,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "d1933ba615cdd62b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000_My Active Problems.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 412
+  },
+  "right": {
+    "id": "a1502ca3cb933e96",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c0cc6ad106c7480",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72872f9be5fb7f95",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "000_My Active Problems.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "f5723c16db5a18fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "27da86852faa4316",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "fe5142aeefaf35d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ed7072f1c1fa88b",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
+          },
+          {
+            "id": "ddedd1d5d99275ee",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "000_My Active Problems.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "-file:subject -file:2021 -file:index -tag:#nograph",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#algebraicgeometry",
+                      "color": {
+                        "a": 1,
+                        "rgb": 4366079
+                      }
+                    },
+                    {
+                      "query": "tag:#numbertheory",
+                      "color": {
+                        "a": 1,
+                        "rgb": 65310
+                      }
+                    },
+                    {
+                      "query": "tag:talk",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16711680
+                      }
+                    },
+                    {
+                      "query": "tag:#homotopy",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14078556
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.482352941176471,
+                  "repelStrength": 20,
+                  "linkStrength": 0.852941176470588,
+                  "linkDistance": 500,
+                  "scale": 0.21264751104488164,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 132
+  },
+  "active": "d98e9e143bbdd6a1",
+  "lastOpenFiles": [
+    "20_Real Analysis/Real Analysis Qual Progress.md",
+    "20_Real Analysis/600_Qual_Questions_UGA/0000_Preface.md",
+    "20_Real Analysis/600_Qual_Questions_UGA/0010_Measure Theory.md",
+    "30_Complex Analysis/999_Quals/105_Conformal Maps.md",
+    "30_Complex Analysis/999_Quals/030_Computing Integrals.md",
+    "30_Complex Analysis/999_Quals/figures/image_2020-06-17-21-53-19.png",
+    "30_Complex Analysis/999_Quals/figures/image_2020-06-17-21-52-40.png",
+    "30_Complex Analysis/999_Quals/000_Preface.md",
+    "30_Complex Analysis/Complex Qual Progress.md",
+    "30_Complex Analysis/999_Quals/002_Continuity.md"
+  ]
+}
