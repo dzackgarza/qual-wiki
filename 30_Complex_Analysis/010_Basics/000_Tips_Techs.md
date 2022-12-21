@@ -23,8 +23,8 @@ Things to know well:
 
 - Estimates for derivatives
 - [[30_Complex_Analysis/020_Applications of Cauchy/010_Cauchy_Theorem]]
-- [[15 mean va
-- [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|MVT for harmonic/holomorphic functions]]
+- [[30_Complex_Analysis/020_Applications of Cauchy/015 Mean Value Theorem|MVT for Harmonic Functions]]
+
 - [[30_Complex Analysis/020_Applications of Cauchy/012 Cauchy Integral Formula|Cauchy's integral formula]]
 - [[30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality|Cauchy's inequality]]
 - [[30_Complex Analysis/020_Applications of Cauchy/050_Morera_Theorem|Morera's theorem]]
