@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/20_Solutions.md",
+                "file": "30_Complex_Analysis/010_Basics/000_Tips_Techs.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/20_Solutions.md",
+                "file": "30_Complex_Analysis/010_Basics/000_Tips_Techs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/20_Solutions.md"
+                "file": "30_Complex_Analysis/010_Basics/000_Tips_Techs.md"
               }
             }
           }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/20_Solutions.md",
+                "file": "30_Complex_Analysis/010_Basics/000_Tips_Techs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex_Analysis/000_Resources/20_Solutions.md",
+                "file": "30_Complex_Analysis/010_Basics/000_Tips_Techs.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -264,11 +264,11 @@
   },
   "active": "d98e9e143bbdd6a1",
   "lastOpenFiles": [
+    "30_Complex_Analysis/000_Resources/20_Solutions.md",
     "30_Complex_Analysis/000_Resources/10_Problems.md",
     "30_Complex_Analysis/000_Resources/00_Study Schedule and Topics.md",
     "30_Complex_Analysis/000_Resources/00_Books_Notes.md",
     "30_Complex_Analysis/010_Basics/000_Tips_Techs.md",
-    "30_Complex_Analysis/000_Resources/20_Solutions.md",
     "000_Solution Compendia.md",
     "000_My Active Problems.md",
     "20_Real Analysis/Real Analysis Qual Progress.md",
