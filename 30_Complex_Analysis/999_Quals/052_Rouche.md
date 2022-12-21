@@ -527,7 +527,7 @@ $$
 &= \abs{z\over 2}^2 \abs{e^{-\Im(z)} - e^{\Im(z)} } \\
 &\convergesto{\Im(z)\to\infty} \infty
 \end{align*}
-$$
+.$$
 and so in particular a radius $R$ can be chosen large enough so that $\abs{z\sin(z)} > a$ for any $a$.
 Thus for $\abs{z} = R$,
 \[
