@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "051_Polynomials",
+      "path": "30_Complex_Analysis/999_Quals/051_Polynomials.md"
+    },
+    {
       "basename": "052_Rouche",
       "path": "30_Complex_Analysis/999_Quals/052_Rouche.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "960 Extra Problems Linear Algebra",
       "path": "10_Algebra/600_Qual_Questions_UGA/960 Extra Problems Linear Algebra.md"
-    },
-    {
-      "basename": "992 Extra_Questions",
-      "path": "10_Algebra/600_Qual_Questions_UGA/992 Extra_Questions.md"
     }
   ],
   "omittedPaths": [],
