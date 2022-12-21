@@ -180,6 +180,7 @@ Note that $\abs{B_N} \leq C_z \da {2\over \abs{1-z} }$ for any $N$, since $\abs{
 Moreover $C_z < \infty$ when $z\neq 1$.
 
 Applying the formula:
+
 \[
 \abs{\sum_{n=M}^N n\inv z^n }
 &\leq
