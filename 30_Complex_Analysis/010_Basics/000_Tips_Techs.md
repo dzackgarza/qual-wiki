@@ -49,7 +49,7 @@ Things to know well:
 - Jordan's lemma
 - [[30_Complex_Analysis/010_Basics/130_The Cauchy-Riemann equations|The Cauchy-Riemann equations]]
 - [[30_Complex_Analysis/030_Zeros_and_Poles/020_Argument Principle|The argument principle]]
-- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|The Riemann mapping theorem]]
+- [[30_Complex_Analysis/060_Maps of Disc/090_Riemann Mapping|The Riemann mapping theorem]]
 - [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity|Riemann's removable singularity theorem]]
 
 For just the statements of most of these theorems: [[attachments/ComplexAnalysisNotes.pdf|see this doc]].
