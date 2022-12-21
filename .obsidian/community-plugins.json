@@ -14,10 +14,10 @@
   "wikilinks-to-mdlinks-obsidian",
   "table-editor-obsidian",
   "mrj-text-expand",
-  "obsidian-latex",
   "obsidian-emoji-toolbar",
   "obsidian-charts",
   "obsidian-chartsview-plugin",
   "obsidian-tracker",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-latex"
 ]
