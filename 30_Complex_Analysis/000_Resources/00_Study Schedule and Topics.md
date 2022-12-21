@@ -54,7 +54,7 @@ title: "Study Schedule and Topics"
 	- [[30_Complex_Analysis/900 Unsorted/090_Appendix FTA Proofs|The fundamental theorem of algebra]]
 
 - Week 7 (June 30): **Roots**
-	- [[30_Complex Analysis/030_Zeros_and_Poles/020_Argument Principle|Argument principle]]
+	- [[30_Complex_Analysis/030_Zeros_and_Poles/020_Argument Principle|Argument principle]]
 	- [[30_Complex Analysis/030_Zeros_and_Poles/030_Rouche|Rouche's theorem]]
 
 - Week 8 (July 7): **Conformal Maps**
