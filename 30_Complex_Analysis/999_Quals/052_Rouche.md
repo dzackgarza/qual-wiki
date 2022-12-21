@@ -516,7 +516,9 @@ Consider $f(z) \da z\sin(z) - a$.
 
 Big: $M(z) \da z\sin(z)$.
 Small: $m(z) \da -a$.
+
 Use the following estimate:
+
 \[
 \abs{z\sin(z)}^2
 &= \abs{z\over 2}^2 \abs{e^{iz} - e^{-iz}}^2 \\
