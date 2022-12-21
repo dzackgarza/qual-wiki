@@ -266,7 +266,7 @@ Just reproducing the proof of holomorphicity in the Schwarz reflection theorem.
   - Then let $\Delta_\eps$ be the perturbation $\Delta + i\eps = \theset{z+ i\eps \suchthat z\in \Delta}$; then $\Delta_\eps \intersect \RR = 0$ and $\int_{\Delta_\eps} f = 0$.
   - Now let $\eps\to 0$ and conclude by continuity of $f$ (???)
     - We want
-    \begin{align*}
+    $$
     \int_{\Delta_\eps} f = \int_a^b f(\gamma_\eps(t)) \gamma_\eps'(t)\,dt \converges{\eps\to 0}\to \int_a^b f(\gamma(t)) \gamma_\eps'(t)\,dt =\int_{\Delta}  f
     \end{align*}
     where $\gamma_\eps, \gamma$ are curves parametrizing $\Delta_\eps, \Delta$ respectively.
