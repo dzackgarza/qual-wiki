@@ -72,7 +72,7 @@ Prove the Fundamental Theorem of Algebra (using complex analysis).
   - Thus there exists an $R>0$ such that
     $$
     \abs{z} > R \implies \abs{P(z) \over z^n} \geq c \definedas {\abs{a_n} \over 2}
-    .\end{align*}
+    .$$
 
   - So $p$ is bounded below when $\abs{z} > R$
   - Since $p$ is continuous and has no roots in $\abs{z} \leq R$, it is bounded below when $\abs{z} \leq R$.
