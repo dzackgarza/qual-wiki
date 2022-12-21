@@ -17,11 +17,8 @@ f(z) = {z + 1 \over z(z-1)}
 about $z=0$ and $z=1$ respectively.
 
 :::{.solution}
-\hfill
-:::{.concept}
-\hfill
+\envlist
 
-:::
 Let $f(z) = {z+1\over z(z-1)}$.
 
 About $z=0$:
