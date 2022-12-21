@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "000_Solution Compendia",
+      "path": "000_Solution Compendia.md"
+    },
+    {
       "basename": "000_My Active Problems",
       "path": "000_My Active Problems.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "125_Harmonic Functions",
       "path": "30_Complex Analysis/010_Basics/125_Harmonic Functions.md"
-    },
-    {
-      "basename": "001_Precalculus",
-      "path": "30_Complex Analysis/010_Basics/001_Precalculus.md"
     }
   ],
   "omittedPaths": [],
