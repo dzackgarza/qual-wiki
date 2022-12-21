@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "101_Linear Algebra_JCF",
+      "path": "10_Algebra/600_Qual_Questions_UGA/101_Linear Algebra_JCF.md"
+    },
+    {
+      "basename": "020_Undergrad",
+      "path": "10_Algebra/100_Linear_Algebra/020_Undergrad.md"
+    },
+    {
+      "basename": "140_SNF",
+      "path": "10_Algebra/100_Linear_Algebra/140_SNF.md"
+    },
+    {
+      "basename": "40_Modules",
+      "path": "10_Algebra/080_Modules/40_Modules.md"
+    },
+    {
+      "basename": "10_Actions",
+      "path": "10_Algebra/020_Groups/10_Actions.md"
+    },
+    {
+      "basename": "055 Simple Solvable",
+      "path": "10_Algebra/600_Qual_Questions_UGA/055 Simple Solvable.md"
+    },
+    {
+      "basename": "100_JCF",
+      "path": "10_Algebra/100_Linear_Algebra/100_JCF.md"
+    },
+    {
+      "basename": "QualAlgebra",
+      "path": "10_Algebra/TexDocs/QualAlgebra.md"
+    },
+    {
       "basename": "35_Fields_Extensions",
       "path": "10_Algebra/060_Galois/35_Fields_Extensions.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "13_Groups_Classification",
       "path": "10_Algebra/020_Groups/13_Groups_Classification.md"
-    },
-    {
-      "basename": "12_Sylow_Theorems",
-      "path": "10_Algebra/020_Groups/12_Sylow_Theorems.md"
-    },
-    {
-      "basename": "QualAlgebra",
-      "path": "10_Algebra/TexDocs/QualAlgebra.md"
-    },
-    {
-      "basename": "Midterm",
-      "path": "10_Algebra/500_Exercises/PSets/Midterm/Midterm.md"
-    },
-    {
-      "basename": "080_Modules",
-      "path": "10_Algebra/600_Qual_Questions_UGA/080_Modules.md"
-    },
-    {
-      "basename": "007 CR and Holomorphy",
-      "path": "30_Complex Analysis/999_Quals/007 CR and Holomorphy.md"
-    },
-    {
-      "basename": "01_Groups_Basics",
-      "path": "10_Algebra/020_Groups/01_Groups_Basics.md"
-    },
-    {
-      "basename": "200_Extra",
-      "path": "10_Algebra/600_Qual_Questions_UGA/200_Extra.md"
-    },
-    {
-      "basename": "909 Extra Problems Commutative Algebra",
-      "path": "10_Algebra/600_Qual_Questions_UGA/909 Extra Problems Commutative Algebra.md"
     }
   ],
   "omittedPaths": [],

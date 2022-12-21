@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "354d58826aa18bbb",
+        "id": "18be57953a40f86e",
         "type": "tabs",
         "children": [
           {
-            "id": "d98e9e143bbdd6a1",
+            "id": "827681df5b48bb00",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Algebra/060_Galois/35_Fields_Extensions.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Rez",
+                "query": "\"module structure\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +83,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "10_Algebra/060_Galois/35_Fields_Extensions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -121,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "10_Algebra/060_Galois/35_Fields_Extensions.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,7 +140,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10_Algebra/060_Galois/35_Fields_Extensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +190,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "10_Algebra/060_Galois/35_Fields_Extensions.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -262,17 +253,17 @@
     "direction": "horizontal",
     "width": 132
   },
-  "active": "9abb984b6bba57b7",
+  "active": "827681df5b48bb00",
   "lastOpenFiles": [
-    "30_Complex_Analysis/TexDocs/QualComplex_stripped.md",
-    "30_Complex_Analysis/TexDocs/QualComplex.md",
-    "30_Complex_Analysis/999_Quals/052_Rouche.md",
-    "30_Complex_Analysis/999_Quals/035_Cauchy Theorem.md",
-    "30_Complex_Analysis/999_Quals/050 Liouville.md",
-    "30_Complex_Analysis/999_Quals/051_Polynomials.md",
-    "30_Complex_Analysis/999_Quals/105_Conformal Maps.md",
-    "30_Complex_Analysis/999_Quals/021 Laurent Expansions.md",
-    "30_Complex_Analysis/999_Quals/010_Geometry Arithmetic.md",
-    "30_Complex_Analysis/999_Quals/006 Series Convergence.md"
+    "10_Algebra/600_Qual_Questions_UGA/101_Linear Algebra_JCF.md",
+    "10_Algebra/100_Linear_Algebra/020_Undergrad.md",
+    "10_Algebra/100_Linear_Algebra/000_Resources.md",
+    "10_Algebra/100_Linear_Algebra/140_SNF.md",
+    "10_Algebra/080_Modules/40_Modules.md",
+    "10_Algebra/020_Groups/10_Actions.md",
+    "10_Algebra/600_Qual_Questions_UGA/055 Simple Solvable.md",
+    "10_Algebra/100_Linear_Algebra/100_JCF.md",
+    "10_Algebra/TexDocs/QualAlgebra.md",
+    "10_Algebra/060_Galois/35_Fields_Extensions.md"
   ]
 }

@@ -401,7 +401,7 @@ r\actson (m\tensor n) \da (r\actson m)\tensor n
 :::{.proposition title="?"}
 If $\dim_k V, \dim_k W < \infty$ then there is an isomorphism
 \[
-V\dual \tensor_k W \mapsvia{\sim} \Hom_{\kmod}(V, W) \\
+V\dual \tensor_k W &\mapsvia{\sim} \Hom_{\kmod}(V, W) \\
 \tilde v \tensor w &\mapsto \tilde v(\wait) w
 .\]
 :::
@@ -410,7 +410,7 @@ V\dual \tensor_k W \mapsvia{\sim} \Hom_{\kmod}(V, W) \\
 :::{.proposition title="?"}
 If either of $\dim_k V, \dim_k W$ is finite, then
 \[
-V\dual \tensor_k W\dual \mapsvia{\sim} (V\tensor W)\dual \\
+V\dual \tensor_k W\dual &\mapsvia{\sim} (V\tensor W)\dual \\
 v\tensor w &\mapsto (x \tensor y \mapsto v(x) w(y))
 .\]
 
@@ -419,7 +419,7 @@ v\tensor w &\mapsto (x \tensor y \mapsto v(x) w(y))
 
 :::{.proposition title="?"}
 \[
-\Hom_{\kmod}(V, W) \mapsvia{\sim} \Hom_{\kmod}(W, V)\dual \\
+\Hom_{\kmod}(V, W) &\mapsvia{\sim} \Hom_{\kmod}(W, V)\dual \\
 T &\mapsto \Tr(T \circ \wait )
 .\]
 :::

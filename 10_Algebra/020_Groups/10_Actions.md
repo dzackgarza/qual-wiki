@@ -163,7 +163,7 @@ so $H_x = g\inv H_y g$.
 :::{.remark title="The fixed-point count trick"}
 A useful mnemonic: for any group action $\phi: G\actson X$, using that orbits partition $X$ we always have
 \[
-X = \Fix(\phi) \Disjoint_{x}' \Orb(x)
+X = \Fix(\phi) + \Disjoint_{x}' \Orb(x)
 ,\]
 where $\Fix(\phi)$ is the union of all orbits of size 1, and the remaining union is over distinct nontrivial orbits, taking one representative $x$ from each.
 :::

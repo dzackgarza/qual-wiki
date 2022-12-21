@@ -39,7 +39,7 @@ update_images
 
 while read THISFILE; do
   echo "Stripping macros and cleaning: $THISFILE";
-  clean_to_temp "$THISFILE"
+  clean_to_temp "$THISFILE";
   cp /tmp/temp.md "$THISFILE"; 
 done < <(find "$TMP_DIR" -type f -iname "*.md" | grep -v "index.md") 
 
