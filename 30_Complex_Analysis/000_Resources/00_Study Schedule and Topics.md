@@ -79,7 +79,7 @@ title: "Study Schedule and Topics"
 	- [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|Riemann mapping theorem and unformization]]
 
 - **Other misc topics:**
-	- $\SL_2(\RR)$, modularity and elliptic curves
+	- $\mathrm{SL}_2(\mathbf{R})$, modularity and elliptic curves
 	- The hyperbolic metric
 	- Riemann surfaces
 	- [[30_Complex Analysis/900 Unsorted/Special Functions|Special functions]]: 
