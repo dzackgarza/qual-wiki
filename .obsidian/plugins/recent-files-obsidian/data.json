@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "021 Laurent Expansions",
+      "path": "30_Complex_Analysis/999_Quals/021 Laurent Expansions.md"
+    },
+    {
       "basename": "QualComplex_stripped",
       "path": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "9960 UGA Problems",
       "path": "10_Algebra/500_Exercises/9960 UGA Problems.md"
-    },
-    {
-      "basename": "00_Books_Notes",
-      "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
     }
   ],
   "omittedPaths": [],
