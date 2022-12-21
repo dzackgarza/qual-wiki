@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "035_Cauchy Theorem",
+      "path": "30_Complex_Analysis/999_Quals/035_Cauchy Theorem.md"
+    },
+    {
       "basename": "050 Liouville",
       "path": "30_Complex_Analysis/999_Quals/050 Liouville.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "930 Extra Problems Field Theory",
       "path": "10_Algebra/600_Qual_Questions_UGA/930 Extra Problems Field Theory.md"
-    },
-    {
-      "basename": "950 Extra Problems Modules",
-      "path": "10_Algebra/600_Qual_Questions_UGA/950 Extra Problems Modules.md"
     }
   ],
   "omittedPaths": [],
