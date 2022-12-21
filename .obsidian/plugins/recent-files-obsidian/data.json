@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "052_Rouche",
+      "path": "30_Complex_Analysis/999_Quals/052_Rouche.md"
+    },
+    {
       "basename": "105_Conformal Maps",
       "path": "30_Complex_Analysis/999_Quals/105_Conformal Maps.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "992 Extra_Questions",
       "path": "10_Algebra/600_Qual_Questions_UGA/992 Extra_Questions.md"
-    },
-    {
-      "basename": "101_Linear Algebra_JCF",
-      "path": "10_Algebra/600_Qual_Questions_UGA/101_Linear Algebra_JCF.md"
     }
   ],
   "omittedPaths": [],
