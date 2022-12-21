@@ -138,7 +138,7 @@ Find the radius of convergence of
 \envlist
 
 - $R = {1 \over \limsup \abs{a^k}^{1\over k}} = {1\over \abs{a}}$
-- $R = 1/\limsup \abs{a^{k^2}}^{1\over k} = 1/\limsup \abs{a}^k$, so $R=\infty$ if $\abs{a}< 1$, $R=0$ if $\abs{a}<1$, and $R=1$ if $\abs{a} = 1$.
+- $R = {1 \over \limsup \abs{a^{k^2}}^{1\over k}} = 1/\limsup \abs{a}^k$, so $R=\infty$ if $\abs{a}< 1$, $R=0$ if $\abs{a}<1$, and $R=1$ if $\abs{a} = 1$.
 :::
 
 :::{.exercise title="Radius of convergence"}
