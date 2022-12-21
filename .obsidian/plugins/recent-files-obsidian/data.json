@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "050 Liouville",
+      "path": "30_Complex_Analysis/999_Quals/050 Liouville.md"
+    },
+    {
       "basename": "051_Polynomials",
       "path": "30_Complex_Analysis/999_Quals/051_Polynomials.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "950 Extra Problems Modules",
       "path": "10_Algebra/600_Qual_Questions_UGA/950 Extra Problems Modules.md"
-    },
-    {
-      "basename": "960 Extra Problems Linear Algebra",
-      "path": "10_Algebra/600_Qual_Questions_UGA/960 Extra Problems Linear Algebra.md"
     }
   ],
   "omittedPaths": [],
