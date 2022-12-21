@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "QualComplex_stripped",
+      "path": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md"
+    },
+    {
       "basename": "QualComplex",
       "path": "30_Complex_Analysis/TexDocs/QualComplex.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "00_Books_Notes",
       "path": "30_Complex Analysis/000_Resources/00_Books_Notes.md"
-    },
-    {
-      "basename": "20_Solutions",
-      "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
     }
   ],
   "omittedPaths": [],

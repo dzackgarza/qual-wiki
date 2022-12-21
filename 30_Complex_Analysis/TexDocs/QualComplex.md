@@ -3385,7 +3385,7 @@ Note that if either $\abs{w}^2 = 1$ or $\abs{z}^2 = 1$ then the first line is an
 
 - That $F: \DD\to \DD$: follows from the inequality, since $\abs{z}, \abs{w} < 1$ for $z,w\in \DD$.
 Holomorphicity: follows from the fact that rational expressions of holomorphic functions are holomorphic away from where the denominators vanish.
-- Then just note that $\abs{\bar{w} z} \lleq \abs{w}\abs{z} < 1$, so $\abs{1 - \bar{w} z} > 0$.
+- Then just note that $\abs{\bar{w} z} \leq \abs{w}\abs{z} < 1$, so $\abs{1 - \bar{w} z} > 0$.
 
 - $F(0) = {w-0 \over 1-0} = w$
 - $F(w) = {w-w\over 1 - \bar w w} = 0$

@@ -1905,7 +1905,7 @@ Note that if either \( {\left\lvert {w} \right\rvert}^2 = 1 \) or \( {\left\lver
 ```
 -   That \( F: {\mathbb{D}}\to {\mathbb{D}} \): follows from the inequality, since \( {\left\lvert {z} \right\rvert}, {\left\lvert {w} \right\rvert} < 1 \) for \( z,w\in {\mathbb{D}} \). Holomorphicity: follows from the fact that rational expressions of holomorphic functions are holomorphic away from where the denominators vanish.
 
--   Then just note that \( {\left\lvert {\mkern 1.5mu\overline{\mkern-1.5muw\mkern-1.5mu}\mkern 1.5mu z} \right\rvert} \lleq {\left\lvert {w} \right\rvert}{\left\lvert {z} \right\rvert} < 1 \), so \( {\left\lvert {1 - \mkern 1.5mu\overline{\mkern-1.5muw\mkern-1.5mu}\mkern 1.5mu z} \right\rvert} > 0 \).
+-   Then just note that \( {\left\lvert {\mkern 1.5mu\overline{\mkern-1.5muw\mkern-1.5mu}\mkern 1.5mu z} \right\rvert} \leq {\left\lvert {w} \right\rvert}{\left\lvert {z} \right\rvert} < 1 \), so \( {\left\lvert {1 - \mkern 1.5mu\overline{\mkern-1.5muw\mkern-1.5mu}\mkern 1.5mu z} \right\rvert} > 0 \).
 
 -   \( F(0) = {w-0 \over 1-0} = w \)
 
