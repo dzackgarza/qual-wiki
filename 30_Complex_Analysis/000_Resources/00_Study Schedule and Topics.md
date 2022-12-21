@@ -36,7 +36,7 @@ title: "Study Schedule and Topics"
 	- [[30_Complex_Analysis/010_Basics/051 Series Exercises|Laurent expansions]]
 	- [[30_Complex_Analysis/030_Zeros_and_Poles/015_Singularities|Isolated singularities]]
 		- Poles, meromorphic functions, essential singularities
-	- [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity|Riemann's removable singularity theorem]]
+	- [[30_Complex_Analysis/030_Zeros_and_Poles/060 Riemann removable singularity|Riemann's removable singularity theorem]]
 
 - Week 4 (June 9): **Integration I**
 	- [[010_Cauchy_Theorem|Cauchy's theorem]] and [[050_Morera_Theorem|Morera's theorem]]
