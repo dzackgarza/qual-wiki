@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "3ce32054145f32a1",
@@ -262,7 +263,7 @@
     "direction": "horizontal",
     "width": 132
   },
-  "active": "d98e9e143bbdd6a1",
+  "active": "f5b75c0a048b1546",
   "lastOpenFiles": [
     "30_Complex_Analysis/000_Resources/20_Solutions.md",
     "30_Complex_Analysis/000_Resources/10_Problems.md",
