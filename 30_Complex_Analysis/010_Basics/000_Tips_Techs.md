@@ -35,8 +35,8 @@ Things to know well:
 - [[30_Complex_Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|The Schwarz reflection principle]]
 - [[30_Complex_Analysis/060_Maps of Disc/060_Schwarz lemma|The Schwarz lemma]]
 	- [[30_Complex_Analysis/999_Quals/200_Schwarz_Lemma|Schwarz lemma qual questions]]
-- [[020_Casorati-Weierstrass|Casorati-Weierstrass]]
-	- [[30_Complex Analysis/999_Quals/300_Riemann Mapping, Casorati|Casorati-Weierstrass Qual questions]]
+- [[30_Complex_Analysis/070_Omitted Values/020_Casorati-Weierstrass|Casorati-Weierstrass]]
+	- [[300_Riemann Mapping, Casorate|Casorati-Weierstrass Qual questions]]
 - [[30_Complex Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 - [[30_Complex Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]]
 	- The Cayley transformation and other Mobius transformations
