@@ -12,7 +12,7 @@ title: "Study Schedule and Topics"
 	- $\CC, \DD, \HH, \CP^1$
 	- [[30_Complex_Analysis/010_Basics/100_Complex Arithmetic|Complex arithmetic]]
 	- [[30_Complex_Analysis/010_Basics/115_Complex Log|Arguments, branch cuts, complex log]]
-	- [[30_Complex Analysis/010_Basics/001_Precalculus|Elementary geometry, conic sections]]
+	- [[30_Complex_Analysis/010_Basics/001_Precalculus|Elementary geometry, conic sections]]
 	- Analysis Review 
 		- Uniform (continuity,  differentiability, convergence)
 		- Heine-Cantor
