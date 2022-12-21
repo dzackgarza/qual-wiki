@@ -25,7 +25,7 @@ Things to know well:
 - [[30_Complex_Analysis/020_Applications of Cauchy/010_Cauchy_Theorem]]
 - [[30_Complex_Analysis/020_Applications of Cauchy/015 Mean Value Theorem|MVT for Harmonic Functions]]
 - 
-- [[30_Complex Analysis/020_Applications of Cauchy/012 Cauchy Integral Formula|Cauchy's integral formula]]
+- [[30_Complex_Analysis/020_Applications of Cauchy/012 Cauchy Integral Formula|Cauchy's integral formula]]
 - [[30_Complex Analysis/020_Applications of Cauchy/012_Cauchy Inequality|Cauchy's inequality]]
 - [[30_Complex Analysis/020_Applications of Cauchy/050_Morera_Theorem|Morera's theorem]]
 	- [[30_Complex Analysis/999_Quals/070_Morera|Morera qual questions]]
