@@ -60,7 +60,7 @@ Now if $f$ is entire, $g(z) \da e^{f(z)}$ is entire and
 so $g$ is an entire bounded function and thus constant by Liouville, making $f$ constant.
 Why this is true:
 \[
-e^{f} = C \implies e^f \cdor f' = 0 \implies f'\equiv 0
+e^{f} = C \implies e^f \cdot f' = 0 \implies f'\equiv 0
 ,\]
 since $e^f$ is nonvanishing, and $f'\equiv 0$ implies $f$ is constant.
 :::
