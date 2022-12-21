@@ -164,7 +164,7 @@ In this case, $a = f'(z_0)$.
 :::{.remark}
 Some properties:
 
-- $\overline{\delbar f(z)} = \del \bar{f}(z)$, or $\del f^*(z) = (\delbar f(z))^*$
+- $\overline{\delbar f(z)} = \del \overline{f}(z)$, or $\del f^*(z) = (\delbar f(z))^*$
   - E.g. $d(cz) = c\dz + 0\dzbar$ and $d(c\bar z) = 0\dz + c\dzbar$
   - E.g. $\del \abs{z}^2 = \del z\bar z = \bar{z}$ and $\delbar \abs{z}^2 = z$.
     - So $d(\abs{z}^2) = \bar{z}\dz + z\dzbar$
