@@ -45,7 +45,7 @@ Things to know well:
 - [[30_Complex_Analysis/070_Omitted Values/070_Picard|Picard theorems]]
 - [[30_Complex_Analysis/030_Zeros_and_Poles/040_Open Mapping|The open mapping theorem]]
 - [[30_Complex_Analysis/040_Residues/020_Residues|Computing residues]]
-	- [[30_Complex Analysis/999_Quals/030_Computing Integrals|Qual integrals]]
+	- [[30_Complex_Analysis/999_Quals/030_Computing Integrals|Qual integrals]]
 - Jordan's lemma
 - [[30_Complex Analysis/010_Basics/130_The Cauchy-Riemann equations|The Cauchy-Riemann equations]]
 - [[30_Complex Analysis/030_Zeros_and_Poles/020_Argument Principle|The argument principle]]
