@@ -97,6 +97,8 @@ Some useful numerology that comes up when trying to estimate when poles fall wit
 
 
 :::{.fact title="Completing the square"}
+\envlist
+
 \[
 x^2 + bx + c = 0 
 \iff x^2 + bx {\color{red\, + \qty{b\over 2}^2 - \qty{b\over 2}^2 } + c = 0 \\
