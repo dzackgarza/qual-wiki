@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "QualComplex",
+      "path": "30_Complex_Analysis/TexDocs/QualComplex.md"
+    },
+    {
       "basename": "010_Geometry Arithmetic",
       "path": "30_Complex_Analysis/999_Quals/010_Geometry Arithmetic.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20_Solutions",
       "path": "30_Complex Analysis/000_Resources/20_Solutions.md"
-    },
-    {
-      "basename": "10_Topics",
-      "path": "20_Real Analysis/000_Resources/10_Topics.md"
     }
   ],
   "omittedPaths": [],
