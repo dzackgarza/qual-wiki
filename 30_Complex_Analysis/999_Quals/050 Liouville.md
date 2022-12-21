@@ -66,8 +66,7 @@ Prove the Fundamental Theorem of Algebra (using complex analysis).
   - Bounded: for $z\neq 0$, write
     $$
     \frac{P(z)}{z^{n}}=a_{n}+\left(\frac{a_{n-1}}{z}+\cdots+\frac{a_{0}}{z^{n}}\right)
-    .\end{align*}
-
+    .$$
   - The term in parentheses goes to 0 as $\abs{z}\to \infty$
   - Thus there exists an $R>0$ such that
     $$
