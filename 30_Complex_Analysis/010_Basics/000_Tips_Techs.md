@@ -40,7 +40,7 @@ Things to know well:
 - [[30_Complex_Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
 - [[30_Complex_Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]]
 	- The Cayley transformation and other Mobius transformations
-	- [[30_Complex Analysis/999_Quals/105_Conformal Maps|Conformal map questions]]
+	- [[30_Complex_Analysis/999_Quals/105_Conformal Maps|Conformal map questions]]
 - [[30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle|The identity principle]]
 - [[30_Complex Analysis/070_Omitted Values/070_Picard|Picard theorems]]
 - [[30_Complex Analysis/030_Zeros_and_Poles/040_Open Mapping|The open mapping theorem]]
