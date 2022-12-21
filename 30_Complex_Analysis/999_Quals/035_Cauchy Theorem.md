@@ -121,9 +121,9 @@ Residues at $\xi = \infty$ are computed as residues at $\xi =0$, and the change 
 Thus
 \[
 \Res_{\xi=\infty} G_z(\xi) 
-&= -\Rez_{\xi=0} G_z\qty{\xi\inv}\xi^{-2} \\
-&= - \Rez_{\xi=0} {f(\xi\inv) \over \xi^2(\xi\inv - z) } \\
-&= - \Rez_{\xi=0} {f(\xi\inv) \over \xi(1 - z\xi) } \\
+&= -\Res_{\xi=0} G_z\qty{\xi\inv}\xi^{-2} \\
+&= - \Res_{\xi=0} {f(\xi\inv) \over \xi^2(\xi\inv - z) } \\
+&= - \Res_{\xi=0} {f(\xi\inv) \over \xi(1 - z\xi) } \\
 &= -\lim_{\xi \to 0} {f(\xi\inv) \over 1-z\xi} \\
 &= -\lim_{\xi \to 0}f(\xi \inv) \\
 &= -\lim_{\xi\to\infty} f(\xi) \\
