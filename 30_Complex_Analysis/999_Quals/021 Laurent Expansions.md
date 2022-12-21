@@ -69,7 +69,7 @@ f(z)
 &= -(z+1)\sum_{n=-1}^\infty z^n \\
 &= {1\over z} + 2\sum_{n=0}^\infty z^n \\
 &= -{1\over z} -2 - 2z - 2z^2 - \cdots
-.\end{align*}
+.\]
 
 About $z=1$:
 
@@ -81,7 +81,7 @@ f(z)
 &= -{2\over 1-z} - \sum_{n=0}^\infty (1-z)^n \\
 &= {2\over z-1} + \sum_{n=0}^\infty (-1)^{n+1} (z-1)^n \\
 &= {2\over z-1} - 1 + (z-1) - (z-1)^2 + \cdots
-.\end{align*}
+.\]
 
 
 :::
