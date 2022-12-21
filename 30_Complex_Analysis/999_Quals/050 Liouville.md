@@ -70,7 +70,7 @@ Prove the Fundamental Theorem of Algebra (using complex analysis).
 
   - The term in parentheses goes to 0 as $\abs{z}\to \infty$
   - Thus there exists an $R>0$ such that
-    \begin{align*}
+    $$
     \abs{z} > R \implies \abs{P(z) \over z^n} \geq c \definedas {\abs{a_n} \over 2}
     .\end{align*}
 
