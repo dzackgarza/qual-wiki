@@ -51,7 +51,7 @@ title: "Study Schedule and Topics"
 
 - Week 6 (June 23): **Entire functions**
 	- [[020 Liouville|Liouville's theorem]]
-	- [[30_Complex Analysis/900 Unsorted/090_Appendix FTA Proofs|The fundamental theorem of algebra]]
+	- [[30_Complex_Analysis/900 Unsorted/090_Appendix FTA Proofs|The fundamental theorem of algebra]]
 
 - Week 7 (June 30): **Roots**
 	- [[30_Complex Analysis/030_Zeros_and_Poles/020_Argument Principle|Argument principle]]
