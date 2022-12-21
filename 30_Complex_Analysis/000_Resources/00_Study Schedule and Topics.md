@@ -20,7 +20,7 @@ title: "Study Schedule and Topics"
 		- [[005_Calculus_Preliminaries#Implicit Function Theorem|Implicit function theorem]]
 		- [[005_Calculus_Preliminaries#Inverse Function Theorem|Inverse function theorem]]
 		- [[005_Calculus_Preliminaries#Green's Theorem|Green's theorem]]
-		- [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries#Stokes Theorem|Stokes' theorem]]
+		- [[005_Calculus_Preliminaries#Stokes Theorem|Stokes' theorem]]
 
 - Week 2 (May 26): **Differentiation and integration**
     - [[30_Complex Analysis/010_Basics/005_Calculus_Preliminaries|Calculus preliminaries]]
