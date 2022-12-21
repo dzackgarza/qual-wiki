@@ -30,7 +30,7 @@ f(z)
 &= -(z+1)\sum_{n=-1}^\infty z^n \\
 &= {1\over z} + 2\sum_{n=0}^\infty z^n \\
 &= -{1\over z} -2 - 2z - 2z^2 - \cdots
-\]
+.\]
 
 About $z=1$:
 
