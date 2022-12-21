@@ -38,7 +38,7 @@ Things to know well:
 - [[30_Complex_Analysis/070_Omitted Values/020_Casorati-Weierstrass|Casorati-Weierstrass]]
 	- [[30_Complex_Analysis/999_Quals/300_Riemann Mapping, Casorati|Casorati-Weierstrass Qual questions]]
 - [[30_Complex_Analysis/050_Conformal_Maps/031_Conformal_Standard|Conformal maps]]
-- [[000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]]
+- [[30_Complex_Analysis/060_Maps of Disc/000 Automorphisms of the disc and plane|Automorphisms of the disc and plane]]
 	- The Cayley transformation and other Mobius transformations
 	- [[30_Complex Analysis/999_Quals/105_Conformal Maps|Conformal map questions]]
 - [[30_Complex Analysis/020_Applications of Cauchy/030 Identity Principle|The identity principle]]
