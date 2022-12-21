@@ -519,13 +519,13 @@ Small: $m(z) \da -a$.
 
 Use the following estimate:
 
-\[
+$$
 \abs{z\sin(z)}^2
 &= \abs{z\over 2}^2 \abs{e^{iz} - e^{-iz}}^2 \\
 &\geq \abs{z\over 2}^2 \abs{ \abs e^{iz} } - \abs{ e^{-iz} } ^2 \\
 &= \abs{z\over 2}^2 \abs{e^{-\Im(z)} - e^{\Im(z)} } \\
 &\convergesto{\Im(z)\to\infty} \infty
-
+$$
 and so in particular a radius $R$ can be chosen large enough so that $\abs{z\sin(z)} > a$ for any $a$.
 Thus for $\abs{z} = R$,
 \[
