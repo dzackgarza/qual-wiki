@@ -22,7 +22,7 @@ Some useful notation:
 Things to know well:
 
 - Estimates for derivatives
-- [[30_Complex_Analysis/999_Quals/035_Cauchy Theorem]]
+- [[30_Complex_Analysis/999_Quals/035_Cauchy Theorem|asdsad]]
 - 
 - [[30_Complex Analysis/020_Applications of Cauchy/010_Cauchy_Theorem|Cauchy's theorem]]
 - [[30_Complex Analysis/020_Applications of Cauchy/015 Mean Value Theorem|MVT for harmonic/holomorphic functions]]
