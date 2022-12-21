@@ -30,7 +30,7 @@ Things to know well:
 	- [[30_Complex_Analysis/999_Quals/070_Morera|Morera qual questions]]
 - [[30_Complex_Analysis/020_Applications of Cauchy/020 Liouville|Liouville's theorem]]
 	- [[30_Complex_Analysis/999_Quals/050 Liouville|Liouville qual questions]]
-- [[30_Complex Analysis/030_Zeros_and_Poles/030_Rouche|Rouche's theorem]]
+- [[30_Complex_Analysis/030_Zeros_and_Poles/030_Rouche|Rouche's theorem]]
 	- [[30_Complex Analysis/999_Quals/052_Rouche|Rouche qual questions]]
 - [[30_Complex Analysis/020_Applications of Cauchy/030_Schwarz reflection principle|The Schwarz reflection principle]]
 - [[30_Complex Analysis/060_Maps of Disc/060_Schwarz lemma|The Schwarz lemma]]
