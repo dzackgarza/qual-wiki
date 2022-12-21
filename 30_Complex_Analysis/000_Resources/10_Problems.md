@@ -28,9 +28,9 @@ tag:complex/exercise path:"30_Complex"
 
 - [ ]  [Azoff's Problems by Topic](attachments/Azoff%20Problems%20by%20Topic.pdf) #resources/problem_collections 
 
-- [ ]  [[999_Quals/000_Preface|UGA Qual Problems]]  #resources/problem_collections 
+- [ ]  [[30_Complex_Analysis/999_Quals/000_Preface|UGA Qual Problems]]  #resources/problem_collections 
   
-- [ ] [Problem sheet from Cambridge Part 1B](attachments/Cambridge%20Examples%20Sheets.pdf)
+- [ ] [Problem sheet from Cambridge Part 1B](attachments/Cambridge%20Examples%20Sheets.pdf) #resources/problem_collections 
 
 ## Misc
 
