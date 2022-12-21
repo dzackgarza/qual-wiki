@@ -185,15 +185,13 @@ Applying the formula:
 \abs{\sum_{n=M}^N n\inv z^n }
 &\leq
 \abs{
-N\inv B_N - M\inv B_{M-1} 
-- \sum_{n=M}^{N-1} \left[
+N\inv B_N - M\inv B_{M-1} - \sum_{n=M}^{N-1} \left[
 -(n(n+1))\inv B_n 
-\right]
-}\\
+\right]}\\
 &\leq N\inv C_z + M\inv C_z + \sum_{M\leq n \leq N-1} C_z \qty{1\over n^2 + n}\\
 &\leq C_z\qty{N\inv + M\inv + \sum_{M\leq n \leq N-1} n^{-2}} \\
 &\convergesto{M, N\to\infty} 0
-\]
+,\]
 
 where we've used the triangle inequality and convergence of $\sum n^{-2}$.
 By the Cauchy criterion for sums, $f(z)$ converges pointwise for $z\neq 1$.
