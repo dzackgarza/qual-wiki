@@ -83,7 +83,7 @@ title: "Study Schedule and Topics"
 	- The hyperbolic metric
 	- Riemann surfaces
 	- [[30_Complex_Analysis/900 Unsorted/Special Functions|Special functions]]: 
-		- The [[30_Complex Analysis/900 Unsorted/Special Functions#The Gamma Function|Gamma function]], [[30_Complex Analysis/900 Unsorted/Special Functions#Riemann Zeta|zeta functions]] and [[30_Complex Analysis/900 Unsorted/Special Functions#Elliptic Functions|elliptic functions]]
+		- The [[30_Complex Analysis/900 Unsorted/Special Functions#The Gamma Function|Gamma function]], [[30_Complex Analysis/900 Unsorted/Special Functions#Riemann Zeta|zeta functions]] and [[900 Unsorted/Special Functions#Elliptic Functions|elliptic functions]]
 	- Canonical products
 	- Dirichlet's problem
 	- Hurwitz's theorem
