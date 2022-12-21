@@ -104,6 +104,7 @@ x^2 + bx + c = 0
 \iff x^2 + bx {\color{red\, + \qty{b\over 2}^2 - \qty{b\over 2}^2 } + c = 0 \\
 \iff \qty{x+ \qty{b\over 2}^2}^2 + \qty{c - \qty{b\over 2}^2} = 0
 .\]
+
 More generally:
 \[
 ax^2 + bx + c = 0
@@ -111,6 +112,7 @@ ax^2 + bx + c = 0
 \iff x^2 + {b\over a}x + {\color{red} \qty{b/a \over 2}^2 - \qty{b/a \over 2}^2} + c = 0 \\
 \iff (x + {b\over 2a})^2 + \qty{c - \qty{b\over 2a}^2} = 0
 .\]
+
 So given $ax^2+bx+c=0$, you can always write it as $a(x+d)^2 + e$ where $d\da b/2a$ and $e\da c - (b/2a)^2$.
 
 :::
