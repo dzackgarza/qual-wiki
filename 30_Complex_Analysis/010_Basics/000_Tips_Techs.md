@@ -47,7 +47,7 @@ Things to know well:
 - [[30_Complex_Analysis/040_Residues/020_Residues|Computing residues]]
 	- [[30_Complex_Analysis/999_Quals/030_Computing Integrals|Qual integrals]]
 - Jordan's lemma
-- [[130_The Cauchy-Riemann equations|The Cauchy-Riemann equations]]
+- [[30_Complex_Analysis/010_Basics/130_The Cauchy-Riemann equations|The Cauchy-Riemann equations]]
 - [[30_Complex Analysis/030_Zeros_and_Poles/020_Argument Principle|The argument principle]]
 - [[30_Complex Analysis/060_Maps of Disc/090_Riemann Mapping|The Riemann mapping theorem]]
 - [[30_Complex Analysis/030_Zeros_and_Poles/060 Riemann removable singularity|Riemann's removable singularity theorem]]
