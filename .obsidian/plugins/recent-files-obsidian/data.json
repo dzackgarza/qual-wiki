@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "050 Series Reference",
+      "path": "30_Complex_Analysis/010_Basics/050 Series Reference.md"
+    },
+    {
       "basename": "001_Precalculus",
       "path": "30_Complex_Analysis/010_Basics/001_Precalculus.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "070_Morera",
       "path": "30_Complex Analysis/999_Quals/070_Morera.md"
-    },
-    {
-      "basename": "052_Rouche",
-      "path": "30_Complex Analysis/999_Quals/052_Rouche.md"
     }
   ],
   "omittedPaths": [],
