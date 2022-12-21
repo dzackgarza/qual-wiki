@@ -62,7 +62,7 @@ Let $f(z) = {z+1\over z(z-1)}$.
 
 About $z=0$:
 
-\begin{align*}
+\[
 f(z) 
 &= (z+1) \qty{- {1 \over z} + {1\over z-1} } \\
 &=  -(z+1) \qty{{1\over z} + \sum_{n=0}^\infty z^n } \\
@@ -73,7 +73,7 @@ f(z)
 
 About $z=1$:
 
-\begin{align*}
+\[
 f(z) 
 &= \qty{(1-z) -2 \over 1-z} \qty{1 \over 1 - (1-z)} \\
 &= \qty{1 - {2\over 1-z}} \sum_{n=0}^\infty (1-z)^n \\ 
