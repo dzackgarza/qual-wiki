@@ -23,7 +23,7 @@ title: "Study Schedule and Topics"
 		- [[005_Calculus_Preliminaries#Stokes Theorem|Stokes' theorem]]
 
 - Week 2 (May 26): **Differentiation and integration**
-    - [[005_Calculus_Preliminaries|Calculus preliminaries]]
+    - [[30_Complex_Analysis/010_Basics/005_Calculus_Preliminaries|Calculus preliminaries]]
     - The Laplace equation, 
     - [[130_The Cauchy-Riemann equations||Cauchy-Riemann]], 
     - [[125_Harmonic Functions|Harmonic functions]]
