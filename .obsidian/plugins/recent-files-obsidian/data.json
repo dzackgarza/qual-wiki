@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "35_Fields_Extensions",
+      "path": "10_Algebra/060_Galois/35_Fields_Extensions.md"
+    },
+    {
       "basename": "QualComplex_stripped",
       "path": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "909 Extra Problems Commutative Algebra",
       "path": "10_Algebra/600_Qual_Questions_UGA/909 Extra Problems Commutative Algebra.md"
-    },
-    {
-      "basename": "930 Extra Problems Field Theory",
-      "path": "10_Algebra/600_Qual_Questions_UGA/930 Extra Problems Field Theory.md"
     }
   ],
   "omittedPaths": [],
