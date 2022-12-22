@@ -3128,9 +3128,9 @@ F(z)
 where the last line proceeds by the same calculation as above. It remains to compute the unknown residue. Residues at \( \xi = \infty \) are computed as residues at \( \xi =0 \), and the change of variables \( G_z(\xi)\,d\xi\mapsto G_z(w) \,dw \) for \( w\coloneqq 1/\xi \) yields \( G_z(\xi)\,d\xi\to G_z\qty{1\over \xi}(-1/\xi^2)\,d\xi \). Thus
 \[
 \mathop{\mathrm{Res}}_{\xi=\infty} G_z(\xi) 
-&= -\Rez_{\xi=0} G_z\qty{\xi^{-1}}\xi^{-2} \\
-&= - \Rez_{\xi=0} {f(\xi^{-1}) \over \xi^2(\xi^{-1}- z) } \\
-&= - \Rez_{\xi=0} {f(\xi^{-1}) \over \xi(1 - z\xi) } \\
+&= -\Res_{\xi=0} G_z\qty{\xi^{-1}}\xi^{-2} \\
+&= - \Res_{\xi=0} {f(\xi^{-1}) \over \xi^2(\xi^{-1}- z) } \\
+&= - \Res_{\xi=0} {f(\xi^{-1}) \over \xi(1 - z\xi) } \\
 &= -\lim_{\xi \to 0} {f(\xi^{-1}) \over 1-z\xi} \\
 &= -\lim_{\xi \to 0}f(\xi ^{-1}) \\
 &= -\lim_{\xi\to\infty} f(\xi) \\
