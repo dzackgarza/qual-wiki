@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "QualComplex_stripped",
+      "path": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md"
+    },
+    {
       "basename": "QualComplex",
       "path": "30_Complex_Analysis/TexDocs/QualComplex.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "021 Laurent Expansions",
       "path": "30_Complex_Analysis/999_Quals/021 Laurent Expansions.md"
-    },
-    {
-      "basename": "QualComplex_stripped",
-      "path": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md"
     },
     {
       "basename": "010_Geometry Arithmetic",

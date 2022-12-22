@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Complex_Analysis/TexDocs/QualComplex.md",
+                "file": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex_Analysis/TexDocs/QualComplex.md",
+                "file": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Complex_Analysis/TexDocs/QualComplex.md"
+                "file": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md"
               }
             }
           }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30_Complex_Analysis/TexDocs/QualComplex.md",
+                "file": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30_Complex_Analysis/TexDocs/QualComplex.md",
+                "file": "30_Complex_Analysis/TexDocs/QualComplex_stripped.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-file:subject -file:2021 -file:index -tag:#nograph",
@@ -265,6 +265,7 @@
   },
   "active": "d98e9e143bbdd6a1",
   "lastOpenFiles": [
+    "30_Complex_Analysis/TexDocs/QualComplex.md",
     "30_Complex_Analysis/999_Quals/052_Rouche.md",
     "30_Complex_Analysis/999_Quals/035_Cauchy Theorem.md",
     "30_Complex_Analysis/999_Quals/050 Liouville.md",
@@ -272,7 +273,6 @@
     "30_Complex_Analysis/999_Quals/105_Conformal Maps.md",
     "30_Complex_Analysis/999_Quals/021 Laurent Expansions.md",
     "30_Complex_Analysis/TexDocs/QualComplex_stripped.md",
-    "30_Complex_Analysis/TexDocs/QualComplex.md",
     "30_Complex_Analysis/999_Quals/010_Geometry Arithmetic.md",
     "30_Complex_Analysis/999_Quals/006 Series Convergence.md"
   ]
