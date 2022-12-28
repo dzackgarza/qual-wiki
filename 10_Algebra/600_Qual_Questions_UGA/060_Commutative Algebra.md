@@ -209,6 +209,7 @@ Classify such algebras $R$ for which $\dim_{\CC} R=2$, and list their maximal id
 
 :::{.solution}
 **Part a**:
+Since $I$ is proper, we have $\codim_R I \geq 1$ since $\codim_R I = 0 \implies I = R$ since $I\leq R$ is a vector subspace of the same dimension.
 
 **Part b**:
 
