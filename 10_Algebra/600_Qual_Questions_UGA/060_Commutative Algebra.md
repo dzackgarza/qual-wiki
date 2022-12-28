@@ -225,7 +225,8 @@ Choose a vector space basis $\ts{v_1, v_2}$ for $R$ and define a map
 \phi: \CC[t] &\to R \\
 1 & \mapsto v_1 \\
 t & \mapsto v_2
-.\]
+,\]
+extended by linearity.
 
 
 **Part c**:
