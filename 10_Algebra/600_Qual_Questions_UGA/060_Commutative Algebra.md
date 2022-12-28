@@ -188,7 +188,7 @@ Prove that $\ZZ[2\sqrt{2}]$ is not a UFD.
 
 ### Fall 2021 #5 #algebra/qual/work 
 
-Let $R$ be an algebra over $\mathbb{C}$ which is finite-dimensional as a $\CC\dash$vector space. Recall that an ideal $I$ of $R$ can be considered as a $\CC\dash$subvector space of $R$. We define the codimension of $I$ in $R$ to be 
+Let $R$ be an algebra over $\CC$ which is finite-dimensional as a $\CC\dash$vector space. Recall that an ideal $I$ of $R$ can be considered as a $\CC\dash$subvector space of $R$. We define the codimension of $I$ in $R$ to be 
 \[
 \codim_R I \da 
 \dim_{\CC} R - \dim_{\CC} I
@@ -215,6 +215,9 @@ We also have $\codim_R I \leq \dim_\CC R$, and noting that $\codim_R I = \dim_\C
 1 \leq \codim_R I \leq \dim_\CC R - 1
 .\]
 Now if $\codim_R I \geq 2$, then $\dim_\CC I \leq \dim_\CC R - 2$.
+Choosing a basis $\ts{v_1,\cdots, v_n}$ for $R$ as a $\CC\dash$vector space induces a basis $\ts{v_1,\cdots, v_k}$ on $I$ for some $k\leq n-2$.
+But then $I' \da \gens{v_1,\cdots, v_k, v_{k+1}}$ is a proper $\CC\dash$vector subspace of $R$ containing $I$, contradicting maximality of $I$.
+So $\codim_R I < 2$, forcing $\codim_R I = 1$.
 
 
 
