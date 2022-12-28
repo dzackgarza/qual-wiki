@@ -214,6 +214,7 @@ We also have $\codim_R I \leq \dim_\CC R$, and noting that $\codim_R I = \dim_\C
 \[
 1 \leq \codim_R I \leq \dim_\CC R - 1
 .\]
+Now if $\codim_R I \geq 2$, then $\dim_\CC I \leq \dim_\CC R - 2$.
 
 
 
