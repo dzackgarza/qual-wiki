@@ -186,7 +186,7 @@ Prove that $\ZZ[2\sqrt{2}]$ is not a UFD.
 ## Ideals (Prime, Maximal, Proper, Principal, etc)
 
 
-### Fall 2021 #5 #algebra/qual/work 
+### Fall 2021 #5 #algebra/qual/stuck
 
 Let $R$ be an algebra over $\CC$ which is finite-dimensional as a $\CC\dash$vector space. Recall that an ideal $I$ of $R$ can be considered as a $\CC\dash$subvector space of $R$. We define the codimension of $I$ in $R$ to be 
 \[
@@ -230,8 +230,7 @@ extended by linearity.
 
 
 **Part c**:
-
-**Part d**:
+???
 
 
 :::
