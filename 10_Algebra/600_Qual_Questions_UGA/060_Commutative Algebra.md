@@ -206,6 +206,20 @@ Classify such algebras $R$ for which $\dim_{\CC} R=2$, and list their maximal id
 
 > (DZG): my impression is that this is an unusually difficult problem, or was something specifically covered in this year's qual class.
 
+
+:::{.solution}
+**Part a**:
+
+**Part b**:
+
+**Part c**:
+
+**Part d**:
+
+
+:::
+
+
 ### Fall 2013 #3 #algebra/qual/completed
 
 a.
