@@ -219,9 +219,14 @@ Choosing a basis $\ts{v_1,\cdots, v_n}$ for $R$ as a $\CC\dash$vector space indu
 But then $I' \da \gens{v_1,\cdots, v_k, v_{k+1}}$ is a proper $\CC\dash$vector subspace of $R$ containing $I$, contradicting maximality of $I$.
 So $\codim_R I < 2$, forcing $\codim_R I = 1$.
 
-
-
 **Part b**:
+Choose a vector space basis $\ts{v_1, v_2}$ for $R$ and define a map
+\[
+\phi: \CC[t] &\to R \\
+1 & \mapsto v_1 \\
+t & \mapsto v_2
+.\]
+
 
 **Part c**:
 
