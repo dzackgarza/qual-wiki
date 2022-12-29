@@ -1062,6 +1062,9 @@ $\impliedby$:
 :::
 
 ### Spring 2016 #8 #algebra/qual/completed
+
+
+:::{.problem title="?"}
 Let $R$ be a simple rng (a nonzero ring which is not assume to have a 1, whose only two-sided ideals are $(0)$ and $R$) satisfying the following two conditions:
 
 i. $R$ has no zero divisors, and
@@ -1077,8 +1080,10 @@ Suppose $x,y\in R$ such that $x\neq 0$ and $2(xy) = x$, then $yz = zy$ for all $
 
 > You can get partial credit for (b) by showing it in the case $R$ has a 1.
 
+:::
 
-:::{.remark}
+
+:::{.warnings}
 A general opinion is that this is not a great qual problem! 
 Possibly worth skipping.
 :::
