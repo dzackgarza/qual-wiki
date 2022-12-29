@@ -1063,7 +1063,7 @@ Taking the quotient $\tilde G \da G/H_{31}$ yields a group of order $5\cdot 13$,
 By the subgroup correspondence theorem, this yields a normal subgroup $N_1\normal G$ containing $H_{31}$ which has order $13\cdot 31$.
 So define $N_2 \da H_{31}$ to obtain
 \[
-N_0 = G \trianglerighteq N_1 \trianglerighteq N_2 \da H_{31} \trianglerighteq N_3 \da 0
+G \trianglerighteq N_1 \trianglerighteq N_2 \da H_{31} \trianglerighteq 0
 .\]
 Since the quotients $N_i/N_{i+1}$ have prime power order, they are cyclic and thus simple.
 We know $N_1$ is normal in $G$ since it came from extending a normal group in a quotient, and we know $N_2$ is normal in $N_1$ since it was normal in all of $G$.
