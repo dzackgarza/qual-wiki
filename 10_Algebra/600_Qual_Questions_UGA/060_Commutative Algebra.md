@@ -1082,7 +1082,6 @@ Suppose $x,y\in R$ such that $x\neq 0$ and $2(xy) = x$, then $yz = zy$ for all $
 
 :::
 
-
 :::{.warnings}
 A general opinion is that this is not a great qual problem! 
 Possibly worth skipping.
