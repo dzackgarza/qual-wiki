@@ -1040,6 +1040,7 @@ Prove that $K$ is an extension by radicals of the field $F$.
 \envlist
 
 - If $N \normal G$ is a normal subgroup and $H\leq G$ is any subgroup containing $N$, then $N$ is normal in $H$ since $hNh\inv \subseteq gNg\inv = N$.
+- In characteristic zero, a polynomial is solvable by radicals iff its Galois group is a solvable group.
 :::
 
 :::{.solution}
